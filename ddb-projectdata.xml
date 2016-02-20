@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Dionysius de Bruges</authorName>
+    <commentaryName>Dionysius de Bruges Commentary</commentaryName>
+    <commentaryid>ddbrugescommentary</commentaryid>
+    <commentaryslug>ddb</commentaryslug>
+    <authorUri>http://scta.info/resource/person/DionysiusDeBruges</authorUri>
+    <parentUri>http://scta.info/text/ddbrugescommentary/commentary</parentUri>
+    <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/DionysiusdeBruges/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <webbase>null</webbase>
+    <questionListSource>Website</questionListSource>
+    <questionListOriginalEditor>Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
+      <witness id="E">
+        <slug>erfurt</slug>
+        <title>Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.</title>
+        <initial>E</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="ddb-librum1" class="toplevel" type="librum" subtype="librum1">
+      <head>Librum I</head>
+      <!-- test what happnes to below for item not included in grouping div like rest of items below -->
+        <item  type="principium" subtype="librum1-principium">
+          <fileName filestem="ddb-l1princI"/>
+          <title>Librum I, Principia</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#E"/>
+          </hasWitnesses>
+        </item>
+      <!-- test what happens to above for item not included in grouping div like rest of items below -->
+      <div id="ddb-l1prol" type="distinctio" subtype="librum1-prologus">
+        <head>Librum I, Prologus</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1prolq1"/>
+          <title>Librum I, Prologus, Quaestio 1</title>
+          <questionTitle>Utrum finis per se Sacrae Scripturae in via sit amare Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E"/>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1prolq2"/>
+          <title>Librum I, Prologus, Quaestio 2</title>
+          <questionTitle>Utrum deus sit subiectum in theologia sub aliqua ratione speciali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d1" type="distinctio" subtype="librum1-distinctio1">
+        <head>Librum I, Distinctio 1</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d1q1"/>
+          <title>Librum I, Distinctio 1, Quaestio 1</title>
+          <questionTitle>Utrum solo Deo immediate sit fruendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>17v</folio> <!-- 17va -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d1q2"/>
+          <title>Librum I, Distinctio 1, Quaestio 2</title>
+          <questionTitle>Utrum ultimus finis habeat tantum unam rationem fruibilis an in ipso sit aliqua distinctio secundum quam non possit eo frui secundum unam rationem et non secundum aliam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>20r</folio> <!-- 20ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d2" type="distinctio" subtype="librum1-distinctio2">
+        <head>Librum I, Distinctio 2</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d2q1"/>
+          <title>Librum I, Distinctio 2, Quaestio 1</title>
+          <questionTitle>Utrum deus sit tantum unus sola fide tenetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>21r</folio> <!-- 21ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d2q2"/>
+          <title>Librum I, Distinctio 2, Quaestio 2</title>
+          <questionTitle>Utrum deo conveniat pluralitas attributorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>22v</folio> <!-- 22vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d3" type="distinctio" subtype="librum1-distinctio3">
+        <head>Librum I, Distinctio 3</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d3q1"/>
+          <title>Librum I, Distinctio 3, Quaestio 1</title>
+          <questionTitle>Utrum vestigia Trinitatis sit in omni creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>23r</folio> <!-- 23rb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d3q2"/>
+          <title>Librum I, Distinctio 3, Quaestio 2</title>
+          <questionTitle>Utrum potentiae animae sint idem quod essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>23v</folio> <!-- 23vb, witness says question 3 but i think this is incorrect -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d3q3"/>
+          <title>Librum I, Distinctio 3, Quaestio 3</title>
+          <questionTitle>Utrum memoria, intelligentia, et voluntas differant realiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>28v</folio> <!-- 28va -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d4" type="distinctio" subtype="librum1-distinctio4">
+        <head>Librum I, Distinctio 4</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d4q1"/>
+          <title>Librum I, Distinctio 4, Quaestio 1</title>
+          <questionTitle>Utrum generatio sit in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>29r</folio> <!-- 29ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d5" type="distinctio" subtype="librum1-distinctio5">
+        <head>Librum I, Distinctio 5</head>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d5q1"/>
+          <title>Librum I, Distinctio 5, Quaestio 1</title>
+          <questionTitle>Utrum generare magis conveniat Deo quam Pater quod est quare utrum Deus generat sit magis propria quam Pater generat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>29v</folio> <!-- 29vb  -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d5q2"/>
+          <title>Librum I, Distinctio 5, Quaestio 2</title>
+          <questionTitle>Utrum ista sit vera essentia generat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>29v</folio> <!-- 29vb  -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item  type="quaestio">
+          <fileName filestem="ddb-l1d5q3"/>
+          <title>Librum I, Distinctio 5, Quaestio 3</title>
+          <questionTitle>Utrum Filius sit de substantia Patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>30v</folio> <!-- 30vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d6" type="distinctio" subtype="librum1-distinctio6">
+        <head>Librum I, Distinctio 6</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d6q1"/>
+          <title>Librum I, Distinctio 6, Quaestio 1</title>
+          <questionTitle>Utrum Pater generat Filium necessitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>30v</folio> <!-- 30vb-->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d7" type="distinctio" subtype="librum1-distinctio7">
+        <head>Librum I, Distinctio 7</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d7q1"/>
+          <title>Librum I, Distinctio 7, Quaestio 1</title>
+          <questionTitle>Utrum potentia generandi dicat <!-- dicat possibly corrected --> quid vel aliquid</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>31v</folio> <!-- 31va -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d7q2"/>
+          <title>Librum I, Distinctio 7, Quaestio 2</title>
+          <questionTitle>Utrum potentia generandi sit in Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>33r</folio> <!-- 33rb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d8" type="distinctio" subtype="librum1-distinctio8">
+        <head>Librum I, Distinctio 8</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d8q1"/>
+          <title>Librum I, Distinctio 8, Quaestio 1</title>
+          <questionTitle>Utrum esse Deo conveniat proprie</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>33v</folio> <!-- 33va -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d8q2"/>
+          <title>Librum I, Distinctio 8, Quaestio 2</title>
+          <questionTitle>Utrum deus sit omnino simplex</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>33v</folio> <!-- 33vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d8q3"/>
+          <title>Librum I, Distinctio 8, Quaestio 3</title>
+          <questionTitle>Utrum solus Deus sit immutabilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>34v</folio> <!-- 34vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d8q4"/>
+          <title>Librum I, Distinctio 8, Quaestio 4</title>
+          <questionTitle>Utrum anima humana sit composita ex materia et forma; utrum sit composita absolute alio modo <!-- question a bit unlcear here --></questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>34v</folio> <!-- 34vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d9" type="distinctio" subtype="librum1-distinctio9">
+        <head>Librum I, Distinctio 9</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d9q1"/>
+          <title>Librum I, Distinctio 9, Quaestio 1</title>
+          <questionTitle>Utrum Pater sit prior Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>35v</folio> <!-- 35va -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d9q2"/>
+          <title>Librum I, Distinctio 9, Quaestio 2</title>
+          <questionTitle>Utrum generatio Filii sit aeterna</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>35v</folio> <!-- 35vb -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d10" type="distinctio" subtype="librum1-distinctio10">
+        <head>Librum I, Distinctio 10</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d10q1"/>
+          <title>Librum I, Distinctio 10, Quaestio 1</title>
+          <questionTitle>Utrum Spiritus Sanctus procedat per motum voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>36r</folio> <!-- 36ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d10q2"/>
+          <title>Librum I, Distinctio 10, Quaestio 2</title>
+          <questionTitle>Utrum Spiritus Sanctus sit proprium nomen personae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>37r</folio> <!-- 37ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d10q3"/>
+          <title>Librum I, Distinctio 10, Quaestio 3</title>
+          <questionTitle>Utrum possint esse plures Spiritus Sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>37r</folio> <!-- 37ra   -->
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d10q4"/>
+          <title>Librum I, Distinctio 10, Quaestio 4</title>
+          <questionTitle>Utrum in divinis sint tres personae numero differentes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- Can't find this; perhaps it is missing; somewhere after 37ra -->
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d11" type="distinctio" subtype="librum1-distinctio11">
+        <head>Librum I, Distinctio 11</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d11q1"/>
+          <title>Librum I, Distinctio 11, Quaestio 1</title>
+          <questionTitle>Utrum Spiritus Sanctus procedat a Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>38v</folio> <!-- 38va --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d11q2"/>
+          <title>Librum I, Distinctio 11, Quaestio 2</title>
+          <questionTitle>Utrum Pater et Filius sint unum principium Spiritus Sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>39v</folio> <!-- 39vb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d11q3"/>
+          <title>Librum I, Distinctio 11, Quaestio 3</title>
+          <questionTitle>Utrum Pater et Filius sint plures spirationes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- can't find --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d11q4"/>
+          <title>Librum I, Distinctio 11, Quaestio 4</title>
+          <questionTitle>Utrum Spiritus Sanctus distinguetur a Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>40r</folio> <!-- 40rb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d12" type="distinctio" subtype="librum1-distinctio12">
+        <head>Librum I, Distinctio 12</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d12q1"/>
+          <title>Librum I, Distinctio 12, Quaestio 1</title>
+          <questionTitle>Utrum processio sit posterior generatione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>42r</folio> <!-- 42ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d13" type="distinctio" subtype="librum1-distinctio13">
+        <head>Librum I, Distinctio 13</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d13q1"/>
+          <title>Librum I, Distinctio 13, Quaestio 1</title>
+          <questionTitle>Utrum in divinis sit processio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>43v</folio> <!-- 43va --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d13q2"/>
+          <title>Librum I, Distinctio 13, Quaestio 2</title>
+          <questionTitle>Utrum Spiritus Sanctus possit dici genitus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>43v</folio> <!-- 43vb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d13q3"/>
+          <title>Librum I, Distinctio 13, Quaestio 3</title>
+          <questionTitle>Utrum possit dici ingenitus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>44r</folio> <!-- 44ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d14" type="distinctio" subtype="librum1-distinctio14">
+        <head>Librum I, Distinctio 14</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d14q1"/>
+          <title>Librum I, Distinctio 14, Quaestio 1</title>
+          <questionTitle>Utrum processio temporalis <!-- ponat naturam --> <unclear>potest innuere</unclear> cum aeterna</questionTitle> <!-- check potest innuere cum aeterna -->
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>44r</folio> <!-- 44rb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d14q2"/>
+          <title>Librum I, Distinctio 14, Quaestio 2</title>
+          <questionTitle>Utrum Spiritus Sanctus detur in omni dono</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>45r</folio> <!-- 45ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d15" type="distinctio" subtype="librum1-distinctio15"> <!-- consider combining 14 and 15 together -->
+        <head>Librum I, Distinctio 15</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d15q1"/>
+          <title>Librum I, Distinctio 15, Quaestio 1</title>
+          <questionTitle>Utrum mitti conveniat alicui personae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>45r</folio> <!-- 45ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d15q2"/> 
+          <title>Librum I, Distinctio 15, Quaestio 2</title>
+          <questionTitle>Utrum missio invisibilis competat Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>46r</folio> <!-- 46rb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d16" type="distinctio" subtype="librum1-distinctio16"> 
+        <head>Librum I, Distinctio 16</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d16q1"/> 
+          <title>Librum I, Distinctio 16, Quaestio 1</title>
+          <questionTitle>Utrum missio visibiliter conveniat spiritu sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>46v</folio> <!-- 46va --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d17" type="distinctio" subtype="librum1-distinctio17"> 
+        <head>Librum I, Distinctio 17</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p1q1"/> 
+          <title>Librum I, Distinctio 17, Pars 1, Quaestio 1</title>
+          <questionTitle>Utrum caritas sit aliquis habitus creatus in anima necessarius ad eliciendum actum meritoria</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>47v</folio> <!-- 47va --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p1q2"/> 
+          <title>Librum I, Distinctio 17, Pars 1 Quaestio 2</title>
+          <questionTitle>Utrum talis caritas sit substantia vel accidens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>49v</folio> <!-- 49vb --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p2q1"/> 
+          <title>Librum I, Distinctio 17, Pars 2, Quaestio 1</title>
+          <questionTitle>Utrum caritas possit augeri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>50r</folio> <!-- 50ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p2q2"/> 
+          <title>Librum I, Distinctio 17, Pars 2, Quaestio 2</title>
+          <questionTitle>Utrum caritas possit augeri per additionem alterius caritatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>54r</folio> <!-- 54ra --> 
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p2q3"/> 
+          <title>Librum I, Distinctio 17, Pars 2, Quaestio 3</title>
+          <questionTitle>Utrum si caritas augmentabilis in infinitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio>  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d17p2q4"/> 
+          <title>Librum I, Distinctio 17, Pars 2, Quaestio 4</title>
+          <questionTitle>Utrum caritas possit minui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio>  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d18et19" type="distinctio" subtype="librum1-distinctio18 librum1-distinctio19"> 
+        <head>Librum I, Distinctio 18 et 19</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d18et19q1"/> 
+          <title>Librum I, Distinctio 18 et 19, Quaestio 1</title>
+          <questionTitle>Utrum Spiritus Sanctus eadem proprietate dicatur Spiritus Sanctus et donum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>57r</folio> <!--57rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d18et19q2"/> 
+          <title>Librum I, Distinctio 18 et 19, Quaestio 2</title>
+          <questionTitle>Utrum in divinis aequalitas sit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>57v</folio> <!-- 57va  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d18et19q3"/> 
+          <title>Librum I, Distinctio 18 et 19, Quaestio 3</title>
+          <questionTitle>Utrum una persona sit in alia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- possibly 58ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d18et19q4"/> 
+          <title>Librum I, Distinctio 18 et 19, Quaestio 4</title>
+          <questionTitle>Utrum veritas sit in rebus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>58r</folio> <!-- 58rb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d20et21" type="distinctio" subtype="librum1-distinctio20 librum1-distinctio21"> 
+        <head>Librum I, Distinctio 20 et 21</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d20et21q1"/> 
+          <title>Librum I, Distinctio 20 et 21, Quaestio 1</title>
+          <questionTitle>Utrum in divinis sit aliquod totum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>58v</folio> <!--58vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d20et21q2"/> 
+          <title>Librum I, Distinctio 20 et 21, Quaestio 2</title>
+          <questionTitle>Utrum haec sit vera solus Deus est Deus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>59r</folio> <!--59r -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- I'm not completely positive if 22 an 23 are merged together -->
+      <div id="ddb-l1d22et23" type="distinctio" subtype="librum1-distinctio22 librum1-distinctio23"> 
+        <head>Librum I, Distinctio 22 et 23</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d22et23q1"/> 
+          <title>Librum I, Distinctio 22 et 23, Quaestio 1</title>
+          <questionTitle>Utrum posita in littera secundum divisionem ambrosii sint bene dicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>60r</folio> <!--60r -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d22et23q2"/> 
+          <title>Librum I, Distinctio 22 et 23, Quaestio 2</title>
+          <questionTitle>Utrum substantia subsistentia persona possent ferre ad divina</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d22et23q3"/> 
+          <title>Librum I, Distinctio 22 et 23, Quaestio 3</title>
+          <questionTitle>Utrum persona significet substantiam vel relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d22et23q4"/> 
+          <title>Librum I, Distinctio 22 et 23, Quaestio 4</title>
+          <questionTitle>Utrum persona pluraliter praedicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d24" type="distinctio" subtype="librum1-distinctio24"> 
+        <head>Librum I, Distinctio 24</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d24q1"/> 
+          <title>Librum I, Distinctio 24, Quaestio 1</title>
+          <questionTitle>Utrum in divinis termini numerales dicant positionem vel privationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>60v</folio> <!-- 60vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d24q2"/> 
+          <title>Librum I, Distinctio 24, Quaestio 2</title>
+          <questionTitle>Utrum unum quod est principium numeri addat aliquid supra unum quod convertitur cum ente</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>61v</folio> <!-- 61va -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d25" type="distinctio" subtype="librum1-distinctio25"> 
+        <head>Librum I, Distinctio 25</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d25q1"/> 
+          <title>Librum I, Distinctio 25, Quaestio 1</title>
+          <questionTitle>Utrum persona in Deo et in creaturis dicatur univoce</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>63r</folio> <!-- 63ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d25q2"/> 
+          <title>Librum I, Distinctio 25, Quaestio 2</title>
+          <questionTitle>Utrum persona <!-- possunt might be mistakenly added --> habet esse indivisibile</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>63r</folio> <!-- 63ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- d. 26 ambiguously begins with Tertio quaeritur as if it is part of 25; but 25 only indicates that it will ask to questions; the question list in Erfurt identifies this question as belonging to 26 -->
+      <div id="ddb-l1d26" type="distinctio" subtype="librum1-distinctio26"> 
+        <head>Librum I, Distinctio 26</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d26q1"/> 
+          <title>Librum I, Distinctio 26, Quaestio 1</title>
+          <questionTitle>De numero relationum ad quam sine argumentis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>64r</folio> <!-- 64ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d27" type="distinctio" subtype="librum1-distinctio27"> 
+        <head>Librum I, Distinctio 27</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d27q1"/> 
+          <title>Librum I, Distinctio 27, Quaestio 1</title>
+          <questionTitle>De ipsis notionibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>64r</folio> <!-- 64ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d27q2"/> 
+          <title>Librum I, Distinctio 27, Quaestio 2</title>
+          <questionTitle>Utrum in divinis verbum sumatur essentialiter vel personaliter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>65v</folio> <!-- 65vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d28" type="distinctio" subtype="librum1-distinctio28"> 
+        <head>Librum I, Distinctio 28</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d28q1"/> 
+          <title>Librum I, Distinctio 28, Quaestio 1</title>
+          <questionTitle>Utrum in nascibilitas sit notio Patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>67r</folio> <!-- 67ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d28q2"/> 
+          <title>Librum I, Distinctio 28, Quaestio 2</title>
+          <questionTitle>Utrum in nascibilitas constituat personam Patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>67v</folio> <!-- 67vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d29" type="distinctio" subtype="librum1-distinctio29"> 
+        <head>Librum I, Distinctio 29</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d29q1"/> 
+          <title>Librum I, Distinctio 29, Quaestio 1</title>
+          <questionTitle>Utrum una persona possit dici principium alterius</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>69r</folio> <!-- 69rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d29q2"/> 
+          <title>Librum I, Distinctio 29, Quaestio 2</title>
+          <questionTitle>Utrum Pater et Filius sint unum principium Spiritus Sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>70r</folio> <!-- 70ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d30" type="distinctio" subtype="librum1-distinctio30"> 
+        <head>Librum I, Distinctio 30</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d30q1"/> 
+          <title>Librum I, Distinctio 30, Quaestio 1</title>
+          <questionTitle>Utrum aliquid dicatur de Deo ex tempore</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>70v</folio> <!-- 70va -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d30q2"/> 
+          <title>Librum I, Distinctio 30, Quaestio 2</title>
+          <questionTitle>Utrum istae relationes dei ad creaturam sint reales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>71r</folio> <!-- 71ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d30q3"/> 
+          <title>Librum I, Distinctio 30, Quaestio 3</title>
+          <questionTitle>Utrum Deus referatur ad creaturam vel econtrario</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>73v</folio> <!-- 73vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d31" type="distinctio" subtype="librum1-distinctio31"> 
+        <head>Librum I, Distinctio 31</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d31q1"/> 
+          <title>Librum I, Distinctio 31, Quaestio 1</title>
+          <questionTitle>Utrum aequalitas sit relatio realis in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>74v</folio> <!-- 74va -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d32" type="distinctio" subtype="librum1-distinctio32"> 
+        <head>Librum I, Distinctio 32</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d32q1"/> 
+          <title>Librum I, Distinctio 32, Quaestio 1</title>
+          <questionTitle>Utrum Pater et Filius diligunt se Spiritu Sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>78r</folio> <!-- 78ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d32q2"/> 
+          <title>Librum I, Distinctio 32, Quaestio 2</title>
+          <questionTitle>Utrum Pater sit sapiens sapientia genita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>78r</folio> <!-- 78ra -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d34" type="distinctio" subtype="librum1-distinctio34"> 
+        <head>Librum I, Distinctio 34</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d34q1"/> 
+          <title>Librum I, Distinctio 34, Quaestio 1</title>
+          <questionTitle>Utrum relata proprietas sit idem realiter quod essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>80r</folio> <!-- 80rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d34q2"/> 
+          <title>Librum I, Distinctio 34, Quaestio 2</title>
+          <questionTitle>Utrum proprietates relatae sint in essentia in personis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>80r</folio> <!-- 80rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d34q3"/> 
+          <title>Librum I, Distinctio 34, Quaestio 3</title>
+          <questionTitle>Utrum persona differat ab essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>80r</folio> <!-- 80rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d34q4"/> 
+          <title>Librum I, Distinctio 34, Quaestio 4</title>
+          <questionTitle>Utrum aliqua nomina convenienter de Deo dicantur translative</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>82v</folio> <!-- 82va -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d35" type="distinctio" subtype="librum1-distinctio35"> 
+        <head>Librum I, Distinctio 35</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d35q1"/> 
+          <title>Librum I, Distinctio 35, Quaestio 1</title>
+          <questionTitle>Utrum in deo sit scientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>82v</folio> <!-- 82vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d35q2"/> 
+          <title>Librum I, Distinctio 35, Quaestio 2</title>
+          <questionTitle>Utrum intelligat se et alia a seipso</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>83r</folio> <!-- 83rb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d35q3"/> 
+          <title>Librum I, Distinctio 35, Quaestio 3</title>
+          <questionTitle>Utrum Deus cognoscat alia a se distincte et proprie</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!--  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d35q4"/> 
+          <title>Librum I, Distinctio 35, Quaestio 4</title>
+          <questionTitle>Utrum scientia possit dici universalis vel particularis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>84v</folio> <!-- 84vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d36" type="distinctio" subtype="librum1-distinctio36"> 
+        <head>Librum I, Distinctio 36</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d36q1"/> 
+          <title>Librum I, Distinctio 36, Quaestio 1</title>
+          <questionTitle>Utrum Deus cognoscat singularia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>84v</folio> <!-- 84vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d36q2"/> 
+          <title>Librum I, Distinctio 36, Quaestio 2</title>
+          <questionTitle>Utrum cognoscat mala</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>86r</folio> <!-- 86ra  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d36q3"/> 
+          <title>Librum I, Distinctio 36, Quaestio 3</title>
+          <questionTitle>Utrum res in Deo existant</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>84v</folio> <!-- 84vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d36q4"/> 
+          <title>Librum I, Distinctio 36, Quaestio 4</title>
+          <questionTitle>Utrum sit dare ideas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>84v</folio> <!-- 84vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d37" type="distinctio" subtype="librum1-distinctio37"> 
+        <head>Librum I, Distinctio 37</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d37q1"/> 
+          <title>Librum I, Distinctio 37, Quaestio 1</title>
+          <questionTitle>Utrum esse ubique sit proprium solius Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>87r</folio> <!-- 87ra  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d37q2"/> 
+          <title>Librum I, Distinctio 37, Quaestio 2</title>
+          <questionTitle>Utrum angelus sit in loco</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!--   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d37q3"/> 
+          <title>Librum I, Distinctio 37, Quaestio 3</title>
+          <questionTitle>Utrum possit esse in pluribus locis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!--   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d37q4"/> 
+          <title>Librum I, Distinctio 37, Quaestio 4</title>
+          <questionTitle>Utrum angelus moveatur in tempore vel in instanti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>87v</folio> <!-- 87vb   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d38" type="distinctio" subtype="librum1-distinctio38"> 
+        <head>Librum I, Distinctio 38</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d38q1"/> 
+          <title>Librum I, Distinctio 38, Quaestio 1</title>
+          <questionTitle>Utrum scientia Dei sit causa rerum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>89v</folio> <!-- 89va   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d38q2"/> 
+          <title>Librum I, Distinctio 38, Quaestio 2</title>
+          <questionTitle>Utrum cognoscat enuntiabilia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>89v</folio> <!-- 89va   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d38q3"/> 
+          <title>Librum I, Distinctio 38, Quaestio 3</title>
+          <questionTitle>Utrum Deus cognoscit futura contingentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>90v</folio> <!-- 90va   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d39" type="distinctio" subtype="librum1-distinctio39"> 
+        <head>Librum I, Distinctio 39</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d39q1"/> 
+          <title>Librum I, Distinctio 39, Quaestio 1</title>
+          <questionTitle>Utrum Deus non possit non scire quod scit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>91r</folio> <!-- 91ra   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <!-- these questions in introduced at the outset, but dont seem to actually get discussed -->
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d39q2"/> 
+          <title>Librum I, Distinctio 39, Quaestio 2</title>
+          <questionTitle>Utrum Deus sciat infinita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!--    -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d39q3"/> 
+          <title>Librum I, Distinctio 39, Quaestio 3</title>
+          <questionTitle>Utrum omnia subsint divinae providentiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!--   -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <!-- question 2 through three don't seem to get discussed -->
+      </div>
+      <div id="ddb-l1d40" type="distinctio" subtype="librum1-distinctio40"> 
+        <head>Librum I, Distinctio 40</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d40q1"/> 
+          <title>Librum I, Distinctio 40, Quaestio 1</title>
+          <questionTitle>Utrum praedestinatio hanc certitudinem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>91v</folio> <!-- 91vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d40q2"/> 
+          <title>Librum I, Distinctio 40, Quaestio 2</title>
+          <questionTitle>Utrum ad Deum pertineat aliquem reprobare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- can't find this  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d41" type="distinctio" subtype="librum1-distinctio41"> 
+        <head>Librum I, Distinctio 41</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d41q1"/> 
+          <title>Librum I, Distinctio 41, Quaestio 1</title>
+          <questionTitle>Utrum electio praedestinationem praecedat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>92v</folio>   
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d41q2"/> 
+          <title>Librum I, Distinctio 41, Quaestio 2</title>
+          <questionTitle>Utrum praedestinatio possit iuvari precibus sanctorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>93r</folio> <!-- 93ra  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d42" type="distinctio" subtype="librum1-distinctio42"> 
+        <head>Librum I, Distinctio 42</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d42q1"/> 
+          <title>Librum I, Distinctio 42, Quaestio 1</title>
+          <questionTitle>Utrum potentia Dei se extendat ad omnia quae sunt aliis possibilia a bona</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>93r</folio> <!-- 93rb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d43" type="distinctio" subtype="librum1-distinctio43"> 
+        <head>Librum I, Distinctio 43</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d43q1"/> 
+          <title>Librum I, Distinctio 43, Quaestio 1</title>
+          <questionTitle>Utrum deus agat ex necessitate iustitiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>93v</folio> <!-- 93vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d43q2"/> 
+          <title>Librum I, Distinctio 43, Quaestio 2</title>
+          <questionTitle>Utrum omnipotentia creaturae possit communicari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>93v</folio> <!-- 93vb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d44" type="distinctio" subtype="librum1-distinctio44"> 
+        <head>Librum I, Distinctio 44</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d44q1"/> 
+          <title>Librum I, Distinctio 44, Quaestio 1</title>
+          <questionTitle>Utrum Deus potuerit aliquam creaturam facere meliorem quam fecit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>94r</folio> <!-- 94rb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d44q2"/> 
+          <title>Librum I, Distinctio 44, Quaestio 2</title>
+          <questionTitle>Utrum voluntas divina congreue distinguatur innocentem <!-- innocentem unclear--> singulariter et beneplaciti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>94r</folio> <!-- 94rb  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- this distinction might be combined with 46 or 46 is skipped -->
+      <div id="ddb-l1d45" type="distinctio" subtype="librum1-distinctio45"> 
+        <head>Librum I, Distinctio 45</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d45q1"/> 
+          <title>Librum I, Distinctio 45, Quaestio 1</title>
+          <questionTitle>Utrum Deus velit omnes salvos fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>95r</folio> <!-- 95ra  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d45q2"/> 
+          <title>Librum I, Distinctio 45, Quaestio 2</title>
+          <questionTitle>Utrum malum sit de perfectione universi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> <!-- this question is mentioned at outset but doesn't seem to be present  -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d47" type="distinctio" subtype="librum1-distinctio47"> 
+        <head>Librum I, Distinctio 47</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d47q1"/> 
+          <title>Librum I, Distinctio 47, Quaestio 1</title>
+          <questionTitle>Utrum aliquid fiat praeter voluntatem divinam vel possit fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>95v</folio> <!-- 95va -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <!-- second question mentioned but not found -->
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d47q2"/> 
+          <title>Librum I, Distinctio 47, Quaestio 2</title>
+          <questionTitle>Utrum Deus possit praecipere quae non vult</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="ddb-l1d48" type="distinctio" subtype="librum1-distinctio48"> 
+        <head>Librum I, Distinctio 48</head>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d48q1"/> 
+          <title>Librum I, Distinctio 48, Quaestio 1</title>
+          <questionTitle>Utrum voluntas nostra possit conformari voluntati divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio>95v</folio> <!-- 95vb -->  
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="ddb-l1d48q2"/> 
+          <title>Librum I, Distinctio 48, Quaestio 2</title>
+          <questionTitle>Utrum omnes teneantur conformare voluntatem suam divinae voluntati involito</questionTitle>
+          <hasWitnesses>
+            <witness ref="#E">
+              <folio></folio> 
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>    
+</listofFileNames>

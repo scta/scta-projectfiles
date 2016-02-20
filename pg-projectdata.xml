@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+    <header>
+        <authorName>Peter Gracilis</authorName>
+        <commentaryName>Peter Gracilis Commentary</commentaryName>
+        <commentaryid>graciliscommentary</commentaryid>
+        <commentaryslug>pg</commentaryslug>
+        <authorUri>http://scta.info/resource/person/PetrusGracilis</authorUri>
+        <parentUri>http://scta.info/text/graciliscommentary/commentary</parentUri>
+        <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/PetrusGracilis/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+        <webbase>null</webbase>
+        <questionListSource>Marcolino</questionListSource>
+        <questionListOriginalEditor></questionListOriginalEditor>
+        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+        <hasWitnesses>
+          <witness id="L">
+            <slug>lon</slug>
+            <title>British Royal MS 10 A I</title>
+            <initial>L</initial>
+          </witness>
+        </hasWitnesses>
+    </header>
+    <div id="body">
+        <div id="pg-book1" class="toplevel" type="librum">
+            <head>Librum I</head>
+          <div id="pg-l1prin" type="distinctio" subtype="librum1-principium1">
+            <head>Librum I, Principium I</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-principium1">pg-principium1.xml</fileName>
+                <title>Principium 1</title>
+            </item>
+          </div>
+          <div id="pg-l1prol" type="distinctio" subtype="librum1-prologus1">
+            <head>Librum I, Prologus</head>
+            <item live="true">
+                <fileName filestem="pg-b1q1">pg-b1q1.xml</fileName>
+                <title>Quaestio 1</title>
+                <questionTitle>Utrum quis viator scientifice sine dono speciali possit assentire theologice omni vero supernaturali</questionTitle>
+                <hasWitnesses>
+                  <witness ref="#L">
+                    <slug>lon</slug>
+                    <title>British Royal MS 10 A I</title>
+                    <initial>L</initial>
+                    <folio position="start">11v</folio>
+                    <folio position="middle">12r</folio>
+                    <folio position="middle">12v</folio>
+                    <folio position="middle">13r</folio>
+                    <folio position="middle">13v</folio>
+                    <folio position="middle">14r</folio>
+                    <folio position="middle">14v</folio>
+                    <folio position="end">15r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d1" type="distinctio" subtype="librum1-distinctio1">
+            <head>Librum I, Distinctio 1</head>
+            <item live="true">
+                <fileName filestem="pg-b1q2">pg-b1q2.xml</fileName>
+                <title>Quaestio 2</title>
+                <questionTitle>Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae voluntatis vel sic Utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum</questionTitle>
+                <hasWitnesses>
+                  <witness ref="#L">
+                      <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio>15r</folio>
+                      <folio>15v</folio>
+                      <folio>16r</folio>
+                      <folio>16v</folio>
+                      <folio>17r</folio>
+                      <folio>17v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d2" type="distinctio" subtype="librum1-distinctio2">
+            <head>Librum I, Distinctio 2</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q3">pg-b1q3.xml</fileName>
+                <title>Quaestio 3</title>
+                <questionTitle>Utrum possit probari per textum sacrae scripturae trinus et unus conditor creatae naturae</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                      <folio>17v</folio>
+                      <folio>18r</folio>
+                      <folio>18v</folio>
+                      <folio>19r</folio>
+                      <folio>20r</folio>
+                      <folio>20v</folio>
+                      <folio>17v</folio>
+                      <folio>20v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d3" type="distinctio" subtype="librum1-distinctio3">
+            <head>Librum I, Distinctio 3</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q4">pg-b1q4.xml</fileName>
+                <title>Quaestio 4</title>
+                <questionTitle>Utrum animae humanae propago active sit proprie Trinitatis divinae imago</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio>20v</folio>
+                      <folio>21r</folio>
+                      <folio>21v</folio>
+                      <folio>22r</folio>
+                      <folio>22v</folio>
+                      <folio>23r</folio>
+                      <folio>23v</folio>
+                      <folio>24r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d4" type="distinctio" subtype="librum1-distinctio4">
+            <head>Librum I, Distinctio 4</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q5">pg-b1q5.xml</fileName>
+                <title>Quaestio 5</title>
+                <questionTitle>Utrum prius aeternaliter Deus genuit, quam produxit temporaliter ens dependens corporeum</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio position="start">23v</folio>
+                      <folio>24r</folio>
+                      <folio>24v</folio>
+                      <folio>25r</folio>
+                      <folio position="end">25v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d5" type="distinctio" subtype="librum1-distinctio5">
+            <head>Librum I, Distinctio 5</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q6">pg-b1q6.xml</fileName>
+                <title>Quaestio 6</title>
+                <questionTitle>Utrum quam repugnat plures causas aliquam rem totaliter efficere, tam repugnet eandem rem semetipsam realiter producere</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio position="start">25v</folio>
+                      <folio>26r</folio>
+                      <folio>26v</folio>
+                      <folio>27r</folio>
+                      <folio>27v</folio>
+                      <folio position="end">28r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d6" type="distinctio" subtype="librum1-distinctio6">
+            <head>Librum I, Distinctio 6</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q7">pg-b1q7.xml</fileName>
+                <title>Quaestio 7</title>
+                <questionTitle>Utrum memoria Patris fecunda complacenter et libere Filium, qui est persona secunda, determinetur gignere.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">28r</folio>
+                        <folio>28v</folio>
+                        <folio>29r</folio>
+                        <folio>29v</folio>
+                        <folio position="end">30r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d7" type="distinctio" subtype="librum1-distinctio7">
+            <head>Librum I, Distinctio 7</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q8">pg-b1q8.xml</fileName>
+                <title>Quaestio 8</title>
+                <questionTitle>Utrum generatio activa in Patre sit perfectionis simpliciter immensae</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">30r</folio>
+                        <folio>30v</folio>
+                        <folio>31r</folio>
+                        <folio>31v</folio>
+                        <folio>32r</folio>
+                        <folio>32v</folio>
+                        <folio position="end">33r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d8" type="distinctio" subtype="librum1-distinctio8">
+            <head>Librum I, Distinctio 8</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q9">pg-b1q9.xml</fileName>
+                <title>Quaestio 9</title>
+                <questionTitle>Utrum sola prima causa entis producibilis sit simplex necessaria et incommutabilis seu invariabilis</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">33r</folio>
+                        <folio>33v</folio>
+                        <folio>34r</folio>
+                        <folio>34v</folio>
+                        <folio>35r</folio>
+                        <folio>35v</folio>
+                        <folio position="end">36r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d9" type="distinctio" subtype="librum1-distinctio9">
+            <head>Librum I, Distinctio 9</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q10">pg-b1q10.xml</fileName>
+                <title>Quaestio 10</title>
+                <questionTitle>Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque durativae mensurae</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">36r</folio>
+                        <folio>36v</folio>
+                        <folio>37r</folio>
+                        <folio>37v</folio>
+                        <folio>38r</folio>
+                        <folio>38v</folio>
+                        <folio position="end">38v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d10et11" type="distinctio" subtype="librum1-distinctio10 librum1-distinctio11">
+            <head>Librum I, Distinctio 10 et 11</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q11">pg-b1q11.xml</fileName>
+                <title>Quaestio 11</title>
+                <questionTitle>Utrum Pater et Filius eodem modo agendi indistincto Spiritum Sanctum producant in supposito a se distincto</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">38v</folio>
+                        <folio>38r</folio>
+                        <folio>38v</folio>
+                        <folio>39r</folio>
+                        <folio>39v</folio>
+                        <folio>40r</folio>
+                        <folio>40v</folio>
+                        <folio>41r</folio>
+                        <folio>41v</folio>
+                        <folio>42r</folio>
+                        <folio position="end">42r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d12et13" type="distinctio" subtype="librum1-distinctio12 librum1-distinctio13">
+            <head>Librum I, Distinctio 12 et 13</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q12">pg-b1q12.xml</fileName>
+                <title>Quaestio 12</title>
+                <questionTitle>Utrum sit possibile Spiritum Sanctum esse productum et ipsum non esse genitum nec ingenitum. Utrum a Patre et Filio Spiritus Sanctus taliter procedat sic, quod ipsum nec ingenitum nec genitum fides concedat. Utrum Spiritus Sanctus a Patre et Filio taliter producatur, quod nec genitus nec ingenitus vere dicatur</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">42r</folio>
+                        <folio>42v</folio>
+                        <folio>43r</folio>
+                        <folio position="end">44v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d14" type="distinctio" subtype="librum1-distinctio14">
+            <head>Librum I, Distinctio 14</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q13">pg-b1q13.xml</fileName>
+                <title>Quaestio 13</title>
+                <questionTitle>Utrum missio temporalis Spiritus Sancti in corda fidelium sit processio aeternalis non habens initium. Utrum Spiritus Sancti in corda fidelium donatio temporalis sit eiusdem a Patre et Filio spiratio aeternalis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">44v</folio>
+                        <folio>45r</folio>
+                        <folio>45v</folio>
+                        <folio>46r</folio>
+                        <folio>46v</folio>
+                        <folio>47r</folio>  
+                        <folio position="end">47v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d15" type="distinctio" subtype="librum1-distinctio15">
+          <head>Librum I, Distinctio 15</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q14">pg-b1q14.xml</fileName>
+                <title>Quaestio 14</title>
+                <questionTitle>Utrum quodlibet suppositum divinum mitti a quolibet theologo debeat admitti. Utrum Spiritus Sancti missio temporalis sit in mente creata perceptio vitalis. Utrum stet Spiritum Sanctum ab aliquo recipi et ipsum a recipiente nullo modo percipi. Utrum stet Spiritum Sanctum realiter recipere et eundem in se habendo non vitaliter percipere</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">47v</folio>
+                        <folio>48r</folio>
+                        <folio>48v</folio>
+                        <folio>49r</folio>
+                        <folio position="end">49v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d16" type="distinctio" subtype="librum1-distinctio16">
+            <head>Librum I, Distinctio 16</head>  
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q15">pg-b1q15.xml</fileName>
+                <title>Quaestio 15</title>
+                <questionTitle>Utrum species, in quibus Spiritus Sanctus missus apparuit visibiliter, fuerint entitates potentias creatas immutantes realiter</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                      <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio position="start">49v</folio>
+                      <folio>50r</folio>
+                      <folio>50v</folio>
+                      <folio>51r</folio>
+                      <folio>51v</folio>
+                      <folio position="end">52r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d17" type="distinctio" subtype="librum1-distinctio17">
+            <head>Librum I, Distinctio 17</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q16">pg-b1q16.xml</fileName>
+                <title>Quaestio 16</title>
+                <questionTitle>Utrum amor personalis divinae essentiae sit dilectio formalis creatae potentiae. Utrum immensum donum sit dilectio formalis, qua recte summum bonum amat amans realis. Utrum Spiritus Sancti amor summus per duos productus spiratores sit illud, quo formaliter sumus summi boni iusti veri amatores.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">52r</folio>
+                        <folio>52v</folio>
+                        <folio>53r</folio>
+                        <folio>53v</folio>
+                        <folio position="end">54r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q17">pg-b1q17.xml</fileName>
+                <title>Quaestio 17</title>
+                <questionTitle>Utrum per maiorem in viatore moralis bonitatis virtualem perfectionem possimus in eadem concludere creatae caritatis gradualem intensionem</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">54v</folio>
+                        <folio>55r</folio>
+                        <folio>55v</folio>
+                        <folio>56r</folio>
+                        <folio>56v</folio>
+                        <folio>57r</folio>
+                        <folio position="end">57v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q18">pg-b1q18.xml</fileName>
+                <title>Quaestio 18</title>
+                <questionTitle>Utrum sicut Deus potest facere de non caro carum non donando infusae caritatis caritudinem, sic se solo possit efficere de caro non carum subtrahendo voluntatis rectitudinem. Utrum sicut Deus potest facere de non caro carum, sic se solo possit efficere de iusto non iustum. Utrum sicut Deus potet facere de non caro carum non ponendo caritatem in humana mente, sic se solo possit efficere de caro non carum in privando voluntatem iam habita caritate.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">57v</folio>
+                        <folio>58r</folio>
+                        <folio>58v</folio>
+                        <folio>59r</folio>
+                        <folio position="end">59v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d18" type="distinctio" subtype="librum1-distinctio18">
+            <head>Librum I, Distinctio 18</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q19">pg-b1q19.xml</fileName>
+                <title>Quaestio 19</title>
+                <questionTitle>Utrum aeterni doni temporalis donatio sit infinita recipientis obligatio. Utrum aeternum donum datum temporaliter obliget virum bonum immense simpliciter</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">59v</folio>
+                        <folio>60r</folio>
+                        <folio>60v</folio>
+                        <folio>61r</folio>
+                        <folio>61v</folio>
+                        <folio>62r</folio>
+                        <folio>62v</folio>
+                        <folio position="end">63r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d19" type="distinctio" subtype="librum1-distinctio19">
+            <head>Librum I, Distinctio 19</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q20">pg-b1q20.xml</fileName>
+                <title>Quaestio 20</title>
+                <questionTitle>Utrum quodlibet divinum suppositum immense perfectum sit se ipso ab alio quolibet infinite distinctum</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">63r</folio>
+                        <folio>63v</folio>
+                        <folio>64r</folio>
+                        <folio>64v</folio>
+                        <folio>65r</folio>
+                        <folio position="end">65v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d20et21et22" type="distinctio" subtype="librum1-distinctio20 librum1-distinctio21 librum1-distinctio22">
+          <head>Librum I, Distinctio 20, 21, et 22</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q21">pg-b1q21.xml</fileName>
+                <title>Quaestio 21</title>
+                <questionTitle>Utrum quodlibet divinum suppositum propter suum aequale posse quodlibet contingentiae expositum aeque possit facere esse.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">65v</folio>
+                        <folio>66r</folio>
+                        <folio>66v</folio>
+                        <folio>67r</folio>
+                        <folio position="end">67v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d23et24et25" type="distinctio" subtype="librum1-distinctio23 librum1-distinctio24 librum1-distinctio25">
+            <head>Librum I, Distinctio 23, 24, et 25</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q22">pg-b1q22.xml</fileName>
+                <title>Quaestio 22</title>
+                <questionTitle>Utrum idem conceptus numero possit convenire proprie et formaliter Deo et creaturae. Utrum aliqua nomina reperta in scripturis sint formaliter propria Deo et creaturis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">68r</folio> <!-- dbcheck -->
+                        <folio>68v</folio>
+                        <folio>69r</folio>
+                        <folio>69v</folio>
+                        <folio>70r</folio>
+                        <folio>70v</folio>
+                        <folio position="end">71r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d26et27" type="distinctio" subtype="librum1-distinctio26 librum1-distinctio27">
+            <head>Librum I, Distinctio 26 et 27</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q23">pg-b1q23.xml</fileName>
+                <title>Quaestio 23</title>
+                <questionTitle>Utrum tot sint divina supposita praecisive, quot sunt proprietates eorundem relativae</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">71r</folio>
+                        <folio>71v</folio>
+                        <folio>72r</folio>
+                        <folio>72v</folio>
+                        <folio>73r</folio>
+                        <folio position="end">73v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d28et29" type="distinctio" subtype="librum1-distinctio28 librum1-distinctio29">
+            <head>Librum I, Distinctio 28 et 29</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q24">pg-b1q24.xml</fileName>
+                <title>Quaestio 24</title>
+                <questionTitle>Utrum Pater dicens Verbum suum aeternale possit dici Verbi principium internale. Utrum suppositum dicens Verbum aeternale dici potest principium internale non impedibile</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">73v</folio>
+                        <folio>74r</folio>
+                        <folio>74v</folio>
+                        <folio>75r</folio>
+                        <folio>75v</folio>
+                        <folio position="end">76r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d30et31" type="distinctio" subtype="librum1-distinctio30 librum1-distinctio31">
+            <head>Librum I, Distinctio 30 et 31</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q25">pg-b1q25.xml</fileName>
+                <title>Quaestio 25</title>
+                <questionTitle>Utrum summum independens referatur ad contingens. Utrum trinum simplex invariabile referatur ad contingens seu producibile. Utrum per productum possit formaliter inferri Deum ad creata vere realiter referri.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">76v</folio>
+                        <folio>77r</folio>
+                        <folio>77v</folio>
+                        <folio>78r</folio>
+                        <folio>78v</folio>
+                        <folio position="end">79r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d32et33" type="distinctio" subtype="librum1-distinctio32 librum1-distinctio33">
+            <head>Librum I, Distinctio 32 et 33</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q26">pg-b1q26.xml</fileName>
+                <title>Quaestio 26</title>
+                <questionTitle>Utrum Patris et Filii amor seu nexus indissolubilis sit, quo ab eis omnis res diligitur vel est diligibilis</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">79v</folio>
+                        <folio>80r</folio>
+                        <folio>80v</folio>
+                        <folio>81r</folio>
+                        <folio>81v</folio>
+                        <folio position="end">82r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d34et35" type="distinctio" subtype="librum1-distinctio34 librum1-distinctio35">
+            <head>Librum I, Distinctio 34 et 35</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q27">pg-b1q27.xml</fileName>
+                <title>Quaestio 27</title>
+                <questionTitle>Utrum summa simplex essentia productiva cuiuslibet rei producibilis sit aeterna scientia cognitiva cuiuslibet rei cognoscibilis. Utrum omnium cognoscibilium essentia increata sit interna notitia suae immensitati adaequata</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">82r</folio>
+                        <folio>82v</folio>
+                        <folio>83r</folio>
+                        <folio>83v</folio>
+                        <folio>84r</folio>
+                        <folio>84v</folio>
+                        <folio>85r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d36" type="distinctio" subtype="librum1-distinctio36">
+            <head>Librum I, Distinctio 36</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q28">pg-b1q28.xml</fileName>
+                <title>Quaestio 28</title>
+                <questionTitle>Utrum in suprema scientia cuiuslibet entitatis possibilis cognitiva ideetur culpae malitia cuiuslibet voluntatis vertibilis infectiva. Utrum per verbum entis cognitivum ideetur malum mentis infectivum</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio>85r</folio>
+                        <folio>85v</folio>
+                        <folio>86r</folio>
+                        <folio>86v</folio>
+                        <folio>87r</folio>
+                        <folio position="end">87v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d37" type="distinctio" subtype="librum1-distinctio37">
+            <head>Librum I, Distinctio 37</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q29">pg-b1q29.xml</fileName>
+                <title>Quaestio 29</title>
+                <questionTitle>Utrum divinum seu primum necesse in quolibet ente necesse sit esse</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">87v</folio>
+                        <folio>88r</folio>
+                        <folio>88v</folio>
+                        <folio>89r</folio>
+                        <folio>89v</folio>
+                        <folio>90r</folio>
+                        <folio position="end">90v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d38" type="distinctio" subtype="librum1-distinctio38">
+            <head>Librum I, Distinctio 38</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q30">pg-b1q30.xml</fileName>
+                <title>Quaestio 30</title>
+                <questionTitle>Utrum certitudini divinae praescientiae repugnet ratio contingentiae. Utrum cum divina praescientia certa et infallibili stet mera contingentia in re producibili</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">90v</folio>
+                        <folio>91r</folio>
+                        <folio>91v</folio>
+                        <folio>92r</folio>
+                        <folio>92v</folio>
+                        <folio position="end">93r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d39" type="distinctio" subtype="librum1-distinctio39">
+            <head>Librum I, Distinctio 39</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q31">pg-b1q31.xml</fileName>
+                <title>Quaestio 31</title>
+                <questionTitle>Utrum sicut divina essentia est omnium futurorum ratio cognitiva, sic eadem, ut est praescientia, sit futurorum contingentium ratio seu actio productiva</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">93r</folio>
+                        <folio>93v</folio>
+                        <folio>94r</folio>
+                        <folio>95r</folio>
+                        <folio position="end">95v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d40" type="distinctio" subtype="librum1-distinctio40">
+            <head>Librum I, Distinctio 40</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q32">pg-b1q32.xml</fileName>
+                <title>Quaestio 32</title>
+                <questionTitle>Utrum praedestinato aeternaliter ac existenti in caritate Deus possit certitudinaliter suam damnationem revelare. Utrum existenti in caritate ac praedestinato aeternaliter Deus possit revelare suam damnationem certitudinaliter.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">95v</folio>
+                        <folio>96r</folio>
+                        <folio>96v</folio>
+                        <folio>97r</folio>
+                        <folio>97v</folio>
+                        <folio>98r</folio>
+                        <folio position="end">98v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <!-- dbcheck could be mistake lon witness that says 43 instead of 41 -->
+          <div id="pg-l1d41" type="distinctio" subtype="librum1-distinctio41">
+            <head>Librum I, Distinctio 41</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q33">pg-b1q33.xml</fileName>
+                <title>Quaestio 33</title>
+                <questionTitle>Utrum praedestinationis ac reprobationis aeternalis sit aliquod aeternale motivum aut ratio causalis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">98v</folio>
+                        <folio>99r</folio>
+                        <folio>99v</folio>
+                        <folio>100r</folio>
+                        <folio>100v</folio>
+                        <folio position="end">101r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d42" type="distinctio" subtype="librum1-distinctio42">
+            <head>Librum I, Distinctio 42</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q34">pg-b1q34.xml</fileName>
+                <title>Quaestio 34</title>
+                <questionTitle>Utrum ratio adaequata omnipotentiae sit immensa activitas divinae essentiae.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">101r</folio>
+                        <folio>101v</folio>
+                        <folio>102r</folio>
+                        <folio>102v</folio>
+                        <folio position="end">103r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d43" type="distinctio" subtype="librum1-distinctio43">
+            <head>Librum I, Distinctio 43</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q35">pg-b1q35.xml</fileName>
+                <title>Quaestio 35</title>
+                <questionTitle>Utrum ea, quae Deus praeordinavit immediate se facturum, possit libere numquam facere in futurum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">103r</folio>
+                        <folio>103v</folio>
+                        <folio>104r</folio>
+                        <folio>104v</folio>
+                        <folio>105r</folio>
+                        <folio>105v</folio>
+                        <folio>106r</folio>
+                        <folio position="end">106v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d44" type="distinctio" subtype="librum1-distinctio44">
+            <head>Librum I, Distinctio 44</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q36">pg-b1q36.xml</fileName>
+                <title>Quaestio 36</title>
+                <questionTitle>Utrum omnipotens quodlibet posse ab eo dependens productive possit meliorare seu perfectius facere entitative seu augere perfective</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">106v</folio>
+                        <folio>107r</folio>
+                        <folio>107v</folio>
+                        <folio>108r</folio>
+                        <folio>108v</folio>
+                        <folio>109r</folio>
+                        <folio>109v</folio>
+                        <folio position="end">110r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d45" type="distinctio" subtype="librum1-distinctio45">
+            <head>Librum I, Distinctio 45</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q37">pg-b1q37.xml</fileName>
+                <title>Quaestio 37</title>
+                <questionTitle>Utrum per divinae voluntatis vigorem ordinentur et regulentur omnia ad universi decorem. Utrum per divinae voluntatis rectitudinem ordinentur omnia ad universi pulchritudinem</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">110r</folio>
+                        <folio>110v</folio>
+                        <folio>111r</folio>
+                        <folio>111v</folio>
+                        <folio>112r</folio>
+                        <folio>112v</folio>
+                        <folio>113r</folio>
+                        <folio>113v</folio>
+                        <folio>114r</folio>
+                        <folio position="end">114v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d46" type="distinctio" subtype="librum1-distinctio46">
+            <head>Librum I, Distinctio 46</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q38">pg-b1q38.xml</fileName>
+                <title>Quaestio 38</title>
+                <questionTitle>Utrum divinum velle rerum immediatum productivum principium sit non esse earum causale principium positivum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L"> <!-- something strange about folio ordering here; dbcheck with marcolino -->
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">114r</folio>
+                        <folio>114v</folio>
+                        <folio>115r</folio>
+                        <folio>115v</folio>
+                        
+                        <folio>125r</folio>
+                        <folio>125v</folio>
+                        
+                        <folio>117r</folio>
+                        <folio>117v</folio>
+                        <folio>118r</folio>
+                        <folio>118v</folio>
+                        <folio>119r</folio>
+                        <folio>119v</folio>
+                        <folio position="end">120r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d47" type="distinctio" subtype="librum1-distinctio47">
+            <head>Librum I, Distinctio 47</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q39">pg-b1q39.xml</fileName>
+                <title>Quaestio 39</title>
+                <questionTitle>Utrum quodlibet bonum possibile aliud a prima bonitate sit in se ponibile ab increata voluntate.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">120r</folio>
+                        <folio>120v</folio>
+                        <folio>121r</folio>
+                        <folio>121v</folio>
+                        <folio>122r</folio>
+                        <folio position="end">122v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+          <div id="pg-l1d48" type="distinctio" subtype="librum1-distinctio48">
+            <head>Librum I, Distinctio 48</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b1q40">pg-b1q40.xml</fileName>
+                <title>Quaestio 40</title>
+                <questionTitle>Utrum stet rectum esse actum voluntatis creatae sine sui ad velle divinum conformitate.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#L">
+                    <slug>lon</slug>
+                        <title>British Royal MS 10 A I</title>
+                        <initial>L</initial>
+                        <folio position="start">122v</folio>
+                        <folio>123r</folio>
+                        <folio>123v</folio>
+                        <folio>124r</folio>
+                        <folio>124v</folio>
+                        
+                      <folio>116r</folio>
+                      <folio>116v</folio>
+                      
+                      <folio>126r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+          </div>
+        </div>
+        <div id="pg-book2" class="toplevel" type="librum">
+            <head>Book II</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-principium2">principium2.xml</fileName>
+                <title>Principium 2</title>
+                <questionTitle>Utrum Petrus  per suae visionis certitudinem videat Verbum continere omnem possibilem entitatem</questionTitle>
+                <hasWitnesses>
+                  <witness ref="#L">
+                    <slug>lon</slug>
+                    <title>British Royal MS 10 A I</title>
+                    <initial>L</initial>
+                    <folio position="start">126v</folio>
+                    <folio>127r</folio>
+                    <folio>127v</folio>
+                    <folio>128r</folio>
+                    <folio>128v</folio>
+                    <folio>129r</folio>
+                    <folio>129v</folio>
+                    <folio>130r</folio>
+                    <folio>130v</folio>
+                    <folio>131r</folio>
+                    <folio>131v</folio>
+                    <folio>132r</folio>
+                    <folio>132v</folio>
+                    <folio>133r</folio>
+                    <folio>133v</folio>
+                    <folio position="end">134r</folio>
+                  </witness>
+                </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+              <fileName filestem="pg-b2q1">pg-b2q1.xml</fileName>
+              <title>Quaestio 1</title>
+              <questionTitle>Utrum a prima sola causa causaliter creative res potuerint habere esse aeternaliter effective</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio position="start">134r</folio>
+                  <folio>134v</folio>
+                  <folio>135r</folio>
+                  <folio>135v</folio>
+                  <folio>136r</folio>
+                  <folio>136v</folio>
+                  <folio>137r</folio>
+                  <folio>137v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+              <fileName filestem="pg-b2q2">pg-b2q2.xml</fileName>
+              <title>Quaestio 2</title>
+              <questionTitle>Utrum primus angelus in caritate et gratia procreatus in primo instanti sui esse malitia fuerit depravatus</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>137v</folio>
+                  <folio>138r</folio>
+                  <folio>138v</folio>
+                  <folio>139r</folio>
+                  <folio>139v</folio>
+                  <folio>140r</folio>
+                  <folio>140v</folio>
+                  <folio>141r</folio>
+                  <folio>141v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+              <fileName filestem="pg-b2q3">pg-b2q3.xml</fileName>
+              <title>Quaestio 3</title>
+              <questionTitle>Utrum angelis mali per suae visionis claritatem videant in humana mente conceptam pravitatem. Utrum angeli per sui intellectus vivacemn otitiam videant mentis humanae intrinsecam seu occultam malitiam</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>141v</folio>
+                  <folio>142r</folio>
+                  <folio>142v</folio>
+                  <folio>143r</folio>
+                  <folio>143v</folio>
+                  <folio>144r</folio>
+                  <folio>144v</folio>
+                  <folio>145r</folio>
+                  <folio>145v</folio>
+                  <folio>146r</folio>
+                  <folio>146v</folio>
+                  <folio>147r</folio>
+                  <folio>147v</folio>
+                  <folio>148r</folio>
+                  <folio>148v</folio>
+                  <folio>149r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q4">pg-b2q4.xml</fileName>
+                <title>Quaestio 4</title>
+              <questionTitle>Utrum quilibet angelus missus pro hominum custodia continue mereatur per impensa eius obsequia. Utrum boni angeli missi, ut nos ad bonum alliciant vel ne mali nos inficiant, per talia obsequia continue in merito proficiant</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>149r</folio>
+                  <folio>149v</folio>
+                  <folio>150r</folio>
+                  <folio>150v</folio>
+                  <folio>151r</folio>
+                  <folio>151v</folio>
+                  <folio>152r</folio>
+                  <folio>152v</folio>
+                  <folio>153r</folio>
+                  <folio>153v</folio>
+                  <folio>154r</folio>
+                  <folio>154v</folio>
+                  <folio>155r</folio>
+                  <folio>155v</folio>
+                  <folio>156r</folio>
+                  <folio>156v</folio>
+                  <folio>157r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q5">pg-b2q5.xml</fileName>
+                <title>Quaestio 5</title>
+              <questionTitle>Utrum liberum arbitrium creatum fuerit diminutum propter peccatum</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>157r</folio>
+                  <folio>157v</folio>
+                  <folio>158r</folio>
+                  <folio>158v</folio>
+                  <folio>159r</folio>
+                  <folio>159v</folio>
+                  <folio>160r</folio>
+                  <folio>160v</folio>
+                  <folio>161r</folio>
+                  <folio>161v</folio>
+                  <folio>162r</folio>
+                  <folio>162v</folio>
+                  <folio>163r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q6">pg-b2q6.xml</fileName>
+                <title>Quaestio 6</title>
+              <questionTitle>Utrum humanae libertatis creatum arbitrium cogi possit per divinum imperium. Utrum creatae libertatis arbitrium cogi possit per divinae voluntatis dictamen.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>163r</folio>
+                  <folio>163v</folio>
+                  <folio>164r</folio>
+                  <folio>164v</folio>
+                  <folio>165r</folio>
+                  <folio>165v</folio>
+                  <folio>166r</folio>
+                  <folio>166v</folio>
+                  <folio>167r</folio>
+                  <folio>167v</folio>
+                  <folio>168r</folio>
+                  <folio>168v</folio>
+                  <folio>169r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q7">pg-b2q7.xml</fileName>
+                <title>Quaestio 7</title>
+              <questionTitle>Utrum sicut actus liber voluntatis est in sua libertatis potestate, sic quilibet actus meritorius procedat effective a creata caritate</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>169r</folio>
+                  <folio>169v</folio>
+                  <folio>170r</folio>
+                  <folio>170v</folio>
+                  <folio>171r</folio>
+                  <folio>171v</folio>
+                  <folio>172r</folio>
+                  <folio>172v</folio>
+                  <folio>173r</folio>
+                  <folio>173v</folio>
+                  <folio>174r</folio>
+                  <folio>174v</folio>
+                  <folio>175r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q8">pg-b2q8.xml</fileName>
+                <title>Quaestio 8</title>
+              <questionTitle>Utrum quilibet descendens ab Adam per propagationem naturalem seu seminalem contraxerit in conceptione maculam originalem.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>175r</folio>
+                  <folio>175v</folio>
+                  <folio>176r</folio>
+                  <folio>176v</folio>
+                  <folio>177r</folio>
+                  <folio>177v</folio>
+                  <folio>178r</folio>
+                  <folio>178v</folio>
+                  <folio>179r</folio>
+                  <folio>179v</folio>
+                  <folio>180r</folio>
+                  <folio>180v</folio>
+                  <folio>181r</folio>
+                  <folio>181v</folio>
+                  <folio>182r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q9">pg-b2q9.xml</fileName>
+                <title>Quaestio 9</title>
+              <questionTitle>Utrum quaelibet actualis mortalis malitia aequaliter mereatur puniri a divina iustitia.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>182r</folio>
+                  <folio>182v</folio>
+                  <folio>183r</folio>
+                  <folio>183v</folio>
+                  <folio>184r</folio>
+                  <folio>184v</folio>
+                  <folio>185r</folio>
+                  <folio>185v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b2q10">pg-b2q10.xml</fileName>
+                <title>Quaestio 10</title>
+              <questionTitle>Utrum aliquod purum omittere sit per se mortaliter deficere</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>185v</folio>
+                  <folio>186r</folio>
+                  <folio>186v</folio>
+                  <folio>187r</folio>
+                  <folio>187v</folio>
+                  <folio>188r</folio>
+                  <folio>188v</folio>
+                  <folio>189r</folio>
+                  <folio>189v</folio>
+                  <folio>190r</folio>
+                  <folio>190v</folio>
+                  <folio>191r</folio>
+                  <folio>191v</folio>
+                  <folio>192r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+        </div>
+        <div id="pg-book3" class="toplevel" type="librum">
+            <head>Book III</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-principium3">principium3.xml</fileName>
+                <title>Principium 3</title>
+              <questionTitle>Utrum beatus Petrus per suae visionis beatificae celsitudinem videat animam Christi continere omnem gratiae plenitudinem</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>192r</folio>
+                  <folio>192v</folio>
+                  <folio>193r</folio>
+                  <folio>193v</folio>
+                  <folio>194r</folio>
+                  <folio>194v</folio>
+                  <folio>195r</folio>
+                  <folio>195v</folio>
+                  <folio>196r</folio>
+                  <folio>196v</folio>
+                  <folio>197r</folio>
+                  <folio>197v</folio>
+                </witness>
+              </hasWitnesses>
+              
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b3q1">pg-b3q1.xml</fileName>
+                <title>Quaestio 1</title>
+              <questionTitle>Utrum Verbum divinum naturam humanam assumens donis gratiae informatam possit etiam assumere quamcumque aliam substantiam peccatis deformatam</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>197v</folio>
+                  <folio>198r</folio>
+                  <folio>198v</folio>
+                  <folio>199r</folio>
+                  <folio>199v</folio>
+                  <folio>200r</folio>
+                  <folio>200v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b3q2">pg-b3q2.xml</fileName>
+                <title>Quaestio 2</title>
+              <questionTitle>Utrum ex vi unionis naturae humanae ad Verbum dicere Deum hominem esse factum sit verum</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>200v</folio>
+                  <folio>201r</folio>
+                  <folio>201v</folio>
+                  <folio>202r</folio>
+                  <folio>202v</folio>
+                  <folio>203r</folio>
+                  <folio>203v</folio>
+                  <folio>204r</folio>
+                  <folio>204v</folio>
+                  <folio>205r</folio>
+                  <folio>205v</folio>
+                  <folio>206r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b3q3">pg-b3q3.xml</fileName>
+                <title>Quaestio 3</title>
+              <questionTitle>Utrum sicut tenetur animam Christi in primo instanti sui meruisse, sic tenendum sit ipsam in eodem instanti omnia cognovisse</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>206r</folio>
+                  <folio>206v</folio>
+                  <folio>207r</folio>
+                  <folio>207v</folio>
+                  <folio>208r</folio>
+                  <folio>208v</folio>
+                  <folio>209r</folio>
+                  <folio>209v</folio>
+                  <folio>210r</folio>
+                  <folio>210v</folio>
+                  <folio>211r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b3q4">pg-b3q4.xml</fileName>
+                <title>Quaestio 4</title>
+              <questionTitle>Utrum spes, fides, caritas, quae ad salutem finaliter requiruntur, a Spiritus Sancti donis ac inter se realiter distinguuntur</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>211v</folio>
+                  <folio>212r</folio>
+                  <folio>212v</folio>
+                  <folio>213r</folio>
+                  <folio>213v</folio>
+                  <folio>214r</folio>
+                  <folio>214v</folio>
+                  <folio>215r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+        </div>
+        <div id="pg-book4" class="toplevel" type="librum">
+            <head>Book IV</head>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-principium4">principium3.xml</fileName>
+                <title>Principium 4</title>
+              <questionTitle>Utrum beatus Petrus propter suae capacitatis ac beatificae delectationis firmitudinem possit in superna domo feliciter quietari per creatam pulchritudinem.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>215r</folio>
+                  <folio>215v</folio>
+                  <folio>216r</folio>
+                  <folio>216v</folio>
+                  <folio>217r</folio>
+                  <folio>217v</folio>
+                  <folio>218r</folio>
+                  <folio>218v</folio>
+                  <folio>219r</folio>
+                  <folio>219v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b4q1">pg-b4q1.xml</fileName>
+                <title>Quaestio 1</title>
+              <questionTitle>Utrum sacramenta novae legis gratiae causativa causaliter Christi plebis sint iustificativa. Utrum sicut sacramenta novae legis animas gratificant formaliter, sic in animabus Christi gregis seu plebis aliquid efficiant realiter se causaliter.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>219v</folio>
+                  <folio>220r</folio>
+                  <folio>221v</folio>
+                  <folio>222r</folio>
+                  <folio>223v</folio>
+                  <folio>224r</folio>
+                  <folio>224v</folio>
+                  <folio>225r</folio>
+                  <folio>225v</folio>
+                  <folio>226r</folio>
+                  <folio>226v</folio>
+                  <folio>227r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b4q2">pg-b4q2.xml</fileName>
+                <title>Quaestio 2</title>
+              <questionTitle>Utrum sub speciebus panis et vini visibilibus realiter existat verum corpus Christi cum suis dimensionibus</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>227r</folio>
+                  <folio>227v</folio>
+                  <folio>228r</folio>
+                  <folio>228v</folio>
+                  <folio>229r</folio>
+                  <folio>229v</folio>
+                  <folio>230r</folio>
+                  <folio>230v</folio>
+                  <folio>231r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item live="false" type="quaestio">
+                <fileName filestem="pg-b4q3">pg-b4q3.xml</fileName>
+                <title>Quaestio 3</title>
+              <questionTitle>Utrum repugnet non caro per culpam seu peccatori actuali mortali carum esse seu resurgere per gratiam sine poenitentia sacramentali</questionTitle>
+              <hasWitnesses>
+                <witness ref="#L">
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>231r</folio>
+                  <folio>231v</folio>
+                  <folio>232r</folio>
+                  <folio>232v</folio>
+                  <folio>233r</folio>
+                  <folio>233v</folio>
+                  <folio>234r</folio>
+                  <folio>234v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+        </div>
+    </div>    
+</listofFileNames>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Gregory of Rimini</authorName>
+    <commentaryName>Gregory of Rimini Commentary</commentaryName>
+    <commentaryid>riminicommentary</commentaryid>
+    <commentaryslug>gdr</commentaryslug>
+    <authorUri>http://scta.info/resource/person/Rimini</authorUri>
+    <parentUri>http://scta.info/text/riminicommentary/commentary</parentUri>
+    <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/Augustinus_de_Ancona/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <webbase>null</webbase>
+    <hasWitnesses>
+      <witness id="Q">
+        <slug>bnf15889</slug>
+        <title>Paris, BnF, Latin 15889 </title>
+        <initial>Q</initial>
+      </witness>
+      <witness id="Ra">
+        <slug>bnf15890</slug>
+        <title>Paris, BnF, Latin 15890 </title>
+        <initial>Ra</initial>
+      </witness>
+      <witness id="Rb">
+        <slug>bnf15891</slug>
+        <title>Paris, BnF, Latin 15891 </title>
+        <initial>Rb</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="gdr-l1" class="toplevel" type="librum1">
+      <head>Librum 1</head>
+      <div id="gdr-l1prol" type="distinctio" subtype="librum1-prologus">
+        <head>Librum 1, Prologus</head>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1prolq1"/>
+          <title>Librum I, Prologus, Quaestio 1</title>
+          <questionTitle>Utrum de obiecto theologico per theologicum discursum notitia</questionTitle>
+          <hasWitnesses>
+              <witness ref="#Ra">
+                 <folio>1r</folio>
+              </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1prolq2"/>
+          <title>Librum I, Prologus, Quaestio 2</title>
+          <questionTitle>Utrum de huiusmodi obiecto possit haberi scientia vel opinio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>7v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1prolq3"/>
+          <title>Librum I, Prologus, Quaestio 3</title>
+          <questionTitle>Utrum omnium conclusionum theologicarum sit habitus unus numero</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>12r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1prolq4"/>
+          <title>Librum I, Prologus, Quaestio 4</title>
+          <questionTitle>Utrum deus inquantum deus sit subiectum in theologia nostra</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>15v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1prolq5"/>
+          <title>Librum I, Prologus, Quaestio 5</title>
+          <questionTitle>Utrum theologia sit speculativa vel practica</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>19r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gdr-l1d1" type="distinctio" subtype="librum1-distinctio1">
+        <head>Librum 1, Distinctio 1</head>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1d1q1"/>
+          <title>Librum I, Distinctio 1, Quaestio 1</title>
+          <questionTitle>Utrum omnis usus sit fruitio seu omnis actus utendi sit actus fruendi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>24v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1d1q2"/>
+          <title>Librum I, Distinctio 1, Quaestio 2</title>
+          <questionTitle>Utrum fruitio sit operatio solius voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>27v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="gdr-l1d1q3"/>
+          <title>Librum I, Distinctio 1, Quaestio 3</title>
+          <questionTitle>Utrum solo deo sit fruendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Ra">
+              <folio>32v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- <div id="gdr-l1d2" type="distinctio" subtype="librum1-distinctio2"> -->
+    </div>
+  </div>
+</listofFileNames>
