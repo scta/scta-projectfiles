@@ -5,8 +5,8 @@
         <commentaryName>Plaoul Commentary</commentaryName>
         <commentaryid>plaoulcommentary</commentaryid>
         <commentaryslug>pp</commentaryslug>
-        <authorUri>http://scta.info/resource/person/peter-plaoul</authorUri>
-        <parentUri>http://scta.info/text/plaoulcommentary/commentary</parentUri>
+        <authorUri>http://scta.info/resource/peter-plaoul</authorUri>
+        <parentUri>http://scta.info/resource/plaoulcommentary</parentUri>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/</textfilesdir>
         <webbase>http://petrusplaoul.org/</webbase>
         <questionListSource>Manuscripta Article</questionListSource>
@@ -51,7 +51,7 @@
         </hasWitnesses>
     </header>
     <div id="body">
-        <div id="principia" class="toplevel" type="distinctio">
+        <div id="pp-principia" class="toplevel" type="principia">
             <head>Principia</head>
             <item live="true" type="lectio">
                 <fileName filestem="principiumI">principiumI.xml</fileName>
@@ -124,7 +124,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deFide" class="toplevel" type="distinctio">
+        <div id="pp-deFide" class="toplevel" type="prologus" subtype="librum1-prologus">
             <head>de Fide</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio1">lectio1.xml</fileName>
@@ -749,7 +749,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deNotitia" class="toplevel" type="distinctio">
+        <div id="pp-deNotitia" class="toplevel" type="distinctio" subtype="librum1-distinctio3">
             <head>de Notitia</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio20">lectio20.xml</fileName>
@@ -1208,7 +1208,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deFruitione" class="toplevel" type="distinctio">
+        <div id="pp-deFruitione" class="toplevel" type="distinctio" subtype="librum1-distinctio1">
             <head>de Fruitione</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio34">lectio34.xml</fileName>
@@ -1792,7 +1792,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deTrinitate" class="toplevel" type="distinctio">
+        <div id="pp-deTrinitate" class="toplevel" type="distinctio">
             <head>de Trinitate</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio56">lectio56.xml</fileName>
@@ -2419,7 +2419,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deCaritate" class="toplevel" type="distinctio">
+        <div id="pp-deCaritate" class="toplevel" type="distinctio" subtype="librum1-distinctio17">
             <head>de Caritate</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio80">lectio80.xml</fileName>
@@ -2812,7 +2812,7 @@
                 </hasWitnesses>
             </item>
         </div>
-        <div id="deLibertate" class="toplevel" type="distinctio">
+        <div id="pp-deLibertate" class="toplevel" type="distinctio">
             <head>de Libertate</head>
             <item live="true" type="lectio">
                 <fileName filestem="lectio95">lectio95.xml</fileName>

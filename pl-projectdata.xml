@@ -6,8 +6,8 @@
     <commentaryName>Sentences of Peter Lombard</commentaryName>
     <commentaryid>lombardsententia</commentaryid>
     <commentaryslug>pl</commentaryslug>
-    <authorUri>http://scta.info/resource/person/PetrusLombard</authorUri>
-    <parentUri>http://scta.info/text/lombardsententia/commentary</parentUri>
+    <authorUri>http://scta.info/resource/PetrusLombard</authorUri>
+    <parentUri>http://scta.info/resource/lombardsententia</parentUri>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/lombardsententia/</textfilesdir>
     <webbase>null</webbase>
     <questionListSource>Brady</questionListSource>
@@ -31,6 +31,11 @@
         <title>Paris, Bibliotheque de l'Arsenal, ms. lat. 446</title>
         <initial>Pb</initial>
       </witness>
+    	<witness id="Pc">
+    		<slug>pfllewisE170</slug>
+    		<title>Philadelphila, Free Library, Lewis E 170</title>
+    		<initial>Pc</initial>
+    	</witness>
     </hasWitnesses>
   </header>
   <div id="body">
@@ -52,6 +57,9 @@
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_001r.json">1r</folio>
             </witness>
+          	<witness ref="#Pc">
+          		<folio>1r</folio>
+          	</witness>
           </hasWitnesses>
         </item>
       </div>
@@ -72,6 +80,9 @@
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_003r.json">3r</folio>
             </witness>
+          	<witness ref="#Pc">
+          		<folio>3r</folio>
+          	</witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d1c2" type="capitulus">

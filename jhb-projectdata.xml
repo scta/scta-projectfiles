@@ -5,8 +5,8 @@
 		<commentaryName>John Hiltalingen of Basel Commentary</commentaryName>
 		<commentaryid>hiltalingencommentary</commentaryid>
 		<commentaryslug>jhb</commentaryslug>
-		<authorUri>http://scta.info/resource/person/JohnHiltalingenBasel</authorUri>
-		<parentUri>http://scta.info/text/hiltalingencommentary/commentary</parentUri>
+		<authorUri>http://scta.info/resource/JohnHiltalingenBasel</authorUri>
+		<parentUri>http://scta.info/resource/hiltalingencommentary</parentUri>
 		<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hiltalingencommentary/</textfilesdir>
 		<webbase>null</webbase>
 		<questionListSource>Clm 26711</questionListSource>
@@ -16,7 +16,7 @@
 			<witness id="B">
 				<slug>clm26711</slug>
 				<title>Bayerishce StaatsBibliothek, Clm 26711</title>
-				<initial>L</initial>
+				<initial>B</initial>
 			</witness>
 			<!-- https://opacplus.bsb-muenchen.de/metaopac/singleHit.do?methodToCall=showHit&curPos=1&identifier=100_SOLR_SERVER_1782863893-->
 		</hasWitnesses>
@@ -37,13 +37,13 @@
 					</hasWitnesses>
 				</item>
 			</div>
-			<div id="jhb-l1prol" type="distinctio" subtype="librum1-prologus1">
+			<div id="jhb-l1prol" type="prologus" subtype="librum1-prologus">
 				<head>Librum I, Prologus</head>
 				<item id="jhb-l1q2" type="questio">
 					<fileName filestem="jhb-l1q2"/>
-					<title>Librum, Quaestio 2</title>
-					<questionTitle>Utrum veritatem sincerim fidei christianae impossibile viatorem perfecte cognoscere efficacia rationis humanae 
-					sine speciali dei illustratione et fundmaneto fidei catholiae ac firma adhaesiva</questionTitle>
+					<title>Librum I, Quaestio 2</title>
+					<questionTitle>Utrum veritatem sinceram fidei christianae impossibile sit viatorem perfecte cognoscere efficacia rationis humanae 
+					sine speciali dei illustratione et fundamento fidei catholicae ac firma adhaesiva</questionTitle>
 					<hasWitnesses>
 						<witness ref="#B">
 							<folio>13v</folio>

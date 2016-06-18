@@ -5,8 +5,8 @@
         <commentaryName>Wodeham Abbreviatio</commentaryName>
         <commentaryid>wodehamabbreviatio</commentaryid>
         <commentaryslug>awa</commentaryslug>
-        <authorUri>http://scta.info/resource/person/Wodeham</authorUri>
-        <parentUri>http://scta.info/text/wodehamabbreviatio/commentary</parentUri>
+        <authorUri>http://scta.info/resource/Wodeham</authorUri>
+        <parentUri>http://scta.info/resource/wodehamabbreviatio</parentUri>
       <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamabbreviatio/</textfilesdir>
         <webbase>http://adamwodeham.org/</webbase>
       <questionListSource></questionListSource>
@@ -23,7 +23,7 @@
     <div id="body">
     <div id="awa-librum1" class="toplevel" type="librum" subtype="librum1-collatio">
         <head>Librum 1</head>
-        <div id="b1-col" type="distinctio">
+    	<div id="awa-b1col" type="distinctio">
             <head>Collatio</head>
         <item live="false" type="quaestio">
             <fileName filestem="b1-col-qun">Collatio 3ra-3va</fileName>
@@ -31,7 +31,7 @@
         </item>
         </div>
         
-        <div id="b1-prol" type="distinctio" subtype="librum1-prologus">
+        <div id="awa-b1prol" type="distinctio" subtype="librum1-prologus">
             <head>Prologue</head>
           <item type="quaestio">
           <fileName filestem="awa-l1prolq1"/>
@@ -50,7 +50,7 @@
           </hasWitnesses>
         </item>
         </div>
-        <div id="b1-d1" type="distinctio" subtype="librum1-distinctio1">
+        <div id="awa-b1d1" type="distinctio" subtype="librum1-distinctio1">
           <head>Librum I, Distinctio 1</head>
           <item type="quaestio">
           <fileName filestem="awa-l1d1q1"/>

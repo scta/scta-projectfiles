@@ -4,8 +4,8 @@
         <authorName>Robert Holcot</authorName>
         <commentaryName>Holcot Commentary</commentaryName>
         <commentaryid>holcotcommentary</commentaryid>
-        <authorUri>http://scta.info/resource/person/Holcot</authorUri>
-        <parentUri>http://scta.info/text/holcotcommentary/commentary</parentUri>
+        <authorUri>http://scta.info/resource/Holcot</authorUri>
+        <parentUri>http://scta.info/resource/holcotcommentary</parentUri>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/holcotcommentary/</textfilesdir>
 
         <webbase>null</webbase>
@@ -105,11 +105,11 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</qu
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/> <!-- see Holcot pdf 347 -->
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/> <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Suetonius"/> <!-- see Holcot pdf 347 -->
+                <sctap:mentions rdf:resource="http://scta.info/resource/Suetonius"/> <!-- see Holcot pdf 347 -->
                 <sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/> <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Caligula"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Ethics"/> <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
+                <sctap:mentions rdf:resource="http://scta.info/resource/Caligula"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/Aristotle"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/Ethics"/> <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
                 <!-- 2 augustine quote and anselm quote on PDF 352b -->
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/> <!-- see Holcot PDF 353a -->
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/> <!-- see Holcot PDF 355, q. 1, a. 4 -->
@@ -188,7 +188,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
                 <questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</questionTitle>
                 <manualRDFs>
                     <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
-                    <sctap:references resource="http://scta.info/text/lombardsententia/distinction/pl-b4d49"/>
+                    <sctap:references resource="http://scta.info/resource/lombardsententia/distinction/pl-b4d49"/>
                     <sctap:quotes resource="http://scta.info/resource/quotation/io17_3"/>
                     <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a"/>
                     <sctap:quotes resource="http://scta.info/resource/quotation/aa-consolatio-34"/>
