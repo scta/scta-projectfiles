@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <header>
+    <authorName>Albertus de Saxonia</authorName>
+    <commentaryName>Quaestiones in libros De anima</commentaryName>
+    <commentaryid>qda</commentaryid>
+    <commentaryslug>als</commentaryslug>
+    <authorUri>http://scta.info/resource/AlbertusDeSaxonia</authorUri>
+  	<!-- parentUri actually means the Uri of the commentary expression -->
+    <parentUri>http://scta.info/resource/qda</parentUri>
+  	<!-- parentWork group actually means the id of the workgroup that the commentary is a part of -->
+  	<parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/qda/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Michael S. Christensen</questionListEncoder>
+    <hasWitnesses>
+      <witness id="L">
+        <slug>leipz1416</slug>
+        <title>Leipzig, Universitatsbibliothek Leipzig, 1416</title>
+        <initial>L</initial>
+      </witness>
+      <witness id="K1">
+        <slug>kra726</slug>
+        <title>Krakow, Biblioteka Jagielloaska, 635</title>
+        <initial>K1</initial>
+      </witness>
+      <witness id="K2">
+        <slug>kra726</slug>
+        <title>Krakow, Biblioteka Jagielloaska, 751</title>
+        <initial>K2</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="ada-l1" class="toplevel" type="librum" subtype="librum1">
+      <head>Liber 1</head>
+      <item id="als-l1q1" type="quaestio">
+        <fileName filestem="als-l1q1" />
+        <title>Librum 1, Quaestio 1</title>
+        <questionTitle>Utrum de anima sit scientia tamquam de subiecto proprio et aedequato scientiae huius libris de anima.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>144ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q2" />
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum omnis notitia est bona</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>144ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q3" />
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum omnis notitia sit honorabilis vel de numero bonorum honorabilium.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>145vb</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q4" />
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum scientia de anima sit de numero difficilimorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>147va</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q5" />
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum <unclear>universale</unclear> vel sit aut posterius sit singularis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>149ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q6" />
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum <unclear>accidentia</unclear> magnam partem consequntur ad cognoscendi quod quidem est.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>150vb</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q7" />
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum anima sit actus substantialis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>152v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q8" />
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum omnis anima sit actus primus corporis organici.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>154vb</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q9" />
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum diffinitio animae sit bene data qua dicitur anima est actus primus substantialis corporis physici organici vitam habentis in potentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>157ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q10" />
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum in eodem animali sed? in? asio() vel i9? equo anima vegetative sit distincta ab anima sensitiva vel sit una anima</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>159rb</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="als-l1q11" />
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum potentiae animae in eodem animato distinguantur ab anima vel sit ipsa <unclear>auet</unclear> anima</questionTitle>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>163ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!--
+      <gap reason="I'll skip rest of books I-II for now."/>
+      
+      <item type="quaestio">
+        <fileName filestem="" />
+        <title>Quaestio x</title>
+        <questionTitle>Utrum ...</questionTitle>
+        <hasWitnesses>
+          <witness ref="">
+            <folio></folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      -->
+    </div>
+    
+  <div id="ada-l3" class="toplevel" type="librum" subtype="librum3">
+    <head>Liber 3</head>
+    <item id="als-l3q1" type="quaestio">
+      <fileName filestem="als-l3q1" />
+      <title>Quaestio 1</title>
+      <questionTitle>Utrum intellectus humanus sit virtus passiva ab intelligibili</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>208ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q2" type="quaestio">
+      <fileName filestem="als-l3q2" />
+      <title>Quaestio 2</title>
+      <questionTitle>Utrum necesse sit intellectum antequam intelligat esse denudatum ab omni allo quod intelligit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>209vb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q2" type="quaestio">
+      <fileName filestem="als-l3q2" />
+      <title>Quaestio 2</title>
+      <questionTitle>Utrum intellectus humanus sit forma substantialis communis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>211ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q3" type="quaestio">
+      <fileName filestem="als-l3q3" />
+      <title>Quaestio 3</title>
+      <questionTitle>Utrum intellectus humanus sit forma <unclear>inconveniens</unclear> corpori</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>213vb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q4" type="quaestio">
+      <fileName filestem="als-l3q4" />
+      <title>Quaestio 4</title>
+      <questionTitle>Utrum sit unicus intellectus quo omnes homines intelligentes intelligunt.</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>216rb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q5" type="quaestio">
+      <fileName filestem="als-l3q5" />
+      <title>Quaestio 5</title>
+      <questionTitle>Utrum intellectus humanus sit perpetuus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>218vb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q6" type="quaestio">
+      <fileName filestem="als-l3q6" />
+      <title>Quaestio 6</title>
+      <questionTitle>Utrum intellectus possibilis sit pura potentia ita quod non sit aliquis actus sicut materia prima.</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>221rb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q7" type="quaestio">
+      <fileName filestem="als-l3q7">als-l3q7.xml</fileName>
+      <title>Quaestio 7</title>
+      <questionTitle>Utrum intellectus humanus possit seipsum intelligere</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>222vb</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q8" type="quaestio">
+      <fileName filestem="als-l3q8" />
+      <title>Quaestio 8</title>
+      <questionTitle>Utrum omnis intellectio simplex sit vera.</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>225ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q9" type="quaestio">
+      <fileName filestem="als-l3q9" />
+      <title>Quaestio 9</title>
+      <questionTitle>Utrum intellectus sit <unclear>v9 s; nativus</unclear> specierum intelligibilium cessante actuali intellectioni</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>226v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q10" type="quaestio">
+      <fileName filestem="als-l3q10" />
+      <title>Quaestio 10</title>
+      <questionTitle>Utrum intellectus posset intelligere plura simul</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>229ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q11" type="quaestio">
+      <fileName filestem="als-l3q11" />
+      <title>Quaestio 11</title>
+      <questionTitle>Utrum in homine anima intellectiva sit alia a sensitiva</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>231ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="als-l3q12" type="quaestio">
+      <fileName filestem="als-l3q12" />
+      <title>Quaestio 12</title>
+      <questionTitle>Utrum natura faciat aliquid frustra vel <unclear>et()</unclear> quandoque deficiat in neccesariis?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#L">
+          <folio>233ra</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+  </div>
+</listofFileNames>

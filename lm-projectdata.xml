@@ -7,6 +7,7 @@
         <commentaryslug>lm</commentaryslug>
         <authorUri>http://scta.info/resource/LambertusDeMonte</authorUri>
         <parentUri>http://scta.info/resource/lambertuscommentary</parentUri>
+    		<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/lambertuscommentary/</textfilesdir>
         <gitrepo>bitbucket.org/jeffreycwitt</gitrepo> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
@@ -15,8 +16,8 @@
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
         <hasWitnesses>
           <witness id="B">
-            <slug>bruss</slug>
-            <title>Brussels</title>
+            <slug>bruss760</slug>
+          	<title>Brüssel, Koninklijke Bibliotheek van België, ms. 760 (1715)</title>
             <initial>B</initial>
           </witness>
         </hasWitnesses>
@@ -24,7 +25,7 @@
 <div id="body">
     <div id="lm-book1" type="librum">
         <head>Book I</head>
-        <div id="lm-b1-prol" type="distinction">
+        <div id="lm-b1-prol" type="prologus" subtype="librum1-prologus">
             <head>Prologue</head>
             <item live="false" type="quaestio">
                 <fileName filestem="lm-b1prolq1">lm-b1prolq1.xml</fileName>

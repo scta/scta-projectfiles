@@ -6,7 +6,8 @@
         <commentaryid>janhuscommentary</commentaryid>
         <commentaryslug>jh</commentaryslug>
         <authorUri>http://scta.info/resource/JanHus</authorUri> <!-- I couldn't find this. -->
-      <parentUri>http://scta.info/resource/janhuscommentary</parentUri> <!-- I couldn't find this. -->
+      	<parentUri>http://scta.info/resource/janhuscommentary</parentUri> <!-- I couldn't find this. -->
+    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/janhuscommentary/</textfilesdir>
         <webbase>null</webbase>
         <questionListSource></questionListSource> <!-- I couldn't find this. -->
@@ -23,7 +24,7 @@
               <title>Librum I, Principium I</title>
               <questionTitle></questionTitle>
             </item>
-            <item type="prologus">
+            <item type="prologus" subtype="librum1-prologus">
               <fileName filestem="jh-l1prol"/>
               <title>Librum I, Prologus</title>
               <questionTitle></questionTitle>

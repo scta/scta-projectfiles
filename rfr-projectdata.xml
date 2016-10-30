@@ -7,6 +7,7 @@
     <commentaryslug>rfr</commentaryslug>
     <authorUri>http://scta.info/resource/RichardFitzRalph</authorUri>
     <parentUri>http://scta.info/resource/fitzralphcommentary</parentUri>
+  	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/fitzralphcommentary/</textfilesdir>
     <questionListSource>FitzRalph Website</questionListSource>
     <questionListOriginalEditor/>
@@ -20,7 +21,7 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <div id="rfr-prologus" type="librum">
+    <div id="rfr-prologus" type="prologus" subtype="librum1-prologus">
       <item live="false" type="quaestio">
         <fileName filestem="rfr-quaestio1">rfr-quaestio1.xml</fileName>
         <title>Quaestio 1, [Prologus, Quaestio 1]</title>

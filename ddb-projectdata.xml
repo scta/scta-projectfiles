@@ -7,6 +7,7 @@
     <commentaryslug>ddb</commentaryslug>
     <authorUri>http://scta.info/resource/DionysiusDeBruges</authorUri>
     <parentUri>http://scta.info/resource/ddbrugescommentary</parentUri>
+  	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ddbrugescommentary/</textfilesdir>
     <webbase>null</webbase>
     <questionListSource>Website</questionListSource>
@@ -14,7 +15,7 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <hasWitnesses>
       <witness id="E">
-        <slug>erfurt</slug>
+        <slug>erfurt131</slug>
         <title>Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.</title>
         <initial>E</initial>
       </witness>
@@ -33,7 +34,7 @@
           </hasWitnesses>
         </item>
       <!-- test what happens to above for item not included in grouping div like rest of items below -->
-      <div id="ddb-l1prol" type="distinctio" subtype="librum1-prologus">
+      <div id="ddb-l1prol" type="prologus" subtype="librum1-prologus">
         <head>Librum I, Prologus</head>
         <item  type="quaestio">
           <fileName filestem="ddb-l1prolq1"/>

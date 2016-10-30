@@ -5,8 +5,10 @@
         <commentaryName>Wodeham Ordinatio</commentaryName>
         <commentaryid>wodehamordinatio</commentaryid>
         <commentaryslug>aw</commentaryslug>
+    		<rcsid>100059</rcsid>
         <authorUri>http://scta.info/resource/Wodeham</authorUri>
         <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
+    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
       <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamordinatio/</textfilesdir>
         <webbase>http://adamwodeham.org/</webbase>
       <questionListSource></questionListSource>
@@ -36,7 +38,7 @@
         <witness id="B">
           <slug>bruges</slug>
           <title>Bruges, bibl. de la Ville, Ms. 172</title>
-          <initial>T</initial>
+          <initial>B</initial>
         </witness>
       </hasWitnesses>    
     </header>
@@ -72,6 +74,8 @@
           <hasWitnesses>
             <witness ref="#S">
               <folio>7r</folio>
+            	<folio>7v</folio>
+            	<folio>8r</folio>
               <folio>12v</folio>
             </witness>
             <witness ref="#V"/>
@@ -717,8 +721,8 @@
                     <folio>166v</folio>
                 </witness>
                 <witness ref="#M">
-                    <startFolio></startFolio>
-                    <endFolio></endFolio>
+                    <folio></folio>
+                    <folio></folio>
                 </witness>
             </hasWitnesses>
         </item>

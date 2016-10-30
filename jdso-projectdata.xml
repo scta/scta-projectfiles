@@ -7,6 +7,7 @@
         <commentaryslug>jdso</commentaryslug>
         <authorUri>http://scta.info/resource/Scotus</authorUri>
         <parentUri>http://scta.info/resource/scotusordinatio</parentUri>
+    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/scotusordinatio/</textfilesdir>
         <webbase>null</webbase>
       <questionListSource>Scotus Vatican Edition</questionListSource>
@@ -16,7 +17,7 @@
     <div id="body">
     <div id="jdso-book1" type="librum" subtype="librum1">
         <head>Librum I</head>
-        <div id="jdso-b1prol" type="distinctio">
+        <div id="jdso-b1prol" type="distinctio" subtype="librum1-prologus">
             <head>Librum I, prologus</head>
             <div id="jdso-pars1" type="pars">
                 <head>Librum I, prologus, prima pars quaestio 1</head>

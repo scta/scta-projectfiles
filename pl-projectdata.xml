@@ -6,8 +6,9 @@
     <commentaryName>Sentences of Peter Lombard</commentaryName>
     <commentaryid>lombardsententia</commentaryid>
     <commentaryslug>pl</commentaryslug>
-    <authorUri>http://scta.info/resource/PetrusLombard</authorUri>
+    <authorUri>http://scta.info/resource/Lombard</authorUri>
     <parentUri>http://scta.info/resource/lombardsententia</parentUri>
+  	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/lombardsententia/</textfilesdir>
     <webbase>null</webbase>
     <questionListSource>Brady</questionListSource>
@@ -23,7 +24,7 @@
       </witness>
       <witness id="P">
         <slug>bnf15705</slug>
-        <title>Paris, Lat 15705</title>
+        <title>Paris, BnF, Lat 15705</title>
         <initial>P</initial>
       </witness>
       <witness id="Pb">
@@ -35,6 +36,12 @@
     		<slug>pfllewisE170</slug>
     		<title>Philadelphila, Free Library, Lewis E 170</title>
     		<initial>Pc</initial>
+    	</witness>
+    	<witness id="H">
+    		<slug>hopkinsMSB19</slug>
+    		<title>Baltimore, Johns Hopkins</title>
+    		<canvasBase>http://scta.info/iiif/pl-hopkins/canvas/</canvasBase>
+    		<initial>H</initial>
     	</witness>
     </hasWitnesses>
   </header>
@@ -60,6 +67,9 @@
           	<witness ref="#Pc">
           		<folio>1r</folio>
           	</witness>
+          	<witness ref="#H">
+          		<folio canvasslug="1r">1r</folio>
+          	</witness>
           </hasWitnesses>
         </item>
       </div>
@@ -83,6 +93,9 @@
           	<witness ref="#Pc">
           		<folio>3r</folio>
           	</witness>
+          	<witness ref="#H">
+          		<folio canvasslug="4v">4v</folio>
+          	</witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d1c2" type="capitulus">
@@ -100,6 +113,9 @@
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_003r.json">3r</folio>
             </witness>
+          	<witness ref="#H">
+          		<folio canvasslug="4v">4v</folio>
+          	</witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d1c3" type="capitulus">
@@ -121,6 +137,11 @@
               <folio canvasslug="zbs-SII-0072_003v.json">3v</folio>
               <folio canvasslug="zbs-SII-0072_004r.json">4r</folio>
             </witness>
+          	<witness ref="#H">
+          		<folio canvasslug="4v">4v</folio>
+          		<folio canvasslug="5r">5r</folio>
+          		<folio canvasslug="5v">5v</folio>
+          	</witness>
           </hasWitnesses>
         </item>
       </div>
@@ -142,6 +163,9 @@
               <folio canvasslug="zbs-SII-0072_004r.json">4r</folio>
               <folio canvasslug="zbs-SII-0072_004v.json">4v</folio>
             </witness>
+          	<witness ref="#H">
+          		<folio canvasslug="5v">5v</folio>
+          	</witness>
           </hasWitnesses>
           
         </item>
@@ -2710,9 +2734,12 @@
           <fileName filestem="pl-l2d1c1">pl-l2d1c1.xml</fileName>
           <title>Cap. 1. </title>
           <questionTitle>Quod unum est principium rerum, non plura.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
-          </manualRDFs>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="56v">56v</folio>
+        		</witness>
+        	</hasWitnesses>
+          
         </item>
         <item id="pl-l2d1c2" type="capitulus">
           <fileName filestem="pl-l2d1c2">pl-l2d1c2.xml</fileName>
@@ -2809,21 +2836,7 @@
           <fileName filestem="pl-l2d3c4">pl-l2d3c4.xml</fileName>
           <title>Cap. 16 (4). </title>
           <questionTitle>An boni vel mali creati sint, et an aliqua mora fuerit inter creationem et lapsum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_44"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob40_19"/>
-            <!-- can't find, seems wrong, dbcheck -->
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_26"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_3"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir43_37"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_44"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt13_28"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap2_24"/>
-
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d3c5" type="capitulus">
           <fileName filestem="pl-l2d3c5">pl-l2d3c5.xml</fileName>
@@ -3170,59 +3183,79 @@
 
         </item>
         <item id="pl-l2d12c4" type="capitulus">
-          <fileName filestem="pl-l2d12c4">pl-l2d12c4.xml</fileName>
-          <title>Cap. 61 (4). </title>
+          <fileName filestem="pl-l2d12c4"/>
+          <title>Librum II, Distinctio 12, Capitulus 4</title>
           <questionTitle>Quo sensu tenebrae dicantur esse aliquid, et quo dicantur non esse aliquid.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/dan3_72"/>
-          </manualRDFs>
+          <hasWitnesses>
+          	<witness ref="#H">
+          		<folio canvasslug="66v">66v</folio>
+          	</witness>
+          </hasWitnesses>
         </item>
         <item id="pl-l2d12c5" type="capitulus">
-          <fileName filestem="pl-l2d12c5">pl-l2d12c5.xml</fileName>
-          <title>Cap. 62 (5). </title>
+          <fileName filestem="pl-l2d12c5"/>
+        	<title>Librum II, Distinctio 12, Capitulus 5</title>
           <questionTitle>Quare illa materia confusa sit dicta informis et ubi ad esse prodiit, et quantumcumque in altum ascenderit.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_17"/>
-          </manualRDFs>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="66v">66v</folio>
+        			<folio canvasslug="67r">67r</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d12c6" type="capitulus">
           <fileName filestem="pl-l2d12c6">pl-l2d12c6.xml</fileName>
-          <title>Cap. 63 (6). </title>
+        	<title>Librum II, Distinctio 12, Capitulus 6</title>
           <questionTitle>De quatuor modis divinae operationis.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir18_1"/>
-          </manualRDFs>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="67r">67r</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
       </div>
       <div id="pl-l2d13" type="distinctio">
-        <head>DISTINCTIO XIII</head>
-
-        <item id="pl-l2d13c1" type="capitulus">
+        <head>Distinctio 13</head>
+      	<item id="pl-l2d13c1" type="capitulus">
           <fileName filestem="pl-l2d13c1">pl-l2d13c1.xml</fileName>
-          <title>Cap. 64 (1). </title>
+        	<title>Librum II, Distinctio 13, Capitulus 1</title>
           <questionTitle>De primo distinctionis opere.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_3"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
-          </manualRDFs>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="67r">67r</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d13c2" type="capitulus">
           <fileName filestem="pl-l2d13c2">pl-l2d13c2.xml</fileName>
-          <title>Cap. 65 (2). </title>
+        	<title>Librum II, Distinctio 13, Capitulus 2</title>
           <questionTitle>De luce facta primo die, si spiritualis an corporalis fuerit. </questionTitle>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="67r">67r</folio>
+        			<folio canvasslug="67v">67v</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d13c3" type="capitulus">
           <fileName filestem="pl-l2d13c3">pl-l2d13c3.xml</fileName>
-          <title>Cap. 66 (3). </title>
+        	<title>Librum II, Distinctio 13, Capitulus 3</title>
           <questionTitle>Ubi facta fuerit.</questionTitle>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="67v">67v</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d13c4" type="capitulus">
           <fileName filestem="pl-l2d13c4">pl-l2d13c4.xml</fileName>
-          <title>Cap. 67 (4). </title>
-          <questionTitle>Quibus modis accipitur dies.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_5"/>
-          </manualRDFs>
+        	<title>Librum II, Distinctio 13, Capitulus 4</title>
+        	<questionTitle>Quibus modis accipitur dies.</questionTitle>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="67v">67v</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d13c5" type="capitulus">
           <fileName filestem="pl-l2d13c5">pl-l2d13c5.xml</fileName>
@@ -3241,48 +3274,36 @@
           <fileName filestem="pl-l2d13c7">pl-l2d13c7.xml</fileName>
           <title>Cap. 70 (7). </title>
           <questionTitle>Ex quo sensu Pater dicitur operari in Filio vel per Filium, vel in Spiritu Sancto.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_24"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/heb1_2"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps32_6"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io5_22"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d14" type="distinctio">
         <head>DISTINCTIO XIV</head>
-
-        <item id="pl-l2d14c1" type="capitulus">
+      	<item id="pl-l2d14c1" type="capitulus">
           <fileName filestem="pl-l2d14c1">pl-l2d14c1.xml</fileName>
-          <title>Cap. 71 (1). </title>
+        	<title>Librum II, Distinctio 14, Capitulus 1</title>
           <questionTitle>De opere secundae diei, qua factum est firmamentum.</questionTitle>
-          <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_6"/>
-          <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_7"/>
         </item>
         <item id="pl-l2d14c2" type="capitulus">
           <fileName filestem="pl-l2d14c2">pl-l2d14c2.xml</fileName>
-          <title>Cap. 72 (2). </title>
+        	<title>Librum II, Distinctio 14, Capitulus 2</title>
           <questionTitle>Quod caelum tunc factum debet intelligi.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_3"/>
-          </manualRDFs>
         </item>
         <item id="pl-l2d14c3" type="capitulus">
           <fileName filestem="pl-l2d14c3">pl-l2d14c3.xml</fileName>
-          <title>Cap. 73 (3). </title>
+        	<title>Librum II, Distinctio 14, Capitulus 3</title>
           <questionTitle>De qua materia factum sit.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sir43_22"/>
-          </manualRDFs>
         </item>
         <item id="pl-l2d14c4" type="capitulus">
-          <fileName filestem="pl-l2d14c4">pl-l2d14c4.xml</fileName>
-          <title>Cap. 74 (4). </title>
+          <fileName filestem="pl-l2d14c4"/>
+        	<title>Librum II, Distinctio 14, Capitulus 4</title>
           <questionTitle>Quomodo aquae possunt esse super caelum, et quales sint.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob26_8"/>
-          </manualRDFs>
+        	<hasWitnesses>
+        		<witness ref="#H">
+        			<folio canvasslug="68r">68r</folio>
+        			<folio canvasslug="68v">68v</folio>
+        		</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l2d14c5" type="capitulus">
           <fileName filestem="pl-l2d14c5">pl-l2d14c5.xml</fileName>
@@ -3297,8 +3318,8 @@
             <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_12"/>
           </manualRDFs>
         </item>
-        <item id="pl-l2d14c2" type="capitulus">
-          <fileName filestem="pl-l2d14c2">pl-l2d14c2.xml</fileName>
+        <item id="pl-l2d14c7" type="capitulus">
+          <fileName filestem="pl-l2d14c7">pl-l2d14c7.xml</fileName>
           <title>Cap. 77 (7). </title>
           <questionTitle>De opere tertii diei, quando aquae congregatae sunt in unum.</questionTitle>
           <manualRDFs>
@@ -4596,6 +4617,11 @@
           <fileName filestem="pl-l3d1c1">pl-l3d1c1.xml</fileName>
           <title>Cap. 1. </title>
           <questionTitle>Quare Filius carnem assumpsit, non Pater vel Spiritus Sanctus.</questionTitle>
+        	<hasWitnesses>
+	        	<witness ref="#H">
+	        		<folio canvasslug="97r">97r</folio>
+	        	</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l3d1c2" type="capitulus">
           <fileName filestem="pl-l3d1c2">pl-l3d1c2.xml</fileName>
@@ -5541,6 +5567,11 @@
           <fileName filestem="pl-l4d1c1">pl-l4d1c1.xml</fileName>
           <title>Cap. 1. </title>
           <questionTitle>De sacramentis.</questionTitle>
+        	<hasWitnesses>
+	        	<witness ref="#H">
+	        		<folio canvasslug="127v">127v</folio>
+	        	</witness>
+        	</hasWitnesses>
         </item>
         <item id="pl-l4d1c2" type="capitulus">
           <fileName filestem="pl-l4d1c2">pl-l4d1c2.xml</fileName>
