@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Alexander Bonini de Alexandria</authorName>
+    <commentaryName>Expositio libri De anima</commentaryName>
+    <commentaryid>alexanderexpositio</commentaryid>
+    <commentaryslug>57</commentaryslug>
+    <authorUri><!-- http://scta.info/resource/person/HenricusDeWerl--></authorUri>
+    <parentUri><!-- http://scta.info/text/werlcommentary/commentary --></parentUri>
+    <textfilesdir>https://github.com/mldac/alexanderexpositio.git</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <hasWitnesses>
+      <witness id="A">
+        <slug>ass</slug>
+        <title>Assisi, Biblioteca Convento di San Francesco 326, ff. 1--92v</title>
+        <initial>A</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="ala-lib3" type="librum3">
+      <head>Liber tertius</head>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec1"/>
+        <title>Lectio 1</title>
+        <lemma>De parte autem anime</lemma> <!-- Suggestion for lectio commentaries which use lemmas as headlines -->
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>63r</folio>
+            <folio>63v</folio>
+            <folio>64r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec2"/>
+        <title>Lectio 2</title>
+        <lemma>Necesse et itaque</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>64r</folio>
+            <folio>64v</folio>
+            <folio>65r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec3"/>
+        <title>Lectio 3</title>
+        <lemma>Et bene itaque dicentes</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>65r</folio>
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec4"/>
+        <title>Lectio 4</title>
+        <lemma>Quoniam autem aliud est magnitudo</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec5"/>
+        <title>Lectio 5</title>
+        <lemma>Dubitabit utique aliquis</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>67v</folio>
+            <folio>68r</folio>
+            <folio>68v</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ala-l3lec6"/>
+        <title>Lectio 6</title>
+        <lemma>Quoniam autem in omni natura</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+            <folio>72r</folio>
+            <folio>72v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="#A"/>
+        <title>Lectio 7</title>
+        <lemma>Idem autem secundum actum</lemma>
+        <hasWitnesses>
+          <witness ref="#A">
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="">
+        <fileName filestem=""/>
+        <title></title>
+        
+        <hasWitnesses>
+          <witness ref="id">
+            <folio>num</folio>
+            
+          </witness>
+        </hasWitnesses>
+      </item>
+
+
+    </div>
+  </div>
+</listofFileNames>

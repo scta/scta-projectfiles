@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Augustinus de Monsterbek</authorName>
+    <commentaryName>Quaestiones in De anima I-III</commentaryName>
+    <commentaryid>monsterbek_questiones</commentaryid>
+    <commentaryslug>105</commentaryslug>
+    <authorUri><!-- http://scta.info/resource/person/HenricusDeWerl--></authorUri>
+    <parentUri><!-- http://scta.info/text/werlcommentary/commentary --></parentUri>
+    <textfilesdir>https://github.com/mldac/monsterbek_questiones.git</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <hasWitnesses>
+      <witness id="K">
+        <slug>kra</slug>
+        <title>Krakow, Biblioteka Jagiellonska 1578, ff. 2ra--34vb</title>
+        <initial>O</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="aum-lib1" type="librum1">
+      <head>Liber primus</head>
+      <item type="quaestio">
+        <fileName filestem="aum-l1q1"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum anima cognoscendo se cognoscit alia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#K">
+            <folio>1r</folio>
+            <folio>1v</folio>
+            <folio>2r</folio>
+          </witness>
+        </hasWitnesses>
+      </item> 
+    </div>
+  </div>
+</listofFileNames>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Anonymus</authorName>
+    <commentaryName>Quaestiones in De anima I</commentaryName>
+    <commentaryid></commentaryid>
+    <commentaryslug>69</commentaryslug>
+    <authorUri></authorUri>
+    <parentUri></parentUri>
+    <textfilesdir></textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource></questionListSource>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <hasWitnesses>
+      <witness id="O">
+        <slug>oxf275</slug>
+        <title>Oxford, Merton College Library,  275</title>
+        <initial>O</initial>
+        <note>Folio references are made to the new foliation as given in
+        Thomson's catalogue of Merton manuscripts with the old foliation in
+        parenthesis.</note>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body" xml:lang="la">
+    <div id="69-librum1">
+      <head>
+        Liber primus
+      </head>
+      <item id="69-prooemium">
+        <fileName filestem="69-prooemium"/>
+        <title>Prooemium</title>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>88r (85r)</folio>
+            <folio>88v (85v)</folio>
+            <folio>89r (86r)</folio>
+            <folio>89v (86v)</folio>
+            <folio>90r (87r)</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!-- Sub-questions, solution 1 -->
+      <item id="69-l1q1" type="quaestio">
+        <fileName filestem="69-l1q1"/>
+        <quaestionTitle>Utrum sit scientia de anima</quaestionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>90r (87r)</folio>
+            <folio>90v (87v)</folio>
+          </witness>
+        </hasWitnesses>
+        <item id="69-l1q1a" type="subquaestio">
+          <fileName filestem="69-l1q1a"/>
+          <quaestionTitle>Utrum nos habeamus cognitionem de anima</quaestionTitle>
+          <hasWitnesses>
+            <witness ref="#O">
+              <folio>90r (87r)</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="69-l1q1b" type="subquaestio">
+          <fileName filestem="69-l1q1b"/>
+          <quaestionTitle>Utrum sit nobis innata</quaestionTitle>
+           <hasWitnesses>
+            <witness ref="#O">
+              <folio>90r (87r)</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="69-l1q1c" type="subquaestio">
+          <fileName filestem="69-l1q1c"/>
+          <quaestionTitle>Utrum per substantiam animae aut per speciem</quaestionTitle>
+          <hasWitnesses>
+            <witness ref="#O">
+              <folio>90r (87r)</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </item>
+
+      <!-- Sub-questions, solution 2 -->
+      <item id="69-l1q1" type="quaestio">
+        <fileName filestem="69-l1q1"/>
+        <quaestionTitle>Utrum sit scientia de anima</quaestionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>90r (87r)</folio>
+            <folio>90v (87v)</folio>
+          </witness>
+        </hasWitnesses>
+        <parts>
+          <div type="quaestio">
+            <quaestionTitle>Utrum nos habeamus cognitionem de anima</quaestionTitle>
+          </div>
+          <part type="quaestio">
+            <quaestionTitle>Utrum sit nobis innata</quaestionTitle>
+          </part>
+          <part type="quaestio">
+            <quaestionTitle>Utrum per substantiam animae aut per speciem</quaestionTitle>
+          </part>
+          <part type="determinatio">Determinatio</part>
+          <part type="ad-rationes">Ad rationes</part>
+        </parts>
+      </item>
+
+      <!-- Sub-question, solution 3: several parallel `questionTitle`s -->
+      <item id="69-l1q1" type="quaestio">
+        <fileName filestem="69-l1q1"/>
+        <quaestionTitle>Utrum nos habeamus cognitionem de anima</quaestionTitle>
+        <quaestionTitle>Utrum sit nobis innata</quaestionTitle>
+        <quaestionTitle>Utrum per substantiam animae aut per speciem</quaestionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>90r (87r)</folio>
+            <folio>90v (87v)</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+
+      <!-- Sub-question, solution 4: No sub division. That belongs in the item
+           files. Problem: You might want the sub-questions to figure in a
+           question-list -->
+      <item id="69-l1q1" type="quaestio">
+        <fileName filestem="69-l1q1"/>
+        <quaestionTitle>Utrum sit scientia de anima</quaestionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>90r (87r)</folio>
+            <folio>90v (87v)</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+
+     <item id="69-l1q2" type="quaestio">
+       <fileName filestem="69-l1q2"/>
+       <quaestionTitle>Consequenter videndum est cuius sit considerare scientiam
+       de anima, utrum scilicet naturalis philosophia aut alicuius
+       alterius</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>90v (87v)</folio>
+           <folio>91r (88r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q3" type="quaestio">
+       <fileName filestem="69-l1q3"/>
+       <quaestionTitle>Utrum ista scientia debet dici de corpore mobili an de
+       anima</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>91r (88r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q4" type="quaestio">
+       <fileName filestem="69-l1q4"/>
+       <quaestionTitle>Utrum consideret de qualibet anima</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>91r (88r)</folio>
+           <folio>91v (88v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q5" type="quaestio">
+       <fileName filestem="69-l1q5"/>
+       <quaestionTitle>Utrum scientia de anima sit certa in se</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>91v (88v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q5" type="quaestio">
+       <fileName filestem="69-l1q5"/>
+       <quaestionTitle>Utrum sit certior et de meliori quam aliae scientiae</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>91v (88v)</folio>
+           <folio>92r (89r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q6" type="quaestio">
+       <fileName filestem="69-l1q6"/>
+       <quaestionTitle>Utrum universale sit posterius quam illud respectu cuius
+       dicitur universale</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>92r (89r)</folio>
+           <folio>92v (89v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q7" type="quaestio">
+       <fileName filestem="69-l1q7"/>
+       <quaestionTitle>Utrum accidentia sint principia cognoscendi
+       substantiam</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>92v (89v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q8" type="quaestio">
+       <fileName filestem="69-l1q8"/>
+       <quaestionTitle>Utrum definitiones logicae sint vanae</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>92v (89v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q9" type="quaestio">
+       <fileName filestem="69-l1q9"/>
+       <quaestionTitle>Utrum materia cadat in definitione.</quaestionTitle>
+       <quaestionTitle>Utrum physicus definiat per materiam solum.</quaestionTitle>
+       <quaestionTitle>Utrum dialecticus solum per formam.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>93r (90r)</folio>
+           <folio>93v (90v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q10" type="quaestio">
+       <fileName filestem="69-l1q10"/>
+       <quaestionTitle>Utrum logicus solum definiat per formam vel
+       speciem.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>93v (90v)</folio>
+           <folio>94r (91r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q11" type="quaestio">
+       <fileName filestem="69-l1q11"/>
+       <quaestionTitle>Utrum philosophia sit disputare contra positiones de
+       anima antiquorum.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>94r (91r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q12" type="quaestio">
+       <fileName filestem="69-l1q12"/>
+       <title>Quaestiones de opinione Democriti</title>
+       <quaestionTitle>Utrum athomus sit corpus.</quaestionTitle>
+       <quaestionTitle>Utrum sit corpus naturale.</quaestionTitle>
+       <quaestionTitle>Utrum moveatur per naturam vel violentiam.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>94r (91r)</folio>
+           <folio>94v (91v)</folio>
+           <folio>95r (92r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q13" type="quaestio">
+       <fileName filestem="69-l1q13"/>
+       <quaestionTitle>Utrum neccessarium est animam est principiis omnium esse
+       composita ad hoc quod omnia cognoscat.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>95r (92r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q14" type="quaestio">
+       <fileName filestem="69-l1q14"/>
+       <quaestionTitle>Utrum habeat moveri inquantum est coniuncta corpori.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>95r (92r)</folio>
+           <folio>95v (92v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q15" type="quaestio">
+       <fileName filestem="69-l1q15"/>
+       <quaestionTitle>Utrum anima de se habeat esse in loco.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>95v (92v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q16" type="quaestio">
+       <fileName filestem="69-l1q16"/>
+       <quaestionTitle>Utrum contingat animam moveri secundum quod est per se
+       existens separata a corpore.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>95v (92v)</folio>
+           <folio>96r (93r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q17" type="quaestio">
+       <fileName filestem="69-l1q17"/>
+       <quaestionTitle>Utrum omne quod movetur natura movetur voilenter</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>96r (93r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q18" type="quaestio">
+       <fileName filestem="69-l1q18"/>
+       <quaestionTitle>Utrum sit verum quod operatio intellectus, que secundum
+       Platonem est intelligere, sit circulariter et semper.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>96r (93r)</folio>
+           <folio>96v (93v)</folio>
+           <folio>97r (94r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q19" type="quaestio">
+       <fileName filestem="69-l1q19"/>
+       <quaestionTitle>Utrum ex anima et corpore habeat fieri unum.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>97r (94r)</folio>
+           <folio>97v (94v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q20" type="quaestio">
+       <fileName filestem="69-l1q20"/>
+       <quaestionTitle>Utrum anima uniatur corpori simplici vel composito.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>97v (94v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q21" type="quaestio">
+       <fileName filestem="69-l1q21"/>
+       <quaestionTitle>Utrum anima uniatur corpori composito immediate vel per
+       medium.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>97v (94v)</folio>
+           <folio>98r (95r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q22" type="quaestio">
+       <fileName filestem="69-l1q22"/>
+       <quaestionTitle>Utrum anima per aliquid approprietur corpori et e
+       converso et generaliter utrum forma materiae et e
+       converso.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>98r (95r)</folio>
+           <folio>98v (95v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q23" type="quaestio">
+       <fileName filestem="69-l1q23"/>
+       <quaestionTitle>Utrum per transmutationem corporis per consequens
+       transmutatur anima.</quaestionTitle>
+       <quaestionTitle>Utrum hoc verbum habeat veritatem.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>98v (95v)</folio>
+           <folio>99r (96r)</folio>
+           <folio>99v (96v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q24" type="quaestio">
+       <fileName filestem="69-l1q24"/>
+       <quaestionTitle>Circa partem sequentem dubitatur de omnibus tactis in
+       littera et primo de ratione qua aruitur quod nihil est melius et
+       nobilius.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>99v (96v)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q25" type="quaestio">
+       <fileName filestem="69-l1q25"/>
+       <quaestionTitle>Utrum omnia animalia moventur localiter.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>99v (96v)</folio>
+           <folio>100r (97r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q26" type="quaestio">
+       <fileName filestem="69-l1q26"/>
+       <quaestionTitle>Utrum privatio cognoscatur per habitum.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>100r (97r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+     <item id="69-l1q27" type="quaestio">
+       <fileName filestem="69-l1q27"/>
+       <title>Utrum in partibus decisis sit anima.</title>
+       <quaestionTitle>Utrum in talibus partibus decisis sit anima.</quaestionTitle>
+       <quaestionTitle>Utrum producatur per actum decisionis.</quaestionTitle>
+       <quaestionTitle>Utrum partes decisae animalium possint dici animalia.</quaestionTitle>
+       <hasWitnesses>
+         <witness ref="#O">
+           <folio>100r (97r)</folio>
+           <folio>100v (97v)</folio>
+           <folio>101r (98r)</folio>
+         </witness>
+       </hasWitnesses>
+     </item>
+    </div>
+  </div>
+</listofFileNames>
