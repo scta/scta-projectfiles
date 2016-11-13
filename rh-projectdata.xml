@@ -1,209 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listofFileNames xmlns:sctap="http://scta.info/property/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <header>
-        <authorName>Robert Holcot</authorName>
-        <commentaryName>Holcot Commentary</commentaryName>
-        <commentaryid>holcotcommentary</commentaryid>
-        <authorUri>http://scta.info/resource/Holcot</authorUri>
-        <parentUri>http://scta.info/resource/holcotcommentary</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/holcotcommentary/</textfilesdir>
+<listofFileNames xmlns:sctap="http://scta.info/property/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<header>
+		<authorName>Robert Holcot</authorName>
+		<commentaryName>Holcot Commentary</commentaryName>
+		<commentaryid>holcotcommentary</commentaryid>
+		<authorUri>http://scta.info/resource/Holcot</authorUri>
+		<parentUri>http://scta.info/resource/holcotcommentary</parentUri>
+		<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+		<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/holcotcommentary/</textfilesdir>
 
-        <webbase>null</webbase>
-    </header>
-    <div id="body">
-    <div id="rh-librum1" type="librum">
-        <head>Librum I</head>
-        <item id="rh-l1prin1" type="principia">
-            <fileName filestem="rh-l1prin1" type="principia">rh-l1prin1.xml</fileName>
-            <title>Principia I</title>
-            <questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res significata per complexum</questionTitle>
-        </item>
-        <item id="rh-l1q1" type="quaestio" subtype="librum1-prologus">
-            <fileName filestem="rh-l1q1">rh-l1q1.xml</fileName>
-            <title>Quaestio 1</title>
-            <questionTitle>Utrum quilibet viator existens in gratia, assentiendo articulis fidei, mereatur vitam aeternam.</questionTitle>
-        </item>
-        <item id="rh-l1q2" type="quaestio">
-            <fileName filestem="rh-l1prin">rh-l1q2.xml</fileName>
-            <title>Quaestio 2</title>
-            <questionTitle>Utrum voluntas creata in utendo ut fruendo sit libera libertate contradictionis.</questionTitle>
-        </item>
-        <item id="rh-l1q3" type="quaestio">
-            <fileName filestem="rh-l1q3">rh-l1q3.xml</fileName>
-            <title>Quaestio 3</title>
-            <questionTitle>Utrum viator tenatur frui soli Deo.</questionTitle>
-        </item>
-        <item id="rh-l1q4" type="quaestio">
-            <fileName filestem="rh-l1q4">rh-l1q4.xml</fileName>
-            <title>Quaestio 4</title>
-            <questionTitle>Utrum Deus sit tres personae distinctae.</questionTitle>
-            <manualRDFs>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Jews"/>
-            </manualRDFs>
-        </item>
-        <item id="rh-l1q5" type="quaestio">
-            <fileName filestem="rh-l1q5">rh-l1q5.xml</fileName>
-            <title>Quaestio 5</title>
-            <questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</questionTitle>
-            <manualRDFs>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
-            </manualRDFs>
-        </item>
-    </div>
-    <div id="rh-librum2" type="librum">
-        <head>Librum II</head>
-        <item id="rh-l2prin2" type="principia">
-            <fileName filestem="rh-l2prin2">rh-l2prin2.xml</fileName>
-            <title>Principia II</title>
-            <questionTitle>Principia: Circa principium secundi libri in quo arguitur de causalitate Dei respectu creaturae, quaero istam quaestionem: Utrum Deus sit causa effective omnium aliorum se.</questionTitle>
-        </item>
-        <item id="rh-l2q1" type="quaestio">
-            <fileName filestem="rh-l2q1">rh-l2q1.xml</fileName>
-            <title>Quaestio 1</title>
-            <questionTitle>Utrum creator generis humani iuste gubernat genus humanum.</questionTitle>
-        </item>
-        <item id="rh-l2q2" type="quaestio">
-            <fileName filestem="rh-l2q2">rh-l2q2.xml</fileName>
-            <title>Quaestio 2</title>
-            <questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</questionTitle>
-            <manualRDFs>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
-                <!-- f. i.5.vb of Lyon edition -->
-            </manualRDFs>
-        </item>
-        <item id="rh-l2q3" type="quaestio">
-            <fileName filestem="rh-l2q3">rh-l2q3.xml</fileName>
-            <title>Quaestio 3</title>
-            <questionTitle>Utrum angelo confirmatio conveniat deputari ad custodiendum hominem viatorem.</questionTitle>
-        </item>
-        <item id="rh-l2q4" type="quaestio">
-            <fileName filestem="rh-l2q4">rh-l2q4.xml</fileName>
-            <title>Quaestio 4</title>
-            <questionTitle>Utrum daemones libere peccaverunt.</questionTitle>
-        </item>
-        <item id="rh-l2q5" type="quaestio">
-            <fileName filestem="rh-l2q5">rh-l2q5.xml</fileName>
-            <title>Quaestio 5</title>
-            <questionTitle>Utrum stellae sint creatae ut per lumen et motum sint in signa et tempora.</questionTitle>
-        </item>
-    </div>
-    <div id="rh-librum3" type="librum">
-        <head>Librum III</head>
-        <item id="rh-l3prin3" type="principia">
-            <title>Principia III</title>
-            <questionTitle>Principia (?): Utrum Filius Dei assumpsit naturam humani in unitatem suppositi.
-or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</questionTitle>
-        </item>
-        <item id="rh-l3q1" type="quaestio">
-            <fileName filestem="rh-l3q1">rh-l3q1.xml</fileName>
-            <title>Quaestio 1</title>
-            <questionTitle>Utrum filius Dei incarnari potuit.</questionTitle>
-            <manualRDFs>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_6_18_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_7_20_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/> <!-- see Holcot pdf 347 -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/> <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/Suetonius"/> <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/> <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/Caligula"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/Aristotle"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/Ethics"/> <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
-                <!-- 2 augustine quote and anselm quote on PDF 352b -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/> <!-- see Holcot PDF 353a -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/> <!-- see Holcot PDF 355, q. 1, a. 4 -->
-                
-            </manualRDFs>
-        </item>
-    </div>
-    <div id="rh-librum4" type="librum">
-        <head>Librum IV</head>
-        <item id="rh-l4prin4" type="quaestio">
-            <fileName filestem="rh-l4prin4">rh-l4prin4.xml</fileName>
-            <title>Principia IV</title>
-            <questionTitle>Principia (IV): Utrum viator existens in gratia ordinate utendo et fruendo posset vitare omne peccatum.
-or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</questionTitle>
-        </item>
-        <item id="rh-l4q1" type="quaestio">
-            <fileName filestem="rh-l4q1">rh-l4q1.xml</fileName>
-            <title>Quaestio 1</title>
-            <questionTitle>Utrum baptismus rite susceptus conferat gratiam baptizatio.</questionTitle>
-        </item>
-        <item id="rh-l4q2" type="quaestio">
-            <fileName filestem="rh-l4q2">rh-l4q2.xml</fileName>
-            <title>Quaestio 2</title>
-            <questionTitle>Utrum confirmatio sit sacramentum.</questionTitle>
-        </item>
-        <item id="rh-l4q3" type="quaestio">
-            <fileName filestem="rh-l4q3">rh-l4q3.xml</fileName>
-            <title>Quaestio 3</title>
-            <questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat corpus Christi.</questionTitle>
-        <item id="rh-l4q4" type="quaestio">
-            
-            <fileName filestem="rh-l4q4">rh-l4q4.xml</fileName>
-            <title>Quaestio 4</title>
-            <questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</questionTitle>
-            </item>
-            <item id="rh-l4q5" type="quaestio">
+		<webbase>null</webbase>
+	</header>
+	<div id="body">
+		<div id="rh-librum1" type="librum">
+			<head>Librum I</head>
+			<item id="rh-l1prin1" type="principia">
+				<fileName filestem="rh-l1prin1" type="principia">rh-l1prin1.xml</fileName>
+				<title>Principia I</title>
+				<questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res
+					significata per complexum</questionTitle>
+			</item>
+			<item id="rh-l1q1" type="quaestio" subtype="librum1-prologus">
+				<fileName filestem="rh-l1q1">rh-l1q1.xml</fileName>
+				<title>Quaestio 1</title>
+				<questionTitle>Utrum quilibet viator existens in gratia, assentiendo articulis fidei,
+					mereatur vitam aeternam.</questionTitle>
+			</item>
+			<item id="rh-l1q2" type="quaestio">
+				<fileName filestem="rh-l1prin">rh-l1q2.xml</fileName>
+				<title>Quaestio 2</title>
+				<questionTitle>Utrum voluntas creata in utendo ut fruendo sit libera libertate
+					contradictionis.</questionTitle>
+			</item>
+			<item id="rh-l1q3" type="quaestio">
+				<fileName filestem="rh-l1q3">rh-l1q3.xml</fileName>
+				<title>Quaestio 3</title>
+				<questionTitle>Utrum viator tenatur frui soli Deo.</questionTitle>
+			</item>
+			<item id="rh-l1q4" type="quaestio">
+				<fileName filestem="rh-l1q4">rh-l1q4.xml</fileName>
+				<title>Quaestio 4</title>
+				<questionTitle>Utrum Deus sit tres personae distinctae.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Jews"/>
+				</manualRDFs>
+			</item>
+			<item id="rh-l1q5" type="quaestio">
+				<fileName filestem="rh-l1q5">rh-l1q5.xml</fileName>
+				<title>Quaestio 5</title>
+				<questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
+				</manualRDFs>
+			</item>
+		</div>
+		<div id="rh-librum2" type="librum">
+			<head>Librum II</head>
+			<item id="rh-l2prin2" type="principia">
+				<fileName filestem="rh-l2prin2">rh-l2prin2.xml</fileName>
+				<title>Principia II</title>
+				<questionTitle>Principia: Circa principium secundi libri in quo arguitur de causalitate Dei
+					respectu creaturae, quaero istam quaestionem: Utrum Deus sit causa effective omnium
+					aliorum se.</questionTitle>
+			</item>
+			<item id="rh-l2q1" type="quaestio">
+				<fileName filestem="rh-l2q1">rh-l2q1.xml</fileName>
+				<title>Quaestio 1</title>
+				<questionTitle>Utrum creator generis humani iuste gubernat genus humanum.</questionTitle>
+			</item>
+			<item id="rh-l2q2" type="quaestio">
+				<fileName filestem="rh-l2q2">rh-l2q2.xml</fileName>
+				<title>Quaestio 2</title>
+				<questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes
+						rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
+					<!-- f. i.5.vb of Lyon edition -->
+				</manualRDFs>
+			</item>
+			<item id="rh-l2q3" type="quaestio">
+				<fileName filestem="rh-l2q3">rh-l2q3.xml</fileName>
+				<title>Quaestio 3</title>
+				<questionTitle>Utrum angelo confirmatio conveniat deputari ad custodiendum hominem
+					viatorem.</questionTitle>
+			</item>
+			<item id="rh-l2q4" type="quaestio">
+				<fileName filestem="rh-l2q4">rh-l2q4.xml</fileName>
+				<title>Quaestio 4</title>
+				<questionTitle>Utrum daemones libere peccaverunt.</questionTitle>
+			</item>
+			<item id="rh-l2q5" type="quaestio">
+				<fileName filestem="rh-l2q5">rh-l2q5.xml</fileName>
+				<title>Quaestio 5</title>
+				<questionTitle>Utrum stellae sint creatae ut per lumen et motum sint in signa et
+					tempora.</questionTitle>
+			</item>
+		</div>
+		<div id="rh-librum3" type="librum">
+			<head>Librum III</head>
+			<item id="rh-l3prin3" type="principia">
+				<title>Principia III</title>
+				<questionTitle>Principia (?): Utrum Filius Dei assumpsit naturam humani in unitatem
+					suppositi. or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae
+					eternae.</questionTitle>
+			</item>
+			<item id="rh-l3q1" type="quaestio">
+				<fileName filestem="rh-l3q1">rh-l3q1.xml</fileName>
+				<title>Quaestio 1</title>
+				<questionTitle>Utrum filius Dei incarnari potuit.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes
+						rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_6_18_a"/>
+					<sctap:quotes
+						rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_7_20_a"/>
+					<sctap:quotes
+						rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_a"/>
+					<sctap:quotes
+						rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/>
+					<!-- see Holcot pdf 347 -->
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/>
+					<!-- see Holcot pdf 347 -->
+					<sctap:mentions rdf:resource="http://scta.info/resource/Suetonius"/>
+					<!-- see Holcot pdf 347 -->
+					<sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/>
+					<!-- see Holcot pdf 347 -->
+					<sctap:mentions rdf:resource="http://scta.info/resource/Caligula"/>
+					<sctap:mentions rdf:resource="http://scta.info/resource/Aristotle"/>
+					<sctap:mentions rdf:resource="http://scta.info/resource/Ethics"/>
+					<!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
+					<!-- 2 augustine quote and anselm quote on PDF 352b -->
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/>
+					<!-- see Holcot PDF 353a -->
+					<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/>
+					<!-- see Holcot PDF 355, q. 1, a. 4 -->
 
-                <fileName filestem="rh-l4q5">rh-l4q5.xml</fileName>
-                <title>Quaestio 5</title>
-                <questionTitle>Utrum quilibet sacerdos posset quemlibet absolvere a quocumque peccato.</questionTitle>
-            </item>
-            <item id="rh-l4q6" type="quaestio">
+				</manualRDFs>
+			</item>
+		</div>
+		<div id="rh-librum4" type="librum">
+			<head>Librum IV</head>
+			<item id="rh-l4prin4" type="quaestio">
+				<fileName filestem="rh-l4prin4">rh-l4prin4.xml</fileName>
+				<title>Principia IV</title>
+				<questionTitle>Principia (IV): Utrum viator existens in gratia ordinate utendo et fruendo
+					posset vitare omne peccatum. or: Utrum cum omni sacramento debito modo suscepto recipienti
+					sacramentum informans gratia conferatur.</questionTitle>
+			</item>
+			<item id="rh-l4q1" type="quaestio">
+				<fileName filestem="rh-l4q1">rh-l4q1.xml</fileName>
+				<title>Quaestio 1</title>
+				<questionTitle>Utrum baptismus rite susceptus conferat gratiam baptizatio.</questionTitle>
+			</item>
+			<item id="rh-l4q2" type="quaestio">
+				<fileName filestem="rh-l4q2">rh-l4q2.xml</fileName>
+				<title>Quaestio 2</title>
+				<questionTitle>Utrum confirmatio sit sacramentum.</questionTitle>
+			</item>
+			<item id="rh-l4q3" type="quaestio">
+				<fileName filestem="rh-l4q3">rh-l4q3.xml</fileName>
+				<title>Quaestio 3</title>
+				<questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat
+					corpus Christi.</questionTitle>
+			</item>
+			<item id="rh-l4q4" type="quaestio">
 
-                <fileName filestem="rh-l4q6">rh-l4q6.xml</fileName>
-                <title>Quaestio 6</title>
-                <questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad salutem.</questionTitle>
-                <manualRDFs>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_22"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_23"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a"/>
-                </manualRDFs>
-                
-            </item>
-            <item id="rh-l4q7" type="quaestio">
+				<fileName filestem="rh-l4q4">rh-l4q4.xml</fileName>
+				<title>Quaestio 4</title>
+				<questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</questionTitle>
+			</item>
+			<item id="rh-l4q5" type="quaestio">
 
-                <fileName filestem="rh-l4q7">rh-l4q7.xml</fileName>
-                <title>Quaestio 7</title>
-                <!-- question titles are mixed up here -->
-                <questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri proprio sacerdoti</questionTitle>
-                <manualRDFs>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b"/> 
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/ro8_3"/>
-                </manualRDFs>
-            </item>
-            <item id="rh-l4q8" type="quaestio">
+				<fileName filestem="rh-l4q5">rh-l4q5.xml</fileName>
+				<title>Quaestio 5</title>
+				<questionTitle>Utrum quilibet sacerdos posset quemlibet absolvere a quocumque
+					peccato.</questionTitle>
+			</item>
+			<item id="rh-l4q6" type="quaestio">
 
-                <fileName filestem="rh-l4q8">rh-l4q8.xml</fileName>
-                <title>Quaestio 8</title>
-                <questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</questionTitle>
-                <manualRDFs>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
-                    <sctap:references resource="http://scta.info/resource/lombardsententia/distinction/pl-b4d49"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io17_3"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/aa-consolatio-34"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a"/>
-                </manualRDFs>
-            </item>
-        </item>
-        <item id="rh-l4sermofinalis" type="sermo">
-            <!-- is this really a quaestion? shoud it be "sermo" or "collatio" -->
-            <title>Sermo finalis</title>
-            <questionTitle>Sermo finalis: ‘Cursum consummavi, fidem servavi,’ Tim. 4.  Sollicitudo scolastica studiosissima circa sacrae theologiae notitiam adquirendam comparatur amicitae amatoris qui per laboriosam militiam nititur quaerere sibi sponsam.</questionTitle>
-        </item>
-    </div>
-    </div>
+				<fileName filestem="rh-l4q6">rh-l4q6.xml</fileName>
+				<title>Quaestio 6</title>
+				<questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad
+					salutem.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes resource="http://scta.info/resource/quotation/io20_22"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/io20_23"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a"/>
+				</manualRDFs>
+
+			</item>
+			<item id="rh-l4q7" type="quaestio">
+
+				<fileName filestem="rh-l4q7">rh-l4q7.xml</fileName>
+				<title>Quaestio 7</title>
+				<!-- question titles are mixed up here -->
+				<questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen
+					commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri
+					proprio sacerdoti</questionTitle>
+				<manualRDFs>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/ro8_3"/>
+				</manualRDFs>
+			</item>
+			<item id="rh-l4q8" type="quaestio">
+
+				<fileName filestem="rh-l4q8">rh-l4q8.xml</fileName>
+				<title>Quaestio 8</title>
+				<questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</questionTitle>
+				<manualRDFs>
+					<sctap:quotes
+						resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
+					<sctap:references
+						resource="http://scta.info/resource/lombardsententia/distinction/pl-b4d49"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/io17_3"/>
+					<sctap:quotes
+						resource="http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/aa-consolatio-34"/>
+					<sctap:quotes resource="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a"/>
+					<sctap:quotes
+						resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a"/>
+				</manualRDFs>
+			</item>
+			<item id="rh-l4sermofinalis" type="sermo">
+				<!-- is this really a quaestion? shoud it be "sermo" or "collatio" -->
+				<title>Sermo finalis</title>
+				<questionTitle>Sermo finalis: ‘Cursum consummavi, fidem servavi,’ Tim. 4. Sollicitudo
+					scolastica studiosissima circa sacrae theologiae notitiam adquirendam comparatur amicitae
+					amatoris qui per laboriosam militiam nititur quaerere sibi sponsam.</questionTitle>
+			</item>
+		</div>
+	</div>
 
 </listofFileNames>

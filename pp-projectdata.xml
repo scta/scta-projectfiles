@@ -35,7 +35,7 @@
             <title>Reims</title>
             <initial>R</initial>
           </witness>
-          <witness id="E">
+          <!-- <witness id="E">
             <slug>erlang</slug>
             <title>Erlangen</title>
             <initial>E</initial>
@@ -49,7 +49,7 @@
             <slug>paris</slug>
             <title>Paris</title>
             <initial>P</initial>
-          </witness>
+          </witness>-->
         </hasWitnesses>
     </header>
     <div id="body">
@@ -60,9 +60,15 @@
                 <title>Principium I</title>
                 <hasWitnesses>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>1r</folio>
+                    	<folio>1v</folio>
+                    	<folio>2r</folio>
+                    	<folio>2v</folio>
+                    	<folio>3r</folio>
+                    	<folio>3v</folio>
+                    	<folio>4r</folio>
+                    	<folio>4v</folio>
+                    	<folio>5r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -71,9 +77,16 @@
                 <title>Principium II</title>
                 <hasWitnesses>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>124r</folio>
+                    	<folio>124v</folio>
+                    	<folio>125r</folio>
+                    	<folio>125v</folio>
+                    	<folio>126r</folio>
+                    	<folio>126v</folio>
+                    	<folio>127r</folio>
+                    	<folio>127v</folio>
+                    	<folio>128r</folio>
+                    	<folio>128v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -82,15 +95,17 @@
                 <title>Principium III</title>
                 <hasWitnesses>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>169v</folio>
+                    	<folio>170r</folio>
+                    	<folio>170v</folio>
+                    	<folio>171r</folio>
+                    	<folio>171v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
-                        <folio>148v</folio>
+                      <folio>148v</folio>
+                    	<folio>149r</folio>
+                    	<folio>149v</folio>
+                    	<folio>150r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -99,29 +114,37 @@
                 <title>Principium IV</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>197v</folio>
+                    	<folio>198r</folio>
+                    	<folio>198v</folio>
+                    	<folio>199r</folio>
+                    	<folio>199v</folio>
+                    	<folio>200r</folio>
+                    	<folio>200v</folio>
+                    	<folio>201r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>358r</folio>
+                    	<folio>358v</folio>
+                    	<folio>359r</folio>
+                    	<folio>359v</folio>
+                    	<folio>360r</folio>
+                    	<folio>360v</folio>
+                    	<folio>361r</folio>
+                    	<folio>361v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
-                        <folio>211v</folio>
-                        <folio>212r</folio>
-                        <folio>212v</folio>
-                        <folio>213r</folio>
-                        <folio>213v</folio>
-                        <folio>214r</folio>
-                        <folio>214v</folio>
-                        <folio>215r</folio>
-                        <folio>215v</folio>
-                        <folio>216r</folio>
+                    	<folio>211r</folio>
+                      <folio>211v</folio>
+                      <folio>212r</folio>
+                      <folio>212v</folio>
+                      <folio>213r</folio>
+                      <folio>213v</folio>
+                      <folio>214r</folio>
+                      <folio>214v</folio>
+                      <folio>215r</folio>
+                      <folio>215v</folio>
+                      <folio>216r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -133,18 +156,12 @@
                 <title>Lectio 1, De fide</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                      <slug>reims</slug>
-                      <title>Reims</title>
-                      <initial>R</initial>
                       <folio>1r</folio>
                       <folio>1v</folio>
                       <folio>2r</folio>
                       <folio>2v</folio>
                     </witness>
                     <witness ref="#V">
-                      <slug>vat</slug>
-                      <title>Vatican</title>
-                      <initial>V</initial>
                       <folio>5r</folio>
                       <folio>5v</folio>
                       <folio>6r</folio>
@@ -152,18 +169,12 @@
                       <folio>7r</folio>
                     </witness>
                     <witness ref="#SV">
-                      <slug>svict</slug>
-                      <title>St. Victor</title>
-                      <initial>SV</initial>
                       <folio>187r</folio>
                       <folio>187v</folio>
                       <folio>188r</folio>
                       <folio>188v</folio>
                     </witness>
                     <witness ref="#S">
-                      <slug>sorb</slug>
-                      <title>Sorbonne</title>
-                      <initial>S</initial>
                       <folio>2r</folio>
                       <folio>2v</folio>
                       <folio>3r</folio>
@@ -177,34 +188,22 @@
                 <title>Lectio 2, De fide</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                      <slug>reims</slug>
-                      <title>Reims</title>
-                      <initial>R</initial>
                       <folio>2v</folio>
                       <folio>3r</folio>
                       <folio>3v</folio>
                     </witness>
                     <witness ref="#V">
-                      <slug>vat</slug>
-                      <title>Vatican</title>
-                      <initial>V</initial>
                       <folio>7r</folio>
                       <folio>7v</folio>
                       <folio>8r</folio>
                       <folio>8v</folio>
                     </witness>
                     <witness ref="#SV">
-                      <slug>svict</slug>
-                      <title>St. Victor</title>
-                      <initial>SV</initial>
                       <folio>188v</folio>
                       <folio>189r</folio>
                       <folio>189v</folio>
                     </witness>
                     <witness ref="#S">
-                      <slug>sorb</slug>
-                      <title>Sorbonne</title>
-                      <initial>S</initial>
                       <folio>4r</folio>
                       <folio>4v</folio>
                       <folio>5r</folio>
@@ -216,33 +215,21 @@
                 <title>Lectio 3, De fide</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                      <slug>reims</slug>
-                      <title>Reims</title>
-                      <initial>R</initial>
                       <folio>3v</folio>
                       <folio>4r</folio>
                       <folio>4v</folio>
                     </witness>
                     <witness ref="#V">
-                      <slug>vat</slug>
-                      <title>Vatican</title>
-                      <initial>V</initial>
                       <folio>8v</folio>
                       <folio>9r</folio>
                       <folio>9v</folio>
                     </witness>
                     <witness ref="#SV">
-                      <slug>svict</slug>
-                      <title>St. Victor</title>
-                      <initial>SV</initial>
                       <folio>189v</folio>
                       <folio>190r</folio>
                       <folio>190v</folio>
                     </witness>
                     <witness ref="#S">
-                      <slug>sorb</slug>
-                      <title>Sorbonne</title>
-                      <initial>S</initial>
                       <folio>5r</folio>
                       <folio>5v</folio>
                       <folio>6r</folio>
@@ -255,35 +242,24 @@
                 <title>Lectio 4, De fide</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                      <slug>reims</slug>
-                      <title>Reims</title>
-                      <initial>R</initial>
                       <folio>4v</folio>
                       <folio>5r</folio>
                       <folio>5v</folio>
                       <folio>6r</folio>
                     </witness>
                     <witness ref="#V">
-                      <slug>vat</slug>
-                      <title>Vatican</title>
-                      <initial>V</initial>
                       <folio>9v</folio>
                       <folio>10r</folio>
                       <folio>10v</folio>
                       <folio>11r</folio>
                     </witness>
                     <witness ref="#SV">
-                      <slug>svict</slug>
-                      <title>St. Victor</title>
-                      <initial>SV</initial>
                       <folio>190v</folio>
                       <folio>191r</folio>
                       <folio>191v</folio>
                     </witness>
                     <witness ref="#S">
-                      <slug>sorb</slug>
-                      <title>Sorbonne</title>
-                      <initial>S</initial>
+                      
                       <folio>6v</folio>
                       <folio>7r</folio>
                       <folio>7v</folio>
@@ -2996,15 +2972,20 @@
                 <hasWitnesses>
                     <witness ref="#R">
                     	<folio>143r</folio>
+                    	<folio>144r</folio>
                     </witness>
                     <witness ref="#V">
                     	<folio>183r</folio>
+                    	<folio>184v</folio>
                     </witness>
                     <witness ref="#SV">
                     	<folio>310r</folio>
+                    	<folio>311r</folio>
                     </witness>
                     <witness ref="#S">
                     	<folio>161r</folio>
+                    	<folio>161v</folio>
+                    	<folio>161Br</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3013,24 +2994,25 @@
                 <title>Lectio 92, de Caritate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>144r</folio>
+                    	<folio>144v</folio>
+                    	<folio>145r</folio>
+                    	<folio>145v</folio>
+                    	<folio>146r</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>184v</folio>
+                    	<folio>186v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>311r</folio>
+                    	<folio>312r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>161Br</folio>
+                    	<folio>161Bv</folio>
+                    	<folio>162r</folio>
+                    	<folio>162v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3039,24 +3021,24 @@
                 <title>Lectio 93, de Caritate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>146r</folio>
+                    	<folio>146v</folio>
+                    	<folio>147r</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>186v</folio>
+                    	<folio>187r</folio>
+                    	<folio>187v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>312r</folio>
+                    	<folio>312v</folio>
+                    	<folio>313r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>162v</folio>
+                    	<folio>163r</folio>
+                    	<folio>163v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3065,24 +3047,21 @@
                 <title>Lectio 94, de Caritate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>147r</folio>
+                    	<folio>147v</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>187v</folio>
+                    	<folio>188r</folio>
+                    	<folio>188v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>313r</folio>
+                    	<folio>313v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>163v</folio>
+                    	<folio>164r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3094,25 +3073,21 @@
                 <title>Lectio 95, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>147v</folio>
+                    	<folio>148r</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>188v</folio>
+                    	<folio>189r</folio>
                     </witness>
-                    <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                		<witness ref="#SV">
+                    	<folio>313v</folio>
+                			<folio>314r</folio>
                     </witness>
-                    <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
-                    </witness>
+                		<witness ref="#S">
+                			<folio>164r</folio>
+                			<folio>164v</folio>
+                		</witness>
                 </hasWitnesses>
             </item>
             <item live="true" type="lectio">
@@ -3120,25 +3095,30 @@
                 <title>Lectio 96, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>148r</folio>
+                    	<folio>148v</folio>
+                    	<folio>149r</folio>
+                    	<folio>149v</folio>
+                    	<folio>150r</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
-                    </witness>
-                    <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>189r</folio>
+                    	<folio>189v</folio>
+                    	<folio>190r</folio>
+                    	<folio>190v</folio>
+                    	<folio>191r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>314r</folio>
+                    	<folio>315v</folio>
                     </witness>
+	                	<witness ref="#S">
+	                		<folio>164v</folio>
+	                		<folio>165r</folio>
+	                		<folio>165v</folio>
+	                		<folio>166r</folio>
+	                		<folio>166v</folio>
+	                	</witness>
                 </hasWitnesses>
             </item>
             <item live="true" type="lectio">
@@ -3146,24 +3126,21 @@
                 <title>Lectio 97, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>150r</folio>
+                    	<folio>152r</folio>
                     </witness>
                     <witness ref="#V">
-                        <slug>vat</slug>
-                        <title>Vatican</title>
-                        <initial>V</initial>
+                    	<folio>191r</folio>
+                    	<folio>191v</folio>
+                    	<folio>192r</folio>
                     </witness>
+	                	<witness ref="#SV">
+	                		<folio>315v</folio>
+	                		<folio>317r</folio>
+	                	</witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
-                    </witness>
-                    <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>166v</folio>
+                    	<folio>168r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3172,19 +3149,22 @@
                 <title>Lectio 98, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>152r</folio>
+                    	<folio>152v</folio>
+                    	<folio>153r</folio>
+                    	<folio>153v</folio>
+                    	<folio>154r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>168r</folio>
+                    	<folio>168v</folio>
+                    	<folio>169r</folio>
+                    	<folio>169v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>317r</folio>
+                    	<folio>317v</folio>
+                    	<folio>318r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3193,19 +3173,22 @@
                 <title>Lectio 99, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>154r</folio>
+                    	<folio>154v</folio>
+                    	<folio>155r</folio>
+                    	<folio>155v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>169v</folio>
+                    	<folio>170r</folio>
+                    	<folio>170v</folio>
+                    	<folio>171r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>318r</folio>
+                    	<folio>318v</folio>
+                    	<folio>319r</folio>
+                    	<folio>319v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3214,20 +3197,23 @@
                 <title>Lectio 100, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>155v</folio>
+                    	<folio>156r</folio>
+                    	<folio>156v</folio>
+                    	<folio>157v</folio>
+                    	<folio>157r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>171r</folio>
+                    	<folio>171v</folio>
+                    	<folio>172r</folio>
+                    	<folio>172v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
-                    </witness>
+                    	<folio>319v</folio>
+                    	<folio>320r</folio>
+                    	<folio>320v</folio>
+                   	</witness>
                 </hasWitnesses>
             </item>
             <item live="true" type="lectio">
@@ -3235,19 +3221,20 @@
                 <title>Lectio 101, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>157r</folio>
+                    	<folio>157v</folio>
+                    	<folio>158r</folio>
+                    	<folio>158v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>172v</folio>
+                    	<folio>173r</folio>
+                    	<folio>173v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>320v</folio>
+                    	<folio>321r</folio>
+                    	<folio>321v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3256,19 +3243,22 @@
                 <title>Lectio 102, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>158v</folio>
+                    	<folio>159r</folio>
+                    	<folio>159v</folio>
+                    	<folio>160r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>173v</folio>
+                    	<folio>174r</folio>
+                    	<folio>174v</folio>
+                    	<folio>175r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>321v</folio>
+                    	<folio>322r</folio>
+                    	<folio>322v</folio>
+                    	<folio>323r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3277,19 +3267,21 @@
                 <title>Lectio 103, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>160r</folio>
+                    	<folio>160v</folio>
+                    	<folio>161r</folio>
+                    	<folio>161v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>175r</folio>
+                    	<folio>175v</folio>
+                    	<folio>176r</folio>
+                    	<folio>176v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>323r</folio>
+                    	<folio>323v</folio>
+                    	<folio>324r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3298,19 +3290,22 @@
                 <title>Lectio 104, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>161v</folio>
+                    	<folio>162r</folio>
+                    	<folio>162v</folio>
+                    	<folio>163r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>176v</folio>
+                    	<folio>177r</folio>
+                    	<folio>177v</folio>
+                    	<folio>178r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>324r</folio>
+                    	<folio>324v</folio>
+                    	<folio>325r</folio>
+                    	<folio>325v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3319,19 +3314,20 @@
                 <title>Lectio 105, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>163r</folio>
+                    	<folio>163v</folio>
+                    	<folio>164r</folio>
+                    	<folio>164v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>178r</folio>
+                    	<folio>178v</folio>
+                    	<folio>179r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>325v</folio>
+                    	<folio>326r</folio>
+                    	<folio>326v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3340,19 +3336,27 @@
                 <title>Lectio 106, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>164v</folio>
+                    	<folio>165r</folio>
+                    	<folio>165v</folio>
+                    	<folio>166r</folio>
+                    	<folio>166v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>179r</folio>
+                    	<folio>179v</folio>
+                    	<folio>180r</folio>
+                    	<folio>180v</folio>
+                    	<folio>181r</folio>
+                    	<folio>181v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>326v</folio>
+                    	<folio>327r</folio>
+                    	<folio>327v</folio>
+                    	<folio>328r</folio>
+                    	<folio>328v</folio>
+                    	<folio>329r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3361,19 +3365,20 @@
                 <title>Lectio 107, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>166v</folio>
+                    	<folio>167r</folio>
+                    	<folio>167v</folio>
+                    	<folio>168r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>181v</folio>
+                    	<folio>182r</folio>
+                    	<folio>182v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>329r</folio>
+                    	<folio>329v</folio>
+                    	<folio>330r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3382,19 +3387,18 @@
                 <title>Lectio 108, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>168r</folio>
+                    	<folio>168v</folio>
+                    	<folio>169r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>182v</folio>
+                    	<folio>183r</folio>
+                    	<folio>183v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>330r</folio>
+                    	<folio>330v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3403,19 +3407,22 @@
                 <title>Lectio 109, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>169r</folio>
+                    	<folio>169v</folio>
+                    	<folio>170r</folio>
+                    	<folio>170v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>183v</folio>
+                    	<folio>184r</folio>
+                    	<folio>184v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>330v</folio>
+                    	<folio>330v</folio>
+                    	<folio>331r</folio>
+                    	<folio>331v</folio>
+                    	<folio>332r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3424,19 +3431,22 @@
                 <title>Lectio 110, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>170v</folio>
+                    	<folio>171r</folio>
+                    	<folio>171v</folio>
+                    	<folio>172r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>184v</folio>
+                    	<folio>185r</folio>
+                    	<folio>185v</folio>
+                    	<folio>186r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>332r</folio>
+                    	<folio>332v</folio>
+                    	<folio>333r</folio>
+                    	<folio>333v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3445,19 +3455,25 @@
                 <title>Lectio 111, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>172r</folio>
+                    	<folio>172v</folio>
+                    	<folio>173r</folio>
+                    	<folio>173v</folio>
+                    	<folio>174r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>186r</folio>
+                    	<folio>186v</folio>
+                    	<folio>187r</folio>
+                    	<folio>187v</folio>
+                    	<folio>188r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>333v</folio>
+                    	<folio>334r</folio>
+                    	<folio>334v</folio>
+                    	<folio>335r</folio>
+                    	<folio>335v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3466,19 +3482,23 @@
                 <title>Lectio 112, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>174r</folio>
+                    	<folio>174v</folio>
+                    	<folio>175r</folio>
+                    	<folio>175v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>188r</folio>
+                    	<folio>188v</folio>
+                    	<folio>189r</folio>
+                    	<folio>189v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>335v</folio>
+                    	<folio>336r</folio>
+                    	<folio>336v</folio>
+                    	<folio>337r</folio>
+                    	<folio>337v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3487,19 +3507,19 @@
                 <title>Lectio 113, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>175v</folio>
+                    	<folio>176r</folio>
+                    	<folio>176v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>189v</folio>
+                    	<folio>190r</folio>
+                    	<folio>190v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>336v</folio>
+                    	<folio>337r</folio>
+                    	<folio>337v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3508,19 +3528,23 @@
                 <title>Lectio 114, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>176v</folio>
+                    	<folio>177r</folio>
+                    	<folio>177v</folio>
+                    	<folio>178r</folio>
+                    	<folio>178v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>190v</folio>
+                    	<folio>191r</folio>
+                    	<folio>191v</folio>
+                    	<folio>192r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>337v</folio>
+                    	<folio>338r</folio>
+                    	<folio>338v</folio>
+                    	<folio>339r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3529,19 +3553,21 @@
                 <title>Lectio 115, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>178v</folio>
+                    	<folio>179r</folio>
+                    	<folio>179v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>192r</folio>
+                    	<folio>192v</folio>
+                    	<folio>193r</folio>
+                    	<folio>193v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>339r</folio>
+                    	<folio>339v</folio>
+                    	<folio>340r</folio>
+                    	<folio>340v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3550,19 +3576,23 @@
                 <title>Lectio 116, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>179v</folio>
+                    	<folio>180r</folio>
+                    	<folio>180v</folio>
+                    	<folio>181r</folio>
+                    	<folio>181v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>193v</folio>
+                    	<folio>194r</folio>
+                    	<folio>194v</folio>
+                    	<folio>195r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>340v</folio>
+                    	<folio>341r</folio>
+                    	<folio>341v</folio>
+                    	<folio>342r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3571,19 +3601,23 @@
                 <title>Lectio 117, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>181v</folio>
+                    	<folio>182r</folio>
+                    	<folio>182v</folio>
+                    	<folio>183r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>195r</folio>
+                    	<folio>195v</folio>
+                    	<folio>196r</folio>
+                    	<folio>196v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>342r</folio>
+                    	<folio>342v</folio>
+                    	<folio>343r</folio>
+                    	<folio>343v</folio>
+                    	<folio>344r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3592,19 +3626,25 @@
                 <title>Lectio 118, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>183r</folio>
+                    	<folio>183v</folio>
+                    	<folio>184r</folio>
+                    	<folio>184v</folio>
+                    	<folio>185r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>196v</folio>
+                    	<folio>197r</folio>
+                    	<folio>197v</folio>
+                    	<folio>198r</folio>
+                    	<folio>198v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>344r</folio>
+                    	<folio>344v</folio>
+                    	<folio>345r</folio>
+                    	<folio>345v</folio>
+                    	<folio>346r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3613,19 +3653,23 @@
                 <title>Lectio 119, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>185r</folio>
+                    	<folio>185v</folio>
+                    	<folio>186r</folio>
+                    	<folio>186v</folio>
+                    	<folio>187r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>198v</folio>
+                    	<folio>199r</folio>
+                    	<folio>199v</folio>
+                    	<folio>200r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>346r</folio>
+                    	<folio>346v</folio>
+                    	<folio>347r</folio>
+                    	<folio>347v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3634,19 +3678,22 @@
                 <title>Lectio 120, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>187r</folio>
+                    	<folio>187v</folio>
+                    	<folio>188r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>200r</folio>
+                    	<folio>200v</folio>
+                    	<folio>201r</folio>
+                    	<folio>201v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>347v</folio>
+                    	<folio>247r</folio>
+                    	<folio>248r</folio>
+                    	<folio>248v</folio>
+                    	<folio>349r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3655,19 +3702,21 @@
                 <title>Lectio 121, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>188r</folio>
+                    	<folio>188v</folio>
+                    	<folio>189r</folio>
+                    	<folio>189v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>201v</folio>
+                    	<folio>202r</folio>
+                    	<folio>202v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>349r</folio>
+                    	<folio>349v</folio>
+                    	<folio>350r</folio>
+                    	<folio>350v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3676,19 +3725,18 @@
                 <title>Lectio 122, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>189v</folio>
+                    	<folio>190r</folio>
+                    	<folio>190v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>208r</folio>
+                    	<folio>208v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>350v</folio>
+                    	<folio>351r</folio>
+                    	<folio>351v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3697,19 +3745,19 @@
                 <title>Lectio 123, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>190v</folio>
+                    	<folio>191r</folio>
+                    	<folio>191v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>204r</folio>
+                    	<folio>204v</folio>
+                    	<folio>205r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>351v</folio>
+                    	<folio>352r</folio>
+                    	<folio>352v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3718,19 +3766,21 @@
                 <title>Lectio 124, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>191v</folio>
+                    	<folio>192r</folio>
+                    	<folio>192v</folio>
+                    	<folio>193r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>205r</folio>
+                    	<folio>205v</folio>
+                    	<folio>206r</folio>
+                    	<folio>206v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>352v</folio>
+                    	<folio>353r</folio>
+                    	<folio>353v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3739,19 +3789,21 @@
                 <title>Lectio 125, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>193r</folio>
+                    	<folio>193v</folio>
+                    	<folio>194r</folio>
+                    	<folio>194v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>206v</folio>
+                    	<folio>207r</folio>
+                    	<folio>207v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>353v</folio>
+                    	<folio>354r</folio>
+                    	<folio>354v</folio>
+                    	<folio>355r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3760,19 +3812,22 @@
                 <title>Lectio 126, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>194v</folio>
+                    	<folio>195r</folio>
+                    	<folio>195v</folio>
+                    	<folio>196r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>203r</folio>
+                    	<folio>203v</folio>
+                    	<folio>209r</folio>
+                    	<folio>209v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>355r</folio>
+                    	<folio>355v</folio>
+                    	<folio>356r</folio>
+                    	<folio>356v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3781,19 +3836,22 @@
                 <title>Lectio 127, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>196r</folio>
+                    	<folio>196v</folio>
+                    	<folio>197r</folio>
+                    	<folio>197v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>209v</folio>
+                    	<folio>210r</folio>
+                    	<folio>210v</folio>
+                    	<folio>211r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>356v</folio>
+                    	<folio>357r</folio>
+                    	<folio>357v</folio>
+                    	<folio>358r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3802,19 +3860,21 @@
                 <title>Lectio 128, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>201r</folio>
+                    	<folio>201v</folio>
+                    	<folio>202r</folio>
+                    	<folio>202v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>216r</folio>
+                    	<folio>216v</folio>
+                    	<folio>217r</folio>
+                    	<folio>217v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>361v</folio>
+                    	<folio>362r</folio>
+                    	<folio>362v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3823,19 +3883,24 @@
                 <title>Lectio 129, de Libertate</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>202v</folio>
+                    	<folio>203r</folio>
+                    	<folio>203v</folio>
+                    	<folio>204r</folio>
+                    	<folio>204v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>217v</folio>
+                    	<folio>218r</folio>
+                    	<folio>218v</folio>
+                    	<folio>219r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>362v</folio>
+                    	<folio>363r</folio>
+                    	<folio>363v</folio>
+                    	<folio>364r</folio>
+                    	<folio>364v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3847,19 +3912,20 @@
                 <title>Lectio 130, de Incarnatione</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>204v</folio>
+                    	<folio>205r</folio>
+                    	<folio>205v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>219r</folio>
+                    	<folio>219v</folio>
+                    	<folio>220r</folio>
+                    	<folio>220v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>364v</folio>
+                    	<folio>365r</folio>
+                    	<folio>365v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3868,19 +3934,23 @@
                 <title>Lectio 131, de Incarnatione</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>205v</folio>
+                    	<folio>206r</folio>
+                    	<folio>206v</folio>
+                    	<folio>207r</folio>
+                    	<folio>207v</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>220v</folio>
+                    	<folio>221r</folio>
+                    	<folio>221v</folio>
+                    	<folio>222r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>365v</folio>
+                    	<folio>366r</folio>
+                    	<folio>366v</folio>
+                    	<folio>367r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3889,19 +3959,25 @@
                 <title>Lectio 132, de Incarnatione</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>207v</folio>
+                    	<folio>208r</folio>
+                    	<folio>208v</folio>
+                    	<folio>209r</folio>
+                    	<folio>209v</folio>
+                    	<folio>210r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>222r</folio>
+                    	<folio>222v</folio>
+                    	<folio>223r</folio>
+                    	<folio>223v</folio>
+                    	<folio>224r</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>367r</folio>
+                    	<folio>367v</folio>
+                    	<folio>368r</folio>
+                    	<folio>368v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -3910,25 +3986,52 @@
                 <title>Lectio 133, de Incarnatione</title>
                 <hasWitnesses>
                     <witness ref="#R">
-                        <slug>reims</slug>
-                        <title>Reims</title>
-                        <initial>R</initial>
+                    	<folio>210r</folio>
+                    	<folio>210v</folio>
+                    	<folio>211r</folio>
+                    	<folio>211v</folio>
+                    	<folio>212r</folio>
                     </witness>
                     <witness ref="#S">
-                        <slug>sorb</slug>
-                        <title>Sorbonne</title>
-                        <initial>S</initial>
+                    	<folio>224r</folio>
+                    	<folio>224v</folio>
+                    	<folio>225r</folio>
+                    	<folio>225v</folio>
                     </witness>
                     <witness ref="#SV">
-                        <slug>svict</slug>
-                        <title>St. Victor</title>
-                        <initial>SV</initial>
+                    	<folio>368v</folio>
+                    	<folio>369r</folio>
+                    	<folio>369v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
             <item live="true" type="lectio">
                 <fileName filestem="lectio134">lectio134.xml</fileName>
                 <title>Lectio 134, de Incarnatione</title>
+	            	<hasWitnesses>
+	            		<witness ref="#R">
+	            			<folio>212r</folio>
+	            			<folio>212v</folio>
+	            			<folio>213r</folio>
+	            			<folio>213v</folio>
+	            		</witness>
+	            		<witness ref="#S">
+	            			<folio>225v</folio>
+	            			<folio>226r</folio>
+	            			<folio>226v</folio>
+	            			<folio>227r</folio>
+	            		</witness>
+	            		<witness ref="#SV">
+	            			<folio>369v</folio>
+	            			<folio>370r</folio>
+	            			<folio>370v</folio>
+	            			<folio>371r</folio>
+	            			<folio>371v</folio>
+	            			<folio>372r</folio>
+	            			<folio>372v</folio>
+	            			<folio>373r</folio>
+	            		</witness>
+	            	</hasWitnesses>
             </item>
         </div>
     </div>
