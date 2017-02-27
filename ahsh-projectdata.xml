@@ -13,6 +13,15 @@
 		<questionListSource>Quaracchi</questionListSource>
 		<questionListOriginalEditor/>
 		<questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+	  <description>The Summa Halensis by Alexander of Hales</description>
+	  <sponsors>
+	    <sponsor id="early-franciscans">
+	      <name>ERC Project 714427: Authority and Innovation in Early Franciscan Thought</name>
+	      <logo>https://www.mathi.uni-heidelberg.de/~venjakob/ERC_transparent.png</logo>
+	      <link>http://lydiaschumacher.wixsite.com/earlyfranciscans</link>
+	    </sponsor>
+	    
+	  </sponsors>
 		<hasWitnesses>
 			<witness id="Q">
 				<slug>quaracchi1924</slug>
@@ -29,9 +38,19 @@
 				<div id="ahsh-l1tinq1" type="quaestio">
 					<head>Q. I. </head>
 					<questionTitle>De doctrina Theologiae.</questionTitle>
+				  <item id="ahsh-l1tinq1prae" type="praeambula">
+				    <fileName filestem="ahsh-l1tinq1prae"/>
+				    <title>I, T. Intro., Q. 1, Praeambula</title>
+				    <questionTitle/>
+				    <hasWitnesses>
+				      <witness ref="#Q">
+				        <folio>1</folio>
+				      </witness>
+				    </hasWitnesses>
+				  </item>
 					<item id="ahsh-l1tinq1c1" type="capitulus">
 						<fileName filestem="ahsh-l1tinq1c1"/>
-						<title>c. 1.</title>
+					  <title>I, T. Intro., Q. 1, c. 1</title>
 						<questionTitle>Utrum doctrina Theologiae sit scientia</questionTitle>
 						<hasWitnesses>
 							<witness ref="#Q">
@@ -44,7 +63,7 @@
 					</item>
 					<item id="ahsh-l1tinq1c2" type="capitulus">
 						<fileName filestem="ahsh-l1tinq1c2"/>
-						<title>c. 2.</title>
+					  <title>I, T. Intro., Q. 1, c. 2</title>
 						<questionTitle> De distinctione doctrinae sacrae ab aliis scientiis</questionTitle>
 						<hasWitnesses>
 							<witness ref="#Q">
@@ -55,7 +74,7 @@
 					</item>
 					<item id="ahsh-l1tinq1c3">
 						<fileName filestem="ahsh-l1tinq1c3"/>
-						<title>c. 3.</title>
+					  <title>I, T. Intro., Q. 1, c. 3</title>
 						<questionTitle>De quo sit scientia S. Scripturae</questionTitle>
 						<hasWitnesses>
 							<witness ref="#Q">
@@ -67,15 +86,8 @@
 					</item>
 					<item id="ahsh-l1tinq1c4">
 						<fileName filestem="ahsh-l1tinq1c4"/>
-						<title>c. 4</title>
+					  <title>I, T. Intro., Q. 1, c. 4</title>
 						<questionTitle>De modo traditionis S. Scripturae</questionTitle>
-						<!-- a. I. An mod us S. Scripturae sit artificialis vel scicntialis.
-						a. 2. An modus S. Scripturae sit certitudinalis
-						a. 3. An modus S. Scripturae sit uniformis vel multiplex .
-						a. 4.
-						I. De multiformitate modorum S. Scripturae
-						II. Quaeritur iterum de sensu litterali an fundetur supra verum
-				-->
 						<hasWitnesses>
 							<witness ref="#Q">
 								<folio>7</folio>
@@ -85,27 +97,34 @@
 								<folio>11</folio>
 								<folio>12</folio>
 								<folio>13</folio>
-								<folio>14</folio>
-								<folio>15</folio>
 							</witness>
 						</hasWitnesses>
 					</item>
-				</div>
+			</div>
 				<div id="ahsh-l1tinq2" type="quaestio">
-					<head>Q. II.</head>
+				  <head>I, T. Intro., Q. 2.</head>
 					<questionTitle>De cognitione Dei in via.</questionTitle>
+				  <item id="ahsh-l1tinq2prae" type="praeambula">
+				    <fileName filestem="ahsh-l1tinq2prae"/>
+				    <title>I, T. Intro., Q. 2, Praeambula.</title>
+				    <questionTitle/>
+				    <hasWitnesses>
+				      <witness ref="#Q">
+				        <folio>14</folio>
+				      </witness>
+				    </hasWitnesses>
+				  </item>
 					<div id="ahsh-l1tinq2m1">
-						<head>M. I.</head>
+					  <head>I, T. Intro., Q. 2, M. I</head>
 						<questionTitle>De cognitione Dei in via ex parte cognoscibilis.</questionTitle>
 						<item id="ahsh-l1tinq2m1c1">
 							<fileName filestem="ahsh-l1tinq2m1c1"/>
-							<title>Q. II, M I, c. 1.</title>
+						  <title>I, T. Intro., Q. 2, M. I., c. 1</title>
 							<questionTitle>An cognoscibilis sit Deus animae humanae</questionTitle>
 							<hasWitnesses>
 								<witness ref="#Q">
-									<folio>15</folio>
+								  <folio>15</folio>
 									<folio>16</folio>
-									<folio>17</folio>
 								</witness>
 							</hasWitnesses>
 						</item>
@@ -117,6 +136,7 @@
 							<hasWitnesses>
 								<witness ref="#Q">
 									<folio>17</folio>
+								  <folio>18</folio>
 								</witness>
 							</hasWitnesses>
 						</item>
@@ -127,7 +147,6 @@
 								personarum</questionTitle>
 							<hasWitnesses>
 								<witness ref="#Q">
-									<folio>17</folio>
 									<folio>18</folio>
 									<folio>19</folio>
 									<folio>20</folio>
@@ -175,8 +194,7 @@
 						<item>
 							<fileName filestem="ahsh-l1tinq2m2c1"/>
 							<title>Q. II, M. II, c. 1.</title>
-							<questionTitle>Utrum sit in naturali potentia cognoscere Deum, an requiratur gratia
-								s11- peraddita</questionTitle>
+							<questionTitle>Utrum sit in naturali potentia cognoscere Deum, an requiratur gratia superaddita</questionTitle>
 							<hasWitnesses>
 								<witness ref="#Q">
 									<folio>23</folio>
@@ -225,13 +243,9 @@
 							<title>Q. II, M. II, c. 5</title>
 							<questionTitle>De cognitione naturali, quam de Deo habuit homo in primo
 								statu.</questionTitle>
-							<!-- 
-						a. I. Utrum homo in primo statu cognosceret per creaturas Deum .
-						a. 2. Utrum Adam melius in prirno statu cognosceret Deum per rationem
-						q uam modo cognoscatur per fidem
-					-->
-							<hasWitnesses>
+						  <hasWitnesses>
 								<witness ref="#Q">
+								  <folio>28</folio>
 									<folio>29</folio>
 									<folio>30</folio>
 								</witness>
@@ -315,6 +329,16 @@
 						<div id="ahsh-l1p1i1t1q1" type="quaestio">
 							<head>Q. I</head>
 							<questionTitle>De divinae substantiae essentialitate.</questionTitle>
+						  <item id="ahsh-l1p1i1t1q1prae">
+						    <fileName filestem="ahsh-l1p1i1t1q1prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 1, Q. 1, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>40</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<item id="ahsh-l1p1i1t1q1c1">
 								<fileName filestem="ahsh-l1p1i1t1q1c1"/>
 								<title>I, P. 1, Inq. 1, Tract. 1, Q. 1, c. 1</title>
@@ -347,6 +371,16 @@
 						<div id="ahsh-l1p1i1t1q2" type="quaestio">
 							<head>Q. II</head>
 							<questionTitle>De immutabilitate divinae essentiae.</questionTitle>
+						  <item id="ahsh-l1p1i1t1q2prae">
+						    <fileName filestem="ahsh-l1p1i1t1q2prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 1, Q. 2, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>45</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<item id="ahsh-l1p1i1t1q2c1">
 								<fileName filestem="ahsh-l1p1i1t1q2c1"/>
 								<title>I, P. 1, Inq. 1, Tract. 1, Q. 2, c. 1</title>
@@ -388,6 +422,16 @@
 						<div id="ahsh-l1p1i1t1q3" type="quaestio">
 							<head>Q. III</head>
 							<questionTitle>De simplicitate divinae essentiae.</questionTitle>
+						  <item id="ahsh-l1p1i1t1q3prae">
+						    <fileName filestem="ahsh-l1p1i1t1q3prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 1, Q. 3, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>50</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<item>
 								<fileName filestem="ahsh-l1p1i1t1q3c1"/>
 								<title>I, P. 1, Inq. 1, Tract. 1, Q. 3, c. 1</title>
@@ -431,7 +475,17 @@
 							<head>Q. I</head>
 							<questionTitle>De immensitate Dei quantum ad se seu de infinitate
 								eius.</questionTitle>
-							<item >
+						  <item id="ahsh-l1p1i1t2q1prae">
+						    <fileName filestem="ahsh-l1p1i1t2q1prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 2, Q. 1, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>54</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
+							<item>
 								<fileName filestem="ahsh-l1p1i1t2q1c1"/>
 								<title>I, P. 1, Inq. 1, Tract. 2, Q. 1, c. 1</title>
 								<questionTitle>Utrum divina essentia sit finita vel infinita</questionTitle>
@@ -492,6 +546,16 @@
 							<div id="ahsh-l1p1i1t2q3t1">
 								<head>Tit. I</head>
 								<questionTitle>De incircumscriptibilitate divinae cssentiae.</questionTitle>
+							  <item id="ahsh-l1p1i1t2q3t1prae">
+							    <fileName filestem="ahsh-l1p1i1t2q3t1prae"/>
+							    <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 1, Praeambula</title>
+							    <questionTitle/>
+							    <hasWitnesses>
+							      <witness ref="#Q">
+							        <folio>61</folio>
+							      </witness>
+							    </hasWitnesses>
+							  </item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q3t1c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 1, c. 1</title>
@@ -557,11 +621,23 @@
 									<fileName filestem="ahsh-l1p1i1t2q3t2c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, c. 4</title>
 									<questionTitle>Utrum Deo conveniat ab aeterno esse ubique</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>68</folio>
+								      <folio>69</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q3t2c5"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, c. 5</title>
 									<questionTitle>An alii quam Deo conveniat esse ubique</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>69</folio>
+								      <folio>70</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t2q3t3">
@@ -570,73 +646,158 @@
 								<div id="ahsh-l1p1i1t2q3t3m1">
 									<head>M 1.</head>
 									<questionTitle>De existentia Dei in rebus generaliter</questionTitle>
+								  <item id="ahsh-l1p1i1t2q3t3m1prae">
+								    <fileName filestem="ahsh-l1p1i1t2q3t3m1prae"/>
+								    <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, Praeambula</title>
+								    <questionTitle/>
+								    <hasWitnesses>
+								      <witness ref="#Q">
+								        <folio>70</folio>
+								      </witness>
+								    </hasWitnesses>
+								  </item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m1c1"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, c. 1</title>
 										<questionTitle>An Deus sit extra res</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>70</folio>
+									      <folio>71</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m1c2"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, c. 2</title>
 										<questionTitle>Utrum Deus sit in rebus potentialiter, praesentialiter,
 											essentialiter</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>71</folio>
+									      <folio>72</folio>
+									      <folio>73</folio>
+									      <folio>74</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m1c3"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, c. 3</title>
 										<questionTitle>De numero modorum existendi Deum in rebus</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>74</folio>
+									      <folio>75</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m1c4"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, c. 4</title>
 										<questionTitle>De modis assignandi distinctionem istorum modorum</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>75</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m1c5"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 1, c. 5</title>
 										<questionTitle>Utrum praedictis tribus modis is existat Deus in rebus
 											aequaliter</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>76</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 								</div>
 								<div id="ahsh-l1p1i1t2q3t3m2">
 									<head>M 2.</head>
 									<questionTitle>De existentia Dei in rebus per inhabitantem
 										gratiam.</questionTitle>
+								  <item>
+								    <fileName filestem="ahsh-l1p1i1t2q3t3m2prae"/>
+								    <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, Praeambula</title>
+								    <questionTitle/>
+								    <hasWitnesses>
+								      <witness ref="#Q">
+								        <folio>77</folio>
+								      </witness>
+								    </hasWitnesses>
+								  </item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c1"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 1</title>
 										<questionTitle>Utrum Deum esse per gratiam in aliquo ponat aliquid in
 											isto</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>77</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c2"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 2</title>
 										<questionTitle>Utrum Deus sit in sacramentis per inhabitantem
 											gratiam</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>78</folio>
+									      <folio>79</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c3"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 3</title>
 										<questionTitle>An in carne ante infusionem animae possit esse Deus per
 											inllabitantem gratiam</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>79</folio>
+									      <folio>80</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c4"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 4</title>
 										<questionTitle>Utrum Deus sit in homine per inhabitantern gratiam, ct hoc ante
 											nativitatem</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>80</folio>
+									      <folio>81</folio>
+									      <folio>82</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c5"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 5</title>
 										<questionTitle>Utrum Deus sit in parvulis per inhabitantem
 											gratiam</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>82</folio>
+									      <folio>83</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 									<item>
 										<fileName filestem="ahsh-l1p1i1t2q3t3m2c6"/>
 										<title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, M. 2, c. 6</title>
 										<questionTitle>Utrum Deus dicatur in!tabitare in habentibus gratiam gratis
 											datam</questionTitle>
+									  <hasWitnesses>
+									    <witness ref="#Q">
+									      <folio>83</folio>
+									    </witness>
+									  </hasWitnesses>
 									</item>
 								</div>
 							</div>
@@ -645,6 +806,16 @@
 							<head>Q. 4</head>
 							<questionTitle>De immensitate Dei quantum ad durationem seu de aeternitate
 								eius.</questionTitle>
+						  <item>
+						    <fileName filestem="ahsh-l1p1i1t2q4prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>84</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<div id="ahsh-l1p1i1t2q4m1">
 								<head>M. 1</head>
 								<questionTitle>Quid sit aeternitas d quomodo de Deo probetur.</questionTitle>
@@ -652,25 +823,47 @@
 									<fileName filestem="ahsh-l1p1i1t2q4m1c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 1, c. 1</title>
 									<questionTitle>Quid sit aeternitas secundum nomen.</questionTitle>
-									<!-- 
-								a. 1. Utrum eadem est intentio nominis aeternitatis et sempiternitatis 
-								a. 2. An aeternum clicatur univoce vel aequivoce de Deo et de creaturis 
-							-->
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>84</folio>
+								      <folio>85</folio>
+								      <folio>86</folio>
+								    </witness>
+								  </hasWitnesses>
+									
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m1c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 1, c. 2</title>
 									<questionTitle>Quid sit aeternitas secundum rem</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>86</folio>
+								      <folio>87</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m1c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 1, c. 3</title>
 									<questionTitle>Quid sit aeternitas secundum definitionem</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>87</folio>
+								      <folio>88</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m1c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 1, c. 4</title>
 									<questionTitle>Qualiter probetur de divina essentia aeternitas</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>88</folio>
+								      <folio>89</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t2q4m2">
@@ -680,49 +873,116 @@
 									<fileName filestem="ahsh-l1p1i1t2q4m2c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 2, c. 1</title>
 									<questionTitle>De immensitate aeternitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>89</folio>
+								      <folio>90</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m2c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 2, c. 2</title>
 									<questionTitle>De invariabilitate aeternitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>90</folio>
+								      <folio>91</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m2c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 2, c. 3</title>
 									<questionTitle>De unitate aeternitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>91</folio>
+								      <folio>92</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m2c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 2, c. 4</title>
 									<questionTitle>De incommunicabilitate aeternitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>92</folio>
+								      <folio>93</folio>
+								      <folio>94</folio>
+								      <folio>95</folio>
+								      <folio>96</folio>
+								      <folio>97</folio>
+								      <folio>98</folio>
+								      <folio>99</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t2q4m3">
 								<head>M. III</head>
-								<questionTitle>De comparatione aeternitatis ad aevurn.</questionTitle>
+								<questionTitle>De comparatione aeternitatis ad aevum.</questionTitle>
+							  <item id="ahsh-l1p1i1t2q4m3prae">
+							    <fileName filestem="ahsh-l1p1i1t2q4m3prae"/>
+							    <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 3, Praeambula</title>
+							    <questionTitle/>
+							    <hasWitnesses>
+							      <witness ref="#Q">
+							        <folio>99</folio>
+							      </witness>
+							    </hasWitnesses>
+							  </item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m3c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 3, c. 1</title>
-									<questionTitle> De cssentia aevi</questionTitle>
+									<questionTitle> De essentia aevi</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>99</folio>
+								      <folio>100</folio>
+								      <folio>101</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m3c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 3, c. 2</title>
 									<questionTitle>De unitate aevi</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>101</folio>
+								      <folio>102</folio>
+								      <folio>103</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m3c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 3, c. 3</title>
 									<questionTitle>De simplicitate aevi</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>103</folio>
+								      <folio>104</folio>
+								      <folio>105</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t2q4m3c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 3, c. 4</title>
 									<questionTitle>De comparatione aevi ad tempus.</questionTitle>
-									<!-- 
-								a. 1. Quomodo se habeant aevum et tempus secu11dum extensionem duration is 
-								§ 2 69 a. 2. Utrum sit aliqua mensura durationis media inter ;:ievum et tempus 
-								§ 3 70 a. 3. Utrum idem sit n unc temporis, aevi et aeternitatis . -->
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>105</folio>
+								      <folio>106</folio>
+								      <folio>107</folio>
+								      <folio>108</folio>
+								      <folio>109</folio>
+								      <folio>110</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t2q4m4">
@@ -733,16 +993,32 @@
 									<title>I, P. 1, Inq. 1, Tract. 2, Q. 4, M. 4, c. 1</title>
 									<questionTitle>Utrum divina natura tota sit in omni tempore et
 										semper</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>110</folio>
+								      <folio>111</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 						</div>
 					</div>
 					<div id="ahsh-l1p1i1t3">
 						<head>Tractatus tertius</head>
-						<questionTitle>DE DIVINA UNlTATE, VERITATE ET BONITATE.</questionTitle>
+						<questionTitle>DE DIVINA UNITATE, VERITATE ET BONITATE.</questionTitle>
 						<div id="ahsh-l1p1i1t3q1" type="quaestio">
 							<head>Q. I</head>
 							<questionTitle>De unitate divinae naturae.</questionTitle>
+						  <item>
+						    <fileName filestem="ahsh-l1p1i1t3q1prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Praeambula</title>
+						    <questionTitle/>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>112</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<div id="ahsh-l1p1i1t3q1m1">
 								<head>M. 1</head>
 								<questionTitle>De unitate in genere</questionTitle>
@@ -750,21 +1026,49 @@
 									<fileName filestem="ahsh-l1p1i1t3q1m1c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, c. 1</title>
 									<questionTitle>Quid sit unum</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>112</folio>
+								      <folio>113</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m1c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, c. 2</title>
 									<questionTitle>De comparatione unius ad ens et verum et bonum</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>113</folio>
+								      <folio>114</folio>
+								      <folio>115</folio>
+								      <folio>116</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m1c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, c. 3</title>
 									<questionTitle>De differentiis unius et unitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>116</folio>
+								      <folio>117</folio>
+								      <folio>118</folio>
+								      <folio>119</folio>
+								      <folio>120</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m1c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, c. 4</title>
 									<questionTitle>Quae sit oppositio unius ad multa</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>120</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t3q1m2">
@@ -774,92 +1078,194 @@
 									<fileName filestem="ahsh-l1p1i1t3q1m2c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, c. 1</title>
 									<questionTitle>An divina unitas secum compatiatur pluralitatem</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>120</folio>
+								      <folio>121</folio>
+								      <folio>122</folio>
+								      <folio>123</folio>
+								      <folio>124</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m2c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, c. 2</title>
 									<questionTitle>An divina unitas secum compatiatur pluralitatem
 										personarum</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>124</folio>
+								      <folio>125</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m2c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, c. 3</title>
 									<questionTitle>An divina unitas secum compatiatur pluralitatem
 										principiorum.</questionTitle>
-									<!-- a. 1 Utrum sit ponere duo principia summe bona 
-								a. 2. Utrum sit ponere duo summa principia, aliud boni ct aliud mali -->
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>125</folio>
+								      <folio>126</folio>
+								      <folio>127</folio>
+								      <folio>128</folio>
+								      <folio>129</folio>
+								      <folio>130</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m2c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, c. 4</title>
 									<questionTitle>Utrum unitas divina compatiatur secum pluralitatem
-										idearnm</questionTitle>
+										idearum</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>130</folio>
+								      <folio>131</folio>
+								      <folio>132</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m2c5"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, c. 5</title>
-									<questionTitle>Utrum unitas divina compatiatur secum plurnlitatcm personantm
-										.</questionTitle>
+									<questionTitle>Utrum unitas divina compatiatur secum pluralitatem personarum.</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>132</folio>
+								      <folio>133</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t3q1m3">
 								<head>M. 3</head>
-								<questionTitle>De comparationc aliarmn unitatum ad divinam.</questionTitle>
-								<item>
+								<questionTitle>De comparationc aliarun unitatum ad divinam.</questionTitle>
+							  <item>
+							    <fileName filestem="ahsh-l1p1i1t3q1m3prae"/>
+							    <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, Praeambula</title>
+							    <questionTitle/>
+							    <hasWitnesses>
+							      <witness ref="#Q">
+							        <folio>133</folio>
+							      </witness>
+							    </hasWitnesses>
+							  </item>
+							  <item>
 									<fileName filestem="ahsh-l1p1i1t3q1m3c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, c. 1</title>
 									<questionTitle>De comparatione unitatis essentiae et personae</questionTitle>
+							    <hasWitnesses>
+							      <witness ref="#Q">
+							        <folio>133</folio>
+							        <folio>134</folio>
+							      </witness>
+							    </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m3c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, c. 2</title>
 									<questionTitle>De comparatione unitatis divinae ad unitatem
 										intelligibilem</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>134</folio>
+								      <folio>135</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q1m3c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, c. 3</title>
 									<questionTitle>De comparatione unitatis divinae quantum ad
 										repraesentationem.</questionTitle>
-									<!-- a. 1. An unitas divina magis repraesentetur in unitate componeutium quam
-							compositi 135
-							a. 2. An unitas divina magis repraesentatur in uuitate universalis quam
-							particularis . 135 -->
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>135</folio>
+								      <folio>136</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
-									<fileName filestem="ahsh-l1p1i1t3q1m3c2"/>
-									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, c. 2</title>
+									<fileName filestem="ahsh-l1p1i1t3q1m3c4"/>
+									<title>I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, c. 4</title>
 									<questionTitle>De comparatione unitatis divinae quantum ad
 										causalitatem</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>136</folio>
+								      <folio>137</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 						</div>
 						<div id="ahsh-l1p1i1t3q2">
 							<head>Quaestio II</head>
 							<questionTitle>De veritate divinae naturae.</questionTitle>
+						  <item>
+						    <fileName filestem="ahsh-l1p1i1t3q2prae"/>
+						    <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, Praeambula</title>
+						    <hasWitnesses>
+						      <witness ref="#Q">
+						        <folio>138</folio>
+						      </witness>
+						    </hasWitnesses>
+						  </item>
 							<div id="ahsh-l1p1i1t3q2m1">
 								<head>M. 1</head>
 								<questionTitle>De existentia et natura veritatis.</questionTitle>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q2m1c1"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, c. 1</title>
-									<questionTitle>At1 necesse sit veritatem esse</questionTitle>
+									<questionTitle>At necesse sit veritatem esse</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>138</folio>
+								      <folio>139</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q2m1c2"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, c. 2</title>
 									<questionTitle>An intt.'ntio veritatis differat ab illa entitatis, unitatis et
 										bonitatis</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>139</folio>
+								      <folio>140</folio>
+								      <folio>141</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q2m1c3"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, c. 3</title>
 									<questionTitle>In quibus sit veritas</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>141</folio>
+								      <folio>142</folio>
+								      <folio>143</folio>
+								      <folio>144</folio>
+								      <folio>145</folio>
+								      <folio>146</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 								<item>
 									<fileName filestem="ahsh-l1p1i1t3q2m1c4"/>
 									<title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, c. 4</title>
 									<questionTitle>In quibus sit veritas</questionTitle>
+								  <hasWitnesses>
+								    <witness ref="#Q">
+								      <folio>146</folio>
+								    </witness>
+								  </hasWitnesses>
 								</item>
 							</div>
 							<div id="ahsh-l1p1i1t3q2m2">
@@ -3354,5 +3760,39 @@
 				</div>
 			</div>
 		</div>
+    <div id="ahsh-l2A">
+      <head>Primae partis secundi libri</head>
+      <div id="ahsh-l2Ai1">
+        <head>Inquisitio Prima</head>
+        <questionTitle>De creatura in communi</questionTitle>
+        <div id="ahsh-l2Ai1t1">
+          <head>Tractus Primus</head>
+          <quesitonTitle>De creatura secundum fieri</quesitonTitle>
+          <div id="ahsh-l2Ai1t1">
+            <head>Sectio 1</head>
+            <questionTitle>De creatura secundum causam</questionTitle>
+            <div id="ahsh-l2Ai1t1q1">
+              <head>Quaestio 1</head>
+              <questionTitle>De causa prima secundum substantiam</questionTitle>
+              <item>
+                <fileName filestem="ahsh-l2Ai1t1q1c1"/>
+                <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, c. 1</title>
+                <questionTitle>Si est principium primum</questionTitle>
+              </item>
+              <item>
+                <fileName filestem="ahsh-l2Ai1t1q1c2"/>
+                <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, c. 2</title>
+                <questionTitle>Quid sit principium primum</questionTitle>
+              </item>
+              <item>
+                <fileName filestem="ahsh-l2Ai1t1q1c3"/>
+                <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, c. 3</title>
+                <questionTitle>Utrum sint plura principia</questionTitle>
+              </item>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 	</div>
 </listofFileNames>
