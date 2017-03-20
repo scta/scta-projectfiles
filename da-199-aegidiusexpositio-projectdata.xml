@@ -1,0 +1,53 @@
+<listofFileNames>
+  <header>
+    <authorName>Aegidius Romanus</authorName>
+    <commentaryName>Expositio I-III librorum de anima</commentaryName>
+    <commentaryid>da-199</commentaryid>
+    <commentaryslug>da-199</commentaryslug>
+    <authorUri>http://scta.info/resource/AegidiusRomanus</authorUri> <!-- I don't know if this is right -->
+    <parentUri>http://scta.info/resource/da-199</parentUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <hasWitnesses>
+      <witness id="M">
+        <slug>mun2805</slug>
+        <title>München, Bayerische Staatsbibliothek, 2 Inc. c.a. 2805</title>
+        <initial>M</initial>
+        <!-- IIIF: https://api.digitale-sammlungen.de/iiif/presentation/bsb00045193/view.html -->
+      </witness>
+    </hasWitnesses>
+    <description>
+      There are a lot of witnesses to this text. For a full list, see C. Lohr,
+      Traditio 23 (1967), p. 332. The content list is based on the Munich
+      incunabulum.
+    </description>
+  </header>
+  <div id="body" xml:lang="la">
+    <item id="da-199-prol" type="prologus">
+      <fileName filestem="da-199-prol"/>
+      <title>Prologus</title>
+      <hasWitnesses>
+        <witness ref="#M">
+          <folio>3r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <div id="da-199-librum1" type="librum1">
+      <item id="da-199-l1l1" type="lectio">
+        <fileName filestem="da-199-l1l1"/>
+        <title>Liber 1, Lectio 1</title>
+        <lemma>
+          Bonorum honorabilium notitiam opinantes. Magis autem alteram altera,
+          aut secundum certitudinem aut ex eo quod meliorum quidem et
+          mirabiliorum est, propter utraque haec animae historiam rationabiliter
+          utique in primis ponermus
+        </lemma>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio>3v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
