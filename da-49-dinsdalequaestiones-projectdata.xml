@@ -24,78 +24,100 @@
       </witness>
       <witness id="O">
         <slug>oriel33</slug>
-        <title>Oxford, Oriel College Library 33, ff. 164r-182v</title>
+        <title>Oxford, Oriel College Library 33, ff. 164r-179v</title>
         <initial>O</initial>
       </witness>
     </hasWitnesses>
   </header>
   <!-- Note: Many of the questions have more elaborate titles in the bottom margin of #B than in the main text. How could we handle that? -->
   <div id="body" xml:lang="la">
+    <item id="da-49-prooemium">
+      <fileName filestem="da-49-prooemium"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio c="b">148r</folio>
+          <folio c="a">148v</folio>
+        </witness>
+        <witness ref="#O">
+          <folio c="a b">164r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
     <div id="da-49-librum1">
       <head>
         Liber primus
       </head>
-      <item id="da-49-prooemium">
-        <fileName filestem="da-49-prooemium"/>
-    	  <title>Prooemium</title>
-        <questionTitle/>
-    	  <hasWitnesses>
-    		  <witness ref="#B">
-    			  <folio>148</folio>
-    		  </witness>
-          <witness ref="#O">
-            <folio>164</folio>
-          </witness>
-    	  </hasWitnesses>
-      </item>
       <item id="da-49-l1q1" type="quaestio">
         <fileName filestem="da-49-l1q1"/>
         <title>Liber 1, quaestio 1</title>
-        <questionTitle>Utrum de anima possit nobis acquiri scientia</questionTitle>
+        <questionTitle>Utrum de anima possit nobis acquiri scientia.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>148</folio>
+            <folio c="a">148v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">164r</folio>
+            <folio c="a">164v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q2" type="quaestio">
         <fileName filestem="da-49-l1q2"/>
         <title>Liber 1, quaestio 2</title>
-        <questionTitle>Utrum ista scientia sit de anima tamquam de subiecto vel de corpore animato</questionTitle>
+        <questionTitle>Utrum ista scientia sit de anima vel de corpore animato
+        ut de subiecto vel de composito.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>148</folio>
-            <folio>149</folio>
+            <folio c="b">148v</folio>
+            <folio c="a">149r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">164v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q3" type="quaestio">
         <fileName filestem="da-49-l1q3"/>
         <title>Liber 1, quaestio 3</title>
-        <questionTitle>Utrum scientia sit bonum et honorabile.</questionTitle>
+        <lemma>Bonorum honorabilium et cetera</lemma>
+        <questionTitle>Utrum scientia sit quid bonum et honorabile.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>149</folio>
+            <folio c="a b">149r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">164v</folio>
+            <folio c="a">165r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q4" type="quaestio">
         <fileName filestem="da-49-l1q4"/>
         <title>Liber 1, quaestio 4</title>
-        <questionTitle>Utrum scientia de anima sit dignior aliis secundum certitudinem et subiecti nobilitatem</questionTitle>
+        <questionTitle>Utrum scientia de anima sit dignior aliis secundum certitudinem et subiecti nobilitatem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>149</folio>
+            <folio c="b">149r</folio>
+            <folio c="a">149v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">165r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q5" type="quaestio">
         <fileName filestem="da-49-l1q5"/>
         <title>Liber 1, quaestio 5</title>
-        <questionTitle>Utrum universale aut naturalis sit aut posterius ut Philosophus dicit</questionTitle>
+        <questionTitle>Utrum universale aut naturalis sit aut per posterius.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>149</folio>
+            <folio c="a b">149v</folio>
+            <folio c="a">150r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">165r</folio>
+            <folio c="a">165v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -105,29 +127,41 @@
         <questionTitle>Utrum accidentia magnam partem conferant ad cognoscendum quod quid est.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>150</folio>
+            <folio c="a b">150r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">165v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q7" type="quaestio">
         <fileName filestem="da-49-l1q7"/>
         <title>Liber 1, quaestio 7</title>
-        <lemma>Dubitationem autem habet</lemma> <!-- Suggestion for relevant field-->
+        <lemma>Dubitationes autem habent et cetera</lemma>
         <questionTitle>Utrum aliqua sit operatio propria animae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>150</folio>
+            <folio c="b">150r</folio>
+            <folio c="a b">150v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">165v</folio>
+            <folio c="a b">166r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l1q8" type="quaestio">
         <fileName filestem="da-49-l1q8"/>
         <title>Liber 1, quaestio 8</title>
-        <questionTitle>Utrum physicus in diffiniendo differat ab aliis artificibus.</questionTitle>
+        <questionTitle>Utrum naturalis differat ab aliis artificibus in diffiniendo.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>150</folio>
-            <folio>151</folio>
+            <folio c="b">150v</folio>
+            <folio c="a">151r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">166r</folio>
+            <folio c="a b">166v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -140,64 +174,104 @@
         <fileName filestem="da-49-l2q1"/>
         <title>Liber 2, quaestio 1</title>
         <lemma>Haec quidem a prioribus tradita et cetera</lemma>
-        <questionTitle>Utrum anima sit actus simplex</questionTitle>
+        <questionTitle>Utrum anima sit forma simplex</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>151</folio>
+            <folio c="a b">151r</folio>
+            <folio c="a">151v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">166v</folio>
+            <folio c="a">167r</folio>
           </witness>
         </hasWitnesses>
       </item>
-      <item id="40-l2q2" type="quaestio">
-        <fileName filestem="40-l2q2"/>
+      <item id="da-49-l2q2" type="quaestio">
+        <fileName filestem="da-49-l2q2"/>
         <title>Liber 2, quaestio 2</title>
         <questionTitle>Utrum omni animae conveniat esse actum corporis</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>151</folio>
-            <folio>152</folio>
+            <folio c="a b">151v</folio>
+            <folio c="a">152r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">167r</folio>
+            <folio c="a b">167v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q3" type="quaestio">
         <fileName filestem="da-49-l2q3"/>
         <title>Liber 2, quaestio 3</title>
-        <questionTitle>Utrum anima sit actus primus et hoc est quaerere utrum corpus cuius actus est anima sit actu ens <unclear>et</unclear> a materia formata.</questionTitle>
+        <questionTitle>
+          Utrum anima sit actus primus et hoc est quaerere utrum corpus cuius
+          actus est anima sit in actu per aliam formam quma per animam.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>152</folio>
-            <folio>153</folio>
-            <folio>154</folio>
+            <folio c="a">152r</folio>
+            <folio>152v</folio>
+            <folio>153r</folio>
+            <folio>153v</folio>
+            <folio>154r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">167v</folio>
+            <folio>168r</folio>
+            <folio>168v</folio>
+            <folio>169r</folio>
+            <folio>169v</folio>
+            <folio>170r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q4" type="quaestio">
         <fileName filestem="da-49-l2q4"/>
         <title>Liber 2, quaestio 4</title>
-        <questionTitle>Utrum anima naturaliter uniatur tali corpori, scilicet organico.</questionTitle>
+        <questionTitle>Utrum anima debeat uniri tali corpori naturaliter, scilicet organico.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>154</folio>
+            <folio c="b">154r</folio>
+            <folio>154v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">170r</folio>
+            <folio c="a">170v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q5" type="quaestio">
         <fileName filestem="da-49-l2q5"/>
         <title>Liber 2, quaestio 5</title>
-        <questionTitle>Utrum ex anima et corpore fiat <unclear>u()e</unclear> unum</questionTitle>
+        <questionTitle>Utrum ex anima et corpore fiat vere unum</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>154</folio>
-            <folio>155</folio>
+            <folio c="b">154v</folio>
+            <folio c="a">155r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">170v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q6" type="quaestio">
         <fileName filestem="da-49-l2q6"/>
         <title>Liber 2, quaestio 6</title>
-        <questionTitle>Utrum in homine vegetativum et sensitivum et intellectivum sint tres animae aut tres potentiae anius animae.</questionTitle>
+        <lemma>Utrum autem unumquodque et cetera</lemma>
+        <questionTitle>
+          Utrum in homine vegetativum et sensitivum et intellectivum sint tres
+          animae aut tres potentiae unius animae.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>155</folio>
+            <folio c="a">155r</folio>
+            <folio c="a b">155v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">170v</folio>
+            <folio>171r</folio>
+            <folio>171v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -207,18 +281,26 @@
         <questionTitle>Utrum in parte plantae descisae vel alterius descisi sit anima.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>155</folio>
+            <folio c="b">155v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">171v</folio>
+            <folio c="a">172r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q8" type="quaestio">
         <fileName filestem="da-49-l2q8"/>
         <title>Liber 2, quaestio 8</title>
-        <questionTitle>Utrum anima sit potentia.</questionTitle>
+        <lemma>Potentiarum autem animae et cetera</lemma>
+        <questionTitle>Utrum anima sit sua potentia.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>155</folio>
-            <folio>156</folio>
+            <folio c="b">155v</folio>
+            <folio c="a b">156r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">172r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -228,7 +310,11 @@
         <questionTitle>Utrum potentiae distinguntur per actus et obiecta.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>156</folio>
+            <folio c="b">156r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">172r</folio>
+            <folio c="a">172v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -238,7 +324,11 @@
         <questionTitle>Utrum in potentiis animae sit ordo secundum prius et posterius.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>156</folio>
+            <folio c="b">156r</folio>
+            <folio c="a">156v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">172v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -248,7 +338,10 @@
         <questionTitle>Utrum omnis potentiae animae sint in anima tamquam in subiecto.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>156</folio>
+            <folio c="a b">156v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">172v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -258,48 +351,71 @@
         <questionTitle>Utrum quinque sint genera potentiarum animae tantum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>156</folio>
+            <folio c="b">156v</folio>
+            <folio c="a b">157r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">172v</folio>
+            <folio>173r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q13" type="quaestio">
         <fileName filestem="da-49-l2q13"/>
         <title>Liber 2, quaestio 13</title>
+        <lemma>Quare autem secundum unumquodque et cetera</lemma>
         <questionTitle>Utrum tres sint potentiae vegetativae, scilicet nutritiva, augmentativa et generativa.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>157</folio>
+            <folio c="a b">157r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">173v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q14" type="quaestio">
         <fileName filestem="da-49-l2q14"/>
         <title>Liber 2, quaestio 14</title>
-        <questionTitle>Utrum vegetativa in qualibet operatione habeat alimentum <unclear>pro</unclear> obiecto.</questionTitle>
+        <questionTitle>Utrum alimentum sit obiectum vegetativae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>157</folio>
+            <folio c="b">157r</folio>
+            <folio c="a">157v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">173v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q15" type="quaestio">
         <fileName filestem="da-49-l2q15"/>
         <title>Liber 2, quaestio 15</title>
-        <questionTitle>Utrum alimentum convertatur in unam naturam rei.</questionTitle>
+        <questionTitle>Utrum alimentum convertatur in veram naturam rei.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>157</folio>
+            <folio c="a b">157v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">173v</folio>
+            <folio c="a b">174r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q16" type="quaestio">
         <fileName filestem="da-49-l2q16"/>
         <title>Liber 2, quaestio 16</title>
-        <questionTitle>Utrum semen sit de substantia generantis.</questionTitle>
+        <questionTitle>
+          Utrum semen sit de substantia generantis vel de superfluentia
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>157</folio>
-            <folio>158</folio>
+            <folio c="b">157v</folio>
+            <folio c="a">158r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">174r</folio>
+            <folio c="a">174v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -309,7 +425,10 @@
         <questionTitle>Utrum virtus in semine sit productiva sensitivae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>158</folio>
+            <folio c="a b">158r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">174v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -319,17 +438,27 @@
         <questionTitle>Utrum in semine sit virtus ad producendum intellectivam.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>158</folio>
+            <folio c="b">158r</folio>
+            <folio c="a">158v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">174v</folio>
+            <folio c="a">175r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q19" type="quaestio">
         <fileName filestem="da-49-l2q19"/>
         <title>Liber 2, quaestio 19</title>
+        <lemma>Determinatis autem hiis</lemma>
         <questionTitle>Utrum sensus sit virtus passiva.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>158</folio>
+            <folio c="a b">158v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">175r</folio>
+            <folio c="a">175v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -339,18 +468,27 @@
         <questionTitle>Utrum sit ponere sensum agentem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>158</folio>
-            <folio>159</folio>
+            <folio c="b">158v</folio>
+            <folio c="a b">159r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">175v</folio>
+            <folio c="a">176r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q21" type="quaestio">
         <fileName filestem="da-49-l2q21"/>
         <title>Liber 2, quaestio 21</title>
-        <questionTitle>Utrum sensibile proprium sit illud circa quod sensus non decipitur.</questionTitle>
+        <lemma>Dicendum autem secundum unumquodque sensum</lemma>
+        <questionTitle>Utrum sensus decipitur circa proprium sensibile.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>159</folio>
+            <folio c="b">159r</folio>
+            <folio c="a">159v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">176r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -360,27 +498,43 @@
         <questionTitle>Utrum sensibilia communia sunt sensibilia per se.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>159</folio>
+            <folio c="a b">159v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">176r</folio>
+            <folio c="a">176v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q23" type="quaestio">
         <fileName filestem="da-49-l2q23"/>
         <title>Liber 2, quaestio 23</title>
-        <questionTitle>Utrum Diarii filius et huiusmodi sint sensibilia per accidentiis.</questionTitle>
+        <questionTitle>Utrum Diarii filius et huiusmodi sint sensibilia per accidens.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>159</folio>
+            <folio c="b">159v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">176v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q24" type="quaestio">
         <fileName filestem="da-49-l2q24"/>
         <title>Liber 2, quaestio 24</title>
-        <questionTitle>Utrum color sit visibile secundum se et hoc est quaerere utrum lumen requiratur propter neccesitatem coloris vel <unclear>me()ri</unclear></questionTitle>
+        <questionTitle>
+          Utrum color sit visibile secundum se et hoc est quaerere utrum lumen
+          requiratur propter neccesitatem coloris vel medii.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>159</folio>
+            <folio c="b">159v</folio>
+            <folio c="a b">160r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">176v</folio>
+            <folio>177r</folio>
+            <folio c="a">177v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -390,7 +544,11 @@
         <questionTitle>Utrum lux sit de essentia coloris.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>160</folio>
+            <folio c="b">160r</folio>
+            <folio c="a">160v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">177v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -400,7 +558,12 @@
         <questionTitle>Utrum multiplicatio lucis fuerit in instanti vel succesiva.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>160</folio>
+            <folio c="a b">160v</folio>
+            <folio c="b">161r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">177v</folio>
+            <folio c="a b">178r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -410,7 +573,11 @@
         <questionTitle>Utrum posito medio infinito, ipsum lumen possit totum illuminare.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>161</folio>
+            <folio c="a b">161r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">178r</folio>
+            <folio c="a">178v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -420,58 +587,85 @@
         <questionTitle>Utrum lumen sit substantia vel accidens.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>161</folio>
+            <folio c="b">161r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">178v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q29" type="quaestio">
         <fileName filestem="da-49-l2q29"/>
         <title>Liber 2, quaestio 29</title>
-        <questionTitle>Utrum alia de nocte tantum videantur ut <unclear>lucentia</unclear> et de die ut colorata.</questionTitle>
+        <questionTitle>
+          Utrum aliqua de nocte visa habent videri tantum de nocte ut lucentia
+          et et de die ut colorata.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>161</folio>
+            <folio c="b">161r</folio>
+            <folio c="a">161v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">178v</folio>
+            <folio c="a">179r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q30" type="quaestio">
         <fileName filestem="da-49-l2q30"/>
         <title>Liber 2, quaestio 30</title>
-        <questionTitle>Utrum visibile supra visum ponitum sentiatur an <unclear>ncio()</unclear> requiratur medium.</questionTitle>
+        <questionTitle>
+          Utrum visibile supra organum ponitum videatur.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>161</folio>
+            <folio c="a b">161v</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">179r</folio>
+            <folio c="a">179v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q31" type="quaestio">
-        <fileName filestem="da-49-l2q30"/>
+        <fileName filestem="da-49-l2q31"/>
         <title>Liber 2, quaestio 31</title>
+        <lemma>Nunc autem primo de sono et cetera</lemma>
         <questionTitle>Utrum sonus soneretur ex percussione corporum <unclear>et</unclear> ad aera </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>161</folio>
-            <folio>162</folio>
+            <folio c="b">161v</folio>
+            <folio c="a">162r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="a b">179v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q32" type="quaestio">
         <fileName filestem="da-49-l2q32"/>
         <title>Liber 2, quaestio 32</title>
-        <questionTitle>Utrum sonus sit in aere tamquam in subiecto aut in percussitate et percusso.</questionTitle>
+        <questionTitle>Utrum subiectum soni sit in aere vel in percutiente aut percusso.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>162</folio>
+            <folio c="a b">162r</folio>
+          </witness>
+          <witness ref="#O">
+            <folio c="b">179v</folio>
           </witness>
         </hasWitnesses>
       </item>
+      <!-- From here, O has a falling out (f. 180r starts on book 3: Utrum
+           intellectus humanus sit unus numero in omnibus hominibus. -->
       <item id="da-49-l2q33" type="quaestio">
         <fileName filestem="da-49-l2q33"/>
         <title>Liber 2, quaestio 33</title>
         <questionTitle>Utrum sonus multiplicetur ad auditum cum motu aeris.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>162</folio>
+            <folio c="b">162r</folio>
+            <folio c="a">162v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -481,18 +675,18 @@
         <questionTitle>Utrum sonus sit in medio secundum esse intentionale vel rationale.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>162</folio>
+            <folio c="a b">162v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q35" type="quaestio">
         <fileName filestem="da-49-l2q35"/>
         <title>Liber 2, quaestio 35</title>
-        <questionTitle>Utrum sonus <unclear>directus</unclear> et reflexus ut ecco sit unus.</questionTitle>
+        <questionTitle>Utrum sonus directus et refluxus ut ecco sit unus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>162</folio>
-            <folio>163</folio>
+            <folio c="b">162v</folio>
+            <folio c="a">163r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -502,27 +696,32 @@
         <questionTitle>Utrum vox generetur a virtute imaginativa.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>163</folio>
+            <folio c="a b">163r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q37" type="quaestio">
         <fileName filestem="da-49-l2q37"/>
         <title>Liber 2, quaestio 37</title>
+        <lemma>De odore autem et cetera</lemma>
         <questionTitle>Utrum homo habeat peiorem olfactu aliis.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>163</folio>
+            <folio c="b">163r</folio>
+            <folio c="a">163v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q38" type="quaestio">
         <fileName filestem="da-49-l2q38"/>
         <title>Liber 2, quaestio 38</title>
-        <questionTitle>Utrum odor multiplicetur in medio tantum intentionaliter vel cum <unclear>fum()li</unclear>evaporatione.</questionTitle>
+        <questionTitle>
+          Utrum odor multiplicetur in medio tantum intentionaliter vel cum
+          fumili evaporatione.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>163</folio>
+            <folio c="a b">163v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -532,8 +731,8 @@
         <questionTitle>Utrum gustus sit quidam tactus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>163</folio>
-            <folio>164</folio>
+            <folio c="b">163v</folio>
+            <folio c="a">164r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -543,7 +742,7 @@
         <questionTitle>Utrum sapor multiplicet se per se.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>164</folio>
+            <folio c="a">164r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -553,17 +752,19 @@
         <questionTitle>Utrum sapor multiplicet se intentionaliter vel materialiter.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>164</folio>
+            <folio c="a b">164r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q42" type="quaestio">
         <fileName filestem="da-49-l2q42"/>
         <title>Liber 2, quaestio 42</title>
+        <lemma>De eo autem quod potest tangi</lemma>
         <questionTitle>Utrum tactus sit unus sensus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>164</folio>
+            <folio c="b">164r</folio>
+            <folio c="a">164v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -573,7 +774,7 @@
         <questionTitle>Utrum caro sit organum an aliud.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>164</folio>
+            <folio c="a b">164v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -583,18 +784,19 @@
         <questionTitle>Utrum in tactu requiritur medium extrinsecum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>164</folio>
-            <folio>165</folio>
+            <folio c="b">164v</folio>
+            <folio c="a">165r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q45" type="quaestio">
         <fileName filestem="da-49-l2q45"/>
         <title>Liber 2, quaestio 45</title>
+        <lemma>Universaliter autem de sensu</lemma>
         <questionTitle>Utrum sensus sit susceptivus specierum sensibilium sine materia.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>165</folio>
+            <folio c="a b">165r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -604,38 +806,47 @@
         <questionTitle>Utrum excellens sensibile corrumpat sensum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>165</folio>
+            <folio c="b">165r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q47" type="quaestio">
         <fileName filestem="da-49-l2q47"/>
         <title>Liber 2, quaestio 47</title>
+        <lemma>Quoniam autem non est sensus posterius quinque</lemma>
         <questionTitle>Utrum sint tantum quinque sensus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>165</folio>
-            <folio>166</folio>
+            <folio c="a b">165v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q48" type="quaestio">
         <fileName filestem="da-49-l2q48"/>
         <title>Liber 2, quaestio 48</title>
-        <questionTitle>Utrum sensus particulariter percipimus nos sentire ut visu videre aut sensu aliquo aut sensu communi.</questionTitle>
+        <lemma>Quoniam autem sentimus et cetera</lemma>
+        <questionTitle>
+          Utrum sensu particulariter percipimus nos sentire ut visu videre aut
+          sensu aliquo aut sensu communi.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>166</folio>
+            <folio c="b">165v</folio>
+            <folio c="a b">166r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q49" type="quaestio">
         <fileName filestem="da-49-l2q49"/>
         <title>Liber 2, quaestio 49</title>
-        <questionTitle>Utrum oporteat ponere sensum communem propter <unclear>distinctionem</unclear> vel participationem inter sensibilia diversa <unclear>sn(r)e</unclear></questionTitle>
+        <questionTitle>
+          Utrum oporteat ponere sensum communem propter distinctionem vel
+          participationem inter sensibilia diversa animae
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>166</folio>
+            <folio c="b">166r</folio>
+            <folio c="a">166v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -645,8 +856,8 @@
         <questionTitle>Utrum sensus communis sit unicus an plures.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>166</folio>
-            <folio>167</folio>
+            <folio c="a b">166v</folio>
+            <folio c="a">167r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -656,7 +867,7 @@
         <questionTitle>Utrum organum sensus communis sit internis iuxta cor vel non.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>167</folio>
+            <folio c="b">167r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -666,28 +877,30 @@
         <questionTitle>Utrum sensus communis simul apprehendat sensibilia diversi generis.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>167</folio>
+            <folio c="a b">167r</folio>
+            <folio c="a">167v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q52" type="quaestio">
         <fileName filestem="da-49-l2q52"/>
         <title>Liber 2, quaestio 53</title>
-        <questionTitle>Utrum fantasma differat a sensu.</questionTitle>
+        <lemma>Quoniam autem duabus diferentiis</lemma>
+        <questionTitle>Utrum phantasia differat a sensu.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>167</folio>
+            <folio c="a b">167v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l2q53" type="quaestio">
         <fileName filestem="da-49-l2q53"/>
         <title>Liber 2, quaestio 54</title>
-        <questionTitle>Utrum fantasia sit motus factus a sensu secundum actum.</questionTitle>
+        <questionTitle>Utrum phantasia sit motus factus a sensu secundum actum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>167</folio>
-            <folio>168</folio>
+            <folio c="b">167v</folio>
+            <folio c="a">168r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -697,7 +910,7 @@
         <questionTitle>Utrum fantasia insit omni animali.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>168</folio>
+            <folio c="a b">168r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -707,7 +920,7 @@
         <questionTitle>Utrum opinio pertineat ad sensum vel ad intellectum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>168</folio>
+            <folio c="b">168r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -717,7 +930,8 @@
         <questionTitle>Utrum convenienter distinguantur ista sensus, scilicet sensus communis, imaginativa, aestimativa et memorativa.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>168</folio>
+            <folio c="b">168r</folio>
+            <folio c="a b">168v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -727,11 +941,12 @@
       <item id="da-49-l3q1" type="quaestio">
         <fileName filestem="da-49-l3q1"/>
         <title>Liber 3, quaestio 1</title>
+        <lemma>De parte autem animae et cetera</lemma>
         <questionTitle>Utrum intellectus sit essentia animae vel potentia.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>168</folio>
-            <folio>169</folio>
+            <folio c="b">168v</folio>
+            <folio c="a">169r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -741,17 +956,21 @@
         <questionTitle>Utrum intellectus sit potentia passiva.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>169</folio>
+            <folio c="a b">169r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q3" type="quaestio">
         <fileName filestem="da-49-l3q3"/>
         <title>Liber 3, quaestio 3</title>
-        <questionTitle>Utrum oporteat intellectu esse immixtum ita quod nullam naturam corpoream habeat ad hoc ut omnia cognoscit.</questionTitle>
+        <questionTitle>
+          Utrum oporteat intellectu esse immixtum ita quod nullam naturam
+          corpoream habeat ad hoc ut omnia cognoscit.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>169</folio>
+            <folio c="b">169r</folio>
+            <folio c="a">169v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -761,18 +980,20 @@
         <questionTitle>Utrum oporteat intellectum privari organo ut omnia cognoscit.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>169</folio>
+            <folio c="a b">169v</folio>
           </witness>
         </hasWitnesses>
       </item>
+      <!-- From here O shares some of the question titles, but its not the same text. -->
       <item id="da-49-l3q5" type="quaestio">
         <fileName filestem="da-49-l3q5"/>
         <title>Liber 3, quaestio 5</title>
-        <questionTitle>Utrum intellectus sit unus numero in omnibus.</questionTitle>
+        <questionTitle>Utrum intellectus humanus sit unus numero in omnibus hominibus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>169</folio>
-            <folio>170</folio>
+            <folio c="b">169v</folio>
+            <folio>170r</folio>
+            <folio c="a">170v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -782,8 +1003,8 @@
         <questionTitle>Utrum intellectus sit incorruptibilis.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>170</folio>
-            <folio>171</folio>
+            <folio c="a b">170v</folio>
+            <folio c="a">171r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -793,28 +1014,34 @@
         <questionTitle>Utrum anima intellectiva in qualibet parte corporis sit tota.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>171</folio>
+            <folio c="a b">171r</folio>
+            <folio c="a">171v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q8" type="quaestio">
         <fileName filestem="da-49-l3q8"/>
         <title>Liber 3, quaestio 8</title>
+        <lemma>Quoniam aliud est magnitudo et magnitudinis esse et cetera</lemma>
         <questionTitle>Utrum intellectus intelligat rem corpoream et sensibilem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>171</folio>
+            <folio>171v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q9" type="quaestio">
         <fileName filestem="da-49-l3q9"/>
         <title>Liber 3, quaestio 9</title>
-        <questionTitle>Utrum intellectus intelligat per species a sensibilibus acceptas an per species innatas aliunde adquisitas vel per essentiam vel qualitercumque.</questionTitle>
+        <questionTitle>
+          Utrum intellectus intelligat per species a sensibilibus acceptas an
+          per species innatas aliunde adquisitas vel per essentiam vel
+          qualitercumque.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>171</folio>
-            <folio>172</folio>
+            <folio c="b">171v</folio>
+            <folio>172r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -824,39 +1051,49 @@
         <questionTitle>Utrum species possint manere in intellectu cum actu non intelligit.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>172</folio>
-            <folio>173</folio>
+            <folio>172v</folio>
+            <folio c="a">173r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q11" type="quaestio">
         <fileName filestem="da-49-l3q11"/>
         <title>Liber 3, quaestio 11</title>
-        <questionTitle>Utrum intellectus per species quas praesens se habet, possit intelligere absque hoc quod convertat se ad fantasmata.</questionTitle>
+        <questionTitle>
+          Utrum intellectus per species quas praesens se habet, possit
+          intelligere absque hoc quod convertat se ad phantasmata.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>173</folio>
+            <folio>173r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q12" type="quaestio">
         <fileName filestem="da-49-l3q12"/>
         <title>Liber 3, quaestio 12</title>
-        <questionTitle>Utrum intellectus intelligat res corruptibiles et materiales abstrahendo a fantasmatibus.</questionTitle>
+        <questionTitle>
+          Utrum intellectus intelligat res corporales et materiales
+          abstrahendo a phantasmatibus.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>173</folio>
+            <folio c="b">173r</folio>
+            <folio>173v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q13" type="quaestio">
         <fileName filestem="da-49-l3q13"/>
         <title>Liber 3, quaestio 13</title>
-        <questionTitle>Utrum species absracta sit illud quod intelligitur primo et per se aut res cuius est species.</questionTitle>
+        <questionTitle>
+          Utrum species absracta sit illud quod intelligitur primo et per se aut
+          res cuius est species.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>173</folio>
-            <folio>174</folio>
+            <folio c="b">173v</folio>
+            <folio>174r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -866,7 +1103,8 @@
         <questionTitle>Utrum intellectus intelligat singulare per se.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>174</folio>
+            <folio c="b">174r</folio>
+            <folio c="a">174v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -876,28 +1114,33 @@
         <questionTitle>Utrum intellectus intelligat se per suam essentiam an per aliud sicut intelligit alia.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>174</folio>
-            <folio>175</folio>
+            <folio>174v</folio>
+            <folio c="a">175r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q16" type="quaestio">
         <fileName filestem="da-49-l3q16"/>
         <title>Liber 3, quaestio 16</title>
-        <questionTitle>Utrum intellectus possibilis sit actu aliquid eorum quae sunt antequam intelligat.</questionTitle>
+        <questionTitle>
+          Utrum intellectus possibilis sit actu aliquid eorum quae sunt antequam
+          intelligat.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>175</folio>
+            <folio>175r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q17" type="quaestio">
         <fileName filestem="da-49-l3q17"/>
         <title>Liber 3, quaestio 17</title>
+        <lemma>Quoniam in omni natura</lemma>
         <questionTitle>Utrum neccesse sit ponere intellectum agentem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>175</folio>
+            <folio c="b">175r</folio>
+            <folio>175v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -907,8 +1150,8 @@
         <questionTitle>Utrum intellectus agens sit pars animae nostrae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>175</folio>
-            <folio>176</folio>
+            <folio c="b">175v</folio>
+            <folio c="a">176r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -918,7 +1161,7 @@
         <questionTitle>Utrum intellectus agens abstrahendo intelligat.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>176</folio>
+            <folio>176r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -928,19 +1171,23 @@
         <questionTitle>Utrum omnia a nobis intellecta fiant intellecta per intellectum agentem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>176</folio>
-            <folio>177</folio>
+            <folio c="b">176r</folio>
+            <folio c="a">176v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q21" type="quaestio">
         <fileName filestem="da-49-l3q21"/>
         <title>Liber 3, quaestio 21</title>
-        <questionTitle>Utrum genera quae est huius intellectus obiectum faciat ex re speciem per quam cognoscat sicut et a materia.</questionTitle>
+        <lemma>Indivisibilium intelligentia et cetera</lemma>
+        <questionTitle>
+          Utrum genera quae est huius intellectus obiectum faciat ex re speciem
+          per quam cognoscat sicut et a materia.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>176</folio>
-            <folio>177</folio>
+            <folio>176v</folio>
+            <folio c="a">177r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -950,7 +1197,7 @@
         <questionTitle>Utrum intellectus noster intelligat componendo et dividendo.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>177</folio>
+            <folio>177r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -960,7 +1207,8 @@
         <questionTitle>Utrum intellectus per prius intelligat divisibile quam indivisibile et videtur quod per prius intelligat indivisibile.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>177</folio>
+            <folio c="b">177r</folio>
+            <folio c="a">177v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -970,7 +1218,7 @@
         <questionTitle>Utrum intellectus possit esse falsus.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>177</folio>
+            <folio>177v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -980,8 +1228,8 @@
         <questionTitle>Utrum verum et falsum primo et principaliter sit in intellectu componente et dividente.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>177</folio>
-            <folio>178</folio>
+            <folio c="b">177v</folio>
+            <folio c="a">178r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -991,7 +1239,7 @@
         <questionTitle>Utrum intellectus practicus et speculativus sint diversae potentiae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>178</folio>
+            <folio>178r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1001,7 +1249,8 @@
         <questionTitle>Utrum sit ponere plures potentias in parte intellectiva quam possibilem et agentem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>178</folio>
+            <folio c="b">178r</folio>
+            <folio c="a">178v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1011,18 +1260,20 @@
         <questionTitle>Utrum intellectus noster magnitudine coniunctus possit cognoscere vel intelligere.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>178</folio>
-            <folio>179</folio>
+            <folio>178v</folio>
+            <folio>179r</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="da-49-l3q29" type="quaestio">
         <fileName filestem="da-49-l3q29"/>
         <title>Liber 3, quaestio 29</title>
+        <lemma>Quoniam autem secundum duas</lemma>
         <questionTitle>Utrum appetivum sit distinctum ab aliis potentiis animae.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>179</folio>
+            <folio c="b">179r</folio>
+            <folio c="a">179v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1032,7 +1283,7 @@
         <questionTitle>Utrum appetitus dividatur in rationalem et sensitivum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>179</folio>
+            <folio c="a">179v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1042,7 +1293,7 @@
         <questionTitle>Utrum appetitus sensitivus dividatur in irascibilem et concupibilem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>179</folio>
+            <folio>179v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1052,8 +1303,8 @@
         <questionTitle>Utrum appetitus rationalis dividitur in irascibilem et concupibilem.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>179</folio>
-            <folio>180</folio>
+            <folio c="b">179v</folio>
+            <folio c="a">180r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1063,7 +1314,7 @@
         <questionTitle>Utrum voluntas quae est appetitus rationalis sit nobilior potentia quam intellectus</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>180</folio>
+            <folio>180r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1073,7 +1324,8 @@
         <questionTitle>Utrum appetitus rationalis quae est voluntas moveat intellectum.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>180</folio>
+            <folio c="b">180r</folio>
+            <folio c="a">180v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1083,8 +1335,8 @@
         <questionTitle>Utrum appetitus sensitivus aboediat intellectu et rationi.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>180</folio>
-            <folio>181</folio>
+            <folio>180v</folio>
+            <folio c="a">181r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1094,7 +1346,7 @@
         <questionTitle>Utrum intellectus et appetitus et appetibile moveant.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>181</folio>
+            <folio>181r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1104,7 +1356,8 @@
         <questionTitle>Utrum potentia motiva ab aliis sit distincta.</questionTitle>
         <hasWitnesses>
           <witness ref="#B">
-            <folio>181</folio>
+            <folio c="b">181r</folio>
+            <folio c="a">181v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1113,8 +1366,8 @@
         <title>Liber 3, quaestio 38</title>
         <questionTitle>Utrum animalis moti ex se neccesse est a materia partem quiescere et immobilem esse.</questionTitle>
         <hasWitnesses>
-          <witness ref="id">
-            <folio>num</folio>
+          <witness ref="#B">
+            <folio>181v</folio>
           </witness>
         </hasWitnesses>
       </item>
