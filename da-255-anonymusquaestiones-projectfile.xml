@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Anonymus</authorName>
+    <commentaryName>Quaestiones De anima I</commentaryName>
+    <commentaryslug>da-255</commentaryslug>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="M">
+        <slug>mer276</slug>
+        <title>Oxford, Merton College Library, ff. 13r--16v</title>
+        <initial>M</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body" xml:lang="la">
+    <div id="da-255-librum1">
+      <item id="da-255-l1prol" type="prologue">
+        <fileName filestem="da-255-l1prol"/>
+        <title>Liber 1, Prooemium</title>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio c="a">13r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-255-l1q1" type="quaestio">
+        <fileName filestem="da-255-l1q1"/>
+        <title>Liber 1, Quaestio 1</title>
+        <questionTitle>
+          Utrum de anima posset esse scientia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio>13r</folio>
+            <folio>13v</folio>
+            <folio>14r</folio>
+            <folio>14v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-255-l1q3" type="quaestio">
+        <fileName filestem="da-255-l1q3"/>
+        <title>Liber 1, Quaestio 2</title>
+        <questionTitle>
+          Utrum ista scientia sit de anima tamquam de subiecto.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio c="b">14v</folio>
+            <folio>15r</folio>
+            <folio c="a">15v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-255-l1q3" type="quaestio">
+        <fileName filestem="da-255-l1q3"/>
+        <title>Liber 1, Quaestio 3</title>
+        <questionTitle>
+          Utrum definitiones generum et specierum sunt definitiones rerum
+          existentium extra animam.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio>15v</folio>
+            <folio>16r</folio>
+            <folio>16v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
