@@ -5,7 +5,12 @@
     <commentaryName>Tractatus de anima</commentaryName>
     <commentaryid>da-3</commentaryid>
     <commentaryslug>da-3</commentaryslug>
+    <!-- I know parentUri makes no sense; it is an old redundancy of commentary id; it can be removed once the build script is updated -->
+    <parentUri>http://scta.info/resource/da-3</parentUri>
+    <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-3/</textfilesdir>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <authorUri>http://scta.info/resource/person/GuillelmusHedonensis</authorUri>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <hasWitnesses>
       <witness id="C">
@@ -39,207 +44,207 @@
       <item id="da-3-d1c1" type="capitulum">
         <fileName filestem="da-3-d1c1"/>
         <title>Distinctio 1, capitulum 1</title>
-        <question-title>
+        <questionTitle>
           De origine et causa huiusmodi scientiae.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c2" type="capitulum">
         <fileName filestem="da-3-d1c2"/>
         <title>Distinctio 1, capitulum 2</title>
-        <question-title>
+        <questionTitle>
           An sit anima et quod ipsa sit aliquid.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c3" type="capitulum">
         <fileName filestem="d"/>
         <title>Distinctio 1, capitulum 3</title>
-        <question-title>
+        <questionTitle>
           Quod et qualiter substantia sit anima.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c4" type="capitulum">
         <fileName filestem="da-3-d1c4"/>
         <title>Distinctio 1, capitulum 4</title>
-        <question-title>
+        <questionTitle>
           De spiritu qui dicitur esse in homine quid sit et quam comparationem
           habeat ad animam quamque convenientiam et quam diferentiam.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c5" type="capitulum">
         <fileName filestem="da-3-d1c5"/>
         <title>Distinctio 1, capitulum 5</title>
-        <question-title>
+        <questionTitle>
           Unde sic anima. An <unclear>feliciter</unclear> ex nihilo an ex
           <unclear>traduce</unclear>, et utrum animae ante sua corpora vel cum
           suis corporibus sint creatae.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c6" type="capitulum">
         <fileName filestem="da-3-d1c6"/>
         <title>Distinctio 1, capitulum 6</title>
-        <question-title>
+        <questionTitle>
           Quid sit anima secundum definitionem.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c7" type="capitulum">
         <fileName filestem="da-3-d1c7"/>
         <title>Distinctio 1, capitulum 7</title>
-        <question-title>
+        <questionTitle>
           De modo essendi homine ex corpore et anima.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c8" type="capitulum">
         <fileName filestem="da-3-d1c8"/>
         <title>Distinctio 1, capitulum 8</title>
-        <question-title>
+        <questionTitle>
           Utrum idem in specie et numero sit corpus <unclear>+ et</unclear>
           anima sibi coniuncta, et ante infusionem animae et post ipsius
           seperationem a corpore, hoc est utrum idem sit in specie corpus
           animatum et exanime, id est mortuum.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c9" type="capitulum">
         <fileName filestem="da-3-d1c9"/>
         <title>Distinctio 1, capitulum 9</title>
-        <question-title>
+        <questionTitle>
           Utrum anima sit res praedicamentalis et qualiter, utrum scilicet sit
           in praedicato an de praedicato.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c10" type="capitulum">
         <fileName filestem="da-3-d1c10"/>
         <title>Distinctio 1, capitulum 10</title>
-        <question-title>
+        <questionTitle>
           Utrum coniunctio differentiae cum genere sit a natura an ab actu, et
           utrum ipsum universale sit a natura an ab actu.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c11" type="capitulum">
         <fileName filestem="da-3-d1c11"/>
         <title>Distinctio 1, capitulum 11</title>
-        <question-title>
+        <questionTitle>
           Quod anima secundum viam rationis sit species substantiae et in
           praedicamento.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c12" type="capitulum">
         <fileName filestem="da-3-d1c12"/>
         <title>Distinctio 1, capitulum 12</title>
-        <question-title>
+        <questionTitle>
           De quorundam errore circa animam vegetativam.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d1c13" type="capitulum">
         <fileName filestem="da-3-d1c13"/>
         <title>Distinctio 1, capitulum 13</title>
-        <question-title>
+        <questionTitle>
           De augmento et deminutione, id est <unclear>cremento</unclear> et
           decremento, quid sit.
-        </question-title>
+        </questionTitle>
       </item>
     </div>
     <div id="da-3-distinctio1" type="distinctio">
       <item id="da-3-d2c1" type="capitulum">
         <fileName filestem="da-3-d2c1"/>
         <title>Distinctio 2, capitulum 1</title>
-        <question-title>
+        <questionTitle>
           De tribus quae sunt in anima, quae sunt habitus, passiones et
           potentiae.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c2" type="capitulum">
         <fileName filestem="da-3-distinctio2"/>
         <title>Distinctio 2, capitulum 2</title>
-        <question-title>
+        <questionTitle>
           De visu et visibili.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c3" type="capitulum">
         <fileName filestem="da-3-d2c3"/>
         <title>Distinctio 2, capitulum 3</title>
-        <question-title>
+        <questionTitle>
           De colore. Sub qua specie qualitatis contineatur color, et quid sit
           color secundum definitionem.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c4" type="capitulum">
         <fileName filestem="da-3-d2c4"/>
         <title>Distinctio 2, capitulum 4</title>
-        <question-title>
+        <questionTitle>
           De luce et radio visuali.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c5" type="capitulum">
         <fileName filestem="da-3-d2c5"/>
         <title>Distinctio 2, capitulum 5</title>
-        <question-title>
+        <questionTitle>
           De essentia lucis creatae in corporibus et radii, scilicet an sit
           accidens an substantia.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c6" type="capitulum">
         <fileName filestem="da-3-d2c6"/>
         <title>Distinctio 2, capitulum 6</title>
-        <question-title>
+        <questionTitle>
           De speculo et de eo quod apparet in speculo. Quid sit et qualiter apprehendatur.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c7" type="capitulum">
         <fileName filestem="da-3-d2c7"/>
         <title>Distinctio 2, capitulum 7</title>
-        <question-title>
+        <questionTitle>
           De eo quod est videre sub angulo. Qualiter intelligenda sit haec
           communis aut conceptio.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c8" type="capitulum">
         <fileName filestem="da-3-d2c8"/>
         <title>Distinctio 2, capitulum 8</title>
-        <question-title>
+        <questionTitle>
           Verba beati Ambrosii in exameron de oculis et visu.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c9" type="capitulum">
         <fileName filestem="da-3-d2c9"/>
         <title>Distinctio 2, capitulum 9</title>
-        <question-title>
+        <questionTitle>
           De auditu et audibili, id est sono.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c10" type="capitulum">
         <fileName filestem="da-3-d2c10"/>
         <title>Distinctio 2, capitulum 10</title>
-        <question-title>
+        <questionTitle>
           De resonatione illa quae echo dicitur.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c11" type="capitulum">
         <fileName filestem="da-3-d2c11"/>
         <title>Distinctio 2, capitulum 11</title>
-        <question-title>
+        <questionTitle>
           De principali et praecipua specie soni, hoc est de voce
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c12" type="capitulum">
         <fileName filestem="da-3-d2c12"/>
         <title>Distinctio 2, capitulum 12</title>
-        <question-title>
+        <questionTitle>
           De voce significativa.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c13" type="capitulum">
         <fileName filestem="da-3-d2c13"/>
         <title>Distinctio 2, capitulum 13</title>
-        <question-title>
+        <questionTitle>
           Tertio loco sequitur de olfactu et odore.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c14" type="capitulum">
         <fileName filestem="da-3-d2c14"/>
         <title>Distinctio 2, capitulum 14</title>
-        <question-title>
+        <questionTitle>
           Quarto loco de gustu.
-        </question-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c15" type="capitulum">
         <fileName filestem="da-3-d2c15"/>
@@ -251,16 +256,16 @@
       <item id="da-3-d2c16" type="capitulum">
         <fileName filestem="da-3-d2c16"/>
         <title>Distinctio 2, capitulum 16</title>
-        <question-title>
+        <questionTitle>
           De quibusdam generalitatibus, et qui regulis circa omnes sensus.
-        </question-title>
+        </questionTitle>
       </item>
     </div>
     <div id="da-3-distinctio3" type="distinctio">
       <item id="da-3-d3c1" type="capitulum"> <!-- Suggestions type:capitulum -->
         <fileName filestem="da-3-d3c1"/>
         <title>Distinctio 3, capitulum 1</title>
-        <question-title>De <unclear>communi</unclear> sensitiva</question-title>
+        <questionTitle>De <unclear>communi</unclear> sensitiva</questionTitle>
         <hasWitnesses>
           <witness ref="C">
           </witness>
@@ -269,7 +274,7 @@
       <item id="da-3-d3c2" type="capitulum">
         <fileName filestem="da-3-d3c2"/>
         <title>Distinctio 3, capitulum 2</title>
-        <question-title>De scientia sensitiva</question-title>
+        <questionTitle>De scientia sensitiva</questionTitle>
         <hasWitnesses>
           <witness ref="C">
           </witness>
@@ -278,7 +283,7 @@
       <item id="da-3-d3c3" type="capitulum">
         <fileName filestem="da-3-d3c3"/>
         <title>Distinctio 3, capitulum 3</title>
-        <question-title>De imaginatione quae et phantasia frequenter apellatur</question-title>
+        <questionTitle>De imaginatione quae et phantasia frequenter apellatur</questionTitle>
         <hasWitnesses>
           <witness ref="C">
           </witness>
@@ -287,10 +292,10 @@
       <item id="da-3-d3c4" type="capitulum">
         <fileName filestem="da-3-d3c4"/>
         <title>Distinctio 3, capitulum 4</title>
-        <question-title>
+        <questionTitle>
           Quod opinio multipliciter dicitur, et qualiter secundum opinionem
           accidat deceptio et quot modis quibusve causis, scilicet tribus.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -300,7 +305,7 @@
       <item id="da-3-d3c5" type="capitulum">
         <fileName filestem="da-3-d3c5"/>
         <title>Distinctio 3, capitulum 5</title>
-        <question-title>De intellectiva parte animae</question-title>
+        <questionTitle>De intellectiva parte animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -310,7 +315,7 @@
       <item id="da-3-d3c6" type="capitulum">
         <fileName filestem="da-3-d3c6"/>
         <title>Distinctio 3, capitulum 6</title>
-        <question-title>Utrum intellectus seipsum intelligat</question-title>
+        <questionTitle>Utrum intellectus seipsum intelligat</questionTitle>
         <hasWitnesses>
           <witness ref="#C">
             <folio>92r</folio>
@@ -325,7 +330,7 @@
       <item id="da-3-d3c7" type="capitulum">
         <fileName filestem="da-3-d3c7"/>
         <title>Distinctio 3, capitulum 7</title>
-        <question-title>De proprio organo intellectus</question-title>
+        <questionTitle>De proprio organo intellectus</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -335,7 +340,7 @@
       <item id="da-3-d3c8" type="capitulum">
         <fileName filestem="da-3-d3c8"/>
         <title>Distinctio 3, capitulum 8</title>
-        <question-title>De immortalitate animae</question-title>
+        <questionTitle>De immortalitate animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -345,7 +350,7 @@
       <item id="da-3-d3c9" type="capitulum">
         <fileName filestem="da-3-d3c9"/>
         <title>Distinctio 3, capitulum 9</title>
-        <question-title>De immortalitate animae</question-title>
+        <questionTitle>De immortalitate animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -355,7 +360,7 @@
       <item id="da-3-d3c10" type="capitulum">
         <fileName filestem="da-3-d3c10"/>
         <title>Distinctio 3, capitulum 10</title>
-        <question-title>De immortalitate animae</question-title>
+        <questionTitle>De immortalitate animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -365,7 +370,7 @@
       <item id="da-3-d3c11" type="capitulum">
         <fileName filestem="da-3-d3c11"/>
         <title>Distinctio 3, capitulum 11</title>
-        <question-title>De ratione et intellectu</question-title>
+        <questionTitle>De ratione et intellectu</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -375,7 +380,7 @@
       <item id="da-3-d3c12" type="capitulum">
         <fileName filestem="da-3-d3c12"/>
         <title>Distinctio 3, capitulum 12</title>
-        <question-title>De memoria et memorari, reminiscentia et reminisci</question-title>
+        <questionTitle>De memoria et memorari, reminiscentia et reminisci</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -385,7 +390,7 @@
       <item id="da-3-d3c13" type="capitulum">
         <fileName filestem="da-3-d3c13"/>
         <title>Distinctio 3, capitulum 13</title>
-        <question-title>De quatuor causis memoriae</question-title>
+        <questionTitle>De quatuor causis memoriae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -395,7 +400,7 @@
       <item id="da-3-d3c14" type="capitulum">
         <fileName filestem="da-3-d3c14"/>
         <title>Distinctio 3, capitulum 14</title>
-        <question-title>De comparatione memoriae et oblivionis</question-title>
+        <questionTitle>De comparatione memoriae et oblivionis</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -405,7 +410,7 @@
       <item id="da-3-d3c15" type="capitulum">
         <fileName filestem="da-3-d3c15"/>
         <title>Distinctio 3, capitulum 15</title>
-        <question-title>De quatuor affectionibus animae</question-title>
+        <questionTitle>De quatuor affectionibus animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -415,7 +420,7 @@
       <item id="da-3-d3c16" type="capitulum">
         <fileName filestem="da-3-d3c16"/>
         <title>Distinctio 3, capitulum 16</title>
-        <question-title>De voluntate et libro arbitrio</question-title>
+        <questionTitle>De voluntate et libro arbitrio</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -425,7 +430,7 @@
       <item id="da-3-d3c17" type="capitulum">
         <fileName filestem="da-3-d3c17"/>
         <title>Distinctio 3, capitulum 17</title>
-        <question-title>De voluntariis extrinsicis</question-title>
+        <questionTitle>De voluntariis extrinsicis</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -435,7 +440,7 @@
       <item id="da-3-d3c18" type="capitulum">
         <fileName filestem="da-3-d3c18"/>
         <title>Distinctio 3, capitulum 18</title>
-        <question-title>De comparatione divinae providentiae et librae voluntatis</question-title>
+        <questionTitle>De comparatione divinae providentiae et librae voluntatis</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -445,7 +450,7 @@
       <item id="da-3-d3c19" type="capitulum">
         <fileName filestem="da-3-d3c19"/>
         <title>Distinctio 3, capitulum 19</title>
-        <question-title>De comparatione divinae providentiae et librae voluntatis</question-title>
+        <questionTitle>De comparatione divinae providentiae et librae voluntatis</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
@@ -455,7 +460,7 @@
       <item id="da-3-d3c20" type="capitulum">
         <fileName filestem="da-3-d3c20"/>
         <title>Distinctio 3, capitulum 20</title>
-        <question-title>De nobilissima et excellencissima parte animae</question-title>
+        <questionTitle>De nobilissima et excellencissima parte animae</questionTitle>
         <hasWitnesses>
           <witness ref="C">
             <folio></folio>
