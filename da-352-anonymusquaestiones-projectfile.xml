@@ -4,8 +4,11 @@
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones De anima III</commentaryName>
     <commentaryslug>da-352</commentaryslug>
+    <commentaryid>da-352</commentaryid>
     <parentUri>http://scta.info/resource/da-352</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-352/</textfilesdir>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
@@ -22,9 +25,9 @@
       <item id="da-352-l3q1" type="quaestio">
         <fileName filestem="da-352-l3q1"/>
         <title>Liber 3, Quaestio 1</title>
-        <question-title>
+        <questionTitle>
           Utrum intellectus humanus sit unus numero in omnibus hominibus.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="a b">180r</folio>
@@ -36,10 +39,10 @@
         <fileName filestem="da-352-l3q2"/>
         <title>Liber 3, Quaestio 2</title>
         <lemma>Quoniam autem aliud magnitudo</lemma>
-        <question-title>
+        <questionTitle>
           Utrum intellectus noster possit intelligere aliquid corporeum habentem
           magnitudinem.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="a b">180v</folio>
@@ -49,9 +52,9 @@
       <item id="da-352-l3q3" type="quaestio">
         <fileName filestem="da-352-l3q3"/>
         <title>Liber 3, Quaestio 3</title>
-        <question-title>
+        <questionTitle>
           Utrum intellectus noster intelligat per species acquisitas.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">180v</folio>
@@ -63,9 +66,9 @@
         <fileName filestem="da-352-l3q4"/>
         <title>Liber 3, Quaestio 4</title>
         <lemma>Quoniam autem sicut in omni natura</lemma> <!-- it actually reads "in omnium" -->
-        <question-title>
+        <questionTitle>
           Utrum neccesse sit ponere intellectum agentem.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">181r</folio>
@@ -77,10 +80,10 @@
       <item id="da-352-l3q5" type="quaestio">
         <fileName filestem="da-352-l3q5"/>
         <title>Liber 3, Quaestio 5</title>
-        <question-title>
+        <questionTitle>
           Utrum ad hoc quod intellectus informatus aliqua specie actu intelligat per illam neccesse
           est aliquod phantasma speculari.
-        </question-title>
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="a b">182r</folio>
