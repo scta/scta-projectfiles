@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>Anonymus</authorName>
+    <commentaryName>Quaestiones in De anima</commentaryName>
+    <commentaryslug>da-318</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymus</authorUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+  	<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/dinsdalequaestiones/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>vatlat2170</slug>
+        <title>
+          Vatican, Biblioteca Apostolica Vaticana, Vaticanus Latinus 2170, ff.
+          51ra--62vb
+        </title>
+        <initial>V</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body" xml:lang="la">
+    <div id="da-318-librum1">
+      <head>
+        Liber primus de anima
+      </head>
+      <item id="da-318-l1prooemium" type="prologue">
+        <fileName filestem="da-318-l1prooemium"/>
+        <title>Prooemium</title>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>51r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q1" type="quaestio">
+        <fileName filestem="da-318-l1q1"/>
+        <title>Liber 1, Quaestio 1</title>
+        <questionTitle>
+          Utrum de anim sit scientia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">51r</folio>
+            <folio c="a">51v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q2" type="quaestio">
+        <fileName filestem="da-318-l1q2"/>
+        <title>Liber 1, Quaestio 2</title>
+        <questionTitle>
+          Utrum ista scientia sit vera.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>51v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q3" type="quaestio">
+        <fileName filestem="da-318-l1q3"/>
+        <title>Liber 1, Quaestio 3</title>
+        <questionTitle>
+          Utrum in ista scientia <unclear>videtur</unclear> anima vel corpus
+          animatum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>51v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q4" type="quaestio">
+        <fileName filestem="da-318-l1q4"/>
+        <title>Liber 1, Quaestio 4</title>
+        <questionTitle>
+          Utrum ista scientia sit utilis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">51v</folio>
+            <folio c="a">52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q5" type="quaestio">
+        <fileName filestem="da-318-l1q5"/>
+        <title>Liber 1, Quaestio 5</title>
+        <questionTitle>
+          Utrum ista scientia sit difficillima.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q6" type="quaestio">
+        <fileName filestem="da-318-l1q6"/>
+        <title>Liber 1, Quaestio 6</title>
+        <questionTitle>
+          Utrum ex accidentibus possimus cognoscere quod quid est et substantiam
+          rei.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l1q7" type="quaestio">
+        <fileName filestem="da-318-l1q7"/>
+        <title>Liber 1, Quaestio 7</title>
+        <questionTitle>
+          Utrum sit aliquae propria operatio animae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">52r</folio>
+            <folio c="a">52v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div xml:id="da-318-librum2">
+      <!--
+          NOTE: The first 14 questions are located in the section covering book
+          III in the Vat Lat 2170. They cover folios 55vb to 59ra. The first
+          question is started with the following note:
+          "Consequenter quaeritur circa principium secundi, et primo utrum ..."
+          The material has been misplaced in an earlier exemplar, as the shift
+          here does not fall on either folio or quire boundaries.
+      -->
+      <item id="da-318-l2q1" type="quaestio">
+        <fileName filestem="da-318-l2q1"/>
+        <title>Liber 2, Quaestio 1</title>
+        <questionTitle>
+          Utrum anima sit materia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">55v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q2" type="quaestio">
+        <fileName filestem="da-318-l2q2"/>
+        <title>Liber 2, Quaestio 2</title>
+        <questionTitle>
+          Utrum anima sit forma substantialis corporis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">55v</folio>
+            <folio c="a">56r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q3" type="quaestio">
+        <fileName filestem="da-318-l2q3"/>
+        <title>Liber 2, Quaestio 3</title>
+        <questionTitle>
+          Utrum definitio data de anima, scilicet quod est actus corporis et
+          cetera, sit sufficiens.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>56r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q4" type="quaestio">
+        <fileName filestem="da-318-l2q4"/>
+        <title>Liber 2, Quaestio 4</title>
+        <questionTitle>
+          Utrum anima immediate corpori uniatur.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">56r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q5" type="quaestio">
+        <fileName filestem="da-318-l2q5"/>
+        <title>Liber 2, Quaestio 5</title>
+        <questionTitle>
+          Utrum anima sit una et eadem existens in omnibus corporis partibus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">56r</folio>
+            <folio c="a">56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q6" type="quaestio">
+        <fileName filestem="da-318-l2q6"/>
+        <title>Liber 2, Quaestio 6</title>
+        <questionTitle>
+          Circam illud capitulum <quote>potentiarum autem animae</quote> et
+          primo utrum potentiae animae aliquid addant super essentiam animae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q7" type="quaestio">
+        <fileName filestem="da-318-l2q7"/>
+        <title>Liber 2, Quaestio 7</title>
+        <questionTitle>
+          Utrum potentiae animae fluant ab essentiam animae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">56v</folio>
+            <folio c="a">57r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q8" type="quaestio">
+        <fileName filestem="da-318-l2q8"/>
+        <title>Liber 2, Quaestio 8</title>
+        <questionTitle>
+          Utrum qinque sint potentiae animae, scilicet vegetativum, sensitivum,
+          intellectivum, motivum secundum locum et appetitivum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>57r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q9" type="quaestio">
+        <fileName filestem="da-318-l2q9"/>
+        <title>Liber 2, Quaestio 9</title>
+        <questionTitle>
+          Utrum generativum et nutritivum et augmentativum sint potentiae
+          vegeativae
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">57r</folio>
+            <folio c="a">57v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q10" type="quaestio">
+        <fileName filestem="da-318-l2q10"/>
+        <title>Liber 2, Quaestio 10</title>
+        <questionTitle>
+          Utrum sensus sit virtus passiva.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>57v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q11" type="quaestio">
+        <fileName filestem="da-318-l2q11"/>
+        <title>Liber 2, Quaestio 11</title>
+        <questionTitle>
+          Utrum res sensibilis extra existens possit per se deducere sensum de
+          potentiae ad actum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">57v</folio>
+            <folio c="a">58r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q12" type="quaestio">
+        <fileName filestem="da-318-l2q12"/>
+        <title>Liber 2, Quaestio 12</title>
+        <questionTitle>
+          Utrum universalia sint solum in anima.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>58r</folio>
+            <folio c="a">58v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q13" type="quaestio">
+        <fileName filestem="da-318-l2q13"/>
+        <title>Liber 2, Quaestio 13</title>
+        <questionTitle>
+          Utrum sensibile commune sit sensibile per se.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>58v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q14" type="quaestio">
+        <fileName filestem="da-318-l2q14"/>
+        <title>Liber 2, Quaestio 14</title>
+        <questionTitle>
+          Utrum sit aliquid sensibile per accidens.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">58v</folio>
+            <folio c="a">59r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!-- The injected questions from the book 3 section ends here. -->
+      <item id="da-318-l2q15" type="quaestio">
+        <fileName filestem="da-318-l2q15"/>
+        <title>Liber 2, Quaestio 15</title>
+        <questionTitle>
+          Uttrum sint plures sensus particulares quam quinque.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>52v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q16" type="quaestio">
+        <fileName filestem="da-318-l2q16"/>
+        <title>Liber 2, Quaestio 16</title>
+        <questionTitle>
+          Utrum sensus particularis directe suam sensationem percipit.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">52v</folio>
+            <folio c="a">53r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q17" type="quaestio">
+        <fileName filestem="da-318-l2q17"/>
+        <title>Liber 2, Quaestio 17</title>
+        <questionTitle>
+          Utrum sensus indirecte possit percipere suam sensationem.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>53r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q18" type="quaestio">
+        <fileName filestem="da-318-l2q18"/>
+        <title>Liber 2, Quaestio 18</title>
+        <questionTitle>
+          Utrum excellentiae sensibilium corrumpant sensum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>53v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q19" type="quaestio">
+        <fileName filestem="da-318-l2q19"/>
+        <title>Liber 2, Quaestio 19</title>
+        <questionTitle>
+          Utrum sensus communis sit una et idem qui iudicat differentiam
+          diversorum sensibilium, scilicet et album et dulcis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">53v</folio>
+            <folio c="a">54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q20" type="quaestio">
+        <fileName filestem="da-318-l2q20"/>
+        <title>Liber 2, Quaestio 20</title>
+        <questionTitle>
+          Utrum caelum possit imprimare in intellectum et voluntatem.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>54r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q21" type="quaestio">
+        <fileName filestem="da-318-l2q21"/>
+        <title>Liber 2, Quaestio 22</title>
+        <questionTitle>
+          Utrum phantasia sit virtus differans a sensu communi.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">54r</folio>
+            <folio c="a">54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q22" type="quaestio">
+        <fileName filestem="da-318-l2q22"/>
+        <title>Liber 2, Quaestio 22</title>
+        <questionTitle>
+          Utrum phantasia sit motus factus ab actu sensus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l2q23" type="quaestio">
+        <fileName filestem="da-318-l2q23"/>
+        <title>Liber 2, Quaestio 23</title>
+        <questionTitle>
+          Utrum secundum phantasiam contingit agere et pati.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div xml:id="da-318-librum3">
+      <item id="da-318-l3q1" type="quaestio">
+        <fileName filestem="da-318-l3q1"/>
+        <title>Liber 3, Quaestio 1</title>
+        <questionTitle>
+          Utrum intellectus sit passiva virtus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">54v</folio>
+            <folio c="a">55r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q2" type="quaestio">
+        <fileName filestem="da-318-l3q2"/>
+        <title>Liber 3, Quaestio 2</title>
+        <questionTitle>
+          Utrum ad hoc quod intellectus omnia intelligat oportet esse eum ab
+          omni natura denudatum et format materialiter.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>55r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q3" type="quaestio">
+        <fileName filestem="da-318-l3q3"/>
+        <title>Liber 3, Quaestio 3</title>
+        <questionTitle>
+          Utrum intellectus a materia differat prima.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">55r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q4" type="quaestio">
+        <fileName filestem="da-318-l3q4"/>
+        <title>Liber 3, Quaestio 4</title>
+        <questionTitle>
+          Utrum intellectus possibilis antequam intelligat sit aliquid eorum
+          quae sunt actu
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">55r</folio>
+            <folio>55v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!-- FROM HERE THE FOLLOWING QUESTIONS ON FF. HAVE BEEN MOVED INTO BOOK
+           II, WHERE I BELIEVE THEY BELONG -->
+      <item id="da-318-l3q5" type="quaestio">
+        <fileName filestem="da-318-l3q5"/>
+        <title>Liber 3, Quaestio 5</title>
+        <questionTitle>
+          Utrum intellectus speculativus sit aeternus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">59r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q6" type="quaestio">
+        <fileName filestem="da-318-l3q6"/>
+        <title>Liber 3, Quaestio 6</title>
+        <questionTitle>
+          Utrum intellectus sit unus numero in omnibus hominibus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>59r</folio>
+            <folio>59v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q6" type="quaestio">
+        <fileName filestem="da-318-l3q6"/>
+        <title>Liber 3, Quaestio 6</title>
+        <questionTitle>
+          Utrum in organo sit non in parte corporis vel in toto corpore isto
+          quod totum corpus habeat pro organo vel parte aliqua corporis,
+          videlicet visus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">59v</folio>
+            <folio c="a">60r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q7" type="quaestio">
+        <fileName filestem="da-318-l3q7"/>
+        <title>Liber 3, Quaestio 7</title>
+        <questionTitle>
+          Utrum species intelligibiles influantur in intellectum nostrum a
+          substantiis separatis ut voluit Avicenna et Plato.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>60r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q8" type="quaestio">
+        <fileName filestem="da-318-l3q8"/>
+        <title>Liber 3, Quaestio 8</title>
+        <questionTitle>
+          Utrum intellectus per species in habitu existens ad ipsum
+          <unclear>possunt</unclear> intelligere in convertendo ad phantasmata.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">60r</folio>
+            <folio c="a">60v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q9" type="quaestio">
+        <fileName filestem="da-318-l3q9"/>
+        <title>Liber 3, Quaestio 9</title>
+        <questionTitle>
+          Utrum intellectus possit intelligere per quod quid abstrahendo ipsum a
+          phantasmatibus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>60v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q10" type="quaestio">
+        <fileName filestem="da-318-l3q10"/>
+        <title>Liber 3, Quaestio 10</title>
+        <questionTitle>
+          Utrum idem intellectus possit intelligere singulare ut universale est.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">60v</folio>
+            <folio c="a">61r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q11" type="quaestio">
+        <fileName filestem="da-318-l3q11"/>
+        <title>Liber 3, Quaestio 11</title>
+        <questionTitle>
+          Utrum intelligat se per suam substantiam.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>61r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q12" type="quaestio">
+        <fileName filestem="da-318-l3q12"/>
+        <title>Liber 3, Quaestio 12</title>
+        <questionTitle>
+          Circa capitulum de intellectu agente, et primo utrum sit neccesarium
+          ipsum ponere.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">61r</folio>
+            <folio c="a">61v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q13" type="quaestio">
+        <fileName filestem="da-318-l3q13"/>
+        <title>Liber 3, Quaestio 13</title>
+        <questionTitle>
+          Utrum intellectus sit substantia separata vel potentia aliqua animae
+          nostrae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>61v</folio>
+            <folio c="a">62r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q14" type="quaestio">
+        <fileName filestem="da-318-l3q14"/>
+        <title>Liber 3, Quaestio 14</title>
+        <questionTitle>
+          Utrum intellectus agens sit substantia intellectus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>62r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q15" type="quaestio">
+        <fileName filestem="da-318-l3q15"/>
+        <title>Liber 3, Quaestio 15</title>
+        <questionTitle>
+          Utrum intellectus agens sit unus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>62v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q16" type="quaestio">
+        <fileName filestem="da-318-l3q16"/>
+        <title>Liber 3, Quaestio 16</title>
+        <questionTitle>
+          Utrum post mortem et meminiscemur.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">62v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-318-l3q17" type="quaestio">
+        <fileName filestem="da-318-l3q17"/>
+        <title>Liber 3, Quaestio 17</title>
+        <questionTitle>
+          Utrum intellectus intelligat componendo et dividendo.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">62v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+	</div>
+</listofFileNames>
