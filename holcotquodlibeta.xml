@@ -19,6 +19,16 @@
         <title>Balliol</title>
         <initial>B</initial>
       </witness>
+      <witness id="R">
+        <slug>lon10c6</slug>
+        <title>London 10 C VI</title>
+        <initial>R</initial>
+      </witness>
+      <witness id="P">
+        <slug>pembroke236</slug>
+        <title>Pembroke 236</title>
+        <initial>P</initial>
+      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
@@ -165,6 +175,14 @@
       <hasWitnesses>
         <witness ref="#B">
           <folio c="a">206r</folio>
+          <folio>206v</folio>
+        </witness>
+        <witness ref="#P">
+          <folio>152r</folio>
+          <folio>152v</folio>
+        </witness>
+        <witness ref="#R">
+          <folio>152r</folio>
         </witness>
       </hasWitnesses>
     </item>
