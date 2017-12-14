@@ -1,585 +1,1042 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listofFileNames>
-	<header>
-		<authorName>Giles of Rome</authorName>
-		<commentaryName>Giles of Rome Commentary on the Sentences</commentaryName>
-		<commentaryid>romacommentary</commentaryid>
-		<commentaryslug>gr</commentaryslug>
-		<authorUri>http://scta.info/resource/GilesOfRome</authorUri>
-		<parentUri>http://scta.info/resource/romacommentary</parentUri>
-		<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-		<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/romacommentary/</textfilesdir>
-		<webbase>null</webbase>
-		<questionListSource>Venice 1521</questionListSource>
-		<questionListOriginalEditor/>
-		<questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-		<hasWitnesses>
-			<witness id="venice1521">
-				<slug>venice1521</slug>
-				<title>Venice</title>
-				<initial>V</initial>
-			</witness>
-		</hasWitnesses>
-	</header>
-	<div id="body">
-		<div id="gr-l1" type="librum" subtype="librum1">
-			<head>Liber 1</head>
-			<div id="gr-l1prol" type="prologus" subtype="librum1-prologus">
-				<head>Liber 1, Prologus</head>
-				<div id="gr-l1prolp1">
-					<head>Liber 1, Prologus, Pars 1</head>
-					<!-- de causa materiali -->
-					<div id="gr-l1prolp1p1">
-						<head>Liber 1, Prologus, Pars 1, Principalis 1</head>
-						<item id="gr-l1prolp1p1q1" type="quaestio">
-							<fileName filestem="gr-l1prolp1p1q1"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 1</title>
-							<questionTitle>Utrum idem sit aliquid esse subiectum in scientia et esse de consideratione scientiae</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-						<item id="gr-l1prolp1p1q2" type="quaestio">
-							<fileName filestem="gr-l1prolp1p1q2"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 2</title>
-							<questionTitle>Utrum theologia sit scientia communis vel specialis</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-						<item id="gr-l1prolp1p1q3" type="quaestio">
-							<fileName filestem="gr-l1prolp1p1q3"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 3</title>
-							<questionTitle>Quid sit subiectum in sacra pagina</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio>3v</folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-					</div>
-					<div id="gr-l1prolp1p2">
-						<head>Liber 1, Prologus, Pars 1, Principalis 2</head>
-						<item id="gr-l1prolp1p2q1" type="quaestio">
-							<fileName filestem="gr-l1prolp1p2q1"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 1</title>
-							<questionTitle>De ordine istius scientiae ad alias</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-						<item id="gr-l1prolp1p2q2" type="quaestio">
-							<fileName filestem="gr-l1prolp1p2q2"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 2</title>
-							<questionTitle>Utrum ista scientia sit dignior aliis scientiis humanis</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-						<item id="gr-l1prolp1p2q3" type="quaestio">
-							<fileName filestem="gr-l1prolp1p2q3"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 3</title>
-							<questionTitle>Utrum ista scientia sit una</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-						<item id="gr-l1prolp1p2q4" type="quaestio">
-							<fileName filestem="gr-l1prolp1p2q4"/>
-							<title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 4</title>
-							<questionTitle>Utrum sit aliqua scientia necessaria praeter physicas disciplinas</questionTitle>
-							<hasWitnesses>
-								<witness ref="#V">
-									<folio></folio>
-								</witness>
-							</hasWitnesses>
-						</item>
-					</div>
-				</div>
-				<div id="gr-l1prolp2">
-					<head>Liber 1, Prologus, Pars 2</head>
-					<!-- de causa formali -->
-					<item id="gr-l1prolp2q1" type="quaestio">
-						<fileName filestem="gr-l1prolp2q1"/>
-						<title>Liber I, Prologus, Pars 2, Quaestio 1</title>
-						<questionTitle>Utrum sacra pagina debeat dici sapientia, ulterius utrum debeat dici scientia</questionTitle>
-						<hasWitnesses>
-							<witness ref="#V">
-								<folio></folio>
-							</witness>
-						</hasWitnesses>
-					</item>
-					<item id="gr-l1prolp2q2" type="quaestio">
-						<fileName filestem="gr-l1prolp2q2"/>
-						<title>Liber I, Prologus, Pars 2, Quaestio 2</title>
-						<questionTitle>Utrum ista scientia sit certior aliis</questionTitle>
-						<hasWitnesses>
-							<witness ref="#V">
-								<folio></folio>
-							</witness>
-						</hasWitnesses>
-					</item>
-				</div>
-				<div id="gr-l1prolp3">
-					<head>Liber 1, Prologus, Pars 3</head>
-					<!-- de causa efficiente -->
-					<item id="gr-l1prolp3q1" type="quaestio">
-						<fileName filestem="gr-l1prolp3q1"/>
-						<title>Liber I, Prologus, Pars 3, Quaestio 1</title>
-						<questionTitle>Utrum solus deus doceat istam scientiam</questionTitle>
-						<hasWitnesses>
-							<witness ref="#V">
-								<folio></folio>
-							</witness>
-						</hasWitnesses>
-					</item>
-				</div>
-				<div id="gr-l1prolp4">
-					<head>Liber 1, Prologus, Pars 4</head>
-					<!-- de causa finali -->
-					<item id="gr-l1prolp4q1" type="quaestio">
-						<fileName filestem="gr-l1prolp4q1"/>
-						<title>Liber I, Prologus, Pars 4, Quaestio 1</title>
-						<questionTitle>Utrum ista scientia sit practica vel speculativa</questionTitle>
-						<hasWitnesses>
-							<witness ref="#V">
-								<folio></folio>
-							</witness>
-						</hasWitnesses>
-					</item>
-				</div>
-			</div>
-		  <div id="gr-l1d1" type="distinctio" subtype="librum1-distinctio1">
-		    <head>Liber 1, Distinctio 1</head>
-		    <div id="gr-l1d1p1">
-		      <head>Liber 1, Distinctio 1, Principalis 1</head>
-		      <questionTitle>De potentiis vel habitibus quae eliciuntur fruitio et usus</questionTitle>
-		      <item id="gr-l1d1p1q1" type="quaestio">
-		        <fileName filestem="gr-l1d1p1q1"/>
-		        <title>Liber I, Distinctio 1, Principalis 1, Quaestio 1</title>
-		        <questionTitle>Utrum frui sit actus intellectus</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d1p1q2" type="quaestio">
-		        <fileName filestem="gr-l1d1p1q2"/>
-		        <title>Liber I, Distinctio 1, Principalis 1, Quaestio 2</title>
-		        <questionTitle>Cuius sit frui tamquam habitus sive sicut virtutis</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>11r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d1p1q3" type="quaestio">
-		        <fileName filestem="gr-l1d1p1q3"/>
-		        <title>Liber I, Distinctio 1, Principalis 1, Quaestio 3</title>
-		        <questionTitle>Cuius potentiae sit uti</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>12r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		    <div id="gr-l1d1p2">
-		      <head>Liber 1, Distinctio 1, Principalis 2</head>
-		      <questionTitle>De fruibilibus et utibilibus</questionTitle>
-		      <item id="gr-l1d1p2q1" type="quaestio">
-		        <fileName filestem="gr-l1d1p2q1"/>
-		        <title>Liber I, Distinctio 1, Principalis 2, Quaestio 1</title>
-		        <questionTitle>Utrum solo deo sit fruendum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>12r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d1p2q2" type="quaestio">
-		        <fileName filestem="gr-l1d1p2q2"/>
-		        <title>Liber I, Distinctio 1, Principalis 2, Quaestio 2</title>
-		        <questionTitle>Utrum tribus personis sit fruendum fruitione una vel pluribus</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>13r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d1p2q3" type="quaestio">
-		        <fileName filestem="gr-l1d1p2q3"/>
-		        <title>Liber I, Distinctio 1, Principalis 2, Quaestio 3</title>
-		        <questionTitle>Utrum deo sit utendum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>13r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		    <div id="gr-l1d1p3">
-		      <head>Liber 1, Distinctio 1, Principalis 3</head>
-		      <questionTitle>De fruentibus et utentibus</questionTitle>
-		      <item id="gr-l1d1p3q1" type="quaestio">
-		        <fileName filestem="gr-l1d1p3q1"/>
-		        <title>Liber I, Distinctio 1, Principalis 3, Quaestio 1</title>
-		        <questionTitle>Utrum deus fruatur</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>13r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d1p3q2" type="quaestio">
-		        <fileName filestem="gr-l1d1p3q2"/>
-		        <title>Liber I, Distinctio 1, Principalis 3, Quaestio 2</title>
-		        <questionTitle>Utrum deus utatur aliquo</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>14r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		  </div>
-		  <div id="gr-l1d2" type="distinctio" subtype="librum1-distinctio2">
-		    <head>Liber 1, Distinctio 2</head>
-		    <div id="gr-l1d2p1">
-		      <head>Liber 1, Distinctio 2, Principalis 1</head>
-		      <questionTitle>De unitate essentiae</questionTitle>
-		      <item id="gr-l1d2p1q1" type="quaestio">
-		        <fileName filestem="gr-l1d2p1q1"/>
-		        <title>Liber I, Distinctio 2, Principalis 1, Quaestio 1</title>
-		        <questionTitle>Utrum sit dare plures deos</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d2p1q2" type="quaestio">
-		        <fileName filestem="gr-l1d2p1q2"/>
-		        <title>Liber I, Distinctio 2, Principalis 1, Quaestio 2</title>
-		        <questionTitle>Utrum deo conveniat pluralitas attributorum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d2p1q3" type="quaestio">
-		        <fileName filestem="gr-l1d2p1q3"/>
-		        <title>Liber I, Distinctio 2, Principalis 1, Quaestio 3</title>
-		        <questionTitle>Utrum isti pluralitati respondeat aliquid in re vel sit pluralitas rationum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		    <div id="gr-l1d2p2">
-		      <head>Liber 1, Distinctio 2, Principalis 2</head>
-		      <questionTitle>De pluralitate suppositorum</questionTitle>
-		      <item id="gr-l1d2p2q1" type="quaestio">
-		        <fileName filestem="gr-l1d2p2q1"/>
-		        <title>Liber I, Distinctio 2, Principalis 2, Quaestio 1</title>
-		        <questionTitle>Utrum servata unitate naturae divinae possit ibi esse pluralitas suppositorum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d2p2q2" type="quaestio">
-		        <fileName filestem="gr-l1d2p2q2"/>
-		        <title>Liber I, Distinctio 2, Principalis 2, Quaestio 2</title>
-		        <questionTitle>Utrum illa plura supposita differant re vel ratione solum</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		  </div>
-		  <div id="gr-l1d3" type="distinctio" subtype="librum1-distinctio3">
-		    <head>Liber 1, Distinctio 3</head>
-		    <div id="gr-l1d3p1">
-		      <head>Liber 1, Distinctio 3, Pars 1</head>
-  		    <div id="gr-l1d3p1p1">
-  		      <head>Liber 1, Distinctio 3, Pars 1, Principalis 1</head>
-  		      <questionTitle>De cognitione dei in se</questionTitle>
-  		      <item id="gr-l1d3p1p1q1" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p1q1"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 1</title>
-  		        <questionTitle>Utrum deum possimus cognoscere in vita ista</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1p1q2" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p1q2"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 2</title>
-  		        <questionTitle>Utrum deum esse sit per se notum</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1p1q3" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p1q3"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 3</title>
-  		        <questionTitle>Utrum deum esse possit demonstrari.</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1q4" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p1q4"/>
-  		        <title>Liber I, Distinctio 4, Pars 1, Principalis 1, Quaestio 4</title>
-  		        <questionTitle>Utrum per rationes naturales possit cognosci trinitas personaliter</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		    </div>
-  		    <div id="gr-l1d3p1p2">
-  		      <head>Liber 1, Distinctio 3, Pars 1, Principalis 2</head>
-  		      <questionTitle>De vestigio</questionTitle>
-  		      <item id="gr-l1d3p1p2q1" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p2q1"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 1</title>
-  		        <questionTitle>Quaeritur de vestigio in se</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1p2q2" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p2q2"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 2</title>
-  		        <questionTitle>Quot sunt partes vestigii</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1p2q3" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p2q3"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 3</title>
-  		        <questionTitle>Utrum in omnibus reperiatur vestigium</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		      <item id="gr-l1d3p1p2q4" type="quaestio">
-  		        <fileName filestem="gr-l1d3p1p2q4"/>
-  		        <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 4</title>
-  		        <questionTitle>Quorum sit cognoscere deum per vestigium</questionTitle>
-  		        <hasWitnesses>
-  		          <witness ref="#V">
-  		            <folio></folio>
-  		          </witness>
-  		        </hasWitnesses>
-  		      </item>
-  		    </div>
-		    </div>
-		    <div id="gr-l1d3p2">
-		      <head>Liber 1, Distinctio 3, Pars 2</head>
-		      <div id="gr-l1d3p2p1">
-		        <head>Liber 1, Distinctio 3, Pars 2, Principalis 1</head>
-		        <questionTitle>De imagine in quo reperiatur</questionTitle>
-		        <item id="gr-l1d3p2p1q1" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p1q1"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 1, Quaestio 1</title>
-		          <questionTitle>Utrum in angelo reperiatur imago; ulterius utrum in homine sit imago; ulterius utrum in muliere sit imago</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		      </div>
-		      <div id="gr-l1d3p2p2">
-		        <head>Liber 1, Distinctio 3, Pars 2, Principalis 2</head>
-		        <questionTitle>De partibus imaginis</questionTitle>
-		        <item id="gr-l1d3p2p2q1" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p2q1"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 1</title>
-		          <questionTitle>Utrum memoria pertineat ad imaginem; ulterius utrum intelligentia pertineat ad imaginem; ulterius utrum voluntas pertineat ad imaginem</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		        <item id="gr-l1d3p2p2q2" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p2q2"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 2</title>
-		          <questionTitle>Quomodo in mente notitia et amore reperitur in imago; ulterius quid accipiatur ibi pro mente; ulterius quid accipietur ibi pro notitia</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		        <item id="gr-l1d3p2p2q3" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p2q3"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 3</title>
-		          <questionTitle>Respectu quorum obiectorum sit imago trinitatis in anima; utrum in nobis sit imago trinitatis animae se cognoscit; utrum imago sit respectu omnium obiectorum</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		      </div>
-		      <div id="gr-l1d3p2p3">
-		        <head>Liber 1, Distinctio 3, Pars 2, Principalis 3</head>
-		        <questionTitle>De repraesentatione trinitatis per imagine creatam</questionTitle>
-		        <item id="gr-l1d3p2p3q1" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p3q1"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 3, Quaestio 1</title>
-		          <questionTitle>Quomodo repraesentatur ibi unitas essentiae</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		        <item id="gr-l1d3p2p3q2" type="quaestio">
-		          <fileName filestem="gr-l1d3p2p3q2"/>
-		          <title>Liber I, Distinctio 3, Pars 2, Principalis 3, Quaestio 2</title>
-		          <questionTitle>Quomodo repraesentatur in imagine nostra trinitas personarum</questionTitle>
-		          <hasWitnesses>
-		            <witness ref="#V">
-		              <folio></folio>
-		            </witness>
-		          </hasWitnesses>
-		        </item>
-		      </div>
-		    </div>
-		  </div>
-		  <div id="gr-l1d4" type="distinctio" subtype="librum1-distinctio4">
-		    <head>Liber 1, Distinctio 4</head>
-		    <div id="gr-l1d4p1">
-		      <head>Liber 1, Distinctio 4, Principalis 1</head>
-		      <questionTitle>De generatione in divinis</questionTitle>
-		      <item id="gr-l1d4p1q1" type="quaestio">
-		        <fileName filestem="gr-l1d4p1q1"/>
-		        <title>Liber I, Distinctio 4, Principalis 1, Quaestio 1</title>
-		        <questionTitle>Utrum in divinis sit generatio.</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>31r</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d4p1q2" type="quaestio">
-		        <fileName filestem="gr-l1d4p1q2"/>
-		        <title>Liber I, Distinctio 4, Principalis 1, Quaestio 2</title>
-		        <questionTitle>Utrum generatio sit in omnibus personis divinis</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>31r</folio>
-		            <folio>31v</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d4p1q3" type="quaestio">
-		        <fileName filestem="gr-l1d4p1q3"/>
-		        <title>Liber I, Distinctio 4, Principalis 1, Quaestio 3</title>
-		        <questionTitle>Utrum generatio sit in filio</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio>31v</folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d4p1q4" type="quaestio">
-		        <fileName filestem="gr-l1d4p1q4"/>
-		        <title>Liber I, Distinctio 4, Principalis 1, Quaestio 4</title>
-		        <questionTitle>Utrum generatio actio sit in patre</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		    <div id="gr-l1d4p2">
-		      <head>Liber 1, Distinctio 4, Principalis 2</head>
-		      <questionTitle>De propositionibus indicantibus identitatem vel alienitatem circa generationem</questionTitle>
-		      <item id="gr-l1d4p2q1" type="quaestio">
-		        <fileName filestem="gr-l1d4p2q1"/>
-		        <title>Liber I, Distinctio 4, Principalis 2, Quaestio 1</title>
-		        <questionTitle>Utrum iste sit vera, deus genuit alium deum; utrum genuit se deum; utrum ista propositio sit falsa, deus genuit qui est deus pater; utrum hoc sit vera, genitus a deo non est deus pater</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		    <div id="gr-l1d4p3">
-		      <head>Liber 1, Distinctio 4, Principalis 3</head>
-		      <questionTitle>De propositionibus affirmativis de deo dictis</questionTitle>
-		      <item id="gr-l1d4p3q1" type="quaestio">
-		        <fileName filestem="gr-l1d4p3q1"/>
-		        <title>Liber I, Distinctio 4, Principalis 3, Quaestio 1</title>
-		        <questionTitle>Utrum aliquae propositiones affirmativae de deo dicit sint verae</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d4p3q2" type="quaestio">
-		        <fileName filestem="gr-l1d4p3q2"/>
-		        <title>Liber I, Distinctio 4, Principalis 3, Quaestio 2</title>
-		        <questionTitle>Utrum nam divina de deo praedicetur in abstracto; utrum persona praedicetur de essentia</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		      <item id="gr-l1d4p3q3" type="quaestio">
-		        <fileName filestem="gr-l1d4p3q3"/>
-		        <title>Liber I, Distinctio 4, Principalis 3, Quaestio 3</title>
-		        <questionTitle>Utrum aliae perfectiones quae sunt in deo praedicentur de deo in abstracto</questionTitle>
-		        <hasWitnesses>
-		          <witness ref="#V">
-		            <folio></folio>
-		          </witness>
-		        </hasWitnesses>
-		      </item>
-		    </div>
-		  </div>
-		</div>
-	</div>
+  <header>
+    <authorName>Giles of Rome</authorName>
+    <commentaryName>Giles of Rome Commentary on the Sentences</commentaryName>
+    <commentaryid>romacommentary</commentaryid>
+    <commentaryslug>gr</commentaryslug>
+    <authorUri>http://scta.info/resource/GilesOfRome</authorUri>
+    <parentUri>http://scta.info/resource/romacommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/romacommentary/</textfilesdir>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <webbase>null</webbase>
+    <questionListSource>Venice 1521</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>venice1521</slug>
+        <title>Venice</title>
+        <initial>V</initial>
+      </witness>
+      <witness id="Va">
+        <slug>vatlat836</slug>
+        <title>Vat Lat 836</title>
+        <initial>Va</initial>
+      </witness>
+      <witness id="Vb">
+        <slug>vatlat837</slug>
+        <title>Vat Lat 837</title>
+        <initial>Vb</initial>
+      </witness>
+      <witness id="Vc">
+        <slug>vatlat838</slug>
+        <title>Vat Lat 838</title>
+        <initial>Vc</initial>
+      </witness>
+      <witness id="Pa">
+        <slug>bnf15860</slug>
+        <title>BnF Lat 15860</title>
+        <initial>Pa</initial>
+      </witness>
+      <witness id="Pa">
+        <slug>bnf15860</slug>
+        <title>BnF Lat 15860</title>
+        <initial>Pa</initial>
+      </witness>
+      <witness id="Pa">
+        <slug>bnf15861</slug>
+        <title>BnF Lat 15861</title>
+        <initial>Pb</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="gr-l1" type="librum" subtype="librum1">
+      <head>Liber 1</head>
+      <div id="gr-l1prol" type="prologus" subtype="librum1-prologus">
+        <head>Liber 1, Prologus</head>
+        <div id="gr-l1prolp1">
+          <head>Liber 1, Prologus, Pars 1</head>
+          <!-- de causa materiali -->
+          <div id="gr-l1prolp1p1">
+            <head>Liber 1, Prologus, Pars 1, Principalis 1</head>
+            <item id="gr-l1prolp1p1q1" type="quaestio">
+              <fileName filestem="gr-l1prolp1p1q1"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 1</title>
+              <questionTitle>Utrum idem sit aliquid esse subiectum in scientia et esse de consideratione scientiae</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1prolp1p1q2" type="quaestio">
+              <fileName filestem="gr-l1prolp1p1q2"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 2</title>
+              <questionTitle>Utrum theologia sit scientia communis vel specialis</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1prolp1p1q3" type="quaestio">
+              <fileName filestem="gr-l1prolp1p1q3"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 1, Quaestio 3</title>
+              <questionTitle>Quid sit subiectum in sacra pagina</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>3v</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1prolp1p2">
+            <head>Liber 1, Prologus, Pars 1, Principalis 2</head>
+            <item id="gr-l1prolp1p2q1" type="quaestio">
+              <fileName filestem="gr-l1prolp1p2q1"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 1</title>
+              <questionTitle>De ordine istius scientiae ad alias</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1prolp1p2q2" type="quaestio">
+              <fileName filestem="gr-l1prolp1p2q2"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 2</title>
+              <questionTitle>Utrum ista scientia sit dignior aliis scientiis humanis</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1prolp1p2q3" type="quaestio">
+              <fileName filestem="gr-l1prolp1p2q3"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 3</title>
+              <questionTitle>Utrum ista scientia sit una</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1prolp1p2q4" type="quaestio">
+              <fileName filestem="gr-l1prolp1p2q4"/>
+              <title>Liber I, Prologus, Pars 1, Principalis 2, Quaestio 4</title>
+              <questionTitle>Utrum sit aliqua scientia necessaria praeter physicas disciplinas</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+        <div id="gr-l1prolp2">
+          <head>Liber 1, Prologus, Pars 2</head>
+          <!-- de causa formali -->
+          <item id="gr-l1prolp2q1" type="quaestio">
+            <fileName filestem="gr-l1prolp2q1"/>
+            <title>Liber I, Prologus, Pars 2, Quaestio 1</title>
+            <questionTitle>Utrum sacra pagina debeat dici sapientia, ulterius utrum debeat dici scientia</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1prolp2q2" type="quaestio">
+            <fileName filestem="gr-l1prolp2q2"/>
+            <title>Liber I, Prologus, Pars 2, Quaestio 2</title>
+            <questionTitle>Utrum ista scientia sit certior aliis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1prolp3">
+          <head>Liber 1, Prologus, Pars 3</head>
+          <!-- de causa efficiente -->
+          <item id="gr-l1prolp3q1" type="quaestio">
+            <fileName filestem="gr-l1prolp3q1"/>
+            <title>Liber I, Prologus, Pars 3, Quaestio 1</title>
+            <questionTitle>Utrum solus deus doceat istam scientiam</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1prolp4">
+          <head>Liber 1, Prologus, Pars 4</head>
+          <!-- de causa finali -->
+          <item id="gr-l1prolp4q1" type="quaestio">
+            <fileName filestem="gr-l1prolp4q1"/>
+            <title>Liber I, Prologus, Pars 4, Quaestio 1</title>
+            <questionTitle>Utrum ista scientia sit practica vel speculativa</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d1" type="distinctio" subtype="librum1-distinctio1">
+        <head>Liber 1, Distinctio 1</head>
+        <div id="gr-l1d1p1">
+          <head>Liber 1, Distinctio 1, Principalis 1</head>
+          <questionTitle>De potentiis vel habitibus quae eliciuntur fruitio et usus</questionTitle>
+          <item id="gr-l1d1p1q1" type="quaestio">
+            <fileName filestem="gr-l1d1p1q1"/>
+            <title>Liber I, Distinctio 1, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum frui sit actus intellectus</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d1p1q2" type="quaestio">
+            <fileName filestem="gr-l1d1p1q2"/>
+            <title>Liber I, Distinctio 1, Principalis 1, Quaestio 2</title>
+            <questionTitle>Cuius sit frui tamquam habitus sive sicut virtutis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>11r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d1p1q3" type="quaestio">
+            <fileName filestem="gr-l1d1p1q3"/>
+            <title>Liber I, Distinctio 1, Principalis 1, Quaestio 3</title>
+            <questionTitle>Cuius potentiae sit uti</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>12r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d1p2">
+          <head>Liber 1, Distinctio 1, Principalis 2</head>
+          <questionTitle>De fruibilibus et utibilibus</questionTitle>
+          <item id="gr-l1d1p2q1" type="quaestio">
+            <fileName filestem="gr-l1d1p2q1"/>
+            <title>Liber I, Distinctio 1, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum solo deo sit fruendum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>12r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d1p2q2" type="quaestio">
+            <fileName filestem="gr-l1d1p2q2"/>
+            <title>Liber I, Distinctio 1, Principalis 2, Quaestio 2</title>
+            <questionTitle>Utrum tribus personis sit fruendum fruitione una vel pluribus</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>13r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d1p2q3" type="quaestio">
+            <fileName filestem="gr-l1d1p2q3"/>
+            <title>Liber I, Distinctio 1, Principalis 2, Quaestio 3</title>
+            <questionTitle>Utrum deo sit utendum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>13r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d1p3">
+          <head>Liber 1, Distinctio 1, Principalis 3</head>
+          <questionTitle>De fruentibus et utentibus</questionTitle>
+          <item id="gr-l1d1p3q1" type="quaestio">
+            <fileName filestem="gr-l1d1p3q1"/>
+            <title>Liber I, Distinctio 1, Principalis 3, Quaestio 1</title>
+            <questionTitle>Utrum deus fruatur</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>13r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d1p3q2" type="quaestio">
+            <fileName filestem="gr-l1d1p3q2"/>
+            <title>Liber I, Distinctio 1, Principalis 3, Quaestio 2</title>
+            <questionTitle>Utrum deus utatur aliquo</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>14r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d2" type="distinctio" subtype="librum1-distinctio2">
+        <head>Liber 1, Distinctio 2</head>
+        <div id="gr-l1d2p1">
+          <head>Liber 1, Distinctio 2, Principalis 1</head>
+          <questionTitle>De unitate essentiae</questionTitle>
+          <item id="gr-l1d2p1q1" type="quaestio">
+            <fileName filestem="gr-l1d2p1q1"/>
+            <title>Liber I, Distinctio 2, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum sit dare plures deos</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d2p1q2" type="quaestio">
+            <fileName filestem="gr-l1d2p1q2"/>
+            <title>Liber I, Distinctio 2, Principalis 1, Quaestio 2</title>
+            <questionTitle>Utrum deo conveniat pluralitas attributorum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d2p1q3" type="quaestio">
+            <fileName filestem="gr-l1d2p1q3"/>
+            <title>Liber I, Distinctio 2, Principalis 1, Quaestio 3</title>
+            <questionTitle>Utrum isti pluralitati respondeat aliquid in re vel sit pluralitas rationum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d2p2">
+          <head>Liber 1, Distinctio 2, Principalis 2</head>
+          <questionTitle>De pluralitate suppositorum</questionTitle>
+          <item id="gr-l1d2p2q1" type="quaestio">
+            <fileName filestem="gr-l1d2p2q1"/>
+            <title>Liber I, Distinctio 2, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum servata unitate naturae divinae possit ibi esse pluralitas suppositorum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d2p2q2" type="quaestio">
+            <fileName filestem="gr-l1d2p2q2"/>
+            <title>Liber I, Distinctio 2, Principalis 2, Quaestio 2</title>
+            <questionTitle>Utrum illa plura supposita differant re vel ratione solum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d3" type="distinctio" subtype="librum1-distinctio3">
+        <head>Liber 1, Distinctio 3</head>
+        <div id="gr-l1d3p1">
+          <head>Liber 1, Distinctio 3, Pars 1</head>
+          <div id="gr-l1d3p1p1">
+            <head>Liber 1, Distinctio 3, Pars 1, Principalis 1</head>
+            <questionTitle>De cognitione dei in se</questionTitle>
+            <item id="gr-l1d3p1p1q1" type="quaestio">
+              <fileName filestem="gr-l1d3p1p1q1"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 1</title>
+              <questionTitle>Utrum deum possimus cognoscere in vita ista</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1p1q2" type="quaestio">
+              <fileName filestem="gr-l1d3p1p1q2"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 2</title>
+              <questionTitle>Utrum deum esse sit per se notum</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1p1q3" type="quaestio">
+              <fileName filestem="gr-l1d3p1p1q3"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 1, Quaestio 3</title>
+              <questionTitle>Utrum deum esse possit demonstrari.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1q4" type="quaestio">
+              <fileName filestem="gr-l1d3p1p1q4"/>
+              <title>Liber I, Distinctio 4, Pars 1, Principalis 1, Quaestio 4</title>
+              <questionTitle>Utrum per rationes naturales possit cognosci trinitas personaliter</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1d3p1p2">
+            <head>Liber 1, Distinctio 3, Pars 1, Principalis 2</head>
+            <questionTitle>De vestigio</questionTitle>
+            <item id="gr-l1d3p1p2q1" type="quaestio">
+              <fileName filestem="gr-l1d3p1p2q1"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 1</title>
+              <questionTitle>Quaeritur de vestigio in se</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1p2q2" type="quaestio">
+              <fileName filestem="gr-l1d3p1p2q2"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 2</title>
+              <questionTitle>Quot sunt partes vestigii</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1p2q3" type="quaestio">
+              <fileName filestem="gr-l1d3p1p2q3"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 3</title>
+              <questionTitle>Utrum in omnibus reperiatur vestigium</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p1p2q4" type="quaestio">
+              <fileName filestem="gr-l1d3p1p2q4"/>
+              <title>Liber I, Distinctio 3, Pars 1, Principalis 2, Quaestio 4</title>
+              <questionTitle>Quorum sit cognoscere deum per vestigium</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+        <div id="gr-l1d3p2">
+          <head>Liber 1, Distinctio 3, Pars 2</head>
+          <div id="gr-l1d3p2p1">
+            <head>Liber 1, Distinctio 3, Pars 2, Principalis 1</head>
+            <questionTitle>De imagine in quo reperiatur</questionTitle>
+            <item id="gr-l1d3p2p1q1" type="quaestio">
+              <fileName filestem="gr-l1d3p2p1q1"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 1, Quaestio 1</title>
+              <questionTitle>Utrum in angelo reperiatur imago; ulterius utrum in homine sit imago; ulterius utrum in muliere sit imago</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1d3p2p2">
+            <head>Liber 1, Distinctio 3, Pars 2, Principalis 2</head>
+            <questionTitle>De partibus imaginis</questionTitle>
+            <item id="gr-l1d3p2p2q1" type="quaestio">
+              <fileName filestem="gr-l1d3p2p2q1"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 1</title>
+              <questionTitle>Utrum memoria pertineat ad imaginem; ulterius utrum intelligentia pertineat ad imaginem; ulterius utrum voluntas pertineat ad imaginem</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p2p2q2" type="quaestio">
+              <fileName filestem="gr-l1d3p2p2q2"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 2</title>
+              <questionTitle>Quomodo in mente notitia et amore reperitur in imago; ulterius quid accipiatur ibi pro mente; ulterius quid accipietur ibi pro notitia</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p2p2q3" type="quaestio">
+              <fileName filestem="gr-l1d3p2p2q3"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 2, Quaestio 3</title>
+              <questionTitle>Respectu quorum obiectorum sit imago trinitatis in anima; utrum in nobis sit imago trinitatis animae se cognoscit; utrum imago sit respectu omnium obiectorum</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1d3p2p3">
+            <head>Liber 1, Distinctio 3, Pars 2, Principalis 3</head>
+            <questionTitle>De repraesentatione trinitatis per imagine creatam</questionTitle>
+            <item id="gr-l1d3p2p3q1" type="quaestio">
+              <fileName filestem="gr-l1d3p2p3q1"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 3, Quaestio 1</title>
+              <questionTitle>Quomodo repraesentatur ibi unitas essentiae</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d3p2p3q2" type="quaestio">
+              <fileName filestem="gr-l1d3p2p3q2"/>
+              <title>Liber I, Distinctio 3, Pars 2, Principalis 3, Quaestio 2</title>
+              <questionTitle>Quomodo repraesentatur in imagine nostra trinitas personarum</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio></folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+      </div>
+      <div id="gr-l1d4" type="distinctio" subtype="librum1-distinctio4">
+        <head>Liber 1, Distinctio 4</head>
+        <div id="gr-l1d4p1">
+          <head>Liber 1, Distinctio 4, Principalis 1</head>
+          <questionTitle>De generatione in divinis</questionTitle>
+          <item id="gr-l1d4p1q1" type="quaestio">
+            <fileName filestem="gr-l1d4p1q1"/>
+            <title>Liber I, Distinctio 4, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum in divinis sit generatio.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d4p1q2" type="quaestio">
+            <fileName filestem="gr-l1d4p1q2"/>
+            <title>Liber I, Distinctio 4, Principalis 1, Quaestio 2</title>
+            <questionTitle>Utrum generatio sit in omnibus personis divinis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+                <folio>31v</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d4p1q3" type="quaestio">
+            <fileName filestem="gr-l1d4p1q3"/>
+            <title>Liber I, Distinctio 4, Principalis 1, Quaestio 3</title>
+            <questionTitle>Utrum generatio sit in filio</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31v</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d4p1q4" type="quaestio">
+            <fileName filestem="gr-l1d4p1q4"/>
+            <title>Liber I, Distinctio 4, Principalis 1, Quaestio 4</title>
+            <questionTitle>Utrum generatio actio sit in patre</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d4p2">
+          <head>Liber 1, Distinctio 4, Principalis 2</head>
+          <questionTitle>De propositionibus indicantibus identitatem vel alienitatem circa generationem</questionTitle>
+          <item id="gr-l1d4p2q1" type="quaestio">
+            <fileName filestem="gr-l1d4p2q1"/>
+            <title>Liber I, Distinctio 4, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum iste sit vera, deus genuit alium deum; utrum genuit se deum; utrum ista propositio sit falsa, deus genuit qui est deus pater; utrum hoc sit vera, genitus a deo non est deus pater</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d4p3">
+          <head>Liber 1, Distinctio 4, Principalis 3</head>
+          <questionTitle>De propositionibus affirmativis de deo dictis</questionTitle>
+          <item id="gr-l1d4p3q1" type="quaestio">
+            <fileName filestem="gr-l1d4p3q1"/>
+            <title>Liber I, Distinctio 4, Principalis 3, Quaestio 1</title>
+            <questionTitle>Utrum aliquae propositiones affirmativae de deo dicit sint verae</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d4p3q2" type="quaestio">
+            <fileName filestem="gr-l1d4p3q2"/>
+            <title>Liber I, Distinctio 4, Principalis 3, Quaestio 2</title>
+            <questionTitle>Utrum nam divina de deo praedicetur in abstracto; utrum persona praedicetur de essentia</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d4p3q3" type="quaestio">
+            <fileName filestem="gr-l1d4p3q3"/>
+            <title>Liber I, Distinctio 4, Principalis 3, Quaestio 3</title>
+            <questionTitle>Utrum aliae perfectiones quae sunt in deo praedicentur de deo in abstracto</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio></folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d5" type="distinctio" subtype="librum1-distinctio5">
+        <head>Liber 1, Distinctio 5</head>
+        <div id="gr-l1d5p1">
+          <head>Liber 1, Distinctio 5, Principalis 1</head>
+          <questionTitle>De comparatione generationis ad essentialia</questionTitle>
+          <item id="gr-l1d5p1q1" type="quaestio">
+            <fileName filestem="gr-l1d5p1q1"/>
+            <title>Liber I, Distinctio 5, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum generare magis proprie conveniat deo qui est terminus essentialis in concreto quam patri qui est quid relative dictum; utrum sit concedenda deus generat</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>36r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d5p1q2" type="quaestio">
+            <fileName filestem="gr-l1d5p1q2"/>
+            <title>Liber I, Distinctio 5, Principalis 1, Quaestio 2</title>
+            <questionTitle>Quomodo comparatur generatio ad essentia</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>36r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d5p2">
+          <head>Liber 1, Distinctio 5, Principalis 2</head>
+          <questionTitle>Quod est illud de quo est genearatio filii</questionTitle>
+          <item id="gr-l1d5p2q1" type="quaestio">
+            <fileName filestem="gr-l1d5p2q1"/>
+            <title>Liber I, Distinctio 5, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum filius sit de substantia Patris?</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>38r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <item id="gr-l1d5p2q2" type="quaestio">
+          <fileName filestem="gr-l1d5p2q2"/>
+          <title>Liber I, Distinctio 5, Principalis 2, Quaestio 2</title>
+          <questionTitle>Utrum filius sit ex nihilo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio>38r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gr-l1d6" type="distinctio" subtype="librum1-distinctio6">
+        <head>Liber 1, Distinctio 6</head>
+        <div id="gr-l1d6p1">
+          <head>Liber 1, Distinctio 6, Principalis 1</head>
+          <questionTitle>De naturali generatione divina</questionTitle>
+          <item id="gr-l1d6p1q1" type="quaestio">
+            <fileName filestem="gr-l1d6p1q1"/>
+            <title>Liber I, Distinctio 6, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum pater genuerit filium natura; utrum ista possit concedit: natura generat</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>40r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d6p1q2" type="quaestio">
+            <fileName filestem="gr-l1d6p1q2"/>
+            <title>Liber I, Distinctio 6, Principalis 1, Quaestio 2</title>
+            <questionTitle>Utrum pater genuerit filium necessitate</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>40r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d6p2">
+          <head>Liber 1, Distinctio 6, Principalis 2</head>
+          <questionTitle>De voluntaria generatione divina</questionTitle>
+          <item id="gr-l1d6p2q1" type="quaestio">
+            <fileName filestem="gr-l1d6p2q1"/>
+            <title>Liber I, Distinctio 6, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum filius procedat a patre per modum artis.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>40r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d6p2q2" type="quaestio">
+            <fileName filestem="gr-l1d6p2q2"/>
+            <title>Liber I, Distinctio 6, Principalis 2, Quaestio 2</title>
+            <questionTitle>Utrum pater genuerit illum voluntate</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>41r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d6p2q3" type="quaestio">
+            <fileName filestem="gr-l1d6p2q3"/>
+            <title>Liber I, Distinctio 6, Principalis 2, Quaestio 3</title>
+            <questionTitle>Cum ista sit vera deus generat, utrum sit vera Deus non generat</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>41r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d7" type="distinctio" subtype="librum1-distinctio7">
+        <head>Liber 1, Distinctio 7</head>
+        <div id="gr-l1d7p1">
+          <head>Liber 1, Distinctio 7, Principalis 1</head>
+          <questionTitle>De potentia generandi an sit in Deo proprie</questionTitle>
+          <item id="gr-l1d7p1q1" type="quaestio">
+            <fileName filestem="gr-l1d7p1q1"/>
+            <title>Liber I, Distinctio 7, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum in Deo sit potentia generandi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d7p1q2" type="quaestio">
+            <fileName filestem="gr-l1d7p1q2"/>
+            <title>Liber I, Distinctio 7, Principalis 1, Quaestio 2</title>
+            <questionTitle>Utrum potentia generandi dicat quid vel ad aliquid</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d7p1q3" type="quaestio">
+            <fileName filestem="gr-l1d7p1q3"/>
+            <title>Liber I, Distinctio 7, Principalis 1, Quaestio 3</title>
+            <questionTitle>Utrum potentia in divinis dicatur univoce de potentia generandi et creandi; utrum potentia generandi et creandi sit eadem</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d7p2">
+          <head>Liber 1, Distinctio 7, Principalis 2</head>
+          <questionTitle>De potentia generandi in filio</questionTitle>
+          <item id="gr-l1d7p2q1" type="quaestio">
+            <fileName filestem="gr-l1d7p2q1"/>
+            <title>Liber I, Distinctio 7, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum in aliquo sit potentia generandi cui non competat generare</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d7p2q2" type="quaestio">
+            <fileName filestem="gr-l1d7p2q2"/>
+            <title>Liber I, Distinctio 7, Principalis 2, Quaestio 2</title>
+            <questionTitle>Utrum in filio sit potentia generandi.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d7p2q3" type="quaestio">
+            <fileName filestem="gr-l1d7p2q3"/>
+            <title>Liber I, Distinctio 7, Principalis 2, Quaestio 3</title>
+            <questionTitle>Utrum sit eadem potentia per quam pater gignit et filus gignatur</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d7p2q4" type="quaestio">
+            <fileName filestem="gr-l1d7p2q4"/>
+            <title>Liber I, Distinctio 7, Principalis 2, Quaestio 4</title>
+            <questionTitle>Utrum in divinis possint esse plures filii.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>31r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="gr-l1d8" type="distinctio" subtype="librum1-distinctio8">
+        <head>Liber 1, Distinctio 8</head>
+        <div id="gr-l1d8p1">
+          <head>Liber 1, Distinctio 8, Pars 1</head>
+          <questionTitle/>
+          <div id="gr-l1d8p1p1">
+            <head>Liber 1, Distinctio 8, Pars 1, Principalis 1</head>
+            <questionTitle>De entitate primi</questionTitle>
+            <item id="gr-l1d8p1p1q1" type="quaestio">
+              <fileName filestem="gr-l1d8p1p1q1"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 1, Quaestio 1</title>
+              <questionTitle>Utrum esse sit proprium solius Dei</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>46r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p1p1q2" type="quaestio">
+              <fileName filestem="gr-l1d8p1p1q2"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 1, Quaestio 2</title>
+              <questionTitle>Utrum esse Dei sit esse omnium</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>46r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1d8p1p2">
+            <head>Liber 1, Distinctio 8, Pars 1, Principalis 2</head>
+            <questionTitle>De mensura divini esse</questionTitle>
+            <item id="gr-l1d8p1p2q1" type="quaestio">
+              <fileName filestem="gr-l1d8p1p2q1"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 2, Quaestio 1</title>
+              <questionTitle>Quaeritur de divino esse ut est mensura aliorum.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>47r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p1p2q2" type="quaestio">
+              <fileName filestem="gr-l1d8p1p2q2"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 2, Quaestio 2</title>
+              <questionTitle>Quaeritur de Deo ut habet rationem mensurati mensura Dei dicitur aeternitas</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>48r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+        </div>
+          <div id="gr-l1d8p1p3">
+            <head>Liber 1, Distinctio 8, Pars 1, Principalis 3</head>
+            <questionTitle>De immutabilitate Dei</questionTitle>
+            <item id="gr-l1d8p1p3q1" type="quaestio">
+              <fileName filestem="gr-l1d8p1p3q1"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 3, Quaestio 1</title>
+              <questionTitle>Utrum Deus sit immutabilis</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>50r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p1p3q2" type="quaestio">
+              <fileName filestem="gr-l1d8p1p3q2"/>
+              <title>Liber I, Distinctio 8, Pars 1, Principalis 3, Quaestio 2</title>
+              <questionTitle>Utrum omnis creatura sit mutabilis</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>50r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+        <div id="gr-l1d8p2">
+          <head>Liber 1, Distinctio 8, Pars 2</head>
+          <questionTitle/>
+          <div id="gr-l1d8p2p1">
+            <head>Liber 1, Distinctio 8, Pars 2, Principalis 1</head>
+            <questionTitle>De simplicitate Dei</questionTitle>
+            <item id="gr-l1d8p2p1q1" type="quaestio">
+              <fileName filestem="gr-l1d8p2p1q1"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 1, Quaestio 1</title>
+              <questionTitle>Utrum in Deo sit compositio virtutis et subiectae</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>52r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p2p1q2" type="quaestio">
+              <fileName filestem="gr-l1d8p2p1q2"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 1, Quaestio 2</title>
+              <questionTitle>Utrum in Deo sit compositio essentiae et esse.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>52r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p2p1q3" type="quaestio">
+              <fileName filestem="gr-l1d8p2p1q3"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 1, Quaestio 3</title>
+              <questionTitle>Utrum sit ibi compositio generis et differentiae</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>53r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p2p1q3" type="quaestio">
+              <fileName filestem="gr-l1d8p2p1q4"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 1, Quaestio 4</title>
+              <questionTitle>Utrum Deus sit summe simplex</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>53r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="gr-l1d8p2p2">
+            <head>Liber 1, Distinctio 8, Pars 2, Principalis 2</head>
+            <questionTitle>De simplicitate creaturae</questionTitle>
+            <item id="gr-l1d8p2p2q1" type="quaestio">
+              <fileName filestem="gr-l1d8p2p2q1"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 2, Quaestio 1</title>
+              <questionTitle>Utrum omnis creatura sit composita</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>53r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p2p2q2" type="quaestio">
+              <fileName filestem="gr-l1d8p2p2q2"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 2, Quaestio 2</title>
+              <questionTitle>Utrum anima sit composita</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>54r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="gr-l1d8p2p2q3" type="quaestio">
+              <fileName filestem="gr-l1d8p2p2q3"/>
+              <title>Liber I, Distinctio 8, Pars 2, Principalis 2, Quaestio 3</title>
+              <questionTitle>Utrum anima sit tota in qualibet parte corporis.</questionTitle>
+              <hasWitnesses>
+                <witness ref="#V">
+                  <folio>54r</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+      </div>
+      <div id="gr-l1d9" type="distinctio" subtype="librum1-distinctio9">
+        <head>Liber 1, Distinctio 9</head>
+        <div id="gr-l1d9p1">
+          <head>Liber 1, Distinctio 9, Principalis 1</head>
+          <questionTitle>De distinctione filii a patre per generationem</questionTitle>
+          <item id="gr-l1d9p1q1" type="quaestio">
+            <fileName filestem="gr-l1d9p1q1"/>
+            <title>Liber I, Distinctio 9, Principalis 1, Quaestio 1</title>
+            <questionTitle>Utrum generatio distinguat in divinis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>57r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d9p1q2" type="quaestio">
+            <fileName filestem="gr-l1d9p1q2"/>
+            <title>Liber I, Distinctio 9, Principalis 1, Quaestio 2</title>
+            <questionTitle>Utrum filius sit alius a Patre</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>57r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d9p1q3" type="quaestio">
+            <fileName filestem="gr-l1d9p1q3"/>
+            <title>Liber I, Distinctio 9, Principalis 1, Quaestio 3</title>
+            <questionTitle>Utrum Pater et Filius possint dici plures aeterni</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>57r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="gr-l1d9p2">
+          <head>Liber 1, Distinctio 9, Principalis 2</head>
+          <questionTitle>De aeternitate Filii</questionTitle>
+          <item id="gr-l1d9p2q1" type="quaestio">
+            <fileName filestem="gr-l1d9p2q1"/>
+            <title>Liber I, Distinctio 9, Principalis 2, Quaestio 1</title>
+            <questionTitle>Utrum filius sit aeternaliter genitus.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>58r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d9p2q2" type="quaestio">
+            <fileName filestem="gr-l1d9p2q2"/>
+            <title>Liber I, Distinctio 9, Principalis 2, Quaestio 2</title>
+            <questionTitle>Utrum Pater sit prior Filio</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>58r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="gr-l1d9p2q3" type="quaestio">
+            <fileName filestem="gr-l1d9p2q3"/>
+            <title>Liber I, Distinctio 9, Principalis 2, Quaestio 3</title>
+            <questionTitle>Utrum de filio dicatur melius semper gignitur quam semper genitus 
+            est vel gignetur; utrum bene dicatur semper natus est; utrum possit concedi filius semper nascitur.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>59r</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+    </div>
+  </div>
 </listofFileNames>

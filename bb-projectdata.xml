@@ -1,714 +1,2514 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listofFileNames>
-    <header>
-        <authorName>Bonaventure</authorName>
-        <commentaryName>Bonaventure Commentary</commentaryName>
-        <commentaryid>bonaventurecommentary</commentaryid>
-        <commentaryslug>bb</commentaryslug>
-        <authorUri>http://scta.info/resource/Bonaventure</authorUri>
-        <parentUri>http://scta.info/resource/bonaventurecommentary</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/bonaventurecommentary/</textfilesdir>
-        <webbase>null</webbase>
-        <questionListSource></questionListSource>
-        <questionListOriginalEditor></questionListOriginalEditor>
-        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-      <hasWitnesses>
-        <witness id="H">
-          <slug>harv265</slug>
-          <title>Cambridge, Mass., Harvard University, Houghton Library, MS Lat 265</title>
-          <initial>H</initial>
-          <canvasBase>http://iiif.lib.harvard.edu/manifests/drs:24332177/canvas/</canvasBase>
-          <manifestOfficial>http://iiif.lib.harvard.edu/manifests/drs:24332177</manifestOfficial>
-        </witness>
-      </hasWitnesses>
-    </header>
-    <div id="body">
-      <div id="bb-l2" type="librum" subtype="librum2">
-        <head>Liber II</head>
-        <div id="bb-l2d1" type="distinctio" subtype="librum2-distinctio1">
-          <head>Liber II, Distinctio 1</head>
-          <item xml:id="bb-l2d1p1" type="pars">
-            <fileName filestem="bb-l2d1p1"/>
-            <title>Liber II, Distinctio 1, Pars 1 </title>
-            <questionTitle>De creatione humanae naturae quantum ad principium efficiens in generali</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332633.json">7v</folio>
-                <folio canvasslug="canvas-24332634.json">8r</folio>
-                <folio canvasslug="canvas-24332635.json">8v</folio>
-                <folio canvasslug="canvas-24332636.json">9r</folio>
-                <folio canvasslug="canvas-24332637.json">9v</folio>
-                <folio canvasslug="canvas-24332638.json">10r</folio>
-                <folio canvasslug="canvas-24332639.json">10v</folio>
-                <folio canvasslug="canvas-24332640.json">11r</folio>
-                <folio canvasslug="canvas-24332641.json">11v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d1p2" type="pars">
-            <fileName filestem="bb-l2d1p2"/>
-            <title>Liber II, Distinctio 1, Pars 2 </title>
-            <questionTitle>De multitudine, fine et distinctione creaturarum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332641.json">11v</folio>
-                <folio canvasslug="canvas-24332642.json">12r</folio>
-                <folio canvasslug="canvas-24332643.json">12v</folio>
-                <folio canvasslug="canvas-24332644.json">13r</folio>
-                <folio canvasslug="canvas-24332645.json">13v</folio>
-                <folio canvasslug="canvas-24332646.json">14r</folio>
-                <folio canvasslug="canvas-24332647.json">14v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d2" type="distinctio" subtype="librum2-distinctio2">
-          <item xml:id="bb-l2d2p1" type="pars">
-            <fileName filestem="bb-l2d2p1"/>
-            <title>Liber II, Distinctio 2, Pars 1 </title>
-            <questionTitle>Quando creati sunt Angeli et de mensura durationis eorum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332647.json">14v</folio>
-                <folio canvasslug="canvas-24332648.json">15r</folio>
-                <folio canvasslug="canvas-24332649.json">15v</folio>
-                <folio canvasslug="canvas-24332650.json">16r</folio>
-                <folio canvasslug="canvas-24332651.json">16v</folio>
-                <folio canvasslug="canvas-24332652.json">17r</folio>
-                <folio canvasslug="canvas-24332653.json">17v</folio>
-                <folio canvasslug="canvas-24332654.json">18r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d2p2" type="pars">
-            <fileName filestem="bb-l2d2p2"/>
-            <title>Liber II, Distinctio 2, Pars 2</title>
-            <questionTitle>De loco, ubi fuerunt Angeli creati</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332654.json">18r</folio>
-                <folio canvasslug="canvas-24332655.json">18v</folio>
-                <folio canvasslug="canvas-24332656.json">19r</folio>
-                <folio canvasslug="canvas-24332657.json">19v</folio>
-                <folio canvasslug="canvas-24332658.json">20r</folio>
-                <folio canvasslug="canvas-24332659.json">20v</folio>
-                <folio canvasslug="canvas-24332660.json">21r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d3" type="distinctio" subtype="librum2-distinctio3">
-          <item xml:id="bb-l2d3p1" type="pars">
-            <fileName filestem="bb-l2d3p1"/>
-            <title>Liber II, Distinctio 3, Pars 1</title>
-            <questionTitle>Quales creati sint Angeli quoad naturalia attributa</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332660.json">21r</folio>
-                <folio canvasslug="canvas-24332661.json">21v</folio>
-                <folio canvasslug="canvas-24332662.json">22r</folio>
-                <folio canvasslug="canvas-24332663.json">22v</folio>
-                <folio canvasslug="canvas-24332664.json">23r</folio>
-                <folio canvasslug="canvas-24332665.json">23v</folio>
-                <folio canvasslug="canvas-24332666.json">24r</folio>
-                <folio canvasslug="canvas-24332667.json">24v</folio>
-                <folio canvasslug="canvas-24332668.json">25r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d3p2" type="pars">
-            <fileName filestem="bb-l2d3p2"/>
-            <title>Liber II, Distinctio 3, Pars 2</title>
-            <questionTitle>De habitibus per naturam Angelis superadditis</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332668.json">25r</folio>
-                <folio canvasslug="canvas-24332669.json">25v</folio>
-                <folio canvasslug="canvas-24332670.json">26r</folio>
-                <folio canvasslug="canvas-24332671.json">26v</folio>
-                <folio canvasslug="canvas-24332672.json">27r</folio>
-                <folio canvasslug="canvas-24332673.json">27v</folio>
-                <folio canvasslug="canvas-24332674.json">28r</folio>
-                <folio canvasslug="canvas-24332675.json">28v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d4" type="distinctio" subtype="librum2-distinctio4">
-          <item xml:id="bb-l2d4p1" type="pars">
-            <fileName filestem="bb-l2d4p1"/>
-            <title>Liber II, Distinctio 4, Pars 1</title>
-            <questionTitle>De habitibus Angelos in statu perfectionis constituentibus</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332675.json">28v</folio>
-                <folio canvasslug="canvas-24332676.json">29r</folio>
-                <folio canvasslug="canvas-24332677.json">29v</folio>
-                <folio canvasslug="canvas-24332678.json">30r</folio>
-                <folio canvasslug="canvas-24332679.json">30v</folio>
-                <folio canvasslug="canvas-24332680.json">31r</folio>
-                <folio canvasslug="canvas-24332681.json">31v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d5" type="distinctio" subtype="librum2-distinctio5">
-          <item xml:id="bb-l2d5p1" type="pars">
-            <fileName filestem="bb-l2d5p1"/>
-            <title>Liber II, Distinctio 5, Pars 1</title>
-            <questionTitle>Quales facti sint Angeli aversione et conversione</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332681.json">31v</folio>
-                <folio canvasslug="canvas-24332682.json">32r</folio>
-                <folio canvasslug="canvas-24332683.json">32v</folio>
-                <folio canvasslug="canvas-24332684.json">33r</folio>
-                <folio canvasslug="canvas-24332685.json">33v</folio>
-                <folio canvasslug="canvas-24332686.json">34r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d6" type="distinctio" subtype="librum2-distinctio6">
-          <item xml:id="bb-l2d6p1" type="pars">
-            <fileName filestem="bb-l2d6p1"/>
-            <title>Liber II, Distinctio 6, Pars 1</title>
-            <questionTitle>De ruina malorum angelorum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332686.json">34r</folio>
-                <folio canvasslug="canvas-24332687.json">34v</folio>
-                <folio canvasslug="canvas-24332688.json">35r</folio>
-                <folio canvasslug="canvas-24332689.json">35v</folio>
-                <folio canvasslug="canvas-24332690.json">36r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d7" type="distinctio" subtype="librum2-distinctio7">
-          <item xml:id="bb-l2d7p1" type="pars">
-            <fileName filestem="bb-l2d7p1"/>
-            <title>Liber II, Distinctio 7, Pars 1</title>
-            <questionTitle>De confirmatione et obstinatione Angelorum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332690.json">36r</folio>
-                <folio canvasslug="canvas-24332691.json">36v</folio>
-                <folio canvasslug="canvas-24332692.json">37r</folio>
-                <folio canvasslug="canvas-24332693.json">37v</folio>
-                <folio canvasslug="canvas-24332694.json">38r</folio>
-                <folio canvasslug="canvas-24332695.json">38v</folio>
-                <folio canvasslug="canvas-24332696.json">39r</folio>
-                <folio c="a" canvasslug="canvas-24332697.json">39v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d7p2" type="pars">
-            <fileName filestem="bb-l2d7p2"/>
-            <title>Liber II, Distinctio 7, Pars 2</title>
-            <questionTitle>De consequentibus ad obstinationem</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332697.json">39v</folio>
-                <folio canvasslug="canvas-24332698.json">40r</folio>
-                <folio canvasslug="canvas-24332699.json">40v</folio>
-                <folio canvasslug="canvas-24332700.json">41r</folio>
-                <folio canvasslug="canvas-24332701.json">41v</folio>
-                <folio canvasslug="canvas-24332702.json">42r</folio>
-                <folio canvasslug="canvas-24332703.json">42v</folio>
-                <folio canvasslug="canvas-24332704.json">43r</folio>
-                <folio canvasslug="canvas-24332705.json">43v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d8" type="distinctio" subtype="librum2-distinctio8">
-          <item xml:id="bb-l2d8p1" type="pars">
-            <fileName filestem="bb-l2d8p1"/>
-            <title>Liber II, Distinctio 8, Pars 1</title>
-            <questionTitle>De potestate daemonum, quam habent super corpora similia humanis</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332705.json">43v</folio>
-                <folio canvasslug="canvas-24332706.json">44r</folio>
-                <folio canvasslug="canvas-24332707.json">44v</folio>
-                <folio canvasslug="canvas-24332708.json">45r</folio>
-                <folio canvasslug="canvas-24332709.json">45v</folio>
-                <folio canvasslug="canvas-24332710.json">46r</folio>
-                <folio canvasslug="canvas-24332711.json">46v</folio>
-                <folio canvasslug="canvas-24332712.json">47r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d8p2" type="pars">
-            <fileName filestem="bb-l2d8p2"/>
-            <title>Liber II, Distinctio 8, Pars 2</title>
-            <questionTitle>De potestate daemonum respectu hominum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332712.json">47r</folio>
-                <folio canvasslug="canvas-24332713.json">47v</folio>
-                <folio canvasslug="canvas-24332714.json">48r</folio>
-                <folio canvasslug="canvas-24332715.json">48v</folio>
-                <folio canvasslug="canvas-24332716.json">49r</folio>
-                <folio canvasslug="canvas-24332717.json">49v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d9" type="distinctio" subtype="librum2-distinctio9">
-          <item xml:id="bb-l2d9p1" type="pars">
-            <fileName filestem="bb-l2d9p1"/>
-            <title>Liber II, Distinctio 9, Pars 1</title>
-            <questionTitle>De angelicorum ordinum distinctione</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332717.json">49v</folio>
-                <folio canvasslug="canvas-24332718.json">50r</folio>
-                <folio canvasslug="canvas-24332719.json">50v</folio>
-                <folio canvasslug="canvas-24332720.json">51r</folio>
-                <folio canvasslug="canvas-24332721.json">51v</folio>
-                <folio canvasslug="canvas-24332722.json">52r</folio>
-                <folio canvasslug="canvas-24332723.json">52v</folio>
-                <folio canvasslug="canvas-24332724.json">53r</folio>
-                <folio canvasslug="canvas-24332725.json">53v</folio>
-                <folio canvasslug="canvas-24332726.json">54r</folio>
-                <folio canvasslug="canvas-24332727.json">54v</folio>
-                <folio canvasslug="canvas-24332728.json">55r</folio>
-                <folio canvasslug="canvas-24332729.json">55v</folio>
-                <folio canvasslug="canvas-24332730.json">56r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d10" type="distinctio" subtype="librum2-distinctio10">
-          <item xml:id="bb-l2d10p1" type="pars">
-            <fileName filestem="bb-l2d10p1"/>
-            <title>Liber II, Distinctio 10, Pars 1</title>
-            <questionTitle>De ministerio Angelorum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332730.json">56r</folio>
-                <folio canvasslug="canvas-24332731.json">56v</folio>
-                <folio canvasslug="canvas-24332732.json">57r</folio>
-                <folio canvasslug="canvas-24332733.json">57v</folio>
-                <folio canvasslug="canvas-24332734.json">58r</folio>
-                <folio canvasslug="canvas-24332735.json">58v</folio>
-                <folio canvasslug="canvas-24332736.json">59r</folio>
-                <folio canvasslug="canvas-24332737.json">59v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d11" type="distinctio" subtype="librum2-distinctio11">
-          <item xml:id="bb-l2d11p1" type="pars">
-            <fileName filestem="bb-l2d11p1"/>
-            <title>Liber II, Distinctio 11, Pars 1</title>
-            <questionTitle>De ministerio Angelorum respectu hominum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="a" canvasslug="canvas-24332737.json">59v</folio>
-                <folio canvasslug="canvas-24332738.json">60r</folio>
-                <folio canvasslug="canvas-24332739.json">60v</folio>
-                <folio canvasslug="canvas-24332740.json">61r</folio>
-                <folio canvasslug="canvas-24332741.json">61v</folio>
-                <folio canvasslug="canvas-24332742.json">62r</folio>
-                <folio canvasslug="canvas-24332743.json">62v</folio>
-                <folio canvasslug="canvas-24332744.json">63r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d12" type="distinctio" subtype="librum2-distinctio12">
-          <item xml:id="bb-l2d12p1" type="pars">
-            <fileName filestem="bb-l2d12p1"/>
-            <title>Liber II, Distinctio 12, Pars 1</title>
-            <questionTitle>De conditione naturae corporalis</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332744.json">63r</folio>
-                <folio canvasslug="canvas-24332745.json">63v</folio>
-                <folio canvasslug="canvas-24332746.json">64r</folio>
-                <folio canvasslug="canvas-24332747.json">64v</folio>
-                <folio canvasslug="canvas-24332748.json">65r</folio>
-                <folio canvasslug="canvas-24332749.json">65v</folio>
-                <folio canvasslug="canvas-24332750.json">66r</folio>
-                <folio c="a" canvasslug="canvas-24332751.json">66v</folio>
-                
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d13" type="distinctio" subtype="librum2-distinctio13">
-          <item xml:id="bb-l2d13p1" type="pars">
-            <fileName filestem="bb-l2d13p1"/>
-            <title>Liber II, Distinctio 13, Pars 1</title>
-            <questionTitle>De generali informatione materiae per formam communem lucis</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332751.json">66v</folio>
-                <folio canvasslug="canvas-24332752.json">67r</folio>
-                <folio canvasslug="canvas-24332753.json">67v</folio>
-                <folio canvasslug="canvas-24332754.json">68r</folio>
-                <folio canvasslug="canvas-24332755.json">68v</folio>
-                <folio canvasslug="canvas-24332756.json">69r</folio>
-                <folio canvasslug="canvas-24332757.json">69v</folio>
-                <folio canvasslug="canvas-24332758.json">70r</folio>
-                <folio canvasslug="canvas-24332759.json">70v</folio>
-                <folio canvasslug="canvas-24332760.json">71r</folio>
-                <folio canvasslug="canvas-24332761.json">71v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d14" type="distinctio" subtype="librum2-distinctio14">
-          <item xml:id="bb-l2d14p1" type="pars">
-            <fileName filestem="bb-l2d14p1"/>
-            <title>Liber II, Distinctio 14, Pars 1</title>
-            <questionTitle>De productione insensibilium continentium</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332761.json">71v</folio>
-                <folio canvasslug="canvas-24332762.json">72r</folio>
-                <folio canvasslug="canvas-24332763.json">72v</folio>
-                <folio canvasslug="canvas-24332764.json">73r</folio>
-                <folio canvasslug="canvas-24332765.json">73v</folio>
-                <folio canvasslug="canvas-24332766.json">74r</folio>
-                <folio canvasslug="canvas-24332767.json">74v</folio>
-                <folio canvasslug="canvas-24332768.json">75r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item xml:id="bb-l2d14p2" type="pars">
-            <fileName filestem="bb-l2d14p2"/>
-            <title>Liber II, Distinctio 14, Pars 2</title>
-            <questionTitle>De productione insensibilium contentorum</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332768.json">75r</folio>
-                <folio canvasslug="canvas-24332769.json">75v</folio>
-                <folio canvasslug="canvas-24332770.json">76r</folio>
-                <folio canvasslug="canvas-24332771.json">76v</folio>
-                <folio canvasslug="canvas-24332772.json">77r</folio>
-                <folio canvasslug="canvas-24332773.json">77v</folio>
-                <folio canvasslug="canvas-24332774.json">78r</folio>
-                <folio canvasslug="canvas-24332775.json">78v</folio>
-                <folio canvasslug="canvas-24332776.json">79r</folio>
-                <folio canvasslug="canvas-24332777.json">79v</folio>
-                <folio canvasslug="canvas-24332778.json">80r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d15" type="distinctio" subtype="librum2-distinctio15">
-          <item xml:id="bb-l2d15p1" type="pars">
-            <fileName filestem="bb-l2d15p1"/>
-            <title>Liber II, Distinctio 15, Pars 1</title>
-            <questionTitle>De productione mixtorum et sensibilium sive animalium</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332778.json">80r</folio>
-                <folio canvasslug="canvas-24332779.json">80v</folio>
-                <folio canvasslug="canvas-24332780.json">81r</folio>
-                <folio canvasslug="canvas-24332781.json">81v</folio>
-                <folio canvasslug="canvas-24332782.json">82r</folio>
-                <folio canvasslug="canvas-24332783.json">82v</folio>
-                <folio canvasslug="canvas-24332784.json">83r</folio>
-                <folio canvasslug="canvas-24332785.json">83v</folio>
-                <folio canvasslug="canvas-24332786.json">84r</folio>
-                <folio canvasslug="canvas-24332787.json">84v</folio>
-                <folio canvasslug="canvas-24332788.json">85r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d16" type="distinctio" subtype="librum2-distinctio16">
-          <item xml:id="bb-l2d16p1" type="pars">
-            <fileName filestem="bb-l2d16p1"/>
-            <title>Liber II, Distinctio 16, Pars 1</title>
-            <questionTitle>Qualiter Deus produxerit hominem ad suam imaginem</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332788.json">85r</folio>
-                <folio canvasslug="canvas-24332789.json">85v</folio>
-                <folio canvasslug="canvas-24332790.json">86r</folio>
-                <folio canvasslug="canvas-24332791.json">86v</folio>
-                <folio canvasslug="canvas-24332792.json">87r</folio>
-                <folio canvasslug="canvas-24332793.json">87v</folio>
-                <folio canvasslug="canvas-24332794.json">88r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d17" type="distinctio" subtype="librum2-distinctio17">
-          <item xml:id="bb-l2d17p1" type="pars">
-            <fileName filestem="bb-l2d17p1"/>
-            <title>Liber II, Distinctio 17, Pars 1</title>
-            <questionTitle>De productione Adae quoad principia constituentia</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332794.json">88r</folio>
-                <folio canvasslug="canvas-24332795.json">88v</folio>
-                <folio canvasslug="canvas-24332796.json">89r</folio>
-                <folio canvasslug="canvas-24332797.json">89v</folio>
-                <folio canvasslug="canvas-24332798.json">90r</folio>
-                <folio canvasslug="canvas-24332799.json">90v</folio>
-                <folio canvasslug="canvas-24332800.json">91r</folio>
-                <folio canvasslug="canvas-24332801.json">91v</folio>
-                <folio canvasslug="canvas-24332802.json">92r</folio>
-                <folio canvasslug="canvas-24332803.json">92v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d18" type="distinctio" subtype="librum2-distinctio18">
-          <item xml:id="bb-l2d18p1" type="pars">
-            <fileName filestem="bb-l2d18p1"/>
-            <title>Liber II, Distinctio 18, Pars 1</title>
-            <questionTitle>De formatione mulieris de viro.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio canvasslug="canvas-24332803.json">92v</folio>
-                <folio canvasslug="canvas-24332804.json">93r</folio>
-                <folio canvasslug="canvas-24332805.json">93v</folio>
-                <folio canvasslug="canvas-24332806.json">94r</folio>
-                <folio canvasslug="canvas-24332807.json">94v</folio>
-                <folio canvasslug="canvas-24332808.json">95r</folio>
-                <folio canvasslug="canvas-24332809.json">95v</folio>
-                <folio canvasslug="canvas-24332810.json">96r</folio>
-                <folio canvasslug="canvas-24332811.json">96v</folio>
-                <folio canvasslug="canvas-24332812.json">97r</folio>
-                <folio canvasslug="canvas-24332813.json">97v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d19" type="distinctio" subtype="librum2-distinctio19">
-          <item xml:id="bb-l2d19p1" type="pars">
-            <fileName filestem="bb-l2d19p1"/>
-            <title>Liber II, Distinctio 19, Pars 1</title>
-            <questionTitle>De hominis immortalitate</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332813.json">97v</folio>
-                <folio canvasslug="canvas-24332814.json">98r</folio>
-                <folio canvasslug="canvas-24332815.json">98v</folio>
-                <folio canvasslug="canvas-24332816.json">99r</folio>
-                <folio canvasslug="canvas-24332817.json">99v</folio>
-                <folio canvasslug="canvas-24332818.json">100r</folio>
-                <folio canvasslug="canvas-24332819.json">100v</folio>
-                <folio canvasslug="canvas-24332820.json">101r</folio>
-                <folio canvasslug="canvas-24332821.json">101v</folio>
-                <folio canvasslug="canvas-24332822.json">102r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d20" type="distinctio" subtype="librum2-distinctio20">
-          <item xml:id="bb-l2d20p1" type="pars">
-            <fileName filestem="bb-l2d20p1"/>
-            <title>Liber II, Distinctio 20, Pars 1</title>
-            <questionTitle>De procreatione posteritatis.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#H">
-                <folio c="b" canvasslug="canvas-24332822.json">102r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="bb-l2d21" type="distinctio" subtype="librum2-distinctio21">
-          <item xml:id="bb-l2d21p1" type="pars">
-            <fileName filestem="bb-l2d21p1"/>
-            <title>Liber II, Distinctio 21, Pars 1</title>
-            <questionTitle>De primorum parentum tentatione facta a diabolo</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d22" type="distinctio" subtype="librum2-distinctio22">
-          <item xml:id="bb-l2d22p1" type="pars">
-            <fileName filestem="bb-l2d22p1"/>
-            <title>Liber II, Distinctio 22, Pars 1</title>
-            <questionTitle>De hominis transgressione</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d23" type="distinctio" subtype="librum2-distinctio23">
-          <item xml:id="bb-l2d23p1" type="pars">
-            <fileName filestem="bb-l2d23p1"/>
-            <title>Liber II, Distinctio 23, Pars 1</title>
-            <questionTitle>De primae tentationis permissione ex parte Dei</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d24" type="distinctio" subtype="librum2-distinctio24">
-          <item xml:id="bb-l2d24p1" type="pars">
-            <fileName filestem="bb-l2d24p1"/>
-            <title>Liber II, Distinctio 24, Pars 1</title>
-            <questionTitle>De libero arbitrio, quatenus ad alias animae potentias comparatur</questionTitle>
-          </item>
-          <item xml:id="bb-l2d24p2" type="pars">
-            <fileName filestem="bb-l2d24p2"/>
-            <title>Liber II, Distinctio 24, Pars 2</title>
-            <questionTitle>De ordine et progressu peccati per vires animae</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d25" type="distinctio" subtype="librum2-distinctio25">
-          <item xml:id="bb-l2d25p1" type="pars">
-            <fileName filestem="bb-l2d25p1"/>
-            <title>Liber II, Distinctio 25, Pars 1</title>
-            <questionTitle>De libero arbitrio secundum se et in generali</questionTitle>
-          </item>
-          <item xml:id="bb-l2d25p2" type="pars">
-            <fileName filestem="bb-l2d25p2"/>
-            <title>Liber II, Distinctio 25, Pars 2</title>
-            <questionTitle>De libero arbitrio secundum differentes eius status in speciali</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d26" type="distinctio" subtype="librum2-distinctio26">
-          <item xml:id="bb-l2d26p1" type="pars">
-            <fileName filestem="bb-l2d26p1"/>
-            <title>Liber II, Distinctio 26, Pars 1</title>
-            <questionTitle>De libero arbitrio cum adiutorio gratiae</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d27" type="distinctio" subtype="librum2-distinctio27">
-          <item xml:id="bb-l2d27p1" type="pars">
-            <fileName filestem="bb-l2d27p1"/>
-            <title>Liber II, Distinctio 27, Pars 1</title>
-            <questionTitle>De adiutorio gratiae in comparatione ad suas differentias et ad virtutem et meritum</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d28" type="distinctio" subtype="librum2-distinctio28">
-          <item xml:id="bb-l2d28p1" type="pars">
-            <fileName filestem="bb-l2d28p1"/>
-            <title>Liber II, Distinctio 28, Pars 1</title>
-            <questionTitle>De potestate liberi arbitrii sine gratia</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d29" type="distinctio" subtype="librum2-distinctio29">
-          <item xml:id="bb-l2d29p1" type="pars">
-            <fileName filestem="bb-l2d29p1"/>
-            <title>Liber II, Distinctio 29, Pars 1</title>
-            <questionTitle>De gratia secundum statum naturae institutae</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d30" type="distinctio" subtype="librum2-distinctio30">
-          <item xml:id="bb-l2d30p1" type="pars">
-            <fileName filestem="bb-l2d30p1"/>
-            <title>Liber II, Distinctio 30, Pars 1</title>
-            <questionTitle>Utrum et quid sit peccatum originale</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d31" type="distinctio" subtype="librum2-distinctio31">
-          <item xml:id="bb-l2d31p1" type="pars">
-            <fileName filestem="bb-l2d31p1"/>
-            <title>Liber II, Distinctio 31, Pars 1</title>
-            <questionTitle>Qualiter peccatum originale a parente traducatur in prolem</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d32" type="distinctio" subtype="librum2-distinctio32">
-          <item xml:id="bb-l2d32p1" type="pars">
-            <fileName filestem="bb-l2d32p1"/>
-            <title>Liber II, Distinctio 32, Pars 1</title>
-            <questionTitle>Qualiter peccatum originale curetur</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d32" type="distinctio" subtype="librum2-distinctio32">
-          <item xml:id="bb-l2d32p1" type="pars">
-            <fileName filestem="bb-l2d32p1"/>
-            <title>Liber II, Distinctio 32, Pars 1</title>
-            <questionTitle>Qualiter peccatum originale curetur</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d33" type="distinctio" subtype="librum2-distinctio33">
-          <item xml:id="bb-l2d33p1" type="pars">
-            <fileName filestem="bb-l2d33p1"/>
-            <title>Liber II, Distinctio 33, Pars 1</title>
-            <questionTitle>Utrum originale peccatum per peccata proximorum parentum multiplicetur et intendatur</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d34" type="distinctio" subtype="librum2-distinctio34">
-          <item xml:id="bb-l2d34p1" type="pars">
-            <fileName filestem="bb-l2d34p1"/>
-            <title>Liber II, Distinctio 34, Pars 1</title>
-            <questionTitle>De peccato actuali secundum eius causalitatem</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d35" type="distinctio" subtype="librum2-distinctio35">
-          <item xml:id="bb-l2d35p1" type="pars">
-            <fileName filestem="bb-l2d35p1"/>
-            <title>Liber II, Distinctio 35, Pars 1</title>
-            <questionTitle>De peccato actuali secundum eius quidditatem et definitionem.</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d36" type="distinctio" subtype="librum2-distinctio36">
-          <item xml:id="bb-l2d36p1" type="pars">
-            <fileName filestem="bb-l2d36p1"/>
-            <title>Liber II, Distinctio 36, Pars 1</title>
-            <questionTitle>Utrum peccatum sit poena peccati</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d36" type="distinctio" subtype="librum2-distinctio36">
-          <item xml:id="bb-l2d36p1" type="pars">
-            <fileName filestem="bb-l2d36p1"/>
-            <title>Liber II, Distinctio 36, Pars 1</title>
-            <questionTitle>Utrum peccatum sit poena peccati</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d37" type="distinctio" subtype="librum2-distinctio37">
-          <item xml:id="bb-l2d37p1" type="pars">
-            <fileName filestem="bb-l2d37p1"/>
-            <title>Liber II, Distinctio 37, Pars 1</title>
-            <questionTitle>Utrum actio malitiae substrata sit a Deo</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d38" type="distinctio" subtype="librum2-distinctio38">
-          <item xml:id="bb-l2d38p1" type="pars">
-            <fileName filestem="bb-l2d38p1"/>
-            <title>Liber II, Distinctio 38, Pars 1</title>
-            <questionTitle>Qualiter per peccatum depravatio fiat in ipsa voluntate</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d39" type="distinctio" subtype="librum2-distinctio39">
-          <item xml:id="bb-l2d39p1" type="pars">
-            <fileName filestem="bb-l2d39p1"/>
-            <title>Liber II, Distinctio 39, Pars 1</title>
-            <questionTitle>Quare voluntas magis depravetur in suo actu quam aliqua alia potentia</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d40" type="distinctio" subtype="librum2-distinctio40">
-          <item xml:id="bb-l2d40p1" type="pars">
-            <fileName filestem="bb-l2d40p1"/>
-            <title>Liber II, Distinctio 40, Pars 1</title>
-            <questionTitle>Qualiter actus et opera ex affectu et fine vel rectificantur, vel depravantur</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d41" type="distinctio" subtype="librum2-distinctio41">
-          <item xml:id="bb-l2d41p1" type="pars">
-            <fileName filestem="bb-l2d41p1"/>
-            <title>Liber II, Distinctio 41, Pars 1</title>
-            <questionTitle>Qualiter actus ex defectu intentionis et voluntatis depraventur</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d42" type="distinctio" subtype="librum2-distinctio42">
-          <item xml:id="bb-l2d42p1" type="pars">
-            <fileName filestem="bb-l2d42p1"/>
-            <title>Liber II, Distinctio 42, Pars 1</title>
-            <questionTitle>De differentiis peccatorum in communi</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d43" type="distinctio" subtype="librum2-distinctio43">
-          <item xml:id="bb-l2d43p1" type="pars">
-            <fileName filestem="bb-l2d43p1"/>
-            <title>Liber II, Distinctio 43, Pars 1</title>
-            <questionTitle>De peccato in Spiritum sanctum</questionTitle>
-          </item>
-        </div>
-        <div id="bb-l2d44" type="distinctio" subtype="librum2-distinctio44">
-          <item xml:id="bb-l2d44p1" type="pars">
-            <fileName filestem="bb-l2d44p1"/>
-            <title>Liber II, Distinctio 44, Pars 1</title>
-            <questionTitle>Unde habeat ortum potentia peccandi</questionTitle>
-          </item>
-        </div>
+  <header>
+    <authorName>Bonaventure</authorName>
+    <commentaryName>Bonaventure Commentary</commentaryName>
+    <commentaryid>bonaventurecommentary</commentaryid>
+    <commentaryslug>bb</commentaryslug>
+    <authorUri>http://scta.info/resource/Bonaventure</authorUri>
+    <parentUri>http://scta.info/resource/bonaventurecommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/bonaventurecommentary/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
+      <witness id="H">
+        <slug>harv265</slug>
+        <title>Cambridge, Mass., Harvard University, Houghton Library, MS Lat 265</title>
+        <initial>H</initial>
+        <canvasBase>https://iiif.lib.harvard.edu/manifests/drs:24332177/canvas/</canvasBase>
+        <manifestOfficial>https://iiif.lib.harvard.edu/manifests/drs:24332177</manifestOfficial>
+      </witness>
+      <witness xml:id="Qa" n="Quaracchi1882">Quaracchi 1882, Volume 1</witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="bb-l1" type="librum" subtype="librum1">
+      <item id="bb-proem">
+        <fileName filestem="bb-proem"/>
+        <title>Proemium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-proemqprae">
+        <fileName filestem="bb-proemqprae"/>
+        <title>I, Quaestiones Proemii, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1proemq1">
+        <fileName filestem="bb-l1proemq1"/>
+        <title>I, Proem., Q. 1</title>
+        <questionTitle>Quae sit materia quodve subiectum huius libri vel theologiae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1proemq2">
+        <fileName filestem="bb-l1proemq2"/>
+        <title>I, Proem., Q. 2</title>
+        <questionTitle>Quae causa formalis quive modus procedendi sit in his libris
+          Sententiarum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1proemq3">
+        <fileName filestem="bb-l1proemq3"/>
+        <title>I, Proem., Q. 3</title>
+        <questionTitle>Utrum hic liher sive theologia sit contemplalionis gratia , an ut boni
+          fiamus, sive utrwn sit scientia speculativa, an practica.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1proemq4">
+        <fileName filestem="bb-l1proemq4"/>
+        <title>I, Proem., Q. 4</title>
+        <questionTitle>Quae sit causa efficiens siue auctor huius libri.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1proemdubia">
+        <fileName filestem="bb-l1proemdubia"/>
+        <title>I, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1dt">
+        <fileName filestem="bb-l1d1dt"/>
+        <title>I, Distinctio 1, Divisio Textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1tqprae">
+        <fileName filestem="bb-l1d1tqprae"/>
+        <title>I, Distinctio 1, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a1q1">
+        <fileName filestem="bb-l1d1a1q1"/>
+        <title>I, Distinctio 1, Art. 1, Q. 1</title>
+        <questionTitle>Utrum uti sit actus voluntatis, an rationis, vel omnis
+          potentiae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a1q2">
+        <fileName filestem="bb-l1d1a1q2"/>
+        <title>I, Distinctio 1, Art. 1, Q. 2</title>
+        <questionTitle>Utrum omni creato utendum sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a1q3">
+        <fileName filestem="bb-l1d1a1q3"/>
+        <title>I, Distinctio 1, Art. 1, Q. 3</title>
+        <questionTitle>Utrum solo bono creato utendum sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a2prae">
+        <fileName filestem="bb-l1d1a2prae"/>
+        <title>I, Distinctio 1, Art. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a2q1">
+        <fileName filestem="bb-l1d1a2q1"/>
+        <title>I, Distinctio 1, Art. 2, Q. 1</title>
+        <questionTitle>Utrum frui sit actus voluntatis, an aliarum virium.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a3prae">
+        <fileName filestem="bb-l1d1a3prae"/>
+        <title>I, Distinctio 1, Art. 3, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a3q1">
+        <fileName filestem="bb-l1d1a3q1"/>
+        <title>I, Distinctio 1, Art. 3, Q. 1</title>
+        <questionTitle>Utrum Deo sit fruendum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1a3q2">
+        <fileName filestem="bb-l1d1a3q2"/>
+        <title>I, Distinctio 1, Art. 3, Q. 2</title>
+        <questionTitle>Utrum solo Deo sive bono increato fruendum sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d1dubia">
+        <fileName filestem="bb-l1d1dubia"/>
+        <title>I, Distinctio 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2dt">
+        <fileName filestem="bb-l1d2dt"/>
+        <title>I, Distinctio 2, Divisio Textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2tqprae">
+        <fileName filestem="bb-l1d2tqprae"/>
+        <title>I, Distinctio 2, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2a1q1">
+        <fileName filestem="bb-l1d2a1q1"/>
+        <title>I, Distinctio 2, Art. 1, Q. 1</title>
+        <questionTitle>Utrum sit unus tantum Deus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2a1q2">
+        <fileName filestem="bb-l1d2a1q2"/>
+        <title>I, Distinctio 2, Art. 1, Q. 2</title>
+        <questionTitle>Utrum in Deo ponenda sit personarum pluralitas.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2a1q3">
+        <fileName filestem="bb-l1d2a1q3"/>
+        <title>I, Distinctio 2, Art. 1, Q. 3</title>
+        <questionTitle>Utrum numerus divinarum personarum sit infinitus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2a1q4">
+        <fileName filestem="bb-l1d2a1q4"/>
+        <title>I, Distinctio 2, Art. 1, Q. 4</title>
+        <questionTitle>Utrum tres tantum sint divinae personae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d2dubia">
+        <fileName filestem="bb-l1d2dubia"/>
+        <title>I, Distinctio 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3dt">
+        <fileName filestem="bb-l1d3dt"/>
+        <title>I, Distinctio 3, Pars 1, Diviso Textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1tqprae">
+        <fileName filestem="bb-l1d3p1tqprae"/>
+        <title>I, Distinctio 3, Pars 1, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1a1q1">
+        <fileName filestem="bb-l1d3p1a1q1"/>
+        <title>I, Distinctio 3, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum Deus sit cognoscibilis a creatura.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1a1q2">
+        <fileName filestem="bb-l1d3p1a1q2"/>
+        <title>I, Distinctio 3, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum Deus sit cognoscibilis per creaturas.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1a1q3">
+        <fileName filestem="bb-l1d3p1a1q3"/>
+        <title>I, Distinctio 3, Pars 1, A. 1, Q. 3</title>
+        <questionTitle>Utrum homo in omni statu cognoscat Deum per creaturas.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1a1q4">
+        <fileName filestem="bb-l1d3p1a1q4"/>
+        <title>I, Distinctio 3, Pars 1, A. 1, Q. 4</title>
+        <questionTitle>Utrum trinitas personarum cum unitate essentiae naturaliter per creaturas
+          cognosci possit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p1dubia">
+        <fileName filestem="bb-l1d3p1dubia"/>
+        <title>I, Distinctio 3, Pars 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a1prae">
+        <fileName filestem="bb-l1d3p2a1prae"/>
+        <title>I, Distinctio 3, Pars 2, A. 1, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a1q1">
+        <fileName filestem="bb-l1d3p2a1q1"/>
+        <title>I, Distinctio 3, Pars 2, A. 1, Q. 1</title>
+        <questionTitle>Utrum ratio imaginis attendatur in memoria, intelligentia et
+          voluntate.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a1q2">
+        <fileName filestem="bb-l1d3p2a1q2"/>
+        <title>I, Distinctio 3, Pars 2, A. 1, Q. 2</title>
+        <questionTitle>Utrum imago attendatur in his potentiis per comparationem ipsarum ad
+          Deum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a1q3">
+        <fileName filestem="bb-l1d3p2a1q3"/>
+        <title>I, Distinctio 3, Pars 2, A. 1, Q. 3</title>
+        <questionTitle>Utrum memoria, intelligentia et voluntas sint idem in essentia cum
+          anima.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a2prae">
+        <fileName filestem="bb-l1d3p2a2prae"/>
+        <title>I, Distinctio 3, Pars 2, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a2q1">
+        <fileName filestem="bb-l1d3p2a2q1"/>
+        <title>I, Distinctio 3, Pars 2, A. 2, Q. 1</title>
+        <questionTitle>Utrum imago attendatur in mente, notitia et amore ut in potentiis, aufut in
+          habitibus, aut in utrisque simul, aut secundum substantiam et habitus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a2q2">
+        <fileName filestem="bb-l1d3p2a2q2"/>
+        <title>I, Distinctio 3, Pars 2, A. 2, Q. 2</title>
+        <questionTitle>Utrum mens, notitia et amor habeant ordinem, aequalitatem et
+          consubstantialitatem.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2a2q3">
+        <fileName filestem="bb-l1d3p2a2q3"/>
+        <title>I, Distinctio 3, Pars 2, A. 2, Q. 3</title>
+        <questionTitle>Utrum trinitas imaginis, quae consistit in mente, notitia et amore,
+          necessario ducat in cognitionem trium divinarum personarum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d3p2dubia">
+        <fileName filestem="bb-l1d3p2dubia"/>
+        <title>I, Distinctio 3, Pars 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4dt">
+        <fileName filestem="bb-l1d4dt"/>
+        <title>I, Distinctio 4, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4tqprae">
+        <fileName filestem="bb-l1d4tqprae"/>
+        <title>I, Distinctio 4, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4a1q1">
+        <fileName filestem="bb-l1d4a1q1"/>
+        <title>I, Distinctio 4, A. 1, Q. 1</title>
+        <questionTitle>Utrum haec locutio: Deus genuit Deum, sit concedenda.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4a1q2">
+        <fileName filestem="bb-l1d4a1q2"/>
+        <title>I, Distinctio 4, A. 1, Q. 2</title>
+        <questionTitle>Utrum admitti possit haec locutio: Deus generat alium Deum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4a1q3">
+        <fileName filestem="bb-l1d4a1q3"/>
+        <title>I, Distinctio 4, A. 1, Q. 3</title>
+        <questionTitle>Utrum congrue iuxta regulas grammaticae dici possit: plures
+          dii.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4a1q4">
+        <fileName filestem="bb-l1d4a1q4"/>
+        <title>I, Distinctio 4, A. 1, Q. 4</title>
+        <questionTitle>Utrum hoc nomen Deus pro persona supponat, vel pro natura.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d4dubia">
+        <fileName filestem="bb-l1d4dubia"/>
+        <title>I, Distinctio 4, A. 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5dt">
+        <fileName filestem="bb-l1d5dt"/>
+        <title>I, Distinctio 5, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5tqprae">
+        <fileName filestem="bb-l1d5tqprae"/>
+        <title>I, Distinctio 5, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5a1q1">
+        <fileName filestem="bb-l1d5a1q1"/>
+        <title>I, Distinctio 5, A. 1, Q. 1</title>
+        <questionTitle>Utrum substantia sive essentia generet.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5a1q2">
+        <fileName filestem="bb-l1d5a1q2"/>
+        <title>I, Distinctio 5, A. 1, Q. 2</title>
+        <questionTitle>Utrum concedenda sit locutio, quod Filius generetur de substantia
+          Patris.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5a2prae">
+        <fileName filestem="bb-l1d5a2prae"/>
+        <title>I, Distinctio 5, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5a2q1">
+        <fileName filestem="bb-l1d5a2q1"/>
+        <title>I, Distinctio 5, A. 2, Q. 1</title>
+        <questionTitle>Utrum substantia sive essentia generetur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5a2q2">
+        <fileName filestem="bb-l1d5a2q2"/>
+        <title>I, Distinctio 5, A. 2, Q. 2</title>
+        <questionTitle>Utrum substantia sive essentia diviiia per generationem
+          communicetur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d5dubia">
+        <fileName filestem="bb-l1d5dubia"/>
+        <title>I, Distinctio 5, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6dt">
+        <fileName filestem="bb-l1d6dt"/>
+        <title>I, Distinctio 6, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6a1prae">
+        <fileName filestem="bb-l1d6a1prae"/>
+        <title>I, Distinctio 6, A. 1, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6a1q1">
+        <fileName filestem="bb-l1d6a1q1"/>
+        <title>I, Distinctio 6, A. 1, Q. 1 Utrum generatio Filii sit secundum rationem
+          necessitatis.</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6a1q2">
+        <fileName filestem="bb-l1d6a1q2"/>
+        <title>I, Distinctio 6, A. 1, Q. 2 Utrum generatio in divinis sit secundum rationem
+          voluntatis.</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6a1q3">
+        <fileName filestem="bb-l1d6a1q3"/>
+        <title>I, Distinctio 6, A. 1, Q. 3 Utrum generatio Filii sil secundum rationem
+          exemplaritatis.</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d6dubia">
+        <fileName filestem="bb-l1d6dubia"/>
+        <title>I, Distinctio 6, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7dt">
+        <fileName filestem="bb-l1d7dt"/>
+        <title>I, Distinctio 7, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7tqprae">
+        <fileName filestem="bb-l1d7tqprae"/>
+        <title>I, Distinctio 7, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7q1">
+        <fileName filestem="bb-l1d7q1"/>
+        <title>I, Distinctio 7, Q. 1</title>
+        <questionTitle>Utrum potentia generandi dicat aliquid absolutum, vel
+          relativum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7q2">
+        <fileName filestem="bb-l1d7q2"/>
+        <title>I, Distinctio 7, Q. 2</title>
+        <questionTitle>Utrum potentia generandi sit in Filio.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7q3">
+        <fileName filestem="bb-l1d7q3"/>
+        <title>I, Distinctio 7, Q. 3</title>
+        <questionTitle>Utrum potentia generandi et potentia creandi sint unica
+          potentia.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7q4">
+        <fileName filestem="bb-l1d7q4"/>
+        <title>I, Distinctio 7, Q. 4</title>
+        <questionTitle>Utrum posse generari et posse creari sint univocum posse.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d7dubia">
+        <fileName filestem="bb-l1d7dubia"/>
+        <title>I, Distinctio 7, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1dt">
+        <fileName filestem="bb-l1d8p1dt"/>
+        <title>I, Distinctio 8, Pars 1, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1tqprae">
+        <fileName filestem="bb-l1d8p1tqprae"/>
+        <title>I, Distinctio 8, Pars 1, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1a1q1">
+        <fileName filestem="bb-l1d8p1a1q1"/>
+        <title>I, Distinctio 8, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum veritas sit proprietas divini esse.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1a1q2">
+        <fileName filestem="bb-l1d8p1a1q2"/>
+        <title>I, Distinctio 8, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum divinum esse sit adeo verum, quod non possit cogitari non
+          esse.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1a2prae">
+        <fileName filestem="bb-l1d8p1a2prae"/>
+        <title>I, Distinctio 8, Pars 1, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1a2q1">
+        <fileName filestem="bb-l1d8p1a2q1"/>
+        <title>I, Distinctio 8, Pars 1, A. 2, Q. 1</title>
+        <questionTitle>Utrum Deus sit immutabilis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1a2q2">
+        <fileName filestem="bb-l1d8p1a2q2"/>
+        <title>I, Distinctio 8, Pars 1, A. 2, Q. 2</title>
+        <questionTitle>Utrum solus Deus immutabilis sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p1dubia">
+        <fileName filestem="bb-l1d8p1dubia"/>
+        <title>I, Distinctio 8, Pars 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2dt">
+        <fileName filestem="bb-l1d8p2dt"/>
+        <title>I, Distinctio 8, Pars 2, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2prae">
+        <fileName filestem="bb-l1d8p2prae"/>
+        <title>I, Distinctio 8, Pars 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2q1">
+        <fileName filestem="bb-l1d8p2q1"/>
+        <title>I, Distinctio 8, Pars 2, Q. 1</title>
+        <questionTitle>Utrum Deus sit summe simplex.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2q2">
+        <fileName filestem="bb-l1d8p2q2"/>
+        <title>I, Distinctio 8, Pars 2, Q. 2</title>
+        <questionTitle>Utrum summa simplicitas soli Deo conveniat. </questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2q3">
+        <fileName filestem="bb-l1d8p2q3"/>
+        <title>I, Distinctio 8, Pars 2, Q. 3</title>
+        <questionTitle>Utrum anima rationalis sit tota in toto corpore, et tota in qualibet parte
+          ipsius.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2q4">
+        <fileName filestem="bb-l1d8p2q4"/>
+        <title>I, Distinctio 8, Pars 2, Q. 4</title>
+        <questionTitle>Utrum Deus sit in aliquo determinato genere sive
+          praedicamento.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d8p2dubia">
+        <fileName filestem="bb-l1d8p2dubia"/>
+        <title>I, Distinctio 8, Pars 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9dt">
+        <fileName filestem="bb-l1d9dt"/>
+        <title>I, Distinctio 9, Divisio Textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9tqprae">
+        <fileName filestem="bb-l1d9tqprae"/>
+        <title>I, Distinctio 9, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9a1q1">
+        <fileName filestem="bb-l1d9a1q1"/>
+        <title>I, Distinctio 9, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis generatio ponenda sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9a1q2">
+        <fileName filestem="bb-l1d9a1q2"/>
+        <title>I, Distinctio 9, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis generatio distinguat inter gignentem et
+          genitum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9a1q3">
+        <fileName filestem="bb-l1d9a1q3"/>
+        <title>I, Distinctio 9, A. 1, Q. 3</title>
+        <questionTitle>Utrum in divinis generatio sit aeterna.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9a1q4">
+        <fileName filestem="bb-l1d9a1q4"/>
+        <title>I, Distinctio 9, A. 1, Q. 4</title>
+        <questionTitle>Utrum generatio Filii terminata sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d9dubia">
+        <fileName filestem="bb-l1d9dubia"/>
+        <title>I, Distinctio 9, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10dt">
+        <fileName filestem="bb-l1d10dt"/>
+        <title>I, Distinctio 10, Diviso Textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10tqprae">
+        <fileName filestem="bb-l1d10tqprae"/>
+        <title>I, Distinctio 10, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a1q1">
+        <fileName filestem="bb-l1d10a1q1"/>
+        <title>I, Distinctio 10, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis ponenda sit persona procedens per modum
+          liberalitatis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a1q2">
+        <fileName filestem="bb-l1d10a1q2"/>
+        <title>I, Distinctio 10, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis ponenda sit persona procedens per modum amoris sive
+          caritatis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a1q3">
+        <fileName filestem="bb-l1d10a1q3"/>
+        <title>I, Distinctio 10, A. 1, Q. 3</title>
+        <questionTitle>Utrum in divinis ponenda sit tertia persona procedens per modum mutuae
+          caritatis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a2prae">
+        <fileName filestem="bb-l1d10a2prae"/>
+        <title>I, Distinctio 10, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a2q1">
+        <fileName filestem="bb-l1d10a2q1"/>
+        <title>I, Distinctio 10, A. 2, Q. 1</title>
+        <questionTitle>Utrum amor sive caritas sit proprium Spiritus sancti.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a2q2">
+        <fileName filestem="bb-l1d10a2q2"/>
+        <title>I, Distinctio 10, A. 2, Q. 2</title>
+        <questionTitle>Utrum Spiritus sanctus sit nexus sive unitas Patris et Filii.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10a2q3">
+        <fileName filestem="bb-l1d10a2q3"/>
+        <title>I, Distinctio 10, A. 2, Q. 3</title>
+        <questionTitle>Utrum Spiritus sanctus proprie sit spiritus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d10dubia">
+        <fileName filestem="bb-l1d10dubia"/>
+        <title>I, Distinctio 10, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d11dt">
+        <fileName filestem="bb-l1d11dt"/>
+        <title>I, Distinctio 11, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d11tqprae">
+        <fileName filestem="bb-l1d11tqprae"/>
+        <title>I, Distinctio 11, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d11a1q1">
+        <fileName filestem="bb-l1d11a1q1"/>
+        <title>I, Distinctio 11, A. 1, Q. 1</title>
+        <questionTitle>Utrum Spiritus sanctus a Patre et a Filio procedat.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d11a1q2">
+        <fileName filestem="bb-l1d11a1q2"/>
+        <title>I, Distinctio 11, A. 1, Q. 2</title>
+        <questionTitle>Utrum Spiritus sanctus procedat a Patre et Filio tanquam ab uno
+          principio.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d11dubia">
+        <fileName filestem="bb-l1d11dubia"/>
+        <title>I, Distinctio 11, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12dt">
+        <fileName filestem="bb-l1d12dt"/>
+        <title>I, Distinctio 12, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12tqprae">
+        <fileName filestem="bb-l1d12tqprae"/>
+        <title>I, Distinctio 12, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12a1q1">
+        <fileName filestem="bb-l1d12a1q1"/>
+        <title>I, Distinctio 12, A. 1, Q. 1</title>
+        <questionTitle>Utrum Spiritus sanctus a Patre prius quam a Filio procedat.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12a1q2">
+        <fileName filestem="bb-l1d12a1q2"/>
+        <title>I, Distinctio 12, A. 1, Q. 2</title>
+        <questionTitle>Utrum Spiritus sanctus a Patre plenius et principalius quam a Filio
+          procedat.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12a1q3">
+        <fileName filestem="bb-l1d12a1q3"/>
+        <title>I, Distinctio 12, A. 1, Q. 3</title>
+        <questionTitle>Utrum Spiritus sanctus mediante Filio a Patre procedat</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12a1q4">
+        <fileName filestem="bb-l1d12a1q4"/>
+        <title>I, Distinctio 12, A. 1, Q. 4</title>
+        <questionTitle>Utrum generatio Filii sil prior spiratione Spiritus sancti secundum rationem
+          intelligendi.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d12dubia">
+        <fileName filestem="bb-l1d12dubia"/>
+        <title>I, Distinctio 12, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13dt">
+        <fileName filestem="bb-l1d13dt"/>
+        <title>I, Distinctio 13, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13tqprae">
+        <fileName filestem="bb-l1d13tqprae"/>
+        <title>I, Distinctio 13, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13a1q1">
+        <fileName filestem="bb-l1d13a1q1"/>
+        <title>I, Distinctio 13, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis ponenda sit processio.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13a1q2">
+        <fileName filestem="bb-l1d13a1q2"/>
+        <title>I, Distinctio 13, A. 1, Q. 2</title>
+        <questionTitle>Utrum processio Spiritus sancti sit generatio.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13a1q3">
+        <fileName filestem="bb-l1d13a1q3"/>
+        <title>I, Distinctio 13, A. 1, Q. 3</title>
+        <questionTitle>Utrum processio Spiritus sancti differat a generatione Filii realiter, vel
+          solum secundum, rationem intelligendi.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13a1q4">
+        <fileName filestem="bb-l1d13a1q4"/>
+        <title>I, Distinctio 13, A. 1, Q. 4</title>
+        <questionTitle>Utrum Spiritus sanctus sit ingenitus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d13dubia">
+        <fileName filestem="bb-l1d13dubia"/>
+        <title>I, Distinctio 13, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14dt">
+        <fileName filestem="bb-l1d14dt"/>
+        <title>I, Distinctio 14, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14tqprae">
+        <fileName filestem="bb-l1d14tqprae"/>
+        <title>I, Distinctio 14, Tractatio Quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14a1q1">
+        <fileName filestem="bb-l1d14a1q1"/>
+        <title>I, Distinctio 14, A. 1, Q. 1</title>
+        <questionTitle>Utrum processio temporalis Spiritus sancti ponenda sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14a1q2">
+        <fileName filestem="bb-l1d14a1q2"/>
+        <title>I, Distinctio 14, A. 1, Q. 2</title>
+        <questionTitle>Utrum processio Spiritus sancti aeterna et temporalis numerentur ut duae
+          processiones.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14a2prae">
+        <fileName filestem="bb-l1d14a2prae"/>
+        <title>I, Distinctio 14, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14a2q1">
+        <fileName filestem="bb-l1d14a2q1"/>
+        <title>I, Distinctio 14, A. 2, Q. 1</title>
+        <questionTitle>Utrum Spiritus sanctus detur in propria persona, an tantum in
+          effectu.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14a2q2">
+        <fileName filestem="bb-l1d14a2q2"/>
+        <title>I, Distinctio 14, A. 2, Q. 2</title>
+        <questionTitle>Utrum Spiritus sanctus detur ab aliquo viro sancto.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d14dubia">
+        <fileName filestem="bb-l1d14dubia"/>
+        <title>I, Distinctio 14, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1dt">
+        <fileName filestem="bb-l1d15p1dt"/>
+        <title>I, Distinctio 15, Pars 1, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1tqprae">
+        <fileName filestem="bb-l1d15p1tqprae"/>
+        <title>I, Distinctio 15, Pars 1, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1a1q1">
+        <fileName filestem="bb-l1d15p1a1q1"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis sit missio.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1a1q2">
+        <fileName filestem="bb-l1d15p1a1q2"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum missio in divinis sit tantum ex tempore, an etiam ab
+          aeterno.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1a1q3">
+        <fileName filestem="bb-l1d15p1a1q3"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 3</title>
+        <questionTitle>Utrum missio, passive accepta, sit totius Trinitatis, in specie
+          Patris.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1a1q4">
+        <fileName filestem="bb-l1d15p1a1q4"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 4</title>
+        <questionTitle>Utrum missio , active accepta, sit totius Trinitatis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p1dubia">
+        <fileName filestem="bb-l1d15p1dubia"/>
+        <title>I, Distinctio 15, Pars 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2dt">
+        <fileName filestem="bb-l1d15p2dt"/>
+        <title>I, Distinctio 15, Pars 2, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2tqprae">
+        <fileName filestem="bb-l1d15p2tqprae"/>
+        <title>I, Distinctio 15, Pars 2, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2a1q1">
+        <fileName filestem="bb-l1d15p2a1q1"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum missio invisibilis sit secundum dona gratiae gratis datae , vel gratum
+          facientis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2a1q2">
+        <fileName filestem="bb-l1d15p2a1q2"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum Filius et Spiritus sanctus secundum. eadem dona gratiae mitti
+          dicantur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2a1q3">
+        <fileName filestem="bb-l1d15p2a1q3"/>
+        <title>I, Distinctio 15, Pars 1, A. 1, Q. 3</title>
+        <questionTitle>Utrum Filius et Spiritus sanctus mittantur, quando dona gratiae
+          augmentantur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d15p2dubia">
+        <fileName filestem="bb-l1d15p2dubia"/>
+        <title>I, Distinctio 15, Pars 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16dt">
+        <fileName filestem="bb-l1d16dt"/>
+        <title>I, Distinctio 16, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16tqprae">
+        <fileName filestem="bb-l1d16tqprae"/>
+        <title>I, Distinctio 16, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16a1q1">
+        <fileName filestem="bb-l1d16a1q1"/>
+        <title>I, Distinctio 16, A. 1, Q. 1</title>
+        <questionTitle>Quid sit missio visibilis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16a1q2">
+        <fileName filestem="bb-l1d16a1q2"/>
+        <title>I, Distinctio 16, A. 1, Q. 2</title>
+        <questionTitle>Ad quid sit utilis missio visibilis Spiritus sancti.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16a1q3">
+        <fileName filestem="bb-l1d16a1q3"/>
+        <title>I, Distinctio 16, A. 1, Q. 3</title>
+        <questionTitle>Quibus modis facta sil missio visibilis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d16dubia">
+        <fileName filestem="bb-l1d16dubia"/>
+        <title>I, Distinctio 16, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1dt">
+        <fileName filestem="bb-l1d17p1dt"/>
+        <title>I, Distinctio 17, Pars 1, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1tqprae">
+        <fileName filestem="bb-l1d17p1tqprae"/>
+        <title>I, Distinctio 17, Pars 1, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1a1q1">
+        <fileName filestem="bb-l1d17p1a1q1"/>
+        <title>I, Distinctio 17, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum praeter caritatem increatam poni debeat habitus caritatis
+          creatus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1a1q2">
+        <fileName filestem="bb-l1d17p1a1q2"/>
+        <title>I, Distinctio 17, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum caritas diligenda sit ex caritate.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1a1q3">
+        <fileName filestem="bb-l1d17p1a1q3"/>
+        <title>I, Distinctio 17, Pars 1, A. 1, Q. 3</title>
+        <questionTitle>Utrum quis certitudinaliter scire possit, se esse in
+          caritate.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1a1q4">
+        <fileName filestem="bb-l1d17p1a1q4"/>
+        <title>I, Distinctio 17, Pars 1, A. 1, Q. 4</title>
+        <questionTitle>Utrum caritas in universali sit cognoscibilis etiam a non habente
+          eam.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p1dubia">
+        <fileName filestem="bb-l1d17p1dubia"/>
+        <title>I, Distinctio 17, Pars 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2dt">
+        <fileName filestem="bb-l1d17p2dt"/>
+        <title>I, Distinctio 17, Pars 2, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2tqprae">
+        <fileName filestem="bb-l1d17p2tqprae"/>
+        <title>I, Distinctio 17, Pars 2, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2a1q1">
+        <fileName filestem="bb-l1d17p2a1q1"/>
+        <title>I, Distinctio 17, Pars 2, A. 1, Q. 1</title>
+        <questionTitle>Utrum caritas secundum substantium augeri possit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2a1q2">
+        <fileName filestem="bb-l1d17p2a1q2"/>
+        <title>I, Distinctio 17, Pars 2, A. 1, Q. 2</title>
+        <questionTitle>Quomodo caritas augeatur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2a1q3">
+        <fileName filestem="bb-l1d17p2a1q3"/>
+        <title>I, Distinctio 17, Pars 2, A. 1, Q. 3</title>
+        <questionTitle>Utrum caritas possit diminui.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2a1q4">
+        <fileName filestem="bb-l1d17p2a1q4"/>
+        <title>I, Distinctio 17, Pars 2, A. 1, Q. 4</title>
+        <questionTitle>Utrum caritas terminum habeat in augmento.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d17p2dubia">
+        <fileName filestem="bb-l1d17p2dubia"/>
+        <title>I, Distinctio 17, Pars 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18dt">
+        <fileName filestem="bb-l1d18dt"/>
+        <title>I, Distinctio 18, Divisio textus </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18tqprae">
+        <fileName filestem="bb-l1d18tqprae"/>
+        <title>I, Distinctio 18,Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q1">
+        <fileName filestem="bb-l1d18a1q1"/>
+        <title>I, Distinctio 18, A. 1, Q. 1</title>
+        <questionTitle>Utrum Spiritus sanctus sit donum, in quo omnia alia dona
+          donatur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q2">
+        <fileName filestem="bb-l1d18a1q2"/>
+        <title>I, Distinctio 18, A. 1, Q. 2</title>
+        <questionTitle>Utrum Spiritus santus sit donum ab aeterno, an ex tempori</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q3">
+        <fileName filestem="bb-l1d18a1q3"/>
+        <title>I, Distinctio 18, A. 1, Q. 3</title>
+        <questionTitle>Utrum convenientius de Spiritu sancto dicatur donum quam
+          datum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q4">
+        <fileName filestem="bb-l1d18a1q4"/>
+        <title>I, Distinctio 18, A. 1, Q. 4</title>
+        <questionTitle>Utrum donum sit nomen essentiale, an personale et proprium Spiritus
+          sancti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q5">
+        <fileName filestem="bb-l1d18a1q5"/>
+        <title>I, Distinctio 18, A. 1, Q. 5</title>
+        <questionTitle>Utrum donum sive donabilitas sit proprietas distinctiva Spiritus
+          sancti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18a1q6">
+        <fileName filestem="bb-l1d18a1q6"/>
+        <title>I, Distinctio 18, A. 1, Q. 6</title>
+        <questionTitle>Utrum spiritus sanctus ratione donabilitatis dici possit Spiritus
+          noster</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d18dubia">
+        <fileName filestem="bb-l1d18dubia"/>
+        <title>I, Distinctio 18, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1dt">
+        <fileName filestem="bb-l1d19p1dt"/>
+        <title>I, Distinctio 19, Pars 1, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1tqprae">
+        <fileName filestem="bb-l1d19p1tqprae"/>
+        <title>I, Distinctio 19, Pars 1, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1a1q1">
+        <fileName filestem="bb-l1d19p1a1q1"/>
+        <title>I, Distinctio 19, Pars 1, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis ponenda sit aequalitas.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1a1q2">
+        <fileName filestem="bb-l1d19p1a1q2"/>
+        <title>I, Distinctio 19, Pars 1, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis sit summa aequalitas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1a1q3">
+        <fileName filestem="bb-l1d19p1a1q3"/>
+        <title>I, Distinctio 19, Pars 1, A. 1, Q. 3</title>
+        <questionTitle>Utrum aequalitas divinarum personarum sit reciproca.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1a1q4">
+        <fileName filestem="bb-l1d19p1a1q4"/>
+        <title>I, Distinctio 19, Pars 1, A. 1, Q. 4</title>
+        <questionTitle>Utrum in divinis sit aequalitas cum circumincessione.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p1dubia">
+        <fileName filestem="bb-l1d19p1dubia"/>
+        <title>I, Distinctio 19, Pars 1, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2dt">
+        <fileName filestem="bb-l1d19p2dt"/>
+        <title>I, Distinctio 19, Pars 2, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2tqprae">
+        <fileName filestem="bb-l1d19p2tqprae"/>
+        <title>I, Distinctio 19, Pars 2, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2a1q1">
+        <fileName filestem="bb-l1d19p2a1q1"/>
+        <title>I, Distinctio 19, Pars 2, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis ponendum sit totum integrale.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2a1q2">
+        <fileName filestem="bb-l1d19p2a1q2"/>
+        <title>I, Distinctio 19, Pars 2, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis possit poni totum universale.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2a1q3">
+        <fileName filestem="bb-l1d19p2a1q3"/>
+        <title>I, Distinctio 19, Pars 2, A. 1, Q. 3</title>
+        <questionTitle>Utrum in divinis personis poni possit principium materiale.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2a1q4">
+        <fileName filestem="bb-l1d19p2a1q4"/>
+        <title>I, Distinctio 19, Pars 2, A. 1, Q. 4</title>
+        <questionTitle>Utrum in divinis differentia secundum numerum possit poni.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d19p2dubia">
+        <fileName filestem="bb-l1d19p2dubia"/>
+        <title>I, Distinctio 19, Pars 2, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20dt">
+        <fileName filestem="bb-l1d20dt"/>
+        <title>I, Distinctio 20, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20tqprae">
+        <fileName filestem="bb-l1d20tqprae"/>
+        <title>I, Distinctio 20, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20a1q1">
+        <fileName filestem="bb-l1d20a1q1"/>
+        <title>I, Distinctio 20, A. 1, Q. 1</title>
+        <questionTitle>Utrum in divinis personis potentia sit aequalis quantum ad extensionem
+          possibilium.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20a1q2">
+        <fileName filestem="bb-l1d20a1q2"/>
+        <title>I, Distinctio 20, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis personis sit aequalitas quantum ad intensionem
+          potentiae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20a2prae">
+        <fileName filestem="bb-l1d20a2prae"/>
+        <title>I, Distinctio 20, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20a2q1">
+        <fileName filestem="bb-l1d20a2q1"/>
+        <title>I, Distinctio 20, A. 2, Q. 1</title>
+        <questionTitle>Utrum in divinis sit ratio ordinis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20a2q2">
+        <fileName filestem="bb-l1d20a2q2"/>
+        <title>I, Distinctio 20, A. 2, Q. 2</title>
+        <questionTitle>Utrum in divinis sit ordo naturae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d20dubia">
+        <fileName filestem="bb-l1d20dubia"/>
+        <title>I, Distinctio 20, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21dt">
+        <fileName filestem="bb-l1d21dt"/>
+        <title>I, Distinctio 21, Divisio textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21tqprae">
+        <fileName filestem="bb-l1d21tqprae"/>
+        <title>I, Distinctio 21, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21a1q1">
+        <fileName filestem="bb-l1d21a1q1"/>
+        <title>I, Distinctio 21, A. 1, Q. 1</title>
+        <questionTitle>Utrum vere dicatur: solus Deus est Pater.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21a1q2">
+        <fileName filestem="bb-l1d21a1q2"/>
+        <title>I, Distinctio 21, A. 1, Q. 2</title>
+        <questionTitle>Utrum dictio exclusiva vere addi possit termino substantiali a parte
+          praedicati.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21a2prae">
+        <fileName filestem="bb-l1d21a2prae"/>
+        <title>I, Distinctio 21, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21a2q1">
+        <fileName filestem="bb-l1d21a2q1"/>
+        <title>I, Distinctio 21, A. 2, Q. 1 Utrum dictio exclusiva solus vere addatur termino
+          personali respectu praedicati proprii.</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21a2q2">
+        <fileName filestem="bb-l1d21a2q2"/>
+        <title>I, Distinctio 21, A. 2, Q. 2</title>
+        <questionTitle>Utrum dictio exclusiva solus vere addatur termino personali respectu
+          praedicati communis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d21dubia">
+        <fileName filestem="bb-l1d21dubia"/>
+        <title>I, Distinctio 21, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22dt">
+        <fileName filestem="bb-l1d22dt"/>
+        <title>I, Distinctio 22, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22tqprae">
+        <fileName filestem="bb-l1d22tqprae"/>
+        <title>I, Distinctio 22, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22a1q1">
+        <fileName filestem="bb-l1d22a1q1"/>
+        <title>I, Distinctio 22, A. 1, Q. 1</title>
+        <questionTitle>Utrum Deus sit nominabilis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22a1q2">
+        <fileName filestem="bb-l1d22a1q2"/>
+        <title>I, Distinctio 22, A. 1, Q. 2</title>
+        <questionTitle>Utrum Deus habeat unum solum nomen, an plura.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22a1q3">
+        <fileName filestem="bb-l1d22a1q3"/>
+        <title>I, Distinctio 22, A. 1, Q. 3</title>
+        <questionTitle>Utrum omnia divina nomina dicantur translative.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22a1q4">
+        <fileName filestem="bb-l1d22a1q4"/>
+        <title>I, Distinctio 22, A. 1, Q. 4</title>
+        <questionTitle>Utrum omnia nomina dicta de Deo secundum substantiam
+          dicantur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d22dubia">
+        <fileName filestem="bb-l1d22dubia"/>
+        <title>I, Distinctio 22, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23dt">
+        <fileName filestem="bb-l1d23dt"/>
+        <title>I, Distinctio 23, Diviso textus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23tqprae">
+        <fileName filestem="bb-l1d23tqprae"/>
+        <title>I, Distinctio 23, Tractatio quaestionum, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a1q1">
+        <fileName filestem="bb-l1d23a1q1"/>
+        <title>I, Distinctio 23, A. 1, Q. 1</title>
+        <questionTitle>Utrum nomen personae convenienter ad divina translatum sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a1q2">
+        <fileName filestem="bb-l1d23a1q2"/>
+        <title>I, Distinctio 23, A. 1, Q. 2</title>
+        <questionTitle>Utrum in divinis nomine substantiae et subsistentiae convenienter utendum
+          sit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a1q3">
+        <fileName filestem="bb-l1d23a1q3"/>
+        <title>I, Distinctio 23, A. 1, Q. 3</title>
+        <questionTitle>Utrum nomen essentiae in divinis convenienter adhibeatur ; insuper quaeritur,
+          substantia et persona.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a2prae">
+        <fileName filestem="bb-l1d23a2prae"/>
+        <title>I, Distinctio 23, A. 2, Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a2q1">
+        <fileName filestem="bb-l1d23a2q1"/>
+        <title>I, Distinctio 23, A. 2, Q. 1</title>
+        <questionTitle>Utrum plures substantiae in divinis dici possint.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a2q2">
+        <fileName filestem="bb-l1d23a2q2"/>
+        <title>I, Distinctio 23, A. 2, Q. 2</title>
+        <questionTitle>Utrum plures essentiae in divinis numerari possint.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23a2q3">
+        <fileName filestem="bb-l1d23a2q3"/>
+        <title>I, Distinctio 23, A. 2, Q. 3</title>
+        <questionTitle>Utrum catholice dicere plures deos possimus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+      <item id="bb-l1d23dubia">
+        <fileName filestem="bb-l1d23dubia"/>
+        <title>I, Distinctio 23, Dubia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Qa"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="bb-l2" type="librum" subtype="librum2">
+      <head>Liber II</head>
+      <div id="bb-l2d1" type="distinctio" subtype="librum2-distinctio1">
+        <head>Liber II, Distinctio 1</head>
+        <item xml:id="bb-l2d1p1" type="pars">
+          <fileName filestem="bb-l2d1p1"/>
+          <title>Liber II, Distinctio 1, Pars 1 </title>
+          <questionTitle>De creatione humanae naturae quantum ad principium efficiens in
+            generali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332633.json">7v</folio>
+              <folio canvasslug="canvas-24332634.json">8r</folio>
+              <folio canvasslug="canvas-24332635.json">8v</folio>
+              <folio canvasslug="canvas-24332636.json">9r</folio>
+              <folio canvasslug="canvas-24332637.json">9v</folio>
+              <folio canvasslug="canvas-24332638.json">10r</folio>
+              <folio canvasslug="canvas-24332639.json">10v</folio>
+              <folio canvasslug="canvas-24332640.json">11r</folio>
+              <folio canvasslug="canvas-24332641.json">11v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d1p2" type="pars">
+          <fileName filestem="bb-l2d1p2"/>
+          <title>Liber II, Distinctio 1, Pars 2 </title>
+          <questionTitle>De multitudine, fine et distinctione creaturarum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332641.json">11v</folio>
+              <folio canvasslug="canvas-24332642.json">12r</folio>
+              <folio canvasslug="canvas-24332643.json">12v</folio>
+              <folio canvasslug="canvas-24332644.json">13r</folio>
+              <folio canvasslug="canvas-24332645.json">13v</folio>
+              <folio canvasslug="canvas-24332646.json">14r</folio>
+              <folio canvasslug="canvas-24332647.json">14v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d2" type="distinctio" subtype="librum2-distinctio2">
+        <item xml:id="bb-l2d2p1" type="pars">
+          <fileName filestem="bb-l2d2p1"/>
+          <title>Liber II, Distinctio 2, Pars 1 </title>
+          <questionTitle>Quando creati sunt Angeli et de mensura durationis eorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332647.json">14v</folio>
+              <folio canvasslug="canvas-24332648.json">15r</folio>
+              <folio canvasslug="canvas-24332649.json">15v</folio>
+              <folio canvasslug="canvas-24332650.json">16r</folio>
+              <folio canvasslug="canvas-24332651.json">16v</folio>
+              <folio canvasslug="canvas-24332652.json">17r</folio>
+              <folio canvasslug="canvas-24332653.json">17v</folio>
+              <folio canvasslug="canvas-24332654.json">18r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d2p2" type="pars">
+          <fileName filestem="bb-l2d2p2"/>
+          <title>Liber II, Distinctio 2, Pars 2</title>
+          <questionTitle>De loco, ubi fuerunt Angeli creati</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332654.json">18r</folio>
+              <folio canvasslug="canvas-24332655.json">18v</folio>
+              <folio canvasslug="canvas-24332656.json">19r</folio>
+              <folio canvasslug="canvas-24332657.json">19v</folio>
+              <folio canvasslug="canvas-24332658.json">20r</folio>
+              <folio canvasslug="canvas-24332659.json">20v</folio>
+              <folio canvasslug="canvas-24332660.json">21r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d3" type="distinctio" subtype="librum2-distinctio3">
+        <item xml:id="bb-l2d3p1" type="pars">
+          <fileName filestem="bb-l2d3p1"/>
+          <title>Liber II, Distinctio 3, Pars 1</title>
+          <questionTitle>Quales creati sint Angeli quoad naturalia attributa</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332660.json">21r</folio>
+              <folio canvasslug="canvas-24332661.json">21v</folio>
+              <folio canvasslug="canvas-24332662.json">22r</folio>
+              <folio canvasslug="canvas-24332663.json">22v</folio>
+              <folio canvasslug="canvas-24332664.json">23r</folio>
+              <folio canvasslug="canvas-24332665.json">23v</folio>
+              <folio canvasslug="canvas-24332666.json">24r</folio>
+              <folio canvasslug="canvas-24332667.json">24v</folio>
+              <folio canvasslug="canvas-24332668.json">25r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d3p2" type="pars">
+          <fileName filestem="bb-l2d3p2"/>
+          <title>Liber II, Distinctio 3, Pars 2</title>
+          <questionTitle>De habitibus per naturam Angelis superadditis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332668.json">25r</folio>
+              <folio canvasslug="canvas-24332669.json">25v</folio>
+              <folio canvasslug="canvas-24332670.json">26r</folio>
+              <folio canvasslug="canvas-24332671.json">26v</folio>
+              <folio canvasslug="canvas-24332672.json">27r</folio>
+              <folio canvasslug="canvas-24332673.json">27v</folio>
+              <folio canvasslug="canvas-24332674.json">28r</folio>
+              <folio canvasslug="canvas-24332675.json">28v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d4" type="distinctio" subtype="librum2-distinctio4">
+        <item xml:id="bb-l2d4p1" type="pars">
+          <fileName filestem="bb-l2d4p1"/>
+          <title>Liber II, Distinctio 4, Pars 1</title>
+          <questionTitle>De habitibus Angelos in statu perfectionis constituentibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332675.json">28v</folio>
+              <folio canvasslug="canvas-24332676.json">29r</folio>
+              <folio canvasslug="canvas-24332677.json">29v</folio>
+              <folio canvasslug="canvas-24332678.json">30r</folio>
+              <folio canvasslug="canvas-24332679.json">30v</folio>
+              <folio canvasslug="canvas-24332680.json">31r</folio>
+              <folio canvasslug="canvas-24332681.json">31v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d5" type="distinctio" subtype="librum2-distinctio5">
+        <item xml:id="bb-l2d5p1" type="pars">
+          <fileName filestem="bb-l2d5p1"/>
+          <title>Liber II, Distinctio 5, Pars 1</title>
+          <questionTitle>Quales facti sint Angeli aversione et conversione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332681.json">31v</folio>
+              <folio canvasslug="canvas-24332682.json">32r</folio>
+              <folio canvasslug="canvas-24332683.json">32v</folio>
+              <folio canvasslug="canvas-24332684.json">33r</folio>
+              <folio canvasslug="canvas-24332685.json">33v</folio>
+              <folio canvasslug="canvas-24332686.json">34r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d6" type="distinctio" subtype="librum2-distinctio6">
+        <item xml:id="bb-l2d6p1" type="pars">
+          <fileName filestem="bb-l2d6p1"/>
+          <title>Liber II, Distinctio 6, Pars 1</title>
+          <questionTitle>De ruina malorum angelorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332686.json">34r</folio>
+              <folio canvasslug="canvas-24332687.json">34v</folio>
+              <folio canvasslug="canvas-24332688.json">35r</folio>
+              <folio canvasslug="canvas-24332689.json">35v</folio>
+              <folio canvasslug="canvas-24332690.json">36r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d7" type="distinctio" subtype="librum2-distinctio7">
+        <item xml:id="bb-l2d7p1" type="pars">
+          <fileName filestem="bb-l2d7p1"/>
+          <title>Liber II, Distinctio 7, Pars 1</title>
+          <questionTitle>De confirmatione et obstinatione Angelorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332690.json">36r</folio>
+              <folio canvasslug="canvas-24332691.json">36v</folio>
+              <folio canvasslug="canvas-24332692.json">37r</folio>
+              <folio canvasslug="canvas-24332693.json">37v</folio>
+              <folio canvasslug="canvas-24332694.json">38r</folio>
+              <folio canvasslug="canvas-24332695.json">38v</folio>
+              <folio canvasslug="canvas-24332696.json">39r</folio>
+              <folio c="a" canvasslug="canvas-24332697.json">39v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d7p2" type="pars">
+          <fileName filestem="bb-l2d7p2"/>
+          <title>Liber II, Distinctio 7, Pars 2</title>
+          <questionTitle>De consequentibus ad obstinationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332697.json">39v</folio>
+              <folio canvasslug="canvas-24332698.json">40r</folio>
+              <folio canvasslug="canvas-24332699.json">40v</folio>
+              <folio canvasslug="canvas-24332700.json">41r</folio>
+              <folio canvasslug="canvas-24332701.json">41v</folio>
+              <folio canvasslug="canvas-24332702.json">42r</folio>
+              <folio canvasslug="canvas-24332703.json">42v</folio>
+              <folio canvasslug="canvas-24332704.json">43r</folio>
+              <folio canvasslug="canvas-24332705.json">43v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d8" type="distinctio" subtype="librum2-distinctio8">
+        <item xml:id="bb-l2d8p1" type="pars">
+          <fileName filestem="bb-l2d8p1"/>
+          <title>Liber II, Distinctio 8, Pars 1</title>
+          <questionTitle>De potestate daemonum, quam habent super corpora similia
+            humanis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332705.json">43v</folio>
+              <folio canvasslug="canvas-24332706.json">44r</folio>
+              <folio canvasslug="canvas-24332707.json">44v</folio>
+              <folio canvasslug="canvas-24332708.json">45r</folio>
+              <folio canvasslug="canvas-24332709.json">45v</folio>
+              <folio canvasslug="canvas-24332710.json">46r</folio>
+              <folio canvasslug="canvas-24332711.json">46v</folio>
+              <folio canvasslug="canvas-24332712.json">47r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d8p2" type="pars">
+          <fileName filestem="bb-l2d8p2"/>
+          <title>Liber II, Distinctio 8, Pars 2</title>
+          <questionTitle>De potestate daemonum respectu hominum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332712.json">47r</folio>
+              <folio canvasslug="canvas-24332713.json">47v</folio>
+              <folio canvasslug="canvas-24332714.json">48r</folio>
+              <folio canvasslug="canvas-24332715.json">48v</folio>
+              <folio canvasslug="canvas-24332716.json">49r</folio>
+              <folio canvasslug="canvas-24332717.json">49v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d9" type="distinctio" subtype="librum2-distinctio9">
+        <item xml:id="bb-l2d9p1" type="pars">
+          <fileName filestem="bb-l2d9p1"/>
+          <title>Liber II, Distinctio 9, Pars 1</title>
+          <questionTitle>De angelicorum ordinum distinctione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332717.json">49v</folio>
+              <folio canvasslug="canvas-24332718.json">50r</folio>
+              <folio canvasslug="canvas-24332719.json">50v</folio>
+              <folio canvasslug="canvas-24332720.json">51r</folio>
+              <folio canvasslug="canvas-24332721.json">51v</folio>
+              <folio canvasslug="canvas-24332722.json">52r</folio>
+              <folio canvasslug="canvas-24332723.json">52v</folio>
+              <folio canvasslug="canvas-24332724.json">53r</folio>
+              <folio canvasslug="canvas-24332725.json">53v</folio>
+              <folio canvasslug="canvas-24332726.json">54r</folio>
+              <folio canvasslug="canvas-24332727.json">54v</folio>
+              <folio canvasslug="canvas-24332728.json">55r</folio>
+              <folio canvasslug="canvas-24332729.json">55v</folio>
+              <folio canvasslug="canvas-24332730.json">56r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d10" type="distinctio" subtype="librum2-distinctio10">
+        <item xml:id="bb-l2d10p1" type="pars">
+          <fileName filestem="bb-l2d10p1"/>
+          <title>Liber II, Distinctio 10, Pars 1</title>
+          <questionTitle>De ministerio Angelorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332730.json">56r</folio>
+              <folio canvasslug="canvas-24332731.json">56v</folio>
+              <folio canvasslug="canvas-24332732.json">57r</folio>
+              <folio canvasslug="canvas-24332733.json">57v</folio>
+              <folio canvasslug="canvas-24332734.json">58r</folio>
+              <folio canvasslug="canvas-24332735.json">58v</folio>
+              <folio canvasslug="canvas-24332736.json">59r</folio>
+              <folio canvasslug="canvas-24332737.json">59v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d11" type="distinctio" subtype="librum2-distinctio11">
+        <item xml:id="bb-l2d11p1" type="pars">
+          <fileName filestem="bb-l2d11p1"/>
+          <title>Liber II, Distinctio 11, Pars 1</title>
+          <questionTitle>De ministerio Angelorum respectu hominum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="a" canvasslug="canvas-24332737.json">59v</folio>
+              <folio canvasslug="canvas-24332738.json">60r</folio>
+              <folio canvasslug="canvas-24332739.json">60v</folio>
+              <folio canvasslug="canvas-24332740.json">61r</folio>
+              <folio canvasslug="canvas-24332741.json">61v</folio>
+              <folio canvasslug="canvas-24332742.json">62r</folio>
+              <folio canvasslug="canvas-24332743.json">62v</folio>
+              <folio canvasslug="canvas-24332744.json">63r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d12" type="distinctio" subtype="librum2-distinctio12">
+        <item xml:id="bb-l2d12p1" type="pars">
+          <fileName filestem="bb-l2d12p1"/>
+          <title>Liber II, Distinctio 12, Pars 1</title>
+          <questionTitle>De conditione naturae corporalis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332744.json">63r</folio>
+              <folio canvasslug="canvas-24332745.json">63v</folio>
+              <folio canvasslug="canvas-24332746.json">64r</folio>
+              <folio canvasslug="canvas-24332747.json">64v</folio>
+              <folio canvasslug="canvas-24332748.json">65r</folio>
+              <folio canvasslug="canvas-24332749.json">65v</folio>
+              <folio canvasslug="canvas-24332750.json">66r</folio>
+              <folio c="a" canvasslug="canvas-24332751.json">66v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d13" type="distinctio" subtype="librum2-distinctio13">
+        <item xml:id="bb-l2d13p1" type="pars">
+          <fileName filestem="bb-l2d13p1"/>
+          <title>Liber II, Distinctio 13, Pars 1</title>
+          <questionTitle>De generali informatione materiae per formam communem lucis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332751.json">66v</folio>
+              <folio canvasslug="canvas-24332752.json">67r</folio>
+              <folio canvasslug="canvas-24332753.json">67v</folio>
+              <folio canvasslug="canvas-24332754.json">68r</folio>
+              <folio canvasslug="canvas-24332755.json">68v</folio>
+              <folio canvasslug="canvas-24332756.json">69r</folio>
+              <folio canvasslug="canvas-24332757.json">69v</folio>
+              <folio canvasslug="canvas-24332758.json">70r</folio>
+              <folio canvasslug="canvas-24332759.json">70v</folio>
+              <folio canvasslug="canvas-24332760.json">71r</folio>
+              <folio canvasslug="canvas-24332761.json">71v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d14" type="distinctio" subtype="librum2-distinctio14">
+        <item xml:id="bb-l2d14p1" type="pars">
+          <fileName filestem="bb-l2d14p1"/>
+          <title>Liber II, Distinctio 14, Pars 1</title>
+          <questionTitle>De productione insensibilium continentium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332761.json">71v</folio>
+              <folio canvasslug="canvas-24332762.json">72r</folio>
+              <folio canvasslug="canvas-24332763.json">72v</folio>
+              <folio canvasslug="canvas-24332764.json">73r</folio>
+              <folio canvasslug="canvas-24332765.json">73v</folio>
+              <folio canvasslug="canvas-24332766.json">74r</folio>
+              <folio canvasslug="canvas-24332767.json">74v</folio>
+              <folio canvasslug="canvas-24332768.json">75r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item xml:id="bb-l2d14p2" type="pars">
+          <fileName filestem="bb-l2d14p2"/>
+          <title>Liber II, Distinctio 14, Pars 2</title>
+          <questionTitle>De productione insensibilium contentorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332768.json">75r</folio>
+              <folio canvasslug="canvas-24332769.json">75v</folio>
+              <folio canvasslug="canvas-24332770.json">76r</folio>
+              <folio canvasslug="canvas-24332771.json">76v</folio>
+              <folio canvasslug="canvas-24332772.json">77r</folio>
+              <folio canvasslug="canvas-24332773.json">77v</folio>
+              <folio canvasslug="canvas-24332774.json">78r</folio>
+              <folio canvasslug="canvas-24332775.json">78v</folio>
+              <folio canvasslug="canvas-24332776.json">79r</folio>
+              <folio canvasslug="canvas-24332777.json">79v</folio>
+              <folio canvasslug="canvas-24332778.json">80r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d15" type="distinctio" subtype="librum2-distinctio15">
+        <item xml:id="bb-l2d15p1" type="pars">
+          <fileName filestem="bb-l2d15p1"/>
+          <title>Liber II, Distinctio 15, Pars 1</title>
+          <questionTitle>De productione mixtorum et sensibilium sive animalium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332778.json">80r</folio>
+              <folio canvasslug="canvas-24332779.json">80v</folio>
+              <folio canvasslug="canvas-24332780.json">81r</folio>
+              <folio canvasslug="canvas-24332781.json">81v</folio>
+              <folio canvasslug="canvas-24332782.json">82r</folio>
+              <folio canvasslug="canvas-24332783.json">82v</folio>
+              <folio canvasslug="canvas-24332784.json">83r</folio>
+              <folio canvasslug="canvas-24332785.json">83v</folio>
+              <folio canvasslug="canvas-24332786.json">84r</folio>
+              <folio canvasslug="canvas-24332787.json">84v</folio>
+              <folio canvasslug="canvas-24332788.json">85r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d16" type="distinctio" subtype="librum2-distinctio16">
+        <item xml:id="bb-l2d16p1" type="pars">
+          <fileName filestem="bb-l2d16p1"/>
+          <title>Liber II, Distinctio 16, Pars 1</title>
+          <questionTitle>Qualiter Deus produxerit hominem ad suam imaginem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332788.json">85r</folio>
+              <folio canvasslug="canvas-24332789.json">85v</folio>
+              <folio canvasslug="canvas-24332790.json">86r</folio>
+              <folio canvasslug="canvas-24332791.json">86v</folio>
+              <folio canvasslug="canvas-24332792.json">87r</folio>
+              <folio canvasslug="canvas-24332793.json">87v</folio>
+              <folio canvasslug="canvas-24332794.json">88r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d17" type="distinctio" subtype="librum2-distinctio17">
+        <item xml:id="bb-l2d17p1" type="pars">
+          <fileName filestem="bb-l2d17p1"/>
+          <title>Liber II, Distinctio 17, Pars 1</title>
+          <questionTitle>De productione Adae quoad principia constituentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332794.json">88r</folio>
+              <folio canvasslug="canvas-24332795.json">88v</folio>
+              <folio canvasslug="canvas-24332796.json">89r</folio>
+              <folio canvasslug="canvas-24332797.json">89v</folio>
+              <folio canvasslug="canvas-24332798.json">90r</folio>
+              <folio canvasslug="canvas-24332799.json">90v</folio>
+              <folio canvasslug="canvas-24332800.json">91r</folio>
+              <folio canvasslug="canvas-24332801.json">91v</folio>
+              <folio canvasslug="canvas-24332802.json">92r</folio>
+              <folio canvasslug="canvas-24332803.json">92v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d18" type="distinctio" subtype="librum2-distinctio18">
+        <item xml:id="bb-l2d18p1" type="pars">
+          <fileName filestem="bb-l2d18p1"/>
+          <title>Liber II, Distinctio 18, Pars 1</title>
+          <questionTitle>De formatione mulieris de viro.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio canvasslug="canvas-24332803.json">92v</folio>
+              <folio canvasslug="canvas-24332804.json">93r</folio>
+              <folio canvasslug="canvas-24332805.json">93v</folio>
+              <folio canvasslug="canvas-24332806.json">94r</folio>
+              <folio canvasslug="canvas-24332807.json">94v</folio>
+              <folio canvasslug="canvas-24332808.json">95r</folio>
+              <folio canvasslug="canvas-24332809.json">95v</folio>
+              <folio canvasslug="canvas-24332810.json">96r</folio>
+              <folio canvasslug="canvas-24332811.json">96v</folio>
+              <folio canvasslug="canvas-24332812.json">97r</folio>
+              <folio canvasslug="canvas-24332813.json">97v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d19" type="distinctio" subtype="librum2-distinctio19">
+        <item xml:id="bb-l2d19p1" type="pars">
+          <fileName filestem="bb-l2d19p1"/>
+          <title>Liber II, Distinctio 19, Pars 1</title>
+          <questionTitle>De hominis immortalitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332813.json">97v</folio>
+              <folio canvasslug="canvas-24332814.json">98r</folio>
+              <folio canvasslug="canvas-24332815.json">98v</folio>
+              <folio canvasslug="canvas-24332816.json">99r</folio>
+              <folio canvasslug="canvas-24332817.json">99v</folio>
+              <folio canvasslug="canvas-24332818.json">100r</folio>
+              <folio canvasslug="canvas-24332819.json">100v</folio>
+              <folio canvasslug="canvas-24332820.json">101r</folio>
+              <folio canvasslug="canvas-24332821.json">101v</folio>
+              <folio canvasslug="canvas-24332822.json">102r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d20" type="distinctio" subtype="librum2-distinctio20">
+        <item xml:id="bb-l2d20p1" type="pars">
+          <fileName filestem="bb-l2d20p1"/>
+          <title>Liber II, Distinctio 20, Pars 1</title>
+          <questionTitle>De procreatione posteritatis.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio c="b" canvasslug="canvas-24332822.json">102r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bb-l2d21" type="distinctio" subtype="librum2-distinctio21">
+        <item xml:id="bb-l2d21p1" type="pars">
+          <fileName filestem="bb-l2d21p1"/>
+          <title>Liber II, Distinctio 21, Pars 1</title>
+          <questionTitle>De primorum parentum tentatione facta a diabolo</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d22" type="distinctio" subtype="librum2-distinctio22">
+        <item xml:id="bb-l2d22p1" type="pars">
+          <fileName filestem="bb-l2d22p1"/>
+          <title>Liber II, Distinctio 22, Pars 1</title>
+          <questionTitle>De hominis transgressione</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d23" type="distinctio" subtype="librum2-distinctio23">
+        <item xml:id="bb-l2d23p1" type="pars">
+          <fileName filestem="bb-l2d23p1"/>
+          <title>Liber II, Distinctio 23, Pars 1</title>
+          <questionTitle>De primae tentationis permissione ex parte Dei</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d24" type="distinctio" subtype="librum2-distinctio24">
+        <item xml:id="bb-l2d24p1" type="pars">
+          <fileName filestem="bb-l2d24p1"/>
+          <title>Liber II, Distinctio 24, Pars 1</title>
+          <questionTitle>De libero arbitrio, quatenus ad alias animae potentias
+            comparatur</questionTitle>
+        </item>
+        <item xml:id="bb-l2d24p2" type="pars">
+          <fileName filestem="bb-l2d24p2"/>
+          <title>Liber II, Distinctio 24, Pars 2</title>
+          <questionTitle>De ordine et progressu peccati per vires animae</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d25" type="distinctio" subtype="librum2-distinctio25">
+        <item xml:id="bb-l2d25p1" type="pars">
+          <fileName filestem="bb-l2d25p1"/>
+          <title>Liber II, Distinctio 25, Pars 1</title>
+          <questionTitle>De libero arbitrio secundum se et in generali</questionTitle>
+        </item>
+        <item xml:id="bb-l2d25p2" type="pars">
+          <fileName filestem="bb-l2d25p2"/>
+          <title>Liber II, Distinctio 25, Pars 2</title>
+          <questionTitle>De libero arbitrio secundum differentes eius status in
+            speciali</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d26" type="distinctio" subtype="librum2-distinctio26">
+        <item xml:id="bb-l2d26p1" type="pars">
+          <fileName filestem="bb-l2d26p1"/>
+          <title>Liber II, Distinctio 26, Pars 1</title>
+          <questionTitle>De libero arbitrio cum adiutorio gratiae</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d27" type="distinctio" subtype="librum2-distinctio27">
+        <item xml:id="bb-l2d27p1" type="pars">
+          <fileName filestem="bb-l2d27p1"/>
+          <title>Liber II, Distinctio 27, Pars 1</title>
+          <questionTitle>De adiutorio gratiae in comparatione ad suas differentias et ad virtutem et
+            meritum</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d28" type="distinctio" subtype="librum2-distinctio28">
+        <item xml:id="bb-l2d28p1" type="pars">
+          <fileName filestem="bb-l2d28p1"/>
+          <title>Liber II, Distinctio 28, Pars 1</title>
+          <questionTitle>De potestate liberi arbitrii sine gratia</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d29" type="distinctio" subtype="librum2-distinctio29">
+        <item xml:id="bb-l2d29p1" type="pars">
+          <fileName filestem="bb-l2d29p1"/>
+          <title>Liber II, Distinctio 29, Pars 1</title>
+          <questionTitle>De gratia secundum statum naturae institutae</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d30" type="distinctio" subtype="librum2-distinctio30">
+        <item xml:id="bb-l2d30p1" type="pars">
+          <fileName filestem="bb-l2d30p1"/>
+          <title>Liber II, Distinctio 30, Pars 1</title>
+          <questionTitle>Utrum et quid sit peccatum originale</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d31" type="distinctio" subtype="librum2-distinctio31">
+        <item xml:id="bb-l2d31p1" type="pars">
+          <fileName filestem="bb-l2d31p1"/>
+          <title>Liber II, Distinctio 31, Pars 1</title>
+          <questionTitle>Qualiter peccatum originale a parente traducatur in prolem</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d32" type="distinctio" subtype="librum2-distinctio32">
+        <item xml:id="bb-l2d32p1" type="pars">
+          <fileName filestem="bb-l2d32p1"/>
+          <title>Liber II, Distinctio 32, Pars 1</title>
+          <questionTitle>Qualiter peccatum originale curetur</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d32" type="distinctio" subtype="librum2-distinctio32">
+        <item xml:id="bb-l2d32p1" type="pars">
+          <fileName filestem="bb-l2d32p1"/>
+          <title>Liber II, Distinctio 32, Pars 1</title>
+          <questionTitle>Qualiter peccatum originale curetur</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d33" type="distinctio" subtype="librum2-distinctio33">
+        <item xml:id="bb-l2d33p1" type="pars">
+          <fileName filestem="bb-l2d33p1"/>
+          <title>Liber II, Distinctio 33, Pars 1</title>
+          <questionTitle>Utrum originale peccatum per peccata proximorum parentum multiplicetur et
+            intendatur</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d34" type="distinctio" subtype="librum2-distinctio34">
+        <item xml:id="bb-l2d34p1" type="pars">
+          <fileName filestem="bb-l2d34p1"/>
+          <title>Liber II, Distinctio 34, Pars 1</title>
+          <questionTitle>De peccato actuali secundum eius causalitatem</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d35" type="distinctio" subtype="librum2-distinctio35">
+        <item xml:id="bb-l2d35p1" type="pars">
+          <fileName filestem="bb-l2d35p1"/>
+          <title>Liber II, Distinctio 35, Pars 1</title>
+          <questionTitle>De peccato actuali secundum eius quidditatem et
+            definitionem.</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d36" type="distinctio" subtype="librum2-distinctio36">
+        <item xml:id="bb-l2d36p1" type="pars">
+          <fileName filestem="bb-l2d36p1"/>
+          <title>Liber II, Distinctio 36, Pars 1</title>
+          <questionTitle>Utrum peccatum sit poena peccati</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d36" type="distinctio" subtype="librum2-distinctio36">
+        <item xml:id="bb-l2d36p1" type="pars">
+          <fileName filestem="bb-l2d36p1"/>
+          <title>Liber II, Distinctio 36, Pars 1</title>
+          <questionTitle>Utrum peccatum sit poena peccati</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d37" type="distinctio" subtype="librum2-distinctio37">
+        <item xml:id="bb-l2d37p1" type="pars">
+          <fileName filestem="bb-l2d37p1"/>
+          <title>Liber II, Distinctio 37, Pars 1</title>
+          <questionTitle>Utrum actio malitiae substrata sit a Deo</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d38" type="distinctio" subtype="librum2-distinctio38">
+        <item xml:id="bb-l2d38p1" type="pars">
+          <fileName filestem="bb-l2d38p1"/>
+          <title>Liber II, Distinctio 38, Pars 1</title>
+          <questionTitle>Qualiter per peccatum depravatio fiat in ipsa voluntate</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d39" type="distinctio" subtype="librum2-distinctio39">
+        <item xml:id="bb-l2d39p1" type="pars">
+          <fileName filestem="bb-l2d39p1"/>
+          <title>Liber II, Distinctio 39, Pars 1</title>
+          <questionTitle>Quare voluntas magis depravetur in suo actu quam aliqua alia
+            potentia</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d40" type="distinctio" subtype="librum2-distinctio40">
+        <item xml:id="bb-l2d40p1" type="pars">
+          <fileName filestem="bb-l2d40p1"/>
+          <title>Liber II, Distinctio 40, Pars 1</title>
+          <questionTitle>Qualiter actus et opera ex affectu et fine vel rectificantur, vel
+            depravantur</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d41" type="distinctio" subtype="librum2-distinctio41">
+        <item xml:id="bb-l2d41p1" type="pars">
+          <fileName filestem="bb-l2d41p1"/>
+          <title>Liber II, Distinctio 41, Pars 1</title>
+          <questionTitle>Qualiter actus ex defectu intentionis et voluntatis
+            depraventur</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d42" type="distinctio" subtype="librum2-distinctio42">
+        <item xml:id="bb-l2d42p1" type="pars">
+          <fileName filestem="bb-l2d42p1"/>
+          <title>Liber II, Distinctio 42, Pars 1</title>
+          <questionTitle>De differentiis peccatorum in communi</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d43" type="distinctio" subtype="librum2-distinctio43">
+        <item xml:id="bb-l2d43p1" type="pars">
+          <fileName filestem="bb-l2d43p1"/>
+          <title>Liber II, Distinctio 43, Pars 1</title>
+          <questionTitle>De peccato in Spiritum sanctum</questionTitle>
+        </item>
+      </div>
+      <div id="bb-l2d44" type="distinctio" subtype="librum2-distinctio44">
+        <item xml:id="bb-l2d44p1" type="pars">
+          <fileName filestem="bb-l2d44p1"/>
+          <title>Liber II, Distinctio 44, Pars 1</title>
+          <questionTitle>Unde habeat ortum potentia peccandi</questionTitle>
+        </item>
       </div>
     </div>
+  </div>
 </listofFileNames>
