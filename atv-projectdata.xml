@@ -8,8 +8,9 @@
     		<rcsid>100100</rcsid>
         <authorUri>http://scta.info/resource/AlphonsusVargas</authorUri>
         <parentUri>http://scta.info/resource/vargascommentary</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vargascommentary/</textfilesdir>
+    	   <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vargascommentary/</textfilesdir>
+        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
         <webbase>null</webbase>
         <questionListSource></questionListSource>
         <questionListOriginalEditor>Luciana Cioca</questionListOriginalEditor>
@@ -27,16 +28,27 @@
 	    		</sponsor>
 	    	</sponsors>
         <hasWitnesses>
-          <witness id="P">
-            <slug>Paris1490</slug>
-            <title>Paris, 1490</title>
-            <initial>P</initial>
+          <witness id="V">
+            <slug>Venice1490</slug>
+            <title>Venice, 1490</title>
+            <initial>V</initial>
           </witness>
         </hasWitnesses>
     </header>
     <div id="body">
       <div id="atv-librum1" class="toplevel" type="librum" subtype="librum1">
         <head>Liber I</head>
+        <item type="quaestio">
+          <fileName filestem="atv-l1prae"/>
+          <title>Liber I, Preambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio>1r</folio>
+              <folio>1v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
         <div id="atv-l1prol" type="distinctio" subtype="librum1-prologus">
           <item type="quaestio">
             <fileName filestem="atv-l1prolq1"/>
@@ -44,21 +56,21 @@
             <questionTitle>Utrum aliqua notitia evidens de veritatibus theologiae sit possibilis viatori 
               de potentia Dei absoluta quae sit scientia proprie dicta.</questionTitle>
             <hasWitnesses>
-              <witness ref="#P">
-                <folio>9v</folio>
-                <folio>10r</folio>
-                <folio>10v</folio>
-                <folio>11r</folio>
-                <folio>11v</folio>
-                <folio>12r</folio>
-                <folio>12v</folio>
-                <folio>13r</folio>
-                <folio>13v</folio>
-                <folio>14r</folio>
-                <folio>14v</folio>
-                <folio>15r</folio>
-                <folio>15v</folio>
-                <folio>16r</folio>
+              <witness ref="#V">
+                <folio>1v</folio>
+                <folio>2r</folio>
+                <folio>2v</folio>
+                <folio>3r</folio>
+                <folio>3v</folio>
+                <folio>4r</folio>
+                <folio>4v</folio>
+                <folio>5r</folio>
+                <folio>5v</folio>
+                <folio>6r</folio>
+                <folio>6v</folio>
+                <folio>7r</folio>
+                <folio>7v</folio>
+                <folio>8r</folio>
               </witness>
             </hasWitnesses>
           </item>
@@ -66,6 +78,11 @@
             <fileName filestem="atv-l1prolq2"/>
             <title>Liber I, prologus, q. 2</title>
             <questionTitle>Utrum habitus theologicus possibilis viatori de lege communi sit scientia proprie dicta.</questionTitle>
+            <hasWitnesses>
+              <witness ref="#V">
+                <folio>8r</folio>
+              </witness>
+            </hasWitnesses>
           </item>
           <item type="quaestio">
             <fileName filestem="atv-l1prolq3"/>

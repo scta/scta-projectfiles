@@ -38,6 +38,11 @@
     		<title>Philadelphila, Free Library, Lewis E 170</title>
     		<initial>Pc</initial>
     	</witness>
+      <witness id="Pd">
+        <slug>parker522</slug>
+        <title>Cambridge, Parker Library, Ms. 522</title>
+        <initial>Pd</initial>
+      </witness>
     	<witness id="H">
     		<slug>hopkinsMSB19</slug>
     		<title>Baltimore, Johns Hopkins</title>
@@ -110,6 +115,11 @@
         <shortid>clm14151</shortid>
         <title>Munich Clm 14151</title>  
       </witness>
+      <witness id="Ma">
+        <!-- single leaf containing par of l4d11c1, all of l4d11c2, and part of l4d11c3; see http://digitalcollections.lmu.edu/cdm/ref/collection/manuscripts/id/20 -->
+        <shortid>marymount25</shortid>
+        <title>Loyola University Marymount, ms. 25</title>  
+      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
@@ -140,6 +150,10 @@
           	<witness ref="#W">
           		<folio>1r</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>1r</folio>
+              <folio>1v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -147,7 +161,7 @@
         <head>Liber I, distinctio 1</head>
         <item id="pl-l1d1c1" type="capitulus">
           <fileName filestem="pl-l1d1c1">pl-l1d1c1.xml</fileName>
-          <title>Liber I, distinctio 1, capitulus 1</title>
+          <title>Liber I, distinctio 1, capitulum 1</title>
           <questionTitle>Omnis doctrina est vel de rebus vel de signis.</questionTitle>
           <hasWitnesses>
             <witness ref="#P">
@@ -169,11 +183,15 @@
           	<witness ref="#W">
           		<folio>3v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>5v</folio>
+              <folio>6r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d1c2" type="capitulus">
           <fileName filestem="pl-l1d1c2">pl-l1d1c2.xml</fileName>
-          <title>Liber I, distinctio 1, capitulus 2</title>
+          <title>Liber I, distinctio 1, capitulum 2</title>
           <questionTitle>De rebus quibus fruendum est vel utendum est, et de his quae fruuntur vel utuntur.</questionTitle>
           <incipit>Id ergo in rebus considerandum est</incipit>
           <hasWitnesses>
@@ -191,11 +209,15 @@
           	</witness><witness ref="#W">
           		<folio>3v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>6r</folio>
+              <folio>6-v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d1c3" type="capitulus">
           <fileName filestem="pl-l1d1c3">pl-l1d1c3.xml</fileName>
-          <title>Liber I, distinctio 1, capitulus 3</title>
+          <title>Liber I, distinctio 1, capitulum 3</title>
           <questionTitle>Quid sit frui vel uti.</questionTitle>
           <incipit>Notandum vero</incipit>
           <hasWitnesses>
@@ -219,6 +241,13 @@
           	</witness><witness ref="#W">
           		<folio>3v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>6v</folio>
+              <folio>7r</folio>
+              <folio>7v</folio>
+              <folio>8r</folio>
+              <folio>8v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -226,7 +255,7 @@
         <head>Distinctio 2</head>
         <item id="pl-l1d2c1" type="capitulus">
           <fileName filestem="pl-l1d2c1">pl-l1d2c1.xml</fileName>
-          <title>Liber I, distinctio 2, capitulus 1</title>
+          <title>Liber I, distinctio 2, capitulum 1</title>
           <questionTitle>De trinitate et unitate.</questionTitle>
           <hasWitnesses>
             <witness ref="#P">
@@ -245,12 +274,15 @@
           	</witness><witness ref="#W">
           		<folio>5r</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>8v</folio>
+              <folio>9r</folio>
+            </witness>
           </hasWitnesses>
-          
         </item>
         <item id="pl-l1d2c2" type="capitulus">
           <fileName filestem="pl-l1d2c2">pl-l1d2c2.xml</fileName>
-          <title>Liber I, distinctio 2, capitulus 2</title>
+          <title>Liber I, distinctio 2, capitulum 2</title>
           <questionTitle>Quae fuerit intentio scribentium de Trinitate.</questionTitle>
           <incipit>Omnes autem catholici</incipit>
           <hasWitnesses>
@@ -266,11 +298,14 @@
             </witness><witness ref="#W">
             	<folio>5r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>9r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d2c3" type="capitulus">
           <fileName filestem="pl-l1d2c3">pl-l1d2c3.xml</fileName>
-          <title>Liber I, distinctio 2, capitulus 3</title>
+          <title>Liber I, distinctio 2, capitulum 3</title>
           <questionTitle>Quis ordo sit servandus cum de Trinitate agitur.</questionTitle>
           <incipit>ceterum, ut in libro</incipit>
           <hasWitnesses>
@@ -285,11 +320,15 @@
             </witness><witness ref="#W">
             	<folio>5r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>9r</folio>
+              <folio>9v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d2c4" type="capitulus">
           <fileName filestem="pl-l1d2c4">pl-l1d2c4.xml</fileName>
-          <title>Liber I, distinctio 2, capitulus 4</title>
+          <title>Liber I, distinctio 2, capitulum 4</title>
           <questionTitle>De testimoniis veteris Testamenti quibus Trinitatis mysterium declaratur.</questionTitle>
           <incipit>proponamus ergo</incipit>
           <hasWitnesses>
@@ -307,11 +346,16 @@
             </witness><witness ref="#W">
             	<folio>5r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>9v</folio>
+              <folio>10r</folio>
+              <folio>10v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d2c5" type="capitulus">
           <fileName filestem="pl-l1d2c5">pl-l1d2c5.xml</fileName>
-          <title>Liber I, distinctio 2, capitulus 5</title>
+          <title>Liber I, distinctio 2, capitulum 5</title>
           <questionTitle>De testimoniis novi Testamenti ad idem pertinentibus.</questionTitle>
           <incipit>Nunc post testimonia</incipit>
           <hasWitnesses>
@@ -326,6 +370,11 @@
             </witness><witness ref="#W">
             	<folio>6r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>10v</folio>
+              <folio>11r</folio>
+              <folio>11v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -333,7 +382,7 @@
         <head>Distinctio 3</head>
         <item id="pl-l1d3c1" type="capitulus">
           <fileName filestem="pl-l1d3c1">pl-l1d3c1.xml</fileName>
-          <title>Liber I, distinctio 3, capitulus 1</title>
+          <title>Liber I, distinctio 3, capitulum 1</title>
           <questionTitle>De cognitione Creatoris per creaturas in quibus Trinitatis vestigium apparet.</questionTitle>
           <incipit>Apostolus namque ait</incipit>
           <hasWitnesses>
@@ -348,11 +397,17 @@
             </witness><witness ref="#W">
             	<folio>6v</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>11v</folio>
+              <folio>12r</folio>
+              <folio>12v</folio>
+              <folio>13r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d3c1" type="capitulus">
           <fileName filestem="pl-l1d3c2">pl-l1d3c2.xml</fileName>
-          <title>Liber I, distinctio 3, capitulus 2</title>
+          <title>Liber I, distinctio 3, capitulum 2</title>
           <questionTitle>De imagine et similitudine Trinitatis in anima humana.</questionTitle>
           <incipit>Nunc vero iam ad eam</incipit>
           <hasWitnesses>
@@ -364,14 +419,21 @@
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_006r.json">6r</folio>
               <folio canvasslug="zbs-SII-0072_006v.json">6v</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>7v</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>13r</folio>
+              <folio>13v</folio>
+              <folio>14r</folio>
+              <folio>14v</folio>
             </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d3c3" type="capitulus">
           <fileName filestem="pl-l1d3c3">pl-l1d3c3.xml</fileName>
-          <title>Liber I, distinctio 3, capitulus 3</title>
+          <title>Liber I, distinctio 3, capitulum 3</title>
           <questionTitle>De similitudine creantis et creatae trinitatis.</questionTitle>
           <incipit>verumtamen caveat, ne hanc</incipit>
           <hasWitnesses>
@@ -383,14 +445,20 @@
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_007r.json">7r</folio>
               <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>8r</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>14v</folio>
+              <folio>15r</folio>
+              <folio>15v</folio>
             </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d3c4" type="capitulus">
           <fileName filestem="pl-l1d3c4">pl-l1d3c4.xml</fileName>
-          <title>Liber I, distinctio 3, capitulus 3</title>
+          <title>Liber I, distinctio 3, capitulum 3</title>
           <questionTitle>De Trinitatis unitate.</questionTitle>
           <incipit>Quapropter iuxta istam</incipit>
           <hasWitnesses>
@@ -404,6 +472,9 @@
             </witness><witness ref="#W">
             	<folio>9r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>15v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -411,7 +482,7 @@
         <head>Distinctio 4</head>
         <item id="pl-l1d4c1" type="capitulus">
           <fileName filestem="pl-l1d4c1">pl-l1d4c1.xml</fileName>
-          <title>Liber I, distinctio 4, capitulus 1</title>
+          <title>Liber I, distinctio 4, capitulum 1</title>
           <questionTitle>Utrum Deus Pater se Deum genuerit.</questionTitle>
           <incipit>Hic oritur</incipit>
           <hasWitnesses>
@@ -420,19 +491,28 @@
             </witness><witness ref="#W">
             	<folio>9r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>15v</folio>
+              <folio>16r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d4c2" type="capitulus">
           <fileName filestem="pl-l1d4c2">pl-l1d4c2.xml</fileName>
-          <title>Liber I, distinctio 4, capitulus 2</title>
+          <title>Liber I, distinctio 4, capitulum 2</title>
           <questionTitle>Utrum trinitas de uno Deo praedicetur, sicut unus Deus de tribus personis.</questionTitle>
           <incipit>Quidam tamen veritatis</incipit>
           <hasWitnesses>
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
               <folio canvasslug="zbs-SII-0072_008r.json">8r</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>9v</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>16r</folio>
+              <folio>16v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -441,7 +521,7 @@
         <head>Distinctio 5</head>
           <item id="pl-l1d5c1" type="capitulus">
           <fileName filestem="pl-l1d5c1">pl-l1d5c1.xml</fileName>
-          <title>Liber I, distinctio 5, capitulus 1</title>
+          <title>Liber I, distinctio 5, capitulum 1</title>
           <questionTitle>Utrum divina essentia genuerit Filium vel genita sit a Patre, vel de ipsa natus sit Filius vel Spiritus Sanctus procedens.</questionTitle>
             <incipit>Post haec quaeritur</incipit>
             <hasWitnesses>
@@ -454,11 +534,21 @@
             	<witness ref="#W">
               	<folio>9v</folio>
               </witness>
+              <witness ref="#Pd">
+                <folio>16v</folio>
+                <folio>17r</folio>
+                <folio>17v</folio>
+                <folio>18r</folio>
+                <folio>18v</folio>
+                <folio>19r</folio>
+                <folio>19v</folio>
+                <folio>20r</folio>
+              </witness>
             </hasWitnesses>
         </item>
         <item id="pl-l1d5c2" type="capitulus">
           <fileName filestem="pl-l1d5c2">pl-l1d5c2.xml</fileName>
-          <title>Liber I, distinctio 5, capitulus 2</title>
+          <title>Liber I, distinctio 5, capitulum 2</title>
           <questionTitle>Quod Filius non est de nihilo, sed de aliquo, non tamen de materia, sic et Spiritus Sanctus.</questionTitle>
           <incipit>Ostenditur quoque</incipit>
           <hasWitnesses>
@@ -467,12 +557,16 @@
             </witness>
           	<witness>
             	<folio>11v</folio>
-            </witness>>
+            </witness>
+            <witness ref="#Pd">
+              <folio>20r</folio>
+              <folio>20v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d5c3" type="capitulus">
           <fileName filestem="pl-l1d5c3">pl-l1d5c3.xml</fileName>
-          <title>Liber I, distinctio 5, capitulus 3</title>
+          <title>Liber I, distinctio 5, capitulum 3</title>
           <questionTitle>Quare Verbum Patris dicatur filius naturae.</questionTitle>
           <incipit>inde est</incipit>
           <hasWitnesses>
@@ -488,7 +582,7 @@
         <head>Distinctio 6</head>
         <item id="pl-l1d6c1" type="capitulus">
           <fileName filestem="pl-l1d6c1">pl-l1d6c1.xml</fileName>
-          <title>Liber I, distinctio 6, capitulus 1</title>
+          <title>Liber I, distinctio 6, capitulum 1</title>
           <questionTitle>Utrum Pater voluntate genuerit Filium an necessitate, et an volens vel nolens sit Deus.</questionTitle>
           <incipit>praeterea quaeri solet</incipit>
           <hasWitnesses>
@@ -499,6 +593,11 @@
           	<witness ref="#W">
             	<folio>12r</folio>
             </witness>
+            <witness ref="#Pd">
+              <folio>20v</folio>
+              <folio>21r</folio>
+              <folio>21v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -506,29 +605,41 @@
         <head>Distinctio 7</head>
         <item id="pl-l1d7c1" type="capitulus">
           <fileName filestem="pl-l1d7c1">pl-l1d7c1.xml</fileName>
-          <title>Liber I, distinctio 7, capitulus 1</title>
+          <title>Liber I, distinctio 7, capitulum 1</title>
           <questionTitle>Utrum Pater potuerit vel voluerit gignere Filium.</questionTitle>
           <incipit>hic solet quaeri</incipit>
           <hasWitnesses>
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_010r.json">10r</folio>
               <folio canvasslug="zbs-SII-0072_010v.json">10v</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>12v</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>21v</folio>
+              <folio>22r</folio>
+              <folio>22v</folio>
             </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d7c2" type="capitulus">
           <fileName filestem="pl-l1d7c2">pl-l1d7c2.xml</fileName>
-          <title>Liber I, distinctio 7, capitulus 2</title>
+          <title>Liber I, distinctio 7, capitulum 2</title>
           <questionTitle>An posse gignere Filium sit aliqua potentia in Patre, quae non sit in Filio.</questionTitle>
           <incipit>Item quaeritur a quibusdam</incipit>
           <hasWitnesses>
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_010v.json">10v</folio>
               <folio canvasslug="zbs-SII-0072_011r.json">11r</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>13r</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>22v</folio>
+              <folio>23r</folio>
+              <folio>23v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -537,20 +648,25 @@
         <head>Distinctio 8</head>
         <item id="pl-l1d8c1" type="capitulus">
           <fileName filestem="pl-l1d8c1">pl-l1d8c1.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 1</title>
+          <title>Liber I, distinctio 8, capitulum 1</title>
           <questionTitle>De veritate ac proprietate divinae essentiae.</questionTitle>
           <incipit>Nunc de veritate</incipit>
           <hasWitnesses>
             <witness ref="#Z">
               <folio canvasslug="zbs-SII-0072_011r.json">11r</folio>
-            </witness><witness ref="#W">
+            </witness>
+            <witness ref="#W">
             	<folio>13v</folio>
+            </witness>
+            <witness ref="#Pd">
+              <folio>23v</folio>
+              <folio>24r</folio>
             </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c2" type="capitulus">
           <fileName filestem="pl-l1d8c2">pl-l1d8c2.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 2</title>
+          <title>Liber I, distinctio 8, capitulum 2</title>
           <questionTitle>De incommutabilitate eiusdem.</questionTitle>
           <incipit>Dei etiam solius</incipit>
           <hasWitnesses>
@@ -561,11 +677,16 @@
           	<witness ref="#W">
           		<folio>14r</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>24r</folio>
+              <folio>24v</folio>
+              <folio>25r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c3" type="capitulus">
           <fileName filestem="pl-l1d8c3">pl-l1d8c3.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 3</title>
+          <title>Liber I, distinctio 8, capitulum 3</title>
           <questionTitle>De simplicitate eiusdem.</questionTitle>
           <incipit>Eademque sola proprie</incipit>
           <hasWitnesses>
@@ -575,11 +696,14 @@
           	<witness ref="#W">
           		<folio>14v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>25r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c4" type="capitulus">
           <fileName filestem="pl-l1d8c4">pl-l1d8c4.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 4</title>
+          <title>Liber I, distinctio 8, capitulum 4</title>
           <questionTitle>De corporali et spirituali creatura, quomodo sit multiplex et non simplex.</questionTitle>
           <incipit>Creatura quoque spiritualis</incipit>
           <hasWitnesses>
@@ -589,11 +713,15 @@
           	<witness ref="#W">
           		<folio>14v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>25r</folio>
+              <folio>25v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c5" type="capitulus">
           <fileName filestem="pl-l1d8c5">pl-l1d8c5.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 5</title>
+          <title>Liber I, distinctio 8, capitulum 5</title>
           <questionTitle>Quod Deus cum sit simplex, tamen multipliciter dicitur.</questionTitle>
           <incipit>Hic diligenter notandum est</incipit>
           <hasWitnesses>
@@ -604,11 +732,14 @@
           	<witness ref="#W">
           		<folio>14v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>25v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c6" type="capitulus">
           <fileName filestem="pl-l1d8c6">pl-l1d8c6.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 6</title>
+          <title>Liber I, distinctio 8, capitulum 6</title>
           <questionTitle>Quod Dei simplicitas nulli praedicamentorum subicitur.</questionTitle>
           <incipit>Quod autem in natura deitatis</incipit>
           <hasWitnesses>
@@ -618,11 +749,15 @@
           	<witness ref="#W">
           		<folio>14v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>25v</folio>
+              <folio>26r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c7" type="capitulus">
           <fileName filestem="pl-l1d8c7">pl-l1d8c7.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 7</title>
+          <title>Liber I, distinctio 8, capitulum 7</title>
           <questionTitle>Quod Deus abusive dicitur substantia.</questionTitle>
           <incipit>Unde nec proprie</incipit>
           <hasWitnesses>
@@ -632,11 +767,14 @@
           	<witness ref="#W">
           		<folio>15r</folio>
           	</witness>
+            <witness ref="#Pd">
+             <folio>26r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d8c8" type="capitulus">
           <fileName filestem="pl-l1d8c8">pl-l1d8c8.xml</fileName>
-          <title>Liber I, distinctio 8, capitulus 8</title>
+          <title>Liber I, distinctio 8, capitulum 8</title>
           <questionTitle>Quod non est in Deo aliquid quod non sit Deus.</questionTitle>
           <incipit>Huius autem essentiae</incipit>
           <hasWitnesses>
@@ -646,6 +784,10 @@
           	<witness ref="#W">
           		<folio>15r</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>26r</folio>
+              <folio>26v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -653,7 +795,7 @@
         <head>Distinctio 9</head>
         <item id="pl-l1d9c1" type="capitulus">
           <fileName filestem="pl-l1d9c1">pl-l1d9c1.xml</fileName>
-          <title>Liber I, distinctio 9, capitulus 1</title>
+          <title>Liber I, distinctio 9, capitulum 1</title>
           <questionTitle>De distinctione trium personarum.</questionTitle>
           <incipit>Nunc ad distinctionem personarum</incipit>
           <hasWitnesses>
@@ -663,11 +805,14 @@
           	<witness ref="#W">
           		<folio>15v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>26v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d9c2" type="capitulus">
           <fileName filestem="pl-l1d9c2">pl-l1d9c2.xml</fileName>
-          <title>Liber I, distinctio 9, capitulus 2</title>
+          <title>Liber I, distinctio 9, capitulum 2</title>
           <questionTitle>De coaeternitate Patris et Filii.</questionTitle>
           <incipit>Genitus est enim</incipit>
           <hasWitnesses>
@@ -678,11 +823,15 @@
           	<witness ref="#W">
           		<folio>15v</folio>
           	</witness>
+            <witness ref="#Pd">
+              <folio>26v</folio>
+              <folio>27r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="pl-l1d9c3" type="capitulus">
           <fileName filestem="pl-l1d9c3">pl-l1d9c3.xml</fileName>
-          <title>Liber I, distinctio 9, capitulus 3</title>
+          <title>Liber I, distinctio 9, capitulum 3</title>
           <questionTitle>De ineffabili et intelligibili generationis modo.</questionTitle>
           <incipit>Sed quaeris a me</incipit>
           <hasWitnesses>
@@ -696,7 +845,7 @@
         </item>
         <item id="pl-l1d9c4" type="capitulus">
           <fileName filestem="pl-l1d9c4">pl-l1d9c4.xml</fileName>
-          <title>Liber I, distinctio 9, capitulus 4</title>
+          <title>Liber I, distinctio 9, capitulum 4</title>
           <questionTitle>Utrum debeat dici 'semper gignitur Filius' vel 'semper genitus est'.</questionTitle>
           <incipit>Hic quaeri potest</incipit>
           <hasWitnesses>
@@ -711,7 +860,7 @@
         </item>
         <item id="pl-l1d9c5" type="capitulus">
           <fileName filestem="pl-l1d9c5">pl-l1d9c5.xml</fileName>
-          <title>Liber I, distinctio 9, capitulus 5</title>
+          <title>Liber I, distinctio 9, capitulum 5</title>
           <questionTitle>De obiectionibus haereticorum nitentium probare Filium non esse coaeternum Patri.</questionTitle>
           <incipit>Sed inquiet haereticus</incipit>
           <hasWitnesses>
@@ -729,7 +878,7 @@
         <head>Distinctio 10</head>
         <item id="pl-l1d10c1" type="capitulus">
           <fileName filestem="pl-l1d10c1">pl-l1d10c1.xml</fileName>
-          <title>Liber I, distinctio 10, capitulus 1</title>
+          <title>Liber I, distinctio 10, capitulum 1</title>
           <questionTitle>De Spiritu Sancto: quod amor Patris et Filii est et proprie dicitur, cum sit in Trinitate amor qui est Trinitas; sicut Verbum proprie dicitur sapientia, et tamen tota Trinitas dicitur sapientia.</questionTitle>
           <incipit>Nunc post Filii aeternitate</incipit>
           <hasWitnesses>
@@ -743,7 +892,7 @@
         </item>
         <item id="pl-l1d10c2" type="capitulus">
           <fileName filestem="pl-l1d10c2">pl-l1d10c2.xml</fileName>
-          <title>Liber I, distinctio 10, capitulus 2</title>
+          <title>Liber I, distinctio 10, capitulum 2</title>
           <questionTitle>Quod eadem nomina proprie et universaliter accipiuntur.</questionTitle>
           <incipit>Pluribus enim exemplis</incipit>
           <hasWitnesses>
@@ -758,7 +907,7 @@
         </item>
         <item id="pl-l1d10c3" type="capitulus">
           <fileName filestem="pl-l1d10c3">pl-l1d10c3.xml</fileName>
-          <title>Liber I, distinctio 10, capitulus 3</title>
+          <title>Liber I, distinctio 10, capitulum 3</title>
           <questionTitle>Quod Spiritus Sanctus, sicut Patri et Filio est communis, ita commune nomen habet proprium.</questionTitle>
           <incipit>Hic notandum est</incipit>
           <hasWitnesses>
@@ -775,7 +924,7 @@
         <head>Distinctio 11</head>
         <item id="pl-l1d11c1" type="capitulus">
           <fileName filestem="pl-l1d11c1">pl-l1d11c1.xml</fileName>
-          <title>Liber I, distinctio 11, capitulus 1</title>
+          <title>Liber I, distinctio 11, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus procedit a Patre et Filio, quem tamen Graeci a Filio procedere diffitentur.</questionTitle>
           <incipit>Hic dicendum est</incipit>
           <hasWitnesses>
@@ -789,7 +938,7 @@
         </item>
         <item id="pl-l1d11c2" type="capitulus">
           <fileName filestem="pl-l1d11c2">pl-l1d11c2.xml</fileName>
-          <title>Liber I, distinctio 11, capitulus 1</title>
+          <title>Liber I, distinctio 11, capitulum 1</title>
           <questionTitle>De convenientia Latinorum et Graecorum in sensu et differentia in verbis.</questionTitle>
           <incipit>Sciendum tamen est</incipit>
           <hasWitnesses>
@@ -807,7 +956,7 @@
         <head>Distinctio 12</head>
         <item id="pl-l1d12c1" type="capitulus">
           <fileName filestem="pl-l1d12c1">pl-l12d1c1.xml</fileName>
-          <title>Liber I, distinctio 12, capitulus 1</title>
+          <title>Liber I, distinctio 12, capitulum 1</title>
           <questionTitle>Utrum Spiritus Sanctus prius vel plenius procedat a Patre quam a Filio.</questionTitle>
           <incipit>Item quaeritur</incipit>
           <hasWitnesses>
@@ -821,7 +970,7 @@
         </item>
         <item id="pl-l1d12c2" type="capitulus">
           <fileName filestem="pl-l1d12c2">pl-l1d12c2.xml</fileName>
-          <title>Liber I, distinctio 12, capitulus 2</title>
+          <title>Liber I, distinctio 12, capitulum 2</title>
           <questionTitle>Quod Spiritus Sanctus principaliter et proprie dicitur procedere a Patre.</questionTitle>
           <incipit>Nunc tractandum</incipit>
           <hasWitnesses>
@@ -839,7 +988,7 @@
         <head>Distinctio 13</head>
         <item id="pl-l1d13c1" type="capitulus">
           <fileName filestem="pl-l1d13c1">pl-l1d13c1.xml</fileName>
-          <title>Liber I, distinctio 13, capitulus 1</title>
+          <title>Liber I, distinctio 13, capitulum 1</title>
           <questionTitle>Quare Spiritus Sanctus, cum sit de substantia Patris, non dicatur genitus, sed tantum procedens.</questionTitle>
           <incipit>Post haec considerandum</incipit>
           <hasWitnesses>
@@ -853,7 +1002,7 @@
         </item>
         <item id="pl-l1d13c2" type="capitulus">
           <fileName filestem="pl-l1d13c2">pl-l1d13c2.xml</fileName>
-          <title>Liber I, distinctio 13, capitulus 2</title>
+          <title>Liber I, distinctio 13, capitulum 2</title>
           <questionTitle>Cur Filius dicatur procedere, cum Spiritus Sanctus non dicatur gigni.</questionTitle>
           <incipit>Cum autem Spiritus sanctus</incipit>
           <hasWitnesses>
@@ -867,7 +1016,7 @@
         </item>
         <item id="pl-l1d13c3" type="capitulus">
           <fileName filestem="pl-l1d13c3">pl-l1d13c3.xml</fileName>
-          <title>Liber I, distinctio 13, capitulus 3</title>
+          <title>Liber I, distinctio 13, capitulum 3</title>
           <questionTitle>Quod non potest mortalis distinguere inter generationem Filii et processionem Spiritus Sancti.</questionTitle>
           <incipit>Inter generationem vero</incipit>
           <hasWitnesses>
@@ -882,7 +1031,7 @@
         </item>
         <item id="pl-l1d13c4" type="capitulus">
           <fileName filestem="pl-l1d13c4">pl-l1d13c4.xml</fileName>
-          <title>Liber I, distinctio 13, capitulus 4</title>
+          <title>Liber I, distinctio 13, capitulum 4</title>
           <questionTitle>Utrum Spiritus Sanctus debeat dici ingenitus, cum non sit genitus.</questionTitle>
           <incipit>Nunc considerandum est</incipit>
           <hasWitnesses>
@@ -899,7 +1048,7 @@
         <head>Distinctio 14</head>
         <item id="pl-l1d14c1" type="capitulus">
           <fileName filestem="pl-l1d14c1">pl-l1d14c1.xml</fileName>
-          <title>Liber I, distinctio 14, capitulus 1</title>
+          <title>Liber I, distinctio 14, capitulum 1</title>
           <questionTitle>De gemina processione Spiritus Sancti, temporali et aeterna.</questionTitle>
           <incipit>Praeterea diligenter ad notandum</incipit>
           <hasWitnesses>
@@ -914,7 +1063,7 @@
         </item>
         <item id="pl-l1d14c2" type="capitulus">
           <fileName filestem="pl-l1d14c2">pl-l1d14c2.xml</fileName>
-          <title>Liber I, distinctio 14, capitulus 2</title>
+          <title>Liber I, distinctio 14, capitulum 2</title>
           <questionTitle>Quod non solum dona Spiritus Sancti, sed etiam ipse Spiritus Sanctus Deus datur hominibus et mittitur.</questionTitle>
           <incipit>Sunt autem aliqui</incipit>
           <hasWitnesses>
@@ -928,7 +1077,7 @@
         </item>
         <item id="pl-l1d14c3" type="capitulus">
           <fileName filestem="pl-l1d14c3">pl-l1d14c3.xml</fileName>
-          <title>Liber I, distinctio 14, capitulus 3</title>
+          <title>Liber I, distinctio 14, capitulum 3</title>
           <questionTitle>An viri sancti possint dare Spiritum Sanctum.</questionTitle>
           <incipit>Hic quaeritur, utrum</incipit>
           <hasWitnesses>
@@ -946,7 +1095,7 @@
         <head>Distinctio 15</head>
         <item id="pl-l1d15c1" type="capitulus">
           <fileName filestem="pl-l1d15c1">pl-l1d15c1.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 1</title>
+          <title>Liber I, distinctio 15, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus a se ipso datur et Filius a se ipso mittitur.</questionTitle>
           <incipit>Hic quaeritur est, cum Spiritus</incipit>
           <hasWitnesses>
@@ -960,7 +1109,7 @@
         </item>
         <item id="pl-l1d15c2" type="capitulus">
           <fileName filestem="pl-l1d15c2">pl-l1d15c2.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 2</title>
+          <title>Liber I, distinctio 15, capitulum 2</title>
           <questionTitle>Quomodo intelligenda sit missio utriusque.</questionTitle>
           <incipit>Quocirca quaerendum est</incipit>
           <hasWitnesses>
@@ -974,7 +1123,7 @@
         </item>
         <item id="pl-l1d15c3" type="capitulus">
           <fileName filestem="pl-l1d15c3">pl-l1d15c3.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 3</title>
+          <title>Liber I, distinctio 15, capitulum 3</title>
           <questionTitle>Quod a Spiritu Sancto etiam Filius sit missus.</questionTitle>
           <incipit>Et quod a Spiritu sancto</incipit>
           <hasWitnesses>
@@ -989,7 +1138,7 @@
         </item>
         <item id="pl-l1d15c4" type="capitulus">
           <fileName filestem="pl-l1d15c4">pl-l1d15c4.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 4</title>
+          <title>Liber I, distinctio 15, capitulum 4</title>
           <questionTitle>Quod Filius etiam sit datus a se ipso.</questionTitle>
           <incipit>Deinde ostendit, esse datum</incipit>
           <hasWitnesses>
@@ -1003,7 +1152,7 @@
         </item>
         <item id="pl-l1d15c5" type="capitulus">
           <fileName filestem="pl-l1d15c5">pl-l1d15c5.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 5</title>
+          <title>Liber I, distinctio 15, capitulum 5</title>
           <questionTitle>Quomodo intelligendum sit 'a me ipso non veni'.</questionTitle>
           <incipit>Sed ad hoc opponitur</incipit>
           <hasWitnesses>
@@ -1017,7 +1166,7 @@
         </item>
         <item id="pl-l1d15c6" type="capitulus">
           <fileName filestem="pl-l1d15c6">pl-l1d15c6.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 6</title>
+          <title>Liber I, distinctio 15, capitulum 6</title>
           <questionTitle>Utrum semel tantum sit missus Filius, an saepe.</questionTitle>
           <incipit>Hic quaeritur, utrum semel</incipit>
           <hasWitnesses>
@@ -1031,7 +1180,7 @@
         </item>
         <item id="pl-l1d15c7" type="capitulus">
           <fileName filestem="pl-l1d15c7">pl-l1d15c7.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 7</title>
+          <title>Liber I, distinctio 15, capitulum 7</title>
           <questionTitle>De duobus modis missionis Filii.</questionTitle>
           <incipit>Ad quod dicimus</incipit>
           <hasWitnesses>
@@ -1046,7 +1195,7 @@
         </item>
         <item id="pl-l1d15c8" type="capitulus">
           <fileName filestem="pl-l1d15c8">pl-l1d15c8.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 8</title>
+          <title>Liber I, distinctio 15, capitulum 8</title>
           <questionTitle>Quod secundam alterum modum semel sit missus, secundum alterum saepe; et secundum alterum modum dicitur missus in mundum, secundum alterum non</questionTitle>
           <incipit>Ecce distincti sunt duo</incipit>
           <hasWitnesses>
@@ -1060,7 +1209,7 @@
         </item>
         <item id="pl-l1d15c9" type="capitulus">
           <fileName filestem="pl-l1d15c9">pl-l1d15c9.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 9</title>
+          <title>Liber I, distinctio 15, capitulum 9</title>
           <questionTitle>Quare Pater non dicitur missus.</questionTitle>
           <incipit>Hic quaeritur, cur Pater</incipit>
           <hasWitnesses>
@@ -1074,7 +1223,7 @@
         </item>
         <item id="pl-l1d15c10" type="capitulus">
           <fileName filestem="pl-l1d15c10">pl-l1d15c10.xml</fileName>
-          <title>Liber I, distinctio 15, capitulus 10</title>
+          <title>Liber I, distinctio 15, capitulum 10</title>
           <questionTitle>Quod Filius et Spiritus Sanctus non sunt quasi minores Patre quia missi.</questionTitle>
           <incipit>Ideoque putaverunt quidam haeretici</incipit>
           <hasWitnesses>
@@ -1093,7 +1242,7 @@
 
         <item id="pl-l1d16c1" type="capitulus">
           <fileName filestem="pl-l1d16c1">pl-l1d16c1.xml</fileName>
-          <title>Liber I, distinctio 16, capitulus 1</title>
+          <title>Liber I, distinctio 16, capitulum 1</title>
           <questionTitle>De missione Spiritus Sancti, quae fit duobus modis: visibiliter et invisibiliter.</questionTitle>
           <incipit>Nunc de Spiritu Sancto</incipit>
           <hasWitnesses>
@@ -1108,7 +1257,7 @@
         </item>
         <item id="pl-l1d16c2" type="capitulus">
           <fileName filestem="pl-l1d16c2">pl-l1d16c2.xml</fileName>
-          <title>Liber I, distinctio 16, capitulus 2</title>
+          <title>Liber I, distinctio 16, capitulum 2</title>
           <questionTitle>Quod Filius, secundam quod homo, non modo Patre sed Spiritu Sancto etiam minor est.</questionTitle>
           <incipit>Notandum autem, quod Filius</incipit>
           <hasWitnesses>
@@ -1126,7 +1275,7 @@
         <head>Distinctio 17</head>
         <item id="pl-l1d17c1" type="capitulus">
           <fileName filestem="pl-l1d17c1">pl-l1d17c1.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 1</title>
+          <title>Liber I, distinctio 17, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus est caritas qua diligimus Deum et proximum.</questionTitle>
           <incipit>Iam nunc accedamus</incipit>
           <hasWitnesses>
@@ -1138,7 +1287,7 @@
         </item>
         <item id="pl-l1d17c2" type="capitulus">
           <fileName filestem="pl-l1d17c2">pl-l1d17c2.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 2</title>
+          <title>Liber I, distinctio 17, capitulum 2</title>
           <questionTitle>Quod fraterna dilectio est Deus, nec Pater vel Filius, sed tantum Spiritus Sanctus.</questionTitle>
           <incipit>Cum autem fraterna</incipit>
           <hasWitnesses>
@@ -1149,7 +1298,7 @@
         </item>
         <item id="pl-l1d17c3" type="capitulus">
           <fileName filestem="pl-l1d17c3">pl-l1d17c3.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 3</title>
+          <title>Liber I, distinctio 17, capitulum 3</title>
           <questionTitle>Quod non est dictum per causam illud: 'Deus caritas est', sicut illud: 'Tu es patientia mea et spes mea'.</questionTitle>
           <incipit>Sed ne forte aliquis dicat</incipit>
           <hasWitnesses>
@@ -1160,7 +1309,7 @@
         </item>
         <item id="pl-l1d17c4" type="capitulus">
           <fileName filestem="pl-l1d17c4">pl-l1d17c4.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 4</title>
+          <title>Liber I, distinctio 17, capitulum 4</title>
           <questionTitle>Quomodo Spiritus Sanctus mittatur vel detur nobis.</questionTitle>
           <incipit>Tunc enim mitti</incipit>
           <hasWitnesses>
@@ -1172,7 +1321,7 @@
         </item>
         <item id="pl-l1d17c5" type="capitulus">
           <fileName filestem="pl-l1d17c5">pl-l1d17c5.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 5</title>
+          <title>Liber I, distinctio 17, capitulum 5</title>
           <questionTitle>Utrum Spiritus Sanctus augeatur in homine, vel minus et magis habeatur vel detur, et an detur habenti et non habenti.</questionTitle>
           <incipit>Hic quaeritur, si caritas</incipit>
           <hasWitnesses>
@@ -1183,7 +1332,7 @@
         </item>
         <item id="pl-l1d17c6" type="capitulus">
           <fileName filestem="pl-l1d17c6">pl-l1d17c6.xml</fileName>
-          <title>Liber I, distinctio 17, capitulus 6</title>
+          <title>Liber I, distinctio 17, capitulum 6</title>
           <questionTitle>Quod aliqui dicunt caritatem Dei et proximi non esse Spiritum Sanctum.</questionTitle>
           <incipit>Supra dictum est</incipit>
           <hasWitnesses>
@@ -1200,7 +1349,7 @@
         <head>Distinctio 18</head>
         <item id="pl-l1d18c1" type="capitulus">
           <fileName filestem="pl-l1d18c1">pl-l1d18c1.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 1</title>
+          <title>Liber I, distinctio 18, capitulum 1</title>
           <questionTitle>Utrum concedendum sit per donum dari dona.</questionTitle>
           <incipit>Hic quaeritur, cum Spiritus sanctus, per quem</incipit>
           <hasWitnesses>
@@ -1211,7 +1360,7 @@
         </item>
         <item id="pl-l1d18c2" type="capitulus">
           <fileName filestem="pl-l1d18c2">pl-l1d18c2.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 2</title>
+          <title>Liber I, distinctio 18, capitulum 2</title>
           <questionTitle>Utrum Spiritus Sanctus eadem ratione dicatur donum, qua datum sive donatum.</questionTitle>
           <incipit>praeterea diligenter considerandum est</incipit>
           <hasWitnesses>
@@ -1223,7 +1372,7 @@
         </item>
         <item id="pl-l1d18c3" type="capitulus">
           <fileName filestem="pl-l1d18c3">pl-l1d18c3.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 3</title>
+          <title>Liber I, distinctio 18, capitulum 3</title>
           <questionTitle>Quod sicut Filius nascendo accepit non tantum ut esset Filius, sed etiam essentia, ita Spiritus Sanctus procedendo accepit non tantum ut esset donum, sed ut esset essentia.</questionTitle>
           <incipit>Et notandum, quod sicut</incipit>
           <hasWitnesses>
@@ -1235,7 +1384,7 @@
         </item>
         <item id="pl-l1d18c4" type="capitulus">
           <fileName filestem="pl-l1d18c4">pl-l1d18c4.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 4</title>
+          <title>Liber I, distinctio 18, capitulum 4</title>
           <questionTitle>Quod Spiritus Sanctus dicitur donum et donatum secundum duos modos praedictos processionis: quod secundum quod donum est, refertur ad Patrem; et secundum quod datum, ad eum qui dedit et ad eos quibus datur.</questionTitle>
           <incipit>Ex praedictis patet, quod Spiritus sanctus</incipit>
           <hasWitnesses>
@@ -1246,7 +1395,7 @@
         </item>
         <item id="pl-l1d18c5" type="capitulus">
           <fileName filestem="pl-l1d18c5">pl-l1d18c5.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 5</title>
+          <title>Liber I, distinctio 18, capitulum 5</title>
           <questionTitle>An Filius, cum sit nobis datus, possit dici 'noster', ut Spiritus Sanctus.</questionTitle>
           <incipit>Hic quaeritur, utrum et Filius</incipit>
           <hasWitnesses>
@@ -1257,7 +1406,7 @@
         </item>
         <item id="pl-l1d18c6" type="capitulus">
           <fileName filestem="pl-l1d18c6">pl-l1d18c6.xml</fileName>
-          <title>Liber I, distinctio 18, capitulus 6</title>
+          <title>Liber I, distinctio 18, capitulum 6</title>
           <questionTitle>Utrum Spiritus Sanctus ad se ipsum referatur.</questionTitle>
           <incipit>Post haec quaeritur</incipit>
           <hasWitnesses>
@@ -1271,7 +1420,7 @@
         <head>Distinctio 19</head>
         <item id="pl-l1d19c1" type="capitulus">
           <fileName filestem="pl-l1d19c1">pl-l1d19c1.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 1</title>
+          <title>Liber I, distinctio 19, capitulum 1</title>
           <questionTitle>De aequalitate trium personarum.</questionTitle>
           <incipit>Nunc postquam coaeternitatem</incipit>
           <hasWitnesses>
@@ -1282,7 +1431,7 @@
         </item>
         <item id="pl-l1d19c2" type="capitulus">
           <fileName filestem="pl-l1d19c2">pl-l1d19c2.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 2</title>
+          <title>Liber I, distinctio 19, capitulum 2</title>
           <questionTitle>Quod aeternitas et magnitudo et potentia in Deo est unum, etsi videantur diversa.</questionTitle>
           <incipit>Cumque enumerentur ista</incipit>
           <hasWitnesses>
@@ -1293,7 +1442,7 @@
         </item>
         <item id="pl-l1d19c3" type="capitulus">
           <fileName filestem="pl-l1d19c3">pl-l1d19c3.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 3</title>
+          <title>Liber I, distinctio 19, capitulum 3</title>
           <questionTitle>Quod aliqua personarum aliam non excedit magnitudine, quia non est maior una persona quam alia, nec maius aliquid duae quam una, nec tres quam duae vel una.</questionTitle>
           <incipit>Nunc igitur superest ostendere</incipit>
           <hasWitnesses>
@@ -1304,7 +1453,7 @@
         </item>
         <item id="pl-l1d19c4" type="capitulus">
           <fileName filestem="pl-l1d19c4">pl-l1d19c4.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 4</title>
+          <title>Liber I, distinctio 19, capitulum 4</title>
           <questionTitle>Quomodo dicitur Pater esse in Filio et Filius in Patre et Spiritus Sanctus in utroque.</questionTitle>
           <incipit>Et inde est</incipit>
           <hasWitnesses>
@@ -1316,7 +1465,7 @@
         </item>
         <item id="pl-l1d19c5" type="capitulus">
           <fileName filestem="pl-l1d19c5">pl-l1d19c5.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 5</title>
+          <title>Liber I, distinctio 19, capitulum 5</title>
           <questionTitle>Quod nulla personarum pars est in Trinitate.</questionTitle>
           <incipit>Nec est aliqua</incipit>
           <hasWitnesses>
@@ -1327,7 +1476,7 @@
         </item>
         <item id="pl-l1d19c6" type="capitulus">
           <fileName filestem="pl-l1d19c6">pl-l1d19c6.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 6</title>
+          <title>Liber I, distinctio 19, capitulum 6</title>
           <questionTitle>Quare tres personae dicantur summe unum.</questionTitle>
           <incipit>Tres enim personae</incipit>
           <hasWitnesses>
@@ -1339,7 +1488,7 @@
         </item>
         <item id="pl-l1d19c7" type="capitulus">
           <fileName filestem="pl-l1d19c7">pl-l1d19c7.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 7</title>
+          <title>Liber I, distinctio 19, capitulum 7</title>
           <questionTitle>Cum dicimus tres personas esse unam essentiam, nec ut genus de speciebus, nec ut speciem de individuis praedicamus, quia non est essentia genus et persona species, vel essentia species et personae individua.</questionTitle>
           <incipit>Hic adiiciendum est</incipit>
           <hasWitnesses>
@@ -1350,7 +1499,7 @@
         </item>
         <item id="pl-l1d19c8" type="capitulus">
           <fileName filestem="pl-l1d19c8">pl-l1d19c8.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 8</title>
+          <title>Liber I, distinctio 19, capitulum 8</title>
           <questionTitle>Quod nec secundum materialem causam dicuntur tres personae una essentia.</questionTitle>
           <incipit>Notandum etiam, quod essentia</incipit>
           <hasWitnesses>
@@ -1361,7 +1510,7 @@
         </item>
         <item id="pl-l1d19c9" type="capitulus">
           <fileName filestem="pl-l1d19c9">pl-l1d19c9.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 9</title>
+          <title>Liber I, distinctio 19, capitulum 9</title>
           <questionTitle>Nec ita dicuntur tres personae una essentia ut tres homines unius naturae.</questionTitle>
           <incipit>His quoque addendum est</incipit>
           <hasWitnesses>
@@ -1373,7 +1522,7 @@
         </item>
         <item id="pl-l1d19c10" type="capitulus">
           <fileName filestem="pl-l1d19c10">pl-l1d19c10.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 10</title>
+          <title>Liber I, distinctio 19, capitulum 10</title>
           <questionTitle>Utrum tres personae differant numero, quae proprietatibus distinctae sunt.</questionTitle>
           <incipit>Quod autem Ioannes dicit</incipit>
           <hasWitnesses>
@@ -1384,7 +1533,7 @@
         </item>
         <item id="pl-l1d19c11" type="capitulus">
           <fileName filestem="pl-l1d19c11">pl-l1d19c11.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 11</title>
+          <title>Liber I, distinctio 19, capitulum 11</title>
           <questionTitle>Quare tres personae simul non sunt maius aliquid quam una.</questionTitle>
           <incipit>Sciendum est igitur</incipit>
           <hasWitnesses>
@@ -1396,7 +1545,7 @@
         </item>
         <item id="pl-l1d19c12" type="capitulus">
           <fileName filestem="pl-l1d19c12">pl-l1d19c12.xml</fileName>
-          <title>Liber I, distinctio 19, capitulus 12</title>
+          <title>Liber I, distinctio 19, capitulum 12</title>
           <questionTitle>Quod Deus non est dicendus triplex, sed trinus.</questionTitle>
           <incipit>Propterea cum Deus</incipit>
           <hasWitnesses>
@@ -1410,7 +1559,7 @@
         <head>Distinctio 20</head>
         <item id="pl-l1d20c1" type="capitulus">
           <fileName filestem="pl-l1d20c1">pl-l1d20c1.xml</fileName>
-          <title>Liber I, distinctio 20, capitulus 1</title>
+          <title>Liber I, distinctio 20, capitulum 1</title>
           <questionTitle>Quod aliqua personarum non excedit aliam potentia.</questionTitle>
           <incipit>Nunc ostendere restat</incipit>
           <hasWitnesses>
@@ -1421,7 +1570,7 @@
         </item>
         <item id="pl-l1d20c2" type="capitulus">
           <fileName filestem="pl-l1d20c2">pl-l1d20c2.xml</fileName>
-          <title>Liber I, distinctio 20, capitulus 2</title>
+          <title>Liber I, distinctio 20, capitulum 2</title>
           <questionTitle>Quod non minus potest Filius quam Pater.</questionTitle>
           <incipit>Nihil, inquit, Patre minus habet</incipit>
           <hasWitnesses>
@@ -1432,7 +1581,7 @@
         </item>
         <item id="pl-l1d20c3" type="capitulus">
           <fileName filestem="pl-l1d20c3">pl-l1d20c3.xml</fileName>
-          <title>Liber I, distinctio 20, capitulus 3</title>
+          <title>Liber I, distinctio 20, capitulum 3</title>
           <questionTitle>De obiectionibus haereticis contra hoc et responsionibus catholicis.</questionTitle>
           <incipit>Tu autem hoc de potentia sapis</incipit>
           <hasWitnesses>
@@ -1447,7 +1596,7 @@
         <head>Distinctio 21</head>
         <item id="pl-l1d21c1" type="capitulus">
           <fileName filestem="pl-l1d21c1">pl-l1d21c1.xml</fileName>
-          <title>Liber I, distinctio 21, capitulus 1</title>
+          <title>Liber I, distinctio 21, capitulum 1</title>
           <questionTitle>Quomodo possit dici 'solus Pater' vel 'solus Fillus' vel 'solus Spiritus Sanctus', cum sint inseparabiles.</questionTitle>
           <incipit>Hic oritur quaestio trahens</incipit>
           <hasWitnesses>
@@ -1459,7 +1608,7 @@
         </item>
         <item id="pl-l1d21c2" type="capitulus">
           <fileName filestem="pl-l1d21c2">pl-l1d21c2.xml</fileName>
-          <title>Liber I, distinctio 21, capitulus 2</title>
+          <title>Liber I, distinctio 21, capitulum 2</title>
           <questionTitle>Utrum debeat dici 'solus Pater est Deus' vel 'solus Filius est Deus' vel 'solus Spiritus Sanctus est Deus', an 'Pater est solus Deus', 'Filius est solus Deus', 'Spiritus Sanctus est solus Deus'.</questionTitle>
           <incipit>Post haec quaeritur</incipit>
           <hasWitnesses>
@@ -1470,7 +1619,7 @@
         </item>
         <item id="pl-l1d21c3" type="capitulus">
           <fileName filestem="pl-l1d21c3">pl-l1d21c3.xml</fileName>
-          <title>Liber I, distinctio 21, capitulus 3</title>
+          <title>Liber I, distinctio 21, capitulum 3</title>
           <questionTitle>Quomodo dicatur 'Trinitas est solus Deus', cum ipsa sit cum spiritibus et animabus sanctis.</questionTitle>
           <incipit>Sed iterum quaeritur</incipit>
           <hasWitnesses>
@@ -1485,7 +1634,7 @@
         <head>Distinctio 22</head>
         <item id="pl-l1d22c1" type="capitulus">
           <fileName filestem="pl-l1d22c1">pl-l1d22c1.xml</fileName>
-          <title>Liber I, distinctio 22, capitulus 1</title>
+          <title>Liber I, distinctio 22, capitulum 1</title>
           <questionTitle>De nominum differentiis quibus utimur loquentes de Deo.</questionTitle>
           <incipit>Post praedicta disserendum</incipit>
           <hasWitnesses>
@@ -1497,7 +1646,7 @@
         </item>
         <item id="pl-l1d22c2" type="capitulus">
           <fileName filestem="pl-l1d22c2">pl-l1d22c2.xml</fileName>
-          <title>Liber I, distinctio 22, capitulus 2</title>
+          <title>Liber I, distinctio 22, capitulum 2</title>
           <questionTitle>De his quae temporaliter Deo conveniunt et relative dicuntur.</questionTitle>
           <incipit>His adiiciendum est</incipit>
           <hasWitnesses>
@@ -1508,7 +1657,7 @@
         </item>
         <item id="pl-l1d22c3" type="capitulus">
           <fileName filestem="pl-l1d22c3">pl-l1d22c3.xml</fileName>
-          <title>Liber I, distinctio 22, capitulus 3</title>
+          <title>Liber I, distinctio 22, capitulum 3</title>
           <questionTitle>De hoc nomine quod est 'trinitas'.</questionTitle>
           <incipit>Praeterea est unum nomen</incipit>
           <hasWitnesses>
@@ -1519,7 +1668,7 @@
         </item>
         <item id="pl-l1d22c4" type="capitulus">
           <fileName filestem="pl-l1d22c4">pl-l1d22c4.xml</fileName>
-          <title>Liber I, distinctio 22, capitulus 4</title>
+          <title>Liber I, distinctio 22, capitulum 4</title>
           <questionTitle>De illis quae temporaliter Deo conveniunt et non dicuntur relative.</questionTitle>
           <incipit>Sciendum est igitur</incipit>
           <hasWitnesses>
@@ -1534,7 +1683,7 @@
         <head>Distinctio 23</head>
         <item id="pl-l1d23c1" type="capitulus">
           <fileName filestem="pl-l1d23c1">pl-l1d23c1.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 1</title>
+          <title>Liber I, distinctio 23, capitulum 1</title>
           <questionTitle>De hoc nomine quod est 'persona': quod secundum substantiam dicatur, non singulariter, sed pluraliter accipitur in summa.</questionTitle>
           <incipit>Praedictis adiiciendum est</incipit>
           <hasWitnesses>
@@ -1545,7 +1694,7 @@
         </item>
         <item id="pl-l1d23c2" type="capitulus">
           <fileName filestem="pl-l1d23c2">pl-l1d23c2.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 2</title>
+          <title>Liber I, distinctio 23, capitulum 2</title>
           <questionTitle>Qua necessitate dictum sit 'tres personae' a Latinis, et a Graecis 'tres hypostases vel substantiae'.</questionTitle>
           <incipit>Qua necessitate non</incipit>
           <hasWitnesses>
@@ -1556,7 +1705,7 @@
         </item>
         <item id="pl-l1d23c3" type="capitulus">
           <fileName filestem="pl-l1d23c3">pl-l1d23c3.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 3</title>
+          <title>Liber I, distinctio 23, capitulum 3</title>
           <questionTitle>Quare non dicimus Patrem et Filium et Spiritum Sanctum esse tres deos ut tres personas.</questionTitle>
           <incipit>Sed quaeritur hic, cum dicamus</incipit>
           <hasWitnesses>
@@ -1567,7 +1716,7 @@
         </item>
         <item id="pl-l1d23c4" type="capitulus">
           <fileName filestem="pl-l1d23c4">pl-l1d23c4.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 4</title>
+          <title>Liber I, distinctio 23, capitulum 4</title>
           <questionTitle>Cur non dicimus tres essentias ut tres personas.</questionTitle>
           <incipit>Verum et hic alia</incipit>
           <hasWitnesses>
@@ -1578,7 +1727,7 @@
         </item>
         <item id="pl-l1d23c5" type="capitulus">
           <fileName filestem="pl-l1d23c5">pl-l1d23c5.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 5</title>
+          <title>Liber I, distinctio 23, capitulum 5</title>
           <questionTitle>Quod in Trinitate non est diversitas vel singularitas vel solitudo, sed unitas et trinitas, et distinctio et identitas.</questionTitle>
           <incipit>Iam sufficienter, ut puto, ostensum est</incipit>
           <hasWitnesses>
@@ -1590,7 +1739,7 @@
         </item>
         <item id="pl-l1d23c6" type="capitulus">
           <fileName filestem="pl-l1d23c6">pl-l1d23c6.xml</fileName>
-          <title>Liber I, distinctio 23, capitulus 6</title>
+          <title>Liber I, distinctio 23, capitulum 6</title>
           <questionTitle>Quod non debet dici Deus multiplex.</questionTitle>
           <incipit>Et sicut in Trinitate non est</incipit>
           <hasWitnesses>
@@ -1604,7 +1753,7 @@
         <head>Distinctio 24</head>
         <item id="pl-l1d24c1" type="capitulus">
           <fileName filestem="pl-l1d24c1">pl-l1d24c1.xml</fileName>
-          <title>Liber I, distinctio 24, capitulus 1</title>
+          <title>Liber I, distinctio 24, capitulum 1</title>
           <questionTitle>Quid significetur his nominibus: unus, duo vel duae, tres vel tria, trinus vel trinitas, plures vel pluralitas, distinctio vel distinctae, cum his utimur loquentes de Deo.</questionTitle>
           <incipit>Hic diligenter inquiri oportet</incipit>
           <hasWitnesses>
@@ -1619,7 +1768,7 @@
         <head>Distinctio 25</head>
         <item id="pl-l1d25c1" type="capitulus">
           <fileName filestem="pl-l1d25c1"/>
-          <title>Liber I, distinctio 25, capitulus 1</title>
+          <title>Liber I, distinctio 25, capitulum 1</title>
           <questionTitle>Quid significetur hoc nomine 'persona' in plurali numero, scilicet cum dicitur 'personae'.</questionTitle>
           <incipit>Praeterea considerandum est</incipit>
           <hasWitnesses>
@@ -1631,7 +1780,7 @@
         </item>
         <item id="pl-l1d25c2" type="capitulus">
           <fileName filestem="pl-l1d25c2">pl-l1d25c2.xml</fileName>
-          <title>Liber I, distinctio 25, capitulus 2</title>
+          <title>Liber I, distinctio 25, capitulum 2</title>
           <questionTitle>De triplici acceptione huius nominis 'persona' in Trinitate.</questionTitle>
           <incipit>Sciendum est igitur</incipit>
           <hasWitnesses>
@@ -1643,7 +1792,7 @@
         </item>
         <item id="pl-l1d25c3" type="capitulus">
           <fileName filestem="pl-l1d25c3">pl-l1d25c3.xml</fileName>
-          <title>Liber I, distinctio 25, capitulus 3</title>
+          <title>Liber I, distinctio 25, capitulum 3</title>
           <questionTitle>Ex quo sensu dicatur alia persona Patris et alia Filii, sive alius in persona Pater, alius Filias.</questionTitle>
           <incipit>Nunc inspiciamus</incipit>
           <hasWitnesses>
@@ -1659,7 +1808,7 @@
         <head>Distinctio 26</head>
         <item id="pl-l1d26c1" type="capitulus">
           <fileName filestem="pl-l1d26c1">pl-l1d26c1.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 1</title>
+          <title>Liber I, distinctio 26, capitulum 1</title>
           <questionTitle>De hoc nomine 'hypostasis'.</questionTitle>
           <incipit>Nunc de proprietatibus personarum</incipit>
           <hasWitnesses>
@@ -1670,7 +1819,7 @@
         </item>
         <item id="pl-l1d26c2" type="capitulus">
           <fileName filestem="pl-l1d26c2">pl-l1d26c2.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 2</title>
+          <title>Liber I, distinctio 26, capitulum 2</title>
           <questionTitle>De proprietatibus personarum et de nominibus earum relativis.</questionTitle>
           <incipit>Iam de proprietatibus personarum</incipit>
           <hasWitnesses>
@@ -1681,7 +1830,7 @@
         </item>
         <item id="pl-l1d26c3" type="capitulus">
           <fileName filestem="pl-l1d26c3">pl-l1d26c3.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 3</title>
+          <title>Liber I, distinctio 26, capitulum 3</title>
           <questionTitle>Quod non omnia dicuntur de Deo secundum substantiam: quaedam enim secundum relationem, nihil tamen secundum accidens.</questionTitle>
           <incipit>Quocirca sciendum est</incipit>
           <hasWitnesses>
@@ -1693,7 +1842,7 @@
         </item>
         <item id="pl-l1d26c4" type="capitulus">
           <fileName filestem="pl-l1d26c4">pl-l1d26c4.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 4</title>
+          <title>Liber I, distinctio 26, capitulum 4</title>
           <questionTitle>Quare dicatur proprium esse Unigeniti filium Dei esse, cum etiam homines sint filii Dei.</questionTitle>
           <incipit>Hic quaeritur, quomodo dicatur</incipit>
           <hasWitnesses>
@@ -1704,7 +1853,7 @@
         </item>
         <item id="pl-l1d26c5" type="capitulus">
           <fileName filestem="pl-l1d26c5">pl-l1d26c5.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 5</title>
+          <title>Liber I, distinctio 26, capitulum 5</title>
           <questionTitle>Quod homo dicitur filius Trinitatis et Trinitas pater hominum.</questionTitle>
           <incipit>Homo vero, qui filius Dei est factura</incipit>
           <hasWitnesses>
@@ -1715,7 +1864,7 @@
         </item>
         <item id="pl-l1d26c6" type="capitulus">
           <fileName filestem="pl-l1d26c6">pl-l1d26c6.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 6</title>
+          <title>Liber I, distinctio 26, capitulum 6</title>
           <questionTitle>Quod Spiritus Sanctus eadem proprietate 'donum' dicitur qua 'spiritus sanctus', et utroque modo relative ad Patrem vel Filium.</questionTitle>
           <incipit>Ita etiam de Spiritu sancto dicendum est</incipit>
           <hasWitnesses>
@@ -1727,7 +1876,7 @@
         </item>
         <item id="pl-l1d26c7" type="capitulus">
           <fileName filestem="pl-l1d26c7">pl-l1d26c7.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 7</title>
+          <title>Liber I, distinctio 26, capitulum 7</title>
           <questionTitle>Utrum Pater vel Trinitas ipsa vel Filius possit dici 'spiritus sanctus'.</questionTitle>
           <incipit>Hic quaeri potest, utrum Pater</incipit>
           <hasWitnesses>
@@ -1738,7 +1887,7 @@
         </item>
         <item id="pl-l1d26c8" type="capitulus">
           <fileName filestem="pl-l1d26c8">pl-l1d26c8.xml</fileName>
-          <title>Liber I, distinctio 26, capitulus 8</title>
+          <title>Liber I, distinctio 26, capitulum 8</title>
           <questionTitle>Quod non omnia quae relative dicuntur suis ad se vicissim respondent vocabulis.</questionTitle>
           <incipit>Quidam tamen putant</incipit>
           <hasWitnesses>
@@ -1752,7 +1901,7 @@
         <head>Distinctio 27</head>
         <item id="pl-l1d27c1" type="capitulus">
           <fileName filestem="pl-l1d27c1">pl-l1d27c1.xml</fileName>
-          <title>Liber I, distinctio 27, capitulus 1</title>
+          <title>Liber I, distinctio 27, capitulum 1</title>
           <questionTitle>Quae sint illae proprietates quibus distinguuntur personae.</questionTitle>
           <incipit>Hic quaeri potest utrum proprietates</incipit>
           <hasWitnesses>
@@ -1763,7 +1912,7 @@
         </item>
         <item id="pl-l1d27c2" type="capitulus">
           <fileName filestem="pl-l1d27c2">pl-l1d27c2.xml</fileName>
-          <title>Liber I, distinctio 27, capitulus 2</title>
+          <title>Liber I, distinctio 27, capitulum 2</title>
           <questionTitle>Quod non omnino idem dicere est 'esse patrem' et 'genuisse' vel 'habere filium'.</questionTitle>
           <incipit>Nec tamen videtur nobis</incipit>
           <hasWitnesses>
@@ -1775,7 +1924,7 @@
         </item>
         <item id="pl-l1d27c3" type="capitulus">
           <fileName filestem="pl-l1d27c3">pl-l1d27c3.xml</fileName>
-          <title>Liber I, distinctio 27, capitulus 3</title>
+          <title>Liber I, distinctio 27, capitulum 3</title>
           <questionTitle>Quod proprietates determinant hypostases, non substantiam, id est naturam.</questionTitle>
           <incipit>Illae enim proprietates</incipit>
           <hasWitnesses>
@@ -1787,7 +1936,7 @@
         </item>
         <item id="pl-l1d27c4" type="capitulus">
           <fileName filestem="pl-l1d27c4">pl-l1d27c4.xml</fileName>
-          <title>Liber I, distinctio 27, capitulus 4</title>
+          <title>Liber I, distinctio 27, capitulum 4</title>
           <questionTitle>De generali regula eorum quae ad se, et eorum quae relative dicuntur.</questionTitle>
           <incipit>Et est hic advertenda</incipit>
           <hasWitnesses>
@@ -1798,7 +1947,7 @@
         </item>
         <item id="pl-l1d27c5" type="capitulus">
           <fileName filestem="pl-l1d27c5">pl-l1d27c5.xml</fileName>
-          <title>Liber I, distinctio 27, capitulus 5</title>
+          <title>Liber I, distinctio 27, capitulum 5</title>
           <questionTitle>An secundum substantiam dicatur 'Deus de Deo' et huiusmodi.</questionTitle>
           <incipit>Hic quaeritur, cum dicitur</incipit>
           <hasWitnesses>
@@ -1812,7 +1961,7 @@
         <head>Distinctio 28</head>
         <item id="pl-l1d28c1" type="capitulus">
           <fileName filestem="pl-l1d28c1">pl-l1d28c1.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 1</title>
+          <title>Liber I, distinctio 28, capitulum 1</title>
           <questionTitle>Quod non tantum tres sunt proprietates personarum.</questionTitle>
           <incipit>Praeterea considerari</incipit>
           <hasWitnesses>
@@ -1824,7 +1973,7 @@
         </item>
         <item id="pl-l1d28c2" type="capitulus">
           <fileName filestem="pl-l1d28c2">pl-l1d28c2.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 2</title>
+          <title>Liber I, distinctio 28, capitulum 2</title>
           <questionTitle>An solus Pater debeat dici non-genitus vel non-filius, sicut dicitur ingenitus.</questionTitle>
           <incipit>Ideo solet quaeri</incipit>
           <hasWitnesses>
@@ -1835,7 +1984,7 @@
         </item>
         <item id="pl-l1d28c3" type="capitulus">
           <fileName filestem="pl-l1d28c3">pl-l1d28c3.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 3</title>
+          <title>Liber I, distinctio 28, capitulum 3</title>
           <questionTitle>De proprietate quam notat ingenitus.</questionTitle>
           <incipit>Si autem vis scire</incipit>
           <hasWitnesses>
@@ -1846,7 +1995,7 @@
         </item>
         <item id="pl-l1d28c4" type="capitulus">
           <fileName filestem="pl-l1d28c4">pl-l1d28c4.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 4</title>
+          <title>Liber I, distinctio 28, capitulum 4</title>
           <questionTitle>Responsio Ambrosii contra Arianos de ingenito.</questionTitle>
           <incipit>Illud etiam taceri</incipit>
           <hasWitnesses>
@@ -1858,7 +2007,7 @@
         </item>
         <item id="pl-l1d28c5" type="capitulus">
           <fileName filestem="pl-l1d28c5">pl-l1d28c5.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 5</title>
+          <title>Liber I, distinctio 28, capitulum 5</title>
           <questionTitle>An diversum sit esse Patrem et esse Filium.</questionTitle>
           <incipit>Praeterea quaeri solet</incipit>
           <hasWitnesses>
@@ -1869,7 +2018,7 @@
         </item>
         <item id="pl-l1d28c6" type="capitulus">
           <fileName filestem="pl-l1d28c6">pl-l1d28c1.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 6</title>
+          <title>Liber I, distinctio 28, capitulum 6</title>
           <questionTitle>Si sapientia genita dicitur secundum relationem vel secundum substantiam.</questionTitle>
           <incipit>Sciendum quoque est</incipit>
           <hasWitnesses>
@@ -1880,7 +2029,7 @@
         </item>
         <item id="pl-l1d28c7" type="capitulus">
           <fileName filestem="pl-l1d28c7">pl-l1d28c7.xml</fileName>
-          <title>Liber I, distinctio 28, capitulus 7</title>
+          <title>Liber I, distinctio 28, capitulum 7</title>
           <questionTitle>De imagine.</questionTitle>
           <incipit>Illud etiam sciri oportet</incipit>
           <hasWitnesses>
@@ -1894,7 +2043,7 @@
         <head>Distinctio 29</head>
         <item id="pl-l1d29c1" type="capitulus">
           <fileName filestem="pl-l1d29c1">pl-l1d29c1.xml</fileName>
-          <title>Liber I, distinctio 29, capitulus 1</title>
+          <title>Liber I, distinctio 29, capitulum 1</title>
           <questionTitle>De principio.</questionTitle>
           <incipit>Est praeterea aliud nomen</incipit>
           <hasWitnesses>
@@ -1906,7 +2055,7 @@
         </item>
         <item id="pl-l1d29c2" type="capitulus">
           <fileName filestem="pl-l1d29c2">pl-l1d29c2.xml</fileName>
-          <title>Liber I, distinctio 29, capitulus 2</title>
+          <title>Liber I, distinctio 29, capitulum 2</title>
           <questionTitle>Quod ab aeterno Pater est principium, et Filius, sed non Spiritus Sanctus.</questionTitle>
           <incipit>Et Pater ab aeterno principium est Filii</incipit>
           <hasWitnesses>
@@ -1917,7 +2066,7 @@
         </item>
         <item id="pl-l1d29c3" type="capitulus">
           <fileName filestem="pl-l1d29c3">pl-l1d29c3.xml</fileName>
-          <title>Liber I, distinctio 29, capitulus 3</title>
+          <title>Liber I, distinctio 29, capitulum 3</title>
           <questionTitle>Quomodo Pater sit principium Filii, et ipse cum Filio Spiritus Sancti.</questionTitle>
           <incipit>Deinde in eodem libro</incipit>
           <hasWitnesses>
@@ -1929,7 +2078,7 @@
         </item>
         <item id="pl-l1d29c4" type="capitulus">
           <fileName filestem="pl-l1d29c4">pl-l1d29c4.xml</fileName>
-          <title>Liber I, distinctio 29, capitulus 4</title>
+          <title>Liber I, distinctio 29, capitulum 4</title>
           <questionTitle>An eadem notione Pater et Filius sint principium Spiritus Sancti.</questionTitle>
           <incipit>Unum autem principium sunt Pater</incipit>
           <hasWitnesses>
@@ -1943,7 +2092,7 @@
         <head>Distinctio 30</head>
         <item id="pl-l1d30c1" type="capitulus">
           <fileName filestem="pl-l1d30c1">pl-l1d30c1.xml</fileName>
-          <title>Liber I, distinctio 30, capitulus 1</title>
+          <title>Liber I, distinctio 30, capitulum 1</title>
           <questionTitle>De his quae temporaliter de Deo dicuntur et relative, secundum accidens quod non Deo, sed creaturis accidit.</questionTitle>
           <incipit>Sunt etiam quaedam</incipit>
           <hasWitnesses>
@@ -1955,7 +2104,7 @@
         </item>
         <item id="pl-l1d30c2" type="capitulus">
           <fileName filestem="pl-l1d30c2">pl-l1d30c2.xml</fileName>
-          <title>Liber I, distinctio 30, capitulus 1</title>
+          <title>Liber I, distinctio 30, capitulum 1</title>
           <questionTitle>An Spiritus Sanctus dicatur datum vel donatum relative ad se, cum a se detur.</questionTitle>
           <incipit>Hic potest solvi</incipit>
           <hasWitnesses>
@@ -1969,7 +2118,7 @@
         <head>Distinctio 31</head>
         <item id="pl-l1d31c1" type="capitulus">
           <fileName filestem="pl-l1d31c1">pl-l1d31c1</fileName>
-          <title>Liber I, distinctio 31, capitulus 1</title>
+          <title>Liber I, distinctio 31, capitulum 1</title>
           <questionTitle>An Filius dicatur aequalis vel similis Patris secundam substantiam.</questionTitle>
           <incipit>Praeterea considerari oportet</incipit>
           <hasWitnesses>
@@ -1980,7 +2129,7 @@
         </item>
         <item id="pl-l1d31c2" type="capitulus">
           <fileName filestem="pl-l1d31c2">pl-l1d31c2.xml</fileName>
-          <title>Liber I, distinctio 31, capitulus 2</title>
+          <title>Liber I, distinctio 31, capitulum 2</title>
           <questionTitle>De sententia S. Hilarii, qua in Trinitate personarum propria ostendit.</questionTitle>
           <incipit>Non est hic praetereundum</incipit>
           <hasWitnesses>
@@ -1993,7 +2142,7 @@
         </item>
         <item id="pl-l1d31c3" type="capitulus">
           <fileName filestem="pl-l1d31c3">pl-l1d31c3.xml</fileName>
-          <title>Liber I, distinctio 31, capitulus 3</title>
+          <title>Liber I, distinctio 31, capitulum 3</title>
           <questionTitle>Quare Patri attribuitur unitas.</questionTitle>
           <incipit>Sed plurimos movet</incipit>
           <hasWitnesses>
@@ -2004,7 +2153,7 @@
         </item>
         <item id="pl-l1d31c4" type="capitulus">
           <fileName filestem="pl-l1d31c4">pl-l1d31c4.xml</fileName>
-          <title>Liber I, distinctio 31, capitulus 4</title>
+          <title>Liber I, distinctio 31, capitulum 4</title>
           <questionTitle>Quare Pater et Filius dicantur esse 'unum' vel 'unus Deus', sed non 'unus'.</questionTitle>
           <incipit>Hic dici oportet</incipit>
           <hasWitnesses>
@@ -2015,7 +2164,7 @@
         </item>
         <item id="pl-l1d31c5" type="capitulus">
           <fileName filestem="pl-l1d31c5">pl-l1d31c5.xml</fileName>
-          <title>Liber I, distinctio 31, capitulus 5</title>
+          <title>Liber I, distinctio 31, capitulum 5</title>
           <questionTitle>Quare dicitur esse aequalitas in Filio.</questionTitle>
           <incipit>Nunc videamus, quare aequalitas</incipit>
           <hasWitnesses>
@@ -2027,7 +2176,7 @@
         </item>
         <item id="pl-l1d31c6" type="capitulus">
           <fileName filestem="pl-l1d31c6">pl-l1d31c6.xml</fileName>
-          <title>Liber I, distinctio 31, capitulus 6</title>
+          <title>Liber I, distinctio 31, capitulum 6</title>
           <questionTitle>Quare in Spiritu Sancto dicitur esse utriusque concordia vel connexio.</questionTitle>
           <incipit>Quod autem in Spiritu sancto</incipit>
           <hasWitnesses>
@@ -2042,7 +2191,7 @@
 
         <item id="pl-l1d32c1" type="capitulus">
           <fileName filestem="pl-l1d32c1">pl-l1d32c1.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 1</title>
+          <title>Liber I, distinctio 32, capitulum 1</title>
           <questionTitle>Utrum Pater vel Filius ea dilectione diligat quae procedit ab utroque, id est Spiritu Sancto.</questionTitle>
           <incipit>Hic oritur quaestio</incipit>
           <hasWitnesses>
@@ -2053,7 +2202,7 @@
         </item>
         <item id="pl-l1d32c2" type="capitulus">
           <fileName filestem="pl-l1d32c2">pl-l1d32c2.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 2</title>
+          <title>Liber I, distinctio 32, capitulum 2</title>
           <questionTitle>Utrum Pater sit sapiens sapientia quam genuit.</questionTitle>
           <incipit>Praeterea diligenter investigari oportet</incipit>
           <hasWitnesses>
@@ -2065,7 +2214,7 @@
         </item>
         <item id="pl-l1d32c3" type="capitulus">
           <fileName filestem="pl-l1d32c3">pl-l1d32c3.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 3</title>
+          <title>Liber I, distinctio 32, capitulum 3</title>
           <questionTitle>An Filius sit sapiens se ipso vel per se ipsum.</questionTitle>
           <incipit>Ex praedictis constat</incipit>
           <hasWitnesses>
@@ -2076,7 +2225,7 @@
         </item>
         <item id="pl-l1d32c4" type="capitulus">
           <fileName filestem="pl-l1d32c4">pl-l1d32c4.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 4</title>
+          <title>Liber I, distinctio 32, capitulum 4</title>
           <questionTitle>An una tantum sit sapientia Patris.</questionTitle>
           <incipit>Post haec a quibusdam quaeri</incipit>
           <hasWitnesses>
@@ -2088,7 +2237,7 @@
         </item>
         <item id="pl-l1d32c5" type="capitulus">
           <fileName filestem="pl-l1d32c5">pl-l1d32c5.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 5</title>
+          <title>Liber I, distinctio 32, capitulum 5</title>
           <questionTitle>Sicut in Trinitate est dilectio quae est Trinitas, et tamen Spiritus Sanctus est dilectio quae non est Trinitas, nec ideo sant duae dilectiones, ita et de sapientia.</questionTitle>
           <incipit>Et sicut in Trinitate dilectio est</incipit>
           <hasWitnesses>
@@ -2099,7 +2248,7 @@
         </item>
         <item id="pl-l1d32c6" type="capitulus">
           <fileName filestem="pl-l1d32c6">pl-l1d32c6.xml</fileName>
-          <title>Liber I, distinctio 32, capitulus 6</title>
+          <title>Liber I, distinctio 32, capitulum 6</title>
           <questionTitle>Quare Pater non dicitur sapiens sapientia genita, sicut dicitur diligens dilectione quae ab ipso procedit.</questionTitle>
           <incipit>Praeterea diligenter notandum est</incipit>
           <hasWitnesses>
@@ -2113,7 +2262,7 @@
         <head>Distinctio 33</head>
         <item id="pl-l1d33c1" type="capitulus">
           <fileName filestem="pl-l1d33c1">pl-l1d33c1.xml</fileName>
-          <title>Liber I, distinctio 33, capitulus 1</title>
+          <title>Liber I, distinctio 33, capitulum 1</title>
           <questionTitle>Utrum proprietates personarum sint ipsae personae vel divina usia.</questionTitle>
           <incipit>Post supradicta interius considerari</incipit>
           <hasWitnesses>
@@ -2126,7 +2275,7 @@
         </item>
         <item id="pl-l1d33c2" type="capitulus">
           <fileName filestem="pl-l1d33c2">pl-l1d33c2.xml</fileName>
-          <title>Liber I, distinctio 33, capitulus 2</title>
+          <title>Liber I, distinctio 33, capitulum 2</title>
           <questionTitle>Quomodo proprietates possint esse in natura Dei nec eam determinent.</questionTitle>
           <incipit>Sed forte quaeres</incipit>
           <hasWitnesses>
@@ -2141,7 +2290,7 @@
         <head>Distinctio 34</head>
         <item id="pl-l1d34c1" type="capitulus">
           <fileName filestem="pl-l1d34c1">pl-l1d34c1.xml</fileName>
-          <title>Liber I, distinctio 34, capitulus 1</title>
+          <title>Liber I, distinctio 34, capitulum 1</title>
           <questionTitle>De verbis Hilarii quibus, secundum pravorum intelligentiam, videtur dicere non idem esse divinam naturam et rem naturae, et non idem esse Deum et quod Dei est.</questionTitle>
           <incipit>Praedictis est adiiciendum</incipit>
           <hasWitnesses>
@@ -2152,7 +2301,7 @@
         </item>
         <item id="pl-l1d34c2" type="capitulus">
           <fileName filestem="pl-l1d34c2">pl-l1d34c2.xml</fileName>
-          <title>Liber I, distinctio 34, capitulus 2</title>
+          <title>Liber I, distinctio 34, capitulum 2</title>
           <questionTitle>Utrum ita possit dici 'unus Deus trium personarum' ut dicitur 'una essentia trium personarum', et 'tres personae unius Dei' ut 'tres personae unius essentiae'.</questionTitle>
           <incipit>Hic considerandum est</incipit>
           <hasWitnesses>
@@ -2164,7 +2313,7 @@
         </item>
         <item id="pl-l1d34c3" type="capitulus">
           <fileName filestem="pl-l1d34c3">pl-l1d34c3.xml</fileName>
-          <title>Liber I, distinctio 34, capitulus 3</title>
+          <title>Liber I, distinctio 34, capitulum 3</title>
           <questionTitle>Quod potentia, sapientia, bonitas in Scriptura interdum ad personas distincte referuntur.</questionTitle>
           <incipit>Ex praedictis constat</incipit>
           <hasWitnesses>
@@ -2176,7 +2325,7 @@
         </item>
         <item id="pl-l1d34c4" type="capitulus">
           <fileName filestem="pl-l1d34c4">pl-l1d34c4.xml</fileName>
-          <title>Liber I, distinctio 34, capitulus 4</title>
+          <title>Liber I, distinctio 34, capitulum 4</title>
           <questionTitle>Quare Patri potentia, Filio sapientia, Spiritui Sancto bonitas tribuatur, cum sit una potentia, sapientia, bonitas trium.</questionTitle>
           <incipit>Id ergo sacri eloquii</incipit>
           <hasWitnesses>
@@ -2187,7 +2336,7 @@
         </item>
         <item id="pl-l1d34c5" type="capitulus">
           <fileName filestem="pl-l1d34c5">pl-l1d34c5.xml</fileName>
-          <title>Liber I, distinctio 34, capitulus 5</title>
+          <title>Liber I, distinctio 34, capitulum 5</title>
           <questionTitle>De hoc nomine 'homousion', ubi in auctoritate receptum sit et quid significet.</questionTitle>
           <incipit>Hic non est praetermittendum</incipit>
           <hasWitnesses>
@@ -2203,7 +2352,7 @@
 
         <item id="pl-l1d35c1" type="capitulus">
           <fileName filestem="pl-l1d35c1">pl-l1d35c1.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 1</title>
+          <title>Liber I, distinctio 35, capitulum 1</title>
           <questionTitle>De scientia et praescientia, providentia, dispositione et praedestinatione Dei.</questionTitle>
           <incipit>Cumque supra disserverimus</incipit>
           <hasWitnesses>
@@ -2214,7 +2363,7 @@
         </item>
         <item id="pl-l1d35c2" type="capitulus">
           <fileName filestem="pl-l1d35c2">pl-l1d35c2.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 2</title>
+          <title>Liber I, distinctio 35, capitulum 2</title>
           <questionTitle>De quibus sit praescientia vel praevidentia Dei.</questionTitle>
           <incipit>Et est praescientia</incipit>
           <hasWitnesses>
@@ -2225,7 +2374,7 @@
         </item>
         <item id="pl-l1d35c3" type="capitulus">
           <fileName filestem="pl-l1d35c3">pl-l1d35c3.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 3</title>
+          <title>Liber I, distinctio 35, capitulum 3</title>
           <questionTitle>De quibus dispositio.</questionTitle>
           <incipit>Dispositio vero de faciendis</incipit>
           <hasWitnesses>
@@ -2236,7 +2385,7 @@
         </item>
         <item id="pl-l1d35c4" type="capitulus">
           <fileName filestem="pl-l1d35c4">pl-l1d35c4.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 4</title>
+          <title>Liber I, distinctio 35, capitulum 4</title>
           <questionTitle>De quibus praedestinatio.</questionTitle>
           <incipit>Praedestinatio de hominibus</incipit>
           <hasWitnesses>
@@ -2247,7 +2396,7 @@
         </item>
         <item id="pl-l1d35c5" type="capitulus">
           <fileName filestem="pl-l1d35c5">pl-l1d35c5.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 5</title>
+          <title>Liber I, distinctio 35, capitulum 5</title>
           <questionTitle>De quibus providentia.</questionTitle>
           <incipit>Providentia autem est gubernandorum</incipit>
           <hasWitnesses>
@@ -2258,7 +2407,7 @@
         </item>
         <item id="pl-l1d35c6" type="capitulus">
           <fileName filestem="pl-l1d35c6">pl-l1d35c6.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 6</title>
+          <title>Liber I, distinctio 35, capitulum 6</title>
           <questionTitle>De quibus sapientia vel scientia.</questionTitle>
           <incipit>Sapientia vero vel scientia de omnibus</incipit>
           <hasWitnesses>
@@ -2269,7 +2418,7 @@
         </item>
         <item id="pl-l1d35c7" type="capitulus">
           <fileName filestem="pl-l1d35c7">pl-l1d35c7.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 7</title>
+          <title>Liber I, distinctio 35, capitulum 7</title>
           <questionTitle>Utrum praescientia vel dispositio vel praedestinatio Dei esse potuerit, si nulla essent futura.</questionTitle>
           <incipit>Hic considerari oportet</incipit>
           <hasWitnesses>
@@ -2281,7 +2430,7 @@
         </item>
         <item id="pl-l1d35c8" type="capitulus">
           <fileName filestem="pl-l1d35c8">pl-l1d35c8.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 8</title>
+          <title>Liber I, distinctio 35, capitulum 8</title>
           <questionTitle>Quod scientia Dei est de temporalibus et aeternis.</questionTitle>
           <incipit>Scientia vero de sapientia</incipit>
           <hasWitnesses>
@@ -2292,7 +2441,7 @@
         </item>
         <item id="pl-l1d35c9" type="capitulus">
           <fileName filestem="pl-l1d35c9">pl-l1d35c9.xml</fileName>
-          <title>Liber I, distinctio 35, capitulus 9</title>
+          <title>Liber I, distinctio 35, capitulum 9</title>
           <questionTitle>Quomodo omnia dicuntur esse in Deo et vita in eo.</questionTitle>
           <incipit>Propterea omnia dicuntur esse</incipit>
           <hasWitnesses>
@@ -2308,7 +2457,7 @@
 
         <item id="pl-l1d36c1" type="capitulus">
           <fileName filestem="pl-l1d36c1">pl-l1d36c1.xml</fileName>
-          <title>Liber I, distinctio 36, capitulus 1</title>
+          <title>Liber I, distinctio 36, capitulum 1</title>
           <questionTitle>Utrum omnia debeant dici esse in Dei essentia, ut in Dei cognitione vel praesentia esse dicuntur.</questionTitle>
           <incipit>Solet hic quaeri</incipit>
           <hasWitnesses>
@@ -2320,7 +2469,7 @@
         </item>
         <item id="pl-l1d36c2" type="capitulus">
           <fileName filestem="pl-l1d36c2">pl-l1d36c2.xml</fileName>
-          <title>Liber I, distinctio 36, capitulus 2</title>
+          <title>Liber I, distinctio 36, capitulum 2</title>
           <questionTitle>Qua ratione bona dicuntur esse in Deo et non mala.</questionTitle>
           <incipit>Post praedicta quaeritur</incipit>
           <hasWitnesses>
@@ -2331,7 +2480,7 @@
         </item>
         <item id="pl-l1d36c3" type="capitulus">
           <fileName filestem="pl-l1d36c3">pl-l1d36c3.xml</fileName>
-          <title>Liber I, distinctio 36, capitulus 3</title>
+          <title>Liber I, distinctio 36, capitulum 3</title>
           <questionTitle>Utrum idem sit omnia esse ex Deo et per ipsum et in ipso.</questionTitle>
           <incipit>Proinde si diligenter inspiciamus</incipit>
           <hasWitnesses>
@@ -2343,7 +2492,7 @@
         </item>
         <item id="pl-l1d36c4" type="capitulus">
           <fileName filestem="pl-l1d36c4">pl-l1d36c4.xml</fileName>
-          <title>Liber I, distinctio 36, capitulus 4</title>
+          <title>Liber I, distinctio 36, capitulum 4</title>
           <questionTitle>Quod omnia sunt in quolibet trium et per ipsum et in ipso.</questionTitle>
           <incipit>Praeterea sciendum est, quod licet</incipit>
           <hasWitnesses>
@@ -2354,7 +2503,7 @@
         </item>
         <item id="pl-l1d36c5" type="capitulus">
           <fileName filestem="pl-l1d36c5">pl-l1d36c5.xml</fileName>
-          <title>Liber I, distinctio 36, capitulus 5</title>
+          <title>Liber I, distinctio 36, capitulum 5</title>
           <questionTitle>Quod non omnia quae ex Deo sunt, etiam de ipso sunt.</questionTitle>
           <incipit>Illud etiam hic annectendum est</incipit>
           <hasWitnesses>
@@ -2369,7 +2518,7 @@
 
         <item id="pl-l1d37c1" type="capitulus">
           <fileName filestem="pl-l1d37c1">pl-l1d37c1.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 1</title>
+          <title>Liber I, distinctio 37, capitulum 1</title>
           <questionTitle>Quibus modis dicitur Deus esse in rebus.</questionTitle>
           <incipit>Et quoniam demonstratum est ex parte</incipit>
           <hasWitnesses>
@@ -2381,7 +2530,7 @@
         </item>
         <item id="pl-l1d37c2" type="capitulus">
           <fileName filestem="pl-l1d37c2">pl-l1d37c2.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 2</title>
+          <title>Liber I, distinctio 37, capitulum 2</title>
           <questionTitle>Quod Deus non ubicumque est habitat, sed e converso.</questionTitle>
           <incipit>In Sanctis vero etiam habitat</incipit>
           <hasWitnesses>
@@ -2392,7 +2541,7 @@
         </item>
         <item id="pl-l1d37c3" type="capitulus">
           <fileName filestem="pl-l1d37c3">pl-l1d37c3.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 3</title>
+          <title>Liber I, distinctio 37, capitulum 3</title>
           <questionTitle>Ubi erat Deus antequam esset creatura.</questionTitle>
           <incipit>Si autem quaeris</incipit>
           <hasWitnesses>
@@ -2404,7 +2553,7 @@
         </item>
         <item id="pl-l1d37c4" type="capitulus">
           <fileName filestem="pl-l1d37c4">pl-l1d37c4.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 4</title>
+          <title>Liber I, distinctio 37, capitulum 4</title>
           <questionTitle>Quod Deus, cum sit in omnibus rebus essentialiter, non tamen coinquinatur sordibus rerum.</questionTitle>
           <incipit>Solet etiam ab eisdem</incipit>
           <hasWitnesses>
@@ -2416,7 +2565,7 @@
         </item>
         <item id="pl-l1d37c5" type="capitulus">
           <fileName filestem="pl-l1d37c5">pl-l1d37c5.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 5</title>
+          <title>Liber I, distinctio 37, capitulum 5</title>
           <questionTitle>Cum Deus sit ubique et semper, non tamen localis, nec loco nec tempore movetur.</questionTitle>
           <incipit>Cumque divina natura veraciter</incipit>
           <hasWitnesses>
@@ -2427,7 +2576,7 @@
         </item>
         <item id="pl-l1d37c6" type="capitulus">
           <fileName filestem="pl-l1d37c6">pl-l1d37c6.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 6</title>
+          <title>Liber I, distinctio 37, capitulum 6</title>
           <questionTitle>Quibus modis aliquid dicatur locale aut circumscriptibile.</questionTitle>
           <incipit>Duobus namque his modis dicitur</incipit>
           <hasWitnesses>
@@ -2438,7 +2587,7 @@
         </item>
         <item id="pl-l1d37c7" type="capitulus">
           <fileName filestem="pl-l1d37c7">pl-l1d37c7.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 7</title>
+          <title>Liber I, distinctio 37, capitulum 7</title>
           <questionTitle>Quid sit mutari secundum tempus.</questionTitle>
           <incipit>Mutari autem per tempus est</incipit>
           <hasWitnesses>
@@ -2449,7 +2598,7 @@
         </item>
         <item id="pl-l1d37c8" type="capitulus">
           <fileName filestem="pl-l1d37c8">pl-l1d37c8.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 8</title>
+          <title>Liber I, distinctio 37, capitulum 8</title>
           <questionTitle>Utrum spiritus creati sint locales et circumscriptibiles.</questionTitle>
           <incipit>Sunt ergo spiritus creati in loco</incipit>
           <hasWitnesses>
@@ -2461,7 +2610,7 @@
         </item>
         <item id="pl-l1d37c9" type="capitulus">
           <fileName filestem="pl-l1d37c9">pl-l1d37c9.xml</fileName>
-          <title>Liber I, distinctio 37, capitulus 9</title>
+          <title>Liber I, distinctio 37, capitulum 9</title>
           <questionTitle>Quod Deus est ubique sine locali motu.</questionTitle>
           <incipit>Fateamur itaque, divinam naturam pro</incipit>
           <hasWitnesses>
@@ -2477,7 +2626,7 @@
 
         <item id="pl-l1d38c1" type="capitulus">
           <fileName filestem="pl-l1d38c1">pl-l1d38c1.xml</fileName>
-          <title>Liber I, distinctio 38, capitulus 1</title>
+          <title>Liber I, distinctio 38, capitulum 1</title>
           <questionTitle>An scientia vel praescientia Dei sit causa rerum vel e converso.</questionTitle>
           <incipit>Nunc ergo ad propositum revertente</incipit>
           <hasWitnesses>
@@ -2489,7 +2638,7 @@
         </item>
         <item id="pl-l1d38c2" type="capitulus">
           <fileName filestem="pl-l1d38c2">pl-l1d38c2.xml</fileName>
-          <title>Liber I, distinctio 38, capitulus 2</title>
+          <title>Liber I, distinctio 38, capitulum 2</title>
           <questionTitle>Utrum praescientia Dei possit falli.</questionTitle>
           <incipit>Ad hoc autem, quod supra dictum est</incipit>
           <hasWitnesses>
@@ -2503,7 +2652,7 @@
         <head>Distinctio 39</head>
         <item id="pl-l1d39c1" type="capitulus">
           <fileName filestem="pl-l1d39c1">pl-l1d39c1.xml</fileName>
-          <title>Liber I, distinctio 39, capitulus 1</title>
+          <title>Liber I, distinctio 39, capitulum 1</title>
           <questionTitle>Utrum scientia Dei possit augeri vel minui, vel aliquo modo mutari.</questionTitle>
           <incipit>Praeterea solet quaeri, utrum scientia Dei possit</incipit>
           <hasWitnesses>
@@ -2515,7 +2664,7 @@
         </item>
         <item id="pl-l1d39c2" type="capitulus">
           <fileName filestem="pl-l1d39c2">pl-l1d39c2.xml</fileName>
-          <title>Liber I, distinctio 39, capitulus 2</title>
+          <title>Liber I, distinctio 39, capitulum 2</title>
           <questionTitle>An Deus possit noviter vel ex tempore scire vel praescire aliquid.</questionTitle>
           <incipit>Hic opponitur a quibusdam ita</incipit>
           <hasWitnesses>
@@ -2526,7 +2675,7 @@
         </item>
         <item id="pl-l1d39c3" type="capitulus">
           <fileName filestem="pl-l1d39c3">pl-l1d39c3.xml</fileName>
-          <title>Liber I, distinctio 39, capitulus 3</title>
+          <title>Liber I, distinctio 39, capitulum 3</title>
           <questionTitle>Utrum Deus possit scire plura quam scit.</questionTitle>
           <incipit>Item a quibusdam dicitur</incipit>
           <hasWitnesses>
@@ -2537,7 +2686,7 @@
         </item>
         <item id="pl-l1d39c4" type="capitulus">
           <fileName filestem="pl-l1d39c4">pl-l1d39c4.xml</fileName>
-          <title>Liber I, distinctio 39, capitulus 4</title>
+          <title>Liber I, distinctio 39, capitulum 4</title>
           <questionTitle>Quod Deus et semper et simul scit omnia.</questionTitle>
           <incipit>Ei vero quod praedictum est</incipit>
           <hasWitnesses>
@@ -2553,7 +2702,7 @@
 
         <item id="pl-l1d40c1" type="capitulus">
           <fileName filestem="pl-l1d40c1">pl-l1d40c1.xml</fileName>
-          <title>Liber I, distinctio 40, capitulus 1</title>
+          <title>Liber I, distinctio 40, capitulum 1</title>
           <questionTitle>An aliquis praedestinatus possit damnari vel reprobus salvari.</questionTitle>
           <incipit>Praedestinatio vero de bonis</incipit>
           <witness ref="#Z">
@@ -2564,7 +2713,7 @@
         </item>
         <item id="pl-l1d40c2" type="capitulus">
           <fileName filestem="pl-l1d40c2">pl-l1d40c2.xml</fileName>
-          <title>Liber I, distinctio 40, capitulus 2</title>
+          <title>Liber I, distinctio 40, capitulum 2</title>
           <questionTitle>Quid sit reprobatio Dei et in quibus consideretur, et quis sit praedestinationis effectus.</questionTitle>
           <incipit>Cumque praedestinatio sit gratiae</incipit>
           <hasWitnesses>
@@ -2580,7 +2729,7 @@
 
         <item id="pl-l1d41c1" type="capitulus">
           <fileName filestem="pl-l1d41c1">pl-l1d41c1.xml</fileName>
-          <title>Liber I, distinctio 41, capitulus 1</title>
+          <title>Liber I, distinctio 41, capitulum 1</title>
           <questionTitle>Utrum aliquod sit meritum obdurationis vel misericordiae.</questionTitle>
           <incipit>Si autem quaerimus meritum</incipit>
           <hasWitnesses>
@@ -2592,7 +2741,7 @@
         </item>
         <item id="pl-l1d41c2" type="capitulus">
           <fileName filestem="pl-l1d41c2">pl-l1d41c2.xml</fileName>
-          <title>Liber I, distinctio 41, capitulus 2</title>
+          <title>Liber I, distinctio 41, capitulum 2</title>
           <questionTitle>De variis super hoc carnalium opinionibus.</questionTitle>
           <incipit>Opinati sunt quidam tamen</incipit>
           <hasWitnesses>
@@ -2604,7 +2753,7 @@
         </item>
         <item id="pl-l1d41c3" type="capitulus">
           <fileName filestem="pl-l1d41c3">pl-l1d41c3.xml</fileName>
-          <title>Liber I, distinctio 41, capitulus 3</title>
+          <title>Liber I, distinctio 41, capitulum 3</title>
           <questionTitle>An ea quae semel scit Deus vel praescit, semper sciat et praesciat, et semper scierit et praescierit.</questionTitle>
           <incipit>Praeterea considerari oportet</incipit>
           <hasWitnesses>
@@ -2620,7 +2769,7 @@
 
         <item id="pl-l1d42c1" type="capitulus">
           <fileName filestem="pl-l1d42c1">pl-l1d42c1.xml</fileName>
-          <title>Liber I, distinctio 42, capitulus 1</title>
+          <title>Liber I, distinctio 42, capitulum 1</title>
           <questionTitle>De omnipotentia Dei: quare dicatur omnipotens, cum nos multa possimus quae ipse non possit. </questionTitle>
           <incipit>Nunc de omnipotentia Dei agendum est</incipit>
           <hasWitnesses>
@@ -2631,7 +2780,7 @@
         </item>
         <item id="pl-l1d42c2" type="capitulus">
           <fileName filestem="pl-l1d42c2">pl-l1d42c2.xml</fileName>
-          <title>Liber I, distinctio 42, capitulus 2</title>
+          <title>Liber I, distinctio 42, capitulum 2</title>
           <questionTitle>Quomodo dicatur Deus omnia posse.</questionTitle>
           <incipit>Sed quaeritur, quomodo omnia posse dicatur</incipit>
           <hasWitnesses>
@@ -2642,7 +2791,7 @@
         </item>
         <item id="pl-l1d42c3" type="capitulus">
           <fileName filestem="pl-l1d42c3">pl-l1d42c3.xml</fileName>
-          <title>Liber I, distinctio 42, capitulus 3</title>
+          <title>Liber I, distinctio 42, capitulum 3</title>
           <questionTitle>Quod omnipotentia Dei secundam duo consideretur.</questionTitle>
           <incipit>Sic igitur diligenter considerantibus </incipit>
           <hasWitnesses>
@@ -2658,7 +2807,7 @@
 
         <item id="pl-l1d43c1" type="capitulus">
           <fileName filestem="pl-l1d43c1">pl-l1d43c1.xml</fileName>
-          <title>Liber I, distinctio 43, capitulus 1</title>
+          <title>Liber I, distinctio 43, capitulum 1</title>
           <questionTitle>Invectio contra illos qui dicunt Deum nil posse nisi quod vult et facit.</questionTitle>
           <incipit>Quidam tamen de suo sensu</incipit>
           <hasWitnesses>
@@ -2676,7 +2825,7 @@
 
         <item id="pl-l1d44c1" type="capitulus">
           <fileName filestem="pl-l1d44c1">pl-l1d44c1.xml</fileName>
-          <title>Liber I, distinctio 44, capitulus 1</title>
+          <title>Liber I, distinctio 44, capitulum 1</title>
           <questionTitle>An Deus possit facere aliquid melius quam facit, vel alio vel meliori modo.</questionTitle>
           <incipit>Nunc illud restat discutiendum</incipit>
           <hasWitnesses>
@@ -2687,7 +2836,7 @@
         </item>
         <item id="pl-l1d44c2" type="capitulus">
           <fileName filestem="pl-l1d44c2">pl-l1d44c2.xml</fileName>
-          <title>Liber I, distinctio 44, capitulus 2</title>
+          <title>Liber I, distinctio 44, capitulum 2</title>
           <questionTitle>Utrum Deus semper possit omne quod potuit.</questionTitle>
           <incipit>Praeterea quaeri solet, utrum</incipit>
           <hasWitnesses>
@@ -2702,7 +2851,7 @@
 
         <item id="pl-l1d45c1" type="capitulus">
           <fileName filestem="pl-l1d45c1">pl-l1d45c1.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 1</title>
+          <title>Liber I, distinctio 45, capitulum 1</title>
           <questionTitle>De voluntate Dei quae essentia Dei est et de signis eius.</questionTitle>
           <incipit>Iam voluntate Dei aliquid</incipit>
           <hasWitnesses>
@@ -2713,7 +2862,7 @@
         </item>
         <item id="pl-l1d45c2" type="capitulus">
           <fileName filestem="pl-l1d45c2">pl-l1d45c2.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 2</title>
+          <title>Liber I, distinctio 45, capitulum 2</title>
           <questionTitle>Quod licet idem sit Deo velle quod esse, non tamen potest dici Deus omnia esse quae vult.</questionTitle>
           <incipit>Et licet, sit idem Deo velle</incipit>
           <hasWitnesses>
@@ -2724,7 +2873,7 @@
         </item>
         <item id="pl-l1d45c3" type="capitulus">
           <fileName filestem="pl-l1d45c3">pl-l1d45c3.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 3</title>
+          <title>Liber I, distinctio 45, capitulum 3</title>
           <questionTitle>De intelligentia harum locutionum: Deus scit vel Deus vult, Deus scit omnia vel vult aliquid.</questionTitle>
           <incipit>Et ubicumque Deus scire dicitur</incipit>
           <hasWitnesses>
@@ -2735,7 +2884,7 @@
         </item>
         <item id="pl-l1d45c4" type="capitulus">
           <fileName filestem="pl-l1d45c4">pl-l1d45c4.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 4</title>
+          <title>Liber I, distinctio 45, capitulum 4</title>
           <questionTitle>Quod Dei voluntas summe bona causa est omnium quae naturaliter sunt, cuius causa non est quaerenda, quia prima est et summa causa omnium.</questionTitle>
           <incipit>Haec itaque summe bona voluntas</incipit>
           <hasWitnesses>
@@ -2747,7 +2896,7 @@
         </item>
         <item id="pl-l1d45c5" type="capitulus">
           <fileName filestem="pl-l1d45c5">pl-l1d45c5.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 5</title>
+          <title>Liber I, distinctio 45, capitulum 5</title>
           <questionTitle>Quibus modis accipitur Dei voluntas.</questionTitle>
           <incipit>Hic non est praetereundum nobis</incipit>
           <hasWitnesses>
@@ -2758,7 +2907,7 @@
         </item>
         <item id="pl-l1d45c6" type="capitulus">
           <fileName filestem="pl-l1d45c6">pl-l1d45c6.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 6</title>
+          <title>Liber I, distinctio 45, capitulum 6</title>
           <questionTitle>Quod praeceptio, prohibitio, permissio, consilium, operatio nomine voluntatis interdum intelliguntur.</questionTitle>
           <incipit>Aliquando vero, secundum quandam dicendi</incipit>
           <hasWitnesses>
@@ -2769,7 +2918,7 @@
         </item>
         <item id="pl-l1d45c7" type="capitulus">
           <fileName filestem="pl-l1d45c7">pl-l1d45c7.xml</fileName>
-          <title>Liber I, distinctio 45, capitulus 7</title>
+          <title>Liber I, distinctio 45, capitulum 7</title>
           <questionTitle>Utrum Deus velit ab omnibus fieri ea quae praecipit, vel non fieri quae prohibet.</questionTitle>
           <incipit>Et si illa tria dicantur Dei voluntas</incipit>
           <hasWitnesses>
@@ -2785,7 +2934,7 @@
 
         <item id="pl-l1d46c1" type="capitulus">
           <fileName filestem="pl-l1d46c1">pl-l1d46c1.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 1</title>
+          <title>Liber I, distinctio 46, capitulum 1</title>
           <questionTitle>Quod voluntas Dei quae ipse est in nullo cassari potest.</questionTitle>
           <incipit>Hic oritur quaestio</incipit>
           <hasWitnesses>
@@ -2796,7 +2945,7 @@
         </item>
         <item id="pl-l1d46c2" type="capitulus">
           <fileName filestem="pl-l1d46c2">pl-l1d46c2.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 2</title>
+          <title>Liber I, distinctio 46, capitulum 2</title>
           <questionTitle>Quomodo intelligendum sit illud: Volui congregare filios tuos et noluisti, et illud: Qui vult omnes homines salvos fieri.</questionTitle>
           <incipit>Sed audiamus solutionem</incipit>
           <hasWitnesses>
@@ -2808,7 +2957,7 @@
         </item>
         <item id="pl-l1d46c3" type="capitulus">
           <fileName filestem="pl-l1d46c3">pl-l1d46c3.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 3</title>
+          <title>Liber I, distinctio 46, capitulum 3</title>
           <questionTitle>Utrum mala Deo volente vel nolente fiant.</questionTitle>
           <incipit>Ideoque cum constet</incipit>
           <hasWitnesses>
@@ -2820,7 +2969,7 @@
         </item>
         <item id="pl-l1d46c4" type="capitulus">
           <fileName filestem="pl-l1d46c4">pl-l1d46c4.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 4</title>
+          <title>Liber I, distinctio 46, capitulum 4</title>
           <questionTitle>Quomodo intelligendum sit illud Augustini: Mala fieri bonum est.</questionTitle>
           <incipit>Quod vero Augustinus ait</incipit>
           <hasWitnesses>
@@ -2831,7 +2980,7 @@
         </item>
         <item id="pl-l1d46c5" type="capitulus">
           <fileName filestem="pl-l1d46c5">pl-l1d46c5.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 5</title>
+          <title>Liber I, distinctio 46, capitulum 5</title>
           <questionTitle>De multiplici acceptione boni.</questionTitle>
           <incipit>Est enim aliquid</incipit>
           <hasWitnesses>
@@ -2842,7 +2991,7 @@
         </item>
         <item id="pl-l1d46c6" type="capitulus">
           <fileName filestem="pl-l1d46c6">pl-l1d46c6.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 6</title>
+          <title>Liber I, distinctio 46, capitulum 6</title>
           <questionTitle>Quod mala universitati valent.</questionTitle>
           <incipit>Hinc patet quod ex malis</incipit>
           <hasWitnesses>
@@ -2854,7 +3003,7 @@
         </item>
         <item id="pl-l1d46c7" type="capitulus">
           <fileName filestem="pl-l1d46c7">pl-l1d46c7.xml</fileName>
-          <title>Liber I, distinctio 46, capitulus 7</title>
+          <title>Liber I, distinctio 46, capitulum 7</title>
           <questionTitle>Quod in Deo non est causa ut sit homo deterior.</questionTitle>
           <incipit>Deinde idem Augustinus quaerens</incipit>
           <hasWitnesses>
@@ -2870,7 +3019,7 @@
 
         <item id="pl-l1d47c1" type="capitulus">
           <fileName filestem="pl-l1d47c1">pl-l1d47c1.xml</fileName>
-          <title>Liber I, distinctio 47, capitulus 1</title>
+          <title>Liber I, distinctio 47, capitulum 1</title>
           <questionTitle>Quomodo voluntas Dei de homine impletur quocumque se vertat.</questionTitle>
           <incipit>Voluntas quippe Dei semper</incipit>
           <hasWitnesses>
@@ -2881,7 +3030,7 @@
         </item>
         <item id="pl-l1d47c2" type="capitulus">
           <fileName filestem="pl-l1d47c2">pl-l1d47c2.xml</fileName>
-          <title>Liber I, distinctio 47, capitulus 2</title>
+          <title>Liber I, distinctio 47, capitulum 2</title>
           <questionTitle>Ex quo sensu quaedam dicuntur fieri contra Dei voluntatem.</questionTitle>
           <incipit>Multa enim fiunt contra Dei praeceptum</incipit>
           <hasWitnesses>
@@ -2893,7 +3042,7 @@
         </item>
         <item id="pl-l1d47c3" type="capitulus">
           <fileName filestem="pl-l1d47c3">pl-l1d47c3.xml</fileName>
-          <title>Liber I, distinctio 47, capitulus 3</title>
+          <title>Liber I, distinctio 47, capitulum 3</title>
           <questionTitle>Quare praecipit Deus omnibus bona facere et mala vitare, si non id ab omnibus vult impleri.</questionTitle>
           <incipit>Ex praedictis liquet, quod voluntas Dei</incipit>
           <hasWitnesses>
@@ -2908,7 +3057,7 @@
         <head>Distinctio 48</head>
         <item id="pl-l1d48c1" type="capitulus">
           <fileName filestem="pl-l1d48c1">pl-l1d48c1.xml</fileName>
-          <title>Liber I, distinctio 48, capitulus 1</title>
+          <title>Liber I, distinctio 48, capitulum 1</title>
           <questionTitle>Quod homo aliquando bona voluntate aliud vult quam Deus, et mala idem quod Deus.</questionTitle>
           <incipit>Sciendum quoque est, quod aliquando est mala voluntas</incipit>
           <hasWitnesses>
@@ -2920,7 +3069,7 @@
         </item>
         <item id="pl-l1d48c2" type="capitulus">
           <fileName filestem="pl-l1d48c2">pl-l1d48c2.xml</fileName>
-          <title>Liber I, distinctio 48, capitulus 2</title>
+          <title>Liber I, distinctio 48, capitulum 2</title>
           <questionTitle>Quod Dei voluntas per malas hominum voluntates impletur.</questionTitle>
           <incipit>Illud quoque non est praetermittendum</incipit>
           <hasWitnesses>
@@ -2932,7 +3081,7 @@
         </item>
         <item id="pl-l1d48c3" type="capitulus">
           <fileName filestem="pl-l1d48c3">pl-l1d48c3.xml</fileName>
-          <title>Liber I, distinctio 48, capitulus 3</title>
+          <title>Liber I, distinctio 48, capitulum 3</title>
           <questionTitle>Utrum placuerit viris sanctis quod Christus pateretur et moreretur.</questionTitle>
           <incipit>Ex quo solvitur quaestio</incipit>
           <hasWitnesses>
@@ -2943,7 +3092,7 @@
         </item>
         <item id="pl-l1d48c4" type="capitulus">
           <fileName filestem="pl-l1d48c4">pl-l1d48c4.xml</fileName>
-          <title>Liber I, distinctio 48, capitulus 4</title>
+          <title>Liber I, distinctio 48, capitulum 4</title>
           <questionTitle>Utrum passiones sanctorum debeamus velle.</questionTitle>
           <incipit>Si vero quaeritur, utrum eodem modo</incipit>
           <hasWitnesses>
@@ -4845,7 +4994,7 @@
         <head>DISTINCTIO I</head>
         <item id="pl-l3d1c1" type="capitulus">
           <fileName filestem="pl-l3d1c1">pl-l3d1c1.xml</fileName>
-          <title>Cap. 1. </title>
+          <title>III, Dist. 1, Cap. 1.</title>
           <questionTitle>Quare Filius carnem assumpsit, non Pater vel Spiritus Sanctus.</questionTitle>
         	<hasWitnesses>
 	        	<witness ref="#H">
@@ -4855,31 +5004,30 @@
         </item>
         <item id="pl-l3d1c2" type="capitulus">
           <fileName filestem="pl-l3d1c2">pl-l3d1c2.xml</fileName>
-          <title>Cap. 2. </title>
+          <title>III, Dist. 1, Cap. 2</title>
           <questionTitle>Utrum Pater vel Spiritus Sanctus potuerit incarnari.</questionTitle>
         </item>
         <item id="pl-l3d1c3" type="capitulus">
           <fileName filestem="pl-l3d1c3">pl-l3d1c3.xml</fileName>
-          <title>Cap. 3. </title>
+          <title>III, Dist. 1, Cap. 3</title>
           <questionTitle>An Filius qui tantum carnem accepit, aliquid fecerit quod non Pater vel Spiritus Sanctus.</questionTitle>
         </item>
       </div>
       <div id="pl-l3d2" type="distinctio">
         <head>DISTINCTIO II</head>
-
         <item id="pl-l3d2c1" type="capitulus">
           <fileName filestem="pl-l3d2c1">pl-l3d2c1.xml</fileName>
-          <title>Cap. 4 (1). </title>
+          <title>III, Dist. 2, Cap. 1</title>
           <questionTitle>Quare totam humanam naturam accepit, et quid nomine naturae intelligitur.</questionTitle>
         </item>
         <item id="pl-l3d2c2" type="capitulus">
           <fileName filestem="pl-l3d2c2">pl-l3d2c2.xml</fileName>
-          <title>Cap. 5 (2). </title>
+          <title>III, Dist. 2, Cap. 2</title>
           <questionTitle>De unione Verbi et carnis mediante anima.</questionTitle>
         </item>
         <item id="pl-l3d2c3" type="capitulus">
           <fileName filestem="pl-l3d2c3">pl-l3d2c3.xml</fileName>
-          <title>Cap. 6 (3). </title>
+          <title>III, Dist. 2, Cap. 3</title>
           <questionTitle>Quod simul assumpsit carnem et animam Verbum, nec caro prius est concepta quam assumpta.</questionTitle>
         </item>
       </div>
@@ -4887,22 +5035,22 @@
         <head>DISTINCTIO III</head>
         <item id="pl-l3d3c1" type="capitulus">
           <fileName filestem="pl-l3d3c1">pl-l3d3c1.xml</fileName>
-          <title>Cap. 7 (1). </title>
+          <title>III, Dist. 3, Cap. 1</title>
           <questionTitle>De carne assumpta, qualis ante fuerit.</questionTitle>
         </item>
         <item id="pl-l3d3c2" type="capitulus">
           <fileName filestem="pl-l3d3c2">pl-l3d3c2.xml</fileName>
-          <title>Cap. 8 (2). </title>
+          <title>III, Dist. 3, Cap. 2</title>
           <questionTitle>Quod nullus est sine peccato hic, excepta Virgine.</questionTitle>
         </item>
         <item id="pl-l3d3c3" type="capitulus">
           <fileName filestem="pl-l3d3c3">pl-l3d3c3.xml</fileName>
-          <title>Cap. 9 (3). </title>
+          <title>III, Dist. 3, Cap. 3</title>
           <questionTitle>Quare Christus non fuit decimatus in Abraham sicut Levi.</questionTitle>
         </item>
         <item id="pl-l3d3c4" type="capitulus">
           <fileName filestem="pl-l3d3c4">pl-l3d3c4.xml</fileName>
-          <title>Cap. 10 (4). </title>
+          <title>III, Dist. 3, Cap. 4</title>
           <questionTitle>Quare caro Christi non dicta est peccatrix, sed similis.</questionTitle>
         </item>
       </div>
@@ -4910,17 +5058,17 @@
         <head>DISTINCTIO IV</head>
         <item id="pl-l3d4c1" type="capitulus">
           <fileName filestem="pl-l3d4c1">pl-l3d4c1.xml</fileName>
-          <title>Cap. 11 (1). </title>
+          <title>III, Dist. 4, Cap. 1</title>
           <questionTitle>Quare Spiritui Sancto tribuatur incarnatio, cum sit opus Trinitatis.</questionTitle>
         </item>
         <item id="pl-l3d4c2" type="capitulus">
           <fileName filestem="pl-l3d4c2">pl-l3d4c2.xml</fileName>
-          <title>Cap. 12 (2). </title>
+          <title>III, Dist. 4, Cap. 2</title>
           <questionTitle>Quare dicatur Christus conceptus et natus de Spiritu Sancto.</questionTitle>
         </item>
         <item id="pl-l3d4c3" type="capitulus">
           <fileName filestem="pl-l3d4c3">pl-l3d4c3.xml</fileName>
-          <title>Cap. 13 (3). </title>
+          <title>III, Dist. 4, Cap. 3</title>
           <questionTitle>Quare Apostolus dicit Christum factum, quem nos fatemur natum.</questionTitle>
         </item>
       </div>
@@ -4928,17 +5076,17 @@
         <head>DISTINCTIO V</head>
         <item id="pl-l3d5c1" type="capitulus">
           <fileName filestem="pl-l3d5c1">pl-l3d5c1.xml</fileName>
-          <title>Cap. 14 (1). </title>
+          <title>III, Dist. 5, Cap. 1</title>
           <questionTitle>Si persona vel natura personam vel naturam assumpsit, et si natura Dei sit incarnata.</questionTitle>
         </item>
         <item id="pl-l3d5c2" type="capitulus">
           <fileName filestem="pl-l3d5c2">pl-l3d5c2.xml</fileName>
-          <title>Cap. 15 (2). </title>
+          <title>III, Dist. 5, Cap. 2</title>
           <questionTitle>An divina natura debeat dici caro facta.</questionTitle>
         </item>
         <item id="pl-l3d5c3" type="capitulus">
           <fileName filestem="pl-l3d5c3">pl-l3d5c3.xml</fileName>
-          <title>Cap. 16 (3). </title>
+          <title>III, Dist. 5, Cap. 3</title>
           <questionTitle>Quare non accepit personam hominis, cum assumpserit hominem: quod quidam probare nituntur.</questionTitle>
         </item>
       </div>
@@ -4946,32 +5094,32 @@
         <head>DISTINCTIO VI</head>
         <item id="pl-l3d6c1" type="capitulus">
           <fileName filestem="pl-l3d6c1">pl-l3d6c1.xml</fileName>
-          <title>Cap. 17 (1). </title>
+          <title>III, Dist. 6, Cap. 1</title>
           <questionTitle>De intelligentia harum locutionum: Deus est homo, Deus factus est homo etc. Tres sententias ponit.</questionTitle>
         </item>
         <item id="pl-l3d6c2" type="capitulus">
           <fileName filestem="pl-l3d6c2">pl-l3d6c2.xml</fileName>
-          <title>Cap. 18 (2). </title>
+          <title>III, Dist. 6, Cap. 2</title>
           <questionTitle>Prima est eorum qui dicunt in incarnatione hominem quendam ex anima et carne constitutum, et illum hominem factum esse Deum et Deum illum hominem; et auctoritates quibus ita asserunt ponit.</questionTitle>
         </item>
         <item id="pl-l3d6c3" type="capitulus">
           <fileName filestem="pl-l3d6c3">pl-l3d6c3.xml</fileName>
-          <title>Cap. 19 (3). </title>
+          <title>III, Dist. 6, Cap. 3</title>
           <questionTitle>Secunda est eorum qui dicunt hominem illum ex tribus: substantiis vel ex duabus naturis constare, et hunc fatentur unam esse personam: ante incarnationem simplicem tantum, sed incarnatione compositam; et auctoritates quibus se muniunt proponit.</questionTitle>
         </item>
         <item id="pl-l3d6c4" type="capitulus">
           <fileName filestem="pl-l3d6c4">pl-l3d6c4.xml</fileName>
-          <title>Cap. 20 (4). </title>
+          <title>III, Dist. 6, Cap. 4</title>
           <questionTitle>Tertia est eorum qui non solum personam ex naturis compositam negant, sed etiam aliquem hominem vel aliquam substantiam ibi ex anima et carne compositam diffitentur; et sic illa duo, scilicet animam et carnem, Verbo unita dicunt, ut non ex illis aliqua substantia vel persona componeretur, sed illis duobus velut indumento Deus vestiretur ut mortalibus oculis appareret: qui rationem incarnationis secundum habitum accipiunt.</questionTitle>
         </item>
         <item id="pl-l3d6c5" type="capitulus">
           <fileName filestem="pl-l3d6c5">pl-l3d6c5.xml</fileName>
-          <title>Cap. 21 (5). </title>
+          <title>III, Dist. 6, Cap. 5</title>
           <questionTitle>Deinde auctoritates inducit quibus haec sententia roboratur.</questionTitle>
         </item>
         <item id="pl-l3d6c6" type="capitulus">
           <fileName filestem="pl-l3d6c6">pl-l3d6c6.xml</fileName>
-          <title>Cap. 22 (6). </title>
+          <title>III, Dist. 6, Cap. 6</title>
           <questionTitle>Quatuor species habitus distinguuntur.</questionTitle>
         </item>
       </div>
@@ -4979,17 +5127,17 @@
         <head>DISTINCTIO VII</head>
         <item id="pl-l3d7c1" type="capitulus">
           <fileName filestem="pl-l3d7c1">pl-l3d7c1.xml</fileName>
-          <title>Cap. 23 (1). </title>
+          <title>III, Dist. 7, Cap. 1</title>
           <questionTitle>Deinde quae singulis sententiis adversari videntur ponit. </questionTitle>
         </item>
         <item id="pl-l3d7c2" type="capitulus">
           <fileName filestem="pl-l3d7c2">pl-l3d7c2.xml</fileName>
-          <title>Cap. 24 (2). </title>
+          <title>III, Dist. 7, Cap. 2</title>
           <questionTitle>Ex quo sensu dicitur Christus praedestinatus.</questionTitle>
         </item>
         <item id="pl-l3d7c3" type="capitulus">
           <fileName filestem="pl-l3d7c3">pl-l3d7c3.xml</fileName>
-          <title>Cap. 25 (3). </title>
+          <title>III, Dist. 7, Cap. 3</title>
           <questionTitle>Quod non debet dici homo dominicus.</questionTitle>
         </item>
       </div>
@@ -4997,12 +5145,12 @@
         <head>DISTINCTIO VIII</head>
         <item id="pl-l3d8c1" type="capitulus">
           <fileName filestem="pl-l3d8c1">pl-l3d8c1.xml</fileName>
-          <title>Cap. 26 (1). </title>
+          <title>III, Dist. 8, Cap. 1</title>
           <questionTitle>An divina natura dici debeat nata de Virgine. </questionTitle>
         </item>
         <item id="pl-l3d8c2" type="capitulus">
           <fileName filestem="pl-l3d8c2">pl-l3d8c2.xml</fileName>
-          <title>Cap. 27 (2). </title>
+          <title>III, Dist. 8, Cap. 2</title>
           <questionTitle>De gemina nativitate Christi qui bis natus est.</questionTitle>
         </item>
       </div>
@@ -5010,7 +5158,7 @@
         <head>DISTINCTIO IX</head>
         <item id="pl-l3d9c1" type="capitulus">
           <fileName filestem="pl-l3d9c1">pl-l3d9c1.xml</fileName>
-          <title>Cap. 28 (1). </title>
+          <title>III, Dist. 9, Cap. 1</title>
           <questionTitle>De adoratione exhibenda humanitati Christi.</questionTitle>
         </item>
       </div>
@@ -5018,17 +5166,17 @@
         <head>DISTINCTIO X</head>
         <item id="pl-l3d10c1" type="capitulus">
           <fileName filestem="pl-l3d10c1">pl-l3d10c1.xml</fileName>
-          <title>Cap. 29 (1). </title>
+          <title>III, Dist. 10, Cap. 1</title>
           <questionTitle>Christus secundum quod homo sit persona vel aliquid.</questionTitle>
         </item>
         <item id="pl-l3d10c2" type="capitulus">
           <fileName filestem="pl-l3d10c2">pl-l3d10c2.xml</fileName>
-          <title>Cap. 30 (2). </title>
+          <title>III, Dist. 10, Cap. 2</title>
           <questionTitle>An Christus secundum quod homo sit adoptivus filius.</questionTitle>
         </item>
         <item id="pl-l1d1c?" type="capitulus">
           <fileName filestem="pl-l3d10c3">pl-l1d1c?.xml</fileName>
-          <title>Cap. 31 (3). </title>
+          <title>III, Dist. 10, Cap. 3</title>
           <questionTitle>An persona vel natura praedestinata sit.</questionTitle>
         </item>
       </div>
@@ -5036,35 +5184,35 @@
         <head>DISTINCTIO XI</head>
         <item id="pl-l3d11c1" type="capitulus">
           <fileName filestem="pl-l3d11c1">pl-l3d11c1.xml</fileName>
-          <title>Cap. 32 (1). </title>
+          <title>III, Dist. 11, Cap. 1</title>
           <questionTitle>Utrum Christus sit creatura vel factus.</questionTitle>
         </item>
         <item id="pl-l3d11c2" type="capitulus">
           <fileName filestem="pl-l3d11c2">pl-l3d11c2.xml</fileName>
-          <title>Cap. 33 (2). </title>
+          <title>III, Dist. 11, Cap. 2</title>
           <questionTitle>De perfidia et poena Arii.</questionTitle>
+        </item>
+        <item id="pl-l3d11c3" type="capitulus">
+          <fileName filestem="pl-l3d11c3">pl-l3d11c3.xml</fileName>
+          <title>III, Dist. 11, Cap. 3</title>
+          <questionTitle>An homo ille semper fuerit</questionTitle>
         </item>
       </div>
       <div id="pl-l3d12" type="distinctio">
         <head>DISTINCTIO XII</head>
         <item id="pl-l3d12c1" type="capitulus">
           <fileName filestem="pl-l3d12c1">pl-l3d12c1.xml</fileName>
-          <title>Cap. 34 (1). </title>
-          <questionTitle>An homo ille semper fuerit.</questionTitle>
+          <title>III, Dist. 12, Cap. 1</title>
+          <questionTitle>An Deus alium sumere potuit vel aliunde quam de genere Adae.</questionTitle>
         </item>
         <item id="pl-l3d12c2" type="capitulus">
           <fileName filestem="pl-l3d12c2">pl-l3d12c2.xml</fileName>
-          <title>Cap. 35 (2). </title>
-          <questionTitle>An Deus alium sumere potuit vel aliunde quam de genere Adae.</questionTitle>
-        </item>
-        <item id="pl-l3d12c3" type="capitulus">
-          <fileName filestem="pl-l3d12c3">pl-l3d12c3.xml</fileName>
-          <title>Cap. 36 (3). </title>
+          <title>III, Dist. 12, Cap. 2</title>
           <questionTitle>Si homo ille potuerit peccare vel non esse Deus.</questionTitle>
         </item>
         <item id="pl-l3d12c4" type="capitulus">
-          <fileName filestem="pl-l3d12c4">pl-l3d12c4.xml</fileName>
-          <title>Cap. 37 (4). </title>
+          <fileName filestem="pl-l3d12c3">pl-l3d12c3.xml</fileName>
+          <title>III, Dist. 12, Cap. 3</title>
           <questionTitle>Si Deus potuit assumere hominem in sexu muliebri.</questionTitle>
         </item>
       </div>
@@ -5072,7 +5220,7 @@
         <head>DISTINCTIO XIII</head>
         <item id="pl-l3d13c1" type="capitulus">
           <fileName filestem="pl-l3d13c1">pl-l3d13c1.xml</fileName>
-          <title>Cap. 38 (1). </title>
+          <title>III, Dist. 13, Cap. 1</title>
           <questionTitle>De sapientia et gratia Christi hominis, an in eis proficere potuerit.</questionTitle>
         </item>
       </div>
@@ -5080,12 +5228,12 @@
         <head>DISTINCTIO XIV</head>
         <item id="pl-l3d14c1" type="capitulus">
           <fileName filestem="pl-l3d14c1">pl-l3d14c1.xml</fileName>
-          <title>Cap. 39 (1). </title>
+          <title>III, Dist. 14, Cap. 1</title>
           <questionTitle>Si anima Christi habuerit sapientiam parem cum Deo, et si omnia scit quae Deus.</questionTitle>
         </item>
         <item id="pl-l3d14c2" type="capitulus">
           <fileName filestem="pl-l3d14c2">pl-l3d14c2.xml</fileName>
-          <title>Cap. 40 (2). </title>
+          <title>III, Dist. 14, Cap. 2</title>
           <questionTitle>Quare Deus non dedit illi animae potentiam omnium ut scientiam.</questionTitle>
         </item>
       </div>
@@ -5093,35 +5241,35 @@
         <head>DISTINCTIO XV</head>
         <item id="pl-l3d15c1" type="capitulus">
           <fileName filestem="pl-l3d15c1">pl-l3d15c1.xml</fileName>
-          <title>Cap. 41 (1). </title>
+          <title>III, Dist. 15, Cap. 1</title>
           <questionTitle>De hominis defectibus quos assumpsit Christus.</questionTitle>
         </item>
         <item id="pl-l3d15c2" type="capitulus">
           <fileName filestem="pl-l3d15c2">pl-l3d15c2.xml</fileName>
-          <title>Cap. 42 (2). </title>
+          <title>III, Dist. 15, Cap. 2</title>
           <questionTitle>De propassione et passione timoris vel tristitiae.</questionTitle>
         </item>
         <item id="pl-l3d15c3" type="capitulus">
           <fileName filestem="pl-l3d15c3">pl-l3d15c3.xml</fileName>
-          <title>Cap. 43 (3). </title>
+          <title>III, Dist. 15, Cap. 3</title>
           <questionTitle>De quibusdam capitulis Hilarii obscuris, quibus a carne Christi dolores passionis submoveri videntur.</questionTitle>
         </item>
         <item id="pl-l3d15c4" type="capitulus">
           <fileName filestem="pl-l3d15c4">pl-l3d15c4.xml</fileName>
-          <title>Cap. 44 (4). </title>
+          <title>III, Dist. 15, Cap. 4</title>
           <questionTitle>De tristitia Christi et eius causa secundum eundem.</questionTitle>
         </item>
       </div>
       <div id="pl-l3d16" type="distinctio">
-        <head>DISTlNCTIO XVI</head>
+        <head>DISTINCTIO XVI</head>
         <item id="pl-l3d16c1" type="capitulus">
           <fileName filestem="pl-l3d16c1">pl-l3d16c1.xml</fileName>
-          <title>Cap. 45 (1). </title>
+          <title>III, Dist. 16, Cap. 1</title>
           <questionTitle>An in Christo fuerit necessitas patiendi et moriendi, quae est defectus generalis.</questionTitle>
         </item>
         <item id="pl-l3d16c2" type="capitulus">
           <fileName filestem="pl-l3d16c2"/>
-          <title>Cap. 46 (2). </title>
+          <title>III, Dist. 16, Cap. 2</title>
           <questionTitle>De statibus hominis et quid Christus de singulis acceperit.</questionTitle>
         </item>
       </div>
@@ -5129,17 +5277,17 @@
         <head>DISTINCTIO XVII</head>
         <item id="pl-l3d17c1" type="capitulus">
           <fileName filestem="pl-l3d17c1">pl-l3d17c1.xml</fileName>
-          <title>Cap. 47 (1). </title>
+          <title>III, Dist. 17, Cap. 1</title>
           <questionTitle>Si omnis Christi oratio vel voluntas impleta sit.</questionTitle>
         </item>
         <item id="pl-l3d17c2" type="capitulus">
           <fileName filestem="pl-l3d17c2">pl-l3d17c2.xml</fileName>
-          <title>Cap.48 (2). </title>
+          <title>III, Dist. 17, Cap. 2</title>
           <questionTitle>De voluntatibus Christi secundum duas naturas.</questionTitle>
         </item>
         <item id="pl-l3d17c3" type="capitulus">
           <fileName filestem="pl-l3d17c3">pl-l3d17c3.xml</fileName>
-          <title>Cap. 49 (3). </title>
+          <title>III, Dist. 17, Cap. 3</title>
           <questionTitle>De capitulis quibusdam Ambrosii et Hilarii, ubi de dubitatione et timore Christi agitur.</questionTitle>
         </item>
       </div>
@@ -5147,27 +5295,27 @@
         <head>DISTINCTIO XVIII</head>
         <item id="pl-l3d18c1" type="capitulus">
           <fileName filestem="pl-l3d18c1">pl-l3d18c1.xml</fileName>
-          <title>Cap. 50 (1). </title>
+          <title>III, Dist. 18, Cap. 1</title>
           <questionTitle>Si Christus meruit sibi et nobis, et quid sibi et quid nobis.</questionTitle>
         </item>
         <item id="pl-l3d18c1" type="capitulus">
           <fileName filestem="pl-l3d18c1">pl-l3d18c1.xml</fileName>
-          <title>Cap. 51 (2). </title>
+          <title>III, Dist. 18, Cap. 2</title>
           <questionTitle>Quod a conceptu meruit Christus sibi idem quod per passionem.</questionTitle>
         </item>
         <item id="pl-l3d18c3" type="capitulus">
           <fileName filestem="pl-l3d18c3">pl-l3d18c3.xml</fileName>
-          <title>Cap. 52 (3). </title>
+          <title>III, Dist. 18, Cap. 3</title>
           <questionTitle>De eo quod scriptum est: Donavit illi nomen quod est supra omne nomen.</questionTitle>
         </item>
         <item id="pl-l3d18c4" type="capitulus">
           <fileName filestem="pl-l3d18c4">pl-l3d18c4.xml</fileName>
-          <title>Cap. 53 (4). </title>
+          <title>III, Dist. 18, Cap. 4</title>
           <questionTitle>Si Christus sine omni merito habere valuit quod merito obtinuit.</questionTitle>
         </item>
         <item id="pl-l3d18c5" type="capitulus">
           <fileName filestem="pl-l3d18c5">pl-l3d18c5.xml</fileName>
-          <title>Cap. 54 (5). </title>
+          <title>III, Dist. 18, Cap. 5</title>
           <questionTitle>De causa passionis et mortis Christi.</questionTitle>
         </item>
       </div>
@@ -5175,37 +5323,37 @@
         <head>DISTINCTIO XIX</head>
         <item id="pl-l3d19c1" type="capitulus">
           <fileName filestem="pl-l3d19c1">pl-l3d19c1.xml</fileName>
-          <title>Cap. 55 (1). </title>
+          <title>III, Dist. 19, Cap. 1</title>
           <questionTitle>Qualiter a diabolo et a peccato redemit nos Christus per mortem.</questionTitle>
         </item>
         <item id="pl-l3d19c2" type="capitulus">
           <fileName filestem="pl-l3d19c2">pl-l3d19c2.xml</fileName>
-          <title>Cap. 56 (2). </title>
+          <title>III, Dist. 19, Cap. 2</title>
           <questionTitle>Cur Deus homo et mortuus.</questionTitle>
         </item>
         <item id="pl-l3d19c3" type="capitulus">
           <fileName filestem="pl-l3d19c3">pl-l3d19c3.xml</fileName>
-          <title>Cap. 57 (3). </title>
+          <title>III, Dist. 19, Cap. 3</title>
           <questionTitle>Quomodo a poena nos redemit Christus.</questionTitle>
         </item>
         <item id="pl-l3d19c4" type="capitulus">
           <fileName filestem="pl-l3d19c4">pl-l3d19c4.xml</fileName>
-          <title>Cap. 58 (4). </title>
+          <title>III, Dist. 19, Cap. 4</title>
           <questionTitle>Quomodo poenam nostram portavit.</questionTitle>
         </item>
         <item id="pl-l3d19c5" type="capitulus">
           <fileName filestem="pl-l3d19c5">pl-l3d19c5.xml</fileName>
-          <title>Cap. 59 (5). </title>
+          <title>III, Dist. 19, Cap. 5</title>
           <questionTitle>Si solus Christus redemptor ut mediator debet dici.</questionTitle>
         </item>
         <item id="pl-l3d19c6" type="capitulus">
           <fileName filestem="pl-l3d19c6">pl-l3d19c6.xml</fileName>
-          <title>Cap. 60 (6). </title>
+          <title>III, Dist. 19, Cap. 6</title>
           <questionTitle>De mediatore.</questionTitle>
         </item>
         <item id="pl-l3d19c7" type="capitulus">
           <fileName filestem="pl-l3d19c7">pl-l3d19c7.xml</fileName>
-          <title>Cap. 61 (7). </title>
+          <title>III, Dist. 19, Cap. 7</title>
           <questionTitle>Secundum quam naturam sit mediator.</questionTitle>
         </item>
       </div>
@@ -5213,32 +5361,32 @@
         <head>DISTINCTIO XX</head>
         <item id="pl-l3d20c1" type="capitulus">
           <fileName filestem="pl-l3d20c1">pl-l3d20c1.xml</fileName>
-          <title>Cap. 62 (1). </title>
+          <title>III, Dist. 20, Cap. 1</title>
           <questionTitle>Quod alio modo potuit liberare.</questionTitle>
         </item>
         <item id="pl-l3d20c2" type="capitulus">
           <fileName filestem="pl-l3d20c2">pl-l3d20c2.xml</fileName>
-          <title>Cap. 63 (2). </title>
+          <title>III, Dist. 20, Cap. 2</title>
           <questionTitle>Quare isto modo potius.</questionTitle>
         </item>
         <item id="pl-l3d20c3" type="capitulus">
           <fileName filestem="pl-l3d20c3">pl-l3d20c3.xml</fileName>
-          <title>Cap. 64 (3). </title>
+          <title>III, Dist. 20, Cap. 3</title>
           <questionTitle>Qua iustitia sit victus diabolus.</questionTitle>
         </item>
         <item id="pl-l3d20c4" type="capitulus">
           <fileName filestem="pl-l3d20c4">pl-l3d20c4.xml</fileName>
-          <title>Cap. 65 (4). </title>
+          <title>III, Dist. 20, Cap. 4</title>
           <questionTitle>De causa inter Deum et hominem et diabolum.</questionTitle>
         </item>
         <item id="pl-l3d20c5" type="capitulus">
           <fileName filestem="pl-l3d20c5">pl-l3d20c5.xml</fileName>
-          <title>Cap. 66 (5). </title>
+          <title>III, Dist. 20, Cap. 5</title>
           <questionTitle>De traditione Christi facta a Iuda, a Deo, a Iudaeis.</questionTitle>
         </item>
         <item id="pl-l3d20c6" type="capitulus">
           <fileName filestem="pl-l3d20c6">pl-l3d20c6.xml</fileName>
-          <title>Cap. 67 (6). </title>
+          <title>III, Dist. 20, Cap. 6</title>
           <questionTitle>Utrum Christi passio sit opus Dei vel Iudaeorum.</questionTitle>
         </item>
       </div>
@@ -5246,12 +5394,12 @@
         <head>DISTINCTIO XXI</head>
         <item id="pl-l3d21c1" type="capitulus">
           <fileName filestem="pl-l3d21c1">pl-l3d21c1.xml</fileName>
-          <title>Cap. 68 (1). </title>
+          <title>III, Dist. 21, Cap. 1</title>
           <questionTitle>Si in Christi morte separata fuit anima vel caro a Verbo.</questionTitle>
         </item>
         <item id="pl-l3d21c2" type="capitulus">
           <fileName filestem="pl-l3d21c2">pl-l3d21c2.xml</fileName>
-          <title>Cap. 69 (2). </title>
+          <title>III, Dist. 21, Cap. 2</title>
           <questionTitle>Qua ratione dicitur Christus mortuus vel passus.</questionTitle>
         </item>
       </div>
@@ -5259,70 +5407,70 @@
         <head>DISTINCTIO XXII</head>
         <item id="pl-l3d22c1" type="capitulus">
           <fileName filestem="pl-l3d22c1">pl-l3d22c1.xml</fileName>
-          <title>Cap. 70 (1). </title>
+          <title>III, Dist. 22, Cap. 1</title>
           <questionTitle>Si Christus in morte fuit homo.</questionTitle>
         </item>
         <item id="pl-l3d22c2" type="capitulus">
           <fileName filestem="pl-l3d22c2">pl-l3d22c2.xml</fileName>
-          <title>Cap. 71 (2). </title>
+          <title>III, Dist. 22, Cap. 2</title>
           <questionTitle>Si Christus ubicumque est sit homo.</questionTitle>
         </item>
         <item id="pl-l3d22c3" type="capitulus">
           <fileName filestem="pl-l3d22c3">pl-l3d22c3.xml</fileName>
-          <title>Cap. 72 (3). </title>
+          <title>III, Dist. 22, Cap. 3</title>
           <questionTitle>Quod Christus ubique totus est, sed non totum: ut totus est homo vel Deus, sed non totum.</questionTitle>
         </item>
         <item id="pl-l3d22c4" type="capitulus">
           <fileName filestem="pl-l3d22c4">pl-l3d22c4.xml</fileName>
-          <title>Cap. 73 (4). </title>
+          <title>III, Dist. 22, Cap. 4</title>
           <questionTitle>Si ea quae dicuntur de Deo vel de Filio Dei, possint dici de homine illo vel de filio hominis.</questionTitle>
         </item>
       </div>
       <div id="pl-l3d23" type="distinctio">
         <head>DISTINCTIO XXIII</head>
-        <item id="pl-l3d22c1" type="capitulus">
-          <fileName filestem="pl-l3d22c1">pl-l3d22c1.xml</fileName>
-          <title>Cap. 74 (1). </title>
+        <item id="pl-l3d23c1" type="capitulus">
+          <fileName filestem="pl-l3d23c1">pl-l3d23c1.xml</fileName>
+          <title>III, Dist. 23, Cap. 1</title>
           <questionTitle>Si Christus habuerit fidem, spem ut caritatem.</questionTitle>
         </item>
-        <item id="pl-l3d22c2" type="capitulus">
-          <fileName filestem="pl-l3d22c2">pl-l3d22c2.xml</fileName>
-          <title>Cap. 75 (2). </title>
+        <item id="pl-l3d23c2" type="capitulus">
+          <fileName filestem="pl-l3d23c2">pl-l3d23c2.xml</fileName>
+          <title>III, Dist. 23, Cap. 2</title>
           <questionTitle>Quid sit fides.</questionTitle>
         </item>
-        <item id="pl-l3d22c3" type="capitulus">
-          <fileName filestem="pl-l3d22c3">pl-l3d22c3.xml</fileName>
-          <title>Cap. 76 (3). </title>
+        <item id="pl-l3d23c3" type="capitulus">
+          <fileName filestem="pl-l3d23c3">pl-l3d23c3.xml</fileName>
+          <title>III, Dist. 23, Cap. 3</title>
           <questionTitle>Quot modis dicitur fides.</questionTitle>
         </item>
-        <item id="pl-l3d22c4" type="capitulus">
-          <fileName filestem="pl-l3d22c4">pl-l3d22c4.xml</fileName>
-          <title>Cap. 77 (4). </title>
+        <item id="pl-l3d23c4" type="capitulus">
+          <fileName filestem="pl-l3d23c4">pl-l3d23c4.xml</fileName>
+          <title>III, Dist. 23, Cap. 4</title>
           <questionTitle>Quid sit credere Deum vel Deo vel in Deum.</questionTitle>
         </item>
-        <item id="pl-l3d22c5" type="capitulus">
-          <fileName filestem="pl-l3d22c5">pl-l3d22c5.xml</fileName>
-          <title>Cap. 78 (5). </title>
+        <item id="pl-l3d23c5" type="capitulus">
+          <fileName filestem="pl-l3d23c5">pl-l3d23c5.xml</fileName>
+          <title>III, Dist. 23, Cap. 5</title>
           <questionTitle>De informi qualitate mentis quae in malo christiano est.</questionTitle>
         </item>
-        <item id="pl-l3d22c6" type="capitulus">
-          <fileName filestem="pl-l3d22c6">pl-l3d22c6.xml</fileName>
-          <title>Cap. 79 (6). </title>
+        <item id="pl-l3d23c6" type="capitulus">
+          <fileName filestem="pl-l3d23c6">pl-l3d23c6.xml</fileName>
+          <title>III, Dist. 23, Cap. 6</title>
           <questionTitle>Quomodo dicatur una fides.</questionTitle>
         </item>
-        <item id="pl-l3d22c7" type="capitulus">
-          <fileName filestem="pl-l3d22c7">pl-l3d22c7.xml</fileName>
-          <title>Cap. 80 (7). </title>
+        <item id="pl-l3d23c7" type="capitulus">
+          <fileName filestem="pl-l3d23c7">pl-l3d23c7.xml</fileName>
+          <title>III, Dist. 23, Cap. 7</title>
           <questionTitle>Quod fides est de his quae non videntur proprie, ipsa tamen videtur ab eo in quo est.</questionTitle>
         </item>
-        <item id="pl-l3d22c8" type="capitulus">
-          <fileName filestem="pl-l3d22c8">pl-l3d22c8.xml</fileName>
-          <title>Cap. 81 (8). </title>
+        <item id="pl-l3d23c8" type="capitulus">
+          <fileName filestem="pl-l3d23c8">pl-l3d23c8.xml</fileName>
+          <title>III, Dist. 23, Cap. 8</title>
           <questionTitle>Descriptio fidei.</questionTitle>
         </item>
-        <item id="pl-l3d22c9" type="capitulus">
-          <fileName filestem="pl-l3d22c9">pl-l3d22c9.xml</fileName>
-          <title>Cap. 82 (9). </title>
+        <item id="pl-l3d23c9" type="capitulus">
+          <fileName filestem="pl-l3d23c9">pl-l3d23c9.xml</fileName>
+          <title>III, Dist. 23, Cap. 9</title>
           <questionTitle>Quare sola fides dicitur fundamentum.</questionTitle>
         </item>
       </div>
@@ -5330,17 +5478,17 @@
         <head>DISTINCTIO XXIV</head>
         <item id="pl-l3d24c1" type="capitulus">
           <fileName filestem="pl-l3d24c1">pl-l3d24c1.xml</fileName>
-          <title>Cap. 83 (1). </title>
+          <title>III, Dist. 24, Cap. 1</title>
           <questionTitle>Quomodo intelligendum est illud: Cum factum fuerit credatis.</questionTitle>
         </item>
         <item id="pl-l3d24c2" type="capitulus">
           <fileName filestem="pl-l3d24c2">pl-l3d24c2.xml</fileName>
-          <title>Cap. 84 (2). </title>
+          <title>III, Dist. 24, Cap. 2</title>
           <questionTitle>Si Petrus habuit fidem passionis quando vidit hominem illum pati.</questionTitle>
         </item>
         <item id="pl-l3d24c3" type="capitulus">
           <fileName filestem="pl-l3d24c3">pl-l3d24c3.xml</fileName>
-          <title>Cap. 85 (3). </title>
+          <title>III, Dist. 24, Cap. 3</title>
           <questionTitle>Si aliqua sciuntur quae credantur.</questionTitle>
         </item>
       </div>
@@ -5348,27 +5496,27 @@
         <head>DISTINCTIO XXV</head>
         <item id="pl-l3d25c1" type="capitulus">
           <fileName filestem="pl-l3d25c1">pl-l3d25c1.xml</fileName>
-          <title>Cap. 86 (1). </title>
+          <title>III, Dist. 25, Cap. 1</title>
           <questionTitle>De fide antiquorum.</questionTitle>
         </item>
         <item id="pl-l3d25c2" type="capitulus">
           <fileName filestem="pl-l3d25c2">pl-l3d25c2.xml</fileName>
-          <title>Cap. 87 (2). </title>
+          <title>III, Dist. 25, Cap. 2</title>
           <questionTitle>De fide simplicium.</questionTitle>
         </item>
         <item id="pl-l3d25c3" type="capitulus">
           <fileName filestem="pl-l3d25c3">pl-l3d25c3.xml</fileName>
-          <title>Cap. 88 (3). </title>
+          <title>III, Dist. 25, Cap. 3</title>
           <questionTitle>Quae ante adventum credere sufficiebat.</questionTitle>
         </item>
         <item id="pl-l3d25c4" type="capitulus">
           <fileName filestem="pl-l3d25c4">pl-l3d25c4.xml</fileName>
-          <title>Cap. 89 (4). </title>
+          <title>III, Dist. 25, Cap. 4</title>
           <questionTitle>De fide Cornelii.</questionTitle>
         </item>
         <item id="pl-l3d25c5" type="capitulus">
           <fileName filestem="pl-l3d25c5">pl-l3d25c5.xml</fileName>
-          <title>Cap. 90 (5). </title>
+          <title>III, Dist. 25, Cap. 5</title>
           <questionTitle>De aequalitate fidei, spei et caritatis et operis.</questionTitle>
         </item>
       </div>
@@ -5376,27 +5524,27 @@
         <head>DISTINCTIO XXVI</head>
         <item id="pl-l3d26c1" type="capitulus">
           <fileName filestem="pl-l3d26c1">pl-l3d26c1.xml</fileName>
-          <title>Cap. 91 (1). </title>
+          <title>III, Dist. 26, Cap. 1</title>
           <questionTitle>De spe, quid sit.</questionTitle>
         </item>
         <item id="pl-l3d26c2" type="capitulus">
           <fileName filestem="pl-l3d26c2">pl-l3d26c2.xml</fileName>
-          <title>Cap. 92 (2). </title>
+          <title>III, Dist. 26, Cap. 2</title>
           <questionTitle>De quibus sit spes.</questionTitle>
         </item>
         <item id="pl-l3d26c3" type="capitulus">
           <fileName filestem="pl-l3d26c3">pl-l3d26c3.xml</fileName>
-          <title>Cap. 93 (3). </title>
+          <title>III, Dist. 26, Cap. 3</title>
           <questionTitle>Quo differant fides et spes.</questionTitle>
         </item>
         <item id="pl-l3d26c4" type="capitulus">
           <fileName filestem="pl-l3d26c4">pl-l3d26c4.xml</fileName>
-          <title>Cap. 94 (4). </title>
+          <title>III, Dist. 26, Cap. 4</title>
           <questionTitle>Si in Christo fuerit fides vel spes.</questionTitle>
         </item>
         <item id="pl-l3d26c5" type="capitulus">
           <fileName filestem="pl-l3d26c5">pl-l3d26c5.xml</fileName>
-          <title>Cap. 95 (5). </title>
+          <title>III, Dist. 26, Cap. 5</title>
           <questionTitle>Si iusti in inferno fidem et spem habuerunt.</questionTitle>
         </item>
       </div>
@@ -5404,42 +5552,42 @@
         <head>DISTINCTIO XXVII</head>
         <item id="pl-l3d27c1" type="capitulus">
           <fileName filestem="pl-l3d27c1">pl-l3d27c1.xml</fileName>
-          <title>Cap. 96 (1). </title>
+          <title>III, Dist. 27, Cap. 1</title>
           <questionTitle>De caritate Dei et proximi quae in Christo et in nobis est.</questionTitle>
         </item>
         <item id="pl-l3d27c2" type="capitulus">
           <fileName filestem="pl-l3d27c2">pl-l3d27c2.xml</fileName>
-          <title>Cap. 97 (2). </title>
+          <title>III, Dist. 27, Cap. 2</title>
           <questionTitle>Quid sit caritas.</questionTitle>
         </item>
         <item id="pl-l3d27c3" type="capitulus">
           <fileName filestem="pl-l3d27c3">pl-l3d27c3.xml</fileName>
-          <title>Cap. 98 (3). </title>
+          <title>III, Dist. 27, Cap. 3</title>
           <questionTitle>Si eadem caritate diligitur Deus et proximus.</questionTitle>
         </item>
         <item id="pl-l3d27c4" type="capitulus">
           <fileName filestem="pl-l3d27c4">pl-l3d27c4.xml</fileName>
-          <title>Cap. 99 (4). </title>
+          <title>III, Dist. 27, Cap. 4</title>
           <questionTitle>Quare dicuntur duo mandata caritatis.</questionTitle>
         </item>
         <item id="pl-l3d27c5" type="capitulus">
           <fileName filestem="pl-l3d27c5">pl-l3d27c5.xml</fileName>
-          <title>Cap. 100 (5). </title>
+          <title>III, Dist. 27, Cap. 5</title>
           <questionTitle>De modo diligendi.</questionTitle>
         </item>
         <item id="pl-l3d27c6" type="capitulus">
           <fileName filestem="pl-l3d27c6">pl-l3d27c6.xml</fileName>
-          <title>Cap. 101 (6). </title>
+          <title>III, Dist. 27, Cap. 6</title>
           <questionTitle>De impletione illius mandati: Diliges Deum ex toto corde.</questionTitle>
         </item>
         <item id="pl-l3d27c7" type="capitulus">
           <fileName filestem="pl-l3d27c7">pl-l3d27c7.xml</fileName>
-          <title>Cap. 102 (7). </title>
+          <title>III, Dist. 27, Cap. 7</title>
           <questionTitle>Quod alterum mandatum in altero est.</questionTitle>
         </item>
         <item id="pl-l3d27c8" type="capitulus">
           <fileName filestem="pl-l3d27c8">pl-l3d27c8.xml</fileName>
-          <title>Cap. 103 (8). </title>
+          <title>III, Dist. 27, Cap. 8</title>
           <questionTitle>Quae caritate diligenda sint.</questionTitle>
         </item>
       </div>
@@ -5447,22 +5595,22 @@
         <head>DISTINCTIO XXVIII</head>
         <item id="pl-l3d28c1" type="capitulus">
           <fileName filestem="pl-l3d28c1">pl-l3d28c1.xml</fileName>
-          <title>Cap. 104 (1). </title>
+          <title>III, Dist. 28, Cap. 1</title>
           <questionTitle>Si iubemur totum proximum diligere et nos totos.</questionTitle>
         </item>
         <item id="pl-l3d28c2" type="capitulus">
           <fileName filestem="pl-l3d28c2">pl-l3d28c2.xml</fileName>
-          <title>Cap. 105 (2). </title>
+          <title>III, Dist. 28, Cap. 2</title>
           <questionTitle>Quod in dilectione proximi includitur dilectio angelorum.</questionTitle>
         </item>
         <item id="pl-l3d28c3" type="capitulus">
           <fileName filestem="pl-l3d28c3">pl-l3d28c3.xml</fileName>
-          <title>Cap. 106 (3). </title>
+          <title>III, Dist. 28, Cap. 3</title>
           <questionTitle>Quid sit proximus.</questionTitle>
         </item>
         <item id="pl-l3d28c4" type="capitulus">
           <fileName filestem="pl-l3d28c4">pl-l3d28c4.xml</fileName>
-          <title>Cap. 107 (4). </title>
+          <title>III, Dist. 28, Cap. 4</title>
           <questionTitle>Quibus modis dicitur proximus.</questionTitle>
         </item>
       </div>
@@ -5470,17 +5618,17 @@
         <head>DISTINCTIO XXIX</head>
         <item id="pl-l3d29c1" type="capitulus">
           <fileName filestem="pl-l3d29c1">pl-l3d29c1.xml</fileName>
-          <title>Cap. 108 (1). </title>
+          <title>III, Dist. 29, Cap. 1</title>
           <questionTitle>De ordine diligendi: quid prius, quid post.</questionTitle>
         </item>
         <item id="pl-l3d29c2" type="capitulus">
           <fileName filestem="pl-l3d29c2">pl-l3d29c2.xml</fileName>
-          <title>Cap. 109 (2). </title>
+          <title>III, Dist. 29, Cap. 2</title>
           <questionTitle>An omnes homines pariter diligendi sint.</questionTitle>
         </item>
         <item id="pl-l3d29c3" type="capitulus">
           <fileName filestem="pl-l3d29c3">pl-l3d29c3.xml</fileName>
-          <title>Cap. 110 (3). </title>
+          <title>III, Dist. 29, Cap. 3</title>
           <questionTitle>De gradibus caritatis</questionTitle>
         </item>
       </div>
@@ -5488,7 +5636,7 @@
         <head>DISTINCTIO XXX</head>
         <item id="pl-l3d30c1" type="capitulus">
           <fileName filestem="pl-l3d30c1">pl-l3d30c1.xml</fileName>
-          <title>Cap. 111 (1). </title>
+          <title>III, Dist. 30, Cap. 1</title>
           <questionTitle>Si melius est diligere inimicos quam amicos.</questionTitle>
         </item>
       </div>
@@ -5496,17 +5644,17 @@
         <head>DISTINCTIO XXXI</head>
         <item id="pl-l3d31c1" type="capitulus">
           <fileName filestem="pl-l3d31c1">pl-l3d31c1.xml</fileName>
-          <title>Cap. 112 (1). </title>
+          <title>III, Dist. 31, Cap. 1</title>
           <questionTitle>Si caritate semel habita amittatur.</questionTitle>
         </item>
         <item id="pl-l3d31c2" type="capitulus">
           <fileName filestem="pl-l3d31c2">pl-l3d31c2.xml</fileName>
-          <title>Cap. 113 (2). </title>
+          <title>III, Dist. 31, Cap. 2</title>
           <questionTitle>Quare fides, spes, scientia dicuntur evacuari, et non caritas, cum et ipsa sit ex parte.</questionTitle>
         </item>
         <item id="pl-l3d31c3" type="capitulus">
           <fileName filestem="pl-l3d31c3">pl-l3d31c3.xml</fileName>
-          <title>Cap. 114 (3). </title>
+          <title>III, Dist. 31, Cap. 3</title>
           <questionTitle>Si Christus ordinem diligendi servavit quem nos.</questionTitle>
         </item>
       </div>
@@ -5514,27 +5662,27 @@
         <head>DISTINCTIO XXXII</head>
         <item id="pl-l3d32c1" type="capitulus">
           <fileName filestem="pl-l3d32c1">pl-l3d32c1.xml</fileName>
-          <title>Cap. 115 (1). </title>
+          <title>III, Dist. 32, Cap. 1</title>
           <questionTitle>De caritate Dei.</questionTitle>
         </item>
         <item id="pl-l3d32c2" type="capitulus">
           <fileName filestem="pl-l3d32c2">pl-l3d32c2.xml</fileName>
-          <title>Cap. 116 (2). </title>
+          <title>III, Dist. 32, Cap. 2</title>
           <questionTitle>Quomodo Deus dicitur magis diligere vel minus hunc vel illum.</questionTitle>
         </item>
         <item id="pl-l3d32c3" type="capitulus">
           <fileName filestem="pl-l3d32c3">pl-l3d32c3.xml</fileName>
-          <title>Cap. 117 (3). </title>
+          <title>III, Dist. 32, Cap. 3</title>
           <questionTitle>Quod dupliciter inspicienda est dilectio Dei.</questionTitle>
         </item>
         <item id="pl-l3d32c4" type="capitulus">
           <fileName filestem="pl-l3d32c4">pl-l3d32c4.xml</fileName>
-          <title>Cap. 118 (4). </title>
+          <title>III, Dist. 32, Cap. 4</title>
           <questionTitle>Si quis magis vel minus diligitur a Deo uno tempore quam alio.</questionTitle>
         </item>
         <item id="pl-l3d32c5" type="capitulus">
           <fileName filestem="pl-l3d32c5">pl-l3d32c5.xml</fileName>
-          <title>Cap. 119 (5). </title>
+          <title>III, Dist. 32, Cap. 5</title>
           <questionTitle>Si Deus ab aeterno dilexit reprobos.</questionTitle>
         </item>
       </div>
@@ -5542,17 +5690,17 @@
         <head>DISTINCTIO XXXIII</head>
         <item id="pl-l3d33c1" type="capitulus">
           <fileName filestem="pl-l3d33c1">pl-l3d33c1.xml</fileName>
-          <title>Cap. 120 (1). </title>
+          <title>III, Dist. 33, Cap. 1</title>
           <questionTitle>De quatuor virtutibus principalibus.</questionTitle>
         </item>
         <item id="pl-l3d33c2" type="capitulus">
           <fileName filestem="pl-l3d33c2">pl-l3d33c2.xml</fileName>
-          <title>Cap. 121 (2). </title>
+          <title>III, Dist. 33, Cap. 2</title>
           <questionTitle>Utrum et in Christo fuerint et in angelis sint.</questionTitle>
         </item>
         <item id="pl-l3d33c3" type="capitulus">
           <fileName filestem="pl-l3d33c3">pl-l3d33c3.xml</fileName>
-          <title>Cap. 122 (3). </title>
+          <title>III, Dist. 33, Cap. 3</title>
           <questionTitle>De usibus earum.</questionTitle>
         </item>
       </div>
@@ -5560,47 +5708,47 @@
         <head>DISTINCTIO XXXIV</head>
         <item id="pl-l3d34c1" type="capitulus">
           <fileName filestem="pl-l3d34c1">pl-l3d34c1.xml</fileName>
-          <title>Cap. 123 (1). </title>
+          <title>III, Dist. 34, Cap. 1</title>
           <questionTitle>De septem donis Spiritus Sancti.</questionTitle>
         </item>
         <item id="pl-l3d34c2" type="capitulus">
           <fileName filestem="pl-l3d34c2">pl-l3d34c2.xml</fileName>
-          <title>Cap. 124 (2). </title>
+          <title>III, Dist. 34, Cap. 2</title>
           <questionTitle>Utrum sint virtutes et sint in angelis.</questionTitle>
         </item>
         <item id="pl-l3d34c3" type="capitulus">
           <fileName filestem="pl-l3d34c3">pl-l3d34c3.xml</fileName>
-          <title>Cap. 125 (3). </title>
+          <title>III, Dist. 34, Cap. 3</title>
           <questionTitle>Utrum in Christo fuerint.</questionTitle>
         </item>
         <item id="pl-l3d34c4" type="capitulus">
           <fileName filestem="pl-l3d34c4">pl-l3d34c4.xml</fileName>
-          <title>Cap. 126 (4). </title>
+          <title>III, Dist. 34, Cap. 4</title>
           <questionTitle>De timorum distinctione.</questionTitle>
         </item>
         <item id="pl-l3d34c5" type="capitulus">
           <fileName filestem="pl-l3d34c5">pl-l3d34c5.xml</fileName>
-          <title>Cap. 127 (5). </title>
+          <title>III, Dist. 34, Cap. 5</title>
           <questionTitle>De casto et servili et initiali.</questionTitle>
         </item>
         <item id="pl-l3d34c6" type="capitulus">
           <fileName filestem="pl-l3d34c6">pl-l3d34c6.xml</fileName>
-          <title>Cap. 128 (6). </title>
+          <title>III, Dist. 34, Cap. 6</title>
           <questionTitle>Quo differant castus et servilis.</questionTitle>
         </item>
         <item id="pl-l3d34c7" type="capitulus">
           <fileName filestem="pl-l3d34c7">pl-l3d34c7.xml</fileName>
-          <title>Cap. 129 (7). </title>
+          <title>III, Dist. 34, Cap. 7</title>
           <questionTitle>Quod timor servilis et initialis dicitur initium sapientiae, sed differenter.</questionTitle>
         </item>
         <item id="pl-l3d34c8" type="capitulus">
           <fileName filestem="pl-l3d34c8">pl-l3d34c8.xml</fileName>
-          <title>Cap. 130 (8). </title>
+          <title>III, Dist. 34, Cap. 8</title>
           <questionTitle>Quomodo castus timor permanet in aeternum.</questionTitle>
         </item>
         <item id="pl-l3d34c9" type="capitulus">
           <fileName filestem="pl-l3d34c9">pl-l3d34c9.xml</fileName>
-          <title>Cap. 131 (9). </title>
+          <title>III, Dist. 34, Cap. 9</title>
           <questionTitle>Si timor poenae qui fuit in Christo, fuit servilis vel initialis.</questionTitle>
         </item>
       </div>
@@ -5608,17 +5756,17 @@
         <head>DISTINCTIO XXXV</head>
         <item id="pl-l3d35c1" type="capitulus">
           <fileName filestem="pl-l3d35c1">pl-l3d35c1.xml</fileName>
-          <title>Cap. 132 (1). </title>
+          <title>III, Dist. 35, Cap. 1</title>
           <questionTitle>De sapientia et scientia, quo differant.</questionTitle>
         </item>
         <item id="pl-l3d35c2" type="capitulus">
           <fileName filestem="pl-l3d35c2">pl-l3d35c2.xml</fileName>
-          <title>Cap. 133 (2). </title>
+          <title>III, Dist. 35, Cap. 2</title>
           <questionTitle>In quo differat sapientia ab intellectu.</questionTitle>
         </item>
         <item id="pl-l3d35c3" type="capitulus">
           <fileName filestem="pl-l3d35c3">pl-l3d35c3.xml</fileName>
-          <title>Cap. 134 (3). </title>
+          <title>III, Dist. 35, Cap. 3</title>
           <questionTitle>Utrum intellectus et scientia quae inter dona numerantur sint illa quae naturaliter habet homo.</questionTitle>
         </item>
       </div>
@@ -5626,17 +5774,17 @@
         <head>DISTINCTIO XXXVI</head>
         <item id="pl-l3d36c1" type="capitulus">
           <fileName filestem="pl-l3d36c1">pl-l3d36c1.xml</fileName>
-          <title>Cap. 135 (1). </title>
+          <title>III, Dist. 36, Cap. 1</title>
           <questionTitle>De connexione virtutum, quae non separantur.</questionTitle>
         </item>
         <item id="pl-l3d36c2" type="capitulus">
           <fileName filestem="pl-l3d36c2">pl-l3d36c2.xml</fileName>
-          <title>Cap. 136 (2). </title>
+          <title>III, Dist. 36, Cap. 2</title>
           <questionTitle>An cunctae virtutes pares sint in quocumque sint.</questionTitle>
         </item>
         <item id="pl-l3d36c3" type="capitulus">
           <fileName filestem="pl-l3d36c3">pl-l3d36c3.xml</fileName>
-          <title>Cap. 137 (3). </title>
+          <title>III, Dist. 36, Cap. 3</title>
           <questionTitle>Quomodo in caritate tota lex pendet.</questionTitle>
         </item>
       </div>
@@ -5644,66 +5792,65 @@
         <head>DISTINCTIO XXXVII</head>
         <item id="pl-l3d37c1" type="capitulus">
           <fileName filestem="pl-l3d37c1">pl-l3d37c1.xml</fileName>
-          <title>Cap. 138 (1). </title>
+          <title>III, Dist. 37, Cap. 1</title>
           <questionTitle>De decem mandatis, quomodo contineantur in duobus.</questionTitle>
         </item>
         <item id="pl-l3d37c2" type="capitulus">
           <fileName filestem="pl-l3d37c2">pl-l3d37c2.xml</fileName>
-          <title>Cap. 139 (2). </title>
+          <title>III, Dist. 37, Cap. 2</title>
           <questionTitle>Quare idolum nihil esse in mundo dicitur.</questionTitle>
         </item>
         <item id="pl-l3d37c3" type="capitulus">
           <fileName filestem="pl-l3d37c3">pl-l3d37c3.xml</fileName>
-          <title>Cap. 140 (3). </title>
+          <title>III, Dist. 37, Cap. 3</title>
           <questionTitle>Quare in Spiritu Sancto proprie dicitur fieri remissio peccatorum.</questionTitle>
         </item>
         <item id="pl-l3d37c4" type="capitulus">
           <fileName filestem="pl-l3d37c4">pl-l3d37c4.xml</fileName>
-          <title>Cap. 141 (4). </title>
+          <title>III, Dist. 37, Cap. 4</title>
           <questionTitle>De sensu spirituali et carnali Legis. </questionTitle>
         </item>
         <item id="pl-l3d37c5" type="capitulus">
           <fileName filestem="pl-l3d37c5">pl-l3d37c5.xml</fileName>
-          <title>Cap. 142 (5). </title>
+          <title>III, Dist. 37, Cap. 5</title>
           <questionTitle>De furto. </questionTitle>
         </item>
         <item id="pl-l3d37c6" type="capitulus">
           <fileName filestem="pl-l3d37c6">pl-l3d37c6.xml</fileName>
-          <title>Cap. 143 (6). </title>
+          <title>III, Dist. 37, Cap. 6</title>
           <questionTitle>De mendacio.</questionTitle>
         </item>
       </div>
       <div id="pl-l3d38" type="distinctio">
         <head>DISTINCTIO XXXVIII</head>
-
         <item id="pl-l3d38c1" type="capitulus">
           <fileName filestem="pl-l3d38c1">pl-l3d38c1.xml</fileName>
-          <title>Cap. 144 (1). </title>
+          <title>III, Dist. 38, Cap. 1</title>
           <questionTitle>De triplici genere mendacii.</questionTitle>
         </item>
         <item id="pl-l3d38c2" type="capitulus">
           <fileName filestem="pl-l3d38c2">pl-l3d38c2.xml</fileName>
-          <title>Cap. 145 (2). </title>
+          <title>III, Dist. 38, Cap. 2</title>
           <questionTitle>De octo speciebus mendacii.</questionTitle>
         </item>
         <item id="pl-l3d38c3" type="capitulus">
           <fileName filestem="pl-l3d38c3">pl-l3d38c3.xml</fileName>
-          <title>Cap. 146 (3). </title>
+          <title>III, Dist. 38, Cap. 3</title>
           <questionTitle>Quid sit mendacium.</questionTitle>
         </item>
         <item id="pl-l3d38c4" type="capitulus">
           <fileName filestem="pl-l3d38c4">pl-l3d38c4.xml</fileName>
-          <title>Cap. 147 (4). </title>
+          <title>III, Dist. 38, Cap. 4</title>
           <questionTitle>Quid mentiri.</questionTitle>
         </item>
         <item id="pl-l3d38c5" type="capitulus">
           <fileName filestem="pl-l3d38c5">pl-l3d38c5.xml</fileName>
-          <title>Cap. 148 (5). </title>
+          <title>III, Dist. 38, Cap. 5</title>
           <questionTitle>Quod omne mendacium peccatum sit, sive prosit sive non, et quare.</questionTitle>
         </item>
         <item id="pl-l3d38c6" type="capitulus">
           <fileName filestem="pl-l3d38c6">pl-l3d38c6.xml</fileName>
-          <title>Cap. 149 (6). </title>
+          <title>III, Dist. 38, Cap. 6</title>
           <questionTitle>In quibus rebus cum periculo erratur vel non.</questionTitle>
         </item>
       </div>
@@ -5711,62 +5858,62 @@
         <head>DISTINCTIO XXXIX</head>
         <item id="pl-l3d39c1" type="capitulus">
           <fileName filestem="pl-l3d39c1">pl-l3d39c1.xml</fileName>
-          <title>Cap. 150 (1). </title>
+          <title>III, Dist. 39, Cap. 1</title>
           <questionTitle>De periurio.</questionTitle>
         </item>
         <item id="pl-l3d39c2" type="capitulus">
           <fileName filestem="pl-l3d39c2">pl-l3d39c2.xml</fileName>
-          <title>Cap. 151 (2). </title>
+          <title>III, Dist. 39, Cap. 2</title>
           <questionTitle>An sit periurium quod non est mendacium.</questionTitle>
         </item>
         <item id="pl-l3d39c3" type="capitulus">
           <fileName filestem="pl-l3d39c3">pl-l3d39c3.xml</fileName>
-          <title>Cap. 152 (3). </title>
+          <title>III, Dist. 39, Cap. 3</title>
           <questionTitle>De triplici modo periurii.</questionTitle>
         </item>
         <item id="pl-l3d39c4" type="capitulus">
           <fileName filestem="pl-l3d39c4">pl-l3d39c4.xml</fileName>
-          <title>Cap. 153 (4). </title>
+          <title>III, Dist. 39, Cap. 4</title>
           <questionTitle>An iuratio sit malum.</questionTitle>
         </item>
         <item id="pl-l3d39c5" type="capitulus">
           <fileName filestem="pl-l3d39c5">pl-l3d39c5.xml</fileName>
-          <title>Cap. 154 (5). </title>
+          <title>III, Dist. 39, Cap. 5</title>
           <questionTitle>De iuramento quod fit per creaturas.</questionTitle>
         </item>
         <item id="pl-l3d39c6" type="capitulus">
           <fileName filestem="pl-l3d39c6">pl-l3d39c6.xml</fileName>
-          <title>Cap. 155 (6). </title>
+          <title>III, Dist. 39, Cap. 6</title>
           <questionTitle>Quae iuratio sit gravior: an quae fit per Deum, an quae fit per creaturas, vel per Evangelium.</questionTitle>
         </item>
         <item id="pl-l3d39c7" type="capitulus">
           <fileName filestem="pl-l3d39c7">pl-l3d39c7.xml</fileName>
-          <title>Cap. 156 (7). </title>
+          <title>III, Dist. 39, Cap. 7</title>
           <questionTitle>Quid est dicere: Per Deum.</questionTitle>
         </item>
         <item id="pl-l3d39c8" type="capitulus">
           <fileName filestem="pl-l3d39c8">pl-l3d39c8.xml</fileName>
-          <title>Cap. 157 (8). </title>
+          <title>III, Dist. 39, Cap. 8</title>
           <questionTitle>De illis qui iurant per falsos deos.</questionTitle>
         </item>
         <item id="pl-l3d39c9" type="capitulus">
           <fileName filestem="pl-l3d39c9">pl-l3d39c9.xml</fileName>
-          <title>Cap. 158 (9). </title>
+          <title>III, Dist. 39, Cap. 9</title>
           <questionTitle>Quod iuramentum vel promissio contra Deum facta non est tenenda.</questionTitle>
         </item>
         <item id="pl-l3d39c10" type="capitulus">
           <fileName filestem="pl-l3d39c10">pl-l3d39c10.xml</fileName>
-          <title>Cap. 159 (10). </title>
+          <title>III, Dist. 39, Cap. 10</title>
           <questionTitle>Si est periurus, qui non facit quod incaute iurat.</questionTitle>
         </item>
         <item id="pl-l3d39c11" type="capitulus">
           <fileName filestem="pl-l3d39c11">pl-l3d39c11.xml</fileName>
-          <title>Cap. 160 (11). </title>
+          <title>III, Dist. 39, Cap. 11</title>
           <questionTitle>De illis qui verborum calliditate iurant.</questionTitle>
         </item>
         <item id="pl-l3d39c12" type="capitulus">
           <fileName filestem="pl-l3d39c12">pl-l3d39c12.xml</fileName>
-          <title>Cap. 161 (12). </title>
+          <title>III, Dist. 39, Cap. 12</title>
           <questionTitle>De illo qui cogit aliquem iurare.</questionTitle>
         </item>
       </div>
@@ -5774,17 +5921,17 @@
         <head>DISTINCTIO XL</head>
         <item id="pl-l3d40c1" type="capitulus">
           <fileName filestem="pl-l3d40c1">pl-l3d40c1.xml</fileName>
-          <title>Cap. 162 (1). </title>
+          <title>III, Dist. 40, Cap. 1</title>
           <questionTitle>Quare Lex dicitur comprimere manum, non animum.</questionTitle>
         </item>
         <item id="pl-l3d40c2" type="capitulus">
           <fileName filestem="pl-l3d40c2">pl-l3d40c2.xml</fileName>
-          <title>Cap. 163 (2). </title>
+          <title>III, Dist. 40, Cap. 2</title>
           <questionTitle>Quae sit littera occidens.</questionTitle>
         </item>
         <item id="pl-l3d40c3" type="capitulus">
           <fileName filestem="pl-l3d40c3">pl-l3d40c3.xml</fileName>
-          <title>Cap. 164 (3). </title>
+          <title>III, Dist. 40, Cap. 3</title>
           <questionTitle>De Legis et Evangelii distantia.</questionTitle>
         </item>
       </div>
@@ -6129,32 +6276,43 @@
         <head>DISTINCTIO XI</head>
         <item id="pl-l4d11c1" type="capitulus">
           <fileName filestem="pl-l4d11c1">pl-l4d11c1.xml</fileName>
-          <title>Cap. 60 (1). </title>
+          <title>IV, Dist. 11, Cap. 1</title>
           <questionTitle>De modo conversionis.</questionTitle>
+          <witness ref="#Ma">
+            <folio>223r</folio>
+          </witness>
         </item>
         <item id="pl-l4d11c2" type="capitulus">
           <fileName filestem="pl-l4d11c2">pl-l4d11c2.xml</fileName>
-          <title>Cap. 61 (2). </title>
+          <title>IV, Dist. 11, Cap. 2</title>
           <questionTitle>Quomodo dicitur corpus Christi confici de substantia panis.</questionTitle>
+          <witness ref="#Ma">
+            <folio>223r</folio>
+            <folio>223v</folio>
+          </witness>
         </item>
         <item id="pl-l4d11c3" type="capitulus">
           <fileName filestem="pl-l4d11c3">pl-l4d11c3.xml</fileName>
-          <title>Cap. 62 (3). </title>
+          <title>IV, Dist. 11, Cap. 3</title>
           <questionTitle>Quare sub alia specie sumatur.</questionTitle>
+          <witness ref="#Ma">
+            <folio>223r</folio>
+            <folio>223v</folio>
+          </witness>
         </item>
         <item id="pl-l4d11c4" type="capitulus">
           <fileName filestem="pl-l4d11c4">pl-l4d11c4.xml</fileName>
-          <title>Cap. 63 (4). </title>
+          <title>IV, Dist. 11, Cap. 4</title>
           <questionTitle>Quare sub duplici specie.</questionTitle>
         </item>
         <item id="pl-l4d11c5" type="capitulus">
           <fileName filestem="pl-l4d11c5">pl-l4d11c5.xml</fileName>
-          <title>Cap. 64 (5). </title>
+          <title>IV, Dist. 11, Cap. 5</title>
           <questionTitle>Quare aqua misceatur.</questionTitle>
         </item>
         <item id="pl-l4d11c6" type="capitulus">
           <fileName filestem="pl-l4d11c6">pl-l4d11c6.xml</fileName>
-          <title>Cap. 65 (6). </title>
+          <title>IV, Dist. 11, Cap. 6</title>
           <questionTitle>Quale corpus dedit Christus discipulis in coena.</questionTitle>
         </item>
       </div>
@@ -6162,7 +6320,7 @@
         <head>DISTINCTIO XII</head>
         <item id="pl-l4d12c1" type="capitulus">
           <fileName filestem="pl-l4d12c1">pl-l4d12c1.xml</fileName>
-          <title>Cap. 66 (1). </title>
+          <title>IV, Dist. 12, Cap. 1</title>
           <questionTitle>Ubi illa accidentia fundentur.</questionTitle>
         </item>
         <item id="pl-l4d12c2" type="capitulus">
