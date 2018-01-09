@@ -48,19 +48,19 @@
     </description>
   </header>
   <div id="body" xml:lang="la">
+    <item id="da-28-prol" type="prologus"> <!-- What type is a prologue? -->
+      <fileName filestem="da-28-prol"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#V1">
+          <folio>2r</folio>
+          <folio>2v</folio>
+          <folio>3r</folio>
+          <folio>3v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
     <div id="da-28-librum1" type="da-liber1">
-      <item id="da-28-l1prol" type="prologus"> <!-- What type is a prologue? -->
-        <fileName filestem="da-28-l1prol"/>
-        <title>Liber 1, Prooemium</title>
-        <hasWitnesses>
-          <witness ref="#V1">
-            <folio>2r</folio>
-            <folio>2v</folio>
-            <folio>3r</folio>
-            <folio>3v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
       <item id="da-28-l1q1" type="quaestio">
         <fileName filestem="da-28-l1q1"/>
         <title>Liber 1, Quaestio 1</title>
@@ -1165,7 +1165,7 @@
       </item>
       <item id="da-28-l3q22" type="quaestio">
         <fileName filestem="da-28-l3q22"/>
-        <title>Liber 3, Quaestio 28</title>
+        <title>Liber 3, Quaestio 22</title>
         <questionTitle>
           Utrum intellectus possit intelligere singulare seu individuum
           sensibile
@@ -1186,6 +1186,12 @@
       <item id="da-28-l3q23" type="quaestio">
         <fileName filestem="da-28-l3q23"/>
         <title>Liber 3, Quaestio 23</title>
+        <!--
+            Note that this also includes what is sometimes referred to as
+            question 24, treating the counter arguments against the necessity of
+            the agent intellect. It that is considered a question in itself, all
+            the subsequent question numbers must be incremented by one.
+        -->
         <questionTitle>
           Utrum neccesarium sit esse intellectum agentem
         </questionTitle>
@@ -1262,7 +1268,7 @@
           Utrum intellectus possibilis possit intelligere seipsum
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#v1">
+          <witness ref="#V1">
             <folio c="b">135r</folio>
             <folio>135v</folio>
             <folio>136r</folio>
@@ -1340,6 +1346,12 @@
             <folio>141v</folio>
             <folio>142r</folio>
             <folio>142v</folio>
+          </witness>
+          <witness ref="#V1">
+            <folio c="b">279</folio>
+            <folio>280</folio>
+            <folio>281</folio>
+            <folio>282</folio>
           </witness>
         </hasWitnesses>
       </item>
