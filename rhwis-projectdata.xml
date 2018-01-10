@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Robert Holcot</authorName>
@@ -21,10 +22,12 @@
       <witness id="Pa">
         <slug>bnf15885</slug>
         <title>BnF ms. lat. 15885</title>
+        <initial>Pa</initial>
       </witness>
       <witness id="Pb">
         <slug>bnf16791</slug>
         <title>BnF ms. lat 16791</title>
+        <initial>Pb</initial>
       </witness>
     </hasWitnesses>
   </header>

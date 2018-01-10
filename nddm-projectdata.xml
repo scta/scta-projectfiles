@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
     <header>
       <authorName>Nicolas de Dinkelsbuhl</authorName>
@@ -9,7 +10,6 @@
       <parentUri>http://scta.info/resource/dinkelsbuhllectura</parentUri>
       <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
       <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/dinkelsbuhllectura/</textfilesdir>
-        <webbase>null</webbase>
         <questionListSource>Monica Article</questionListSource>
         <questionListOriginalEditor>Monica Brinzei</questionListOriginalEditor>
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -34,10 +34,12 @@
           <witness id="B">
             <slug>clm2940</slug>
             <title>BSB Clm 2940</title>
+            <initial>B</initial>
           </witness>
           <witness id="Ba">
             <slug>clm8358</slug>
             <title>BSB Clm 8358</title>
+            <initial>Ba</initial>
           </witness>
         </hasWitnesses>
     </header>
@@ -122,7 +124,7 @@
             </item>
           </div>
           <div id="nddm-l1d1p2">
-            <headd>Librum IV, Distinctio 1, Pars 2</headd>
+            <head>Librum IV, Distinctio 1, Pars 2</head>
             <item type="quaestio">
               <fileName filestem="nddm-l4d1p2q1"/>
               <title>Liber IV, d. 1, p. 2, q. 1</title>

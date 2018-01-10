@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-        <authorName>Hugolino of Orvieto</authorName>
-        <commentaryName>Hugolino of Orvieto Commentary</commentaryName>
-        <commentaryid>hugolinocommentary</commentaryid>
-        <commentaryslug>hduv</commentaryslug>
-        <authorUri>http://scta.info/resource/HugolinoOfOrvieto</authorUri> <!-- db check -->
-        <parentUri>http://scta.info/resource/hugolinocommentary</parentUri>
-      <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hugolinocommentary/</textfilesdir>
-        <webbase>null</webbase>
-        <questionListSource>Eckermann edition</questionListSource>
-        <questionListOriginalEditor>Eckermann</questionListOriginalEditor>
-        <questionListEncoder>Kjerstin B. Burdiek</questionListEncoder>
-        <hasWitnesses>
-          <witness>
-            <slug></slug>
-            <title></title>
-            <initial></initial>
-          </witness>
-        </hasWitnesses>
+  <header>
+    <authorName>Hugolino of Orvieto</authorName>
+    <commentaryName>Hugolino of Orvieto Commentary</commentaryName>
+    <commentaryid>hugolinocommentary</commentaryid>
+    <commentaryslug>hduv</commentaryslug>
+    <authorUri>http://scta.info/resource/HugolinoOfOrvieto</authorUri> <!-- db check -->
+    <parentUri>http://scta.info/resource/hugolinocommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hugolinocommentary/</textfilesdir>
+    <questionListSource>Eckermann edition</questionListSource>
+    <questionListOriginalEditor>Eckermann</questionListOriginalEditor>
+    <questionListEncoder>Kjerstin B. Burdiek</questionListEncoder>
+    <hasWitnesses>
+        
+    </hasWitnesses>
     </header>
     <div id="body">
-        <div id="hduv-l1" class="toplevel" type="librum1">
+        <div id="hduv-l1" type="librum1">
             <head>Liber 1</head>
             <div id="hduv-l1prin1" type="distinctio" subtype="librum1-principium">
-              <item live="false" type="quaestio">
+              <head>Liber I, Principium</head>
+              <item type="quaestio">
                   <fileName filestem="hduv-l1prin1col"/>
                   <title>Principium I, Collatio</title>
               </item>
-              <item live="true">
+              <item>
                   <fileName filestem="hduv-l1prin1q1"/>
                   <title>Liber I, Principium 1, Quaestio 1</title>
                   <questionTitle>Utrum per se vita deus sit rationali spiritui perfecte ipsam habenti infinitum bonum?</questionTitle>
@@ -285,13 +282,13 @@
                 </item>
             </div>
         </div>
-        <div id="hduv-l2" class="toplevel" type="librum2">
+        <div id="hduv-l2" type="librum2">
             <head>Liber 2</head>
-            <item live="false" type="quaestio">
+            <item type="quaestio">
                 <fileName filestem="hduv-principium2">hduv-principium2.xml</fileName>
                 <title>Principium 2</title>
             </item>
-            <item live="true">
+            <item>
                 <fileName filestem="hduv-l2q1">hduv-l2q1.xml</fileName>
                 <title>Liber II, Quaestio 1</title>
                 <questionTitle>Utrum dei velle omnem bonum effectum uniformi efficientia producat?</questionTitle>
@@ -519,13 +516,13 @@
                 </item>
             </div>
         </div>
-        <div id="hduv-l3" class="toplevel" type="librum3">
+        <div id="hduv-l3" type="librum3">
             <head>Liber 3</head>
-            <item live="false" type="quaestio">
+            <item type="quaestio">
                 <fileName filestem="hduv-principium3">hduv-principium3.xml</fileName>
                 <title>Principium 3</title>
             </item>
-            <item live="true">
+            <item>
                 <fileName filestem="hduv-l3q1">hduv-l3q1.xml</fileName>
                 <title>Liber III, Quaestio 1</title>
                 <questionTitle>Utrum ex merito Christi infinito recepturi erant electi dona praeveniente gratia meliora?</questionTitle>
@@ -576,13 +573,13 @@
                 </item>
             </div>
         </div>
-        <div id="hduv-l4" class="toplevel" type="librum4">
+        <div id="hduv-l4" type="librum4">
             <head>Liber 4</head>
-            <item live="false" type="quaestio">
+            <item type="quaestio">
                 <fileName filestem="hduv-principium4">hduv-principium4.xml</fileName>
                 <title>Principium 4</title>
             </item>
-            <item live="true">
+            <item>
                 <fileName filestem="hduv-l4q1">hduv-l4q1.xml</fileName>
                 <title>Liber IV, Quaestio 1</title>
                 <questionTitle>Utrum omnis meritoria sacramentorum susceptio sit electionis aeternae immediatus effectus?</questionTitle>

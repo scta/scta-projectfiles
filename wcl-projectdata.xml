@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames xmlns:sctap="http://scta.info/properties/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <header>
         <authorName>Walter Chatton</authorName>
@@ -9,8 +10,6 @@
         <parentUri>http://scta.info/resource/chattonlectura</parentUri>
       <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/chattonlectura/</textfilesdir>
-        <textfilesdir/>
-        <webbase>null</webbase>
         <questionListSource></questionListSource>
         <questionListOriginalEditor></questionListOriginalEditor>
         <questionListEncoder>Natalie Tsottles</questionListEncoder>

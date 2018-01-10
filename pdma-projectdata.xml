@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Pico della Mirandola</authorName>
@@ -9,11 +10,11 @@
     <parentUri>http://scta.info/resource/picoapologia</parentUri>
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/picoapologia/</textfilesdir>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <description>Pico della Mirandola's Apologia</description>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="B">
         <slug>Basel1557</slug>

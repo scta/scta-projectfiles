@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
     <header>
       <authorName>Franciscus Toti de Perusia</authorName>
       <commentaryName>Franciscus Toti de Perusia Commentary on the Sentences</commentaryName>
-        <commentaryid>perusiacommentary</commentaryid>
-        <commentaryslug>ftdp</commentaryslug>
-        <rcsid/>
-        <authorUri>http://scta.info/resource/FranciscusTotiDePerusia</authorUri>
+      <commentaryid>perusiacommentary</commentaryid>
+      <commentaryslug>ftdp</commentaryslug>
+      <authorUri>http://scta.info/resource/FranciscusTotiDePerusia</authorUri>
       <parentUri>http://scta.info/resource/perusiacommentary</parentUri>
       <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
       <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/perusiacommentary/</textfilesdir>
-        <webbase>null</webbase>
-        <questionListSource></questionListSource>
+      <questionListSource></questionListSource>
       <questionListOriginalEditor>Andrei Marinca</questionListOriginalEditor>
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
         <sponsors>
@@ -27,19 +26,19 @@
           </sponsor>
         </sponsors>
         <hasWitnesses>
-          <hasWitnesses>
-            <witness id="M">
-              <slug>clm8718</slug>
-              <title>Munich, Clm 8718</title>
-              <initial>M</initial>
-            </witness>
-          </hasWitnesses>
+          <witness id="M">
+            <slug>clm8718</slug>
+            <title>Munich, Clm 8718</title>
+            <initial>M</initial>
+          </witness>
         </hasWitnesses>
+      <rcsid/>
     </header>
     <div id="body">
       <div id="ftdp-librum1" class="toplevel" type="librum" subtype="librum1">
         <head>Liber I</head>
         <div id="ftdp-l1prol" type="distinctio" subtype="librum1-prologus">
+          <head>Liber I, Prologus</head>
           <item type="quaestio">
             <fileName filestem="ftdp-l1prolq1"/>
             <title>Liber I, Prologus, q. 1</title>
@@ -484,6 +483,7 @@
           </item>
         </div>
         <div id="ftdp-l2d34per37" type="distinctio" subtype="librum2-distinctio34 librum2-distinctio35 librum2-distinctio36 librum2-distinctio37">
+          <head>Liber II, Distinctio 34 per 37</head>
           <item type="quaestio">
             <fileName filestem="ftdp-l2d34per37q1"/>
             <title>Liber II, Distinctio 34 per 37, Q. 1</title>
@@ -491,6 +491,7 @@
           </item>
         </div>
         <div id="ftdp-l2d38per42" type="distinctio" subtype="librum2-distinctio38 librum2-distinctio39 librum2-distinctio40 librum2-distinctio41 librum2-distinctio42">
+          <head>Liber II, Distinctio 38 per 42</head>
           <item type="quaestio">
             <fileName filestem="ftdp-l2d38per42q1"/>
             <title>Liber II, Distinctio 38 per 42, Q. 1</title>
@@ -498,6 +499,7 @@
           </item>
         </div>
         <div id="ftdp-l2d43per44" type="distinctio" subtype="librum2-distinctio43 librum2-distinctio44">
+          <head>Liber II, Distinctio 43 per 44</head>
           <item type="quaestio">
             <fileName filestem="ftdp-l2d43per44q1"/>
             <title>Liber II, Distinctio 43 per 44, Q. 1</title>

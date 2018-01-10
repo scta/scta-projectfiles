@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Peter of Tarantaise</authorName>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/tarantasiacommentary</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/tarantasiacommentary/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource>1652 edition</questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt and Calix G. O'Hara</questionListEncoder>
@@ -27,10 +27,12 @@
       <witness id="B">
         <slug>clm14067</slug>
         <title>Munich Clm 14067</title>
+        <initial>B</initial>
       </witness>
       <witness id="Ba">
         <slug>clm28212</slug>
         <title>Munich Clm 28212</title>
+        <initial>Ba</initial>
       </witness>
     </hasWitnesses>
   </header>
@@ -3537,7 +3539,7 @@
             </hasWitnesses>
           </item>
         </div>
-        <div id="pdt-l3d31" types="distinctio" subtype="librum3-distinctio31">
+        <div id="pdt-l3d31" type="distinctio" subtype="librum3-distinctio31">
           <head>Liber III, Distinctio 31</head>
           <item type="quaestio">
             <fileName filestem="pdt-l3d31q1"/>

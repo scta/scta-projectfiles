@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
     <header>
         <authorName>Peter Plaoul</authorName>
         <commentaryName>Plaoul Commentary</commentaryName>
         <commentaryid>plaoulcommentary</commentaryid>
         <commentaryslug>pp</commentaryslug>
-        <rcsid>100849</rcsid>
         <authorUri>http://scta.info/resource/peter-plaoul</authorUri>
         <parentUri>http://scta.info/resource/plaoulcommentary</parentUri>
       <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/</textfilesdir>
-        <webbase>http://petrusplaoul.org/</webbase>
         <questionListSource>Manuscripta Article</questionListSource>
         <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -51,11 +50,12 @@
             <initial>P</initial>
           </witness>-->
         </hasWitnesses>
+      <rcsid>100849</rcsid>
     </header>
     <div id="body">
         <div id="pp-principia" class="toplevel" type="principia">
             <head>Principia</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="principiumI">principiumI.xml</fileName>
                 <title>Principium I</title>
                 <hasWitnesses>
@@ -72,7 +72,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="principiumII">principiumII.xml</fileName>
                 <title>Principium II</title>
                 <hasWitnesses>
@@ -90,7 +90,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="principiumIII">principiumIII.xml</fileName>
                 <title>Principium III</title>
                 <hasWitnesses>
@@ -109,7 +109,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="principiumIV">principiumIV.xml</fileName>
                 <title>Principium IV</title>
                 <hasWitnesses>
@@ -151,7 +151,7 @@
         </div>
         <div id="pp-deFide" class="toplevel" type="prologus" subtype="librum1-prologus">
             <head>de Fide</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio1">lectio1.xml</fileName>
                 <title>Lectio 1, De fide</title>
                 <hasWitnesses>
@@ -183,7 +183,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio2">lectio2.xml</fileName>
                 <title>Lectio 2, De fide</title>
                 <hasWitnesses>
@@ -210,7 +210,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio3">lectio3.xml</fileName>
                 <title>Lectio 3, De fide</title>
                 <hasWitnesses>
@@ -237,7 +237,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio4">lectio4.xml</fileName>
                 <title>Lectio 4, De fide</title>
                 <hasWitnesses>
@@ -268,7 +268,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio5">lectio5.xml</fileName>
                 <title>Lectio 5, De fide</title>
                 <hasWitnesses>
@@ -298,7 +298,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio6">lectio6.xml</fileName>
                 <title>Lectio 6, De fide</title>
                 <hasWitnesses>
@@ -330,7 +330,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio7">lectio7.xml</fileName>
                 <title>Lectio 7, De fide</title>
                 <hasWitnesses>
@@ -368,7 +368,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio8">lectio8.xml</fileName>
                 <title>Lectio 8, De fide</title>
                 <hasWitnesses>
@@ -403,7 +403,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio9">lectio9.xml</fileName>
                 <title>Lectio 9, De fide</title>
                 <hasWitnesses>
@@ -433,7 +433,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio10">lectio10.xml</fileName>
                 <title>Lectio 10, De fide</title>
                 <hasWitnesses>
@@ -458,7 +458,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio11">lectio11.xml</fileName>
                 <title>Lectio 11, De fide</title>
                 <hasWitnesses>
@@ -488,7 +488,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio12">lectio12.xml</fileName>
                 <title>Lectio 12, De fide</title>
                 <hasWitnesses>
@@ -511,7 +511,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio13">lectio13.xml</fileName>
                 <title>Lectio 13, De fide</title>
                 <hasWitnesses>
@@ -542,7 +542,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio14">lectio14.xml</fileName>
                 <title>Lectio 14, De fide</title>
                 <hasWitnesses>
@@ -579,7 +579,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio15">lectio15.xml</fileName>
                 <title>Lectio 15, De fide</title>
                 <hasWitnesses>
@@ -602,7 +602,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio16">lectio16.xml</fileName>
                 <title>Lectio 16, De fide</title>
                 <hasWitnesses>
@@ -635,7 +635,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio17">lectio17.xml</fileName>
                 <title>Lectio 17, De fide</title>
                 <hasWitnesses>
@@ -668,7 +668,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio18">lectio18.xml</fileName>
                 <title>Lectio 18, De fide</title>
                 <hasWitnesses>
@@ -704,7 +704,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio19">lectio19.xml</fileName>
                 <title>Lectio 19, De fide</title>
                 <hasWitnesses>
@@ -739,7 +739,7 @@
         </div>
         <div id="pp-deNotitia" class="toplevel" type="distinctio" subtype="librum1-distinctio3">
             <head>de Notitia</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio20">lectio20.xml</fileName>
                 <title>Lectio 20, de Notitia</title>
                 <hasWitnesses>
@@ -769,7 +769,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio21">lectio21.xml</fileName>
                 <title>Lectio 21, de Notitia</title>
                 <hasWitnesses>
@@ -805,7 +805,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio22">lectio22.xml</fileName>
                 <title>Lectio 22, de Notitia</title>
                 <hasWitnesses>
@@ -849,7 +849,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio23">lectio23.xml</fileName>
                 <title>Lectio 23, de Notitia</title>
                 <hasWitnesses>
@@ -882,7 +882,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio24">lectio24.xml</fileName>
                 <title>Lectio 24, de Notitia</title>
                 <hasWitnesses>
@@ -917,7 +917,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio25">lectio25.xml</fileName>
                 <title>Lectio 25, de Notitia</title>
                 <hasWitnesses>
@@ -954,7 +954,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio26">lectio26.xml</fileName>
                 <title>Lectio 26, de Notitia</title>
                 <hasWitnesses>
@@ -993,7 +993,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio27">lectio27.xml</fileName>
                 <title>Lectio 27, de Notitia</title>
                 <hasWitnesses>
@@ -1034,7 +1034,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio28">lectio28.xml</fileName>
                 <title>Lectio 28, de Notitia</title>
                 <hasWitnesses>
@@ -1073,7 +1073,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio29">lectio29.xml</fileName>
                 <title>Lectio 29, de Notitia</title>
                 <hasWitnesses>
@@ -1107,7 +1107,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio30">lectio30.xml</fileName>
                 <title>Lectio 30, de Notitia</title>
                 <hasWitnesses>
@@ -1141,7 +1141,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio31">lectio31.xml</fileName>
                 <title>Lectio 31, de Notitia</title>
                 <hasWitnesses>
@@ -1176,7 +1176,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio32">lectio32.xml</fileName>
                 <title>Lectio 32, de Notitia</title>
                 <hasWitnesses>
@@ -1206,7 +1206,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio33">lectio33.xml</fileName>
                 <title>Lectio 33, de Notitia</title>
                 <hasWitnesses>
@@ -1250,7 +1250,7 @@
         </div>
         <div id="pp-deFruitione" class="toplevel" type="distinctio" subtype="librum1-distinctio1">
             <head>de Fruitione</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio34">lectio34.xml</fileName>
                 <title>Lectio 34, de Fruitione</title>
                 <hasWitnesses>
@@ -1280,7 +1280,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio35">lectio35.xml</fileName>
                 <title>Lectio 35, de Fruitione</title>
                 <hasWitnesses>
@@ -1307,7 +1307,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio36">lectio36.xml</fileName>
                 <title>Lectio 36, de Fruitione</title>
                 <hasWitnesses>
@@ -1335,7 +1335,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio37">lectio37.xml</fileName>
                 <title>Lectio 37, de Fruitione</title>
                 <hasWitnesses>
@@ -1366,7 +1366,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio38">lectio38.xml</fileName>
                 <title>Lectio 38, de Fruitione</title>
                 <hasWitnesses>
@@ -1392,7 +1392,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio39">lectio39.xml</fileName>
                 <title>Lectio 39, de Fruitione</title>
                 <hasWitnesses>
@@ -1422,7 +1422,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio40">lectio40.xml</fileName>
                 <title>Lectio 40, de Fruitione</title>
                 <hasWitnesses>
@@ -1447,7 +1447,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio41">lectio41.xml</fileName>
                 <title>Lectio 41, de Fruitione</title>
                 <hasWitnesses>
@@ -1480,7 +1480,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio42">lectio42.xml</fileName>
                 <title>Lectio 42, de Fruitione</title>
                 <hasWitnesses>
@@ -1510,7 +1510,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio43">lectio43.xml</fileName>
                 <title>Lectio 43, de Fruitione</title>
                 <hasWitnesses>
@@ -1536,7 +1536,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio44">lectio44.xml</fileName>
                 <title>Lectio 44, de Fruitione</title>
                 <hasWitnesses>
@@ -1567,7 +1567,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio45">lectio45.xml</fileName>
                 <title>Lectio 45, de Fruitione</title>
                 <hasWitnesses>
@@ -1599,7 +1599,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio46">lectio46.xml</fileName>
                 <title>Lectio 46, de Fruitione</title>
                 <hasWitnesses>
@@ -1635,7 +1635,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio47">lectio47.xml</fileName>
                 <title>Lectio 47, de Fruitione</title>
                 <hasWitnesses>
@@ -1667,7 +1667,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio48">lectio48.xml</fileName>
                 <title>Lectio 48, de Fruitione</title>
                 <hasWitnesses>
@@ -1690,7 +1690,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio49">lectio49.xml</fileName>
                 <title>Lectio 49, de Fruitione</title>
                 <hasWitnesses>
@@ -1723,7 +1723,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio50">lectio50.xml</fileName>
                 <title>Lectio 50, de Fruitione</title>
                 <hasWitnesses>
@@ -1758,7 +1758,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio51">lectio51.xml</fileName>
                 <title>Lectio 51, de Fruitione</title>
                 <hasWitnesses>
@@ -1788,7 +1788,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio52">lectio52.xml</fileName>
                 <title>Lectio 52, de Fruitione</title>
                 <hasWitnesses>
@@ -1815,7 +1815,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio53">lectio53.xml</fileName>
                 <title>Lectio 53, de Fruitione</title>
                 <hasWitnesses>
@@ -1851,7 +1851,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio54">lectio54.xml</fileName>
                 <title>Lectio 54, de Fruitione</title>
                 <hasWitnesses>
@@ -1885,7 +1885,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio55">lectio55.xml</fileName>
                 <title>Lectio 55, de Fruitione</title>
                 <hasWitnesses>
@@ -1919,7 +1919,7 @@
         </div>
         <div id="pp-deTrinitate" class="toplevel" type="distinctio">
             <head>de Trinitate</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio56">lectio56.xml</fileName>
                 <title>Lectio 56, de Trinitate</title>
                 <hasWitnesses>
@@ -1948,7 +1948,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio57">lectio57.xml</fileName>
                 <title>Lectio 57, de Trinitate</title>
                 <hasWitnesses>
@@ -1978,7 +1978,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio58">lectio58.xml</fileName>
                 <title>Lectio 58, de Trinitate</title>
                 <hasWitnesses>
@@ -2008,7 +2008,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio59">lectio59.xml</fileName>
                 <title>Lectio 59, de Trinitate</title>
                 <hasWitnesses>
@@ -2032,7 +2032,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio60">lectio60.xml</fileName>
                 <title>Lectio 60, de Trinitate</title>
                 <hasWitnesses>
@@ -2061,7 +2061,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio61">lectio61.xml</fileName>
                 <title>Lectio 61, de Trinitate</title>
                 <hasWitnesses>
@@ -2089,7 +2089,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio62">lectio62.xml</fileName>
                 <title>Lectio 62, de Trinitate</title>
                 <hasWitnesses>
@@ -2115,7 +2115,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio63">lectio63.xml</fileName>
                 <title>Lectio 63, de Trinitate</title>
                 <hasWitnesses>
@@ -2152,7 +2152,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio64">lectio64.xml</fileName>
                 <title>Lectio 64, de Trinitate</title>
                 <hasWitnesses>
@@ -2182,7 +2182,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio65">lectio65.xml</fileName>
                 <title>Lectio 65, de Trinitate</title>
                 <hasWitnesses>
@@ -2210,7 +2210,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio66">lectio66.xml</fileName>
                 <title>Lectio 66, de Trinitate</title>
                 <hasWitnesses>
@@ -2236,7 +2236,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio67">lectio67.xml</fileName>
                 <title>Lectio 67, de Trinitate</title>
                 <hasWitnesses>
@@ -2268,7 +2268,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio68">lectio68.xml</fileName>
                 <title>Lectio 68, de Trinitate</title>
                 <hasWitnesses>
@@ -2299,7 +2299,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio69">lectio69.xml</fileName>
                 <title>Lectio 69, de Trinitate</title>
                 <hasWitnesses>
@@ -2334,7 +2334,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio70">lectio70.xml</fileName>
                 <title>Lectio 70, de Trinitate</title>
                 <hasWitnesses>
@@ -2372,7 +2372,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio71">lectio71.xml</fileName>
                 <title>Lectio 71, de Trinitate</title>
                 <hasWitnesses>
@@ -2404,7 +2404,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio72">lectio72.xml</fileName>
                 <title>Lectio 72, de Trinitate</title>
                 <hasWitnesses>
@@ -2434,7 +2434,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio73">lectio73.xml</fileName>
                 <title>Lectio 73, de Trinitate</title>
                 <hasWitnesses>
@@ -2463,7 +2463,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio74">lectio74.xml</fileName>
                 <title>Lectio 74, de Trinitate</title>
                 <hasWitnesses>
@@ -2494,7 +2494,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio75">lectio75.xml</fileName>
                 <title>Lectio 75, de Trinitate</title>
                 <hasWitnesses>
@@ -2521,7 +2521,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio76">lectio76.xml</fileName>
                 <title>Lectio 76, de Trinitate</title>
                 <hasWitnesses>
@@ -2553,7 +2553,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio77">lectio77.xml</fileName>
                 <title>Lectio 77, de Trinitate</title>
                 <hasWitnesses>
@@ -2583,7 +2583,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio78">lectio78.xml</fileName>
                 <title>Lectio 78, de Trinitate</title>
                 <hasWitnesses>
@@ -2614,7 +2614,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio79">lectio79.xml</fileName>
                 <title>Lectio 79, de Trinitate</title>
                 <hasWitnesses>
@@ -2646,7 +2646,7 @@
         </div>
         <div id="pp-deCaritate" class="toplevel" type="distinctio" subtype="librum1-distinctio17">
             <head>de Caritate</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio80">lectio80.xml</fileName>
                 <title>Lectio 80, de Caritate</title>
                 <hasWitnesses>
@@ -2671,7 +2671,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio81">lectio81.xml</fileName>
                 <title>Lectio 81, de Caritate</title>
                 <hasWitnesses>
@@ -2701,7 +2701,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio82">lectio82.xml</fileName>
                 <title>Lectio 82, de Caritate</title>
                 <hasWitnesses>
@@ -2731,7 +2731,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio83">lectio83.xml</fileName>
                 <title>Lectio 83, de Caritate</title>
                 <hasWitnesses>
@@ -2753,7 +2753,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio84">lectio84.xml</fileName>
                 <title>Lectio 84, de Caritate</title>
                 <hasWitnesses>
@@ -2783,7 +2783,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio85">lectio85.xml</fileName>
                 <title>Lectio 85, de Caritate</title>
                 <hasWitnesses>
@@ -2811,7 +2811,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio86">lectio86.xml</fileName>
                 <title>Lectio 86, de Caritate</title>
                 <hasWitnesses>
@@ -2844,7 +2844,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio87">lectio87.xml</fileName>
                 <title>Lectio 87, de Caritate</title>
                 <hasWitnesses>
@@ -2879,7 +2879,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio88">lectio88.xml</fileName>
                 <title>Lectio 88, de Caritate</title>
                 <hasWitnesses>
@@ -2905,7 +2905,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio89">lectio89.xml</fileName>
                 <title>Lectio 89, de Caritate</title>
                 <hasWitnesses>
@@ -2934,7 +2934,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio90">lectio90.xml</fileName>
                 <title>Lectio 90, de Caritate</title>
                 <hasWitnesses>
@@ -2965,7 +2965,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio91">lectio91.xml</fileName>
                 <title>Lectio 91, de Caritate</title>
                 <hasWitnesses>
@@ -2988,7 +2988,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio92">lectio92.xml</fileName>
                 <title>Lectio 92, de Caritate</title>
                 <hasWitnesses>
@@ -3015,7 +3015,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio93">lectio93.xml</fileName>
                 <title>Lectio 93, de Caritate</title>
                 <hasWitnesses>
@@ -3041,7 +3041,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio94">lectio94.xml</fileName>
                 <title>Lectio 94, de Caritate</title>
                 <hasWitnesses>
@@ -3067,7 +3067,7 @@
         </div>
         <div id="pp-deLibertate" class="toplevel" type="distinctio">
             <head>de Libertate</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio95">lectio95.xml</fileName>
                 <title>Lectio 95, de Libertate</title>
                 <hasWitnesses>
@@ -3089,7 +3089,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio96">lectio96.xml</fileName>
                 <title>Lectio 96, de Libertate</title>
                 <hasWitnesses>
@@ -3120,7 +3120,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio97">lectio97.xml</fileName>
                 <title>Lectio 97, de Libertate</title>
                 <hasWitnesses>
@@ -3143,7 +3143,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio98">lectio98.xml</fileName>
                 <title>Lectio 98, de Libertate</title>
                 <hasWitnesses>
@@ -3167,7 +3167,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio99">lectio99.xml</fileName>
                 <title>Lectio 99, de Libertate</title>
                 <hasWitnesses>
@@ -3191,7 +3191,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio100">lectio100.xml</fileName>
                 <title>Lectio 100, de Libertate</title>
                 <hasWitnesses>
@@ -3215,7 +3215,7 @@
                      </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio101">lectio101.xml</fileName>
                 <title>Lectio 101, de Libertate</title>
                 <hasWitnesses>
@@ -3237,7 +3237,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio102">lectio102.xml</fileName>
                 <title>Lectio 102, de Libertate</title>
                 <hasWitnesses>
@@ -3261,7 +3261,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio103">lectio103.xml</fileName>
                 <title>Lectio 103, de Libertate</title>
                 <hasWitnesses>
@@ -3284,7 +3284,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio104">lectio104.xml</fileName>
                 <title>Lectio 104, de Libertate</title>
                 <hasWitnesses>
@@ -3308,7 +3308,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio105">lectio105.xml</fileName>
                 <title>Lectio 105, de Libertate</title>
                 <hasWitnesses>
@@ -3330,7 +3330,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio106">lectio106.xml</fileName>
                 <title>Lectio 106, de Libertate</title>
                 <hasWitnesses>
@@ -3359,7 +3359,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio107">lectio107.xml</fileName>
                 <title>Lectio 107, de Libertate</title>
                 <hasWitnesses>
@@ -3381,7 +3381,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio108">lectio108.xml</fileName>
                 <title>Lectio 108, de Libertate</title>
                 <hasWitnesses>
@@ -3401,7 +3401,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio109">lectio109.xml</fileName>
                 <title>Lectio 109, de Libertate</title>
                 <hasWitnesses>
@@ -3425,7 +3425,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio110">lectio110.xml</fileName>
                 <title>Lectio 110, de Libertate</title>
                 <hasWitnesses>
@@ -3449,7 +3449,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio111">lectio111.xml</fileName>
                 <title>Lectio 111, de Libertate</title>
                 <hasWitnesses>
@@ -3476,7 +3476,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio112">lectio112.xml</fileName>
                 <title>Lectio 112, de Libertate</title>
                 <hasWitnesses>
@@ -3501,7 +3501,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio113">lectio113.xml</fileName>
                 <title>Lectio 113, de Libertate</title>
                 <hasWitnesses>
@@ -3522,7 +3522,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio114">lectio114.xml</fileName>
                 <title>Lectio 114, de Libertate</title>
                 <hasWitnesses>
@@ -3547,7 +3547,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio115">lectio115.xml</fileName>
                 <title>Lectio 115, de Libertate</title>
                 <hasWitnesses>
@@ -3570,7 +3570,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio116">lectio116.xml</fileName>
                 <title>Lectio 116, de Libertate</title>
                 <hasWitnesses>
@@ -3595,7 +3595,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio117">lectio117.xml</fileName>
                 <title>Lectio 117, de Libertate</title>
                 <hasWitnesses>
@@ -3620,7 +3620,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio118">lectio118.xml</fileName>
                 <title>Lectio 118, de Libertate</title>
                 <hasWitnesses>
@@ -3647,7 +3647,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio119">lectio119.xml</fileName>
                 <title>Lectio 119, de Libertate</title>
                 <hasWitnesses>
@@ -3672,7 +3672,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio120">lectio120.xml</fileName>
                 <title>Lectio 120, de Libertate</title>
                 <hasWitnesses>
@@ -3696,7 +3696,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio121">lectio121.xml</fileName>
                 <title>Lectio 121, de Libertate</title>
                 <hasWitnesses>
@@ -3719,7 +3719,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio122">lectio122.xml</fileName>
                 <title>Lectio 122, de Libertate</title>
                 <hasWitnesses>
@@ -3739,7 +3739,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio123">lectio123.xml</fileName>
                 <title>Lectio 123, de Libertate</title>
                 <hasWitnesses>
@@ -3760,7 +3760,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio124">lectio124.xml</fileName>
                 <title>Lectio 124, de Libertate</title>
                 <hasWitnesses>
@@ -3783,7 +3783,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio125">lectio125.xml</fileName>
                 <title>Lectio 125, de Libertate</title>
                 <hasWitnesses>
@@ -3806,7 +3806,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio126">lectio126.xml</fileName>
                 <title>Lectio 126, de Libertate</title>
                 <hasWitnesses>
@@ -3830,7 +3830,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio127">lectio127.xml</fileName>
                 <title>Lectio 127, de Libertate</title>
                 <hasWitnesses>
@@ -3854,7 +3854,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio128">lectio128.xml</fileName>
                 <title>Lectio 128, de Libertate</title>
                 <hasWitnesses>
@@ -3877,7 +3877,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio129">lectio129.xml</fileName>
                 <title>Lectio 129, de Libertate</title>
                 <hasWitnesses>
@@ -3906,7 +3906,7 @@
         </div>
         <div id="deIncarnatione" class="toplevel" type="distinctio">
             <head>de Incarnatione</head>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio130">lectio130.xml</fileName>
                 <title>Lectio 130, de Incarnatione</title>
                 <hasWitnesses>
@@ -3928,7 +3928,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio131">lectio131.xml</fileName>
                 <title>Lectio 131, de Incarnatione</title>
                 <hasWitnesses>
@@ -3953,7 +3953,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio132">lectio132.xml</fileName>
                 <title>Lectio 132, de Incarnatione</title>
                 <hasWitnesses>
@@ -3980,7 +3980,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio133">lectio133.xml</fileName>
                 <title>Lectio 133, de Incarnatione</title>
                 <hasWitnesses>
@@ -4004,7 +4004,7 @@
                     </witness>
                 </hasWitnesses>
             </item>
-            <item live="true" type="lectio">
+            <item type="lectio">
                 <fileName filestem="lectio134">lectio134.xml</fileName>
                 <title>Lectio 134, de Incarnatione</title>
                 <hasWitnesses>

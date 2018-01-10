@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames xmlns:sctap="http://scta.info/property/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <header>
@@ -10,7 +11,6 @@
     <parentUri>http://scta.info/resource/lombardsententia</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/lombardsententia/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -20,8 +20,6 @@
         <slug>zbsSII72</slug>
         <title>Solothurn, Zentralbibliothek, Cod. S II 72</title>
         <initial>Z</initial>
-        <canvasBase>http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/</canvasBase>
-        <manifestOfficial>http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/manifest.json</manifestOfficial>
       </witness>
       <witness id="P">
         <slug>bnf15705</slug>
@@ -46,79 +44,93 @@
       <witness id="H">
         <slug>hopkinsMSB19</slug>
         <title>Baltimore, Johns Hopkins</title>
-        <canvasBase>http://scta.info/iiif/pl-hopkins/canvas/</canvasBase>
         <initial>H</initial>
       </witness>
       <witness id="W">
         <slug>walt809</slug>
         <title>Baltimore, Walters, W. 809</title>
-        <canvasBase/>
         <initial>W</initial>
       </witness>
       <witness id="Va">
         <slug>vatlat680</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 680</title>
+        <initial>Va</initial>
       </witness>
       <witness id="Vb">
         <slug>vatlat681</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 681</title>
+        <initial>Vb</initial>
       </witness>
       <witness id="Vc">
         <slug>vatlat682</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 682</title>
+        <initial>Vc</initial>
       </witness>
       <witness id="Vd">
         <slug>vatlat683</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 683</title>
+        <initial>Vd</initial>
       </witness>
       <witness id="Ve">
         <slug>vatlat684</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 684</title>
+        <initial>Ve</initial>
       </witness>
       <witness id="Vf">
         <slug>vatlat685</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 685</title>
+        <initial>Vf</initial>
       </witness>
       <witness id="Vg">
         <slug>vatlat687</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 687</title>
+        <initial>Vg</initial>
       </witness>
       <witness id="Vh">
         <slug>vatlat688</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 688</title>
+        <initial>Vh</initial>
       </witness>
       <witness id="Vi">
         <slug>vatlat689</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 689</title>
+        <initial>Vi</initial>
       </witness>
       <witness id="Vj">
         <slug>vatlat690</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 690</title>
+        <initial>Vj</initial>
       </witness>
       <witness id="Vk">
         <slug>vatlat693</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 693</title>
+        <initial>Vk</initial>
       </witness>
       <witness id="B">
-        <shortid>clm2958</shortid>
-        <title>Munich Clm 2958</title>  
+        <slug>clm2958</slug>
+        <title>Munich Clm 2958</title>
+        <initial>B</initial>
       </witness>
       <witness id="Ba">
-        <shortid>clm14172</shortid>
-        <title>Munich Clm 14172</title>  
+        <slug>clm14172</slug>
+        <title>Munich Clm 14172</title>
+        <initial>Ba</initial>
       </witness>
       <witness id="Bb">
-        <shortid>clm14150</shortid>
-        <title>Munich Clm 14150</title>  
+        <slug>clm14150</slug>
+        <title>Munich Clm 14150</title>
+        <initial>Bb</initial>
       </witness>
       <witness id="Bc">
-        <shortid>clm14151</shortid>
+        <slug>clm14151</slug>
         <title>Munich Clm 14151</title>  
+        <initial>Bc</initial>
       </witness>
       <witness id="Ma">
         <!-- single leaf containing par of l4d11c1, all of l4d11c2, and part of l4d11c3; see http://digitalcollections.lmu.edu/cdm/ref/collection/manuscripts/id/20 -->
-        <shortid>marymount25</shortid>
+        <slug>marymount25</slug>
         <title>Loyola University Marymount, ms. 25</title>  
+        <initial>Ma</initial>
       </witness>
     </hasWitnesses>
   </header>
@@ -126,6 +138,7 @@
     <div id="pl-librum1" class="toplevel" type="librum">
       <head>Liber I</head>
       <div id="pl-l1proldiv" type='distinctio' subtype="librum1-prologus">
+        <head>Liber I, Prologus</head>
         <item id="pl-l1prol" type="prologus">
           <fileName filestem="pl-l1prol"/>
           <title>Liber I, Prologus</title>
@@ -139,13 +152,13 @@
               <folio>1r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_001r.json">1r</folio>
+              <folio>1r</folio>
             </witness>
             <witness ref="#Pc">
               <folio>1r</folio>
             </witness>
             <witness ref="#H">
-              <folio canvasslug="1r">1r</folio>
+              <folio>1r</folio>
             </witness>
             <witness ref="#W">
               <folio>1r</folio>
@@ -172,13 +185,13 @@
               <folio>3r</folio> <!-- a to b -->
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_003r.json">3r</folio>
+              <folio>3r</folio>
             </witness>
             <witness ref="#Pc">
               <folio>3r</folio>
             </witness>
             <witness ref="#H">
-              <folio canvasslug="4v">4v</folio>
+              <folio>4v</folio>
             </witness>
             <witness ref="#W">
               <folio>3v</folio>
@@ -193,7 +206,7 @@
           <fileName filestem="pl-l1d1c2">pl-l1d1c2.xml</fileName>
           <title>Liber I, distinctio 1, capitulum 2</title>
           <questionTitle>De rebus quibus fruendum est vel utendum est, et de his quae fruuntur vel utuntur.</questionTitle>
-          <incipit>Id ergo in rebus considerandum est</incipit>
+          <!--<incipit>Id ergo in rebus considerandum est</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio c="a">5r</folio> <!-- column "a" near the top -->
@@ -202,10 +215,10 @@
               <folio>3r</folio> <!-- b --> 
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_003r.json">3r</folio>
+              <folio>3r</folio>
             </witness>
             <witness ref="#H">
-              <folio canvasslug="4v">4v</folio>
+              <folio>4v</folio>
             </witness><witness ref="#W">
               <folio>3v</folio>
             </witness>
@@ -219,7 +232,7 @@
           <fileName filestem="pl-l1d1c3">pl-l1d1c3.xml</fileName>
           <title>Liber I, distinctio 1, capitulum 3</title>
           <questionTitle>Quid sit frui vel uti.</questionTitle>
-          <incipit>Notandum vero</incipit>
+          <!--<incipit>Notandum vero</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio c="a">5r</folio> 
@@ -230,14 +243,14 @@
               <folio>4r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_003r.json">3r</folio>
-              <folio canvasslug="zbs-SII-0072_003v.json">3v</folio>
-              <folio canvasslug="zbs-SII-0072_004r.json">4r</folio>
+              <folio>3r</folio>
+              <folio>3v</folio>
+              <folio>4r</folio>
             </witness>
             <witness ref="#H">
-              <folio canvasslug="4v">4v</folio>
-              <folio canvasslug="5r">5r</folio>
-              <folio canvasslug="5v">5v</folio>
+              <folio>4v</folio>
+              <folio>5r</folio>
+              <folio>5v</folio>
             </witness><witness ref="#W">
               <folio>3v</folio>
             </witness>
@@ -266,11 +279,11 @@
               <folio c="b">4r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_004r.json">4r</folio>
-              <folio canvasslug="zbs-SII-0072_004v.json">4v</folio>
+              <folio>4r</folio>
+              <folio>4v</folio>
             </witness>
             <witness ref="#H">
-              <folio canvasslug="5v">5v</folio>
+              <folio>5v</folio>
             </witness><witness ref="#W">
               <folio>5r</folio>
             </witness>
@@ -284,7 +297,7 @@
           <fileName filestem="pl-l1d2c2">pl-l1d2c2.xml</fileName>
           <title>Liber I, distinctio 2, capitulum 2</title>
           <questionTitle>Quae fuerit intentio scribentium de Trinitate.</questionTitle>
-          <incipit>Omnes autem catholici</incipit>
+          <!--<incipit>Omnes autem catholici</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio>6r</folio>
@@ -294,7 +307,7 @@
               <folio>4v</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_004v.json">4v</folio>
+              <folio>4v</folio>
             </witness><witness ref="#W">
               <folio>5r</folio>
             </witness>
@@ -307,7 +320,7 @@
           <fileName filestem="pl-l1d2c3">pl-l1d2c3.xml</fileName>
           <title>Liber I, distinctio 2, capitulum 3</title>
           <questionTitle>Quis ordo sit servandus cum de Trinitate agitur.</questionTitle>
-          <incipit>ceterum, ut in libro</incipit>
+          <!--<incipit>ceterum, ut in libro</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio>6r</folio>
@@ -316,7 +329,7 @@
               <folio c="a">4v</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_004v.json">4v</folio>
+              <folio>4v</folio>
             </witness><witness ref="#W">
               <folio>5r</folio>
             </witness>
@@ -330,7 +343,7 @@
           <fileName filestem="pl-l1d2c4">pl-l1d2c4.xml</fileName>
           <title>Liber I, distinctio 2, capitulum 4</title>
           <questionTitle>De testimoniis veteris Testamenti quibus Trinitatis mysterium declaratur.</questionTitle>
-          <incipit>proponamus ergo</incipit>
+          <!--<incipit>proponamus ergo</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio>6r</folio>
@@ -340,9 +353,9 @@
               <folio>5r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_004v.json">4v</folio>
-              <folio canvasslug="zbs-SII-0072_005r.json">5r</folio>
-              <folio canvasslug="zbs-SII-0072_005v.json">5v</folio>
+              <folio>4v</folio>
+              <folio>5r</folio>
+              <folio>5v</folio>
             </witness><witness ref="#W">
               <folio>5r</folio>
             </witness>
@@ -357,7 +370,7 @@
           <fileName filestem="pl-l1d2c5">pl-l1d2c5.xml</fileName>
           <title>Liber I, distinctio 2, capitulum 5</title>
           <questionTitle>De testimoniis novi Testamenti ad idem pertinentibus.</questionTitle>
-          <incipit>Nunc post testimonia</incipit>
+          <!--<incipit>Nunc post testimonia</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
               <folio>6v</folio>
@@ -366,7 +379,7 @@
               <folio c="b">5r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_005v.json">5v</folio>
+              <folio>5v</folio>
             </witness><witness ref="#W">
               <folio>6r</folio>
             </witness>
@@ -384,16 +397,14 @@
           <fileName filestem="pl-l1d3c1">pl-l1d3c1.xml</fileName>
           <title>Liber I, distinctio 3, capitulum 1</title>
           <questionTitle>De cognitione Creatoris per creaturas in quibus Trinitatis vestigium apparet.</questionTitle>
-          <incipit>Apostolus namque ait</incipit>
+          <!--<incipit>Apostolus namque ait</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
-              <slug>bnf15705</slug>
-              <initial>P</initial>
               <folio>7r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_005v.json">5v</folio>
-              <folio canvasslug="zbs-SII-0072_006r.json">6r</folio>
+              <folio>5v</folio>
+              <folio>6r</folio>
             </witness><witness ref="#W">
               <folio>6v</folio>
             </witness>
@@ -409,16 +420,14 @@
           <fileName filestem="pl-l1d3c2">pl-l1d3c2.xml</fileName>
           <title>Liber I, distinctio 3, capitulum 2</title>
           <questionTitle>De imagine et similitudine Trinitatis in anima humana.</questionTitle>
-          <incipit>Nunc vero iam ad eam</incipit>
+          <!--<incipit>Nunc vero iam ad eam</incipit>-->
           <hasWitnesses>
             <witness ref="#P">
-              <slug>bnf15705</slug>
-              <initial>P</initial>
               <folio>7v</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_006r.json">6r</folio>
-              <folio canvasslug="zbs-SII-0072_006v.json">6v</folio>
+              <folio>6r</folio>
+              <folio>6v</folio>
             </witness>
             <witness ref="#W">
               <folio>7v</folio>
@@ -435,16 +444,14 @@
           <fileName filestem="pl-l1d3c3">pl-l1d3c3.xml</fileName>
           <title>Liber I, distinctio 3, capitulum 3</title>
           <questionTitle>De similitudine creantis et creatae trinitatis.</questionTitle>
-          <incipit>verumtamen caveat, ne hanc</incipit>
+          <!-- <incipit>verumtamen caveat, ne hanc</incipit> -->
           <hasWitnesses>
             <witness ref="#P">
-              <slug>bnf15705</slug>
-              <initial>P</initial>
               <folio>8r</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_007r.json">7r</folio>
-              <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
+              <folio>7r</folio>
+              <folio>7v</folio>
             </witness>
             <witness ref="#W">
               <folio>8r</folio>
@@ -460,15 +467,13 @@
           <fileName filestem="pl-l1d3c4">pl-l1d3c4.xml</fileName>
           <title>Liber I, distinctio 3, capitulum 3</title>
           <questionTitle>De Trinitatis unitate.</questionTitle>
-          <incipit>Quapropter iuxta istam</incipit>
+          <!-- <incipit>Quapropter iuxta istam</incipit> -->
           <hasWitnesses>
             <witness ref="#P">
-              <slug>bnf15705</slug>
-              <initial>P</initial>
               <folio>8v</folio>
             </witness>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
+              <folio>7v</folio>
             </witness><witness ref="#W">
               <folio>9r</folio>
             </witness>
@@ -484,10 +489,10 @@
           <fileName filestem="pl-l1d4c1">pl-l1d4c1.xml</fileName>
           <title>Liber I, distinctio 4, capitulum 1</title>
           <questionTitle>Utrum Deus Pater se Deum genuerit.</questionTitle>
-          <incipit>Hic oritur</incipit>
+          <!--<incipit>Hic oritur</incipit>-->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
+              <folio>7v</folio>
             </witness><witness ref="#W">
               <folio>9r</folio>
             </witness>
@@ -501,11 +506,11 @@
           <fileName filestem="pl-l1d4c2">pl-l1d4c2.xml</fileName>
           <title>Liber I, distinctio 4, capitulum 2</title>
           <questionTitle>Utrum trinitas de uno Deo praedicetur, sicut unus Deus de tribus personis.</questionTitle>
-          <incipit>Quidam tamen veritatis</incipit>
+          <!--<incipit>Quidam tamen veritatis</incipit>-->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_007v.json">7v</folio>
-              <folio canvasslug="zbs-SII-0072_008r.json">8r</folio>
+              <folio>7v</folio>
+              <folio>8r</folio>
             </witness>
             <witness ref="#W">
               <folio>9v</folio>
@@ -523,13 +528,13 @@
           <fileName filestem="pl-l1d5c1">pl-l1d5c1.xml</fileName>
           <title>Liber I, distinctio 5, capitulum 1</title>
           <questionTitle>Utrum divina essentia genuerit Filium vel genita sit a Patre, vel de ipsa natus sit Filius vel Spiritus Sanctus procedens.</questionTitle>
-            <incipit>Post haec quaeritur</incipit>
+            <!--<incipit>Post haec quaeritur</incipit>-->
             <hasWitnesses>
               <witness ref="#Z">
-                <folio canvasslug="zbs-SII-0072_008r.json">8r</folio>
-                <folio canvasslug="zbs-SII-0072_008v.json">8v</folio>
-                <folio canvasslug="zbs-SII-0072_009r.json">9r</folio>
-                <folio canvasslug="zbs-SII-0072_009v.json">9v</folio>
+                <folio>8r</folio>
+                <folio>8v</folio>
+                <folio>9r</folio>
+                <folio>9v</folio>
               </witness>
               <witness ref="#W">
                 <folio>9v</folio>
@@ -550,12 +555,12 @@
           <fileName filestem="pl-l1d5c2">pl-l1d5c2.xml</fileName>
           <title>Liber I, distinctio 5, capitulum 2</title>
           <questionTitle>Quod Filius non est de nihilo, sed de aliquo, non tamen de materia, sic et Spiritus Sanctus.</questionTitle>
-          <incipit>Ostenditur quoque</incipit>
+          <!--<incipit>Ostenditur quoque</incipit>-->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_009v.json">9v</folio>
+              <folio>9v</folio>
             </witness>
-            <witness>
+            <witness ref="#W"> <!--dbcheck -->
               <folio>11v</folio>
             </witness>
             <witness ref="#Pd">
@@ -568,11 +573,12 @@
           <fileName filestem="pl-l1d5c3">pl-l1d5c3.xml</fileName>
           <title>Liber I, distinctio 5, capitulum 3</title>
           <questionTitle>Quare Verbum Patris dicatur filius naturae.</questionTitle>
-          <incipit>inde est</incipit>
+          <!--<incipit>inde est</incipit>-->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_009v.json">9v</folio>
-            </witness><witness ref="#W">
+              <folio>9v</folio>
+            </witness>
+            <witness ref="#W">
               <folio>12r</folio>
             </witness>
           </hasWitnesses>
@@ -584,11 +590,11 @@
           <fileName filestem="pl-l1d6c1">pl-l1d6c1.xml</fileName>
           <title>Liber I, distinctio 6, capitulum 1</title>
           <questionTitle>Utrum Pater voluntate genuerit Filium an necessitate, et an volens vel nolens sit Deus.</questionTitle>
-          <incipit>praeterea quaeri solet</incipit>
+          <!-- <incipit>praeterea quaeri solet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_009v.json">9v</folio>
-              <folio canvasslug="zbs-SII-0072_010r.json">10r</folio>
+              <folio>9v</folio>
+              <folio>10r</folio>
             </witness>
             <witness ref="#W">
               <folio>12r</folio>
@@ -607,11 +613,11 @@
           <fileName filestem="pl-l1d7c1">pl-l1d7c1.xml</fileName>
           <title>Liber I, distinctio 7, capitulum 1</title>
           <questionTitle>Utrum Pater potuerit vel voluerit gignere Filium.</questionTitle>
-          <incipit>hic solet quaeri</incipit>
+          <!-- <incipit>hic solet quaeri</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_010r.json">10r</folio>
-              <folio canvasslug="zbs-SII-0072_010v.json">10v</folio>
+              <folio>10r</folio>
+              <folio>10v</folio>
             </witness>
             <witness ref="#W">
               <folio>12v</folio>
@@ -627,11 +633,11 @@
           <fileName filestem="pl-l1d7c2">pl-l1d7c2.xml</fileName>
           <title>Liber I, distinctio 7, capitulum 2</title>
           <questionTitle>An posse gignere Filium sit aliqua potentia in Patre, quae non sit in Filio.</questionTitle>
-          <incipit>Item quaeritur a quibusdam</incipit>
+          <!-- <incipit>Item quaeritur a quibusdam</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_010v.json">10v</folio>
-              <folio canvasslug="zbs-SII-0072_011r.json">11r</folio>
+              <folio>10v</folio>
+              <folio>11r</folio>
             </witness>
             <witness ref="#W">
               <folio>13r</folio>
@@ -650,10 +656,10 @@
           <fileName filestem="pl-l1d8c1">pl-l1d8c1.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 1</title>
           <questionTitle>De veritate ac proprietate divinae essentiae.</questionTitle>
-          <incipit>Nunc de veritate</incipit>
+          <!-- <incipit>Nunc de veritate</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_011r.json">11r</folio>
+              <folio>11r</folio>
             </witness>
             <witness ref="#W">
               <folio>13v</folio>
@@ -668,11 +674,11 @@
           <fileName filestem="pl-l1d8c2">pl-l1d8c2.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 2</title>
           <questionTitle>De incommutabilitate eiusdem.</questionTitle>
-          <incipit>Dei etiam solius</incipit>
+          <!--<incipit>Dei etiam solius</incipit>-->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_011r.json">11r</folio>
-              <folio canvasslug="zbs-SII-0072_011v.json">11v</folio>
+              <folio>11r</folio>
+              <folio>11v</folio>
             </witness>
             <witness ref="#W">
               <folio>14r</folio>
@@ -688,10 +694,10 @@
           <fileName filestem="pl-l1d8c3">pl-l1d8c3.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 3</title>
           <questionTitle>De simplicitate eiusdem.</questionTitle>
-          <incipit>Eademque sola proprie</incipit>
+          <!-- <incipit>Eademque sola proprie</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_011v.json">11v</folio>
+              <folio>11v</folio>
             </witness>
             <witness ref="#W">
               <folio>14v</folio>
@@ -705,10 +711,10 @@
           <fileName filestem="pl-l1d8c4">pl-l1d8c4.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 4</title>
           <questionTitle>De corporali et spirituali creatura, quomodo sit multiplex et non simplex.</questionTitle>
-          <incipit>Creatura quoque spiritualis</incipit>
+          <!-- <incipit>Creatura quoque spiritualis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_011v.json">11v</folio>
+              <folio>11v</folio>
             </witness>
             <witness ref="#W">
               <folio>14v</folio>
@@ -723,11 +729,11 @@
           <fileName filestem="pl-l1d8c5">pl-l1d8c5.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 5</title>
           <questionTitle>Quod Deus cum sit simplex, tamen multipliciter dicitur.</questionTitle>
-          <incipit>Hic diligenter notandum est</incipit>
+          <!-- <incipit>Hic diligenter notandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_011v.json">11v</folio>
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
+              <folio>11v</folio>
+              <folio>12r</folio>
             </witness>
             <witness ref="#W">
               <folio>14v</folio>
@@ -741,10 +747,10 @@
           <fileName filestem="pl-l1d8c6">pl-l1d8c6.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 6</title>
           <questionTitle>Quod Dei simplicitas nulli praedicamentorum subicitur.</questionTitle>
-          <incipit>Quod autem in natura deitatis</incipit>
+          <!-- <incipit>Quod autem in natura deitatis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
+              <folio>12r</folio>
             </witness>
             <witness ref="#W">
               <folio>14v</folio>
@@ -759,10 +765,10 @@
           <fileName filestem="pl-l1d8c7">pl-l1d8c7.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 7</title>
           <questionTitle>Quod Deus abusive dicitur substantia.</questionTitle>
-          <incipit>Unde nec proprie</incipit>
+          <!-- <incipit>Unde nec proprie</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
+              <folio>12r</folio>
             </witness>
             <witness ref="#W">
               <folio>15r</folio>
@@ -776,10 +782,10 @@
           <fileName filestem="pl-l1d8c8">pl-l1d8c8.xml</fileName>
           <title>Liber I, distinctio 8, capitulum 8</title>
           <questionTitle>Quod non est in Deo aliquid quod non sit Deus.</questionTitle>
-          <incipit>Huius autem essentiae</incipit>
+          <!-- <incipit>Huius autem essentiae</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
+              <folio>12r</folio>
             </witness>
             <witness ref="#W">
               <folio>15r</folio>
@@ -797,10 +803,10 @@
           <fileName filestem="pl-l1d9c1">pl-l1d9c1.xml</fileName>
           <title>Liber I, distinctio 9, capitulum 1</title>
           <questionTitle>De distinctione trium personarum.</questionTitle>
-          <incipit>Nunc ad distinctionem personarum</incipit>
+          <!-- <incipit>Nunc ad distinctionem personarum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
+              <folio>12r</folio>
             </witness>
             <witness ref="#W">
               <folio>15v</folio>
@@ -814,11 +820,11 @@
           <fileName filestem="pl-l1d9c2">pl-l1d9c2.xml</fileName>
           <title>Liber I, distinctio 9, capitulum 2</title>
           <questionTitle>De coaeternitate Patris et Filii.</questionTitle>
-          <incipit>Genitus est enim</incipit>
+          <!-- <incipit>Genitus est enim</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012r.json">12r</folio>
-              <folio canvasslug="zbs-SII-0072_012v.json">12v</folio>
+              <folio>12r</folio>
+              <folio>12v</folio>
             </witness>
             <witness ref="#W">
               <folio>15v</folio>
@@ -833,10 +839,10 @@
           <fileName filestem="pl-l1d9c3">pl-l1d9c3.xml</fileName>
           <title>Liber I, distinctio 9, capitulum 3</title>
           <questionTitle>De ineffabili et intelligibili generationis modo.</questionTitle>
-          <incipit>Sed quaeris a me</incipit>
+          <!-- <incipit>Sed quaeris a me</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012v.json">12v</folio>
+              <folio>12v</folio>
             </witness>
             <witness ref="#W">
               <folio>15v</folio>
@@ -847,11 +853,11 @@
           <fileName filestem="pl-l1d9c4">pl-l1d9c4.xml</fileName>
           <title>Liber I, distinctio 9, capitulum 4</title>
           <questionTitle>Utrum debeat dici 'semper gignitur Filius' vel 'semper genitus est'.</questionTitle>
-          <incipit>Hic quaeri potest</incipit>
+          <!-- <incipit>Hic quaeri potest</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_012v.json">12v</folio>
-              <folio canvasslug="zbs-SII-0072_013r.json">13r</folio>
+              <folio>12v</folio>
+              <folio>13r</folio>
             </witness>
             <witness ref="#W">
               <folio>16r</folio>
@@ -862,11 +868,11 @@
           <fileName filestem="pl-l1d9c5">pl-l1d9c5.xml</fileName>
           <title>Liber I, distinctio 9, capitulum 5</title>
           <questionTitle>De obiectionibus haereticorum nitentium probare Filium non esse coaeternum Patri.</questionTitle>
-          <incipit>Sed inquiet haereticus</incipit>
+          <!-- <incipit>Sed inquiet haereticus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_013r.json">13r</folio>
-              <folio canvasslug="zbs-SII-0072_013v.json">13v</folio>
+              <folio>13r</folio>
+              <folio>13v</folio>
             </witness>
             <witness ref="#W">
               <folio>17r</folio>
@@ -880,10 +886,10 @@
           <fileName filestem="pl-l1d10c1">pl-l1d10c1.xml</fileName>
           <title>Liber I, distinctio 10, capitulum 1</title>
           <questionTitle>De Spiritu Sancto: quod amor Patris et Filii est et proprie dicitur, cum sit in Trinitate amor qui est Trinitas; sicut Verbum proprie dicitur sapientia, et tamen tota Trinitas dicitur sapientia.</questionTitle>
-          <incipit>Nunc post Filii aeternitate</incipit>
+          <!-- <incipit>Nunc post Filii aeternitate</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_013v.json">13v</folio>
+              <folio>13v</folio>
             </witness>
             <witness ref="#W">
               <folio>17r</folio>
@@ -894,11 +900,11 @@
           <fileName filestem="pl-l1d10c2">pl-l1d10c2.xml</fileName>
           <title>Liber I, distinctio 10, capitulum 2</title>
           <questionTitle>Quod eadem nomina proprie et universaliter accipiuntur.</questionTitle>
-          <incipit>Pluribus enim exemplis</incipit>
+          <!-- <incipit>Pluribus enim exemplis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_013v.json">13v</folio>
-              <folio canvasslug="zbs-SII-0072_014r.json">14r</folio>
+              <folio>13v</folio>
+              <folio>14r</folio>
             </witness>
             <witness ref="#W">
               <folio>17r</folio>
@@ -909,10 +915,10 @@
           <fileName filestem="pl-l1d10c3">pl-l1d10c3.xml</fileName>
           <title>Liber I, distinctio 10, capitulum 3</title>
           <questionTitle>Quod Spiritus Sanctus, sicut Patri et Filio est communis, ita commune nomen habet proprium.</questionTitle>
-          <incipit>Hic notandum est</incipit>
+          <!-- <incipit>Hic notandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_014r.json">14r</folio>
+              <folio>14r</folio>
             </witness>
             <witness ref="#W">
               <folio>17v</folio>
@@ -926,10 +932,10 @@
           <fileName filestem="pl-l1d11c1">pl-l1d11c1.xml</fileName>
           <title>Liber I, distinctio 11, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus procedit a Patre et Filio, quem tamen Graeci a Filio procedere diffitentur.</questionTitle>
-          <incipit>Hic dicendum est</incipit>
+          <!-- <incipit>Hic dicendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_014r.json">14r</folio>
+              <folio>14r</folio>
             </witness>
             <witness ref="#W">
               <folio>18r</folio>
@@ -940,11 +946,11 @@
           <fileName filestem="pl-l1d11c2">pl-l1d11c2.xml</fileName>
           <title>Liber I, distinctio 11, capitulum 1</title>
           <questionTitle>De convenientia Latinorum et Graecorum in sensu et differentia in verbis.</questionTitle>
-          <incipit>Sciendum tamen est</incipit>
+          <!-- <incipit>Sciendum tamen est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_014r.json">14r</folio>
-              <folio canvasslug="zbs-SII-0072_014v.json">14v</folio>
+              <folio>14r</folio>
+              <folio>14v</folio>
             </witness>
             <witness ref="#W">
               <folio>18v</folio>
@@ -958,10 +964,10 @@
           <fileName filestem="pl-l1d12c1">pl-l12d1c1.xml</fileName>
           <title>Liber I, distinctio 12, capitulum 1</title>
           <questionTitle>Utrum Spiritus Sanctus prius vel plenius procedat a Patre quam a Filio.</questionTitle>
-          <incipit>Item quaeritur</incipit>
+          <!-- <incipit>Item quaeritur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_014v.json">14v</folio>
+              <folio>14v</folio>
             </witness>
             <witness ref="#W">
               <folio>18v</folio>
@@ -972,11 +978,11 @@
           <fileName filestem="pl-l1d12c2">pl-l1d12c2.xml</fileName>
           <title>Liber I, distinctio 12, capitulum 2</title>
           <questionTitle>Quod Spiritus Sanctus principaliter et proprie dicitur procedere a Patre.</questionTitle>
-          <incipit>Nunc tractandum</incipit>
+          <!-- <incipit>Nunc tractandum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_014v.json">14v</folio>
-              <folio canvasslug="zbs-SII-0072_015r.json">15r</folio>
+              <folio>14v</folio>
+              <folio>15r</folio>
             </witness>
             <witness ref="#W">
               <folio>19r</folio>
@@ -990,10 +996,10 @@
           <fileName filestem="pl-l1d13c1">pl-l1d13c1.xml</fileName>
           <title>Liber I, distinctio 13, capitulum 1</title>
           <questionTitle>Quare Spiritus Sanctus, cum sit de substantia Patris, non dicatur genitus, sed tantum procedens.</questionTitle>
-          <incipit>Post haec considerandum</incipit>
+          <!-- <incipit>Post haec considerandum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_015r.json">15r</folio>
+              <folio>15r</folio>
             </witness>
             <witness ref="#W">
               <folio>19v</folio>
@@ -1004,10 +1010,10 @@
           <fileName filestem="pl-l1d13c2">pl-l1d13c2.xml</fileName>
           <title>Liber I, distinctio 13, capitulum 2</title>
           <questionTitle>Cur Filius dicatur procedere, cum Spiritus Sanctus non dicatur gigni.</questionTitle>
-          <incipit>Cum autem Spiritus sanctus</incipit>
+          <!-- <incipit>Cum autem Spiritus sanctus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_015r.json">15r</folio>
+              <folio>15r</folio>
             </witness>
             <witness ref="#W">
               <folio>19v</folio>
@@ -1018,11 +1024,11 @@
           <fileName filestem="pl-l1d13c3">pl-l1d13c3.xml</fileName>
           <title>Liber I, distinctio 13, capitulum 3</title>
           <questionTitle>Quod non potest mortalis distinguere inter generationem Filii et processionem Spiritus Sancti.</questionTitle>
-          <incipit>Inter generationem vero</incipit>
+          <!-- <incipit>Inter generationem vero</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_015r.json">15r</folio>
-              <folio canvasslug="zbs-SII-0072_015v.json">15v</folio>
+              <folio>15r</folio>
+              <folio>15v</folio>
             </witness>
             <witness ref="#W">
               <folio>19v</folio>
@@ -1033,10 +1039,10 @@
           <fileName filestem="pl-l1d13c4">pl-l1d13c4.xml</fileName>
           <title>Liber I, distinctio 13, capitulum 4</title>
           <questionTitle>Utrum Spiritus Sanctus debeat dici ingenitus, cum non sit genitus.</questionTitle>
-          <incipit>Nunc considerandum est</incipit>
+          <!-- <incipit>Nunc considerandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_015v.json">15v</folio>
+              <folio>15v</folio>
             </witness>
             <witness ref="#W">
               <folio>20r</folio>
@@ -1050,11 +1056,11 @@
           <fileName filestem="pl-l1d14c1">pl-l1d14c1.xml</fileName>
           <title>Liber I, distinctio 14, capitulum 1</title>
           <questionTitle>De gemina processione Spiritus Sancti, temporali et aeterna.</questionTitle>
-          <incipit>Praeterea diligenter ad notandum</incipit>
+          <!-- <incipit>Praeterea diligenter ad notandum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_015v.json">15v</folio>
-              <folio canvasslug="zbs-SII-0072_016r.json">16r</folio>
+              <folio>15v</folio>
+              <folio>16r</folio>
             </witness>
             <witness ref="#W">
               <folio>20v</folio>
@@ -1065,10 +1071,10 @@
           <fileName filestem="pl-l1d14c2">pl-l1d14c2.xml</fileName>
           <title>Liber I, distinctio 14, capitulum 2</title>
           <questionTitle>Quod non solum dona Spiritus Sancti, sed etiam ipse Spiritus Sanctus Deus datur hominibus et mittitur.</questionTitle>
-          <incipit>Sunt autem aliqui</incipit>
+          <!-- <incipit>Sunt autem aliqui</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_016r.json">16r</folio>
+              <folio>16r</folio>
             </witness>
             <witness ref="#W">
               <folio>20v</folio>
@@ -1079,11 +1085,11 @@
           <fileName filestem="pl-l1d14c3">pl-l1d14c3.xml</fileName>
           <title>Liber I, distinctio 14, capitulum 3</title>
           <questionTitle>An viri sancti possint dare Spiritum Sanctum.</questionTitle>
-          <incipit>Hic quaeritur, utrum</incipit>
+          <!-- <incipit>Hic quaeritur, utrum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_016r.json">16r</folio>
-              <folio canvasslug="zbs-SII-0072_016v.json">16v</folio>
+              <folio>16r</folio>
+              <folio>16v</folio>
             </witness>
             <witness ref="#W">
               <folio>21r</folio>
@@ -1097,10 +1103,10 @@
           <fileName filestem="pl-l1d15c1">pl-l1d15c1.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus a se ipso datur et Filius a se ipso mittitur.</questionTitle>
-          <incipit>Hic quaeritur est, cum Spiritus</incipit>
+          <!-- <incipit>Hic quaeritur est, cum Spiritus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_016v.json">16v</folio>
+              <folio>16v</folio>
             </witness>
             <witness ref="#W">
               <folio>21r</folio>
@@ -1111,10 +1117,10 @@
           <fileName filestem="pl-l1d15c2">pl-l1d15c2.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 2</title>
           <questionTitle>Quomodo intelligenda sit missio utriusque.</questionTitle>
-          <incipit>Quocirca quaerendum est</incipit>
+          <!-- <incipit>Quocirca quaerendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_016v.json">16v</folio>
+              <folio>16v</folio>
             </witness>
             <witness ref="#W">
               <folio>21v</folio>
@@ -1125,11 +1131,11 @@
           <fileName filestem="pl-l1d15c3">pl-l1d15c3.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 3</title>
           <questionTitle>Quod a Spiritu Sancto etiam Filius sit missus.</questionTitle>
-          <incipit>Et quod a Spiritu sancto</incipit>
+          <!-- <incipit>Et quod a Spiritu sancto</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_016v.json">16v</folio>
-              <folio canvasslug="zbs-SII-0072_017r.json">17r</folio>
+              <folio>16v</folio>
+              <folio>17r</folio>
             </witness>
             <witness ref="#W">
               <folio>21v</folio>
@@ -1140,10 +1146,10 @@
           <fileName filestem="pl-l1d15c4">pl-l1d15c4.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 4</title>
           <questionTitle>Quod Filius etiam sit datus a se ipso.</questionTitle>
-          <incipit>Deinde ostendit, esse datum</incipit>
+          <!-- <incipit>Deinde ostendit, esse datum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017r.json">17r</folio>
+              <folio>17r</folio>
             </witness>
             <witness ref="#W">
               <folio>22r</folio>
@@ -1154,10 +1160,10 @@
           <fileName filestem="pl-l1d15c5">pl-l1d15c5.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 5</title>
           <questionTitle>Quomodo intelligendum sit 'a me ipso non veni'.</questionTitle>
-          <incipit>Sed ad hoc opponitur</incipit>
+          <!-- <incipit>Sed ad hoc opponitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017r.json">17r</folio>
+              <folio>17r</folio>
             </witness>
             <witness ref="#W">
               <folio>22r</folio>
@@ -1168,10 +1174,10 @@
           <fileName filestem="pl-l1d15c6">pl-l1d15c6.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 6</title>
           <questionTitle>Utrum semel tantum sit missus Filius, an saepe.</questionTitle>
-          <incipit>Hic quaeritur, utrum semel</incipit>
+          <!-- <incipit>Hic quaeritur, utrum semel</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017r.json">17r</folio>
+              <folio>17r</folio>
             </witness>
             <witness ref="#W">
               <folio>22r</folio>
@@ -1182,11 +1188,11 @@
           <fileName filestem="pl-l1d15c7">pl-l1d15c7.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 7</title>
           <questionTitle>De duobus modis missionis Filii.</questionTitle>
-          <incipit>Ad quod dicimus</incipit>
+          <!-- <incipit>Ad quod dicimus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017r.json">17r</folio>
-              <folio canvasslug="zbs-SII-0072_017v.json">17v</folio>
+              <folio>17r</folio>
+              <folio>17v</folio>
             </witness>
             <witness ref="#W">
               <folio>22r</folio>
@@ -1197,10 +1203,10 @@
           <fileName filestem="pl-l1d15c8">pl-l1d15c8.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 8</title>
           <questionTitle>Quod secundam alterum modum semel sit missus, secundum alterum saepe; et secundum alterum modum dicitur missus in mundum, secundum alterum non</questionTitle>
-          <incipit>Ecce distincti sunt duo</incipit>
+          <!-- <incipit>Ecce distincti sunt duo</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017v.json">17v</folio>
+              <folio>17v</folio>
             </witness>
             <witness ref="#W">
               <folio>22v</folio>
@@ -1211,10 +1217,10 @@
           <fileName filestem="pl-l1d15c9">pl-l1d15c9.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 9</title>
           <questionTitle>Quare Pater non dicitur missus.</questionTitle>
-          <incipit>Hic quaeritur, cur Pater</incipit>
+          <!-- <incipit>Hic quaeritur, cur Pater</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017v.json">17v</folio>
+              <folio>17v</folio>
             </witness>
             <witness ref="#W">
               <folio>22v</folio>
@@ -1225,10 +1231,10 @@
           <fileName filestem="pl-l1d15c10">pl-l1d15c10.xml</fileName>
           <title>Liber I, distinctio 15, capitulum 10</title>
           <questionTitle>Quod Filius et Spiritus Sanctus non sunt quasi minores Patre quia missi.</questionTitle>
-          <incipit>Ideoque putaverunt quidam haeretici</incipit>
+          <!-- <incipit>Ideoque putaverunt quidam haeretici</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017v.json">17v</folio>
+              <folio>17v</folio>
             </witness>
             <witness ref="#W">
               <folio>22v</folio>
@@ -1244,11 +1250,11 @@
           <fileName filestem="pl-l1d16c1">pl-l1d16c1.xml</fileName>
           <title>Liber I, distinctio 16, capitulum 1</title>
           <questionTitle>De missione Spiritus Sancti, quae fit duobus modis: visibiliter et invisibiliter.</questionTitle>
-          <incipit>Nunc de Spiritu Sancto</incipit>
+          <!-- <incipit>Nunc de Spiritu Sancto</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_017v.json">17v</folio>
-              <folio canvasslug="zbs-SII-0072_018r.json">18r</folio>
+              <folio>17v</folio>
+              <folio>18r</folio>
             </witness>
             <witness ref="#W">
               <folio>22v</folio>
@@ -1259,11 +1265,11 @@
           <fileName filestem="pl-l1d16c2">pl-l1d16c2.xml</fileName>
           <title>Liber I, distinctio 16, capitulum 2</title>
           <questionTitle>Quod Filius, secundam quod homo, non modo Patre sed Spiritu Sancto etiam minor est.</questionTitle>
-          <incipit>Notandum autem, quod Filius</incipit>
+          <!-- <incipit>Notandum autem, quod Filius</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_018r.json">18r</folio>
-              <folio canvasslug="zbs-SII-0072_018v.json">18v</folio>
+              <folio>18r</folio>
+              <folio>18v</folio>
             </witness>
             <witness ref="#W">
               <folio>23v</folio>
@@ -1277,11 +1283,11 @@
           <fileName filestem="pl-l1d17c1">pl-l1d17c1.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 1</title>
           <questionTitle>Quod Spiritus Sanctus est caritas qua diligimus Deum et proximum.</questionTitle>
-          <incipit>Iam nunc accedamus</incipit>
+          <!-- <incipit>Iam nunc accedamus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_018v.json">18v</folio>
-              <folio canvasslug="zbs-SII-0072_019r.json">19r</folio>
+              <folio>18v</folio>
+              <folio>19r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1289,10 +1295,10 @@
           <fileName filestem="pl-l1d17c2">pl-l1d17c2.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 2</title>
           <questionTitle>Quod fraterna dilectio est Deus, nec Pater vel Filius, sed tantum Spiritus Sanctus.</questionTitle>
-          <incipit>Cum autem fraterna</incipit>
+          <!-- <incipit>Cum autem fraterna</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_019r.json">19r</folio>
+              <folio>19r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1300,10 +1306,10 @@
           <fileName filestem="pl-l1d17c3">pl-l1d17c3.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 3</title>
           <questionTitle>Quod non est dictum per causam illud: 'Deus caritas est', sicut illud: 'Tu es patientia mea et spes mea'.</questionTitle>
-          <incipit>Sed ne forte aliquis dicat</incipit>
+          <!-- <incipit>Sed ne forte aliquis dicat</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_019r.json">19r</folio>
+              <folio>19r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1311,11 +1317,11 @@
           <fileName filestem="pl-l1d17c4">pl-l1d17c4.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 4</title>
           <questionTitle>Quomodo Spiritus Sanctus mittatur vel detur nobis.</questionTitle>
-          <incipit>Tunc enim mitti</incipit>
+          <!-- <incipit>Tunc enim mitti</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_019r.json">19r</folio>
-              <folio canvasslug="zbs-SII-0072_019v.json">19v</folio>
+              <folio>19r</folio>
+              <folio>19v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1323,10 +1329,10 @@
           <fileName filestem="pl-l1d17c5">pl-l1d17c5.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 5</title>
           <questionTitle>Utrum Spiritus Sanctus augeatur in homine, vel minus et magis habeatur vel detur, et an detur habenti et non habenti.</questionTitle>
-          <incipit>Hic quaeritur, si caritas</incipit>
+          <!-- <incipit>Hic quaeritur, si caritas</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_019v.json">19v</folio>
+              <folio>19v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1334,12 +1340,12 @@
           <fileName filestem="pl-l1d17c6">pl-l1d17c6.xml</fileName>
           <title>Liber I, distinctio 17, capitulum 6</title>
           <questionTitle>Quod aliqui dicunt caritatem Dei et proximi non esse Spiritum Sanctum.</questionTitle>
-          <incipit>Supra dictum est</incipit>
+          <!-- <incipit>Supra dictum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_019v.json">19v</folio>
-              <folio canvasslug="zbs-SII-0072_020r.json">20r</folio>
-              <folio canvasslug="zbs-SII-0072_020v.json">20v</folio>
+              <folio>19v</folio>
+              <folio>20r</folio>
+              <folio>20v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1351,10 +1357,10 @@
           <fileName filestem="pl-l1d18c1">pl-l1d18c1.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 1</title>
           <questionTitle>Utrum concedendum sit per donum dari dona.</questionTitle>
-          <incipit>Hic quaeritur, cum Spiritus sanctus, per quem</incipit>
+          <!-- <incipit>Hic quaeritur, cum Spiritus sanctus, per quem</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_020v.json">20v</folio>
+              <folio>20v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1362,11 +1368,11 @@
           <fileName filestem="pl-l1d18c2">pl-l1d18c2.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 2</title>
           <questionTitle>Utrum Spiritus Sanctus eadem ratione dicatur donum, qua datum sive donatum.</questionTitle>
-          <incipit>praeterea diligenter considerandum est</incipit>
+          <!-- <incipit>praeterea diligenter considerandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_020v.json">20v</folio>
-              <folio canvasslug="zbs-SII-0072_021r.json">21r</folio>
+              <folio>20v</folio>
+              <folio>21r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1374,11 +1380,11 @@
           <fileName filestem="pl-l1d18c3">pl-l1d18c3.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 3</title>
           <questionTitle>Quod sicut Filius nascendo accepit non tantum ut esset Filius, sed etiam essentia, ita Spiritus Sanctus procedendo accepit non tantum ut esset donum, sed ut esset essentia.</questionTitle>
-          <incipit>Et notandum, quod sicut</incipit>
+          <!-- <incipit>Et notandum, quod sicut</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_021r.json">21r</folio>
-              <folio canvasslug="zbs-SII-0072_021v.json">21v</folio>
+              <folio>21r</folio>
+              <folio>21v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1386,10 +1392,10 @@
           <fileName filestem="pl-l1d18c4">pl-l1d18c4.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 4</title>
           <questionTitle>Quod Spiritus Sanctus dicitur donum et donatum secundum duos modos praedictos processionis: quod secundum quod donum est, refertur ad Patrem; et secundum quod datum, ad eum qui dedit et ad eos quibus datur.</questionTitle>
-          <incipit>Ex praedictis patet, quod Spiritus sanctus</incipit>
+          <!-- <incipit>Ex praedictis patet, quod Spiritus sanctus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_021v.json">21v</folio>
+              <folio>21v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1397,10 +1403,10 @@
           <fileName filestem="pl-l1d18c5">pl-l1d18c5.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 5</title>
           <questionTitle>An Filius, cum sit nobis datus, possit dici 'noster', ut Spiritus Sanctus.</questionTitle>
-          <incipit>Hic quaeritur, utrum et Filius</incipit>
+          <!-- <incipit>Hic quaeritur, utrum et Filius</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_021v.json">21v</folio>
+              <folio>21v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1408,10 +1414,10 @@
           <fileName filestem="pl-l1d18c6">pl-l1d18c6.xml</fileName>
           <title>Liber I, distinctio 18, capitulum 6</title>
           <questionTitle>Utrum Spiritus Sanctus ad se ipsum referatur.</questionTitle>
-          <incipit>Post haec quaeritur</incipit>
+          <!-- <incipit>Post haec quaeritur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_021v.json">21v</folio>
+              <folio>21v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1422,10 +1428,10 @@
           <fileName filestem="pl-l1d19c1">pl-l1d19c1.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 1</title>
           <questionTitle>De aequalitate trium personarum.</questionTitle>
-          <incipit>Nunc postquam coaeternitatem</incipit>
+          <!-- <incipit>Nunc postquam coaeternitatem</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_021v.json">21v</folio>
+              <folio>21v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1433,10 +1439,10 @@
           <fileName filestem="pl-l1d19c2">pl-l1d19c2.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 2</title>
           <questionTitle>Quod aeternitas et magnitudo et potentia in Deo est unum, etsi videantur diversa.</questionTitle>
-          <incipit>Cumque enumerentur ista</incipit>
+          <!-- <incipit>Cumque enumerentur ista</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_022r.json">22r</folio>
+              <folio c="a">22r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1444,10 +1450,10 @@
           <fileName filestem="pl-l1d19c3">pl-l1d19c3.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 3</title>
           <questionTitle>Quod aliqua personarum aliam non excedit magnitudine, quia non est maior una persona quam alia, nec maius aliquid duae quam una, nec tres quam duae vel una.</questionTitle>
-          <incipit>Nunc igitur superest ostendere</incipit>
+          <!-- <incipit>Nunc igitur superest ostendere</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio n="a" canvasslug="zbs-SII-0072_022v.json">22r</folio>
+              <folio c="a">22r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1455,11 +1461,11 @@
           <fileName filestem="pl-l1d19c4">pl-l1d19c4.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 4</title>
           <questionTitle>Quomodo dicitur Pater esse in Filio et Filius in Patre et Spiritus Sanctus in utroque.</questionTitle>
-          <incipit>Et inde est</incipit>
+          <!-- <incipit>Et inde est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_022r.json">22r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_022v.json">22v</folio>
+              <folio c="b">22r</folio>
+              <folio c="a">22v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1467,10 +1473,10 @@
           <fileName filestem="pl-l1d19c5">pl-l1d19c5.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 5</title>
           <questionTitle>Quod nulla personarum pars est in Trinitate.</questionTitle>
-          <incipit>Nec est aliqua</incipit>
+          <!-- <incipit>Nec est aliqua</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_022v.json">22v</folio>
+              <folio c="a">22v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1478,11 +1484,11 @@
           <fileName filestem="pl-l1d19c6">pl-l1d19c6.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 6</title>
           <questionTitle>Quare tres personae dicantur summe unum.</questionTitle>
-          <incipit>Tres enim personae</incipit>
+          <!-- <incipit>Tres enim personae</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_022v.json">22v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_023r.json">23r</folio>
+              <folio c="b">22v</folio>
+              <folio c="a">23r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1490,10 +1496,10 @@
           <fileName filestem="pl-l1d19c7">pl-l1d19c7.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 7</title>
           <questionTitle>Cum dicimus tres personas esse unam essentiam, nec ut genus de speciebus, nec ut speciem de individuis praedicamus, quia non est essentia genus et persona species, vel essentia species et personae individua.</questionTitle>
-          <incipit>Hic adiiciendum est</incipit>
+          <!-- <incipit>Hic adiiciendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_023r.json">23r</folio>
+              <folio>23r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1501,10 +1507,10 @@
           <fileName filestem="pl-l1d19c8">pl-l1d19c8.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 8</title>
           <questionTitle>Quod nec secundum materialem causam dicuntur tres personae una essentia.</questionTitle>
-          <incipit>Notandum etiam, quod essentia</incipit>
+          <!-- <incipit>Notandum etiam, quod essentia</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_023r.json">23r</folio>
+              <folio c="b">23r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1512,11 +1518,11 @@
           <fileName filestem="pl-l1d19c9">pl-l1d19c9.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 9</title>
           <questionTitle>Nec ita dicuntur tres personae una essentia ut tres homines unius naturae.</questionTitle>
-          <incipit>His quoque addendum est</incipit>
+          <!-- <incipit>His quoque addendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_023r.json">23r</folio>
-              <folio canvasslug="zbs-SII-0072_023v.json">23v</folio>
+              <folio c="b">23r</folio>
+              <folio>23v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1524,10 +1530,10 @@
           <fileName filestem="pl-l1d19c10">pl-l1d19c10.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 10</title>
           <questionTitle>Utrum tres personae differant numero, quae proprietatibus distinctae sunt.</questionTitle>
-          <incipit>Quod autem Ioannes dicit</incipit>
+          <!-- <incipit>Quod autem Ioannes dicit</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_023v.json">23v</folio>
+              <folio c="b">23v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1535,11 +1541,11 @@
           <fileName filestem="pl-l1d19c11">pl-l1d19c11.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 11</title>
           <questionTitle>Quare tres personae simul non sunt maius aliquid quam una.</questionTitle>
-          <incipit>Sciendum est igitur</incipit>
+          <!-- <incipit>Sciendum est igitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_023v.json">23v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_024r.json">24r</folio>
+              <folio c="b">23v</folio>
+              <folio c="a">24r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1547,10 +1553,10 @@
           <fileName filestem="pl-l1d19c12">pl-l1d19c12.xml</fileName>
           <title>Liber I, distinctio 19, capitulum 12</title>
           <questionTitle>Quod Deus non est dicendus triplex, sed trinus.</questionTitle>
-          <incipit>Propterea cum Deus</incipit>
+          <!-- <incipit>Propterea cum Deus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_024r.json">24r</folio>
+              <folio>24r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1561,10 +1567,10 @@
           <fileName filestem="pl-l1d20c1">pl-l1d20c1.xml</fileName>
           <title>Liber I, distinctio 20, capitulum 1</title>
           <questionTitle>Quod aliqua personarum non excedit aliam potentia.</questionTitle>
-          <incipit>Nunc ostendere restat</incipit>
+          <!-- <incipit>Nunc ostendere restat</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_024r.json">24r</folio>
+              <folio c="b">24r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1572,10 +1578,10 @@
           <fileName filestem="pl-l1d20c2">pl-l1d20c2.xml</fileName>
           <title>Liber I, distinctio 20, capitulum 2</title>
           <questionTitle>Quod non minus potest Filius quam Pater.</questionTitle>
-          <incipit>Nihil, inquit, Patre minus habet</incipit>
+          <!-- <incipit>Nihil, inquit, Patre minus habet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_024r.json">24r</folio>
+              <folio c="b">24r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1583,11 +1589,11 @@
           <fileName filestem="pl-l1d20c3">pl-l1d20c3.xml</fileName>
           <title>Liber I, distinctio 20, capitulum 3</title>
           <questionTitle>De obiectionibus haereticis contra hoc et responsionibus catholicis.</questionTitle>
-          <incipit>Tu autem hoc de potentia sapis</incipit>
+          <!-- <incipit>Tu autem hoc de potentia sapis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_024r.json">24r</folio>
-              <folio canvasslug="zbs-SII-0072_024v.json">24v</folio>
+              <folio c="b">24r</folio>
+              <folio>24v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1598,11 +1604,11 @@
           <fileName filestem="pl-l1d21c1">pl-l1d21c1.xml</fileName>
           <title>Liber I, distinctio 21, capitulum 1</title>
           <questionTitle>Quomodo possit dici 'solus Pater' vel 'solus Fillus' vel 'solus Spiritus Sanctus', cum sint inseparabiles.</questionTitle>
-          <incipit>Hic oritur quaestio trahens</incipit>
+          <!-- <incipit>Hic oritur quaestio trahens</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_024v.json">24v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_025r.json">25r</folio>
+              <folio c="b">24v</folio>
+              <folio c="a">25r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1610,10 +1616,10 @@
           <fileName filestem="pl-l1d21c2">pl-l1d21c2.xml</fileName>
           <title>Liber I, distinctio 21, capitulum 2</title>
           <questionTitle>Utrum debeat dici 'solus Pater est Deus' vel 'solus Filius est Deus' vel 'solus Spiritus Sanctus est Deus', an 'Pater est solus Deus', 'Filius est solus Deus', 'Spiritus Sanctus est solus Deus'.</questionTitle>
-          <incipit>Post haec quaeritur</incipit>
+          <!-- <incipit>Post haec quaeritur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_025r.json">25r</folio>
+              <folio>25r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1621,10 +1627,10 @@
           <fileName filestem="pl-l1d21c3">pl-l1d21c3.xml</fileName>
           <title>Liber I, distinctio 21, capitulum 3</title>
           <questionTitle>Quomodo dicatur 'Trinitas est solus Deus', cum ipsa sit cum spiritibus et animabus sanctis.</questionTitle>
-          <incipit>Sed iterum quaeritur</incipit>
+          <!-- <incipit>Sed iterum quaeritur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_025r.json">25r</folio>
+              <folio c="b">25r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1636,11 +1642,11 @@
           <fileName filestem="pl-l1d22c1">pl-l1d22c1.xml</fileName>
           <title>Liber I, distinctio 22, capitulum 1</title>
           <questionTitle>De nominum differentiis quibus utimur loquentes de Deo.</questionTitle>
-          <incipit>Post praedicta disserendum</incipit>
+          <!-- <incipit>Post praedicta disserendum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_025r.json">25r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_025v.json">25v</folio>
+              <folio c="b">25r</folio>
+              <folio c="a">25v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1648,10 +1654,10 @@
           <fileName filestem="pl-l1d22c2">pl-l1d22c2.xml</fileName>
           <title>Liber I, distinctio 22, capitulum 2</title>
           <questionTitle>De his quae temporaliter Deo conveniunt et relative dicuntur.</questionTitle>
-          <incipit>His adiiciendum est</incipit>
+          <!-- <incipit>His adiiciendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_025v.json">25v</folio>
+              <folio c="a">25v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1659,10 +1665,10 @@
           <fileName filestem="pl-l1d22c3">pl-l1d22c3.xml</fileName>
           <title>Liber I, distinctio 22, capitulum 3</title>
           <questionTitle>De hoc nomine quod est 'trinitas'.</questionTitle>
-          <incipit>Praeterea est unum nomen</incipit>
+          <!-- <incipit>Praeterea est unum nomen</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_025v.json">25v</folio>
+              <folio c="a">25v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1670,11 +1676,11 @@
           <fileName filestem="pl-l1d22c4">pl-l1d22c4.xml</fileName>
           <title>Liber I, distinctio 22, capitulum 4</title>
           <questionTitle>De illis quae temporaliter Deo conveniunt et non dicuntur relative.</questionTitle>
-          <incipit>Sciendum est igitur</incipit>
+          <!-- <incipit>Sciendum est igitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_025v.json">25v</folio>
-              <folio canvasslug="zbs-SII-0072_026r.json">26r</folio>
+              <folio>25v</folio>
+              <folio>26r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1685,10 +1691,10 @@
           <fileName filestem="pl-l1d23c1">pl-l1d23c1.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 1</title>
           <questionTitle>De hoc nomine quod est 'persona': quod secundum substantiam dicatur, non singulariter, sed pluraliter accipitur in summa.</questionTitle>
-          <incipit>Praedictis adiiciendum est</incipit>
+          <!-- <incipit>Praedictis adiiciendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_026r.json">26r</folio>
+              <folio>26r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1696,10 +1702,10 @@
           <fileName filestem="pl-l1d23c2">pl-l1d23c2.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 2</title>
           <questionTitle>Qua necessitate dictum sit 'tres personae' a Latinis, et a Graecis 'tres hypostases vel substantiae'.</questionTitle>
-          <incipit>Qua necessitate non</incipit>
+          <!-- <incipit>Qua necessitate non</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_026r.json">26r</folio>
+              <folio c="b">26r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1707,10 +1713,10 @@
           <fileName filestem="pl-l1d23c3">pl-l1d23c3.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 3</title>
           <questionTitle>Quare non dicimus Patrem et Filium et Spiritum Sanctum esse tres deos ut tres personas.</questionTitle>
-          <incipit>Sed quaeritur hic, cum dicamus</incipit>
+          <!-- <incipit>Sed quaeritur hic, cum dicamus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_026v.json">26v</folio>
+              <folio c="a">26v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1718,10 +1724,10 @@
           <fileName filestem="pl-l1d23c4">pl-l1d23c4.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 4</title>
           <questionTitle>Cur non dicimus tres essentias ut tres personas.</questionTitle>
-          <incipit>Verum et hic alia</incipit>
+          <!-- <incipit>Verum et hic alia</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_026v.json">26v</folio>
+              <folio>26v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1729,11 +1735,11 @@
           <fileName filestem="pl-l1d23c5">pl-l1d23c5.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 5</title>
           <questionTitle>Quod in Trinitate non est diversitas vel singularitas vel solitudo, sed unitas et trinitas, et distinctio et identitas.</questionTitle>
-          <incipit>Iam sufficienter, ut puto, ostensum est</incipit>
+          <!-- <incipit>Iam sufficienter, ut puto, ostensum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_026v.json">26v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_027r.json">27r</folio>
+              <folio c="b">26v</folio>
+              <folio c="a">27r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1741,10 +1747,10 @@
           <fileName filestem="pl-l1d23c6">pl-l1d23c6.xml</fileName>
           <title>Liber I, distinctio 23, capitulum 6</title>
           <questionTitle>Quod non debet dici Deus multiplex.</questionTitle>
-          <incipit>Et sicut in Trinitate non est</incipit>
+          <!-- <incipit>Et sicut in Trinitate non est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_027r.json">27r</folio> <!-- no visual marking -->
+              <folio c="a">27r</folio> <!-- no visual marking -->
             </witness>
           </hasWitnesses>
         </item>
@@ -1755,11 +1761,11 @@
           <fileName filestem="pl-l1d24c1">pl-l1d24c1.xml</fileName>
           <title>Liber I, distinctio 24, capitulum 1</title>
           <questionTitle>Quid significetur his nominibus: unus, duo vel duae, tres vel tria, trinus vel trinitas, plures vel pluralitas, distinctio vel distinctae, cum his utimur loquentes de Deo.</questionTitle>
-          <incipit>Hic diligenter inquiri oportet</incipit>
+          <!-- <incipit>Hic diligenter inquiri oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_027r.json">27r</folio> 
-              <folio canvasslug="zbs-SII-0072_027v.json">27v</folio> 
+              <folio c="a">27r</folio> 
+              <folio>27v</folio> 
             </witness>
           </hasWitnesses>
         </item>
@@ -1770,11 +1776,11 @@
           <fileName filestem="pl-l1d25c1"/>
           <title>Liber I, distinctio 25, capitulum 1</title>
           <questionTitle>Quid significetur hoc nomine 'persona' in plurali numero, scilicet cum dicitur 'personae'.</questionTitle>
-          <incipit>Praeterea considerandum est</incipit>
+          <!-- <incipit>Praeterea considerandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_027v.json">27v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_028r.json">28r</folio>
+              <folio c="b">27v</folio>
+              <folio c="a">28r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1782,11 +1788,11 @@
           <fileName filestem="pl-l1d25c2">pl-l1d25c2.xml</fileName>
           <title>Liber I, distinctio 25, capitulum 2</title>
           <questionTitle>De triplici acceptione huius nominis 'persona' in Trinitate.</questionTitle>
-          <incipit>Sciendum est igitur</incipit>
+          <!-- <incipit>Sciendum est igitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_028r.json">28r</folio> 
-              <folio c="a" canvasslug="zbs-SII-0072_028v.json">28v</folio>
+              <folio>28r</folio> 
+              <folio c="a">28v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1794,11 +1800,11 @@
           <fileName filestem="pl-l1d25c3">pl-l1d25c3.xml</fileName>
           <title>Liber I, distinctio 25, capitulum 3</title>
           <questionTitle>Ex quo sensu dicatur alia persona Patris et alia Filii, sive alius in persona Pater, alius Filias.</questionTitle>
-          <incipit>Nunc inspiciamus</incipit>
+          <!-- <incipit>Nunc inspiciamus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_028v.json">28v</folio> 
-              <folio c="a" canvasslug="zbs-SII-0072_029r.json">29r</folio>
+              <folio>28v</folio> 
+              <folio c="a">29r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1810,10 +1816,10 @@
           <fileName filestem="pl-l1d26c1">pl-l1d26c1.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 1</title>
           <questionTitle>De hoc nomine 'hypostasis'.</questionTitle>
-          <incipit>Nunc de proprietatibus personarum</incipit>
+          <!-- <incipit>Nunc de proprietatibus personarum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_029r.json">29r</folio> 
+              <folio c="a">29r</folio> 
             </witness>
           </hasWitnesses>
         </item>
@@ -1821,10 +1827,10 @@
           <fileName filestem="pl-l1d26c2">pl-l1d26c2.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 2</title>
           <questionTitle>De proprietatibus personarum et de nominibus earum relativis.</questionTitle>
-          <incipit>Iam de proprietatibus personarum</incipit>
+          <!-- <incipit>Iam de proprietatibus personarum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_029r.json">29r</folio> 
+              <folio>29r</folio> 
             </witness>
           </hasWitnesses>
         </item>
@@ -1832,11 +1838,11 @@
           <fileName filestem="pl-l1d26c3">pl-l1d26c3.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 3</title>
           <questionTitle>Quod non omnia dicuntur de Deo secundum substantiam: quaedam enim secundum relationem, nihil tamen secundum accidens.</questionTitle>
-          <incipit>Quocirca sciendum est</incipit>
+          <!-- <incipit>Quocirca sciendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_029r.json">29r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_029v.json">29v</folio>
+              <folio c="b">29r</folio>
+              <folio c="a">29v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1844,10 +1850,10 @@
           <fileName filestem="pl-l1d26c4">pl-l1d26c4.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 4</title>
           <questionTitle>Quare dicatur proprium esse Unigeniti filium Dei esse, cum etiam homines sint filii Dei.</questionTitle>
-          <incipit>Hic quaeritur, quomodo dicatur</incipit>
+          <!-- <incipit>Hic quaeritur, quomodo dicatur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_029v.json">29v</folio>
+              <folio>29v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1855,10 +1861,10 @@
           <fileName filestem="pl-l1d26c5">pl-l1d26c5.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 5</title>
           <questionTitle>Quod homo dicitur filius Trinitatis et Trinitas pater hominum.</questionTitle>
-          <incipit>Homo vero, qui filius Dei est factura</incipit>
+          <!-- <incipit>Homo vero, qui filius Dei est factura</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_029v.json">29v</folio>
+              <folio c="b">29v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1866,11 +1872,11 @@
           <fileName filestem="pl-l1d26c6">pl-l1d26c6.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 6</title>
           <questionTitle>Quod Spiritus Sanctus eadem proprietate 'donum' dicitur qua 'spiritus sanctus', et utroque modo relative ad Patrem vel Filium.</questionTitle>
-          <incipit>Ita etiam de Spiritu sancto dicendum est</incipit>
+          <!-- <incipit>Ita etiam de Spiritu sancto dicendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_029v.json">29v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_030r.json">30r</folio>
+              <folio c="b">29v</folio>
+              <folio c="a">30r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1878,10 +1884,10 @@
           <fileName filestem="pl-l1d26c7">pl-l1d26c7.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 7</title>
           <questionTitle>Utrum Pater vel Trinitas ipsa vel Filius possit dici 'spiritus sanctus'.</questionTitle>
-          <incipit>Hic quaeri potest, utrum Pater</incipit>
+          <!-- <incipit>Hic quaeri potest, utrum Pater</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_030r.json">30r</folio>
+              <folio c="a">30r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1889,10 +1895,10 @@
           <fileName filestem="pl-l1d26c8">pl-l1d26c8.xml</fileName>
           <title>Liber I, distinctio 26, capitulum 8</title>
           <questionTitle>Quod non omnia quae relative dicuntur suis ad se vicissim respondent vocabulis.</questionTitle>
-          <incipit>Quidam tamen putant</incipit>
+          <!-- <incipit>Quidam tamen putant</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_030r.json">30r</folio>
+              <folio>30r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1903,10 +1909,10 @@
           <fileName filestem="pl-l1d27c1">pl-l1d27c1.xml</fileName>
           <title>Liber I, distinctio 27, capitulum 1</title>
           <questionTitle>Quae sint illae proprietates quibus distinguuntur personae.</questionTitle>
-          <incipit>Hic quaeri potest utrum proprietates</incipit>
+          <!-- <incipit>Hic quaeri potest utrum proprietates</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_030r.json">30r</folio>
+              <folio c="b">30r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1914,11 +1920,11 @@
           <fileName filestem="pl-l1d27c2">pl-l1d27c2.xml</fileName>
           <title>Liber I, distinctio 27, capitulum 2</title>
           <questionTitle>Quod non omnino idem dicere est 'esse patrem' et 'genuisse' vel 'habere filium'.</questionTitle>
-          <incipit>Nec tamen videtur nobis</incipit>
+          <!-- <incipit>Nec tamen videtur nobis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_030r.json">30r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_030v.json">30v</folio>
+              <folio c="b">30r</folio>
+              <folio c="a">30v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1926,11 +1932,11 @@
           <fileName filestem="pl-l1d27c3">pl-l1d27c3.xml</fileName>
           <title>Liber I, distinctio 27, capitulum 3</title>
           <questionTitle>Quod proprietates determinant hypostases, non substantiam, id est naturam.</questionTitle>
-          <incipit>Illae enim proprietates</incipit>
+          <!-- <incipit>Illae enim proprietates</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_030v.json">30v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_031r.json">31r</folio>
+              <folio>30v</folio>
+              <folio c="a">31r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1938,10 +1944,10 @@
           <fileName filestem="pl-l1d27c4">pl-l1d27c4.xml</fileName>
           <title>Liber I, distinctio 27, capitulum 4</title>
           <questionTitle>De generali regula eorum quae ad se, et eorum quae relative dicuntur.</questionTitle>
-          <incipit>Et est hic advertenda</incipit>
+          <!-- <incipit>Et est hic advertenda</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_031r.json">31r</folio>
+              <folio c="a">31r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1949,10 +1955,10 @@
           <fileName filestem="pl-l1d27c5">pl-l1d27c5.xml</fileName>
           <title>Liber I, distinctio 27, capitulum 5</title>
           <questionTitle>An secundum substantiam dicatur 'Deus de Deo' et huiusmodi.</questionTitle>
-          <incipit>Hic quaeritur, cum dicitur</incipit>
+          <!-- <incipit>Hic quaeritur, cum dicitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_031r.json">31r</folio>
+              <folio>31r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1963,11 +1969,11 @@
           <fileName filestem="pl-l1d28c1">pl-l1d28c1.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 1</title>
           <questionTitle>Quod non tantum tres sunt proprietates personarum.</questionTitle>
-          <incipit>Praeterea considerari</incipit>
+          <!-- <incipit>Praeterea considerari</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_031r.json">31r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_031v.json">31v</folio>
+              <folio c="b">31r</folio>
+              <folio c="a">31v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1975,10 +1981,10 @@
           <fileName filestem="pl-l1d28c2">pl-l1d28c2.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 2</title>
           <questionTitle>An solus Pater debeat dici non-genitus vel non-filius, sicut dicitur ingenitus.</questionTitle>
-          <incipit>Ideo solet quaeri</incipit>
+          <!-- <incipit>Ideo solet quaeri</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_031v.json">31v</folio>
+              <folio c="a">31v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1986,10 +1992,10 @@
           <fileName filestem="pl-l1d28c3">pl-l1d28c3.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 3</title>
           <questionTitle>De proprietate quam notat ingenitus.</questionTitle>
-          <incipit>Si autem vis scire</incipit>
+          <!-- <incipit>Si autem vis scire</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_031v.json">31v</folio>
+              <folio>31v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -1997,11 +2003,11 @@
           <fileName filestem="pl-l1d28c4">pl-l1d28c4.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 4</title>
           <questionTitle>Responsio Ambrosii contra Arianos de ingenito.</questionTitle>
-          <incipit>Illud etiam taceri</incipit>
+          <!-- <incipit>Illud etiam taceri</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_031v.json">31v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_032r.json">32r</folio>
+              <folio c="b">31v</folio>
+              <folio c="a">32r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2009,10 +2015,10 @@
           <fileName filestem="pl-l1d28c5">pl-l1d28c5.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 5</title>
           <questionTitle>An diversum sit esse Patrem et esse Filium.</questionTitle>
-          <incipit>Praeterea quaeri solet</incipit>
+          <!-- <incipit>Praeterea quaeri solet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_032r.json">32r</folio>
+              <folio c="a">32r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2020,10 +2026,10 @@
           <fileName filestem="pl-l1d28c6">pl-l1d28c1.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 6</title>
           <questionTitle>Si sapientia genita dicitur secundum relationem vel secundum substantiam.</questionTitle>
-          <incipit>Sciendum quoque est</incipit>
+          <!-- <incipit>Sciendum quoque est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_032r.json">32r</folio>
+              <folio>32r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2031,10 +2037,10 @@
           <fileName filestem="pl-l1d28c7">pl-l1d28c7.xml</fileName>
           <title>Liber I, distinctio 28, capitulum 7</title>
           <questionTitle>De imagine.</questionTitle>
-          <incipit>Illud etiam sciri oportet</incipit>
+          <!-- <incipit>Illud etiam sciri oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_032r.json">32r</folio>
+              <folio c="b">32r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2045,11 +2051,11 @@
           <fileName filestem="pl-l1d29c1">pl-l1d29c1.xml</fileName>
           <title>Liber I, distinctio 29, capitulum 1</title>
           <questionTitle>De principio.</questionTitle>
-          <incipit>Est praeterea aliud nomen</incipit>
+          <!-- <incipit>Est praeterea aliud nomen</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_032r.json">32r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_032v.json">32v</folio>
+              <folio c="b">32r</folio>
+              <folio c="a">32v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2057,10 +2063,10 @@
           <fileName filestem="pl-l1d29c2">pl-l1d29c2.xml</fileName>
           <title>Liber I, distinctio 29, capitulum 2</title>
           <questionTitle>Quod ab aeterno Pater est principium, et Filius, sed non Spiritus Sanctus.</questionTitle>
-          <incipit>Et Pater ab aeterno principium est Filii</incipit>
+          <!-- <incipit>Et Pater ab aeterno principium est Filii</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_032v.json">32v</folio>
+              <folio>32v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2068,11 +2074,11 @@
           <fileName filestem="pl-l1d29c3">pl-l1d29c3.xml</fileName>
           <title>Liber I, distinctio 29, capitulum 3</title>
           <questionTitle>Quomodo Pater sit principium Filii, et ipse cum Filio Spiritus Sancti.</questionTitle>
-          <incipit>Deinde in eodem libro</incipit>
+          <!-- <incipit>Deinde in eodem libro</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_032v.json">32v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_033r.json">33r</folio>
+              <folio c="b">32v</folio>
+              <folio c="a">33r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2080,10 +2086,10 @@
           <fileName filestem="pl-l1d29c4">pl-l1d29c4.xml</fileName>
           <title>Liber I, distinctio 29, capitulum 4</title>
           <questionTitle>An eadem notione Pater et Filius sint principium Spiritus Sancti.</questionTitle>
-          <incipit>Unum autem principium sunt Pater</incipit>
+          <!-- <incipit>Unum autem principium sunt Pater</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_033r.json">33r</folio>
+              <folio c="a">33r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2094,11 +2100,11 @@
           <fileName filestem="pl-l1d30c1">pl-l1d30c1.xml</fileName>
           <title>Liber I, distinctio 30, capitulum 1</title>
           <questionTitle>De his quae temporaliter de Deo dicuntur et relative, secundum accidens quod non Deo, sed creaturis accidit.</questionTitle>
-          <incipit>Sunt etiam quaedam</incipit>
+          <!-- <incipit>Sunt etiam quaedam</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_033r.json">33r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_033v.json">33v</folio>
+              <folio>33r</folio>
+              <folio c="a">33v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2106,10 +2112,10 @@
           <fileName filestem="pl-l1d30c2">pl-l1d30c2.xml</fileName>
           <title>Liber I, distinctio 30, capitulum 1</title>
           <questionTitle>An Spiritus Sanctus dicatur datum vel donatum relative ad se, cum a se detur.</questionTitle>
-          <incipit>Hic potest solvi</incipit>
+          <!-- <incipit>Hic potest solvi</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_033v.json">33v</folio>
+              <folio c="a">33v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2120,10 +2126,10 @@
           <fileName filestem="pl-l1d31c1">pl-l1d31c1</fileName>
           <title>Liber I, distinctio 31, capitulum 1</title>
           <questionTitle>An Filius dicatur aequalis vel similis Patris secundam substantiam.</questionTitle>
-          <incipit>Praeterea considerari oportet</incipit>
+          <!-- <incipit>Praeterea considerari oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_033v.json">33v</folio>
+              <folio>33v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2131,12 +2137,12 @@
           <fileName filestem="pl-l1d31c2">pl-l1d31c2.xml</fileName>
           <title>Liber I, distinctio 31, capitulum 2</title>
           <questionTitle>De sententia S. Hilarii, qua in Trinitate personarum propria ostendit.</questionTitle>
-          <incipit>Non est hic praetereundum</incipit>
+          <!-- <incipit>Non est hic praetereundum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_033v.json">33v</folio>
-              <folio canvasslug="zbs-SII-0072_034r.json">34r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_034v.json">34v</folio>
+              <folio c="b">33v</folio>
+              <folio>34r</folio>
+              <folio c="a">34v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2144,10 +2150,10 @@
           <fileName filestem="pl-l1d31c3">pl-l1d31c3.xml</fileName>
           <title>Liber I, distinctio 31, capitulum 3</title>
           <questionTitle>Quare Patri attribuitur unitas.</questionTitle>
-          <incipit>Sed plurimos movet</incipit>
+          <!-- <incipit>Sed plurimos movet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_034v.json">34v</folio>
+              <folio c="a">34v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2155,10 +2161,10 @@
           <fileName filestem="pl-l1d31c4">pl-l1d31c4.xml</fileName>
           <title>Liber I, distinctio 31, capitulum 4</title>
           <questionTitle>Quare Pater et Filius dicantur esse 'unum' vel 'unus Deus', sed non 'unus'.</questionTitle>
-          <incipit>Hic dici oportet</incipit>
+          <!-- <incipit>Hic dici oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_034v.json">34v</folio>
+              <folio>34v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2166,11 +2172,11 @@
           <fileName filestem="pl-l1d31c5">pl-l1d31c5.xml</fileName>
           <title>Liber I, distinctio 31, capitulum 5</title>
           <questionTitle>Quare dicitur esse aequalitas in Filio.</questionTitle>
-          <incipit>Nunc videamus, quare aequalitas</incipit>
+          <!-- <incipit>Nunc videamus, quare aequalitas</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_034v.json">34v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_035r.json">35r</folio>
+              <folio c="b">34v</folio>
+              <folio c="a">35r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2178,10 +2184,10 @@
           <fileName filestem="pl-l1d31c6">pl-l1d31c6.xml</fileName>
           <title>Liber I, distinctio 31, capitulum 6</title>
           <questionTitle>Quare in Spiritu Sancto dicitur esse utriusque concordia vel connexio.</questionTitle>
-          <incipit>Quod autem in Spiritu sancto</incipit>
+          <!-- <incipit>Quod autem in Spiritu sancto</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_035r.json">35r</folio>
+              <folio c="a">35r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2193,10 +2199,10 @@
           <fileName filestem="pl-l1d32c1">pl-l1d32c1.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 1</title>
           <questionTitle>Utrum Pater vel Filius ea dilectione diligat quae procedit ab utroque, id est Spiritu Sancto.</questionTitle>
-          <incipit>Hic oritur quaestio</incipit>
+          <!-- <incipit>Hic oritur quaestio</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_035r.json">35r</folio>
+              <folio c="a">35r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2204,11 +2210,11 @@
           <fileName filestem="pl-l1d32c2">pl-l1d32c2.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 2</title>
           <questionTitle>Utrum Pater sit sapiens sapientia quam genuit.</questionTitle>
-          <incipit>Praeterea diligenter investigari oportet</incipit>
+          <!-- <incipit>Praeterea diligenter investigari oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_035r.json">35r</folio>
-              <folio canvasslug="zbs-SII-0072_035v.json">35v</folio>
+              <folio c="b">35r</folio>
+              <folio>35v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2216,10 +2222,10 @@
           <fileName filestem="pl-l1d32c3">pl-l1d32c3.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 3</title>
           <questionTitle>An Filius sit sapiens se ipso vel per se ipsum.</questionTitle>
-          <incipit>Ex praedictis constat</incipit>
+          <!-- <incipit>Ex praedictis constat</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_035v.json">35v</folio>
+              <folio c="b">35v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2227,11 +2233,11 @@
           <fileName filestem="pl-l1d32c4">pl-l1d32c4.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 4</title>
           <questionTitle>An una tantum sit sapientia Patris.</questionTitle>
-          <incipit>Post haec a quibusdam quaeri</incipit>
+          <!-- <incipit>Post haec a quibusdam quaeri</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_035v.json">35v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_036r.json">36r</folio>
+              <folio c="b">35v</folio>
+              <folio c="a">36r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2239,10 +2245,10 @@
           <fileName filestem="pl-l1d32c5">pl-l1d32c5.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 5</title>
           <questionTitle>Sicut in Trinitate est dilectio quae est Trinitas, et tamen Spiritus Sanctus est dilectio quae non est Trinitas, nec ideo sant duae dilectiones, ita et de sapientia.</questionTitle>
-          <incipit>Et sicut in Trinitate dilectio est</incipit>
+          <!-- <incipit>Et sicut in Trinitate dilectio est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_036r.json">36r</folio>
+              <folio c="a">36r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2250,10 +2256,10 @@
           <fileName filestem="pl-l1d32c6">pl-l1d32c6.xml</fileName>
           <title>Liber I, distinctio 32, capitulum 6</title>
           <questionTitle>Quare Pater non dicitur sapiens sapientia genita, sicut dicitur diligens dilectione quae ab ipso procedit.</questionTitle>
-          <incipit>Praeterea diligenter notandum est</incipit>
+          <!-- <incipit>Praeterea diligenter notandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_036r.json">36r</folio>
+              <folio c="a">36r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2264,12 +2270,12 @@
           <fileName filestem="pl-l1d33c1">pl-l1d33c1.xml</fileName>
           <title>Liber I, distinctio 33, capitulum 1</title>
           <questionTitle>Utrum proprietates personarum sint ipsae personae vel divina usia.</questionTitle>
-          <incipit>Post supradicta interius considerari</incipit>
+          <!-- <incipit>Post supradicta interius considerari</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_036r.json">36r</folio>
-              <folio canvasslug="zbs-SII-0072_036v.json">36v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_037r.json">37r</folio>
+              <folio c="b">36r</folio>
+              <folio>36v</folio>
+              <folio c="a">37r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2277,11 +2283,11 @@
           <fileName filestem="pl-l1d33c2">pl-l1d33c2.xml</fileName>
           <title>Liber I, distinctio 33, capitulum 2</title>
           <questionTitle>Quomodo proprietates possint esse in natura Dei nec eam determinent.</questionTitle>
-          <incipit>Sed forte quaeres</incipit>
+          <!-- <incipit>Sed forte quaeres</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_037r.json">37r</folio> <!-- no visual marking -->
-              <folio c="a" canvasslug="zbs-SII-0072_037v.json">37v</folio>
+              <folio>37r</folio> <!-- no visual marking -->
+              <folio c="a">37v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2292,10 +2298,10 @@
           <fileName filestem="pl-l1d34c1">pl-l1d34c1.xml</fileName>
           <title>Liber I, distinctio 34, capitulum 1</title>
           <questionTitle>De verbis Hilarii quibus, secundum pravorum intelligentiam, videtur dicere non idem esse divinam naturam et rem naturae, et non idem esse Deum et quod Dei est.</questionTitle>
-          <incipit>Praedictis est adiiciendum</incipit>
+          <!-- <incipit>Praedictis est adiiciendum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_037v.json">37v</folio>
+              <folio c="a">37v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2303,11 +2309,11 @@
           <fileName filestem="pl-l1d34c2">pl-l1d34c2.xml</fileName>
           <title>Liber I, distinctio 34, capitulum 2</title>
           <questionTitle>Utrum ita possit dici 'unus Deus trium personarum' ut dicitur 'una essentia trium personarum', et 'tres personae unius Dei' ut 'tres personae unius essentiae'.</questionTitle>
-          <incipit>Hic considerandum est</incipit>
+          <!-- <incipit>Hic considerandum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_037v.json">37v</folio>
-              <folio canvasslug="zbs-SII-0072_038r.json">38r</folio>
+              <folio>37v</folio>
+              <folio>38r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2315,11 +2321,11 @@
           <fileName filestem="pl-l1d34c3">pl-l1d34c3.xml</fileName>
           <title>Liber I, distinctio 34, capitulum 3</title>
           <questionTitle>Quod potentia, sapientia, bonitas in Scriptura interdum ad personas distincte referuntur.</questionTitle>
-          <incipit>Ex praedictis constat</incipit>
+          <!-- <incipit>Ex praedictis constat</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_038r.json">38r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_038v.json">38v</folio>
+              <folio c="b">38r</folio>
+              <folio c="a">38v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2327,10 +2333,10 @@
           <fileName filestem="pl-l1d34c4">pl-l1d34c4.xml</fileName>
           <title>Liber I, distinctio 34, capitulum 4</title>
           <questionTitle>Quare Patri potentia, Filio sapientia, Spiritui Sancto bonitas tribuatur, cum sit una potentia, sapientia, bonitas trium.</questionTitle>
-          <incipit>Id ergo sacri eloquii</incipit>
+          <!-- <incipit>Id ergo sacri eloquii</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_038v.json">38v</folio>
+              <folio>38v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2338,11 +2344,11 @@
           <fileName filestem="pl-l1d34c5">pl-l1d34c5.xml</fileName>
           <title>Liber I, distinctio 34, capitulum 5</title>
           <questionTitle>De hoc nomine 'homousion', ubi in auctoritate receptum sit et quid significet.</questionTitle>
-          <incipit>Hic non est praetermittendum</incipit>
+          <!-- <incipit>Hic non est praetermittendum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_038v.json">38v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="b">38v</folio>
+              <folio c="a">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2354,10 +2360,10 @@
           <fileName filestem="pl-l1d35c1">pl-l1d35c1.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 1</title>
           <questionTitle>De scientia et praescientia, providentia, dispositione et praedestinatione Dei.</questionTitle>
-          <incipit>Cumque supra disserverimus</incipit>
+          <!-- <incipit>Cumque supra disserverimus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="a">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2365,10 +2371,10 @@
           <fileName filestem="pl-l1d35c2">pl-l1d35c2.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 2</title>
           <questionTitle>De quibus sit praescientia vel praevidentia Dei.</questionTitle>
-          <incipit>Et est praescientia</incipit>
+          <!-- <incipit>Et est praescientia</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="a">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2376,10 +2382,10 @@
           <fileName filestem="pl-l1d35c3">pl-l1d35c3.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 3</title>
           <questionTitle>De quibus dispositio.</questionTitle>
-          <incipit>Dispositio vero de faciendis</incipit>
+          <!-- <incipit>Dispositio vero de faciendis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="a">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2387,10 +2393,10 @@
           <fileName filestem="pl-l1d35c4">pl-l1d35c4.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 4</title>
           <questionTitle>De quibus praedestinatio.</questionTitle>
-          <incipit>Praedestinatio de hominibus</incipit>
+          <!-- <incipit>Praedestinatio de hominibus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio>39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2398,10 +2404,10 @@
           <fileName filestem="pl-l1d35c5">pl-l1d35c5.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 5</title>
           <questionTitle>De quibus providentia.</questionTitle>
-          <incipit>Providentia autem est gubernandorum</incipit>
+          <!-- <incipit>Providentia autem est gubernandorum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="b">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2409,10 +2415,10 @@
           <fileName filestem="pl-l1d35c6">pl-l1d35c6.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 6</title>
           <questionTitle>De quibus sapientia vel scientia.</questionTitle>
-          <incipit>Sapientia vero vel scientia de omnibus</incipit>
+          <!-- <incipit>Sapientia vero vel scientia de omnibus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_039r.json">39r</folio>
+              <folio c="b">39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2420,11 +2426,11 @@
           <fileName filestem="pl-l1d35c7">pl-l1d35c7.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 7</title>
           <questionTitle>Utrum praescientia vel dispositio vel praedestinatio Dei esse potuerit, si nulla essent futura.</questionTitle>
-          <incipit>Hic considerari oportet</incipit>
+          <!-- <incipit>Hic considerari oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_039r.json">39r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_039v.json">39v</folio>
+              <folio c="b">39r</folio>
+              <folio c="a">39v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2432,10 +2438,10 @@
           <fileName filestem="pl-l1d35c8">pl-l1d35c8.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 8</title>
           <questionTitle>Quod scientia Dei est de temporalibus et aeternis.</questionTitle>
-          <incipit>Scientia vero de sapientia</incipit>
+          <!-- <incipit>Scientia vero de sapientia</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_039v.json">39v</folio>
+              <folio c="a">39v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2443,10 +2449,10 @@
           <fileName filestem="pl-l1d35c9">pl-l1d35c9.xml</fileName>
           <title>Liber I, distinctio 35, capitulum 9</title>
           <questionTitle>Quomodo omnia dicuntur esse in Deo et vita in eo.</questionTitle>
-          <incipit>Propterea omnia dicuntur esse</incipit>
+          <!-- <incipit>Propterea omnia dicuntur esse</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_039v.json">39v</folio>
+              <folio>39v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2459,11 +2465,11 @@
           <fileName filestem="pl-l1d36c1">pl-l1d36c1.xml</fileName>
           <title>Liber I, distinctio 36, capitulum 1</title>
           <questionTitle>Utrum omnia debeant dici esse in Dei essentia, ut in Dei cognitione vel praesentia esse dicuntur.</questionTitle>
-          <incipit>Solet hic quaeri</incipit>
+          <!-- <incipit>Solet hic quaeri</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_039v.json">39v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_040r.json">40r</folio>
+              <folio c="b">39v</folio>
+              <folio c="a">40r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2471,10 +2477,10 @@
           <fileName filestem="pl-l1d36c2">pl-l1d36c2.xml</fileName>
           <title>Liber I, distinctio 36, capitulum 2</title>
           <questionTitle>Qua ratione bona dicuntur esse in Deo et non mala.</questionTitle>
-          <incipit>Post praedicta quaeritur</incipit>
+          <!-- <incipit>Post praedicta quaeritur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_040r.json">40r</folio>
+              <folio>40r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2482,11 +2488,11 @@
           <fileName filestem="pl-l1d36c3">pl-l1d36c3.xml</fileName>
           <title>Liber I, distinctio 36, capitulum 3</title>
           <questionTitle>Utrum idem sit omnia esse ex Deo et per ipsum et in ipso.</questionTitle>
-          <incipit>Proinde si diligenter inspiciamus</incipit>
+          <!-- <incipit>Proinde si diligenter inspiciamus</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_040r.json">40r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_040v.json">40v</folio>
+              <folio c="b">40r</folio>
+              <folio c="a">40v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2494,10 +2500,10 @@
           <fileName filestem="pl-l1d36c4">pl-l1d36c4.xml</fileName>
           <title>Liber I, distinctio 36, capitulum 4</title>
           <questionTitle>Quod omnia sunt in quolibet trium et per ipsum et in ipso.</questionTitle>
-          <incipit>Praeterea sciendum est, quod licet</incipit>
+          <!-- <incipit>Praeterea sciendum est, quod licet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_040v.json">40v</folio>
+              <folio c="a">40v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2505,10 +2511,10 @@
           <fileName filestem="pl-l1d36c5">pl-l1d36c5.xml</fileName>
           <title>Liber I, distinctio 36, capitulum 5</title>
           <questionTitle>Quod non omnia quae ex Deo sunt, etiam de ipso sunt.</questionTitle>
-          <incipit>Illud etiam hic annectendum est</incipit>
+          <!-- <incipit>Illud etiam hic annectendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_040v.json">40v</folio>
+              <folio>40v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2520,11 +2526,11 @@
           <fileName filestem="pl-l1d37c1">pl-l1d37c1.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 1</title>
           <questionTitle>Quibus modis dicitur Deus esse in rebus.</questionTitle>
-          <incipit>Et quoniam demonstratum est ex parte</incipit>
+          <!-- <incipit>Et quoniam demonstratum est ex parte</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_040v.json">40v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_041r.json">41r</folio>
+              <folio c="b">40v</folio>
+              <folio c="a">41r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2532,10 +2538,10 @@
           <fileName filestem="pl-l1d37c2">pl-l1d37c2.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 2</title>
           <questionTitle>Quod Deus non ubicumque est habitat, sed e converso.</questionTitle>
-          <incipit>In Sanctis vero etiam habitat</incipit>
+          <!-- <incipit>In Sanctis vero etiam habitat</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_041r.json">41r</folio>
+              <folio>41r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2543,11 +2549,11 @@
           <fileName filestem="pl-l1d37c3">pl-l1d37c3.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 3</title>
           <questionTitle>Ubi erat Deus antequam esset creatura.</questionTitle>
-          <incipit>Si autem quaeris</incipit>
+          <!-- <incipit>Si autem quaeris</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_041r.json">41r</folio>
-              <folio canvasslug="zbs-SII-0072_041v.json">41v</folio>
+              <folio c="b">41r</folio>
+              <folio>41v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2555,11 +2561,11 @@
           <fileName filestem="pl-l1d37c4">pl-l1d37c4.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 4</title>
           <questionTitle>Quod Deus, cum sit in omnibus rebus essentialiter, non tamen coinquinatur sordibus rerum.</questionTitle>
-          <incipit>Solet etiam ab eisdem</incipit>
+          <!-- <incipit>Solet etiam ab eisdem</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_041v.json">41v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_042r.json">42r</folio>
+              <folio c="b">41v</folio>
+              <folio c="a">42r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2567,10 +2573,10 @@
           <fileName filestem="pl-l1d37c5">pl-l1d37c5.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 5</title>
           <questionTitle>Cum Deus sit ubique et semper, non tamen localis, nec loco nec tempore movetur.</questionTitle>
-          <incipit>Cumque divina natura veraciter</incipit>
+          <!-- <incipit>Cumque divina natura veraciter</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_042r.json">42r</folio>
+              <folio c="a">42r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2578,10 +2584,10 @@
           <fileName filestem="pl-l1d37c6">pl-l1d37c6.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 6</title>
           <questionTitle>Quibus modis aliquid dicatur locale aut circumscriptibile.</questionTitle>
-          <incipit>Duobus namque his modis dicitur</incipit>
+          <!-- <incipit>Duobus namque his modis dicitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_042r.json">42r</folio> <!-- no visual marking -->
+              <folio>42r</folio> <!-- no visual marking -->
             </witness>
           </hasWitnesses>
         </item>
@@ -2589,10 +2595,10 @@
           <fileName filestem="pl-l1d37c7">pl-l1d37c7.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 7</title>
           <questionTitle>Quid sit mutari secundum tempus.</questionTitle>
-          <incipit>Mutari autem per tempus est</incipit>
+          <!-- <incipit>Mutari autem per tempus est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_042r.json">42r</folio>
+              <folio c="b">42r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2600,11 +2606,11 @@
           <fileName filestem="pl-l1d37c8">pl-l1d37c8.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 8</title>
           <questionTitle>Utrum spiritus creati sint locales et circumscriptibiles.</questionTitle>
-          <incipit>Sunt ergo spiritus creati in loco</incipit>
+          <!-- <incipit>Sunt ergo spiritus creati in loco</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_042r.json">42r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_042v.json">42v</folio>
+              <folio c="b">42r</folio>
+              <folio c="a">42v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2612,11 +2618,11 @@
           <fileName filestem="pl-l1d37c9">pl-l1d37c9.xml</fileName>
           <title>Liber I, distinctio 37, capitulum 9</title>
           <questionTitle>Quod Deus est ubique sine locali motu.</questionTitle>
-          <incipit>Fateamur itaque, divinam naturam pro</incipit>
+          <!-- <incipit>Fateamur itaque, divinam naturam pro</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_042v.json">42v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_043r.json">43r</folio>
+              <folio>42v</folio>
+              <folio c="a">43r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2628,11 +2634,11 @@
           <fileName filestem="pl-l1d38c1">pl-l1d38c1.xml</fileName>
           <title>Liber I, distinctio 38, capitulum 1</title>
           <questionTitle>An scientia vel praescientia Dei sit causa rerum vel e converso.</questionTitle>
-          <incipit>Nunc ergo ad propositum revertente</incipit>
+          <!-- <incipit>Nunc ergo ad propositum revertente</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_043r.json">43r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_043v.json">43v</folio>
+              <folio>43r</folio>
+              <folio c="a">43v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2640,10 +2646,10 @@
           <fileName filestem="pl-l1d38c2">pl-l1d38c2.xml</fileName>
           <title>Liber I, distinctio 38, capitulum 2</title>
           <questionTitle>Utrum praescientia Dei possit falli.</questionTitle>
-          <incipit>Ad hoc autem, quod supra dictum est</incipit>
+          <!-- <incipit>Ad hoc autem, quod supra dictum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_043v.json">43v</folio>
+              <folio>43v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2654,11 +2660,11 @@
           <fileName filestem="pl-l1d39c1">pl-l1d39c1.xml</fileName>
           <title>Liber I, distinctio 39, capitulum 1</title>
           <questionTitle>Utrum scientia Dei possit augeri vel minui, vel aliquo modo mutari.</questionTitle>
-          <incipit>Praeterea solet quaeri, utrum scientia Dei possit</incipit>
+          <!-- <incipit>Praeterea solet quaeri, utrum scientia Dei possit</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_043v.json">43v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_044r.json">44r</folio>
+              <folio c="b">43v</folio>
+              <folio c="a">44r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2666,10 +2672,10 @@
           <fileName filestem="pl-l1d39c2">pl-l1d39c2.xml</fileName>
           <title>Liber I, distinctio 39, capitulum 2</title>
           <questionTitle>An Deus possit noviter vel ex tempore scire vel praescire aliquid.</questionTitle>
-          <incipit>Hic opponitur a quibusdam ita</incipit>
+          <!-- <incipit>Hic opponitur a quibusdam ita</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_044r.json">44r</folio>
+              <folio>44r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2677,10 +2683,10 @@
           <fileName filestem="pl-l1d39c3">pl-l1d39c3.xml</fileName>
           <title>Liber I, distinctio 39, capitulum 3</title>
           <questionTitle>Utrum Deus possit scire plura quam scit.</questionTitle>
-          <incipit>Item a quibusdam dicitur</incipit>
+          <!-- <incipit>Item a quibusdam dicitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_044r.json">44r</folio>
+              <folio c="b">44r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2688,11 +2694,11 @@
           <fileName filestem="pl-l1d39c4">pl-l1d39c4.xml</fileName>
           <title>Liber I, distinctio 39, capitulum 4</title>
           <questionTitle>Quod Deus et semper et simul scit omnia.</questionTitle>
-          <incipit>Ei vero quod praedictum est</incipit>
+          <!-- <incipit>Ei vero quod praedictum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_044r.json">44r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_044v.json">44v</folio>
+              <folio c="b">44r</folio>
+              <folio c="a">44v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2704,21 +2710,22 @@
           <fileName filestem="pl-l1d40c1">pl-l1d40c1.xml</fileName>
           <title>Liber I, distinctio 40, capitulum 1</title>
           <questionTitle>An aliquis praedestinatus possit damnari vel reprobus salvari.</questionTitle>
-          <incipit>Praedestinatio vero de bonis</incipit>
-          <witness ref="#Z">
-            <folio canvasslug="zbs-SII-0072_044v.json">44v</folio>
-            <folio c="a" canvasslug="zbs-SII-0072_045r.json">45r</folio>
-          </witness>
-          
+          <!-- <incipit>Praedestinatio vero de bonis</incipit> -->
+          <hasWitnesses>
+            <witness ref="#Z">
+              <folio>44v</folio>
+              <folio c="a">45r</folio>
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="pl-l1d40c2" type="capitulus">
           <fileName filestem="pl-l1d40c2">pl-l1d40c2.xml</fileName>
           <title>Liber I, distinctio 40, capitulum 2</title>
           <questionTitle>Quid sit reprobatio Dei et in quibus consideretur, et quis sit praedestinationis effectus.</questionTitle>
-          <incipit>Cumque praedestinatio sit gratiae</incipit>
+          <!-- <incipit>Cumque praedestinatio sit gratiae</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_045r.json">45r</folio>
+              <folio>45r</folio>
             </witness>
           </hasWitnesses>
           
@@ -2731,11 +2738,11 @@
           <fileName filestem="pl-l1d41c1">pl-l1d41c1.xml</fileName>
           <title>Liber I, distinctio 41, capitulum 1</title>
           <questionTitle>Utrum aliquod sit meritum obdurationis vel misericordiae.</questionTitle>
-          <incipit>Si autem quaerimus meritum</incipit>
+          <!-- <incipit>Si autem quaerimus meritum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_045r.json">45r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_045v.json">45v</folio>
+              <folio c="b">45r</folio>
+              <folio c="a">45v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2743,11 +2750,11 @@
           <fileName filestem="pl-l1d41c2">pl-l1d41c2.xml</fileName>
           <title>Liber I, distinctio 41, capitulum 2</title>
           <questionTitle>De variis super hoc carnalium opinionibus.</questionTitle>
-          <incipit>Opinati sunt quidam tamen</incipit>
+          <!-- <incipit>Opinati sunt quidam tamen</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_045v.json">45v</folio>
-              <folio canvasslug="zbs-SII-0072_046r.json">46r</folio>
+              <folio>45v</folio>
+              <folio>46r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2755,11 +2762,11 @@
           <fileName filestem="pl-l1d41c3">pl-l1d41c3.xml</fileName>
           <title>Liber I, distinctio 41, capitulum 3</title>
           <questionTitle>An ea quae semel scit Deus vel praescit, semper sciat et praesciat, et semper scierit et praescierit.</questionTitle>
-          <incipit>Praeterea considerari oportet</incipit>
+          <!-- <incipit>Praeterea considerari oportet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_046r.json">46r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_046v.json">46v</folio>
+              <folio c="b">46r</folio>
+              <folio c="a">46v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2771,10 +2778,10 @@
           <fileName filestem="pl-l1d42c1">pl-l1d42c1.xml</fileName>
           <title>Liber I, distinctio 42, capitulum 1</title>
           <questionTitle>De omnipotentia Dei: quare dicatur omnipotens, cum nos multa possimus quae ipse non possit. </questionTitle>
-          <incipit>Nunc de omnipotentia Dei agendum est</incipit>
+          <!-- <incipit>Nunc de omnipotentia Dei agendum est</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_046v.json">46v</folio>
+              <folio c="a">46v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2782,10 +2789,10 @@
           <fileName filestem="pl-l1d42c2">pl-l1d42c2.xml</fileName>
           <title>Liber I, distinctio 42, capitulum 2</title>
           <questionTitle>Quomodo dicatur Deus omnia posse.</questionTitle>
-          <incipit>Sed quaeritur, quomodo omnia posse dicatur</incipit>
+          <!-- <incipit>Sed quaeritur, quomodo omnia posse dicatur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_046v.json">46v</folio>
+              <folio>46v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2793,11 +2800,11 @@
           <fileName filestem="pl-l1d42c3">pl-l1d42c3.xml</fileName>
           <title>Liber I, distinctio 42, capitulum 3</title>
           <questionTitle>Quod omnipotentia Dei secundam duo consideretur.</questionTitle>
-          <incipit>Sic igitur diligenter considerantibus </incipit>
+          <!-- <incipit>Sic igitur diligenter considerantibus </incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_046v.json">46v</folio>
-              <folio canvasslug="zbs-SII-0072_047r.json">47r</folio>
+              <folio c="b">46v</folio>
+              <folio>47r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2809,13 +2816,13 @@
           <fileName filestem="pl-l1d43c1">pl-l1d43c1.xml</fileName>
           <title>Liber I, distinctio 43, capitulum 1</title>
           <questionTitle>Invectio contra illos qui dicunt Deum nil posse nisi quod vult et facit.</questionTitle>
-          <incipit>Quidam tamen de suo sensu</incipit>
+          <!-- <incipit>Quidam tamen de suo sensu</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_047r.json">47r</folio>
-              <folio canvasslug="zbs-SII-0072_047v.json">47v</folio>
-              <folio canvasslug="zbs-SII-0072_048r.json">48r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_048v.json">48v</folio>
+              <folio c="b">47r</folio>
+              <folio>47v</folio>
+              <folio>48r</folio>
+              <folio c="a">48v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2827,10 +2834,10 @@
           <fileName filestem="pl-l1d44c1">pl-l1d44c1.xml</fileName>
           <title>Liber I, distinctio 44, capitulum 1</title>
           <questionTitle>An Deus possit facere aliquid melius quam facit, vel alio vel meliori modo.</questionTitle>
-          <incipit>Nunc illud restat discutiendum</incipit>
+          <!-- <incipit>Nunc illud restat discutiendum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_048v.json">48v</folio>
+              <folio>48v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2838,10 +2845,10 @@
           <fileName filestem="pl-l1d44c2">pl-l1d44c2.xml</fileName>
           <title>Liber I, distinctio 44, capitulum 2</title>
           <questionTitle>Utrum Deus semper possit omne quod potuit.</questionTitle>
-          <incipit>Praeterea quaeri solet, utrum</incipit>
+          <!-- <incipit>Praeterea quaeri solet, utrum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_048v.json">48v</folio>
+              <folio c="b">48v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2853,10 +2860,10 @@
           <fileName filestem="pl-l1d45c1">pl-l1d45c1.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 1</title>
           <questionTitle>De voluntate Dei quae essentia Dei est et de signis eius.</questionTitle>
-          <incipit>Iam voluntate Dei aliquid</incipit>
+          <!-- <incipit>Iam voluntate Dei aliquid</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_049r.json">49r</folio>
+              <folio c="a">49r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2864,10 +2871,10 @@
           <fileName filestem="pl-l1d45c2">pl-l1d45c2.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 2</title>
           <questionTitle>Quod licet idem sit Deo velle quod esse, non tamen potest dici Deus omnia esse quae vult.</questionTitle>
-          <incipit>Et licet, sit idem Deo velle</incipit>
+          <!-- <incipit>Et licet, sit idem Deo velle</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_049r.json">49r</folio>
+              <folio c="a">49r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2875,10 +2882,10 @@
           <fileName filestem="pl-l1d45c3">pl-l1d45c3.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 3</title>
           <questionTitle>De intelligentia harum locutionum: Deus scit vel Deus vult, Deus scit omnia vel vult aliquid.</questionTitle>
-          <incipit>Et ubicumque Deus scire dicitur</incipit>
+          <!-- <incipit>Et ubicumque Deus scire dicitur</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_049r.json">49r</folio>
+              <folio>49r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2886,11 +2893,11 @@
           <fileName filestem="pl-l1d45c4">pl-l1d45c4.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 4</title>
           <questionTitle>Quod Dei voluntas summe bona causa est omnium quae naturaliter sunt, cuius causa non est quaerenda, quia prima est et summa causa omnium.</questionTitle>
-          <incipit>Haec itaque summe bona voluntas</incipit>
+          <!-- <incipit>Haec itaque summe bona voluntas</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_049r.json">49r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_049v.json">49v</folio>
+              <folio c="b">49r</folio>
+              <folio c="a">49v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2898,10 +2905,10 @@
           <fileName filestem="pl-l1d45c5">pl-l1d45c5.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 5</title>
           <questionTitle>Quibus modis accipitur Dei voluntas.</questionTitle>
-          <incipit>Hic non est praetereundum nobis</incipit>
+          <!-- <incipit>Hic non est praetereundum nobis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_049v.json">49v</folio>
+              <folio>49v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2909,10 +2916,10 @@
           <fileName filestem="pl-l1d45c6">pl-l1d45c6.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 6</title>
           <questionTitle>Quod praeceptio, prohibitio, permissio, consilium, operatio nomine voluntatis interdum intelliguntur.</questionTitle>
-          <incipit>Aliquando vero, secundum quandam dicendi</incipit>
+          <!-- <incipit>Aliquando vero, secundum quandam dicendi</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_049v.json">49v</folio>
+              <folio c="b">49v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2920,11 +2927,11 @@
           <fileName filestem="pl-l1d45c7">pl-l1d45c7.xml</fileName>
           <title>Liber I, distinctio 45, capitulum 7</title>
           <questionTitle>Utrum Deus velit ab omnibus fieri ea quae praecipit, vel non fieri quae prohibet.</questionTitle>
-          <incipit>Et si illa tria dicantur Dei voluntas</incipit>
+          <!-- <incipit>Et si illa tria dicantur Dei voluntas</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_049v.json">49v</folio>
-              <folio canvasslug="zbs-SII-0072_050r.json">50r</folio>
+              <folio c="b">49v</folio>
+              <folio>50r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2936,10 +2943,10 @@
           <fileName filestem="pl-l1d46c1">pl-l1d46c1.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 1</title>
           <questionTitle>Quod voluntas Dei quae ipse est in nullo cassari potest.</questionTitle>
-          <incipit>Hic oritur quaestio</incipit>
+          <!-- <incipit>Hic oritur quaestio</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_050r.json">50r</folio>
+              <folio c="b">50r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2947,11 +2954,11 @@
           <fileName filestem="pl-l1d46c2">pl-l1d46c2.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 2</title>
           <questionTitle>Quomodo intelligendum sit illud: Volui congregare filios tuos et noluisti, et illud: Qui vult omnes homines salvos fieri.</questionTitle>
-          <incipit>Sed audiamus solutionem</incipit>
+          <!-- <incipit>Sed audiamus solutionem</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_050r.json">50r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_050v.json">50v</folio>
+              <folio c="b">50r</folio>
+              <folio c="a">50v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2959,11 +2966,11 @@
           <fileName filestem="pl-l1d46c3">pl-l1d46c3.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 3</title>
           <questionTitle>Utrum mala Deo volente vel nolente fiant.</questionTitle>
-          <incipit>Ideoque cum constet</incipit>
+          <!-- <incipit>Ideoque cum constet</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_050v.json">50v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_051r.json">51r</folio>
+              <folio>50v</folio>
+              <folio c="a">51r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2971,10 +2978,10 @@
           <fileName filestem="pl-l1d46c4">pl-l1d46c4.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 4</title>
           <questionTitle>Quomodo intelligendum sit illud Augustini: Mala fieri bonum est.</questionTitle>
-          <incipit>Quod vero Augustinus ait</incipit>
+          <!-- <incipit>Quod vero Augustinus ait</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_051r.json">51r</folio>
+              <folio>51r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2982,10 +2989,10 @@
           <fileName filestem="pl-l1d46c5">pl-l1d46c5.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 5</title>
           <questionTitle>De multiplici acceptione boni.</questionTitle>
-          <incipit>Est enim aliquid</incipit>
+          <!-- <incipit>Est enim aliquid</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_051r.json">51r</folio>
+              <folio c="b">51r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2993,11 +3000,11 @@
           <fileName filestem="pl-l1d46c6">pl-l1d46c6.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 6</title>
           <questionTitle>Quod mala universitati valent.</questionTitle>
-          <incipit>Hinc patet quod ex malis</incipit>
+          <!-- <incipit>Hinc patet quod ex malis</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_051r.json">51r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_051v.json">51v</folio>
+              <folio c="b">51r</folio>
+              <folio c="a">51v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3005,11 +3012,11 @@
           <fileName filestem="pl-l1d46c7">pl-l1d46c7.xml</fileName>
           <title>Liber I, distinctio 46, capitulum 7</title>
           <questionTitle>Quod in Deo non est causa ut sit homo deterior.</questionTitle>
-          <incipit>Deinde idem Augustinus quaerens</incipit>
+          <!-- <incipit>Deinde idem Augustinus quaerens</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_051v.json">51v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_052r.json">52r</folio>
+              <folio>51v</folio>
+              <folio c="a">52r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3021,10 +3028,10 @@
           <fileName filestem="pl-l1d47c1">pl-l1d47c1.xml</fileName>
           <title>Liber I, distinctio 47, capitulum 1</title>
           <questionTitle>Quomodo voluntas Dei de homine impletur quocumque se vertat.</questionTitle>
-          <incipit>Voluntas quippe Dei semper</incipit>
+          <!-- <incipit>Voluntas quippe Dei semper</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_052r.json">52r</folio>
+              <folio>52r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3032,11 +3039,11 @@
           <fileName filestem="pl-l1d47c2">pl-l1d47c2.xml</fileName>
           <title>Liber I, distinctio 47, capitulum 2</title>
           <questionTitle>Ex quo sensu quaedam dicuntur fieri contra Dei voluntatem.</questionTitle>
-          <incipit>Multa enim fiunt contra Dei praeceptum</incipit>
+          <!-- <incipit>Multa enim fiunt contra Dei praeceptum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_052r.json">52r</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_052v.json">52v</folio>
+              <folio c="b">52r</folio>
+              <folio c="a">52v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3044,10 +3051,10 @@
           <fileName filestem="pl-l1d47c3">pl-l1d47c3.xml</fileName>
           <title>Liber I, distinctio 47, capitulum 3</title>
           <questionTitle>Quare praecipit Deus omnibus bona facere et mala vitare, si non id ab omnibus vult impleri.</questionTitle>
-          <incipit>Ex praedictis liquet, quod voluntas Dei</incipit>
+          <!-- <incipit>Ex praedictis liquet, quod voluntas Dei</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_052v.json">52v</folio>
+              <folio c="a">52v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3059,11 +3066,11 @@
           <fileName filestem="pl-l1d48c1">pl-l1d48c1.xml</fileName>
           <title>Liber I, distinctio 48, capitulum 1</title>
           <questionTitle>Quod homo aliquando bona voluntate aliud vult quam Deus, et mala idem quod Deus.</questionTitle>
-          <incipit>Sciendum quoque est, quod aliquando est mala voluntas</incipit>
+          <!-- <incipit>Sciendum quoque est, quod aliquando est mala voluntas</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="a" canvasslug="zbs-SII-0072_052v.json">52v</folio>
-              <folio c="b" canvasslug="zbs-SII-0072_052v.json">52v</folio>
+              <folio c="a">52v</folio>
+              <folio c="b">52v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3071,11 +3078,11 @@
           <fileName filestem="pl-l1d48c2">pl-l1d48c2.xml</fileName>
           <title>Liber I, distinctio 48, capitulum 2</title>
           <questionTitle>Quod Dei voluntas per malas hominum voluntates impletur.</questionTitle>
-          <incipit>Illud quoque non est praetermittendum</incipit>
+          <!-- <incipit>Illud quoque non est praetermittendum</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_052v.json">52v</folio>
-              <folio c="a" canvasslug="zbs-SII-0072_053r.json">53r</folio>
+              <folio c="b">52v</folio>
+              <folio c="a">53r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3083,10 +3090,10 @@
           <fileName filestem="pl-l1d48c3">pl-l1d48c3.xml</fileName>
           <title>Liber I, distinctio 48, capitulum 3</title>
           <questionTitle>Utrum placuerit viris sanctis quod Christus pateretur et moreretur.</questionTitle>
-          <incipit>Ex quo solvitur quaestio</incipit>
+          <!-- <incipit>Ex quo solvitur quaestio</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio canvasslug="zbs-SII-0072_053r.json">53r</folio>
+              <folio>53r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3094,10 +3101,10 @@
           <fileName filestem="pl-l1d48c4">pl-l1d48c4.xml</fileName>
           <title>Liber I, distinctio 48, capitulum 4</title>
           <questionTitle>Utrum passiones sanctorum debeamus velle.</questionTitle>
-          <incipit>Si vero quaeritur, utrum eodem modo</incipit>
+          <!-- <incipit>Si vero quaeritur, utrum eodem modo</incipit> -->
           <hasWitnesses>
             <witness ref="#Z">
-              <folio c="b" canvasslug="zbs-SII-0072_053r.json">53r</folio>
+              <folio c="b">53r</folio>
             </witness>
           </hasWitnesses>
           
@@ -3115,7 +3122,7 @@
           <questionTitle>Quod unum est principium rerum, non plura.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="56v">56v</folio>
+              <folio>56v</folio>
             </witness>
           </hasWitnesses>
           
@@ -3134,11 +3141,11 @@
           <fileName filestem="pl-l2d1c4">pl-l2d1c4.xml</fileName>
           <title>Cap. 4. </title>
           <questionTitle>Quare rationalis creatura facta sit, id est homo vel angelus.</questionTitle>
-          <manualRDFs>
+          <!--<manualRDFs>
             <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
             <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor3_22"/>
             <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr1_14"/>
-          </manualRDFs>
+          </manualRDFs>-->
         </item>
         <item id="pl-l2d1c5" type="capitulus">
           <fileName filestem="pl-l2d1c5">pl-l2d1c5.xml</fileName>
@@ -3149,11 +3156,7 @@
           <fileName filestem="pl-l2d1c6">pl-l2d1c6.xml</fileName>
           <title>Cap. 6. </title>
           <questionTitle>Quare ita homo sit institutus, ut unita sit anima corpori.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_37"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor5_4"/>
-          </manualRDFs>
+          
         </item>
       </div>
 
@@ -3207,9 +3210,7 @@
           <fileName filestem="pl-l2d3c3">pl-l2d3c3.xml</fileName>
           <title>Cap. 15 (3). </title>
           <questionTitle>Quae communia et aequalia habuerant angeli.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap11_21"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d3c4" type="capitulus">
           <fileName filestem="pl-l2d3c4">pl-l2d3c4.xml</fileName>
@@ -3249,9 +3250,7 @@
           <fileName filestem="pl-l2d5c2">pl-l2d5c2.xml</fileName>
           <title>Cap. 21 (2). </title>
           <questionTitle>De libero arbitrio breviter tangitur.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_4"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d5c3" type="capitulus">
           <fileName filestem="pl-l2d5c3">pl-l2d5c3.xml</fileName>
@@ -3267,9 +3266,7 @@
           <fileName filestem="pl-l2d5c5">pl-l2d5c5.xml</fileName>
           <title>Cap. 24 (5). </title>
           <questionTitle>An lapsis sit imputanda aversio.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/rom11_6"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d5c6" type="capitulus">
           <fileName filestem="pl-l2d5c6">pl-l2d5c6.xml</fileName>
@@ -3284,48 +3281,26 @@
           <fileName filestem="pl-l2d6c1">pl-l2d6c1.xml</fileName>
           <title>Cap. 26 (1). </title>
           <questionTitle>Quod de maioribus et minoribus quidam ceciderunt, inter quos unus fuit celsior, scilicet Lucifer.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob40_14"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ez28_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ez28_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_14"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d6c2" type="capitulus">
           <fileName filestem="pl-l2d6c2">pl-l2d6c2.xml</fileName>
           <title>Cap. 27 (2). </title>
           <questionTitle>Unde et quo deiecti sunt.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_3"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_4"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph6_12"/>
-          </manualRDFs>
+          
         </item>
 
         <item id="pl-l2d6c3" type="capitulus">
           <fileName filestem="pl-l2d6c3">pl-l2d6c3.xml</fileName>
           <title>Cap. 28 (3). </title>
           <questionTitle>Quare non est eis concessum habitare in caelo vel in terra.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/IIpetr1_19"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt25_41"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d6c4" type="capitulus">
           <fileName filestem="pl-l2d6c4">pl-l2d6c4.xml</fileName>
           <title>Cap. 29 (4). </title>
           <questionTitle>De praelationibus daemonum.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor15_24"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_9"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_10"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_11"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_12"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_13"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt6_24"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d6c5" type="capitulus">
           <fileName filestem="pl-l2d6c5">pl-l2d6c5.xml</fileName>
@@ -3336,13 +3311,7 @@
           <fileName filestem="pl-l2d6c6">pl-l2d6c6.xml</fileName>
           <title>Cap.31 (6). </title>
           <questionTitle>De potestate Luciferi.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap20_7"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt24_24"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt4_1"/>
-            <!-- mt4 1-11 -->
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ap20_3"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d6c7" type="capitulus">
           <fileName filestem="pl-l2d6c7">pl-l2d6c7.xml</fileName>
@@ -3382,9 +3351,7 @@
           <fileName filestem="pl-l2d7c6">pl-l2d7c6.xml</fileName>
           <title>Cap. 38 (6). </title>
           <questionTitle>Quod magicae artes virtute et scientia diaboli valent quae est ei a Deo.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex7_8"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d7c7" type="capitulus">
           <fileName filestem="pl-l2d7c7">pl-l2d7c7.xml</fileName>
@@ -3405,9 +3372,7 @@
           <fileName filestem="pl-l2d7c10">pl-l2d7c10.xml</fileName>
           <title>Cap. 42 (10). </title>
           <questionTitle>Quod angeli mali multa possunt per naturae vigorem, quae non possunt propter Dei prohibitionem.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex7_8"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d8" type="distinctio">
@@ -3427,22 +3392,13 @@
           <fileName filestem="pl-l2d8c3">pl-l2d8c3.xml</fileName>
           <title>Cap. 45 (3). </title>
           <questionTitle>Quod Deus in specie qua Deus est nunquam apparuit mortalibus.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io2_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex33_20"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_18"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d8c4" type="capitulus">
           <fileName filestem="pl-l2d8c4">pl-l2d8c4.xml</fileName>
           <title>Cap.46 (4). </title>
           <questionTitle>Quomodo dicuntur daemones intrare in homines.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt8_16"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mc1_23"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc4_41"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/act5_3"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d9" type="distinctio">
@@ -3466,11 +3422,7 @@
           <fileName filestem="pl-l2d9c4">pl-l2d9c4.xml</fileName>
           <title>Cap. 50 (4). </title>
           <questionTitle>Utrum hi ordines ab initio creationis distincti fuerint.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph6_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap11_21"/>
-
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d9c5" type="capitulus">
           <fileName filestem="pl-l2d9c5">pl-l2d9c5.xml</fileName>
@@ -3481,20 +3433,13 @@
           <fileName filestem="pl-l2d9c6">pl-l2d9c6.xml</fileName>
           <title>Cap. 52 (6). </title>
           <questionTitle>Quomodo dicat Scriptura decimum ordinem compleri de hominibus.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_10"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Ipetr1_18"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d9c7" type="capitulus">
           <fileName filestem="pl-l2d9c7">pl-l2d9c7.xml</fileName>
           <title>Cap. 53 (7). </title>
           <questionTitle>Utrum homines assumantur iuxta numerum stantium vel lapsorum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut32_8"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/is54_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom4_17"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d10" type="distinctio">
@@ -3503,12 +3448,7 @@
           <fileName filestem="pl-l2d10c1">pl-l2d10c1.xml</fileName>
           <title>Cap. 54 (1). </title>
           <questionTitle>An omnes caelestes spiritus mittantur.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/dan7_10"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is6_6"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr1_14"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_4"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d10c2" type="capitulus">
           <fileName filestem="pl-l2d10c2">pl-l2d10c2.xml</fileName>
@@ -3522,20 +3462,13 @@
           <fileName filestem="pl-l2d11c1">pl-l2d11c1.xml</fileName>
           <title>Cap. 56 (1). </title>
           <questionTitle>Quod singulae animae habeant angelum bonum ad custodiam, malum ad exercitium.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt18_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d11c2" type="capitulus">
           <fileName filestem="pl-l2d11c2">pl-l2d11c2.xml</fileName>
           <title>Cap. 57 (2). </title>
           <questionTitle>Utrum angeli proficiant in merito et praemio usque ad iudicium.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is63_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps23_8"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph3_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph3_10"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d12" type="distinctio">
@@ -3555,10 +3488,7 @@
           <fileName filestem="pl-l2d12c3">pl-l2d12c3.xml</fileName>
           <title>Cap. 60 (3). </title>
           <questionTitle>Quomodo per intervalla temporis res corporales conditae sint.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_2"/>
-          </manualRDFs>
+          
 
         </item>
         <item id="pl-l2d12c4" type="capitulus">
@@ -3567,7 +3497,7 @@
           <questionTitle>Quo sensu tenebrae dicantur esse aliquid, et quo dicantur non esse aliquid.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="66v">66v</folio>
+              <folio>66v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3577,8 +3507,8 @@
           <questionTitle>Quare illa materia confusa sit dicta informis et ubi ad esse prodiit, et quantumcumque in altum ascenderit.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="66v">66v</folio>
-              <folio canvasslug="67r">67r</folio>
+              <folio>66v</folio>
+              <folio>67r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3588,7 +3518,7 @@
           <questionTitle>De quatuor modis divinae operationis.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="67r">67r</folio>
+              <folio>67r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3601,7 +3531,7 @@
           <questionTitle>De primo distinctionis opere.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="67r">67r</folio>
+              <folio>67r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3611,8 +3541,8 @@
           <questionTitle>De luce facta primo die, si spiritualis an corporalis fuerit. </questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="67r">67r</folio>
-              <folio canvasslug="67v">67v</folio>
+              <folio>67r</folio>
+              <folio>67v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3622,7 +3552,7 @@
           <questionTitle>Ubi facta fuerit.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="67v">67v</folio>
+              <folio>67v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3632,7 +3562,7 @@
           <questionTitle>Quibus modis accipitur dies.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="67v">67v</folio>
+              <folio>67v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3640,9 +3570,7 @@
           <fileName filestem="pl-l2d13c5">pl-l2d13c5.xml</fileName>
           <title>Cap. 68 (5).</title>
           <questionTitle>De naturali ordine computationis dierum et de illo qui pro mysterio introductus est.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph5_8"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d13c6" type="capitulus">
           <fileName filestem="pl-l2d13c6">pl-l2d13c6.xml</fileName>
@@ -3679,8 +3607,8 @@
           <questionTitle>Quomodo aquae possunt esse super caelum, et quales sint.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="68r">68r</folio>
-              <folio canvasslug="68v">68v</folio>
+              <folio>68r</folio>
+              <folio>68v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3693,18 +3621,13 @@
           <fileName filestem="pl-l2d14c6">pl-l2d14c6.xml</fileName>
           <title>Cap. 76 (6). </title>
           <questionTitle>Quare tacuit Scriptura de benedictione operis huius diei.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_12"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d14c7" type="capitulus">
           <fileName filestem="pl-l2d14c7">pl-l2d14c7.xml</fileName>
           <title>Cap. 77 (7). </title>
           <questionTitle>De opere tertii diei, quando aquae congregatae sunt in unum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_12"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d14c8" type="capitulus">
           <fileName filestem="pl-l2d14c8">pl-l2d14c8.xml</fileName>
@@ -3715,18 +3638,14 @@
           <fileName filestem="pl-l2d14c9">pl-l2d14c9.xml</fileName>
           <title>Cap. 79 (9). </title>
           <questionTitle>De opere quarti diei, quo facta sunt luminaria.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_14"/>
-          </manualRDFs>
+          
 
         </item>
         <item id="pl-l2d14c10" type="capitulus">
           <fileName filestem="pl-l2d14c10">pl-l2d14c10.xml</fileName>
           <title>Cap. 80 (10). </title>
           <questionTitle>Quare facta sunt luminaria.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_14"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d14c11" type="capitulus">
           <fileName filestem="pl-l2d14c11">pl-l2d14c11.xml</fileName>
@@ -3740,17 +3659,13 @@
           <fileName filestem="pl-l2d15c1">pl-l2d15c1.xml</fileName>
           <title>Cap. 82 (1). </title>
           <questionTitle>De opere quinti diei, quo creata sunt natatilia et volatilia.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_20"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c2" type="capitulus">
           <fileName filestem="pl-l2d15c2">pl-l2d15c2.xml</fileName>
           <title>Cap. 83 (2). </title>
           <questionTitle>De opere sexti diei, quo creata sunt animalia et reptilia terrae.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_24"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c3" type="capitulus">
           <fileName filestem="pl-l2d15c3">pl-l2d15c3.xml</fileName>
@@ -3766,10 +3681,7 @@
           <fileName filestem="pl-l2d15c5">pl-l2d15c5.xml</fileName>
           <title>Cap. 86 (5). </title>
           <questionTitle>Quare post omnia factus est homo.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_25"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_26"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c6" type="capitulus">
           <fileName filestem="pl-l2d15c6">pl-l2d15c6.xml</fileName>
@@ -3780,36 +3692,25 @@
           <fileName filestem="pl-l2d15c7">pl-l2d15c7.xml</fileName>
           <title>Cap. 88 (7). </title>
           <questionTitle>Quomodo intelligenda sit requies Dei.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_2"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap4_8"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_17"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c8" type="capitulus">
           <fileName filestem="pl-l2d15c8">pl-l2d15c8.xml</fileName>
           <title>Cap. 89 (8). </title>
           <questionTitle>Quomodo accipiendum sit, quod dicitur Deus complesse opus suum septima die, cum tunc quieverit.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_31"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c9" type="capitulus">
           <fileName filestem="pl-l2d15c9">pl-l2d15c9.xml</fileName>
           <title>Cap. 90 (9). </title>
           <questionTitle>Quomodo omnia a Deo facta dicantur valde bona.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_3"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d15c10" type="capitulus">
           <fileName filestem="pl-l2d15c10">pl-l2d15c10.xml</fileName>
           <title>Cap. 91 (10). </title>
           <questionTitle>De sanctificatione septimae diei.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex20_8"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_2"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d16" type="distinctio">
@@ -3824,18 +3725,13 @@
           <fileName filestem="pl-l2d16c2">pl-l2d16c2.xml</fileName>
           <title>Cap. 93 (2). </title>
           <questionTitle>Qualis factus sit homo.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_26"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d16c3" type="capitulus">
           <fileName filestem="pl-l2d16c3">pl-l2d16c3.xml</fileName>
           <title>Cap. 94 (3). </title>
           <questionTitle>De imagine et similitudine ad quam factus est homo.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor11_7"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/zac6_1"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d16c4" type="capitulus">
           <fileName filestem="pl-l2d16c4">pl-l2d16c4.xml</fileName>
@@ -3850,18 +3746,14 @@
           <fileName filestem="pl-l2d17c1">pl-l2d17c1.xml</fileName>
           <title>Cap. 96 (1). </title>
           <questionTitle>De creatione animae, an de aliquo facta sit; de insufflatione et inspiratione Dei.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_7"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d17c2" type="capitulus">
           <!-- something strange about division of chapters here -->
           <fileName filestem="pl-l2d17c2">pl-l2d17c2.xml</fileName>
           <title>Cap. 97 (2). </title>
           <questionTitle>Quando facta fuerit anima, an in corpore, an extra.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is57_16"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d17c3" type="capitulus">
           <fileName filestem="pl-l2d17c3">pl-l2d17c3.xml</fileName>
@@ -3872,9 +3764,7 @@
           <fileName filestem="pl-l2d17c4">pl-l2d17c4.xml</fileName>
           <title>Cap. 99 (4). </title>
           <questionTitle>Quare homo, extra paradisum creatus, in paradiso sit positus.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_8"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d17c5" type="capitulus">
           <fileName filestem="pl-l2d17c5">pl-l2d17c5.xml</fileName>
@@ -3899,10 +3789,7 @@
           <fileName filestem="pl-l2d18c1">pl-l2d18c1.xml</fileName>
           <title>Cap. 103 (1). </title>
           <questionTitle>De formatione mulieris.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_21"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_22"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d18c2" type="capitulus">
           <fileName filestem="pl-l2d18c2">pl-l2d18c2.xml</fileName>
@@ -3913,10 +3800,7 @@
           <fileName filestem="pl-l2d18c3">pl-l2d18c3.xml</fileName>
           <title>Cap. 105 (3). </title>
           <questionTitle>Quare dormienti, et non vigilanti subtracta sit costa.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/eph5_32"/>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io19_34"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d18c4" type="capitulus">
           <fileName filestem="pl-l2d18c4">pl-l2d18c4.xml</fileName>
@@ -3951,20 +3835,13 @@
           <fileName filestem="pl-l2d19c2">pl-l2d19c2.xml</fileName>
           <title>Cap. 111 (2). </title>
           <questionTitle>Quomodo dicitur homo factus in animam viventem.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_7"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_45"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_44"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d19c3" type="capitulus">
           <fileName filestem="pl-l2d19c3">pl-l2d19c3.xml</fileName>
           <title>Cap. 112 (3). </title>
           <questionTitle>Corpus hominis ante peccatum mortale et immortale erat, post peccatum mortuum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d19c4" type="capitulus">
           <fileName filestem="pl-l2d19c4">pl-l2d19c4.xml</fileName>
@@ -3988,9 +3865,7 @@
           <fileName filestem="pl-l2d20c1">pl-l2d20c1.xml</fileName>
           <title>Cap. 116 (1). </title>
           <questionTitle>De modo procreationis filiorum si non peccassent primi homines.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr13_4"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d20c2" type="capitulus">
           <fileName filestem="pl-l2d20c2">pl-l2d20c2.xml</fileName>
@@ -4001,9 +3876,7 @@
           <fileName filestem="pl-l2d20c3">pl-l2d20c3.xml</fileName>
           <title>Cap. 118 (3). </title>
           <questionTitle>De modo translationis in melius si non peccassent.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_30"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d20c4" type="capitulus">
           <fileName filestem="pl-l2d20c4">pl-l2d20c4.xml</fileName>
@@ -4019,9 +3892,7 @@
           <fileName filestem="pl-l2d20c6">pl-l2d20c6.xml</fileName>
           <title>Cap. 121 (6). </title>
           <questionTitle>De duobus bonis: altero hic dato, altero promisso.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_46"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d21" type="distinctio">
@@ -4030,9 +3901,7 @@
           <fileName filestem="pl-l2d21c1">pl-l1d1c?.xml</fileName>
           <title>Cap. 122 (1). </title>
           <questionTitle>De invidia diaboli, qua ad tentandum accessit.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sap17_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d21c2" type="capitulus">
           <fileName filestem="pl-l2d21c2">pl-l2d21c2.xml</fileName>
@@ -4043,28 +3912,19 @@
           <fileName filestem="pl-l2d21c3">pl-l2d21c3.xml</fileName>
           <title>Cap. 124 (3). </title>
           <questionTitle>De calliditate serpentis.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_1"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d21c4" type="capitulus">
           <fileName filestem="pl-l2d21c4">pl-l2d21c4.xml</fileName>
           <title>Cap. 125 (4). </title>
           <questionTitle>Utrum elegerit serpentem ut per eum tentaret diabolus.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/num22_28"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d21c5" type="capitulus">
           <fileName filestem="pl-l2d21c5">pl-l2d21c5.xml</fileName>
           <title>Cap. 126 (5). </title>
           <questionTitle>De modo tentationis.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_2"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_3"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_4"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d21c6" type="capitulus">
           <fileName filestem="pl-l2d21c6">pl-l2d21c6.xml</fileName>
@@ -4075,7 +3935,6 @@
           <fileName filestem="pl-l2d21c7">pl-l2d21c7.xml</fileName>
           <title>Cap. 128 (7). </title>
           <questionTitle>Quare peccatum hominis, et non angeli, remediabile sit.</questionTitle>
-          <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc20_36"/>
         </item>
         <item id="pl-l2d21c8" type="capitulus">
           <fileName filestem="pl-l2d21c8">pl-l2d21c8.xml</fileName>
@@ -4099,27 +3958,13 @@
           <fileName filestem="pl-l2d22c3">pl-l2d22c3.xml</fileName>
           <title>Cap. 132 (3). </title>
           <questionTitle>De viri elatione.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_14"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_14"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_14"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d22c4" type="capitulus">
           <fileName filestem="pl-l2d22c4">pl-l2d22c4.xml</fileName>
           <title>Cap. 133 (4). </title>
           <questionTitle>Quis magis deliquerit, vir an mulier.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_5"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_16"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps68_5"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps70_10"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_6"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_12"/>
-
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d22c5" type="capitulus">
           <fileName filestem="pl-l2d22c5">pl-l2d22c5.xml</fileName>
@@ -4139,9 +3984,7 @@
           <fileName filestem="pl-l2d23c1">pl-l2d23c1.xml</fileName>
           <title>Cap. 136 (1). </title>
           <questionTitle>Quare Deus permiserit hominem tentari, quem sciebat casurum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom12_3"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d23c2" type="capitulus">
           <fileName filestem="pl-l2d23c2">pl-l2d23c2.xml</fileName>
@@ -4152,11 +3995,7 @@
           <fileName filestem="pl-l2d23c3">pl-l2d23c3.xml</fileName>
           <title>Cap. 138 (3). </title>
           <questionTitle>De triplici scientia hominis ante lapsum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor9_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom10_16"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d23c4" type="capitulus">
           <fileName filestem="pl-l2d23c4">pl-l2d23c4.xml</fileName>
@@ -4202,19 +4041,13 @@
           <fileName filestem="pl-l2d24c7">pl-l2d24c7.xml</fileName>
           <title>Cap. 146 (7). </title>
           <questionTitle>Quod in nobis est vir et mulier et serpens.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor11_7"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d24c8" type="capitulus">
           <fileName filestem="pl-l2d24c8">pl-l2d24c8.xml</fileName>
           <title>Cap. 147 (8). </title>
           <questionTitle>De spirituali coniugio viri et mulieris in nobis.</questionTitle>
-          <manualRDFs>
-            <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor11_6"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_20"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_24"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d24c9" type="capitulus">
           <fileName filestem="pl-l2d24c9">pl-l2d24c9.xml</fileName>
@@ -4235,14 +4068,7 @@
           <fileName filestem="pl-l2d24c12">pl-l2d24c12.xml</fileName>
           <title>Cap. 151 (12). </title>
           <questionTitle>Quando sit veniale vel mortale peccatum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt6_12"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_2"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor2_11"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_15"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/cant4_12"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d24c13" type="capitulus">
           <fileName filestem="pl-l2d24c13">pl-l2d24c13.xml</fileName>
@@ -4289,36 +4115,19 @@
           <fileName filestem="pl-l2d25c7">pl-l2d25c7.xml</fileName>
           <title>Cap. 159 (7). </title>
           <questionTitle>De corruptione liberi arbitrii per peccatum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc19_30"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is1_17"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIpetr2_19"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d25c8" type="capitulus">
           <fileName filestem="pl-l2d25c8">pl-l2d25c8.xml</fileName>
           <title>Cap. 160 (8). </title>
           <questionTitle>De tribus modis libertatis liberi arbitrii: a necessitate, a peccato, a miseria.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_17"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_36"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_18"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_20"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_36"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_21"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom7_17"/>
-
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d25c9" type="capitulus">
           <fileName filestem="pl-l2d25c9">pl-l2d25c9.xml</fileName>
           <title>Cap. 161 (9). </title>
           <questionTitle>De libertate quae est ex gratia, et quae ex natura.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom7_18"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_13"/>
-          </manualRDFs>
+          
         </item>
       </div>
       <div id="pl-l2d26" type="distinctio">
@@ -4327,12 +4136,7 @@
           <fileName filestem="pl-l2d26c1">pl-l2d26c1.xml</fileName>
           <title>Cap. 162 (1). </title>
           <questionTitle>De gratia operante et cooperante.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov16_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps36_23"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_10"/>
-          </manualRDFs>
+          
         </item>
 
         <item id="pl-l2d26c2" type="capitulus">
@@ -4344,29 +4148,13 @@
           <fileName filestem="pl-l2d26c3">pl-l2d26c3.xml</fileName>
           <title>Cap. 164 (3). </title>
           <questionTitle>Quae sit gratia voluntatem bonam praeveniens.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_1"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom3_4"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor4_7"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d26c4" type="capitulus">
           <fileName filestem="pl-l2d26c4">pl-l2d26c4.xml</fileName>
           <title>Cap. 165 (4). </title>
           <questionTitle>Quod bona voluntas, quae praevenitur gratia, quaedam Dei dona praevenit.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps58_11"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps22_6"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt5_44"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc11_9"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom10_10"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_8"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_5"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_5"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_5"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom3_27"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d26c5" type="capitulus">
           <fileName filestem="pl-l2d26c5">pl-l2d26c5.xml</fileName>
@@ -4377,9 +4165,7 @@
           <fileName filestem="pl-l2d26c6">pl-l2d26c6.xml</fileName>
           <title>Cap. 167 (6). </title>
           <questionTitle>Quod intellectus et cogitationem boni et delectationem praevenit.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps118_20"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d26c7" type="capitulus">
           <fileName filestem="pl-l2d26c7">pl-l2d26c7.xml</fileName>
@@ -4414,9 +4200,7 @@
           <fileName filestem="pl-l2d27c1">pl-l2d27c1.xml</fileName>
           <title>Cap. 173 (1). </title>
           <questionTitle>De virtute, quid sit et quid actus eius.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_8"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d27c2" type="capitulus">
           <fileName filestem="pl-l2d27c2">pl-l2d27c2.xml</fileName>
@@ -4447,9 +4231,7 @@
           <fileName filestem="pl-l2d27c7">pl-l2d27c7.xml</fileName>
           <title>Cap. 179 (7). </title>
           <questionTitle>Quod idem est usus virtutis et liberi arbitrii, sed virtutis principaliter.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d27c8" type="capitulus">
           <fileName filestem="pl-l2d27c8">pl-l2d27c8.xml</fileName>
@@ -4469,19 +4251,13 @@
           <fileName filestem="pl-l2d28c2">pl-l2d28c2.xml</fileName>
           <title>Cap. 182 (2). </title>
           <questionTitle>Quomodo Pelagiani dictis Augustini utuntur in testimonium sui erroris.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col1_13"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor8_1"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d28c3" type="capitulus">
           <fileName filestem="pl-l2d28c3">pl-l2d28c3.xml</fileName>
           <title>Cap. 183 (3). </title>
           <questionTitle>Quomodo Augustinus illa verba determinet in Retractationibus.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt12_33"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_12"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d28c4" type="capitulus">
           <fileName filestem="pl-l2d28c4">pl-l2d28c4.xml</fileName>
@@ -4506,27 +4282,19 @@
           <fileName filestem="pl-l2d29c3">pl-l2d29c3.xml</fileName>
           <title>Cap. 187 (3). </title>
           <questionTitle>De eiectione hominis de paradiso.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_22"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_23"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d29c4" type="capitulus">
           <fileName filestem="pl-l2d29c4">pl-l2d29c4.xml</fileName>
           <title>Cap. 188 (4). </title>
           <questionTitle>Quomodo intelligendum sit illud: Ne sumat de ligno vitae et vivat in aeternum.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d29c5" type="capitulus">
           <fileName filestem="pl-l2d29c5">pl-l2d29c5.xml</fileName>
           <title>Cap. 189 (5). </title>
           <questionTitle>De flammeo gladio ante paradisum posito.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_24"/>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom13_10"/>
-          </manualRDFs>
+          
         </item>
         <item id="pl-l2d29c6" type="capitulus">
           <fileName filestem="pl-l2d29c6">pl-l2d29c6.xml</fileName>
@@ -4998,7 +4766,7 @@
           <questionTitle>Quare Filius carnem assumpsit, non Pater vel Spiritus Sanctus.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="97r">97r</folio>
+              <folio>97r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -5946,7 +5714,7 @@
           <questionTitle>De sacramentis.</questionTitle>
           <hasWitnesses>
             <witness ref="#H">
-              <folio canvasslug="127v">127v</folio>
+              <folio>127v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -6088,10 +5856,6 @@
           <fileName filestem="pl-l4d4c2">pl-l4d4c2.xml</fileName>
           <title>Cap. 27 (2). </title>
           <questionTitle>De ficte accedentibus.</questionTitle>
-          <manualRDFs>
-            <sctap:quotes
-              rdf:resource="http://scta.info/resource/quotation/Augustine_Sermo351_2_2_a"/>
-          </manualRDFs>
         </item>
         <item id="pl-l4d4c3" type="capitulus">
           <fileName filestem="pl-l4d4c3">pl-l4d4c3.xml</fileName>
@@ -6278,27 +6042,31 @@
           <fileName filestem="pl-l4d11c1">pl-l4d11c1.xml</fileName>
           <title>IV, Dist. 11, Cap. 1</title>
           <questionTitle>De modo conversionis.</questionTitle>
-          <witness ref="#Ma">
-            <folio>223r</folio>
-          </witness>
+          <hasWitnesses>
+            <witness ref="#Ma">
+              <folio>223r</folio>
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="pl-l4d11c2" type="capitulus">
           <fileName filestem="pl-l4d11c2">pl-l4d11c2.xml</fileName>
           <title>IV, Dist. 11, Cap. 2</title>
           <questionTitle>Quomodo dicitur corpus Christi confici de substantia panis.</questionTitle>
-          <witness ref="#Ma">
-            <folio>223r</folio>
-            <folio>223v</folio>
-          </witness>
+          <hasWitnesses>
+            <witness ref="#Ma">
+              <folio>223r</folio>
+              <folio>223v</folio>
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="pl-l4d11c3" type="capitulus">
           <fileName filestem="pl-l4d11c3">pl-l4d11c3.xml</fileName>
           <title>IV, Dist. 11, Cap. 3</title>
           <questionTitle>Quare sub alia specie sumatur.</questionTitle>
-          <witness ref="#Ma">
+          <hasWitnesses><witness ref="#Ma">
             <folio>223r</folio>
             <folio>223v</folio>
-          </witness>
+          </witness></hasWitnesses>
         </item>
         <item id="pl-l4d11c4" type="capitulus">
           <fileName filestem="pl-l4d11c4">pl-l4d11c4.xml</fileName>

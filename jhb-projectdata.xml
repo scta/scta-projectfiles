@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>John Hiltalingen of Basel</authorName>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/hiltalingencommentary</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hiltalingencommentary/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource>Clm 26711</questionListSource>
     <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -358,8 +358,8 @@
       </div>
       <div id="jhb-l1d12" type="distinctio" subtype="librum1-distinctio12">
         <head>Liber I, Distinctio 12</head>
-        <item type="quaestio">
-          <fileName id="jhb-l1q13" filestem="jhb-l1q13"/>
+        <item id="jhb-l1q13" type="quaestio">
+          <fileName  filestem="jhb-l1q13"/>
           <title>Liber I, Quaestio 13</title>
           <questionTitle>Utrum spiritus sanctus taliter a patre et filio procedat quia nec genitus nec ingenitus dici vere valeat</questionTitle>
           <hasWitnesses>

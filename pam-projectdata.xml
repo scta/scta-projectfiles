@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Placidus Aegidius Melander</authorName>
@@ -11,7 +12,6 @@
     <!-- parentWork group actually means the id of the workgroup that the commentary is a part of -->
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/melanderdeanima/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor>Witt</questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -35,7 +35,7 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <item id="pam-prooemium">
       <fileName filestem="pam-prooemium"/>
       <title>Prooemium</title>
@@ -142,7 +142,7 @@
         <item id="pam-d1s2d3">
           <fileName filestem="pam-d1s2d3"/>
           <title>Disputatio I, Sectio 2, Difficultas 3</title>
-          <questionTitle>An potentiae animae realiter distinguantur <unlear>inter se</unlear></questionTitle>
+          <questionTitle>An potentiae animae realiter distinguantur <unclear>inter se</unclear></questionTitle>
           <hasWitnesses>
             <witness ref="#P">
               <folio>15</folio>

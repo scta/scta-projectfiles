@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames xmlns:sctap="http://scta.info/property/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <header>
     <authorName>Robert Holcot</authorName>
     <commentaryName>Holcot Commentary</commentaryName>
     <commentaryid>holcotcommentary</commentaryid>
+    <commentaryslug>rh</commentaryslug>
     <authorUri>http://scta.info/resource/Holcot</authorUri>
     <parentUri>http://scta.info/resource/holcotcommentary</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/holcotcommentary/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder></questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <webbase>null</webbase>
     <hasWitnesses>
       <witness id="P">
         <slug>bnf15884</slug>
+        <title></title>
+        <initial>P</initial>
       </witness>
       <witness id="L">
         <slug>Lyon1518</slug>
+        <title></title>
+        <initial>L</initial>
       </witness>
       <witness id="B">
          <slug>clm27033</slug>
          <title>Munich Clm 27033</title>
+        <initial>B</initial>
       </witness>
     </hasWitnesses>
   </header>
@@ -28,7 +37,7 @@
     <div id="rh-librum1" type="librum">
       <head>Liber I</head>
       <item id="rh-l1prin1" type="principia">
-        <fileName filestem="rh-l1prin1" type="principia">rh-l1prin1.xml</fileName>
+        <fileName filestem="rh-l1prin1">rh-l1prin1.xml</fileName>
         <title>Principia I</title>
         <questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res
           significata per complexum</questionTitle>
@@ -356,7 +365,7 @@
              <folio>100r</folio>
            </witness>
         </hasWitnesses>
-        <manualRDFs>
+        <!--<manualRDFs>
           <sctap:quotes
             rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_6_18_a"/>
           <sctap:quotes
@@ -366,24 +375,24 @@
           <sctap:quotes
             rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
           <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/>
-          <!-- see Holcot pdf 347 -->
+          <!-\- see Holcot pdf 347 -\->
           <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/>
-          <!-- see Holcot pdf 347 -->
+          <!-\- see Holcot pdf 347 -\->
           <sctap:mentions rdf:resource="http://scta.info/resource/Suetonius"/>
-          <!-- see Holcot pdf 347 -->
+          <!-\- see Holcot pdf 347 -\->
           <sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/>
-          <!-- see Holcot pdf 347 -->
+          <!-\- see Holcot pdf 347 -\->
           <sctap:mentions rdf:resource="http://scta.info/resource/Caligula"/>
           <sctap:mentions rdf:resource="http://scta.info/resource/Aristotle"/>
           <sctap:mentions rdf:resource="http://scta.info/resource/Ethics"/>
-          <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
-          <!-- 2 augustine quote and anselm quote on PDF 352b -->
+          <!-\- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-\->
+          <!-\- 2 augustine quote and anselm quote on PDF 352b -\->
           <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/>
-          <!-- see Holcot PDF 353a -->
+          <!-\- see Holcot PDF 353a -\->
           <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/>
-          <!-- see Holcot PDF 355, q. 1, a. 4 -->
+          <!-\- see Holcot PDF 355, q. 1, a. 4 -\->
 
-        </manualRDFs>
+        </manualRDFs>-->
       </item>
     </div>
     <div id="rh-librum4" type="librum">
@@ -463,11 +472,11 @@
           <folio>114r</folio>
         </witness>
         </hasWitnesses>
-        <manualRDFs>
+        <!--<manualRDFs>
           <sctap:quotes resource="http://scta.info/resource/quotation/io20_22"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/io20_23"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a"/>
-        </manualRDFs>
+        </manualRDFs>-->
       </item>
       <item id="rh-l4q5" type="quaestio">
         <fileName filestem="rh-l4q7">rh-l4q5.xml</fileName>
@@ -486,7 +495,7 @@
             <folio>116v</folio>
           </witness>
         </hasWitnesses>
-        <manualRDFs>
+        <!--<manualRDFs>
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a"/>
@@ -496,7 +505,7 @@
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a"/>
           <sctap:quotes resource="http://scta.info/resource/quotation/ro8_3"/>
-        </manualRDFs>
+        </manualRDFs>-->
       </item>
       <item id="rh-l4q6" type="quaestio">
         <fileName filestem="rh-l4q5">rh-l4c6.xml</fileName>
@@ -544,7 +553,7 @@
           <folio>124v</folio>
         </witness>
         </hasWitnesses>
-        <manualRDFs>
+        <!--<manualRDFs>
           <sctap:quotes
             resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
           <sctap:references
@@ -556,7 +565,7 @@
           <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a"/>
           <sctap:quotes
             resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a"/>
-        </manualRDFs>
+        </manualRDFs>-->
       </item>
     </div>
   </div>

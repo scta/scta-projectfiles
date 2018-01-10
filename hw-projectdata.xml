@@ -1,72 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-        <authorName>Henricus de Werl</authorName>
-        <commentaryName>Henricus de Werl Commentary</commentaryName>
-        <commentaryid>werlcommentary</commentaryid>
-        <commentaryslug>hw</commentaryslug>
-        <authorUri>http://scta.info/resource/HenricusDeWerl</authorUri>
-        <parentUri>http://scta.info/resource/werlcommentary</parentUri>
-      <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/werlcommentary/</textfilesdir>
-        <webbase>null</webbase>
-        <questionListSource>Vatican Manuscript</questionListSource>
-        <questionListOriginalEditor></questionListOriginalEditor>
-        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-        <hasWitnesses>
-          <witness id="V">
-            <slug>vatlat1109</slug>
-            <title>Vatican, vat lat 1190</title>
-            <initial>V</initial>
-          </witness>
-        </hasWitnesses>
-    </header>
-    <div id="body">
-        <div id="hw-b1" class="toplevel" type="librum1">
-            <head>Liber 1</head>
-            <div id="hw-b1prol" type="distinctio" subtype="librum1-prologus">
-                <head>Liber 1, Prologus</head>
-                <item type="quaestio">
-                    <fileName filestem="hw-b1prolq1">hw-b1prolq1.xml</fileName>
-                    <title>Liber I, Prologus, Quaestio 1</title>
-                    <questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#V">
-                            <slug>vat</slug>
-                            <title>Vatican</title>
-                            <initial>V</initial>
-                        </witness>
-                    </hasWitnesses>
-                </item>
-                <item type="quaestio">
-                    <fileName filestem="hw-b1prolq2">hw-b1prolq2.xml</fileName>
-                    <title>Liber I, Prologus, Quaestio 2</title>
-                    <questionTitle>Utrum theologia sit scientia</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#V">
-                            <slug>vat</slug>
-                            <title>Vatican</title>
-                            <initial>V</initial>
-                            <startFolio>5ra</startFolio>
-                            <endFolio>7va</endFolio>
-                        </witness>
-                    </hasWitnesses>
-                </item>
-                <item type="quaestio">
-                    <fileName filestem="hw-b1prolq3">hw-b1prolq3.xml</fileName>
-                    <title>Liber I, Prologus, Quaestio 3</title>
-                    <questionTitle>Utrum scientia theologiae sit scientia practica vel speculativa</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#V">
-                            <slug>vat</slug>
-                            <title>Vatican</title>
-                            <initial>V</initial>
-                            <startFolio>7va</startFolio>
-                            <endFolio>13ra</endFolio>
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-        </div>
+  <header>
+    <authorName>Henricus de Werl</authorName>
+    <commentaryName>Henricus de Werl Commentary</commentaryName>
+    <commentaryid>werlcommentary</commentaryid>
+    <commentaryslug>hw</commentaryslug>
+    <authorUri>http://scta.info/resource/HenricusDeWerl</authorUri>
+    <parentUri>http://scta.info/resource/werlcommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/werlcommentary/</textfilesdir>
+    <questionListSource>Vatican Manuscript</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
+      <witness id="V">
+      <slug>vatlat1109</slug>
+      <title>Vatican, vat lat 1190</title>
+      <initial>V</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="hw-b1" type="librum1">
+      <head>Liber 1</head>
+      <div id="hw-b1prol" type="distinctio" subtype="librum1-prologus">
+        <head>Liber 1, Prologus</head>
+        <item type="quaestio">
+          <fileName filestem="hw-b1prolq1">hw-b1prolq1.xml</fileName>
+          <title>Liber I, Prologus, Quaestio 1</title>
+          <questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis
+            ratione</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#V"> </witness> 
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="hw-b1prolq2">hw-b1prolq2.xml</fileName>
+          <title>Liber I, Prologus, Quaestio 2</title>
+          <questionTitle>Utrum theologia sit scientia</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#V">
+            <folio c="a">5r</folio>
+            <folio c="a">7v</folio>
+            </witness> 
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="hw-b1prolq3">hw-b1prolq3.xml</fileName>
+          <title>Liber I, Prologus, Quaestio 3</title>
+          <questionTitle>Utrum scientia theologiae sit scientia practica vel
+            speculativa</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#V">
+            <folio c="a">7v</folio>
+            <folio c="a">13r</folio>
+            </witness> 
+          </hasWitnesses>
+        </item>
+      </div>
     </div>
+  </div>
 </listofFileNames>

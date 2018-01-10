@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>John Mair</authorName>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/mairsent2b</parentUri>
     <parentWorkGroup>http://scta.info/resource/sentences</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/sentences/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -17,7 +17,7 @@
     <hasWitnesses> </hasWitnesses>
   </header>
   <div id="body">
-    <div id="jms2b-l2d1" type="distinctio" subytpe="librum2-distinctio1">
+    <div id="jms2b-l2d1" type="distinctio" subtype="librum2-distinctio1">
       <head>II, Distinctio 1</head>
       <item id="jms2b-l2d1q1" type="quaestio">
         <fileName filestem="jms2b-l2d1q1"/>

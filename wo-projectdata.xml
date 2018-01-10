@@ -1,15 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames xmlns:sctap="http://scta.info/properties/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <header>
         <authorName>William of Ockham</authorName>
         <commentaryName>Ockham Commentary</commentaryName>
         <commentaryid>ockhamcommentary</commentaryid>
+      <commentaryslug>wo</commentaryslug>
         <authorUri>http://scta.info/resource/Ockham</authorUri>
         <parentUri>http://scta.info/resource/ockhamcommentary</parentUri>
       <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ockhamcommentary/</textfilesdir>
-
-        <webbase>null</webbase>
+      <questionListSource></questionListSource>
+      <questionListOriginalEditor></questionListOriginalEditor>
+      <questionListEncoder></questionListEncoder>
     </header>
     <div id="body">
     <div id="wo-book1" type="librum">
@@ -222,6 +225,7 @@
             </item>
         </div>
         <div id="wo-b1d4" type="distinctio">
+          <head>Liber I, Distinctio 4</head>
                 <item id="wo-b1d4q1" type="quaestio">
                 <fileName filestem="wo-b1d4q1">wo-b1d4q1.xml</fileName>
                 <title>Liber I, Distinctio 4, Quaestio 1</title>
@@ -234,6 +238,7 @@
             </item>
             </div>
         <div id="wo-b1d5" type="distinctio">
+          <head>Liber I, Distinctio 4</head>
             <item id="wo-b1d5q1" type="quaestio">
                 <fileName filestem="wo-b1d5q1">wo-b1d5q1.xml</fileName>
                 <title>Liber I, Distinctio 5, Quaestio 1</title>
@@ -251,6 +256,7 @@
             </item>
         </div>
         <div id="wo-b1d6" type="distinctio">
+          <head>Liber I, Distinctio 6</head>
             <item id="wo-b1d6q1" type="quaestio">
                 <fileName filestem="wo-b1d6q1">wo-b1d6q1.xml</fileName>
                 <title>Liber I, Distinctio 6, Quaestio 1</title>
@@ -258,6 +264,7 @@
             </item>
         </div>
         <div id="wo-b1d7" type="distinctio">
+          <head>Liber I, Distinctio 7</head>
             <item id="wo-b1d7q1" type="quaestio">
                 <fileName filestem="wo-b1d7q1">wo-b1d7q1.xml</fileName>
                 <title>Liber I, Distinctio 7, Quaestio 1</title>
@@ -274,7 +281,8 @@
                 <questionTitle>Utrum potentia generandi possit communicari Filio a Patre</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d8" type="distinctio">        
+        <div id="wo-b1d8" type="distinctio">
+          <head>Liber I, Distinctio 8</head>
             <item id="wo-b1d8q1" type="quaestio">
                 <fileName filestem="wo-b1d8q1">wo-b1d8q1.xml</fileName>
                 <title>Liber I, Distinctio 8, Quaestio 1</title>
@@ -312,6 +320,7 @@
             </item>
         </div>
         <div id="wo-b1d9" type="distinctio">
+          <head>Liber I, Distinctio 9</head>
             <item id="wo-b1d9q1" type="quaestio">
                 <fileName filestem="wo-b1d9q1">wo-b1d9q1.xml</fileName>
                 <title>Liber I, Distinctio 9, Quaestio 1</title>
@@ -329,6 +338,7 @@
             </item>
         </div>
         <div id="wo-b1d10" type="distinctio">
+          <head>Liber I, Distinctio 10</head>
             <item id="wo-b1d10q1" type="quaestio">
                 <fileName filestem="wo-b1d10q1">wo-b1d10q1.xml</fileName>
                 <title>Liber I, Distinctio 10, Quaestio 1</title>
@@ -341,6 +351,7 @@
             </item>
         </div>
         <div id="wo-b1d11" type="distinctio">
+          <head>Liber I, Distinctio 11</head>
             <item id="wo-b1d11q1" type="quaestio">
                 <fileName filestem="wo-b1d11q1">wo-b1d11q1.xml</fileName>
                 <title>Liber I, Distinctio 11, Quaestio 1</title>
@@ -353,6 +364,7 @@
             </item>
         </div>
         <div id="wo-b1d12" type="distinctio">
+          <head>Liber I, Distinctio 12</head>
             <item id="wo-b1d12q1" type="quaestio">
                 <fileName filestem="wo-b1d12q1">wo-b1d12q1.xml</fileName>
                 <title>Liber I, Distinctio 12, Quaestio 1</title>
@@ -370,13 +382,15 @@
             </item>
         </div>
         <div id="wo-b1d13" type="distinctio">
+          <head>Liber I, Distinctio 13</head>
             <item id="wo-b1d13q1" type="quaestio">
                 <fileName filestem="wo-b1d13q1">wo-b1d13q1.xml</fileName>
                 <title>Liber I, Distinctio 13, Quaestio 1</title>
                 <questionTitle>Utrum generatio Filii sit spiratio Spiritus Sancti</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d14" type="distinctio"> 
+        <div id="wo-b1d14" type="distinctio">
+          <head>Liber I, Distinctio 14</head>
             <item id="wo-b1d14q1" type="quaestio">
                 <fileName filestem="wo-b1d14q1">wo-b1d14q1.xml</fileName>
                 <title>Liber I, Distinctio 14, Quaestio 1</title>
@@ -389,6 +403,7 @@
             </item>
         </div>
         <div id="wo-b1d15" type="distinctio">
+          <head>Liber I, Distinctio 15</head>
             <item id="wo-b1d15q1" type="quaestio">
                 <fileName filestem="wo-b1d15q1">wo-b1d15q1.xml</fileName>
                 <title>Liber I, Distinctio 15, Quaestio 1</title>
@@ -396,13 +411,15 @@
             </item>
         </div>
         <div id="wo-b1d16" type="distinctio">
+          <head>Liber I, Distinctio 16</head>
             <item id="wo-b1d16q1" type="quaestio">
                 <fileName filestem="wo-b1d16q1">wo-b1d16q1.xml</fileName>
                 <title>Liber I, Distinctio 16, Quaestio 1</title>
                 <questionTitle>Utrum divina persona visibiliter mittatur</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d17" type="distinctio">        
+        <div id="wo-b1d17" type="distinctio">
+          <head>Liber I, Distinctio 17</head>
             <item id="wo-b1d17q1" type="quaestio">
                 <fileName filestem="wo-b1d17q1">wo-b1d17q1.xml</fileName>
                 <title>Liber I, Distinctio 17, Quaestio 1</title>
@@ -444,14 +461,16 @@
                 <questionTitle>Utrum sit dare summam caritatem cui repugnet augmentari</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d18" type="distinctio">        
+        <div id="wo-b1d18" type="distinctio">
+          <head>Liber I, Distinctio 18</head>
             <item id="wo-b1d18q1" type="quaestio">
                 <fileName filestem="wo-b1d18q1">wo-b1d18q1.xml</fileName>
                 <title>Liber I, Distinctio 18, Quaestio 1</title>
                 <questionTitle>Utrum donum dicat proprietatem personalem Spiritus Sancti</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d19" type="distinctio">        
+        <div id="wo-b1d19" type="distinctio">
+          <head>Liber I, Distinctio 19</head>
             <item id="wo-b1d19q1" type="quaestio">
                 <fileName filestem="wo-b1d19q1">wo-b1d19q1.xml</fileName>
                 <title>Liber I, Distinctio 19, Quaestio 1</title>
@@ -463,14 +482,16 @@
                 <questionTitle>Utrum quaelibet persona sit in alis per circumincessionem</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d20" type="distinctio">        
+        <div id="wo-b1d20" type="distinctio">
+          <head>Liber I, Distinctio 20</head>
             <item id="wo-b1d20q1" type="quaestio">
                 <fileName filestem="wo-b1d20q1">wo-b1d20q1.xml</fileName>
                 <title>Liber I, Distinctio 20, Quaestio 1</title>
                 <questionTitle>Utrum personae divinae sint aequales secundum potentiam</questionTitle>
             </item>
         </div>
-        <div id="wo-b1d21" type="distinctio">        
+        <div id="wo-b1d21" type="distinctio">
+          <head>Liber I, Distinctio 21</head>
             <item id="wo-b1d21q1" type="quaestio">
                 <fileName filestem="wo-b1d21q1">wo-b1d21q1.xml</fileName>
                 <title>Liber I, Distinctio 21, Quaestio 1</title>
@@ -478,6 +499,7 @@
             </item>
         </div>
         <div id="wo-b1d22" type="distinctio">
+          <head>Liber I, Distinctio 22</head>
             <item id="wo-b1d22q1" type="quaestio">
                 <fileName filestem="wo-b1d22q1">wo-b1d22q1.xml</fileName>
                 <title>Liber I, Distinctio 22, Quaestio 1</title>
@@ -485,6 +507,7 @@
             </item>
         </div>
         <div id="wo-b1d23" type="distinctio">
+          <head>Liber I, Distinctio 23</head>
             <item id="wo-b1d23q1" type="quaestio">
                 <fileName filestem="wo-b1d23q1">wo-b1d23q1.xml</fileName>
                 <title>Liber I, Distinctio 23, Quaestio 1</title>
@@ -492,6 +515,7 @@
             </item>
         </div>
         <div id="wo-b1d24" type="distinctio">
+          <head>Liber I, Distinctio 24</head>
             <item id="wo-b1d24q1" type="quaestio">
                 <fileName filestem="wo-b1d24q1">wo-b1d24q1.xml</fileName>
                 <title>Liber I, Distinctio 24, Quaestio 1</title>
@@ -504,6 +528,7 @@
             </item>
         </div>
         <div id="wo-b1d25" type="distinctio">
+          <head>Liber I, Distinctio 25</head>
             <item id="wo-b1d25q1" type="quaestio">
                 <fileName filestem="wo-b1d25q1">wo-b1d25q1.xml</fileName>
                 <title>Liber I, Distinctio 25, Quaestio 1</title>
@@ -511,6 +536,7 @@
             </item>
         </div>
         <div id="wo-b1d26" type="distinctio">
+          <head>Liber I, Distinctio 26</head>
             <item id="wo-b1d26q1" type="quaestio">
                 <fileName filestem="wo-b1d26q1">wo-b1d26q1.xml</fileName>
                 <title>Liber I, Distinctio 26, Quaestio 1</title>
@@ -528,6 +554,7 @@
             </item>
         </div>
         <div id="wo-b1d27" type="distinctio">
+          <head>Liber I, Distinctio 27</head>
             <item id="wo-b1d27q1" type="quaestio">
                 <fileName filestem="wo-b1d27q1">wo-b1d27q1.xml</fileName>
                 <title>Liber I, Distinctio 27, Quaestio 1</title>
@@ -545,6 +572,7 @@
             </item>
         </div>
         <div id="wo-b1d28" type="distinctio">
+          <head>Liber I, Distinctio 28</head>
             <item id="wo-b1d28q1" type="quaestio">
                 <fileName filestem="wo-b1d28q1">wo-b1d28q1.xml</fileName>
                 <title>Liber I, Distinctio 28, Quaestio 1</title>
@@ -552,6 +580,7 @@
             </item>
         </div>
         <div id="wo-b1d29" type="distinctio">
+          <head>Liber I, Distinctio 29</head>
             <item id="wo-b1d29q1" type="quaestio">
                 <fileName filestem="wo-b1d29q1">wo-b1d29q1.xml</fileName>
                 <title>Liber I, Distinctio 29, Quaestio 1</title>
@@ -559,6 +588,7 @@
             </item>
         </div>
         <div id="wo-b1d30" type="distinctio">
+          <head>Liber I, Distinctio 30</head>
             <item id="wo-b1d30q1" type="quaestio">
                 <fileName filestem="wo-b1d30q1">wo-b1d30q1.xml</fileName>
                 <title>Liber I, Distinctio 30, Quaestio 1</title>
@@ -586,6 +616,7 @@
             </item>
         </div>
         <div id="wo-b1d31" type="distinctio">
+          <head>Liber I, Distinctio 31</head>
             <item id="wo-b1d31q1" type="quaestio">
                 <fileName filestem="wo-b1d31q1">wo-b1d31q1.xml</fileName>
                 <title>Liber I, Distinctio 31, Quaestio 1</title>
@@ -593,6 +624,7 @@
             </item>
         </div>
         <div id="wo-b1d32" type="distinctio">
+          <head>Liber I, Distinctio 32</head>
             <item id="wo-b1d32q1" type="quaestio">
                 <fileName filestem="wo-b1d32q1">wo-b1d32q1.xml</fileName>
                 <title>Liber I, Distinctio 32, Quaestio 1</title>
@@ -605,6 +637,7 @@
             </item>
         </div>
         <div id="wo-b1d33" type="distinctio">
+          <head>Liber I, Distinctio 33</head>
             <item id="wo-b1d33q1" type="quaestio">
                 <fileName filestem="wo-b1d33q1">wo-b1d33q1.xml</fileName>
                 <title>Liber I, Distinctio 33, Quaestio 1</title>
@@ -612,6 +645,7 @@
             </item>
         </div>
         <div id="wo-b1d34" type="distinctio">
+          <head>Liber I, Distinctio 34</head>
             <item id="wo-b1d34q1" type="quaestio">
                 <fileName filestem="wo-b1d34q1">wo-b1d34q1.xml</fileName>
                 <title>Liber I, Distinctio 34, Quaestio 1</title>
@@ -619,6 +653,7 @@
             </item>
         </div>
         <div id="wo-b1d35" type="distinctio">
+          <head>Liber I, Distinctio 35</head>
             <item id="wo-b1d35q1" type="quaestio">
                 <fileName filestem="wo-b1d35q1">wo-b1d35q1.xml</fileName>
                 <title>Liber I, Distinctio 35, Quaestio 1</title>
@@ -651,6 +686,7 @@
             </item>
         </div>
         <div id="wo-b1d36" type="distinctio">
+          <head>Liber I, Distinctio 36</head>
             <item id="wo-b1d36q1" type="quaestio">
                 <fileName filestem="wo-b1d36q1">wo-b1d36q1.xml</fileName>
                 <title>Liber I, Distinctio 36, Quaestio 1</title>
@@ -658,6 +694,7 @@
             </item>
         </div>
         <div id="wo-b1d37" type="distinctio">
+          <head>Liber I, Distinctio 37</head>
             <item id="wo-b1d37q1" type="quaestio">
                 <fileName filestem="wo-b1d37q1">wo-b1d37q1.xml</fileName>
                 <title>Liber I, Distinctio 37, Quaestio 1</title>
@@ -665,6 +702,7 @@
             </item>
         </div>
         <div id="wo-b1d38" type="distinctio">
+          <head>Liber I, Distinctio 38</head>
             <item id="wo-b1d38q1" type="quaestio">
                 <fileName filestem="wo-b1d38q1">wo-b1d38q1.xml</fileName>
                 <title>Liber I, Distinctio 38, Quaestio 1</title>
@@ -672,6 +710,7 @@
             </item>
         </div>
         <div id="wo-b1d39" type="distinctio">
+          <head>Liber I, Distinctio 39</head>
             <item id="wo-b1d39q1" type="quaestio">
                 <fileName filestem="wo-b1d39q1">wo-b1d39q1.xml</fileName>
                 <title>Liber I, Distinctio 39, Quaestio 1</title>
@@ -679,6 +718,7 @@
             </item>
         </div>
         <div id="wo-b1d40" type="distinctio">
+          <head>Liber I, Distinctio 40</head>
             <item id="wo-b1d40q1" type="quaestio">
                 <fileName filestem="wo-b1d40q1">wo-b1d40q1.xml</fileName>
                 <title>Liber I, Distinctio 40, Quaestio 1</title>
@@ -686,6 +726,7 @@
             </item>
         </div>
         <div id="wo-b1d41" type="distinctio">
+          <head>Liber I, Distinctio 41</head>
             <item id="wo-b1d41q1" type="quaestio">
                 <fileName filestem="wo-b1d41q1">wo-b1d41q1.xml</fileName>
                 <title>Liber I, Distinctio 41, Quaestio 1</title>
@@ -693,6 +734,7 @@
             </item>
         </div>
         <div id="wo-b1d42" type="distinctio">
+          <head>Liber I, Distinctio 42</head>
             <item id="wo-b1d42q1" type="quaestio">
                 <fileName filestem="wo-b1d42q1">wo-b1d42q1.xml</fileName>
                 <title>Liber I, Distinctio 42, Quaestio 1</title>
@@ -700,6 +742,7 @@
             </item>
         </div>
         <div id="wo-b1d43" type="distinctio">
+          <head>Liber I, Distinctio 43</head>
             <item id="wo-b1d43q1" type="quaestio">
                 <fileName filestem="wo-b1d43q1">wo-b1d43q1.xml</fileName>
                 <title>Liber I, Distinctio 43, Quaestio 1</title>
@@ -712,6 +755,7 @@
             </item>
         </div>
         <div id="wo-b1d44" type="distinctio">
+          <head>Liber I, Distinctio 44</head>
             <item id="wo-b1d44q1" type="quaestio">
                 <fileName filestem="wo-b1d44q1">wo-b1d44q1.xml</fileName>
                 <title>Liber I, Distinctio 44, Quaestio 1</title>
@@ -719,6 +763,7 @@
             </item>
         </div>
         <div id="wo-b1d45" type="distinctio">
+          <head>Liber I, Distinctio 45</head>
             <item id="wo-b1d45q1" type="quaestio">
                 <fileName filestem="wo-b1d45q1">wo-b1d45q1.xml</fileName>
                 <title>Liber I, Distinctio 45, Quaestio 1</title>
@@ -726,6 +771,7 @@
             </item>
         </div>
         <div id="wo-b1d46" type="distinctio">
+          <head>Liber I, Distinctio 46</head>
             <item id="wo-b1d46q1" type="quaestio">
                 <fileName filestem="wo-b1d46q1">wo-b1d46q1.xml</fileName>
                 <title>Liber I, Distinctio 46, Quaestio 1</title>
@@ -738,6 +784,7 @@
             </item>
         </div>
         <div id="wo-b1d47" type="distinctio">
+          <head>Liber I, Distinctio 47</head>
             <item id="wo-b1d47q1" type="quaestio">
                 <fileName filestem="wo-b1d47q1">wo-b1d47q1.xml</fileName>
                 <title>Liber I, Distinctio 47, Quaestio 1</title>
@@ -745,6 +792,7 @@
             </item>
         </div>
         <div id="wo-b1d48" type="distinctio">
+          <head>Liber I, Distinctio 48</head>
             <item id="wo-b1d48q1" type="quaestio">
                 <fileName filestem="wo-b1d48q1">wo-b1d48q1.xml</fileName>
                 <title>Liber I, Distinctio 48, Quaestio 1</title>

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Bartolomeo Mastri</authorName>
     <commentaryName>Disputationes theologicae</commentaryName>
     <commentaryid>mastridisputationestheologicae</commentaryid>
-    <date start="1655" end="1664">1655</date>
     <commentaryslug>bmdt</commentaryslug>
     <authorUri>http://scta.info/resource/BartolomeoMastri</authorUri>
     <parentUri>http://scta.info/resource/mastridisputationestheologicae</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/mastridisputationestheologicae/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource>Venice 1757</questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -54,7 +53,7 @@
         <initial>V1757d</initial>
         <date>1757</date>
       </witness>
-      
+      <date start="1655" end="1664">1655</date>
     </hasWitnesses>
   </header>
   <div id="body">
