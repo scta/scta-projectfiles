@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones in De anima</commentaryName>
     <commentaryid>da-116</commentaryid>
     <commentaryslug>da-116</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymus</authorUri>
     <parentUri>http://scta.info/resource/da-116</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-116/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="V">
         <slug>onb2319</slug>
@@ -17,10 +22,10 @@
         <initial>V</initial>
       </witness>
     </hasWitnesses>
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-116-librum3" type="da-liber3">
+      <head>Liber 3</head>
       <item id="da-116-l3q1" type="quaestio">
         <fileName filestem="da-116-l3q1"/>
         <title>Liber 3, quaestio 1</title>
@@ -133,10 +138,10 @@
       <item id="da-116-l3q9" type="quaestio">
         <fileName filestem="da-116-l3q9"/>
         <title>Liber 3, quaestio 9</title>
-        <lemma>
+        <!--<lemma>
           <lemmaTitle>Quoniam aliud est magnitudo et magnitudinis</lemmaTitle>
           <bibl ana="Arist.DA.3-4-429b10" />
-        </lemma>
+        </lemma>-->
         <questionTitle>
           Utrum intellectus intelligat singulare
         </questionTitle>

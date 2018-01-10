@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Aegidius Romanus</authorName>
@@ -7,7 +9,15 @@
     <authorUri>http://scta.info/resource/GilesOfRome</authorUri>
     <parentUri>http://scta.info/resource/da-199</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>http://scta.info/resource/da-199</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <description>
+      There are a lot of witnesses to this text. For a full list, see C. Lohr,
+      Traditio 23 (1967), p. 332. The content list is based on the Munich
+      incunabulum.
+    </description>
     <hasWitnesses>
       <witness id="M">
         <slug>mun2805</slug>
@@ -16,13 +26,8 @@
         <!-- IIIF: https://api.digitale-sammlungen.de/iiif/presentation/bsb00045193/view.html -->
       </witness>
     </hasWitnesses>
-    <description>
-      There are a lot of witnesses to this text. For a full list, see C. Lohr,
-      Traditio 23 (1967), p. 332. The content list is based on the Munich
-      incunabulum.
-    </description>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <item id="da-199-prol" type="prologus">
       <fileName filestem="da-199-prol"/>
       <title>Prologus</title>
@@ -33,15 +38,16 @@
       </hasWitnesses>
     </item>
     <div id="da-199-librum1" type="da-liber1">
+      <head>Liber 1</head>
       <item id="da-199-l1l1" type="lectio">
         <fileName filestem="da-199-l1l1"/>
         <title>Liber 1, Lectio 1</title>
-        <lemma>
+        <!--<lemma>
           Bonorum honorabilium notitiam opinantes. Magis autem alteram altera,
           aut secundum certitudinem aut ex eo quod meliorum quidem et
           mirabiliorum est, propter utraque haec animae historiam rationabiliter
           utique in primis ponermus
-        </lemma>
+        </lemma>-->
         <hasWitnesses>
           <witness ref="#M">
             <folio>3v</folio>

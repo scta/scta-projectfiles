@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-        <authorName>Adam Wodeham</authorName>
-        <commentaryName>Wodeham Ordinatio</commentaryName>
-        <commentaryid>wodehamordinatio</commentaryid>
-        <commentaryslug>aw</commentaryslug>
-    		
-        <authorUri>http://scta.info/resource/Wodeham</authorUri>
-        <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamordinatio/</textfilesdir>
-        <webbase>http://adamwodeham.org/</webbase>
-      <questionListSource></questionListSource>
-      <questionListOriginalEditor></questionListOriginalEditor>
-      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-      <hasWitnesses>
+  <header>
+    <authorName>Adam Wodeham</authorName>
+    <commentaryName>Wodeham Ordinatio</commentaryName>
+    <commentaryid>wodehamordinatio</commentaryid>
+    <commentaryslug>aw</commentaryslug>
+    <authorUri>http://scta.info/resource/Wodeham</authorUri>
+    <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamordinatio/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
         <witness id="S">
           <slug>sorb193</slug>
           <title>Paris, Bibl. de la Sorbonne, ms 193</title>
@@ -101,8 +99,8 @@
           <hasWitnesses>
             <witness ref="#S">
               <folio>7r</folio>
-            	<folio>7v</folio>
-            	<folio>8r</folio>
+              <folio>7v</folio>
+              <folio>8r</folio>
               <folio>8v</folio>
               <folio>9r</folio>
               <folio>9v</folio>
@@ -696,7 +694,7 @@
                 <folio>114r</folio>
                 <folio>114v</folio>
               </witness>
-            	<witness ref="#T"/>
+              <witness ref="#T"/>
             </hasWitnesses>
           </item>
         </div>

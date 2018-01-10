@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones De anima</commentaryName>
-    <commentaryslug>da-119</commentaryslug>
     <commentaryid>da-119</commentaryid>
+    <commentaryslug>da-119</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymus</authorUri>
     <parentUri>http://scta.info/resource/da-119</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-119/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <description>
+      Judging from the titles and order of the questions this may very likely be
+      from the Buridanian school.
+    </description>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="V">
@@ -19,12 +26,10 @@
         <initial>M</initial>
       </witness>
     </hasWitnesses>
-    <description>
-      Judging from the titles and order of the questions this may very likely be
-      from the Buridanian school.
-    </description>
+   
+    
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-119-librum3">
       <head>Liber tertius</head>
       <item id="da-119-l3q1" type="quaestio">

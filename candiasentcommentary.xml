@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Peter of Canida</authorName>
@@ -7,13 +8,12 @@
     <commentaryslug>pcsc</commentaryslug>
     <authorUri>http://scta.info/resource/Candia</authorUri>
     <parentUri>http://scta.info/resource/candiasentcommentary</parentUri>
-  	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/candiasentcommentary/</textfilesdir>
-    <webbase>null</webbase>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder></questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="F">
         <slug>fribourg20</slug>

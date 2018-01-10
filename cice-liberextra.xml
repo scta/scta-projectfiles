@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Raymond Of Penyafort</authorName>
@@ -7,9 +8,8 @@
     <commentaryslug>cice</commentaryslug>
     <authorUri>http://scta.info/resource/RaymondOfPenyafort</authorUri>
     <parentUri>http://scta.info/resource/liberextra</parentUri>
-  	<parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/liberextra/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
-    <webbase>null</webbase>
     <questionListSource><!--http://digital.library.ucla.edu/canonlaw/toc.html--></questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -1528,7 +1528,7 @@
           </witness>
         </hasWitnesses>
       </item>
-      f<item>
+      <item>
         <fileName filestem="cice-l3t45"/>
         <title>Liber 3, Titulus 45</title>
         <questionTitle>De reliquiis et veneratione sanctorum.</questionTitle>

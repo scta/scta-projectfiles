@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Augustinus de Monsterbek</authorName>
@@ -6,9 +7,12 @@
     <commentaryid>monsterbek_questiones</commentaryid>
     <commentaryslug>da-105</commentaryslug>
     <authorUri>http://scta.info/resource/person/AugustinusDeMonsterbek</authorUri>
-  	<parentUri>http://scta.info/resource/monsterbek_questiones</parentUri>
-  	<parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <parentUri>http://scta.info/resource/monsterbek_questiones</parentUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/monsterbek_questiones/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="K">

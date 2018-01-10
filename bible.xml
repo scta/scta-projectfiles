@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName/>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/bible</parentUri>
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/bible/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -19,68 +19,71 @@
   <div id="body">
     <item id="bible-gen">
       <fileName filestem="bible-gen"/>
-      <title n="1">Genesis</title>
+      <title>Genesis</title>
     </item>
     <item id="bible-ex">
       <fileName filestem="bible-ex"/>
-      <title n="2">Exodus</title>
+      <title>Exodus</title>
     </item>
     <item id="bible-lev">
       <fileName filestem="bible-lev"/>
-      <title n="3">Leviticus</title>
+      <title>Leviticus</title>
     </item>
     <item id="bible-num">
       <fileName filestem="bible-num"/>
-      <title n="4">Numeri</title>
+      <title>Numeri</title>
     </item>
     <item id="bible-deut">
       <fileName filestem="bible-deut"/>
-      <title n="5">Deuteronomium</title>
+      <title>Deuteronomium</title>
     </item>
     <item id="bible-ios">
       <fileName filestem="bible-ios"/>
+      <title>Iosiah</title>
     </item>
     <item id="bible-iudic">
       <fileName filestem="bible-iudic"/>
+      <title>Iudicium</title>
     </item>
     <item id="bible-rut">
       <fileName filestem="bible-rut"/>
+      <title>Ruth</title>
     </item>
     <item id="bible-Isam">
       <fileName filestem="bible-Isam"/>
-      <title n="9">Samuelis I</title>
+      <title>Samuelis I</title>
     </item>
     <item id="bible-IIsam">
       <fileName filestem="bible-IIsam"/>
-      <title n="10">Samuelis II</title>
+      <title>Samuelis II</title>
     </item>
     <item id="bible-Ireg">
       <fileName filestem="bible-Ireg"/>
-      <title n="11">Regum I</title>
+      <title>Regum I</title>
     </item>
     <item id="bible-IIreg">
       <fileName filestem="bible-IIreg"/>
-      <title n="12">Regum II</title>
+      <title>Regum II</title>
     </item>
     <item id="bible-Ipara">
       <fileName filestem="bible-Ipara"/>
-      <title n="13">Paralipomenon I</title>
+      <title>Paralipomenon I</title>
     </item>
     <item id="bible-IIpara">
       <fileName filestem="bible-IIpara"/>
-      <title n="14">Paralipomenon II</title>
+      <title>Paralipomenon II</title>
     </item>
     <item id="bible-esd">
       <fileName filestem="bible-esd"/>
-      <title n="15">Esdrae</title>
+      <title>Esdrae</title>
     </item>
     <item id="bible-neh">
       <fileName filestem="bible-neh"/>
-      <title n="16">Nehemiae</title>
+      <title>Nehemiae</title>
     </item>
     <item id="bible-tob">
       <fileName filestem="bible-tob"/>
-      <title n="69">Tobiae</title>
+      <title>Tobiae</title>
     </item>
     <item id="bible-iudt">
       <fileName filestem="bible-iudt"/>
@@ -88,7 +91,7 @@
     </item>
     <item id="bible-est">
       <fileName filestem="bible-est"/>
-      <title n="17">Esther</title>
+      <title>Esther</title>
     </item>
     <item id="bible-iob">
       <fileName filestem="bible-iob"/>
