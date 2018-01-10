@@ -1,0 +1,12 @@
+language: java
+sudo: false
+addons:
+  apt:
+    packages:
+    - parallel
+install:
+  - wget 'https://github.com/papyri/jing-trang/releases/download/xsd_bce_leap_years-1.0/jing.jar'
+  - mkdir -p edf/
+  - wget -O edf/projectfile.rng 'https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng'
+script:
+  - for file in *.xml; do java -jar jing.jar edf/projectfile.rng $file; done 
