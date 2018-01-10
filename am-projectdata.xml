@@ -1,202 +1,198 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<listofFileNames xmlns:sctap="http://scta.info/properties/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <header>
-        <authorName>Albertus Magnus</authorName>
-        <commentaryName>Albertus Magnus Commentary</commentaryName>
-        <commentaryid>albertusmagnuscommentary</commentaryid>
-        <authorUri>http://scta.info/resource/AlbertusMangus</authorUri>
-        <parentUri>http://scta.info/resource/albertusmanguscommentary</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/albertusmagnuscommentary/</textfilesdir>
-
-        <webbase>null</webbase>
-    </header>
-    <div id="body">
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames xmlns:sctap="http://scta.info/properties/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <header>
+    <authorName>Albertus Magnus</authorName>
+    <commentaryName>Albertus Magnus Commentary</commentaryName>
+    <commentaryid>albertusmagnuscommentary</commentaryid>
+    <commentaryslug>am</commentaryslug>
+    <authorUri>http://scta.info/resource/AlbertusMangus</authorUri>
+    <parentUri>http://scta.info/resource/albertusmanguscommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/albertusmagnuscommentary/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <description/>
+  </header>
+  <div id="body">
     <div id="am-librum1" type="librum" subtype="librum1">
-        <head>Liber I</head>
-        <div id="am-l1d1" type="distinctio" subtype="librum1-distinctio1">
-            <head>Liber I, Distinctio I</head>
-          <div id="am-l1d1pA" type="pars">
-                <head>Liber I, Distinctio I, pars A</head>
-                    <item id="am-l1d1pAa1" type="articulus">
-                        <fileName filestem="am-l1d1pAa1">am-l1d1pAa1.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 1</title>
-                        <questionTitle>Quomodo investigat subjectum Theologiae?</questionTitle>
-                    </item>
-                    <item id="am-l1d1pAa2" type="articulus">
-                        <fileName filestem="am-l1d1pAa2">am-l1d1pAa2.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 2</title>
-                        <questionTitle>Quid sit subjectum Theologiae?</questionTitle>
-                    </item>
-                    <item id="am-l1d1pAa3" type="articulus">
-                        <fileName filestem="am-l1d1pAa3">am-l1d1pAa3.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 3</title>
-                        <questionTitle>An Theologia sit una scientia, vel plures?</questionTitle>
-                    </item>
-                    <item id="am-l1d1pAa4" type="articulus">
-                        <fileName filestem="am-l1d1pAa4">am-l1d1pAa4.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 4</title>
-                        <questionTitle>An Theologia sit scientia speculativa, vel practica?</questionTitle>
-                        <manualRdf>
-                            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iac1_25"/>
-                            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim1_9"/>
-                        </manualRdf>
-                    </item>
-                    <item id="am-l1d1pAa5" type="articulus">
-                        <fileName filestem="am-l1d1pAa5">am-l1d1pAa5.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 5</title>
-                        <questionTitle>De modis exponendi sacram Scripturam</questionTitle>
-                    </item>
-                    <item id="am-l1d1pAa6" type="articulus">
-                        <fileName filestem="am-l1d1pAa6">am-l1d1pAa6.xml</fileName>
-                        <title>Liber I, Distinctio I, pars A, Articulus 6</title>
-                        <questionTitle>An divisio bona sit in res, et signa?</questionTitle>
-                    </item>
-                <item id="am-l1d1pAa7" type="articulus">
-                    <fileName filestem="am-l1d1pAa7">am-l1d1pAa7.xml</fileName>
-                    <title>Liber I, Distinctio I, pars A, Articulus 7</title>
-                    <questionTitle>An Sacramenta veteris legis conferebant gratiam?</questionTitle>
-                </item>
-            </div>
-            <div id="am-l1d1pB" type="pars">
-                <head>Liber I, Distinctio I, pars B</head>
-                <item id="am-l1d1pBa8" type="articulus">
-                    <fileName filestem="am-l1d1pBa8">am-l1d1pBa8.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 8</title>
-                    <questionTitle>An res bene dividantur in fruibiles, et utibiles?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa8" type="articulus">
-                    <fileName filestem="am-l1d1pBa8">am-l1d1pBa8.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 8</title>
-                    <questionTitle>An res bene dividantur in fruibiles, et utibiles?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa9" type="articulus">
-                    <fileName filestem="am-l1d1pBa9">am-l1d1pBa9.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 9</title>
-                    <questionTitle>An beatitudine sit fruendum?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa10" type="articulus">
-                    <fileName filestem="am-l1d1pBa10">am-l1d1pBa10.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 10</title>
-                    <questionTitle>An creaturae juvent hominem ad beatitudinem?</questionTitle>
-                    <manualRdf>
-                        <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap14_11"/>
-                    </manualRdf>
-                </item>
-                <item id="am-l1d1pBa11" type="articulus">
-                    <fileName filestem="am-l1d1pBa11">am-l1d1pBa11.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 11</title>
-                    <questionTitle>An homines medii sint inter res utibiles, et fruibiles?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa12" type="articulus">
-                    <fileName filestem="am-l1d1pBa12">am-l1d1pBa12.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 12</title>
-                    <questionTitle>An diffinitio prima verbi frui sit bona?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa13" type="articulus">
-                    <fileName filestem="am-l1d1pBa13">am-l1d1pBa13.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 13</title>
-                    <questionTitle>An prima diffinitio verbi uti sit bona?</questionTitle>
-                    <manualRdf>
-                        <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_31"/>
-                    </manualRdf>
-                </item>
-                <item id="am-l1d1pBa14" type="articulus">
-                    <fileName filestem="am-l1d1pBa14">am-l1d1pBa14.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 14</title>
-                    <questionTitle>An sint tres res quibus fruendum est?</questionTitle>
-                </item>
-                <item id="am-l1d1pBa15" type="articulus">
-                    <fileName filestem="am-l1d1pBa15">am-l1d1pBa15.xml</fileName>
-                    <title>Liber I, Distinctio I, pars B, Articulus 15</title>
-                    <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
-                </item>
-            </div>
-            <div id="am-l1d1pC" type="pars">
-                <head>Liber I, Distinctio I, pars C</head>
-                <item id="am-l1d1pCa16" type="articulus">
-                    <fileName filestem="am-l1d1pCa16">am-l1d1pCa16.xml</fileName>
-                    <title>Liber I, Distinctio I, pars C, Articulus 16</title>
-                    <questionTitle>An secunda diffinitio uti sit bona?</questionTitle>
-                </item>
-                <item id="am-l1d1pCa17" type="articulus">
-                    <fileName filestem="am-l1d1pCa17">am-l1d1pCa17.xml</fileName>
-                    <title>Liber I, Distinctio I, pars C, Articulus 17</title>
-                    <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
-                </item>
-            </div>
-            <div id="am-l1d1pD" type="pars">
-                <head>Liber I, Distinctio I, pars D</head>
-            </div>
-            <div id="am-l1d1pE" type="pars">
-                <head>Liber I, Distinctio I, pars E</head>
-            </div>
-            <div id="am-l1d1pF" type="pars">
-                <head>Liber I, Distinctio I, pars F</head>
-                <item id="am-l1d1pFa18" type="articulus">
-                    <fileName filestem="am-l1d1pFa18">am-l1d1pFa18.xml</fileName>
-                    <title>Liber I, Distinctio I, pars F, Articulus 18</title>
-                    <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
-                </item>
-            </div>
-            <div id="am-l1d1pG" type="pars">
-                <head>Liber I, Distinctio I, pars G</head>
-                <item id="am-l1d1pGa18" type="articulus">
-                    <fileName filestem="am-l1d1pGa19">am-l1d1pGa19.xml</fileName>
-                    <title>Liber I, Distinctio I, pars G, Articulus 19</title>
-                    <questionTitle>An Deus fruatur seipso?</questionTitle>
-                </item>
-                <item id="am-l1d1pGa20" type="articulus">
-                    <fileName filestem="am-l1d1pGa20">am-l1d1pGa20.xml</fileName>
-                    <title>Liber I, Distinctio I, pars G, Articulus 20</title>
-                    <questionTitle>In omne quod est in quantum est, est bonum?</questionTitle>
-                </item>
-            </div>
-            <div id="am-l1d1pH">
-                <head>Liber I, Distinctio I, pars H</head>
-                <item id="am-l1d1pHa21" type="articulus">
-                    <fileName filestem="am-l1d1pHa21">am-l1d1pHa21.xml</fileName>
-                    <title>Liber I, Distinctio I, pars H, Articulus 21</title>
-                    <questionTitle>An virtutibus fruendum sit?</questionTitle>
-                </item>
-                <item id="am-l1d1pHa22" type="articulus">
-                    <fileName filestem="am-l1d1pHa22">am-l1d1pHa22.xml</fileName>
-                    <title>Liber I, Distinctio I, pars H, Articulus 22</title>
-                    <questionTitle>An bona voluntate sine virtutibus sit fruendum?</questionTitle>
-                </item>
-            </div>
-          <div id="am-l1d1pI" type="pars">
-                <head>Liber I, Distinctio I, pars I</head>
-                <item id="am-l1d1pIa23" type="articulus">
-                    <fileName filestem="am-l1d1pIa23">am-l1d1pIa23.xml</fileName>
-                    <title>Liber I, Distinctio I, pars I, Articulus 23</title>
-                    <questionTitle>An per omnes potentias animae fruemur?</questionTitle>
-                </item>
-            </div>
+      <head>Liber I</head>
+      <div id="am-l1d1" type="distinctio" subtype="librum1-distinctio1">
+        <head>Liber I, Distinctio I</head>
+        <div id="am-l1d1pA" type="pars">
+          <head>Liber I, Distinctio I, pars A</head>
+          <item id="am-l1d1pAa1" type="articulus">
+            <fileName filestem="am-l1d1pAa1">am-l1d1pAa1.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 1</title>
+            <questionTitle>Quomodo investigat subjectum Theologiae?</questionTitle>
+          </item>
+          <item id="am-l1d1pAa2" type="articulus">
+            <fileName filestem="am-l1d1pAa2">am-l1d1pAa2.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 2</title>
+            <questionTitle>Quid sit subjectum Theologiae?</questionTitle>
+          </item>
+          <item id="am-l1d1pAa3" type="articulus">
+            <fileName filestem="am-l1d1pAa3">am-l1d1pAa3.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 3</title>
+            <questionTitle>An Theologia sit una scientia, vel plures?</questionTitle>
+          </item>
+          <item id="am-l1d1pAa4" type="articulus">
+            <fileName filestem="am-l1d1pAa4">am-l1d1pAa4.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 4</title>
+            <questionTitle>An Theologia sit scientia speculativa, vel practica?</questionTitle>
+            <!--<manualRdf>
+              <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iac1_25"/>
+              <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim1_9"/>
+            </manualRdf>-->
+          </item>
+          <item id="am-l1d1pAa5" type="articulus">
+            <fileName filestem="am-l1d1pAa5">am-l1d1pAa5.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 5</title>
+            <questionTitle>De modis exponendi sacram Scripturam</questionTitle>
+          </item>
+          <item id="am-l1d1pAa6" type="articulus">
+            <fileName filestem="am-l1d1pAa6">am-l1d1pAa6.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 6</title>
+            <questionTitle>An divisio bona sit in res, et signa?</questionTitle>
+          </item>
+          <item id="am-l1d1pAa7" type="articulus">
+            <fileName filestem="am-l1d1pAa7">am-l1d1pAa7.xml</fileName>
+            <title>Liber I, Distinctio I, pars A, Articulus 7</title>
+            <questionTitle>An Sacramenta veteris legis conferebant gratiam?</questionTitle>
+          </item>
         </div>
-        
-        <!-- dist 2 starts on PDF 54 -->
-        <!-- gap -->
-        <div id="am-l1d26" type="distinctio" subtype="librum1-distinctio26">
-            <head>Liber I, Distinctio XXVI</head>
-            <div id="am-l1d26pA" type="pars">
-                <head>Liber I, Distinctio XXVI, pars A</head>
-                    <item id="am-l1d26pAa1" type="articulus">
-                        <fileName filestem="am-l1d26pAa1">am-l1d26pAa1.xml</fileName>
-                        <title>Liber I, Distinctio XXVI, pars A, Articulus 1</title>
-                        <questionTitle>Quid sit hypostasis?</questionTitle>
-                    </item>
-                
-            </div>
+        <div id="am-l1d1pB" type="pars">
+          <head>Liber I, Distinctio I, pars B</head>
+          <item id="am-l1d1pBa8" type="articulus">
+            <fileName filestem="am-l1d1pBa8">am-l1d1pBa8.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 8</title>
+            <questionTitle>An res bene dividantur in fruibiles, et utibiles?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa8" type="articulus">
+            <fileName filestem="am-l1d1pBa8">am-l1d1pBa8.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 8</title>
+            <questionTitle>An res bene dividantur in fruibiles, et utibiles?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa9" type="articulus">
+            <fileName filestem="am-l1d1pBa9">am-l1d1pBa9.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 9</title>
+            <questionTitle>An beatitudine sit fruendum?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa10" type="articulus">
+            <fileName filestem="am-l1d1pBa10">am-l1d1pBa10.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 10</title>
+            <questionTitle>An creaturae juvent hominem ad beatitudinem?</questionTitle>
+            <!--<manualRdf>
+              <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap14_11"/>
+            </manualRdf>-->
+          </item>
+          <item id="am-l1d1pBa11" type="articulus">
+            <fileName filestem="am-l1d1pBa11">am-l1d1pBa11.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 11</title>
+            <questionTitle>An homines medii sint inter res utibiles, et fruibiles?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa12" type="articulus">
+            <fileName filestem="am-l1d1pBa12">am-l1d1pBa12.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 12</title>
+            <questionTitle>An diffinitio prima verbi frui sit bona?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa13" type="articulus">
+            <fileName filestem="am-l1d1pBa13">am-l1d1pBa13.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 13</title>
+            <questionTitle>An prima diffinitio verbi uti sit bona?</questionTitle>
+            <!--<manualRdf>
+              <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_31"/>
+            </manualRdf>-->
+          </item>
+          <item id="am-l1d1pBa14" type="articulus">
+            <fileName filestem="am-l1d1pBa14">am-l1d1pBa14.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 14</title>
+            <questionTitle>An sint tres res quibus fruendum est?</questionTitle>
+          </item>
+          <item id="am-l1d1pBa15" type="articulus">
+            <fileName filestem="am-l1d1pBa15">am-l1d1pBa15.xml</fileName>
+            <title>Liber I, Distinctio I, pars B, Articulus 15</title>
+            <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
+          </item>
         </div>
-        
-        
-      
-       
-        
+        <div id="am-l1d1pC" type="pars">
+          <head>Liber I, Distinctio I, pars C</head>
+          <item id="am-l1d1pCa16" type="articulus">
+            <fileName filestem="am-l1d1pCa16">am-l1d1pCa16.xml</fileName>
+            <title>Liber I, Distinctio I, pars C, Articulus 16</title>
+            <questionTitle>An secunda diffinitio uti sit bona?</questionTitle>
+          </item>
+          <item id="am-l1d1pCa17" type="articulus">
+            <fileName filestem="am-l1d1pCa17">am-l1d1pCa17.xml</fileName>
+            <title>Liber I, Distinctio I, pars C, Articulus 17</title>
+            <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
+          </item>
+        </div>
+        <div id="am-l1d1pD" type="pars">
+          <head>Liber I, Distinctio I, pars D</head>
+        </div>
+        <div id="am-l1d1pE" type="pars">
+          <head>Liber I, Distinctio I, pars E</head>
+        </div>
+        <div id="am-l1d1pF" type="pars">
+          <head>Liber I, Distinctio I, pars F</head>
+          <item id="am-l1d1pFa18" type="articulus">
+            <fileName filestem="am-l1d1pFa18">am-l1d1pFa18.xml</fileName>
+            <title>Liber I, Distinctio I, pars F, Articulus 18</title>
+            <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
+          </item>
+        </div>
+        <div id="am-l1d1pG" type="pars">
+          <head>Liber I, Distinctio I, pars G</head>
+          <item id="am-l1d1pGa18" type="articulus">
+            <fileName filestem="am-l1d1pGa19">am-l1d1pGa19.xml</fileName>
+            <title>Liber I, Distinctio I, pars G, Articulus 19</title>
+            <questionTitle>An Deus fruatur seipso?</questionTitle>
+          </item>
+          <item id="am-l1d1pGa20" type="articulus">
+            <fileName filestem="am-l1d1pGa20">am-l1d1pGa20.xml</fileName>
+            <title>Liber I, Distinctio I, pars G, Articulus 20</title>
+            <questionTitle>In omne quod est in quantum est, est bonum?</questionTitle>
+          </item>
+        </div>
+        <div id="am-l1d1pH">
+          <head>Liber I, Distinctio I, pars H</head>
+          <item id="am-l1d1pHa21" type="articulus">
+            <fileName filestem="am-l1d1pHa21">am-l1d1pHa21.xml</fileName>
+            <title>Liber I, Distinctio I, pars H, Articulus 21</title>
+            <questionTitle>An virtutibus fruendum sit?</questionTitle>
+          </item>
+          <item id="am-l1d1pHa22" type="articulus">
+            <fileName filestem="am-l1d1pHa22">am-l1d1pHa22.xml</fileName>
+            <title>Liber I, Distinctio I, pars H, Articulus 22</title>
+            <questionTitle>An bona voluntate sine virtutibus sit fruendum?</questionTitle>
+          </item>
+        </div>
+        <div id="am-l1d1pI" type="pars">
+          <head>Liber I, Distinctio I, pars I</head>
+          <item id="am-l1d1pIa23" type="articulus">
+            <fileName filestem="am-l1d1pIa23">am-l1d1pIa23.xml</fileName>
+            <title>Liber I, Distinctio I, pars I, Articulus 23</title>
+            <questionTitle>An per omnes potentias animae fruemur?</questionTitle>
+          </item>
+        </div>
+      </div>
+      <!-- dist 2 starts on PDF 54 -->
+      <!-- gap -->
+      <div id="am-l1d26" type="distinctio" subtype="librum1-distinctio26">
+        <head>Liber I, Distinctio XXVI</head>
+        <div id="am-l1d26pA" type="pars">
+          <head>Liber I, Distinctio XXVI, pars A</head>
+          <item id="am-l1d26pAa1" type="articulus">
+            <fileName filestem="am-l1d26pAa1">am-l1d26pAa1.xml</fileName>
+            <title>Liber I, Distinctio XXVI, pars A, Articulus 1</title>
+            <questionTitle>Quid sit hypostasis?</questionTitle>
+          </item>
+        </div>
+      </div>
     </div>
-        
-         
-    </div>
-
+  </div>
 </listofFileNames>

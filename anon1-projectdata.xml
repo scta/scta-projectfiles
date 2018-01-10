@@ -1,437 +1,447 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-        <authorName>Anonymous 1</authorName>
-    		<commentaryName>Anonymous Commentary</commentaryName>
-        <commentaryid>anon1commentary</commentaryid>
-        <commentaryslug>anon1</commentaryslug>
-        <authorUri>http://scta.info/resource/anon1</authorUri>
-    		<parentUri>http://scta.info/resource/anon1commentary</parentUri>
-    	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anon1commentary/</textfilesdir>
-        <webbase></webbase>
-    		<questionListSource>UPenn Codex 727</questionListSource>
-        <questionListOriginalEditor>Kjerstin Burdiek, Calix G. O'Hara, Jeffrey C. Witt</questionListOriginalEditor>
-        <questionListEncoder>Calix G. O'Hara</questionListEncoder>
-        <hasWitnesses>
-            <witness id="P">
-                <slug>penn727</slug>
-                <title>Upenn Codex 727</title>
-                <initial>P</initial>
-            </witness>
-        </hasWitnesses>
-    </header>
-    <div id="body">
-        <div id="anon1-l1" class="toplevel" type="librum" subtype="librum1">
-        <head>Liber I</head>
-            <div id="anon1-l1d1" type="distinctio" subtype="librum1-distinctio1">
-                <head>Liber I, Distinctio 1</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d1q1"></fileName>
-                    <title>Liber I, Distinctio 1, Quaestio 1</title>
-                    <questionTitle><!-- Question Title Missing --></questionTitle>
-                </item>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d1q2"></fileName>
-                    <title>Liber I, Distinctio 1, Quaestio 2</title>
-                    <questionTitle>Utrum perfecta beatitudo cuiuscunque beatificatae naturae consistit principalius in actu beatificae  fruitionis quam in actu beatificae visionis sui beatifici obiecti?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>25r</folio> <!-- 25ra -->
-                          <folio>25v</folio>
-                          <folio>26r</folio>
-                          <folio>26v</folio>
-                          <folio>27r</folio>
-                          <folio>27v</folio>
-                          <folio>28r</folio>
-                          <folio>28v</folio>
-                          <folio>29r</folio>
-                          <folio>29v</folio>
-                          <folio>30r</folio>
-                          <folio>30v</folio>
-                          <folio>31r</folio>
-                          <folio>31v</folio>
-                          <folio>32r</folio>
-                          <folio>32v</folio>
-                          <folio>33r</folio>
-                          <folio>33v</folio>
-                          <folio>34r</folio>
-                          <folio>34v</folio>
-                          <folio>35r</folio>
-                          <folio>35v</folio>
-                          <folio>36r</folio>
-                          <folio>36v</folio>
-                          <folio>37r</folio>
-                          <folio>37v</folio>
-                          <folio>38r</folio>
-                          <folio>38v</folio>
-                          <folio>39r</folio> <!-- 39ra -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d2" type="distinctio" subtype="librum1-distinctio2">
-                <head>Liber I, Distinctio 2</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d2q1"></fileName>
-                    <title>Liber I, Distinctio 2, Quaestio 1</title>
-                    <questionTitle>Utrum deum esse sit ratione naturale efficaciter demonstrabile?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>39r</folio><!-- 39ra -->
-                          <folio>39v</folio>
-                          <folio>40r</folio>
-                          <folio>40v</folio>
-                          <folio>41r</folio>
-                          <folio>41v</folio>
-                          <folio>42r</folio>
-                          <folio>42v</folio>
-                          <folio>43r</folio>
-                          <folio>43v</folio>
-                          <folio>44r</folio>
-                          <folio>44v</folio>
-                          <folio>45r</folio>
-                          <folio>45v</folio>
-                          <folio>46r</folio>
-                          <folio>46v</folio>
-                          <folio>47r</folio>
-                          <folio>47v</folio>
-                          <folio>48r</folio>
-                          <folio>48v</folio>
-                          <folio>49r</folio>
-                          <folio>49v</folio>
-                          <folio>50r</folio>
-                          <folio>50v</folio>
-                          <folio>51r</folio>
-                          <folio>51v</folio>
-                          <folio>52r</folio>
-                          <folio>52v</folio>
-                          <folio>53r</folio>
-                          <folio>53v</folio>
-                          <folio>54r</folio>
-                          <folio>54v</folio>
-                          <folio>55r</folio>
-                          <folio>55v</folio>
-                          <folio>56r</folio>
-                          <folio>56v</folio>
-                          <folio>57r</folio>
-                          <folio>57v</folio>
-                          <folio>58r</folio>
-                          <folio>58v</folio>
-                          <folio>59r</folio>
-                          <folio>59v</folio>
-                          <folio>60r</folio>
-                          <folio>60v</folio>
-                          <folio>61r</folio>
-                          <folio>61v</folio>
-                          <folio>62r</folio>
-                          <folio>62v</folio>
-                          <folio>63r</folio> <!-- 63rb -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d3" type="distinctio" subtype="librum1-distinctio3">
-                <head>Liber I, Distinctio 3</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d3q1"></fileName>
-                    <title>Liber I, Distinctio 3, Quaestio 1</title>
-                    <questionTitle>Utrum intellectus noster pro state viae cum solo lumine intellectus agentis possit per gradus creaturum ascendere ad dei cognitionem?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>63r</folio> <!-- 63rb -->
-                          <folio>63v</folio>
-                          <folio>64r</folio>
-                          <folio>64v</folio>
-                          <folio>65r</folio>
-                          <folio>65v</folio>
-                          <folio>66r</folio>
-                          <folio>66v</folio>
-                          <folio>67r</folio>
-                          <folio>67v</folio>
-                          <folio>68r</folio>
-                          <folio>68v</folio>
-                          <folio>69r</folio>
-                          <folio>69v</folio>
-                          <folio>70r</folio>
-                          <folio>70v</folio>
-                          <folio>71r</folio>
-                          <folio>72v</folio>
-                          <folio>73r</folio>
-                          <folio>73v</folio>
-                          <folio>74r</folio>
-                          <folio>74v</folio>
-                          <folio>75r</folio>
-                          <folio>75v</folio>
-                          <folio>76r</folio> <!-- 76rb -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d4" type="distinctio" subtype="librum1-distinctio4">
-                <head>Liber I, Distinctio 4</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d4q1"></fileName>
-                    <title>Liber I, Distinctio 4, Quaestio 1</title>
-                    <questionTitle>Utrum ex aeterna generatione verbi divini potest vere concedi quod deum genuit deum?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>76r</folio> <!-- 76rb -->
-                          <folio>76v</folio>
-                          <folio>77r</folio>
-                          <folio>77v</folio>
-                          <folio>78r</folio>
-                          <folio>78v</folio>
-                          <folio>79r</folio>
-                          <folio>79v</folio>
-                          <folio>80r</folio>
-                          <folio>80v</folio>
-                          <folio>81r</folio>
-                          <folio>81v</folio>
-                          <folio>82r</folio>
-                          <folio>82v</folio>
-                          <folio>83r</folio>
-                          <folio>83v</folio>
-                          <folio>84r</folio>
-                          <folio>84v</folio>
-                          <folio>85r</folio>
-                          <folio>85v</folio>
-                          <folio>86r</folio>
-                          <folio>86v</folio>
-                          <folio>87r</folio>
-                          <folio>87v</folio> <!-- 87vb -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d5" type="distinctio" subtype="librum1-distinctio5">
-                <head>Liber I, Distinctio 5</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d5q1"></fileName>
-                    <title>Liber I, Distinctio 5, Quaestio 1</title>
-                    <questionTitle>Utrum divina essentia in generatione divina possit cadere rationem principii originantes aut termini orginati?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>87v</folio> <!-- 87vb -->
-                          <folio>88r</folio>
-                          <folio>88v</folio>
-                          <folio>89r</folio>
-                          <folio>89v</folio>
-                          <folio>90r</folio>
-                          <folio>90v</folio>
-                          <folio>91r</folio>
-                          <folio>91v</folio>
-                          <folio>92r</folio>
-                          <folio>92v</folio>
-                          <folio>93r</folio>
-                          <folio>93v</folio>
-                          <folio>94r</folio>
-                          <folio>94v</folio>
-                          <folio>95r</folio>
-                          <folio>95v</folio>
-                          <folio>96r</folio>
-                          <folio>96v</folio>
-                          <folio>97r</folio> <!-- 97ra -->
-                          
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d6" type="distinctio" subtype="librum1-distinctio6">
-                <head>Liber I, Distinctio 6</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d6q1"></fileName>
-                    <title>Liber I, Distinctio 6, Quaestio 1</title>
-                    <questionTitle>Utrum pater in divinis ordinae naturae prius voluerit filium generare quam ipsam genuerat vel potius e converso?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>97r</folio> <!-- 97ra -->
-                          <folio>97v</folio>
-                          <folio>98r</folio>
-                          <folio>98v</folio>
-                          <folio>99r</folio>
-                          <folio>99v</folio>
-                          <folio>100r</folio>
-                          <folio>101v</folio>
-                          <folio>102r</folio>
-                          <folio>102v</folio> <!-- 102va -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d7" type="distinctio" subtype="librum1-distinctio7">
-                <head>Liber I, Distinctio 7</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d7q1"></fileName>
-                    <title>Liber I, Distinctio 7, Quaestio 1</title>
-                    <questionTitle>Utrum possit generare verbum dicat perfectionem simpliciter?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>102v</folio> <!-- 102va -->
-                          <folio>103r</folio>
-                          <folio>103v</folio>
-                          <folio>104r</folio>
-                          <folio>104v</folio>
-                          <folio>105r</folio> <!-- 105rb -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d8" type="distinctio" subtype="librum1-distinctio8">
-                <head>Liber I, Distinctio 8</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d8q1"></fileName>
-                    <title>Liber I, Distinctio 8, Quaestio 1</title>
-                    <questionTitle>Utrum summae simplicitate inquacumque naturae repugnet omnino pluralitas aliquorum quolibet distinctorum?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>105r</folio> <!-- 105rb -->
-                          <folio>105v</folio>
-                          <folio>106r</folio>
-                          <folio>106v</folio>
-                          <folio>107r</folio>
-                          <folio>107v</folio>
-                          <folio>108r</folio>
-                          <folio>108v</folio>
-                          <folio>109r</folio>
-                          <folio>109v</folio>
-                          <folio>110r</folio>
-                          <folio>110v</folio>
-                          <folio>111r</folio>
-                          <folio>111v</folio>
-                          <folio>112r</folio>
-                          <folio>112v</folio>
-                          <folio>113r</folio>
-                          <folio>113v</folio>
-                          <folio>114r</folio>
-                          <folio>114v</folio>
-                          <folio>115r</folio>
-                          <folio>115v</folio>
-                          <folio>116r</folio>
-                          <folio>116v</folio>
-                          <folio>117r</folio>
-                          <folio>117v</folio>
-                          <folio>118r</folio>
-                          <folio>118v</folio>
-                          <folio>119r</folio>
-                          <folio>119v</folio>
-                          <folio>120r</folio>
-                          <folio>120v</folio>
-                          <folio>121r</folio>
-                          <folio>121v</folio>
-                          <folio>122r</folio>
-                          <folio>122v</folio>
-                          <folio>123r</folio>
-                          <folio>123v</folio>
-                          <folio>124r</folio>
-                          <folio>124v</folio>
-                          <folio>125r</folio>
-                          <folio>125v</folio>
-                          <folio>126r</folio>
-                          <folio>126v</folio>
-                          <folio>127r</folio>
-                          <folio>127v</folio>
-                          <folio>128r</folio>
-                          <folio>128v</folio>
-                          <folio>129r</folio>
-                          <folio>129v</folio>
-                          <folio>130r</folio>
-                          <folio>130v</folio> <!-- 130vb -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d9" type="distinctio" subtype="librum1-distinctio9">
-                <head>Liber I, Distinctio 9</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d9q1"></fileName>
-                    <title>Liber I, Distinctio 9, Quaestio 1</title>
-                    <questionTitle>Utrum generatio filii in divinis propriae mensuretur mensura aeternitatis?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>130v</folio> <!-- 130vb -->
-                          <folio>131r</folio>
-                          <folio>131v</folio>
-                          <folio>132r</folio>
-                          <folio>132v</folio>
-                          <folio>133r</folio>
-                          <folio>133v</folio>
-                          <folio>134r</folio>
-                          <folio>134v</folio>
-                          <folio>135r</folio>
-                          <folio>135v</folio>
-                          <folio>136r</folio>
-                          <folio>136v</folio>
-                          <folio>137r</folio>
-                          <folio>137v</folio>
-                          <folio>138r</folio>
-                          <folio>138v</folio>
-                          <folio>139r</folio> <!-- 139ra -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d10" type="distinctio" subtype="librum1-distinctio10">
-                <head>Liber I, Distinctio 10</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d10q1"></fileName>
-                    <title>Liber I, Distinctio 10, Quaestio 1</title>
-                    <questionTitle>Utrum Spiritus sanctus ex vi suae productionis sit formalis amor divinus et personalis?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>139r</folio> <!-- 139ra -->
-                          <folio>139v</folio>
-                          <folio>140r</folio> 
-                          <folio>140v</folio>
-                          <folio>141r</folio>
-                          <folio>141v</folio>
-                          <folio>142r</folio>
-                          <folio>142v</folio>
-                          <folio>143r</folio>
-                          <folio>143v</folio>
-                          <folio>144r</folio>
-                          <folio>144v</folio>
-                          <folio>145r</folio>
-                          <folio>145v</folio> <!-- 145va -->
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d11" type="distinctio" subtype="librum1-distinctio11">
-                <head>Liber I, Distinctio 11</head>
-                <item type="quaestio">
-                    <fileName filestem="anon1-l1d11q1"></fileName>
-                    <title>Liber I, Distinctio 11, Quaestio 1</title>
-                    <questionTitle>Utrum spiritus sanctus procedat a patre et filio tamquam ab uno principio productivo?</questionTitle>
-                    <hasWitnesses>
-                        <witness ref="#P">
-                          <folio>145v</folio> <!--145va -->
-                          <folio>146r</folio> 
-                          <folio>146v</folio>
-                          <folio>147r</folio>
-                          <folio>147v</folio>
-                          <folio>148r</folio>
-                          <folio>148v</folio>
-                          <folio>149r</folio>
-                          <folio>149v</folio>
-                        </witness>
-                    </hasWitnesses>
-                </item>
-            </div>
-            <div id="anon1-l1d19" type="distinctio" subtype="librum1-distinctio19">
-              <head>Liber I, Distinctio 19</head>
-              <item type="quaestio">
-                <fileName filestem="anon1-l1d19q1"></fileName>
-                <title>Liber I, Distinctio 19, Quaestio 1</title>
-                <questionTitle><!-- UNKNOWN --></questionTitle>
-                <hasWitnesses>
-                  <witness ref="#P">
-                    <folio>150r</folio>
-                    <folio>150v</folio>
-                  </witness>
-                </hasWitnesses>
-              </item>
-            </div>
-        </div>      
+  <header>
+    <authorName>Anonymous 1</authorName>
+    <commentaryName>Anonymous Commentary</commentaryName>
+    <commentaryid>anon1commentary</commentaryid>
+    <commentaryslug>anon1</commentaryslug>
+    <authorUri>http://scta.info/resource/anon1</authorUri>
+    <parentUri>http://scta.info/resource/anon1commentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anon1commentary/</textfilesdir>
+    <webbase/>
+    <questionListSource>UPenn Codex 727</questionListSource>
+    <questionListOriginalEditor>Kjerstin Burdiek, Calix G. O'Hara, Jeffrey C.
+      Witt</questionListOriginalEditor>
+    <questionListEncoder>Calix G. O'Hara</questionListEncoder>
+    <hasWitnesses> 
+      <witness id="P">
+        <slug>penn727</slug>
+        <title>Upenn Codex 727</title>
+        <initial>P</initial>
+      </witness> 
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="anon1-l1" class="toplevel" type="librum" subtype="librum1">
+      <head>Liber I</head>
+      <div id="anon1-l1d1" type="distinctio" subtype="librum1-distinctio1">
+        <head>Liber I, Distinctio 1</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d1q1"/>
+          <title>Liber I, Distinctio 1, Quaestio 1</title>
+          <questionTitle><!-- Question Title Missing --></questionTitle>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d1q2"/>
+          <title>Liber I, Distinctio 1, Quaestio 2</title>
+          <questionTitle>Utrum perfecta beatitudo cuiuscunque beatificatae naturae consistit
+            principalius in actu beatificae fruitionis quam in actu beatificae visionis sui
+            beatifici obiecti?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>25r</folio>
+            <!-- 25ra -->
+            <folio>25v</folio>
+            <folio>26r</folio>
+            <folio>26v</folio>
+            <folio>27r</folio>
+            <folio>27v</folio>
+            <folio>28r</folio>
+            <folio>28v</folio>
+            <folio>29r</folio>
+            <folio>29v</folio>
+            <folio>30r</folio>
+            <folio>30v</folio>
+            <folio>31r</folio>
+            <folio>31v</folio>
+            <folio>32r</folio>
+            <folio>32v</folio>
+            <folio>33r</folio>
+            <folio>33v</folio>
+            <folio>34r</folio>
+            <folio>34v</folio>
+            <folio>35r</folio>
+            <folio>35v</folio>
+            <folio>36r</folio>
+            <folio>36v</folio>
+            <folio>37r</folio>
+            <folio>37v</folio>
+            <folio>38r</folio>
+            <folio>38v</folio>
+            <folio>39r</folio>
+            <!-- 39ra -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d2" type="distinctio" subtype="librum1-distinctio2">
+        <head>Liber I, Distinctio 2</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d2q1"/>
+          <title>Liber I, Distinctio 2, Quaestio 1</title>
+          <questionTitle>Utrum deum esse sit ratione naturale efficaciter
+            demonstrabile?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>39r</folio>
+            <!-- 39ra -->
+            <folio>39v</folio>
+            <folio>40r</folio>
+            <folio>40v</folio>
+            <folio>41r</folio>
+            <folio>41v</folio>
+            <folio>42r</folio>
+            <folio>42v</folio>
+            <folio>43r</folio>
+            <folio>43v</folio>
+            <folio>44r</folio>
+            <folio>44v</folio>
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+            <folio>49v</folio>
+            <folio>50r</folio>
+            <folio>50v</folio>
+            <folio>51r</folio>
+            <folio>51v</folio>
+            <folio>52r</folio>
+            <folio>52v</folio>
+            <folio>53r</folio>
+            <folio>53v</folio>
+            <folio>54r</folio>
+            <folio>54v</folio>
+            <folio>55r</folio>
+            <folio>55v</folio>
+            <folio>56r</folio>
+            <folio>56v</folio>
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+            <folio>62r</folio>
+            <folio>62v</folio>
+            <folio>63r</folio>
+            <!-- 63rb -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d3" type="distinctio" subtype="librum1-distinctio3">
+        <head>Liber I, Distinctio 3</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d3q1"/>
+          <title>Liber I, Distinctio 3, Quaestio 1</title>
+          <questionTitle>Utrum intellectus noster pro state viae cum solo lumine intellectus agentis
+            possit per gradus creaturum ascendere ad dei cognitionem?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>63r</folio>
+            <!-- 63rb -->
+            <folio>63v</folio>
+            <folio>64r</folio>
+            <folio>64v</folio>
+            <folio>65r</folio>
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+            <folio>68r</folio>
+            <folio>68v</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <!-- 76rb -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d4" type="distinctio" subtype="librum1-distinctio4">
+        <head>Liber I, Distinctio 4</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d4q1"/>
+          <title>Liber I, Distinctio 4, Quaestio 1</title>
+          <questionTitle>Utrum ex aeterna generatione verbi divini potest vere concedi quod deum
+            genuit deum?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>76r</folio>
+            <!-- 76rb -->
+            <folio>76v</folio>
+            <folio>77r</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+            <folio>78v</folio>
+            <folio>79r</folio>
+            <folio>79v</folio>
+            <folio>80r</folio>
+            <folio>80v</folio>
+            <folio>81r</folio>
+            <folio>81v</folio>
+            <folio>82r</folio>
+            <folio>82v</folio>
+            <folio>83r</folio>
+            <folio>83v</folio>
+            <folio>84r</folio>
+            <folio>84v</folio>
+            <folio>85r</folio>
+            <folio>85v</folio>
+            <folio>86r</folio>
+            <folio>86v</folio>
+            <folio>87r</folio>
+            <folio>87v</folio>
+            <!-- 87vb -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d5" type="distinctio" subtype="librum1-distinctio5">
+        <head>Liber I, Distinctio 5</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d5q1"/>
+          <title>Liber I, Distinctio 5, Quaestio 1</title>
+          <questionTitle>Utrum divina essentia in generatione divina possit cadere rationem
+            principii originantes aut termini orginati?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>87v</folio>
+            <!-- 87vb -->
+            <folio>88r</folio>
+            <folio>88v</folio>
+            <folio>89r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+            <folio>91v</folio>
+            <folio>92r</folio>
+            <folio>92v</folio>
+            <folio>93r</folio>
+            <folio>93v</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+            <folio>95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <!-- 97ra -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d6" type="distinctio" subtype="librum1-distinctio6">
+        <head>Liber I, Distinctio 6</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d6q1"/>
+          <title>Liber I, Distinctio 6, Quaestio 1</title>
+          <questionTitle>Utrum pater in divinis ordinae naturae prius voluerit filium generare quam
+            ipsam genuerat vel potius e converso?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>97r</folio>
+            <!-- 97ra -->
+            <folio>97v</folio>
+            <folio>98r</folio>
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+            <folio>100r</folio>
+            <folio>101v</folio>
+            <folio>102r</folio>
+            <folio>102v</folio>
+            <!-- 102va -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d7" type="distinctio" subtype="librum1-distinctio7">
+        <head>Liber I, Distinctio 7</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d7q1"/>
+          <title>Liber I, Distinctio 7, Quaestio 1</title>
+          <questionTitle>Utrum possit generare verbum dicat perfectionem
+            simpliciter?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>102v</folio>
+            <!-- 102va -->
+            <folio>103r</folio>
+            <folio>103v</folio>
+            <folio>104r</folio>
+            <folio>104v</folio>
+            <folio>105r</folio>
+            <!-- 105rb -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d8" type="distinctio" subtype="librum1-distinctio8">
+        <head>Liber I, Distinctio 8</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d8q1"/>
+          <title>Liber I, Distinctio 8, Quaestio 1</title>
+          <questionTitle>Utrum summae simplicitate inquacumque naturae repugnet omnino pluralitas
+            aliquorum quolibet distinctorum?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>105r</folio>
+            <!-- 105rb -->
+            <folio>105v</folio>
+            <folio>106r</folio>
+            <folio>106v</folio>
+            <folio>107r</folio>
+            <folio>107v</folio>
+            <folio>108r</folio>
+            <folio>108v</folio>
+            <folio>109r</folio>
+            <folio>109v</folio>
+            <folio>110r</folio>
+            <folio>110v</folio>
+            <folio>111r</folio>
+            <folio>111v</folio>
+            <folio>112r</folio>
+            <folio>112v</folio>
+            <folio>113r</folio>
+            <folio>113v</folio>
+            <folio>114r</folio>
+            <folio>114v</folio>
+            <folio>115r</folio>
+            <folio>115v</folio>
+            <folio>116r</folio>
+            <folio>116v</folio>
+            <folio>117r</folio>
+            <folio>117v</folio>
+            <folio>118r</folio>
+            <folio>118v</folio>
+            <folio>119r</folio>
+            <folio>119v</folio>
+            <folio>120r</folio>
+            <folio>120v</folio>
+            <folio>121r</folio>
+            <folio>121v</folio>
+            <folio>122r</folio>
+            <folio>122v</folio>
+            <folio>123r</folio>
+            <folio>123v</folio>
+            <folio>124r</folio>
+            <folio>124v</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+            <folio>128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+            <!-- 130vb -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d9" type="distinctio" subtype="librum1-distinctio9">
+        <head>Liber I, Distinctio 9</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d9q1"/>
+          <title>Liber I, Distinctio 9, Quaestio 1</title>
+          <questionTitle>Utrum generatio filii in divinis propriae mensuretur mensura
+            aeternitatis?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>130v</folio>
+            <!-- 130vb -->
+            <folio>131r</folio>
+            <folio>131v</folio>
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio>134v</folio>
+            <folio>135r</folio>
+            <folio>135v</folio>
+            <folio>136r</folio>
+            <folio>136v</folio>
+            <folio>137r</folio>
+            <folio>137v</folio>
+            <folio>138r</folio>
+            <folio>138v</folio>
+            <folio>139r</folio>
+            <!-- 139ra -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d10" type="distinctio" subtype="librum1-distinctio10">
+        <head>Liber I, Distinctio 10</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d10q1"/>
+          <title>Liber I, Distinctio 10, Quaestio 1</title>
+          <questionTitle>Utrum Spiritus sanctus ex vi suae productionis sit formalis amor divinus et
+            personalis?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>139r</folio>
+            <!-- 139ra -->
+            <folio>139v</folio>
+            <folio>140r</folio>
+            <folio>140v</folio>
+            <folio>141r</folio>
+            <folio>141v</folio>
+            <folio>142r</folio>
+            <folio>142v</folio>
+            <folio>143r</folio>
+            <folio>143v</folio>
+            <folio>144r</folio>
+            <folio>144v</folio>
+            <folio>145r</folio>
+            <folio>145v</folio>
+            <!-- 145va -->
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d11" type="distinctio" subtype="librum1-distinctio11">
+        <head>Liber I, Distinctio 11</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d11q1"/>
+          <title>Liber I, Distinctio 11, Quaestio 1</title>
+          <questionTitle>Utrum spiritus sanctus procedat a patre et filio tamquam ab uno principio
+            productivo?</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>145v</folio>
+            <!--145va -->
+            <folio>146r</folio>
+            <folio>146v</folio>
+            <folio>147r</folio>
+            <folio>147v</folio>
+            <folio>148r</folio>
+            <folio>148v</folio>
+            <folio>149r</folio>
+            <folio>149v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon1-l1d19" type="distinctio" subtype="librum1-distinctio19">
+        <head>Liber I, Distinctio 19</head>
+        <item type="quaestio">
+          <fileName filestem="anon1-l1d19q1"/>
+          <title>Liber I, Distinctio 19, Quaestio 1</title>
+          <questionTitle><!-- UNKNOWN --></questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>150r</folio>
+            <folio>150v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
     </div>
+  </div>
 </listofFileNames>

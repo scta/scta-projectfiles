@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
     <header>
         <authorName>Adam Wodeham</authorName>
         <commentaryName>Wodeham Ordinatio</commentaryName>
         <commentaryid>wodehamordinatio</commentaryid>
         <commentaryslug>aw</commentaryslug>
-    		<rcsid>100059</rcsid>
+    		
         <authorUri>http://scta.info/resource/Wodeham</authorUri>
         <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
     	<parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
@@ -40,7 +41,8 @@
           <title>Bruges, bibl. de la Ville, Ms. 172</title>
           <initial>B</initial>
         </witness>
-      </hasWitnesses>    
+      </hasWitnesses>
+      <rcsid>100059</rcsid>
     </header>
     <div id="body">
     <div id="book1" class="toplevel" type="librum" subtype="librum1-collatio">
@@ -590,7 +592,7 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item live="true">
+        <item>
           <fileName filestem="b1-d1-q14">b1-d1-q14.xml</fileName>
           <title>Dist. 1, q. 14</title>
           <questionTitle>Utrum fruitio beatifica sit actus intellectus.</questionTitle>
@@ -654,7 +656,7 @@
         </div>
         <div id="b1-d3" type="distinctio">
           <head>Distinctio 3</head>
-          <item live="true">
+          <item>
             <fileName filestem="b1-d3-qun">b1-d3-qun.xml</fileName>
             <title>Dist. 3, q. un.</title>
             <questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis.</questionTitle>
@@ -722,7 +724,7 @@
               </witness>
             </hasWitnesses>
           </item>
-          <item live="true" type="quaestio">
+          <item type="quaestio">
             <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
             <title>Dist. 6, q. 2</title>
             <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic de similibus.</questionTitle>
@@ -1146,7 +1148,7 @@
                   </witness>
                 </hasWitnesses>
             </item>
-            <item live="true">
+            <item>
                 <fileName filestem="b1-d33-q6">b1-d33-q6.xml</fileName>
                 <title>Dist. 33, q. 6</title>
                 <questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab eo.</questionTitle>
@@ -1453,7 +1455,6 @@
             <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis conferatur gratia salutaris.</questionTitle>
             <hasWitnesses>
               <witness ref="#S">
-                    <initial>S</initial>
                     <folio>165v</folio>
                     <folio>166v</folio>
                 </witness>

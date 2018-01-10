@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
     <header>
       <authorName>Alphonsus Toletanus Vargas</authorName>
       <commentaryName>Alphonsus Toletanus Vargas Commentary</commentaryName>
         <commentaryid>vargascommentary</commentaryid>
         <commentaryslug>atv</commentaryslug>
-    		<rcsid>100100</rcsid>
+    		
         <authorUri>http://scta.info/resource/AlphonsusVargas</authorUri>
         <parentUri>http://scta.info/resource/vargascommentary</parentUri>
     	   <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
         <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vargascommentary/</textfilesdir>
-        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+        
         <webbase>null</webbase>
         <questionListSource></questionListSource>
         <questionListOriginalEditor>Luciana Cioca</questionListOriginalEditor>
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
 	    	<sponsors>
 	    		<sponsor id="erc-thesis">
 	    			<name>ERC-THESIS project n° 313339</name>
@@ -34,6 +36,7 @@
             <initial>V</initial>
           </witness>
         </hasWitnesses>
+      <rcsid>100100</rcsid>
     </header>
     <div id="body">
       <div id="atv-librum1" class="toplevel" type="librum" subtype="librum1">
@@ -50,6 +53,7 @@
           </hasWitnesses>
         </item>
         <div id="atv-l1prol" type="distinctio" subtype="librum1-prologus">
+          <head>Liber I, Prologus</head>
           <item type="quaestio">
             <fileName filestem="atv-l1prolq1"/>
             <title>Liber I, prologus, q. 1</title>

@@ -1,156 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-      <authorName>Alphonsus Toletanus Vargas</authorName>
-      <commentaryName>Alphonsus Toletanus Vargas De Anima Commentary</commentaryName>
-        <commentaryid>vargasdeanima</commentaryid>
-        <commentaryslug>atvda</commentaryslug>
-    		<rcsid></rcsid>
-        <authorUri>http://scta.info/resource/AlphonsusVargas</authorUri>
-        <parentUri>http://scta.info/resource/vargasdeanima</parentUri>
-      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vargasdeanima/</textfilesdir>
-        <webbase>null</webbase>
-        <questionListSource>Venice 1566 edition</questionListSource>
-        <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
-        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-	    	<hasWitnesses>
-          <witness id="V">
-            <slug>Venice1566</slug>
-            <title>Venice, 1566</title>
-            <initial>V</initial>
-          </witness>
-        </hasWitnesses>
-    </header>
-    <div id="body">
-      <div id="atvda-librum1" type="dalibrum" subtype="dalibrum1">
-        <head>Liber I</head>
-      	<item id="atvda-l1q1" type="quaestio">
-      		<fileName filestem="atvda-l1q1"/>
-          <title>Liber I, Quaestio 1</title>
-          <questionTitle>Utrum ex nobilitate et perfectione subiecti adaequati formaliter sumpti arguatur de necessitate nobilitas et perfectio habitus scientifici?</questionTitle>
-      		<hasWitnesses>
-      			<witness ref="#V">
-      			</witness>
-      		</hasWitnesses>
-      	</item>
-      	<item id="atvda-l1q1" type="quaestio">
-      		<fileName filestem="atvda-l1q1"/>
-      		<title>Liber I, Quaestio 1</title>
-      		<questionTitle>Utrum ex nobilitate et perfectione subiecti adaequati formaliter sumpti arguatur de necessitate nobilitas et perfectio habitus scientifici?</questionTitle>
-      		<hasWitnesses>
-      			<witness ref="#V">
-      			</witness>
-      		</hasWitnesses>
-      	</item>
-      	<item id="atvda-l1q2" type="quaestio">
-      		<fileName filestem="atvda-l1q2"/>
-      		<title>Liber I, Quaestio 2</title>
-      		<questionTitle>Utrum anima sit subiectum in hoc libro</questionTitle>
-      		<hasWitnesses>
-      			<witness ref="#V">
-      			</witness>
-      		</hasWitnesses>
-      	</item>
-      	<item id="atvda-l1q3" type="quaestio">
-      		<fileName filestem="atvda-l1q3"/>
-      		<title>Liber I, Quaestio 3</title>
-      		<questionTitle>Utrum universale sit verum ens reale habens esse praeter operationem intellectus vel sit tantum 
-      		ens rationis, habens esse tantum per operationem intellectus?</questionTitle>
-      		<hasWitnesses>
-      			<witness ref="#V">
-      			</witness>
-      		</hasWitnesses>
-      	</item>
-      </div>
-    	<div id="atvda-librum2" type="dalibrum" subtype="dalibrum2">
-    		<head>Liber I</head>
-    		<item id="atvda-l2q1" type="quaestio">
-    			<fileName filestem="atvda-l2q1"/>
-    			<title>Liber II, Quaestio 1</title>
-    			<questionTitle>Utrum anima intellectiva sit forma corporis humani</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l2q2" type="quaestio">
-    			<fileName filestem="atvda-l2q2"/>
-    			<title>Liber II, Quaestio 2</title>
-    			<questionTitle>Utrum anima intellectiva coniuncta corpori, extendatur extensione corporis?</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l2q3" type="quaestio">
-    			<fileName filestem="atvda-l2q3"/>
-    			<title>Liber II, Quaestio 3</title>
-    			<questionTitle>Utrum anima intellectiva distinguatur 
-    				realiter a suis potentiis</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l2q4" type="quaestio">
-    			<fileName filestem="atvda-l2q4"/>
-    			<title>Liber II, Quaestio 4</title>
-    			<questionTitle>Utrum potentiae animae distinguantur inter se realiter?</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l2q5" type="quaestio">
-    			<fileName filestem="atvda-l2q5"/>
-    			<title>Liber II, Quaestio 5</title>
-    			<questionTitle>Utrum potentiae originentur ab anima</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l2q6" type="quaestio">
-    			<fileName filestem="atvda-l2q6"/>
-    			<title>Liber II, Quaestio 6</title>
-    			<questionTitle>Utrum sensus sit susceptivus specierum secundum materiam?</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    	</div>
-    	<div id="atvda-librum3" type="dalibrum" subtype="dalibrum3">
-    		<head>Liber I</head>
-    		<item id="atvda-l3q1" type="quaestio">
-    			<fileName filestem="atvda-l3q1"/>
-    			<title>Liber III, Quaestio 1</title>
-    			<questionTitle>Utrum primo cognitionem ab intellectu nostro sit aliquod universale</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l3q2" type="quaestio">
-    			<fileName filestem="atvda-l3q2"/>
-    			<title>Liber III, Quaestio 2</title>
-    			<questionTitle>Utrum intellectus agens sit totalis causa effectiva actus intelligendi</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    		<item id="atvda-l3q3" type="quaestio">
-    			<fileName filestem="atvda-l3q3"/>
-    			<title>Liber III, Quaestio 3</title>
-    			<questionTitle>Utrum intellectus sit nobilior potentia quam voluntas, vel econverso</questionTitle>
-    			<hasWitnesses>
-    				<witness ref="#V">
-    				</witness>
-    			</hasWitnesses>
-    		</item>
-    	</div>
-    </div>    
+  <header>
+    <authorName>Alphonsus Toletanus Vargas</authorName>
+    <commentaryName>Alphonsus Toletanus Vargas De Anima Commentary</commentaryName>
+    <commentaryid>vargasdeanima</commentaryid>
+    <commentaryslug>atvda</commentaryslug>
+    <authorUri>http://scta.info/resource/AlphonsusVargas</authorUri>
+    <parentUri>http://scta.info/resource/vargasdeanima</parentUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vargasdeanima/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource>Venice 1566 edition</questionListSource>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses> 
+      <witness id="V">
+        <slug>Venice1566</slug>
+        <title>Venice, 1566</title>
+        <initial>V</initial>
+      </witness>
+    </hasWitnesses>
+    <rcsid/>
+  </header>
+  <div id="body">
+    <div id="atvda-librum1" type="dalibrum" subtype="dalibrum1">
+      <head>Liber I</head>
+      <item id="atvda-l1q1" type="quaestio">
+        <fileName filestem="atvda-l1q1"/>
+        <title>Liber I, Quaestio 1</title>
+        <questionTitle>Utrum ex nobilitate et perfectione subiecti adaequati formaliter sumpti
+          arguatur de necessitate nobilitas et perfectio habitus scientifici?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l1q1" type="quaestio">
+        <fileName filestem="atvda-l1q1"/>
+        <title>Liber I, Quaestio 1</title>
+        <questionTitle>Utrum ex nobilitate et perfectione subiecti adaequati formaliter sumpti
+          arguatur de necessitate nobilitas et perfectio habitus scientifici?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l1q2" type="quaestio">
+        <fileName filestem="atvda-l1q2"/>
+        <title>Liber I, Quaestio 2</title>
+        <questionTitle>Utrum anima sit subiectum in hoc libro</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l1q3" type="quaestio">
+        <fileName filestem="atvda-l1q3"/>
+        <title>Liber I, Quaestio 3</title>
+        <questionTitle>Utrum universale sit verum ens reale habens esse praeter operationem
+          intellectus vel sit tantum ens rationis, habens esse tantum per operationem
+          intellectus?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+    </div>
+    <div id="atvda-librum2" type="dalibrum" subtype="dalibrum2">
+      <head>Liber I</head>
+      <item id="atvda-l2q1" type="quaestio">
+        <fileName filestem="atvda-l2q1"/>
+        <title>Liber II, Quaestio 1</title>
+        <questionTitle>Utrum anima intellectiva sit forma corporis humani</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l2q2" type="quaestio">
+        <fileName filestem="atvda-l2q2"/>
+        <title>Liber II, Quaestio 2</title>
+        <questionTitle>Utrum anima intellectiva coniuncta corpori, extendatur extensione
+          corporis?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l2q3" type="quaestio">
+        <fileName filestem="atvda-l2q3"/>
+        <title>Liber II, Quaestio 3</title>
+        <questionTitle>Utrum anima intellectiva distinguatur realiter a suis
+          potentiis</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l2q4" type="quaestio">
+        <fileName filestem="atvda-l2q4"/>
+        <title>Liber II, Quaestio 4</title>
+        <questionTitle>Utrum potentiae animae distinguantur inter se realiter?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l2q5" type="quaestio">
+        <fileName filestem="atvda-l2q5"/>
+        <title>Liber II, Quaestio 5</title>
+        <questionTitle>Utrum potentiae originentur ab anima</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l2q6" type="quaestio">
+        <fileName filestem="atvda-l2q6"/>
+        <title>Liber II, Quaestio 6</title>
+        <questionTitle>Utrum sensus sit susceptivus specierum secundum materiam?</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+    </div>
+    <div id="atvda-librum3" type="dalibrum" subtype="dalibrum3">
+      <head>Liber I</head>
+      <item id="atvda-l3q1" type="quaestio">
+        <fileName filestem="atvda-l3q1"/>
+        <title>Liber III, Quaestio 1</title>
+        <questionTitle>Utrum primo cognitionem ab intellectu nostro sit aliquod
+          universale</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l3q2" type="quaestio">
+        <fileName filestem="atvda-l3q2"/>
+        <title>Liber III, Quaestio 2</title>
+        <questionTitle>Utrum intellectus agens sit totalis causa effectiva actus
+          intelligendi</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+      <item id="atvda-l3q3" type="quaestio">
+        <fileName filestem="atvda-l3q3"/>
+        <title>Liber III, Quaestio 3</title>
+        <questionTitle>Utrum intellectus sit nobilior potentia quam voluntas, vel
+          econverso</questionTitle>
+        <hasWitnesses> <witness ref="#V"> </witness> </hasWitnesses>
+      </item>
+    </div>
+  </div>
 </listofFileNames>
-
-

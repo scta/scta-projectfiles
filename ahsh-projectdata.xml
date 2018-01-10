@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Alexander de Hales</authorName>
@@ -14,6 +15,7 @@
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <description>The Summa Halensis by Alexander of Hales</description>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <sponsors>
       <sponsor id="early-franciscans">
         <name>ERC Project 714427: Authority and Innovation in Early Franciscan Thought</name>
@@ -21,7 +23,6 @@
         <link>http://lydiaschumacher.wixsite.com/earlyfranciscans</link>
       </sponsor>
     </sponsors>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="Q">
         <slug>quaracchi1924</slug>
@@ -2189,7 +2190,7 @@
               <questionTitle>De scientia divina absolute spectata</questionTitle>
               <div id="ahsh-l1p1i1t5s1q1">
                 <head>I, P. 1, Inq. 1, Tract. 5, Sect. 1, Q. 1</head>
-                <questionList>De natura et conditionibus scientiae divinae</questionList>
+                <questionTitle>De natura et conditionibus scientiae divinae</questionTitle>
                 <item>
                   <fileName filestem="ahsh-l1p1i1t5s1q1prae"/>
                   <title>I, P. 1, Inq. 1, Tract. 5, Sect. 1, Q. 1, Praeambulum</title>
@@ -2449,8 +2450,8 @@
               <questionTitle>DE SCIENTIA DEI RELATIVE SPECTATA.</questionTitle>
               <div id="ahsh-l1p1i1t5s2q1">
                 <head>Quaestio 1</head>
-                <questionList>De scientia Dei relate ad futura sen de praescientia
-                  divina.</questionList>
+                <questionTitle>De scientia Dei relate ad futura sen de praescientia
+                  divina.</questionTitle>
                 <item>
                   <fileName filestem="ahsh-l1p1i1t5s2q1prae"/>
                   <title>I, P. 1, Inq. 1, Tract. 5, Sect. 2, Q. 1, Praeambulum</title>
@@ -2543,8 +2544,8 @@
               </div>
               <div id="ahsh-l1p1i1t5s2q2">
                 <head>I, P. 1, Inq. 1, Tract. 5, Sect. 2, Q. 2</head>
-                <questionList>De scientia Dei relate ad facienda seu de dispositione
-                  divina</questionList>
+                <questionTitle>De scientia Dei relate ad facienda seu de dispositione
+                  divina</questionTitle>
                 <item>
                   <fileName filestem="ahsh-l1p1i1t5s2q2prae"/>
                   <title>I, P. 1, Inq. 1, Tract. 5, Sect. 2, Q. 2, Praeambulum</title>
@@ -2613,7 +2614,7 @@
               </div>
               <div id="ahsh-l1p1i1t5s2q3">
                 <head>Quaestio 3</head>
-                <questionList>De scientia Dei relate ad regenda</questionList>
+                <questionTitle>De scientia Dei relate ad regenda</questionTitle>
                 <div id="ahsh-l1p1i1t5s2q3t1">
                   <head>Tit. 1</head>
                   <questionTitle>De providentia divina</questionTitle>
@@ -2808,7 +2809,7 @@
               </div>
               <div id="ahsh-l1p1i1t5s2q4">
                 <head>Quaestio 4</head>
-                <questionList>De scientia Dei relate ad salvanda.</questionList>
+                <questionTitle>De scientia Dei relate ad salvanda.</questionTitle>
                 <div id="ahsh-l1p1i1t5s2q4t1">
                   <head>Tit. 1</head>
                   <questionTitle>De praedestinatione divina.</questionTitle>
@@ -3378,7 +3379,7 @@
                   </div>
                   <item id="ahsh-l1p1i1t5s2q4t5m2">
                     <fileName filestem="ahsh-l1p1i1t5s2q4t5m2"/>
-                    <head>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 2</head>
+                    <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 2</title>
                     <questionTitle>Quid dicatur liber vitae</questionTitle>
                     <hasWitnesses>
                       <witness ref="#Q">
@@ -3511,7 +3512,7 @@
             <questionTitle>De voluntate divina</questionTitle>
             <div id="ahsh-l1p1i1t6q1">
               <head>Quaestio 1</head>
-              <questionList>De intentione voluntatis divinae</questionList>
+              <questionTitle>De intentione voluntatis divinae</questionTitle>
               <item>
                 <fileName filestem="ahsh-l1p1i1t6q1prae"/>
                 <title>I, P. 1, Inq. 1, Tract. 6, Q. 1, Praeambulum</title>
@@ -3556,7 +3557,7 @@
             </div>
             <div id="ahsh-l1p1i1t6q2">
               <head>Quaestio 2</head>
-              <questionList>De causalitate voluntatis divinae</questionList>
+              <questionTitle>De causalitate voluntatis divinae</questionTitle>
               <item>
                 <fileName filestem="ahsh-l1p1i1t6q2prae"/>
                 <title>I, P. 1, Inq. 1, Tract. 6, Q. 2, Praeambulum</title>
@@ -3605,7 +3606,7 @@
             </div>
             <div id="ahsh-l1p1i1t6q3">
               <head>I, P. 1, Inq. 1, Tract. 6, Q. 3</head>
-              <questionList>De differentiis voluntatis divinae</questionList>
+              <questionTitle>De differentiis voluntatis divinae</questionTitle>
               <item>
                 <fileName filestem="ahsh-l1p1i1t6q3prae"/>
                 <title>I, P. 1, Inq. 1, Tract. 6, Q. 3, Praeambulum</title>
@@ -3728,7 +3729,7 @@
             </div>
             <div id="ahsh-l1p1i1t6q4">
               <head>Quaestio 4</head>
-              <questionList>De subiectis voluntati divinae</questionList>
+              <questionTitle>De subiectis voluntati divinae</questionTitle>
               <item id="ahsh-l1p1i1t6q4prae">
                 <fileName filestem="ahsh-l1p1i1t6q4prae"/>
                 <title>I, P. 1, Inq. 1, Tract. 6, Q. 4, Praeambulum</title>
@@ -3789,7 +3790,7 @@
             </item>
             <div id="ahsh-l1p1i1t6q6">
               <head>Quaestio 6</head>
-              <questionList>De conformatione humanae voluntatis ad divinam</questionList>
+              <questionTitle>De conformatione humanae voluntatis ad divinam</questionTitle>
               <item>
                 <fileName filestem="ahsh-l1p1i1t6q6prae"/>
                 <title>I, P. 1, Inq. 1, Tract. 6, Q. 6, Praeambulum</title>
@@ -5534,7 +5535,6 @@
                       </witness>
                     </hasWitnesses>
                   </item>
-                  <questionTitle>De nomine 'Spiritus'</questionTitle>
                   <item>
                     <fileName filestem="ahsh-l1p2i2t2s1q2m6c1"/>
                     <title>I, P. 2, Inq. 2, Tract. 2, Sect. 1, Q. 2, M. 6, c. 1</title>
@@ -9261,7 +9261,9 @@
                             Praeambulum</title>
                           <questionTitle/>
                           <hasWitnesses>
-                            <witness ref="#Qb"> <folio>279</folio>> </witness>
+                            <witness ref="#Qb"> 
+                              <folio>279</folio> 
+                            </witness>
                           </hasWitnesses>
                         </item>
                         <item id="ahsh-l2Ai2t3s2q3t3m1c1">
@@ -12293,7 +12295,9 @@
                         <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, Praeambulum</title>
                         <questionTitle/>
                         <hasWitnesses>
-                          <witness ref="#Qb"> <folio>645</folio>> </witness>
+                          <witness ref="#Qb">
+                            <folio>645</folio>
+                          </witness>
                         </hasWitnesses>
                       </item>
                       <div id="ahsh-l2Ai4t3q1t2d1m1">

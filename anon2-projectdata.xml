@@ -1,982 +1,922 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-	<header>
-		<authorName>Anonymous</authorName>
-		<commentaryName>Anonymous 2 De Anima Commentary</commentaryName>
-		<commentaryid>anon2deanima</commentaryid>
-		<commentaryslug>anon2</commentaryslug>
-		<authorUri></authorUri>
-		<!-- parentUri actually means the Uri of the commentary expression -->
-		<parentUri>http://scta.info/resource/anon2deanima</parentUri>
-		<!-- parentWork group actually means the id of the workgroup that the commentary is a part of -->
-		<parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-		<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anon2deanima/</textfilesdir>
-		<webbase>null</webbase>
-		<questionListSource></questionListSource>
-		<questionListOriginalEditor>Witt</questionListOriginalEditor>
-		<questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-		<!-- possible metadata should go here or be added elsewhere 
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Anonymous 2 De Anima Commentary</commentaryName>
+    <commentaryid>anon2deanima</commentaryid>
+    <commentaryslug>anon2</commentaryslug>
+    <authorUri/>
+    <!-- parentUri actually means the Uri of the commentary expression -->
+    <parentUri>http://scta.info/resource/anon2deanima</parentUri>
+    <!-- parentWork group actually means the id of the workgroup that the commentary is a part of -->
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anon2deanima/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource/>
+    <questionListOriginalEditor>Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <!-- possible metadata should go here or be added elsewhere 
   		from this manuscript it appears that this work was written/published in 1621
   		See Lohr, Latin Aristotle Commentaries, volume 2, p. 258 
   	-->
-		<hasWitnesses>
-			<witness id="P">
-				<slug>penn769</slug>
-				<title>Philadelphia, University of Pennyslvania, ms. codex 769</title>
-				<initial>P</initial>
-			</witness>
-		</hasWitnesses>
-	</header>
-	<div id="body" xml:lang="la">
-		<div id="anon2-librum1">
-			<head>Liber 1</head>
-			<item id="pam-l1prooemium">
-				<fileName filestem="pam-l1prooemium"/>
-				<title>Liber 1, Prooemium</title>
-				<questionTitle>Universa synopsis librorum Aristotelis de anima</questionTitle>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>1r</folio> <!-- using modern pencil numbering; not old ink numering -->
-						<folio>1v</folio>
-						<folio>2r</folio>
-						<folio>2v</folio>
-						<folio>3r</folio>
-						<folio>3v</folio>
-						<folio>4r</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-			<div id="anon2-l1d1">
-				<head>Liber 1, Disputatio 1</head>
-				<questionTitle>De animae natura</questionTitle>
-				<item id="anon2-l1d1c1"> <!-- actually says part 1, but following parallel sections are called chapters -->
-					<fileName filestem="anon2-l1d1c1"/>
-					<title>Liber 1, Disputatio 1, Capitulus 1</title>
-					<questionTitle>De prima definitione anima ab Aristotele tradita</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>4r</folio>
-							<folio>4v</folio>
-							<folio>5r</folio>
-							<folio>5v</folio>
-							<folio>6r</folio>
-							<folio>6v</folio>
-							<folio>7r</folio>
-							<folio>7v</folio>
-							<folio>8r</folio>
-							<folio>8v</folio>
-							<folio>9r</folio>
-							<folio>9v</folio>
-							<folio>10r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l1d1c2"> 
-					<fileName filestem="anon2-l1d1c2"/>
-					<title>Liber 1, Disputatio 1, Capitulus 2</title>
-					<questionTitle>De secunda definitione animae et collatione eius <unclear>?</unclear> prima</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>10r</folio>
-							<folio>10v</folio>
-							<folio>11r</folio>
-							<folio>11v</folio>
-							<folio>12r</folio>
-							<folio>12v</folio>
-							<folio>13r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l1d2">
-				<head>Liber 1, Disputatio 2</head>
-				<questionTitle>De subiecto animae</questionTitle>
-				<item id="anon2-l1d2c1">
-					<fileName filestem="anon2-l1d2c1"/>
-					<title>Liber 1, Disputatio 2, Capitulus 1</title>
-					<questionTitle>Quas <unclear>pastei?s</unclear> corporis informet anima</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>13r</folio>
-							<folio>13v</folio>
-							<folio>14r</folio>
-							<folio>14v</folio>
-							<folio>15r</folio>
-							<folio>15v</folio>
-							<folio>16r</folio>
-							<folio>16v</folio>
-							<folio>17r</folio>
-							<folio>17v</folio>
-							<folio>18r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l1d2c2">
-					<fileName filestem="anon2-l1d2c2"/>
-					<title>Liber 1, Disputatio 2, Capitulus 2</title>
-					<questionTitle>Quomodo materia accipiat anima</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>18r</folio>
-							<folio>18v</folio>
-							<folio>19r</folio>
-							<folio>19v</folio>
-							<folio>20r</folio>
-							<folio>20v</folio>
-							<folio>21r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l1d3"> 
-				<head>Liber 1, Disputatio 3</head> <!-- miss marked at disputation 2 -->
-				<questionTitle>De variis anima divisionibus</questionTitle>
-				<item id="anon2-l1d3c1">
-					<fileName filestem="anon2-l1d3c1"/>
-					<title>Liber 1, Disputatio 3, Capitulus 1</title>
-					<questionTitle>De diversis speciebus animarum quomodo <unclear>dispesuitur</unclear> 
-						et quomodo <unclear>ibidem</unclear> contineantur <unclear>in</unclear> aliis 
-						<unclear>aliae</unclear></questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>21r</folio>
-							<folio>21v</folio>
-							<folio>22r</folio>
-							<folio>22v</folio>
-							<folio>23r</folio>
-							<folio>23v</folio>
-							<folio>24r</folio>
-							<folio>24v</folio>
-							<folio>25r</folio>
-							<folio>25v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l1d3c2">
-					<fileName filestem="anon2-l1d3c2"/>
-					<title>Liber 1, Disputatio 3, Capitulus 2</title>
-					<questionTitle>De animae divisione ratione <unclear>extensiones <!-- case a bit unclear; hard to translate as is --></unclear></questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>25v</folio>
-							<folio>26r</folio>
-							<folio>26v</folio>
-							<folio>27r</folio>
-							<folio>27v</folio>
-							<folio>28r</folio>
-							<folio>28v</folio>
-							<folio>29r</folio>
-							<folio>29v</folio>
-							<folio>30r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l1d4"> 
-				<head>Liber 1, Disputatio 4</head> <!-- miss marked at disputation 2 -->
-				<questionTitle>De potentiis animae universae</questionTitle>
-				<item id="anon2-l1d4c1">
-					<fileName filestem="anon2-l1d4c1"/>
-					<title>Liber 1, Disputatio 4, Capitulus 1</title>
-					<questionTitle>De <unclear>notionibus</unclear> ac discriminibus specificus potentiarum animae</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>30v</folio>
-							<folio>31r</folio>
-							<folio>31v</folio>
-							<folio>32r</folio>
-							<folio>32v</folio>
-							<folio>33r</folio>
-							<folio>33v</folio>
-							<folio>34r</folio>
-							<folio>34v</folio>
-							<folio>35r</folio>
-							<folio>35v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l1d4c2">
-					<fileName filestem="anon2-l1d4c2"/>
-					<title>Liber 1, Disputatio 4, Capitulus 2</title>
-					<questionTitle>De <unclear>notionibus</unclear> ac discriminibus specificus potentiarum animae</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>35v</folio>
-							<folio>36r</folio>
-							<folio>36v</folio>
-							<folio>37r</folio>
-							<folio>37v</folio>
-							<folio>38r</folio>
-							<folio>38v</folio>
-							<folio>39r</folio>
-							<folio>39v</folio>
-							<folio>40r</folio>
-							<folio>40v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-		</div>
-		<div id="anon2-librum2">
-			<head>Liber 2</head>
-			<item id="pam-l2prooemium">
-				<fileName filestem="pam-l2prooemium"/>
-				<title>Liber 2, Prooemium</title>
-				<questionTitle>De anima vegetante praefatio</questionTitle>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>40v</folio>
-						<folio>41r</folio>
-						<folio>41v</folio>
-						<folio>42r</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-			<div id="anon2-l2d1">
-				<head>Liber 2, Disputatio 1</head>
-				<questionTitle>De vita</questionTitle>
-				<item id="anon2-l2d1c1"> 
-					<fileName filestem="anon2-l2d1c1"/>
-					<title>Liber 2, Disputatio 1, Capitulus 1</title>
-					<questionTitle>Quid sit vita</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>42r</folio>
-							<folio>42v</folio>
-							<folio>43r</folio>
-							<folio>43v</folio>
-							<folio>44r</folio>
-							<folio>44v</folio>
-							<folio>45r</folio>
-							<folio>46v</folio>
-							<folio>46r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d1c2"> 
-					<fileName filestem="anon2-l2d1c2"/>
-					<title>Liber 2, Disputatio 1, Capitulus 2</title>
-					<questionTitle>De virtute <unclear>osmatrice</unclear></questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>46r</folio>
-							<folio>46v</folio>
-							<folio>47r</folio>
-							<folio>47v</folio>
-							<folio>48r</folio>
-							<folio>48v</folio>
-							<folio>49r</folio>
-							<folio>49v</folio>
-							<folio>50r</folio>
-							<folio>50v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d1c3"> 
-					<fileName filestem="anon2-l2d1c3"/>
-					<title>Liber 2, Disputatio 1, Capitulus 3</title>
-					<questionTitle>De variis viventium affectionibus pro ut viventia sunt</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>50v</folio>
-							<folio>51r</folio>
-							<folio>51v</folio>
-							<folio>52r</folio>
-							<folio>52v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l2d2">
-				<head>Liber 2, Disputatio 2</head>
-				<questionTitle>De viventium generatione</questionTitle>
-				<item id="anon2-l2d2c1"> 
-					<fileName filestem="anon2-l2d2c1"/>
-					<title>Liber 2, Disputatio 2, Capitulus 1</title>
-					<questionTitle>Quid concurrat ad generationem viventium</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>53r</folio>
-							<folio>53v</folio>
-							<folio>54r</folio>
-							<folio>54v</folio>
-							<folio>55r</folio>
-							<folio>55v</folio>
-							<folio>56r</folio>
-							<folio>56v</folio>
-							<folio>57r</folio>
-							<folio>57v</folio>
-							<folio>58r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d2c2"> 
-					<fileName filestem="anon2-l2d2c2"/>
-					<title>Liber 2, Disputatio 2, Capitulus 2</title>
-					<questionTitle>De formatione foetus</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>58r</folio>
-							<folio>58v</folio>
-							<folio>59r</folio>
-							<folio>59v</folio>
-							<folio>60r</folio>
-							<folio>60v</folio>
-							<folio>61r</folio>
-							<folio>61v</folio>
-							<folio>62r</folio>
-							<folio>62v</folio>
-							<folio>63r</folio>
-							<folio>63v</folio>
-							<folio>64r</folio>
-							<folio>64v</folio>
-							<folio>65r</folio>
-							<folio>65v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d2c3"> 
-					<fileName filestem="anon2-l2d2c3"/>
-					<title>Liber 2, Disputatio 2, Capitulus 3</title>
-					<questionTitle>De caeteris foetuum affectionibus et partuum consectariis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>65v</folio>
-							<folio>66r</folio>
-							<folio>66v</folio>
-							<folio>67r</folio>
-							<folio>67v</folio>
-							<folio>68v</folio>
-							<folio>68r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l2d3">
-				<head>Liber 2, Disputatio 3</head>
-				<questionTitle>De Nutritione et Augmentatione</questionTitle>
-				<item id="anon2-l2d3c1"> 
-					<fileName filestem="anon2-l2d3c1"/>
-					<title>Liber 2, Disputatio 3, Capitulus 1</title>
-					<questionTitle>De harum actionum et <unclear>ptem</unclear> a quibus oriuntur differentiis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>68r</folio>
-							<folio>68v</folio>
-							<folio>69r</folio>
-							<folio>69v</folio>
-							<folio>70r</folio>
-							<folio>70v</folio>
-							<folio>71r</folio>
-							<folio>71v</folio>
-							<folio>72r</folio>
-							<folio>72v</folio>
-							<folio>73r</folio>
-							<folio>73v</folio>
-							<folio>74r</folio>
-							<folio>74v</folio>
-							<folio>75r</folio>
-							<folio>75v</folio>
-							<folio>76r</folio>
-							<folio>76v</folio>
-							<folio>77r</folio>
-							<folio>77v</folio>
-							<folio>78r</folio>
-							<folio>78v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d3c2"> 
-					<fileName filestem="anon2-l2d3c2"/>
-					<title>Liber 2, Disputatio 3, Capitulus 2</title>
-					<questionTitle>De iis quae vitae serviunt</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>78v</folio>
-							<folio>79r</folio>
-							<folio>79v</folio>
-							<folio>80r</folio>
-							<folio>80v</folio>
-							<folio>81r</folio>
-							<folio>81v</folio>
-							<folio>82r</folio>
-							<folio>82v</folio>
-							<folio>83r</folio>
-							<folio>83v</folio>
-							<folio>84r</folio>
-							<folio>84v</folio>
-							<folio>85r</folio>
-							<folio>85v</folio>
-							<folio>86r</folio>
-							<folio>86v</folio>
-							<folio>87r</folio>
-							<folio>87v</folio>
-							<folio>88r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l2d3census"> 
-					<fileName filestem="anon2-l2d3census"/>
-					<title>Liber 2, Disputatio 3, Census</title>
-					<questionTitle><unclear>Pastium</unclear> humani corporis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>88r</folio>
-							<folio>88v</folio>
-							<folio>89r</folio>
-							<folio>89v</folio>
-							<folio>90r</folio>
-							<folio>90v</folio>
-							<folio>91r</folio>
-							<folio>91v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-		</div>
-		<div id="anon2-librum3">
-			<head>Liber 3</head>
-			<item id="pam-l3prooemium">
-				<fileName filestem="pam-l3prooemium"/>
-				<title>Liber 3, Prooemium</title>
-				<questionTitle>De anima sentiente praefatio</questionTitle>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>91v</folio>
-						<folio>92r</folio>
-						<folio>92v</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-			<div id="anon2-l3d1">
-				<head>Liber 3, Disputatio 1</head>
-				<questionTitle>De sensibus in genere</questionTitle>
-				<item id="anon2-l3d1c1"> 
-					<fileName filestem="anon2-l3d1c1"/>
-					<title>Liber 3, Disputatio 1, Capitulus 1</title>
-					<questionTitle>Quid sit sensus</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>92v</folio>
-							<folio>93r</folio>
-							<folio>94r</folio>
-							<folio>94v</folio>
-							<folio>95r</folio>
-							<folio>95v</folio>
-							<folio>96r</folio>
-							<folio>96v</folio>
-							<folio>97r</folio>
-							<folio>97v</folio>
-							<folio>98r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d1c2"> 
-					<fileName filestem="anon2-l3d1c2"/>
-					<title>Liber 3, Disputatio 1, Capitulus 2</title>
-					<questionTitle>De numero sensuum</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>98r</folio>
-							<folio>98v</folio>
-							<folio>99r</folio>
-							<folio>99v</folio>
-							<folio>100r</folio>
-							<folio>100v</folio>
-							<folio>101r</folio>
-							<folio>101v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d1c3"> 
-					<fileName filestem="anon2-l3d1c3"/>
-					<title>Liber 3, Disputatio 1, Capitulus 3</title>
-					<questionTitle>De auxiliis sensus</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>101v</folio>
-							<folio>102r</folio>
-							<folio>102v</folio>
-							<folio>103r</folio>
-							<folio>103v</folio>
-							<folio>104r</folio>
-							<folio>104v</folio>
-							<folio>105r</folio>
-							<folio>105v</folio>
-							<folio>106r</folio>
-							<folio>106v</folio>
-							<folio>107r</folio>
-							<folio>107v</folio>
-							<folio>108r</folio>
-							<folio>108v</folio>
-							<folio>109r</folio>
-							<folio>109v</folio>
-							<folio>110r</folio>
-							<folio>110v</folio>
-							<folio>111r</folio>
-							<folio>111v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d1c4"> 
-					<fileName filestem="anon2-l3d1c4"/>
-					<title>Liber 3, Disputatio 1, Capitulus 4</title>
-					<questionTitle>De impedimentis sensationis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>111v</folio>
-							<folio>112r</folio>
-							<folio>112v</folio>
-							<folio>113r</folio>
-							<folio>113v</folio>
-							<folio>114r</folio>
-							<folio>114v</folio>
-							<folio>115r</folio>
-							<folio>115v</folio>
-							<folio>116r</folio>
-							<folio>116v</folio>
-							<folio>117r</folio>
-							<folio>117v</folio>
-							<folio>118r</folio>
-							<folio>118v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l3d2">
-				<head>Liber 3, Disputatio 2</head>
-				<questionTitle>De singulis sensibus externis</questionTitle>
-				<item id="anon2-l3d2c1"> 
-					<fileName filestem="anon2-l3d2c1"/>
-					<title>Liber 3, Disputatio 2, Capitulus 1</title> <!-- title says: pars 1, cap 1; but there's no evidence of a part 2 group chapters -->
-					<questionTitle>De visu</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>118v</folio>
-							<folio>119r</folio>
-							<folio>119v</folio>
-							<folio>120r</folio>
-							<folio>120v</folio>
-							<folio>121r</folio>
-							<folio>121v</folio>
-							<folio>122r</folio>
-							<folio>122v</folio>
-							<folio>123r</folio>
-							<folio>123v</folio>
-							<folio>124r</folio>
-							<folio>124v</folio>
-							<folio>125r</folio>
-							<folio>125v</folio>
-							<folio>126r</folio>
-							<folio>126v</folio>
-							<folio>127r</folio>
-							<folio>127v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d2c2"> 
-					<fileName filestem="anon2-l3d2c2"/>
-					<title>Liber 3, Disputatio 2, Capitulus 2</title>
-					<questionTitle>De auditu</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>127v</folio>
-							<folio>128r</folio>
-							<folio>128v</folio>
-							<folio>129r</folio>
-							<folio>129v</folio>
-							<folio>130r</folio>
-							<folio>130v</folio>
-							<folio>131r</folio>
-							<folio>131v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d2c3"> 
-					<fileName filestem="anon2-l3d2c3"/>
-					<title>Liber 3, Disputatio 2, Capitulus 3</title>
-					<questionTitle>De olfactu, gustatu, et tactu</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>131v</folio>
-							<folio>132r</folio>
-							<folio>132v</folio>
-							<folio>133r</folio>
-							<folio>133v</folio>
-							<folio>134r</folio>
-							<folio>134v</folio>
-							<folio>135r</folio>
-							<folio>135v</folio>
-							<folio>136r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l3d3">
-				<head>Liber 3, Disputatio 3</head> <!-- number of disputation is actually left blank in header -->
-				<questionTitle>De singulis sensibus internis</questionTitle>
-				<item id="anon2-l3d3c1"> 
-					<fileName filestem="anon2-l3d3c1"/>
-					<title>Liber 3, Disputatio 3, Capitulus 1</title> 
-					<questionTitle>De phantasia</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>136r</folio>
-							<folio>136v</folio>
-							<folio>137r</folio>
-							<folio>137v</folio>
-							<folio>138r</folio>
-							<folio>138v</folio>
-							<folio>139r</folio>
-							<folio>139v</folio>
-							<folio>140r</folio>
-							<folio>140v</folio>
-							<folio>141r</folio>
-							<folio>141v</folio>
-							<folio>142r</folio>
-							<folio>142v</folio>
-							<folio>143r</folio>
-							<folio>143v</folio>
-							<folio>144r</folio>
-							<folio>144v</folio>
-							<folio>145r</folio>
-							<folio>145v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l3d3c2"> 
-					<fileName filestem="anon2-l3d3c2"/>
-					<title>Liber 3, Disputatio 3, Capitulus 2</title> 
-					<questionTitle>De virtute sentientis anima appetitiva et notitiae</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>145v</folio>
-							<folio>146r</folio>
-							<folio>146v</folio>
-							<folio>147r</folio>
-							<folio>147v</folio>
-							<folio>148r</folio>
-							<folio>148v</folio>
-							<folio>149r</folio>
-							<folio>149v</folio>
-							<folio>150r</folio>
-							<folio>150v</folio>
-							<folio>151r</folio>
-							<folio>151v</folio>
-							<folio>152r</folio>
-							<folio>152v</folio>
-							<folio>153r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-		</div>
-		<div id="anon2-librum4">
-			<head>Liber 4</head>
-			<item id="pam-l4prooemium"> <!-- blank header for the start of book 4 -->
-				<fileName filestem="pam-l4prooemium"/>
-				<title>Liber 4, Prooemium</title>
-				<questionTitle/>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>153r</folio>
-						<folio>153v</folio>
-						<folio>154r</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-			<div id="anon2-l4d1">
-				<head>Liber 4, Disputatio 1</head>
-				<questionTitle>De natura rationalis <unclear>animae <!-- header actually seems to read "anima" but this seems wrong --></unclear></questionTitle>
-				<item id="anon2-l4d1c1"> 
-					<fileName filestem="anon2-l4d1c1"/>
-					<title>Liber 4, Disputatio 1, Capitulus 1</title>
-					<questionTitle>De animae rationalis origine</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>154v</folio>
-							<folio>155r</folio>
-							<folio>155v</folio>
-							<folio>156r</folio>
-							<folio>156v</folio>
-							<folio>157r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d1c2"> 
-					<fileName filestem="anon2-l4d1c2"/>
-					<title>Liber 4, Disputatio 1, Capitulus 2</title>
-					<questionTitle>Possitne demonstrari animam rationalem esse immortalem</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>157v</folio>
-							<folio>158r</folio>
-							<folio>158v</folio>
-							<folio>159r</folio>
-							<folio>159v</folio>
-							<folio>160r</folio>
-							<folio>160v</folio>
-							<folio>161r</folio>
-							<folio>161v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d1c3"> 
-					<fileName filestem="anon2-l4d1c3"/>
-					<title>Liber 4, Disputatio 1, Capitulus 3</title>
-					<questionTitle>Demonstrationes quibus probetur animae rationalis immortalitas</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">161v</witness>
-						<witness ref="#P">162r</witness>
-						<witness ref="#P">162v</witness>
-						<witness ref="#P">163r</witness>
-						<witness ref="#P">163v</witness>
-						<witness ref="#P">164r</witness>
-						<witness ref="#P">164v</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d1c4"> 
-					<fileName filestem="anon2-l4d1c4"/>
-					<title>Liber 4, Disputatio 1, Capitulus 4</title>
-					<questionTitle>Demonstrationes morales de anima rationalis immortalitate</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">164v</witness>
-						<witness ref="#P">165r</witness>
-						<witness ref="#P">165v</witness>
-						<witness ref="#P">166r</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l4d2">
-				<head>Liber 4, Disputatio 2</head>
-				<questionTitle>De potentiis et actionibus animae rationalis</questionTitle>
-				<item id="anon2-l4d2c1"> 
-					<fileName filestem="anon2-l4d2c1"/>
-					<title>Liber 4, Disputatio 2, Capitulus 1</title>
-					<questionTitle>De intellectione animae rationalis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>166r</folio>
-							<folio>166v</folio>
-							<folio>167r</folio>
-							<folio>167v</folio>
-							<folio>168r</folio>
-							<folio>168v</folio>
-							<folio>169r</folio>
-							<folio>169v</folio>
-							<folio>170r</folio>
-							<folio>170v</folio>
-							<folio>171r</folio>
-							<folio>171v</folio>
-							<folio>172r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d2c2"> 
-					<fileName filestem="anon2-l4d2c2"/>
-					<title>Liber 4, Disputatio 2, Capitulus 2</title>
-					<questionTitle>De Intellectionibus anima rationalis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>172r</folio>
-							<folio>172v</folio>
-							<folio>173r</folio>
-							<folio>173v</folio>
-							<folio>174r</folio>
-							<folio>174v</folio>
-							<folio>175r</folio>
-							<folio>175v</folio>
-							<folio>176r</folio>
-							<folio>176v</folio>
-							<folio>177r</folio>
-							<folio>177v</folio>
-							<folio>178r</folio>
-							<folio>178v</folio>
-							<folio>179r</folio>
-							<folio>179v</folio>
-							<folio>180r</folio>
-							<folio>180v</folio>
-							<folio>181r</folio>
-							<folio>181v</folio>
-							<folio>182r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d2c3"> 
-					<fileName filestem="anon2-l4d2c3"/>
-					<title>Liber 4, Disputatio 2, Capitulus 3</title>
-					<questionTitle>De voluntate</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>182r</folio>
-							<folio>182v</folio>
-							<folio>183r</folio>
-							<folio>183v</folio>
-							<folio>184r</folio>
-							<folio>184v</folio>
-							<folio>185r</folio>
-							<folio>185v</folio>
-							<folio>186r</folio>
-							<folio>186v</folio>
-							<folio>187r</folio>
-							<folio>187v</folio>
-							<folio>188r</folio>
-							<folio>188v</folio>
-							<folio>189r</folio>
-							<folio>189v</folio>
-							<folio>190r</folio>
-							<folio>190v</folio>
-							<folio>191r</folio>
-							<folio>191v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d2c4"> 
-					<fileName filestem="anon2-l4d2c4"/>
-					<title>Liber 4, Disputatio 2, Capitulus 4</title>
-					<questionTitle>D actibus voluntatis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>191v</folio>
-							<folio>192r</folio>
-							<folio>192v</folio>
-							<folio>193r</folio>
-							<folio>193v</folio>
-							<folio>194r</folio>
-							<folio>194v</folio>
-							<folio>195r</folio>
-							<folio>195v</folio>
-							<folio>196r</folio>
-							<folio>196v</folio>
-							<folio>197r</folio>
-							<folio>197v</folio>
-							<folio>198r</folio>
-							<folio>198v</folio>
-							<folio>199r</folio>
-							<folio>199v</folio>
-							<folio>200r</folio>
-							<folio>200v</folio>
-							<folio>201r</folio>
-							<folio>201v</folio>
-							<folio>202r</folio>
-							<folio>202v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<div id="anon2-l4d3">
-				<head>Liber 4, Disputatio 3</head>
-				<questionTitle>De ornamentis animae</questionTitle>
-				<item id="anon2-l4d3c1"> 
-					<fileName filestem="anon2-l4d3c1"/>
-					<title>Liber 4, Disputatio 3, Capitulus 1</title>
-					<questionTitle>De ornamentis intellectus ad speculationem conducibilibus</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>202v</folio>
-							<folio>203r</folio>
-							<folio>203v</folio>
-							<folio>204r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d3c2"> 
-					<fileName filestem="anon2-l4d3c2"/>
-					<title>Liber 4, Disputatio 3, Capitulus 2</title>
-					<questionTitle>De ornamentis intellectus ad praxim facientibus</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>204r</folio>
-							<folio>204v</folio>
-							<folio>205r</folio>
-							<folio>205v</folio>
-							<folio>206r</folio>
-							<folio>206v</folio>
-							<folio>207r</folio>
-							<folio>207v</folio>
-							<folio>208r</folio>
-							<folio>208v</folio>
-							<folio>209r</folio>
-							<folio>209v</folio>
-							<folio>210r</folio>
-							<folio>210v</folio>
-							<folio>211r</folio>
-							<folio>211v</folio>
-							<folio>212r</folio>
-							<folio>212v</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-				<item id="anon2-l4d3c3"> 
-					<fileName filestem="anon2-l4d3c3"/>
-					<title>Liber 4, Disputatio 3, Capitulus 3</title>
-					<questionTitle>De ornamentis voluntatis</questionTitle>
-					<hasWitnesses>
-						<witness ref="#P">
-							<folio>212v</folio>
-							<folio>213r</folio>
-							<folio>213v</folio>
-							<folio>214r</folio>
-							<folio>214v</folio>
-							<folio>215r</folio>
-							<folio>215v</folio>
-							<folio>216r</folio>
-							<folio>216v</folio>
-							<folio>217r</folio>
-							<folio>217v</folio>
-							<folio>218r</folio>
-							<folio>218v</folio>
-							<folio>219r</folio>
-							<folio>219v</folio>
-							<folio>220r</folio>
-							<folio>220v</folio>
-							<folio>221r</folio>
-						</witness>
-					</hasWitnesses>
-				</item>
-			</div>
-			<item id="anon2-l4d3sectio">  <!-- heading break here but no clear indication of its placein structure -->
-				<fileName filestem="anon2-l4d3sectio"/>
-				<title>Liber 4, Disputatio 3, sectio</title>
-				<questionTitle></questionTitle>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>221v</folio>
-						<folio>222r</folio>
-						<folio>222v</folio>
-						<folio>223r</folio>
-						<folio>223v</folio>
-						<folio>224r</folio>
-						<folio>224v</folio>
-						<folio>225r</folio>
-						<folio>225v</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-			<item id="anon2-l4d3sectio2">  <!-- another section whose place in structure is unclear -->
-				<fileName filestem="anon2-l4d3sectio2"/>
-				<title>Liber 4, Disputatio 3, sectio</title>
-				<!-- above below question title is "Coroniae operia animastiu" or something like this; again not sure of place of section in this wor
+    <hasWitnesses> <witness id="P">
+      <slug>penn769</slug>
+      <title>Philadelphia, University of Pennyslvania, ms. codex 769</title>
+      <initial>P</initial>
+      </witness> </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="anon2-librum1">
+      <head>Liber 1</head>
+      <item id="pam-l1prooemium">
+        <fileName filestem="pam-l1prooemium"/>
+        <title>Liber 1, Prooemium</title>
+        <questionTitle>Universa synopsis librorum Aristotelis de anima</questionTitle>
+        <hasWitnesses> <witness ref="#P">
+          <folio>1r</folio>
+          <!-- using modern pencil numbering; not old ink numering -->
+          <folio>1v</folio>
+          <folio>2r</folio>
+          <folio>2v</folio>
+          <folio>3r</folio>
+          <folio>3v</folio>
+          <folio>4r</folio>
+          </witness> </hasWitnesses>
+      </item>
+      <div id="anon2-l1d1">
+        <head>Liber 1, Disputatio 1</head>
+        <questionTitle>De animae natura</questionTitle>
+        <item id="anon2-l1d1c1">
+          <!-- actually says part 1, but following parallel sections are called chapters -->
+          <fileName filestem="anon2-l1d1c1"/>
+          <title>Liber 1, Disputatio 1, Capitulus 1</title>
+          <questionTitle>De prima definitione anima ab Aristotele tradita</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>4r</folio>
+            <folio>4v</folio>
+            <folio>5r</folio>
+            <folio>5v</folio>
+            <folio>6r</folio>
+            <folio>6v</folio>
+            <folio>7r</folio>
+            <folio>7v</folio>
+            <folio>8r</folio>
+            <folio>8v</folio>
+            <folio>9r</folio>
+            <folio>9v</folio>
+            <folio>10r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l1d1c2">
+          <fileName filestem="anon2-l1d1c2"/>
+          <title>Liber 1, Disputatio 1, Capitulus 2</title>
+          <questionTitle>De secunda definitione animae et collatione eius <unclear>?</unclear>
+            prima</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>10r</folio>
+            <folio>10v</folio>
+            <folio>11r</folio>
+            <folio>11v</folio>
+            <folio>12r</folio>
+            <folio>12v</folio>
+            <folio>13r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l1d2">
+        <head>Liber 1, Disputatio 2</head>
+        <questionTitle>De subiecto animae</questionTitle>
+        <item id="anon2-l1d2c1">
+          <fileName filestem="anon2-l1d2c1"/>
+          <title>Liber 1, Disputatio 2, Capitulus 1</title>
+          <questionTitle>Quas <unclear>pastei?s</unclear> corporis informet anima</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>13r</folio>
+            <folio>13v</folio>
+            <folio>14r</folio>
+            <folio>14v</folio>
+            <folio>15r</folio>
+            <folio>15v</folio>
+            <folio>16r</folio>
+            <folio>16v</folio>
+            <folio>17r</folio>
+            <folio>17v</folio>
+            <folio>18r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l1d2c2">
+          <fileName filestem="anon2-l1d2c2"/>
+          <title>Liber 1, Disputatio 2, Capitulus 2</title>
+          <questionTitle>Quomodo materia accipiat anima</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>18r</folio>
+            <folio>18v</folio>
+            <folio>19r</folio>
+            <folio>19v</folio>
+            <folio>20r</folio>
+            <folio>20v</folio>
+            <folio>21r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l1d3">
+        <head>Liber 1, Disputatio 3</head>
+        <!-- miss marked at disputation 2 -->
+        <questionTitle>De variis anima divisionibus</questionTitle>
+        <item id="anon2-l1d3c1">
+          <fileName filestem="anon2-l1d3c1"/>
+          <title>Liber 1, Disputatio 3, Capitulus 1</title>
+          <questionTitle>De diversis speciebus animarum quomodo <unclear>dispesuitur</unclear> et
+            quomodo <unclear>ibidem</unclear> contineantur <unclear>in</unclear> aliis
+            <unclear>aliae</unclear></questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>21r</folio>
+            <folio>21v</folio>
+            <folio>22r</folio>
+            <folio>22v</folio>
+            <folio>23r</folio>
+            <folio>23v</folio>
+            <folio>24r</folio>
+            <folio>24v</folio>
+            <folio>25r</folio>
+            <folio>25v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l1d3c2">
+          <fileName filestem="anon2-l1d3c2"/>
+          <title>Liber 1, Disputatio 3, Capitulus 2</title>
+          <questionTitle>De animae divisione ratione <unclear>extensiones
+            <!-- case a bit unclear; hard to translate as is --></unclear></questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>25v</folio>
+            <folio>26r</folio>
+            <folio>26v</folio>
+            <folio>27r</folio>
+            <folio>27v</folio>
+            <folio>28r</folio>
+            <folio>28v</folio>
+            <folio>29r</folio>
+            <folio>29v</folio>
+            <folio>30r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l1d4">
+        <head>Liber 1, Disputatio 4</head>
+        <!-- miss marked at disputation 2 -->
+        <questionTitle>De potentiis animae universae</questionTitle>
+        <item id="anon2-l1d4c1">
+          <fileName filestem="anon2-l1d4c1"/>
+          <title>Liber 1, Disputatio 4, Capitulus 1</title>
+          <questionTitle>De <unclear>notionibus</unclear> ac discriminibus specificus potentiarum
+            animae</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>30v</folio>
+            <folio>31r</folio>
+            <folio>31v</folio>
+            <folio>32r</folio>
+            <folio>32v</folio>
+            <folio>33r</folio>
+            <folio>33v</folio>
+            <folio>34r</folio>
+            <folio>34v</folio>
+            <folio>35r</folio>
+            <folio>35v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l1d4c2">
+          <fileName filestem="anon2-l1d4c2"/>
+          <title>Liber 1, Disputatio 4, Capitulus 2</title>
+          <questionTitle>De <unclear>notionibus</unclear> ac discriminibus specificus potentiarum
+            animae</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>35v</folio>
+            <folio>36r</folio>
+            <folio>36v</folio>
+            <folio>37r</folio>
+            <folio>37v</folio>
+            <folio>38r</folio>
+            <folio>38v</folio>
+            <folio>39r</folio>
+            <folio>39v</folio>
+            <folio>40r</folio>
+            <folio>40v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="anon2-librum2">
+      <head>Liber 2</head>
+      <item id="pam-l2prooemium">
+        <fileName filestem="pam-l2prooemium"/>
+        <title>Liber 2, Prooemium</title>
+        <questionTitle>De anima vegetante praefatio</questionTitle>
+        <hasWitnesses> <witness ref="#P">
+          <folio>40v</folio>
+          <folio>41r</folio>
+          <folio>41v</folio>
+          <folio>42r</folio>
+          </witness> </hasWitnesses>
+      </item>
+      <div id="anon2-l2d1">
+        <head>Liber 2, Disputatio 1</head>
+        <questionTitle>De vita</questionTitle>
+        <item id="anon2-l2d1c1">
+          <fileName filestem="anon2-l2d1c1"/>
+          <title>Liber 2, Disputatio 1, Capitulus 1</title>
+          <questionTitle>Quid sit vita</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>42r</folio>
+            <folio>42v</folio>
+            <folio>43r</folio>
+            <folio>43v</folio>
+            <folio>44r</folio>
+            <folio>44v</folio>
+            <folio>45r</folio>
+            <folio>46v</folio>
+            <folio>46r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d1c2">
+          <fileName filestem="anon2-l2d1c2"/>
+          <title>Liber 2, Disputatio 1, Capitulus 2</title>
+          <questionTitle>De virtute <unclear>osmatrice</unclear></questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+            <folio>49v</folio>
+            <folio>50r</folio>
+            <folio>50v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d1c3">
+          <fileName filestem="anon2-l2d1c3"/>
+          <title>Liber 2, Disputatio 1, Capitulus 3</title>
+          <questionTitle>De variis viventium affectionibus pro ut viventia sunt</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>50v</folio>
+            <folio>51r</folio>
+            <folio>51v</folio>
+            <folio>52r</folio>
+            <folio>52v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l2d2">
+        <head>Liber 2, Disputatio 2</head>
+        <questionTitle>De viventium generatione</questionTitle>
+        <item id="anon2-l2d2c1">
+          <fileName filestem="anon2-l2d2c1"/>
+          <title>Liber 2, Disputatio 2, Capitulus 1</title>
+          <questionTitle>Quid concurrat ad generationem viventium</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>53r</folio>
+            <folio>53v</folio>
+            <folio>54r</folio>
+            <folio>54v</folio>
+            <folio>55r</folio>
+            <folio>55v</folio>
+            <folio>56r</folio>
+            <folio>56v</folio>
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d2c2">
+          <fileName filestem="anon2-l2d2c2"/>
+          <title>Liber 2, Disputatio 2, Capitulus 2</title>
+          <questionTitle>De formatione foetus</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+            <folio>62r</folio>
+            <folio>62v</folio>
+            <folio>63r</folio>
+            <folio>63v</folio>
+            <folio>64r</folio>
+            <folio>64v</folio>
+            <folio>65r</folio>
+            <folio>65v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d2c3">
+          <fileName filestem="anon2-l2d2c3"/>
+          <title>Liber 2, Disputatio 2, Capitulus 3</title>
+          <questionTitle>De caeteris foetuum affectionibus et partuum consectariis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+            <folio>68v</folio>
+            <folio>68r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l2d3">
+        <head>Liber 2, Disputatio 3</head>
+        <questionTitle>De Nutritione et Augmentatione</questionTitle>
+        <item id="anon2-l2d3c1">
+          <fileName filestem="anon2-l2d3c1"/>
+          <title>Liber 2, Disputatio 3, Capitulus 1</title>
+          <questionTitle>De harum actionum et <unclear>ptem</unclear> a quibus oriuntur
+            differentiis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>68r</folio>
+            <folio>68v</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+            <folio>72r</folio>
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <folio>76v</folio>
+            <folio>77r</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+            <folio>78v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d3c2">
+          <fileName filestem="anon2-l2d3c2"/>
+          <title>Liber 2, Disputatio 3, Capitulus 2</title>
+          <questionTitle>De iis quae vitae serviunt</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>78v</folio>
+            <folio>79r</folio>
+            <folio>79v</folio>
+            <folio>80r</folio>
+            <folio>80v</folio>
+            <folio>81r</folio>
+            <folio>81v</folio>
+            <folio>82r</folio>
+            <folio>82v</folio>
+            <folio>83r</folio>
+            <folio>83v</folio>
+            <folio>84r</folio>
+            <folio>84v</folio>
+            <folio>85r</folio>
+            <folio>85v</folio>
+            <folio>86r</folio>
+            <folio>86v</folio>
+            <folio>87r</folio>
+            <folio>87v</folio>
+            <folio>88r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l2d3census">
+          <fileName filestem="anon2-l2d3census"/>
+          <title>Liber 2, Disputatio 3, Census</title>
+          <questionTitle><unclear>Pastium</unclear> humani corporis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>88r</folio>
+            <folio>88v</folio>
+            <folio>89r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+            <folio>91v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="anon2-librum3">
+      <head>Liber 3</head>
+      <item id="pam-l3prooemium">
+        <fileName filestem="pam-l3prooemium"/>
+        <title>Liber 3, Prooemium</title>
+        <questionTitle>De anima sentiente praefatio</questionTitle>
+        <hasWitnesses> <witness ref="#P">
+          <folio>91v</folio>
+          <folio>92r</folio>
+          <folio>92v</folio>
+          </witness> </hasWitnesses>
+      </item>
+      <div id="anon2-l3d1">
+        <head>Liber 3, Disputatio 1</head>
+        <questionTitle>De sensibus in genere</questionTitle>
+        <item id="anon2-l3d1c1">
+          <fileName filestem="anon2-l3d1c1"/>
+          <title>Liber 3, Disputatio 1, Capitulus 1</title>
+          <questionTitle>Quid sit sensus</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>92v</folio>
+            <folio>93r</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+            <folio>95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d1c2">
+          <fileName filestem="anon2-l3d1c2"/>
+          <title>Liber 3, Disputatio 1, Capitulus 2</title>
+          <questionTitle>De numero sensuum</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>98r</folio>
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+            <folio>100r</folio>
+            <folio>100v</folio>
+            <folio>101r</folio>
+            <folio>101v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d1c3">
+          <fileName filestem="anon2-l3d1c3"/>
+          <title>Liber 3, Disputatio 1, Capitulus 3</title>
+          <questionTitle>De auxiliis sensus</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>101v</folio>
+            <folio>102r</folio>
+            <folio>102v</folio>
+            <folio>103r</folio>
+            <folio>103v</folio>
+            <folio>104r</folio>
+            <folio>104v</folio>
+            <folio>105r</folio>
+            <folio>105v</folio>
+            <folio>106r</folio>
+            <folio>106v</folio>
+            <folio>107r</folio>
+            <folio>107v</folio>
+            <folio>108r</folio>
+            <folio>108v</folio>
+            <folio>109r</folio>
+            <folio>109v</folio>
+            <folio>110r</folio>
+            <folio>110v</folio>
+            <folio>111r</folio>
+            <folio>111v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d1c4">
+          <fileName filestem="anon2-l3d1c4"/>
+          <title>Liber 3, Disputatio 1, Capitulus 4</title>
+          <questionTitle>De impedimentis sensationis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>111v</folio>
+            <folio>112r</folio>
+            <folio>112v</folio>
+            <folio>113r</folio>
+            <folio>113v</folio>
+            <folio>114r</folio>
+            <folio>114v</folio>
+            <folio>115r</folio>
+            <folio>115v</folio>
+            <folio>116r</folio>
+            <folio>116v</folio>
+            <folio>117r</folio>
+            <folio>117v</folio>
+            <folio>118r</folio>
+            <folio>118v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l3d2">
+        <head>Liber 3, Disputatio 2</head>
+        <questionTitle>De singulis sensibus externis</questionTitle>
+        <item id="anon2-l3d2c1">
+          <fileName filestem="anon2-l3d2c1"/>
+          <title>Liber 3, Disputatio 2, Capitulus 1</title>
+          <!-- title says: pars 1, cap 1; but there's no evidence of a part 2 group chapters -->
+          <questionTitle>De visu</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>118v</folio>
+            <folio>119r</folio>
+            <folio>119v</folio>
+            <folio>120r</folio>
+            <folio>120v</folio>
+            <folio>121r</folio>
+            <folio>121v</folio>
+            <folio>122r</folio>
+            <folio>122v</folio>
+            <folio>123r</folio>
+            <folio>123v</folio>
+            <folio>124r</folio>
+            <folio>124v</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d2c2">
+          <fileName filestem="anon2-l3d2c2"/>
+          <title>Liber 3, Disputatio 2, Capitulus 2</title>
+          <questionTitle>De auditu</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>127v</folio>
+            <folio>128r</folio>
+            <folio>128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+            <folio>131r</folio>
+            <folio>131v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d2c3">
+          <fileName filestem="anon2-l3d2c3"/>
+          <title>Liber 3, Disputatio 2, Capitulus 3</title>
+          <questionTitle>De olfactu, gustatu, et tactu</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>131v</folio>
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio>134v</folio>
+            <folio>135r</folio>
+            <folio>135v</folio>
+            <folio>136r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l3d3">
+        <head>Liber 3, Disputatio 3</head>
+        <!-- number of disputation is actually left blank in header -->
+        <questionTitle>De singulis sensibus internis</questionTitle>
+        <item id="anon2-l3d3c1">
+          <fileName filestem="anon2-l3d3c1"/>
+          <title>Liber 3, Disputatio 3, Capitulus 1</title>
+          <questionTitle>De phantasia</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>136r</folio>
+            <folio>136v</folio>
+            <folio>137r</folio>
+            <folio>137v</folio>
+            <folio>138r</folio>
+            <folio>138v</folio>
+            <folio>139r</folio>
+            <folio>139v</folio>
+            <folio>140r</folio>
+            <folio>140v</folio>
+            <folio>141r</folio>
+            <folio>141v</folio>
+            <folio>142r</folio>
+            <folio>142v</folio>
+            <folio>143r</folio>
+            <folio>143v</folio>
+            <folio>144r</folio>
+            <folio>144v</folio>
+            <folio>145r</folio>
+            <folio>145v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l3d3c2">
+          <fileName filestem="anon2-l3d3c2"/>
+          <title>Liber 3, Disputatio 3, Capitulus 2</title>
+          <questionTitle>De virtute sentientis anima appetitiva et notitiae</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>145v</folio>
+            <folio>146r</folio>
+            <folio>146v</folio>
+            <folio>147r</folio>
+            <folio>147v</folio>
+            <folio>148r</folio>
+            <folio>148v</folio>
+            <folio>149r</folio>
+            <folio>149v</folio>
+            <folio>150r</folio>
+            <folio>150v</folio>
+            <folio>151r</folio>
+            <folio>151v</folio>
+            <folio>152r</folio>
+            <folio>152v</folio>
+            <folio>153r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="anon2-librum4">
+      <head>Liber 4</head>
+      <item id="pam-l4prooemium">
+        <!-- blank header for the start of book 4 -->
+        <fileName filestem="pam-l4prooemium"/>
+        <title>Liber 4, Prooemium</title>
+        <questionTitle/>
+        <hasWitnesses> <witness ref="#P">
+          <folio>153r</folio>
+          <folio>153v</folio>
+          <folio>154r</folio>
+          </witness> </hasWitnesses>
+      </item>
+      <div id="anon2-l4d1">
+        <head>Liber 4, Disputatio 1</head>
+        <questionTitle>De natura rationalis <unclear>animae
+          <!-- header actually seems to read "anima" but this seems wrong --></unclear></questionTitle>
+        <item id="anon2-l4d1c1">
+          <fileName filestem="anon2-l4d1c1"/>
+          <title>Liber 4, Disputatio 1, Capitulus 1</title>
+          <questionTitle>De animae rationalis origine</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>154v</folio>
+            <folio>155r</folio>
+            <folio>155v</folio>
+            <folio>156r</folio>
+            <folio>156v</folio>
+            <folio>157r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d1c2">
+          <fileName filestem="anon2-l4d1c2"/>
+          <title>Liber 4, Disputatio 1, Capitulus 2</title>
+          <questionTitle>Possitne demonstrari animam rationalem esse immortalem</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#P">
+            <folio>157v</folio>
+            <folio>158r</folio>
+            <folio>158v</folio>
+            <folio>159r</folio>
+            <folio>159v</folio>
+            <folio>160r</folio>
+            <folio>160v</folio>
+            <folio>161r</folio>
+            <folio>161v</folio>
+            </witness> 
+          </hasWitnesses>
+        </item>
+        <item id="anon2-l4d1c3">
+          <fileName filestem="anon2-l4d1c3"/>
+          <title>Liber 4, Disputatio 1, Capitulus 3</title>
+          <questionTitle>Demonstrationes quibus probetur animae rationalis
+            immortalitas</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#P">
+              <folio>161v</folio>
+              <folio>162r</folio> 
+              <folio>162v</folio> 
+              <folio>163r</folio> 
+              <folio>163v</folio> 
+              <folio>164r</folio> 
+              <folio>164v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="anon2-l4d1c4">
+          <fileName filestem="anon2-l4d1c4"/>
+          <title>Liber 4, Disputatio 1, Capitulus 4</title>
+          <questionTitle>Demonstrationes morales de anima rationalis immortalitate</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#P">
+              <folio>164v</folio> 
+              <folio>165r</folio> 
+              <folio>165v</folio>
+              <folio>166r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l4d2">
+        <head>Liber 4, Disputatio 2</head>
+        <questionTitle>De potentiis et actionibus animae rationalis</questionTitle>
+        <item id="anon2-l4d2c1">
+          <fileName filestem="anon2-l4d2c1"/>
+          <title>Liber 4, Disputatio 2, Capitulus 1</title>
+          <questionTitle>De intellectione animae rationalis</questionTitle>
+          <hasWitnesses> 
+            <witness ref="#P">
+            <folio>166r</folio>
+            <folio>166v</folio>
+            <folio>167r</folio>
+            <folio>167v</folio>
+            <folio>168r</folio>
+            <folio>168v</folio>
+            <folio>169r</folio>
+            <folio>169v</folio>
+            <folio>170r</folio>
+            <folio>170v</folio>
+            <folio>171r</folio>
+            <folio>171v</folio>
+            <folio>172r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d2c2">
+          <fileName filestem="anon2-l4d2c2"/>
+          <title>Liber 4, Disputatio 2, Capitulus 2</title>
+          <questionTitle>De Intellectionibus anima rationalis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>172r</folio>
+            <folio>172v</folio>
+            <folio>173r</folio>
+            <folio>173v</folio>
+            <folio>174r</folio>
+            <folio>174v</folio>
+            <folio>175r</folio>
+            <folio>175v</folio>
+            <folio>176r</folio>
+            <folio>176v</folio>
+            <folio>177r</folio>
+            <folio>177v</folio>
+            <folio>178r</folio>
+            <folio>178v</folio>
+            <folio>179r</folio>
+            <folio>179v</folio>
+            <folio>180r</folio>
+            <folio>180v</folio>
+            <folio>181r</folio>
+            <folio>181v</folio>
+            <folio>182r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d2c3">
+          <fileName filestem="anon2-l4d2c3"/>
+          <title>Liber 4, Disputatio 2, Capitulus 3</title>
+          <questionTitle>De voluntate</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>182r</folio>
+            <folio>182v</folio>
+            <folio>183r</folio>
+            <folio>183v</folio>
+            <folio>184r</folio>
+            <folio>184v</folio>
+            <folio>185r</folio>
+            <folio>185v</folio>
+            <folio>186r</folio>
+            <folio>186v</folio>
+            <folio>187r</folio>
+            <folio>187v</folio>
+            <folio>188r</folio>
+            <folio>188v</folio>
+            <folio>189r</folio>
+            <folio>189v</folio>
+            <folio>190r</folio>
+            <folio>190v</folio>
+            <folio>191r</folio>
+            <folio>191v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d2c4">
+          <fileName filestem="anon2-l4d2c4"/>
+          <title>Liber 4, Disputatio 2, Capitulus 4</title>
+          <questionTitle>D actibus voluntatis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>191v</folio>
+            <folio>192r</folio>
+            <folio>192v</folio>
+            <folio>193r</folio>
+            <folio>193v</folio>
+            <folio>194r</folio>
+            <folio>194v</folio>
+            <folio>195r</folio>
+            <folio>195v</folio>
+            <folio>196r</folio>
+            <folio>196v</folio>
+            <folio>197r</folio>
+            <folio>197v</folio>
+            <folio>198r</folio>
+            <folio>198v</folio>
+            <folio>199r</folio>
+            <folio>199v</folio>
+            <folio>200r</folio>
+            <folio>200v</folio>
+            <folio>201r</folio>
+            <folio>201v</folio>
+            <folio>202r</folio>
+            <folio>202v</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <div id="anon2-l4d3">
+        <head>Liber 4, Disputatio 3</head>
+        <questionTitle>De ornamentis animae</questionTitle>
+        <item id="anon2-l4d3c1">
+          <fileName filestem="anon2-l4d3c1"/>
+          <title>Liber 4, Disputatio 3, Capitulus 1</title>
+          <questionTitle>De ornamentis intellectus ad speculationem conducibilibus</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>202v</folio>
+            <folio>203r</folio>
+            <folio>203v</folio>
+            <folio>204r</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d3c2">
+          <fileName filestem="anon2-l4d3c2"/>
+          <title>Liber 4, Disputatio 3, Capitulus 2</title>
+          <questionTitle>De ornamentis intellectus ad praxim facientibus</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>204r</folio>
+            <folio>204v</folio>
+            <folio>205r</folio>
+            <folio>205v</folio>
+            <folio>206r</folio>
+            <folio>206v</folio>
+            <folio>207r</folio>
+            <folio>207v</folio>
+            <folio>208r</folio>
+            <folio>208v</folio>
+            <folio>209r</folio>
+            <folio>209v</folio>
+            <folio>210r</folio>
+            <folio>210v</folio>
+            <folio>211r</folio>
+            <folio>211v</folio>
+            <folio>212r</folio>
+            <folio>212v</folio>
+            </witness> </hasWitnesses>
+        </item>
+        <item id="anon2-l4d3c3">
+          <fileName filestem="anon2-l4d3c3"/>
+          <title>Liber 4, Disputatio 3, Capitulus 3</title>
+          <questionTitle>De ornamentis voluntatis</questionTitle>
+          <hasWitnesses> <witness ref="#P">
+            <folio>212v</folio>
+            <folio>213r</folio>
+            <folio>213v</folio>
+            <folio>214r</folio>
+            <folio>214v</folio>
+            <folio>215r</folio>
+            <folio>215v</folio>
+            <folio>216r</folio>
+            <folio>216v</folio>
+            <folio>217r</folio>
+            <folio>217v</folio>
+            <folio>218r</folio>
+            <folio>218v</folio>
+            <folio>219r</folio>
+            <folio>219v</folio>
+            <folio>220r</folio>
+            <folio>220v</folio>
+            <folio>221r</folio>
+            </witness> </hasWitnesses>
+        </item>
+      </div>
+      <item id="anon2-l4d3sectio">
+        <!-- heading break here but no clear indication of its placein structure -->
+        <fileName filestem="anon2-l4d3sectio"/>
+        <title>Liber 4, Disputatio 3, sectio</title>
+        <questionTitle/>
+        <hasWitnesses> <witness ref="#P">
+          <folio>221v</folio>
+          <folio>222r</folio>
+          <folio>222v</folio>
+          <folio>223r</folio>
+          <folio>223v</folio>
+          <folio>224r</folio>
+          <folio>224v</folio>
+          <folio>225r</folio>
+          <folio>225v</folio>
+          </witness> </hasWitnesses>
+      </item>
+      <item id="anon2-l4d3sectio2">
+        <!-- another section whose place in structure is unclear -->
+        <fileName filestem="anon2-l4d3sectio2"/>
+        <title>Liber 4, Disputatio 3, sectio</title>
+        <!-- above below question title is "Coroniae operia animastiu" or something like this; again not sure of place of section in this wor
 					seemss like a possible epilogue-->
-				<questionTitle> De animae relatu post ex caesum a corpore</questionTitle>
-				<hasWitnesses>
-					<witness ref="#P">
-						<folio>225v</folio>
-						<folio>226r</folio>
-						<folio>226v</folio>
-						<folio>227r</folio>
-						<folio>227v</folio>
-						<folio>228r</folio>
-						<folio>228v</folio>
-						<folio>229r</folio>
-						<folio>229v</folio>
-						<folio>230r</folio>
-						<folio>230v</folio>
-					</witness>
-				</hasWitnesses>
-			</item>
-		</div>
-		<!-- it should be know there is a book 5 and 6, that turns to the subject of God, angels and other metaphyscical topics -->
-		<!-- the end of book 4 states "finis librorum aristotelis de anima" -->
-	</div>
+        <questionTitle> De animae relatu post ex caesum a corpore</questionTitle>
+        <hasWitnesses> <witness ref="#P">
+          <folio>225v</folio>
+          <folio>226r</folio>
+          <folio>226v</folio>
+          <folio>227r</folio>
+          <folio>227v</folio>
+          <folio>228r</folio>
+          <folio>228v</folio>
+          <folio>229r</folio>
+          <folio>229v</folio>
+          <folio>230r</folio>
+          <folio>230v</folio>
+          </witness> </hasWitnesses>
+      </item>
+    </div>
+    <!-- it should be know there is a book 5 and 6, that turns to the subject of God, angels and other metaphyscical topics -->
+    <!-- the end of book 4 states "finis librorum aristotelis de anima" -->
+  </div>
 </listofFileNames>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Albertus Magnus</authorName>
@@ -34,7 +35,7 @@
       <head>Liber I</head>
       <div id="admda-l1t1">
         <head>Liber I, Tractatus I</head>
-        <questionTitlte>DE MODO QUO COGNOSCENDA EST ANIMA.</questionTitlte>
+        <questionTitle>DE MODO QUO COGNOSCENDA EST ANIMA.</questionTitle>
         <item id="admda-l1t1c1">
           <fileName filestem="admda-l1t1c1"/>
           <title> CAPUT I.</title>
@@ -131,7 +132,7 @@
       </div>
       <div id="admda-l1t2">
         <head>Liber I, Tractatus II</head>
-        <questionTitlte>DE ANIMA SECUNDUM OPINIONES ALIORUM.</questionTitlte>
+        <questionTitle>DE ANIMA SECUNDUM OPINIONES ALIORUM.</questionTitle>
         <item id="admda-l1t2c1">
           <fileName filestem="admda-l1t2c1"/>
           <title>CAPUT I.</title>
