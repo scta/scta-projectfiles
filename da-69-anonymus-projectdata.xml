@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
@@ -8,23 +9,23 @@
     <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/da-69</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <textfilesdir></textfilesdir>
-    <webbase>null</webbase>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-69/</textfilesdir>
     <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <hasWitnesses>
       <witness id="O">
         <slug>oxf275</slug>
         <title>Oxford, Merton College Library,  275</title>
         <initial>O</initial>
-        <note>Folio references are made to the new foliation as given in
+        <!--<note>Folio references are made to the new foliation as given in
         Thomson's catalogue of Merton manuscripts with the old foliation in
-        parenthesis.</note>
+        parenthesis.</note>-->
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-69-librum1">
+  <div id="body">
+    <div id="da-69-librum1" type="da-liber1">
       <head>
         Liber primus
       </head>

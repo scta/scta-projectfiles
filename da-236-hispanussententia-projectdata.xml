@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Petrus Hispanus</authorName>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/hispanusdeanima</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hispanusdeanima/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource>Manuel Alonso</questionListSource> <!-- How do we handle such a reference? For now this might do. -->
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder> <!-- What do we do here, when there are several contributors?-->
@@ -30,19 +30,17 @@
     <hasWitnesses>
       <witness id="K">
         <slug>kra726</slug>
-        <questionTitle>Kraków, Biblioteka Jagiellońska, ms. 726</questionTitle>
+        <title>Kraków, Biblioteka Jagiellońska, ms. 726</title>
         <initial>K</initial>
-        <canvasBase>http://scta.info/iiif/kra726/canvas/</canvasBase>
       </witness>
       <witness id="V">
         <slug>venz253</slug>
-        <questionTitle>Venice, Biblioteca Marciana, Cod. lat. Z 253</questionTitle>
+        <title>Venice, Biblioteca Marciana, Cod. lat. Z 253</title>
         <initial>V</initial>
-        <canvasBase>http://scta.info/iiif/venz253/canvas/</canvasBase>
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-236-prooemium" type="da-236-prooemium">
       <head>Quaestiones praeambulae</head>
       <div id="da-236-p1p1"> <!-- ID for prooemium, problema 1. Suggestion for type? -->
@@ -53,7 +51,7 @@
           <questionTitle>Utrum sit scientia de anima et quae sit eius necessitas</questionTitle>
           <hasWitnesses>
             <witness ref="#K">
-              <folio canvasslug="46r">46r</folio>
+              <folio>46r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -63,8 +61,8 @@
           <questionTitle>Utrum sit innata vel acquisita</questionTitle>
           <hasWitnesses>
             <witness ref="#K">
-              <folio canvasslug="46r">46r</folio>
-              <folio canvasslug="46v">46v</folio>
+              <folio>46r</folio>
+              <folio>46v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -74,7 +72,7 @@
           <questionTitle>Utrum anima se ipsam cognoscat</questionTitle>
           <hasWitnesses>
             <witness ref="#K">
-              <folio canvasslug="46v">46v</folio>
+              <folio>46v</folio>
             </witness>
           </hasWitnesses>
         </item>

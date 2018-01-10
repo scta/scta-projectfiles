@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-    <authorName>Anonymus</authorName>
+    <authorName>Anonymous</authorName>
     <commentaryName>Quaestiones De anima III</commentaryName>
-    <commentaryslug>da-353</commentaryslug>
     <commentaryid>da-353</commentaryid>
+    <commentaryslug>da-353</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <!-- I know parentUri makes no sense; it is an old redundancy of commentary id; it can be removed once the build script is updated -->
     <parentUri>http://scta.info/resource/da-353</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-353/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
@@ -21,8 +24,8 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-353-librum3">
+  <div id="body">
+    <div id="da-353-librum3" type="da-liber3">
       <head>Liber tertius</head>
       <item id="da-353-l3q1" type="quaestio">
         <fileName filestem="da-353-l3q1"/>

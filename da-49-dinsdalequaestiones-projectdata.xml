@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>John Dinsdale</authorName>
@@ -9,7 +10,6 @@
     <parentUri>http://scta.info/resource/dinsdalequaestiones</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/dinsdalequaestiones/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
@@ -30,7 +30,7 @@
     </hasWitnesses>
   </header>
   <!-- Note: Many of the questions have more elaborate titles in the bottom margin of #B than in the main text. How could we handle that? -->
-  <div id="body" xml:lang="la">
+  <div id="body">
     <item id="da-49-prooemium">
       <fileName filestem="da-49-prooemium"/>
       <title>Prooemium</title>
@@ -44,7 +44,7 @@
         </witness>
       </hasWitnesses>
     </item>
-    <div id="da-49-librum1">
+    <div id="da-49-librum1" type="da-liber1">
       <head>
         Liber primus
       </head>
@@ -179,7 +179,7 @@
         </hasWitnesses>
       </item>
     </div>
-    <div id="da-49-librum2">
+    <div id="da-49-librum2" type="da-liber2">
       <head>
         Liber secundus
       </head>
@@ -667,10 +667,10 @@
           Utrum aliqua de nocte visa habeant videri tantum de nocte, ut lucerna,
           et de die, ut colorata.
         </questionTitle>
-        <questionTitle>
+        <!--<questionTitle>
           Utrum aliqua de nocte visa habent videri tantum de nocte ut lucentia
           et de die ut colorata.
-        </questionTitle>
+        </questionTitle>-->
         <hasWitnesses>
           <witness ref="#B">
             <folio c="b">161r</folio>
@@ -1049,7 +1049,7 @@
         </hasWitnesses>
       </item>
     </div>
-    <div id="da-49-librum3">
+    <div id="da-49-librum3" type="da-liber3">
       <head>Liber tertius</head>
       <item id="da-49-l3q1" type="quaestio">
         <fileName filestem="da-49-l3q1"/>
@@ -1217,10 +1217,10 @@
           Utrum species abstracta sit illud quod intelligitur primo et per se
           aut res cuius est species.
         </questionTitle>
-        <questionTitle>
+        <!--<questionTitle>
           Utrum species abstracta sit illud quod intelligitur primo et per se aut
           res cuius est species.
-        </questionTitle>
+        </questionTitle>-->
         <hasWitnesses>
           <witness ref="#B">
             <folio c="b">173v</folio>
@@ -1329,10 +1329,10 @@
           Utrum substantia quae est huius intellectus obiectum faciat ex re
           speciem per quam cognoscat sicut et a materia.
         </questionTitle>
-        <questionTitle>
+        <!--<questionTitle>
           Utrum genera quae est huius intellectus obiectum faciat ex re speciem
           per quam cognoscat sicut et a materia.
-        </questionTitle>
+        </questionTitle>-->
         <hasWitnesses>
           <witness ref="#B">
             <folio c="a">176v</folio>

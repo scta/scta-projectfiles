@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones De anima I</commentaryName>
-    <commentaryslug>da-255</commentaryslug>
     <commentaryid>da-255</commentaryid>
+    <commentaryslug>da-255</commentaryslug>
     <!-- I know parentUri makes no sense; it is an old redundancy of commentary id; it can be removed once the build script is updated -->
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/da-255</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-255/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
@@ -21,8 +24,9 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-255-librum1" type="da-liber1">
+      <head>Liber I</head>
       <item id="da-255-l1prol" type="prologue">
         <fileName filestem="da-255-l1prol"/>
         <title>Prooemium</title>

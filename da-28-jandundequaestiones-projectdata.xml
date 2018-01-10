@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Iohannes de Ianduno</authorName>
@@ -7,16 +9,10 @@
     <authorUri>http://scta.info/resource/JohnOfJandun</authorUri>
     <parentUri>http://scta.info/resource/da-28</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-28/</textfilesdir>
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
-    <hasWitnesses>
-      <witness id="V1">
-        <slug>ven1480</slug>
-        <title>Venice 1480</title>
-        <initial>V1</initial>
-      </witness>
-    </hasWitnesses>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <description>
       A Commentary on Aristotle's de Anima by John of Jandun.  
       
@@ -46,8 +42,16 @@
       VI 101 (a.d. 1431) f. 1-219; Volterra BGuarnacci 6368 (17) (a.d. 1468)
       150ff.
     </description>
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V1">
+        <slug>ven1480</slug>
+        <title>Venice 1480</title>
+        <initial>V1</initial>
+      </witness>
+    </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <item id="da-28-prol" type="prologus"> <!-- What type is a prologue? -->
       <fileName filestem="da-28-prol"/>
       <title>Prooemium</title>
@@ -61,6 +65,7 @@
       </hasWitnesses>
     </item>
     <div id="da-28-librum1" type="da-liber1">
+      <head>Liber I</head>
       <item id="da-28-l1q1" type="quaestio">
         <fileName filestem="da-28-l1q1"/>
         <title>Liber 1, Quaestio 1</title>
@@ -259,6 +264,7 @@
       </item>
     </div>
     <div id="da-28-librum2" type="da-liber2">
+      <head>Liber 2</head>
       <item id="da-28-l2q1" type="quaestio">
         <fileName filestem="da-28-l2q1"/>
         <title>Liber 2, Quaestio 1</title>
@@ -824,6 +830,7 @@
       </item>
     </div>
     <div id="da-28-librum3" type="da-liber3">
+      <head>Liber 3</head>
       <item id="da-28-l3q1" type="quaestio">
         <fileName filestem="da-28-l3q1"/>
         <title>Liber 3, Quaestio 1</title>

@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Siger of Brabant</authorName>
     <commentaryName>Quaestiones in tertium De anima</commentaryName>
-    <commentaryslug>da-238</commentaryslug>
     <commentaryid>da-238</commentaryid>
+    <commentaryslug>da-238</commentaryslug>
+    <authorUri>http://scta.info/resoure/SigerOfBrabant</authorUri>
     <parentUri>http://scta.info/resource/da-238</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-238/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Carlos Bernado Bazán</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <description>
+      Question list is copied from Mora-Márquez, Ana María. 2014. “A List
+      of Commentaries on Aristotleś De Anima III (C. 1200–c.1400).” Cahiers de
+      l'Institut Du Moyen-Âge Grec et Latin 83: 207–56, p. 222.
+      
+      The text is edited in Bazán, Bernardo Carlos, ed. 1972. Siger de Brabant.
+      Quaestiones in Tertium de Anima. De Anima Intellectiva. De Aeternitate
+      Mundi. Philosophes Médiévaux. Leuven: Peeters.
+    </description>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="M">
@@ -18,18 +30,10 @@
         <initial>M</initial>
       </witness>
     </hasWitnesses>
-    <description>
-      Question list is copied from Mora-Márquez, Ana María. 2014. “A List
-      of Commentaries on Aristotleś De Anima III (C. 1200–c.1400).” Cahiers de
-      l'Institut Du Moyen-Âge Grec et Latin 83: 207–56, p. 222.
-
-      The text is edited in Bazán, Bernardo Carlos, ed. 1972. Siger de Brabant.
-      Quaestiones in Tertium de Anima. De Anima Intellectiva. De Aeternitate
-      Mundi. Philosophes Médiévaux. Leuven: Peeters.
-    </description>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-238-librum3" type="da-liber3">
+      <head>Liber 3</head>
       <item id="da-238-l3q1" type="quaestio">
         <fileName filestem="da-238-l3q1"/>
         <title>Liber 3, Quaestio 1</title>

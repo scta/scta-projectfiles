@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Guillelmus Hedonensis</authorName>
     <commentaryName>Tractatus de anima</commentaryName>
     <commentaryid>da-3</commentaryid>
     <commentaryslug>da-3</commentaryslug>
+    <authorUri>http://scta.info/resource/GuillelmusHedonensis</authorUri>
     <!-- I know parentUri makes no sense; it is an old redundancy of commentary id; it can be removed once the build script is updated -->
     <parentUri>http://scta.info/resource/da-3</parentUri>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-3/</textfilesdir>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <authorUri>http://scta.info/resource/person/GuillelmusHedonensis</authorUri>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-3/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <hasWitnesses>
       <witness id="C">
@@ -25,22 +28,21 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-3-distinctio1">
-      <item id="da-3-d1prooemium">
-        <fileName filestem="da-3-d1prooemium"/>
-        <title>Prooemium</title>
-        <hasWitnesses>
-          <witness ref="C">
-            <folio>1</folio>
-          </witness>
-          <witness ref="O">
-            <folio>1</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
+  <div id="body">
+    <item id="da-3-d1prooemium">
+      <fileName filestem="da-3-d1prooemium"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="C">
+          <folio>1</folio>
+        </witness>
+        <witness ref="O">
+          <folio>1</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
     <div id="da-3-distinctio1" type="distinctio">
+      <head>Liber 3, Distinctio 1</head>
       <item id="da-3-d1c1" type="capitulum">
         <fileName filestem="da-3-d1c1"/>
         <title>Distinctio 1, capitulum 1</title>
@@ -249,9 +251,9 @@
       <item id="da-3-d2c15" type="capitulum">
         <fileName filestem="da-3-d2c15"/>
         <title>Distinctio 2, capitulum 15</title>
-        <quaestion-title>
+        <questionTitle>
           Ultimo inter sensus, de tactu.
-        </quaestion-title>
+        </questionTitle>
       </item>
       <item id="da-3-d2c16" type="capitulum">
         <fileName filestem="da-3-d2c16"/>
@@ -262,6 +264,7 @@
       </item>
     </div>
     <div id="da-3-distinctio3" type="distinctio">
+      <head>Liber 3, Distinctio 3</head>
       <item id="da-3-d3c1" type="capitulum"> <!-- Suggestions type:capitulum -->
         <fileName filestem="da-3-d3c1"/>
         <title>Distinctio 3, capitulum 1</title>

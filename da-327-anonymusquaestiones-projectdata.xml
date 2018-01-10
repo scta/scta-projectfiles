@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones in De anima I--II</commentaryName>
-    <commentaryslug>da-327</commentaryslug>
     <commentaryid>da-327</commentaryid>
+    <commentaryslug>da-327</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/da-327</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-327/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Joachim Vennebusch</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <description>
+      Question list is transcribed from Vennebusch, Joachim. 1966. “Die Einheit
+      Der Seele Nach Einem Anonymen Aristoteleskommentar aus Der Zeit Des Thomas
+      von Aquin Und Siger von Brabant (Vat. Lat. 869 f° 200r-210v).” Recherches
+      de Théologie Ancienne et Médiévale 33: 39–80, p. 41–42.
+    </description>
     <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="V">
@@ -18,15 +27,10 @@
         <initial>V</initial>
       </witness>
     </hasWitnesses>
-    <description>
-      Question list is transcribed from Vennebusch, Joachim. 1966. “Die Einheit
-      Der Seele Nach Einem Anonymen Aristoteleskommentar aus Der Zeit Des Thomas
-      von Aquin Und Siger von Brabant (Vat. Lat. 869 f° 200r-210v).” Recherches
-      de Théologie Ancienne et Médiévale 33: 39–80, p. 41–42.
-    </description>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-327-librum1" type="da-liber1">
+      <head>Liber 1</head>
       <item id="da-327-l1q1" type="quaestio">
         <fileName filestem="da-327-l1q1"/>
         <title>Liber 1, Quaestio 1</title>
@@ -272,6 +276,7 @@
       </item>
     </div>
     <div id="da-327-librum2" type="da-liber2">
+      <head>Liber II</head>
       <item id="da-327-l2q1" type="quaestio">
         <fileName filestem="da-327-l2q1"/>
         <title>Liber 2, Quaestio 1</title>

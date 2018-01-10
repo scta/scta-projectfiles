@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Alexander Bonini de Alexandria</authorName>
@@ -8,7 +9,10 @@
     <authorUri>http://scta.info/resource/AlexanderOfHales</authorUri>
     <parentUri>http://scta.info/resource/alexanderexpositio</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <textfilesdir>https://github.com/mldac/alexanderexpositio.git</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-57/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder></questionListEncoder>
     <hasWitnesses>
       <witness id="A">
         <slug>assfra326</slug>
@@ -18,7 +22,7 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <div id="da-57-lib3" type="librum3">
+    <div id="da-57-lib3" type="da-liber3">
       <head>Liber tertius</head>
       <item type="lectio">
         <fileName filestem="da-57-l3lec1"/>

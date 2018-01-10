@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones De anima III</commentaryName>
-    <commentaryslug>da-348</commentaryslug>
     <commentaryid>da-348</commentaryid>
+    <commentaryslug>da-348</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/da-348</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-348/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Jozef De Raedemaeker</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <description>
       The question list was originally published in De Raedemaeker, Jozef.
       1966–67. “Informations Concernant Quelques Commentaires Du « De Anima ».”
       Bulletin de Philosophie Médiévale , Bulletin de Philosophie Médiévale,
       8–9: 87–110, p. 102.
     </description>
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="A">
         <slug>ass290</slug>
@@ -26,8 +29,8 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-348-librum3">
+  <div id="body">
+    <div id="da-348-librum3" type="da-liber3">
       <head>Liber tertius</head>
       <item id="da-348-l3q1" type="quaestio">
         <fileName filestem="da-348-l3q1"/>

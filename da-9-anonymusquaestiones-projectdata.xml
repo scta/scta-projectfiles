@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones in tertium De anima</commentaryName>
     <commentaryid>da-9</commentaryid>
     <commentaryslug>da-9</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/da-9</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-9/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <!-- possible metadata should go here or be added elsewhere  -->
+    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
     <hasWitnesses>
       <witness id="D">
         <slug>dig55</slug>
@@ -15,10 +22,11 @@
         <initial>D</initial>
       </witness>
     </hasWitnesses>
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-9-librum3">
+  <div id="body">
+    <div id="da-9-librum3" type="da-liber3">
+      <head>Liber III</head>
       <item id="da-9-l3q1" type="quaestio">
         <fileName filestem="da-9-l3q1"/>
         <title>Liber 3, quaestio 1</title>

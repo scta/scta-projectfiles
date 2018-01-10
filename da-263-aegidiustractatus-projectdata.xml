@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Aegidius Romanus</authorName>
@@ -9,12 +10,15 @@
     <parentUri>http://scta.info/resource/aer-trip</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>https://github.com/mldac/aer-trip.git</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder></questionListEncoder>
     <hasWitnesses>
       <witness id="O">
         <slug>boddig150</slug>
         <title>Oxford, Bodleian Library, Digby 150, ff. 132v-144v</title>
         <initial>O</initial>
-        <folio>132vb-144vb</folio>
+        <!--<folio>132vb-144vb</folio>-->
       </witness>
     </hasWitnesses>
   </header>
@@ -32,11 +36,11 @@
         </hasWitnesses>
       </item>
     </div>
-    <div id="da-263-xxx" type="???"> <!-- Which types are available?? -->
-      <item type="???">                                  <!-- Type? -->
+    <!--<div id="da-263-xxx" type="???"> <!-\- Which types are available?? -\->
+      <item type="???">                                  <!-\- Type? -\->
         <fileNmae filestem="da-263" />
         <title>Tractatus</title>
       </item>
-    </div>
+    </div>-->
   </div>
 </listofFileNames>

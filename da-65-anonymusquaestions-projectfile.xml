@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-    <authorName>Anonymus</authorName>
+    <authorName>Anonymous</authorName>
     <commentaryName>Quaestiones De anima I-II</commentaryName>
     <commentaryid>da-65</commentaryid>
     <commentaryslug>da-65</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/da-65</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-65/</textfilesdir>
+    <questionListSource></questionListSource>
     <questionListOriginalEditor>Sten Ebbesen</questionListOriginalEditor>
     <!-- I received the list of questions from SE -->
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
@@ -20,8 +25,9 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div type="librum" subtype="librum1" id="da-65-librum1">
+  <div id="body">
+    <div type="da-liber" subtype="da-liber1" id="da-65-librum1">
+      <head>Liber I</head>
       <item id="da-65-prol">
         <fileName filestem="da-65-prol"/>
         <title>Prooemium</title>
@@ -110,7 +116,8 @@
         </hasWitnesses>
       </item>
     </div>
-    <div type="librum" subtype="librum2" id="da-65-librum2">
+    <div type="da-liber" subtype="da-liber2" id="da-65-librum2">
+      <head>Liber II</head>
       <item id="da-65-l2q1" type="quaestio">
         <fileName filestem="da-65-l2q1" />
         <title>Liber 2, quaestio 1</title>

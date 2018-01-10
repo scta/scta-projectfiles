@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
@@ -8,14 +9,14 @@
     <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/da-69</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <textfilesdir></textfilesdir>
-    <webbase>null</webbase>
-    <questionListSource></questionListSource> <!-- Note: I'm still not quite sure which of these indicate what... -->
+    <textfilesdir/>
+    <questionListSource/>
+    <!-- Note: I'm still not quite sure which of these indicate what... -->
     <questionListOriginalEditor>Jozef de Raedemaeker</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
     <!-- possible metadata should go here or be added elsewhere 
     -->
-    <hasWitnesses>
+    <hasWitnesses> 
       <witness id="M">
         <slug>mun23808</slug>
         <title>München, Bayerische Staatsbibliothek, Clm 23808, ff. 34r-v</title>
@@ -33,575 +34,766 @@
       </witness>
       <witness id="W">
         <slug>wro29</slug>
-        <title>Wrocław, Biblioteka Uniwersytecka we Wrocławiu,  IV. F. 29., ff. 275r-326r</title>
+        <title>Wrocław, Biblioteka Uniwersytecka we Wrocławiu, IV. F. 29., ff. 275r-326r</title>
         <initial>W</initial>
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
-    <div id="da-328-librum1" type="dalibrum1"> <!-- Would this be the way to do it? -->
-      <head>
-        Liber primus
-      </head>
+  <div id="body">
+    <div id="da-328-librum1" type="da-liber1">
+      <!-- Would this be the way to do it? -->
+      <head> Liber primus </head>
       <item id="da-328-l1q1" type="quaestio">
-        <fileName filestem="da-328-l1q1" />
+        <fileName filestem="da-328-l1q1"/>
         <title>Liber 1, quaestio 1</title>
         <questionTitle>Utrum de anima sit scientia</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>120</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q2" type="quaestio">
-        <fileName filestem="da-328-l1q2" />
+        <fileName filestem="da-328-l1q2"/>
         <title>Liber 1, quaestio 2</title>
         <questionTitle>Utrum de anima sit scientia realis et naturalis</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>120</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q3" type="quaestio">
-        <fileName filestem="da-328-l1q3" />
+        <fileName filestem="da-328-l1q3"/>
         <title>Liber 1, quaestio 3</title>
         <questionTitle>Utrum anima sit subiectum scientiae de anima</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>121</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q4" type="quaestio">
-        <fileName filestem="da-328-l1q4" />
+        <fileName filestem="da-328-l1q4"/>
         <title>Liber 1, quaestio 4</title>
-        <questionTitle>Utrum omnis scientia et specialiter scientia de anima sit honorabilis</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum omnis scientia et specialiter scientia de anima sit
+          honorabilis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>121</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q5" type="quaestio">
-        <fileName filestem="da-328-l1q5" />
+        <fileName filestem="da-328-l1q5"/>
         <title>Liber 1, quaestio 5</title>
-        <questionTitle>Utrum scientia de anima sit aliis naturalis philosophiae certior et nobilior</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum scientia de anima sit aliis naturalis philosophiae certior et
+          nobilior</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>122</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q6" type="quaestio">
-        <fileName filestem="da-328-l1q6" />
+        <fileName filestem="da-328-l1q6"/>
         <title>Liber 1, quaestio 6</title>
-        <questionTitle>Utrum scientia de anima inter omnes scientias naturalis philosophiae sit difficillima</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum scientia de anima inter omnes scientias naturalis philosophiae sit
+          difficillima</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>122</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q7" type="quaestio">
-        <fileName filestem="da-328-l1q7" />
+        <fileName filestem="da-328-l1q7"/>
         <title>Liber 1, quaestio 7</title>
-        <questionTitle>Utrum idem sit modus investigandi quod quid est animae et aliarum rerum</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum idem sit modus investigandi quod quid est animae et aliarum
+          rerum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>123</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q8" type="quaestio">
-        <fileName filestem="da-328-l1q8" />
+        <fileName filestem="da-328-l1q8"/>
         <title>Liber 1, quaestio 8</title>
-        <questionTitle>Utrum animal universale nihil sit aut posterius suis singularibus</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum animal universale nihil sit aut posterius suis
+          singularibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>123</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q9" type="quaestio">
-        <fileName filestem="da-328-l1q9" />
+        <fileName filestem="da-328-l1q9"/>
         <title>Liber 1, quaestio 9</title>
-        <questionTitle>Utrum accidentia magnam partem conferunt ad cognoscendum quod quid est</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum accidentia magnam partem conferunt ad cognoscendum quod quid
+          est</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>124</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q10" type="quaestio">
-        <fileName filestem="da-328-l1q10" />
+        <fileName filestem="da-328-l1q10"/>
         <title>Liber 1, quaestio 10</title>
-        <questionTitle>Utrum anima habeat aliquam propriam operationem quam possit exercere sine corpore</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima habeat aliquam propriam operationem quam possit exercere sine
+          corpore</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>125</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q11" type="quaestio">
-        <fileName filestem="da-328-l1q11" />
+        <fileName filestem="da-328-l1q11"/>
         <title>Liber 1, quaestio 11</title>
-        <questionTitle>Utrum dialecticus definiat per solam formam, physicus autem per materiam et formam</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum dialecticus definiat per solam formam, physicus autem per materiam et
+          formam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>125</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q12" type="quaestio">
-        <fileName filestem="da-328-l1q12" />
+        <fileName filestem="da-328-l1q12"/>
         <title>Liber 1, quaestio 12</title>
         <questionTitle>Utrum animata ab inanimatis motu et sensu sint differentia</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>126</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q13" type="quaestio">
-        <fileName filestem="da-328-l1q13" />
+        <fileName filestem="da-328-l1q13"/>
         <title>Liber 1, quaestio 13</title>
         <questionTitle>Utrum cognitum sit in cognoscente secundum esse reale eius</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>126</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l1q14" type="quaestio">
-        <fileName filestem="da-328-l1q14" />
+        <fileName filestem="da-328-l1q14"/>
         <title>Liber 1, quaestio 14</title>
         <questionTitle>Utrum anima sit corpus vel corporea</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>127</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="da-328-librum2" type="dalibrum2">
-      <head>
-        Liber secundus
-      </head>
+    <div id="da-328-librum2" type="da-liber2">
+      <head> Liber secundus </head>
       <item id="da-328-l2q1" type="quaestio">
-        <fileName filestem="da-328-l2q1" />
+        <fileName filestem="da-328-l2q1"/>
         <title>Liber 2, quaestio 1</title>
         <questionTitle>Utrum anima sit substantia</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>127</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q2" type="quaestio">
-        <fileName filestem="da-328-l2q2" />
+        <fileName filestem="da-328-l2q2"/>
         <title>Liber 2, quaestio 2</title>
         <questionTitle>Utrum anima sit materia vel forma vel totum compositum</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>128</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q3" type="quaestio">
-        <fileName filestem="da-328-l2q3" />
+        <fileName filestem="da-328-l2q3"/>
         <title>Liber 2, quaestio 3</title>
         <questionTitle>Utrum anima sit actus primus vel secundus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>128</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q4" type="quaestio">
-        <fileName filestem="da-328-l2q4" />
+        <fileName filestem="da-328-l2q4"/>
         <title>Liber 2, quaestio 4</title>
-        <questionTitle>Utrum anima sit actus corporis physici vitam habentis in potentia</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima sit actus corporis physici vitam habentis in
+          potentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>129</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q5" type="quaestio">
-        <fileName filestem="da-328-l2q5" />
+        <fileName filestem="da-328-l2q5"/>
         <title>Liber 2, quaestio 5</title>
-        <questionTitle>Utrum definitio animae in qua dicitur “anima est actus primus corporis organici physici vitam in potentia habentis” a Philosopho sit bene posita</questionTitle> <!-- NOTE: Should the quote and name be marked, and how? Like with Lombard Press Schema?? -->
-        <witness ref="#T">
+        <questionTitle>Utrum definitio animae in qua dicitur “anima est actus primus corporis
+          organici physici vitam in potentia habentis” a Philosopho sit bene posita</questionTitle>
+        <!-- NOTE: Should the quote and name be marked, and how? Like with Lombard Press Schema?? -->
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>129</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q6" type="quaestio">
-        <fileName filestem="da-328-l2q6" />
+        <fileName filestem="da-328-l2q6"/>
         <title>Liber 2, quaestio 6</title>
         <questionTitle>Utrum anima corpori physico uniatur immediate ut forma</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>130</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q7" type="quaestio">
-        <fileName filestem="da-328-l2q7" />
+        <fileName filestem="da-328-l2q7"/>
         <title>Liber 2, quaestio 7</title>
-        <questionTitle>Utrum secunda definitio animae “anima est principium quo vivimus, sentimus, movemur secundum locum et intelligimus verissimum” a Philosophy sit bene posita</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum secunda definitio animae “anima est principium quo vivimus, sentimus,
+          movemur secundum locum et intelligimus verissimum” a Philosophy sit bene
+          posita</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>131</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q8" type="quaestio">
-        <fileName filestem="da-328-l2q8" />
+        <fileName filestem="da-328-l2q8"/>
         <title>Liber 2, quaestio 8</title>
         <questionTitle>Utrum quattuor sunt gradus viventium</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>131</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q9" type="quaestio">
-        <fileName filestem="da-328-l2q9" />
+        <fileName filestem="da-328-l2q9"/>
         <title>Liber 2, quaestio 9</title>
-        <questionTitle>Utrum vegetativum in homine realiter sit distinctum a sensitivo et intellectivo</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum vegetativum in homine realiter sit distinctum a sensitivo et
+          intellectivo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>131</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q10" type="quaestio">
-        <fileName filestem="da-328-l2q10" />
+        <fileName filestem="da-328-l2q10"/>
         <title>Liber 2, quaestio 10</title>
-        <questionTitle>Utrum potentiae particulares et organicae in eodem distinguantur loco et subiecto et ratione</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentiae particulares et organicae in eodem distinguantur loco et
+          subiecto et ratione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>132</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q11" type="quaestio">
-        <fileName filestem="da-328-l2q11" />
+        <fileName filestem="da-328-l2q11"/>
         <title>Liber 2, quaestio 11</title>
-        <questionTitle>Utrum anima sit receptibilis in corpore sine dispositione praecedente</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima sit receptibilis in corpore sine dispositione
+          praecedente</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>133</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q12" type="quaestio">
-        <fileName filestem="da-328-l2q12" />
+        <fileName filestem="da-328-l2q12"/>
         <title>Liber 2, quaestio 12</title>
-        <questionTitle>Utrum anima sit tota in toto et in qualibet parte corporis tota</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima sit tota in toto et in qualibet parte corporis
+          tota</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>133</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q13" type="quaestio">
-        <fileName filestem="da-328-l2q13" />
+        <fileName filestem="da-328-l2q13"/>
         <title>Liber 2, quaestio 13</title>
         <questionTitle>Utrum potentiae animae ab anima sint realiter distinctae</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>133</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q14" type="quaestio">
-        <fileName filestem="da-328-l2q14" />
+        <fileName filestem="da-328-l2q14"/>
         <title>Liber 2, quaestio 14</title>
-        <questionTitle>Utrum potentiae animae ab anima fluentes naturaliter sint mediae inter substantiam et operationem realiter</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentiae animae ab anima fluentes naturaliter sint mediae inter
+          substantiam et operationem realiter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>135</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q15" type="quaestio">
-        <fileName filestem="da-328-l2q15" />
+        <fileName filestem="da-328-l2q15"/>
         <title>Liber 2, quaestio 15</title>
-        <questionTitle>Utrum potentiae in eodem distinctae separatae conveniant in una essentia numero et etiam genere ut intellectus, visus, auditus et tactus</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentiae in eodem distinctae separatae conveniant in una essentia
+          numero et etiam genere ut intellectus, visus, auditus et tactus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>136</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q16" type="quaestio">
-        <fileName filestem="da-328-l2q16" />
+        <fileName filestem="da-328-l2q16"/>
         <title>Liber 2, quaestio 16</title>
-        <questionTitle>Utrum potentiae animae per actus et obiecta sint distinguendae</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentiae animae per actus et obiecta sint
+          distinguendae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>136</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q17" type="quaestio">
-        <fileName filestem="da-328-l2q17" />
+        <fileName filestem="da-328-l2q17"/>
         <title>Liber 2, quaestio 17</title>
-        <questionTitle>Utrum operationes anima potentiaqua potesriores tepore sint priores obiectis quibus distinguuntur specie</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum operationes anima potentiaqua potesriores tepore sint priores obiectis
+          quibus distinguuntur specie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>137</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q18" type="quaestio">
-        <fileName filestem="da-328-l2q18" />
+        <fileName filestem="da-328-l2q18"/>
         <title>Liber 2, quaestio 18</title>
         <questionTitle>Utrum tantum quinque sunt genera potentiarum animae</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>137</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q19" type="quaestio">
-        <fileName filestem="da-328-l2q19" />
+        <fileName filestem="da-328-l2q19"/>
         <title>Liber 2, quaestio 19</title>
         <questionTitle>Utrum in viventibus generatio similium sit operatio naturalis</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>138</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q20" type="quaestio">
-        <fileName filestem="da-328-l2q20" />
+        <fileName filestem="da-328-l2q20"/>
         <title>Liber 2, quaestio 20</title>
-        <questionTitle>Utrum operationes animae vegetativae causantur ab anima vegetativa in aliquo genere</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum operationes animae vegetativae causantur ab anima vegetativa in aliquo
+          genere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>138</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q21" type="quaestio">
-        <fileName filestem="da-328-l2q21" />
+        <fileName filestem="da-328-l2q21"/>
         <title>Liber 2, quaestio 21</title>
-        <questionTitle>Utrum alimentum vel nutrimentum rei alitae difficile sit obiectum potentiae vegetativae</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum alimentum vel nutrimentum rei alitae difficile sit obiectum potentiae
+          vegetativae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>139</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q22" type="quaestio">
-        <fileName filestem="da-328-l2q22" />
+        <fileName filestem="da-328-l2q22"/>
         <title>Liber 2, quaestio 22</title>
-        <questionTitle>Utrum nutritivum, augmentativum et generativum sint potentiae vegetativae realiter inter se distinctae</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum nutritivum, augmentativum et generativum sint potentiae vegetativae
+          realiter inter se distinctae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>139</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q23" type="quaestio">
-        <fileName filestem="da-328-l2q23" />
+        <fileName filestem="da-328-l2q23"/>
         <title>Liber 2, quaestio 23</title>
-        <questionTitle>Utrum sensus qui dicitur potentia sensitiva sit virtus activa vel passiva</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum sensus qui dicitur potentia sensitiva sit virtus activa vel
+          passiva</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>140</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q24" type="quaestio">
-        <fileName filestem="da-328-l2q24" />
+        <fileName filestem="da-328-l2q24"/>
         <title>Liber 2, quaestio 24</title>
-        <questionTitle>Utrum in parte sensitiva praeter sensum qui est virtus passiva sit dare sensum agentem virtute cuius sensibilia sensus sunt immanentia</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum in parte sensitiva praeter sensum qui est virtus passiva sit dare
+          sensum agentem virtute cuius sensibilia sensus sunt immanentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>140</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q25" type="quaestio">
-        <fileName filestem="da-328-l2q25" />
+        <fileName filestem="da-328-l2q25"/>
         <title>Liber 2, quaestio 25</title>
-        <questionTitle>Utrum numerus, magnitudo, motus, quies et figura sint per se sensibilia</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum numerus, magnitudo, motus, quies et figura sint per se
+          sensibilia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>141</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q26" type="quaestio">
-        <fileName filestem="da-328-l2q26" />
+        <fileName filestem="da-328-l2q26"/>
         <title>Liber 2, quaestio 26</title>
         <questionTitle>Utrum color sit proprium obiectum visus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>141</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q27" type="quaestio">
-        <fileName filestem="da-328-l2q27" />
+        <fileName filestem="da-328-l2q27"/>
         <title>Liber 2, quaestio 27</title>
-        <questionTitle>Utrum lumen requiratur ad videndum propter medium vel propter colorem</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum lumen requiratur ad videndum propter medium vel propter
+          colorem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>142</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q28" type="quaestio">
-        <fileName filestem="da-328-l2q28" />
+        <fileName filestem="da-328-l2q28"/>
         <title>Liber 2, quaestio 28</title>
         <questionTitle>Utrum sonus sit proprium obiectum auditus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>142</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q29" type="quaestio">
-        <fileName filestem="da-328-l2q29" />
+        <fileName filestem="da-328-l2q29"/>
         <title>Liber 2, quaestio 29</title>
         <questionTitle>Utrum odor sit proprium obiectum odoratus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>143</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q30" type="quaestio">
-        <fileName filestem="da-328-l2q30" />
+        <fileName filestem="da-328-l2q30"/>
         <title>Liber 2, quaestio 30</title>
-        <questionTitle>Utrum odoratus cuius obiectum multiplicatur intentionaliter sit unus in omnibus animalibus specie vel naturaliter</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum odoratus cuius obiectum multiplicatur intentionaliter sit unus in
+          omnibus animalibus specie vel naturaliter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>143</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q31" type="quaestio">
-        <fileName filestem="da-328-l2q31" />
+        <fileName filestem="da-328-l2q31"/>
         <title>Liber 2, quaestio 31</title>
-        <questionTitle>Utrum gustus cuius obiectum est sapor realiter distinguatur ab odore et tactu</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum gustus cuius obiectum est sapor realiter distinguatur ab odore et
+          tactu</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>143</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q32" type="quaestio">
-        <fileName filestem="da-328-l2q32" />
+        <fileName filestem="da-328-l2q32"/>
         <title>Liber 2, quaestio 32</title>
         <questionTitle>Utrum tactus sit unus vel plures sensus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>144</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q33" type="quaestio">
-        <fileName filestem="da-328-l2q33" />
+        <fileName filestem="da-328-l2q33"/>
         <title>Liber 2, quaestio 33</title>
-        <questionTitle>Utrum specierum sensibilium sine materia sensus sit perceptivus</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum specierum sensibilium sine materia sensus sit
+          perceptivus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>145</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q34" type="quaestio">
-        <fileName filestem="da-328-l2q34" />
+        <fileName filestem="da-328-l2q34"/>
         <title>Liber 2, quaestio 34</title>
-        <questionTitle>Utrum quinque sunt sensus exteriores scilicet visus, auditus, etc.</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum quinque sunt sensus exteriores scilicet visus, auditus,
+          etc.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>145</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q35" type="quaestio">
-        <fileName filestem="da-328-l2q35" />
+        <fileName filestem="da-328-l2q35"/>
         <title>Liber 2, quaestio 35</title>
-        <questionTitle>Utrum praeter quinque sensus exteriores particulares necesse sit ponere sensum communem ab ipsis dinstinctum realiter</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum praeter quinque sensus exteriores particulares necesse sit ponere
+          sensum communem ab ipsis dinstinctum realiter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>146</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q36" type="quaestio">
-        <fileName filestem="da-328-l2q36" />
+        <fileName filestem="da-328-l2q36"/>
         <title>Liber 2, quaestio 36</title>
-        <questionTitle>Utrum in animalibus perfectis praeter quinque sensus exteriores necesse est ponere quinque interiores, scilicet sensum communem, imaginationem, phantasiam, aestimationem et memoriam sensitivam</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum in animalibus perfectis praeter quinque sensus exteriores necesse est
+          ponere quinque interiores, scilicet sensum communem, imaginationem, phantasiam,
+          aestimationem et memoriam sensitivam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>146</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q37" type="quaestio">
-        <fileName filestem="da-328-l2q37" />
+        <fileName filestem="da-328-l2q37"/>
         <title>Liber 2, quaestio 37</title>
-        <questionTitle>Utrum idem sit sentire et intelligere, sensus et intellectus, phantasia et opinio</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum idem sit sentire et intelligere, sensus et intellectus, phantasia et
+          opinio</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>147</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l2q38" type="quaestio">
-        <fileName filestem="da-328-l2q38" />
+        <fileName filestem="da-328-l2q38"/>
         <title>Liber 2, quaestio 38</title>
         <questionTitle>Utrum phantasia sit sensus, opinio, scientia vel intellectus</questionTitle>
-        <witness ref="#T">
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>147</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="da-328-librum3" type="dalibrum3">
+    <div id="da-328-librum3" type="da-liber3">
+      <head>Liber 3</head>
       <item id="da-328-l3q1" type="quaestio">
-        <fileName filestem="da-328-l3q1" />
+        <fileName filestem="da-328-l3q1"/>
         <title>Liber 3, quaestio 1</title>
-        <questionTitle>Utrum potentia intellectiva ab anima, cuius est pars realiter distincta, in genere intellectualium sit infima et potentia passiva</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentia intellectiva ab anima, cuius est pars realiter distincta, in
+          genere intellectualium sit infima et potentia passiva</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>148</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q2" type="quaestio">
-        <fileName filestem="da-328-l3q2" />
+        <fileName filestem="da-328-l3q2"/>
         <title>Liber 3, quaestio 2</title>
-        <questionTitle>Utrum intellectus secundum esse coniumctum animae sit corpus vel virtus in corpore</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus secundum esse coniumctum animae sit corpus vel virtus in
+          corpore</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>149</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q3" type="quaestio">
-        <fileName filestem="da-328-l3q3" />
+        <fileName filestem="da-328-l3q3"/>
         <title>Liber 3, quaestio 3</title>
-        <questionTitle>Utrum anima intellectiva corpori secundum essentiam separabiliter coniuncta sit specierum intelligibilium sicut locus receptiva</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima intellectiva corpori secundum essentiam separabiliter coniuncta
+          sit specierum intelligibilium sicut locus receptiva</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>149</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q4" type="quaestio">
-        <fileName filestem="da-328-l3q4" />
+        <fileName filestem="da-328-l3q4"/>
         <title>Liber 3, quaestio 4</title>
-        <questionTitle>Utrum anima intellectiva ut forma corpori coniuncta sit una et eadem numero in omnibus hominibus</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima intellectiva ut forma corpori coniuncta sit una et eadem numero
+          in omnibus hominibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>150</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q5" type="quaestio">
-        <fileName filestem="da-328-l3q5" />
+        <fileName filestem="da-328-l3q5"/>
         <title>Liber 3, quaestio 5</title>
-        <questionTitle>Utrum quidditas rei materialis sit proprium obiectum intellectus vel potentiae intellectivae</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum quidditas rei materialis sit proprium obiectum intellectus vel
+          potentiae intellectivae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>151</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q6" type="quaestio">
-        <fileName filestem="da-328-l3q6" />
+        <fileName filestem="da-328-l3q6"/>
         <title>Liber 3, quaestio 6</title>
-        <questionTitle>Utrum intellectus ad quem species intelligibilis comparatur ut forma intelligat se cognoscendo alia</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus ad quem species intelligibilis comparatur ut forma
+          intelligat se cognoscendo alia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>151</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q7" type="quaestio">
-        <fileName filestem="da-328-l3q7" />
+        <fileName filestem="da-328-l3q7"/>
         <title>Liber 3, quaestio 7</title>
-        <questionTitle>Utrum praeter intellectum possibilem in anima intellectiva sit ponendus intelletus agens tamquam eius potentia passiva</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum praeter intellectum possibilem in anima intellectiva sit ponendus
+          intelletus agens tamquam eius potentia passiva</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>152</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q8" type="quaestio">
-        <fileName filestem="da-328-l3q8" />
+        <fileName filestem="da-328-l3q8"/>
         <title>Liber 3, quaestio 8</title>
-        <questionTitle>Utrum intellectus agens in anima intellectiva fundatus ut in subiecto sit distinctus ab intellectu passivo</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus agens in anima intellectiva fundatus ut in subiecto sit
+          distinctus ab intellectu passivo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>153</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q9" type="quaestio">
-        <fileName filestem="da-328-l3q9" />
+        <fileName filestem="da-328-l3q9"/>
         <title>Liber 3, quaestio 9</title>
-        <questionTitle>Utrum intellectus potens simul plura intelligere prius cognoscat divisibile vel indivisibile</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus potens simul plura intelligere prius cognoscat divisibile
+          vel indivisibile</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>153</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q10" type="quaestio">
-        <fileName filestem="da-328-l3q10" />
+        <fileName filestem="da-328-l3q10"/>
         <title>Liber 3, quaestio 10</title>
-        <questionTitle>Utrum intelectus per species intelligibiles a rebus acceptas quas habet in se formaliter possit actualiter intellgere non convertendo se ad phantasmata a quibus habent esse causaliter</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intelectus per species intelligibiles a rebus acceptas quas habet in se
+          formaliter possit actualiter intellgere non convertendo se ad phantasmata a quibus habent
+          esse causaliter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>154</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q11" type="quaestio">
-        <fileName filestem="da-328-l3q11" />
+        <fileName filestem="da-328-l3q11"/>
         <title>Liber 3, quaestio 11</title>
-        <questionTitle>Utrum intellectus res materiales et corporales intelligat abstrahendo a phantasmatibus species intelligibiles</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus res materiales et corporales intelligat abstrahendo a
+          phantasmatibus species intelligibiles</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>155</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q12" type="quaestio">
-        <fileName filestem="da-328-l3q12" />
+        <fileName filestem="da-328-l3q12"/>
         <title>Liber 3, quaestio 12</title>
-        <questionTitle>Utrum anima intellectiva potens cognoscere particularia infinita, contingentia et futura sit quaddammodo omnia</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum anima intellectiva potens cognoscere particularia infinita,
+          contingentia et futura sit quaddammodo omnia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>155</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q13" type="quaestio">
-        <fileName filestem="da-328-l3q13" />
+        <fileName filestem="da-328-l3q13"/>
         <title>Liber 3, quaestio 13</title>
-        <questionTitle>Utrum intellectus speculativus cuius est aliquid absolute apprehendere et intellectus practicus cuius est per formam ad opus extendere, sint potentiae intellectivae raliter distinctae</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum intellectus speculativus cuius est aliquid absolute apprehendere et
+          intellectus practicus cuius est per formam ad opus extendere, sint potentiae intellectivae
+          raliter distinctae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>156</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q14" type="quaestio">
-        <fileName filestem="da-328-l3q14" />
+        <fileName filestem="da-328-l3q14"/>
         <title>Liber 3, quaestio 14</title>
-        <questionTitle>Utrum memoria intellectiva a sensitiva specie et subiecto ab intellectu possibili realiter sit distincta</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum memoria intellectiva a sensitiva specie et subiecto ab intellectu
+          possibili realiter sit distincta</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>157</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q15" type="quaestio">
-        <fileName filestem="da-328-l3q15" />
+        <fileName filestem="da-328-l3q15"/>
         <title>Liber 3, quaestio 15</title>
-        <questionTitle>Utrum potentia appetitiva ab aliis specialiter distincta in appetitum sensitivum et intellectivum sit sufficienter divisa</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum potentia appetitiva ab aliis specialiter distincta in appetitum
+          sensitivum et intellectivum sit sufficienter divisa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>157</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q16" type="quaestio">
-        <fileName filestem="da-328-l3q16" />
+        <fileName filestem="da-328-l3q16"/>
         <title>Liber 3, quaestio 16</title>
-        <questionTitle>Utrum sensus, phantasia, intellectus, appetibile vel appetitum sit in animalibus princpium secundum locum motivum</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum sensus, phantasia, intellectus, appetibile vel appetitum sit in
+          animalibus princpium secundum locum motivum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>158</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="da-328-l3q17" type="quaestio">
-        <fileName filestem="da-328-l3q17" />
+        <fileName filestem="da-328-l3q17"/>
         <title>Liber 3, quaestio 17</title>
-        <questionTitle>Utrum omne movens ex anima et corpore compositum necesse sit habere sensum</questionTitle>
-        <witness ref="#T">
+        <questionTitle>Utrum omne movens ex anima et corpore compositum necesse sit habere
+          sensum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#T">
           <folio>159</folio>
-        </witness>
+          </witness>
+        </hasWitnesses>
       </item>
     </div>
- </div>
+  </div>
 </listofFileNames>

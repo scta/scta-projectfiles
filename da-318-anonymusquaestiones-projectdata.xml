@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Anonymus</authorName>
     <commentaryName>Quaestiones in De anima</commentaryName>
-    <commentaryslug>da-318</commentaryslug>
     <commentaryid>da-318</commentaryid>
+    <commentaryslug>da-318</commentaryslug>
     <authorUri>http://scta.info/resource/Anonymus</authorUri>
     <parentUri>http://scta.info/resource/da-318</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-318/</textfilesdir>
-    <webbase>null</webbase>
     <questionListSource></questionListSource>
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
@@ -25,7 +25,7 @@
       </witness>
     </hasWitnesses>
   </header>
-  <div id="body" xml:lang="la">
+  <div id="body">
     <div id="da-318-librum1" type="da-liber1">
       <head>
         Liber primus de anima
@@ -129,7 +129,8 @@
         </hasWitnesses>
       </item>
     </div>
-    <div xml:id="da-318-librum2" type="da-liber2">
+    <div id="da-318-librum2" type="da-liber2">
+      <head>Liber 2</head>
       <!--
           NOTE: The first 14 questions are located in the section covering book
           III in the Vat Lat 2170. They cover folios 55vb to 59ra. The first
@@ -432,7 +433,8 @@
         </hasWitnesses>
       </item>
     </div>
-    <div xml:id="da-318-librum3">
+    <div id="da-318-librum3">
+      <head>Liber 3</head>
       <item id="da-318-l3q1" type="quaestio">
         <fileName filestem="da-318-l3q1"/>
         <title>Liber 3, Quaestio 1</title>
