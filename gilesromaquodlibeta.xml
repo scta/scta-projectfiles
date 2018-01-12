@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Giles of Rome</authorName>
+    <commentaryName>Quodlibeta</commentaryName>
+    <commentaryid>gilesromaquodlibeta</commentaryid>
+    <commentaryslug>grql</commentaryslug>
+    <authorUri>http://scta.info/resource/GilesOfRome</authorUri>
+    <parentUri>http://scta.info/resource/gilesromaquodlibeta</parentUri>
+    <parentWorkGroup>http://scta.info/resource/quodlibeta</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/gilesromaquodlibeta/</textfilesdir>
+    <questionListSource>Venice 1504</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>Venice1504</slug>
+        <title>Venice 1504</title>
+        <initial>V</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="grql-q1">
+      <head>Quodlibet 1</head>
+      <item id="grql-q1q1" type="quaestio">
+        <fileName filestem="grql-q1q1"/>
+        <title>Quodlibet 1, Quaestio 1</title>
+        <questionTitle>Utrum divina virtute unum et idem simul possit esse in duobus locis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>2r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="grql-q1q2" type="quaestio">
+        <fileName filestem="grql-q1q2"/>
+        <title>Quodlibet 1, Quaestio 2</title>
+        <questionTitle>Utrum praedestinatio iuvari possit precibus sanctorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>2v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="grql-q1q3" type="quaestio">
+        <fileName filestem="grql-q1q3"/>
+        <title>Quodlibet 1, Quaestio 3</title>
+        <questionTitle>Utrum emanatio Filii sit ratio emanationis creaturarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>3r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="grql-q1q4" type="quaestio">
+        <fileName filestem="grql-q1q4"/>
+        <title>Quodlibet 1, Quaestio 4</title>
+        <questionTitle>Utrum substantia panis convertatur in verum corpus christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>4r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="grql-q1q5" type="quaestio">
+        <fileName filestem="grql-q1q5"/>
+        <title>Quodlibet 1, Quaestio 5</title>
+        <questionTitle>Utrum Christus sit in caelo empyreo sub ratione stantis vel sedentis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>4v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="grql-q1q6" type="quaestio">
+        <fileName filestem="grql-q1q6"/>
+        <title>Quodlibet 1, Quaestio 6</title>
+        <questionTitle>Utrum spiritus sanctus distingueretur a filio si non procederet ab eo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>5r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
