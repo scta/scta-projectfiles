@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Franciscus Turrettinus</authorName>
+    <commentaryName>Institutio theologiae elencticiae</commentaryName>
+    <commentaryid>turrettinusinstitutio</commentaryid>
+    <commentaryslug>fti</commentaryslug>
+    <authorUri>http://scta.info/resource/FranciscusTurrettinus</authorUri>
+    <parentUri>http://scta.info/resource/turrettinusinstitutio</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/turrettinusinstitutio/</textfilesdir>
+    <questionListSource>New York 1847</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> 
+      <witness id="U">
+        <slug>Utrecht1734a</slug>
+        <title>Utrecht 1734, Volume 1</title>
+        <initial>U</initial>
+        <date>1734</date>
+        <!--https://books.google.com/books?id=JHCESCPdnXMC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+        volume 1, 1734, edited by Jacobum a Poolsum,-->
+      </witness>
+      <witness id="NY">
+        <slug>NewYork1847</slug>
+        <title>New York 1847, Volume 1</title>
+        <initial>NY</initial>
+        <date>1847</date>
+        <!--https://books.googleusercontent.com/books/content?req=AKW5QafKJekcYKKkeKfOImpRNloNbem014E16fPpz_t8vEHuEgDPqZaE4lTUSySp-ljWRELIu19vXiNAu90jsQeFK7-ZVbrZvMVuJSI4ZUnGcVEQ330g6Fisw397bl1Emcvvdag3NYzZxKO6Ra6dM1rHVYszqL_XkRXxy1dy29UB-Cwl8nUdvRbIUzbWMIzspcfcF3suLXbvZX35m1kKtzOyxMEmgfYeUdsbzg4Dk7xrFEMVKtcD31l3WFZUJUYPzmZ7xiMnOKNhphIDRNi1slmWqC2OUeZ6kQ-->
+        <!-- https://archive.org/details/institutiotheol00turrgoog-->
+      </witness>
+      <!--
+      First edition should be geneva 1679-1685 
+     -->
+    </hasWitnesses>
+    <date>1679 <!-- to 1685 --></date>
+  </header>
+  <div id="body">
+    <div id="fti-l1">
+      <head>Locus primus</head>
+      <questionTitle>De theologia</questionTitle>
+      <item id="fti-l1q1">
+        <fileName filestem="fti-l1q1"/>
+        <title>Quaestio 1</title>
+        <questionTitle>An theologiae vox usurpanda sit in Scholis Christianis, et quot modis
+          sumatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q2">
+        <fileName filestem="fti-l1q2"/>
+        <title>Quaestio 2</title>
+        <questionTitle>An sit theologia, et quotuplex?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q3">
+        <fileName filestem="fti-l1q3"/>
+        <title>Quaestio 3</title>
+        <questionTitle>An detur Theologia naturalis?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q4">
+        <fileName filestem="fti-l1q4"/>
+        <title>Quaestio 4</title>
+        <questionTitle>An theologia naturalis sufficiens sit ad salutem, seu, An Religio aliqua
+          communis detur, per quam omnes promiscue salvari possint?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q5">
+        <fileName filestem="fti-l1q5"/>
+        <title>Quaestio 5</title>
+        <questionTitle>An Deus et res Divinae sint objectum Theologiae?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q6">
+        <fileName filestem="fti-l1q6"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Quodnam sit genus theologiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q7">
+        <fileName filestem="fti-l1q7"/>
+        <title>Quaestio 7</title>
+        <questionTitle>An theologia sit theoretica, an practica</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q8">
+        <fileName filestem="fti-l1q8"/>
+        <title>Quaestio 8</title>
+        <questionTitle>An ratio humana sit principium, et norma ad quam exigi debent religionis
+          christianae et theologiae dogmata, quae sunt fidei objectum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q9">
+        <fileName filestem="fti-l1q9"/>
+        <title>Quaestio 9</title>
+        <questionTitle>An rationi iudicium aliquod competat in rebus fidei? An vero nullus omnino
+          eius sit usus?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q10">
+        <fileName filestem="fti-l1q10"/>
+        <title>Quaestio 10</title>
+        <questionTitle>An rationi humanae iudicium contradictionis in rebus fidei permittendum
+          sit?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q11">
+        <fileName filestem="fti-l1q11"/>
+        <title>Quaestio 11</title>
+        <questionTitle>An aliquis sit usus testimonii sensuum in mysteriis fidei; an penitus sit
+          repudiandum?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q12">
+        <fileName filestem="fti-l1q12"/>
+        <title>Quaestio 12</title>
+        <questionTitle>An dogmata fidei et morum tantum expresso dei verbo demonstranda sint. An non
+          etiam per consequentias ex scriptura institutas legitime probari possint?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="fti-l1q13">
+        <fileName filestem="fti-l1q13"/>
+        <title>Quaestio 13</title>
+        <questionTitle>An aliquis sit philosophiae in theologia usus?</questionTitle>
+        <hasWitnesses>
+          <witness ref="#U"></witness>
+          <witness ref="#NY"></witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="fti-l2">
+      <head>Locus secundus</head>
+      <questionTitle>Scriptura sacra</questionTitle>
+      <item id="fti-l2q1">
+        <fileName filestem="fti-l2q1"/>
+        <title>Locus 2, Quaestio 1</title>
+        <questionTitle>An necessaria fuerit revelatio per Verbum?</questionTitle>
+      </item>
+      <item id="fti-l2q2">
+        <fileName filestem="fti-l2q2"/>
+        <title>Locus 2, Quaestio 2</title>
+        <questionTitle>An necesse fuerit Dei Verbum scripto consignari?</questionTitle>
+      </item>
+      <item id="fti-l2q3">
+        <fileName filestem="fti-l2q3"/>
+        <title>Locus 2, Quaestio 3</title>
+        <questionTitle>An scriptura sacra occasionaliter tantum absque jussu divino sit 
+        exarata?</questionTitle>
+      </item>
+      <item id="fti-l2q4">
+        <fileName filestem="fti-l2q4"/>
+        <title>Locus 2, Quaestio 4</title>
+        <questionTitle>An scriptura sacra vere sit authentica et divina?</questionTitle>
+      </item>
+      <item id="fti-l2q5">
+        <fileName filestem="fti-l2q5"/>
+        <title>Locus 2, Quaestio 5</title>
+        <questionTitle>An in scriptura occurrant verae contradictiones, 
+        seu loca quaedam <!-- greek -->alutha<!-- greek -->, quae nulla 
+         ratione solvi et conciliari possint?</questionTitle>
+      </item>
+      <item id="fti-l2q6">
+        <fileName filestem="fti-l2q6"/>
+        <title>Locus 2, Quaestio 6</title>
+        <questionTitle>Unde nobis innotescat divina Scripturae Authoritas? An ea vel 
+        quoad se, vel quoad nos, pendeat a testimonio ecclesiae?</questionTitle>
+      </item>
+      <item id="fti-l2q7">
+        <fileName filestem="fti-l2q7"/>
+        <title>Locus 2, Quaestio 7</title>
+        <questionTitle>An liber aliquis canonicus perierit?</questionTitle>
+      </item>
+      <item id="fti-l2q8">
+        <fileName filestem="fti-l2q8"/>
+        <title>Locus 2, Quaestio 8</title>
+        <questionTitle>An libri veteris testamenti sint adhuc pars canonis fidei, 
+          morumque regulae in ecclesia novi testamenti?</questionTitle>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
