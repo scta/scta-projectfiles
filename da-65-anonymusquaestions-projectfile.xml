@@ -3,7 +3,7 @@
 <listofFileNames>
   <header>
     <authorName>Anonymous</authorName>
-    <commentaryName>Quaestiones De anima I-II</commentaryName>
+    <commentaryName>Quaestiones De anima I--III</commentaryName>
     <commentaryid>da-65</commentaryid>
     <commentaryslug>da-65</commentaryslug>
     <authorUri>http://scta.info/resource/Anonymous</authorUri>
@@ -11,12 +11,9 @@
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-65/</textfilesdir>
     <questionListSource></questionListSource>
-    <questionListOriginalEditor>Sten Ebbesen</questionListOriginalEditor>
-    <!-- I received the list of questions from SE -->
+    <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
-    <!-- possible metadata should go here or be added elsewhere
-    -->
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    <gitRepoBase>https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="O">
         <slug>oriel33</slug>
@@ -26,22 +23,23 @@
     </hasWitnesses>
   </header>
   <div id="body">
+    <item id="da-65-prol">
+      <fileName filestem="da-65-prol"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#O">
+          <folio c="a">120r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
     <div type="da-liber" subtype="da-liber1" id="da-65-librum1">
-      <head>Liber I</head>
-      <item id="da-65-prol">
-        <fileName filestem="da-65-prol"/>
-        <title>Prooemium</title>
-        <questionTitle/>
-        <hasWitnesses>
-          <witness ref="#O">
-            <folio c="a">120r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
+      <head>Liber primus</head>
       <item id="da-65-l1q1" type="quaestio">
         <fileName filestem="da-65-l1q1" />
         <title>Liber 1, quaestio 1</title>
-        <questionTitle>Utrum cognitio de anima sit nobis possibilis</questionTitle>
+        <questionTitle>
+          Utrum cognitio de anima sit nobis possibilis.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">120r</folio>
@@ -52,7 +50,10 @@
       <item id="da-65-l1q2" type="quaestio">
         <fileName filestem="da-65-l1q2" />
         <title>Liber 1, quaestio 2</title>
-        <questionTitle>Utrum ista scientia sit de anima ut de subiecto vel de corpore animato</questionTitle>
+        <questionTitle>
+          Utrum ista scientia sit de anima ut de subiecto vel de corpore
+          animato.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">120v</folio>
@@ -63,7 +64,9 @@
       <item id="da-65-l1q3" type="quaestio">
         <fileName filestem="da-65-l1q3" />
         <title>Liber 1, quaestio 3</title>
-        <questionTitle>Utrum omnis scientia sit bona</questionTitle>
+        <questionTitle>
+          Utrum omnis scientia sit bona.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">121r</folio>
@@ -73,7 +76,9 @@
       <item id="da-65-l1q4" type="quaestio">
         <fileName filestem="da-65-l1q4" />
         <title>Liber 1, quaestio 4</title>
-        <questionTitle>Utrum scientia de anima excedat alias nobilitate subiecti</questionTitle>
+        <questionTitle>
+          Utrum scientia de anima excedat alias nobilitate subiecti.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">121v</folio>
@@ -84,7 +89,9 @@
       <item id="da-65-l1q5" type="quaestio">
         <fileName filestem="da-65-l1q5" />
         <title>Liber 1, quaestio 5</title>
-        <questionTitle>Utrum universale sit nihil aut per posterius</questionTitle>
+        <questionTitle>
+          Utrum universale sit nihil aut per posterius.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">122r</folio>
@@ -95,7 +102,9 @@
       <item id="da-65-l1q6" type="quaestio">
         <fileName filestem="da-65-l1q6" />
         <title>Liber 1, quaestio 6</title>
-        <questionTitle>Utrum accidens sit principium cognoscendi substantiam</questionTitle>
+        <questionTitle>
+          Utrum accidens sit principium cognoscendi substantiam.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">122v</folio>
@@ -106,7 +115,9 @@
       <item id="da-65-l1q7" type="quaestio">
         <fileName filestem="da-65-l1q7" />
         <title>Liber 1, quaestio 7</title>
-        <questionTitle>Utrum intelligere sit propria operatio animae</questionTitle>
+        <questionTitle>
+          Utrum intelligere sit propria operatio animae.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="b">123r</folio>
@@ -117,11 +128,13 @@
       </item>
     </div>
     <div type="da-liber" subtype="da-liber2" id="da-65-librum2">
-      <head>Liber II</head>
+      <head>Liber secundus</head>
       <item id="da-65-l2q1" type="quaestio">
         <fileName filestem="da-65-l2q1" />
         <title>Liber 2, quaestio 1</title>
-        <questionTitle>Utrum anima sit actus simplex aut sit quid compositum</questionTitle>
+        <questionTitle>
+          Utrum anima sit actus simplex aut sit quid compositum.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="a">124r</folio>
@@ -132,7 +145,9 @@
       <item id="da-65-l2q2" type="quaestio">
         <fileName filestem="da-65-l2q2" />
         <title>Liber 2, quaestio 2</title>
-        <questionTitle>An sit actus, supposito quod forma</questionTitle>
+        <questionTitle>
+          An sit actus, supposito quod forma.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
             <folio c="a">125r</folio>
@@ -142,10 +157,816 @@
       <item id="da-65-l2q3" type="quaestio">
         <fileName filestem="da-65-l2q3" />
         <title>Liber 2, quaestio 3</title>
-        <questionTitle>Utrum sit actus primus alicuius corporis</questionTitle>
+        <questionTitle>
+          Utrum sit actus primus alicuius corporis.
+        </questionTitle>
         <hasWitnesses>
           <witness ref="#O">
-            <folio c="a">125r</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+            <folio>128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+            <folio>131r</folio>
+            <folio>131v</folio>
+            <folio c="a">132r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q4" type="quaestio">
+        <fileName filestem="da-65-l2q4"/>
+        <title>Liber 2, Quaestio 4</title>
+        <questionTitle>
+          Utrum in animatis sit ponere plures formas.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio c="a">134v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q5" type="quaestio">
+        <fileName filestem="da-65-l2q5"/>
+        <title>Liber 2, Quaestio 5</title>
+        <questionTitle>
+          Utrum principium intellectivum convenienter uniatur corpori organico
+          ut actus eius.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>134v</folio>
+            <folio>135r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q6" type="quaestio">
+        <fileName filestem="da-65-l2q6"/>
+        <title>Liber 2, Quaestio 6</title>
+        <questionTitle>
+          Utrum anima intellectiva uniatur corpori humano ut forma substantialis
+          eius.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">135r</folio>
+            <folio>135v</folio>
+            <folio>136v</folio>
+            <folio>136v</folio>
+            <folio c="a">137v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q7" type="quaestio">
+        <fileName filestem="da-65-l2q7"/>
+        <title>Liber 2, Quaestio 7</title>
+        <questionTitle>
+          Utrum vegetativa, sensitiva et intellectiva sint tres animae in homine
+          substantialiter distinctae vel tres potentiae eiusdem animae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>137r</folio>
+            <folio c="a">137v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q8" type="quaestio">
+        <fileName filestem="da-65-l2q8"/>
+        <title>Liber 2, Quaestio 8</title>
+        <questionTitle>
+          Utrum virtus quae est in semine hominis possit producere
+          intellectivam.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>137v</folio>
+            <folio c="a">138r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q9" type="quaestio">
+        <fileName filestem="da-65-l2q9"/>
+        <title>Liber 2, Quaestio 9</title>
+        <questionTitle>
+          Utrum intellectiva secundum se totam sit in qualibet parte corporis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>138r</folio>
+            <folio c="a">138v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q10" type="quaestio">
+        <fileName filestem="da-65-l2q10"/>
+        <title>Liber 2, Quaestio 10</title>
+        <questionTitle>
+          Utrum intellectiva quae est forma substantialis hominis uniatur
+          corpori humano mediantibus dispositionibus accidentalibus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>138v</folio>
+            <folio c="a">139r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q11" type="quaestio">
+        <fileName filestem="da-65-l2q11"/>
+        <title>Liber 2, Quaestio 11</title>
+        <questionTitle>
+          Utrum in homine sit aliquae alia forma substantialis ab intellectiva.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>139r</folio>
+            <folio>139v</folio>
+            <folio>140r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q12" type="quaestio">
+        <fileName filestem="da-65-l2q12"/>
+        <title>Liber 2, Quaestio 12</title>
+        <questionTitle>
+          Utrum anima sit sua potentia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">140r</folio>
+            <folio>140v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q13" type="quaestio">
+        <fileName filestem="da-65-l2q13"/>
+        <title>Liber 2, Quaestio 13</title>
+        <questionTitle>
+          Utrum potentiae animae sint in anima ut in subiecto.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">140v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q14" type="quaestio">
+        <fileName filestem="da-65-l2q14"/>
+        <title>Liber 2, Quaestio 14</title>
+        <questionTitle>
+          Utrum potentiae animae fluant ab eius essentia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">140v</folio>
+            <folio c="a">141r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="ad-65-l2q15" type="quaestio">
+        <fileName filestem="ad-65-l2q15"/>
+        <title>Liber 2, Quaestio 15</title>
+        <questionTitle>
+          Utrum inter potentias animae sit ordo.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>141r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q16" type="quaestio">
+        <fileName filestem="da-65-l2q16"/>
+        <title>Liber 2, Quaestio 16</title>
+        <questionTitle>
+          Utrum potentiae distinguantur per actus et obiecta.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">141r</folio>
+            <folio>141v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q17" type="quaestio">
+        <fileName filestem="da-65-l2q17"/>
+        <title>Liber 2, Quaestio 17</title>
+        <questionTitle>
+          Utrum sint tantum quinque genera potentiarum animae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">141v</folio>
+            <folio>142r</folio>
+            <folio c="a">142v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q18" type="quaestio">
+        <fileName filestem="da-65-l2q18"/>
+        <title>Liber 2, Quaestio 18</title>
+        <questionTitle>
+          Utrum vegetativae sunt tantum tres potentiae, scilicet nutritiva,
+          augmentativa et generativa.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>142v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q19" type="quaestio">
+        <fileName filestem="da-65-l2q19"/>
+        <title>Liber 2, Quaestio 19</title>
+        <questionTitle>
+          Utrum alimentum sit obiectum cuiuslibet partis vegetativae.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">142v</folio>
+            <folio>143r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q20" type="quaestio">
+        <fileName filestem="da-65-l2q20"/>
+        <title>Liber 2, Quaestio 20</title>
+        <questionTitle>
+          Utrum inanimata possit augeri et nutriri.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">143r</folio>
+            <folio>143v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q21" type="quaestio">
+        <fileName filestem="da-65-l2q21"/>
+        <title>Liber 2, Quaestio 21</title>
+        <questionTitle>
+          Utrum sensitiva potentia sit virtus passiva aut activa.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">143v</folio>
+            <folio c="a">144r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q22" type="quaestio">
+        <fileName filestem="da-65-l2q22"/>
+        <title>Liber 2, Quaestio 22</title>
+        <questionTitle>
+          Utrum sensus possit decipi circa proprium sensibile.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">143v</folio>
+            <folio c="a">144r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q23" type="quaestio">
+        <fileName filestem="da-65-l2q23"/>
+        <title>Liber 2, Quaestio 23</title>
+        <questionTitle>
+          Utrum sensibilia communia sint per se sensibilia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="">
+            <folio>144r</folio>
+            <folio c="a">144v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q24" type="quaestio">
+        <fileName filestem="da-65-l2q24"/>
+        <title>Liber 2, Quaestio 24</title>
+        <questionTitle>
+          Utrum Diarii filius et talia sint sensibilia per accidens.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>144v</folio>
+            <folio c="a">145r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q25" type="quaestio">
+        <fileName filestem="da-65-l2q25"/>
+        <title>Liber 2, Quaestio 25</title>
+        <questionTitle>
+          Utrum sensus sit per se singularis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>145r</folio>
+            <folio c="a">145v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q26" type="quaestio">
+        <fileName filestem="da-65-l2q26"/>
+        <title>Liber 2, Quaestio 26</title>
+        <questionTitle>
+          Utrum color per se sit visibilis, et hoc est quaerere an lumen
+          requiratur propter necessitatem medii.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>145v</folio>
+            <folio>146r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q27" type="quaestio">
+        <fileName filestem="da-65-l2q27"/>
+        <title>Liber 2, Quaestio 27</title>
+        <questionTitle>
+          Utrum lux sit de essentia coloris.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">146r</folio>
+            <folio>146v</folio>
+            <folio c="a">147r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q28" type="quaestio">
+        <fileName filestem="da-65-l2q28"/>
+        <title>Liber 2, Quaestio 28</title>
+        <questionTitle>
+          Utrum lumen multiplicet se in medio subito vel succesive
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>147r</folio>
+            <folio>147v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q29" type="quaestio">
+        <fileName filestem="da-65-l2q29"/>
+        <title>Liber 2, Quaestio 29</title>
+        <questionTitle>
+          An corpus luminosum posset se multiplicere per totum medium, posito
+          ipso medio infinito
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>148r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q30" type="quaestio">
+        <fileName filestem="da-65-l2q30"/>
+        <title>Liber 2, Quaestio 30</title>
+        <questionTitle>
+          Utrum ipsum lumen sit corpus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">148r</folio>
+            <folio>148v</folio>
+            <folio c="a">149r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q31" type="quaestio">
+        <fileName filestem="da-65-l2q31"/>
+        <title>Liber 2, Quaestio 31</title>
+        <questionTitle>
+          Utrum coloratum sicut lucentium lux de die videri possit et color de
+          nocte, et quod lux eorum videatur de die.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>149r</folio>
+            <folio c="a">149v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q32" type="quaestio">
+        <fileName filestem="da-65-l2q32"/>
+        <title>Liber 2, Quaestio 32</title>
+        <questionTitle>
+          Utrum visus sit per se cognitivus visiblis et non visibilis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>149v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q33" type="quaestio">
+        <fileName filestem="da-65-l2q33"/>
+        <title>Liber 2, Quaestio 33</title>
+        <questionTitle>
+          Utrum visibile positum supra visum immediate videatur.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">149v</folio>
+            <folio>150r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q34" type="quaestio">
+        <fileName filestem="da-65-l2q34"/>
+        <title>Liber 2, Quaestio 34</title>
+        <questionTitle>
+          Utrum sonus soneretur ex percussione corporum adinvicem.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">150r</folio>
+            <folio>150v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q35" type="quaestio">
+        <fileName filestem="da-65-l2q35"/>
+        <title>Liber 2, Quaestio 35</title>
+        <questionTitle>
+          Utrum sonus habeat esse in percutiente.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">150v</folio>
+            <folio>151r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q36" type="quaestio">
+        <fileName filestem="da-65-l2q36"/>
+        <title>Liber 2, Quaestio 36</title>
+        <questionTitle>
+          An sonus multiplicetur usque ad auditum cum motu aeris.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">151r</folio>
+            <folio c="a">151v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q37" type="quaestio">
+        <fileName filestem="da-65-l2q37"/>
+        <title>Liber 2, Quaestio 37</title>
+        <questionTitle>
+          Utrum sonus habeat esse reale in medio.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">151v</folio>
+            <folio c="a">152r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q38" type="quaestio">
+        <fileName filestem="da-65-l2q38"/>
+        <title>Liber 2, Quaestio 38</title>
+        <questionTitle>
+          An sonus primo et proprio causatus sit unus numero.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>152r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q39" type="quaestio">
+        <fileName filestem="da-65-l2q39"/>
+        <title>Liber 2, Quaestio 39</title>
+        <questionTitle>
+          An odor in medio existat realiter vel intentionaliter.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">152r</folio>
+            <folio>152v</folio>
+            <folio c="a">153r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q40" type="quaestio">
+        <fileName filestem="da-65-l2q40"/>
+        <title>Liber 2, Quaestio 40</title>
+        <questionTitle>
+          Utrum distantia rei visibilis impendiat visionem.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>153r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q41" type="quaestio">
+        <fileName filestem="da-65-l2q41"/>
+        <title>Liber 2, Quaestio 41</title>
+        <questionTitle>
+          An visus sit cognoscibilis visibilis et non visibilis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">153r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q42" type="quaestio">
+        <fileName filestem="da-65-l2q42"/>
+        <title>Liber 2, Quaestio 42</title>
+        <questionTitle>
+          Utrum solius hominis sit odorare cum respiratione aeris.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">153r</folio>
+            <folio c="a">153v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q43" type="quaestio">
+        <fileName filestem="da-65-l2q43"/>
+        <title>Liber 2, Quaestio 43</title>
+        <questionTitle>
+          Utrum gustus sit quidam tactus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>153v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q44" type="quaestio">
+        <fileName filestem="da-65-l2q44"/>
+        <title>Liber 2, Quaestio 44</title>
+        <questionTitle>
+          Utrum gustus prius sentiatur sapor quam humidum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">153v</folio>
+            <folio c="a">154r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q45" type="quaestio">
+        <fileName filestem="da-65-l2q45"/>
+        <title>Liber 2, Quaestio 45</title>
+        <questionTitle>
+          Utrum sensus tactus sit unus.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>154r</folio>
+            <folio>154v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q46" type="quaestio">
+        <fileName filestem="da-65-l2q46"/>
+        <title>Liber 2, Quaestio 46</title>
+        <questionTitle>
+          Utrum omnia tangibilia sufficienter reducantur ad has duas
+          contrarietates, calidi et frigidi, humidi et sicci.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">154v</folio>
+            <folio c="a">155r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q47" type="quaestio">
+        <fileName filestem="da-65-l2q47"/>
+        <title>Liber 2, Quaestio 47</title>
+        <questionTitle>
+          Utrum caro sit medium in tangendo.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>155r</folio>
+            <folio>155v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q48" type="quaestio">
+        <fileName filestem="da-65-l2q48"/>
+        <title>Liber 2, Quaestio 48</title>
+        <questionTitle>
+          Utrum ad tactum necessario requiratur medium extraneum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>155v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!-- After this folio in O there is a gap of some sort. The question ends
+           before the folio ends and the rest is just blank. The following
+           question starts abruptly with missing beginning. There may be any
+           number of missing questions between. The gap is marked in the
+           question list with a %, and the incomplete question is not
+           registered. This means that after this point the numbers for book two
+           do not match the numbering in the index quaestionum of the codex. -->
+      <item id="da-65-l2q49" type="quaestio">
+        <fileName filestem="da-65-l2q49"/>
+        <title>Liber 2, Quaestio 49</title>
+        <questionTitle>
+          <supplied>Utrum aqua possit frigoriferi.</supplied>
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="a">156r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q50" type="quaestio">
+        <fileName filestem="da-65-l2q50"/>
+        <title>Liber 2, Quaestio 50</title>
+        <questionTitle>
+          Utrum omne recipiens speciem sive materiam sit cognoscens.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>156r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q51" type="quaestio">
+        <fileName filestem="da-65-l2q51"/>
+        <title>Liber 2, Quaestio 51</title>
+        <questionTitle>
+          An possibile sit plures esse sensus quam quinque.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">156v</folio>
+            <folio>157r</folio>
+            <folio c="a">157v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q52" type="quaestio">
+        <fileName filestem="da-65-l2q52"/>
+        <title>Liber 2, Quaestio 52</title>
+        <questionTitle>
+          Utrum perceptio operationis sensitivae pertineat ad eundem sensum vel
+          ad alium, et hoc est an visus videat se videre.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>157v</folio>
+            <folio c="a">158r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q53" type="quaestio">
+        <fileName filestem="da-65-l2q53"/>
+        <title>Liber 2, Quaestio 53</title>
+        <questionTitle>
+          Utrum necessarie sit ponere sensum communem
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="a">158r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q54" type="quaestio">
+        <fileName filestem="da-65-l2q54"/>
+        <title>Liber 2, Quaestio 54</title>
+        <questionTitle>
+          Utrum sensus communis sit unus virtus formaliter.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>158r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l2q55" type="quaestio">
+        <fileName filestem="da-65-l2q55"/>
+        <title>Liber 2, Quaestio 55</title>
+        <questionTitle>
+          Utrum necessarie sit ponere sensum agentem.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">159v</folio>
+            <folio>160r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div type="da-liber" subtype="da-liber3" id="da-65-librum3">
+      <head>Liber tertius</head>
+      <item id="da-65-l3q1" type="quaestio">
+        <fileName filestem="da-65-l3q1"/>
+        <title>Liber 3, Quaestio 1</title>
+        <questionTitle>
+          Utrum intellectus possibilis sit essentia intellectivae animae an
+          potentia.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">160r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q2" type="quaestio">
+        <fileName filestem="da-65-l3q2"/>
+        <title>Liber 3, Quaestio 2</title>
+        <questionTitle>
+          Utrum intellectus possibilis sit potentia passiva.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">160r</folio>
+            <folio>160v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q3" type="quaestio">
+        <fileName filestem="da-65-l3q3"/>
+        <title>Liber 3, Quaestio 3</title>
+        <questionTitle>
+          Utrum ad cognitionem habendam de omnibus naturalibus oporteat
+          intellectum secundum se privari omni re corporea.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">160v</folio>
+            <folio>161r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q4" type="quaestio">
+        <fileName filestem="da-65-l3q4"/>
+        <title>Liber 3, Quaestio 4</title>
+        <questionTitle>
+          Utrum oporteat intellectum privari organo corporeo ad hic quod omnia
+          cognoscit.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="b">161r</folio>
+            <folio c="a">161v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q5" type="quaestio">
+        <fileName filestem="da-65-l3q5"/>
+        <title>Liber 3, Quaestio 5</title>
+        <questionTitle>
+          Utrum intellectus noster sit incorporalis.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>161v</folio>
+            <folio c="a">162r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q6" type="quaestio">
+        <fileName filestem="da-65-l3q6"/>
+        <title>Liber 3, Quaestio 6</title>
+        <questionTitle>
+          Utrum intellectus habens penes se speciem intelligibilem possit
+          intelligere absque conversione eius ad fantasma.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio c="a">162r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-65-l3q7" type="quaestio">
+        <fileName filestem="da-65-l3q7"/>
+        <title>Liber 3, Quaestio 7</title>
+        <questionTitle>
+          An clausis omnibus sensibus exterioribus ut in dormientibus possit
+          intellectus in suam operationem <supplied>venire</supplied>, et hoc
+          est an intellectus dormientis possit actu intelligere.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#O">
+            <folio>162r</folio>
           </witness>
         </hasWitnesses>
       </item>
