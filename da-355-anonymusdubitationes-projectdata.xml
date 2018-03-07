@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Anonymus</authorName>
+    <commentaryName>Dubitationes circa animam</commentaryName>
+    <commentaryid>da-355</commentaryid>
+    <commentaryslug>da-355</commentaryslug>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <questionListSource>
+      Hasse, Dag Nikolaus. 2000. Avicenna's De Anima in the Latin West .
+      Avicennaś De Anima in the Latin West . Avicennaś De Anima in the Latin
+      West. London: Warburg Institute: p. 31.
+    </questionListSource>
+    <questionListOriginalEditor>Ermenegildo Bertola</questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase>https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>vatlat175</slug>
+        <title>
+          Vatical, Bibliotheca Apostolica Vaticana, Vat. Lat. 175, ff.
+          208r--218v
+        </title>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <!-- Note: Many of the questions have more elaborate titles in the bottom margin of #B than in the main text. How could we handle that? -->
+  <div id="body">
+    <item id="da-355-q1" type="quaestio">
+      <fileName filestem="da-355-q1"/>
+      <title>Quaestio 1</title>
+      <questionTitle>An sit anima.</questionTitle>
+      <witness ref="#V">
+        <folio>219r</folio>
+      </witness>
+    </item>
+    <item id="da-355-q2" type="quaestio">
+      <fileName filestem="da-355-q2"/>
+      <title>Quaestio 2</title>
+      <questionTitle>Quid sit anima.</questionTitle>
+      <witness ref="#V">
+        <folio c="b">219r</folio>
+        <folio c="a">219v</folio>
+      </witness>
+    </item>
+    <item id="da-355-q3" type="quaestio">
+      <fileName filestem="da-355-q3"/>
+      <title>Quaestio 3</title>
+      <questionTitle>Quid sit definitione.</questionTitle>
+      <witness ref="#V">
+        <folio>219v</folio>
+      </witness>
+    </item>
+    <item id="da-355-q4" type="quaestio">
+      <fileName filestem="da-355-q4"/>
+      <title>Quaestio 4</title>
+      <questionTitle>Utrum fuerit ab aeterno.</questionTitle>
+      <witness ref="#V">
+        <folio c="b">219v</folio>
+        <folio c="a">220r</folio>
+      </witness>
+    </item>
+    <item id="da-355-q5" type="quaestio">
+      <fileName filestem="da-355-q5"/>
+      <title>Quaestio 5</title>
+      <questionTitle>
+        Utrum de aliquo vel de nihilo procedant in esse.
+      </questionTitle>
+      <witness ref="#V">
+        <folio>220r</folio>
+      </witness>
+    </item>
+    <item id="da-355-q6" type="quaestio">
+      <fileName filestem="da-355-q6"/>
+      <title>Quaestio 6</title>
+      <questionTitle>
+        Utrum omnes animae rationales sunt simul creatae.
+      </questionTitle>
+      <witness ref="#V">
+        <folio c="b">220r</folio>
+      </witness>
+    </item>
+    <item id="da-355-q7" type="quaestio">
+      <fileName filestem="da-355-q7"/>
+      <title>Quaestio 7</title>
+      <questionTitle>
+        Utrum creaentur ante infusionem.
+      </questionTitle>
+      <witness ref="#V">
+        <folio c="b">220r</folio>
+        <folio>220v</folio>
+      </witness>
+    </item>
+    <item id="da-355-q8" type="quaestio">
+      <fileName filestem="da-355-q8"/>
+      <title>Quaestio 8</title>
+      <questionTitle>
+        Utrum immediate procedant aliquo.
+      </questionTitle>
+      <witness ref="#V">
+        <folio c="b">220v</folio>
+        <folio>221r</folio>
+      </witness>
+    </item>
+  </div>
+</listofFileNames>
