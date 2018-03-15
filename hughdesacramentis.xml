@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Hugo de Sancto Victore</authorName>
+    <commentaryName>De Sacramentis</commentaryName>
+    <commentaryid>hughdesacramentis</commentaryid>
+    <commentaryslug>hds</commentaryslug>
+    <authorUri>http://scta.info/resource/HughOfStVictor</authorUri>
+    <parentUri>http://scta.info/resource/hughdesacramentis</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hughdesacramentis/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    
+  </header>
+  <div id="body">
+    <div id="hds-prol">
+      <head>Prologus</head>
+      <item id="hds-prolc1">
+        <fileName filestem="hds-prolc1"/>
+        <title>Cap. I</title>
+        <questionTitle>Quae sint dicenda a principio.</questionTitle>
+      </item>
+      <item id="hds-prolc2">
+        <fileName filestem="hds-prolc2"/>
+        <title>Cap. II</title>
+        <questionTitle>Quae sit materia divinarum Scripturum.</questionTitle>
+      </item>
+      <item id="hds-prolc3">
+        <fileName filestem="hds-prolc3"/>
+        <title>Cap. III</title>
+        <questionTitle>Quoniam divina Scriptura per opera
+          conditionis descendat ad narranda opera restaurationis·
+        </questionTitle>
+      </item>
+      <item id="hds-prolc4">
+        <fileName filestem="hds-prolc4"/>
+        <title>Cap. IV</title>
+        <questionTitle>Quod tripliciter tractat de materia
+          sua eloquium sacrum.
+        </questionTitle>
+      </item>
+      <item id="hds-prolc5">
+        <fileName filestem="hds-prolc5"/>
+        <title>Cap. V</title>
+        <questionTitle>Quod in sacro eloquio non sol.re voces
+          sed et res signi.flcare he.bent..
+        </questionTitle>
+      </item>
+      <item id="hds-prolc6">
+        <fileName filestem="hds-prolc6"/>
+        <title>Cap. VI</title>
+        <questionTitle>Quomodo omnes artes subserviunt divinae sapientiae</questionTitle>
+      </item>
+      <item id="hds-prolc7">
+        <fileName filestem="hds-prolc7"/>
+        <title>Cap. VII</title>
+        <questionTitle>De numero librorum sacri eloquii.</questionTitle>
+      </item>
+    </div>
+    <div id="hds-l1">
+      <head>Liber primus</head>
+      <div id="hds-l1p1">
+        <head>Prima pars</head>
+        <item id="hds-l1p1c1">
+          <fileName filestem="hds-l1p1c1"/>
+          <title>C. 1</title>
+          <questionTitle>Unum esse principium a quo facta</questionTitle>
+        </item>
+        <item id="hds-l1p1c2">
+          <fileName filestem="hds-l1p1c2"/>
+          <title>C. 2</title>
+          <questionTitle>Utrum priue materia facta est quam forma</questionTitle>
+        </item>
+        <item id="hds-l1p1c3">
+          <fileName filestem="hds-l1p1c3"/>
+          <title>C. 3</title>
+          <questionTitle>Utrum priue materia facta est quam forma</questionTitle>
+        </item>
+      </div>
+      <div id="hds-l1p2">
+        <head>Secunda pars</head>
+      </div>
+      <div id="hds-l1p3">
+        <head>Tertia pars</head>
+        <item id="hds-l1p3c25">
+          <fileName filestem="hds-l1p3c25"/>
+          <title>Cap. XXV</title>
+          <questionTitle>Quare tria illa ineffabilia in deitate personae tres dicuntur: et tria in humanitate non 
+          dicuntur</questionTitle>
+        </item>
+        
+      </div>
+      <div id="hds-l1p4">
+        <head>Quarta pars</head>
+      </div>
+      <div id="hds-l1p6">
+        <head>Sexta pars</head>
+        <item id="hds-l1p6c13">
+          <fileName filestem="hds-l1p6c13"/>
+          <title>Cap. XIII</title>
+          <questionTitle>De cognitione rerum visibilium</questionTitle>
+        </item>
+        <item id="hds-l1p6c14">
+          <fileName filestem="hds-l1p6c14"/>
+          <title>Cap. XIV</title>
+          <questionTitle>De cogitione Creatoris</questionTitle>
+        </item>
+      </div>
+      <div id="hds-l1p7">
+        <head>Septima pars</head>
+      </div>
+      <div id="hds-l1p8">
+        <head>Octava pars</head>
+      </div>
+      <div id="hds-l1p9">
+        <head>Nona pars</head>
+      </div>
+      <div id="hds-l1p10">
+        <head>Decima pars</head>
+      </div>
+      <div id="hds-l1p11">
+        <head>Undecima pars</head>
+      </div>
+      <div id="hds-l1p12">
+        <head>Duodecima pars</head>
+      </div>
+    </div>
+    <div id="hds-l2">
+      <head>Liber secundus</head>
+      <div id="hds-l2p1">
+        <head>Prima pars</head>
+      </div>
+      <div id="hds-l2p2">
+        <head>Secunda pars</head>
+      </div>
+      <div id="hds-l2p3">
+        <head>Tertia pars</head>
+      </div>
+      <div id="hds-l2p4">
+        <head>Quarta pars</head>
+      </div>
+      <div id="hds-l2p5">
+        <head>Quinta pars</head>
+      </div>
+      <div id="hds-l2p6">
+        <head>Sexta pars</head>
+      </div>
+      <div id="hds-l2p7">
+        <head>Septima pars</head>
+      </div>
+      <div id="hds-l2p8">
+        <head>Octava pars</head>
+      </div>
+      <div id="hds-l2p9">
+        <head>Nona pars</head>
+      </div>
+      <div id="hds-l2p10">
+        <head>Decima pars</head>
+      </div>
+      <div id="hds-l2p11">
+        <head>Undecima pars</head>
+      </div>
+      <div id="hds-l2p12">
+        <head>Duodecima pars</head>
+      </div>
+      <div id="hds-l2p13">
+        <head>Tertia decima pars</head>
+      </div>
+      <div id="hds-l2p14">
+        <head>Quarta decima pars</head>
+      </div>
+      <div id="hds-l2p15">
+        <head>Quinta decima pars</head>
+      </div>
+      <div id="hds-l2p16">
+        <head>Sexta decima pars</head>
+      </div>
+      <div id="hds-l2p17">
+        <head>Septima decima pars</head>
+      </div>
+      <div id="hds-l2p18">
+        <head>Octava decima pars</head>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
+    <!--
+
+
+
+
+CA.P. I.  els primordialibue rerum omnium.
+eunt omnia de nihilo. CA.P. II. De caueie primordialibus et de effecti·
+CAP. II. Utrum priue materia facta est quam bus earum.
+forma. CA.P. III. De generatione causarum primordia·
+CA.P. III. Ratio quare voluit Deus per tempo· lium.
+rum intervalla opera sua ad completionem per- CAP. IV. Qure sit prima cauea conditionis raducere
+et prius esse facere quam pulchrum eese. tionallum.
+CA.P. IV. Utrum potuit aliquando esse materia CA.P. V. Quod divinre voluntati et bonltas ad·
+sine forma. B fuit et poteetas.
+CAP. V. Simul creata fuisee omnia, id est, vi- CAP. VI. De tribus perfectis et perfi.cientibus
+sibllia et invieibilia. omnia.
+CA.P. VI. De prima informitate rerum omnium CA.P. VII. Quod hwc tria de Deo eecundum
+qualle fuit: et quandiu mundus in ilia perman- substantiam dicuntur.
+sit. CA.P. VIII. Quare hmc tria cum eecundum
+CA.P. VII. De distinctione formationis. substantiam dicantur, quasi propria in quibus-
+CA.P. VIII. De mysterio lucis quare primB facta dam locie personie attributa inveninntur.
+est. CAP. IX. Quod sapientia Dei cum una sit in se
+CAP. IX. Qualia eadem facta est lux, et ubi. eecundum nos diverea nomina eortitur.
+CAP. X. Quod simul faeta est lux. visibllis et CAP, X. Quod voluntae Dei reterna fuit de opeinvieibllie
+et pariter divi.sa a tenebris. re temporali.
+CAP. XI. Quod lux tree dies iliuminavit; et CA.P. XI. Quod tria in Deo coreterna fuerunt.
+quare ante solem facta est. CAP. XII. Quod tria visibllia mundi, tria invi·
+CAP. XII. Sacramentum divinorum operum. eibllia Dei demonstrant.
+CAP. XIII. Quare dixit Scriptura : Vidit Deus C CAP. XIII. Quod similitudo Dei in rationali
+lucem. creatura perfectior est quam extra eam.
+CAP. XIV. Qure sit cautela boni operie hie si- CA.P. XIV. De scientia et prrescientia Dei, et
+gni.ficata. quod ex ea in rebus necessitas provenire videtur.
+CAP. XV. Quid factum est de luce ilia primaria CA.P. XV. Quomodo omnia in Deo ab reterno
+post creatum solem : et an de ipsa sol substan- eran• priusquam in semetipsis subsisterent ; et
+tialiter factus eat. eorum illic non prrescientia, sed scientia erat.
+CA.P. XVI. Utrum Deus per sex dies sine in· CAP. XVI. Si res futurre non fuissent, sapientervallo
+operatue est, sive alio quolibet modo. tia Dei scientia esset, sed prreecientia non dice-
+CAP. XVII. De opere secundie diei quando fac- retur.
+tum eat firmamentum. CAP. XVII. Quomodo utrumque retemum est
+CAP. XVIII. De qua materia factum sit ftrma- prrescitum ease et futurum eese.
+mentum; et quale factum sit. CAP. XVIII. Quomodo ei rerum eventue muta-
+CAP. XIX. Sacramentum supradictorum. rentur prrescientia tamen non mutaretur.
+CAP. XX. Quare non dicitur Deus vidisse opus CAP. XIX. De providentia Dei; et quod dusecundre
+diei quod bonum esset. D plex est providentia Dei in suis et alienis.
+CAP. XX!. Quomodo congregatre aunt aquoo in CA.P. XX. De dispositione divina.
+unum locum, ut arida appareret. CAP. XXL De prredestinatione divina.
+CAP. XXII. Quomodo terra germina produxit. CA.P. XXII. De potestate Dei, et quod duplici-
+CAP. XXIII. Quare illre aqure qure super ere- ter coneideratur potestas in Deo esse; et utroquo
+lum sunt non aunt congregatai in unum locum. modo Deum omnipotentem esse.
+CAP. XXIV. Quod his tribus diebus facta est
+rerum dispoeitio.
+CAP. XXV. Quo modo tribus diebus sequentibus
+ornatus est mundus.
+CAP. XXVI. An de ipeis elementis facta sint
+qure ad ornatum illorum facta aunt.
+CAP. XXVII. Sacrameutum quare aves et pieces
+de una materia facti aunt; et in una sedo dispositi
+non sunt.
+CA.P. XX VIII. Quare opera conditionis prius
+commemorantur; deiD.de opera ree~ura\ionls.
+CA.PITULA. TERTI..E PARTIS.
+CA.P. I. Qualiter ab initio Deus agnitus est,
+et quod unus et quod trinue.
+CAP. II. Quare Deus nee totue sciri, nee totus
+ignorari poteet.
+CAP. III. Quibus modis eognitio Dei ad hominem
+venit.
+CAP. IV. Quod Deus trinue et unus; et quid, in
+unitate et quid in Trinitate.
+CAP. v. Explieatio propoeitarwn diseretionum.
+tTI DE SACRilfENTIS. t?8
+CAP. VI. De illo eognitionis genere quo mens A CAP. VII. Quare operatio et permissio Del vorationalis
+in se Deum videre potcat. luntaa ejua dicuntur.
+CAP. VII. Quod scipaam esae videt mens ra· CAP. VIII. Quod duplex eit diaeretlo voluntatls
+tionalie. Dei; in beneplncito ejua et in eigno beneplaciti
+CA.P. Vill. Et quod se OOlpisae intelligit. ejua.
+CAP. IX. Quod Deus eat et etiam quod sine CA..P. IX. Quart.a eat in prreceptione ; quinta in
+prineipio eat. prohibitione.
+CAP. X. Ejuedem rei argumentum forte in · CA.P. X. Quod non eimilia signa aunt reterni
+creaturis. beneplaciti prreeeptio et prohibitio, aicut opera-
+~AP. XI. Quod Deus trinua et unua. tio, et permiasio.
+CAP. XII. Quod vere et aumme unus. CAP. XI. Quomodo fallere videtur Deus prre-
+CA.P. xm. Quod immutabilis eat Deus. ceptione vel probibitione, aliud innuena qunm
+CAP. XIV. Quod rntionem creatura recte eonai· sit in beneplacito auo.
+der:ita adjuvat ad cognoscendum Deum. · CAP. XII. Utrumque durum aonare ; vol quod
+CAP. XV. Quibue modia corpora mutnntur. Deus .prrocipiat quod nolit, vel quod nolit fieri
+CAP. XVI. Quibua modis apiritus mutantur. B permittnt.
+CAP. XVII. Quod Deus casentialiter eat et vere CAP. XIII. Quod Deus non vult mala, quamest,
+et in omni creatnra sive natura, sive aui de· via velit ut mnln sint, quia hoc bonum e·at.
+linitione; et in omni loco sine circumscriptione, CAP. XIV. Quod semper impletur voluntaa Dei.
+el in omni tempore sine viciasitudine vel muta· CAP. JCV. Quomodo mnli excusabiles non aunt,
+tione. qunmvis per eoe voluntas Dei impleatur.
+CAP. XVIll, Quomodo apiritus creati locales CAP. XVI. Quare prrecepit Deus omnc quod
+sunt, et quomodo corpora. prrecipit.
+CAP. XIX. Ratio qualiter Deus non aolum CAP. XVII. Omne quod bonum dicitur, vel seunus,
+sed trinus sit. eundum se vel ad allquid bonum dicitur.
+Cu. XX. De verbo intrinaeco et extrinseco. CAP. XVIII. Quod aecundum se bonum dicitnr
+el univeraallter dicitur, vere et summe bonum
+CAP. XXI. Quod imago Dei in rntionali crea- ease.
+t~ra exp~eaaior est, et vestigium Trinitntis inve- CAP. XIX. De tribus generibus boni.
+natur in ipaa. . CAP. XX. :Majua bonum ease illu<l ex quo ma·
+CAP. XXIl. Quomodo tree peraonro e1nt in es· J'us bonum est
+ti . bt t' c . ae~.~ 8X1
+vXelllt1u sDenndi.a un~ . . T . CAP. XXI. Quod Deus propter se, id eat pro
+UM"· • ieere.ione nominum in n· utilitate aua vel eommodo nihil pnecipit.
+nita\.e una.
+CAP. XXIV. Quomodo Spiritus aanctus a Patre CAP. XXII Quod Deus hoc unicuique PlleCipere
+babel quod bonum est ipai cui prrecipit,etiam
+et Fillo mittitur retema processionne ab illis, et si bonum omnium non est.
+temporali adventu ad nos. CAP. XXIII. Quod bonum univereitatls Deus
+CAP. XXV. Quare tria illa ineffabilla in deitate impedire non habet, etiam si illud alicul bonum
+peraorue tree dicuntur : et tria in humanitate non non est.
+dicnntur. CAP. XXIV. Quod operatio et permiesio Dei si-
+CA.P. XXVI. Quare potentia Patri tribuitur,sa- gna sint quid ease bonum sit etiam ai illud bopientfa
+Fillo, bonitae sive benignitas Spiritui num non sit : prooceptio et prohibitio signa aunt
+sancto. quid bonum sit, etiam ei illud ease bonum non sit.
+CAP. XXVII. Alia ratio quare illa qure eecun- CAP. XXV. Beneplacitum Dei aliquando esae
+dum 1ubatantiam dicuntur et communia aunt, adrem ; aliquando ad a.ctum rei.
+pereonaliter aunt diacreta. D CAP. XXVI. De rerum ordine in primia et ~
+CAP. XXvllI. Quod vestigium Trinitatia non cundia et tertiie.
+eolum in rationaU creatura, sed etiam in corpo- CAPITULA QUINT • .£ PARTIS.
+rea reperitur. CAP. I. De creatione angelorom, et creteria de
+CAP. XXIX. Quod in hie tribue omnia. illie inquirendis.
+CAP. XXX. Recapitulatio eupradictorum. CAP. II. Quod in principio creati aunt angeli.
+CAP. XXXI. Brevis somma eorum quill supra· CAP. III. Quod rationelia creatura prima om.
+dicta aunt cum adjectione quorumdam. nium facta est dignitate: quoniam ad ipsam reCA..
+PITULA. QUA.RTE PARTIS.
+CAP. I. De voluntate Dei.
+CAP. n. Quot modis Scripturn voluntatem Dei
+accipiat.
+CAP. III. Prima beneplacitum dicitur. ·
+CAP. IV. Secunda operatio ; tertia permissio.
+CAP. V. Quod Deus bona fecit, mala permisit.
+Cu. VI. Qua.re Deus mala permi.aiL
+•
+fertur eonditio reliquorum, sicut ipsius condltio
+ad Deum refertur, quoniam nd similitudinem
+Dei facta est sola.
+CAP. IV. Quod in principio primo simul facta
+sunt et eorporea omnia in materia , et incorporea
+in angelica natura.
+CAP. V. Quod et eorpo~a et incorporea natura
+et aecundum allquid informis fa.ct.a est, et eecundum
+aliquid formata.
+-
+. t.75 HUGONIS DE S. VICTORE OPP. PARS II. - DOGMATICA . t76
+CAP. VI .• Quomodo omnea artes subserviunt A CAP. XXIX. Quod in operibus reetaurationis
+divinre sapientire. maxime versatur traetatio.
+CAP. VII. De numero librorum saeri eloquii. CAP. XXX. Quatuor esse per qureeermosubee-
+TABULA PRIORIS LIBRI.
+quens deeurrit.
+CAPITULA SECUND..£ PARTIS,
+CA.PITULA PRIM.£ PARTIS
+Ca.t>. I. De eausa ereationis hominis et de cau-
+CAP. I. Unum esse prineipium a quo faeta sis primordialibus rerum omnium.
+aunt omnia de nihilo. CAP. II. De eausis primordialibus et de e.trecti·
+CAP. II. Utrum prius materia faeta est quam bus earum.
+forma. CAP. III. De generatione eausarum primordia-
+CAP. III. Ratio quare voluit Deus per tempo- lium.
+rum intervalla opera sua ad eompletionem per· CAP. IV. Qure sit prima causa conditionis radueere
+et prius ease facere quam pulehrum esse. tionalium.
+CAP. IV. Utrum potuit aliquando ease materia CAP. V. Quod divinre voluntati et bonitas adeine
+forma. B fuit et poteetas.
+CAP. V. Simul creata fuisse omnia, id est, vi- CAP. VI. De tribus perfectie et perfi.cientibus
+sibilia et invisibilia. omnia.
+CAP. VI. De prima informitate rerum omnium CAP. VII. Quod bree tria de Deo secundum
+quails fuit: et quandiu mundus in illa perman- substantiam dicuntur.
+sit. CAP. VIII. Quare haie tria cum seeundum
+CAP. VII. De distinetione formationis. substantiam dicantur, quasi propria in quibus-
+CAP. VIII. De mysterio lucis quare primP. facta dam locis personis attributa inveniuntur.
+est. CAP. IX. Quod sapientia Dei cum una sit in se
+CAP. IX. Qualls eadem faeta est lux, et ubi. seeundum nos diversa nomina sortitur.
+CAP. X. Quod simul faeta est lux vieibilis et CAP, X. Quod voluntas Dei mterna fuit de op&-
+invisibilis et pariter divisa a tenebrie. re temporali.
+CAP. XI. Quod lux tree dies illuminavit; et CAP. XI. Quod tria in Deo eoreterna fuerunt.
+quare ante solem facta est. CAP. XII. Quod tria visibilia mundi, tria invi-
+CA.P. XII. Sacramentum divinorum operum. sibilia Dei demonstrant.
+CAP. XIII. Quare dll:it Seriptura: Vidit Deus c CAP. XIII. Quod similitudo Dei in rationali
+lucem. ereatura perfeetior est quam extra earn.
+CAP. XIV. Qure Bit eautela boni operis hie si- CAP. XIV. De scientia et prrescientia Dei, et
+gnificata. . quod ex ea in rebus necessitas provenire videtur.
+CAP. XV. Quid faetum est de luee illa primaria CAP. XV. Quomodo omnia in Deo ab reterno
+post creatum solem : et an de ipsa sol substan- erani priusquam in semetipsis eubllisterent ; et
+tialiter factus est. eorum illie non prrescientia, sed scientia erat.
+CAP. XVI. Utrum Deus per sex dies sine in- CAP. XVI. Si res futurre non fuissent, sapientervallo
+operatus est, sive alio quolibet modo. tia Dei aeientia esset, sed prrescientia non dice-
+CAP. XVII. De opere secundre diei quando fac- retur.
+tum est firmamentum. CAP. XVII. Quomodo utrumque retemum eat
+CAP. XVIII. De qua materia faetum sit firma- prrescitum ease et futurum ease.
+mentum; et quale faetum sit. CAP. XVIII. Quomodo si rerum eventus muta-
+CAP. XIX. Saeramentum supradictorum. rentur prreacientia tamen non mutarotur.
+CAP. XX. Quare non dieitur Deus vidisse opus Ca.P. XIX. De providentia Dai ; et quod dueecundre
+diei quod bonum easet. D plex est providentia Dei in suis et alienia.
+CAP. XXI. Quomodo congregatm aunt aquro in CAP. XX. De dispositione divina.
+unum locum, ut arida appareret. Ca.P. XXL De prredestinatione divina.
+CAP. XXII. Quomodo terra germina produxit. CAP. XXII. De potestate Dei, et quod duplici·
+CAP. XXIII. Quare illre aqure qure super ere- ter eonaideratur potestas in Deo ease; et utroque
+lum aunt non aunt congregatre in unum locum. modo Deum omnipotentem ease.
+CAP. XXIV. Quod his tribus diebus faeta est
+rerum dispositio.
+CAP. XXV. Quo modo tribus diebus sequenti·
+bus omatus est mundus.
+CAP. XXVI. An de ipsis elementis facta sint
+qure ad ornatum illorum faeta aunt.
+CAP. XXVII. Saeramentum quare aves et pieces
+de una materia facti aunt; et in una sede disposiii
+non aunt.
+CAP. XXVlll. Quare opera conditionia prius
+commemorantur; deinde opera reetauraUoDia.
+CAPITULA TERTL£ PARTIS.
+Ca.P. I. Qualiter ab initio Deus agnitus est,
+et quod unus et quod trinus.
+CAP. II. Quare Deus nee totus sciri, nee totus
+ignorari potest.
+CAP. III. Quibus modis eognitio Dei ad hominem
+venit.
+CAP. IV. Quod Deus trinua et unus; et quid,. in
+unitate et quid in Trinitate.
+CAP. v. Expllcatio propoaitarum diseretionum.
+'
+, tTI DE SACRAMENTIS. t?8 •
+t CAP. VJ. De iUo cognitionis genere quo mens A CAP. VII. Quare operatio et permissio Del vorationalis
+in se Deum videre potest. luntaa ejua dicuntur.
+CAP. VII. Quod scipsam ease vidct mens ra- CAP. VIII. Quod duplex sit discretio voluntatis
+tionalia. Dei ; in beneplacito ejua et in signo beneplaciti
+CAP. vm. Et quod Be ocepisse intelllgit. ejua.
+CAP. IX. Quod Deus est et etiam quod sine CAP. IX. Quarta est in prmceptione ; quinta in
+1 principio est. prohibitione.
+CAP. X. Ejusdem rei argumentum foris in · CAP. X. Quod non aimilia aigna aunt reterni
+ereaturis. beneplaciti prroceptio et prohibitio, sicut opern-
+'.::AP. XI. Quod Deus trinna et unus. tio, et permissio.
+CAP. XII. Quod vere et summe unua. CAP. XI. Quomodo fallere videtur Deus proo-
+C.u>. XID. Quod lmmutabilis est Deus. ceptione vel prohibitione, aliud innuens quam
+CAP. XIV. Quod rationem creatura recte consi· sit in beneplncito suo.
+derata adjuvat ad cognoscendum Deum. · CAP. XII. Utrumque durum sonare ; vel quod
+CAP. XV. Quibus modis corpora mutantur. Deus .prrecipiat quod nolit, vel quod nolit ficri
+CAI>. XVI. Quibus modis spiritus mutantur. B permittnt.
+CAP. XVII. Quod Deus ossentialiter est et vere CAP. XIII. Quod Deus non vult mala, quamest,
+et in omni creatnra sive naturn, sive sul de- vis velit ut nialn sint, quin hoc bonum est.
+finitione ; et in omni loco sine circumscriptione, CAP. XIV. Quod eemper impletur voluntae Dei.
+et in omni tempore sine vicissitudine vel muta· CAP. J(V. Quomodo rnali excusabiles non aunt,
+tione. quamvis per eoe voluntae Dei impleatur.
+CAP. XVIll, Quomodo apiritus creati locales CAP. XVI. Quare pr.ccepit Deus omne quod
+sunt, et quomodo corpora. prrecipit.
+CAP. XIX. Ratio qualiter Deus non aolum CAr. XVII. Omne quod bonum dicitur, vel seunus,
+aed trinus sit. cundum se vel ad aliquid bonum dicitur.
+CAP. XX. De verbo intrinseco et extrinseco. CAP. XVIII. Quod secundum se bonum dieitur
+et universaliter dicitur, vere et aumme bonum
+CAP. XXL Quod imago Dei in rationall crea- ease.
+t~ra exp~eeeior est, et veetigium Trinitatis inve- CAP. XIX. De tribus generibus boni.
+n1tur in ipsa. c XX ... , · b ·n d
+ro.- XXIl Q d . ti AP. • .u.BJUB onum CBBe l U ex quo ma-
+'-'A-I"• • uom? o tree personro e1n n es- C jus bonum est.
+Ml~~~ sXivXelIIsubsDetandit1.a unt~ . i T . CAP. XXI. Quod Deus propter se, id est pro
+~· · sere ione nownum n n- utilitate sua vel commodo nihil priecipit.
+nitate Ulla.
+CAP. XXIV. Qnomodo Spiritus sanctus a Patre re C:abe~~odo:::~:th~siu:~~::i~~~::
+et Fillo mitlitur reterna processionne ab ills, et sibonum omnium non est.
+temporali adventu ad nos. CAP. XXIIl. Quod bonum universitatls Deus
+CAP. XXV. Quare tria iUa inetfabilla in deitate impedire non hnbet, etiam si illud alicui bonum
+persorue trea dicuntur : et tria in humanitate non non est.
+dieontnr. CAP. XXIV. Quod operatfo et permieaio Del si-
+CAP. XXVI. Quare potentia P atri tribuitur,1111- gna sint quid ease bonum sit etiam si illud bopientia
+Fillo, bonitas sive benignitas Spiritui num non sit : prreceptio et prohibitio signa aunt
+eancto. quid bonum sit, etiam ei illud ease bonum non sit.
+CAP. XXVII. Alia mtio quare illa qum seeun· CAP. XXV. Beneplacitum Dei aliquando esse
+dum anbetantiam dicuntur et communia eunt, ad.rem ; aliquando ad aetum rei.
+pereonaliter aunt discreta. D CAP. XXVI. De rerum ordine in primie et ~
+CAP. XXVIII. Quod veetigium Trinitatis non cundis et tertiis.
+eolnm in rationall creatura, sed etiam in corp<r CAPITULA QUINT.£ PARTIS.
+rea reperitur. CAP. I. De creatione angelorum, et ~teris de
+CAP. XXIX. Quod in his tribue omnia. ills inquirendis.
+CAP. XXX. Recapitulatio supradictorum. CAP. II. Quod in principio creati aunt angell.
+CAP. XXXI. Brevis somma eorum quie supra· CAP. III. Quod rationalis creatura prima omdicta
+aunt cum adjectione quorumdam. nium facta est dignitate: quoniam ad ipeam reCAPITOLA
+QUARTlE PARTIS.
+CAP. I . De voluntate Dei.
+CAP. II. Quot modis Scriptura voluntatem Dei
+accipiat.
+CAP. Ill. Prima beneplacitum d icitur. ·
+CAP. IV. Secunda operatio ; tertia permlssio.
+CAP. V. Quod Deus bona fecit, mala permisit.
+CAP. VI. Quare Deus mala permiait.
+•
+fertur conditio reliquorum, eicut ipsius conditio
+ad Deum refertur, quonlam ad similitudinem
+Dei facta eel sola.
+CAP. IV. Quod in principio primo simul facta
+aunt et corporea omnia in materia , et incorporea
+in angelica natura.
+CAP. V. Quod et corporea et incorporea natura
+et secundum aliquid informis facta est, et aecundum
+aliquid formata.
+i75 HUGONIS DE S. VICTORE OPP. PARS II. - DOGMATICA. t76
+CAP. VI. Quomodo omnea artee eubeerviunt A CAP. XXIX. Quod in operibus reetaurationie ••
+divine sapientire. mnxime versatur traetatio.
+CAP. VII. De numero librorum sncri eloquii. CAP. XXX. Quatuor esse per qum sermo eubee-
+TABULA PRIORIS LIBRI.
+quens deeurrit.
+CAPITULA SECUNDA;; PARTIS,
+CA.PITULA PRIME PARTIS CAP. I. De causa creationis hominis et de eau-
+CA.P. I. Unum esee prineipium a quo faeta els primordialibus rerum omnium.
+aunt omnia. de nihilo. CA.P. II. De cauaie primordialibus et de effeeti·
+CAP. II. Utrum priue materia faeta est quam. hue earum.
+forma. CA.P. III. De generatione cauearum primordia-
+CAP. III. Ratio quare voluit Deus per tempo- lium.
+rum intervalla opera aua ad eompletionem per.. CA.P. IV. Qua3 sit prima eausa eonditionie ra·
+dueere et priue esse facere quam pulchrum ease. tionalium.
+CAP. IV. Utrum potuit aliquando esse materia. CAP. V. Quod divine voluntati et bonitae adsine
+forma. B fuit et poteatas.
+CAP. V. Simul creata fuiese omnia, id est, vi· CAP. VI. De tribus perfectie et perficientibus
+eibilla et invisibilia. omnia.
+CAP. VI. De prima informitate rerum omnium CAP. VII. Quod hrec tria de Deo eecundum
+quails fuit : et quandiu mundus in ilia perman- eubstantiam dicuntur.
+sit. CAP. VIII. Quare hree tria cum secundum
+CA.P. VII. De dietinctione formationis. eubstantiam dicantur, quasi propria in quibus-
+CAP. VIII. De myaterio lucis quare prime facta dam locia peraonie attributa inveniuntur.
+est. CA.P. IX. Quod eapientia Dei cum una sit in ee
+CAP. IX. Qualia eadem facto. est lux, et ubi. secundum nos diversa nomina sortitur.
+CAP. X. Quod simul facta est lux visibilia et CAP, X. Quod voluntas Dei $terna fuit de op~
+invieibille et pariter divisa a tenebris. re temporali.
+CA.P. XI. Quod lux tree dies illuminavit ; et CAP. XI. Quod tria in Deo eoreterna fuerunt.
+quare ante eolem faeta eat. CAP. XII. Quod tria vieibilia mundi, tria invi·
+CAP. XII. Sacramentum divinorum operum. aibilia Dei demonstrant.
+CAP. XIII. Quare dixit Scriptura: Vidit Deus c CAP. XIII. Quocl similltudo Dei in rationali
+lucem. creatura perfectior est quam extra eam.
+CAP. XIV. Qure sit eautela boni operis hie si· CAP. XIV. De seientia et prreecientia Dei, et
+gnificata. quod ex ea in rebus neceesitae provenire videtur.
+CAP. XV. Quid faetum est de luee illa primaria. CA.P. XV. Quomodo orunia in Deo ab reterno
+poet creatu:m solem : et an de ipea sol eubatan- erant priusquaru in eemetipsie eubsisterent ; et
+tialiter faetue est. eorum illic non prresciontia, sed scientia erat.
+CAP. XVI. Utrum Deus per sex dies sine in- CAP. XVI. Si res futurm non fuieeent, sapientervallo
+operatus est, eive alio quolibet modo. tia Dei acientia esset, eed prreacientia non dice·
+CAP. XVII. De opere eecundre diei quando fac·· retur.
+tum eat firmamentum. CAP. XVII. Quomodo utrumque retemuru est
+CAP. XVIII. De qua materia factum sit firma- prreecitum ease et futurum Asse.
+mentum ; et quale factum sit. CAP. XVIII. Quomodo si rerum eventus muta-
+CA.P. XIX. Sacramentum eupradictorum. rentur prreseientia tamen non mutaretur.
+CAP. XX. Quare non dicitur Deus vidiese opus CAP. XIX. De providentia Dei ; et quod du·
+secundm diei quod bonum esset. D plex est providentia Dei in suie et alienis.
+CA.p, XXI. Quomodo congregatm aunt aquro in CAP. XX. De diepoeitione divina.
+unum locum, ut arida appareret. CAP. XXL De prredestinatione divina.
+CA.P. XXll. Quomodo tcrra germina produxit. CAP. XXII. De potestate Dei, et quod duplici-
+CA.p, XXIII. Quo.re lire aqure qum super Ca3· ter coneideratur po\eetae in Deo ease; et utroque
+lum aunt non sunt congregatre in unuru Iocum. modo Deum omnipotentem esse.
+CAP. XXIV. Quod his tribus diebue facta est
+rerum dispositio.
+CAP. XXV. Quo modo tribue diebue sequentibue
+ornatus est mundue.
+CAP. XXVI. An de ipeie elementis facta sint
+qure ad ornatum illorum facta aunt.
+CAP. XXVII. Sacramentum quare aves et pieces
+de una materia Cacti sunt; et in una ecde dispoeiti
+non sunt.
+CAP. XX. VIII. Quare opera conditionis priue
+commemorantur; deiD.de opera reetaura\ioDis.
+CAPITULA. TERTL£ PARTIS.
+CAP. I. Quo.liter ab initio Deus ngnitus est,
+et quod unus et quod trinue.
+CAP. II. Quare Deus nee totus sciri, nee totue
+ignorari poteet.
+CA.P. Ill. Quibue modis cognitio Dei ad hoininem
+venit.
+CA.P. IV. Quod Deus trinue et unus; et quid,. in
+unitate et quid in Trinitate.
+CAP. V. Eiplieatio propositarum diacretionum.
+ti7 DE SACRA.MENTIS. t?8
+C.u>. VI. De illo cognitionis genere quo mens A CAP. VII. Quare operatio et permissio Del vorationalia
+in se Deum videre potesl. luntas ejus dicuntur.
+C.u>. vn. Quod ecipeam esee vidct mens ra. CAP. VIII. Quod duplex sit discretio voluntatie
+tionalis. Dei; in beneplacito ejus et in signo beneplaciti
+CAP. VDl. Et quod ae cmpisse intelligit. ejus. .
+CAP. IX. Quod Deus est et etinm quod sine CAP• IX. Qunrta est in prreceptione ; quinta in
+principio est. prohibitione.
+CAP. X. Ejuadem rei argumcntum foria in · CAP. X. Quod non similia signa aunt r:eterni
+creaturia. beneplaciti prreceptio et prohlbitio, eicut opera·
+~P. XI. Quod Deus trinus et unus. tio, et permissio.
+CAP. XII. Quod vere et summe unus. CAP. XI. Quomodo fallere videtur Deus prro·
+CAP. Xill. Quod immutabilis est Deus. ceptione vel prohibitione, aliud innuens qunm
+CAP. XIV. Quod rntionem creaturn recte consi· sit in beneplacito auo.
+derata adjuvat ad cognoscendum Deum. • CAt>. XII. Utrumque durnm sonare; vel q uod
+C>.P. XV. Quibus modis corpora mutantur. Deus prrocipiat quod nolit, vel quod nolit fleri
+CAP. XVI. Quibus modis spiritua mutantur. B pennittat.
+CAP. XVII. Quod Deus cssentialiter est el vere CAP. XIII. Quod Deus non vult mala, quam.
+est, et in omni creatnra sive nntura, aive sui de· vis velit ut mnln sint, quin hoc bonum est.
+tinilione ; et io omni loco sine cireumacriptione, CAP. XIV. Quod sen1per impletur voluntna Del.
+din omni tempore sine viciasitudine vel muta· CAP. XV. Quomodo mall excusabi!es non aunt,
+tione. quamvis per eoa volunta11 Dei implentur.
+CAP. XVIII, Quomodo spiritus ereati locales CAP. XVI. Quare prroeepit Deus omne quod
+mnt, et quomodo corpora. prrecipit.
+CAP. XIX. Ratio qualiter Deus non aolum CAP. XVII. Omne quod bonum dicitur, val seunus,
+eed trinus sit. cundum se vel ad aliquid bonum dicitur.
+CAP. XX. De verbo intrinseco et extrinseco. CAP. XVIII. Quod aecundum se bonum dicitur
+et universaliter dicitur, vere et summe bonum
+CAP. XXL Quod itnago Dei in rationall crea- ease.
+tura expressior eat, et veatigium Trinitntis inve- ,... . _ XIX De tribua gen ·b b · ·l · · \..UU". • en us on1.
+ni ur in ipsa. CAP. XX. Majua bonum ease illud ex quo ma·
+~P. ::CXII. Quom?do tree personro aint in es- ·us bonum est.
+sent1a 81'\'e substantui. una C J .
+XXIII
+. . . . . CAP. XXI. Quod Deus propter ae, 1d eat pro
+··Cftut>e . • De diseret1one norrunum in Tn· utilitnte sua vel commodo ru" bil pr.ec1· p1"t .
+ru,..... . - uXnXa.I V Qu d C XXII Q d De h · · · 8 . . t p t AP. uo us oc un1cuHrue pnec1pe-
+\.&Ar. • omo o pmtus sane us a a re habet od bo t · · · · ·t ·
+l Fi. li· "tt't te . b illi re qu num es 1ps1 cw prrec1p1 ,et1am
+e o mt 1 ur m ma proeess1onne a a, et si bonum omnium non est.
+temporali adventu ad nos. CAP. XXIII. Quod bonum unlversitatia Deus
+CAP. XXV. Quare tria illa inetJabilla in deitate impedire non habet, etiam si illud alicui bonum
+personm tres dieuntur : et tria in humanitate non non est.
+dieuntnr. CAP. XXIV. Quod operatio el.permissio Dei ai-
+CAP. XXVI. Quare potentia Patrl tribuitur,sa- gna aint quid ease bonum sit etiam si illud bopientia
+Fillo, bonitas sive benignitas Spiritui num non sit : prr:eceptio et prohibiUo signa aunt
+sancto. quid bonum sit, etiam ai illud ease bonum non sit.
+CAP. XXVII. Alia mtio quare ilia quro seeun· CAP. XXV. Beneplacitum Dei aliquando ease
+dum aubstantiam dieuntur et eommunla aunt, ad.rem ; aliquando ad actum rei.
+pel'80nallter aunt diacreta. 0 CAP. XXVI. De rerum ordine in primis et ae-
+CAP. XX VIII. Quod vesligium Trinitatis non cundis et terliia.
+solum in rational! creatura, aed etiam in eorpo- CAPITULA QUINT..£ PARTIS.
+rea reperitur. CAP. I. De creatione angelorum, et caiteris de
+CAP. XXIX. Quod in his tribua omnia. illis inquirendis.
+CA.P. XXX. Recapitulatio supradictorum. CAP. II. Quod in principio creati aunt angell.
+C.'-P· XXXI. Brevis aomma eorum qum supra· CAP. III. Quod rationalis creatura prima om·
+dicta aunt cum adjeetione quorumdam. nium facta eat dignitate: quoniam ad ipsam reCAPITULA
+QUART..£ PARTIS.
+CAP. I. De voluntate Dei.
+CAP. II. Quot modis Scriptura voluntatem Dei
+a(cipiat.
+CAP. III. Prima beneplacitum dicitur, ·
+CAP. IV. Secunda operatio; tertia permissio.
+C4P. V. Quod Deus bona fecit, mala permisit.
+CAP. VI. Quare Deua mala permilit.
+•
+fertur conditio reliquorum, sieut ipsius conditio
+ad Deum refertur, quoniam ad aimilitudinem
+Dei facta est aola.
+CAP. IV. Quod in principio primo aimul facta
+aunt et corporea omnia in materia, et incorporea
+in angelica natura.
+CAP. V. Quod et corporea et incorporea natura
+et seeundum aliquirl informi.s facto. est, et secundum
+aliquid formata.
+t79 HUGONIS DES. VICTORE OPP. PARS II. - DOGMATICA. tao
+CAP. VI. Qualee.fuerunt angeli quando primo A. CAP. II. Qualiter homo ad imaginem et similifacti
+aunt. tudinem Dei factue eit.
+CAP. VII. Quod non facti aunt de materia prm- CAP. III. De creatione et origine animm.
+jacente, eicut corporea. CAP. IV. De libero arbitrio.
+CAP. VIII. De quatuor proprietatibue uaturm CAP. V. De duplici seneu anilflm.
+angelicm. CAP. VI. De duobue bonis ipeius hominie.
+CAP. IX. De differentia eubetantire epiritualis. CAP.VII. De duobus prreceptie natune et disci·
+CAP. X. De differentia cognitionis. plinm.
+CAP. XI. De differentia liberi arbitrii. CAP. VIII. De tribus generibus rerum.
+CAP. XII. In quo similes conditi sunt, et in CAP. IX. De gemina custodia vibe inferioris.
+quo dissimilee. CAP. X. De tribus etatibus hominis.
+CAP. XIII. De triplici potestate illorum. C•P. XI. De primo etatu ante peccatun1.
+CAP. XIV. De triplici cognitione. CAP. XII. De ecientia hominis, ante pecca.tum.
+CAP. XV. Utrum perfecti facti sunt angeli an CAP. XIII. De cognitione rerum visibilium.
+imperfecti. CAP. XIV. De cogn tione Creatorie.
+CAP. XVI. Quod tribus modis perfectum dici- B CAP. XV. De cognitione sui.
+tur, eecundun1 tempus, eecundum naturam et CAP. XVI. De qualitate liberi arbitrii per tree
+universaliter. statue.
+CAP. XVII. Quod perfecti eonditi aunt secun- CAP. XVII. De virtute hominis ante peccatum.
+dum primam perfeetionem. CAP. XVIII. Qualia creatus sit ,primue homo
+CAP. XVIII. Utrum prmscii fuerunt futuri secundum corpus.
+eventus sui. C.u>. XIX. Quandiu homo ei non peeeasset in
+CAP. XIX. Quales conditi aunt, boni an mall ; hae vita inferiori manere debuieset.
+justi an injusti ; beati an miseri. · CAP. XX. De aHmento ejus.
+CAP. XX. De libero arbitrio illorum in primo CAP. XX.I. De studio ejus.
+conditionis princlpio, quando eubeietere coope- CAP. XX.II. Si non peccaeset homo, qualee fl·
+runt. · lioe genuiseet.
+CAP. XXL Quid sit liberum arbitrium. CAP. XXIII. Utrum justi an injusti nasceren-
+CAP. XXII. Quod eemper liberum arbitrium tur.
+non ad prmsens speetat sed ad futurum, nee ad CAP. XXIV. Utrum patemm justitiiB hieredea
+omne ~~ -~~ co~tingens tantum. C: eeaent. . . •
+CAP. XX.III. De aversione et lapsu malorum,et CAP. XXV. Utrum simul _transferendi fweeent
+de conversione et confl.rmatione bonorum. an per succeesiones.
+CAP. XXIV. Quomodo in labentibus culpa gra· CAP. XX.VI. Utrum perfecti na.scerentur statutiam
+avertit, et in stantibue gratia meritum ad· ra et scientia.
+juvat. CAP. XX.VII. De institutione primi hominis.
+CAP. XXV. Quod in sola voluntate, et justitia CAP. XXVill. De :institutione hominis eecunest
+et injustitia. dum inferiorem viam.
+CAP. XXVI. Quod peccatum nee substantia est CAP. XXIX. De institutione hominis seeundum
+nee de substantia, sed privatio boni. superiorem vitam.
+CAP. XX.VII. Quomodo Deus omnem volunta· CAP. X.XX. De loco in quo positus eet primue
+tern et potestatem angelorum, ad sum voluntatie. homo.
+ordinem et dispoeitionem intorquet. CAP. XX.XI. De ligno vitm.
+CAP. XXVIII. Quod quatuor modis Deus coer- CAP. XXXII. De ligno ecientim boni et mall.
+cet volunta.tem et potestatem malorum angelo- CAP. X.XXIII. Quod homo in paradiso poaitua
+rum. est, non creatus. .
+CAP. X.XIX. De occulta dispoeitione Dei qua D CAP. XX.XIV. Quare unug primum ereatus eat.
+malas etiam voluntates ad suam voluntatem in- CAP. XX.XV. Quare mulier de viro facta, et
+Lorquet. et dieponit secundum suam voluntatem. quare de latere.
+CAP. XXX. De ordinibue angelorum quot in CAP. XX.XVI. Quard dormienti coeta abatracta
+princlpio a. Deo conditi aunt. est. ·
+CAP. XX.XI. Utrum plures remanserunt quam CAP. XX.XVII. De sex modia operandi.
+eeciderunt.
+CAP. XXXII. De discreta eognominatione angelorum.
+CAP. XX.XIII. Utrum omnes spiritus cmlestes
+mittantur.
+CAP. XXXIV. De ministerils angelicia.
+CAPITULA &EXT& PA.l\TlS.
+CAP. I. De ereatione bominia et atatu ejus an~
+peccatum, et quare Deua hominem ex corpore et
+anjma fool:t.
+CAPITULA SEPTULE PARTIS
+CAP. I. De lapsu primi hominie.
+CAP. II. Quare din.bolus in forma aliena ad honem
+venit.
+CAP. III. Quare prius ad feminam venit.
+CAP. IV. Quare ab interrogatione exorsus est.
+CAP. V. Quod non soli vil'o prooeeptum datum
+sit. .
+CAP. VI. De modo tentat.ionis.
+•
+18i DE SACRAMENTIS. t82
+CAP. VII. Qure mala fuerunt in originali A CAP. Vi. Cur Deus homo.
+peccato. CAP. VII. Quid ad nos pertinuit passio Christi.
+CAP.VIII. Quod muller delectione promissionis CAP. VIII. De justitia potestatis et requitati11.
+persuasioni assensum dedit. CAP. IX. De justitia patiente et oogente.
+CAP. IX. De duobus generibus tentationum. CAP. X. Qnod aliter Deus redemisse potuisset
+CAP. X. Utrum plus peccavit Adam an Eva. hominem si voluisset.
+C.u>.XI. De appetitu justi et appetitu commodi. CAP. XI.Qua ratione instituta aunt sacramenta.
+CAP. XII. Utrum homo volcns an nolens nppe- CAP. XII. De tempore institutionis sacramentitum
+justi perdidit. toru1n.
+CAP. XTII. Quod justitire sit mensura. CAP. XIII. De institutione conjugii ante pec-
+CAP. XIV. De mensura inferioris boni. catum.
+CAP. xv. De mensura boni superioris. CAPITOLA. NONE PARTIS.
+CAP. XVI. Quid malum fuit in homine. CAP. I. Quator esse consideranda in institutione
+CAP. XVII. Quod homo, quia in appetitu justi sacramentorum.
+peccavit, in appetitu commodi punitus est. CAP. II. Quid sit sacramentum.
+CAP. XVIII. Quare inferior appetitus mensu- B CAP. III. Quare instituta sint sacramenta.
+ram non tenet. CAP. IV. De distinctione tnum operum et
+CAP.XIX.Quod spiritui camiscura injuncta est. trium operantium.
+CAP. XX. Quod necessitas concupiscendi non CAP.V. Institutionem sacramentorum quantum
+excusat, quia voluntate venit. ad Deum dispensationis essc; quantum ad homi-
+CAP. XXI. Quod commodum et ordinatum nem necessitatis.
+appetendum sit. CAP. VI. De materia sacramentorum.
+CAP.XXII.Quod nihilappetiturnisi commodum. CAP. VII. Quot sunt genera sacramentorum.
+CAP. XXIII: Quomodo necessitas ex voluntate CAl>. VIII. De tribus qure necessaria sunt ad
+venit. salutem.
+CAP. XXIV. Quid generati trahimus et quid CAPITULA DECl!U: PARTIS.
+regenerali amittimus. CAP. I. De fide septem esse inquirenda.
+CAP. XXV. De originali peccato. CAP. II. Quid sit tides.
+CAP. XXVI. Quot modis dicatur originals CAP. III. Qure sint in quibus tides constat.
+peccatum. CAP. IV. De incremento fidei.
+CAP. XXVII. ·Quod primo homini actuale hoc c CAP. V. De his qt.!re ad fidem pertinent.
+nobis originale. CAP. VI. Utrum secundum mutaliones tempo-
+CAP. XXVIII. Quid sit originale peccatum. rum mutata sit tides.
+CAP. XXIX. Quomodo originale peccatum a CAP. VII. Quid sit quo nibil minus unquam
+patribus in filios transeat. fides habere potuit.
+CAP. XXX .. Quod anima non sit extraduce. CAP. VIII. Recapitulatio supradictorum.
+CAP. XXXl. Quomodo per carnem peccatum CAP. IX. De saeramento fidei et virtute.
+transit ad an.imam. CAPITOLA UNDECIM.£ PARTIS.
+CAP. XXXll. Quomodo ignorantia vitium sit. CAP. I. De sacramentis naturalis legis.
+CAP. XXXIII. Quod angeli facti sunt, ut ab CAP. II. De prima differentia prrecedentium et
+intus erudire.ntur, homines a foris. subsequentium sacramentorum.
+CAP. XXXIV. Unde concupiscentia nascitur, et Ct.P. III. Alia diJJerentia.
+unde ignorantia. CAP. IV. Quod homo a Deo institutus est ad
+CAP. XXXV. Quomodo anima peccati originalis decimas offerendas.
+particeps fiat. CAP. V. Prima :tifferentil; secunda di1ferentia;
+CAP. XXXVI. Ratio quorumdam de animabus D tertia differentia.
+ineorporandis. CAP.VI. Quare prima mutata sunt per s.ecunda.
+CAP. XXXVII. Quomodo a patribus justis, pee- CAP. VII. De tribus generibus operum.
+catores filii nascuntur. CAPITULA DUODECIM& PARTIS.
+C.t.P. XXXVIII. Utrum omnia peccata prrece- OAP. I. De unione populi fidelis.
+dentium patrum ad filios transeant. CAP. II. De circumcisione.
+CAPITULA OCTAV..E PARTIS CAP. III. De prmparatione legis.
+CAP. I. De eo quod tria aunt consideranda circa CAP. IV. De sacramentis scriptre legis.
+reparatiooem hominis. CAP. V. De immobilibus prooceptis.
+CAP. II. De quinque locis. CAP. VI. De tribus prreceptis primre tabulre.
+CAP. III. Quomodo dispositus est homo ad CAP. VII. De aliis septem secundoo tabulre.
+prenitentiam. CAP. VIII. De ordine prreceptorum Def.
+CAP. IV. De causa hominis adversus Deum et CAP.IX.De mobilibus et superadditis prreceptis.
+diabolum. CAP. X. Quod tria aunt genera sacramentorum
+CAP. V. De diseretione judiciorum. in lege.-->
