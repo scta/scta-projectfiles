@@ -6,7 +6,10 @@
     <commentaryName>Liber de anima</commentaryName>
     <commentaryid>da-371</commentaryid>
     <commentaryslug>da-371</commentaryslug>
+    <authorUri>http://scta.info/resource/DominicusGundissalinus</authorUri>
+    <parentUri>http://scta.info/resource/da-371</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-371/</textfilesdir>
     <questionListSource>
       Bertola, Ermenegildo. 1953. “I ‘De Anima’ Del Vat. Lat. 175.” Rivista Di
       Filosofia Neo-Scolastica , Rivista di filosofia neo-scolastica, 45 (3):
@@ -14,12 +17,12 @@
     </questionListSource>
     <questionListOriginalEditor>Ermenegildo Bertola</questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
-    <gitRepoBase>https://github.com/scta-texts/</gitRepoBase>
     <description>
       This list is based on the Vatican witness identified by Bertola (who
       thought it was by Ibn David). I am not certain how exact it matches the
       published edition of Gundissalinus.
     </description>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="V">
         <slug>vatlat175</slug>
@@ -27,6 +30,7 @@
           Vatical, Bibliotheca Apostolica Vaticana, Vat. Lat. 175, ff.
           208r--218v
         </title>
+        <initial>V</initial>
       </witness>
     </hasWitnesses>
   </header>
