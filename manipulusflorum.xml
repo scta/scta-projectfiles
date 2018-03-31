@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Thomas of Ireland</authorName>
+    <commentaryName>Manipulus Florum</commentaryName>
+    <commentaryid>manipulusflorum</commentaryid>
+    <commentaryslug>timf</commentaryslug>
+    <authorUri>http://scta.info/resource/ThomasOfIreland</authorUri>
+    <parentUri>http://scta.info/resource/manipulusflorum</parentUri>
+    <parentWorkGroup>http://scta.info/resource/florilegia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/manipulusflorum/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--<witness id="Pa">
+        <slug>bnf708</slug>
+        <title>bnf708</title>
+        <initial>Pa</initial>
+      </witness> 
+      Gallica attributes this to the Franciscan Thomas de Hibernia 
+      who is different than Thomas of Ireland -->
+      <witness id="Pb">
+        <slug>bnf15985</slug>
+        <title>Bnf 15985</title>
+        <initial>Pb</initial>
+      </witness>
+      <witness id="Pc">
+        <slug>bnf15986</slug>
+        <title>Bnf 159856</title>
+        <initial>Pc</initial>
+      </witness>
+      <!--M = Paris, Bibliothèque Mazarine MS lat. 1032-->
+      <!--<witness id="Pd">
+        <slug>bnf16532</slug>
+        <title>Bnf 16532</title>
+        <initial>Pd</initial>
+      </witness>
+      Gallica attributes this to the Franciscan Thomas de Hibernia 
+      who is different than Thomas of Ireland -->
+      -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="timf-A">
+      <head>A</head>
+    </div>
+    <div id="timf-B">
+      <head>B</head>
+      <item id="timf-bapt">
+        <fileName filestem="timf-bapt"/>
+        <title>Baptismus</title>
+        <hasWitnesses>
+          <witness ref="Pb">
+            <folio c="a">24v</folio>
+          </witness>
+          <witness ref="Pc">
+            <folio c="a">23v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="timf-C">
+      <head>C</head>
+    </div>
+    <div id="timf-C">
+      <head>D</head>
+    </div>
+    <div id="timf-E">
+      <head>E</head>
+    </div>
+    <div id="timf-F">
+      <head>F</head>
+    </div>
+      
+  </div>
+</listofFileNames>
