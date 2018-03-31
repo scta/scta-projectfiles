@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Johannes de Fonte</authorName>
+    <commentaryName>Auctoritates Aristotelis</commentaryName>
+    <commentaryid>auctoritatesaristoteles</commentaryid>
+    <commentaryslug>jdfaa</commentaryslug>
+    <authorUri>http://scta.info/resource/JohannesDeFonte</authorUri>
+    <parentUri>http://scta.info/resource/auctoritatesaristoteles</parentUri>
+    <parentWorkGroup>http://scta.info/resource/florilegia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/auctoritatesaristoteles/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="P">
+        <!-- https://archive.org/details/OEXV794_P4 -->
+        <slug>Paris1490</slug>
+        <title>Paris 1490</title>
+        <initial>P</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="jdfaa-met">
+      <head>Metaphysics</head>
+      <item id="jdfaa-metl1">
+        <fileName filestem="jdfaa-metl1"/>
+        <title>Liber I</title>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
