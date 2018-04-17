@@ -1,0 +1,2497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Johannes Capreolus</authorName>
+    <commentaryName>Defensiones theologiae divi Thomae Aquinatis in libros
+      Sententiarum</commentaryName>
+    <commentaryid>capreolusdefensiones</commentaryid>
+    <commentaryslug>jcd</commentaryslug>
+    <authorUri>http://scta.info/resource/JohannesCapreolus</authorUri>
+    <parentUri>http://scta.info/resource/capreolusdefensiones</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/capreolusdefensiones/</textfilesdir>
+    <questionListSource>Johannes Capreoli Tholosani Defensiones theologiae divi Thomae Aquinatis,
+      tomes I-VII</questionListSource>
+    <questionListOriginalEditor>C. Paban, T. Pegues</questionListOriginalEditor>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description>The commentary is edited by C. Paban and T. Pegues, tomes I-VII, Tours, 1900-1908.
+      The question list is extracted from there.</description>
+    <hasWitnesses>
+      <witness id="T1">
+        <slug>Tours1900</slug>
+        <title>Tours, tome 1</title>
+        <initial>T1</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T2">
+        <slug>Tours, tome 2</slug>
+        <title>Tours, tome 2</title>
+        <initial>T2</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T3">
+        <slug>Tours, tome 3</slug>
+        <title>Tours, tome 3</title>
+        <initial>T3</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T4">
+        <slug>Tours, tome 4</slug>
+        <title>Tours, tome 4</title>
+        <initial>T4</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T5">
+        <slug>Tours, tome 5</slug>
+        <title>Tours, tome 5</title>
+        <initial>T5</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T6">
+        <slug>Tours, tome 6</slug>
+        <title>Tours, tome 6</title>
+        <initial>T6</initial>
+      </witness>
+    </hasWitnesses>
+    <hasWitnesses>
+      <witness id="T7">
+        <slug>Tours, tome 7</slug>
+        <title>Tours, tome 7</title>
+        <initial>T7</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="jcd-l1" type="librum1">
+      <head>Liber I</head>
+      <div id="jcd-l1prol" type="librum1-prologus">
+        <head>Prologus</head>
+        <item id="jcd-prolq1">
+          <fileName filestem="jcd-prolq1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum theologia sit scientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-prolq2">
+          <fileName filestem="jcd-prolq2"/>
+          <title>Prologus, Quaestio 2</title>
+          <questionTitle>Utrum habitus theologicus sit practicus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>20a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-prolq3">
+          <fileName filestem="jcd-prolq3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum theologia sit una scientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>32b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-prolq4">
+          <fileName filestem="jcd-prolq4"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum Deus sit subiectum theologiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>45b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d1" type="librum1-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="jcd-l1d1q1">
+          <fileName filestem="jcd-l1d1q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum fruitio sit actus voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>61a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d1q2">
+          <fileName filestem="jcd-l1d1q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum uti sit actus voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>88a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d1q3">
+          <fileName filestem="jcd-l1d1q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum ultimo fine per intellectum apprehenso necessario fruatur creata
+            voluntas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>95b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d2" type="librum1-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="jcd-l1d2q1">
+          <fileName filestem="jcd-l1d2q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus sit a nobis pro statu viae intelligibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>117a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d2q2">
+          <fileName filestem="jcd-l1d2q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Deum esse sit per se notum nobis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>144b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d2q3">
+          <fileName filestem="jcd-l1d2q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum unus Deus in divinis sit tres personae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>150b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d3" type="librum1-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="jcd-l1d3q1">
+          <fileName filestem="jcd-l1d3q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum unitas Dei ex creaturis demonstrative concludi possit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>164a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d3q2">
+          <fileName filestem="jcd-l1d3q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum imago et trinitatis vestigium in creaturis reperiatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>172b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d3q3">
+          <fileName filestem="jcd-l1d3q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum illa penes quae vestigium attenditur distinguantur ab eo in quo
+            sunt</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>177b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d4" type="librum1-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="jcd-l1d4q1">
+          <fileName filestem="jcd-l1d4q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum haec concedenda sit 'Deum genuit Deum'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>220b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d4q2">
+          <fileName filestem="jcd-l1d4q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in divinis abstractum praedicetur de concreto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>227b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d5" type="librum1-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="jcd-l1d5q1">
+          <fileName filestem="jcd-l1d5q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum divina essentia sit formalis terminus divinae
+            generationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>241b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d6" type="librum1-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="jcd-l1d6q1">
+          <fileName filestem="jcd-l1d6q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater genuerit filium natura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>259a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d7" type="librum1-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="jcd-l1d7q1">
+          <fileName filestem="jcd-l1d7q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum respectu actus generationis divinae in patre sit aliqua
+            potentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>270b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d7q2">
+          <fileName filestem="jcd-l1d7q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in divinis possint esse plures filii</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T1">
+              <folio>284b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <div id="jcd-l1d8" type="librum1-distinctio8">
+          <head>Distinctio 8</head>
+          <item id="jcd-l1d8q1">
+            <fileName filestem="jcd-l1d8q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum creatura subsistens sit suum esse exsistentiae</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T1">
+                <folio>301b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d8q2">
+            <fileName filestem="jcd-l1d8q2"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum Deus sit in genere</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T1">
+                <folio>331a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d8q3">
+            <fileName filestem="jcd-l1d8q3"/>
+            <title>Quaestio 3</title>
+            <questionTitle>Utrum aliqua creatura sit immutabilis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T1">
+                <folio>363b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d8q4">
+            <fileName filestem="jcd-l1d8q4"/>
+            <title>Quaestio 4</title>
+            <questionTitle>Utrum pluralitas attributorum divinae simplicitati
+              repugnet</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T1">
+                <folio>371b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d9" type="librum1-distinctio9">
+          <head>Distinctio 9</head>
+          <item id="jcd-l1d9q1">
+            <fileName filestem="jcd-l1d9q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum generatio divina aeternitate mensuretur</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>1a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d10" type="librum1-distinctio10">
+          <head>Distinctio 10</head>
+          <item id="jcd-l1d10q1">
+            <fileName filestem="jcd-l1d10q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum spiritus sanctus procedat ut amor</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>11a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d11" type="librum1-distinctio11">
+          <head>Distinctio 11</head>
+          <item id="jcd-l1d11q1">
+            <fileName filestem="jcd-l1d11q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum spiritus sanctus a patre et filio procedat</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>16b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d12" type="librum1-distinctio12">
+          <head>Distinctio 12</head>
+          <item id="jcd-l1d12q1">
+            <fileName filestem="jcd-l1d12q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum pater et filius sint unum principium spiritus
+              sancti</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>34a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d6" type="librum1-distinctio13">
+          <head>Distinctio 13</head>
+          <item id="jcd-l1d13q1">
+            <fileName filestem="jcd-l1d13q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum generatio et processio spiritus sancti sint processiones alterius
+              rationis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>44b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d14" type="librum1-distinctio14">
+          <head>Distinctio 14</head>
+          <item id="jcd-l1d14q1">
+            <fileName filestem="jcd-l1d14q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum temporalis processio sit spiritus sancti proprietas</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>58b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d15-16" type="librum1-distinctio15 librum1-distinctio16">
+          <head>Distinctiones 15 et 16</head>
+          <item id="jcd-l1d15-16q1">
+            <fileName filestem="jcd-l1d15-16q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum cuilibet personae mitti conveniat</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>63b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d17" type="librum1-distinctio15 librum1-distinctio17">
+          <head>Distinctio 17</head>
+          <item id="jcd-l1d17q1">
+            <fileName filestem="jcd-l1d17q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum charitas sit aliquis habitus in anima creatus</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>70a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d17q2">
+            <fileName filestem="jcd-l1d17q2"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum charitas augeri possit</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>93b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d18" type="librum1-distinctio18">
+          <head>Distinctio 18</head>
+          <item id="jcd-l1d18q1">
+            <fileName filestem="jcd-l1d18q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum donum sit proprium nomen spiritus sancti</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>144b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d19" type="librum1-distinctio19">
+          <head>Distinctio 19</head>
+          <item id="jcd-l1d19q1">
+            <fileName filestem="jcd-l1d19q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum una persona sit in alia</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>147b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d19q2">
+            <fileName filestem="jcd-l1d19q2"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum tres personae sint penitus aequales</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>152b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d19q3">
+            <fileName filestem="jcd-l1d19q3"/>
+            <title>Quaestio 3</title>
+            <questionTitle>Utrum veritas secundum rationem formalem sit in intellectu aut in
+              rebus</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>157a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d20" type="librum1-distinctio20">
+          <head>Distinctio 20</head>
+          <item id="jcd-l1d20q1">
+            <fileName filestem="jcd-l1d20q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum generandi potentia sub omnipotentia claudatur</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>164b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <!-- appears to be mssing 21 -->
+        <div id="jcd-l1d22" type="librum1-distinctio22">
+          <head>Distinctio 22</head>
+          <item id="jcd-l1d22q1">
+            <fileName filestem="jcd-l1d22q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum Deus possit aliquo nomine proprie designari</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>169b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d23" type="librum1-distinctio23">
+          <head>Distinctio 23</head>
+          <item id="jcd-l1d23q1">
+            <fileName filestem="jcd-l1d23q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum nomen personae sit nomen secundae intentionis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>176b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d24" type="librum1-distinctio24">
+          <head>Distinctio 24</head>
+          <item id="jcd-l1d24q1">
+            <fileName filestem="jcd-l1d24q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum numerus sit formaliter et proprie in divinis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>185b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d25" type="librum1-distinctio25">
+          <head>Distinctio 25</head>
+          <item id="jcd-l1d25q1">
+            <fileName filestem="jcd-l1d25q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum persona dicat in divinis quid commune tribus personis quod
+              plurificetur in eis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>209a</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d26" type="librum1-distinctio26">
+          <head>Distinctio 26</head>
+          <item id="jcd-l1d26q1">
+            <fileName filestem="jcd-l1d26q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum divinae personae constituantur suppositaliter et distinguantur
+              proprietatibus relationis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>214b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="jcd-l1d27" type="librum1-distinctio27">
+          <head>Distinctio 27</head>
+          <item id="jcd-l1d27q1">
+            <fileName filestem="jcd-l1d27q1"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum generare et paternitas sint idem realiter in
+              divinis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>235b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="jcd-l1d27q2">
+            <fileName filestem="jcd-l1d27q2"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum verbum increatum emanet ut intellectio actualiter</questionTitle>
+            <hasWitnesses>
+              <witness ref="#T2">
+                <folio>241b</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="jcd-l1d28" type="librum1-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="jcd-l1d28q1">
+          <fileName filestem="jcd-l1d28q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum innascibilitas sit proprietas patris constitutiva</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>261a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d29" type="librum1-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="jcd-l1d29q1">
+          <fileName filestem="jcd-l1d29q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum nomen principii notionem distinctam designet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>270b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d30" type="librum1-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="jcd-l1d30q1">
+          <fileName filestem="jcd-l1d30q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum inter Deum et creaturam sit aliqua realis relatio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>282a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d31" type="librum1-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="jcd-l1d31q1">
+          <fileName filestem="jcd-l1d31q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum similitudo et aequalitas sint relationes reales in
+            Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>318a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d32" type="librum1-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="jcd-l1d32q1">
+          <fileName filestem="jcd-l1d32q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater et filius diligant se spiritu sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>326b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d33" type="librum1-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="jcd-l1d33q1">
+          <fileName filestem="jcd-l1d33q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum proprietates personales sint divina essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>336a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- d. 34 seems absent -->
+      <div id="jcd-l1d35" type="librum1-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="jcd-l1d35q1">
+          <fileName filestem="jcd-l1d35q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus vere et formaliter aliquid intelligat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>348a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l1d35q2">
+          <fileName filestem="jcd-l1d35q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum essentia divina sit obiectum adaequatum sui
+            intellectus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>371a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d36" type="librum1-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="jcd-l1d36q1">
+          <fileName filestem="jcd-l1d36q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omnia sint aeternaliter in Dei presentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>405b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d37" type="librum1-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="jcd-l1d37q1">
+          <fileName filestem="jcd-l1d37q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus sit ubique</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>430b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d38" type="librum1-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="jcd-l1d38q1">
+          <fileName filestem="jcd-l1d38q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum futura contingentia Deus ipse cognoscat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>439a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d40" type="librum1-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="jcd-l1d40q1">
+          <fileName filestem="jcd-l1d40q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum praedestinati de necessitate salventur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>472b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d41" type="librum1-distinctio41">
+        <head>Distinctio 41</head>
+        <item id="jcd-l1d41q1">
+          <fileName filestem="jcd-l1d41q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum meritorum praescientia sit causa praedestinationis vel
+            reprobationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>498b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d42" type="librum1-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="jcd-l1d42q1">
+          <fileName filestem="jcd-l1d42q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Deo sit omnipotentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>504b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d43-44" type="librum1-distinctio43 librum1-distinctio44">
+        <head>Distinctiones 43 et 44</head>
+        <item id="jcd-l1d43-44q1">
+          <fileName filestem="jcd-l1d43-44q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus sua infinitate possit omnem creaturam in infinitum meliorem
+            facere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>522b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l1d45" type="librum1-distinctio45">
+        <head>Distinctio 45</head>
+        <item id="jcd-l1d45q1">
+          <fileName filestem="jcd-l1d45q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum quodlibet velle intrinsecum divinae voluntati semper
+            impleatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T2">
+              <folio>562b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="jcd-l2" type="librum2">
+      <head>Liber 2</head>
+      <div id="jcd-l2d1" type="librum2-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="jcd-l2d1q1">
+          <fileName filestem="jcd-l2d1q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum mundum incepisse sit conclusio demonstrabilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d1q2">
+          <fileName filestem="jcd-l2d1q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum creatio sit aliquid</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>26a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d1q3">
+          <fileName filestem="jcd-l2d1q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum potentia creandi possit communicari alicui creaturae ita quod possit
+            creare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>84a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d2" type="librum2-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="jcd-l2d2q1">
+          <fileName filestem="jcd-l2d2q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus sit in loco</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>119b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d2q2">
+          <fileName filestem="jcd-l2d2q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum angelus tempore mensuretur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>145a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d3" type="librum2-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="jcd-l2d3q1">
+          <fileName filestem="jcd-l2d3q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli individuentur per materiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>199b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d3q2">
+          <fileName filestem="jcd-l2d3q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum intelligere angeli sit sua substantia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>253b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d4" type="librum2-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="jcd-l2d4q1">
+          <fileName filestem="jcd-l2d4q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus potuerit appetere aequalitatem Dei in primo instanti sui esse
+            vel suae creationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>334a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d5" type="librum2-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="jcd-l2d5q1">
+          <fileName filestem="jcd-l2d5q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli in primo instanti suae creationis fuerint
+            beati</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>361a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d6" type="librum2-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="jcd-l2d6q1">
+          <fileName filestem="jcd-l2d6q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus possit moveri localiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>378b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d7" type="librum2-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="jcd-l2d7q1">
+          <fileName filestem="jcd-l2d7q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum voluntas daemonum sit obstinata in malo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>422b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d7q2">
+          <fileName filestem="jcd-l2d7q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum angelus moveat coelum vel quodcumque corpus per intellectum et
+            voluntatem, vel per aliquam aliam potentiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>457b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d8" type="librum2-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="jcd-l2d8q1">
+          <fileName filestem="jcd-l2d8q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum daemones naturali virtute possint cogitationes humani cordis
+            cognoscere et vires sensitivas immutare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>463a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d2" type="librum2-distinctio9 librum2-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="jcd-l2d9-10q1">
+          <fileName filestem="jcd-l2d9-10q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli habeant corpora naturaliter eis unita potissime
+            coelestia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>477b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d11" type="librum2-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="jcd-l2d11q1">
+          <fileName filestem="jcd-l2d11q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli proficiant in cognitione per mutuam locutionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>489b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d11q2">
+          <fileName filestem="jcd-l2d11q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum angeli ex mutua illuminatione proficiant</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T3">
+              <folio>497a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d12" type="librum2-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="jcd-l2d12q1">
+          <fileName filestem="jcd-l2d12q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omnium corporalium sit una materia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d13" type="librum2-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="jcd-l2d13q1">
+          <fileName filestem="jcd-l2d13q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum materiae informitas praecesserit duratione eius
+            formationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>18b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d14" type="librum2-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="jcd-l2d14q1">
+          <fileName filestem="jcd-l2d14q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum coelum agat in ista inferiora per motum suum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>41b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d15" type="librum2-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="jcd-l2d15q1">
+          <fileName filestem="jcd-l2d15q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in homine praeter animam intellectivam sit alia forma
+            substantialis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>49b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d16" type="librum2-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="jcd-l2d16q1">
+          <fileName filestem="jcd-l2d16q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima humana vel aliqua alia forma substantialis sit aliqua entitas
+            realiter a materia distincta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>104a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d17" type="librum2-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="jcd-l2d17q1">
+          <fileName filestem="jcd-l2d17q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ante generationem compositi substantialis praecedat aliquid formae
+            per generationem inducendae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>112b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d18" type="librum2-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="jcd-l2d18q1">
+          <fileName filestem="jcd-l2d18q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum quantitas interminata sit ponenda</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>123b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d19" type="librum2-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="jcd-l2d19q1">
+          <fileName filestem="jcd-l2d19q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ex minima parte costae vel ex minima carne Adae potuerit formari
+            corpus Evae sine additione materiae exterioris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>161a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d20" type="librum2-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="jcd-l2d20q1">
+          <fileName filestem="jcd-l2d20q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in statu innocentiae virgines peperissent dumtaxat
+            praedestinatos</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>172a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d21" type="librum2-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="jcd-l2d21q1">
+          <fileName filestem="jcd-l2d21q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo in statu innocentiae potuerit peccare venialiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>180b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d22" type="librum2-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="jcd-l2d22q1">
+          <fileName filestem="jcd-l2d22q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum alicui creaturae potuerit vel possit conferri quod sit impeccabilis
+            per naturam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>183a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d23" type="librum2-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="jcd-l2d23q1">
+          <fileName filestem="jcd-l2d23q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in statu innocentiae Adam viderit Deum per essentiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>188b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d24" type="librum2-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="jcd-l2d24q1">
+          <fileName filestem="jcd-l2d24q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum liberum arbitrium sit potentia pure passiva</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>199b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d25" type="librum2-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="jcd-l2d25q1">
+          <fileName filestem="jcd-l2d25q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum voluntas seu liberum arbitrium ab aliquo exteriori moveatur ad suum
+            actum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>229b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d26" type="librum2-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="jcd-l2d26q1">
+          <fileName filestem="jcd-l2d26q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum gratia sit virtus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>255b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d27" type="librum2-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="jcd-l2d27q1">
+          <fileName filestem="jcd-l2d27q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum habens gratiam possit de condigno mereri gloriam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>272b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d28" type="librum2-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="jcd-l2d28q1">
+          <fileName filestem="jcd-l2d28q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo sine gratia possit praecepta legis implere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>282b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d29" type="librum2-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="jcd-l2d29q1">
+          <fileName filestem="jcd-l2d29q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo ante peccatum per liberum arbitrium et suae naturae vires
+            praecise absque alio auxilio Dei speciali fuerit sufficiens ad agendum aliquem actum
+            moraliter bonum seu vere rectum et virtuosum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>316a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d30" type="librum2-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="jcd-l2d30q1">
+          <fileName filestem="jcd-l2d30q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum defectus quos sentimus in nobis sint poena pro peccato
+            Adae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>327a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d31" type="librum2-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="jcd-l2d31q1">
+          <fileName filestem="jcd-l2d31q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum peccatum originale sit subiective in carne</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>348b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d32" type="librum2-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="jcd-l2d32q1">
+          <fileName filestem="jcd-l2d32q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omnes animae humanae ab origine sint aequales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>359a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d33" type="librum2-distinctio3">
+        <head>Distinctio 33</head>
+        <item id="jcd-l2d33q1">
+          <fileName filestem="jcd-l2d33q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum peccato originali debeatur poena sensibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>366b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d34" type="librum2-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="jcd-l2d34q1">
+          <fileName filestem="jcd-l2d34q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ratio boni sit proprie absoluta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>379a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l2d34q2">
+          <fileName filestem="jcd-l2d34q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum malum sit aliqua natura positiva</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>389a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d35" type="librum2-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="jcd-l2d35q1">
+          <fileName filestem="jcd-l2d35q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in quolibet peccato sit aliquis actus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>407a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d36" type="librum2-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="jcd-l2d36q1">
+          <fileName filestem="jcd-l2d36q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum malum sufficienter dividatur per culpam et poenam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>421a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d37" type="librum2-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="jcd-l2d37q1">
+          <fileName filestem="jcd-l2d37q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum actus peccati sit a Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>425a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d38" type="librum2-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="jcd-l2d38q1">
+          <fileName filestem="jcd-l2d38q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum bonitas actus voluntatis sit ex fine</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>435a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d39" type="librum2-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="jcd-l2d39q1">
+          <fileName filestem="jcd-l2d39q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in actibus intellectus possit esse peccatum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>440b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d40" type="librum2-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="jcd-l2d40q1">
+          <fileName filestem="jcd-l2d40q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum aliqua actio humana possit esse indifferens ad bonum et malum
+            morale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>453b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d41" type="librum2-distinctio41">
+        <head>Distinctio 41</head>
+        <item id="jcd-l2d41q1">
+          <fileName filestem="jcd-l2d41q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum quaelibet actio hominis infidelis sit peccatum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>464a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d42" type="librum2-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="jcd-l2d42q1">
+          <fileName filestem="jcd-l2d42q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum actus exterior et interior sint duo peccata vel tantum
+            unum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>475a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d43" type="librum2-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="jcd-l2d43q1">
+          <fileName filestem="jcd-l2d43q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omne peccatum sit mortale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>487b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l2d44" type="librum2-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="jcd-l2d44q1">
+          <fileName filestem="jcd-l2d44q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum potentia peccandi sit a Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T4">
+              <folio>500a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="jcd-l3" type="librum3">
+      <head>Liber 3</head>
+      <div id="jcd-l3d1" type="librum3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="jcd-l3d1q1">
+          <fileName filestem="jcd-l3d1q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum natura humana a filio Dei assumpta a tribus personis suppositis
+            divinae naturae potuerit assumi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d2" type="librum3-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="jcd-l3d2q1">
+          <fileName filestem="jcd-l3d2q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona divina possit assumere entitatem totius resultantem ex
+            materia et forma lapidis ad invicem coniunctis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>13a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d3" type="librum3-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="jcd-l3d3q1">
+          <fileName filestem="jcd-l3d3q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum beata Maria in peccato originali fuerit concepta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>26a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d4" type="librum3-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="jcd-l3d4q1">
+          <fileName filestem="jcd-l3d4q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum beata virgo active in Christi conceptione aliquid egerit propter quod
+            mater Dei proprie dici posset</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>41a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d5" type="librum3-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="jcd-l3d5q1">
+          <fileName filestem="jcd-l3d5q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum unio naturae divinae et humanae in Christo sit maxima
+            unio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>52b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l3d5q2">
+          <fileName filestem="jcd-l3d5q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum divina essentia vel personalis proprietas possit uniri alicui naturae
+            creatae per modum formae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>62a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l3d5q3">
+          <fileName filestem="jcd-l3d5q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum filius Dei assumpserit naturam humanam in universali simul cum suo
+            proprio creato supposito</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>84b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d6" type="librum3-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="jcd-l3d6q1">
+          <fileName filestem="jcd-l3d6q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Christo sint plura esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>111a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d7-8" type="librum3-distinctio7 librum3-distinctio8">
+        <head>Distinctiones 7 et 8</head>
+        <item id="jcd-l3d7-8q1">
+          <fileName filestem="jcd-l3d7-8q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Christo sint duae filiationes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>124b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d9" type="librum3-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="jcd-l3d9q1">
+          <fileName filestem="jcd-l3d9q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum humanitas Christi sit adoranda adoratione latriae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>136a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d10" type="librum3-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="jcd-l3d10q1">
+          <fileName filestem="jcd-l3d10q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus secundum quod homo sit persona divina</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>141b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d11" type="librum3-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="jcd-l3d11q1">
+          <fileName filestem="jcd-l3d11q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum haec copulativa 'Christus incepit esse et Christus est creatura' sit
+            concedenda</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>147a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d12" type="librum3-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="jcd-l3d12q1">
+          <fileName filestem="jcd-l3d12q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus potuerit peccare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>159a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d13" type="librum3-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="jcd-l3d13q1">
+          <fileName filestem="jcd-l3d13q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima Christi habuerit gratiam creatam formaliter et actu
+            infinitam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>165a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d14" type="librum3-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="jcd-l3d14q1">
+          <fileName filestem="jcd-l3d14q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima Christi sit sciens formaliter scientia creata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>174a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l3d14q2">
+          <fileName filestem="jcd-l3d14q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum anima Christi in verbo videat omnia alia a verbo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>208b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d15" type="librum3-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="jcd-l3d15q1">
+          <fileName filestem="jcd-l3d15q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima Christi ex sua omnipotentia respectu proprii corporis appetitum
+            sensitivum a dolore sensibili praeservare potuerit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>233a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d16et17" type="librum3-distinctio16 librum3-distinctio17">
+        <head>Distinctiones 16 et 17</head>
+        <item id="jcd-l3d16-17q1">
+          <fileName filestem="jcd-l3d16-17q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum dolor in anima Christi tempore passionis pervenerit usque ad rationem
+            superiorem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>242b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d18-19-20"
+        type="librum3-distinctio18 librum3-distinctio19 librum3-distinctio20">
+        <head>Distinctiones 18, 19, et 20</head>
+        <item id="jcd-l3d18-19-20q1">
+          <fileName filestem="jcd-l3d18-19-20q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum aliqua pura creatura potuerit satisfacere pro tota natura humana
+            collapsa in primis parentibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>259a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d21-22" type="librum3-distinctio21 librum3-distinctio22">
+        <head>Distinctiones 21 et 22</head>
+        <item id="jcd-l3d21-22q1">
+          <fileName filestem="jcd-l3d21-22q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus desierit esse homo in suo descensu ad
+            inferos</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>272a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d23" type="librum3-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="jcd-l3d23q1">
+          <fileName filestem="jcd-l3d23q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum virtutes habituales sint homini necessariae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>287a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d24" type="librum3-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="jcd-l3d24q1">
+          <fileName filestem="jcd-l3d24q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum fides sit virtus infusa a Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>309a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d25" type="librum3-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="jcd-l3d25q1">
+          <fileName filestem="jcd-l3d25q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum fides sit de visis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>321b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d26" type="librum3-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="jcd-l3d26q1">
+          <fileName filestem="jcd-l3d26q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum spes sit virtus theologica distincta realiter a fide et
+            charitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>337b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d27per30"
+        type="librum3-distinctio27 librum3-distinctio28 librum3-distinctio29 librum3-distinctio30">
+        <head>Distinctiones 27 per 30</head>
+        <item id="jcd-l3d27-28-29-30q1">
+          <fileName filestem="jcd-l3d27-28-29-30q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo debeat ex charitate diligere Deum plus quam se
+            ipsum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>353b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d31-32" type="librum3-distinctio31 librum3-distinctio32">
+        <head>Distinctiones 31 et 32</head>
+        <item id="jcd-l3d31-32q1">
+          <fileName filestem="jcd-l3d31-32q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum fides remaneat in patria</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>375b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d33" type="librum3-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="jcd-l3d33q1">
+          <fileName filestem="jcd-l3d33q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ex actibus humanis acquirantur habitus virtutum in appetitu sensitivo
+            subiective exsistentes puta in concupiscibili vel irascibili</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>388b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d34-35" type="librum3-distinctio34 librum3-distinctio35">
+        <head>Distinctiones 34 et 35</head>
+        <item id="jcd-l3d34-35q1">
+          <fileName filestem="jcd-l3d34-35q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum dona spiritus sancti sint habitus distincti a
+            virtutibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>411b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l3d36" type="librum3-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="jcd-l3d36q1">
+          <fileName filestem="jcd-l3d36q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum virtutes cardinales sint inter se connexae ita quod qui habet unam
+            habet omnes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T5">
+              <folio>423a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="jcd-l4" type="librum4">
+      <head>Liber 4</head>
+      <div id="jcd-l4d1per3" type="librum4-distinctio1 librum4-distinctio2 librum4-distinctio3">
+        <head>Distinctiones 1 per 3</head>
+        <item id="jcd-l4d1-2-3q1">
+          <fileName filestem="jcd-l4d1-2-3q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in sacramentis novae legis sit aliqua virtus gratiae
+            causativa</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d1-2-3q2">
+          <fileName filestem="jcd-l4d1-2-3q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sacramenta veteris legis causent gratiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>53b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d1-2-3q3">
+          <fileName filestem="jcd-l4d1-2-3q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum sacramenta veteris legis possint post passionem Christi sine peccato
+            mortali observari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>64b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d4" type="librum4-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="jcd-l4d4q1">
+          <fileName filestem="jcd-l4d4q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum baptismus characterem aliquem imprimat in anima</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>78a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d5-6" type="librum4-distinctio5 librum4-distinctio6">
+        <head>Distinctiones 5 et 6</head>
+        <item id="jcd-l4d5-6q1">
+          <fileName filestem="jcd-l4d5-6q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum parvuli infidelium sint invitis parentibus baptizandi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>113b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d7" type="librum4-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="jcd-l4d7q1">
+          <fileName filestem="jcd-l4d7q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum baptismus aut confirmatio a ficto suscepta, recedente fictione,
+            sortiatur suum effectum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>128b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d7q2">
+          <fileName filestem="jcd-l4d7q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sacerdos simplex, etiamsi non sit episcopus, possit
+            confirmare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>133b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d8-9" type="librum4-distinctio8 librum4-distinctio9">
+        <head>Distinctiones 8 et 9</head>
+        <item id="jcd-l4d8-9q1">
+          <fileName filestem="jcd-l4d8-9q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum forma sacramenti eucharistiae sit conveniens, scilicet 'hoc est
+            corpus meum' et 'hic est calix sanguinis mei'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>144b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d10" type="librum4-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="jcd-l4d10q1">
+          <fileName filestem="jcd-l4d10q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corpus Christi sit in altari vel eucharistiae sacramento
+            realiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>163b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d10q2">
+          <fileName filestem="jcd-l4d10q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum corpus Christi sit in eucharistiae sacramento vel Christus
+            totaliter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>181a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d10q3">
+          <fileName filestem="jcd-l4d10q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum corpus Christi sit in eucharistia mobiliter, hoc est, utrum ibi
+            moveatur localiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>199a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d10q4">
+          <fileName filestem="jcd-l4d10q4"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum corpus Christi sit in eucharistia visibiliter, hoc est, utrum possit
+            videri oculo creato</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>206b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d11" type="librum4-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="jcd-l4d11q1">
+          <fileName filestem="jcd-l4d11q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum post consecrationem eucharistiae remaneat ibi substantia
+            panis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>220a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d12" type="librum4-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="jcd-l4d12q1">
+          <fileName filestem="jcd-l4d12q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum accidentia separata a substantia panis conversi in corpus Christi
+            possint immutare substantialiter aliquid extrinsecum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>249a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d13" type="librum4-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="jcd-l4d13q1">
+          <fileName filestem="jcd-l4d13q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum hostiae vel sanguini a duobus consecrato possit aliquid
+            admisceri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>276b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d14" type="librum4-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="jcd-l4d14q1">
+          <fileName filestem="jcd-l4d14q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sacramentum poenitentiae possit tollere culpam remanente
+            reatu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>294b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d14q2">
+          <fileName filestem="jcd-l4d14q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum post poenitentiam resurgat homo in aequali virtute</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>314a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d15" type="librum4-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="jcd-l4d15q1">
+          <fileName filestem="jcd-l4d15q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo possit Deum satisfacere pro peccato</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>324b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d16" type="librum4-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="jcd-l4d16q1">
+          <fileName filestem="jcd-l4d16q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum peccatum veniale possit remitti sine mortali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>340a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d16q2">
+          <fileName filestem="jcd-l4d16q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum poenitentia habet partes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>348b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d17" type="librum4-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="jcd-l4d17q1">
+          <fileName filestem="jcd-l4d17q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum vere contritus et poenitens plus debeat eligere poenam inferni vel
+            omnino non esse quam peccare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>356a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d17q2">
+          <fileName filestem="jcd-l4d17q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum confessio facta ab illo qui non est contritus nec poenitens aliquid
+            valeat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>374b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d18" type="librum4-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="jcd-l4d18q1">
+          <fileName filestem="jcd-l4d18q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum confessio non integra possit aliquid valere ad salutem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>386b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d19" type="librum4-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="jcd-l4d19q1">
+          <fileName filestem="jcd-l4d19q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum quilibet sacerdos possit uti clave quam habet in quemlibet
+            hominem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>394a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d20" type="librum4-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="jcd-l4d20q1">
+          <fileName filestem="jcd-l4d20q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum per indulgentias possit aliquid remitti de poena
+            satisfactoria</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>402a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d21" type="librum4-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="jcd-l4d21q1">
+          <fileName filestem="jcd-l4d21q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum peccatum veniale possit expiari quoad culpam per poenam
+            purgatorii</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>413b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d21q2">
+          <fileName filestem="jcd-l4d21q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in quolibet casu teneatur sacerdos celare peccata quae sub sigillo
+            confessionis novit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>424b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d22" type="librum4-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="jcd-l4d22q1">
+          <fileName filestem="jcd-l4d22q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum poenitentia interior sit res sacramenti poenitentiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>434a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d22q2">
+          <fileName filestem="jcd-l4d22q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum peccata per poenitentiam dimissa in aliquo casu redeant in eo qui
+            recidivat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>445b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d23" type="librum4-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="jcd-l4d23q1">
+          <fileName filestem="jcd-l4d23q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum extrema unctio sit sacramentum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>452b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d24" type="librum4-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="jcd-l4d24q1">
+          <fileName filestem="jcd-l4d24q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ordo sit sacramentum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>464b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d25" type="librum4-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="jcd-l4d25q1">
+          <fileName filestem="jcd-l4d25q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum episcopatus sit ordo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>478a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d26per29"
+        type="librum4-distinctio26 librum4-distinctio27 librum4-distinctio28 librum4-distinctio29">
+        <head>Distinctiones 26 per 29</head>
+        <item id="jcd-l4d26-27-28-29q1">
+          <fileName filestem="jcd-l4d26-27-28-29q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum matrimonium sit sacramentum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>487a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d30per32" type="librum4-distinctio30 librum4-distinctio31 librum4-distinctio32">
+        <head>Distinctiones 30 per 32</head>
+        <item id="jcd-l4d30-31-32q1">
+          <fileName filestem="jcd-l4d30-31-32q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum matrimonium beatae Mariae virginis habuerit aliqua bona excusantia
+            illud</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>504b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d33per42"
+        type="librum4-distinctio33 librum4-distinctio34 librum4-distinctio35 librum4-distinctio36 librum4-distinctio37 librum4-distinctio38 librum4-distinctio39 librum4-distinctio40 librum4-distinctio41 librum4-distinctio42">
+        <head>Distinctiones 30 per 32</head>
+        <item id="jcd-l4d33per42q1">
+          <fileName filestem="jcd-l4d33per42q1"/>
+          <title>Liber 4, distinctio 33 et novem sequentes, quaestio 1</title>
+          <questionTitle>Utrum votum continentiae annexum ordinibus sacris impediat ne ordinatus
+            possit habere simul duas uxores</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T6">
+              <folio>515a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d43" type="librum4-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="jcd-l4d43q1">
+          <fileName filestem="jcd-l4d43q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corruptum vel annihilatum per Dei potentiam possit idem numero
+            reparari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>1a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d43q2">
+          <fileName filestem="jcd-l4d43q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum resurrectio omnium mortuorum erit in eodem instanti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>29b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d44" type="librum4-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="jcd-l4d44q1">
+          <fileName filestem="jcd-l4d44q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in resurrectione anima resumat idem corpus numero quod prius
+            habuit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>51b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d44q2">
+          <fileName filestem="jcd-l4d44q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum corpora sanctorum post resurrectionem erunt
+            impassibilia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>61b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d44q3">
+          <fileName filestem="jcd-l4d44q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum corpus gloriosum per dotem subtilitatis possit esse in eodem loco
+            simul cum alio corpore</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>73b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d44q4">
+          <fileName filestem="jcd-l4d44q4"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum anima separata possit pati ab igne corporeo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>95b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d45" type="librum4-distinctio45">
+        <head>Distinctio 45</head>
+        <item id="jcd-l4d45q1">
+          <fileName filestem="jcd-l4d45q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sancti qui sunt in patria cognoscant orationes
+            nostras</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>119a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d46per48" type="librum4-distinctio46 librum4-distinctio47 librum4-distinctio48">
+        <head>Distinctiones 46 per 48</head>
+        <item id="jcd-l4d46-47-48q1">
+          <fileName filestem="jcd-l4d46-47-48q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus in generali et ultimo iudicio iudicans secundum formam
+            humanam sit ostensurus reprobis formam divinam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>122a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d49" type="librum4-distinctio49">
+        <head>Distinctio 49</head>
+        <item id="jcd-l4d49q1">
+          <fileName filestem="jcd-l4d49q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ultima beatitudo vel felicitas humana sit aliquis actus
+            aeternus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>134b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d49q2">
+          <fileName filestem="jcd-l4d49q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum beatitudo ultima hominis consistat essentialiter in actu
+            intellectus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>145b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d49q3">
+          <fileName filestem="jcd-l4d49q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum omnes homines appetant beatitudinem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>166b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d49q4">
+          <fileName filestem="jcd-l4d49q4"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum intellectus creatus ex solis naturalibus possit pertingere ad
+            videndum Deum per essentiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>195a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d49q5">
+          <fileName filestem="jcd-l4d49q5"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum essentia divina ab intellectu creato per aliquam similitudinem
+            videatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>218b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d49q6">
+          <fileName filestem="jcd-l4d49q6"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum videntes Deum videant in eo omnia quae Deus videt vel quae possunt in
+            ipso videri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>234b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jcd-l4d50" type="librum4-distinctio50">
+        <head>Distinctio 50</head>
+        <item id="jcd-l4d50q1">
+          <fileName filestem="jcd-l4d50q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima a corpore separata aliquid cognoscat vel
+            intelligat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>259a</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="jcd-l4d50q2">
+          <fileName filestem="jcd-l4d50q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum anima hominis separata possit corpora movere
+            localiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#T7">
+              <folio>279b</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
