@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/jcwitt/Projects/scta/edf-schema/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Simon Magister</authorName>
+    <commentaryName>Expositio super librum De anima</commentaryName>
+    <commentaryid>da-31</commentaryid>
+    <commentaryslug>da-31</commentaryslug>
+    <authorUri>http://scta.info/resource/SimonMagister</authorUri> <!-- I don't know if this is right -->
+    <parentUri>http://scta.info/resource/da-31</parentUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-31/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <description>
+      The authorship of this text is disputed. It has been attributed to
+      Faversham, but the attribution is uncertain.
+    </description>
+    <hasWitnesses>
+      <witness id="L">
+        <slug>leipzig1359</slug>
+        <title>Leipzig, Universitätsbibliothek, Lat. 1359, ff. 44r-77v</title>
+        <initial>L</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="da-31-librum1" type="da-liber1">
+      <item id="da-31-l1prol" type="lectio">
+        <fileName filestem="da-31-l1prol"/>
+        <title>Liber 1, Prooemium</title>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>44r</folio>
+            <folio>44v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-31-l1l1" type="lectio">
+        <fileName filestem="da-31-l1l1"/>
+        <title>Liber 1, Lectio 1</title>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio c="b">44v</folio>
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="da-31-librum2" type="da-liber2">
+    </div>
+    <div id="da-31-librum3" type="da-liber3">
+      <item id="da-31-l3l1" type="lectio">
+        <fileName filestem="da-31-l3l1"/>
+        <title>Liber 3, Lectio 1</title>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>70v</folio>
+            <folio>71r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-31-l3l2" type="lectio">
+        <fileName filestem="da-31-l3l2"/>
+        <title>Liber 3, Lectio 2</title>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio c="b">71r</folio>
+            <folio>71v</folio>
+            <folio c="a">72r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="da-31-l3l3" type="lectio">
+        <fileName filestem="da-31-l3l3"/>
+        <title>Liber 3, Lectio 3</title>
+        <hasWitnesses>
+          <witness ref="#L">
+            <folio>72r</folio>
+            <folio c="a">72v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>

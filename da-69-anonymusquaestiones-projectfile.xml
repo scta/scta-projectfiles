@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Quaestiones De anima I--II</commentaryName>
+    <commentaryid>da-69</commentaryid>
+    <commentaryslug>da-69</commentaryslug>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/da-69</parentUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-69/</textfilesdir>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="M">
+        <slug>mert275</slug>
+        <title>Oxford, Merton College 275, ff. 88-101</title>
+        <initial>M</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div type="da-liber" subtype="da-liber1" id="da-69-librum1">
+      <head>Liber primus</head>
+      <item id="da-69-l1q1" type="quaestio">
+        <fileName filestem="da-69-l1q1" />
+        <title>Liber 1, quaestio 1</title>
+        <questionTitle>
+          Tres quaestiones circa scientiam de anima
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#M">
+            <folio>87r</folio>
+            <folio>87v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
