@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName/>
+    <commentaryName>Glossa ordinaria</commentaryName>
+    <commentaryid>glossaordinaria</commentaryid>
+    <commentaryslug>go</commentaryslug>
+    <authorUri/>
+    <parentUri>http://scta.info/resource/glossaordinaria</parentUri>
+    <parentWorkGroup>http://scta.info/resource/biblicalcommentaries</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/glossaordinaria/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> 
+      <witness id="S">
+        <slug>Strasbourg1481</slug>
+        <title>Strasbourg 1481</title>
+        <initial>S</initial>
+      </witness>
+      <!-- https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_279.tif -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="go-gen">
+      
+      <head>Genesis</head>
+    </div>
+    <div id="go-ex">
+      
+      <head>Exodus</head>
+    </div>
+    <div id="go-lev">
+      
+      <head>Leviticus</head>
+    </div>
+    <div id="go-num">
+      
+      <head>Numeri</head>
+    </div>
+    <div id="go-deut">
+      
+      <head>Deuteronomium</head>
+    </div>
+    <div id="go-ios">
+      
+      <head>Iosiah</head>
+    </div>
+    <div id="go-iudic">
+      
+      <head>Iudicium</head>
+    </div>
+    <div id="go-rut">
+      
+      <head>Ruth</head>
+    </div>
+    <div id="go-Isam">
+      
+      <head>Samuelis I</head>
+    </div>
+    <div id="go-IIsam">
+      
+      <head>Samuelis II</head>
+    </div>
+    <div id="go-Ireg">
+      
+      <head>Regum I</head>
+    </div>
+    <div id="go-IIreg">
+      
+      <head>Regum II</head>
+    </div>
+    <div id="go-Ipara">
+      
+      <head>Paralipomenon I</head>
+    </div>
+    <div id="go-IIpara">
+      
+      <head>Paralipomenon II</head>
+    </div>
+    <div id="go-esd">
+      
+      <head>Esdrae</head>
+    </div>
+    <div id="go-neh">
+      
+      <head>Nehemiae</head>
+    </div>
+    <div id="go-tob">
+      
+      <head>Tobiae</head>
+    </div>
+    <div id="go-iudt">
+      
+      <head>Iudith</head>
+    </div>
+    <div id="go-est">
+      
+      <head>Esther</head>
+    </div>
+    <div id="go-iob">
+      
+      <head>Iob</head>
+    </div>
+    <div id="go-ps">
+      
+      <head>Psalmi</head>
+    </div>
+    <div id="go-prov">
+      
+      <head>Proverbia</head>
+    </div>
+    <div id="go-quoh">
+      
+      <head>Ecclesiastes</head>
+    </div>
+    <div id="go-cant">
+      
+      <head>Canticum Canticorum</head>
+    </div>
+    <div id="go-sap">
+      
+      <head>Sapientia</head>
+    </div>
+    <div id="go-sir">
+      
+      <head>Ecclesiasticus</head>
+    </div>
+    <div id="go-is">
+      
+      <head>Isaias</head>
+    </div>
+    <div id="go-ier">
+      
+      <head>Ieremias</head>
+    </div>
+    <div id="go-lam">
+      
+      <head>Lamentationes</head>
+    </div>
+    <div id="go-bar">
+      
+      <head>Baruch</head>
+    </div>
+    <div id="go-ez">
+      
+      <head>Ezechiel</head>
+    </div>
+    <div id="go-dan">
+      
+      <head>Daniel</head>
+    </div>
+    <div id="go-os">
+      
+      <head>Osee</head>
+    </div>
+    <div id="go-ioel">
+      
+      <head>Ioel</head>
+    </div>
+    <div id="go-am">
+      
+      <head>Amos</head>
+    </div>
+    <div id="go-abd">
+      
+      <head>Abdias</head>
+    </div>
+    <div id="go-ion">
+      
+      <head>Ionas</head>
+    </div>
+    <div id="go-mic">
+      
+      <head>Michaeas</head>
+    </div>
+    <div id="go-nah">
+      
+      <head>Nahum</head>
+    </div>
+    <div id="go-hab">
+      
+      <head>Habacuc</head>
+    </div>
+    <div id="go-ag">
+      
+      <head>Aggaeus</head>
+    </div>
+    <div id="go-soph">
+      
+      <head>Sophonias</head>
+    </div>
+    <div id="go-zac">
+      
+      <head>Zacharias</head>
+    </div>
+    <div id="go-mal">
+      
+      <head>Malachias</head>
+    </div>
+    <div id="go-Imac">
+      
+      <head>Machabaeorum I</head>
+    </div>
+    <div id="go-IImac">
+      
+      <head>Machabaeorum II</head>
+    </div>
+    <div id="go-mt">
+      
+      <head>Matthaeus</head>
+    </div>
+    <div id="go-mc">
+      
+      <head>Marcus</head>
+    </div>
+    <div id="go-lc">
+      
+      <head>Lucas</head>
+    </div>
+    <div id="go-io">
+      
+      <head>Ioannes</head>
+    </div>
+    <div id="go-act">
+      
+      <head>Actus Apostolorum</head>
+    </div>
+    <div id="go-rom">
+      <head>ad Romanos</head>
+      <item id="go-rom1">
+        <fileName filestem="go-rom1"></fileName>
+        <title>Capitulum 1</title>
+        <hasWitnesses>
+          <witness ref="#S"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="go-rom2">
+        <fileName filestem="go-rom2"></fileName>
+        <title>Capitulum 2</title>
+        <hasWitnesses>
+          <witness ref="#S"></witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="go-Icor">
+      <head>ad Corinthios I</head>
+      <item id="go-Icor4">
+        <fileName filestem="go-Icor4"></fileName>
+        <title>Capitulum 4</title>
+        <hasWitnesses>
+          <witness ref="#S"></witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="go-IIcor">
+      
+      <head>ad Corinthios II</head>
+    </div>
+    <div id="go-gal">
+      
+      <head>ad Galatas</head>
+    </div>
+    <div id="go-eph">
+      
+      <head>ad Ephesios</head>
+    </div>
+    <div id="go-phil">
+      
+      <head>ad Philippenses</head>
+    </div>
+    <div id="go-col">
+      
+      <head>ad Colossenses</head>
+    </div>
+    <div id="go-Ith">
+      
+      <head>ad Thessalonicenses I</head>
+    </div>
+    <div id="go-IIth">
+      
+      <head>ad Thessalonicenses II</head>
+    </div>
+    <div id="go-Itim">
+      
+      <head>ad Timotheum I</head>
+    </div>
+    <div id="go-IItim">
+      
+      <head>ad Timotheum II</head>
+    </div>
+    <div id="go-tit">
+      
+      <head>ad Titum</head>
+    </div>
+    <div id="go-phm">
+      
+      <head>ad Philemonem</head>
+    </div>
+    <div id="go-hebr">
+      
+      <head>ad Hebraeos</head>
+    </div>
+    <div id="go-iac">
+      
+      <head>Iacobi</head>
+    </div>
+    <div id="go-Ipetr">
+      
+      <head>Petri I</head>
+    </div>
+    <div id="go-IIpetr">
+      
+      <head>Petri II</head>
+    </div>
+    <div id="go-Iio">
+      
+      <head>Ioannis I</head>
+    </div>
+    <div id="go-IIio">
+      
+      <head>Ioannis II</head>
+    </div>
+    <div id="go-IIIio">
+      
+      <head>Ioannis III</head>
+    </div>
+    <div id="go-iud">
+      
+      <head>Iudae</head>
+    </div>
+    <div id="go-ap">
+      
+      <head>Apocalypsis</head>
+    </div>
+  </div>
+</listofFileNames>
