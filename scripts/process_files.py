@@ -19,24 +19,22 @@ def parse_arguments():
                         help='Directory or file to be processed.')
     parser.add_argument(
         '-o', '--output', dest='output', action='store', default='.',
-        help=("Output directory. (default: '%("
-              "default)s')")
+        help=('Output directory. (default: "%(default)s")')
     )
     parser.add_argument(
         '--xsl', dest='xsl', action='store', required=True,
-        help=("The XSL script used for conversion. (default: '%("
-              "default)s')")
+        help=('The XSL script used for conversion. (default: "%(default)s")')
     )
     parser.add_argument('-v', '--version', action='version',
                         version='%(prog)s {}'.format(__version__),
-                        help="Show version and exit.")
+                        help='Show version and exit.')
 
     return vars(parser.parse_args())
 
 
 
 def process_file(filename, output, xsl):
-    print("Start processing %s" % filename)
+    print('Start processing %s' % filename)
     proc = subprocess.Popen(
         ['saxon',
          '-s:%s' % filename,
@@ -63,19 +61,19 @@ def main():
 
 
     start = time()
-    print("Collecting files...")
+    print('Collecting files...')
 
     filelist = []
     if os.path.isdir(input_path):
         for filename in os.listdir(input_path):
-            if filename.endswith(".xml"):
+            if filename.endswith('.xml'):
                 filelist.append(filename)
     elif (os.path.isfile(input_path)
           and os.path.splitext(input_path)[1] == '.xml'):
         filelist.append(input_path)
 
 
-    print("Start processing files...")
+    print('Start processing files...')
     procs = []
     for filename in filelist:
         proc = process_file(filename, output, xsl)
@@ -84,8 +82,8 @@ def main():
     for proc in procs:
         proc.communicate()
 
-    print("All processes finished in %.3f seconds" % (time() - start))
-    print("Files are located in %s" % output)
+    print('All processes finished in %.3f seconds' % (time() - start))
+    print('Files are located in "%s"' % output)
 
 
 if __name__ == '__main__':
