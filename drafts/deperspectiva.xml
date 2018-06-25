@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Roger Bacon</authorName>
+    <commentaryName>De Perspectiva</commentaryName>
+    <commentaryid>deperspectiva</commentaryid>
+    <commentaryslug>rbdp</commentaryslug>
+    <authorUri>http://scta.info/resource/RogerBacon</authorUri>
+    <parentUri>http://scta.info/resource/deperspectiva</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/deperspectiva/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <hasWitnesses>
+      <!-- early copy according to https://plato.stanford.edu/entries/roger-bacon/ MS Paris, BN Lat. 7434 ark:/12148/btv1b100344834 -->
+      <witness id="P">
+        <slug>bnf7434</slug>
+        <title>MS Paris, BN Lat. 7434</title>
+        <initial>P</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="rbdp-c1" type="quaestio">
+      <fileName filestem="rbdp-c1"/>
+          <title>Caput 1</title>
+          <questionTitle></questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio></folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      
+    </div>
+  </div>
+</listofFileNames>

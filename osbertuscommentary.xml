@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Osbertus Pickingham</authorName>
+    <commentaryName>Osbertus Sentences Commentary</commentaryName>
+    <commentaryid>osbertuscommentary</commentaryid>
+    <commentaryslug>osbp</commentaryslug>
+    <authorUri>http://scta.info/resource/OsbertPickingham</authorUri>
+    <parentUri>http://scta.info/resource/osbertuscommentary</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sentences</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/osbertuscommentary/</textfilesdir>
+    <questionListSource>De Poorter A. Un recueil peu connu de questions sur les Sentences. In: Revue néo-scolastique de philosophie. 33ᵉ année,
+      Deuxième série, n°32, 1931. pp. 487-491; Bruges 192</questionListSource>
+    <!-- this question list needs revision in light of Xiberta question list also from 1931 -->
+    <questionListOriginalEditor>A. De Poorter</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <!-- https://archive.org/details/OEXV794_P4 -->
+        <slug>bruges192</slug>
+        <title>Bruges ms. 192</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="osbp-l1">
+      <head>Liber I</head>
+      <item id="osbp-l1q1">
+        <fileName filestem="osbp-l1q1"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum aîiquis in casu possit ex precepto obligari ad
+          aliquod quod est contra conscientiam suam.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>1r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q2">
+        <fileName filestem="osbp-l1q2"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum habenti conscientiam quod Deus non sit diligendus
+          possit rationabiliter precipi quod diligat Deum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>13v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q3">
+        <fileName filestem="osbp-l1q3"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum habenti conscientiam quod Deus non sit diligendus
+          possit rationabiliter precipi quod diligat Deum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>13v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q3">
+        <fileName filestem="osbp-l1q3"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum habens conscientiam possit se conformare illi conscientie
+          erronée sine peccato.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">19r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q4">
+        <fileName filestem="osbp-l1q4"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Circa principium primi libri et circa omnes illas distinctiones in
+          primo libro que pertinent ad divinam essentiam quero.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">34r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q5">
+        <fileName filestem="osbp-l1q5"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Circa materiam de caritate quero utrum caritas possit augeri.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">35v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q6">
+        <fileName filestem="osbp-l1q6"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum caritas augeatur per opera meritoria.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">42r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l1q7">
+        <fileName filestem="osbp-l1q7"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Restat igitur respondere ad articulum cum queritur utrum
+          creatura aliqua possit esse infinita.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">44r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="osbp-l2">
+        <head>Liber II</head>
+        <item id="osbp-l2q1">
+          <fileName filestem="osbp-l2q1"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deo frui sit summa merces cujuslibet creature béate.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio>45r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="osbp-l2q2">
+          <fileName filestem="osbp-l2q2"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum essentia divina generet vel generetur.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio c="a">55r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="osbp-l2q3">
+          <fileName filestem="osbp-l2q3"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum solus Deus sit omnipotens.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio c="b">56r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="osbp-l2q4">
+          <fileName filestem="osbp-l2q4"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum Deus possit omne.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio c="b">63v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="osbp-l2q5">
+          <fileName filestem="osbp-l2q5"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum pro omni et solo peccato mortali pena eterna debeatur.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio c="a">67r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="osbp-l2q6">
+          <fileName filestem="osbp-l2q6"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Nunc restat tractare quare pro peccato temporali et momentaneo
+            debetur pena eterna.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#B">
+              <folio c="a">77r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    <div id="osbp-l3">
+      <head>Liber III</head>
+      <item id="osbp-l3q1">
+        <fileName filestem="osbp-l3q1"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Queritur utrum ex puris naturalibus possit elici actus meritorius.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>81r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q2">
+        <fileName filestem="osbp-l3q2"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum voluntas viatoris sine dono gratie sufficere possit ad meritum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">86r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q3">
+        <fileName filestem="osbp-l3q3"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum quelibet rationalis creatura sit ad gloriam beatitudinis creata.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">104v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q4">
+        <fileName filestem="osbp-l3q4"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum visio beatifica sit cognitio clara et simpliciter perfecta.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">108r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q5">
+        <fileName filestem="osbp-l3q5"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum voluntas creata sit formaliter libera</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">111v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q6">
+        <fileName filestem="osbp-l3q6"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum omne peccatum sit imputabile voluntati.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">121v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q7">
+        <fileName filestem="osbp-l3q7"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum in sacramento altaris sub speciebus panis et vini sit verum corpus Christi.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">138v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l3q8">
+        <fileName filestem="osbp-l3q8"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum in omnibus tam electis quam reprobis juxta mensuram
+          peccati proportionetur mensura supplicii.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">144v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="osbp-l4">
+      <head>Liber IV</head>
+      <item id="osbp-l4q1">
+        <fileName filestem="osbp-l4q1"/>
+        <title>Quaestio 1</title>
+        <questionTitle>utrum aliqua pura
+          creatura eos qui sub lege perierant potuerit redemisse.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>147r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q2">
+        <fileName filestem="osbp-l4q2"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum pro redemptione generis humani Verbum Incarnatum
+          potuerit humanari.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">147v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q3">
+        <fileName filestem="osbp-l4q3"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum Christus, sicut assumpsit hominem ad reparandum
+          humanam naturam, ita possit assumere naturam spiritualem
+          ad redimendum angelicam ruinam.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">150r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q4">
+        <fileName filestem="osbp-l4q4"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum très persone divine unam naturam creatam possint
+          sustinere.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">152v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q5">
+        <fileName filestem="osbp-l4q5"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum Deus posset naturam irrationalem vel malam
+          assumere in unitatem suppositi vel persone.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">153v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q6">
+        <fileName filestem="osbp-l4q6"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum Christus de Beata Virgine potuerit incarnari.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">154r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q7">
+        <fileName filestem="osbp-l4q7"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum non obstante ilia macula originali Christus potuerit
+          de Beata Virgine carnem assumpsisse per operationem
+          matris gloriose.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">155v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q8">
+        <fileName filestem="osbp-l4q8"/>
+        <title>Quaestio 8</title>
+        <questionTitle> Utrum Virgo Maria meruit fieri mater Dei.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">156r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q9">
+        <fileName filestem="osbp-l4q9"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum Christus, secundum quod homo, sit suppositum
+          humane nature.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">156v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q10">
+        <fileName filestem="osbp-l4q10"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum Christus habuerit notitiam omnium existentium et
+          cognitionem scibilium.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">157v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q11">
+        <fileName filestem="osbp-l4q11"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum anima Christi sciât omnia que Deus scit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">159v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q12">
+        <fileName filestem="osbp-l4q12"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum Christus per suam obedientiam meruerit nobis et
+          sibi gloriam beatorum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">160v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q13">
+        <fileName filestem="osbp-l4q13"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum Christus voluntarie acceperit pro nobis penas et
+          mortis pavorem.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="a">161v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q14">
+        <fileName filestem="osbp-l4q14"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum preceptum datum a nostro Creatore, ad quod homo
+          indissolubiliter obligatur, diminuât meritum ipsius
+          operands.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">162r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q15">
+        <fileName filestem="osbp-l4q15"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum quilibet homo teneatur ad aliquem gradum meritorie
+          fruitionis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">163r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q16">
+        <fileName filestem="osbp-l4q16"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum certi meriti sit opus cadens sub precepto ut sic.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">164r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q17">
+        <fileName filestem="osbp-l4q17"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum preceptum justi Dei naturas dampnatas valeat obligare.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">164v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q18">
+        <fileName filestem="osbp-l4q18"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum quilibet teneatur credere quod ecclesia déterminât
+          esse credendum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">165r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q19">
+        <fileName filestem="osbp-l4q19"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum lex evangelica omnem legem antiquam contineat
+          eminenter.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">165v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="osbp-l4q20">
+        <fileName filestem="osbp-l4q20"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum lex evangelica omnem legem antiquam contineat
+          eminenter.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio c="b">165v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
