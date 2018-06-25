@@ -46,13 +46,14 @@
       
       -->
       
+      <attribution>
+        <xsl:copy-of select="//header/questionListSource"/>
+        <xsl:copy-of select="//header/questionListOriginalEditor"/>
+        <xsl:copy-of select="//header/questionListEncoder"/>
+      </attribution>
+      <xsl:apply-templates select="//header"/>
+      <xsl:apply-templates />
     </div>
-    <attribution>
-      <xsl:copy-of select="//header/questionListSource"/>
-      <xsl:copy-of select="//header/questionListOriginalEditor"/>
-      <xsl:copy-of select="//header/questionListEncoder"/>
-    </attribution>
-    <xsl:apply-templates />
   </xsl:template>
 
   <xsl:template match="description">
@@ -74,7 +75,6 @@
     <manifestation id="{$siglum}">
       <slug><xsl:value-of select="slug"/></slug>
       <dc:title><xsl:value-of select="title"/></dc:title>
-      <xsl:apply-templates />
     </manifestation>
   </xsl:template>
 
