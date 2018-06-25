@@ -38,13 +38,21 @@
       <dc:description><xsl:value-of select="//header/description"/></dc:description>
       <!-- Top level metadata -->
       <parentWorkGroup><xsl:value-of select="tokenize(//header/parentWorkGroup, '/')[last()]" /></parentWorkGroup>
+      
+      <!-- to replace parent Work Group
+        
+        <xsl:variable name="parentWorkGroup" select="//header/parentWorkGroup"/>
+        <work isCanonical="true" parentWorkGroup="{$parentWorkGroup}">w-<xsl:value-of select="$expression-id"/></work>
+      
+      -->
+      
+    </div>
     <attribution>
       <xsl:copy-of select="//header/questionListSource"/>
       <xsl:copy-of select="//header/questionListOriginalEditor"/>
       <xsl:copy-of select="//header/questionListEncoder"/>
     </attribution>
     <xsl:apply-templates />
-    </div>
   </xsl:template>
 
   <xsl:template match="description">
