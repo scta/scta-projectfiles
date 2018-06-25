@@ -38,12 +38,13 @@
       <dc:description><xsl:value-of select="//header/description"/></dc:description>
       <!-- Top level metadata -->
       <parentWorkGroup><xsl:value-of select="tokenize(//header/parentWorkGroup, '/')[last()]" /></parentWorkGroup>
-    <attribution>
-      <xsl:copy-of select="//header/questionListSource"/>
-      <xsl:copy-of select="//header/questionListOriginalEditor"/>
-      <xsl:copy-of select="//header/questionListEncoder"/>
-    </attribution>
-    <xsl:apply-templates />
+      <attribution>
+        <xsl:copy-of select="//header/questionListSource"/>
+        <xsl:copy-of select="//header/questionListOriginalEditor"/>
+        <xsl:copy-of select="//header/questionListEncoder"/>
+      </attribution>
+      <xsl:apply-templates select="//header"/>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 
@@ -66,7 +67,6 @@
     <manifestation id="{$siglum}">
       <slug><xsl:value-of select="slug"/></slug>
       <dc:title><xsl:value-of select="title"/></dc:title>
-      <xsl:apply-templates />
     </manifestation>
   </xsl:template>
 
