@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Augustine</authorName>
+    <commentaryName>De Doctrina Christiana</commentaryName>
+    <commentaryid>augustinededoctrinachristiana</commentaryid>
+    <commentaryslug>addc</commentaryslug>
+    <authorUri>http://scta.info/resource/Augustine</authorUri>
+    <parentUri>http://scta.info/resource/augustinededoctrinachristiana</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/augustinededoctrinachristiana/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="addc-prol">
+      <fileName filestem="addc-prol"/>
+      <title>Prologus</title>
+    </item>
+    <item id="addc-l1">
+      <fileName filestem="addc-l1"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="addc-l2">
+      <fileName filestem="addc-l2"/>
+      <title>Liber 2</title>
+    </item>
+    <item id="addc-l3">
+      <fileName filestem="addc-l3"/>
+      <title>Liber 3</title>
+    </item>
+    <item id="addc-l4">
+      <fileName filestem="addc-l4"/>
+      <title>Liber 4</title>
+    </item>
+  </div>
+</listofFileNames>

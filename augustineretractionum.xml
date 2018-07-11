@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Augustine</authorName>
+    <commentaryName>Retractionum</commentaryName>
+    <commentaryid>augustineretractionum</commentaryid>
+    <commentaryslug>aretr</commentaryslug>
+    <authorUri>http://scta.info/resource/Augustine</authorUri>
+    <parentUri>http://scta.info/resource/augustineretractionum</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/augustineretractionum/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="aretr-prol">
+      <fileName filestem="aretr-prol"/>
+      <title>Prologus</title>
+    </item>
+    <item id="aretr-l1">
+      <fileName filestem="aretr-l1"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="aretr-l2">
+      <fileName filestem="aretr-l2"/>
+      <title>Liber 2</title>
+    </item>
+  </div>
+</listofFileNames>
