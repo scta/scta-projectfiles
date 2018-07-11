@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+    <header>
+        <authorName>Johannes de Wasia</authorName>
+        <commentaryName>Lectura super quattuor libros Sententiarum</commentaryName>
+        <commentaryid>wasialectura</commentaryid>
+        <commentaryslug>wl</commentaryslug>
+        <authorUri></authorUri>
+        <parentUri></parentUri>
+        <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+        <textfilesdir></textfilesdir>
+        <questionListSource>Erfurt Universitats und Forschungsbibliothek Erfurt/Gotha CA 2 110</questionListSource>
+        <questionListOriginalEditor>Luciana Cioca</questionListOriginalEditor>
+        <questionListEncoder>Luciana Cioca</questionListEncoder>
+        <description></description>
+        <hasWitnesses>
+            <witness id="E">
+                <slug>ErfurtCA110</slug>
+                <title>Erfurt CA 2 110</title>
+                <initial>E</initial>
+            </witness>
+        </hasWitnesses>
+    </header>
+    <div id="body">
+        <div id="wa-principia" type="principia">
+            <head>Primum principium</head>
+            <item id="wa-principium1">
+                <fileName filestem="wa-principium1"/>
+                    <title>Sermo</title>
+                <questionTitle>Facies eius sicut sol lucet, scribitur Apocalypsis 1 capitulo reverendi patres etc. Sicut scribit Doctor Egregius Hyspalensis Ysydor, libro Ethicorum 11, capitulo 1: "Facies dicta est ab effigie. Ibi est enim tota figura hominis et uniuscuiusque persone cognitio."</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>1r</folio>
+                        <folio>1v</folio>
+                        <folio>2r</folio> <!-- between folios 1v and 5v the folios are left blank -->
+                        <folio>2v</folio>
+                        <folio>3r</folio>
+                        <folio>3v</folio>
+                        <folio>4r</folio>
+                        <folio>4v</folio>
+                        <folio>5r</folio>  
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-principium1">
+                <fileName filestem="wa-principium1"/>
+                <title>Sermo</title>
+                <questionTitle>Facies eius sicut sol lucet, Apocalypsis 1 capitulo. Resummendo thema quod sumpsi in primo cursu meo et in primo sententiarum...</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>5v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-principia" type="principia">
+            <head>Secundum principium</head>
+            <item id="wa-principium2">
+                <fileName filestem="wa-principium2"/>
+                <title>Questio collativa</title>
+                <questionTitle>Iuxta thema collationis formo talem tytulum questionis: utrum facies solis infinite relucentie ab eterno splendorem adequatum immensitati sue potentie potuit quovismodo producere.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>6r</folio>
+                        <folio>6v</folio>
+                        <folio>7r</folio> 
+                        <folio>7v</folio>
+                        <folio>8r</folio>
+                        <folio>8v</folio> 
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-principia" type="principia">
+            <head>Tertium principium</head>
+            <item id="wa-principium3">
+                <fileName filestem="wa-principium3"/>
+                <title>Sermo</title>
+                <questionTitle>Facies eius sicut sol lucet, Apocalypsis 1 capitulo. Viri doctrina merito appelari potest meritior eius facies…</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>9r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-principium3">
+                <fileName filestem="wa-principium3"/>
+                <title>Questio collativa</title>
+                <questionTitle>Iuxta thema collationis formo talem tytulum questionis: utrum facies solis infinite relucentie umbram corporalis deficientie sibi potuit ypostatice unire.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>9v</folio>
+                        <folio>10r</folio>
+                        <folio>10v</folio>
+                        <folio>11r</folio>
+                        <folio>11v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-principia" type="principia">
+            <head>Quartum principium</head>
+            <item id="wa-principium4">
+                <fileName filestem="wa-principium4"/>
+                <title>Questio collativa</title>
+                <questionTitle>Iuxta thema collationis formo talem tytulum questionis: utrum facies solis infinite relucentie virtutem spiritualis efficientie sacramentis communicaverit effective.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>12r</folio>
+                        <folio>12v</folio>
+                        <folio>13r</folio>
+                        <folio>13v</folio>
+                        <folio>14r</folio>
+                        <folio>14v</folio>
+                        <folio>15r</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-principium4">
+                <fileName filestem="wa-principium4"/>
+                <title>Sermo</title>
+                <questionTitle>Facies eius sicut sol lucet, Apocalypsis 1 capitulo. Cum a doctrina sua cognoscitur vir, Proverbiorum 12 capitulo, et in facie prudentis reluceat sapientia…</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>15v</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-prologus" type="prologus">
+            <head>Prologus</head>
+            <item id="wa-prologus">
+                <fileName filestem="wa-prologusq1"/>
+                <title>Questio 1</title>
+                <questionTitle>Utrum a viatore naturali industria concurrente solum Dei generali influentia possit de aliquo certitudinaliter acquiri notitia scientifica.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>16r</folio>
+                        <folio>16v</folio>
+                        <folio>17r</folio>
+                        <folio>17v</folio>
+                        <folio>18r</folio>
+                        <folio>18v</folio>
+                        <folio>19r</folio>
+                        <folio>19v</folio>
+                        <folio>20ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-prologus">
+                <fileName filestem="wa-prologusq2"/>
+                <title>Questio 2</title>
+                <questionTitle>Utrum theologia que de communi lege habetur a theologis sit scientia proprie dicta.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>20rb</folio>
+                        <folio>20v</folio>
+                        <folio>21r</folio>
+                        <folio>21v</folio>
+                        <folio>22r</folio>
+                        <folio>22va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-prologus">
+                <fileName filestem="wa-prologusq3"/>
+                <title>Questio 3</title>
+                <questionTitle>Utrum habitus theologicus possibilis viatori de communi lege distinguatur realiter a fide.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>22va-b</folio>
+                        <folio>23r</folio>
+                        <folio>23v</folio>
+                        <folio>24ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-prologus">
+                <fileName filestem="wa-prologusq4"/>
+                <title>Questio 4</title>
+                <questionTitle>Utrum articuli fidei sint principia theologie.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>24ra-b</folio>
+                        <folio>24v</folio>
+                        <folio>25r</folio>
+                        <folio>25v</folio>
+                        <folio>26r</folio>
+                        <folio>26va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-liber1" type="liber1">
+            <head>Liber 1</head>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q1"/>
+                <title>Distinctio 1, Questio 1</title>
+                <questionTitle>Utrum delectatio sit perfectior dilectione.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>26ra-28rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q2"/>
+                <title>Distinctio 1, Questio 2</title>
+                <questionTitle>Utrum fruitio sit essentialiter dilectio vel delectatio.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>28rb-29va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q3"/>
+                <title>Distinctio 1, Questio 3</title>
+                <questionTitle>Utrum fruitio proprie dicta in creaturis sit solius voluntatis formaliter et subiective.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>29va-30vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q4"/>
+                <title>Distinctio 1, Questio 4</title>
+                <questionTitle>Utrum aliqua creatura possit esse debite ac ordinate fruitionis obiectum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>30vb-33ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q5"/>
+                <title>Distinctio 1, Questio 5</title>
+                <questionTitle>Utrum creata voluntas per suam ingenitam libertatem et sua propria efficacia possit non frui obiecto beatifico clare viso in patria.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>33ra-37va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d1q6"/>
+                <title>Distinctio 1, Questio 6</title>
+                <questionTitle>Utrum non fruendo personis possit voluntas creata ordinate frui divina essentia.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>38ra-40ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d2"/>
+                <title>Distinctio 2</title>
+                <questionTitle>Utrum ‘Deum esse trinum et unum’ sit naturaliter demonstrabile.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>40ra-41va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d4q1"/>
+                <title>Distinctio 4, Questio 1</title>
+                <questionTitle>Utrum potentia generandi in Deo sit vera potentia productiva.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>41va-42vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d4q2"/>
+                <title>Distinctio 4, Questio 2</title>
+                <questionTitle>Utrum potentia generandi sit in Filio.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>43ra-43vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d7"/>
+                <title>Distinctio 7</title>
+                <questionTitle>Utrum essentia divina generet vel generetur.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>44ra-44va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d9-10"/>
+                <title>Distinctiones 9, 10</title>
+                <questionTitle>Utrum generatio Filii sit realiter prior spiratione Spiritus Sancti.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>44va-46ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d13"/>
+                <title>Distinctio 13</title>
+                <questionTitle>Utrum generatio et spiratio in divinis realiter distinguantur.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>46rb-47rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d33-34"/>
+                <title>Distinctiones 33, 34</title>
+                <questionTitle>Utrum divina essentia sit eadem realiter et formaliter proprietatibus relationis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>48ra-50va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d38q1"/>
+                <title>Distinctio 38, Questio 1</title>
+                <questionTitle>Utrum futurum possit evidenter a Deo sciri esse futurum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>50va-52va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d38q2"/>
+                <title>Distinctio 38, Questio 2</title>
+                <questionTitle>Utrum eterne predestinationis aliquorum et reprobationis aliorum ex parte predestinati et reprobati sit aliqua causa totius effectus predestionationis et reprobationis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>53ra-54vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d42"/>
+                <title>Distinctio 42</title>
+                <questionTitle>Utrum omne fieri possibile Deus sua absoluta potentia possit facere.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>55ra-56ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d37"/>
+                <title>Distinctio 37</title>
+                <questionTitle>Utrum presentialitas qua Deus est presens omnibus creaturis dicat rationem positivam vel privativam.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>56rb-56va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d45-46"/>
+                <title>Distinctiones 45, 46</title>
+                <questionTitle>Utrum sic semper impleatur divina voluntas quod non sit impedimenti eius per creaturam possibilitas.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>56vb-57rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber1">
+                <fileName filestem="wa-liber1d48"/>
+                <title>Distinctio 48</title>
+                <questionTitle>Utrum quelibet voluntas creata teneatur se conformare voluntati divine.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>57va-58va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-liber2" type="liber2">
+            <head>Liber 2</head>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d1q1"/>
+                <title>Distinctio 1, Questio 1</title>
+                <questionTitle>Utrum rerum creatio sit possibilis naturaliter ab eterno.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>59ra-60va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d1q2"/>
+                <title>Distinctio 1, Questio 2</title>
+                <questionTitle>Utrum ab eterno plures possent fuisse creatores per aliquam potentiam.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>60va-61vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d1q3"/>
+                <title>Distinctio 1, Questio 3</title>
+                <questionTitle>Utrum cuiuslibet entitatis producte vel producibilis ad extra solus Deus sit causa principalis effectiva.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>61vb-63rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d1q4"/>
+                <title>Distinctio 1, Questio 4</title>
+                <questionTitle>Utrum anima rationalis convenienter sit unita corpori formato de limo terre et corporali.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>63rb-65vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d2q1"/>
+                <title>Distinctio 2, Questio 1</title>
+                <questionTitle>Utrum angeli sint in loco.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>66ra-67rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d2q2"/>
+                <title>Distinctio 2, Questio 2</title>
+                <questionTitle>Utrum angelus possit se movere localiter et succesive et in instantia.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>67rb-69va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d3"/>
+                <title>Distinctio 3</title>
+                <questionTitle>Utrum angelus in aliquo instanti primo peccare poterat vel mereri.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>69vb-74ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d4q1"/>
+                <title>Distinctio 4, Questio 1</title>
+                <questionTitle>Utrum angeli tam boni quam mali fuerunt in gratia et caritate creati.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>74ra-78va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d4q2"/>
+                <title>Distinctio 4, Questio 2</title>
+                <questionTitle>Utrum cuiuslibet viatoris liberum arbitrium libere eliciat quemlibet actum suum meritorium vel demeritorium.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>78va-81vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d4q3"/>
+                <title>Distinctio 4, Questio 3</title>
+                <questionTitle>Utrum alicuius creature liberum arbitrium possit libere velle et similiter libere respuere quodlibet obiectum, ut verbi gratia velle malum et respuere bonum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>82ra-85ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d4q4"/>
+                <title>Distinctio 4, Questio 4</title>
+                <questionTitle>Utrum unus angelus naturaliter ex se aliorum angelorum cogitationes ac etiam materias possit distincte et intuitive noscere.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>85ra-86vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d18"/>
+                <title>Distinctio 18</title>
+                <questionTitle>Utrum ex sola illa costa absque alicuius alterius additamento materie fuit formatum corpus Eve.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>86vb-88rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d19q1"/>
+                <title>Distinctio 19, Questio 1</title>
+                <questionTitle>Utrum corpus primi hominis in statu innocentie aliquando fuisset corruptum et fuit corruptibile.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>88rb-89va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d19q2"/>
+                <title>Distinctio 19, Questio 2</title>
+                <questionTitle>Utrum circumscripta speciali gratia viator aliquis possit implere preceptis de diligendo Deum super omnia.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>89va-94ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d19q3"/>
+                <title>Distinctio 19, Questio 3</title>
+                <questionTitle>Utrum virgo gloriosa Dei mater benedicta fuerit in peccato originali concepta.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>94ra-95ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d19q4"/>
+                <title>Distinctio 19, Questio 4</title>
+                <questionTitle>Utrum decedentes cum solo originali puniantur aliquo sensus penali.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>95rb-95vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2d34-35-36-37"/>
+                <title>Distinctiones 34, 35, 36, 37</title>
+                <questionTitle>Utrum Deus creator omnium aliorum supernaturalis sit causa efficiens immediata cuiuslibet peccati actualis.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>95vb-99ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber2">
+                <fileName filestem="wa-liber2q"/>
+                <title>Questio circa secundum Sententiarum</title>
+                <questionTitle>Utrum quodlibet divinum beneficium aggravet voluntatis demeritum sive peccatum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>99rb-99va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-liber3" type="liber3">
+            <head>Liber 3</head>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d1"/>
+                <title>Distinctio 1</title>
+                <questionTitle>Utrum, si primus parens non peccaset, Deus humanam naturam corporalem assumpsiset.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>100ra-100va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d2"/>
+                <title>Distinctio 2</title>
+                <questionTitle>Utrum alia natura quam humana potuisset a verbo in unitatem suppositi fuisse assumpta.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>100vb-101vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d6-10"/>
+                <title>Distinctiones 6, 10</title>
+                <questionTitle>Utrum Deus per assumptionem humane nature in unitate suppositi incepit esse creatura et an hic Deus factus est homo in primo instanti conceptionis sue fuisset parte vera si fuisset formata.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>101vb-104va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d4-8-9q1"/>
+                <title>Distinctiones 4, 8, 9, Questio 1</title>
+                <questionTitle>Utrum beata virgo in sua conceptione generavit verum hominem active et proprie.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>104va-106rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q5"/>
+                <title>Questio 5</title>
+                <questionTitle>Utrum si Deus assumptam naturam dimitteret et sibi hora prime quod eliceret ‘b’ actum ante instantiam ‘a’ immediate illius Dei preciperet. Utrum stent simul quod talis natura peccavit ante ‘a’ et tamen in nullo instantia ante ‘a’ supposito quod ommitteret.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>106rb-107va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q6"/>
+                <title>Questio 6</title>
+                <questionTitle>Utrum passio Christi satisfactoria fuit ita vite meritoria ac si non fuisset satisfactoria.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>107va-108va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q7"/>
+                <title>Questio 7</title>
+                <questionTitle>Utrum Filius Dei humanam naturam potuit assumere cum libertate indifferentie ad meritorie et demeritorie agere.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>108va-110vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q8"/>
+                <title>Questio 8</title>
+                <questionTitle>Utrum sit aliqua lex que sit omni catholico viatori certa lex seu regula iuste vivendi.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>110vb-112rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q9"/>
+                <title>Questio 9</title>
+                <questionTitle>Utrum bene industriosus rationibus in lumine naturali concludentibus esset vere convincendus sic quod sibi rationibus naturalibus probari posset quod in viatore catholico sit necessario aliquis habitus theologicus supernaturalis ponendus.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>112rb- 113vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q10"/>
+                <title>Questio 10</title>
+                <questionTitle>Utrum melius sit aliter viatori eodem gradu dilectionis meritorie diligere proximum propter Deum quam Deum propter se.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>113vb-115ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3q11"/>
+                <title>Questio 11</title>
+                <questionTitle>Utrum aliquis diligendo alium possit sibi secundum leges statutas mereri gratie et glorie augmentum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>115ra-122rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d37-38"/>
+                <title>Distinctiones 37, 38</title>
+                <questionTitle>Utrum aliquis viator existens in gratia possit vere esse perplexus inter duo mala per preceptum prohibita.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>122rb-127va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber3">
+                <fileName filestem="wa-liber3d39-40"/>
+                <title>Distinctiones 39, 40</title>
+                <questionTitle>Utrum duobus existentibus in extrema necessitate potens tantum uni eorum subvenire et non utriusque nulli eorum subveniens sit rebus homicidii utriusque.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>127va-137vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+        <div id="wa-liber4" type="liber4">
+            <head>Liber 4</head>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4d1"/>
+                <title>Distinctio 1</title>
+                <questionTitle>Utrum tempore legis evangelice debeant esse tantum septem sacramenta ecclesie.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>138ra-139va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4d3-4q1"/>
+                <title>Distinctiones 3, 4, Questio 1</title>
+                <questionTitle>Utrum baptismus sit sacramentum ad salutem necessarium.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>139va-143vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4d3-4q2"/>
+                <title>Distinctiones 3, 4, Questio 2</title>
+                <questionTitle>Utrum indifferenter propter necessitatem baptismi quilibet et quorumlibet filii possint baptizari.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>143vb-145va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4d3-4q3"/>
+                <title>Distinctiones 3, 4, Questio 3</title>
+                <questionTitle>Utrum eadem sit ante baptismum decedentis conditio parentum fidelium parvuli cum sarracei vel cuiuscumque increduli parvulo.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>145va-146va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4d7"/>
+                <title>Distinctio 7</title>
+                <questionTitle>Utrum confirmationis sacramentum sit ad salutem necessarium et a solis episcopis ministrandum.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>146va-149va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4q1"/>
+                <title>Questio 1 de sacramento eucharistie</title>
+                <questionTitle>Utrum per transmutatione sub speciebus panis et vini sit realiter de virgine natum verum corpus et sanguis Christi.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>149va- 156rb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="wa-liber4">
+                <fileName filestem="wa-liber4q2"/>
+                <title>Questio 2 de sacramento eucharistie</title>
+                <questionTitle>Utrum materia conveniens huius sacramenti possit esse indifferenter quodlibet genus panis et vini et an aqua vino semper debeat ammisceri.</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#E">
+                        <folio>156rb-157vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+    </div>
+</listofFileNames>
