@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+    <header>
+        <authorName>Peter Plaoul</authorName>
+        <commentaryName>Plaoul Reportatio</commentaryName>
+        <commentaryid>plaoulreportatioA</commentaryid>
+        <commentaryslug>ppra</commentaryslug>
+        <authorUri>http://scta.info/resource/peter-plaoul</authorUri>
+        <parentUri>http://scta.info/resource/plaoulreportatioA</parentUri>
+        <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/plaoulreportatioA/</textfilesdir>
+        <questionListSource>Manuscripta Article</questionListSource>
+        <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+        <hasWitnesses>
+          <witness id="P">
+            <slug>bnf3074</slug>
+            <title>Bnf 3074</title>
+            <initial>P</initial>
+          </witness>
+        </hasWitnesses>
+    </header>
+    <div id="body">
+    <div id="ppra-principia" class="toplevel" type="principia">
+      <head>Principia</head>
+      <item type="lectio">
+        <fileName filestem="ppra-principiumI"/>
+        <title>Principium I</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>15r</folio>
+            <folio>15v</folio>
+            <folio>16r</folio>
+            <folio>16v</folio>
+            <folio>17r</folio>
+            <folio>17v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-principiumII">principiumII.xml</fileName>
+        <title>Principium II</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>18r</folio>
+            <folio>18v</folio>
+            <folio>19r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-principiumIII"/>
+        <title>Principium III</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>19r</folio>
+            <folio>19v</folio>
+            <folio>20r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-principiumIV"/>
+        <title>Principium IV</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>20r</folio>
+            <folio>20v</folio>
+            <folio>21r</folio>
+            <folio>21v</folio>
+            <folio>22r</folio>
+            <folio>22v</folio>
+            <folio>23r</folio>
+            <folio>23v</folio>
+            <folio>24r</folio>
+            <folio>24v</folio>
+            <folio>25r</folio>
+            <folio>25v</folio>
+            <folio>26r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deFide" class="toplevel" type="prologus" subtype="liber1-prologus">
+      <head>de Fide</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio1">lectio1.xml</fileName>
+        <title>Lectio 1, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>26r</folio>
+            <folio>26v</folio>
+            <folio>27r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio2">lectio2.xml</fileName>
+        <title>Lectio 2, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>27r</folio>
+            <folio>27v</folio>
+            <folio>28r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio3">lectio3.xml</fileName>
+        <title>Lectio 3, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>28r</folio>
+            <folio>28v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio4">lectio4.xml</fileName>
+        <title>Lectio 4, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>28v</folio>
+            <folio>29r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio5">lectio5.xml</fileName>
+        <title>Lectio 5, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>29r</folio>
+            <folio>29v</folio>
+            <folio>30r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio6">lectio6.xml</fileName>
+        <title>Lectio 6, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>30r</folio>
+            <folio>30v</folio>
+            <folio>31r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio7">lectio7.xml</fileName>
+        <title>Lectio 7, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>31r</folio>
+            <folio>31v</folio>
+            <folio>32r</folio>
+            <folio>32v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio8">lectio8.xml</fileName>
+        <title>Lectio 8, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>32v</folio>
+            <folio>33r</folio>
+            <folio>33v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio9">lectio9.xml</fileName>
+        <title>Lectio 9, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>33v</folio>
+            <folio>34r</folio>
+            <folio>34v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio10">lectio10.xml</fileName>
+        <title>Lectio 10, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>34v</folio>
+            <folio>35r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio11">lectio11.xml</fileName>
+        <title>Lectio 11, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>35r</folio>
+            <folio>35v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio12">lectio12.xml</fileName>
+        <title>Lectio 12, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>35v</folio>
+            <folio>36r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio13">lectio13.xml</fileName>
+        <title>Lectio 13, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>36r</folio>
+            <folio>36v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio14">lectio14.xml</fileName>
+        <title>Lectio 14, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>36v</folio>
+            <folio>37r</folio>
+            <folio>37v</folio>
+            <folio>38r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio15">lectio15.xml</fileName>
+        <title>Lectio 15, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>38r</folio>
+            <folio>38v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio16">lectio16.xml</fileName>
+        <title>Lectio 16, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>38v</folio>
+            <folio>39r</folio>
+            <folio>39v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio17">lectio17.xml</fileName>
+        <title>Lectio 17, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>39v</folio>
+            <folio>39r</folio>
+            <folio>40r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio18">lectio18.xml</fileName>
+        <title>Lectio 18, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>40r</folio>
+            <folio>40v</folio>
+            <folio>41r</folio>
+            <folio>41v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio19">lectio19.xml</fileName>
+        <title>Lectio 19, De fide</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>41v</folio>
+            <folio>42r</folio>
+            <folio>42v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deNotitia" class="toplevel" type="distinctio" subtype="liber1-distinctio3">
+      <head>de Notitia</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio20">lectio20.xml</fileName>
+        <title>Lectio 20, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>42v</folio>
+            <folio>43r</folio>
+            <folio>43v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio21">lectio21.xml</fileName>
+        <title>Lectio 21, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>43v</folio>
+            <folio>44r</folio>
+            <folio>44v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio22">lectio22.xml</fileName>
+        <title>Lectio 22, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>44v</folio>
+            <folio>45r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio23">lectio23.xml</fileName>
+        <title>Lectio 23, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio24">lectio24.xml</fileName>
+        <title>Lectio 24, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>46r</folio>
+            <folio>46v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio25">lectio25.xml</fileName>
+        <title>Lectio 25, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio26">lectio26.xml</fileName>
+        <title>Lectio 26, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio27">lectio27.xml</fileName>
+        <title>Lectio 27, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>49r</folio>
+            <folio>49v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio28">lectio28.xml</fileName>
+        <title>Lectio 28, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>49v</folio>
+            <folio>50r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio29">lectio29.xml</fileName>
+        <title>Lectio 29, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>50r</folio>
+            <folio>50v</folio>
+            
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio30">lectio30.xml</fileName>
+        <title>Lectio 30, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>50v</folio>
+            <folio>51r</folio>
+            <folio>51v</folio>
+            <folio>52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio31">lectio31.xml</fileName>
+        <title>Lectio 31, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>52r</folio>
+            <folio>52v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio32">lectio32.xml</fileName>
+        <title>Lectio 32, de Notitia</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>52r</folio>
+            <folio>52v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!--<item type="lectio">
+        <fileName filestem="ppra-lectio33">lectio33.xml</fileName>
+        <title>Lectio 33, de Notitia</title>
+      </item>-->
+    </div>
+    <div id="ppra-deFruitione" class="toplevel" type="distinctio" subtype="liber1-distinctio1">
+      <head>de Fruitione</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio34">lectio34.xml</fileName>
+        <title>Lectio 34, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>52v</folio>
+            <folio>53r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio35">lectio35.xml</fileName>
+        <title>Lectio 35, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>53r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio36">lectio36.xml</fileName>
+        <title>Lectio 36, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>53r</folio>
+            <folio>53v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio37">lectio37.xml</fileName>
+        <title>Lectio 37, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>53v</folio>
+            <folio>54r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio38">lectio38.xml</fileName>
+        <title>Lectio 38, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>54r</folio>
+            <folio>54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio39">lectio39.xml</fileName>
+        <title>Lectio 39, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>54v</folio>
+            <folio>55r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio40">lectio40.xml</fileName>
+        <title>Lectio 40, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>55r</folio>
+            <folio>55v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!--<item type="lectio">
+        <fileName filestem="ppra-lectio41">lectio41.xml</fileName>
+        <title>Lectio 41, de Fruitione</title>
+      </item>-->
+      <!--<item type="lectio">
+        <fileName filestem="ppra-lectio42">lectio42.xml</fileName>
+        <title>Lectio 42, de Fruitione</title>
+      </item>-->
+      <item type="lectio">
+        <fileName filestem="ppra-lectio43">lectio43.xml</fileName>
+        <title>Lectio 43, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>55v</folio>
+            <folio>56r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio44">lectio44.xml</fileName>
+        <title>Lectio 44, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>56r</folio>
+            <folio>56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio45">lectio45.xml</fileName>
+        <title>Lectio 45, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>56v</folio>
+            <folio>57r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio46">lectio46.xml</fileName>
+        <title>Lectio 46, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio47">lectio47.xml</fileName>
+        <title>Lectio 47, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>58r</folio>
+            <folio>58v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio48">lectio48.xml</fileName>
+        <title>Lectio 48, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>58v</folio>
+            <folio>59r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio49">lectio49.xml</fileName>
+        <title>Lectio 49, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>59r</folio>
+            <folio>59v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio50">lectio50.xml</fileName>
+        <title>Lectio 50, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio51">lectio51.xml</fileName>
+        <title>Lectio 51, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio52">lectio52.xml</fileName>
+        <title>Lectio 52, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>61v</folio>
+            <folio>62r</folio>
+            <folio>62v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio53">lectio53.xml</fileName>
+        <title>Lectio 53, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>62v</folio>
+            <folio>63r</folio>
+            <folio>63v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio54">lectio54.xml</fileName>
+        <title>Lectio 54, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>63v</folio>
+            <folio>64r</folio>
+            <folio>64v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio55">lectio55.xml</fileName>
+        <title>Lectio 55, de Fruitione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>64v</folio>
+            <folio>65r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deTrinitate" class="toplevel" type="distinctio">
+      <head>de Trinitate</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio56">lectio56.xml</fileName>
+        <title>Lectio 56, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>65r</folio>
+            <folio>65v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio57">lectio57.xml</fileName>
+        <title>Lectio 57, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>65v</folio>
+            <folio>66r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio58">lectio58.xml</fileName>
+        <title>Lectio 58, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio59">lectio59.xml</fileName>
+        <title>Lectio 59, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>67r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio60">lectio60.xml</fileName>
+        <title>Lectio 60, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>67r</folio>
+            <folio>67v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio61">lectio61.xml</fileName>
+        <title>Lectio 61, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>67v</folio>
+            <folio>68r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio62">lectio62.xml</fileName>
+        <title>Lectio 62, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>68r</folio>
+            <folio>68v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio63">lectio63.xml</fileName>
+        <title>Lectio 63, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>68v</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio64">lectio64.xml</fileName>
+        <title>Lectio 64, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>69v</folio>
+            <folio>70r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio65">lectio65.xml</fileName>
+        <title>Lectio 65, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>70r</folio>
+            <folio>70v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio66">lectio66.xml</fileName>
+        <title>Lectio 66, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio67">lectio67.xml</fileName>
+        <title>Lectio 67, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>71v</folio>
+            <folio>72r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio68">lectio68.xml</fileName>
+        <title>Lectio 68, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>72r</folio>
+            <folio>72v</folio>
+            <folio>73r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio69">lectio69.xml</fileName>
+        <title>Lectio 69, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>73r</folio>
+            <folio>73v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio70">lectio70.xml</fileName>
+        <title>Lectio 70, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>74r</folio>
+            <folio>74v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio71">lectio71.xml</fileName>
+        <title>Lectio 71, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>74v</folio>
+            <folio>75v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio72">lectio72.xml</fileName>
+        <title>Lectio 72, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <folio>76v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio73">lectio73.xml</fileName>
+        <title>Lectio 73, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>76v</folio>
+            <folio>77r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio74">lectio74.xml</fileName>
+        <title>Lectio 74, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>77r</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio75">lectio75.xml</fileName>
+        <title>Lectio 75, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>78r</folio>
+            <folio>78v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio76">lectio76.xml</fileName>
+        <title>Lectio 76, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>78v</folio>
+            <folio>79r</folio>
+            <folio>79v</folio>
+            <folio>80r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!--<item type="lectio">
+        <fileName filestem="ppra-lectio77">lectio77.xml</fileName>
+        <title>Lectio 77, de Trinitate</title>
+      </item>-->
+      <item type="lectio">
+        <fileName filestem="ppra-lectio78">lectio78.xml</fileName>
+        <title>Lectio 78, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>80r</folio>
+            <folio>80v</folio>
+            <folio>81r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio79">lectio79.xml</fileName>
+        <title>Lectio 79, de Trinitate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>81r</folio>
+            <folio>81v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deCaritate" class="toplevel" type="distinctio" subtype="liber1-distinctio17">
+      <head>de Caritate</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio80">lectio80.xml</fileName>
+        <title>Lectio 80, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>81v</folio>
+            <folio>82r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio81">lectio81.xml</fileName>
+        <title>Lectio 81, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>82r</folio>
+            <folio>82v</folio>
+            <folio>83r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio82">lectio82.xml</fileName>
+        <title>Lectio 82, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>83r</folio>
+            <folio>83v</folio>
+            <folio>84r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio83">lectio83.xml</fileName>
+        <title>Lectio 83, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>84r</folio>
+            <folio>84v</folio>
+            <folio>85r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio84">lectio84.xml</fileName>
+        <title>Lectio 84, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>85r</folio>
+            <folio>85v</folio>
+            <folio>86r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio85">lectio85.xml</fileName>
+        <title>Lectio 85, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>86r</folio>
+            <folio>86v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio86">lectio86.xml</fileName>
+        <title>Lectio 86, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>86v</folio>
+            <folio>87r</folio>
+            <folio>87v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio87">lectio87.xml</fileName>
+        <title>Lectio 87, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>87v</folio>
+            <folio>88r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio88">lectio88.xml</fileName>
+        <title>Lectio 88, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>88r</folio>
+            <folio>88v</folio>
+            <folio>89r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio89">lectio89.xml</fileName>
+        <title>Lectio 89, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>89r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio90">lectio90.xml</fileName>
+        <title>Lectio 90, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio91">lectio91.xml</fileName>
+        <title>Lectio 91, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>91r</folio>
+            <folio>91v</folio>
+            <folio>92r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio92">lectio92.xml</fileName>
+        <title>Lectio 92, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>92r</folio>
+            <folio>92v</folio>
+            <folio>93r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio93">lectio93.xml</fileName>
+        <title>Lectio 93, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>93r</folio>
+            <folio>93v</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio94">lectio94.xml</fileName>
+        <title>Lectio 94, de Caritate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>94v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deLibertate" class="toplevel" type="distinctio">
+      <head>de Libertate</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio95">lectio95.xml</fileName>
+        <title>Lectio 95, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>94v</folio>
+            <folio>95r</folio>
+            <folio>95v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio96">lectio96.xml</fileName>
+        <title>Lectio 96, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio> 
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio97">lectio97.xml</fileName>
+        <title>Lectio 97, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+            <folio>98v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio98">lectio98.xml</fileName>
+        <title>Lectio 98, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio99">lectio99.xml</fileName>
+        <title>Lectio 99, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>99v</folio>
+            <folio>100r</folio>
+            <folio>100v</folio>
+            <folio>101r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio100">lectio100.xml</fileName>
+        <title>Lectio 100, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>101r</folio>
+            <folio>101v</folio>
+            <folio>102r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio101">lectio101.xml</fileName>
+        <title>Lectio 101, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>102r</folio>
+            <folio>102v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio102">lectio102.xml</fileName>
+        <title>Lectio 102, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>102v</folio>
+            <folio>103r</folio>
+            <folio>103v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio103">lectio103.xml</fileName>
+        <title>Lectio 103, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>103v</folio>
+            <folio>104r</folio>
+            <folio>104v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio104">lectio104.xml</fileName>
+        <title>Lectio 104, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>104v</folio>
+            <folio>105r</folio>
+            <folio>105v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio105">lectio105.xml</fileName>
+        <title>Lectio 105, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>105v</folio>
+            <folio>106r</folio>
+            <folio>106v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio106">lectio106.xml</fileName>
+        <title>Lectio 106, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>106v</folio>
+            <folio>107r</folio>
+            <folio>107v</folio>
+            <folio>108r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio107">lectio107.xml</fileName>
+        <title>Lectio 107, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>108r</folio>
+            <folio>108v</folio>
+            <folio>109r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio108">lectio108.xml</fileName>
+        <title>Lectio 108, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>109r</folio>
+            <folio>109v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio109">lectio109.xml</fileName>
+        <title>Lectio 109, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>109v</folio>
+            <folio>110r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio110">lectio110.xml</fileName>
+        <title>Lectio 110, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>110r</folio>
+            <folio>110v</folio>
+            <folio>111r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio111">lectio111.xml</fileName>
+        <title>Lectio 111, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>111r</folio>
+            <folio>111v</folio>
+            <folio>112r</folio>
+            <folio>112v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio112">lectio112.xml</fileName>
+        <title>Lectio 112, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>112v</folio>
+            <folio>113r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio113">lectio113.xml</fileName>
+        <title>Lectio 113, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>113r</folio>
+            <folio>113v</folio>
+            <folio>114r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio114">lectio114.xml</fileName>
+        <title>Lectio 114, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>114r</folio>
+            <folio>114v</folio>
+            <folio>115r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio115">lectio115.xml</fileName>
+        <title>Lectio 115, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>115r</folio>
+            <folio>115v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio116">lectio116.xml</fileName>
+        <title>Lectio 116, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>115v</folio>
+            <folio>116r</folio>
+            <folio>116v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio117">lectio117.xml</fileName>
+        <title>Lectio 117, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>116v</folio>
+            <folio>117r</folio>
+            <folio>117v</folio>
+            <folio>118r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio118">lectio118.xml</fileName>
+        <title>Lectio 118, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>118r</folio>
+            <folio>118v</folio>
+            <folio>119r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio119">lectio119.xml</fileName>
+        <title>Lectio 119, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>119r</folio>
+            <folio>119v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio120">lectio120.xml</fileName>
+        <title>Lectio 120, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>119v</folio>
+            <folio>120r</folio>
+            <folio>120v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio121">lectio121.xml</fileName>
+        <title>Lectio 121, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>120v</folio>
+            <folio>121r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio122">lectio122.xml</fileName>
+        <title>Lectio 122, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>121r</folio>
+            <folio>121v</folio>
+            <folio>122r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio123">lectio123.xml</fileName>
+        <title>Lectio 123, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>122r</folio>
+            <folio>122v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio124">lectio124.xml</fileName>
+        <title>Lectio 124, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>122v</folio>
+            <folio>123r</folio>
+            <folio>123v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio125">lectio125.xml</fileName>
+        <title>Lectio 125, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>123v</folio>
+            <folio>124r</folio>
+            <folio>124v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio126">lectio126.xml</fileName>
+        <title>Lectio 126, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>124v</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio127">lectio127.xml</fileName>
+        <title>Lectio 127, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio128">lectio128.xml</fileName>
+        <title>Lectio 128, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio129">lectio129.xml</fileName>
+        <title>Lectio 129, de Libertate</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>127v</folio>
+            <folio>128r</folio>
+            <folio>128v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ppra-deIncarnatione" class="toplevel" type="distinctio">
+      <head>de Incarnatione</head>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio130">lectio130.xml</fileName>
+        <title>Lectio 130, de Incarnatione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio131">lectio131.xml</fileName>
+        <title>Lectio 131, de Incarnatione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio132">lectio132.xml</fileName>
+        <title>Lectio 132, de Incarnatione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>130v</folio>
+            <folio>131r</folio>
+            <folio>131v</folio>
+            <folio>132r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio133">lectio133.xml</fileName>
+        <title>Lectio 133, de Incarnatione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="lectio">
+        <fileName filestem="ppra-lectio134">lectio134.xml</fileName>
+        <title>Lectio 134, de Incarnatione</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio>134v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
