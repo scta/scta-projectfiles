@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+    <header>
+        <authorName>Francis of Meyronnes</authorName>
+        <commentaryName>Tractatus de intuitiva et abstractiva notitia</commentaryName>
+        <commentaryid>MeyronnesTractNot</commentaryid>
+        <commentaryslug>mtn</commentaryslug>
+        <authorUri></authorUri>
+        <parentUri></parentUri>
+        <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+        <textfilesdir></textfilesdir>
+        <questionListSource>Vat. Lat. 3026</questionListSource>
+        <questionListOriginalEditor>Luciana Cioca</questionListOriginalEditor>
+        <questionListEncoder>Luciana Cioca</questionListEncoder>
+        <description></description>
+        <hasWitnesses>
+            <witness id="V">
+                <slug>VatLat3026</slug>
+                <title>Vat. Lat. 3026</title>
+                <initial>V</initial>
+            </witness>
+        </hasWitnesses>
+    </header>
+    <div id="body">
+        <div id="mtn-tractatus">
+            <head>Tractatus de intuitiva et abstractiva notitia</head>
+            <item id="mtn-p1">
+                <fileName filestem="mtn-p1"/>
+                <title>De notitia intuitiva</title>
+                <questionTitle>Primo quidem notitia intuitiva per actum visionis et intuitionis</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#V">
+                        <folio>63ra-67ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="mtn-p2">
+                <fileName filestem="mtn-p2"/>
+                <title>De notitia abstractiva</title>
+                <questionTitle>Circa notitiam abstractivam</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#V">
+                        <folio>67ra-71ra</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="mtn-p3">
+                <fileName filestem="mtn-p3"/>
+                <title>De differentia specifica inter notitiam intuitivam et abstractivam</title>
+                <questionTitle>An notitia intuitiva et abstractiva semper differant specie</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#V">
+                        <folio>71ra-71va</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+            <item id="mtn-p4">
+                <fileName filestem="mtn-p4"/>
+                <title>Iterum de differentia specifica inter notitiam intuitivam et abstractivam</title>
+                <questionTitle>Utrum notitia intuitiva et abstractiva quandoque differant specie</questionTitle>
+                <hasWitnesses>
+                    <witness ref="#V">
+                        <folio>71va-71vb</folio>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+    </div>
+</listofFileNames>
+
