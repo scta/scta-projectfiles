@@ -13,7 +13,6 @@
     <questionListSource></questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <description>
       The commentary on book three is edited by John Sharpe in Sharp, D. 1934.
       “Simonis de Faverisham Quaestiones Super Tertium De Anima.” Archives
@@ -21,6 +20,7 @@
       only based on the Merton witness. The questions to book three are based on
       that edition.
     </description>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="V1">
         <slug>vatlat2170</slug>
@@ -56,6 +56,7 @@
   </header>
   <div id="body">
     <div id="da-242-liber1" type="da-liber1">
+      <head>Liber 1</head>
       <item id="da-242-l1q1" type="quaestio">
         <fileName filestem="da-242-l1q1"/>
         <title>Liber 1, Quaestio 1</title>
@@ -72,8 +73,10 @@
       </item>
     </div>
     <div id="da-242-liber2" type="da-liber2">
+      <head>Liber 2</head>
     </div>
     <div id="da-242-liber3" type="da-liber3">
+      <head>Liber 3</head>
       <item id="da-242-l3q1" type="quaestio">
         <fileName filestem="da-242-l3q1"/>
         <title>Liber 3, Quaestio 1</title>
@@ -100,8 +103,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item id="da-242-l3q2" type="quaestio">
-        <fileName filestem="da-242-l3q2"/>
+      <item id="da-242-l3q3" type="quaestio">
+        <fileName filestem="da-242-l3q3"/>
         <title>Liber 3, Quaestio 3</title>
         <questionTitle>
           Quaeritur utrum intellectus sit immaterialis et primo utrum intellectus
