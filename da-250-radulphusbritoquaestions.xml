@@ -2,23 +2,27 @@
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-    <authorName>Anonymus</authorName>
-    <commentaryName>Quaestiones in De anima</commentaryName>
-    <commentaryid>da-116</commentaryid>
-    <commentaryslug>da-116</commentaryslug>
-    <authorUri>http://scta.info/resource/Anonymus</authorUri>
-    <parentUri>http://scta.info/resource/da-116</parentUri>
+    <authorName>Radulphus Brito</authorName>
+    <commentaryName>Quaestiones in De anima I-III</commentaryName>
+    <commentaryid>da-250</commentaryid>
+    <commentaryslug>da-250</commentaryslug>
+    <authorUri>http://scta.info/resource/RadulphusBrito</authorUri>
+    <parentUri>http://scta.info/resource/RadulphusBrito</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
-    <!-- textfilesdir should be eventually be removed, so build script can be run on any system -->
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/da-116/</textfilesdir>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/RadulphusBrito/</textfilesdir>
     <questionListSource></questionListSource>
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
-    <gitRepoBase>https://github.com/mldac/</gitRepoBase>
+    <gitRepoBase>https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <witness id="V">
+      <witness id="O">
         <slug>onb2319</slug>
         <title>Vienna, ÖNB, Lat. 2319, ff. 83ra–100vb</title>
+        <initial>O</initial>
+      </witness>
+      <witness id="V">
+        <slug>vatlat845</slug>
+        <title>Vatican, Lat. 845, ff. 311r-354v</title>
         <initial>V</initial>
       </witness>
     </hasWitnesses>
@@ -34,7 +38,7 @@
           eandem essentiam
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="a b">90r</folio>
             <folio c="a">90v</folio>
           </witness>
@@ -47,7 +51,7 @@
           Utrum intellectus sit virtus passiva vel utrum intelligere sit pati.
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="a b">90v</folio>
             <folio c="a">91r</folio>
           </witness>
@@ -61,7 +65,7 @@
           corpore
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="a b">91r</folio>
           </witness>
         </hasWitnesses>
@@ -74,7 +78,7 @@
           omnia intelligibilia
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">91r</folio>
             <folio>91v</folio>
           </witness>
@@ -87,7 +91,7 @@
           Utrum intellectus sit forma substantialis corporis
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">91v</folio>
             <folio>92r</folio>
           </witness>
@@ -101,7 +105,7 @@
           in omnibus hominibus
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">92r</folio>
             <folio>92v</folio>
             <folio c="a">93r</folio>
@@ -116,7 +120,7 @@
           anima vel realiter extra animam.
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>93r</folio>
           </witness>
         </hasWitnesses>
@@ -129,7 +133,7 @@
           intellectu in habitu post actualem considerationem
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">93r</folio>
             <folio c="a">93v</folio>
           </witness>
@@ -146,7 +150,7 @@
           Utrum intellectus intelligat singulare
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">93v</folio>
           </witness>
         </hasWitnesses>
@@ -158,7 +162,7 @@
           Utrum neccesarium sit ponere intellectum agentem
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>94r</folio>
           </witness>
         </hasWitnesses>
@@ -170,7 +174,7 @@
           Utrum intellectus agens sit aliqua potentia animae nostrae
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">94r</folio>
             <folio>94v</folio>
             <folio c="a">95r</folio>
@@ -184,7 +188,7 @@
           Utrum intellectus agens cognoscat phantasmata super quae agit
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>95r</folio>
           </witness>
         </hasWitnesses>
@@ -196,7 +200,7 @@
           Utrum intellectus possibilis possit intelligere intellectum agentem
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">95r</folio>
             <folio c="a">95v</folio>
           </witness>
@@ -210,7 +214,7 @@
           falsitas
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="a">95v</folio>
           </witness>
         </hasWitnesses>
@@ -222,7 +226,7 @@
           Utrum intellectus noster intelligat per abstractionem a phantasmatibus
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>95v</folio>
           </witness>
         </hasWitnesses>
@@ -234,7 +238,7 @@
           Utrum intellectus practicus et speculativus sint diversae potentiae
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">95v</folio>
             <folio c="a">96r</folio>
           </witness>
@@ -248,7 +252,7 @@
           differens realiter a cognitione rei
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>96r</folio>
             <folio c="a">96v</folio>
           </witness>
@@ -262,7 +266,7 @@
           scivit hic et quae faciebat hic
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>96v</folio>
             <folio>97r</folio>
           </witness>
@@ -275,7 +279,7 @@
           Utrum intellectus possit intelligere magnitudinem
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">97r</folio>
           </witness>
         </hasWitnesses>
@@ -288,7 +292,7 @@
           modum
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">97r</folio>
             <folio c="a">97v</folio>
           </witness>
@@ -301,7 +305,7 @@
           Utrum verum et falsum sint in anima vel in re extra animam
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>97v</folio>
           </witness>
         </hasWitnesses>
@@ -313,7 +317,7 @@
           Utrum intellectus in hac vita possit intelligere substantias separatas
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">97v</folio>
             <folio>98r</folio>
             <folio>98v</folio>
@@ -328,7 +332,7 @@
           influendo seu solum removendo prohibens
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">98v</folio>
             <folio>99r</folio>
             <folio>99v</folio>
@@ -343,7 +347,7 @@
           omnibus aliis potentiis animae
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">99v</folio>
             <folio c="a">100r</folio>
           </witness>
@@ -358,7 +362,7 @@
           potentiae
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio>100r</folio>
           </witness>
         </hasWitnesses>
@@ -370,7 +374,7 @@
           Utrum voluntas feratur de neccessitate in illud
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">100r</folio>
             <folio>100v</folio>
           </witness>
@@ -383,7 +387,7 @@
           Quid sit primum obiectum intellectus, utrum substantia vel accidens.
         </questionTitle>
         <hasWitnesses>
-          <witness ref="#V">
+          <witness ref="#O">
             <folio c="b">100v</folio>
           </witness>
         </hasWitnesses>
