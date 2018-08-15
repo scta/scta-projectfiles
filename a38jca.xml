@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>John of Rodington</authorName>
+    <commentaryName>Quodibeta</commentaryName>
+    <commentaryid>a38jca</commentaryid>
+    <commentaryslug>a38jca</commentaryslug>
+    <alias>johnofrodingtonquodlibeta</alias>
+    <authorUri>http://scta.info/resource/JohnOfRodington</authorUri>
+    <parentUri>http://scta.info/resource/jrqdl</parentUri>
+    <parentWorkGroup>http://scta.info/resource/quodlibeta</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/jrqdl/</textfilesdir>
+    <questionListSource>bnf15561, f. 230v - 245v</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="P">
+        <slug>bnf15561</slug>
+        <title>Bnf 15561</title>
+        <initial>P</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="" alias="a38jca-q1">
+      <head>Quodlibet 1</head>
+      <item id="a38jca-d1e69" alias="a38jca-q1q1">
+        <fileName filestem="a38jca-d1e69"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum aliquis necessario vel involuntarie possit Deum offendere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="a">23Or</folio>
+            <folio>23Ov</folio>
+            <folio>231r</folio>
+            <folio>231v</folio>
+            <folio>232r</folio>
+            <folio>232v</folio>
+            <folio>233r</folio>
+            <folio>233v</folio>
+            <folio>234v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="a38jca-d1e114" alias="a38jca-q1q2">
+        <fileName filestem="a38jca-d1e114"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum aliquis peccans offendat Christum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="b">234r</folio>
+            <folio>234v</folio>
+            <folio>235r</folio>
+            <folio>235v</folio>
+            <folio>236r</folio>
+            <folio>236v</folio>
+            <folio>237r</folio>
+            <folio>237v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="a38jca-d1e156" alias="a38jca-q1q3">
+        <fileName filestem="a38jca-d1e156"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum Christum semper offendat qui conscientiae suae erroneae se conformat</questionTitle> 
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="b">237v</folio>
+            <folio>238r</folio>
+            <folio>238v</folio>
+            <folio>239r</folio>
+            <folio>239v</folio>
+            <folio>240r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="a38jca-d1e192" alias="a38jca-q1q4">
+        <fileName filestem="a38jca-d1e192"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum existens in gratia possit esse perplexus inter duo peccata</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="b">240r</folio>
+            <folio>240v</folio>
+            <folio>241r</folio>
+            <folio>241v</folio>
+            <folio>242r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="a38jca-d1e225" alias="a38jca-q1q5">
+        <fileName filestem="a38jca-d1e225"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum omne peccatum sit malum</questionTitle>
+        <hasWitnesses>
+          <witness ref="P">
+            <folio c="a">242r</folio>
+            <folio>242v</folio>
+            <folio>243r</folio>
+            <!-- different text on 244r -->
+            <folio>244v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="a38jca-d1e256" alias="a38jca-q1q6">
+        <fileName filestem="a38jca-d1e256"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum creator generis humani iuste gubernet genus humanum</questionTitle>
+        <!-- alt 	Utrum gubernator humani generis iuste gubernat genus humanum -->
+        <hasWitnesses>
+          <witness ref="P">
+            <folio c="a">245v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="a38jca-d1e279" alias="a38jca-q2">
+      <head>Quodlibet 2</head>
+      <item id="a38jca-d1e284" alias="a38jca-q2q1">
+        <fileName filestem="a38jca-d1e284"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum conformiter nostrae fidei regulata vel ordinata iuste disponatur</questionTitle>
+        <!-- list is on 245v, text does not seem to be present -->
+      </item>
+      <item id="a38jca-d1e297" alias="a38jca-q1q2">
+        <fileName filestem="a38jca-d1e297"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum singula conformiter fidei nostrae disposita iuste ordinentur</questionTitle>
+      </item>
+      <item id="a38jca-d1e308" alias="a38jca-q1q3">
+        <fileName filestem="a38jca-d1e308"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum conformiter agenti fidei nostrae praemium aliquod debeatur</questionTitle>
+      </item>
+      <item id="a38jca-d1e319" alias="a38jca-q1q4">
+        <fileName filestem="a38jca-d1e319"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum contenta in fide nostra quilibet credere teneatur</questionTitle>
+      </item>
+      <item id="a38jca-d1e331" alias="a38jca-q1q5">
+        <fileName filestem="a38jca-d1e331"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum aliquid fide creditum evidenter cognoscatur</questionTitle>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
