@@ -1,0 +1,22 @@
+
+
+EDF POST Creation Instructions
+After Alias and Ids are created, perform the following steps
+
+#create Git repo
+./create-repo.sh nnny6v <token>
+#clone git repo
+git clone git@github.com:scta-texts/nnny6v.git
+#tag git repo with alias
+got to https://github.com/scta-texts/nnny6v
+#create symlink
+$cd symlinks
+$ln -s ../nnny6v/ penafieldisptheologicas
+#create item directories
+ruby create-item-level-dir-and-alias.rb ~/Projects/scta/scta-projectfiles/nnny6v.xml ~/Projects/scta/scta-texts/nnny6v/
+#copy .travis.yml
+cp .travis.yml nnny6v/
+# add travis badge to repo readme
+[![Build Status](https://travis-ci.org/scta-texts/nnny6v.svg?branch=master)](https://travis-ci.org/scta-texts/nnny6v)
+#push
+$git push
