@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Durandus</authorName>
+    <commentaryName>Sentences Commentary (Redaction C)</commentaryName>
+    <commentaryid>jsnvu6</commentaryid>
+    <commentaryslug>jsnvu6</commentaryslug>
+    <alias>durandussentcommentaryC</alias>
+    <authorUri>http://scta.info/resource/Durandus</authorUri>
+    <parentUri>http://scta.info/resource/jsnvu6</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/jsnvu6/</textfilesdir>
+    <questionListSource>Venice 1571</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="Venice1571">
+        <!-- can't find this online anywhere -->
+        <slug>Venice1571</slug>
+        <title>Venice 1571</title>
+        <initial>V</initial>
+      </witness>
+      <witness id="L">
+        <!--https://archive.org/stream/bub_gb_pFmqwQK7ckQC -->
+        <slug>Lyon1560</slug>
+        <title>Lyon 1560</title>
+        <initial>L</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="jsnvu6-d1e78" alias="jsnvu6-l1">
+      <head>Liber I</head>
+      <div id="jsnvu6-d1e83" alias="jsnvu6-l1prol" type="liber1-prologus">
+        <head>Prologus</head>
+        <item id="jsnvu6-d1e88" alias="jsnvu6-l1prolq1">
+          <fileName filestem="jsnvu6-d1e88"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum theologia prout communiter traditur et habetur sit scientia proprie dicta</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e99" alias="jsnvu6-l1prolq2">
+          <fileName filestem="jsnvu6-d1e99"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum theologia sit scientia supposito quodam lumine quod quidam ponunt esse in doctoribus perfectioribus</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e110" alias="jsnvu6-l1prolq3">
+          <fileName filestem="jsnvu6-d1e110"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum virtute divina possit communicari puro viatori cognitio scientifica de articulis fidei</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e121" alias="jsnvu6-l1prolq4">
+          <fileName filestem="jsnvu6-d1e121"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum theologia sit una scientia</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e133" alias="jsnvu6-l1prolq5">
+          <fileName filestem="jsnvu6-d1e133"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Quid sit subiectum in theologia, utrum Deus an aliud</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e144" alias="jsnvu6-l1prolq6">
+          <fileName filestem="jsnvu6-d1e144"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum theologia sit practica an speculativa</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e155" alias="jsnvu6-l1prolq7">
+          <fileName filestem="jsnvu6-d1e155"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum theologia subalternetur alteri scientiae</questionTitle>
+        </item>
+        <item id="jsnvu6-d1e166" alias="jsnvu6-l1prolq8">
+          <fileName filestem="jsnvu6-d1e166"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum ipsa subalternetur alicuiu scientiae humanitus inventae ut metaphysicae</questionTitle>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
