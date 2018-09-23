@@ -14,7 +14,11 @@
     <questionListOriginalEditor></questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <hasWitnesses>
-      
+      <witness id="P">
+        <slug>cod-wav3nd</slug>
+        <title>Paris 16406</title>
+        <initial>P</initial>
+      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
@@ -699,7 +703,49 @@
         <title>Liber 3, Distinctio 40</title>
         <questionTitle>De differentiis Veteris Legis et Novae</questionTitle>
       </item>
-      
+    </div>
+    <div id="adh-l4" type="liber" subtype="liber4">
+      <head>Liber 4</head>
+      <item id="adh-l4prol" type="distinctio">
+        <fileName filestem="adh-l4prol"/>
+        <title>Prologus</title>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>153r</folio>
+            <folio>153v</folio>
+            <folio>154r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="adh-l4d1" type="distinctio" subtype="liber4-distinctio1">
+        <fileName filestem="adh-l4d1"/>
+        <title>Distinctio 1</title>
+        <questionTitle>De sacramentis in genere et de sacramentis legis veteris et naturae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>154r</folio>
+            <folio>154v</folio>
+            <folio>155r</folio>
+            <folio>155v</folio>
+            <folio>156r</folio>
+            <folio>156v</folio>
+            <folio>157r</folio>
+            <folio>157v</folio>
+            <folio>158r</folio>
+            
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="adh-l4d2" type="distinctio" subtype="liber4-distinctio2">
+        <fileName filestem="adh-l4d2"/>
+        <title>Distinctio 2</title>
+        <questionTitle>De sacramentis novae legis in genere et de baptismo Ioannis et in nomine Christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio>158r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
     </div>
   </div>
 </listofFileNames>
