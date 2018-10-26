@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Anon. Sentences Commentary</commentaryName>
+    <commentaryid>ran7ae</commentaryid>
+    <commentaryslug>ran7ae</commentaryslug>
+    <alias>anonleipzig419commentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/ran7ae</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ran7ae/</textfilesdir>
+    <questionListSource>Leipzig University 419</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <!-- this commentary is closely related but also different from 
+      the commentary currently attriubted to Henningus Boltenhagen v23d83
+    <alias>boltenhagencommentary</alias> -->
+    <hasWitnesses>
+      <witness id="P">
+        <slug>cod-efh7w3</slug>
+        <title>Leipzig University, ms. 419</title>
+        <initial>L</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="ran7ae-d1e63" alias="ran7ae-l1">
+      <head>Liber 1</head>
+      <div id="ran7ae-d1e68" alias="ran7ae-l1prol" type="liber1-prologus">
+        <head>Prologus</head>
+        <item id="ran7ae-d1e73" alias="ran7ae-l1prolq1">
+          <fileName filestem="ran7ae-d1e73"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum doctrina theologiae quae est de hiis quae subsunt fidei sit nobis necessaria praeter 
+          alias doctrinas inventionis humanae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="a">1r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e93" alias="ran7ae-l1prolq2">
+          <fileName filestem="ran7ae-d1e93"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum theologia sit scientia</questionTitle>
+          <!-- contains famous augustine quotation -->
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">1v</folio>
+            </witness>
+            
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e115" alias="ran7ae-l1prolq3">
+          <fileName filestem="ran7ae-d1e115"/>
+          <title>Quaestio 3</title>
+          <questionTitle>De subiecto huius doctrinae <supplied>theologiae</supplied></questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">3v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e137" alias="ran7ae-l1prolq4">
+          <fileName filestem="ran7ae-d1e137"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum haec doctrina sit speculativa vel practica</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="a">4v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e158" alias="ran7ae-l1prolq5">
+          <fileName filestem="ran7ae-d1e158"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum haec doctrina sit dignior omnibus aliis doctrinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">5r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e178" alias="ran7ae-l1prolq6">
+          <fileName filestem="ran7ae-d1e178"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum haec doctrina sit argumentativa</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">5v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e198" alias="ran7ae-l1prolq7">
+          <fileName filestem="ran7ae-d1e198"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum haec sacra doctrina debeat uti metaphoris et parabolis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">5v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e218" alias="ran7ae-l1prolq8">
+          <fileName filestem="ran7ae-d1e218"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum scriptura sacra sub una litera voce debeat habere plures sensus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="b">6v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="ran7ae-d1e238" alias="ran7ae-l1prolq9">
+          <fileName filestem="ran7ae-d1e238"/>
+          <title>Quaestio 9</title>
+          <questionTitle>utrum homo possit alium docere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#L">
+              <folio c="a">8r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      
+    </div>
+  </div>
+</listofFileNames>
