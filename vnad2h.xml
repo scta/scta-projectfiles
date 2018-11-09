@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Petrus Hispanus</authorName>
+    <commentaryName>Liber naturalis de rebus principalibus</commentaryName>
+    <commentaryid>vnad2h</commentaryid>
+    <commentaryslug>vnad2h</commentaryslug>
+    <alias>phah-libernaturales</alias>
+    <authorUri>http://scta.info/resource/PetrusHispanus</authorUri>
+    <parentUri>http://scta.info/resource/vnad2h</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vnad2h/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="A">
+        <slug>cod-d2dj4f</slug> <!-- alonso edition -->
+        <title>Alonso Edition</title>
+        <initial>A</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <!-- in this case the top level expression should also be the item 
+      the RDF build currently doesn't know how to handle that 
+      so the below item is a temporary redundancy
+      from the opening it looks like the text is divided into three parts. 
+      -->
+    <item id="vnad2h-d1e67" alias="vnad2h-p1">
+      <fileName filestem="vnad2h-d1e67"/>
+      <title>Liber naturalis de rebus principalibus T</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A">
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
