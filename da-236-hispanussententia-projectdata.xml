@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Petrus Hispanus</authorName>
@@ -10,9 +9,11 @@
     <parentUri>http://scta.info/resource/hispanusdeanima</parentUri>
     <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hispanusdeanima/</textfilesdir>
-    <questionListSource>Manuel Alonso</questionListSource> <!-- How do we handle such a reference? For now this might do. -->
+    <questionListSource>Manuel Alonso</questionListSource>
+    <!-- How do we handle such a reference? For now this might do. -->
     <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
-    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder> <!-- What do we do here, when there are several contributors?-->
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+    <!-- What do we do here, when there are several contributors?-->
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <sponsors>
       <sponsor id="projeto-fct">
@@ -44,7 +45,8 @@
   <div id="body">
     <div id="da-236-prooemium" type="da-236-prooemium">
       <head>Quaestiones praeambulae</head>
-      <div id="da-236-p1p1"> <!-- ID for prooemium, problema 1. Suggestion for type? -->
+      <div id="da-236-p1p1">
+        <!-- ID for prooemium, problema 1. Suggestion for type? -->
         <head>Problema 1</head>
         <item id="da-236-p1p1q1" type="quaestio">
           <fileName filestem="da-236-p1p1q1"/>
@@ -90,27 +92,32 @@
         <item id="da-236-p1p1q6" type="quaestio">
           <fileName filestem="da-236-p1p1q6"/>
           <title>Praeambula, Problema 1, Quaestio 6</title>
-          <questionTitle>Propter quid hoc est in intelligentia, scilicet quod cognoscit se ipsam, et non in sensibili</questionTitle>
+          <questionTitle>Propter quid hoc est in intelligentia, scilicet quod cognoscit se ipsam, et
+            non in sensibili</questionTitle>
         </item>
         <item id="da-236-p1p1q7" type="quaestio">
           <fileName filestem="da-236-p1p1q7"/>
           <title>Praeambula, Problema 1, Quaestio 7</title>
-          <questionTitle>Propter quid ita est in virtute intellectiva quod eadem virtus intellectiva cognoscit set ipsam</questionTitle>
+          <questionTitle>Propter quid ita est in virtute intellectiva quod eadem virtus intellectiva
+            cognoscit set ipsam</questionTitle>
         </item>
         <item id="da-236-p1p1q8" type="quaestio">
           <fileName filestem="da-236-p1p1q8"/>
           <title>Praeambula, Problema 1, Quaestio 8</title>
-          <questionTitle>Cuius virtutis animae intellectivae sit hoc facere, scilicet se ipsam cognoscere</questionTitle>
+          <questionTitle>Cuius virtutis animae intellectivae sit hoc facere, scilicet se ipsam
+            cognoscere</questionTitle>
         </item>
         <item id="da-236-p1p1q9" type="quaestio">
           <fileName filestem="da-236-p1p1q9"/>
           <title>Praeambula, Problema 1, Quaestio 9</title>
-          <questionTitle>Utrum cognitio animae quam habet sui, sit per praesentiam aut per speciem</questionTitle>
+          <questionTitle>Utrum cognitio animae quam habet sui, sit per praesentiam aut per
+            speciem</questionTitle>
         </item>
         <item id="da-236-p1p1q10" type="quaestio">
           <fileName filestem="da-236-p1p1q10"/>
           <title>Praeambula, Problema 1, Quaestio 10</title>
-          <questionTitle>Utrum de anima separata a corpore aliqua possit esse scientia</questionTitle>
+          <questionTitle>Utrum de anima separata a corpore aliqua possit esse
+            scientia</questionTitle>
         </item>
         <item id="da-236-p1p1q11" type="quaestio">
           <fileName filestem="da-236-p1p1q11"/>
@@ -125,17 +132,20 @@
         <item id="da-236-p1p1q13" type="quaestio">
           <fileName filestem="da-236-p1p1q13"/>
           <title>Praeambula, Problema 1, Quaestio 13</title>
-          <questionTitle>Utrum anima sit subiectum in scientia de anima aut corpus animatum</questionTitle>
+          <questionTitle>Utrum anima sit subiectum in scientia de anima aut corpus
+            animatum</questionTitle>
         </item>
         <item id="da-236-p1p1q14" type="quaestio">
           <fileName filestem="da-236-p1p1q14"/>
           <title>Praeambula, Problema 1, Quaestio 14</title>
-          <questionTitle>Utrum de anima secundum omnem sui differentiam determinatur in hac scientia</questionTitle>
+          <questionTitle>Utrum de anima secundum omnem sui differentiam determinatur in hac
+            scientia</questionTitle>
         </item>
         <item id="da-236-p1p1q14" type="quaestio">
           <fileName filestem="da-236-p1p1q15"/>
           <title>Praeambula, Problema 1, Quaestio 15</title>
-          <questionTitle>Propter quid hae forma, cum sit forma corporis, potius facit scientiam separatam quam aliqua alia forma</questionTitle>
+          <questionTitle>Propter quid hae forma, cum sit forma corporis, potius facit scientiam
+            separatam quam aliqua alia forma</questionTitle>
         </item>
       </div>
       <div id="da-236-p1p2">
@@ -148,12 +158,14 @@
         <item id="da-236-p1p2q2" type="quaestio">
           <fileName filestem="da-236-p1p2q2"/>
           <title>Praeambula, Problema 2, Quaestio 2</title>
-          <questionTitle>Utrum debeat determinari de omni differentia animae cum scientia animae determinetur</questionTitle>
+          <questionTitle>Utrum debeat determinari de omni differentia animae cum scientia animae
+            determinetur</questionTitle>
         </item>
         <item id="da-236-p1p2q3" type="quaestio">
           <fileName filestem="da-236-p1p2q3"/>
           <title>Praeambula, Problema 2, Quaestio 3</title>
-          <questionTitle>Propter quid in eadem scientia determinatur de corpore animato sensibili, humano et bruto, non autem de vegetali in eadem scientia aliquo istorum</questionTitle>
+          <questionTitle>Propter quid in eadem scientia determinatur de corpore animato sensibili,
+            humano et bruto, non autem de vegetali in eadem scientia aliquo istorum</questionTitle>
         </item>
         <item id="da-236-p1p2q4" type="quaestio">
           <fileName filestem="da-236-p1p2q4"/>
@@ -163,82 +175,101 @@
         <item id="da-236-p1p2q5" type="quaestio">
           <fileName filestem="da-236-p1p2q5"/>
           <title>Praeambula, Problema 2, Quaestio 5</title>
-          <questionTitle>Cum in libro de anima determinetur de augmento et in libro de generatione, queritur quomodo differenter</questionTitle> <!-- Should this be referenced too, or how would we handle that? -->
+          <questionTitle>Cum in libro de anima determinetur de augmento et in libro de generatione,
+            queritur quomodo differenter</questionTitle>
+          <!-- Should this be referenced too, or how would we handle that? -->
         </item>
         <item id="da-236-p1p2q6" type="quaestio">
           <fileName filestem="da-236-p1p2q6"/>
           <title>Praeambula, Problema 2, Quaestio 6</title>
-          <questionTitle>Quomodo differenter determinetur de colore in libro de anima et in libro de sensu et sensato et in medicina</questionTitle>
+          <questionTitle>Quomodo differenter determinetur de colore in libro de anima et in libro de
+            sensu et sensato et in medicina</questionTitle>
         </item>
         <item id="da-236-p1p2q7" type="quaestio">
           <fileName filestem="da-236-p1p2q7"/>
           <title>Praeambula, Problema 2, Quaestio 7</title>
-          <questionTitle>Quomodo differenter determinatur de voce in libro de anima et in libro de sensu et sensato et in grammatica et in libro de animalibus et in musica</questionTitle>
+          <questionTitle>Quomodo differenter determinatur de voce in libro de anima et in libro de
+            sensu et sensato et in grammatica et in libro de animalibus et in musica</questionTitle>
         </item>
         <item id="da-236-p1p2q8" type="quaestio">
           <fileName filestem="da-236-p1p2q8"/>
           <title>Praeambula, Problema 2, Quaestio 8</title>
-          <questionTitle>Propter quid in libro de sensu et sensato non determinatur complete de voce sicut de aliis obiectis aliorum sensuum</questionTitle>
+          <questionTitle>Propter quid in libro de sensu et sensato non determinatur complete de voce
+            sicut de aliis obiectis aliorum sensuum</questionTitle>
         </item>
         <item id="da-236-p1p2q9" type="quaestio">
           <fileName filestem="da-236-p1p2q9"/>
           <title>Praeambula, Problema 2, Quaestio 9</title>
-          <questionTitle>Cum de sapore et odore determinetur in libro de sensu et sensato et in libro de anima et medicina et in libro vegetabilium queritur quomodo differenter</questionTitle>
+          <questionTitle>Cum de sapore et odore determinetur in libro de sensu et sensato et in
+            libro de anima et medicina et in libro vegetabilium queritur quomodo
+            differenter</questionTitle>
         </item>
         <item id="da-236-p1p2q10" type="quaestio">
           <fileName filestem="da-236-p1p2q10"/>
           <title>Praeambula, Problema 2, Quaestio 10</title>
-          <questionTitle>Quomodo differenter determinatur in hac scientia de quatuor qualitatibus tangibilibus et in aliis scientiis</questionTitle>
+          <questionTitle>Quomodo differenter determinatur in hac scientia de quatuor qualitatibus
+            tangibilibus et in aliis scientiis</questionTitle>
         </item>
         <item id="da-236-p1p2q11" type="quaestio">
           <fileName filestem="da-236-p1p2q11"/>
           <title>Praeambula, Problema 2, Quaestio 11</title>
-          <questionTitle>Propter quid Aristoteles in libro de anima determinando de sensibus primo determinat de visu quam de aliis</questionTitle>
+          <questionTitle>Propter quid Aristoteles in libro de anima determinando de sensibus primo
+            determinat de visu quam de aliis</questionTitle>
         </item>
         <item id="da-236-p1p2q12" type="quaestio">
           <fileName filestem="da-236-p1p2q12"/>
           <title>Praeambula, Problema 2, Quaestio 12</title>
-          <questionTitle>Cum de animalibus determinetur in libro de animalibus et in medicina, queritur quomodo differenter</questionTitle>
+          <questionTitle>Cum de animalibus determinetur in libro de animalibus et in medicina,
+            queritur quomodo differenter</questionTitle>
         </item>
         <item id="da-236-p1p2q13" type="quaestio">
           <fileName filestem="da-236-p1p2q13"/>
           <title>Praeambula, Problema 2, Quaestio 13</title>
-          <questionTitle>Quomodo differenter determinatur de morte et vita in medicina et in stronomia et in libro mortis et vite et de anima</questionTitle>
+          <questionTitle>Quomodo differenter determinatur de morte et vita in medicina et in
+            stronomia et in libro mortis et vite et de anima</questionTitle>
         </item>
         <item id="da-236-p1p2q14" type="quaestio">
           <fileName filestem="da-236-p1p2q14"/>
           <title>Praeambula, Problema 2, Quaestio 14</title>
-          <questionTitle>De comparatione huius scientiae ad alias in ordine, sicut ad scientiam de animalibus et det vegetalibus, quae sit prior inter illas</questionTitle>
+          <questionTitle>De comparatione huius scientiae ad alias in ordine, sicut ad scientiam de
+            animalibus et det vegetalibus, quae sit prior inter illas</questionTitle>
         </item>
         <item id="da-236-p1p2q15" type="quaestio">
           <fileName filestem="da-236-p1p2q15"/>
           <title>Praeambula, Problema 2, Quaestio 15</title>
-          <questionTitle>Utrum scientia de memoria et reminiscientia sit eadem cum scientia de anima</questionTitle>
+          <questionTitle>Utrum scientia de memoria et reminiscientia sit eadem cum scientia de
+            anima</questionTitle>
         </item>
         <item id="da-236-p1p2q16" type="quaestio">
           <fileName filestem="da-236-p1p2q16"/>
           <title>Praeambula, Problema 2, Quaestio 16</title>
-          <questionTitle>Propter quid quaedam operationes animae faciunt scientiam separatam, quaedam autem non</questionTitle>
+          <questionTitle>Propter quid quaedam operationes animae faciunt scientiam separatam,
+            quaedam autem non</questionTitle>
         </item>
         <item id="da-236-p1p2q17" type="quaestio">
           <fileName filestem="da-236-p1p2q17"/>
           <title>Praeambula, Problema 2, Quaestio 17</title>
-          <questionTitle>Propter quid operationes animae intellectivae secundum Aristotelem non faciunt scientiam separatam ab anima intellectiva</questionTitle>
+          <questionTitle>Propter quid operationes animae intellectivae secundum Aristotelem non
+            faciunt scientiam separatam ab anima intellectiva</questionTitle>
         </item>
         <item id="da-236-p1p2q18" type="quaestio">
           <fileName filestem="da-236-p1p2q18"/>
           <title>Praeambula, Problema 2, Quaestio 18</title>
-          <questionTitle>Cum in libro de anima determinetur de virtutibus sensibilibus et in libro de sensu et sensato et in medicina et in libro animalium, quaeritur quomodo differenter</questionTitle>
+          <questionTitle>Cum in libro de anima determinetur de virtutibus sensibilibus et in libro
+            de sensu et sensato et in medicina et in libro animalium, quaeritur quomodo
+            differenter</questionTitle>
         </item>
         <item id="da-236-p1p2q19" type="quaestio">
           <fileName filestem="da-236-p1p2q19"/>
           <title>Praeambula, Problema 2, Quaestio 19</title>
-          <questionTitle>Quare in secundo libro huius scientiae determinetur de sensibili et vegetabili et in tertio de intelligibili</questionTitle>
+          <questionTitle>Quare in secundo libro huius scientiae determinetur de sensibili et
+            vegetabili et in tertio de intelligibili</questionTitle>
         </item>
         <item id="da-236-p1p2q20" type="quaestio">
           <fileName filestem="da-236-p1p2q20"/>
           <title>Praeambula, Problema 2, Quaestio 20</title>
-          <questionTitle>Quae sit distinctio scientiae a scientia et partis scientiae a parte scientiae</questionTitle>
+          <questionTitle>Quae sit distinctio scientiae a scientia et partis scientiae a parte
+            scientiae</questionTitle>
         </item>
       </div>
       <div id="da-236-p1p3">
@@ -246,40 +277,351 @@
         <item id="da-236-p1p3q1" type="quaestio">
           <fileName filestem="da-236-p1p3q1"/>
           <title>Praeambula, Problema 3, Quaestio 1</title>
-          <questionTitle></questionTitle>
+          <questionTitle/>
         </item>
         <item id="da-236-p1p3q2" type="quaestio">
           <fileName filestem="da-236-p1p3q2"/>
           <title>Praeambula, Problema 3, Quaestio 2</title>
-          <questionTitle></questionTitle>
+          <questionTitle/>
         </item>
         <item id="da-236-p1p3q3" type="quaestio">
           <fileName filestem="da-236-p1p3q3"/>
           <title>Praeambula, Problema 3, Quaestio 3</title>
-          <questionTitle></questionTitle>
+          <questionTitle/>
         </item>
         <item id="da-236-p1p3q4" type="quaestio">
           <fileName filestem="da-236-p1p3q4"/>
           <title>Praeambula, Problema 3, Quaestio 4</title>
-          <questionTitle></questionTitle>
+          <questionTitle/>
         </item>
         <item id="da-236-p1p3q5" type="quaestio">
           <fileName filestem="da-236-p1p3q5"/>
           <title>Praeambula, Problema 3, Quaestio 5</title>
-          <questionTitle></questionTitle> 
+          <questionTitle/>
         </item>
         <item id="da-236-p1p3q6" type="quaestio">
           <fileName filestem="da-236-p1p3q6"/>
           <title>Praeambula, Problema 3, Quaestio 6</title>
-          <questionTitle></questionTitle>
-        </item>
-        <item id="da-236-p1p3q7" type="quaestio">
-          <fileName filestem="264-p1p3q7"/>
-          <title>Praeambula, Problema 3, Quaestio 7</title>
-          <questionTitle></questionTitle>
+          <questionTitle/>
         </item>
       </div>
-        
+    </div>
+    <div id="da-236-d1e607" alias="da-236-liber1">
+      <head>Liber 1</head>
+      <div id="da-236-d1e612" alias="da-236-l1">
+        <head>Lectio 1</head>
+        <item id="da-236-d1e3" alias="da-236-l1prae">
+          <fileName filestem="da-236-d1e3"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e60" alias="da-236-l1q1">
+          <fileName filestem="da-236-d1e60"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e284" alias="da-236-l1q2">
+          <fileName filestem="da-236-d1e284"/>
+          <title>Quaesito 2</title>
+          <questionTitle>De certitudine huius scientie utrum, scilicet modo certissimo
+            procedat</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e318" alias="da-236-l1q3">
+          <fileName filestem="da-236-d1e318"/>
+          <title>Quaesito 3 De modis nobilitatis quos tangit Aristoteles in scientia De
+            anima</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e352" alias="da-236-l1q4">
+          <fileName filestem="da-236-d1e352"/>
+          <title>Quaesito 4 Utrum hec scientia de anima influat iuuamentum et certitudinem supra
+            alias scientias.</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e396" alias="da-236-l1q5">
+          <fileName filestem="da-236-d1e396"/>
+          <title>Quaesito 5</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e469" alias="da-236-l2prae">
+          <fileName filestem="da-236-d1e469"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e704" alias="da-236-l2">
+        <head>Lectio 2</head>
+        <item id="da-236-d1e547" alias="da-236-l2q1">
+          <fileName filestem="da-236-d1e547"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e583" alias="da-236-l2q2">
+          <fileName filestem="da-236-d1e583"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e647" alias="da-236-l2q3">
+          <fileName filestem="da-236-d1e647"/>
+          <title>Quaestio 3</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e686" alias="da-236-l2q4">
+          <fileName filestem="da-236-d1e686"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An proprie competat diffinitio utrum substantie an accidenti aut
+            utrique</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e717" alias="da-236-l2q5">
+          <fileName filestem="da-236-d1e717"/>
+          <title>Quaestio 5</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e766" alias="da-236-l2q6">
+          <fileName filestem="da-236-d1e766"/>
+          <title>Quaestio 6</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e816" alias="da-236-l2q7">
+          <fileName filestem="da-236-d1e816"/>
+          <title>Quaestio 7</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e878" alias="da-236-l2q8">
+          <fileName filestem="da-236-d1e878"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Quo modo anima sit natura et substantia</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e909" alias="da-236-l2q9">
+          <fileName filestem="da-236-d1e909"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum anima habeat aliqua propria accidentia et passiones
+            proprias</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e946" alias="da-236-l2q10">
+          <fileName filestem="da-236-d1e946"/>
+          <title>Quaestio 10</title>
+          <questionTitle>De modo cognoscendi animam in scientia ista et quo modo reguletur ista
+            scientia in cognitione ipsius anime, utrum, scilicet debeat incipere ab operationibus
+            anime uel a substantia anime</questionTitle>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e835" alias="da-236-l3">
+        <head>Lectio 3</head>
+        <item id="da-236-d1e978" alias="da-236-l3prae">
+          <fileName filestem="da-236-d1e978"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1053" alias="da-236-l3q1">
+          <fileName filestem="da-236-d1e1053"/>
+          <title>Quaestio 1</title>
+          <questionTitle>De quidditate anime an sit, scilicet substantia aut
+            accidens</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1094" alias="da-236-l3q2">
+          <fileName filestem="da-236-d1e1094"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1119" alias="da-236-l3q3">
+          <fileName filestem="da-236-d1e1119"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum anima uegetabilis et sensibilis sint forme tantum uel forme et hoc
+            aliquid composite ex quo est et quod est</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1150" alias="da-236-l3q4">
+          <fileName filestem="da-236-d1e1150"/>
+          <title>Quaestio 4</title>
+          <questionTitle>De anima intellectiua utrum ipsa sit forma et hoc aliquid ita quod in ea
+            differat quo est et quod est</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1197" alias="da-236-l4prae">
+          <fileName filestem="da-236-d1e1197"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e917" alias="da-236-l4">
+        <head>Lectio 4</head>
+        <item id="da-236-d1e1252" alias="da-236-l4q1">
+          <fileName filestem="da-236-d1e1252"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1280" alias="da-236-l4q2">
+          <fileName filestem="da-236-d1e1280"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1305" alias="da-236-l4q3">
+          <fileName filestem="da-236-d1e1305"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum iste tres differentie anime que sunt uegetabilis, sensibilis,
+            rationalis sint una substantia in homine et diuerse potentie</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1336" alias="da-236-l4q4">
+          <fileName filestem="da-236-d1e1336"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum iste differente anime que sunt uegetabilis et sensibilis sint eiusdem
+            speciei secundum quod sunt in animali bruto et in homine et in plantis</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1367" alias="da-236-l5prae">
+          <fileName filestem="da-236-d1e1367"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e987" alias="da-236-l5">
+        <head>Lectio 5</head>
+        <item id="da-236-d1e1415" alias="da-236-l5q1">
+          <fileName filestem="da-236-d1e1415"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1455" alias="da-236-l5q2">
+          <fileName filestem="da-236-d1e1455"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sit una potentia anime inmediate influens ab anima que sit ante omnes
+            alias potentias, et ad quam alie reducantur et mediante qua ab ipsa
+            egrediantur</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1480" alias="da-236-l5q3">
+          <fileName filestem="da-236-d1e1480"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum anima sit eadem cum suis potentiis</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1520" alias="da-236-l6prae">
+          <fileName filestem="da-236-d1e1520"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e1043" alias="da-236-l6">
+        <head>Lectio 6</head>
+        <item id="da-236-d1e1618" alias="da-236-l6q1">
+          <fileName filestem="da-236-d1e1618"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1661" alias="da-236-l6q2">
+          <fileName filestem="da-236-d1e1661"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum operationes anime sensibiles sint proprie an communes</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1710" alias="da-236-l6q3">
+          <fileName filestem="da-236-d1e1710"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum contingat intelligere sine phantasmate</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1751" alias="da-236-l7prae">
+          <fileName filestem="da-236-d1e1751"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e1099" alias="da-236-l7">
+        <head>Lectio 7</head>
+        <item id="da-236-d1e1775" alias="da-236-l7q1">
+          <fileName filestem="da-236-d1e1775"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1824" alias="da-236-l7q2">
+          <fileName filestem="da-236-d1e1824"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum diffinitio logica dependeat a diffinitione naturali uel
+            phisica</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1868" alias="da-236-l7q3">
+          <fileName filestem="da-236-d1e1868"/>
+          <title>Quaestio 3</title>
+          <questionTitle>De subiecto mathematicarum scientiarum</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e1896" alias="da-236-l8prae">
+          <fileName filestem="da-236-d1e1896"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+      </div>
+      <div id="da-236-d1e1155" alias="da-236-l8">
+        <head>Lectio 8</head>
+        <item id="da-236-d1e1998" alias="da-236-l8q1">
+          <fileName filestem="da-236-d1e1998"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e2033" alias="da-236-l8q2">
+          <fileName filestem="da-236-d1e2033"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum animatum et inanimatum differant in sufficientia motus ita quod
+            animato corpori debeatur sufficienter motus, inanimato autem
+            insufficienter</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e2067" alias="da-236-l8q3">
+          <fileName filestem="da-236-d1e2067"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum causa propter quam quidam motores mouent sufficienter et quidam non
+            sit hoc aliquid | uel distantia a materia et a mobili et independentia ut dicatur motor
+            sufficienter mouere, quia sit hoc aliquid uel quia sit distans a materia uel a
+            mobili</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e2116" alias="da-236-l8q4">
+          <fileName filestem="da-236-d1e2116"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum se ipso moueri conueniat cuilibet animato</questionTitle>
+          <hasWitnesses/>
+        </item>
+        <item id="da-236-d1e2159" alias="da-236-l8q5">
+          <fileName filestem="da-236-d1e2159"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum necesse sit omne mouens moueri</questionTitle>
+          <hasWitnesses/>
+        </item>
+      </div>
     </div>
   </div>
 </listofFileNames>

@@ -14,12 +14,14 @@ items = doc.xpath("//item")
 items.each do |item|
   id = item.attributes["id"].value
   puts "id: #{id}"
-  idalias = item.attributes["alias"].value
-  puts "alias: #{idalias}"
-  FileUtils.mkdir_p "#{destination_base}/#{id}/"
-  FileUtils.touch "#{destination_base}/#{id}/readme.md"
-  FileUtils.mkdir_p "#{destination_base}/symlinks/"
-  if !File.exist? "#{destination_base}/symlinks/#{idalias}"
-    FileUtils.ln_s "../#{id}", "#{destination_base}/symlinks/#{idalias}"
+  if item.attributes["alias"]
+    idalias = item.attributes["alias"].value
+    puts "alias: #{idalias}"
+    FileUtils.mkdir_p "#{destination_base}/#{id}/"
+    FileUtils.touch "#{destination_base}/#{id}/readme.md"
+    FileUtils.mkdir_p "#{destination_base}/symlinks/"
+    if !File.exist? "#{destination_base}/symlinks/#{idalias}"
+      FileUtils.ln_s "../#{id}", "#{destination_base}/symlinks/#{idalias}"
+    end
   end
 end
