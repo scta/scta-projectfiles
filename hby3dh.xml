@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Richard Fishacre</authorName>
-    <commentaryName>Commentary on the Senteces</commentaryName>
+    <commentaryName>Commentary on the Sentences</commentaryName>
     <commentaryid>hby3dh</commentaryid>
     <commentaryslug>hby3dh</commentaryslug>
     <alias>fishacresentcommentary</alias>
@@ -24,7 +22,29 @@
     </hasWitnesses>
   </header>
   <div id="body">
+    <item id="hby3dh-d1e65" alias="hby3dh-prolf">
+      <fileName filestem="hby3dh-d1e65"/>
+      <title>Fishacre Prologus</title>
+      <hasWitnesses>
+        <witness ref="#P">
+          <folio>1r</folio>
+          <folio>1v</folio>
+          <folio>2r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="hby3dh-d1e73" alias="hby3dh-prolf">
+      <fileName filestem="hby3dh-d1e73"/>
+      <title>Prologus</title>
+      <hasWitnesses>
+        <witness ref="#P">
+          <folio>2r</folio>
+          <folio>2v</folio>
+          <folio>3r</folio>
+          <folio>3v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
     
   </div>
 </listofFileNames>
-
