@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Himbert Of Garda</authorName>
+    <commentaryName>Sentences Commentary</commentaryName>
+    <commentaryid>poi89i</commentaryid>
+    <commentaryslug>poi89i</commentaryslug>
+    <alias>himbertgardasentcommentary</alias>
+    <authorUri>http://scta.info/resource/HimbertOfGarda</authorUri>
+    <parentUri>http://scta.info/resource/poi89i</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/poi89i/</textfilesdir>
+    <questionListSource>vat lat 1091</questionListSource>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>cod-pty78d</slug>
+        <title>Vat lat 1091</title>
+        <initial>V</initial>
+      </witness>
+      <!-- See the thesis: Le Scotisme de Himbert de Garda O.F.M. (XIVe siècle) :
+              édition commentée de son premier livre du Commentaire du Livre des sentences (French)
+               MS listed in Stegmuller
+              Assisi, , 659; contains books I q. 1 a. 1-4 on fols. 7-24
+              » Chambery, , 23; contains books I on fols. 1-55
+              » Paris, Bibliothèque Nationale, Cod. Lat. 1010; contains books I q. 1 a. 1-4 on fols. 217-236
+              » Rome, Vatican Library, Vat. Lat. 1091; contains books I-III (https://digi.vatlib.it/iiif/MSS_Vat.lat.1091/manifest.json)
+              question list for book one in vat lat 1091, on fo. 74rff
+              -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="poi89i-d1e65" alias="poi89i-l1">
+      <head>Liber 1</head>
+      <div id="poi89i-d1e72" alias="poi89i-l1prol" type="liber1-prologus">
+        <head>Prologus</head>
+        <item id="poi89i-d1e70" alias="poi89i-l1prolq1">
+          <fileName filestem="poi89i-d1e70"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum cum summa simplicitate divina possit stare non identitas ex natura rationum formalium</questionTitle>
+          <!-- fol. V1r -->
+        </item>
+        <item id="poi89i-d1e83" alias="poi89i-l1prolq2">
+          <fileName filestem="poi89i-d1e83"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Deus sit subiectum in theologia</questionTitle>
+          <!-- fol. V10r -->
+        </item>
+        <item id="poi89i-d1e96" alias="poi89i-l1prolq3">
+          <fileName filestem="poi89i-d1e96"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum quidditates rerum factibilium habuerunt esse ab aeterno</questionTitle>
+          <!-- fol. V11r -->
+        </item>
+        <item id="poi89i-d1e109" alias="poi89i-l1prolq4">
+          <fileName filestem="poi89i-d1e109"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum ens dicat verum conceptum communem ad decem praedicamenta</questionTitle>
+          <!-- fol. V11r -->
+        </item>
+        <item id="poi89i-d1e123" alias="poi89i-l1prolq5">
+          <fileName filestem="poi89i-d1e123"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum intellectus noster in vita possit habere aliquam notitiam abstractivam de Deo</questionTitle>
+          <!-- fol. V16r -->
+        </item>
+      </div>
+      <div id="poi89i-d1e144" alias="poi89i-l1d1" type="liber1-distinctio1">
+        <head>Distinctio 1</head>
+        <!-- begin dist 1 -->
+        <item id="poi89i-d1e138" alias="poi89i-l1d1q1">
+          <fileName filestem="poi89i-d1e138"/>
+          <title>Quaestio 1</title>
+          <questionTitle>De frui et uti, utrum sint actus realiter distincti</questionTitle>
+          <!-- fol. V17r -->
+        </item>
+        <item id="poi89i-d1e164" alias="poi89i-l1d1q2">
+          <fileName filestem="poi89i-d1e164"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum aliquod ens finitum possit esse obiectum fruitionis ordinate</questionTitle>
+          <!-- fol. V19r -->
+        </item>
+        <item id="poi89i-d1e177" alias="poi89i-l1d1q3">
+          <fileName filestem="poi89i-d1e177"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum in Deo sint plures rationes <unclear>cognoscibiliter</unclear></questionTitle>
+          <!-- fol. V20v -->
+        </item>
+        <item id="poi89i-d1e193" alias="poi89i-l1d1q4">
+          <fileName filestem="poi89i-d1e193"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum voluntas possit non diligere ultimum finem ipso apprehensio per intellectum</questionTitle>
+          <!-- fol. V21v -->
+        </item>
+      </div>
+      <div id="poi89i-d1e207" alias="poi89i-l1d2" type="liber1-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="poi89i-d1e212" alias="poi89i-l1d2q1">
+          <fileName filestem="poi89i-d1e212"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deum esse sit per se notum</questionTitle>
+          <!-- fol. V23r -->
+        </item>
+        <item id="poi89i-d1e225" alias="poi89i-l1d2q2">
+          <fileName filestem="poi89i-d1e225"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Deum esse unum sit demonstrabilis</questionTitle>
+          <!-- fol. V24r -->
+        </item>
+        <item id="poi89i-d1e238" alias="poi89i-l1d2q3">
+          <fileName filestem="poi89i-d1e238"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum possit demonstrari Deum est infinitae virtutis</questionTitle>
+          <!-- fol. V25v -->
+        </item>
+        <item id="poi89i-d1e251" alias="poi89i-l1d2q4">
+          <fileName filestem="poi89i-d1e251"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum in divinis sit pluraliter personarum</questionTitle>
+          <!-- fol. V27v -->
+        </item>
+        <item id="poi89i-d1e265" alias="poi89i-l1d2q5">
+          <fileName filestem="poi89i-d1e265"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum cum unitate <unclear>essentia</unclear> possit stare pluralitas personarum</questionTitle>
+          <!-- fol. V28v -->
+        </item>
+      </div>
+      
+    </div>
+    
+  </div>
+</listofFileNames>
