@@ -23,21 +23,18 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <div id="awls-liber1" type="liber">
+    <div id="awls-liber1" type="liber1">
       <head>Liber I</head>
-      <div id="awls-l1col" type="liber1-collatio">
-        <head>Liber I, Collatio</head>
-        <item type="quaestio">
-          <fileName filestem="awls-l1col"/>
-          <title>Collatio</title>
-          <hasWitnesses>
-            <witness ref="#C">
-              <folio>105r</folio>
-              <folio>105v</folio>
-            </witness>
-          </hasWitnesses>
-        </item>
-      </div>
+      <item id="awls-l1col" type="collatio">
+        <fileName filestem="awls-l1col"/>
+        <title>Collatio</title>
+        <hasWitnesses>
+          <witness ref="#C">
+            <folio>105r</folio>
+            <folio>105v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
       <div id="awls-l1prol" type="prologus" subtype="liber1-prologus">
         <head>Liber I, Prologus</head>
         <item id="awls-l1prolq1" type="quaestio">
