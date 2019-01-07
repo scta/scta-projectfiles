@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Thomas of Sutton</authorName>
     <commentaryName>Sentences Commentary</commentaryName>
@@ -11,9 +9,9 @@
     <parentUri>http://scta.info/resource/J5LijF</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/J5LijF/</textfilesdir>
-    <questionListSource/>
-    <questionListOriginalEditor/>
-    <questionListEncoder/>
+    <questionListSource>Vat lat 872 and Urb lat 120</questionListSource>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
      <witness id="V">
@@ -22,13 +20,101 @@
        <initial>V</initial>
      </witness>
      <witness id="U">
-       <slug>cod-xowK1O</slug>
+       <slug>cod-xowk10</slug>
        <title>urb lat 120</title>
        <initial>U</initial>
      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
-
+    <div id="J5LijF-d1e77" alias="J5LijF-l1" type="liber1">
+      <head>Liber 1</head>
+      <div id="J5LijF-d1e82" alias="J5LijF-l1prol" type="liber1-prol">
+        <head>Prologus</head>
+        <item id="J5LijF-d1e87" alias="J5LijF-l1prolq1">
+          <fileName filestem="J5LijF-d1e87"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homini pro statu isto sit necessariam aliquam doctrinam spiritualem supernaturaliter inspirari</questionTitle>
+        </item>
+        <item id="J5LijF-d1e98" alias="J5LijF-l1prolq2">
+          <fileName filestem="J5LijF-d1e98"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum cognitio supernaturalis necessaria viatori tradita sit sufficienter in sacra scriptura</questionTitle>
+        </item>
+        <item id="J5LijF-d1e109" alias="J5LijF-l1prolq3">
+          <fileName filestem="J5LijF-d1e109"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum theologia sit de Deo ut de subiecto</questionTitle>
+        </item>
+        <item id="J5LijF-d1e120" alias="J5LijF-l1prolq4">
+          <fileName filestem="J5LijF-d1e120"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum ista scientia sit de Deo sub aliqua speciali ratione</questionTitle>
+        </item>
+        <item id="J5LijF-d1e132" alias="J5LijF-l1prolq5">
+          <fileName filestem="J5LijF-d1e132"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum ista scientia sit de omnibus in comparatione ad eius primum subiectum</questionTitle>
+        </item>
+        <item id="J5LijF-d1e143" alias="J5LijF-l1prolq6">
+          <fileName filestem="J5LijF-d1e143"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum theologia sit scientia in se</questionTitle>
+        </item>
+        <item id="J5LijF-d1e154" alias="J5LijF-l1prolq7">
+          <fileName filestem="J5LijF-d1e154"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum ista scientia habeat aliquam habitudinem subalternantis ad alteram scientiam</questionTitle>
+        </item>
+        <item id="J5LijF-d1e165" alias="J5LijF-l1prolq8">
+          <fileName filestem="J5LijF-d1e165"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum theologia quae est de necessariis sit practica</questionTitle>
+        </item>
+        <item id="J5LijF-d1e176" alias="J5LijF-l1prolq9">
+          <fileName filestem="J5LijF-d1e176"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum theologia quae est de veritatibus contingentibus sit speculativa</questionTitle>
+        </item>
+      </div>
+    <!-- 
+      q. 1: Utrum homini pro statu isto sit neccessariam aliquam doctrinam spiritualem supernaturaliter inspirari
+      U 2r V 1r
+      q. 2: Utrum cognitio supernaturalis neccessaria viatori tradita sit sufficienter in sacra scriptura
+      U 4ra, V3va-b
+      q. 3: Utrum theologia sit de deo ut de subiecto
+      U 4ra (no initia), V3v-b
+      q. 4: Utrum ista scientia sit de Deo sub aliqua speciali ratione
+      U 5rb, V5rb
+      q. 5: utrum ista scientia sit de omnibus in comparatione ad eius primum subiectum
+      U 5vb, V 6ra
+      q. 6: Utrum theologia sit scientia in se
+      U 6rb, V 6vb
+      q. 7: Utrum ista scientia habeat aliquam habitudinem subalternantis ad alteram (U: aliam) scientiam
+      U 7rb -V, 8ra
+      q. 8: Utrum ex ordine ad praxim ut ad finem dicatur per se scientia practica
+      U 7va, V 8rb
+      q. 8: utrum theologia quae est de necessariis sit practica
+      U 9v b, V 11rb
+      q. 9: utrum theologia quae est de veritatibus contingentibus sit speculativa
+      U 13v a, V 16ra
+      distinction 1
+      q. 10: Utrum per se obiectum fruitionis sit finis ultimus
+      U, 14va, V 17rb
+      q. 11: Utrum finis ultimus habeat tantum unam rationem fruibilem an in ipso sit aliqua dispositio secundum quam voluntas possit eo frui secundum unam rationem et non secundum aliam
+      U 15ra, V 18rb
+      q. 12: Utrum frui posito quod sit aliquid voluntas solum sit actus elicitus a voluntate vel prima recepta in voluntate puta aliqua delectio
+      U17va, V 21rb
+      q. 13: Utrum fine apprehenso necesse sit voluntatem frui eo
+      U18va, V22va
+      d. 2
+      q. 14: Utrum Deum esse sit per se notum
+      U21rb, V. 26ra
+      q. 15: Utrum sit aliquod ens simpliciter primum
+      U 24va, V 28va 
+      q. 16
+    -->
+      
+    </div>
   </div>
 </listofFileNames>
