@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Averroes</authorName>
+    <commentaryName>In De Caelo</commentaryName>
+    <commentaryid>juh67y</commentaryid>
+    <commentaryslug>juh67y</commentaryslug>
+    <alias>averroesDeCaelo</alias>
+    <authorUri>http://scta.info/resource/Averroes</authorUri>
+    <parentUri>http://scta.info/resource/juh67y</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/juh67y/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> 
+      <!--
+        Averroes:  Aristotelis Stagiritae de coelo, de generatione et corruptione, meteorologicum, de plantis libri, 
+        cum Averrois Cordubensis variis in eosdem commentariis: 
+        editio Juntina prima, vol. V (Venezia, 1550);  
+        http://capricorn.bc.edu/siepm/DOCUMENTS/AVERROES/Averroes_DC_DGC_M_JuntPrima_05.pdf
+        editio Juntina secunda, vol. V (Venezia, 1562)
+        http://capricorn.bc.edu/siepm/DOCUMENTS/AVERROES/Averroes_DC_DGC_M_JuntSecunda_05.pdf
+      -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="juh67y-d1e53" alias="juh67y-l1">
+      <fileName filestem="juh67y-d1e53"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="juh67y-d1e61" alias="juh67y-l2">
+      <fileName filestem="juh67y-d1e61"/>
+      <title>Liber 2</title>
+    </item>
+    <item id="juh67y-d1e69" alias="juh67y-l3">
+      <fileName filestem="juh67y-d1e69"/>
+      <title>Liber 3</title>
+    </item>
+    <item id="juh67y-d1e77" alias="juh67y-l4">
+      <fileName filestem="juh67y-d1e77"/>
+      <title>Liber 4</title>
+    </item>
+  </div>
+</listofFileNames>
