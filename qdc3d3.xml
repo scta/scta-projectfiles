@@ -1,0 +1,2532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>John of Jandun</authorName>
+    <commentaryName>Quaestiones in duodecim libros Metaphysicorum</commentaryName>
+    <commentaryid>qdc3d3</commentaryid>
+    <commentaryslug>qdc3d3</commentaryslug>
+    <alias>johnOfJandunMetaphysica</alias>
+    <authorUri>https://scta.info/resource/JohnOfJandun</authorUri>
+    <parentUri>http://scta.info/resource/qdc3d3</parentUri>
+    <parentWorkGroup>http://scta.info/resource/metaphysica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/qdc3d3/</textfilesdir>
+    <questionListSource>Venice, 1525</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="V">
+        <slug>Venice1525</slug>
+        <title>Venice</title>
+        <initial>V</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="qdc3d3-d1e66" alias="qdc3d3-l1" type="met-liber1">
+      <head>Liber 1</head>
+      <item id="qdc3d3-d1e71" alias="qdc3d3-l1q1">
+        <fileName filestem="qdc3d3-d1e71"/> <!-- you can leave this like this. When I run the "id-generator", the correct id will be added -->
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum felicitas humana consistat in sapientia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">1r</folio>
+            <folio>1v</folio>
+            <folio>2r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e99" alias="qdc3d3-l1q2">
+        <fileName filestem="qdc3d3-d1e99"/> 
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum metaphysica sit prior aliis scientiis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">2r</folio>
+            <folio>2v</folio>
+            <folio>3r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e125" alias="qdc3d3-l1q3">
+        <fileName filestem="qdc3d3-d1e125"/> 
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum ens secundum quod ens sit subiectum de quo est metaphysica</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">3r</folio>
+            <folio>3v</folio>
+            <folio>4r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e151" alias="qdc3d3-l1q4">
+        <fileName filestem="qdc3d3-d1e151"/> 
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum omnes homines naturaliter scire desiderent</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">4r</folio>
+            <folio>4v</folio>
+            <folio>5r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e178" alias="qdc3d3-l1q5">
+        <fileName filestem="qdc3d3-d1e178"/> 
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum omnes homines appetant unam scientiam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">5r</folio>
+            <folio>5v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e201" alias="qdc3d3-l1q6">
+        <fileName filestem="qdc3d3-d1e201"/> 
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum visus maxime diligatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">5v</folio>
+            <folio>6r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e224" alias="qdc3d3-l1q7">
+        <fileName filestem="qdc3d3-d1e224"/> 
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum visus sit maxime cognoscitivus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">6r</folio>
+            <folio>6v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e247" alias="qdc3d3-l1q8">
+        <fileName filestem="qdc3d3-d1e247"/> 
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum aliqua animalia bruta sunt prudentia et disciplinabilia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">6v</folio>
+            <folio>7r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e270" alias="qdc3d3-l1q9">
+        <fileName filestem="qdc3d3-d1e270"/> 
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum animalia bruta habeant experimentum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">7r</folio>
+            <folio>7v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e293" alias="qdc3d3-l1q10">
+        <fileName filestem="qdc3d3-d1e293"/> 
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum ex sensu fiat memoria</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">7v</folio>
+            <folio>8r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e317" alias="qdc3d3-l1q11">
+        <fileName filestem="qdc3d3-d1e317"/> 
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum experimentum fiat ex memoriis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">8r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e337" alias="qdc3d3-l1q12">
+        <fileName filestem="qdc3d3-d1e337"/> 
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum ars et scientia generentur ab experimento</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">8r</folio>
+            <folio>8v</folio>
+            <folio>9r</folio>
+            <folio>9v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e366" alias="qdc3d3-l1q13">
+        <fileName filestem="qdc3d3-d1e366"/> 
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum aliquis posset habere artem et scientiam sine experimento</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">9v</folio>
+            <folio>10r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e389" alias="qdc3d3-l1q14">
+        <fileName filestem="qdc3d3-d1e389"/> 
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum artifex sine experientia magis proficiat quam expertus sine arte</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">10r</folio>
+            <folio>10v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e412" alias="qdc3d3-l1q15">
+        <fileName filestem="qdc3d3-d1e412"/> 
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum ars sit universalium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">10v</folio>
+            <folio>11r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e435" alias="qdc3d3-l1q16">
+        <fileName filestem="qdc3d3-d1e435"/> 
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum universale sit principio et per se generabile et corruptibile</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">11r</folio>
+            <folio>11v</folio>
+            <folio>12r</folio>
+            <folio>12v</folio>
+            <folio>13r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e468" alias="qdc3d3-l1q17">
+        <fileName filestem="qdc3d3-d1e468"/> 
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum habitus speculativi sint honorabiliores practicis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">13r</folio>
+            <folio>13v</folio>
+            <folio>14r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e494" alias="qdc3d3-l1q18">
+        <fileName filestem="qdc3d3-d1e494"/> 
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum philosophi pure speculativi sint permittendi in politica philosophia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">14r</folio>
+            <folio>14v</folio>
+            <folio>15r</folio>
+            <folio>15v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e523" alias="qdc3d3-l1q19">
+        <fileName filestem="qdc3d3-d1e523"/> 
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum metaphysicus debeat scire omnia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">15v</folio>
+            <folio>16r</folio>
+            <folio>16v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e549" alias="qdc3d3-l1q20">
+        <fileName filestem="qdc3d3-d1e549"/> 
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum metaphysica sit scientia certissima</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">16v</folio>
+            <folio>17r</folio>
+            <folio>17v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e575" alias="qdc3d3-l1q21">
+        <fileName filestem="qdc3d3-d1e575"/> 
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum metaphysica sit maxime principalis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">17v</folio>
+            <folio>18r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e598" alias="qdc3d3-l1q22">
+        <fileName filestem="qdc3d3-d1e598"/> 
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum metaphysica sit scientia libera</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">18r</folio>
+            <folio>18v</folio>
+            <folio>19r</folio>
+            <folio>19v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e628" alias="qdc3d3-l1q23">
+        <fileName filestem="qdc3d3-d1e628"/> 
+        <title>Quaestio 23</title>
+        <questionTitle>Utrum sapientia sit possessio hominis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">19v</folio>
+            <folio>20r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e652" alias="qdc3d3-l2" type="met-liber2">
+        <head>Liber 2</head>
+        <item id="qdc3d3-d1e657" alias="qdc3d3-l2q1">
+          <fileName filestem="qdc3d3-d1e657"/> <!-- you can leave this like this. When I run the "id-generator", the correct id will be added -->
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum cognitio veritatis sit possibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">20r</folio>
+              <folio>20v</folio>
+              <folio>21r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e685" alias="qdc3d3-l2q2">
+          <fileName filestem="qdc3d3-d1e685"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum principia sint naturaliter cognita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">21r</folio>
+              <folio>21v</folio>
+              <folio>22r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e711" alias="qdc3d3-l2q3">
+          <fileName filestem="qdc3d3-d1e711"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum difficultas cognitionis fiat ex parte intellectus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">22r</folio>
+              <folio>22v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e734" alias="qdc3d3-l2q4">
+          <fileName filestem="qdc3d3-d1e734"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum intellectus noster coniunctus magnitudini possit intelligere substantias abstractas et Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="a">22v</folio>
+              <folio>23r</folio>
+              <folio>23v</folio>
+              <folio>24r</folio>
+              <folio>24v</folio>
+              <folio>25r</folio>
+              <folio>25v</folio>
+              <folio>26r</folio>
+              <folio>26v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e780" alias="qdc3d3-l2q5">
+          <fileName filestem="qdc3d3-d1e780"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum substantie eterne alie a prima dependeant a prima tamquam ab aliquo agente et efficiente</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">26v</folio>
+              <folio>27r</folio>
+              <folio>27v</folio>
+              <folio>28r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e809" alias="qdc3d3-l2q6">
+          <fileName filestem="qdc3d3-d1e809"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum in causis efficientibus sit processus in infinitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="a">28r</folio>
+              <folio>28v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e832" alias="qdc3d3-l2q7">
+          <fileName filestem="qdc3d3-d1e832"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum in causis materialibus procedatur in infinitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">28v</folio>
+              <folio>29r</folio>
+              <folio>29v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e858" alias="qdc3d3-l2q8">
+          <fileName filestem="qdc3d3-d1e858"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum sit processus in infinitum in causis finalibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="a">29v</folio>
+              <folio>30r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e881" alias="qdc3d3-l2q9">
+          <fileName filestem="qdc3d3-d1e881"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum in causis formalibus sit processus in infinitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="a">30r</folio>
+              <folio>30v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e904" alias="qdc3d3-l2q10">
+          <fileName filestem="qdc3d3-d1e904"/>
+          <title>Quaestio 10</title>
+          <questionTitle>Utrum partes diffinitionis logice, ut genus et differentia, sint diverse forme realiter et per se</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">30v</folio>
+              <folio>31r</folio>
+              <folio>31v</folio>
+              <folio>32r</folio>
+              <folio>32v</folio>
+              <folio>33r</folio>
+              <folio>33v</folio>
+              <folio>34r</folio>
+              <folio>34v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e950" alias="qdc3d3-l2q11">
+          <fileName filestem="qdc3d3-d1e950"/>
+          <title>Quaestio 11</title>
+          <questionTitle>Queritur circa istam partem seu capitulum, quia dicit Aristoteles quod consuetum notius est inconsueto. Et Commentator dicit ibi quod consuetudo in pueritia est fortissimum impedimentum a cognitione veritatis: utrum hoc sit verum.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">34v</folio>
+              <folio>35r</folio>
+              <folio>35v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="qdc3d3-d1e976" alias="qdc3d3-l2q12">
+          <fileName filestem="qdc3d3-d1e976"/>
+          <title>Quaestio 12</title>
+          <questionTitle>Utrum logica sit prior aliis scientiis ordine doctrine</questionTitle>
+          <hasWitnesses>
+            <witness ref="#V">
+              <folio c="b">35v</folio>
+              <folio>36r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    <div id="qdc3d3-d1e1000" alias="qdc3d3-l3" type="met-liber3">
+      <head>Liber 3</head>
+      <item id="qdc3d3-d1e1005" alias="qdc3d3-l3q1">
+        <fileName filestem="qdc3d3-d1e1005"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum ad inquisitionem veritatis necessarium sit predubitare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">36r</folio>
+            <folio>36v</folio>
+            <folio>37r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1031" alias="qdc3d3-l3q2">
+        <fileName filestem="qdc3d3-d1e1031"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum una scientia possit considerare omnia quattuor genera causarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">37r</folio>
+            <folio>37v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1054" alias="qdc3d3-l3q3">
+        <fileName filestem="qdc3d3-d1e1054"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Queritur circa hanc partem, ubi Aristoteles dicit quod in immobilibus non est finis et bonum: utrum hoc sit verum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">37v</folio>
+            <folio>38r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1077" alias="qdc3d3-l3q4">
+        <fileName filestem="qdc3d3-d1e1077"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Circa hanc partem queritur per quam causam res magis cognoscatur perfecte</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">38r</folio>
+            <folio>38v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1101" alias="qdc3d3-l3q5">
+        <fileName filestem="qdc3d3-d1e1101"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum prima principia sint de consideratione alicuius scientie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">38v</folio>
+            <folio>39r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1124" alias="qdc3d3-l3q6">
+        <fileName filestem="qdc3d3-d1e1124"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum ad unam scientiam pertineat consideratio omnium substantiarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">39r</folio>
+            <folio>39v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1147" alias="qdc3d3-l3q7">
+        <fileName filestem="qdc3d3-d1e1147"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum preter substantias sensibiles sint alique alie que sint eiusdem speciei, sicut Plato posuit ideas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">39v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1167" alias="qdc3d3-l3q8">
+        <fileName filestem="qdc3d3-d1e1167"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum mathematica, ut linee et magnitudines, sint abstracte a sensibilibus secundum esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">40r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1187" alias="qdc3d3-l3q9">
+        <fileName filestem="qdc3d3-d1e1187"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum genera et universalia sint principia rerum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">40r</folio>
+            <folio>40v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1210" alias="qdc3d3-l3q10">
+        <fileName filestem="qdc3d3-d1e1210"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum omnium entium sit unum principium numero</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">40v</folio>
+            <folio>41r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1234" alias="qdc3d3-l3q11">
+        <fileName filestem="qdc3d3-d1e1234"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum eadem sint principia corruptibilium et incorruptibilium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">41r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1254" alias="qdc3d3-l3q12">
+        <fileName filestem="qdc3d3-d1e1254"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum genus predicetur de differentia per se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">41r</folio>
+            <folio>41v</folio>
+            <folio>42r</folio>
+            <folio>42v</folio>
+            <folio>43r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1286" alias="qdc3d3-l3q13">
+        <fileName filestem="qdc3d3-d1e1286"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum unum et ens separata sint principia et substantie rerum, ut Plato voluit</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">43r</folio>
+            <folio>43v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1309" alias="qdc3d3-l3q14">
+        <fileName filestem="qdc3d3-d1e1309"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum numeri et magnitudines sint principia et substantie rerum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">43v</folio>
+            <folio>44r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1332" alias="qdc3d3-l3q15">
+        <fileName filestem="qdc3d3-d1e1332"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum principia sint actu vel potentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">44r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1352" alias="qdc3d3-l3q16">
+        <fileName filestem="qdc3d3-d1e1352"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum principia sint universalia aut singularia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">44r</folio>
+            <folio>44v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+  </div>
+    <div id="qdc3d3-d1e1376" alias="qdc3d3-l4" type="met-liber4">
+      <head>Liber 4</head>
+      <item id="qdc3d3-d1e1381" alias="qdc3d3-l4q1">
+        <fileName filestem="qdc3d3-d1e1381"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum unum ens sit unius rationis ad decem predicamenta</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">44v</folio>
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1413" alias="qdc3d3-l4q2">
+        <fileName filestem="qdc3d3-d1e1413"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum negatio habeat distinctam formalitatem ab affirmatione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1439" alias="qdc3d3-l4q3">
+        <fileName filestem="qdc3d3-d1e1439"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum in rebus causatis esse sit aliud ab essentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1465" alias="qdc3d3-l4q4">
+        <fileName filestem="qdc3d3-d1e1465"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum ens et unum sint idem et unum in substantia ita quod unum nihil addat realiter super ens</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">48v</folio>
+            <folio>49r</folio>
+            <folio>49v</folio>
+            <folio>50r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1495" alias="qdc3d3-l4q5">
+        <fileName filestem="qdc3d3-d1e1495"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Queritur circa eandem partem, quia ibi Commentator digreditur loquendo contra Avicennam, qui dixit quod ens et unum significant dispositiones superadditas nature rei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">50r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1515" alias="qdc3d3-l4q6">
+        <fileName filestem="qdc3d3-d1e1515"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum metaphysica et dialectica versentur circa idem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">50r</folio>
+            <folio>50v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1538" alias="qdc3d3-l4q7">
+        <fileName filestem="qdc3d3-d1e1538"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum istud sit primum principium complexum: impossibile est idem simul esse et non esse secundum idem et ad idem et similiter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">50v</folio>
+            <folio>51r</folio>
+            <folio>51v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1564" alias="qdc3d3-l4q8">
+        <fileName filestem="qdc3d3-d1e1564"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum principium complexum sit omnibus notissimum ita quod intelligentem quemcumque sit necesse ipsum habere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">51v</folio>
+            <folio>52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1587" alias="qdc3d3-l4q9">
+        <fileName filestem="qdc3d3-d1e1587"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum primum principium possit demonstrari</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">52r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1607" alias="qdc3d3-l4q10">
+        <fileName filestem="qdc3d3-d1e1607"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum negans vocem aliquid significare ponat vocem aliquid significare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">52r</folio>
+            <folio>52v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1631" alias="qdc3d3-l4q11">
+        <fileName filestem="qdc3d3-d1e1631"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum vox possit plura significare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">52v</folio>
+            <folio>53r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1654" alias="qdc3d3-l4q12">
+        <fileName filestem="qdc3d3-d1e1654"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum opiniones contradictoriorum sint contrarie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">53r</folio>
+            <folio>53v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1677" alias="qdc3d3-l4q13">
+        <fileName filestem="qdc3d3-d1e1677"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum intellectus possit intelligere plura simul</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">53v</folio>
+            <folio>54r</folio>
+            <folio>54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1703" alias="qdc3d3-l4q14">
+        <fileName filestem="qdc3d3-d1e1703"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum hec sit vera: homo est animal bipes, quia hoc significat</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">54v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1723" alias="qdc3d3-l4q15">
+        <fileName filestem="qdc3d3-d1e1723"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum Socrate corrupto adhuc Socrates sit homo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">54v</folio>
+            <folio>55r</folio>
+            <folio>55v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1749" alias="qdc3d3-l4q16">
+        <fileName filestem="qdc3d3-d1e1749"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum ponentes contradictoria simul esse non tollant predicationem essentialem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">55v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1770" alias="qdc3d3-l4q17">
+        <fileName filestem="qdc3d3-d1e1770"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum accidens possit esse subiectum alterius accidentis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">55v</folio>
+            <folio>56r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1793" alias="qdc3d3-l4q18">
+        <fileName filestem="qdc3d3-d1e1793"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum sit verum simpliciter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">56r</folio>
+            <folio>56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1816" alias="qdc3d3-l4q19">
+        <fileName filestem="qdc3d3-d1e1816"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum in rebus sit entitas determinata et habet locum questio super illam partem: habet autem opinionis causa qui de entibus quidem veritatem intendebant</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1836" alias="qdc3d3-l4q20">
+        <fileName filestem="qdc3d3-d1e1836"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum omnia sint in continuo motu</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">56v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1856" alias="qdc3d3-l4q21">
+        <fileName filestem="qdc3d3-d1e1856"/>
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum in nobis sit certa cognitio et determinata de rebus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">56v</folio>
+            <folio>57r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1879" alias="qdc3d3-l4q22">
+        <fileName filestem="qdc3d3-d1e1879"/>
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum omnia entia referantur ad sensum vel intellectum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">57r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1900" alias="qdc3d3-l4q23">
+        <fileName filestem="qdc3d3-d1e1900"/>
+        <title>Quaestio 23</title>
+        <questionTitle>Utrum aliquis habens rationem sophysticam ad aliquam conclusionem debeat propter hoc credere illam conclusionem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">57r</folio>
+            <folio>57v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e1924" alias="qdc3d3-l5" type="met-liber5">
+      <head>Liber 5</head>
+      <item id="qdc3d3-d1e1929" alias="qdc3d3-l5q1">
+        <fileName filestem="qdc3d3-d1e1929"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum ad istam scientiam pertineat distinctio nominum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">58v</folio>
+            <folio>58r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1952" alias="qdc3d3-l5q2">
+        <fileName filestem="qdc3d3-d1e1952"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum sit in re primum in magnitudine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">58r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1972" alias="qdc3d3-l5q3">
+        <fileName filestem="qdc3d3-d1e1972"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum primum dicatur per prius de principio magnitudinis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">58r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e1992" alias="qdc3d3-l5q4">
+        <fileName filestem="qdc3d3-d1e1992"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum finis sit causa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2019" alias="qdc3d3-l5q5">
+        <fileName filestem="qdc3d3-d1e2019"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum dicatur per prius de materia prima</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">59r</folio>
+            <folio>59v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2042" alias="qdc3d3-l5q6">
+        <fileName filestem="qdc3d3-d1e2042"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum forme elementorum remaneant in mixto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2068" alias="qdc3d3-l5q7">
+        <fileName filestem="qdc3d3-d1e2068"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum ad transmutationem naturalem oporteat agens esse intrinsecum passo et mobili</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">60v</folio>
+            <folio>61v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2091" alias="qdc3d3-l5q8">
+        <fileName filestem="qdc3d3-d1e2091"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum natura per prius dicatur de generatione nascentium vel de forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">61v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2111" alias="qdc3d3-l5q9">
+        <fileName filestem="qdc3d3-d1e2111"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Queritur circa capitulum de necessario, quia Aristoteles dicit: necessarium est quod est impossibile aliter se habere, utrum ista diffinitio necessarii sit bona</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">61v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2131" alias="qdc3d3-l5q10">
+        <fileName filestem="qdc3d3-d1e2131"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum sit aliquid ens ex se necessarium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">61v</folio>
+            <folio>62r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2155" alias="qdc3d3-l5q11">
+        <fileName filestem="qdc3d3-d1e2155"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum continuum sit secundum se unum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">62r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2175" alias="qdc3d3-l5q12">
+        <fileName filestem="qdc3d3-d1e2175"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum natura specifica sit una realiter et actualiter extra animam distincta ab unitate numerali</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">62r</folio>
+            <folio>62v</folio>
+            <folio>63r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2201" alias="qdc3d3-l5q13">
+        <fileName filestem="qdc3d3-d1e2201"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum ens secundum se prima divisione dividatur in 10 praedicamenta</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">63r</folio>
+            <folio>63v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2224" alias="qdc3d3-l5q14">
+        <fileName filestem="qdc3d3-d1e2224"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum accidens sit ens secundum se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">63v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2244" alias="qdc3d3-l5q15">
+        <fileName filestem="qdc3d3-d1e2244"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum terminus concretus accidentalis significet primo formam vel subiectum vel aggregatum ex forma et subiecto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">63v</folio>
+            <folio>64v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2267" alias="qdc3d3-l5q16">
+        <fileName filestem="qdc3d3-d1e2267"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum substantia dicatur de composito forma et quidditate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">64v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2288" alias="qdc3d3-l5q17">
+        <fileName filestem="qdc3d3-d1e2288"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum identitas qua aliquid dicitur idem sibi sit relatio</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">64v</folio>
+            <folio>65r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2311" alias="qdc3d3-l5q18">
+        <fileName filestem="qdc3d3-d1e2311"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum in loco et tempore sit dare prius et posterius</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">65r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2331" alias="qdc3d3-l5q19">
+        <fileName filestem="qdc3d3-d1e2331"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum motus sit quantitas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">65r</folio>
+            <folio>65v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2354" alias="qdc3d3-l5q20">
+        <fileName filestem="qdc3d3-d1e2354"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum quantitas per se sit divisibilis in partes eiusdem rationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">65v</folio>
+            <folio>66r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2377" alias="qdc3d3-l5q21">
+        <fileName filestem="qdc3d3-d1e2377"/>
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum differentia substantie sit qualitas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">66r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2397" alias="qdc3d3-l5q22">
+        <fileName filestem="qdc3d3-d1e2397"/>
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum bis tria sint sex</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2424" alias="qdc3d3-l5q23">
+        <fileName filestem="qdc3d3-d1e2424"/>
+        <title>Quaestio 23</title>
+        <questionTitle>Utrum relatio sit ens reale</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">67r</folio>
+            <folio>67v</folio>
+            <folio>68r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2450" alias="qdc3d3-l5q24">
+        <fileName filestem="qdc3d3-d1e2450"/>
+        <title>Quaestio 24</title>
+        <questionTitle>Utrum relatio realiter distinguatur a fundamento suo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">68r</folio>
+            <folio>68v</folio>
+            <folio>69r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2476" alias="qdc3d3-l5q25">
+        <fileName filestem="qdc3d3-d1e2476"/>
+        <title>Quaestio 25</title>
+        <questionTitle>Utrum relatio sit unum predicamentum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2505" alias="qdc3d3-l5q26">
+        <fileName filestem="qdc3d3-d1e2505"/>
+        <title>Quaestio 26</title>
+        <questionTitle>Utrum scientia et scibile referantur una relatione numero vel diversis relationibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">70v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2525" alias="qdc3d3-l5q27">
+        <fileName filestem="qdc3d3-d1e2525"/>
+        <title>Quaestio 27</title>
+        <questionTitle>Utrum intellectus referatur ad illud cuius est intellectus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2551" alias="qdc3d3-l5q28">
+        <fileName filestem="qdc3d3-d1e2551"/>
+        <title>Quaestio 28</title>
+        <questionTitle>Utrum perfectiones omnium entium sint in Deo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">71v</folio>
+            <folio>71r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2575" alias="qdc3d3-l5q29">
+        <fileName filestem="qdc3d3-d1e2575"/>
+        <title>Quaestio 29</title>
+        <questionTitle>Utrum diffinitio vel partes diffinitionis predicentur per se de diffinito</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">72r</folio>
+            <folio>72v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2598" alias="qdc3d3-l5q30">
+        <fileName filestem="qdc3d3-d1e2598"/>
+        <title>Quaestio 30</title>
+        <questionTitle>Utrum ista sit per se: callias est homo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">72v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2618" alias="qdc3d3-l5q31">
+        <fileName filestem="qdc3d3-d1e2618"/>
+        <title>Quaestio 31</title>
+        <questionTitle>Utrum accidens per se predicetur de subiecto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">72v</folio>
+            <folio>73r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2641" alias="qdc3d3-l5q32">
+        <fileName filestem="qdc3d3-d1e2641"/>
+        <title>Quaestio 32</title>
+        <questionTitle>Utrum ista 'homo est homo' sit per se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">73r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2661" alias="qdc3d3-l5q33">
+        <fileName filestem="qdc3d3-d1e2661"/>
+        <title>Quaestio 33</title>
+        <questionTitle>Utrum positio sit ordo habentis partes</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">73r</folio>
+            <folio>73v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2684" alias="qdc3d3-l5q34">
+        <fileName filestem="qdc3d3-d1e2684"/>
+        <title>Quaestio 34</title>
+        <questionTitle>Utrum species realiter sit composito ex genere et differentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">73v</folio>
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2721" alias="qdc3d3-l5q35">
+        <fileName filestem="qdc3d3-d1e2721"/>
+        <title>Quaestio 35</title>
+        <questionTitle>Utrum conceptus speciei sit realiter compositus ex conceptu generis et differentie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">76r</folio>
+            <folio>76v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2744" alias="qdc3d3-l5q36">
+        <fileName filestem="qdc3d3-d1e2744"/>
+        <title>Quaestio 36</title>
+        <questionTitle>Utrum accidentia eiusdem speciei diversa numero possint esse simul in eodem subiecto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">76v</folio>
+            <folio>77r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2767" alias="qdc3d3-l5q37">
+        <fileName filestem="qdc3d3-d1e2767"/>
+        <title>Quaestio 37</title>
+        <questionTitle>Utrum cuilibet potentie active correspondeat potentia passiva et econtra</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">77r</folio>
+            <folio>77v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2790" alias="qdc3d3-l5q38">
+        <fileName filestem="qdc3d3-d1e2790"/>
+        <title>Quaestio 38</title>
+        <questionTitle>Utrum actus et potentia sint in quolibet predicamento</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">77v</folio>
+            <folio>78r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e2815" alias="qdc3d3-l6" type="met-liber6">
+      <head>Liber 6</head>
+      <item id="qdc3d3-d1e2820" alias="qdc3d3-l6q1">
+        <fileName filestem="qdc3d3-d1e2820"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum aliqua specialis scientia habeat facere rationem de quod quid est subiecti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">78v</folio>
+            <folio>79r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2843" alias="qdc3d3-l6q2">
+        <fileName filestem="qdc3d3-d1e2843"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum practictum et speculativum sint essentiales differentie habitus intellectivi et philosophie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">79r</folio>
+            <folio>79v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2866" alias="qdc3d3-l6q3">
+        <fileName filestem="qdc3d3-d1e2866"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum divisio scientie immo philosophiae speculativae in naturalem mathematicam et divinam sit sufficiens</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">79v</folio>
+            <folio>80r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2889" alias="qdc3d3-l6q4">
+        <fileName filestem="qdc3d3-d1e2889"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum philosophia speculativa sit genus ad naturalem scientiam divinam et mathematicam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">80r</folio>
+            <folio>80v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2913" alias="qdc3d3-l6q5">
+        <fileName filestem="qdc3d3-d1e2913"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum logica sit speculativa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">80v</folio>
+            <folio>81r</folio>
+            <folio>81v</folio>
+            <folio>82r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2942" alias="qdc3d3-l6q6">
+        <fileName filestem="qdc3d3-d1e2942"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum de ente per accidens possit esse scientia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">82r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2962" alias="qdc3d3-l6q7">
+        <fileName filestem="qdc3d3-d1e2962"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum per accidens causetur ab agente ut in pluribus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">82r</folio>
+            <folio>82v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e2985" alias="qdc3d3-l6q8">
+        <fileName filestem="qdc3d3-d1e2985"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum omnia de necessitate eveniant</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">82v</folio>
+            <folio>83r</folio>
+            <folio>83v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3011" alias="qdc3d3-l6q9">
+        <fileName filestem="qdc3d3-d1e3011"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum entia rationis sunt in predicamento</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">83v</folio>
+            <folio>84r</folio>
+            <folio>84v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3037" alias="qdc3d3-l6q10">
+        <fileName filestem="qdc3d3-d1e3037"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum preter differentiam realem et preter differentiam rationis sit aliqua alia differentia vel diversitas tertia que nec sit differentia realis nec rationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">84v</folio>
+            <folio>85r</folio>
+            <folio>85v</folio>
+            <folio>86r</folio>
+            <folio>86v</folio>
+            <folio>87r</folio>
+            <folio>87v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e3077" alias="qdc3d3-l7" type="met-liber7">
+      <head>Liber 7</head>
+      <item id="qdc3d3-d1e3082" alias="qdc3d3-l7q1">
+        <fileName filestem="qdc3d3-d1e3082"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum inherentia accidentis sit essentia eius</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">87v</folio>
+            <folio>88r</folio>
+            <folio>88v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3108" alias="qdc3d3-l7q2">
+        <fileName filestem="qdc3d3-d1e3108"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum hoc verum est possit predicari de accidente in abstracto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">88v</folio>
+            <folio>89r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3131" alias="qdc3d3-l7q3">
+        <fileName filestem="qdc3d3-d1e3131"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum substantia sit prior accidente notitia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">89r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3151" alias="qdc3d3-l7q4">
+        <fileName filestem="qdc3d3-d1e3151"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum substantia precedat accidentia diffinitione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">89r</folio>
+            <folio>89v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3175" alias="qdc3d3-l7q5">
+        <fileName filestem="qdc3d3-d1e3175"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum substantia precedat accidens tempore</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">89v</folio>
+            <folio>90r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3198" alias="qdc3d3-l7q6">
+        <fileName filestem="qdc3d3-d1e3198"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum materia distinguatur essentialiter ab actu et privatione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">90r</folio>
+            <folio>90v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3221" alias="qdc3d3-l7q7">
+        <fileName filestem="qdc3d3-d1e3221"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum per substantias sensibiles possumus devenire in cognitionem substantiarum abstractarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">91r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3241" alias="qdc3d3-l7q8">
+        <fileName filestem="qdc3d3-d1e3241"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum ad quod quid est substantie pertineat accidens</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">91r</folio>
+            <folio>91v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3264" alias="qdc3d3-l7q9">
+        <fileName filestem="qdc3d3-d1e3264"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum accidens habeat quod quid est vel diffinitionem abstractam ita quod non diffiniatur ex additione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">91v</folio>
+            <folio>92r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3287" alias="qdc3d3-l7q10">
+        <fileName filestem="qdc3d3-d1e3287"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum dicendo nasus simus sit nugatio</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">92r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3308" alias="qdc3d3-l7q11">
+        <fileName filestem="qdc3d3-d1e3308"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum quod quid est in compositis sit idem cum eo cuius est</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">92r</folio>
+            <folio>92v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3331" alias="qdc3d3-l7q12">
+        <fileName filestem="qdc3d3-d1e3331"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Consequenter quia suppositum fuit in precedenti questione quod forma sit tota quidditas rei et materia non sit pars quidditatis substantie composite: utrum hoc sit verum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">92v</folio>
+            <folio>93r</folio>
+            <folio>93v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3357" alias="qdc3d3-l7q13">
+        <fileName filestem="qdc3d3-d1e3357"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum animalia generata per putrefactionem possint fieri a casu</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">93v</folio>
+            <folio>94r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3380" alias="qdc3d3-l7q14">
+        <fileName filestem="qdc3d3-d1e3380"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum animalia omnia que fiunt ex semine possint etiam fieri sine semine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">94r</folio>
+            <folio>94v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3403" alias="qdc3d3-l7q15">
+        <fileName filestem="qdc3d3-d1e3403"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum animalia generata cum semine et sine semine sint eiusdem speciei atome sicut mures generati ex semine et sine semine, et hoc si generentur sine semine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">94v</folio>
+            <folio>95r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3426" alias="qdc3d3-l7q16">
+        <fileName filestem="qdc3d3-d1e3426"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum forma vel compositum primo et per se sit terminus generationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3453" alias="qdc3d3-l7q17">
+        <fileName filestem="qdc3d3-d1e3453"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Quid sit principium individuationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+            <folio>100r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3498" alias="qdc3d3-l7q18">
+        <fileName filestem="qdc3d3-d1e3498"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum ante generationem rei naturalis, ut ignis vel alterius, oporteat preexistere aliquam partem forme ignis quam formam alique vocant inchoationem forme, alique rationem seminalem que facit ad hoc quod res fiat</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">100r</folio>
+            <folio>100v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3521" alias="qdc3d3-l7q19">
+        <fileName filestem="qdc3d3-d1e3521"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum motus sit generativus caloris</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">100v</folio>
+            <folio>101r</folio>
+            <folio>101v</folio>
+            <folio>102r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3550" alias="qdc3d3-l7q20">
+        <fileName filestem="qdc3d3-d1e3550"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum diffinitio sit ratio habens partem et partem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">102r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3570" alias="qdc3d3-l7q21">
+        <fileName filestem="qdc3d3-d1e3570"/>
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum partes sint priores toto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">102r</folio>
+            <folio>102v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3593" alias="qdc3d3-l7q22">
+        <fileName filestem="qdc3d3-d1e3593"/>
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum genus significet unam naturam vel suas species</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">102v</folio>
+            <folio>103r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3617" alias="qdc3d3-l7q23">
+        <fileName filestem="qdc3d3-d1e3617"/>
+        <title>Quaestio 23</title>
+        <questionTitle>Utrum ex partibus diffinitionis sicut ex genere et differentia fiat unum per se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">103r</folio>
+            <folio>103v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3640" alias="qdc3d3-l7q24">
+        <fileName filestem="qdc3d3-d1e3640"/>
+        <title>Quaestio 24</title>
+        <questionTitle>Utrum universalia realiter sint separata a singularibus, sensibilibus, et corruptibilibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">103v</folio>
+            <folio>104r</folio>
+            <folio>104v</folio>
+            <folio>105r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3669" alias="qdc3d3-l7q25">
+        <fileName filestem="qdc3d3-d1e3669"/>
+        <title>Quaestio 25</title>
+        <questionTitle>Utrum universale sit substantia vel accidens</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">105r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3689" alias="qdc3d3-l7q26">
+        <fileName filestem="qdc3d3-d1e3689"/>
+        <title>Quaestio 26</title>
+        <questionTitle>Utrum singularium proprie sit diffinitio</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">105r</folio>
+            <folio>105v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3712" alias="qdc3d3-l7q27">
+        <fileName filestem="qdc3d3-d1e3712"/>
+        <title>Quaestio 27</title>
+        <questionTitle>Utrum questio propter quid habeat locum circa substantiam querendo propter quid est homo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">105v</folio>
+            <folio>106r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3735" alias="qdc3d3-l7q28">
+        <fileName filestem="qdc3d3-d1e3735"/>
+        <title>Quaestio 28</title>
+        <questionTitle>Utrum substantia composita sit aliud realiter a materia et forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">106r</folio>
+            <folio>106v</folio>
+            <folio>107r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e3762" alias="qdc3d3-l8" type="met-liber8">
+      <head>Liber 8</head>
+      <item id="qdc3d3-d1e3767" alias="qdc3d3-l8q1">
+        <fileName filestem="qdc3d3-d1e3767"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum materia sit separabilis secundum esse a forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">107r</folio>
+            <folio>107v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3790" alias="qdc3d3-l8q2">
+        <fileName filestem="qdc3d3-d1e3790"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum forma naturalis sit separabilis a materia secundum esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">107v</folio>
+            <folio>108r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3813" alias="qdc3d3-l8q3">
+        <fileName filestem="qdc3d3-d1e3813"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum nomen speciei significet formam per prius vel substantiam compositam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">108r</folio>
+            <folio>108v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3836" alias="qdc3d3-l8q4">
+        <fileName filestem="qdc3d3-d1e3836"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum numeri differant specie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">108v</folio>
+            <folio>109r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3860" alias="qdc3d3-l8q5">
+        <fileName filestem="qdc3d3-d1e3860"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum forma substantialis suscipiat magis et minus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">109r</folio>
+            <folio>109v</folio>
+            <folio>110r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3886" alias="qdc3d3-l8q6">
+        <fileName filestem="qdc3d3-d1e3886"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Questio 6 habetur 1 Physicorum disputata a doctores, ideo hic omittitur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">110r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3906" alias="qdc3d3-l8q7">
+        <fileName filestem="qdc3d3-d1e3906"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum celum sit compositum ex materia et forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">110r</folio>
+            <folio>110v</folio>
+            <folio>111r</folio>
+            <folio>111v</folio>
+            <folio>112r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3938" alias="qdc3d3-l8q8">
+        <fileName filestem="qdc3d3-d1e3938"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum accidentia habeant materiam ex qua fiant</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">112r</folio>
+            <folio>112v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3961" alias="qdc3d3-l8q9">
+        <fileName filestem="qdc3d3-d1e3961"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum immediate ex aceto possit fieri vinum et ex mortuo vivum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">112v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e3981" alias="qdc3d3-l8q10">
+        <fileName filestem="qdc3d3-d1e3981"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum ex materia et forma fiat unum per se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">112v</folio>
+            <folio>113r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e4005" alias="qdc3d3-l9" type="met-liber9">
+      <head>Liber 9</head>
+      <item id="qdc3d3-d1e4010" alias="qdc3d3-l9q1">
+        <fileName filestem="qdc3d3-d1e4010"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum potentia activa et passiva sint in diversis subiectis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">113r</folio>
+            <folio>113v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4033" alias="qdc3d3-l9q2">
+        <fileName filestem="qdc3d3-d1e4033"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum una scientia sive potentia sit duorum contrariorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">113v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4053" alias="qdc3d3-l9q3">
+        <fileName filestem="qdc3d3-d1e4053"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum potentia activa precedat actum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">113v</folio>
+            <folio>114r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4076" alias="qdc3d3-l9q4">
+        <fileName filestem="qdc3d3-d1e4076"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum diffinitio possibilis sit bene data</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">114r</folio>
+            <folio>114v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4100" alias="qdc3d3-l9q5">
+        <fileName filestem="qdc3d3-d1e4100"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum aliquid possit possibile in rerum natura quod nunquam erit</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">114v</folio>
+            <folio>115r</folio>
+            <folio>115v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4126" alias="qdc3d3-l9q6">
+        <fileName filestem="qdc3d3-d1e4126"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum potentia rationalis que est ad opposita determinetur ad unum per voluntatem et proheresim</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">115v</folio>
+            <folio>116r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4149" alias="qdc3d3-l9q7">
+        <fileName filestem="qdc3d3-d1e4149"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum materia prima vel illa materia que transmutatur ad formam multis transmutationibus sit in potentia ad formam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">116r</folio>
+            <folio>116v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4172" alias="qdc3d3-l9q8">
+        <fileName filestem="qdc3d3-d1e4172"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum potentia precedat actum secundum rationem et cognitionem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">116v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4192" alias="qdc3d3-l9q9">
+        <fileName filestem="qdc3d3-d1e4192"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum actus sit prior potentia tempore</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">116v</folio>
+            <folio>117r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4215" alias="qdc3d3-l9q10">
+        <fileName filestem="qdc3d3-d1e4215"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum actus prior sit potentia secundum perfectionem et dignitatem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">117r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4236" alias="qdc3d3-l9q11">
+        <fileName filestem="qdc3d3-d1e4236"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum aliqua actio sit immanens in agente</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">117r</folio>
+            <folio>117v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4259" alias="qdc3d3-l9q12">
+        <fileName filestem="qdc3d3-d1e4259"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum malum sit in re</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">117v</folio>
+            <folio>118r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4282" alias="qdc3d3-l9q13">
+        <fileName filestem="qdc3d3-d1e4282"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum aliqua potentia sit melior actu</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">118r</folio>
+            <folio>118v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4305" alias="qdc3d3-l9q14">
+        <fileName filestem="qdc3d3-d1e4305"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum veritati et falsitati intellectus correspondeat in re compositio vel divisio</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">118v</folio>
+            <folio>119r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4328" alias="qdc3d3-l9q15">
+        <fileName filestem="qdc3d3-d1e4328"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum deceptio contingat circa quod quidam est</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">119r</folio>
+            <folio>119v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e4352" alias="qdc3d3-l10" type="met-liber10">
+      <head>Liber 10</head>
+      <item id="qdc3d3-d1e4357" alias="qdc3d3-l10q1">
+        <fileName filestem="qdc3d3-d1e4357"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum uni quod est principium numeri debeatur ratio mensure</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">119v</folio>
+            <folio>120r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4380" alias="qdc3d3-l10q2">
+        <fileName filestem="qdc3d3-d1e4380"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum minimum in unoquoque genere sit mensura omnium illius generis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">120r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4400" alias="qdc3d3-l10q3">
+        <fileName filestem="qdc3d3-d1e4400"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum illud quod est mensura in aliquo genere sit principium et causa aliorum que sunt in illo genere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">120r</folio>
+            <folio>120v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4423" alias="qdc3d3-l10q4">
+        <fileName filestem="qdc3d3-d1e4423"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum scientia et sensus sint mensure rerum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">120v</folio>
+            <folio>121r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4447" alias="qdc3d3-l10q5">
+        <fileName filestem="qdc3d3-d1e4447"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum prima causa, sicut deus, sit mensura omnium in genere substantie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">121r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4467" alias="qdc3d3-l10q6">
+        <fileName filestem="qdc3d3-d1e4467"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum unum et multa opponantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">121r</folio>
+            <folio>121v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4490" alias="qdc3d3-l10q7">
+        <fileName filestem="qdc3d3-d1e4490"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum unum sit prius multitudine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">121v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4510" alias="qdc3d3-l10q8">
+        <fileName filestem="qdc3d3-d1e4510"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum omne ens comparatum omni enti sit idem vel diversum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">121v</folio>
+            <folio>122r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4533" alias="qdc3d3-l10q9">
+        <fileName filestem="qdc3d3-d1e4533"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum contrarietas sit maxima distantia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">122r</folio>
+            <folio>122v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4556" alias="qdc3d3-l10q10">
+        <fileName filestem="qdc3d3-d1e4556"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum unum sit contrarium uni</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">122v</folio>
+            <folio>123r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4580" alias="qdc3d3-l10q11">
+        <fileName filestem="qdc3d3-d1e4580"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum contraria habeant fieri circa idem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">123r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4600" alias="qdc3d3-l10q12">
+        <fileName filestem="qdc3d3-d1e4600"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum prima contrarietas sit privatio et habitus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">123r</folio>
+            <folio>123v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4623" alias="qdc3d3-l10q13">
+        <fileName filestem="qdc3d3-d1e4623"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum equale contrarietur parvo et magno</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">123v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4643" alias="qdc3d3-l10q14">
+        <fileName filestem="qdc3d3-d1e4643"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum unum sit paucum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">123v</folio>
+            <folio>124r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4666" alias="qdc3d3-l10q15">
+        <fileName filestem="qdc3d3-d1e4666"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum multitudo sit in plus quam numerus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">124r</folio>
+            <folio>124v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4689" alias="qdc3d3-l10q16">
+        <fileName filestem="qdc3d3-d1e4689"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum media sint in eodem genere cum extremis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">124v</folio>
+            <folio>125r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4713" alias="qdc3d3-l10q17">
+        <fileName filestem="qdc3d3-d1e4713"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum omnium oppositorum sint media</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">125r</folio>
+            <folio>125v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4736" alias="qdc3d3-l10q18">
+        <fileName filestem="qdc3d3-d1e4736"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum media secundum formam, ut pallidum et rubeum, componantur ex extremis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">125v</folio>
+            <folio>126r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4759" alias="qdc3d3-l10q19">
+        <fileName filestem="qdc3d3-d1e4759"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum contrarietas sit inter species alicuius generis ita quod diverse species sint contrarie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">126r</folio>
+            <folio>126v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4782" alias="qdc3d3-l10q20">
+        <fileName filestem="qdc3d3-d1e4782"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum genus et species generis sint eadem vel diversa specie et posset specificari ad genus generalissimum et speciem specialissimam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">126v</folio>
+            <folio>127r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4805" alias="qdc3d3-l10q21">
+        <fileName filestem="qdc3d3-d1e4805"/>
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum omnis contrarietas faciat diversitatem in specie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">127r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4825" alias="qdc3d3-l10q22">
+        <fileName filestem="qdc3d3-d1e4825"/>
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum corruptibile et incorruptibile differant genere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="qdc3d3-d1e4852" alias="qdc3d3-l12" type="met-liber12">
+      <head>Liber 12</head> <!-- don't know why it jumps to 12 from 10 -->
+      <item id="qdc3d3-d1e4859" alias="qdc3d3-l12q1">
+        <fileName filestem="qdc3d3-d1e4859"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum metaphysica consideret substantiam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">128r</folio>
+            <folio>128v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4882" alias="qdc3d3-l12q2">
+        <fileName filestem="qdc3d3-d1e4882"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum substantia sensibilis sit de consideratione metaphysice</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">128v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4902" alias="qdc3d3-l12q3">
+        <fileName filestem="qdc3d3-d1e4902"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum naturalis habeat probare substantias abstractas esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4929" alias="qdc3d3-l12q4">
+        <fileName filestem="qdc3d3-d1e4929"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum intellectus possit manere semper corrupto homine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">129v</folio>
+            <folio>130r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4952" alias="qdc3d3-l12q5">
+        <fileName filestem="qdc3d3-d1e4952"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum omnium sit unum principium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">130r</folio>
+            <folio>130v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4975" alias="qdc3d3-l12q6">
+        <fileName filestem="qdc3d3-d1e4975"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum necessarium sit ponere aliquam substantiam sempiternam efficientem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">130v</folio>
+            <folio>131r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e4998" alias="qdc3d3-l12q7">
+        <fileName filestem="qdc3d3-d1e4998"/>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum substantia eterna prima sit semper movens et operans</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">131r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5018" alias="qdc3d3-l12q8">
+        <fileName filestem="qdc3d3-d1e5018"/>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum prima substantia sit in potentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">131r</folio>
+            <folio>131v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5041" alias="qdc3d3-l12q9">
+        <fileName filestem="qdc3d3-d1e5041"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum prima substantia sit omnino immaterialis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">131v</folio>
+            <folio>132r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5065" alias="qdc3d3-l12q10">
+        <fileName filestem="qdc3d3-d1e5065"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum prima substantia sit immobilis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">132r</folio>
+            <folio>132v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5088" alias="qdc3d3-l12q11">
+        <fileName filestem="qdc3d3-d1e5088"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum primum movens moveat per modum appetibilis sive finis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">132v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5108" alias="qdc3d3-l12q12">
+        <fileName filestem="qdc3d3-d1e5108"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum celum sit animatum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5137" alias="qdc3d3-l12q13">
+        <fileName filestem="qdc3d3-d1e5137"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum intelligentia movens orbem sit coniuncta orbi secundum esse ut forma substantialis sue materie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">134r</folio>
+            <folio>134v</folio>
+            <folio>135r</folio>
+            <folio>135v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5166" alias="qdc3d3-l12q14">
+        <fileName filestem="qdc3d3-d1e5166"/>
+        <title>Quaestio 14</title>
+        <questionTitle>Utrum in primo principio sit delectatio et vita</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">135v</folio>
+            <folio>136r</folio>
+            <folio>136v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5192" alias="qdc3d3-l12q15">
+        <fileName filestem="qdc3d3-d1e5192"/>
+        <title>Quaestio 15</title>
+        <questionTitle>Utrum primum principium sit infiniti vigoris intensive</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">136v</folio>
+            <folio>137r</folio>
+            <folio>137v</folio>
+            <folio>138r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5222" alias="qdc3d3-l12q16">
+        <fileName filestem="qdc3d3-d1e5222"/>
+        <title>Quaestio 16</title>
+        <questionTitle>Utrum virtus infinita possit esse in magnitudine finita</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">138r</folio>
+            <folio>138v</folio>
+            <folio>139r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5248" alias="qdc3d3-l12q17">
+        <fileName filestem="qdc3d3-d1e5248"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum primum movens moveat immediate primum mobile</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">139r</folio>
+            <folio>139v</folio>
+            <folio>140r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5274" alias="qdc3d3-l12q18">
+        <fileName filestem="qdc3d3-d1e5274"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum primum principium sit summe simplex</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">140r</folio>
+            <folio>140v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5297" alias="qdc3d3-l12q19">
+        <fileName filestem="qdc3d3-d1e5297"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum motores corporum celestium sint ordinati secundum ordinem corporum celestium in magnitudine et in loco</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">140v</folio>
+            <folio>141r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5320" alias="qdc3d3-l12q20">
+        <fileName filestem="qdc3d3-d1e5320"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum ecentrici orbes et epicycli sint plures in corporibus celestibus secundum naturam rei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">141r</folio>
+            <folio>141v</folio>
+            <folio>142r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5346" alias="qdc3d3-l12q21">
+        <fileName filestem="qdc3d3-d1e5346"/>
+        <title>Quaestio 21</title>
+        <questionTitle>Utrum deus intelligat aliquid aliud a se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="a">142r</folio>
+            <folio>142v</folio>
+            <folio>143r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="qdc3d3-d1e5373" alias="qdc3d3-l12q22">
+        <fileName filestem="qdc3d3-d1e5373"/>
+        <title>Quaestio 22</title>
+        <questionTitle>Utrum in toto universo sit unus deus et non plures</questionTitle>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio c="b">143r</folio>
+            <folio>143v</folio>
+            <folio>144r</folio>
+            <folio>144v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
