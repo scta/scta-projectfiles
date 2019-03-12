@@ -1,0 +1,2387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Justian I</authorName>
+    <commentaryName>Digest</commentaryName>
+    <commentaryid>bgy6gt</commentaryid>
+    <commentaryslug>bgy6gt</commentaryslug>
+    <alias>justinianDigest</alias>
+    <authorUri>http://scta.info/resource/JustinianI</authorUri>
+    <parentUri>http://scta.info/resource/bgy6gt</parentUri>
+    <parentWorkGroup>http://scta.info/resource/civillaw</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/bgy6gt/</textfilesdir>
+    <questionListSource>Mommsen's edition, Berlin, 1954</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!-- 1904 English translation v. 1, https://archive.org/details/digestofjustinia01monruoft
+        v. 2 https://archive.org/details/digestofjustinia02monruoft/page/428
+        
+        https://archive.org/details/praelectionesjur01hube/page/n8
+        
+        see also: http://www.thelatinlibrary.com/justinian.html
+        
+        see also: https://droitromain.univ-grenoble-alpes.fr/
+      -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="bgy6gt-d1e54" alias="bgy6gt-l1">
+      <head>Liber 1</head>
+      <item id="bgy6gt-d1e59" alias="bgy6gt-l1t1">
+        <fileName filestem="bgy6gt-d1e59"/>
+        <title>Titulus 1</title>
+        <questionTitle>De iustitia et iure</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e70" alias="bgy6gt-l1t2">
+        <fileName filestem="bgy6gt-d1e70"/>
+        <title>Titulus 2</title>
+        <questionTitle>De origine iuris et omnium magistratuum et successione
+          prudentium</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e81" alias="bgy6gt-l1t3">
+        <fileName filestem="bgy6gt-d1e81"/>
+        <title>Titulus 3</title>
+        <questionTitle>De legibus senatusque consultis et longa consuetudine</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e92" alias="bgy6gt-l1t4">
+        <fileName filestem="bgy6gt-d1e92"/>
+        <title>Titulus 4</title>
+        <questionTitle>De constitutionibus principum</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e104" alias="bgy6gt-l1t5">
+        <fileName filestem="bgy6gt-d1e104"/>
+        <title>Titulus 5</title>
+        <questionTitle>De statu hominum</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e115" alias="bgy6gt-l1t6">
+        <fileName filestem="bgy6gt-d1e115"/>
+        <title>Titulus 6</title>
+        <questionTitle>De his qui sui vel alieni iuris sunt</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e126" alias="bgy6gt-l1t7">
+        <fileName filestem="bgy6gt-d1e126"/>
+        <title>Titulus 7</title>
+        <questionTitle>De adoptionibus et emancipationibus et aliis modis quibus potestas
+          solvitur</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e137" alias="bgy6gt-l1t8">
+        <fileName filestem="bgy6gt-d1e137"/>
+        <title>Titulus 8</title>
+        <questionTitle>De divisione rerum et qualitate</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e148" alias="bgy6gt-l1t9">
+        <fileName filestem="bgy6gt-d1e148"/>
+        <title>Titulus 9</title>
+        <questionTitle>De senatoribus</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e159" alias="bgy6gt-l1t10">
+        <fileName filestem="bgy6gt-d1e159"/>
+        <title>Titulus 10</title>
+        <questionTitle>De officio consulis</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e171" alias="bgy6gt-l1t11">
+        <fileName filestem="bgy6gt-d1e171"/>
+        <title>Titulus 11</title>
+        <questionTitle>De officio praefecti praetorio</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e182" alias="bgy6gt-l1t12">
+        <fileName filestem="bgy6gt-d1e182"/>
+        <title>Titulus 12</title>
+        <questionTitle>De officio praefecti urbi</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e193" alias="bgy6gt-l1t13">
+        <fileName filestem="bgy6gt-d1e193"/>
+        <title>Titulus 13</title>
+        <questionTitle>De officio quaestoris</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e204" alias="bgy6gt-l1t14">
+        <fileName filestem="bgy6gt-d1e204"/>
+        <title>Titulus 14</title>
+        <questionTitle>De officio praetorum</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e215" alias="bgy6gt-l1t15">
+        <fileName filestem="bgy6gt-d1e215"/>
+        <title>Titulus 15</title>
+        <questionTitle>De officio praefecti vigilum</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e226" alias="bgy6gt-l1t16">
+        <fileName filestem="bgy6gt-d1e226"/>
+        <title>Titulus 16</title>
+        <questionTitle>De officio proconsulis et legati</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e238" alias="bgy6gt-l1t17">
+        <fileName filestem="bgy6gt-d1e238"/>
+        <title>Titulus 17</title>
+        <questionTitle>De officio praefecti Augustalis</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e249" alias="bgy6gt-l1t18">
+        <fileName filestem="bgy6gt-d1e249"/>
+        <title>Titulus 18</title>
+        <questionTitle>De officio praesidis</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e260" alias="bgy6gt-l1t19">
+        <fileName filestem="bgy6gt-d1e260"/>
+        <title>Titulus 19</title>
+        <questionTitle>De officio procuratoris Caesaris vel rationalis</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e271" alias="bgy6gt-l1t20">
+        <fileName filestem="bgy6gt-d1e271"/>
+        <title>Titulus 20</title>
+        <questionTitle>De officio iuridici</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e282" alias="bgy6gt-l1t21">
+        <fileName filestem="bgy6gt-d1e282"/>
+        <title>Titulus 21</title>
+        <questionTitle>De officio eius, cui mandata est iurisdictio</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e293" alias="bgy6gt-l1t22">
+        <fileName filestem="bgy6gt-d1e293"/>
+        <title>Titulus 22</title>
+        <questionTitle>De officio adsessorum</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e305" alias="bgy6gt-l2">
+      <head>Liber 2</head>
+      <item id="bgy6gt-d1e310" alias="bgy6gt-l2t1">
+        <fileName filestem="bgy6gt-d1e310"/>
+        <title>Titulus 1</title>
+        <questionTitle>De iurisdictione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e321" alias="bgy6gt-l2t2">
+        <fileName filestem="bgy6gt-d1e321"/>
+        <title>Titulus 2</title>
+        <questionTitle>Quod quisque iuris in alterum statuerit, ut ipse eodem iure
+          utatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e332" alias="bgy6gt-l2t3">
+        <fileName filestem="bgy6gt-d1e332"/>
+        <title>Titulus 3</title>
+        <questionTitle>Si quis ius dicenti non obtemperaverit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e343" alias="bgy6gt-l2t4">
+        <fileName filestem="bgy6gt-d1e343"/>
+        <title>Titulus 4</title>
+        <questionTitle>De in ius vocando.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e355" alias="bgy6gt-l2t5">
+        <fileName filestem="bgy6gt-d1e355"/>
+        <title>Titulus 5</title>
+        <questionTitle>Si quis in ius vocatus non ierit sive quis eum vocaverit, quem ex edicto non
+          debuerit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e366" alias="bgy6gt-l2t6">
+        <fileName filestem="bgy6gt-d1e366"/>
+        <title>Titulus 6</title>
+        <questionTitle>In ius vocati ut eant aut satis vel cautum dent.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e377" alias="bgy6gt-l2t7">
+        <fileName filestem="bgy6gt-d1e377"/>
+        <title>Titulus 7</title>
+        <questionTitle>Ne quis eum qui in ius vocabitur vi eximat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e388" alias="bgy6gt-l2t8">
+        <fileName filestem="bgy6gt-d1e388"/>
+        <title>Titulus 8</title>
+        <questionTitle>Qui satisdare cogantur vel iurato promittant vel suae promissioni
+          committantur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e399" alias="bgy6gt-l2t9">
+        <fileName filestem="bgy6gt-d1e399"/>
+        <title>Titulus 9</title>
+        <questionTitle>Si ex noxali causa agatur, quemadmodum caveatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e410" alias="bgy6gt-l2t10">
+        <fileName filestem="bgy6gt-d1e410"/>
+        <title>Titulus 10</title>
+        <questionTitle>De eo per quem factum erit quominus quis in iudicio sistat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e422" alias="bgy6gt-l2t11">
+        <fileName filestem="bgy6gt-d1e422"/>
+        <title>Titulus 11</title>
+        <questionTitle>Si quis cautionibus in iudicio sistendi causa factis non
+          obtemperaverit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e433" alias="bgy6gt-l2t12">
+        <fileName filestem="bgy6gt-d1e433"/>
+        <title>Titulus 12</title>
+        <questionTitle>De feriis et dilationibus et diversis temporibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e444" alias="bgy6gt-l2t13">
+        <fileName filestem="bgy6gt-d1e444"/>
+        <title>Titulus 13</title>
+        <questionTitle>De edendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e455" alias="bgy6gt-l2t14">
+        <fileName filestem="bgy6gt-d1e455"/>
+        <title>Titulus 14</title>
+        <questionTitle>De pactis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e466" alias="bgy6gt-l2t15">
+        <fileName filestem="bgy6gt-d1e466"/>
+        <title>Titulus 15</title>
+        <questionTitle>De transactionibus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e478" alias="bgy6gt-l3">
+      <head>Liber 3</head>
+      <item id="bgy6gt-d1e483" alias="bgy6gt-l3t1">
+        <fileName filestem="bgy6gt-d1e483"/>
+        <title>Titulus 1</title>
+        <questionTitle>De postulando.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e494" alias="bgy6gt-l3t2">
+        <fileName filestem="bgy6gt-d1e494"/>
+        <title>Titulus 2</title>
+        <questionTitle>De his qui notantur infamia.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e505" alias="bgy6gt-l3t3">
+        <fileName filestem="bgy6gt-d1e505"/>
+        <title>Titulus 3</title>
+        <questionTitle>De procuratoribus et defensoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e516" alias="bgy6gt-l3t4">
+        <fileName filestem="bgy6gt-d1e516"/>
+        <title>Titulus 4</title>
+        <questionTitle>Quod cuiuscumque universitatis nomine vel contra eam agatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e528" alias="bgy6gt-l3t5">
+        <fileName filestem="bgy6gt-d1e528"/>
+        <title>Titulus 5</title>
+        <questionTitle>De negotiis gestis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e539" alias="bgy6gt-l3t6">
+        <fileName filestem="bgy6gt-d1e539"/>
+        <title>Titulus 6</title>
+        <questionTitle>De calumniatoribus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e551" alias="bgy6gt-l4">
+      <head>Liber 4</head>
+      <item id="bgy6gt-d1e556" alias="bgy6gt-l4t1">
+        <fileName filestem="bgy6gt-d1e556"/>
+        <title>Titulus 1</title>
+        <questionTitle>De in integrum restitutionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e567" alias="bgy6gt-l4t2">
+        <fileName filestem="bgy6gt-d1e567"/>
+        <title>Titulus 2</title>
+        <questionTitle>Quod metus causa gestum erit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e578" alias="bgy6gt-l4t3">
+        <fileName filestem="bgy6gt-d1e578"/>
+        <title>Titulus 3</title>
+        <questionTitle>De dolo malo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e589" alias="bgy6gt-l4t4">
+        <fileName filestem="bgy6gt-d1e589"/>
+        <title>Titulus 4</title>
+        <questionTitle>De minoribus viginti quinque annis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e601" alias="bgy6gt-l4t5">
+        <fileName filestem="bgy6gt-d1e601"/>
+        <title>Titulus 5</title>
+        <questionTitle>De capite minutis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e612" alias="bgy6gt-l4t6">
+        <fileName filestem="bgy6gt-d1e612"/>
+        <title>Titulus 6</title>
+        <questionTitle>Ex quibus causis maiores viginti quinque annis in integrum
+          restituuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e623" alias="bgy6gt-l4t7">
+        <fileName filestem="bgy6gt-d1e623"/>
+        <title>Titulus 7</title>
+        <questionTitle>De alienatione iudicii mutandi causa facta.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e634" alias="bgy6gt-l4t8">
+        <fileName filestem="bgy6gt-d1e634"/>
+        <title>Titulus 8</title>
+        <questionTitle>De receptis: qui arbitrium receperint ut sententiam dicant.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e645" alias="bgy6gt-l4t9">
+        <fileName filestem="bgy6gt-d1e645"/>
+        <title>Titulus 9</title>
+        <questionTitle>Nautae caupones stabularii ut recepta restituant.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e657" alias="bgy6gt-l5">
+      <head>Liber 5</head>
+      <item id="bgy6gt-d1e662" alias="bgy6gt-l5t1">
+        <fileName filestem="bgy6gt-d1e662"/>
+        <title>Titulus 1</title>
+        <questionTitle>De iudiciis: ubi quisque agere vel conveniri debeat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e673" alias="bgy6gt-l5t2">
+        <fileName filestem="bgy6gt-d1e673"/>
+        <title>Titulus 2</title>
+        <questionTitle>De inofficioso testamento.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e684" alias="bgy6gt-l5t3">
+        <fileName filestem="bgy6gt-d1e684"/>
+        <title>Titulus 3</title>
+        <questionTitle>De hereditatis petitione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e695" alias="bgy6gt-l5t4">
+        <fileName filestem="bgy6gt-d1e695"/>
+        <title>Titulus 4</title>
+        <questionTitle>Si pars hereditatis petatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e707" alias="bgy6gt-l5t5">
+        <fileName filestem="bgy6gt-d1e707"/>
+        <title>Titulus 5</title>
+        <questionTitle>De possessoria hereditatis petitione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e718" alias="bgy6gt-l5t6">
+        <fileName filestem="bgy6gt-d1e718"/>
+        <title>Titulus 6</title>
+        <questionTitle>De fideicommissaria hereditatis petitione.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e731" alias="bgy6gt-l6">
+      <head>Liber 6</head>
+      <item id="bgy6gt-d1e736" alias="bgy6gt-l6t1">
+        <fileName filestem="bgy6gt-d1e736"/>
+        <title>Titulus 1</title>
+        <questionTitle>De rei vindicatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e747" alias="bgy6gt-l6t2">
+        <fileName filestem="bgy6gt-d1e747"/>
+        <title>Titulus 2</title>
+        <questionTitle>De publiciana in rem actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e758" alias="bgy6gt-l6t3">
+        <fileName filestem="bgy6gt-d1e758"/>
+        <title>Titulus 3</title>
+        <questionTitle>Si ager vectigalis, id est emphyteuticarius, petatur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e770" alias="bgy6gt-l7">
+      <head>Liber 7</head>
+      <item id="bgy6gt-d1e775" alias="bgy6gt-l7t1">
+        <fileName filestem="bgy6gt-d1e775"/>
+        <title>Titulus 1</title>
+        <questionTitle>De usu fructu et quemadmodum quis utatur fruatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e786" alias="bgy6gt-l7t2">
+        <fileName filestem="bgy6gt-d1e786"/>
+        <title>Titulus 2</title>
+        <questionTitle>De usu fructu adcrescendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e797" alias="bgy6gt-l7t3">
+        <fileName filestem="bgy6gt-d1e797"/>
+        <title>Titulus 3</title>
+        <questionTitle>Quando dies usus fructus legati cedat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e808" alias="bgy6gt-l7t4">
+        <fileName filestem="bgy6gt-d1e808"/>
+        <title>Titulus 4</title>
+        <questionTitle>Quibus modis usus fructus vel usus amittitur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e820" alias="bgy6gt-l7t5">
+        <fileName filestem="bgy6gt-d1e820"/>
+        <title>Titulus 5</title>
+        <questionTitle>De usu fructu earum rerum, quae usu consumuntur vel
+          minuuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e831" alias="bgy6gt-l7t6">
+        <fileName filestem="bgy6gt-d1e831"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si usus fructus petetur vel ad alium pertinere negetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e842" alias="bgy6gt-l7t7">
+        <fileName filestem="bgy6gt-d1e842"/>
+        <title>Titulus 7</title>
+        <questionTitle>De operis servorum</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e853" alias="bgy6gt-l7t8">
+        <fileName filestem="bgy6gt-d1e853"/>
+        <title>Titulus 8</title>
+        <questionTitle>De usu et habitatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e864" alias="bgy6gt-l7t9">
+        <fileName filestem="bgy6gt-d1e864"/>
+        <title>Titulus 9</title>
+        <questionTitle>Usufructuarius quemadmodum caveat.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e876" alias="bgy6gt-l8">
+      <head>Liber 8</head>
+      <item id="bgy6gt-d1e881" alias="bgy6gt-l8t1">
+        <fileName filestem="bgy6gt-d1e881"/>
+        <title>Titulus 1</title>
+        <questionTitle>De servitutibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e892" alias="bgy6gt-l8t2">
+        <fileName filestem="bgy6gt-d1e892"/>
+        <title>Titulus 2</title>
+        <questionTitle>De servitutibus praediorum urbanorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e903" alias="bgy6gt-l8t3">
+        <fileName filestem="bgy6gt-d1e903"/>
+        <title>Titulus 3</title>
+        <questionTitle>De servitutibus praediorum rusticorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e914" alias="bgy6gt-l8t4">
+        <fileName filestem="bgy6gt-d1e914"/>
+        <title>Titulus 4</title>
+        <questionTitle>Communia praediorum tam urbanorum quam rusticorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e926" alias="bgy6gt-l8t5">
+        <fileName filestem="bgy6gt-d1e926"/>
+        <title>Titulus 5</title>
+        <questionTitle>Si servitus vindicetur vel ad alium pertinere negetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e937" alias="bgy6gt-l8t6">
+        <fileName filestem="bgy6gt-d1e937"/>
+        <title>Titulus 6</title>
+        <questionTitle>Quemadmodum servitutes amittuntur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e949" alias="bgy6gt-l9">
+      <head>Liber 9</head>
+      <item id="bgy6gt-d1e954" alias="bgy6gt-l9t1">
+        <fileName filestem="bgy6gt-d1e954"/>
+        <title>Titulus 1</title>
+        <questionTitle>Si quadrupes pauperiem fecisse dicatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e965" alias="bgy6gt-l9t2">
+        <fileName filestem="bgy6gt-d1e965"/>
+        <title>Titulus 2</title>
+        <questionTitle>Ad legem Aquiliam.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e976" alias="bgy6gt-l9t3">
+        <fileName filestem="bgy6gt-d1e976"/>
+        <title>Titulus 3</title>
+        <questionTitle>De his, qui effuderint vel deiecerint.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e987" alias="bgy6gt-l9t4">
+        <fileName filestem="bgy6gt-d1e987"/>
+        <title>Titulus 4</title>
+        <questionTitle>De noxalibus actionibus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e999" alias="bgy6gt-l10">
+      <head>Liber 10</head>
+      <item id="bgy6gt-d1e1004" alias="bgy6gt-l10t1">
+        <fileName filestem="bgy6gt-d1e1004"/>
+        <title>Titulus 1</title>
+        <questionTitle>Finium regundorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1015" alias="bgy6gt-l10t2">
+        <fileName filestem="bgy6gt-d1e1015"/>
+        <title>Titulus 2</title>
+        <questionTitle>Familiae erciscundae.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1026" alias="bgy6gt-l10t3">
+        <fileName filestem="bgy6gt-d1e1026"/>
+        <title>Titulus 3</title>
+        <questionTitle>Communi dividundo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1037" alias="bgy6gt-l10t4">
+        <fileName filestem="bgy6gt-d1e1037"/>
+        <title>Titulus 4</title>
+        <questionTitle>Ad exhibendum.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1049" alias="bgy6gt-l11">
+      <head>Liber 11</head>
+      <item id="bgy6gt-d1e1054" alias="bgy6gt-l11t1">
+        <fileName filestem="bgy6gt-d1e1054"/>
+        <title>Titulus 1</title>
+        <questionTitle>De interrogationibus in iure faciendis et interrogatoriis
+          actionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1065" alias="bgy6gt-l11t2">
+        <fileName filestem="bgy6gt-d1e1065"/>
+        <title>Titulus 2</title>
+        <questionTitle>De quibus rebus ad eundem iudicem eatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1076" alias="bgy6gt-l11t3">
+        <fileName filestem="bgy6gt-d1e1076"/>
+        <title>Titulus 3</title>
+        <questionTitle>De servo corrupto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1087" alias="bgy6gt-l11t4">
+        <fileName filestem="bgy6gt-d1e1087"/>
+        <title>Titulus 4</title>
+        <questionTitle>De fugitivis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1099" alias="bgy6gt-l11t5">
+        <fileName filestem="bgy6gt-d1e1099"/>
+        <title>Titulus 5</title>
+        <questionTitle>De aleatoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1110" alias="bgy6gt-l11t6">
+        <fileName filestem="bgy6gt-d1e1110"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si mensor falsum modum dixerit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1121" alias="bgy6gt-l11t7">
+        <fileName filestem="bgy6gt-d1e1121"/>
+        <title>Titulus 7</title>
+        <questionTitle>De religiosis et sumptibus funerum et ut funus ducere liceat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1132" alias="bgy6gt-l11t8">
+        <fileName filestem="bgy6gt-d1e1132"/>
+        <title>Titulus 8</title>
+        <questionTitle>De mortuo inferendo et sepulchro aedificando.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1145" alias="bgy6gt-l12">
+      <head>Liber 12</head>
+      <item id="bgy6gt-d1e1150" alias="bgy6gt-l12t1">
+        <fileName filestem="bgy6gt-d1e1150"/>
+        <title>Titulus 1</title>
+        <questionTitle>De rebus creditis si certum petetur et de condictione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1161" alias="bgy6gt-l12t2">
+        <fileName filestem="bgy6gt-d1e1161"/>
+        <title>Titulus 2</title>
+        <questionTitle>De iureiurando sive voluntario sive necessario sive
+          iudiciali.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1172" alias="bgy6gt-l12t3">
+        <fileName filestem="bgy6gt-d1e1172"/>
+        <title>Titulus 3</title>
+        <questionTitle>De in litem iurando.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1183" alias="bgy6gt-l12t4">
+        <fileName filestem="bgy6gt-d1e1183"/>
+        <title>Titulus 4</title>
+        <questionTitle>De condictione causa data causa non secuta.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1195" alias="bgy6gt-l12t5">
+        <fileName filestem="bgy6gt-d1e1195"/>
+        <title>Titulus 5</title>
+        <questionTitle>De condictione ob turpem vel iniustam causam.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1206" alias="bgy6gt-l12t6">
+        <fileName filestem="bgy6gt-d1e1206"/>
+        <title>Titulus 6</title>
+        <questionTitle>De condictione indebiti.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1217" alias="bgy6gt-l12t7">
+        <fileName filestem="bgy6gt-d1e1217"/>
+        <title>Titulus 7</title>
+        <questionTitle>De condictione sine causa.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1229" alias="bgy6gt-l13">
+      <head>Liber 13</head>
+      <item id="bgy6gt-d1e1234" alias="bgy6gt-l13t1">
+        <fileName filestem="bgy6gt-d1e1234"/>
+        <title>Titulus 1</title>
+        <questionTitle>De condictione furtiva.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1245" alias="bgy6gt-l13t2">
+        <fileName filestem="bgy6gt-d1e1245"/>
+        <title>Titulus 2</title>
+        <questionTitle>De condictione ex lege.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1256" alias="bgy6gt-l13t3">
+        <fileName filestem="bgy6gt-d1e1256"/>
+        <title>Titulus 3</title>
+        <questionTitle>De condictione triticiaria.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1267" alias="bgy6gt-l13t4">
+        <fileName filestem="bgy6gt-d1e1267"/>
+        <title>Titulus 4</title>
+        <questionTitle>De eo quod certo loco dari oportet.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1279" alias="bgy6gt-l13t5">
+        <fileName filestem="bgy6gt-d1e1279"/>
+        <title>Titulus 5</title>
+        <questionTitle>De pecunia constituta.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1290" alias="bgy6gt-l13t6">
+        <fileName filestem="bgy6gt-d1e1290"/>
+        <title>Titulus 6</title>
+        <questionTitle>Commodati vel contra.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1301" alias="bgy6gt-l13t7">
+        <fileName filestem="bgy6gt-d1e1301"/>
+        <title>Titulus 7</title>
+        <questionTitle>De pigneraticia actione vel contra.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1313" alias="bgy6gt-l14">
+      <head>Liber 14</head>
+      <item id="bgy6gt-d1e1318" alias="bgy6gt-l14t1">
+        <fileName filestem="bgy6gt-d1e1318"/>
+        <title>Titulus 1</title>
+        <questionTitle>De exercitoria actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1329" alias="bgy6gt-l14t2">
+        <fileName filestem="bgy6gt-d1e1329"/>
+        <title>Titulus 2</title>
+        <questionTitle>De lege Rodia [Rhodia] de iactu.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1340" alias="bgy6gt-l14t3">
+        <fileName filestem="bgy6gt-d1e1340"/>
+        <title>Titulus 3</title>
+        <questionTitle>De institoria actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1351" alias="bgy6gt-l14t4">
+        <fileName filestem="bgy6gt-d1e1351"/>
+        <title>Titulus 4</title>
+        <questionTitle>De tributoria actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1363" alias="bgy6gt-l14t5">
+        <fileName filestem="bgy6gt-d1e1363"/>
+        <title>Titulus 5</title>
+        <questionTitle>Quod cum eo, qui in aliena potestate est, negotium gestum esse
+          dicetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1374" alias="bgy6gt-l14t6">
+        <fileName filestem="bgy6gt-d1e1374"/>
+        <title>Titulus 6</title>
+        <questionTitle>De senatus consulto Macedoniano.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1386" alias="bgy6gt-l15">
+      <head>Liber 15</head> 
+      <item id="bgy6gt-d1e1391" alias="bgy6gt-l15t1">
+        <fileName filestem="bgy6gt-d1e1391"/>
+        <title>Titulus 1</title>
+        <questionTitle>De peculio.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1402" alias="bgy6gt-l15t2">
+        <fileName filestem="bgy6gt-d1e1402"/>
+        <title>Titulus 2</title>
+        <questionTitle>Quando de peculio actio annalis est.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1413" alias="bgy6gt-l15t3">
+        <fileName filestem="bgy6gt-d1e1413"/>
+        <title>Titulus 3</title>
+        <questionTitle>De in rem verso.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1424" alias="bgy6gt-l15t4">
+        <fileName filestem="bgy6gt-d1e1424"/>
+        <title>Titulus 4</title>
+        <questionTitle>Quod iussu.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1436" alias="bgy6gt-l16">
+      <head>Liber 16</head>
+      <item id="bgy6gt-d1e1441" alias="bgy6gt-l16t1">
+        <fileName filestem="bgy6gt-d1e1441"/>
+        <title>Titulus 1</title>
+        <questionTitle>Ad senatus consultum Velleianum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1452" alias="bgy6gt-l16t2">
+        <fileName filestem="bgy6gt-d1e1452"/>
+        <title>Titulus 2</title>
+        <questionTitle>De compensationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1463" alias="bgy6gt-l16t3">
+        <fileName filestem="bgy6gt-d1e1463"/>
+        <title>Titulus 3</title>
+        <questionTitle>Depositi vel contra.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1475" alias="bgy6gt-l17">
+      <head>Liber 17</head>
+      <item id="bgy6gt-d1e1480" alias="bgy6gt-l17t1">
+        <fileName filestem="bgy6gt-d1e1480"/>
+        <title>Titulus 1</title>
+        <questionTitle>Mandati vel contra.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1491" alias="bgy6gt-l17t2">
+        <fileName filestem="bgy6gt-d1e1491"/>
+        <title>Titulus 2</title>
+        <questionTitle>Pro socio.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1504" alias="bgy6gt-l18">
+      <head>Liber 18</head>
+      <item id="bgy6gt-d1e1509" alias="bgy6gt-l18t1">
+        <fileName filestem="bgy6gt-d1e1509"/>
+        <title>Titulus 1</title>
+        <questionTitle>De contrahenda emptione et de pactis inter emptorem et venditorem compositis
+          (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1520" alias="bgy6gt-l18t2">
+        <fileName filestem="bgy6gt-d1e1520"/>
+        <title>Titulus 2</title>
+        <questionTitle>De in diem addictione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1531" alias="bgy6gt-l18t3">
+        <fileName filestem="bgy6gt-d1e1531"/>
+        <title>Titulus 3</title>
+        <questionTitle>De lege commissoria.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1542" alias="bgy6gt-l18t4">
+        <fileName filestem="bgy6gt-d1e1542"/>
+        <title>Titulus 4</title>
+        <questionTitle>De hereditate vel actione vendita.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1554" alias="bgy6gt-l18t5">
+        <fileName filestem="bgy6gt-d1e1554"/>
+        <title>Titulus 5</title>
+        <questionTitle>De rescindenda venditione et quando licet ab emptione
+          discedere.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1565" alias="bgy6gt-l18t6">
+        <fileName filestem="bgy6gt-d1e1565"/>
+        <title>Titulus 6</title>
+        <questionTitle>De periculo et commodo rei venditae.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1576" alias="bgy6gt-l18t7">
+        <fileName filestem="bgy6gt-d1e1576"/>
+        <title>Titulus 7</title>
+        <questionTitle>De servis exportandis: vel si ita mancipium venierit ut manumittatur vel
+          contra.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1588" alias="bgy6gt-l19">
+      <head>Liber 19</head>
+      <item id="bgy6gt-d1e1593" alias="bgy6gt-l19t1">
+        <fileName filestem="bgy6gt-d1e1593"/>
+        <title>Titulus 1</title>
+        <questionTitle>De actionibus empti venditi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1604" alias="bgy6gt-l19t2">
+        <fileName filestem="bgy6gt-d1e1604"/>
+        <title>Titulus 2</title>
+        <questionTitle>Locati conducti.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1615" alias="bgy6gt-l19t3">
+        <fileName filestem="bgy6gt-d1e1615"/>
+        <title>Titulus 3</title>
+        <questionTitle>De aestimatoria.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1626" alias="bgy6gt-l19t4">
+        <fileName filestem="bgy6gt-d1e1626"/>
+        <title>Titulus 4</title>
+        <questionTitle>De rerum permutatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1638" alias="bgy6gt-l19t5">
+        <fileName filestem="bgy6gt-d1e1638"/>
+        <title>Titulus 5</title>
+        <questionTitle>De praescriptis verbis et in factum actionibus. </questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1650" alias="bgy6gt-l20">
+      <head>Liber 20</head>
+      <item id="bgy6gt-d1e1655" alias="bgy6gt-l20t1">
+        <fileName filestem="bgy6gt-d1e1655"/>
+        <title>Titulus 1</title>
+        <questionTitle>De pignoribus et hypothecis et qualiter ea contrahantur et de pactis
+          eorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1666" alias="bgy6gt-l20t2">
+        <fileName filestem="bgy6gt-d1e1666"/>
+        <title>Titulus 2</title>
+        <questionTitle>In quibus causis pignus vel hypotheca tacite contrahitur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1677" alias="bgy6gt-l20t3">
+        <fileName filestem="bgy6gt-d1e1677"/>
+        <title>Titulus 3</title>
+        <questionTitle>Quae res pignori vel hypothecae datae olbigari non possunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1688" alias="bgy6gt-l20t4">
+        <fileName filestem="bgy6gt-d1e1688"/>
+        <title>Titulus 4</title>
+        <questionTitle>Qui potiores in pignore vel hypotheca habeantur et de his qui in priorum
+          creditorum locum (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1700" alias="bgy6gt-l20t5">
+        <fileName filestem="bgy6gt-d1e1700"/>
+        <title>Titulus 5</title>
+        <questionTitle>De distractione pignorum et hypothecarum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1711" alias="bgy6gt-l20t6">
+        <fileName filestem="bgy6gt-d1e1711"/>
+        <title>Titulus 6</title>
+        <questionTitle>Quibus modis pignus vel hypotheca solvitur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1723" alias="bgy6gt-l21">
+      <head>Liber 21</head>
+      <item id="bgy6gt-d1e1728" alias="bgy6gt-l21t1">
+        <fileName filestem="bgy6gt-d1e1728"/>
+        <title>Titulus 1</title>
+        <questionTitle>De aedilicio edicto et redhibitione et quanti minoris.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1739" alias="bgy6gt-l21t2">
+        <fileName filestem="bgy6gt-d1e1739"/>
+        <title>Titulus 2</title>
+        <questionTitle>De evictionibus et duplae stipulatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1750" alias="bgy6gt-l21t3">
+        <fileName filestem="bgy6gt-d1e1750"/>
+        <title>Titulus 3</title>
+        <questionTitle>De exceptione rei venditae et traditae. </questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1762" alias="bgy6gt-l22">
+      <head>Liber 22</head>
+      <item id="bgy6gt-d1e1767" alias="bgy6gt-l22t1">
+        <fileName filestem="bgy6gt-d1e1767"/>
+        <title>Titulus 1</title>
+        <questionTitle>De usuris et fructibus et causis et omnibus accessionibus et
+          mora.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1778" alias="bgy6gt-l22t2">
+        <fileName filestem="bgy6gt-d1e1778"/>
+        <title>Titulus 2</title>
+        <questionTitle>De nautico faenore.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1789" alias="bgy6gt-l22t3">
+        <fileName filestem="bgy6gt-d1e1789"/>
+        <title>Titulus 3</title>
+        <questionTitle>De probationibus et praesumptionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1800" alias="bgy6gt-l22t4">
+        <fileName filestem="bgy6gt-d1e1800"/>
+        <title>Titulus 4</title>
+        <questionTitle>De fide instrumentorum et amissione eorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1812" alias="bgy6gt-l22t5">
+        <fileName filestem="bgy6gt-d1e1812"/>
+        <title>Titulus 5</title>
+        <questionTitle>De testibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1823" alias="bgy6gt-l22t6">
+        <fileName filestem="bgy6gt-d1e1823"/>
+        <title>Titulus 6</title>
+        <questionTitle>De iuris et facti ignorantia.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1835" alias="bgy6gt-l23">
+      <head>Liber 23</head>
+      <item id="bgy6gt-d1e1840" alias="bgy6gt-l23t1">
+        <fileName filestem="bgy6gt-d1e1840"/>
+        <title>Titulus 1</title>
+        <questionTitle>De sponsalibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1851" alias="bgy6gt-l23t2">
+        <fileName filestem="bgy6gt-d1e1851"/>
+        <title>Titulus 2</title>
+        <questionTitle>De ritu nuptiarum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1862" alias="bgy6gt-l23t3">
+        <fileName filestem="bgy6gt-d1e1862"/>
+        <title>Titulus 3</title>
+        <questionTitle>De iure dotium.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1873" alias="bgy6gt-l23t4">
+        <fileName filestem="bgy6gt-d1e1873"/>
+        <title>Titulus 4</title>
+        <questionTitle>De pactis dotalibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1885" alias="bgy6gt-l23t5">
+        <fileName filestem="bgy6gt-d1e1885"/>
+        <title>Titulus 5</title>
+        <questionTitle>De fundo dotali.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1898" alias="bgy6gt-l24">
+      <head>Liber 24</head>
+      <item id="bgy6gt-d1e1903" alias="bgy6gt-l24t1">
+        <fileName filestem="bgy6gt-d1e1903"/>
+        <title>Titulus 1</title>
+        <questionTitle>De donationibus inter virum et uxorem.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1914" alias="bgy6gt-l24t2">
+        <fileName filestem="bgy6gt-d1e1914"/>
+        <title>Titulus 2</title>
+        <questionTitle>De divortiis et repudiis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1925" alias="bgy6gt-l24t3">
+        <fileName filestem="bgy6gt-d1e1925"/>
+        <title>Titulus 3</title>
+        <questionTitle>Soluto matrimonio dos quemadmodum petatur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e1937" alias="bgy6gt-l25">
+      <head>Liber 25</head>
+      <item id="bgy6gt-d1e1942" alias="bgy6gt-l25t1">
+        <fileName filestem="bgy6gt-d1e1942"/>
+        <title>Titulus 1</title>
+        <questionTitle>De impensis in res dotales factis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1953" alias="bgy6gt-l25t2">
+        <fileName filestem="bgy6gt-d1e1953"/>
+        <title>Titulus 2</title>
+        <questionTitle>De actione rerum amotarum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1964" alias="bgy6gt-l25t3">
+        <fileName filestem="bgy6gt-d1e1964"/>
+        <title>Titulus 3</title>
+        <questionTitle>De agnoscendis et alendis liberis vel parentibus vel patronis vel
+          libertis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1975" alias="bgy6gt-l25t4">
+        <fileName filestem="bgy6gt-d1e1975"/>
+        <title>Titulus 4</title>
+        <questionTitle>De inspiciendo ventre custodiendoque partu.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1987" alias="bgy6gt-l25t5">
+        <fileName filestem="bgy6gt-d1e1987"/>
+        <title>Titulus 5</title>
+        <questionTitle>Si ventris nomine muliere in possessionem missa (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e1998" alias="bgy6gt-l25t6">
+        <fileName filestem="bgy6gt-d1e1998"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si mulier ventris nomine in possessione calumniae causa esse
+          dicetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2009" alias="bgy6gt-l25t7">
+        <fileName filestem="bgy6gt-d1e2009"/>
+        <title>Titulus 7</title>
+        <questionTitle>De concubinis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2021" alias="bgy6gt-l26">
+      <head>Liber 26</head>
+      <item id="bgy6gt-d1e2026" alias="bgy6gt-l26t1">
+        <fileName filestem="bgy6gt-d1e2026"/>
+        <title>Titulus 1</title>
+        <questionTitle>De tutelis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2037" alias="bgy6gt-l26t2">
+        <fileName filestem="bgy6gt-d1e2037"/>
+        <title>Titulus 2</title>
+        <questionTitle>De testamentaria tutela.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2048" alias="bgy6gt-l26t3">
+        <fileName filestem="bgy6gt-d1e2048"/>
+        <title>Titulus 3</title>
+        <questionTitle>De confirmando tutore vel curatore.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2059" alias="bgy6gt-l26t4">
+        <fileName filestem="bgy6gt-d1e2059"/>
+        <title>Titulus 4</title>
+        <questionTitle>De legitimis tutoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2071" alias="bgy6gt-l26t5">
+        <fileName filestem="bgy6gt-d1e2071"/>
+        <title>Titulus 5</title>
+        <questionTitle>De tutoribus et curatoribus datis ab his qui ius dandi habent
+          (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2082" alias="bgy6gt-l26t6">
+        <fileName filestem="bgy6gt-d1e2082"/>
+        <title>Titulus 6</title>
+        <questionTitle>Qui petant tutores vel curatores et ubi petantur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2093" alias="bgy6gt-l26t7">
+        <fileName filestem="bgy6gt-d1e2093"/>
+        <title>Titulus 7</title>
+        <questionTitle>De administratione et periculo tutorum et curatorum qui gesserint vel non
+          (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2104" alias="bgy6gt-l26t8">
+        <fileName filestem="bgy6gt-d1e2104"/>
+        <title>Titulus 8</title>
+        <questionTitle>De auctoritate et consensu tutorum et curatorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2115" alias="bgy6gt-l26t9">
+        <fileName filestem="bgy6gt-d1e2115"/>
+        <title>Titulus 9</title>
+        <questionTitle>Quando ex facto tutoris vel curatoris minores agere vel conveniri
+          possunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2126" alias="bgy6gt-l26t10">
+        <fileName filestem="bgy6gt-d1e2126"/>
+        <title>Titulus 10</title>
+        <questionTitle>De suspectis tutoribus et curatoribus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2138" alias="bgy6gt-l27">
+      <head>Liber 27</head>
+      <item id="bgy6gt-d1e2143" alias="bgy6gt-l27t1">
+        <fileName filestem="bgy6gt-d1e2143"/>
+        <title>Titulus 1</title>
+        <questionTitle>De excusationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2154" alias="bgy6gt-l27t2">
+        <fileName filestem="bgy6gt-d1e2154"/>
+        <title>Titulus 2</title>
+        <questionTitle>Ubi pupillus educari vel morari debeat et de alimentis ei
+          praestandis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2165" alias="bgy6gt-l27t3">
+        <fileName filestem="bgy6gt-d1e2165"/>
+        <title>Titulus 3</title>
+        <questionTitle>De tutelae et rationibus distrahendis et utili curationis causa
+          actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2176" alias="bgy6gt-l27t4">
+        <fileName filestem="bgy6gt-d1e2176"/>
+        <title>Titulus 4</title>
+        <questionTitle>De contraria tutelae et utili actione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2188" alias="bgy6gt-l27t5">
+        <fileName filestem="bgy6gt-d1e2188"/>
+        <title>Titulus 5</title>
+        <questionTitle>De eo qui pro tutore prove curatore negotia gessit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2199" alias="bgy6gt-l27t6">
+        <fileName filestem="bgy6gt-d1e2199"/>
+        <title>Titulus 6</title>
+        <questionTitle>Quod falso tutore auctore gestum esse dicatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2210" alias="bgy6gt-l27t7">
+        <fileName filestem="bgy6gt-d1e2210"/>
+        <title>Titulus 7</title>
+        <questionTitle>De fideiussoribus et nominatoribus et heredibus tutorum et
+          curatorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2221" alias="bgy6gt-l27t8">
+        <fileName filestem="bgy6gt-d1e2221"/>
+        <title>Titulus 8</title>
+        <questionTitle>De magistratibus conveniendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2232" alias="bgy6gt-l27t9">
+        <fileName filestem="bgy6gt-d1e2232"/>
+        <title>Titulus 9</title>
+        <questionTitle>De rebus eorum, qui sub tutela vel cura sunt, sine decreto non alienandis vel
+          supponendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2243" alias="bgy6gt-l27t10">
+        <fileName filestem="bgy6gt-d1e2243"/>
+        <title>Titulus 10</title>
+        <questionTitle>De curatoribus furioso et aliis extra minores dandis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2255" alias="bgy6gt-l28">
+      <head>Liber 28</head>
+      <item id="bgy6gt-d1e2260" alias="bgy6gt-l28t1">
+        <fileName filestem="bgy6gt-d1e2260"/>
+        <title>Titulus 1</title>
+        <questionTitle>Qui testamenta facere possunt et quemadmodum tesamenta fiant.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2271" alias="bgy6gt-l28t2">
+        <fileName filestem="bgy6gt-d1e2271"/>
+        <title>Titulus 2</title>
+        <questionTitle>De liberis et postumis heredibus instituendis vel
+          exheredandis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2282" alias="bgy6gt-l28t3">
+        <fileName filestem="bgy6gt-d1e2282"/>
+        <title>Titulus 3</title>
+        <questionTitle>De iniusto rupto irrito facto testamento.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2293" alias="bgy6gt-l28t4">
+        <fileName filestem="bgy6gt-d1e2293"/>
+        <title>Titulus 4</title>
+        <questionTitle>De his quae in testamento delentur inducuntur vel
+          inscribuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2305" alias="bgy6gt-l28t5">
+        <fileName filestem="bgy6gt-d1e2305"/>
+        <title>Titulus 5</title>
+        <questionTitle>De heredibus instituendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2316" alias="bgy6gt-l28t6">
+        <fileName filestem="bgy6gt-d1e2316"/>
+        <title>Titulus 6</title>
+        <questionTitle>De vulgari et pupillari substitutione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2327" alias="bgy6gt-l28t7">
+        <fileName filestem="bgy6gt-d1e2327"/>
+        <title>Titulus 7</title>
+        <questionTitle>De condicionibus institutionum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2338" alias="bgy6gt-l28t8">
+        <fileName filestem="bgy6gt-d1e2338"/>
+        <title>Titulus 8</title>
+        <questionTitle>De iure deliberandi.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2350" alias="bgy6gt-l29">
+      <head>Liber 29</head>
+      <item id="bgy6gt-d1e2355" alias="bgy6gt-l29t1">
+        <fileName filestem="bgy6gt-d1e2355"/>
+        <title>Titulus 1</title>
+        <questionTitle>De testamento militis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2366" alias="bgy6gt-l29t2">
+        <fileName filestem="bgy6gt-d1e2366"/>
+        <title>Titulus 2</title>
+        <questionTitle>De adquirenda vel omittenda hereditate.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2377" alias="bgy6gt-l29t3">
+        <fileName filestem="bgy6gt-d1e2377"/>
+        <title>Titulus 3</title>
+        <questionTitle>Testamenta quemadmodum aperiuntur inspiciantur et
+          describantur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2388" alias="bgy6gt-l29t4">
+        <fileName filestem="bgy6gt-d1e2388"/>
+        <title>Titulus 4</title>
+        <questionTitle>Si quis omissa causa testamenti ab intestato vel alio modo possideat
+          hereditatem.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2400" alias="bgy6gt-l29t5">
+        <fileName filestem="bgy6gt-d1e2400"/>
+        <title>Titulus 5</title>
+        <questionTitle>De senatus consulto Silaniano et Claudiano: quorum testamenta ne
+          aperiantur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2411" alias="bgy6gt-l29t6">
+        <fileName filestem="bgy6gt-d1e2411"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si quis aliquem testari prohibuerit vel coegerit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2422" alias="bgy6gt-l29t7">
+        <fileName filestem="bgy6gt-d1e2422"/>
+        <title>Titulus 7</title>
+        <questionTitle>De iure codicillorum.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2435" alias="bgy6gt-l30">
+      <head>Liber 30</head> 
+      <item id="bgy6gt-d1e2440" alias="bgy6gt-l30t1">
+        <fileName filestem="bgy6gt-d1e2440"/>
+        <title>Titulus 1</title>
+        <questionTitle>De legatis et fideicommissis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2452" alias="bgy6gt-l31">
+      <head>Liber 31</head>
+      <item id="bgy6gt-d1e2457" alias="bgy6gt-l31t1">
+        <fileName filestem="bgy6gt-d1e2457"/>
+        <title>Titulus 1</title>
+        <questionTitle>De legatis et fideicommissis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2469" alias="bgy6gt-l32">
+      <head>Liber 32</head>
+      <item id="bgy6gt-d1e2474" alias="bgy6gt-l32t1">
+        <fileName filestem="bgy6gt-d1e2474"/>
+        <title>Titulus 1</title>
+        <questionTitle>De legatis et fideicommissis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2486" alias="bgy6gt-l33">
+      <head>Liber 33</head>
+      <item id="bgy6gt-d1e2491" alias="bgy6gt-l33t1">
+        <fileName filestem="bgy6gt-d1e2491"/>
+        <title>Titulus 1</title>
+        <questionTitle>De annuis legatis et fideicommissis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2502" alias="bgy6gt-l33t2">
+        <fileName filestem="bgy6gt-d1e2502"/>
+        <title>Titulus 2</title>
+        <questionTitle>De usu et de usu fructu et reditu et habitatione et operis per legatum
+          (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2513" alias="bgy6gt-l33t3">
+        <fileName filestem="bgy6gt-d1e2513"/>
+        <title>Titulus 3</title>
+        <questionTitle>De servitute legata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2524" alias="bgy6gt-l33t4">
+        <fileName filestem="bgy6gt-d1e2524"/>
+        <title>Titulus 4</title>
+        <questionTitle>De dote praelegata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2536" alias="bgy6gt-l33t5">
+        <fileName filestem="bgy6gt-d1e2536"/>
+        <title>Titulus 5</title>
+        <questionTitle>De optione vel electione legata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2547" alias="bgy6gt-l33t6">
+        <fileName filestem="bgy6gt-d1e2547"/>
+        <title>Titulus 6</title>
+        <questionTitle>De tritico vino vel oleo legato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2558" alias="bgy6gt-l33t7">
+        <fileName filestem="bgy6gt-d1e2558"/>
+        <title>Titulus 7</title>
+        <questionTitle>De instructo vel instrumento legato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2569" alias="bgy6gt-l33t8">
+        <fileName filestem="bgy6gt-d1e2569"/>
+        <title>Titulus 8</title>
+        <questionTitle>De peculio legato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2580" alias="bgy6gt-l33t9">
+        <fileName filestem="bgy6gt-d1e2580"/>
+        <title>Titulus 9</title>
+        <questionTitle>De penu legata</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2591" alias="bgy6gt-l33t10">
+        <fileName filestem="bgy6gt-d1e2591"/>
+        <title>Titulus 10</title>
+        <questionTitle>De suppellectile legata.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2603" alias="bgy6gt-l34">
+      <head>Liber 34</head>
+      <item id="bgy6gt-d1e2608" alias="bgy6gt-l34t1">
+        <fileName filestem="bgy6gt-d1e2608"/>
+        <title>Titulus 1</title>
+        <questionTitle>De alimentis vel cibariis legatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2619" alias="bgy6gt-l34t2">
+        <fileName filestem="bgy6gt-d1e2619"/>
+        <title>Titulus 2</title>
+        <questionTitle>De auro argento mundo ornamentis unguentis veste vel vestimentis et statuis
+          legatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2630" alias="bgy6gt-l34t3">
+        <fileName filestem="bgy6gt-d1e2630"/>
+        <title>Titulus 3</title>
+        <questionTitle>De liberatione legata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2641" alias="bgy6gt-l34t4">
+        <fileName filestem="bgy6gt-d1e2641"/>
+        <title>Titulus 4</title>
+        <questionTitle>De adimendis vel transferendis legatis vel fideicommissis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2653" alias="bgy6gt-l34t5">
+        <fileName filestem="bgy6gt-d1e2653"/>
+        <title>Titulus 5</title>
+        <questionTitle>De rebus dubiis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2664" alias="bgy6gt-l34t6">
+        <fileName filestem="bgy6gt-d1e2664"/>
+        <title>Titulus 6</title>
+        <questionTitle>De his quae poenae causa relinquuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2675" alias="bgy6gt-l34t7">
+        <fileName filestem="bgy6gt-d1e2675"/>
+        <title>Titulus 7</title>
+        <questionTitle>De regula Catoniana.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2686" alias="bgy6gt-l34t8">
+        <fileName filestem="bgy6gt-d1e2686"/>
+        <title>Titulus 8</title>
+        <questionTitle>De his quae pro non scriptis habentur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2697" alias="bgy6gt-l34t9">
+        <fileName filestem="bgy6gt-d1e2697"/>
+        <title>Titulus 9</title>
+        <questionTitle>De his quae ut indignis auferuntur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2709" alias="bgy6gt-l35">
+      <head>Liber 35</head>
+      <item id="bgy6gt-d1e2714" alias="bgy6gt-l35t1">
+        <fileName filestem="bgy6gt-d1e2714"/>
+        <title>Titulus 1</title>
+        <questionTitle>De condicionibus et demonstrationibus et causis et modis eorum
+          (...)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2725" alias="bgy6gt-l35t2">
+        <fileName filestem="bgy6gt-d1e2725"/>
+        <title>Titulus 2</title>
+        <questionTitle>Ad legem Falcidiam.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2736" alias="bgy6gt-l35t3">
+        <fileName filestem="bgy6gt-d1e2736"/>
+        <title>Titulus 3</title>
+        <questionTitle>Si cui plus, quam per legem Falcidiam licuerit, legatum esse
+          dicetur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2749" alias="bgy6gt-l36">
+      <head>Liber 36</head>
+      <item id="bgy6gt-d1e2754" alias="bgy6gt-l36t1">
+        <fileName filestem="bgy6gt-d1e2754"/>
+        <title>Titulus 1</title>
+        <questionTitle>Ad senatus consultum Trebellianum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2765" alias="bgy6gt-l36t2">
+        <fileName filestem="bgy6gt-d1e2765"/>
+        <title>Titulus 2</title>
+        <questionTitle>Quando dies legatorum vel fideicommissorum cedat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2776" alias="bgy6gt-l36t3">
+        <fileName filestem="bgy6gt-d1e2776"/>
+        <title>Titulus 3</title>
+        <questionTitle>Ut legatorum seu fideicommissorum servandorum causa caveatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2787" alias="bgy6gt-l36t4">
+        <fileName filestem="bgy6gt-d1e2787"/>
+        <title>Titulus 4</title>
+        <questionTitle>Ut in possessionem legatorum vel fideicommissorum servandorum causa esse
+          liceat.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2799" alias="bgy6gt-l37">
+      <head>Liber 37</head>
+      <item id="bgy6gt-d1e2804" alias="bgy6gt-l37t1">
+        <fileName filestem="bgy6gt-d1e2804"/>
+        <title>Titulus 1</title>
+        <questionTitle>De bonorum possessionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2815" alias="bgy6gt-l37t2">
+        <fileName filestem="bgy6gt-d1e2815"/>
+        <title>Titulus 2</title>
+        <questionTitle>Si tabulae testamenti extabunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2826" alias="bgy6gt-l37t3">
+        <fileName filestem="bgy6gt-d1e2826"/>
+        <title>Titulus 3</title>
+        <questionTitle>De bonorum possessione furioso infanti muto surdo caeco
+          competente.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2837" alias="bgy6gt-l37t4">
+        <fileName filestem="bgy6gt-d1e2837"/>
+        <title>Titulus 4</title>
+        <questionTitle>De bonorum possessione contra tabulas.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2849" alias="bgy6gt-l37t5">
+        <fileName filestem="bgy6gt-d1e2849"/>
+        <title>Titulus 5</title>
+        <questionTitle>De legatis praestandis contra tabulas bonorum possessione
+          petita.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2860" alias="bgy6gt-l37t6">
+        <fileName filestem="bgy6gt-d1e2860"/>
+        <title>Titulus 6</title>
+        <questionTitle>De collatione bonorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2871" alias="bgy6gt-l37t7">
+        <fileName filestem="bgy6gt-d1e2871"/>
+        <title>Titulus 7</title>
+        <questionTitle>De dotis collatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2882" alias="bgy6gt-l37t8">
+        <fileName filestem="bgy6gt-d1e2882"/>
+        <title>Titulus 8</title>
+        <questionTitle>De coniungendis cum emancipato liberis eius.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2893" alias="bgy6gt-l37t9">
+        <fileName filestem="bgy6gt-d1e2893"/>
+        <title>Titulus 9</title>
+        <questionTitle>De ventre in possessionem mittendo et curatore eius.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2904" alias="bgy6gt-l37t10">
+        <fileName filestem="bgy6gt-d1e2904"/>
+        <title>Titulus 10</title>
+        <questionTitle>De Carboniano edicto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2916" alias="bgy6gt-l37t11">
+        <fileName filestem="bgy6gt-d1e2916"/>
+        <title>Titulus 11</title>
+        <questionTitle>De bonorum possessione secundum tabulas.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2927" alias="bgy6gt-l37t12">
+        <fileName filestem="bgy6gt-d1e2927"/>
+        <title>Titulus 12</title>
+        <questionTitle>Si a parente quis manumissus sit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2938" alias="bgy6gt-l37t13">
+        <fileName filestem="bgy6gt-d1e2938"/>
+        <title>Titulus 13</title>
+        <questionTitle>De bonorum possessione ex testamento militis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2949" alias="bgy6gt-l37t14">
+        <fileName filestem="bgy6gt-d1e2949"/>
+        <title>Titulus 14</title>
+        <questionTitle>De iure patronatus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2960" alias="bgy6gt-l37t15">
+        <fileName filestem="bgy6gt-d1e2960"/>
+        <title>Titulus 15</title>
+        <questionTitle>De obsequiis parentibus et patronis praestandis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e2972" alias="bgy6gt-l38">
+      <head>Liber 38</head>
+      <item id="bgy6gt-d1e2977" alias="bgy6gt-l38t1">
+        <fileName filestem="bgy6gt-d1e2977"/>
+        <title>Titulus 1</title>
+        <questionTitle>De operis libertorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2988" alias="bgy6gt-l38t2">
+        <fileName filestem="bgy6gt-d1e2988"/>
+        <title>Titulus 2</title>
+        <questionTitle>De bonis libertorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e2999" alias="bgy6gt-l38t3">
+        <fileName filestem="bgy6gt-d1e2999"/>
+        <title>Titulus 3</title>
+        <questionTitle>De libertis universitatium.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3010" alias="bgy6gt-l38t4">
+        <fileName filestem="bgy6gt-d1e3010"/>
+        <title>Titulus 4</title>
+        <questionTitle>De adsignandis libertis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3022" alias="bgy6gt-l38t5">
+        <fileName filestem="bgy6gt-d1e3022"/>
+        <title>Titulus 5</title>
+        <questionTitle>Si quid in fraudem patroni factum sit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3033" alias="bgy6gt-l38t6">
+        <fileName filestem="bgy6gt-d1e3033"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si tabulae testamenti nullae extabunt, unde liberi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3044" alias="bgy6gt-l38t7">
+        <fileName filestem="bgy6gt-d1e3044"/>
+        <title>Titulus 7</title>
+        <questionTitle>Unde legitimi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3055" alias="bgy6gt-l38t8">
+        <fileName filestem="bgy6gt-d1e3055"/>
+        <title>Titulus 8</title>
+        <questionTitle>Unde cognati.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3066" alias="bgy6gt-l38t9">
+        <fileName filestem="bgy6gt-d1e3066"/>
+        <title>Titulus 9</title>
+        <questionTitle>De successorio edicto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3077" alias="bgy6gt-l38t10">
+        <fileName filestem="bgy6gt-d1e3077"/>
+        <title>Titulus 10</title>
+        <questionTitle>De gradibus et adfinibus et nominibus eorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3089" alias="bgy6gt-l38t11">
+        <fileName filestem="bgy6gt-d1e3089"/>
+        <title>Titulus 11</title>
+        <questionTitle>Unde vir et uxor.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3100" alias="bgy6gt-l38t12">
+        <fileName filestem="bgy6gt-d1e3100"/>
+        <title>Titulus 12</title>
+        <questionTitle>De veteranorum et militum successione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3111" alias="bgy6gt-l38t13">
+        <fileName filestem="bgy6gt-d1e3111"/>
+        <title>Titulus 13</title>
+        <questionTitle>Quibus non competit bonorum possessio.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3122" alias="bgy6gt-l38t14">
+        <fileName filestem="bgy6gt-d1e3122"/>
+        <title>Titulus 14</title>
+        <questionTitle>Ut ex legibus senatusve consultis bonorum possessio detur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3133" alias="bgy6gt-l38t15">
+        <fileName filestem="bgy6gt-d1e3133"/>
+        <title>Titulus 15</title>
+        <questionTitle>Quis ordo in possessionibus servetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3144" alias="bgy6gt-l38t16">
+        <fileName filestem="bgy6gt-d1e3144"/>
+        <title>Titulus 16</title>
+        <questionTitle>De suis et legitimis heredibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3156" alias="bgy6gt-l38t17">
+        <fileName filestem="bgy6gt-d1e3156"/>
+        <title>Titulus 17</title>
+        <questionTitle>Ad senatus consultum Tertullianum et Orphitianum.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e3168" alias="bgy6gt-l39">
+      <head>Liber 39</head>
+      <item id="bgy6gt-d1e3173" alias="bgy6gt-l39t1">
+        <fileName filestem="bgy6gt-d1e3173"/>
+        <title>Titulus 1</title>
+        <questionTitle>De operis novi nuntiatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3184" alias="bgy6gt-l39t2">
+        <fileName filestem="bgy6gt-d1e3184"/>
+        <title>Titulus 2</title>
+        <questionTitle>De damno infecto et de suggrundis et proiectionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3195" alias="bgy6gt-l39t3">
+        <fileName filestem="bgy6gt-d1e3195"/>
+        <title>Titulus 3</title>
+        <questionTitle>De aqua et aquae pluviae arcendae.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3206" alias="bgy6gt-l39t4">
+        <fileName filestem="bgy6gt-d1e3206"/>
+        <title>Titulus 4</title>
+        <questionTitle>De publicanis et vectigalibus et commissis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3218" alias="bgy6gt-l39t5">
+        <fileName filestem="bgy6gt-d1e3218"/>
+        <title>Titulus 5</title>
+        <questionTitle>De donationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3229" alias="bgy6gt-l39t6">
+        <fileName filestem="bgy6gt-d1e3229"/>
+        <title>Titulus 6</title>
+        <questionTitle>De mortis causa donationibus et capionibus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e3241" alias="bgy6gt-l40">
+      <head>Liber 40</head>
+      <item id="bgy6gt-d1e3246" alias="bgy6gt-l40t1">
+        <fileName filestem="bgy6gt-d1e3246"/>
+        <title>Titulus 1</title>
+        <questionTitle>De manumissionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3257" alias="bgy6gt-l40t2">
+        <fileName filestem="bgy6gt-d1e3257"/>
+        <title>Titulus 2</title>
+        <questionTitle>De manumissis vindicta.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3268" alias="bgy6gt-l40t3">
+        <fileName filestem="bgy6gt-d1e3268"/>
+        <title>Titulus 3</title>
+        <questionTitle>De manumissionibus quae servis ad universitatem pertinentibus
+          imponuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3279" alias="bgy6gt-l40t4">
+        <fileName filestem="bgy6gt-d1e3279"/>
+        <title>Titulus 4</title>
+        <questionTitle>De manumissis testamento.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3291" alias="bgy6gt-l40t5">
+        <fileName filestem="bgy6gt-d1e3291"/>
+        <title>Titulus 5</title>
+        <questionTitle>De fideicommissariis libertatibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3302" alias="bgy6gt-l40t6">
+        <fileName filestem="bgy6gt-d1e3302"/>
+        <title>Titulus 6</title>
+        <questionTitle>De ademptione libertatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3313" alias="bgy6gt-l40t7">
+        <fileName filestem="bgy6gt-d1e3313"/>
+        <title>Titulus 7</title>
+        <questionTitle>De statuliberis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3324" alias="bgy6gt-l40t8">
+        <fileName filestem="bgy6gt-d1e3324"/>
+        <title>Titulus 8</title>
+        <questionTitle>Qui sine manumissione ad libertatem perveniunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3335" alias="bgy6gt-l40t9">
+        <fileName filestem="bgy6gt-d1e3335"/>
+        <title>Titulus 9</title>
+        <questionTitle>Qui et a quibus manumissi liberi non fiunt et ad legem Aeliam
+          Sentiam.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3346" alias="bgy6gt-l40t10">
+        <fileName filestem="bgy6gt-d1e3346"/>
+        <title>Titulus 10</title>
+        <questionTitle>De iure aureorum anulorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3358" alias="bgy6gt-l40t11">
+        <fileName filestem="bgy6gt-d1e3358"/>
+        <title>Titulus 11</title>
+        <questionTitle>De natalibus restituendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3369" alias="bgy6gt-l40t12">
+        <fileName filestem="bgy6gt-d1e3369"/>
+        <title>Titulus 12</title>
+        <questionTitle>De liberali causa.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3380" alias="bgy6gt-l40t13">
+        <fileName filestem="bgy6gt-d1e3380"/>
+        <title>Titulus 13</title>
+        <questionTitle>Quibus ad libertatem proclamare non licet.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3391" alias="bgy6gt-l40t14">
+        <fileName filestem="bgy6gt-d1e3391"/>
+        <title>Titulus 14</title>
+        <questionTitle>Si ingenuus esse dicetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3402" alias="bgy6gt-l40t15">
+        <fileName filestem="bgy6gt-d1e3402"/>
+        <title>Titulus 15</title>
+        <questionTitle>Ne de statu defunctorum post quinquennium quaeratur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3413" alias="bgy6gt-l40t16">
+        <fileName filestem="bgy6gt-d1e3413"/>
+        <title>Titulus 16</title>
+        <questionTitle>De collusione detegenda.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e3425" alias="bgy6gt-l41">
+      <head>Liber 41</head>
+      <item id="bgy6gt-d1e3430" alias="bgy6gt-l41t1">
+        <fileName filestem="bgy6gt-d1e3430"/>
+        <title>Titulus 1</title>
+        <questionTitle>De adquirendo rerum dominio.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3441" alias="bgy6gt-l41t2">
+        <fileName filestem="bgy6gt-d1e3441"/>
+        <title>Titulus 2</title>
+        <questionTitle>De adquirenda vel amittenda possessione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3452" alias="bgy6gt-l41t3">
+        <fileName filestem="bgy6gt-d1e3452"/>
+        <title>Titulus 3</title>
+        <questionTitle>De usurpationibus et usucapionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3463" alias="bgy6gt-l41t4">
+        <fileName filestem="bgy6gt-d1e3463"/>
+        <title>Titulus 4</title>
+        <questionTitle>Pro emptore.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3475" alias="bgy6gt-l41t5">
+        <fileName filestem="bgy6gt-d1e3475"/>
+        <title>Titulus 5</title>
+        <questionTitle>Pro herede vel pro possessore.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3486" alias="bgy6gt-l41t6">
+        <fileName filestem="bgy6gt-d1e3486"/>
+        <title>Titulus 6</title>
+        <questionTitle>Pro donato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3497" alias="bgy6gt-l41t7">
+        <fileName filestem="bgy6gt-d1e3497"/>
+        <title>Titulus 7</title>
+        <questionTitle>Pro derelicto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3508" alias="bgy6gt-l41t8">
+        <fileName filestem="bgy6gt-d1e3508"/>
+        <title>Titulus 8</title>
+        <questionTitle>Pro legato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3519" alias="bgy6gt-l41t9">
+        <fileName filestem="bgy6gt-d1e3519"/>
+        <title>Titulus 9</title>
+        <questionTitle>Pro dote.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3530" alias="bgy6gt-l41t10">
+        <fileName filestem="bgy6gt-d1e3530"/>
+        <title>Titulus 10</title>
+        <questionTitle>Pro suo.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e3543" alias="bgy6gt-l42">
+      <head>Liber 42</head>
+      <item id="bgy6gt-d1e3548" alias="bgy6gt-l42t1">
+        <fileName filestem="bgy6gt-d1e3548"/>
+        <title>Titulus 1</title>
+        <questionTitle>De re iudicata et de effectu sententiarum et de
+          interlocutionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3559" alias="bgy6gt-l42t2">
+        <fileName filestem="bgy6gt-d1e3559"/>
+        <title>Titulus 2</title>
+        <questionTitle>De confessis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3570" alias="bgy6gt-l42t3">
+        <fileName filestem="bgy6gt-d1e3570"/>
+        <title>Titulus 3</title>
+        <questionTitle>De cessione bonorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3581" alias="bgy6gt-l42t4">
+        <fileName filestem="bgy6gt-d1e3581"/>
+        <title>Titulus 4</title>
+        <questionTitle>Quibus ex causis in possessionem eatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3593" alias="bgy6gt-l42t5">
+        <fileName filestem="bgy6gt-d1e3593"/>
+        <title>Titulus 5</title>
+        <questionTitle>De rebus auctoritate iudicis possidendis seu vendundis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3604" alias="bgy6gt-l42t6">
+        <fileName filestem="bgy6gt-d1e3604"/>
+        <title>Titulus 6</title>
+        <questionTitle>De separationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3615" alias="bgy6gt-l42t7">
+        <fileName filestem="bgy6gt-d1e3615"/>
+        <title>Titulus 7</title>
+        <questionTitle>De curatore bonis dando.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3626" alias="bgy6gt-l42t8">
+        <fileName filestem="bgy6gt-d1e3626"/>
+        <title>Titulus 8</title>
+        <questionTitle>Quae in fraudem creditorum facta sunt ut restituantur.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e3638" alias="bgy6gt-l43">
+      <head>Liber 43</head>
+      <item id="bgy6gt-d1e3643" alias="bgy6gt-l43t1">
+        <fileName filestem="bgy6gt-d1e3643"/>
+        <title>Titulus 1</title>
+        <questionTitle>De interdictis sive extraordinariis actionibus, quae pro his
+          competunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3654" alias="bgy6gt-l43t2">
+        <fileName filestem="bgy6gt-d1e3654"/>
+        <title>Titulus 2</title>
+        <questionTitle>Quorum bonorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3665" alias="bgy6gt-l43t3">
+        <fileName filestem="bgy6gt-d1e3665"/>
+        <title>Titulus 3</title>
+        <questionTitle>Quod legatorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3676" alias="bgy6gt-l43t4">
+        <fileName filestem="bgy6gt-d1e3676"/>
+        <title>Titulus 4</title>
+        <questionTitle>Ne vis fiat ei, qui in possessionem missus erit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3688" alias="bgy6gt-l43t5">
+        <fileName filestem="bgy6gt-d1e3688"/>
+        <title>Titulus 5</title>
+        <questionTitle>De tabulis exhibendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3699" alias="bgy6gt-l43t6">
+        <fileName filestem="bgy6gt-d1e3699"/>
+        <title>Titulus 6</title>
+        <questionTitle>Ne quid in loco sacro fiat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3710" alias="bgy6gt-l43t7">
+        <fileName filestem="bgy6gt-d1e3710"/>
+        <title>Titulus 7</title>
+        <questionTitle>De locis et itineribus publicis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3721" alias="bgy6gt-l43t8">
+        <fileName filestem="bgy6gt-d1e3721"/>
+        <title>Titulus 8</title>
+        <questionTitle>Ne quid in loco publico vel itinere fiat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3732" alias="bgy6gt-l43t9">
+        <fileName filestem="bgy6gt-d1e3732"/>
+        <title>Titulus 9</title>
+        <questionTitle>De loco publico fruendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3743" alias="bgy6gt-l43t10">
+        <fileName filestem="bgy6gt-d1e3743"/>
+        <title>Titulus 10</title>
+        <questionTitle>De via publica et si quid in ea factum esse dicatur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3755" alias="bgy6gt-l43t11">
+        <fileName filestem="bgy6gt-d1e3755"/>
+        <title>Titulus 11</title>
+        <questionTitle>De via publica et itinere publico reficiendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3766" alias="bgy6gt-l43t12">
+        <fileName filestem="bgy6gt-d1e3766"/>
+        <title>Titulus 12</title>
+        <questionTitle>De fluminibus. Ne quid in flumine publico ripave eius fiat, quo peius
+          navigetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3777" alias="bgy6gt-l43t13">
+        <fileName filestem="bgy6gt-d1e3777"/>
+        <title>Titulus 13</title>
+        <questionTitle>Ne quid in flumine publico fiat, quo aliter aqua fluat, atque uti priore
+          aestate fluxit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3788" alias="bgy6gt-l43t14">
+        <fileName filestem="bgy6gt-d1e3788"/>
+        <title>Titulus 14</title>
+        <questionTitle>Ut in flumine publico navigare liceat.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3799" alias="bgy6gt-l43t15">
+        <fileName filestem="bgy6gt-d1e3799"/>
+        <title>Titulus 15</title>
+        <questionTitle>De ripa munienda.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3810" alias="bgy6gt-l43t16">
+        <fileName filestem="bgy6gt-d1e3810"/>
+        <title>Titulus 16</title>
+        <questionTitle>De vi et de vi armata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3822" alias="bgy6gt-l43t17">
+        <fileName filestem="bgy6gt-d1e3822"/>
+        <title>Titulus 17</title>
+        <questionTitle>Uti possidetis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3833" alias="bgy6gt-l43t18">
+        <fileName filestem="bgy6gt-d1e3833"/>
+        <title>Titulus 18</title>
+        <questionTitle>De superficiebus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3844" alias="bgy6gt-l43t19">
+        <fileName filestem="bgy6gt-d1e3844"/>
+        <title>Titulus 19</title>
+        <questionTitle>De itinere actuque privato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3855" alias="bgy6gt-l43t20">
+        <fileName filestem="bgy6gt-d1e3855"/>
+        <title>Titulus 20</title>
+        <questionTitle>De aqua cottidiana et aestiva.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3866" alias="bgy6gt-l43t21">
+        <fileName filestem="bgy6gt-d1e3866"/>
+        <title>Titulus 21</title>
+        <questionTitle>De rivis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3877" alias="bgy6gt-l43t22">
+        <fileName filestem="bgy6gt-d1e3877"/>
+        <title>Titulus 22</title>
+        <questionTitle>De fonte.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3889" alias="bgy6gt-l43t23">
+        <fileName filestem="bgy6gt-d1e3889"/>
+        <title>Titulus 23</title>
+        <questionTitle>De cloacis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3900" alias="bgy6gt-l43t24">
+        <fileName filestem="bgy6gt-d1e3900"/>
+        <title>Titulus 24</title>
+        <questionTitle>Quod vi aut clam.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3911" alias="bgy6gt-l43t25">
+        <fileName filestem="bgy6gt-d1e3911"/>
+        <title>Titulus 25</title>
+        <questionTitle>De remissionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3922" alias="bgy6gt-l43t26">
+        <fileName filestem="bgy6gt-d1e3922"/>
+        <title>Titulus 26</title>
+        <questionTitle>De precario.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3933" alias="bgy6gt-l43t27">
+        <fileName filestem="bgy6gt-d1e3933"/>
+        <title>Titulus 27</title>
+        <questionTitle>De arboribus caedendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3944" alias="bgy6gt-l43t28">
+        <fileName filestem="bgy6gt-d1e3944"/>
+        <title>Titulus 28</title>
+        <questionTitle>De glande legenda.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3956" alias="bgy6gt-l43t29">
+        <fileName filestem="bgy6gt-d1e3956"/>
+        <title>Titulus 29</title>
+        <questionTitle>De homine libero exhibendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3967" alias="bgy6gt-l43t30">
+        <fileName filestem="bgy6gt-d1e3967"/>
+        <title>Titulus 30</title>
+        <questionTitle>De liberis exhibendis, item ducendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3978" alias="bgy6gt-l43t31">
+        <fileName filestem="bgy6gt-d1e3978"/>
+        <title>Titulus 31</title>
+        <questionTitle>Utrubi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e3989" alias="bgy6gt-l43t32">
+        <fileName filestem="bgy6gt-d1e3989"/>
+        <title>Titulus 32</title>
+        <questionTitle>De migrando.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4000" alias="bgy6gt-l43t33">
+        <fileName filestem="bgy6gt-d1e4000"/>
+        <title>Titulus 33</title>
+        <questionTitle>De Salviano interdicto.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4012" alias="bgy6gt-l44">
+      <head>Liber 44</head>
+      <item id="bgy6gt-d1e4017" alias="bgy6gt-l44t1">
+        <fileName filestem="bgy6gt-d1e4017"/>
+        <title>Titulus 1</title>
+        <questionTitle>De exceptionibus praescriptionibus et praeiudiciis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4028" alias="bgy6gt-l44t2">
+        <fileName filestem="bgy6gt-d1e4028"/>
+        <title>Titulus 2</title>
+        <questionTitle>De exceptione rei iudicatae.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4039" alias="bgy6gt-l44t3">
+        <fileName filestem="bgy6gt-d1e4039"/>
+        <title>Titulus 3</title>
+        <questionTitle>De diversis temporalibus praescriptionibus et de accessionibus
+          possessionum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4050" alias="bgy6gt-l44t4">
+        <fileName filestem="bgy6gt-d1e4050"/>
+        <title>Titulus 4</title>
+        <questionTitle>De doli mali et metus exceptione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4062" alias="bgy6gt-l44t5">
+        <fileName filestem="bgy6gt-d1e4062"/>
+        <title>Titulus 5</title>
+        <questionTitle>Quarum rerum actio non datur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4073" alias="bgy6gt-l44t6">
+        <fileName filestem="bgy6gt-d1e4073"/>
+        <title>Titulus 6</title>
+        <questionTitle>De litigiosis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4084" alias="bgy6gt-l44t7">
+        <fileName filestem="bgy6gt-d1e4084"/>
+        <title>Titulus 7</title>
+        <questionTitle>De obligationibus et actionibus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4096" alias="bgy6gt-l45">
+      <head>Liber 45</head>
+      <item id="bgy6gt-d1e4101" alias="bgy6gt-l45t1">
+        <fileName filestem="bgy6gt-d1e4101"/>
+        <title>Titulus 1</title>
+        <questionTitle>De verborum obligationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4112" alias="bgy6gt-l45t2">
+        <fileName filestem="bgy6gt-d1e4112"/>
+        <title>Titulus 2</title>
+        <questionTitle>De duobus reis constituendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4123" alias="bgy6gt-l45t3">
+        <fileName filestem="bgy6gt-d1e4123"/>
+        <title>Titulus 3</title>
+        <questionTitle>De stipulatione servorum.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4135" alias="bgy6gt-l46">
+      <head>Liber 46</head>
+      <item id="bgy6gt-d1e4140" alias="bgy6gt-l46t1">
+        <fileName filestem="bgy6gt-d1e4140"/>
+        <title>Titulus 1</title>
+        <questionTitle>De fideiussoribus et mandatoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4151" alias="bgy6gt-l46t2">
+        <fileName filestem="bgy6gt-d1e4151"/>
+        <title>Titulus 2</title>
+        <questionTitle>De novationibus et delegationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4162" alias="bgy6gt-l46t3">
+        <fileName filestem="bgy6gt-d1e4162"/>
+        <title>Titulus 3</title>
+        <questionTitle>De solutionibus et liberationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4173" alias="bgy6gt-l46t4">
+        <fileName filestem="bgy6gt-d1e4173"/>
+        <title>Titulus 4</title>
+        <questionTitle>De acceptilatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4185" alias="bgy6gt-l46t5">
+        <fileName filestem="bgy6gt-d1e4185"/>
+        <title>Titulus 5</title>
+        <questionTitle>De stipulationibus praetoriis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4196" alias="bgy6gt-l46t6">
+        <fileName filestem="bgy6gt-d1e4196"/>
+        <title>Titulus 6</title>
+        <questionTitle>Rem pupilli vel adulescentis salvam fore.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4207" alias="bgy6gt-l46t7">
+        <fileName filestem="bgy6gt-d1e4207"/>
+        <title>Titulus 7</title>
+        <questionTitle>Iudicatum solvi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4218" alias="bgy6gt-l46t8">
+        <fileName filestem="bgy6gt-d1e4218"/>
+        <title>Titulus 8</title>
+        <questionTitle>Ratam rem haberi et de ratihabitione.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4230" alias="bgy6gt-l47">
+      <head>Liber 47</head>
+      <item id="bgy6gt-d1e4235" alias="bgy6gt-l47t1">
+        <fileName filestem="bgy6gt-d1e4235"/>
+        <title>Titulus 1</title>
+        <questionTitle>De privatis delictis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4246" alias="bgy6gt-l47t2">
+        <fileName filestem="bgy6gt-d1e4246"/>
+        <title>Titulus 2</title>
+        <questionTitle>De furtis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4257" alias="bgy6gt-l47t3">
+        <fileName filestem="bgy6gt-d1e4257"/>
+        <title>Titulus 3</title>
+        <questionTitle>De tigno iuncto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4268" alias="bgy6gt-l47t4">
+        <fileName filestem="bgy6gt-d1e4268"/>
+        <title>Titulus 4</title>
+        <questionTitle>Si is, qui testamento liber esse iussus erit (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4280" alias="bgy6gt-l47t5">
+        <fileName filestem="bgy6gt-d1e4280"/>
+        <title>Titulus 5</title>
+        <questionTitle>Furti adversus nautas caupones stabularios.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4291" alias="bgy6gt-l47t6">
+        <fileName filestem="bgy6gt-d1e4291"/>
+        <title>Titulus 6</title>
+        <questionTitle>Si familia furtum fecisse dicetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4302" alias="bgy6gt-l47t7">
+        <fileName filestem="bgy6gt-d1e4302"/>
+        <title>Titulus 7</title>
+        <questionTitle>Arborum furtim caesarum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4313" alias="bgy6gt-l47t8">
+        <fileName filestem="bgy6gt-d1e4313"/>
+        <title>Titulus 8</title>
+        <questionTitle>Vi bonorum raptorum et de turba.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4324" alias="bgy6gt-l47t9">
+        <fileName filestem="bgy6gt-d1e4324"/>
+        <title>Titulus 9</title>
+        <questionTitle>De incendio ruina naufragio rate nave expugnata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4335" alias="bgy6gt-l47t10">
+        <fileName filestem="bgy6gt-d1e4335"/>
+        <title>Titulus 10</title>
+        <questionTitle>De iniuriis et famosis libellis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4347" alias="bgy6gt-l47t11">
+        <fileName filestem="bgy6gt-d1e4347"/>
+        <title>Titulus 11</title>
+        <questionTitle>De extraordinariis criminibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4358" alias="bgy6gt-l47t12">
+        <fileName filestem="bgy6gt-d1e4358"/>
+        <title>Titulus 12</title>
+        <questionTitle>De sepulchro violato.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4369" alias="bgy6gt-l47t13">
+        <fileName filestem="bgy6gt-d1e4369"/>
+        <title>Titulus 13</title>
+        <questionTitle>De concussione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4380" alias="bgy6gt-l47t14">
+        <fileName filestem="bgy6gt-d1e4380"/>
+        <title>Titulus 14</title>
+        <questionTitle>De abigeis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4391" alias="bgy6gt-l47t15">
+        <fileName filestem="bgy6gt-d1e4391"/>
+        <title>Titulus 15</title>
+        <questionTitle>De praevaricatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4402" alias="bgy6gt-l47t16">
+        <fileName filestem="bgy6gt-d1e4402"/>
+        <title>Titulus 16</title>
+        <questionTitle>De receptatoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4414" alias="bgy6gt-l47t17">
+        <fileName filestem="bgy6gt-d1e4414"/>
+        <title>Titulus 17</title>
+        <questionTitle>De furibus balneariis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4425" alias="bgy6gt-l47t18">
+        <fileName filestem="bgy6gt-d1e4425"/>
+        <title>Titulus 18</title>
+        <questionTitle>De effractoribus et expilatoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4436" alias="bgy6gt-l47t19">
+        <fileName filestem="bgy6gt-d1e4436"/>
+        <title>Titulus 19</title>
+        <questionTitle>Expilatae hereditatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4447" alias="bgy6gt-l47t20">
+        <fileName filestem="bgy6gt-d1e4447"/>
+        <title>Titulus 20</title>
+        <questionTitle>Stellionatus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4458" alias="bgy6gt-l47t21">
+        <fileName filestem="bgy6gt-d1e4458"/>
+        <title>Titulus 21</title>
+        <questionTitle>De termino moto.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4469" alias="bgy6gt-l47t22">
+        <fileName filestem="bgy6gt-d1e4469"/>
+        <title>Titulus 22</title>
+        <questionTitle>De collegiis et corporibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4481" alias="bgy6gt-l47t23">
+        <fileName filestem="bgy6gt-d1e4481"/>
+        <title>Titulus 23</title>
+        <questionTitle>De popularibus actionibus.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4494" alias="bgy6gt-l48">
+      <head>Liber 48</head>
+      <item id="bgy6gt-d1e4499" alias="bgy6gt-l48t1">
+        <fileName filestem="bgy6gt-d1e4499"/>
+        <title>Titulus 1</title>
+        <questionTitle>De publicis iudiciis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4510" alias="bgy6gt-l48t2">
+        <fileName filestem="bgy6gt-d1e4510"/>
+        <title>Titulus 2</title>
+        <questionTitle>De accusationibus et inscriptionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4521" alias="bgy6gt-l48t3">
+        <fileName filestem="bgy6gt-d1e4521"/>
+        <title>Titulus 3</title>
+        <questionTitle>De custodia et exhibitione reorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4532" alias="bgy6gt-l48t4">
+        <fileName filestem="bgy6gt-d1e4532"/>
+        <title>Titulus 4</title>
+        <questionTitle>Ad legem Iuliam maiestatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4544" alias="bgy6gt-l48t5">
+        <fileName filestem="bgy6gt-d1e4544"/>
+        <title>Titulus 5</title>
+        <questionTitle>Ad legem Iuliam de adulteriis coercendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4555" alias="bgy6gt-l48t6">
+        <fileName filestem="bgy6gt-d1e4555"/>
+        <title>Titulus 6</title>
+        <questionTitle>Ad legem Iuliam de vi publica.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4566" alias="bgy6gt-l48t7">
+        <fileName filestem="bgy6gt-d1e4566"/>
+        <title>Titulus 7</title>
+        <questionTitle>Ad legem Iuliam de vi privata.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4577" alias="bgy6gt-l48t8">
+        <fileName filestem="bgy6gt-d1e4577"/>
+        <title>Titulus 8</title>
+        <questionTitle>Ad legem Corneliam de siccariis et veneficis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4588" alias="bgy6gt-l48t9">
+        <fileName filestem="bgy6gt-d1e4588"/>
+        <title>Titulus 9</title>
+        <questionTitle>De lege Pompeia de parricidiis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4599" alias="bgy6gt-l48t10">
+        <fileName filestem="bgy6gt-d1e4599"/>
+        <title>Titulus 10</title>
+        <questionTitle>De lege Cornelia de falsis et de senatus consulto liboniano.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4611" alias="bgy6gt-l48t11">
+        <fileName filestem="bgy6gt-d1e4611"/>
+        <title>Titulus 11</title>
+        <questionTitle>De lege Iulia repetundarum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4622" alias="bgy6gt-l48t12">
+        <fileName filestem="bgy6gt-d1e4622"/>
+        <title>Titulus 12</title>
+        <questionTitle>De lege Iulia de annona.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4633" alias="bgy6gt-l48t13">
+        <fileName filestem="bgy6gt-d1e4633"/>
+        <title>Titulus 13</title>
+        <questionTitle>Ad legem Iuliam peculatus et de sacrilegis et de residuis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4644" alias="bgy6gt-l48t14">
+        <fileName filestem="bgy6gt-d1e4644"/>
+        <title>Titulus 14</title>
+        <questionTitle>De lege Iulia ambitus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4655" alias="bgy6gt-l48t15">
+        <fileName filestem="bgy6gt-d1e4655"/>
+        <title>Titulus 15</title>
+        <questionTitle>De lege Fabia de plagiariis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4666" alias="bgy6gt-l48t16">
+        <fileName filestem="bgy6gt-d1e4666"/>
+        <title>Titulus 16</title>
+        <questionTitle>Ad senatus consultum Turpillianum et de abolitionibus
+          criminum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4678" alias="bgy6gt-l48t17">
+        <fileName filestem="bgy6gt-d1e4678"/>
+        <title>Titulus 17</title>
+        <questionTitle>De requirendis vel absentibus damnandis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4689" alias="bgy6gt-l48t18">
+        <fileName filestem="bgy6gt-d1e4689"/>
+        <title>Titulus 18</title>
+        <questionTitle>De quaestionibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4700" alias="bgy6gt-l48t19">
+        <fileName filestem="bgy6gt-d1e4700"/>
+        <title>Titulus 19</title>
+        <questionTitle>De poenis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4711" alias="bgy6gt-l48t20">
+        <fileName filestem="bgy6gt-d1e4711"/>
+        <title>Titulus 20</title>
+        <questionTitle>De bonis damnatorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4722" alias="bgy6gt-l48t21">
+        <fileName filestem="bgy6gt-d1e4722"/>
+        <title>Titulus 21</title>
+        <questionTitle>De bonis eorum, qui ante sententiam vel mortem (..)</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4733" alias="bgy6gt-l48t22">
+        <fileName filestem="bgy6gt-d1e4733"/>
+        <title>Titulus 22</title>
+        <questionTitle>De interdictis et relegatis et deportatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4745" alias="bgy6gt-l48t23">
+        <fileName filestem="bgy6gt-d1e4745"/>
+        <title>Titulus 23</title>
+        <questionTitle>De sententiam passis et restitutis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4756" alias="bgy6gt-l48t24">
+        <fileName filestem="bgy6gt-d1e4756"/>
+        <title>Titulus 24</title>
+        <questionTitle>De cadaveribus punitorum.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4768" alias="bgy6gt-l49">
+      <head>Liber 49</head>
+      <item id="bgy6gt-d1e4773" alias="bgy6gt-l49t1">
+        <fileName filestem="bgy6gt-d1e4773"/>
+        <title>Titulus 1</title>
+        <questionTitle>De appellationibus et relegationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4784" alias="bgy6gt-l49t2">
+        <fileName filestem="bgy6gt-d1e4784"/>
+        <title>Titulus 2</title>
+        <questionTitle>A quibus appellari non licet.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4795" alias="bgy6gt-l49t3">
+        <fileName filestem="bgy6gt-d1e4795"/>
+        <title>Titulus 3</title>
+        <questionTitle>Quis a quo appelletur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4806" alias="bgy6gt-l49t4">
+        <fileName filestem="bgy6gt-d1e4806"/>
+        <title>Titulus 4</title>
+        <questionTitle>Quando appellandum sit et intra quae tempora.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4818" alias="bgy6gt-l49t5">
+        <fileName filestem="bgy6gt-d1e4818"/>
+        <title>Titulus 5</title>
+        <questionTitle>De appellationibus recipiendis vel non.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4829" alias="bgy6gt-l49t6">
+        <fileName filestem="bgy6gt-d1e4829"/>
+        <title>Titulus 6</title>
+        <questionTitle>De libellis dimissoriis, qui apostoli dicuntur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4840" alias="bgy6gt-l49t7">
+        <fileName filestem="bgy6gt-d1e4840"/>
+        <title>Titulus 7</title>
+        <questionTitle>Nihil innovari appellatione interposita.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4851" alias="bgy6gt-l49t8">
+        <fileName filestem="bgy6gt-d1e4851"/>
+        <title>Titulus 8</title>
+        <questionTitle>Quae sententiae sine appellatione rescindantur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4862" alias="bgy6gt-l49t9">
+        <fileName filestem="bgy6gt-d1e4862"/>
+        <title>Titulus 9</title>
+        <questionTitle>An per alium causae appellationum reddi possunt.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4873" alias="bgy6gt-l49t10">
+        <fileName filestem="bgy6gt-d1e4873"/>
+        <title>Titulus 10</title>
+        <questionTitle>Si tutor vel curator magistratusve creatus appellaverit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4885" alias="bgy6gt-l49t11">
+        <fileName filestem="bgy6gt-d1e4885"/>
+        <title>Titulus 11</title>
+        <questionTitle>Eum qui appellaverit in provincia defendi.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4896" alias="bgy6gt-l49t12">
+        <fileName filestem="bgy6gt-d1e4896"/>
+        <title>Titulus 12</title>
+        <questionTitle>Apud eum, a quo appellatur, aliam causam agere compellendum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4907" alias="bgy6gt-l49t13">
+        <fileName filestem="bgy6gt-d1e4907"/>
+        <title>Titulus 13</title>
+        <questionTitle>Si pendente appellatione mors intervenerit.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4918" alias="bgy6gt-l49t14">
+        <fileName filestem="bgy6gt-d1e4918"/>
+        <title>Titulus 14</title>
+        <questionTitle>De iure fisci.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4929" alias="bgy6gt-l49t15">
+        <fileName filestem="bgy6gt-d1e4929"/>
+        <title>Titulus 15</title>
+        <questionTitle>De captivis et de postliminio et redemptis ab hostibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4940" alias="bgy6gt-l49t16">
+        <fileName filestem="bgy6gt-d1e4940"/>
+        <title>Titulus 16</title>
+        <questionTitle>De re militari.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4952" alias="bgy6gt-l49t17">
+        <fileName filestem="bgy6gt-d1e4952"/>
+        <title>Titulus 17</title>
+        <questionTitle>De castrensi peculio.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4963" alias="bgy6gt-l49t18">
+        <fileName filestem="bgy6gt-d1e4963"/>
+        <title>Titulus 18</title>
+        <questionTitle>De veteranis.</questionTitle>
+      </item>
+    </div>
+    <div id="bgy6gt-d1e4975" alias="bgy6gt-l50">
+      <head>Liber 50</head>
+      <item id="bgy6gt-d1e4980" alias="bgy6gt-l50t1">
+        <fileName filestem="bgy6gt-d1e4980"/>
+        <title>Titulus 1</title>
+        <questionTitle>Ad municipalem et de incolis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e4991" alias="bgy6gt-l50t2">
+        <fileName filestem="bgy6gt-d1e4991"/>
+        <title>Titulus 2</title>
+        <questionTitle>De decurionibus et filiis eorum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5002" alias="bgy6gt-l50t3">
+        <fileName filestem="bgy6gt-d1e5002"/>
+        <title>Titulus 3</title>
+        <questionTitle>De albo scribendo.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5013" alias="bgy6gt-l50t4">
+        <fileName filestem="bgy6gt-d1e5013"/>
+        <title>Titulus 4</title>
+        <questionTitle>De muneribus et honoribus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5025" alias="bgy6gt-l50t5">
+        <fileName filestem="bgy6gt-d1e5025"/>
+        <title>Titulus 5</title>
+        <questionTitle>De vacatione et excusatione munerum.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5036" alias="bgy6gt-l50t6">
+        <fileName filestem="bgy6gt-d1e5036"/>
+        <title>Titulus 6</title>
+        <questionTitle>De iure immunitatis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5047" alias="bgy6gt-l50t7">
+        <fileName filestem="bgy6gt-d1e5047"/>
+        <title>Titulus 7</title>
+        <questionTitle>De legationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5058" alias="bgy6gt-l50t8">
+        <fileName filestem="bgy6gt-d1e5058"/>
+        <title>Titulus 8</title>
+        <questionTitle>De administratione rerum ad civitates pertinentium.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5069" alias="bgy6gt-l50t9">
+        <fileName filestem="bgy6gt-d1e5069"/>
+        <title>Titulus 9</title>
+        <questionTitle>De decretis ab ordine faciendis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5080" alias="bgy6gt-l50t10">
+        <fileName filestem="bgy6gt-d1e5080"/>
+        <title>Titulus 10</title>
+        <questionTitle>De operibus publicis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5092" alias="bgy6gt-l50t11">
+        <fileName filestem="bgy6gt-d1e5092"/>
+        <title>Titulus 11</title>
+        <questionTitle>De nundinis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5103" alias="bgy6gt-l50t12">
+        <fileName filestem="bgy6gt-d1e5103"/>
+        <title>Titulus 12</title>
+        <questionTitle>De pollicitationibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5114" alias="bgy6gt-l50t13">
+        <fileName filestem="bgy6gt-d1e5114"/>
+        <title>Titulus 13</title>
+        <questionTitle>De variis et extraordinariis cognitionibus et si iudex litem suam fecisse
+          dicetur.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5125" alias="bgy6gt-l50t14">
+        <fileName filestem="bgy6gt-d1e5125"/>
+        <title>Titulus 14</title>
+        <questionTitle>De proxeneticis.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5136" alias="bgy6gt-l50t15">
+        <fileName filestem="bgy6gt-d1e5136"/>
+        <title>Titulus 15</title>
+        <questionTitle>De censibus.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5147" alias="bgy6gt-l50t16">
+        <fileName filestem="bgy6gt-d1e5147"/>
+        <title>Titulus 16</title>
+        <questionTitle>De verborum significatione.</questionTitle>
+      </item>
+      <item id="bgy6gt-d1e5159" alias="bgy6gt-l50t17">
+        <fileName filestem="bgy6gt-d1e5159"/>
+        <title>Titulus 17</title>
+        <questionTitle>De diversis regulis iuris antiqui.</questionTitle>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
