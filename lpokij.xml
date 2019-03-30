@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Francisco de Herrera</authorName>
+    <commentaryName>Manuale theologicum</commentaryName>
+    <commentaryid>lpokij</commentaryid>
+    <commentaryslug>lpokij</commentaryslug>
+    <alias>franciscoDeHerreraSententiae</alias>
+    <authorUri>http://scta.info/resource/FranciscoDeHerrera</authorUri>
+    <parentUri>http://scta.info/resource/lpokij</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/lpokij/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> 
+      <!-- Barcelona 1611: https://books.google.com/books?id=JZ-JykEPAFMC-->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="lpokij-d1e53" alias="lpokij-prooem">
+      <fileName filestem="lpokij-d1e53"/>
+      <title>Prohemium</title>
+    </item>
+    <div id="lpokij-d1e61" alias="lpokij-l1" type="liber1">
+      <head>Liber 1</head>
+      <item id="lpokij-d1e66" alias="lpokij-l1c1">
+        <fileName filestem="lpokij-d1e66"/>
+        <title>Caput 1</title>
+        <questionTitle>De Deo</questionTitle>
+      </item>
+      <item id="lpokij-d1e77" alias="lpokij-l1c2">
+        <fileName filestem="lpokij-d1e77"/>
+        <title>Caput 2</title>
+        <questionTitle>De scientia Dei</questionTitle>
+      </item>
+      <item id="lpokij-d1e88" alias="lpokij-l1c3">
+        <fileName filestem="lpokij-d1e88"/>
+        <title>Caput 3</title>
+        <questionTitle>De voluntate Divina</questionTitle>
+        <!-- B: p 32 -->
+      </item>
+      <item id="lpokij-d1e101" alias="lpokij-l1c4">
+        <fileName filestem="lpokij-d1e101"/>
+        <title>Caput 4</title>
+        <questionTitle>De Praedestinatione</questionTitle>
+        <!-- B: p 41 -->
+      </item>
+      <item id="lpokij-d1e115" alias="lpokij-l1c5">
+        <fileName filestem="lpokij-d1e115"/>
+        <title>Caput 5</title>
+        <questionTitle>De personis divinis</questionTitle>
+        <!-- B: p 60 -->
+      </item>
+    </div>
+    <div id="lpokij-d1e129" alias="lpokij-l2" type="liber2">
+      <head>Liber 2</head>
+      <item id="lpokij-d1e134" alias="lpokij-l2c1">
+        <fileName filestem="lpokij-d1e134"/>
+        <title>Caput 1</title>
+        <questionTitle>De creatione</questionTitle>
+        <!-- B: p 89 -->
+      </item>
+      <item id="lpokij-d1e147" alias="lpokij-l2c2">
+        <fileName filestem="lpokij-d1e147"/>
+        <title>Caput 2</title>
+        <questionTitle>De angelis</questionTitle>
+        <!-- B: p 110 -->
+      </item>
+      <item id="lpokij-d1e160" alias="lpokij-l2c3">
+        <fileName filestem="lpokij-d1e160"/>
+        <title>Caput 3</title>
+        <questionTitle>De Beatitudine</questionTitle>
+        <!-- B: p 136 -->
+      </item>
+      <item id="lpokij-d1e173" alias="lpokij-l2c4">
+        <fileName filestem="lpokij-d1e173"/>
+        <title>Caput 4</title>
+        <questionTitle>De bonitate et malitiae humana et actuum</questionTitle>
+        <!-- B: 155 -->
+      </item>
+      <item id="lpokij-d1e187" alias="lpokij-l2c5">
+        <fileName filestem="lpokij-d1e187"/>
+        <title>Caput 5</title>
+        <questionTitle>De gratia Dei</questionTitle>
+        <!-- B: p 196 -->
+      </item>
+    </div>
+    <div id="lpokij-d1e201" alias="lpokij-l3" type="liber3">
+      <head>Liber 3</head>
+      <item id="lpokij-d1e206" alias="lpokij-l3c1">
+        <fileName filestem="lpokij-d1e206"/>
+        <title>Caput 1</title>
+        <questionTitle>De Incarnatione</questionTitle>
+        <!-- B: p 218 -->
+      </item>
+      <item id="lpokij-d1e219" alias="lpokij-l3c2">
+        <fileName filestem="lpokij-d1e219"/>
+        <title>Caput 2</title>
+        <questionTitle>De gratia Christi</questionTitle>
+        <!-- B: p 237 -->
+      </item>
+      <item id="lpokij-d1e232" alias="lpokij-l3c3">
+        <fileName filestem="lpokij-d1e232"/>
+        <title>Caput 3</title>
+        <questionTitle>De scientia Christi</questionTitle>
+        <!-- B: p 245 -->
+      </item>
+      <item id="lpokij-d1e245" alias="lpokij-l3c4">
+        <fileName filestem="lpokij-d1e245"/>
+        <title>Caput 4</title>
+        <questionTitle>De merito et satisfactione Christi</questionTitle>
+        <!-- B: p 252 -->
+      </item>
+      <item id="lpokij-d1e259" alias="lpokij-l3c5">
+        <fileName filestem="lpokij-d1e259"/>
+        <title>Caput 5</title>
+        <questionTitle>De fide</questionTitle>
+        <!-- B: p 254 -->
+      </item>
+      <item id="lpokij-d1e272" alias="lpokij-l3c6">
+        <fileName filestem="lpokij-d1e272"/>
+        <title>Caput 6</title>
+        <questionTitle>De spe et charitate</questionTitle>
+        <!-- B: p 260 -->
+      </item>
+    </div>
+    <div id="lpokij-d1e286" alias="lpokij-l4" type="liber4">
+      <head>Liber 4</head>
+      <item id="lpokij-d1e291" alias="lpokij-l4c1">
+        <fileName filestem="lpokij-d1e291"/>
+        <title>Caput 1</title>
+        <questionTitle>De sacramentis in genere</questionTitle>
+        <!-- B: p 271 -->
+      </item>
+      <item id="lpokij-d1e304" alias="lpokij-l4c2">
+        <fileName filestem="lpokij-d1e304"/>
+        <title>Caput 2</title>
+        <questionTitle>De baptismo</questionTitle>
+        <!-- B: p 279 -->
+      </item>
+      <item id="lpokij-d1e317" alias="lpokij-l4c3">
+        <fileName filestem="lpokij-d1e317"/>
+        <title>Caput 3</title>
+        <questionTitle>De Confirmatione</questionTitle>
+        <!-- B: p 285 -->
+      </item>
+      <item id="lpokij-d1e330" alias="lpokij-l4c4">
+        <fileName filestem="lpokij-d1e330"/>
+        <title>Caput 4</title>
+        <questionTitle>De Eucharistia</questionTitle>
+        <!-- B: p 287 -->
+      </item>
+      <item id="lpokij-d1e344" alias="lpokij-l4c5">
+        <fileName filestem="lpokij-d1e344"/>
+        <title>Caput 5</title>
+        <questionTitle>De Poenitentia</questionTitle>
+        <!-- B: p 307 -->
+      </item>
+      
+    </div>
+  </div>
+</listofFileNames>
