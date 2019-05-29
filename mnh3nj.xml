@@ -1,231 +1,232 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
-    <header>
-        <authorName>Robert of Cricklade</authorName>
-        <commentaryName>Speculum fidei</commentaryName>
-        <commentaryid>mnh3nj</commentaryid>
-        <commentaryslug>mnh3nj</commentaryslug>
-        <alias>CrickladeSpeculumFidei</alias>
-        <authorUri>http://scta.info/resource/RobertOfCricklade</authorUri>
-        <parentUri>http://scta.info/resource/mnh3nj</parentUri>
-        <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/mnh3nj/</textfilesdir>
-        <questionListSource/>
-        <questionListOriginalEditor/>
-        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Robert of Cricklade</authorName>
+    <commentaryName>Speculum fidei</commentaryName>
+    <commentaryid>mnh3nj</commentaryid>
+    <commentaryslug>mnh3nj</commentaryslug>
+    <alias>CrickladeSpeculumFidei</alias>
+    <authorUri>http://scta.info/resource/RobertOfCricklade</authorUri>
+    <parentUri>http://scta.info/resource/mnh3nj</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/mnh3nj/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="C">
+        <slug>cod-hgt67y</slug>
+        <!-- not yet created -->
+        <title>Cambridge, Corpus Christi College, MS 380</title>
+        <initial>C</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="mnh3nj-d1e65" alias="mnh3nj-prol">
+      <fileName filestem="mnh3nj-d1e65"/>
+      <title>Prologus</title>
+    </item>
+    <div id="mnh3nj-d1e73" alias="mnh3nj-l1">
+      <head>Liber 1</head>
+      <item id="mnh3nj-d1e78" alias="mnh3nj-l1prae">
+        <fileName filestem="mnh3nj-d1e78"/>
+        <title>Praefatio</title>
         <hasWitnesses>
-            <witness id="C">
-                <slug>cod-hgt67y</slug>
-                <!-- not yet created -->
-                <title>Cambridge, Corpus Christi College, MS 380</title>
-                <initial>C</initial>
-            </witness>
+          <witness ref="#C">
+            <folio>2r</folio>
+          </witness>
         </hasWitnesses>
-    </header>
-    <div id="body">
-        <item id="mnh3nj-d1e65" alias="mnh3nj-prol">
-            <fileName filestem="mnh3nj-d1e65"/>
-            <title>Prologus</title>
-        </item>
-        <div id="mnh3nj-d1e73" alias="mnh3nj-l1">
-            <head>Liber 1</head>
-            <item id="mnh3nj-d1e78" alias="mnh3nj-l1prae">
-                <fileName filestem="mnh3nj-d1e78"/>
-                <title>Praefatio</title>
-                <hasWitnesses>
-                    <witness ref="#C">
-                        <folio>2r</folio>
-                    </witness>
-                </hasWitnesses>
-            </item>
-            <item id="mnh3nj-d1e86" alias="mnh3nj-l1c1">
-                <fileName filestem="mnh3nj-d1e86"/>
-                <title>Capitulum 1</title>
-                <questionTitle>
-                    Quod unus deus sit colendus. et quod in prima deceptione suggessit diabolus idolatriam. 
-                    et quod deceptus homo amittendo immortalitatem per experientiam didicit 
-                    bonum et malum.
-                </questionTitle>
-                <hasWitnesses>
-                    <witness ref="#C">
-                        <folio>3r</folio>
-                    </witness>
-                </hasWitnesses>
-            </item>
-            <item id="mnh3nj-d1e97" alias="mnh3nj-l1c2">
-                <fileName filestem="mnh3nj-d1e97"/>
-                <title>Capitulum 2</title>
-                <questionTitle>
-                    Quomodo intelligendum sit quod per serpentem locutus sit diabolus.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e108" alias="mnh3nj-l1c3">
-                <fileName filestem="mnh3nj-d1e108"/>
-                <title>Capitulum 3</title>
-                <questionTitle>
-                    De infidelitate Cain et fide Abel. et quare filii Cain dicti sunt filii hominum.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e120" alias="mnh3nj-l1c4">
-                <fileName filestem="mnh3nj-d1e120"/>
-                <title>Capitulum 4</title>
-                <questionTitle>
-                    De successione seth qui successit abel. et quod de eius successione natus est cristus. et quod successores seth filii dei uocati sunt.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e131" alias="mnh3nj-l1c5">
-                <fileName filestem="mnh3nj-d1e131"/>
-                <title>Capitulum 5</title>
-                <questionTitle>Quid sit quod deus non dixit absolute malicia. sed multa malicia. et quod filii dei in infidelitatem corruerunt per filias hominum quas 
-                    acceperant. et quod adam per mulierem inobediens factus est⸵ salomon 
-                    autem per mulieres idolis seruiuit.</questionTitle>
-            </item>
-            <item id="mnh3nj-d1e142" alias="mnh3nj-l1c6">
-                <fileName filestem="mnh3nj-d1e142"/>
-                <title>Capitulum 6</title>
-                <questionTitle>
-                    Quod omnes ab adam usque ad noe primogeniti fuerunt preter seth⸵
-                    nec quisquam eorum se miscuit filiabus hominum. immo illi qui erant 
-                    ex latere. Item quomodo intelligendum sit spiritualiter quod lamech ait 
-                    de noe⸵ hic consolabitur nos in terra cui maledixit deus. et quomodo 
-                    id idem intelligendum sit ad litteram.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e153" alias="mnh3nj-l1c7">
-                <fileName filestem="mnh3nj-d1e153"/>
-                <title>Capitulum 7</title>
-                <questionTitle> Vt speculetur quantum iuuet fides. et de noe et de familia sua. de
-                    holocausto et de altari quod erexit.</questionTitle>
-            </item>
-            <item id="mnh3nj-d1e164" alias="mnh3nj-l1c8">
-                <fileName filestem="mnh3nj-d1e164"/>
-                <title>Capitulum 8</title>
-                <questionTitle>
-                    De idolis manufactis. a quo uel a quibus fuerint instituta.
-                    secundum opinionem ethnicorum.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e175" alias="mnh3nj-l1c9">
-                <fileName filestem="mnh3nj-d1e175"/>
-                <title>Capitulum 9</title>
-                <questionTitle>
-                    De laban qui legitur primus habuisse idola. de achior principe filiorum 
-                    amon⸵ de abraham et fratre eius aram.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e187" alias="mnh3nj-l1c10">
-                <fileName filestem="mnh3nj-d1e187"/>
-                <title>Capitulum 10</title>
-                <questionTitle>
-                    De iacob qui precepit filiis suis abicere idola. et de uitulo fabricato ab 
-                    aaron. et de uitulis quos fecit ieroboam rex israhel.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e198" alias="mnh3nj-l1c11">
-                <fileName filestem="mnh3nj-d1e198"/>
-                <title>Capitulum 11</title>
-                <questionTitle>
-                    De contricione regum et populi pro idolis. et de excessu ieroboam et miraculo 
-                    in eum facto.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e209" alias="mnh3nj-l1c12">
-                <fileName filestem="mnh3nj-d1e209"/>
-                <title>Capitulum 12</title>
-                <questionTitle>
-                    De achab et malicia eius. et de elya propheta qui prohibuit pluuiam de celo.
-                    et quomodo occurrit achab. et de sacrificio quod fecerunt sacerdotes baal.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e220" alias="mnh3nj-l1c13">
-                <fileName filestem="mnh3nj-d1e220"/>
-                <title>Capitulum 13</title>
-                <questionTitle>
-                    De irrisione qua irrisit elyas sacerdotes baal. et de igne qui eo orante deuorauit holocaustum. et de populi confessione et sacerdotum baal
-                    interfectione. et de pluuia impetrata.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e231" alias="mnh3nj-l1c14">
-                <fileName filestem="mnh3nj-d1e231"/>
-                <title>Capitulum 14</title>
-                <questionTitle>
-                    De elya qui fugit in desertum. pro minis iezabel. et quod timor sanctorum proficit
-                    eis ad salutem.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e242" alias="mnh3nj-l1c15">
-                <fileName filestem="mnh3nj-d1e242"/>
-                <title>Capitulum 15</title>
-                <questionTitle>
-                    De captiuitate regum israhel. et translatione populi in assirios. et 
-                    quod substitutus populus pro eis samaritani dicti sunt.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e254" alias="mnh3nj-l1c16">
-                <fileName filestem="mnh3nj-d1e254"/>
-                <title>Capitulum 16</title>
-                <questionTitle>
-                    De regibus iuda et de precipuis eorum. et quare quidam dicti sunt reges iuda et alii reges israhel. et de ozia rege qui lepra percussus fuit. et quod
-                    in captiuitatem ducti sunt et reducti.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e265" alias="mnh3nj-l1c17">
-                <fileName filestem="mnh3nj-d1e265"/>
-                <title>Capitulum 17</title>
-                <questionTitle>
-                    De supersticione gentilium. et quod habuerunt legem naturalem cum 
-                    ratione et intellectu. quo intellexerunt unum fuisse creatorem omnium.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e276" alias="mnh3nj-l1c18">
-                <fileName filestem="mnh3nj-d1e276"/>
-                <title>Capitulum 18</title>
-                <questionTitle>
-                    Quod omnia creauit deus. qui ab omni creatura sua uenerandus est. 
-                    et de auctoritate scripturarum id confirmantium. et de cristo quod 
-                    ipse non sit deus recens neque alienus.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e287" alias="mnh3nj-l1c19">
-                <fileName filestem="mnh3nj-d1e287"/>
-                <title>Capitulum 19</title>
-                <questionTitle>
-                    Quod deus solus facit mirabilia. quamuis aliquando per sanctos eius fiant. 
-                    et quod ipse solus sit deus. et non alius⸵ et de testimonio nabuchodonosor
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e298" alias="mnh3nj-l1c20">
-                <fileName filestem="mnh3nj-d1e298"/>
-                <title>Capitulum 20</title>
-                <questionTitle>
-                    De scripturis gentilium. quod unus sit deus⸵ et quod tamen euanuerunt in 
-                    cogitationibus suis.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e309" alias="mnh3nj-l1c21">
-                <fileName filestem="mnh3nj-d1e309"/>
-                <title>Capitulum 21</title>
-                <questionTitle>
-                    De sententia diuina que dicta est ad noe⸵
-                    quod cogitatio hominis prona est ad malum.
-                </questionTitle>
-            </item>
-            <item id="mnh3nj-d1e321" alias="mnh3nj-l1c22">
-                <fileName filestem="mnh3nj-d1e321"/>
-                <title>Capitulum 22</title>
-                <questionTitle>
-                    De testimoniis noui testamenti⸵ quod unus sit deus.
-                </questionTitle>
-            </item>
-        </div>
-        <div id="mnh3nj-d1e333" alias="mnh3nj-l2">
-            <head>Liber 2</head>
-        </div>
-        <div id="mnh3nj-d1e339" alias="mnh3nj-l3">
-            <head>Liber 3</head>
-        </div>
-        <div id="mnh3nj-d1e345" alias="mnh3nj-l4">
-            <head>Liber 4</head>
-        </div>
+      </item>
+      <item id="mnh3nj-d1e86" alias="mnh3nj-l1c1">
+        <fileName filestem="mnh3nj-d1e86"/>
+        <title>Capitulum 1</title>
+        <questionTitle>
+          Quod unus deus sit colendus. et quod in prima deceptione suggessit diabolus idolatriam. 
+          et quod deceptus homo amittendo immortalitatem per experientiam didicit 
+          bonum et malum.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#C">
+            <folio>3r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="mnh3nj-d1e97" alias="mnh3nj-l1c2">
+        <fileName filestem="mnh3nj-d1e97"/>
+        <title>Capitulum 2</title>
+        <questionTitle>
+          Quomodo intelligendum sit quod per serpentem locutus sit diabolus.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e108" alias="mnh3nj-l1c3">
+        <fileName filestem="mnh3nj-d1e108"/>
+        <title>Capitulum 3</title>
+        <questionTitle>
+          De infidelitate Cain et fide Abel. et quare filii Cain dicti sunt filii hominum.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e120" alias="mnh3nj-l1c4">
+        <fileName filestem="mnh3nj-d1e120"/>
+        <title>Capitulum 4</title>
+        <questionTitle>
+          De successione seth qui successit abel. et quod de eius successione natus est cristus. et quod successores seth filii dei uocati sunt.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e131" alias="mnh3nj-l1c5">
+        <fileName filestem="mnh3nj-d1e131"/>
+        <title>Capitulum 5</title>
+        <questionTitle>Quid sit quod deus non dixit absolute malicia. sed multa malicia. et quod filii dei in infidelitatem corruerunt per filias hominum quas 
+          acceperant. et quod adam per mulierem inobediens factus est⸵ salomon 
+          autem per mulieres idolis seruiuit.</questionTitle>
+      </item>
+      <item id="mnh3nj-d1e142" alias="mnh3nj-l1c6">
+        <fileName filestem="mnh3nj-d1e142"/>
+        <title>Capitulum 6</title>
+        <questionTitle>
+          Quod omnes ab adam usque ad noe primogeniti fuerunt preter seth⸵
+          nec quisquam eorum se miscuit filiabus hominum. immo illi qui erant 
+          ex latere. Item quomodo intelligendum sit spiritualiter quod lamech ait 
+          de noe⸵ hic consolabitur nos in terra cui maledixit deus. et quomodo 
+          id idem intelligendum sit ad litteram.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e153" alias="mnh3nj-l1c7">
+        <fileName filestem="mnh3nj-d1e153"/>
+        <title>Capitulum 7</title>
+        <questionTitle> Vt speculetur quantum iuuet fides. et de noe et de familia sua. de
+          holocausto et de altari quod erexit.</questionTitle>
+      </item>
+      <item id="mnh3nj-d1e164" alias="mnh3nj-l1c8">
+        <fileName filestem="mnh3nj-d1e164"/>
+        <title>Capitulum 8</title>
+        <questionTitle>
+          De idolis manufactis. a quo uel a quibus fuerint instituta.
+          secundum opinionem ethnicorum.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e175" alias="mnh3nj-l1c9">
+        <fileName filestem="mnh3nj-d1e175"/>
+        <title>Capitulum 9</title>
+        <questionTitle>
+          De laban qui legitur primus habuisse idola. de achior principe filiorum 
+          amon⸵ de abraham et fratre eius aram.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e187" alias="mnh3nj-l1c10">
+        <fileName filestem="mnh3nj-d1e187"/>
+        <title>Capitulum 10</title>
+        <questionTitle>
+          De iacob qui precepit filiis suis abicere idola. et de uitulo fabricato ab 
+          aaron. et de uitulis quos fecit ieroboam rex israhel.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e198" alias="mnh3nj-l1c11">
+        <fileName filestem="mnh3nj-d1e198"/>
+        <title>Capitulum 11</title>
+        <questionTitle>
+          De contricione regum et populi pro idolis. et de excessu ieroboam et miraculo 
+          in eum facto.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e209" alias="mnh3nj-l1c12">
+        <fileName filestem="mnh3nj-d1e209"/>
+        <title>Capitulum 12</title>
+        <questionTitle>
+          De achab et malicia eius. et de elya propheta qui prohibuit pluuiam de celo.
+          et quomodo occurrit achab. et de sacrificio quod fecerunt sacerdotes baal.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e220" alias="mnh3nj-l1c13">
+        <fileName filestem="mnh3nj-d1e220"/>
+        <title>Capitulum 13</title>
+        <questionTitle>
+          De irrisione qua irrisit elyas sacerdotes baal. et de igne qui eo orante deuorauit holocaustum. et de populi confessione et sacerdotum baal
+          interfectione. et de pluuia impetrata.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e231" alias="mnh3nj-l1c14">
+        <fileName filestem="mnh3nj-d1e231"/>
+        <title>Capitulum 14</title>
+        <questionTitle>
+          De elya qui fugit in desertum. pro minis iezabel. et quod timor sanctorum proficit
+          eis ad salutem.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e242" alias="mnh3nj-l1c15">
+        <fileName filestem="mnh3nj-d1e242"/>
+        <title>Capitulum 15</title>
+        <questionTitle>
+          De captiuitate regum israhel. et translatione populi in assirios. et 
+          quod substitutus populus pro eis samaritani dicti sunt.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e254" alias="mnh3nj-l1c16">
+        <fileName filestem="mnh3nj-d1e254"/>
+        <title>Capitulum 16</title>
+        <questionTitle>
+          De regibus iuda et de precipuis eorum. et quare quidam dicti sunt reges iuda et alii reges israhel. et de ozia rege qui lepra percussus fuit. et quod
+          in captiuitatem ducti sunt et reducti.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e265" alias="mnh3nj-l1c17">
+        <fileName filestem="mnh3nj-d1e265"/>
+        <title>Capitulum 17</title>
+        <questionTitle>
+          De supersticione gentilium. et quod habuerunt legem naturalem cum 
+          ratione et intellectu. quo intellexerunt unum fuisse creatorem omnium.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e276" alias="mnh3nj-l1c18">
+        <fileName filestem="mnh3nj-d1e276"/>
+        <title>Capitulum 18</title>
+        <questionTitle>
+          Quod omnia creauit deus. qui ab omni creatura sua uenerandus est. 
+          et de auctoritate scripturarum id confirmantium. et de cristo quod 
+          ipse non sit deus recens neque alienus.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e287" alias="mnh3nj-l1c19">
+        <fileName filestem="mnh3nj-d1e287"/>
+        <title>Capitulum 19</title>
+        <questionTitle>
+          Quod deus solus facit mirabilia. quamuis aliquando per sanctos eius fiant. 
+          et quod ipse solus sit deus. et non alius⸵ et de testimonio nabuchodonosor
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e298" alias="mnh3nj-l1c20">
+        <fileName filestem="mnh3nj-d1e298"/>
+        <title>Capitulum 20</title>
+        <questionTitle>
+          De scripturis gentilium. quod unus sit deus⸵ et quod tamen euanuerunt in 
+          cogitationibus suis.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e309" alias="mnh3nj-l1c21">
+        <fileName filestem="mnh3nj-d1e309"/>
+        <title>Capitulum 21</title>
+        <questionTitle>
+          De sententia diuina que dicta est ad noe⸵
+          quod cogitatio hominis prona est ad malum.
+        </questionTitle>
+      </item>
+      <item id="mnh3nj-d1e321" alias="mnh3nj-l1c22">
+        <fileName filestem="mnh3nj-d1e321"/>
+        <title>Capitulum 22</title>
+        <questionTitle>
+          De testimoniis noui testamenti⸵ quod unus sit deus.
+        </questionTitle>
+      </item>
     </div>
+    <div id="mnh3nj-d1e333" alias="mnh3nj-l2">
+      <head>Liber 2</head>
+    </div>
+    <div id="mnh3nj-d1e339" alias="mnh3nj-l3">
+      <head>Liber 3</head>
+    </div>
+    <div id="mnh3nj-d1e345" alias="mnh3nj-l4">
+      <head>Liber 4</head>
+    </div>
+  </div>
 </listofFileNames>
