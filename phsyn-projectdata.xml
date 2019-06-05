@@ -23,8 +23,13 @@
     </sponsors>
     <hasWitnesses>
       <witness id="R">
-        <slug>reg1731</slug>
-        <title>Vatican Library, Codex 1731</title>
+        <slug>cod-mny78u</slug>
+        <title>Vatican Library, Reg. Lat Codex 1731</title>
+        <initial>R</initial>
+      </witness>
+      <witness id="T">
+        <slug>cod-u8776t</slug>
+        <title>Tarragona, Library of the Palacio Arzobispal, cod. 2</title>
         <initial>R</initial>
       </witness>
     </hasWitnesses>
@@ -36,15 +41,25 @@
       <questionTitle/>
       <hasWitnesses>
         <witness ref="#R">
+          
+        </witness>
+        <witness ref="#T">
         </witness>
       </hasWitnesses>
+      <!-- naples --> 
+      <!-- targona -->
     </item>
     <item id="phsyn-t1">
       <fileName filestem="phsyn-t1"/>
       <title>Tractatus Primus</title>
       <questionTitle>De Compositione</questionTitle>
       <hasWitnesses>
-        
+        <witness ref="#R">
+          <folio c="a">30r</folio>
+        </witness>
+        <witness ref="#T">
+          <folio c="b">25v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="phsyn-t2">
@@ -52,7 +67,8 @@
       <title>Tractatus Secundus</title>
       <questionTitle>De Negatione</questionTitle>
       <hasWitnesses>
-        
+        <witness ref="#R">
+        </witness>
       </hasWitnesses>
     </item>
     <item id="phsyn-t3">
