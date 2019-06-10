@@ -1,3274 +1,3310 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Johann Gerhard</authorName>
     <commentaryName>Loci Theologici</commentaryName>
-    <commentaryid>gerhardloci</commentaryid>
-    <commentaryslug>jglt</commentaryslug>
+    <commentaryid>zef3dd</commentaryid>
+    <commentaryslug>zef3dd</commentaryslug>
+    <alias>gerhardloci</alias>
     <authorUri>http://scta.info/resource/JohannGerhard</authorUri>
-    <parentUri>http://scta.info/resource/gerhardloci</parentUri>
+    <parentUri>http://scta.info/resource/zef3dd</parentUri>
     <parentWorkGroup>http://scta.info/resource/locicommunes</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/gerhardloci/</textfilesdir>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/zef3dd/</textfilesdir>
     <questionListSource>Berlin 1863-1875 edition
       <!-- https://archive.org/details/LociTheologici--></questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> <witness id="Ba">
-      <slug>Berlin1863a</slug>
-      <title>Berlin 1863, Tomus 1</title>
-      <initial>Ba</initial>
-      <date>1863</date>
-      <!--https://archive.org/details/LociTheologici-->
+    <hasWitnesses>
+      <witness id="Ba">
+        <slug>Berlin1863a</slug>
+        <title>Berlin 1863, Tomus 1</title>
+        <initial>Ba</initial>
+        <date>1863</date>
+        <!--https://archive.org/details/LociTheologici-->
       </witness>
       <!--
-      First edition should be geneva 1625 --> </hasWitnesses>
+      First edition should be geneva 1625 -->
+    </hasWitnesses>
     <date>1625</date>
   </header>
   <div id="body">
-    <div id="jglt-l1">
+    <item alias="zef3dd-prooemium">
+      <fileName filestem="zef3dd-d1e83"/>
+      <title>Prooemium</title>
+      <questionTitle>De natura theologia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#Ba">
+          <folio>1</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <div id="zef3dd-d1e75" alias="zef3dd-l1">
       <head>Locus I</head>
       <questionTitle>De Scriptura Sacra</questionTitle>
-      <item id="jglt-l1c1">
-        <fileName filestem="jglt-l1c1"/>
+      <item id="zef3dd-d1e83" alias="zef3dd-l1c1">
+        <fileName filestem="zef3dd-d1e83"/>
         <title>CAP I.</title>
-        <questionTitle>de 6vo/LiaToXoy((f Scripturae sacrae</questionTitle>
-        <hasWitnesses> <witness ref="">
-          <folio>13.</folio>
-          </witness> </hasWitnesses>
+        <questionTitle>De Onomatologia Scripturae sacrae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>13</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c2">
-        <fileName filestem="jglt-l1c2"/>
+      <item id="zef3dd-d1e103" alias="zef3dd-l1c2">
+        <fileName filestem="zef3dd-d1e103"/>
         <title>CAP. II.</title>
-        <questionTitle>de causa efficiente Scripturae sacrae</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>16</folio>
-          </witness></hasWitnesses>
+        <questionTitle>De causa efficiente Scripturae sacrae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>16</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c3">
-        <fileName filestem="jglt-l1c3"/>
+      <item id="zef3dd-d1e123" alias="zef3dd-l1c3">
+        <fileName filestem="zef3dd-d1e123"/>
         <title>CAP. III.</title>
-        <questionTitle>de divina Scripturae sacrae auctoritate </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>25</folio>
-          </witness></hasWitnesses>
+        <questionTitle>De divina Scripturae sacrae auctoritate </questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>25</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c4">
-        <fileName filestem="jglt-l1c4"/>
+      <item id="zef3dd-d1e144" alias="zef3dd-l1c4">
+        <fileName filestem="zef3dd-d1e144"/>
         <title>CAP. IV.</title>
-        <questionTitle>de materia Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>33</folio>
+        <questionTitle>De materia Scripturae sacrae </questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>33</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c5">
-        <fileName filestem="jglt-l1c5"/>
+      <item id="zef3dd-d1e163" alias="zef3dd-l1c5">
+        <fileName filestem="zef3dd-d1e163"/>
         <title>CAP. V.</title>
-        <questionTitle>de dmsionibus librorum biblicorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>34</folio>
-          </witness></hasWitnesses>
+        <questionTitle>De divisionibus librorum biblicorum </questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>34</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c6">
-        <fileName filestem="jglt-l1c6"/>
+      <item id="zef3dd-d1e183" alias="zef3dd-l1c6">
+        <fileName filestem="zef3dd-d1e183"/>
         <title>CAP. VI.</title>
         <questionTitle>de libris canonicis et apocryphis in genere </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>35</folio>
-          </witness></hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>35</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c7">
-        <fileName filestem="jglt-l1c7"/>
+      <item id="zef3dd-d1e203" alias="zef3dd-l1c7">
+        <fileName filestem="zef3dd-d1e203"/>
         <title>CAP. VII.</title>
-        <questionTitle>de canonicis V. T. libris in specie</questionTitle>
+        <questionTitle>De canonicis V. T. libris in specie</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>56</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l1c8">
-        <fileName filestem="jglt-l1c8"/>
+      <item id="zef3dd-d1e223" alias="zef3dd-l1c8">
+        <fileName filestem="zef3dd-d1e223"/>
         <title>CAP. VIII.</title>
         <questionTitle>de apocryphis V. T. Ubris in specie</questionTitle>
       </item>
-      <item id="jglt-l1c9">
-        <fileName filestem="jglt-l1c9"/>
+      <item id="zef3dd-d1e234" alias="zef3dd-l1c9">
+        <fileName filestem="zef3dd-d1e234"/>
         <title>CAP. IX.</title>
         <questionTitle>de libris N. T. canonicis primi ordinis</questionTitle>
       </item>
-      <item id="jglt-l1c10">
-        <fileName filestem="jglt-l1c10"/>
+      <item id="zef3dd-d1e246" alias="zef3dd-l1c10">
+        <fileName filestem="zef3dd-d1e246"/>
         <title>CAP. X.</title>
         <questionTitle>de libris N. T. canonicis secundi ordinis</questionTitle>
       </item>
-      <item id="jglt-l1c11">
-        <fileName filestem="jglt-l1c11"/>
+      <item id="zef3dd-d1e257" alias="zef3dd-l1c11">
+        <fileName filestem="zef3dd-d1e257"/>
         <title>CAP. XI.</title>
         <questionTitle>de, apocryphis ac rejectitiis N. T. libris</questionTitle>
       </item>
-      <item id="jglt-l1c12">
-        <fileName filestem="jglt-l1c12"/>
+      <item id="zef3dd-d1e268" alias="zef3dd-l1c12">
+        <fileName filestem="zef3dd-d1e268"/>
         <title>CAP. XII.</title>
         <questionTitle>de forma Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>132</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>132</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c13">
-        <fileName filestem="jglt-l1c13"/>
+      <item id="zef3dd-d1e286" alias="zef3dd-l1c13">
+        <fileName filestem="zef3dd-d1e286"/>
         <title>CAP. XIII.</title>
         <questionTitle>de authentico Scripturae textu </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>133</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>133</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c14">
-        <fileName filestem="jglt-l1c14"/>
+      <item id="zef3dd-d1e304" alias="zef3dd-l1c14">
+        <fileName filestem="zef3dd-d1e304"/>
         <title>CAP. XIV.</title>
         <questionTitle>de textus hebraici in V. T. integritate</questionTitle>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l1c15"/>
+      <item id="zef3dd-d1e315" alias="">
+        <fileName filestem="zef3dd-d1e315"/>
         <title>CAP. XV.</title>
         <questionTitle>de punctis vocalibus, an sint codici biblico coaeva </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>144</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>144</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l1c16"/>
+      <item id="zef3dd-d1e334" alias="">
+        <fileName filestem="zef3dd-d1e334"/>
         <title>CAP. XVI.</title>
         <questionTitle>de integritate textus Graeci in N. T.</questionTitle>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l1c17"/>
+      <item id="zef3dd-d1e345" alias="">
+        <fileName filestem="zef3dd-d1e345"/>
         <title>CAP. XVII.</title>
         <questionTitle>de fine et effectu Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>155</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>155</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c18">
-        <fileName filestem="jglt-l1c18"/>
+      <item id="zef3dd-d1e363" alias="zef3dd-l1c18">
+        <fileName filestem="zef3dd-d1e363"/>
         <title>CAP. XVIII.</title>
         <questionTitle>de perfectione Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>157</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>157</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c19">
-        <fileName filestem="jglt-l1c19"/>
+      <item id="zef3dd-d1e381" alias="zef3dd-l1c19">
+        <fileName filestem="zef3dd-d1e381"/>
         <title>CAP. XIX.</title>
         <questionTitle>de traditionibus ayodyoig </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>171</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>171</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c20">
-        <fileName filestem="jglt-l1c20"/>
+      <item id="zef3dd-d1e399" alias="zef3dd-l1c20">
+        <fileName filestem="zef3dd-d1e399"/>
         <title>CAP. XX.</title>
         <questionTitle>de Scripturae perspicuitate </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>182</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>182</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c21">
-        <fileName filestem="jglt-l1c21"/>
+      <item id="zef3dd-d1e417" alias="zef3dd-l1c21">
+        <fileName filestem="zef3dd-d1e417"/>
         <title>CAP. XXI.</title>
         <questionTitle>de norma ac regula dogmatum et controversiarum in ecclesia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>193</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>193</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c22">
-        <fileName filestem="jglt-l1c22"/>
+      <item id="zef3dd-d1e436" alias="zef3dd-l1c22">
+        <fileName filestem="zef3dd-d1e436"/>
         <title>CAP. XXII.</title>
         <questionTitle>de judice controversiarum in ecclesia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>201</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>201</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c23">
-        <fileName filestem="jglt-l1c23"/>
+      <item id="zef3dd-d1e454" alias="zef3dd-l1c23">
+        <fileName filestem="zef3dd-d1e454"/>
         <title>CAP. XXIII.</title>
         <questionTitle>de objecto Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>213</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>213</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c24">
-        <fileName filestem="jglt-l1c24"/>
+      <item id="zef3dd-d1e472" alias="zef3dd-l1c24">
+        <fileName filestem="zef3dd-d1e472"/>
         <title>CAP. XXIV.</title>
         <questionTitle>de versionibus Scripturae sacrae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>219</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>219</folio>
           </witness>
         </hasWitnesses>
       </item>
-      <item id="jglt-l1c25">
-        <fileName filestem="jglt-l1c25"/>
+      <item id="zef3dd-d1e491" alias="zef3dd-l1c25">
+        <fileName filestem="zef3dd-d1e491"/>
         <title>CAP. XXV.</title>
         <questionTitle>de interpretatione Scripturae sacrae</questionTitle>
       </item>
-      <item id="jglt-l1c26">
-        <fileName filestem="jglt-l1c26"/>
+      <item id="zef3dd-d1e502" alias="zef3dd-l1c26">
+        <fileName filestem="zef3dd-d1e502"/>
         <title>CAP. XXVI.</title>
         <questionTitle>de usu hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>240</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>240</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l1c27">
-        <fileName filestem="jglt-l1c27"/>
+      <item id="zef3dd-d1e520" alias="zef3dd-l1c27">
+        <fileName filestem="zef3dd-d1e520"/>
         <title>CAP. XXVII.</title>
         <questionTitle>de Scripturae definitione </questionTitle>
         <hasWitnesses>
-          <witness ref="">
-          <folio>240</folio>
+          <witness ref="#Ba">
+            <folio>240</folio>
           </witness>
         </hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l2">
+    <div id="zef3dd-d1e541" alias="zef3dd-l2">
       <head>LOCUS II.</head>
       <questionTitle>DE NATURA DEI ET ATTMBUTIS DIVINIS</questionTitle>
-      <item id="jglt-l2proem">
-        <fileName filestem="jglt-l2proem"/>
+      <item id="zef3dd-d1e549" alias="zef3dd-l2proem">
+        <fileName filestem="zef3dd-d1e549"/>
         <title>FROOEMJUM</title>
-        <hasWitnesses> <witness ref="">
-          <folio>241</folio>
-          </witness> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>241</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l2c1">
-        <fileName filestem="jglt-l2c1"/>
+      <item id="zef3dd-d1e566" alias="zef3dd-l2c1">
+        <fileName filestem="zef3dd-d1e566"/>
         <title>CAP. I.</title>
         <questionTitle>de hvpoXoy(q nominum divinorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>243</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>243</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c2">
-        <fileName filestem="jglt-l2c2"/>
+      <item id="zef3dd-d1e584" alias="zef3dd-l2c2">
+        <fileName filestem="zef3dd-d1e584"/>
         <title>CAP. II.</title>
         <questionTitle>de ofitawfxCtf 'vocifl </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>245</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>245</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c3">
-        <fileName filestem="jglt-l2c3"/>
+      <item id="zef3dd-d1e603" alias="zef3dd-l2c3">
+        <fileName filestem="zef3dd-d1e603"/>
         <title>CAP. III.</title>
         <questionTitle>de ovvtovvfilq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>249</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>249</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c4">
-        <fileName filestem="jglt-l2c4"/>
+      <item id="zef3dd-d1e621" alias="zef3dd-l2c4">
+        <fileName filestem="zef3dd-d1e621"/>
         <title>CAP. IV.</title>
         <questionTitle>de quaestione, an sit Deus? </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>266</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>266</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c5">
-        <fileName filestem="jglt-l2c5"/>
+      <item id="zef3dd-d1e639" alias="zef3dd-l2c5">
+        <fileName filestem="zef3dd-d1e639"/>
         <title>CAP. V.</title>
         <questionTitle>quis sit Deus? </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>284</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>284</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c6">
-        <fileName filestem="jglt-l2c6"/>
+      <item id="zef3dd-d1e657" alias="zef3dd-l2c6">
+        <fileName filestem="zef3dd-d1e657"/>
         <title>CAP. VI.</title>
         <questionTitle>de divinae essentiae unitate </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>288</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>288</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c7">
-        <fileName filestem="jglt-l2c7"/>
+      <item id="zef3dd-d1e675" alias="zef3dd-l2c7">
+        <fileName filestem="zef3dd-d1e675"/>
         <title>CAP. VII.</title>
         <questionTitle>de attributis divinis in genere </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>295</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>295</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l2c8">
-        <fileName filestem="jglt-l2c8"/>
+      <item id="zef3dd-d1e693" alias="zef3dd-l2c8">
+        <fileName filestem="zef3dd-d1e693"/>
         <title>CAP. VIII.</title>
         <questionTitle>de attributis divinis in specie </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>299</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>299</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l3">
+    <div id="zef3dd-d1e712" alias="zef3dd-l3">
       <head>LOCUS III.</head>
       <questionTitle>DE SAXCTISSLHO TRINITATIS MYSTERIO</questionTitle>
-      <item id="jglt-l3c1">
-        <fileName filestem="jglt-l3c1"/>
+      <item id="zef3dd-d1e720" alias="zef3dd-l3c1">
+        <fileName filestem="zef3dd-d1e720"/>
         <title>CAP. I.</title>
         <questionTitle>Prooemialis noofatoQta </questionTitle>
       </item>
-      <item id="jglt-l3c2">
-        <fileName filestem="jglt-l3c2"/>
+      <item id="zef3dd-d1e731" alias="zef3dd-l3c2">
+        <fileName filestem="zef3dd-d1e731"/>
         <title>CAP. II.</title>
         <questionTitle>de 6rofi«Toloyftf </questionTitle>
       </item>
-      <item id="jglt-l3c3">
-        <fileName filestem="jglt-l3c3"/>
+      <item id="zef3dd-d1e742" alias="zef3dd-l3c3">
+        <fileName filestem="zef3dd-d1e742"/>
         <title>CAP. III.</title>
         <questionTitle>Xjrenerale argumentum pro adstrueudo, trinitatis mysterio </questionTitle>
       </item>
-      <item id="jglt-l3c4">
-        <fileName filestem="jglt-l3c4"/>
+      <item id="zef3dd-d1e754" alias="zef3dd-l3c4">
+        <fileName filestem="zef3dd-d1e754"/>
         <title>CAP. IV.</title>
         <questionTitle>Primum argumentum ex^N. T. pro adstruendo triuitatis raysterio
           deductum</questionTitle>
       </item>
-      <item id="jglt-l3c5">
-        <fileName filestem="jglt-l3c5"/>
+      <item id="zef3dd-d1e765" alias="zef3dd-l3c5">
+        <fileName filestem="zef3dd-d1e765"/>
         <title>CAP. V.</title>
         <questionTitle>Secundum argumentum ex N. T. pro 1 adst. tr. etc.</questionTitle>
       </item>
-      <item id="jglt-l3c6">
-        <fileName filestem="jglt-l3c6"/>
+      <item id="zef3dd-d1e776" alias="zef3dd-l3c6">
+        <fileName filestem="zef3dd-d1e776"/>
         <title>CAP. VI.</title>
         <questionTitle>Tertium argumentum ex N. T. pro I adst. tr. etc.</questionTitle>
       </item>
-      <item id="jglt-l3c7">
-        <fileName filestem="jglt-l3c7"/>
+      <item id="zef3dd-d1e787" alias="zef3dd-l3c7">
+        <fileName filestem="zef3dd-d1e787"/>
         <title>CAP. VII.</title>
         <questionTitle>Quartum argumentum ex N. T. pro adst. tr. etc.</questionTitle>
       </item>
-      <item id="jglt-l3c8">
-        <fileName filestem="jglt-l3c8"/>
+      <item id="zef3dd-d1e798" alias="zef3dd-l3c8">
+        <fileName filestem="zef3dd-d1e798"/>
         <title>CAP. VIII.</title>
         <questionTitle>Primum argumentum ex V. T. pro adat. tr. etc.</questionTitle>
       </item>
-      <item id="jglt-l3c9">
-        <fileName filestem="jglt-l3c9"/>
+      <item id="zef3dd-d1e809" alias="zef3dd-l3c9">
+        <fileName filestem="zef3dd-d1e809"/>
         <title>CAP. IX.</title>
         <questionTitle>Secundum argumentum ex V. T. pro adst. tr. etc.</questionTitle>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l3c10"/>
+      <item id="zef3dd-d1e821" alias="">
+        <fileName filestem="zef3dd-d1e821"/>
         <title>CAP. X.</title>
         <questionTitle>Tertium argumentum pro adstruendo trinitati8 mysterio ex V. T.
           deductum</questionTitle>
       </item>
-      <item id="jglt-l3c11">
-        <fileName filestem="jglt-l3c11"/>
+      <item id="zef3dd-d1e832" alias="zef3dd-l3c11">
+        <fileName filestem="zef3dd-d1e832"/>
         <title>CAP. XI.</title>
         <questionTitle>Quartum argumentum ex V. T. pro adst. tr. etc.</questionTitle>
       </item>
-      <item id="jglt-l3c12">
-        <fileName filestem="jglt-l3c12"/>
+      <item id="zef3dd-d1e843" alias="zef3dd-l3c12">
+        <fileName filestem="zef3dd-d1e843"/>
         <title>CAP. XII.</title>
         <questionTitle>Reliqua argumenta, quae pro adstruendo trinitatis mysterio ex V. T. produci
           possunt</questionTitle>
       </item>
-      <item id="jglt-l3c13">
-        <fileName filestem="jglt-l3c13"/>
+      <item id="zef3dd-d1e854" alias="zef3dd-l3c13">
+        <fileName filestem="zef3dd-d1e854"/>
         <title>CAP. XIII.</title>
         <questionTitle>Responsio ad Photinianorum argumenta </questionTitle>
         <hasWitnesses>
-          <witness ref="">
-          <folio>414</folio>
+          <witness ref="#Ba">
+            <folio>414</folio>
           </witness>
         </hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l4">
+    <div id="zef3dd-d1e875" alias="zef3dd-l4">
       <head>LOCUS IV</head>
       <questionTitle>DE PERSOSA ET OFFIC10 CBRfSTI</questionTitle>
-      <item id="jglt-l4proem">
-        <fileName filestem="jglt-l4proem"/>
+      <item id="zef3dd-d1e883" alias="zef3dd-l4proem">
+        <fileName filestem="zef3dd-d1e883"/>
         <title>PROOEMrUM</title>
       </item>
-      <item id="jglt-l4c1">
-        <fileName filestem="jglt-l4c1"/>
+      <item id="zef3dd-d1e891" alias="zef3dd-l4c1">
+        <fileName filestem="zef3dd-d1e891"/>
         <title>CAP. I.</title>
         <questionTitle>de hvfjioloytq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>449</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>449</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c2">
-        <fileName filestem="glt-l4c2"/>
+      <item id="zef3dd-d1e909" alias="glt-l4c2">
+        <fileName filestem="zef3dd-d1e909"/>
         <title>CAP. II.</title>
         <questionTitle>de ofioivvalff </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>454</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>454</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c2">
-        <fileName filestem="glt-l4c3"/>
+      <item id="zef3dd-d1e928" alias="glt-l4c2">
+        <fileName filestem="zef3dd-d1e928"/>
         <title>CAP. III.</title>
         <questionTitle>de auvwvvfitq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>456</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>456</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c4">
-        <fileName filestem="glt-l4c4"/>
+      <item id="zef3dd-d1e946" alias="glt-l4c4">
+        <fileName filestem="zef3dd-d1e946"/>
         <title>CAP. IV.</title>
         <questionTitle>de duabus Christi naturis in genere </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>461</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>461</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c5">
-        <fileName filestem="glt-l4c5"/>
+      <item id="zef3dd-d1e964" alias="glt-l4c5">
+        <fileName filestem="zef3dd-d1e964"/>
         <title>CAP. V.</title>
         <questionTitle>de divina Christi natura </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>465</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>465</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c6">
-        <fileName filestem="glt-l4c6"/>
+      <item id="zef3dd-d1e982" alias="glt-l4c6">
+        <fileName filestem="zef3dd-d1e982"/>
         <title>CAP. VI.</title>
         <questionTitle>de humana Christi natura </questionTitle>
       </item>
-      <item id="glt-l4c7">
-        <fileName filestem="glt-l4c7"/>
+      <item id="zef3dd-d1e993" alias="glt-l4c7">
+        <fileName filestem="zef3dd-d1e993"/>
         <title>CAP. VII.</title>
         <questionTitle>de unione personali </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>487</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>487</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c8">
-        <fileName filestem="glt-l4c8"/>
+      <item id="zef3dd-d1e1011" alias="glt-l4c8">
+        <fileName filestem="zef3dd-d1e1011"/>
         <title>CAP. VIII.</title>
         <questionTitle>de communicatione naturarum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>516</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>516</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c9">
-        <fileName filestem="glt-l4c9"/>
+      <item id="zef3dd-d1e1030" alias="glt-l4c9">
+        <fileName filestem="zef3dd-d1e1030"/>
         <title>CAP. IX.</title>
         <questionTitle>De propositionibus personalibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>519</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>519</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c10">
-        <fileName filestem="glt-l4c10"/>
+      <item id="zef3dd-d1e1048" alias="glt-l4c10">
+        <fileName filestem="zef3dd-d1e1048"/>
         <title>CAP. X.</title>
         <questionTitle>de communicatione idiomatum in genere </questionTitle>
       </item>
-      <item id="glt-l4c11">
-        <fileName filestem="glt-l4c11"/>
+      <item id="zef3dd-d1e1059" alias="glt-l4c11">
+        <fileName filestem="zef3dd-d1e1059"/>
         <title>CAP. XI.</title>
         <questionTitle>de jprimo genere communicationis idiomatum in specie </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>532</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>532</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c12">
-        <fileName filestem="glt-l4c12"/>
+      <item id="zef3dd-d1e1077" alias="glt-l4c12">
+        <fileName filestem="zef3dd-d1e1077"/>
         <title>CAP. XII.</title>
         <questionTitle>Jde [secundo genere communicationU idiomatum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>544</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>544</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c13">
-        <fileName filestem="glt-l4c13"/>
+      <item id="zef3dd-d1e1095" alias="glt-l4c13">
+        <fileName filestem="zef3dd-d1e1095"/>
         <title>CAP. XIII.</title>
         <questionTitle>de tertio genere communicationii idiomatum*</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>587</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>587</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c14">
-        <fileName filestem="glt-l4c14"/>
+      <item id="zef3dd-d1e1113" alias="glt-l4c14">
+        <fileName filestem="zef3dd-d1e1113"/>
         <title>CAP. XIV.</title>
         <questionTitle>de statu exinanitionis et exaltationis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>592</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>592</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="glt-l4c15">
-        <fileName filestem="glt-l4c15"/>
+      <item id="zef3dd-d1e1132" alias="glt-l4c15">
+        <fileName filestem="zef3dd-d1e1132"/>
         <title>CAP. XV.</title>
         <questionTitle>de Christi officio </questionTitle>
       </item>
     </div>
-    <div id="jglt-l5">
+    <div id="zef3dd-d1e1144" alias="zef3dd-l5">
       <head>LOCUS V.</head>
       <questionTitle>DE CREATIONE ET ANGELIS</questionTitle>
-      <item id="jglt-l5proem">
-        <fileName filestem="jglt-l5proem"/>
+      <item id="zef3dd-d1e1152" alias="zef3dd-l5proem">
+        <fileName filestem="zef3dd-d1e1152"/>
         <title>PROOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>1</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c1">
-        <fileName filestem="jglt-l5c1"/>
+      <item id="zef3dd-d1e1167" alias="zef3dd-l5c1">
+        <fileName filestem="zef3dd-d1e1167"/>
         <title>CAP. I.</title>
         <questionTitle>de significatione vocabuli </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>1</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c2">
-        <fileName filestem="jglt-l5c2"/>
+      <item id="zef3dd-d1e1185" alias="zef3dd-l5c2">
+        <fileName filestem="zef3dd-d1e1185"/>
         <title>CAP. II.</title>
         <questionTitle>de causa efficiente creatronis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>1</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c3">
-        <fileName filestem="jglt-l5c3"/>
+      <item id="zef3dd-d1e1204" alias="zef3dd-l5c3">
+        <fileName filestem="zef3dd-d1e1204"/>
         <title>CAP. III.</title>
         <questionTitle>de materia creationis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>3</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>3</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c4">
-        <fileName filestem="jglt-l5c4"/>
+      <item id="zef3dd-d1e1222" alias="zef3dd-l5c4">
+        <fileName filestem="zef3dd-d1e1222"/>
         <title>CAP. IV.</title>
         <questionTitle>de ordine creationis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>4</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>4</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c5">
-        <fileName filestem="jglt-l5c5"/>
+      <item id="zef3dd-d1e1240" alias="zef3dd-l5c5">
+        <fileName filestem="zef3dd-d1e1240"/>
         <title>CAP. V.</title>
         <questionTitle>de fine creationis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>15</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>15</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l5c6">
-        <fileName filestem="jglt-l5c6"/>
+      <item id="zef3dd-d1e1258" alias="zef3dd-l5c6">
+        <fileName filestem="zef3dd-d1e1258"/>
         <title>CAP. VI</title>
         <questionTitle>de creationis definitione </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>16</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>16</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l6">
+    <div id="zef3dd-d1e1278" alias="zef3dd-l6">
       <head>LOCUS VI.</head>
       <questionTitle>DE PROVIDENTIA</questionTitle>
-      <item id="jglt-l6proem">
-        <fileName filestem="jglt-l6proem"/>
+      <item id="zef3dd-d1e1286" alias="zef3dd-l6proem">
+        <fileName filestem="zef3dd-d1e1286"/>
         <title>PEOOEMIUM</title>
       </item>
-      <item id="jglt-l6c1">
-        <fileName filestem="jglt-l6c1"/>
+      <item id="zef3dd-d1e1294" alias="zef3dd-l6c1">
+        <fileName filestem="zef3dd-d1e1294"/>
         <title>CAP. J.</title>
         <questionTitle>de vocabulo providentiae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>18</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>18</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c2">
-        <fileName filestem="jglt-l6c2"/>
+      <item id="zef3dd-d1e1312" alias="zef3dd-l6c2">
+        <fileName filestem="zef3dd-d1e1312"/>
         <title>CAP. II.</title>
         <questionTitle>quos actus providentia Dei includat </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>19</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>19</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c3">
-        <fileName filestem="jglt-l6c3"/>
+      <item id="zef3dd-d1e1331" alias="zef3dd-l6c3">
+        <fileName filestem="zef3dd-d1e1331"/>
         <title>CAP. III.</title>
         <questionTitle>de Dei praesentia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>19</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>19</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c4">
-        <fileName filestem="jglt-l6c4"/>
+      <item id="zef3dd-d1e1349" alias="zef3dd-l6c4">
+        <fileName filestem="zef3dd-d1e1349"/>
         <title>CAP. IV.</title>
         <questionTitle>de secundo providentiae actu, sc. noo{ou</questionTitle>
       </item>
-      <item id="jglt-l6c5">
-        <fileName filestem="jglt-l6c5"/>
+      <item id="zef3dd-d1e1360" alias="zef3dd-l6c5">
+        <fileName filestem="zef3dd-d1e1360"/>
         <title>CAP. V.</title>
         <questionTitle>de tertio providentiae actu, sc. fooixyou</questionTitle>
       </item>
-      <item id="jglt-l6c6">
-        <fileName filestem="jglt-l6c6"/>
+      <item id="zef3dd-d1e1371" alias="zef3dd-l6c6">
+        <fileName filestem="zef3dd-d1e1371"/>
         <title>CAP. VI.</title>
         <questionTitle>de priore tiioixjoeajs actu, sc. conserva- tione</questionTitle>
       </item>
-      <item id="jglt-l6c7">
-        <fileName filestem="jglt-l6c7"/>
+      <item id="zef3dd-d1e1382" alias="zef3dd-l6c7">
+        <fileName filestem="zef3dd-d1e1382"/>
         <title>CAP. VII.</title>
         <questionTitle>de posteriore dioixrjomg actu , sc. gu-bernatione</questionTitle>
       </item>
-      <item id="jglt-l6c8">
-        <fileName filestem="jglt-l6c8"/>
+      <item id="zef3dd-d1e1393" alias="zef3dd-l6c8">
+        <fileName filestem="zef3dd-d1e1393"/>
         <title>CAP. VIII.</title>
         <questionTitle>de modo divinae providentiae </questionTitle>
-        <hasWitnesses> <witness ref="">
-          <folio>28</folio>
-          </witness> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>28</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l6c9">
-        <fileName filestem="jglt-l6c9"/>
+      <item id="zef3dd-d1e1414" alias="zef3dd-l6c9">
+        <fileName filestem="zef3dd-d1e1414"/>
         <title>CAP. IX.</title>
         <questionTitle>quomodo concurrat divina providentia in malis hominum actionibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>30</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>30</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c10">
-        <fileName filestem="jglt-l6c10"/>
+      <item id="zef3dd-d1e1432" alias="zef3dd-l6c10">
+        <fileName filestem="zef3dd-d1e1432"/>
         <title>CAP. X.</title>
         <questionTitle>peum non esse causam peccati </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>33</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>33</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c11">
-        <fileName filestem="jglt-l6c11"/>
+      <item id="zef3dd-d1e1450" alias="zef3dd-l6c11">
+        <fileName filestem="zef3dd-d1e1450"/>
         <title>CAP. XI.</title>
         <questionTitle>* solutio argumentoruni , quibus providentia oppugnatur </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>44</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>44</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c12">
-        <fileName filestem="jglt-l6c12"/>
+      <item id="zef3dd-d1e1468" alias="zef3dd-l6c12">
+        <fileName filestem="zef3dd-d1e1468"/>
         <title>CAP. XII.</title>
         <questionTitle>de casuali et fortuito </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>45</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>45</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c13">
-        <fileName filestem="jglt-l6c13"/>
+      <item id="zef3dd-d1e1486" alias="zef3dd-l6c13">
+        <fileName filestem="zef3dd-d1e1486"/>
         <title>CAP. XIII.</title>
         <questionTitle>de fato </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>46</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>46</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c14">
-        <fileName filestem="jglt-l6c14"/>
+      <item id="zef3dd-d1e1504" alias="zef3dd-l6c14">
+        <fileName filestem="zef3dd-d1e1504"/>
         <title>CAP. XIV.</title>
         <questionTitle>usus hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>46</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>46</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l6c15">
-        <fileName filestem="jglt-l6c15"/>
+      <item id="zef3dd-d1e1523" alias="zef3dd-l6c15">
+        <fileName filestem="zef3dd-d1e1523"/>
         <title>CAP. XV.</title>
         <questionTitle>definitio providentiae proponitur </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>47</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>47</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l7">
+    <div id="zef3dd-d1e1542" alias="zef3dd-l7">
       <head>LOCUS VII</head>
       <questionTitle>DE ELECTIONE ET REPROBATIONE</questionTitle>
-      <item id="jglt-l7proem">
-        <fileName filestem="jglt-l7proem"/>
+      <item id="zef3dd-d1e1550" alias="zef3dd-l7proem">
+        <fileName filestem="zef3dd-d1e1550"/>
         <title>FROOEMIUM</title>
-        <hasWitnesses> 
-          <witness ref="">
-          <folio>48</folio>
-          </witness> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>48</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l7c1">
-        <fileName filestem="jglt-l7c1"/>
+      <item id="zef3dd-d1e1567" alias="zef3dd-l7c1">
+        <fileName filestem="zef3dd-d1e1567"/>
         <title>CAP. I.</title>
         <questionTitle>an de praedestinatione in ecclesia tractandum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>49</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>49</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c2">
-        <fileName filestem="jglt-l7c2"/>
+      <item id="zef3dd-d1e1585" alias="zef3dd-l7c2">
+        <fileName filestem="zef3dd-d1e1585"/>
         <title>CAP. II.</title>
         <questionTitle>explicatio terminorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>51</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>51</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c3">
-        <fileName filestem="jglt-l7c3"/>
+      <item id="zef3dd-d1e1604" alias="zef3dd-l7c3">
+        <fileName filestem="zef3dd-d1e1604"/>
         <title>CAP. III.</title>
         <questionTitle>sciagraphia totius negotii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>56</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>56</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c4">
-        <fileName filestem="jglt-l7c4"/>
+      <item id="zef3dd-d1e1622" alias="zef3dd-l7c4">
+        <fileName filestem="zef3dd-d1e1622"/>
         <title>CAP. IV.</title>
         <questionTitle>de universali Dei misericordia et bene-fica erga omnes voluntate </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>58</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>58</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c5">
-        <fileName filestem="jglt-l7c5"/>
+      <item id="zef3dd-d1e1640" alias="zef3dd-l7c5">
+        <fileName filestem="zef3dd-d1e1640"/>
         <title>CAP. V.</title>
         <questionTitle>de creatione omnium in Adamo ad imagiuem Dei </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>65</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>65</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c6">
-        <fileName filestem="jglt-l7c6"/>
+      <item id="zef3dd-d1e1658" alias="zef3dd-l7c6">
+        <fileName filestem="zef3dd-d1e1658"/>
         <title>CAP. VI.</title>
         <questionTitle>de universalitate meriti Christi </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>66</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>66</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c7">
-        <fileName filestem="jglt-l7c7"/>
+      <item id="zef3dd-d1e1676" alias="zef3dd-l7c7">
+        <fileName filestem="zef3dd-d1e1676"/>
         <title>CAP. VII.</title>
         <questionTitle>de universalitate vocationis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>71</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>71</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c8">
-        <fileName filestem="jglt-l7c8"/>
+      <item id="zef3dd-d1e1694" alias="zef3dd-l7c8">
+        <fileName filestem="zef3dd-d1e1694"/>
         <title>CAP. VIII</title>
         <questionTitle>electionem factam esse intuitu meriti Christi </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>82</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>82</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c9">
-        <fileName filestem="jglt-l7c9"/>
+      <item id="zef3dd-d1e1713" alias="zef3dd-l7c9">
+        <fileName filestem="zef3dd-d1e1713"/>
         <title>CAP. IX.</title>
         <questionTitle>intuitum fidei ingredi electionis decretum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>86</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>86</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c10">
-        <fileName filestem="jglt-l7c10"/>
+      <item id="zef3dd-d1e1731" alias="zef3dd-l7c10">
+        <fileName filestem="zef3dd-d1e1731"/>
         <title>CAP. X.</title>
         <questionTitle>reprobationem non esse absolutam </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>91</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>91</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c11">
-        <fileName filestem="jglt-l7c11"/>
+      <item id="zef3dd-d1e1749" alias="zef3dd-l7c11">
+        <fileName filestem="zef3dd-d1e1749"/>
         <title>CAP. XI.</title>
         <questionTitle>Scholasticorum et Pontificiorum de hoc loco sententia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>96</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>96</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c12">
-        <fileName filestem="jglt-l7c12"/>
+      <item id="zef3dd-d1e1767" alias="zef3dd-l7c12">
+        <fileName filestem="zef3dd-d1e1767"/>
         <title>CAP. XII.</title>
         <questionTitle>Origenis, Praedestinatorum et Huberi de hoc loco sententia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>101</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>101</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c13">
-        <fileName filestem="jglt-l7c13"/>
+      <item id="zef3dd-d1e1785" alias="zef3dd-l7c13">
+        <fileName filestem="zef3dd-d1e1785"/>
         <title>CAP. XIII.</title>
         <questionTitle>responsio ad quasdam quaestiones in hoc mysterio </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>104</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>104</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l7c14">
-        <fileName filestem="jglt-l7c14"/>
+      <item id="zef3dd-d1e1803" alias="zef3dd-l7c14">
+        <fileName filestem="zef3dd-d1e1803"/>
         <title>CAP. XIV.</title>
         <questionTitle>usus doctrinae et definitio electionis</questionTitle>
       </item>
     </div>
-    <div id="jglt-l8">
+    <div id="zef3dd-d1e1815" alias="zef3dd-l8">
       <head>LOCUS VIII.</head>
       <questionTitle>DE IMAGINE DEI 1N ROMlNEy.</questionTitle>
-      <item id="jglt-l8proem">
-        <fileName filestem="jglt-l8proem"/>
+      <item id="zef3dd-d1e1823" alias="zef3dd-l8proem">
+        <fileName filestem="zef3dd-d1e1823"/>
         <title>PEOOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>107</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>107</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c1">
-        <fileName filestem="jglt-l8c1"/>
+      <item id="zef3dd-d1e1838" alias="zef3dd-l8c1">
+        <fileName filestem="zef3dd-d1e1838"/>
         <title>CAP. I.</title>
         <questionTitle>in quo consistat imago Dei, in quam homo conditus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>108</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>108</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c2">
-        <fileName filestem="jglt-l8c2"/>
+      <item id="zef3dd-d1e1856" alias="zef3dd-l8c2">
+        <fileName filestem="zef3dd-d1e1856"/>
         <title>CAP. II.</title>
         <questionTitle>imago Dei in homine non fuit donum aliquod supernaturale </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>115</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>115</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c3">
-        <fileName filestem="jglt-l8c3"/>
+      <item id="zef3dd-d1e1875" alias="zef3dd-l8c3">
+        <fileName filestem="zef3dd-d1e1875"/>
         <title>CAP. III.</title>
         <questionTitle>imago Dei non fuit ipsa hominis substantia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>125</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>125</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c4">
-        <fileName filestem="jglt-l8c4"/>
+      <item id="zef3dd-d1e1893" alias="zef3dd-l8c4">
+        <fileName filestem="zef3dd-d1e1893"/>
         <title>CAP. IV.</title>
         <questionTitle>de immortalitate, divinae illius imaginis parte </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>126</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>126</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c5">
-        <fileName filestem="jglt-l8c5"/>
+      <item id="zef3dd-d1e1911" alias="zef3dd-l8c5">
+        <fileName filestem="zef3dd-d1e1911"/>
         <title>CAP. V.</title>
         <questionTitle>an etiam in corpore hominis imago Dei quaerenda </questionTitle>
       </item>
-      <item id="jglt-l8c6">
-        <fileName filestem="jglt-l8c6"/>
+      <item id="zef3dd-d1e1922" alias="zef3dd-l8c6">
+        <fileName filestem="zef3dd-d1e1922"/>
         <title>CAP. VI</title>
         <questionTitle>an etiam mulier ad imaginem Dei condita </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>128</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>128</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c7">
-        <fileName filestem="jglt-l8c7"/>
+      <item id="zef3dd-d1e1940" alias="zef3dd-l8c7">
+        <fileName filestem="zef3dd-d1e1940"/>
         <title>CAP. VII.</title>
         <questionTitle>de paradiso </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>128</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>128</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c8">
-        <fileName filestem="jglt-l8c8"/>
+      <item id="zef3dd-d1e1958" alias="zef3dd-l8c8">
+        <fileName filestem="zef3dd-d1e1958"/>
         <title>CAP. VIII.</title>
         <questionTitle>de propagatione animae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>131</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>131</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c9">
-        <fileName filestem="jglt-l8c9"/>
+      <item id="zef3dd-d1e1977" alias="zef3dd-l8c9">
+        <fileName filestem="zef3dd-d1e1977"/>
         <title>CAP. IX.</title>
         <questionTitle>de amissione imaginis divinae per lapsum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>138</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>138</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l8c10">
-        <fileName filestem="jglt-l8c10"/>
+      <item id="zef3dd-d1e1995" alias="zef3dd-l8c10">
+        <fileName filestem="zef3dd-d1e1995"/>
         <title>CAP. X.</title>
         <questionTitle>usufl loci et definitio imaginis divinae</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>141</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>141</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l9">
+    <div id="zef3dd-d1e2014" alias="zef3dd-l9">
       <head>LOCUS IX.</head>
       <questionTitle>DE PECCATO ORIGINALI </questionTitle>
-      <item id="jglt-l9pro">
-        <fileName filestem="jglt-l9pro"/>
+      <item id="zef3dd-d1e2022" alias="zef3dd-l9pro">
+        <fileName filestem="zef3dd-d1e2022"/>
         <title>PROOEMIUM</title>
-        <hasWitnesses> <witness ref="">
-          <folio>142</folio>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>142</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c1">
-        <fileName filestem="jglt-l9c1"/>
+      <item id="zef3dd-d1e2038" alias="zef3dd-l9c1">
+        <fileName filestem="zef3dd-d1e2038"/>
         <title>CAP. I.</title>
         <questionTitle>de caasa lapsus Adami </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>142</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>142</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c2">
-        <fileName filestem="jglt-l9c2"/>
+      <item id="zef3dd-d1e2056" alias="zef3dd-l9c2">
+        <fileName filestem="zef3dd-d1e2056"/>
         <title>CAP. II.</title>
         <questionTitle>quaestiones quaedam de primo protoplastorum lapsu </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>147</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>147</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c3">
-        <fileName filestem="jglt-l9c3"/>
+      <item id="zef3dd-d1e2075" alias="zef3dd-l9c3">
+        <fileName filestem="zef3dd-d1e2075"/>
         <title>CAP. III.</title>
         <questionTitle>de illis, quae lapsum primorum parentum secuta sunt </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>151</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>151</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c4">
-        <fileName filestem="jglt-l9c4"/>
+      <item id="zef3dd-d1e2093" alias="zef3dd-l9c4">
+        <fileName filestem="zef3dd-d1e2093"/>
         <title>CAP. IV.</title>
         <questionTitle>an sit peccatum originis</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>154</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>154</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c5">
-        <fileName filestem="jglt-l9c5"/>
+      <item id="zef3dd-d1e2111" alias="zef3dd-l9c5">
+        <fileName filestem="zef3dd-d1e2111"/>
         <title>CAP. V.</title>
         <questionTitle>to ilvai peccati originalis explicatur </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>158</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>158</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c6">
-        <fileName filestem="jglt-l9c6"/>
+      <item id="zef3dd-d1e2129" alias="zef3dd-l9c6">
+        <fileName filestem="zef3dd-d1e2129"/>
         <title>CAP. VI.</title>
         <questionTitle>de subjecto peccati originalis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>168</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>168</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c7">
-        <fileName filestem="jglt-l9c7"/>
+      <item id="zef3dd-d1e2147" alias="zef3dd-l9c7">
+        <fileName filestem="zef3dd-d1e2147"/>
         <title>CAP. VII.</title>
         <questionTitle>de modo, quo peccatum originis propagatur </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>169</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>169</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c8">
-        <fileName filestem="jglt-l9c8"/>
+      <item id="zef3dd-d1e2165" alias="zef3dd-l9c8">
+        <fileName filestem="zef3dd-d1e2165"/>
         <title>CAP. VIII.</title>
         <questionTitle>de effectibus peccati originalis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>179</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>179</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c9">
-        <fileName filestem="jglt-l9c9"/>
+      <item id="zef3dd-d1e2184" alias="zef3dd-l9c9">
+        <fileName filestem="zef3dd-d1e2184"/>
         <title>CAP. IX.</title>
         <questionTitle>modus liberationis ab hoc peccato </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>181</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>181</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l9c10">
-        <fileName filestem="jglt-l9c10"/>
+      <item id="zef3dd-d1e2202" alias="zef3dd-l9c10">
+        <fileName filestem="zef3dd-d1e2202"/>
         <title>CAP. X.</title>
         <questionTitle>Usus loci et definitio peccati originalis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>182</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>182</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l10">
+    <div id="zef3dd-d1e2221" alias="zef3dd-l10">
       <head>LOCUS X</head>
       <questionTitle>DE PECCATIS ACTUALIBUS</questionTitle>
-      <item id="jglt-l10proem">
-        <fileName filestem="jglt-l10proem"/>
+      <item id="zef3dd-d1e2229" alias="zef3dd-l10proem">
+        <fileName filestem="zef3dd-d1e2229"/>
         <title>PEOOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>183</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>183</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c1">
-        <fileName filestem="jglt-l10c1"/>
+      <item id="zef3dd-d1e2244" alias="zef3dd-l10c1">
+        <fileName filestem="zef3dd-d1e2244"/>
         <title>CAP. I.</title>
         <questionTitle>de natura peccati actualis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>183</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>183</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c2">
-        <fileName filestem="jglt-l10c2"/>
+      <item id="zef3dd-d1e2262" alias="zef3dd-l10c2">
+        <fileName filestem="zef3dd-d1e2262"/>
         <title>CAP. II.</title>
         <questionTitle>onomatologia hujus peccati </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>185</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>185</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c3">
-        <fileName filestem="jglt-l10c3"/>
+      <item id="zef3dd-d1e2281" alias="zef3dd-l10c3">
+        <fileName filestem="zef3dd-d1e2281"/>
         <title>CAP. III.</title>
         <questionTitle>de causis actualium peccatorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>187</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>187</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c4">
-        <fileName filestem="jglt-l10c4"/>
+      <item id="zef3dd-d1e2299" alias="zef3dd-l10c4">
+        <fileName filestem="zef3dd-d1e2299"/>
         <title>CAP. IV.</title>
         <questionTitle>de effectibus peccatorum actualium </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>188</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>188</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c5">
-        <fileName filestem="jglt-l10c5"/>
+      <item id="zef3dd-d1e2317" alias="zef3dd-l10c5">
+        <fileName filestem="zef3dd-d1e2317"/>
         <title>CAP. V.</title>
         <questionTitle>de variis speciebus peccatorum actua- lium </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>189</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>189</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c6">
-        <fileName filestem="jglt-l10c6"/>
+      <item id="zef3dd-d1e2335" alias="zef3dd-l10c6">
+        <fileName filestem="zef3dd-d1e2335"/>
         <title>CAP. VI.</title>
         <questionTitle>de peccatis voluntariis et involuntariis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>189</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>189</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c7">
-        <fileName filestem="jglt-l10c7"/>
+      <item id="zef3dd-d1e2353" alias="zef3dd-l10c7">
+        <fileName filestem="zef3dd-d1e2353"/>
         <title>CAP. VII.</title>
         <questionTitle>de peccatis commissionis et omissionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>190</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>190</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c8">
-        <fileName filestem="jglt-l10c8"/>
+      <item id="zef3dd-d1e2371" alias="zef3dd-l10c8">
+        <fileName filestem="zef3dd-d1e2371"/>
         <title>CAP. VIII.</title>
         <questionTitle>de peccatis in aversione a Deo et conversione ad creaturas </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>191</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>191</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c9">
-        <fileName filestem="jglt-l10c9"/>
+      <item id="zef3dd-d1e2390" alias="zef3dd-l10c9">
+        <fileName filestem="zef3dd-d1e2390"/>
         <title>CAP. IX.</title>
         <questionTitle>de peccatis, quae simul sunt causa et poena peccatorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>191</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>191</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l10c10"/>
+      <item id="zef3dd-d1e2408" alias="">
+        <fileName filestem="zef3dd-d1e2408"/>
         <title>CAP. X.</title>
         <questionTitle>de peccatis interioribus et exterioribus, item de peccatis cordis, oris et
           operis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>192</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>192</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c11">
-        <fileName filestem="jglt-l10c11"/>
+      <item id="zef3dd-d1e2426" alias="zef3dd-l10c11">
+        <fileName filestem="zef3dd-d1e2426"/>
         <title>CAP. XI.</title>
         <questionTitle>de concupiscentia in renatis, an sit peccatum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>193</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>193</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c12">
-        <fileName filestem="jglt-l10c12"/>
+      <item id="zef3dd-d1e2444" alias="zef3dd-l10c12">
+        <fileName filestem="zef3dd-d1e2444"/>
         <title>CAP. XII.</title>
         <questionTitle>de peccatis contra Deum, contra proximum et contra nos ipsos commissis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>219</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>219</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c13">
-        <fileName filestem="jglt-l10c13"/>
+      <item id="zef3dd-d1e2462" alias="zef3dd-l10c13">
+        <fileName filestem="zef3dd-d1e2462"/>
         <title>CAP. XIII.</title>
         <questionTitle>de peccatis in corpus et extra corpus commissis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>220</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>220</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c14">
-        <fileName filestem="jglt-l10c14"/>
+      <item id="zef3dd-d1e2480" alias="zef3dd-l10c14">
+        <fileName filestem="zef3dd-d1e2480"/>
         <title>CAP. XIV.</title>
         <questionTitle>de peccatis carnis et spiritus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>220</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>220</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c15">
-        <fileName filestem="jglt-l10c15"/>
+      <item id="zef3dd-d1e2499" alias="zef3dd-l10c15">
+        <fileName filestem="zef3dd-d1e2499"/>
         <title>CAP. XV.</title>
         <questionTitle>de peccatis manifestis et occultis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>221</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>221</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c16">
-        <fileName filestem="jglt-l10c16"/>
+      <item id="zef3dd-d1e2517" alias="zef3dd-l10c16">
+        <fileName filestem="zef3dd-d1e2517"/>
         <title>CAP. XVI.</title>
         <questionTitle>de peccatis clamantibus in coelam </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>221</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>221</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c17">
-        <fileName filestem="jglt-l10c17"/>
+      <item id="zef3dd-d1e2535" alias="zef3dd-l10c17">
+        <fileName filestem="zef3dd-d1e2535"/>
         <title>CAP. XVII.</title>
         <questionTitle>de peccatis capitalibus</questionTitle>
       </item>
-      <item id="jglt-l10c18">
-        <fileName filestem="jglt-l10c18"/>
+      <item id="zef3dd-d1e2546" alias="zef3dd-l10c18">
+        <fileName filestem="zef3dd-d1e2546"/>
         <title>CAP. XVIII.</title>
         <questionTitle>de peccati8, quae aliis sunt graviora </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>222</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>222</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c19">
-        <fileName filestem="jglt-l10c19"/>
+      <item id="zef3dd-d1e2564" alias="zef3dd-l10c19">
+        <fileName filestem="zef3dd-d1e2564"/>
         <title>CAP. XIX.</title>
         <questionTitle>de participatione peccatorum alienorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>223</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>223</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c20">
-        <fileName filestem="jglt-l10c20"/>
+      <item id="zef3dd-d1e2582" alias="zef3dd-l10c20">
+        <fileName filestem="zef3dd-d1e2582"/>
         <title>CAP. XX.</title>
         <questionTitle>de peccatis venialibus et mortalibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>223</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>223</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c21">
-        <fileName filestem="jglt-l10c21"/>
+      <item id="zef3dd-d1e2601" alias="zef3dd-l10c21">
+        <fileName filestem="zef3dd-d1e2601"/>
         <title>CAP. XXI.</title>
         <questionTitle>de peccatis regnantibus et non regnantibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>234</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>234</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c22">
-        <fileName filestem="jglt-l10c22"/>
+      <item id="zef3dd-d1e2619" alias="zef3dd-l10c22">
+        <fileName filestem="zef3dd-d1e2619"/>
         <title>CAP. XXII.</title>
         <questionTitle>de peccatis per se et per accideos </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>234</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>234</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c23">
-        <fileName filestem="jglt-l10c23"/>
+      <item id="zef3dd-d1e2637" alias="zef3dd-l10c23">
+        <fileName filestem="zef3dd-d1e2637"/>
         <title>CAP. XXIII.</title>
         <questionTitle>de peccato mortuo et vivente </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>235</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>235</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c24">
-        <fileName filestem="jglt-l10c24"/>
+      <item id="zef3dd-d1e2655" alias="zef3dd-l10c24">
+        <fileName filestem="zef3dd-d1e2655"/>
         <title>CAP. XXIV.</title>
         <questionTitle>de peccato manente et remisso </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>235</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>235</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c25">
-        <fileName filestem="jglt-l10c25"/>
+      <item id="zef3dd-d1e2673" alias="zef3dd-l10c25">
+        <fileName filestem="zef3dd-d1e2673"/>
         <title>CAP. XXV.</title>
         <questionTitle>de peccato in Spiritum sanctum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>235</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>235</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l10c26">
-        <fileName filestem="jglt-l10c26"/>
+      <item id="zef3dd-d1e2691" alias="zef3dd-l10c26">
+        <fileName filestem="zef3dd-d1e2691"/>
         <title>CAP. XXVI.</title>
         <questionTitle>usus loci et definitio peccatorum actualium </questionTitle>
       </item>
     </div>
-    <div id="jglt-l11">
+    <div id="zef3dd-d1e2703" alias="zef3dd-l11">
       <head>LOCUS XI</head>
       <questionTitle>DE LIBEHO ARBITRIO</questionTitle>
-      <item id="jglt-l11proem">
-        <fileName filestem="jglt-l11proem"/>
+      <item id="zef3dd-d1e2711" alias="zef3dd-l11proem">
+        <fileName filestem="zef3dd-d1e2711"/>
         <title>PROOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>238</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>238</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c1">
-        <fileName filestem="jglt-l11c1"/>
+      <item id="zef3dd-d1e2726" alias="zef3dd-l11c1">
+        <fileName filestem="zef3dd-d1e2726"/>
         <title>CAP. I.</title>
         <questionTitle>de distinctione libertatis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>238</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>238</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c2">
-        <fileName filestem="jglt-l11c2"/>
+      <item id="zef3dd-d1e2744" alias="zef3dd-l11c2">
+        <fileName filestem="zef3dd-d1e2744"/>
         <title>CAP. II.</title>
         <questionTitle>de consideratione liberi arbitrii secundum quadruplicem statum hominis
         </questionTitle>
       </item>
-      <item id="jglt-l11c3">
-        <fileName filestem="jglt-l11c3"/>
+      <item id="zef3dd-d1e2756" alias="zef3dd-l11c3">
+        <fileName filestem="zef3dd-d1e2756"/>
         <title>CAP. III.</title>
         <questionTitle>de vero controversiae statu </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>241</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>241</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c4">
-        <fileName filestem="jglt-l11c4"/>
+      <item id="zef3dd-d1e2774" alias="zef3dd-l11c4">
+        <fileName filestem="zef3dd-d1e2774"/>
         <title>CAP. IV.</title>
         <questionTitle>de amisso libero arbitrio post lapsum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>242</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>242</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c5">
-        <fileName filestem="jglt-l11c5"/>
+      <item id="zef3dd-d1e2792" alias="zef3dd-l11c5">
+        <fileName filestem="zef3dd-d1e2792"/>
         <title>CAP. V.</title>
         <questionTitle>errantes de libero arbitrio in excessu </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>250</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>250</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c6">
-        <fileName filestem="jglt-l11c6"/>
+      <item id="zef3dd-d1e2810" alias="zef3dd-l11c6">
+        <fileName filestem="zef3dd-d1e2810"/>
         <title>CAP. VI.</title>
         <questionTitle>Refutatio errorum Bellarmini de libero arbitrio </questionTitle>
       </item>
-      <item id="jglt-l11c7">
-        <fileName filestem="jglt-l11c7"/>
+      <item id="zef3dd-d1e2821" alias="zef3dd-l11c7">
+        <fileName filestem="zef3dd-d1e2821"/>
         <title>CAP. VII.</title>
         <questionTitle>errantes de libero arbitrio in defectu </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>275</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>275</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c8">
-        <fileName filestem="jglt-l11c8"/>
+      <item id="zef3dd-d1e2839" alias="zef3dd-l11c8">
+        <fileName filestem="zef3dd-d1e2839"/>
         <title>CAP. VIII</title>
         <questionTitle>de operibus non renatorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>276</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>276</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c9">
-        <fileName filestem="jglt-l11c9"/>
+      <item id="zef3dd-d1e2858" alias="zef3dd-l11c9">
+        <fileName filestem="zef3dd-d1e2858"/>
         <title>CAP. IX.</title>
         <questionTitle>de libertate arbitrii post lapsum reliqua </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>277</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>277</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c10">
-        <fileName filestem="jglt-l11c10"/>
+      <item id="zef3dd-d1e2876" alias="zef3dd-l11c10">
+        <fileName filestem="zef3dd-d1e2876"/>
         <title>CAP. X.</title>
         <questionTitle>usus doctrinae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>279</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>279</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c11">
-        <fileName filestem="jglt-l11c11"/>
+      <item id="zef3dd-d1e2894" alias="zef3dd-l11c11">
+        <fileName filestem="zef3dd-d1e2894"/>
         <title>CAP. XI.</title>
         <questionTitle>explicatio quarundam quaestionum de libero arbitrio </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>280</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>280</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l11c12">
-        <fileName filestem="jglt-l11c12"/>
+      <item id="zef3dd-d1e2912" alias="zef3dd-l11c12">
+        <fileName filestem="zef3dd-d1e2912"/>
         <title>CAP. XII.</title>
         <questionTitle>avaxeyakataiOis hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>281</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>281</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l12">
+    <div id="zef3dd-d1e2932" alias="zef3dd-l12">
       <head>LOCUS XII</head>
       <questionTitle>DE LEGE DEI</questionTitle>
-    </div><!--
-    <div id="jglt-l13">
+    </div>
+    <!--
+    <div alias="zef3dd-l13">
       <head>LOCUS XIV</head>
       <questionTitle>DE EVANGELIO</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Nexus hujus loci cum praecedentibus ostenditur </questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Vocum legjis et ifnn etymologia, homonvmia et synonyraia ? una cum variia,
           quae legi tribuuntur, appellationibuB exhibentur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Variae legis definitiones traduntur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>3</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Dividuntur leges </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>3</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Summa legis moralis contineri dicitur in decalogo, licet diu ante solennem
           hujus promulgationem lex moralis ipsa exstiterit; id quod per singula decalogi praecepta
           exemplis patriarcharum probatur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>5</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Promulgatio legis moralis solennis instituta a Deo est; cujus rei causae
           potiores afferuntur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>10</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Docetur promulgationis modus, quoad antecedentia, concomitantia et
           consequentia </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>11</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Tabulae, in promulganda lege morali adhibitae considerantur ratione causae
           efficientis, materiae, formae, numeri, finis et durationis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>13</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Quae praecepta ad utramque tabulam pertineant, diaquiritur, allatis partium
           dissidentium rationibus et stabilita vera sententia </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>16</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Sapiens praeceptorum decalogi ordo ostenditur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>25</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Explicantur decem praecepta </questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Tractatur doctrina de possibiLtate perfecta impletionis legis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>81</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Ostenditur usus legis triplex: politicus, theologicus elenchticus et
           theologicus didacticus </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>104</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Necessitas legi obediendi docetur </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>108</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l14">
+    <div alias="zef3dd-l14">
       <head>LOCUS XIII.</head>
       <questionTitle>DE LEGIBUS CEREMONIALIBUS ET FORENSIBUS</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>PMOOEMIUM </title>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>109</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De legibus ceremonialibus et forensibus conjunctim sumtis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>109</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De legibus ceremonialibus in specie </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>111</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De legibus forensibus in specie </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>131</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>PROOEMLALIS noo&amp;ttoota </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>141</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Indicatur evangelii etymologia, definitio nominis et 8igmficatus cum apud
           profanos, tum apud sacros scriptores varius </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>141</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De propria evangelii doctrina </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>146</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Excutitur sententia Scholasticorum , in evangeh'o nova praecepta esse tradita </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>148</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa principali ac ministeriali evangelii </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>156</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Docetur causa evangelii principalis tum ratione decreti, tum ratione
           patefactionis , ubi etiam contra Becanum asseritur, filium Dei non esse evangelii
           avvalriov </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>156</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Affertur causa evangelii organica et organum apprehendens </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>157</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De tempore patefactionis evangelii </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>157</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De forma, objecto, effectis et fine evangelii </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>161</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De discrimine legis et evangelii </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>165</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>An Christus sit novus legislator </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>171</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Error Photinianorum de perfectioribus mandatis a Christo additis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>174</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Error Pontificiorum de consiliis evangelicis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>178</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>An evangelium sit praedicatio poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>193</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De discrimine V. et N. T.</questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De usu et abusu doctrinae de evangelio </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>201</folio>
           </witness> </hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l15">
+    <div alias="zef3dd-l15">
       <head>LOCVS XV.</head>
       <questionTitle>DE POENITENTIA</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>PROOEMIUM </title>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>203</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De etymologia, homonymia et synonymia vocis poemtentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>203</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De exsistentia poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>208</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Descriptionefl poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>212</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De poenitentia tanquam aacramento </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>212</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De divisionibus poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>221</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De cauaa efficienti et instrumentali poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>223</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De partibus poenitentiae in genere </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>226</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De partibus poenitentiae ez mente Pontificiorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>238</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De contritione </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>238</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De confessione et de absolutione</questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De satisfactione </questionTitle>
-        <hasWitnesses> <witness ref="">
+        <hasWitnesses> <witness ref="#Ba">
           <folio>273</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Commemorantur controversiae cum Pontificiis eorumque dissensiones in hac
           materia </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>277</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Agitur de indulgentiis nec non de jubilaeo </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>288</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Indicatur, a quibus et quo tempore agenda sit poenitentia </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>293</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Monstrantur rructus et incitamenta verae poenitentiae </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>295</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>Adducuntur rationes, cur poenitentia non sit differenda ac procrastinanda </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>297</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l16">
+    <div alias="zef3dd-l16">
       <head>LOCUS XVI.</head>
       <questionTitle>DE JUSTIFICATIONE PFR FIDEM </questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>FROOJSMIUM </title>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>300</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa efficiente justificationis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>309</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De cauaa meritoria justificationis </questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa justificationis instrumentali </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>348</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De fide justificante ejusque partibus </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>349</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De variis fidei divisionibus </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>399</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa efficiente fidei justificantis </questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De objecto fidei </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>412</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De effectu fidei, qui est justificatio </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>425</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De fidei justificantis proprietatibus , an scilicet a caritate et reliquis
           virtutibus separari possint </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>467</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa formali justificationis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>477</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa finali justificationis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>518</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De usu doctrinae justificatioms </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>519</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l17">
+    <div alias="zef3dd-l17">
       <head>LOCUS XVII</head>
       <questionTitle>DE BONIS OPERIBVS</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>PSOOEMTUX</title>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De etymologia et synonymia bonornm operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De divisionibus bonorum operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>3</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa efficiente bonorum operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>7</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De forma bonorum operum eorumque fine </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>7</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De necessitate bonorum operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>11</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De perfectione bonorum operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>34</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De justificatione secunda per bona opera </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>48</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De meriti8 bonorum operum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>53</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De ami88ione fidei per peccata </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>114</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l18">
+    <div alias="zef3dd-l18">
       <head>LOCUS XVIII.</head>
       <questionTitle>DE SACRAMENTIS</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>PROOEMIUM </title>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>137</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De etymologia et synonymia vocis sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>138</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De requisitis sacramentorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>141</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De definitione sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>146</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De causa efficiente sacramentorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>148</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De dispensatione sacramentorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>160</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De objecto et subjecto sacramentorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>160</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De forma sacramentorum </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>161</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De verbis in sacramentis </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>162</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De necessitate sacramentoram </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>164</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De finibus sacramentorum </questionTitle>
       </item>
     </div>
-    <div id="jglt-l19">
+    <div alias="zef3dd-l19">
       <head>LOCUS XIX</head>
       <questionTitle>DE CIRCUMCISIONE ET AGNO PASCHALI</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De convenientia et discrimine sacramentorum V. et N. T.</questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De sacramentis V. T. in genere</questionTitle>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De circumcisione in specie </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>224</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De agno paschali </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>236</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De numero sacramentorum N. T.</questionTitle>
       </item>
     </div>
-    <div id="jglt-l20">
+    <div alias="zef3dd-l20">
       <head>LOCUS XX.</head>
       <questionTitle>DE S. BAPTISMO</questionTitle>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title>PROOBMIUM </title>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>256</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De etymologia et homonymia baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>256</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De vaticiniis et typis baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>261</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De institutione baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>267</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De administratione baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>269</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De materia baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>293</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De forma baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>301</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De fine baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>307</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De objecto baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>343</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>An infantes baptizati credant </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>372</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="">
+      <item alias="">
         <fileName filestem=""/>
         <title/>
         <questionTitle>De adjunctis baptismi </questionTitle>
-        <hasWitnesses><witness ref="">
+        <hasWitnesses><witness ref="#Ba">
           <folio>385</folio>
           </witness></hasWitnesses>
       </item>
     </div>
     -->
-    <div id="jglt-l21">
+    <div id="zef3dd-d1e2943" alias="zef3dd-l21">
       <head>LOCUS XXI.</head>
       <questionTitle>DE SACRA COENA</questionTitle>
-      <item id="jglt-l21proem">
-        <fileName filestem="jglt-l21proem"/>
+      <item id="zef3dd-d1e2951" alias="zef3dd-l21proem">
+        <fileName filestem="zef3dd-d1e2951"/>
         <title>FROOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>1</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c1">
-        <fileName filestem="jglt-l21c1"/>
+      <item id="zef3dd-d1e2966" alias="zef3dd-l21c1">
+        <fileName filestem="zef3dd-d1e2966"/>
         <title>CAP. I.</title>
         <questionTitle>De appellationibus sacrae coenae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>2</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>2</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c2">
-        <fileName filestem="jglt-l21c2"/>
+      <item id="zef3dd-d1e2984" alias="zef3dd-l21c2">
+        <fileName filestem="zef3dd-d1e2984"/>
         <title>CAP. II.</title>
         <questionTitle>De vaticiniis ac typis sacrae coenae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>0</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>0</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c3">
-        <fileName filestem="jglt-l21c3"/>
+      <item id="zef3dd-d1e3003" alias="zef3dd-l21c3">
+        <fileName filestem="zef3dd-d1e3003"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente principali sive auctore hujus sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>9</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>9</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c4">
-        <fileName filestem="jglt-l21c4"/>
+      <item id="zef3dd-d1e3021" alias="zef3dd-l21c4">
+        <fileName filestem="zef3dd-d1e3021"/>
         <title>CAP. IV.</title>
         <questionTitle>De ministro seu dispensatore hujus sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>10</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>10</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c5">
-        <fileName filestem="jglt-l21c5"/>
+      <item id="zef3dd-d1e3039" alias="zef3dd-l21c5">
+        <fileName filestem="zef3dd-d1e3039"/>
         <title>CAP. V.</title>
         <questionTitle>De externis symbolis sive re terrena in hoc sacramento </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>12</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>12</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c6">
-        <fileName filestem="jglt-l21c6"/>
+      <item id="zef3dd-d1e3057" alias="zef3dd-l21c6">
+        <fileName filestem="zef3dd-d1e3057"/>
         <title>CAP. VI.</title>
         <questionTitle>An panie eucharisticus azymus vel fermentatus esse debeat </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>14</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>14</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c7">
-        <fileName filestem="jglt-l21c7"/>
+      <item id="zef3dd-d1e3075" alias="zef3dd-l21c7">
+        <fileName filestem="zef3dd-d1e3075"/>
         <title>CAP. VII.</title>
         <questionTitle>De placentulis orbicularibus , quas hostias vocant </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>16</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>16</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c8">
-        <fileName filestem="jglt-l21c8"/>
+      <item id="zef3dd-d1e3093" alias="zef3dd-l21c8">
+        <fileName filestem="zef3dd-d1e3093"/>
         <title>CAP. VIII.</title>
         <questionTitle>De cramate eucharistico </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>17</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>17</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c9">
-        <fileName filestem="jglt-l21c9"/>
+      <item id="zef3dd-d1e3112" alias="zef3dd-l21c9">
+        <fileName filestem="zef3dd-d1e3112"/>
         <title>CAP. IX.</title>
         <questionTitle>De communione sub una specie </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>22</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>22</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c10">
-        <fileName filestem="jglt-l21c10"/>
+      <item id="zef3dd-d1e3130" alias="zef3dd-l21c10">
+        <fileName filestem="zef3dd-d1e3130"/>
         <title>CAP. X.</title>
         <questionTitle>De retinendo r$ ^ijKp in verbis sacrae coenae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>65</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>65</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c11">
-        <fileName filestem="jglt-l21c11"/>
+      <item id="zef3dd-d1e3148" alias="zef3dd-l21c11">
+        <fileName filestem="zef3dd-d1e3148"/>
         <title>CAP. XI.</title>
         <questionTitle>De vera, reali et substantiali corporis et sanguinis Christi in s. coena
           praesentia</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>95</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>95</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c12">
-        <fileName filestem="jglt-l21c12"/>
+      <item id="zef3dd-d1e3166" alias="zef3dd-l21c12">
+        <fileName filestem="zef3dd-d1e3166"/>
         <title>CAP. XII</title>
         <questionTitle>De transsubstantiatione </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>113</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>113</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c13">
-        <fileName filestem="jglt-l21c13"/>
+      <item id="zef3dd-d1e3184" alias="zef3dd-l21c13">
+        <fileName filestem="zef3dd-d1e3184"/>
         <title>CAP. XIII.</title>
         <questionTitle>De consecratione eucharistiae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>148</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>148</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c14">
-        <fileName filestem="jglt-l21c14"/>
+      <item id="zef3dd-d1e3202" alias="zef3dd-l21c14">
+        <fileName filestem="zef3dd-d1e3202"/>
         <title>CAP. XIV.</title>
         <questionTitle>De fractione panis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>156</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>156</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c15">
-        <fileName filestem="jglt-l21c15"/>
+      <item id="zef3dd-d1e3221" alias="zef3dd-l21c15">
+        <fileName filestem="zef3dd-d1e3221"/>
         <title>CAP. XV.</title>
         <questionTitle>De distributione benedicti panis et vini </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>164</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>164</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c16">
-        <fileName filestem="jglt-l21c16"/>
+      <item id="zef3dd-d1e3239" alias="zef3dd-l21c16">
+        <fileName filestem="zef3dd-d1e3239"/>
         <title>CAP. XVI.</title>
         <questionTitle>De manducatione et bibitione sacramentali </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>167</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>167</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c17">
-        <fileName filestem="jglt-l21c17"/>
+      <item id="zef3dd-d1e3257" alias="zef3dd-l21c17">
+        <fileName filestem="zef3dd-d1e3257"/>
         <title>CAP. XVII.</title>
         <questionTitle>De repositione sacramentali </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>180</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>180</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c18">
-        <fileName filestem="jglt-l21c18"/>
+      <item id="zef3dd-d1e3275" alias="zef3dd-l21c18">
+        <fileName filestem="zef3dd-d1e3275"/>
         <title>CAP. XVIII.</title>
         <questionTitle>De circumgestatione sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>195</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>195</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c19">
-        <fileName filestem="jglt-l21c19"/>
+      <item id="zef3dd-d1e3293" alias="zef3dd-l21c19">
+        <fileName filestem="zef3dd-d1e3293"/>
         <title>CAP. XIX.</title>
         <questionTitle>De veneratione sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>201</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>201</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c20">
-        <fileName filestem="jglt-l21c20"/>
+      <item id="zef3dd-d1e3311" alias="zef3dd-l21c20">
+        <fileName filestem="zef3dd-d1e3311"/>
         <title>CAP. XX.</title>
         <questionTitle>De fine et fructu s. coenae</questionTitle>
       </item>
-      <item id="jglt-l21c21">
-        <fileName filestem="jglt-l21c21"/>
+      <item id="zef3dd-d1e3323" alias="zef3dd-l21c21">
+        <fileName filestem="zef3dd-d1e3323"/>
         <title>CAP. XXI.</title>
         <questionTitle>De convivis, qui ad hoc coeleste epulum admittendi sunt </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>218</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>218</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c22">
-        <fileName filestem="jglt-l21c22"/>
+      <item id="zef3dd-d1e3341" alias="zef3dd-l21c22">
+        <fileName filestem="zef3dd-d1e3341"/>
         <title>CAP. XXII.</title>
         <questionTitle>De manducatione indignorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>224</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>224</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c23">
-        <fileName filestem="jglt-l21c23"/>
+      <item id="zef3dd-d1e3359" alias="zef3dd-l21c23">
+        <fileName filestem="zef3dd-d1e3359"/>
         <title>CAP. XXIII.</title>
         <questionTitle>De vera et salutari praeparatione I ad dignum s. coenae usum</questionTitle>
       </item>
-      <item id="jglt-l21c24">
-        <fileName filestem="jglt-l21c24"/>
+      <item id="zef3dd-d1e3370" alias="zef3dd-l21c24">
+        <fileName filestem="zef3dd-d1e3370"/>
         <title>CAP. XXIV.</title>
         <questionTitle>De circumstantia temporis </questionTitle>
       </item>
-      <item id="jglt-l21c25">
-        <fileName filestem="jglt-l21c25"/>
+      <item id="zef3dd-d1e3381" alias="zef3dd-l21c25">
+        <fileName filestem="zef3dd-d1e3381"/>
         <title>CAP. XXV.</title>
         <questionTitle>De circumstantia loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>244</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>244</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l21c26">
-        <fileName filestem="jglt-l21c27"/>
+      <item id="zef3dd-d1e3399" alias="zef3dd-l21c26">
+        <fileName filestem="zef3dd-d1e3399"/>
         <title>CAP. XXVI.</title>
         <questionTitle>De ceremoniis hujus sacramenti </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>248</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>248</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l22">
+    <div id="zef3dd-d1e3418" alias="zef3dd-l22">
       <head>LOCUS XXII.</head>
       <questionTitle>DE ECCLESIA</questionTitle>
-      <item id="jglt-l22c1">
-        <fileName filestem="jglt-l22c1"/>
+      <item id="zef3dd-d1e3426" alias="zef3dd-l22c1">
+        <fileName filestem="zef3dd-d1e3426"/>
         <title>CAP. I.</title>
         <questionTitle>De hv[ioXoy(q vocabuli ecclesiae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>255</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>255</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c2">
-        <fileName filestem="jglt-l22c2"/>
+      <item id="zef3dd-d1e3444" alias="zef3dd-l22c2">
+        <fileName filestem="zef3dd-d1e3444"/>
         <title>CAP. II.</title>
         <questionTitle>De vocabuli o/uajyv/utq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>257</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>257</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c3">
-        <fileName filestem="jglt-l22c3"/>
+      <item id="zef3dd-d1e3462" alias="zef3dd-l22c3">
+        <fileName filestem="zef3dd-d1e3462"/>
         <title>CAP. III.</title>
         <questionTitle>De ow(uvvfji((f vocabuli sive de aliis ecclesiae appellationibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>262</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>262</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c4">
-        <fileName filestem="jglt-l22c4"/>
+      <item id="zef3dd-d1e3481" alias="zef3dd-l22c4">
+        <fileName filestem="zef3dd-d1e3481"/>
         <title>CAP. IV.</title>
         <questionTitle>An sit ecclesia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>278</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>278</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c5">
-        <fileName filestem="jglt-l22c5"/>
+      <item id="zef3dd-d1e3499" alias="zef3dd-l22c5">
+        <fileName filestem="zef3dd-d1e3499"/>
         <title>CAP. V.</title>
         <questionTitle>De causa efficiente principali et instrumentali ecclesiae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>280</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>280</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c6">
-        <fileName filestem="jglt-l22c6"/>
+      <item id="zef3dd-d1e3517" alias="zef3dd-l22c6">
+        <fileName filestem="zef3dd-d1e3517"/>
         <title>CAP. VI.</title>
         <questionTitle>De materia ecclesiae, hoc est ex quibus hominibus ecclesia constet
         </questionTitle>
       </item>
-      <item id="jglt-l22c7">
-        <fileName filestem="jglt-l22c7"/>
+      <item id="zef3dd-d1e3528" alias="zef3dd-l22c7">
+        <fileName filestem="zef3dd-d1e3528"/>
         <title>CAP. VII.</title>
         <questionTitle>De distinctione inter ecclesiam visibilem et invisibilem </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>307</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>307</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c8">
-        <fileName filestem="jglt-l22c8"/>
+      <item id="zef3dd-d1e3546" alias="zef3dd-l22c8">
+        <fileName filestem="zef3dd-d1e3546"/>
         <title>CAP. VIII.</title>
         <questionTitle>An ecclesia possit deficere </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>322</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>322</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c9">
-        <fileName filestem="jglt-l22c9"/>
+      <item id="zef3dd-d1e3564" alias="zef3dd-l22c9">
+        <fileName filestem="zef3dd-d1e3564"/>
         <title>CAP. IX.</title>
         <questionTitle>An ecclesia possit errare </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>345</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>345</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c10">
-        <fileName filestem="jglt-l22c10"/>
+      <item id="zef3dd-d1e3583" alias="zef3dd-l22c10">
+        <fileName filestem="zef3dd-d1e3583"/>
         <title>CAP. X.</title>
         <questionTitle>De notis ecclesiae in genere </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>369</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>369</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c11">
-        <fileName filestem="jglt-l22c11"/>
+      <item id="zef3dd-d1e3601" alias="zef3dd-l22c11">
+        <fileName filestem="zef3dd-d1e3601"/>
         <title>CAP. XI.</title>
         <questionTitle>De notis ecclesiae a Bellarmino assignatis in specie </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>389</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>389</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c12">
-        <fileName filestem="jglt-l22c12"/>
+      <item id="zef3dd-d1e3619" alias="zef3dd-l22c12">
+        <fileName filestem="zef3dd-d1e3619"/>
         <title>CAP. XII.</title>
         <questionTitle>De causa finali ecclesiae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>602</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>602</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l22c13">
-        <fileName filestem="jglt-l22c13"/>
+      <item id="zef3dd-d1e3637" alias="zef3dd-l22c13">
+        <fileName filestem="zef3dd-d1e3637"/>
         <title>CAP. XIII.</title>
         <questionTitle>De usu hujus loci </questionTitle>
       </item>
     </div>
-    <div id="jglt-l23">
+    <div id="zef3dd-d1e3649" alias="zef3dd-l23">
       <head>LOCUS XXIII.</head>
       <questionTitle>DE MINISTBRIO ECCLESIASTICO</questionTitle>
-      <item>
-        <fileName filestem="jglt-l23proem"/>
+      <item id="zef3dd-d1e3657">
+        <fileName filestem="zef3dd-d1e3657"/>
         <title>PMOOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>1</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>1</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c1">
-        <fileName filestem="jglt-l23c1"/>
+      <item id="zef3dd-d1e3672" alias="zef3dd-l23c1">
+        <fileName filestem="zef3dd-d1e3672"/>
         <title>CAP. I.</title>
         <questionTitle>*Orofutioloy(a vocabuli ministerii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>3</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>3</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c2">
-        <fileName filestem="jglt-l23c2"/>
+      <item id="zef3dd-d1e3690" alias="zef3dd-l23c2">
+        <fileName filestem="zef3dd-d1e3690"/>
         <title>CAP. II.</title>
         <questionTitle>Tb St§ pertractatur, an scilicet detur ministerium ecclesiasticum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>25</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>25</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c3">
-        <fileName filestem="jglt-l23c3"/>
+      <item id="zef3dd-d1e3709" alias="zef3dd-l23c3">
+        <fileName filestem="zef3dd-d1e3709"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente ministerii ecclesiastici </questionTitle>
       </item>
-      <item id="jglt-l23c4">
-        <fileName filestem="jglt-l23c4"/>
+      <item id="zef3dd-d1e3720" alias="zef3dd-l23c4">
+        <fileName filestem="zef3dd-d1e3720"/>
         <title>CAP. IV.</title>
         <questionTitle>De causa materiali ministcrii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>121</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>121</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c5">
-        <fileName filestem="jglt-l23c5"/>
+      <item id="zef3dd-d1e3738" alias="zef3dd-l23c5">
+        <fileName filestem="zef3dd-d1e3738"/>
         <title>CAP. V.</title>
         <questionTitle>De forma ministerii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>129</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>129</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c6">
-        <fileName filestem="jglt-l23c6"/>
+      <item id="zef3dd-d1e3756" alias="zef3dd-l23c6">
+        <fileName filestem="zef3dd-d1e3756"/>
         <title>CAP. VI.</title>
         <questionTitle>De fine et effectu ministerii ac ministrorum </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>164</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>164</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c7">
-        <fileName filestem="jglt-l23c7"/>
+      <item id="zef3dd-d1e3774" alias="zef3dd-l23c7">
+        <fileName filestem="zef3dd-d1e3774"/>
         <title>CAP. VII.</title>
         <questionTitle>De adjunctifl ministerii </questionTitle>
       </item>
-      <item id="jglt-l23c8">
-        <fileName filestem="jglt-l23c8"/>
+      <item id="zef3dd-d1e3785" alias="zef3dd-l23c8">
+        <fileName filestem="zef3dd-d1e3785"/>
         <title>CAP. VIII.</title>
         <questionTitle>De pugnantibus cum ministerio </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>260</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>260</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c9">
-        <fileName filestem="jglt-l23c9"/>
+      <item id="zef3dd-d1e3804" alias="zef3dd-l23c9">
+        <fileName filestem="zef3dd-d1e3804"/>
         <title>CAP. IX.</title>
         <questionTitle>De usu hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>264</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>264</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l23c10">
-        <fileName filestem="jglt-l23c10"/>
+      <item id="zef3dd-d1e3822" alias="zef3dd-l23c10">
+        <fileName filestem="zef3dd-d1e3822"/>
         <title>CAP. X.</title>
         <questionTitle>Definitio ministerii ecclesiastici </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>265</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>265</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l24">
+    <div id="zef3dd-d1e3841" alias="zef3dd-l24">
       <head>LOCVS XXIV.</head>
       <questionTitle>DE MAGISTRATU POUTICO</questionTitle>
-      <item id="jglt-l24proem">
-        <fileName filestem="jglt-l24proem"/>
+      <item id="zef3dd-d1e3849" alias="zef3dd-l24proem">
+        <fileName filestem="zef3dd-d1e3849"/>
         <title>PROOEMIUM</title>
-        <hasWitnesses><witness ref="">
-          <folio>261</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>261</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c1">
-        <fileName filestem="jglt-l24c1"/>
+      <item id="zef3dd-d1e3864" alias="zef3dd-l24c1">
+        <fileName filestem="zef3dd-d1e3864"/>
         <title>CAP. I.</title>
         <questionTitle>De dyopntoloyitf hujus articuli </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>267</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>267</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c2">
-        <fileName filestem="jglt-l24c2"/>
+      <item id="zef3dd-d1e3882" alias="zef3dd-l24c2">
+        <fileName filestem="zef3dd-d1e3882"/>
         <title>CAP. II.</title>
         <questionTitle>Tu ou pertractatur, an scilicet detur! magistratus politicus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>275</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>275</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c3">
-        <fileName filestem="jglt-l24c3"/>
+      <item id="zef3dd-d1e3901" alias="zef3dd-l24c3">
+        <fileName filestem="zef3dd-d1e3901"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente magistratus politici I </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>278</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>278</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c4">
-        <fileName filestem="jglt-l24c4"/>
+      <item id="zef3dd-d1e3919" alias="zef3dd-l24c4">
+        <fileName filestem="zef3dd-d1e3919"/>
         <title>CAP. IV.</title>
         <questionTitle>De cauaa materiali magistratus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>310</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>310</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c5">
-        <fileName filestem="jglt-l24c5"/>
+      <item id="zef3dd-d1e3937" alias="zef3dd-l24c5">
+        <fileName filestem="zef3dd-d1e3937"/>
         <title>CAP. V.</title>
         <questionTitle>De causa formali magistratus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>318</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>318</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c6">
-        <fileName filestem="jglt-l24c6"/>
+      <item id="zef3dd-d1e3955" alias="zef3dd-l24c6">
+        <fileName filestem="zef3dd-d1e3955"/>
         <title>CAP. VI</title>
         <questionTitle>De fine et effectu magistratus </questionTitle>
       </item>
-      <item id="jglt-l24c7">
-        <fileName filestem="jglt-l24c7"/>
+      <item id="zef3dd-d1e3966" alias="zef3dd-l24c7">
+        <fileName filestem="zef3dd-d1e3966"/>
         <title>CAP. VII.</title>
         <questionTitle>De adjunctis magistratus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>521</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>521</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l24c8">
-        <fileName filestem="jglt-l24c8"/>
+      <item id="zef3dd-d1e3984" alias="zef3dd-l24c8">
+        <fileName filestem="zef3dd-d1e3984"/>
         <title>CAP. VIII.</title>
         <questionTitle>De contrariis magistratui adversantibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>526</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>526</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l25">
+    <div id="zef3dd-d1e4004" alias="zef3dd-l25">
       <head>LOCUS XXV.</head>
       <questionTitle>DE CONJUGIO.</questionTitle>
-      <item id="">
-        <fileName filestem="jglt-l25proem"/>
+      <item id="zef3dd-d1e4012" alias="">
+        <fileName filestem="zef3dd-d1e4012"/>
         <title>PROEMIUM</title>
       </item>
-      <item id="">
-        <fileName filestem="jglt-l25c1"/>
+      <item id="zef3dd-d1e4020" alias="">
+        <fileName filestem="zef3dd-d1e4020"/>
         <title>CAP. I.</title>
         <questionTitle>^OvofxnioXoylttv doctrinae de conjugio explicat </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>4</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>4</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c2">
-        <fileName filestem="jglt-l25c2"/>
+      <item id="zef3dd-d1e4038" alias="zef3dd-l25c2">
+        <fileName filestem="zef3dd-d1e4038"/>
         <title>CAP. II.</title>
         <questionTitle>An sit conjugium? </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>7</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>7</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c3">
-        <fileName filestem="jglt-l25c3"/>
+      <item id="zef3dd-d1e4057" alias="zef3dd-l25c3">
+        <fileName filestem="zef3dd-d1e4057"/>
         <title>CAP. III.</title>
         <questionTitle>Quid sit conjugium? </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>9</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>9</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c4">
-        <fileName filestem="jglt-l25c4"/>
+      <item id="zef3dd-d1e4075" alias="zef3dd-l25c4">
+        <fileName filestem="zef3dd-d1e4075"/>
         <title>CAP. IV.</title>
         <questionTitle>De causa efficiente conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>31</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>31</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c5">
-        <fileName filestem="jglt-l25c5"/>
+      <item id="zef3dd-d1e4093" alias="zef3dd-l25c5">
+        <fileName filestem="zef3dd-d1e4093"/>
         <title>CAP. V.</title>
         <questionTitle>De causa materiali conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>101</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>101</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c6">
-        <fileName filestem="jglt-l25c6"/>
+      <item id="zef3dd-d1e4111" alias="zef3dd-l25c6">
+        <fileName filestem="zef3dd-d1e4111"/>
         <title>CAP. VI.</title>
         <questionTitle>De causa formali conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>235</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>235</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c7">
-        <fileName filestem="jglt-l25c7"/>
+      <item id="zef3dd-d1e4129" alias="zef3dd-l25c7">
+        <fileName filestem="zef3dd-d1e4129"/>
         <title>CAP. VII.</title>
         <questionTitle>De causa finali conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>243</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>243</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c8">
-        <fileName filestem="jglt-l25c8"/>
+      <item id="zef3dd-d1e4147" alias="zef3dd-l25c8">
+        <fileName filestem="zef3dd-d1e4147"/>
         <title>CAP. VIII.</title>
         <questionTitle>De effectis conjugii</questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>252</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>252</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c9">
-        <fileName filestem="jglt-l25c9"/>
+      <item id="zef3dd-d1e4166" alias="zef3dd-l25c9">
+        <fileName filestem="zef3dd-d1e4166"/>
         <title>CAP. IX.</title>
         <questionTitle>De adjunctis conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>276</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>276</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c10">
-        <fileName filestem="jglt-l25c10"/>
+      <item id="zef3dd-d1e4184" alias="zef3dd-l25c10">
+        <fileName filestem="zef3dd-d1e4184"/>
         <title>CAP. X.</title>
         <questionTitle>De pugnantibus sive contrariis conjugio adversantibus </questionTitle>
-        <hasWitnesses> <witness ref="">
-          <folio>297</folio>
-          </witness> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#Ba">
+            <folio>297</folio>
+          </witness>
+        </hasWitnesses>
       </item>
-      <item id="jglt-l25c11">
-        <fileName filestem="jglt-l25c11"/>
+      <item id="zef3dd-d1e4204" alias="zef3dd-l25c11">
+        <fileName filestem="zef3dd-d1e4204"/>
         <title>CAP. XI.</title>
         <questionTitle>De usu hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>465</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>465</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l25c12">
-        <fileName filestem="jglt-l25c12"/>
+      <item id="zef3dd-d1e4222" alias="zef3dd-l25c12">
+        <fileName filestem="zef3dd-d1e4222"/>
         <title>CAP. XII.</title>
         <questionTitle>De definitione conjugii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>466</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>466</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l26">
+    <div id="zef3dd-d1e4241" alias="zef3dd-l26">
       <head>LOCUS XXVI</head>
       <questionTitle>DE NOVISSIMIS IN GENERE</questionTitle>
-      <item id="jglt-l26c1">
-        <fileName filestem="jglt-l26c1"/>
+      <item id="zef3dd-d1e4249" alias="zef3dd-l26c1">
+        <fileName filestem="zef3dd-d1e4249"/>
         <title>CAP. I.</title>
         <questionTitle>De bvofjtaroloyiq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>9</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>9</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c2">
-        <fileName filestem="jglt-l26c2"/>
+      <item id="zef3dd-d1e4267" alias="zef3dd-l26c2">
+        <fileName filestem="zef3dd-d1e4267"/>
         <title>CAP. II.</title>
         <questionTitle>De causis mortifl </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>19</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>19</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c3">
-        <fileName filestem="jglt-l26c3"/>
+      <item id="zef3dd-d1e4285" alias="zef3dd-l26c3">
+        <fileName filestem="zef3dd-d1e4285"/>
         <title>CAP. III.</title>
         <questionTitle>De materia mortis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>32</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>32</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c4">
-        <fileName filestem="jglt-l26c4"/>
+      <item id="zef3dd-d1e4304" alias="zef3dd-l26c4">
+        <fileName filestem="zef3dd-d1e4304"/>
         <title>CAP. IV.</title>
         <questionTitle>De forma mortis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>33</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>33</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c5">
-        <fileName filestem="jglt-l26c5"/>
+      <item id="zef3dd-d1e4322" alias="zef3dd-l26c5">
+        <fileName filestem="zef3dd-d1e4322"/>
         <title>CAP. V.</title>
         <questionTitle>De fine mortis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>35</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>35</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c6">
-        <fileName filestem="jglt-l26c6"/>
+      <item id="zef3dd-d1e4340" alias="zef3dd-l26c6">
+        <fileName filestem="zef3dd-d1e4340"/>
         <title>CAP. VI.</title>
         <questionTitle>De objecto mortia </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>35</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>35</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c7">
-        <fileName filestem="jglt-l26c7"/>
+      <item id="zef3dd-d1e4358" alias="zef3dd-l26c7">
+        <fileName filestem="zef3dd-d1e4358"/>
         <title>CAP. VII.</title>
         <questionTitle>De adjunctis mortis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>37</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>37</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c8">
-        <fileName filestem="jglt-l26c8"/>
+      <item id="zef3dd-d1e4376" alias="zef3dd-l26c8">
+        <fileName filestem="zef3dd-d1e4376"/>
         <title>CAP. VIII.</title>
         <questionTitle>De contrariis mortis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>376</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>376</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c9">
-        <fileName filestem="jglt-l26c9"/>
+      <item id="zef3dd-d1e4394" alias="zef3dd-l26c9">
+        <fileName filestem="zef3dd-d1e4394"/>
         <title>CAP. IX.</title>
         <questionTitle>De usu hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>376</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>376</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l26c10">
-        <fileName filestem="jglt-l26c10"/>
+      <item id="zef3dd-d1e4413" alias="zef3dd-l26c10">
+        <fileName filestem="zef3dd-d1e4413"/>
         <title>CAP. X.</title>
         <questionTitle>Definitionem mortis proponit </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>384</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>384</folio>
           </witness></hasWitnesses>
       </item>
     </div>
     <!-- seems to be an error in index here, listed as Tractatus 2, missing label for l27 -->
-    <div id="jglt-l27">
+    <div id="zef3dd-d1e4434" alias="zef3dd-l27">
       <head>LOCUS XXVII</head>
       <questionTitle>(DE NOVISSIMIS IN GENERE TRACTATUS II) DE MORTUORUM
         RESURRECTIONE</questionTitle>
-      <item id="jglt-l27proem">
-        <fileName filestem="jglt-l27proem"/>
+      <item id="zef3dd-d1e4442" alias="zef3dd-l27proem">
+        <fileName filestem="zef3dd-d1e4442"/>
         <title>PROOEMIUM</title>
       </item>
-      <item id="jglt-l27c1">
-        <fileName filestem="jglt-l27c1"/>
+      <item id="zef3dd-d1e4450" alias="zef3dd-l27c1">
+        <fileName filestem="zef3dd-d1e4450"/>
         <title>CAP. I.</title>
         <questionTitle>T&gt;e w 6vofiaToloyfq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>393</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>393</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c2">
-        <fileName filestem="jglt-l27c2"/>
+      <item id="zef3dd-d1e4468" alias="zef3dd-l27c2">
+        <fileName filestem="zef3dd-d1e4468"/>
         <title>CAP. II.</title>
         <questionTitle>An sit resurrectio mortuorum? </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>396</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>396</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c3">
-        <fileName filestem="jglt-l27c3"/>
+      <item id="zef3dd-d1e4487" alias="zef3dd-l27c3">
+        <fileName filestem="zef3dd-d1e4487"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>447</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>447</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c4">
-        <fileName filestem="jglt-l27c4"/>
+      <item id="zef3dd-d1e4505" alias="zef3dd-l27c4">
+        <fileName filestem="zef3dd-d1e4505"/>
         <title>CAP. IV.</title>
         <questionTitle>De materia resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>461</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>461</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c5">
-        <fileName filestem="jglt-l27c5"/>
+      <item id="zef3dd-d1e4523" alias="zef3dd-l27c5">
+        <fileName filestem="zef3dd-d1e4523"/>
         <title>CAP. V.</title>
         <questionTitle>De forma resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>481</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>481</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c6">
-        <fileName filestem="jglt-l27c6"/>
+      <item id="zef3dd-d1e4541" alias="zef3dd-l27c6">
+        <fileName filestem="zef3dd-d1e4541"/>
         <title>CAP. VI</title>
         <questionTitle>De fine resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>483</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>483</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c7">
-        <fileName filestem="jglt-l27c7"/>
+      <item id="zef3dd-d1e4559" alias="zef3dd-l27c7">
+        <fileName filestem="zef3dd-d1e4559"/>
         <title>CAP. VII.</title>
         <questionTitle>De effectis resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>484</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>484</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c8">
-        <fileName filestem="jglt-l27c8"/>
+      <item id="zef3dd-d1e4577" alias="zef3dd-l27c8">
+        <fileName filestem="zef3dd-d1e4577"/>
         <title>CAP. VIII.</title>
         <questionTitle>De subjecto resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>484</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>484</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c9">
-        <fileName filestem="jglt-l27c9"/>
+      <item id="zef3dd-d1e4596" alias="zef3dd-l27c9">
+        <fileName filestem="zef3dd-d1e4596"/>
         <title>CAP. IX.</title>
         <questionTitle>De adjunctis reeurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>492</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>492</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c10">
-        <fileName filestem="jglt-l27c10"/>
+      <item id="zef3dd-d1e4614" alias="zef3dd-l27c10">
+        <fileName filestem="zef3dd-d1e4614"/>
         <title>CAP. X.</title>
         <questionTitle>De cognatis resurrectionis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>494</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>494</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c11">
-        <fileName filestem="jglt-l27c11"/>
+      <item id="zef3dd-d1e4632" alias="zef3dd-l27c11">
+        <fileName filestem="zef3dd-d1e4632"/>
         <title>CAP. XI.</title>
         <questionTitle>De pugnantibus cum resurrectione </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>503</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>503</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c12">
-        <fileName filestem="jglt-l27c12"/>
+      <item id="zef3dd-d1e4650" alias="zef3dd-l27c12">
+        <fileName filestem="zef3dd-d1e4650"/>
         <title>CAP. XII.</title>
         <questionTitle>De usu hujus doctrinae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>503</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>503</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l27c13">
-        <fileName filestem="jglt-l27c13"/>
+      <item id="zef3dd-d1e4668" alias="zef3dd-l27c13">
+        <fileName filestem="zef3dd-d1e4668"/>
         <title>CAP. XIII.</title>
         <questionTitle>Definitionem resurrectionis proponit </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>504</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>504</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l28">
+    <div id="zef3dd-d1e4687" alias="zef3dd-l28">
       <head>LOCUS XXVIII</head>
       <questionTitle>(DE NOVISSIMIS IN GENERE TRACTATUS III) DE EXTREMO JUDICIO</questionTitle>
-      <item id="jglt-l28proem">
-        <fileName filestem="jglt-l28proem"/>
+      <item id="zef3dd-d1e4695" alias="zef3dd-l28proem">
+        <fileName filestem="zef3dd-d1e4695"/>
         <title>PROOEMIUM</title>
       </item>
-      <item id="jglt-l28c1">
-        <fileName filestem="jglt-l28c1"/>
+      <item id="zef3dd-d1e4703" alias="zef3dd-l28c1">
+        <fileName filestem="zef3dd-d1e4703"/>
         <title>CAP. I.</title>
         <questionTitle>De ovofiaroXoyttf </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>2</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>2</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c2">
-        <fileName filestem="jglt-l28c2"/>
+      <item id="zef3dd-d1e4721" alias="zef3dd-l28c2">
+        <fileName filestem="zef3dd-d1e4721"/>
         <title>CAP. II.</title>
         <questionTitle>De rtu ori, an sit judicium </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>6</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>6</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c3">
-        <fileName filestem="jglt-l28c3"/>
+      <item id="zef3dd-d1e4740" alias="zef3dd-l28c3">
+        <fileName filestem="zef3dd-d1e4740"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente eztremi judicii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>29</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>29</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c4">
-        <fileName filestem="jglt-l28c4"/>
+      <item id="zef3dd-d1e4758" alias="zef3dd-l28c4">
+        <fileName filestem="zef3dd-d1e4758"/>
         <title>CAP. IV.</title>
         <questionTitle>De materia judicii novissimi </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>44</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>44</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c5">
-        <fileName filestem="jglt-l28c5"/>
+      <item id="zef3dd-d1e4776" alias="zef3dd-l28c5">
+        <fileName filestem="zef3dd-d1e4776"/>
         <title>CAP. V.</title>
         <questionTitle>De forma judicii eztremi </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>54</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>54</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c6">
-        <fileName filestem="jglt-l28c6"/>
+      <item id="zef3dd-d1e4794" alias="zef3dd-l28c6">
+        <fileName filestem="zef3dd-d1e4794"/>
         <title>CAP. VI.</title>
         <questionTitle>De fine et effectu eztremi judicii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>67</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>67</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c7">
-        <fileName filestem="jglt-l28c7"/>
+      <item id="zef3dd-d1e4812" alias="zef3dd-l28c7">
+        <fileName filestem="zef3dd-d1e4812"/>
         <title>CAP. VII.</title>
         <questionTitle>De adjunctis eztremi judicii </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>68</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>68</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c8">
-        <fileName filestem="jglt-l28c8"/>
+      <item id="zef3dd-d1e4830" alias="zef3dd-l28c8">
+        <fileName filestem="zef3dd-d1e4830"/>
         <title>CAP. VIII.</title>
         <questionTitle>De cognatis eztremi judicii </questionTitle>
       </item>
-      <item id="jglt-l28c9">
-        <fileName filestem="jglt-l28c9"/>
+      <item id="zef3dd-d1e4842" alias="zef3dd-l28c9">
+        <fileName filestem="zef3dd-d1e4842"/>
         <title>CAP. IX.</title>
         <questionTitle>De pugnantibus cum extremo judicio </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>112</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>112</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c10">
-        <fileName filestem="jglt-l28c10"/>
+      <item id="zef3dd-d1e4860" alias="zef3dd-l28c10">
+        <fileName filestem="zef3dd-d1e4860"/>
         <title>CAP. X.</title>
         <questionTitle>De usu hujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>113</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>113</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l28c11">
-        <fileName filestem="jglt-l28c11"/>
+      <item id="zef3dd-d1e4878" alias="zef3dd-l28c11">
+        <fileName filestem="zef3dd-d1e4878"/>
         <title>CAP. XI.</title>
         <questionTitle>Definitionem eztremi judicii proponit </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>124</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>124</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l29">
+    <div id="zef3dd-d1e4897" alias="zef3dd-l29">
       <head>LOCUS XXIX.</head>
       <questionTitle>(DE NOVISSIMIS 1N GENERE TRACTATUS IV) DE CONSUM- MATIONE
         SECULI</questionTitle>
-      <item id="jglt-l29proem">
-        <fileName filestem="jglt-l29proem"/>
+      <item id="zef3dd-d1e4905" alias="zef3dd-l29proem">
+        <fileName filestem="zef3dd-d1e4905"/>
         <title>PROOEMIUM</title>
       </item>
-      <item id="jglt-l29c1">
-        <fileName filestem="jglt-l29c1"/>
+      <item id="zef3dd-d1e4913" alias="zef3dd-l29c1">
+        <fileName filestem="zef3dd-d1e4913"/>
         <title>CAP. I.</title>
         <questionTitle>De QVofiuToXoytq </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>127</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>127</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c2">
-        <fileName filestem="jglt-l29c2"/>
+      <item id="zef3dd-d1e4931" alias="zef3dd-l29c2">
+        <fileName filestem="zef3dd-d1e4931"/>
         <title>CAP. II.</title>
         <questionTitle>De Ttji Sti, an secutura sit aliquando mundi consummatio </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>132</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>132</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c3">
-        <fileName filestem="jglt-l29c3"/>
+      <item id="zef3dd-d1e4950" alias="zef3dd-l29c3">
+        <fileName filestem="zef3dd-d1e4950"/>
         <title>CAP. III.</title>
         <questionTitle>De causa efficiente destructionis munndi </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>146</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>146</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c4">
-        <fileName filestem="jglt-l29c4"/>
+      <item id="zef3dd-d1e4968" alias="zef3dd-l29c4">
+        <fileName filestem="zef3dd-d1e4968"/>
         <title>CAP. IV.</title>
         <questionTitle>De materia conflagratioois </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>150</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>150</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c5">
-        <fileName filestem="jglt-l29c5"/>
+      <item id="zef3dd-d1e4986" alias="zef3dd-l29c5">
+        <fileName filestem="zef3dd-d1e4986"/>
         <title>CAP. V.</title>
         <questionTitle>De forma consummatiouis </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>155</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>155</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c6">
-        <fileName filestem="jglt-l29c6"/>
+      <item id="zef3dd-d1e5004" alias="zef3dd-l29c6">
+        <fileName filestem="zef3dd-d1e5004"/>
         <title>CAP. VI.</title>
         <questionTitle>De fine consummatiouis seculi </questionTitle>
       </item>
-      <item id="jglt-l29c7">
-        <fileName filestem="jglt-l29c7"/>
+      <item id="zef3dd-d1e5015" alias="zef3dd-l29c7">
+        <fileName filestem="zef3dd-d1e5015"/>
         <title>CAP. VII.</title>
         <questionTitle>De adjunctis consummationis secuP </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>180</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>180</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c8">
-        <fileName filestem="jglt-l29c8"/>
+      <item id="zef3dd-d1e5033" alias="zef3dd-l29c8">
+        <fileName filestem="zef3dd-d1e5033"/>
         <title>CAP. VIII.</title>
         <questionTitle>De cognatis consummationis seculi </questionTitle>
       </item>
-      <item id="jglt-l29c9">
-        <fileName filestem="jglt-l29c9"/>
+      <item id="zef3dd-d1e5045" alias="zef3dd-l29c9">
+        <fileName filestem="zef3dd-d1e5045"/>
         <title>CAP. IX.</title>
         <questionTitle>De pugnantibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>201</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>201</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c10">
-        <fileName filestem="jglt-l29c10"/>
+      <item id="zef3dd-d1e5063" alias="zef3dd-l29c10">
+        <fileName filestem="zef3dd-d1e5063"/>
         <title>CAP. X.</title>
         <questionTitle>De usu bujus loci </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>201</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>201</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l29c11">
-        <fileName filestem="jglt-l29c11"/>
+      <item id="zef3dd-d1e5081" alias="zef3dd-l29c11">
+        <fileName filestem="zef3dd-d1e5081"/>
         <title>CAP. XI.</title>
         <questionTitle>Definitionem hujus novissimi subjungit </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>204</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>204</folio>
           </witness></hasWitnesses>
       </item>
     </div>
-    <div id="jglt-l30">
+    <div id="zef3dd-d1e5101" alias="zef3dd-l30">
       <head>LOCUS XXX.</head>
       <questionTitle>(DE NOVISSIMIS IN GENERE TRACTATUS V) DE INFERNO SEU MORTE
         AETERNA</questionTitle>
-      <item id="jglt-l30proem">
-        <fileName filestem="jglt-l30proem"/>
+      <item id="zef3dd-d1e5109" alias="zef3dd-l30proem">
+        <fileName filestem="zef3dd-d1e5109"/>
         <title>PROOEMIUM.</title>
       </item>
-      <item id="jglt-l30c1">
-        <fileName filestem="jglt-l30c1"/>
+      <item id="zef3dd-d1e5117" alias="zef3dd-l30c1">
+        <fileName filestem="zef3dd-d1e5117"/>
         <title>CAP. I.</title>
         <questionTitle>De ovofiaroXoyttf </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>206</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>206</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c2">
-        <fileName filestem="jglt-l30c2"/>
+      <item id="zef3dd-d1e5135" alias="zef3dd-l30c2">
+        <fileName filestem="zef3dd-d1e5135"/>
         <title>CAP. IL</title>
         <questionTitle>De to&gt; ot*, an sit infernus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>212</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>212</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c3">
-        <fileName filestem="jglt-l30c3"/>
+      <item id="zef3dd-d1e5154" alias="zef3dd-l30c3">
+        <fileName filestem="zef3dd-d1e5154"/>
         <title>CAP. III.</title>
         <questionTitle>De r$ r/ t quid sit infernus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>225</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>225</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c4">
-        <fileName filestem="jglt-l30c4"/>
+      <item id="zef3dd-d1e5172" alias="zef3dd-l30c4">
+        <fileName filestem="zef3dd-d1e5172"/>
         <title>CAP. IV.</title>
         <questionTitle>De causa efficiente inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>227</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>227</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c5">
-        <fileName filestem="jglt-l30c5"/>
+      <item id="zef3dd-d1e5190" alias="zef3dd-l30c5">
+        <fileName filestem="zef3dd-d1e5190"/>
         <title>CAP. V.</title>
         <questionTitle>De materia inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>233</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>233</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c6">
-        <fileName filestem="jglt-l30c6"/>
+      <item id="zef3dd-d1e5208" alias="zef3dd-l30c6">
+        <fileName filestem="zef3dd-d1e5208"/>
         <title>CAP. VI.</title>
         <questionTitle>De forma inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>233</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>233</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c7">
-        <fileName filestem="jglt-l30c7"/>
+      <item id="zef3dd-d1e5226" alias="zef3dd-l30c7">
+        <fileName filestem="zef3dd-d1e5226"/>
         <title>CAP. VII.</title>
         <questionTitle>De causa finali inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>275</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>275</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c8">
-        <fileName filestem="jglt-l30c8"/>
+      <item id="zef3dd-d1e5244" alias="zef3dd-l30c8">
+        <fileName filestem="zef3dd-d1e5244"/>
         <title>CAP. VIII.</title>
         <questionTitle>De objecto inferni </questionTitle>
       </item>
-      <item id="jglt-l30c9">
-        <fileName filestem="jglt-l30c9"/>
+      <item id="zef3dd-d1e5256" alias="zef3dd-l30c9">
+        <fileName filestem="zef3dd-d1e5256"/>
         <title>CAP. IX</title>
         <questionTitle>De subjecto inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>278</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>278</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c10">
-        <fileName filestem="jglt-l30c10"/>
+      <item id="zef3dd-d1e5274" alias="zef3dd-l30c10">
+        <fileName filestem="zef3dd-d1e5274"/>
         <title>CAP. X.</title>
         <questionTitle>De adjunctis inferni </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>279</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>279</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c11">
-        <fileName filestem="jglt-l30c11"/>
+      <item id="zef3dd-d1e5292" alias="zef3dd-l30c11">
+        <fileName filestem="zef3dd-d1e5292"/>
         <title>CAP. XI</title>
         <questionTitle>De cognatis et pugnantibus </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>283</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>283</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c12">
-        <fileName filestem="jglt-l30c12"/>
+      <item id="zef3dd-d1e5310" alias="zef3dd-l30c12">
+        <fileName filestem="zef3dd-d1e5310"/>
         <title>CAP. XII.</title>
         <questionTitle>De usu hujus articuli </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>283</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>283</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l30c13">
-        <fileName filestem="jglt-l30c13"/>
+      <item id="zef3dd-d1e5328" alias="zef3dd-l30c13">
+        <fileName filestem="zef3dd-d1e5328"/>
         <title>CAP. XIII</title>
         <questionTitle>Definitionem inferni proponit </questionTitle>
       </item>
     </div>
-    <div id="jglt-l31">
+    <div id="zef3dd-d1e5340" alias="zef3dd-l31">
       <head>LOCUS XXXI.</head>
       <questionTitle>*DE NOVISSIMIS IN GENERE TRACTATUS VI) DE VITA AETERNA</questionTitle>
-      <item id="jglt-l31proem">
-        <fileName filestem="jglt-l31proem"/>
+      <item id="zef3dd-d1e5348" alias="zef3dd-l31proem">
+        <fileName filestem="zef3dd-d1e5348"/>
         <title>PROOEMIUM</title>
       </item>
-      <item id="jglt-l31c1">
-        <fileName filestem="jglt-l31c1"/>
+      <item id="zef3dd-d1e5356" alias="zef3dd-l31c1">
+        <fileName filestem="zef3dd-d1e5356"/>
         <title>CAP. I.</title>
         <questionTitle>De ovofiaToXoylo} </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>289</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>289</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c2">
-        <fileName filestem="jglt-l31c2"/>
+      <item id="zef3dd-d1e5374" alias="zef3dd-l31c2">
+        <fileName filestem="zef3dd-d1e5374"/>
         <title>CAP. II.</title>
         <questionTitle>De rp oTt, an sit vita aeterna </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>297</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>297</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c3">
-        <fileName filestem="jglt-l31c3"/>
+      <item id="zef3dd-d1e5393" alias="zef3dd-l31c3">
+        <fileName filestem="zef3dd-d1e5393"/>
         <title>CAP. III.</title>
         <questionTitle>De t«j r/, quid sit vita aeterna </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>318</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>318</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c4">
-        <fileName filestem="jglt-l31c4"/>
+      <item id="zef3dd-d1e5411" alias="zef3dd-l31c4">
+        <fileName filestem="zef3dd-d1e5411"/>
         <title>CAP. IV.</title>
         <questionTitle>De causa efficiente vitaeaeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>320</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>320</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c5">
-        <fileName filestem="jglt-l31c5"/>
+      <item id="zef3dd-d1e5429" alias="zef3dd-l31c5">
+        <fileName filestem="zef3dd-d1e5429"/>
         <title>CAP. V.</title>
         <questionTitle>De materia et forma vitae aeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>331</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>331</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c6">
-        <fileName filestem="jglt-l31c6"/>
+      <item id="zef3dd-d1e5447" alias="zef3dd-l31c6">
+        <fileName filestem="zef3dd-d1e5447"/>
         <title>CAP. VI.</title>
         <questionTitle>De fine vitae aeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>418</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>418</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c7">
-        <fileName filestem="jglt-l31c7"/>
+      <item id="zef3dd-d1e5465" alias="zef3dd-l31c7">
+        <fileName filestem="zef3dd-d1e5465"/>
         <title>CAP. VII.</title>
         <questionTitle>De objecto vitae aeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>419</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>419</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c8">
-        <fileName filestem="jglt-l31c8"/>
+      <item id="zef3dd-d1e5483" alias="zef3dd-l31c8">
+        <fileName filestem="zef3dd-d1e5483"/>
         <title>CAP. VIII.</title>
         <questionTitle>De subjecto vitae aeternae </questionTitle>
       </item>
-      <item id="jglt-l31c9">
-        <fileName filestem="jglt-l31c9"/>
+      <item id="zef3dd-d1e5495" alias="zef3dd-l31c9">
+        <fileName filestem="zef3dd-d1e5495"/>
         <title>CAP. IX.</title>
         <questionTitle>De adjunctis vitae aeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>421</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>421</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c10">
-        <fileName filestem="jglt-l31c10"/>
+      <item id="zef3dd-d1e5513" alias="zef3dd-l31c10">
+        <fileName filestem="zef3dd-d1e5513"/>
         <title>CAP. X.</title>
         <questionTitle>De cognatis et pugnantibus vitae aeternae </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>423</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>423</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c11">
-        <fileName filestem="jglt-l31c11"/>
+      <item id="zef3dd-d1e5531" alias="zef3dd-l31c11">
+        <fileName filestem="zef3dd-d1e5531"/>
         <title>CAP. XI.</title>
         <questionTitle>De usu hujus articuli </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>424</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>424</folio>
           </witness></hasWitnesses>
       </item>
-      <item id="jglt-l31c12">
-        <fileName filestem="jglt-l31c12"/>
+      <item id="zef3dd-d1e5549" alias="zef3dd-l31c12">
+        <fileName filestem="zef3dd-d1e5549"/>
         <title>CAP. XII.</title>
         <questionTitle>Definitionem vitae aeternae continet </questionTitle>
-        <hasWitnesses><witness ref="">
-          <folio>427</folio>
+        <hasWitnesses><witness ref="#Ba">
+            <folio>427</folio>
           </witness></hasWitnesses>
       </item>
     </div>
