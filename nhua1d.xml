@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Martin Chemnitz</authorName>
+    <commentaryName>Loci Theologici</commentaryName>
+    <commentaryid>nhua1d</commentaryid>
+    <commentaryslug>nhua1d</commentaryslug>
+    <alias>MartinChemnitzLociTheologici</alias>
+    <authorUri>http://scta.info/resource/MartinChemnitz</authorUri>
+    <parentUri>http://scta.info/resource/nhua1d</parentUri>
+    <parentWorkGroup>http://scta.info/resource/locicommunes</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/nhua1d/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="Wa">
+        <slug>cod-u789d3</slug> <!-- not yet created -->
+        <title>Wittenberg 1615</title>
+        <initial>Wa</initial>
+      </witness>
+      <witness id="Wb">
+        <slug>cod-q9iu7a</slug> <!-- not yet created -->
+        <title>Wittenberg 1653</title>
+        <initial>Wb</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="nhua1d-d1e79" alias="nhua1d-intro">
+      <head>Introductio</head>
+      <item id="nhua1d-d1e84" alias="nhua1d-introc1">
+        <fileName filestem="nhua1d-d1e84"/>
+        <title>Caput 1</title>
+        <questionTitle>Oratio de lectione Patrum seu Doctorum Ecclesiasticorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>1</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e107" alias="nhua1d-introc2">
+        <fileName filestem="nhua1d-d1e107"/>
+        <title>Caput 2</title>
+        <questionTitle>Praefatio Domini Philippi Melanchthonis in Locus Theologicos</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>7</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e130" alias="nhua1d-introc3">
+        <fileName filestem="nhua1d-d1e130"/>
+        <title>Caput 3</title>
+        <questionTitle>De usu et utilitate Locorum Theologicorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>9</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e153" alias="nhua1d-introc4">
+        <fileName filestem="nhua1d-d1e153"/>
+        <title>Caput 4</title>
+        <questionTitle>Hypomnemata, sive commonefactiones speciales</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>14</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e177" alias="nhua1d-l1">
+      <head>Locus 1</head>
+      <questionTitle>De Deo</questionTitle>
+      <item id="nhua1d-d1e185" alias="nhua1d-l1prae">
+        <fileName filestem="nhua1d-d1e185"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>17</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <div id="nhua1d-d1e207">
+        <head>Pars 1</head>
+        <questionTitle>De Deo in Genere</questionTitle>
+        <item id="nhua1d-d1e215" alias="nhua1d-l1p1c1">
+          <fileName filestem="nhua1d-d1e215"/>
+          <title>Caput 1</title>
+          <questionTitle>De notitia Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>19</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e238" alias="nhua1d-l1p1c2">
+          <fileName filestem="nhua1d-d1e238"/>
+          <title>Caput 2</title>
+          <questionTitle>De statu huius articuli</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>23</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e261" alias="nhua1d-l1p1c3">
+          <fileName filestem="nhua1d-d1e261"/>
+          <title>Caput 3</title>
+          <questionTitle>De Definitione Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>24</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="nhua1d-d1e285">
+        <head>Pars 2</head>
+        <questionTitle>De Deo in Specie</questionTitle>
+        <item id="nhua1d-d1e293" alias="nhua1d-l1p2c1">
+          <fileName filestem="nhua1d-d1e293"/>
+          <title>Caput 1</title>
+          <questionTitle>De unitate essentiae divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>29</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e316" alias="nhua1d-l1p2c2">
+          <fileName filestem="nhua1d-d1e316"/>
+          <title>Caput 2</title>
+          <questionTitle>De Trinitate seu tribus personis divinitatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>31</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e339" alias="nhua1d-l1p2c3">
+          <fileName filestem="nhua1d-d1e339"/>
+          <title>Caput 3</title>
+          <questionTitle>De certaminibus in hoc articulo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>33</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e363" alias="nhua1d-l1p2c4">
+          <fileName filestem="nhua1d-d1e363"/>
+          <title>Caput 4</title>
+          <questionTitle>Quae vocabula qua significatione et quo consilio 
+          in hoc articulo sint recepta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>34</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e386" alias="nhua1d-l1p2c5">
+          <fileName filestem="nhua1d-d1e386"/>
+          <title>Caput 5</title>
+          <questionTitle>De regulis in operibus Dei ad extra et intra</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>35</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e409" alias="nhua1d-l1p2c6">
+          <fileName filestem="nhua1d-d1e409"/>
+          <title>Caput 6</title>
+          <questionTitle>Qui modi loquendi de unitate Divinitatis et 
+          Trinitate personarum sint recepti et qui reiecti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>41</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e432" alias="nhua1d-l1p2c7">
+          <fileName filestem="nhua1d-d1e432"/>
+          <title>Caput 7</title>
+          <questionTitle>De Persona Patris et trium personarum definitione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>42</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="nhua1d-d1e455" alias="nhua1d-l1p2c8">
+          <fileName filestem="nhua1d-d1e455"/>
+          <title>Caput 8</title>
+          <questionTitle>De vocabulo <unclear>omorsis</unclear> <!-- greek --></questionTitle>
+          <hasWitnesses>
+            <witness ref="#Wa">
+            </witness>
+            <witness ref="#Wb">
+              <folio>43</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="nhua1d-d1e484" alias="nhua1d-l2">
+      <head>Locus 2</head>
+      <questionTitle>De Deo Filio</questionTitle>
+      <item id="nhua1d-d1e492" alias="nhua1d-l2prae">
+        <fileName filestem="nhua1d-d1e492"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>44</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e514" alias="nhua1d-l2c1">
+        <fileName filestem="nhua1d-d1e514"/>
+        <title>Caput 1</title>
+        <questionTitle>De divina Christi natura</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>50</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e537" alias="nhua1d-l2c2">
+        <fileName filestem="nhua1d-d1e537"/>
+        <title>Caput 2</title>
+        <questionTitle>De variatione status, propter varia certamina</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>52</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e561" alias="nhua1d-l2c3">
+        <fileName filestem="nhua1d-d1e561"/>
+        <title>Caput 3</title>
+        <questionTitle>De testimoniis, quibus varii illi status, contra 
+        Haereticos probantur et confirmantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>55</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e584" alias="nhua1d-l2c4">
+        <fileName filestem="nhua1d-d1e584"/>
+        <title>Caput 4</title>
+        <questionTitle>De praecipuis argumentis Arrianorum, eorumque 
+        refutatione ac solutione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>60</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e607" alias="nhua1d-l2c5">
+        <fileName filestem="nhua1d-d1e607"/>
+        <title>Caput 5</title>
+        <questionTitle>De humana natura in Christo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>64</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e630" alias="nhua1d-l2c6">
+        <fileName filestem="nhua1d-d1e630"/>
+        <title>Caput 6</title>
+        <questionTitle>Certamina, quo ad humanam Christi naturam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>64</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e653" alias="nhua1d-l2c7">
+        <fileName filestem="nhua1d-d1e653"/>
+        <title>Caput 7</title>
+        <questionTitle>De personali unione duarum naturarum in Christo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>70</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e676" alias="nhua1d-l2c8">
+        <fileName filestem="nhua1d-d1e676"/>
+        <title>Caput 8</title>
+        <questionTitle>De appellationibus officii Christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>70</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e700" alias="nhua1d-l2c9">
+        <fileName filestem="nhua1d-d1e700"/>
+        <title>Caput 9</title>
+        <questionTitle>Certamina quo ad unionem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>72</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e723" alias="nhua1d-l2c10">
+        <fileName filestem="nhua1d-d1e723"/>
+        <title>Caput 10</title>
+        <questionTitle>Admonitiones de quibusdam modis loquendi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>73</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e746" alias="nhua1d-l2c11">
+        <fileName filestem="nhua1d-d1e746"/>
+        <title>Caput 11</title>
+        <questionTitle>Propositiones D. Dithmari Kenkelii Cons. Brem.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>82</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e770" alias="nhua1d-l3">
+      <head>Locus 3</head>
+      <questionTitle>De spiritu sancto</questionTitle>
+      <item id="nhua1d-d1e778" alias="nhua1d-l3prae">
+        <fileName filestem="nhua1d-d1e778"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>82</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e800" alias="nhua1d-l3c1">
+        <fileName filestem="nhua1d-d1e800"/>
+        <title>Caput 1</title>
+        <questionTitle>De persona spiritum sancti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>85</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e823" alias="nhua1d-l3c2">
+        <fileName filestem="nhua1d-d1e823"/>
+        <title>Caput 2</title>
+        <questionTitle>De nominibus et Epithetis praecipuis, quae Spiritui 
+        Sancto scriptura tribuuntur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>87</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e847" alias="nhua1d-l3c3">
+        <fileName filestem="nhua1d-d1e847"/>
+        <title>Caput 3</title>
+        <questionTitle>De testimoniis scriptura</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>88</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e870" alias="nhua1d-l3c4">
+        <fileName filestem="nhua1d-d1e870"/>
+        <title>Caput 4</title>
+        <questionTitle>De certaminibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>90</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e893" alias="nhua1d-l3c5">
+        <fileName filestem="nhua1d-d1e893"/>
+        <title>Caput 5</title>
+        <questionTitle>Fundamenta ex Scriptura, 
+        de beneficiis Spiritus Sanctis, tum universalibus tum specialibus erga Ecclesiam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>98</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e917" alias="nhua1d-l4">
+      <head>Locus 4</head>
+      <questionTitle>De Creatione</questionTitle>
+      <item id="nhua1d-d1e925" alias="nhua1d-l4prae">
+        <fileName filestem="nhua1d-d1e925"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>101</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e947" alias="nhua1d-l4c1">
+        <fileName filestem="nhua1d-d1e947"/>
+        <title>Caput 1</title>
+        <questionTitle>De vocabulis et quibus verbis scriptura utatur 
+        in descriptione huius articuli</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>104</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e970" alias="nhua1d-l4c2">
+        <fileName filestem="nhua1d-d1e970"/>
+        <title>Caput 2</title>
+        <questionTitle>Descriptio creationis ad formandum statum huius loci</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>106</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e994" alias="nhua1d-l4c3">
+        <fileName filestem="nhua1d-d1e994"/>
+        <title>Caput 3</title>
+        <questionTitle>Quod sit discrimen inter Philosophicas opiniones 
+        et doctrinam Ecclesiae de hoc articulo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>108</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1017" alias="nhua1d-l4c4">
+        <fileName filestem="nhua1d-d1e1017"/>
+        <title>Caput 4</title>
+        <questionTitle>Quae fuerint potiora certamina, quibus Haeretici 
+        Ecclesiam circa hunc Articulum exercuerunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>109</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1040" alias="nhua1d-l4c5">
+        <fileName filestem="nhua1d-d1e1040"/>
+        <title>Caput 5</title>
+        <questionTitle>De ordine et modo creationis, quae sex diebus 
+        est absoluta</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>111</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1063" alias="nhua1d-l4c6">
+        <fileName filestem="nhua1d-d1e1063"/>
+        <title>Caput 6</title>
+        <questionTitle>De providentia Dei, quae pertinet ad Articulum creationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>115</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1086" alias="nhua1d-l4c7">
+        <fileName filestem="nhua1d-d1e1086"/>
+        <title>Caput 7</title>
+        <questionTitle>Concio de Angelis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>121</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e1111" alias="nhua1d-l5">
+      <head>Locus 5</head>
+      <questionTitle>De causa peccati et contingentia</questionTitle>
+      <item id="nhua1d-d1e1119" alias="nhua1d-l5prae">
+        <fileName filestem="nhua1d-d1e1119"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>127</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1141" alias="nhua1d-l5c1">
+        <fileName filestem="nhua1d-d1e1141"/>
+        <title>Caput 1</title>
+        <questionTitle>De quaestione an sit</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>131</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1164" alias="nhua1d-l5c2">
+        <fileName filestem="nhua1d-d1e1164"/>
+        <title>Caput 2</title>
+        <questionTitle>Quae facerint praecipua certamina, quae Ecclesiam 
+        in hac quaestione exercuerunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>132</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1188" alias="nhua1d-l5c3">
+        <fileName filestem="nhua1d-d1e1188"/>
+        <title>Caput 3</title>
+        <questionTitle>Quae sit vera sententia de causa peccati, 
+        exstructa ex certis et manifestis scripturae testimoniis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>135</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1211" alias="nhua1d-l5c4">
+        <fileName filestem="nhua1d-d1e1211"/>
+        <title>Caput 4</title>
+        <questionTitle>De explicatione quorundam dictorum scripturae quae obiici possunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>137</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1234" alias="nhua1d-l5c5">
+        <fileName filestem="nhua1d-d1e1234"/>
+        <title>Caput 5</title>
+        <questionTitle>De generali et speciali actione Dei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>145</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1257" alias="nhua1d-l5c6">
+        <fileName filestem="nhua1d-d1e1257"/>
+        <title>Caput 6</title>
+        <questionTitle>De praescientia divina</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>148</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1280" alias="nhua1d-l5c7">
+        <fileName filestem="nhua1d-d1e1280"/>
+        <title>Caput 7</title>
+        <questionTitle>De distinctione necessitatis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>153</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1303" alias="nhua1d-l5c8">
+        <fileName filestem="nhua1d-d1e1303"/>
+        <title>Caput 8</title>
+        <questionTitle>De modis loquendi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>156</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e1327" alias="nhua1d-l6">
+      <head>Locus 6</head>
+      <questionTitle>De humanis viribus, seu de libero arbitrio</questionTitle>
+      <item id="nhua1d-d1e1335" alias="nhua1d-l6prae">
+        <fileName filestem="nhua1d-d1e1335"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>160</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1357" alias="nhua1d-l6c1">
+        <fileName filestem="nhua1d-d1e1357"/>
+        <title>Caput 1</title>
+        <questionTitle>De Libero arbitrio in peccatis, seu malis et vitiosis actionibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>170</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1380" alias="nhua1d-l6c2">
+        <fileName filestem="nhua1d-d1e1380"/>
+        <title>Caput 2</title>
+        <questionTitle>De libertate voluntatis in externa disciplina</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>171</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1404" alias="nhua1d-l6c3">
+        <fileName filestem="nhua1d-d1e1404"/>
+        <title>Caput 3</title>
+        <questionTitle>De contingentia in peccatis, quae pugnant 
+        cum externa disciplina</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>173</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1427" alias="nhua1d-l6c4">
+        <fileName filestem="nhua1d-d1e1427"/>
+        <title>Caput 4</title>
+        <questionTitle>De captivit voluntatis, quoad tollendam naturae praevitatem nobiscum nascentem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>174</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1450" alias="nhua1d-l6c5">
+        <fileName filestem="nhua1d-d1e1450"/>
+        <title>Caput 5</title>
+        <questionTitle>De spiritualibus actionibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>175</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1473" alias="nhua1d-l6c6">
+        <fileName filestem="nhua1d-d1e1473"/>
+        <title>Caput 6</title>
+        <questionTitle>De Augustini distinctione gratiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>178</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1496" alias="nhua1d-l6c7">
+        <fileName filestem="nhua1d-d1e1496"/>
+        <title>Caput 1</title>
+        <questionTitle>De quaestione: An voluntas in conversione 
+        habeat se mere passive. Vel: an voluntas sit plane 
+        otiosa in actionibus spiritualibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>183</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1519" alias="nhua1d-l6c8">
+        <fileName filestem="nhua1d-d1e1519"/>
+        <title>Caput 8</title>
+        <questionTitle>De historiis Manichaeorum, Enthusiastarum, 
+        Pelagianorum et aliorum, qui circa hunc Articulum errarunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>186</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1543" alias="nhua1d-l6c9">
+        <fileName filestem="nhua1d-d1e1543"/>
+        <title>Caput 9</title>
+        <questionTitle>De refutatione Argumentorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>191</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="nhua1d-d1e1567" alias="nhua1d-l7">
+      <head>Locus 7</head>
+      <questionTitle>De peccato</questionTitle>
+      <item id="nhua1d-d1e1575" alias="nhua1d-l7prae">
+        <fileName filestem="nhua1d-d1e1575"/>
+        <title>Praeambulum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>205</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1597" alias="nhua1d-l7c1">
+        <fileName filestem="nhua1d-d1e1597"/>
+        <title>Caput 1</title>
+        <questionTitle>De appellatione peccati originalis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>205</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1620" alias="nhua1d-l7c2">
+        <fileName filestem="nhua1d-d1e1620"/>
+        <title>Caput 2</title>
+        <questionTitle>De definitione peccati originalis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>208</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1644" alias="nhua1d-l7c3">
+        <fileName filestem="nhua1d-d1e1644"/>
+        <title>Caput 3</title>
+        <questionTitle>De testimoniis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>212</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1667" alias="nhua1d-l7c4">
+        <fileName filestem="nhua1d-d1e1667"/>
+        <title>Caput 4</title>
+        <questionTitle>De Quaestionibus Methodi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>217</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1690" alias="nhua1d-l7c5">
+        <fileName filestem="nhua1d-d1e1690"/>
+        <title>Caput 5</title>
+        <questionTitle>De praecipuis corruptelis huius loci</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>221</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1713" alias="nhua1d-l7c6">
+        <fileName filestem="nhua1d-d1e1713"/>
+        <title>Caput 6</title>
+        <questionTitle>De argumentis Pelagianorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>224</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1736" alias="nhua1d-l7c7">
+        <fileName filestem="nhua1d-d1e1736"/>
+        <title>Caput 7</title>
+        <questionTitle>De reliquiis peccati originalis, sive de concupiscentia 
+        reliqua post Baptismum, quae manet in renatis usque ad mortem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>228</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1759" alias="nhua1d-l7c8">
+        <fileName filestem="nhua1d-d1e1759"/>
+        <title>Caput 8</title>
+        <questionTitle>De peccatis actualibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>236</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="nhua1d-d1e1783" alias="nhua1d-l7c9">
+        <fileName filestem="nhua1d-d1e1783"/>
+        <title>Caput 9</title>
+        <questionTitle>De propositione: An peccata sint ipsa substantia hominis, aut ipsius animae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Wa">
+          </witness>
+          <witness ref="#Wb">
+            <folio>241</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
