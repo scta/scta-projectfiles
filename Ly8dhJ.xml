@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Pseudo Dionysius</authorName>
+    <commentaryName>De Mystica Theologia</commentaryName>
+    <commentaryid>Ly8dhJ</commentaryid>
+    <commentaryslug>Ly8dhJ</commentaryslug>
+    <alias>DionysiusMysticaTheologia</alias>
+    <authorUri>http://scta.info/resource/Dionysius</authorUri>
+    <parentUri>http://scta.info/resource/Ly8dhJ</parentUri>
+    <parentWorkGroup>http://scta.info/resource/dionysiuscommentarius</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/Ly8dhJ/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <sponsors>
+      <sponsor id="projeto-fct">
+        <name>Projeto FCT 2016-2019</name>
+        <logo>http://ifilosofia.up.pt/meirinhos/controlador/skins/petrushispanus/cabecalho_esq.png</logo>
+        <link>http://ifilosofia.up.pt/meirinhos/petrushispanus/projeto_fct_2016_2019</link>
+      </sponsor>
+    </sponsors>
+    <hasWitnesses>
+      <witness id="A">
+        <slug>cod-i3uyer</slug>
+        <title>Alonso 1957 Edition</title>
+        <initial>A</initial>
+      </witness>
+      <!-- alonso 1957 edition -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="Ly8dhJ-d1e80" alias="Ly8dhJ-prol">
+      <fileName filestem="Ly8dhJ-d1e80"/>
+      <title>Prologus</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ly8dhJ-d1e95" alias="Ly8dhJ-c1">
+      <fileName filestem="Ly8dhJ-d1e95"/>
+      <title>Capitulum 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ly8dhJ-d1e110" alias="Ly8dhJ-c2">
+      <fileName filestem="Ly8dhJ-d1e110"/>
+      <title>Capitulum 2</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ly8dhJ-d1e125" alias="Ly8dhJ-c3">
+      <fileName filestem="mhy5ty-d1e125"/>
+      <title>Capitulum 3</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ly8dhJ-d1e140" alias="Ly8dhJ-c4">
+      <fileName filestem="Ly8dhJ-d1e140"/>
+      <title>Capitulum 4</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ly8dhJ-d1e156" alias="Ly8dhJ-c5">
+      <fileName filestem="Ly8dhJ-d1e156"/>
+      <title>Capitulum 5</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Pseudo Dionysius</authorName>
+    <commentaryName>Epistolas</commentaryName>
+    <commentaryid>Ou7yHg</commentaryid>
+    <commentaryslug>Ou7yHg</commentaryslug>
+    <alias>DionysiusEpistolas</alias>
+    <authorUri>http://scta.info/resource/Dionysius</authorUri>
+    <parentUri>http://scta.info/resource/Ou7yHg</parentUri>
+    <parentWorkGroup>http://scta.info/resource/dionysiuscommentarius</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/Ou7yHg/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <sponsors>
+      <sponsor id="projeto-fct">
+        <name>Projeto FCT 2016-2019</name>
+        <logo>http://ifilosofia.up.pt/meirinhos/controlador/skins/petrushispanus/cabecalho_esq.png</logo>
+        <link>http://ifilosofia.up.pt/meirinhos/petrushispanus/projeto_fct_2016_2019</link>
+      </sponsor>
+    </sponsors>
+    <hasWitnesses>
+      <witness id="A">
+        <slug>cod-i3uyer</slug>
+        <title>Alonso 1957 Edition</title>
+        <initial>A</initial>
+      </witness>
+      <!-- alonso 1957 edition -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="Ou7yHg-d1e80" alias="Ou7yHg-e1">
+      <fileName filestem="Ou7yHg-d1e80"/>
+      <title>Prima</title>
+      <!--Incipit Expositio super Epistolas beati Dionysii Prima ad Gaium-->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ou7yHg-d1e97" alias="Ou7yHg-e2">
+      <fileName filestem="Ou7yHg-d1e97"/>
+      <title>Secunda</title>
+      <!--Incipit Secunda-->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ou7yHg-d1e114" alias="Ou7yHg-e3">
+      <fileName filestem="Ou7yHg-d1e114"/>
+      <title>Tertia</title>
+      <!--Incipit Tertia-->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ou7yHg-d1e131" alias="Ou7yHg-e4">
+      <fileName filestem="Ou7yHg-d1e131"/>
+      <title>Quarta</title>
+      <!-- Incipit Quarta -->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ou7yHg-d1e148" alias="Ou7yHg-e5">
+      <fileName filestem="Ou7yHg-d1e148"/>
+      <title>Quarta</title>
+      <!-- Quinta eiusdem ad Dorotheum ministrum -->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+    <item id="Ou7yHg-d1e166" alias="Ou7yHg-e6">
+      <fileName filestem="Ou7yHg-d1e166"/>
+      <title>Sexta</title>
+      <!-- Eiusdem ad Soscipatrum sacerdotem -->
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#A"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

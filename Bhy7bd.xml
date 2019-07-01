@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Petrus Hispanus</authorName>
+    <commentaryName>Scientia libri de anima</commentaryName>
+    <commentaryid>Bhy7bd</commentaryid>
+    <commentaryslug>Bhy7bd</commentaryslug>
+    <alias>PetrusHispanusScientiaLibriDeAnima</alias>
+    <authorUri>http://scta.info/resource/PetrusHispanus</authorUri>
+    <parentUri>http://scta.info/resource/Bhy7bd</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/Bhy7bd/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <sponsors>
+      <sponsor id="projeto-fct">
+        <name>Projeto FCT 2016-2019</name>
+        <logo>http://ifilosofia.up.pt/meirinhos/controlador/skins/petrushispanus/cabecalho_esq.png</logo>
+        <link>http://ifilosofia.up.pt/meirinhos/petrushispanus/projeto_fct_2016_2019</link>
+      </sponsor>
+    </sponsors>
+    <hasWitnesses>
+      <!--<witness id="A">
+        <slug>cod-i3uyer</slug>
+        <title>Alonso 1957 Edition</title>
+        <initial>A</initial>
+      </witness>-->
+      <!-- alonso 1957 edition -->
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="Bhy7bd-d1e70" alias="Bhy7bd-praefatio">
+      <fileName filestem="Bhy7bd-d1e70"/>
+      <title>Praefatio</title>
+    </item>
+    <!-- incipiut tractatus? Is this a section with text or an organizational structure -->
+    <item id="Bhy7bd-d1e80" alias="Bhy7bd-t1">
+      <fileName filestem="Bhy7bd-d1e80"/>
+      <title>Tractatus 1</title>
+      <questionTitle>De animae essentia</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e91" alias="Bhy7bd-t2">
+      <fileName filestem="Bhy7bd-d1e91"/>
+      <title>Tractatus 2</title>
+      <questionTitle>De animae differentiarum distinctione</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e102" alias="Bhy7bd-t3">
+      <fileName filestem="Bhy7bd-d1e102"/>
+      <title>Tractatus 3</title>
+      <questionTitle>De differentia vegetabili <!-- vegetababili ??? --></questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e115" alias="Bhy7bd-t4">
+      <fileName filestem="Bhy7bd-d1e115"/>
+      <title>Tractatus 4</title>
+      <questionTitle>De virtute regitiva</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e126" alias="Bhy7bd-t5">
+      <fileName filestem="Bhy7bd-d1e126"/>
+      <title>Tractatus 5</title>
+      <questionTitle>De virtute vitali</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e137" alias="Bhy7bd-t6">
+      <fileName filestem="Bhy7bd-d1e137"/>
+      <title>Tractatus 6</title>
+      <questionTitle>De anima sensibili secundum processum circa virtutes apprehensiva</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e148" alias="Bhy7bd-t7">
+      <fileName filestem="Bhy7bd-d1e148"/>
+      <title>Tractatus 7</title>
+      <questionTitle>De virtutibus sensibilibus apprehensivis interioribus</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e159" alias="Bhy7bd-t8">
+      <fileName filestem="Bhy7bd-d1e159"/>
+      <title>Tractatus 8</title>
+      <questionTitle>De virtutibus animae sensibilis motivis</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e170" alias="Bhy7bd-t9">
+      <fileName filestem="Bhy7bd-d1e170"/>
+      <title>Tractatus 9</title>
+      <questionTitle>De substantia animae intellectivae et unione et separatione eius</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e182" alias="Bhy7bd-t10">
+      <fileName filestem="Bhy7bd-d1e182"/>
+      <title>Tractatus 10</title>
+      <questionTitle>De virtutibus animae apprehensivis</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e193" alias="Bhy7bd-t11">
+      <fileName filestem="Bhy7bd-d1e193"/>
+      <title>Tractatus 11</title>
+      <questionTitle>De virtutibus motivis animae</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e204" alias="Bhy7bd-t12">
+      <fileName filestem="Bhy7bd-d1e204"/>
+      <title>Tractatus 12</title>
+      <questionTitle>De distinctione organorum generali</questionTitle>
+    </item>
+    <item id="Bhy7bd-d1e215" alias="Bhy7bd-t13">
+      <fileName filestem="Bhy7bd-d1e215"/>
+      <title>Tractatus 13</title>
+      <questionTitle>De antiquorum opinionibus circa animam</questionTitle>
+    </item>
+  </div>
+</listofFileNames>
