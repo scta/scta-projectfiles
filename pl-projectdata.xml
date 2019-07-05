@@ -81,17 +81,19 @@
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 685</title>
         <initial>Vf</initial>
       </witness>
-      <witness id="Vg">
+      <!-- not actual lombard commnetary; but "abbreviated conclusions" 
+        <witness id="Vg">
         <slug>vatlat687</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 687</title>
         <initial>Vg</initial>
-      </witness>
+      </witness>-->
       <witness id="Vh">
         <slug>vatlat688</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 688</title>
         <initial>Vh</initial>
       </witness>
       <witness id="Vi">
+        <!-- seems to be book 4 only -->
         <slug>vatlat689</slug>
         <title>Vantican City, Biblioteca Apostolica Vaticana, vat. lat. 689</title>
         <initial>Vi</initial>
@@ -231,6 +233,13 @@
             <witness ref="#Pd">
               <folio>5v</folio>
               <folio>6r</folio>
+            </witness>
+            <witness ref="#Vb"/> <!-- 4v -->
+            <witness ref="#Vc"/> <!-- 2r -->
+            <witness ref="#Vd">
+              <!--<folio>1r</folio>
+                  <folio>1v</folio>
+              -->
             </witness>
           </hasWitnesses>
         </item>
