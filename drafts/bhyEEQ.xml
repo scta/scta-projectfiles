@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Petrus Hispanus</authorName>
+    <commentaryName>De morte et vita</commentaryName>
+    <commentaryid>bhyEEQ</commentaryid>
+    <commentaryslug>bhyEEQ</commentaryslug>
+    <alias>PetrusHispanusDeMorteEtVita</alias>
+    <authorUri>http://scta.info/resource/PetrusHispanus</authorUri>
+    <parentUri>http://scta.info/resource/bhyEEQ</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/bhyEEQ/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <sponsors>
+      <sponsor id="projeto-fct">
+        <name>Projeto FCT 2016-2019</name>
+        <logo>http://ifilosofia.up.pt/meirinhos/controlador/skins/petrushispanus/cabecalho_esq.png</logo>
+        <link>http://ifilosofia.up.pt/meirinhos/petrushispanus/projeto_fct_2016_2019</link>
+      </sponsor>
+    </sponsors>
+    <hasWitnesses>
+      <witness id="A">
+        <slug>cod-UYTrr1</slug> <!-- not yet created -->
+        <title>Alonso Madrid 1952 Edition</title>
+        <initial>A</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="bhyEEQ-d1e80" alias="bhyEEQ-tbonus">
+      <fileName filestem="bhyEEQ-d1e80"/>
+      <title>Tractatus bonus</title>
+    </item>
+    <item id="bhyEEQ-d1e88" alias="bhyEEQ-l1">
+      <fileName filestem="bhyEEQ-d1e88"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="bhyEEQ-d1e96" alias="bhyEEQ-l2">
+      <fileName filestem="bhyEEQ-d1e96"/>
+      <title>Liber 2</title>
+    </item>
+    <item id="bhyEEQ-d1e104" alias="bhyEEQ-l3">
+      <fileName filestem="bhyEEQ-d1e104"/>
+      <title>Liber 3</title>
+    </item>
+  </div>
+</listofFileNames>
