@@ -1,0 +1,3533 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>William Of Auxerre</authorName>
+    <commentaryName>Summa aurea</commentaryName>
+    <commentaryid>sSsf3q</commentaryid>
+    <commentaryslug>sSsf3q</commentaryslug>
+    <alias>WilliamOfAuxerreSummaAurea</alias>
+    <authorUri>http://scta.info/resource/WilliamOfAuxerre</authorUri>
+    <parentUri>http://scta.info/resource/sSsf3q</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/sSsf3q/</textfilesdir>
+    <questionListSource>Summa aurea, Jean Ribaillier 1980 and Paris, 1500 edition</questionListSource>
+    <questionListOriginalEditor>Jean Ribaillier</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="P">
+        <slug>cod-sQsQQf</slug> <!-- not  yet created -->
+        <title>Paris 1500</title>
+        <initial>P</initial>
+      </witness>
+      <!-- Ribailler edition exists in multiple volumes/codices -->
+      <!-- not there are two recensions to this a Long and Short recension; this edf is meant to stand for the Long recension -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="sSsf3q-d1e69" alias="sa-l1">
+      <head>Liber 1</head>
+      <item id="sSsf3q-d1e74">
+        <fileName filestem="sSsf3q-d1e74"/>
+        <title>Prologus</title>
+        <questionTitle/>
+      </item>
+      <item id="sSsf3q-d1e84">
+        <fileName filestem="sSsf3q-d1e84"/>
+        <title>Tractatus 1</title>
+        <questionTitle>Hic probatur quod Deus est</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="b">2v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="sSsf3q-d1e104">
+        <fileName filestem="sSsf3q-d1e104"/>
+        <title>Tractatus 2</title>
+        <questionTitle>Quod Deus est omnibus modis simplex</questionTitle>
+        <hasWitnesses>
+          <witness ref="#P">
+            <folio c="a">3r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <div id="sSsf3q-d1e124">
+        <head>Tractatus 3</head>
+        <questionTitle>Probatio quod plures persone sunt unus Deus</questionTitle>
+        <item id="sSsf3q-d1e132">
+          <fileName filestem="sSsf3q-d1e132"/>
+          <title>Cap. 1</title>
+          <questionTitle> De generatione Filii </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">3r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e152">
+          <fileName filestem="sSsf3q-d1e152"/>
+          <title>Cap. 2</title>
+          <questionTitle> Probatio processionis Spiritus sancti a Patre . .</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">3v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e172">
+          <fileName filestem="sSsf3q-d1e172"/>
+          <title>Cap. 3 </title>
+          <questionTitle> Alia probatio quomodo potest ostendi Trinitas personarum.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">3v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e193">
+          <fileName filestem="sSsf3q-d1e193"/>
+          <title>Cap. 4 </title>
+          <questionTitle> Quare oportet tres personas esse in deitate tantum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">4r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e215">
+        <head>Tractatus 4</head>
+        <questionTitle>De nominibus essentialibus dictis de Deo</questionTitle>
+        <!-- P calls this chapter 3 -->
+        <item id="sSsf3q-d1e225">
+          <fileName filestem="sSsf3q-d1e225"/>
+          <title>Cap. 1 </title>
+          <questionTitle> Quomodo Deus dicitur habere nomen cum sit innominabilis .</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">4v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e245">
+          <fileName filestem="sSsf3q-d1e245"/>
+          <title>Cap. 2 </title>
+          <questionTitle>Quid est principale nomen Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">5r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e266">
+          <fileName filestem="sSsf3q-d1e266"/>
+          <title>Cap. 3 </title>
+          <questionTitle> Quid significet hoc nomen 'Deus'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">5r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e286">
+          <fileName filestem="sSsf3q-d1e286"/>
+          <title>Cap. 4</title>
+          <questionTitle> De suppositione huius nominis 'Deus'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">5v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e306">
+          <fileName filestem="sSsf3q-d1e306"/>
+          <title>Cap. 5 </title>
+          <questionTitle> De diversis significationibus huius nominis 'Deus'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">6v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e326">
+          <fileName filestem="sSsf3q-d1e326"/>
+          <title>Cap. 6 </title>
+          <questionTitle> Utrum hoc nomen 'Deus' in prima significatione possit habere
+            plurale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">6r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e346">
+          <fileName filestem="sSsf3q-d1e346"/>
+          <title>Cap. 7 </title>
+          <questionTitle> Queritur de hac propositione: Deus est trinus et unus </questionTitle>
+          <!--- possibly missing in P --></item>
+        <item id="sSsf3q-d1e359">
+          <fileName filestem="sSsf3q-d1e359"/>
+          <title>Cap. 8 </title>
+          <questionTitle> Utrum divina essentia possit supponi per prommina masculini
+            generis</questionTitle>
+          <hasWitnesses>
+            <!--listed as chapter 7 in P -->
+            <witness ref="#P">
+              <folio c="a">7v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e382">
+        <head>Tractatus 5</head>
+        <questionTitle>De adiectivis dictis de Deo sive sint nomina sive verba</questionTitle>
+        <item id="sSsf3q-d1e390">
+          <fileName filestem="sSsf3q-d1e390"/>
+          <title>Cap. 1</title>
+          <questionTitle> De multiplicitate adiectivorum dictorum de Deo et modis praedicandi
+            eorumdem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">7v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e410">
+          <fileName filestem="sSsf3q-d1e410"/>
+          <title>Cap. 2</title>
+          <questionTitle> De nominibus adiectivis relative dictis de Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">8r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e430">
+          <fileName filestem="sSsf3q-d1e430"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum aliquod nomen dicatur univoce de Deo et de creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">8v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e451">
+          <fileName filestem="sSsf3q-d1e451"/>
+          <title>Cap. 4</title>
+          <questionTitle> Utrum divisione nominum dictorum de Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">8v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e472">
+        <head>Tractatus 6</head>
+        <questionTitle>De nominibus personalibus.</questionTitle>
+        <!-- refered to as chapter 5 in P -->
+        <item id="sSsf3q-d1e482">
+          <fileName filestem="sSsf3q-d1e482"/>
+          <title>Cap. 1</title>
+          <questionTitle> De hoc nomine "persona" quid significet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">9v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e502">
+          <fileName filestem="sSsf3q-d1e502"/>
+          <title>Cap. 2</title>
+          <questionTitle> Utrum persona dicatur univoce de personis creatis et
+            increatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">10r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e523">
+          <fileName filestem="sSsf3q-d1e523"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum hoc nomen "persona" dicatur de Deo secundum essentiam vel secundum
+            relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">10r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e543">
+          <fileName filestem="sSsf3q-d1e543"/>
+          <title>Cap. 4</title>
+          <questionTitle> Utrum persona sit essentia et utrum Deus sit deitas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">11r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e563">
+          <fileName filestem="sSsf3q-d1e563"/>
+          <title>Cap. 5</title>
+          <questionTitle> De abstracta personalitate a persona</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">12v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e583">
+          <fileName filestem="sSsf3q-d1e583"/>
+          <title>Cap. 6</title>
+          <questionTitle> Quid significet hoc adiectivum numerale tres</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">12v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e604">
+        <head>Tractatus 7</head>
+        <!-- P refers to this as chapter 6 -->
+        <questionTitle>De notionibus in generali</questionTitle>
+        <item id="sSsf3q-d1e614">
+          <fileName filestem="sSsf3q-d1e614"/>
+          <title>Cap. 1</title>
+          <questionTitle>Distinguendae sunt diverse opiniones de notionibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">13v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e634">
+          <fileName filestem="sSsf3q-d1e634"/>
+          <title>Cap. 2</title>
+          <questionTitle>De quinario notionum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">14r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e655">
+          <fileName filestem="sSsf3q-d1e655"/>
+          <title>Cap. 3</title>
+          <questionTitle>Contrariae opiniones de notionibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">14v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e675">
+          <fileName filestem="sSsf3q-d1e675"/>
+          <title>Cap. 4</title>
+          <questionTitle>Quod adiectiva essentialia dicuntur de notionibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">15r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e695">
+          <fileName filestem="sSsf3q-d1e695"/>
+          <title>Cap. 5</title>
+          <questionTitle>Quod Deus est qualis sine qualitate quantus sine quantitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">15r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e715">
+          <fileName filestem="sSsf3q-d1e715"/>
+          <title>Cap. 6</title>
+          <!-- dbcheck P corollation -->
+          <questionTitle> Quomodo possit sustineri opinio quae dict quod notio non differet a
+            persona nisi in modo loquendi </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">15v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e738">
+        <head>Tractatus 8</head>
+        <!-- regarded as chapter 7 by P -->
+        <questionTitle>De notionibus personarum in speciali</questionTitle>
+        <item id="sSsf3q-d1e748">
+          <fileName filestem="sSsf3q-d1e748"/>
+          <title>Cap. 1</title>
+          <questionTitle> Utrum paternitas aliquo sit Pater</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">15v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e768">
+          <fileName filestem="sSsf3q-d1e768"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum paternitas praedicetur de Patre per essentiam vel per
+            participationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">16r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e789">
+          <fileName filestem="sSsf3q-d1e789"/>
+          <title>Cap. 3</title>
+          <questionTitle> De potentia generandi utrum sit in Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">16r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e809">
+          <fileName filestem="sSsf3q-d1e809"/>
+          <title>Cap. 4</title>
+          <questionTitle> Utrum paternitas sit potentia generandi active</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">16r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e829">
+          <!-- P has this as chp. 7 -->
+          <fileName filestem="sSsf3q-d1e829"/>
+          <title>Cap. 5</title>
+          <questionTitle> De innascibilitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">16v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e851">
+          <!-- P states: sixth question of this chapter -->
+          <fileName filestem="sSsf3q-d1e851"/>
+          <title>Cap. 6</title>
+          <questionTitle> De communi spiratione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">17r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e873">
+          <fileName filestem="sSsf3q-d1e873"/>
+          <title>Cap. 7</title>
+          <questionTitle> De spiratione qua Spiritus sanctus spiratur a Patre et
+            Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">18r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e893">
+          <fileName filestem="sSsf3q-d1e893"/>
+          <title>Cap. 8</title>
+          <questionTitle> De notionibus quae appropriate singulis personis
+            conveniunt</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e905">
+        <head>Tractatus 9</head>
+        <questionTitle>De scientia Dei</questionTitle>
+        <item id="sSsf3q-d1e913">
+          <fileName filestem="sSsf3q-d1e913"/>
+          <title>Cap. 1</title>
+          <questionTitle> Qualiter Deus scit omnia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e924">
+          <fileName filestem="sSsf3q-d1e924"/>
+          <title>Cap. 2</title>
+          <questionTitle> Quod hoc verbum "scire" dictum de Deo multipliciter accipitur
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e935">
+          <fileName filestem="sSsf3q-d1e935"/>
+          <title>Cap. 3</title>
+          <questionTitle> De praedestinatione et reprobatione</questionTitle>
+        </item>
+      </div>
+      <item id="sSsf3q-d1e948">
+        <fileName filestem="sSsf3q-d1e948"/>
+        <title>Tractatus 10</title>
+        <questionTitle>Quaeritur utrum sit bona vel mala divina providentia</questionTitle>
+      </item>
+      <div id="sSsf3q-d1e959">
+        <head>Tractatus 11</head>
+        <!-- listed as chapter 12 -->
+        <questionTitle>De potentia Dei</questionTitle>
+        <item id="sSsf3q-d1e969">
+          <fileName filestem="sSsf3q-d1e969"/>
+          <title>Cap. 1</title>
+          <questionTitle>Quod Deus est omnipotens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">24r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e989">
+          <fileName filestem="sSsf3q-d1e989"/>
+          <title>Cap. 2</title>
+          <questionTitle> Utrum possibile dicatur simpliciter secundum causas inferiores vel
+            superiores</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">24v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1010">
+          <fileName filestem="sSsf3q-d1e1010"/>
+          <title>Cap. 3</title>
+          <questionTitle> Quod dicatur miraculum quod Deus mutavit aquam in vinum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">25r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1030">
+          <fileName filestem="sSsf3q-d1e1030"/>
+          <title>Cap. 4</title>
+          <questionTitle> Utrum miraculosum fuit quod magi virgas suas mutaverunt in
+            serpentes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">25r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1050">
+          <fileName filestem="sSsf3q-d1e1050"/>
+          <title>Cap. 5</title>
+          <questionTitle>Utrum Deus posset dampnare Petrum et salvare Iudam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">25r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1070">
+          <fileName filestem="sSsf3q-d1e1070"/>
+          <title>Cap. 6</title>
+          <questionTitle> Utrum Deus possit facere de corrupta incorruptam
+            <!-- virginem --></questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">25v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1091">
+          <fileName filestem="sSsf3q-d1e1091"/>
+          <title>Cap. 7</title>
+          <questionTitle> Utrum possit aliquid melius facere quam faciat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">25v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1112">
+        <head>Tractatus 12</head>
+        <questionTitle>De voluntate Dei</questionTitle>
+        <!-- P has chapter 13 -->
+        <item id="sSsf3q-d1e1122">
+          <fileName filestem="sSsf3q-d1e1122"/>
+          <title>Cap. 1</title>
+          <questionTitle>Quid sit voluntas Dei secundum quod dicitur beneplacitum Dei aut signum
+            beneplaciti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">26r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1142">
+          <fileName filestem="sSsf3q-d1e1142"/>
+          <title>Cap. 2</title>
+          <questionTitle> Utrum Deus velit mala fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">27r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1163">
+          <fileName filestem="sSsf3q-d1e1163"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum mala fieri sit verum a prima Veritate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">27r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1183">
+          <fileName filestem="sSsf3q-d1e1183"/>
+          <title>Cap. 4</title>
+          <questionTitle>Utrum teneamur velle quicquid scimus Deum velle</questionTitle>
+          <!-- P has cap 14 -->
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">27r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1206">
+        <head>Tractatus 13</head>
+        <questionTitle>De misericordia Dei et iustitia</questionTitle>
+        <!-- listed in P as chapter 15 -->
+        <item id="sSsf3q-d1e1216">
+          <fileName filestem="sSsf3q-d1e1216"/>
+          <title>Cap. 1 </title>
+          <questionTitle>Utrum omnia opera Domini generaliter sint ex misericordia vel
+            iustitia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">29r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1236">
+          <fileName filestem="sSsf3q-d1e1236"/>
+          <title>Cap. 2</title>
+          <questionTitle> Utrum Deus possit punire aliquem quantum meruit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">29v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1257">
+          <fileName filestem="sSsf3q-d1e1257"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum Deus agat misericordius cum uno quam cum alio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">30r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1277">
+          <fileName filestem="sSsf3q-d1e1277"/>
+          <title>Cap. 4</title>
+          <questionTitle> De adaequatione praemii ad meritum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">30r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1297">
+          <fileName filestem="sSsf3q-d1e1297"/>
+          <title>Cap. 5</title>
+          <questionTitle>Utrum tam iuste puniatur aliquis a Deo quantum meruit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">30v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1317">
+          <fileName filestem="sSsf3q-d1e1317"/>
+          <title>Cap. 6 </title>
+          <questionTitle> Utrum iustificare sit opus misericordiae vel iustitiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">30v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1337">
+          <fileName filestem="sSsf3q-d1e1337"/>
+          <title>Cap. 7 </title>
+          <questionTitle>Utrum poena quam infligit Deus ad maiorem coronam vel ad cautelam sit opus
+            iustitiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">30v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1358">
+        <head>Tractatus 14</head>
+        <questionTitle>De locali comparatione creatoris ad creaturam</questionTitle>
+        <item id="sSsf3q-d1e1366">
+          <fileName filestem="sSsf3q-d1e1366"/>
+          <title>Cap. 1</title>
+          <questionTitle> Quod Deus sit ubique</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">30v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1386">
+          <fileName filestem="sSsf3q-d1e1386"/>
+          <title>Cap. 2</title>
+          <questionTitle> Queritur quot modis Deus sit in rebus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">32r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1406">
+          <fileName filestem="sSsf3q-d1e1406"/>
+          <title>Cap. 3</title>
+          <questionTitle> De loco angelorum et animarum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">32r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1427">
+          <fileName filestem="sSsf3q-d1e1427"/>
+          <title>Cap. 4</title>
+          <questionTitle> Qualiter Deus est semper</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">32r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <!-- appendix stuff 32va to 35rb -->
+      </div>
+    </div>
+    <div id="sSsf3q-d1e1451" alias="sa-l2">
+      <head>Liber 2</head>
+      <div id="sSsf3q-d1e1456">
+        <head>Tractatus 1</head>
+        <questionTitle>De exemplari</questionTitle>
+        <item id="sSsf3q-d1e1464">
+          <fileName filestem="sSsf3q-d1e1464"/>
+          <title>Cap. I</title>
+          <questionTitle> Quid sit exemplar</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <!-- if present in P, all three questions seem contained in a half column;  -->
+              <folio c="b">35r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1486">
+          <fileName filestem="sSsf3q-d1e1486"/>
+          <title>Cap. II</title>
+          <questionTitle> Utrum Filius Dei sit mundus archetipus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e1497">
+          <fileName filestem="sSsf3q-d1e1497"/>
+          <title>Cap. III</title>
+          <questionTitle> Qualiter res fluant ab exemplari</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1509">
+        <head>Tractatus 2</head>
+        <questionTitle>De angelis</questionTitle>
+        <item id="sSsf3q-d1e1517">
+          <fileName filestem="sSsf3q-d1e1517"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum angelus habuerit caritatem in primo statu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">35r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1537">
+          <fileName filestem="sSsf3q-d1e1537"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum angelus naturali dilectione frueretur se </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">35v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1557">
+          <fileName filestem="sSsf3q-d1e1557"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum illa dilectione de via faceret finem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">36r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1578">
+          <fileName filestem="sSsf3q-d1e1578"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum angelus in primo statu diligebat Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">36r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1598">
+          <fileName filestem="sSsf3q-d1e1598"/>
+          <title>Cap 5</title>
+          <questionTitle> De naturali dilectione qua angelus in primo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">36v</folio>
+            </witness>
+          </hasWitnesses>
+          <!-- is there a 6th chapter here? bottom 36vb -->
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1621">
+        <head>Tractatus 3</head>
+        <!-- P lists as tractatsu 2 -->
+        <questionTitle>De statu malorum angelorum</questionTitle>
+        <item id="sSsf3q-d1e1631">
+          <fileName filestem="sSsf3q-d1e1631"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum angelus potuit scire suum casum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">37r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1651">
+          <fileName filestem="sSsf3q-d1e1651"/>
+          <title>Cap 2</title>
+          <questionTitle> De primo peccato Luciferi, utrum fuerit peccatum omissionis vel
+            superbiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">37r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1672">
+          <fileName filestem="sSsf3q-d1e1672"/>
+          <title>Cap 3</title>
+          <questionTitle> De causa prima peccati </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">37v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1692">
+          <fileName filestem="sSsf3q-d1e1692"/>
+          <title>Cap 4</title>
+          <questionTitle> Quare Lucifer non perseveraverit in bono statu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">38v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1712">
+          <fileName filestem="sSsf3q-d1e1712"/>
+          <title>Cap 5</title>
+          <questionTitle> Quod fuit peccatum illorum qui fuerunt cum eo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">39r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1732">
+          <fileName filestem="sSsf3q-d1e1732"/>
+          <title>Cap 6</title>
+          <questionTitle> Quare peccatum angeli fuerit irremedicabile</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">39v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1752">
+          <fileName filestem="sSsf3q-d1e1752"/>
+          <title>Cap 7</title>
+          <questionTitle>Utrum omnis actio diaboli est peccatum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">39v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1773">
+        <head>Tractatus 4</head>
+        <questionTitle>De statu bonorum angelorum</questionTitle>
+        <item id="sSsf3q-d1e1781">
+          <fileName filestem="sSsf3q-d1e1781"/>
+          <title>Cap 1</title>
+          <questionTitle>De ordinibus et distinctionibus et nominibus angelorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">41v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e1803">
+        <head>Tractatus 5</head>
+        <questionTitle>De ministerio angelorum qui custodiunt homines</questionTitle>
+        <!-- P: listed as tractatus 4 -->
+        <!-- seems like there is a preamble here 
+        54rb top half -->
+        <item id="sSsf3q-d1e1815">
+          <fileName filestem="sSsf3q-d1e1815"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum angelus qui deputatus est ad custodiam hominis semper custodiat
+            hominem cum effectu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">44r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1836">
+          <fileName filestem="sSsf3q-d1e1836"/>
+          <title>Cap 2</title>
+          <questionTitle>Utrum angelus malus datus est homini a Deo ad exercitium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">44r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1856">
+          <fileName filestem="sSsf3q-d1e1856"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum angelus bonus frustretur a desiderio suo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">44v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1876">
+          <fileName filestem="sSsf3q-d1e1876"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum Christus habuit angelum ad custodiam sui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">44v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1896">
+          <fileName filestem="sSsf3q-d1e1896"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum diabolus intret in cor hominis et utrum sit immissor malarum
+            cogitationum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">45r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1916">
+          <fileName filestem="sSsf3q-d1e1916"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum angelus datus homini ad custodiam ipsius aliquando ipsum deserat
+            propter peccatum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">45v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1936">
+          <fileName filestem="sSsf3q-d1e1936"/>
+          <title>Cap 7</title>
+          <questionTitle> Utrum angelus malus aliquando relinquat hominem ad cuius excercitium est
+            deputatus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">45v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1957">
+          <fileName filestem="sSsf3q-d1e1957"/>
+          <title>Cap 8</title>
+          <questionTitle> Quaeritur de illo verbo Iob: Qui facit concordiam in sublimibus
+            sui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">45v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1977">
+          <fileName filestem="sSsf3q-d1e1977"/>
+          <title>Cap 9</title>
+          <questionTitle> De merito angeli boni</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">46r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e1997">
+          <fileName filestem="sSsf3q-d1e1997"/>
+          <title>Cap 10</title>
+          <questionTitle> Utrum bonos angelus teneatur velle quicquid scit Deum velle </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">46r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2018">
+        <head>Tractatus 6</head>
+        <questionTitle>De cognitione angelorum</questionTitle>
+        <!-- seems to be short preamble here -->
+        <item id="sSsf3q-d1e2028">
+          <fileName filestem="sSsf3q-d1e2028"/>
+          <title>Cap I</title>
+          <questionTitle> Utrum angeli melius cognoscant res in Verbo sive in speculo aeternitatis
+            quam in proprio genere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">46v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2048">
+          <fileName filestem="sSsf3q-d1e2048"/>
+          <title>Cap II</title>
+          <questionTitle> Quaeritur quid sit dictum angeli vident in speculo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">47r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <!-- seems like P has another chapter here: Quaestio utrum angeli videant omnia in speculo essentiali -->
+        <item id="sSsf3q-d1e2071">
+          <fileName filestem="sSsf3q-d1e2071"/>
+          <title>Cap III</title>
+          <questionTitle> Utrum aliquis angelus adeo habet limpidum visum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">47v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2091">
+          <fileName filestem="sSsf3q-d1e2091"/>
+          <title>Cap IV</title>
+          <questionTitle> De visione angelorum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">47v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2111">
+          <fileName filestem="sSsf3q-d1e2111"/>
+          <title>Cap V</title>
+          <questionTitle> Quaeritur de hoc quod dicit Apostolus quod multiformis est sapientia
+            Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">48r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2131">
+          <fileName filestem="sSsf3q-d1e2131"/>
+          <title>Cap VI</title>
+          <questionTitle> Utrum cognitio angelorum in verbo sit necessaria</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">48r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2152">
+        <head>Tractatus 7</head>
+        <!-- listed as treatise 6 -->
+        <questionTitle>De prophetia</questionTitle>
+        <item id="sSsf3q-d1e2162">
+          <fileName filestem="sSsf3q-d1e2162"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit prophetia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">48v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2182">
+          <fileName filestem="sSsf3q-d1e2182"/>
+          <title>Cap 2</title>
+          <questionTitle> De speciebus prophetiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">49r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2203">
+          <fileName filestem="sSsf3q-d1e2203"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum prophetia evacuabitur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">50r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2223">
+          <fileName filestem="sSsf3q-d1e2223"/>
+          <title>Cap 4</title>
+          <questionTitle> De officio prophetarum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="a">50v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2244">
+        <head>Tractatus 8</head>
+        <!-- P lists as tractatus 7 -->
+        <questionTitle>De aliis creaturis</questionTitle>
+        <item id="sSsf3q-d1e2254">
+          <fileName filestem="sSsf3q-d1e2254"/>
+          <title>Cap 1</title>
+          <questionTitle> De primo creatis et eorum principiis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">51r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="sSsf3q-d1e2274">
+          <fileName filestem="sSsf3q-d1e2274"/>
+          <title>Cap 2</title>
+          <questionTitle> De sex operibus sex dierum per ordinem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio c="b">52r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- left of here -->
+      <div id="sSsf3q-d1e2297">
+        <head>Tractatus 9</head>
+        <questionTitle>De homine qui est finis aliarum creaturarum</questionTitle>
+        <item id="sSsf3q-d1e2305">
+          <fileName filestem="sSsf3q-d1e2305"/>
+          <title>Cap 1</title>
+          <questionTitle> Quomodo factus est ad imaginem et similitudinem Dei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2316">
+          <fileName filestem="sSsf3q-d1e2316"/>
+          <title>Cap 2</title>
+          <questionTitle> Quaeritur de primo statu Adae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2327">
+          <fileName filestem="sSsf3q-d1e2327"/>
+          <title>Cap 3</title>
+          <questionTitle> De praecepto disciplinae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2340">
+        <head>Tractatus 10</head>
+        <questionTitle>De aliis peccatis quorum liberum arbitrium origo est, De libero
+          arbitrio</questionTitle>
+        <item id="sSsf3q-d1e2348">
+          <fileName filestem="sSsf3q-d1e2348"/>
+          <title>Cap 1</title>
+          <questionTitle> Cum liberum arbitrium se habeat ad bonum et ad malum, quare potius dicatur
+            bonum quam malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2359">
+          <fileName filestem="sSsf3q-d1e2359"/>
+          <title>Cap 2</title>
+          <questionTitle> De essentia et diffinitione liberi arbitrii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2370">
+          <fileName filestem="sSsf3q-d1e2370"/>
+          <title>Cap 3</title>
+          <questionTitle> De motu liberi arbitrii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2382">
+          <fileName filestem="sSsf3q-d1e2382"/>
+          <title>Cap 4</title>
+          <questionTitle> De libertate liberi arbitrii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2393">
+          <fileName filestem="sSsf3q-d1e2393"/>
+          <title>Cap 5</title>
+          <questionTitle> De potestate liberi arbitrii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2404">
+          <fileName filestem="sSsf3q-d1e2404"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum superior pars rationis possit peccare</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2416">
+        <head>Tractatus 11</head>
+        <questionTitle>De malo in universali</questionTitle>
+        <item id="sSsf3q-d1e2424">
+          <fileName filestem="sSsf3q-d1e2424"/>
+          <title>Cap 1</title>
+          <questionTitle> An sit malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2435">
+          <fileName filestem="sSsf3q-d1e2435"/>
+          <title>Cap 2</title>
+          <questionTitle> Quid sit malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2446">
+          <fileName filestem="sSsf3q-d1e2446"/>
+          <title>Cap 3</title>
+          <questionTitle> Unde malum sit</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2458">
+        <head>Tractatus 12</head>
+        <questionTitle>De peccato</questionTitle>
+        <item id="sSsf3q-d1e2466">
+          <fileName filestem="sSsf3q-d1e2466"/>
+          <title>Cap 1</title>
+          <questionTitle> De peccato veniali utrum corrumpat vel non</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2477">
+          <fileName filestem="sSsf3q-d1e2477"/>
+          <title>Cap 2</title>
+          <questionTitle> De quantitate peccati</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2488">
+          <fileName filestem="sSsf3q-d1e2488"/>
+          <title>Cap 3</title>
+          <questionTitle> De divisione trimembri</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2500">
+          <fileName filestem="sSsf3q-d1e2500"/>
+          <title>Cap 4</title>
+          <questionTitle> De septimembri divisione quae est in capitalia vicia quorum omnium
+            superbia dicitur regina</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2511">
+          <fileName filestem="sSsf3q-d1e2511"/>
+          <title>Cap 5</title>
+          <questionTitle> De inani gloria</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2522">
+          <fileName filestem="sSsf3q-d1e2522"/>
+          <title>Cap 6</title>
+          <questionTitle> De filiabus inanis gloriae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2533">
+          <fileName filestem="sSsf3q-d1e2533"/>
+          <title>Cap 7</title>
+          <questionTitle> De invidia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2544">
+          <fileName filestem="sSsf3q-d1e2544"/>
+          <title>Cap 8</title>
+          <questionTitle> De ira</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2555">
+          <fileName filestem="sSsf3q-d1e2555"/>
+          <title>Cap 9</title>
+          <questionTitle> De accidia</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2567">
+        <head>Tractatus 13</head>
+        <questionTitle>De potestate liberi arbitrii</questionTitle>
+        <item id="sSsf3q-d1e2575">
+          <fileName filestem="sSsf3q-d1e2575"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum liberum arbitrium per se possit se movere ad opera de genere
+            bonorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2586">
+          <fileName filestem="sSsf3q-d1e2586"/>
+          <title>Cap 2</title>
+          <questionTitle> De potentia credendi, utrum ipsa sit naturalis et idem quod liberum
+            arbitrium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2597">
+          <fileName filestem="sSsf3q-d1e2597"/>
+          <title>Cap 3</title>
+          <questionTitle> De operibus malis, utrum sint ex solo arbitrio ita quod non a
+            Deo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2609">
+          <fileName filestem="sSsf3q-d1e2609"/>
+          <title>Cap 4</title>
+          <questionTitle> De effectu peccati</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2621">
+        <head>Tractatus 14</head>
+        <questionTitle>De peccato originali</questionTitle>
+        <item id="sSsf3q-d1e2629">
+          <fileName filestem="sSsf3q-d1e2629"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum peccatum originale sit aliquid</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2640">
+          <fileName filestem="sSsf3q-d1e2640"/>
+          <title>Cap 2</title>
+          <questionTitle> Quid sit peccatum originale, et quomodo deletur in
+            baptismo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2651">
+          <fileName filestem="sSsf3q-d1e2651"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum peccatum original sit maius alio</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2663">
+          <fileName filestem="sSsf3q-d1e2663"/>
+          <title>Cap 4</title>
+          <questionTitle> Qua iustitia anima quae non peccavit contrahat originale
+            peccatum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2674">
+          <fileName filestem="sSsf3q-d1e2674"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum peccatum originale ante baptismum sit mortale</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2685">
+          <fileName filestem="sSsf3q-d1e2685"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum plura originalia sint in homine</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2697">
+        <head>Tractatus 15</head>
+        <questionTitle>De peccato veniali</questionTitle>
+        <item id="sSsf3q-d1e2705">
+          <fileName filestem="sSsf3q-d1e2705"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum primi motus sint peccatum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2716">
+          <fileName filestem="sSsf3q-d1e2716"/>
+          <title>Cap 2</title>
+          <questionTitle> De primis motibus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2727">
+          <fileName filestem="sSsf3q-d1e2727"/>
+          <title>Cap 3</title>
+          <questionTitle> De peccato veniali</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2740">
+        <head>Tractatus 16</head>
+        <questionTitle>De ignorantia</questionTitle>
+        <item id="sSsf3q-d1e2748">
+          <fileName filestem="sSsf3q-d1e2748"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum ignorantia sit peccatum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2759">
+          <fileName filestem="sSsf3q-d1e2759"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum ignorantia legis divinae sit peccatum sacerdotibus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2770">
+          <fileName filestem="sSsf3q-d1e2770"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum teneamur scire de quolibet mortali utrum sit mortale</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2782">
+          <fileName filestem="sSsf3q-d1e2782"/>
+          <title>Cap 4</title>
+          <questionTitle> De diversitatibus ignorantiae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2794">
+        <head>Tractatus 17</head>
+        <questionTitle>De omissione</questionTitle>
+        <item id="sSsf3q-d1e2802">
+          <fileName filestem="sSsf3q-d1e2802"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum omissio sit peccatum actuale vel non </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2813">
+          <fileName filestem="sSsf3q-d1e2813"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum aliquis teneatur ad impossibile </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2824">
+          <fileName filestem="sSsf3q-d1e2824"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum dormiens possit omittere</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2836">
+          <fileName filestem="sSsf3q-d1e2836"/>
+          <title>Cap 4</title>
+          <questionTitle> Quicquid tenemur facere, teneamur facere ex caritate</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2847">
+          <fileName filestem="sSsf3q-d1e2847"/>
+          <title>Cap 5</title>
+          <questionTitle> De negligentia</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2859">
+        <head>Tractatus 18</head>
+        <questionTitle>De commisso</questionTitle>
+        <item id="sSsf3q-d1e2867">
+          <fileName filestem="sSsf3q-d1e2867"/>
+          <title>Cap 1</title>
+          <questionTitle> De diffinitione peccati actualis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2878">
+          <fileName filestem="sSsf3q-d1e2878"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum omne peccatum sit voluntarium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2889">
+          <fileName filestem="sSsf3q-d1e2889"/>
+          <title>Cap 3</title>
+          <questionTitle> De fine actionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2901">
+          <fileName filestem="sSsf3q-d1e2901"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum opus commensuretur secundum intentionem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2912">
+          <fileName filestem="sSsf3q-d1e2912"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum eventus sequens aggravet peccatum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2923">
+          <fileName filestem="sSsf3q-d1e2923"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum intentio et opus sint idem peccatum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2934">
+          <fileName filestem="sSsf3q-d1e2934"/>
+          <title>Cap 7</title>
+          <questionTitle> Utrum meritum vel demeritum possint esse in intellectu sicut in
+            voluntate</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2945">
+          <fileName filestem="sSsf3q-d1e2945"/>
+          <title>Cap 8</title>
+          <questionTitle> De contemptu</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e2957">
+        <head>Tractatus 19</head>
+        <questionTitle>De circumstantiis</questionTitle>
+        <item id="sSsf3q-d1e2965">
+          <fileName filestem="sSsf3q-d1e2965"/>
+          <title>Cap 1</title>
+          <questionTitle> De circumstantia peccati, quid sit</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2976">
+          <fileName filestem="sSsf3q-d1e2976"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum peccatum mensuretur per circumstantias </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2987">
+          <fileName filestem="sSsf3q-d1e2987"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum magis peccet fidelis quam infidelis in eodem genere
+            peccati</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e2999">
+          <fileName filestem="sSsf3q-d1e2999"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum theologus aliquis existens in mortali magis peccat quam vetula quae
+            cadit a caritate aliis circumstantiis paribus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3010">
+          <fileName filestem="sSsf3q-d1e3010"/>
+          <title>Cap 5</title>
+          <questionTitle> De circumstantia temporis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3021">
+          <fileName filestem="sSsf3q-d1e3021"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum iste qui furatur unum nummum minus peccet quam ille qui centum
+            furatur, aliis circumstantiis paribus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3032">
+          <fileName filestem="sSsf3q-d1e3032"/>
+          <title>Cap 7</title>
+          <questionTitle> Utrum ille qui habuit diutius caritatem magis peccaret si caderet a
+            caritate quam alter, aliis circumstantiis paribus</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3044">
+        <head>Tractatus 20</head>
+        <questionTitle>De hypocrisi</questionTitle>
+        <item id="sSsf3q-d1e3052">
+          <fileName filestem="sSsf3q-d1e3052"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum gravius sit aperte peccare quam occulte</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3063">
+          <fileName filestem="sSsf3q-d1e3063"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum hypocrisis sit speciale peccatum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3074">
+          <fileName filestem="sSsf3q-d1e3074"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum velle videri bonus sit malum in se</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3086">
+          <fileName filestem="sSsf3q-d1e3086"/>
+          <title>Cap 4</title>
+          <questionTitle> Quare Dominus frequentius reprehendit hypocritas potius quam alios
+            peccatores</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3097">
+          <fileName filestem="sSsf3q-d1e3097"/>
+          <title>Cap 5</title>
+          <questionTitle> Quomodo intelligitur haec: "A fructibus eorum cognoscere
+            eos"</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3108">
+          <fileName filestem="sSsf3q-d1e3108"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum aliquis possit simulare se esse malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3119">
+          <fileName filestem="sSsf3q-d1e3119"/>
+          <title>Cap 7</title>
+          <questionTitle> Utrum aliquis possit simulare se esse hypocritam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3130">
+          <fileName filestem="sSsf3q-d1e3130"/>
+          <title>Cap 8</title>
+          <questionTitle> Utrum aliquis potest appetere sine peccato quod videatur bonus, ut dentur
+            temporalia ad sustentationem tantum</questionTitle>
+        </item>
+      </div>
+      <item id="sSsf3q-d1e3142">
+        <fileName filestem="sSsf3q-d1e3142"/>
+        <title>Tractatus 21</title>
+        <questionTitle>De pravis iudiciis</questionTitle>
+      </item>
+      <div id="sSsf3q-d1e3154">
+        <head>Tractatus 22</head>
+        <questionTitle>De ira</questionTitle>
+        <item id="sSsf3q-d1e3162">
+          <fileName filestem="sSsf3q-d1e3162"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum ira per zelum sit virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3173">
+          <fileName filestem="sSsf3q-d1e3173"/>
+          <title>Cap 2</title>
+          <questionTitle> In qua vi sit ira per zelum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3184">
+          <fileName filestem="sSsf3q-d1e3184"/>
+          <title>Cap 3</title>
+          <questionTitle> De ira per vicium</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3196">
+        <head>Tractatus 23</head>
+        <questionTitle>De acceptione personarum</questionTitle>
+        <item id="sSsf3q-d1e3204">
+          <fileName filestem="sSsf3q-d1e3204"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum propter honores et divitias sit aliquis magis honorandus sine
+            acceptione personarum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3215">
+          <fileName filestem="sSsf3q-d1e3215"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum dare praebendam consanguineo sit acceptio personarum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3226">
+          <fileName filestem="sSsf3q-d1e3226"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum propter nobilitatem unus sit alteri praeferendus </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3238">
+          <fileName filestem="sSsf3q-d1e3238"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum minus dignus possit praeferri magis digno</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3250">
+        <head>Tractatus 24</head>
+        <questionTitle>De peccato in Spiritum Sanctum</questionTitle>
+        <item id="sSsf3q-d1e3258">
+          <fileName filestem="sSsf3q-d1e3258"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit peccatum in Spiritum Sanctum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3269">
+          <fileName filestem="sSsf3q-d1e3269"/>
+          <title>Cap 2</title>
+          <questionTitle> Cur peccatum in Spiritum Sanctum dicitur irremissibile</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3280">
+          <fileName filestem="sSsf3q-d1e3280"/>
+          <title>Cap 3</title>
+          <questionTitle> De finali impoenitentia</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3292">
+        <head>Tractatus 25</head>
+        <questionTitle>Utrum peccatum sit poena peccati</questionTitle>
+        <item id="sSsf3q-d1e3300">
+          <fileName filestem="sSsf3q-d1e3300"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum et qualiter peccatum sit poena peccati</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3311">
+          <fileName filestem="sSsf3q-d1e3311"/>
+          <title>Cap 2</title>
+          <questionTitle> Quomodo Deus puniat peccatum per peccatum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3322">
+          <fileName filestem="sSsf3q-d1e3322"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum peccatum sit poena simpliciter et proprie</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3334">
+          <fileName filestem="sSsf3q-d1e3334"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum quia Deus permittit hominem peccare, ideo peccet vel e
+            converso</questionTitle>
+        </item>
+      </div>
+    </div>
+    <div id="sSsf3q-d1e3347" alias="sa-l3">
+      <head>Liber 3</head>
+      <div id="sSsf3q-d1e3352">
+        <head>Tractatus 1</head>
+        <questionTitle>De incarnatione</questionTitle>
+        <item id="sSsf3q-d1e3360">
+          <fileName filestem="sSsf3q-d1e3360"/>
+          <title>Cap 1</title>
+          <questionTitle> Quare potius fuit Filius incarnatus quam vel Spiritus
+            sanctus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3371">
+          <fileName filestem="sSsf3q-d1e3371"/>
+          <title>Cap 2</title>
+          <questionTitle> De opinionibus circa Incarnationem Filii Dei </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3382">
+          <fileName filestem="sSsf3q-d1e3382"/>
+          <title>Cap 3</title>
+          <questionTitle> De prima opinione </questionTitle>
+        </item>
+      </div>
+      <item id="sSsf3q-d1e3394">
+        <fileName filestem="sSsf3q-d1e3394"/>
+        <title>Tractatus 2</title>
+        <questionTitle>De praedestinatione Filii Dei</questionTitle>
+      </item>
+      <item id="sSsf3q-d1e3421">
+        <fileName filestem="sSsf3q-d1e3421"/>
+        <title>Tractatus 3</title>
+        <questionTitle>Utrum Christus decimatus fuit in lumbis Abrahae</questionTitle>
+      </item>
+      <div id="sSsf3q-d1e3430">
+        <head>Tractatus 4</head>
+        <questionTitle>De dignitate secundum quam Christus est caput Ecclesiae</questionTitle>
+        <item id="sSsf3q-d1e3438">
+          <fileName filestem="sSsf3q-d1e3438"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum Ecclesia ceperit ab Abel</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3449">
+          <fileName filestem="sSsf3q-d1e3449"/>
+          <title>Cap 2</title>
+          <questionTitle> Quomodo et secundum quam naturam Christus dicatur caput
+            Ecclesiae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3460">
+          <fileName filestem="sSsf3q-d1e3460"/>
+          <title>Cap 3</title>
+          <questionTitle> Quomodo Abel fuit membrum Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3472">
+          <fileName filestem="sSsf3q-d1e3472"/>
+          <title>Cap 4</title>
+          <questionTitle> Quomodo Christus methaphorice dicitur caput Ecclesiae potius quam
+            cor</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3483">
+          <fileName filestem="sSsf3q-d1e3483"/>
+          <title>Cap 5</title>
+          <questionTitle> Duobus modis intelligitur corpus Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3494">
+          <fileName filestem="sSsf3q-d1e3494"/>
+          <title>Cap 6</title>
+          <questionTitle> Quomodo sumus membra de membro</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3505">
+          <fileName filestem="sSsf3q-d1e3505"/>
+          <title>Cap 7</title>
+          <questionTitle> De deliciis Dei cum filiis hominum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3516">
+          <fileName filestem="sSsf3q-d1e3516"/>
+          <title>Cap 8</title>
+          <questionTitle> De unitate corporis</questionTitle>
+        </item>
+      </div>
+      <item id="sSsf3q-d1e3528">
+        <fileName filestem="sSsf3q-d1e3528"/>
+        <title>Tractatus 5</title>
+        <questionTitle>De scientia Christi</questionTitle>
+      </item>
+      <div id="sSsf3q-d1e3540">
+        <head>Tractatus 6</head>
+        <questionTitle>De duplici voluntate Christi</questionTitle>
+        <item id="sSsf3q-d1e3548">
+          <fileName filestem="sSsf3q-d1e3548"/>
+          <title>Cap 1</title>
+          <questionTitle> De voluntate sensualitatis utrum fuerit contraria voluntati rationis
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3559">
+          <fileName filestem="sSsf3q-d1e3559"/>
+          <title>Cap 2</title>
+          <questionTitle> Quomdo Iesus cepit pavere</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3570">
+          <fileName filestem="sSsf3q-d1e3570"/>
+          <title>Cap 3</title>
+          <questionTitle> De petitione Christi </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3582">
+        <head>Tractatus 7</head>
+        <questionTitle>De merito Christi</questionTitle>
+        <item id="sSsf3q-d1e3590">
+          <fileName filestem="sSsf3q-d1e3590"/>
+          <title>Cap 1</title>
+          <questionTitle> Quomodo omne meritum in voluntate consistit </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3601">
+          <fileName filestem="sSsf3q-d1e3601"/>
+          <title>Cap 2</title>
+          <questionTitle> Quomodo intelligendum sit: Christus est mortuus propter peccata nostra et
+            resurrexit propter nostram iustificationem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3612">
+          <fileName filestem="sSsf3q-d1e3612"/>
+          <title>Cap 3</title>
+          <questionTitle> Quare Abraham non intravit paradisum, cum meruerit paradisum et ita
+            apertionem ianuae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3624">
+          <fileName filestem="sSsf3q-d1e3624"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum Christus fuerit beatior post resurrectionem quam
+            ante</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3635">
+          <fileName filestem="sSsf3q-d1e3635"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum Christus post resurrectionem habuit maiorem coronam quam
+            ante</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3647">
+        <head>Tractatus 8</head>
+        <questionTitle>De effectu meriti Christi, scilicet, de redemptione generis
+          humani</questionTitle>
+        <item id="sSsf3q-d1e3655">
+          <fileName filestem="sSsf3q-d1e3655"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum alio modo potest redimi genus humanum quam per mortem Filii
+            Dei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3666">
+          <fileName filestem="sSsf3q-d1e3666"/>
+          <title>Cap 2</title>
+          <questionTitle> Probatur quod non potuit aliter redimi genus humnanum nisi per mortem
+            Filii Dei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3677">
+          <fileName filestem="sSsf3q-d1e3677"/>
+          <title>Cap 3</title>
+          <questionTitle> Quomodo Deus redemit nos per iustitiam, non per potentiam</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3689">
+        <head>Tractatus 9</head>
+        <questionTitle>De statu Christi in triduo</questionTitle>
+        <item id="sSsf3q-d1e3697">
+          <fileName filestem="sSsf3q-d1e3697"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum Christus fuerit homo in triduo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3708">
+          <fileName filestem="sSsf3q-d1e3708"/>
+          <title>Cap 2</title>
+          <questionTitle> Quomodo intelligendum sit quod Christus fuerit totus in sepulcro, sed non
+            totum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3719">
+          <fileName filestem="sSsf3q-d1e3719"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum propositio sit concedenda: "In triduo Iesus est"</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3731">
+          <fileName filestem="sSsf3q-d1e3731"/>
+          <title>Cap 4</title>
+          <questionTitle> De intelligentia huius propositionis: "In triduo Filius Dei est redemptor
+            vel mediator vel ostium"</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3743">
+        <head>Tractatus 10</head>
+        <questionTitle>Quaestione praeambulae ad virtutes</questionTitle>
+        <item id="sSsf3q-d1e3751">
+          <fileName filestem="sSsf3q-d1e3751"/>
+          <title>Cap 1</title>
+          <questionTitle> De iustificatione impii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3762">
+          <fileName filestem="sSsf3q-d1e3762"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum aliquis possit mereri nisi primam gratiam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3773">
+          <fileName filestem="sSsf3q-d1e3773"/>
+          <title>Cap 3</title>
+          <questionTitle> Ad quid valeant opera facta extra caritatem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3785">
+          <fileName filestem="sSsf3q-d1e3785"/>
+          <title>Cap 4</title>
+          <questionTitle> De natura boni</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3797">
+        <head>Tractatus 11</head>
+        <questionTitle>De virtutibus</questionTitle>
+        <item id="sSsf3q-d1e3805">
+          <fileName filestem="sSsf3q-d1e3805"/>
+          <title>Cap 1</title>
+          <questionTitle> De diffinitione virtutis </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3816">
+          <fileName filestem="sSsf3q-d1e3816"/>
+          <title>Cap 2</title>
+          <questionTitle> De speciebus virtutum, scilicet, utrum sint una virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3827">
+          <fileName filestem="sSsf3q-d1e3827"/>
+          <title>Cap 3</title>
+          <questionTitle> Qualiter sitae sint virtutes in viribus </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3840">
+        <head>Tractatus 12</head>
+        <questionTitle>De virtutibus theologicis. De fide</questionTitle>
+        <item id="sSsf3q-d1e3848">
+          <fileName filestem="sSsf3q-d1e3848"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit fides sive de diffinitione fidei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3859">
+          <fileName filestem="sSsf3q-d1e3859"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum fides sit virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3870">
+          <fileName filestem="sSsf3q-d1e3870"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum fides sit unica virtutis species an sit genus continens sub se
+            multas species virtutum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3882">
+          <fileName filestem="sSsf3q-d1e3882"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum idem sit scitum et creditum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3893">
+          <fileName filestem="sSsf3q-d1e3893"/>
+          <title>Cap 5</title>
+          <questionTitle> De fide implicita et explicita </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3904">
+          <fileName filestem="sSsf3q-d1e3904"/>
+          <title>Cap 6</title>
+          <questionTitle> De fide distincta et indistincta </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3915">
+          <fileName filestem="sSsf3q-d1e3915"/>
+          <title>Cap 7</title>
+          <questionTitle> De articulis fidei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3926">
+          <fileName filestem="sSsf3q-d1e3926"/>
+          <title>Cap 8</title>
+          <questionTitle> De cognitione Dei quam habebant Iudaei, gentiles, haeretici et etiam
+            discipuli adhuc infirmi</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e3938">
+        <head>Tractatus 13</head>
+        <questionTitle>De spe</questionTitle>
+        <item id="sSsf3q-d1e3946">
+          <fileName filestem="sSsf3q-d1e3946"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit spes</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3957">
+          <fileName filestem="sSsf3q-d1e3957"/>
+          <title>Cap 2</title>
+          <questionTitle> In quo differat spes a fide et a caritate</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3968">
+          <fileName filestem="sSsf3q-d1e3968"/>
+          <title>Cap 3</title>
+          <questionTitle> De differentia spei et timoris</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3980">
+          <fileName filestem="sSsf3q-d1e3980"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum spes sit mercenaria</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e3991">
+          <fileName filestem="sSsf3q-d1e3991"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum sancti habeant spem in patria </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4003">
+        <head>Tractatus 14</head>
+        <questionTitle>De essentia caritatis</questionTitle>
+        <item id="sSsf3q-d1e4011">
+          <fileName filestem="sSsf3q-d1e4011"/>
+          <title>Cap 1</title>
+          <questionTitle> De diffinitione caritatis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4022">
+          <fileName filestem="sSsf3q-d1e4022"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum virtus quae est caritatis sit species specialissima </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4033">
+          <fileName filestem="sSsf3q-d1e4033"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum eodem motu numero diligatur Deus et proximus </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4045">
+          <fileName filestem="sSsf3q-d1e4045"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum possibile sit quod aeque diligatur proximus et Deus </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4056">
+          <fileName filestem="sSsf3q-d1e4056"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum dilectio Dei prior sit quam dilectio proximi an e
+            converso</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4067">
+          <fileName filestem="sSsf3q-d1e4067"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum caritas informet omnes virtutes</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4078">
+          <fileName filestem="sSsf3q-d1e4078"/>
+          <title>Cap 7</title>
+          <questionTitle> Quomodo sit intelligendum: diligere Dominum Deum tuum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4090">
+        <head>Tractatus 15</head>
+        <questionTitle>De ordine caritatis</questionTitle>
+        <item id="sSsf3q-d1e4098">
+          <fileName filestem="sSsf3q-d1e4098"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit ordo caritatis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4109">
+          <fileName filestem="sSsf3q-d1e4109"/>
+          <title>Cap 2</title>
+          <questionTitle> Quis ordo servandus sit in dilectione proximi </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4120">
+          <fileName filestem="sSsf3q-d1e4120"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum magis diligendi sunt parentes quam filii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4132">
+          <fileName filestem="sSsf3q-d1e4132"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum magis diligendus sit proximus quam corpus proprium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4143">
+          <fileName filestem="sSsf3q-d1e4143"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum ex caritate magis diligendi sint amici quam inimici</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4154">
+          <fileName filestem="sSsf3q-d1e4154"/>
+          <title>Cap 6</title>
+          <questionTitle> De ordine caritatis in via et in patria </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4166">
+        <head>Tractatus 16</head>
+        <questionTitle>De effectu caritatis</questionTitle>
+        <item id="sSsf3q-d1e4174">
+          <fileName filestem="sSsf3q-d1e4174"/>
+          <title>Cap 1</title>
+          <questionTitle> De primo effectu caritatis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4185">
+          <fileName filestem="sSsf3q-d1e4185"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum ex quantulacumque caritate potest resisti quantecumque temptationi
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4196">
+          <fileName filestem="sSsf3q-d1e4196"/>
+          <title>Cap 3</title>
+          <questionTitle> De secundo effectu caritatis, scilicet, de resurrectione qua aliquis
+            resurgit a peccato per caritatem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4208">
+          <fileName filestem="sSsf3q-d1e4208"/>
+          <title>Cap 4</title>
+          <questionTitle> De quantitate caritatis et quantitate motus eius</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4219">
+          <fileName filestem="sSsf3q-d1e4219"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum aliquis teneatur ad opera perfecte caritatis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4230">
+          <fileName filestem="sSsf3q-d1e4230"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum perfectus magis diligat proximum quam imperfectus
+            Deum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4241">
+          <fileName filestem="sSsf3q-d1e4241"/>
+          <title>Cap 7</title>
+          <questionTitle> De hiis quae perficiunt caritatem, scilicet, de commisso et
+            dimisso</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4252">
+          <fileName filestem="sSsf3q-d1e4252"/>
+          <title>Cap 8</title>
+          <questionTitle> Quaeritur de effectu caritatis post mortem</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4264">
+        <head>Tractatus 17</head>
+        <questionTitle>De eligentia motuum</questionTitle>
+        <item id="sSsf3q-d1e4272">
+          <fileName filestem="sSsf3q-d1e4272"/>
+          <title>Cap 1</title>
+          <questionTitle> In qua vi animae situm sit desiderium quo desiderabat Apostolus dissolvi
+            et esse cum Christo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4283">
+          <fileName filestem="sSsf3q-d1e4283"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum Apostolus teneretur velle permanere in carne propter
+            fratres</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4294">
+          <fileName filestem="sSsf3q-d1e4294"/>
+          <title>Cap 3</title>
+          <questionTitle> De contrarietate Augustini et Ambrosii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4306">
+          <fileName filestem="sSsf3q-d1e4306"/>
+          <title>Cap 4</title>
+          <questionTitle> De eligentia illorum duorum, utrum fuit magis eligendum
+            Apostolo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4317">
+          <fileName filestem="sSsf3q-d1e4317"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum Apostolus voluit coniunctim vel divisim dissolvi et esse cum
+            Christo</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4328">
+          <fileName filestem="sSsf3q-d1e4328"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum quilibet sciens se esse praedestinatum debet velle quantamlibet
+            penam sibi infligi</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4341">
+        <head>Tractatus 18</head>
+        <questionTitle>De iure naturali</questionTitle>
+        <item id="sSsf3q-d1e4349">
+          <fileName filestem="sSsf3q-d1e4349"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum omnia communia fuit praeceptum iuris naturalis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4360">
+          <fileName filestem="sSsf3q-d1e4360"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum qui primo appropriavit aliquid peccaverit mortaliter
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4371">
+          <fileName filestem="sSsf3q-d1e4371"/>
+          <title>Cap 3</title>
+          <questionTitle> De differentia inter praecepta legis divinae et naturae </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4383">
+          <fileName filestem="sSsf3q-d1e4383"/>
+          <title>Cap 4</title>
+          <questionTitle> Quomodo ius naturale scriptum sit in corde</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4394">
+          <fileName filestem="sSsf3q-d1e4394"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum possit fieri dispensatio iuris naturalis</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4406">
+        <head>Tractatus 19</head>
+        <questionTitle>De virtutibus politicis</questionTitle>
+        <item id="sSsf3q-d1e4414">
+          <fileName filestem="sSsf3q-d1e4414"/>
+          <title>Cap 1</title>
+          <questionTitle> Quae sit unaquaeque virtus politica</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4425">
+          <fileName filestem="sSsf3q-d1e4425"/>
+          <title>Cap 2</title>
+          <questionTitle> De differentia virtutum politicarum </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4437">
+        <head>Tractatus 20</head>
+        <questionTitle>De prudentia</questionTitle>
+        <item id="sSsf3q-d1e4445">
+          <fileName filestem="sSsf3q-d1e4445"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum prudentia sit idem quod scientia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4456">
+          <fileName filestem="sSsf3q-d1e4456"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum prudentia sit species specialissima </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4467">
+          <fileName filestem="sSsf3q-d1e4467"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum prudentia sit prima cardinalium virtutum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4479">
+        <head>Tractatus 21</head>
+        <questionTitle>De temperantia</questionTitle>
+        <item id="sSsf3q-d1e4487">
+          <fileName filestem="sSsf3q-d1e4487"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid destruit sobrietatem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4498">
+          <fileName filestem="sSsf3q-d1e4498"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum primus motus ad gulam sit peccatus mortale</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4509">
+          <fileName filestem="sSsf3q-d1e4509"/>
+          <title>Cap 3</title>
+          <questionTitle> Quare omnis luxuria est peccatum mortale et non omnis
+            ebrietas</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4521">
+          <fileName filestem="sSsf3q-d1e4521"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum inebrians alium peccet mortaliter </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4532">
+          <fileName filestem="sSsf3q-d1e4532"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum superfluitas et praeciositas vestium sit peccatum
+            mortale</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4544">
+        <head>Tractatus 22</head>
+        <questionTitle>De ieiunio</questionTitle>
+        <item id="sSsf3q-d1e4552">
+          <fileName filestem="sSsf3q-d1e4552"/>
+          <title>Cap 1</title>
+          <questionTitle> De institutione ieiunii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4563">
+          <fileName filestem="sSsf3q-d1e4563"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum ieiunare sit mortus meritorius, cuius virtutis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4574">
+          <fileName filestem="sSsf3q-d1e4574"/>
+          <title>Cap 3</title>
+          <questionTitle> De utilitate ieiunii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4586">
+          <fileName filestem="sSsf3q-d1e4586"/>
+          <title>Cap 4</title>
+          <questionTitle> De temporibus ieiuniorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4597">
+          <fileName filestem="sSsf3q-d1e4597"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum electuaria solvant ieiunium</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4609">
+        <head>Tractatus 23</head>
+        <questionTitle>De continentia</questionTitle>
+        <item id="sSsf3q-d1e4617">
+          <fileName filestem="sSsf3q-d1e4617"/>
+          <title>Cap 1</title>
+          <questionTitle> De continenti coniugali</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4628">
+          <fileName filestem="sSsf3q-d1e4628"/>
+          <title>Cap 2</title>
+          <questionTitle> De virginitate </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4641">
+        <head>Tractatus 24</head>
+        <questionTitle>De elemosina</questionTitle>
+        <item id="sSsf3q-d1e4649">
+          <fileName filestem="sSsf3q-d1e4649"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit elemosina et quae utilitas eius</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4660">
+          <fileName filestem="sSsf3q-d1e4660"/>
+          <title>Cap 2</title>
+          <questionTitle> In quo articulo omittit aliquis, si non dat elemosinam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4671">
+          <fileName filestem="sSsf3q-d1e4671"/>
+          <title>Cap 3</title>
+          <questionTitle> De electu personarum quibus danda est elemosina</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4683">
+          <fileName filestem="sSsf3q-d1e4683"/>
+          <title>Cap 4</title>
+          <questionTitle> De quantiate elemosinae, scilicet, quantum dandum sit</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4694">
+          <fileName filestem="sSsf3q-d1e4694"/>
+          <title>Cap 5</title>
+          <questionTitle> De quibus habeat fieri elemosina</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4706">
+        <head>Tractatus 25</head>
+        <questionTitle>De obedientia</questionTitle>
+        <item id="sSsf3q-d1e4714">
+          <fileName filestem="sSsf3q-d1e4714"/>
+          <title>Cap 1</title>
+          <questionTitle> De essentia obedientiae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4725">
+          <fileName filestem="sSsf3q-d1e4725"/>
+          <title>Cap 2</title>
+          <questionTitle> Qualis virtus sit obedientia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4736">
+          <fileName filestem="sSsf3q-d1e4736"/>
+          <title>Cap 3</title>
+          <questionTitle> An obedientia habeat aliquid de suo, et an sit species
+            specialissima</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4748">
+          <fileName filestem="sSsf3q-d1e4748"/>
+          <title>Cap 4</title>
+          <questionTitle> In quibus obediendum sit praelatis, in quibus non</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4759">
+          <fileName filestem="sSsf3q-d1e4759"/>
+          <title>Cap 5</title>
+          <questionTitle> In quibus tenemur obedire Deo</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4771">
+        <head>Tractatus 26</head>
+        <questionTitle>De latria</questionTitle>
+        <item id="sSsf3q-d1e4779">
+          <fileName filestem="sSsf3q-d1e4779"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit latria</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4790">
+          <fileName filestem="sSsf3q-d1e4790"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum idem sit latria et dulia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4801">
+          <fileName filestem="sSsf3q-d1e4801"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum idolatira sit latria</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4813">
+          <fileName filestem="sSsf3q-d1e4813"/>
+          <title>Cap 4</title>
+          <questionTitle> De honore qui est exhibendus excellentibus creaturis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4824">
+          <fileName filestem="sSsf3q-d1e4824"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum aliquis per ignorantiam sine peccato potest exhibere latriam
+            creaturae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4835">
+          <fileName filestem="sSsf3q-d1e4835"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum si aliquis credat alicui haeretico praedicanti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4846">
+          <fileName filestem="sSsf3q-d1e4846"/>
+          <title>Cap 7</title>
+          <questionTitle> Sint hic duo, quorum unus adorat idolum, quod credit esse Deum
+            etc</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4858">
+        <head>Tractatus 27</head>
+        <questionTitle>De oratione</questionTitle>
+        <item id="sSsf3q-d1e4866">
+          <fileName filestem="sSsf3q-d1e4866"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum oratio sit virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4877">
+          <fileName filestem="sSsf3q-d1e4877"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum oratio sit species satisfactionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4888">
+          <fileName filestem="sSsf3q-d1e4888"/>
+          <title>Cap 3</title>
+          <questionTitle> De efficacitate orationis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4900">
+          <fileName filestem="sSsf3q-d1e4900"/>
+          <title>Cap 4</title>
+          <questionTitle> De oratione Pauli qua petiit stimulum removeri a se</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4911">
+          <fileName filestem="sSsf3q-d1e4911"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum temporalia sint petenda simpliciter </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4922">
+          <fileName filestem="sSsf3q-d1e4922"/>
+          <title>Cap 6</title>
+          <questionTitle> De oratione qua oramus sanctos</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4934">
+        <head>Tractatus 28</head>
+        <questionTitle>De iustitia in generali</questionTitle>
+        <item id="sSsf3q-d1e4942">
+          <fileName filestem="sSsf3q-d1e4942"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum iustitia sit generalis virtus ad omnes virtutes</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4953">
+          <fileName filestem="sSsf3q-d1e4953"/>
+          <title>Cap 2</title>
+          <questionTitle> De iustitia secundum quod large vel stricte </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e4965">
+        <head>Tractatus 29</head>
+        <questionTitle>De fortitudine</questionTitle>
+        <item id="sSsf3q-d1e4973">
+          <fileName filestem="sSsf3q-d1e4973"/>
+          <title>Cap 1</title>
+          <questionTitle> De patientia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4984">
+          <fileName filestem="sSsf3q-d1e4984"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum sancti meruerunt passiones uas</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e4995">
+          <fileName filestem="sSsf3q-d1e4995"/>
+          <title>Cap 3</title>
+          <questionTitle> De perseverantia</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5008">
+        <head>Tractatus 30</head>
+        <questionTitle>De donis Sancti in generali</questionTitle>
+        <item id="sSsf3q-d1e5016">
+          <fileName filestem="sSsf3q-d1e5016"/>
+          <title>Cap 1</title>
+          <questionTitle> ???</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5027">
+          <fileName filestem="sSsf3q-d1e5027"/>
+          <title>Cap 2</title>
+          <questionTitle> De numero donorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5038">
+          <fileName filestem="sSsf3q-d1e5038"/>
+          <title>Cap 3</title>
+          <questionTitle> De differentia donorum ad virtutes cardinales</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5050">
+          <fileName filestem="sSsf3q-d1e5050"/>
+          <title>Cap 4</title>
+          <questionTitle> Qualiter differunt a virtutibus theologicis, scilicet, fide, spe,
+            caritate</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5062">
+        <head>Tractatus 31</head>
+        <questionTitle>De singulis donis. De dono timoris</questionTitle>
+        <item id="sSsf3q-d1e5070">
+          <fileName filestem="sSsf3q-d1e5070"/>
+          <title>Cap 1</title>
+          <questionTitle> De speciebus timoris</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5081">
+          <fileName filestem="sSsf3q-d1e5081"/>
+          <title>Cap 2</title>
+          <questionTitle> De usu servili timoris</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5092">
+          <fileName filestem="sSsf3q-d1e5092"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum timor servilis sit bonus </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5104">
+          <fileName filestem="sSsf3q-d1e5104"/>
+          <title>Cap 4</title>
+          <questionTitle> De annexis timoris servili</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5115">
+          <fileName filestem="sSsf3q-d1e5115"/>
+          <title>Cap 5</title>
+          <questionTitle> De secundis effectibus timoris servili </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5126">
+          <fileName filestem="sSsf3q-d1e5126"/>
+          <title>Cap 6</title>
+          <questionTitle> De timore initiali</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5137">
+          <fileName filestem="sSsf3q-d1e5137"/>
+          <title>Cap 7</title>
+          <questionTitle> De timore filiali</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5148">
+          <fileName filestem="sSsf3q-d1e5148"/>
+          <title>Tractatus 32</title>
+          <questionTitle>De dono pietatis</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5160">
+        <head>Tractatus 33</head>
+        <questionTitle>De dono scientiae</questionTitle>
+        <item id="sSsf3q-d1e5168">
+          <fileName filestem="sSsf3q-d1e5168"/>
+          <title>Cap 1</title>
+          <questionTitle> De contrarietate scientiae doni ad prudentiam carnis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5179">
+          <fileName filestem="sSsf3q-d1e5179"/>
+          <title>Cap 2</title>
+          <questionTitle> De contrarietate scientiae doni ad sapientiam mundi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5190">
+          <fileName filestem="sSsf3q-d1e5190"/>
+          <title>Cap 3</title>
+          <questionTitle> Quae sit differentia inter donum scientiae et donum
+            consilii</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5202">
+        <head>Tractatus 34</head>
+        <questionTitle>De donis per quae regitur contemplativa, scilicet, de intellectu et
+          sapientia.</questionTitle>
+        <item id="sSsf3q-d1e5210">
+          <fileName filestem="sSsf3q-d1e5210"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit intellectus et quid sit sapientia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5221">
+          <fileName filestem="sSsf3q-d1e5221"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum intellectus sit virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5232">
+          <fileName filestem="sSsf3q-d1e5232"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum sint aliae virtutes contmeplativae quam sapientia et
+            intellectus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5244">
+          <fileName filestem="sSsf3q-d1e5244"/>
+          <title>Cap 4</title>
+          <questionTitle> De comparatione vitae contemplativae ad activam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5255">
+          <fileName filestem="sSsf3q-d1e5255"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum virtus contemplativa habeat contrarium</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5267">
+        <head>Tractatus 35</head>
+        <questionTitle>De beatitudinibus</questionTitle>
+        <item id="sSsf3q-d1e5275">
+          <fileName filestem="sSsf3q-d1e5275"/>
+          <title>Cap 1</title>
+          <questionTitle> De paupertate</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5286">
+          <fileName filestem="sSsf3q-d1e5286"/>
+          <title>Cap 2</title>
+          <questionTitle> De adaptatione donorum spiritus sancti et petitionum quae sunt in oratione
+            dominica</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5298">
+        <head>Tractatus 36</head>
+        <questionTitle>De frui</questionTitle>
+        <item id="sSsf3q-d1e5306">
+          <fileName filestem="sSsf3q-d1e5306"/>
+          <title>Cap 1</title>
+          <questionTitle> Quae sit differentia inter frui et uti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5317">
+          <fileName filestem="sSsf3q-d1e5317"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum fruendum sit virtutibus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5328">
+          <fileName filestem="sSsf3q-d1e5328"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum fruendum sit personis, in quantum sunt personae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5341">
+        <head>Tractatus 37</head>
+        <questionTitle>De raptu in Deum</questionTitle>
+        <item id="sSsf3q-d1e5349">
+          <fileName filestem="sSsf3q-d1e5349"/>
+          <title>Cap. 1</title>
+          <questionTitle> Quomodo rapitur anima ad contemplandam Deum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5360">
+          <fileName filestem="sSsf3q-d1e5360"/>
+          <title>Cap. 2</title>
+          <questionTitle> Utrum visio quam habuit in raptu fuit </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5371">
+          <fileName filestem="sSsf3q-d1e5371"/>
+          <title>Cap. 3</title>
+          <questionTitle> Utrum Apostolus raptu suo vidit Deum per medium vel sine medio
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5383">
+          <fileName filestem="sSsf3q-d1e5383"/>
+          <title>Cap 4</title>
+          <questionTitle> De raptione Apostoli usque ad tertium caelum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5394">
+          <fileName filestem="sSsf3q-d1e5394"/>
+          <title>Cap 5</title>
+          <questionTitle> Quomodo Apostolus vidit archana Dei</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5406">
+        <head>Tractatus 38</head>
+        <questionTitle>De ordine virtutum</questionTitle>
+        <item id="sSsf3q-d1e5414">
+          <fileName filestem="sSsf3q-d1e5414"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum una virtus sit naturaliter prior omnibus </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5425">
+          <fileName filestem="sSsf3q-d1e5425"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum fides vera sive formata sit prior naturaliter quam caritas
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5436">
+          <fileName filestem="sSsf3q-d1e5436"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum verum sit spem esse mediam inter fidem et caritatem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5448">
+          <fileName filestem="sSsf3q-d1e5448"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum fides, spes, caritas sint primae omnium virtutum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5460">
+        <head>Tractatus 39</head>
+        <questionTitle>De merito virtutum</questionTitle>
+        <item id="sSsf3q-d1e5468">
+          <fileName filestem="sSsf3q-d1e5468"/>
+          <title>Cap 1</title>
+          <questionTitle> In qua virtute sit prima vis merendi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5479">
+          <fileName filestem="sSsf3q-d1e5479"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum aliquis ex condigno meretur vitam aeternam </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5490">
+          <fileName filestem="sSsf3q-d1e5490"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum ex condigno mereamur augmentum gratiae </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5502">
+          <fileName filestem="sSsf3q-d1e5502"/>
+          <title>Cap 4</title>
+          <questionTitle> De merito remissionis poenae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5513">
+          <fileName filestem="sSsf3q-d1e5513"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum multitudo bonorum valet ad meritum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5525">
+        <head>Tractatus 40</head>
+        <questionTitle>De connexione virtutum</questionTitle>
+        <item id="sSsf3q-d1e5533">
+          <fileName filestem="sSsf3q-d1e5533"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum qui habet unam virtutem theologicam, habent omnes</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5544">
+          <fileName filestem="sSsf3q-d1e5544"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum verum sit in politicis quod qui habet unam, habet
+            omnes</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5555">
+          <fileName filestem="sSsf3q-d1e5555"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum idem sit contrarium virtuti politicae et virtuti
+            theologicae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5567">
+        <head>Tractatus 41</head>
+        <questionTitle>De aequalitate virtutum</questionTitle>
+        <item id="sSsf3q-d1e5575">
+          <fileName filestem="sSsf3q-d1e5575"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum omnes virtutes sint pares in eodem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5586">
+          <fileName filestem="sSsf3q-d1e5586"/>
+          <title>Cap 2</title>
+          <questionTitle> De prerogativa virtutum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5597">
+          <fileName filestem="sSsf3q-d1e5597"/>
+          <title>Cap 3</title>
+          <questionTitle> In qua sapientia et intellectus praeemineant caeteris
+            donis</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5609">
+        <head>Tractatus 42</head>
+        <questionTitle>De transitu virtutum</questionTitle>
+        <item id="sSsf3q-d1e5617">
+          <fileName filestem="sSsf3q-d1e5617"/>
+          <title>Cap 1</title>
+          <questionTitle> De transitu natura ad gratiam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5628">
+          <fileName filestem="sSsf3q-d1e5628"/>
+          <title>Cap 2</title>
+          <questionTitle> De transitu naturae in gloriam</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5641">
+        <head>Tractatus 43</head>
+        <questionTitle>De comparatione virtutis ad vitium</questionTitle>
+        <item id="sSsf3q-d1e5649">
+          <fileName filestem="sSsf3q-d1e5649"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum omnis virtus sit magis bona, quam aliquod malum sit
+            malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5660">
+          <fileName filestem="sSsf3q-d1e5660"/>
+          <title>Cap 2</title>
+          <questionTitle> De haereticis qui ad subeundum poenam pro fide fallaciosa magis sunt
+            proni, quam fideles pro fide vera</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5671">
+          <fileName filestem="sSsf3q-d1e5671"/>
+          <title>Cap 3</title>
+          <questionTitle> De contrarietate boni et mali</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5683">
+          <fileName filestem="sSsf3q-d1e5683"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum proportio virtutis ad vitium debeat admitti </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5695">
+        <head>Tractatus 44</head>
+        <questionTitle>De quaestionibus moralibus. De distinctione praeceptorum</questionTitle>
+        <item id="sSsf3q-d1e5703">
+          <fileName filestem="sSsf3q-d1e5703"/>
+          <title>Cap 1</title>
+          <questionTitle> De numero praeceptorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5714">
+          <fileName filestem="sSsf3q-d1e5714"/>
+          <title>Cap 2</title>
+          <questionTitle> De tribus primis praeceptis, quo modo adaptantur tribus
+            Personis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5725">
+          <fileName filestem="sSsf3q-d1e5725"/>
+          <title>Cap 3</title>
+          <questionTitle> De distinctione septem praeceptorum quae pertinent ad dilectionem proximi
+            et scripta erant in secunda tabula</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5737">
+          <fileName filestem="sSsf3q-d1e5737"/>
+          <title>Cap 4</title>
+          <questionTitle> Super illud Apostoli: Littera occidit, spiritus autem
+            vivificat</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5748">
+          <fileName filestem="sSsf3q-d1e5748"/>
+          <title>Cap 5</title>
+          <questionTitle> Quomodo adaptantur decem praecepta decalogi ad decem plagas
+            Aegypti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5759">
+          <fileName filestem="sSsf3q-d1e5759"/>
+          <title>Cap 5</title>
+          <questionTitle> De quatuor virtutibus cardinalibus et de septem donis Spiritus Sancti
+          </questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5771">
+        <head>Tractatus 45</head>
+        <questionTitle>De mendacio</questionTitle>
+        <item id="sSsf3q-d1e5779">
+          <fileName filestem="sSsf3q-d1e5779"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit mendacium </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5790">
+          <fileName filestem="sSsf3q-d1e5790"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum omne mendacium sit mortale peccatum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5801">
+          <fileName filestem="sSsf3q-d1e5801"/>
+          <title>Cap 3</title>
+          <questionTitle> De generibus mendaciorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5813">
+          <fileName filestem="sSsf3q-d1e5813"/>
+          <title>Cap 4</title>
+          <questionTitle> De quibusdam actionibus in quibus videtur antiquos patres mentitos
+            fuisse</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5825">
+        <head>Tractatus 46</head>
+        <questionTitle>De iuramento et periurio</questionTitle>
+        <item id="sSsf3q-d1e5833">
+          <fileName filestem="sSsf3q-d1e5833"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum iurare in se sit malum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5844">
+          <fileName filestem="sSsf3q-d1e5844"/>
+          <title>Cap 2</title>
+          <questionTitle> De forma iuramenti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5855">
+          <fileName filestem="sSsf3q-d1e5855"/>
+          <title>Cap 3</title>
+          <questionTitle> Quod tria debent sequi ad iuramentum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5867">
+          <fileName filestem="sSsf3q-d1e5867"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum omne periurium sit peccatum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5878">
+          <fileName filestem="sSsf3q-d1e5878"/>
+          <title>Cap 5</title>
+          <questionTitle> De causis iuramenti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5889">
+          <fileName filestem="sSsf3q-d1e5889"/>
+          <title>Cap 6</title>
+          <questionTitle> De coactis periuriis et iuramentis</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5901">
+        <head>Tractatus 47</head>
+        <questionTitle>De tertio mandato quod tale est: Memento ut diem sabbati
+          sanctifices</questionTitle>
+        <item id="sSsf3q-d1e5909">
+          <fileName filestem="sSsf3q-d1e5909"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum omnes velint esse beati</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5920">
+          <fileName filestem="sSsf3q-d1e5920"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum aliquis sit beatus in praesent </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5931">
+          <fileName filestem="sSsf3q-d1e5931"/>
+          <title>Cap 3</title>
+          <questionTitle> Quomodo intelligendum sit quod mali quaerunt beatitudinem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5943">
+          <fileName filestem="sSsf3q-d1e5943"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum diabolus appetat beatitudinem</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e5955">
+        <head>Tractatus 48</head>
+        <questionTitle>De usura</questionTitle>
+        <item id="sSsf3q-d1e5963">
+          <fileName filestem="sSsf3q-d1e5963"/>
+          <title>Cap 1</title>
+          <questionTitle> </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5974">
+          <fileName filestem="sSsf3q-d1e5974"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum ille qui accipit ad usuram peccet </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5985">
+          <fileName filestem="sSsf3q-d1e5985"/>
+          <title>Cap 3</title>
+          <questionTitle> In quibus contractibus sit usura</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e5997">
+          <fileName filestem="sSsf3q-d1e5997"/>
+          <title>Cap 4</title>
+          <questionTitle> De restitutionibus usurarum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6010">
+        <head>Tractatus 49</head>
+        <questionTitle>De simonia</questionTitle>
+        <item id="sSsf3q-d1e6018">
+          <fileName filestem="sSsf3q-d1e6018"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit symonia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6029">
+          <fileName filestem="sSsf3q-d1e6029"/>
+          <title>Cap 2</title>
+          <questionTitle> De spiritualibus casibus in quibus habet esse symonia</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6040">
+          <fileName filestem="sSsf3q-d1e6040"/>
+          <title>Cap 3</title>
+          <questionTitle> De symonia quae subiacet iudicio Ecclesiae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6052">
+        <head>Tractatus 50</head>
+        <questionTitle>De voto</questionTitle>
+        <item id="sSsf3q-d1e6060">
+          <fileName filestem="sSsf3q-d1e6060"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit votum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6071">
+          <fileName filestem="sSsf3q-d1e6071"/>
+          <title>Cap 2</title>
+          <questionTitle> De voto, qualiter obligat et utrum recipiat dispensationem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6082">
+          <fileName filestem="sSsf3q-d1e6082"/>
+          <title>Cap 3</title>
+          <questionTitle> De specie voti</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6094">
+          <fileName filestem="sSsf3q-d1e6094"/>
+          <title>Cap 4</title>
+          <questionTitle> </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6105">
+          <fileName filestem="sSsf3q-d1e6105"/>
+          <title>Cap 5</title>
+          <questionTitle> De voto Iepte</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6117">
+        <head>Tractatus 51</head>
+        <questionTitle>De decimis</questionTitle>
+        <item id="sSsf3q-d1e6125">
+          <fileName filestem="sSsf3q-d1e6125"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit decima et quot sint species decimae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6136">
+          <fileName filestem="sSsf3q-d1e6136"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum praeceptum de decimis fuit morale an cerimoniale </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6147">
+          <fileName filestem="sSsf3q-d1e6147"/>
+          <title>Cap 3</title>
+          <questionTitle> De quibus habeat dari decima </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6159">
+          <fileName filestem="sSsf3q-d1e6159"/>
+          <title>Cap 4</title>
+          <questionTitle> Quae personae debeant habere decimas </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6170">
+          <fileName filestem="sSsf3q-d1e6170"/>
+          <title>Cap 5</title>
+          <questionTitle> Qualiter debeant sacerdotes praedicare solutionem
+            decimarum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6181">
+          <fileName filestem="sSsf3q-d1e6181"/>
+          <title>Cap 6</title>
+          <questionTitle> De redeptione decimarum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6193">
+        <head>Tractatus 52</head>
+        <questionTitle>De utili quod pertinet ad honorem proximi. De vitatione
+          scandali</questionTitle>
+        <item id="sSsf3q-d1e6201">
+          <fileName filestem="sSsf3q-d1e6201"/>
+          <title>Cap 1</title>
+          <questionTitle> Quod sit scandalum et utrum omne candalum sit mortale peccatum
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6212">
+          <fileName filestem="sSsf3q-d1e6212"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum scandalum sit una species peccati per se</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6223">
+          <fileName filestem="sSsf3q-d1e6223"/>
+          <title>Cap 3</title>
+          <questionTitle> De verbo Apostoli: Omnia mihi licent, sed non omnia
+            expediunt</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6235">
+          <fileName filestem="sSsf3q-d1e6235"/>
+          <title>Cap 4</title>
+          <questionTitle> Quid sit omittendum propter scandalum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6246">
+          <fileName filestem="sSsf3q-d1e6246"/>
+          <title>Cap 5</title>
+          <questionTitle> Quid faciendum est propter scandalum vitandum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6257">
+          <fileName filestem="sSsf3q-d1e6257"/>
+          <title>Cap 6</title>
+          <questionTitle> De casu illo, in quo e diverso diversa concurrrunt
+            scandala</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6269">
+        <head>Tractatus 53</head>
+        <questionTitle>De correptione fraterna</questionTitle>
+        <item id="sSsf3q-d1e6277">
+          <fileName filestem="sSsf3q-d1e6277"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum praeceptum evangelicum pertinet ad omnes </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6288">
+          <fileName filestem="sSsf3q-d1e6288"/>
+          <title>Cap 2</title>
+          <questionTitle> De ordine corrigendi et quomodo procedendum sit secundum illum
+            ordinem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6299">
+          <fileName filestem="sSsf3q-d1e6299"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum idem ordo conservandus sit in notoriis et privatis</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6311">
+        <head>Tractatus 54</head>
+        <questionTitle>De perplexitate</questionTitle>
+        <item id="sSsf3q-d1e6319">
+          <fileName filestem="sSsf3q-d1e6319"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit perplexistas</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6330">
+          <fileName filestem="sSsf3q-d1e6330"/>
+          <title>Cap 2</title>
+          <questionTitle> De perplexitate spiritualium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6341">
+          <fileName filestem="sSsf3q-d1e6341"/>
+          <title>Cap 3</title>
+          <questionTitle> De illis quae emergunt in actionibus corporalibus</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6354">
+        <head>Tractatus 55</head>
+        <questionTitle>De iudicio</questionTitle>
+        <item id="sSsf3q-d1e6362">
+          <fileName filestem="sSsf3q-d1e6362"/>
+          <title>Cap 1</title>
+          <questionTitle> De iudiciis quae pertinent ad effusionem sanguinis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6373">
+          <fileName filestem="sSsf3q-d1e6373"/>
+          <title>Cap 2</title>
+          <questionTitle> De sacerdotibus qui benedicunt aquam et ferrum candens</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6384">
+          <fileName filestem="sSsf3q-d1e6384"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum praepositus peccet si mandato regis interficiat quem scit
+            innocentem</questionTitle>
+        </item>
+      </div>
+    </div>
+    <div id="sSsf3q-d1e6397" alias="sa-l4">
+      <head>Liber 4</head>
+      <div id="sSsf3q-d1e6402">
+        <head>Tractatus 1</head>
+        <questionTitle>De sacramentis in generali</questionTitle>
+        <item id="sSsf3q-d1e6410">
+          <fileName filestem="sSsf3q-d1e6410"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit sacramentum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6421">
+          <fileName filestem="sSsf3q-d1e6421"/>
+          <title>Cap 2</title>
+          <questionTitle> De causis institutionis sacramentorum </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6432">
+          <fileName filestem="sSsf3q-d1e6432"/>
+          <title>Cap 3</title>
+          <questionTitle> De tempore sacramentorum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6444">
+        <head>Tractatus 2</head>
+        <questionTitle>De sacramentis veteris legis</questionTitle>
+        <item id="sSsf3q-d1e6452">
+          <fileName filestem="sSsf3q-d1e6452"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum sacramenta veteris legis iustificarent</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6463">
+          <fileName filestem="sSsf3q-d1e6463"/>
+          <title>Cap 2</title>
+          <questionTitle> De honore veteris legis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6474">
+          <fileName filestem="sSsf3q-d1e6474"/>
+          <title>Cap 3</title>
+          <questionTitle> De numero sacramentorum veteris legis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6486">
+          <fileName filestem="sSsf3q-d1e6486"/>
+          <title>Cap 4</title>
+          <questionTitle> De quibusdam sacramentis quae adhu retinet ecclesia </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6497">
+          <fileName filestem="sSsf3q-d1e6497"/>
+          <title>Cap 5</title>
+          <questionTitle> De circumcisione et primo de eius institutione</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6509">
+        <head>Tractatus 3</head>
+        <questionTitle>De superadditionibus quas fecit Dominus in evangelio</questionTitle>
+        <item id="sSsf3q-d1e6517">
+          <fileName filestem="sSsf3q-d1e6517"/>
+          <title>Cap 1</title>
+          <questionTitle> Qualiter sit verum quod dicit Dominus in evangelio</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6528">
+          <fileName filestem="sSsf3q-d1e6528"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum Dominus addidit aliqua legi in evangelio</questionTitle>
+        </item>
+      </div>
+      <item id="sSsf3q-d1e6540">
+        <fileName filestem="sSsf3q-d1e6540"/>
+        <title>Tractatus 4</title>
+        <questionTitle>De sacramentis novae legis</questionTitle>
+      </item>
+      <div id="sSsf3q-d1e6552">
+        <head>Tractatus 5</head>
+        <questionTitle>De baptismo, qui est sacramentum intrantium</questionTitle>
+        <item id="sSsf3q-d1e6560">
+          <fileName filestem="sSsf3q-d1e6560"/>
+          <title>Cap 1</title>
+          <questionTitle> De baptismo Iohannis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6571">
+          <fileName filestem="sSsf3q-d1e6571"/>
+          <title>Cap 2</title>
+          <questionTitle> De baptismo Christi </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6582">
+          <fileName filestem="sSsf3q-d1e6582"/>
+          <title>Cap 3</title>
+          <questionTitle> De forma baptismi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6594">
+          <fileName filestem="sSsf3q-d1e6594"/>
+          <title>Cap 4</title>
+          <questionTitle> De baptismo parvulorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6605">
+          <fileName filestem="sSsf3q-d1e6605"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum haeretici conferant verum baptisma</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6616">
+          <fileName filestem="sSsf3q-d1e6616"/>
+          <title>Cap 6</title>
+          <questionTitle> De unico baptismo</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6628">
+        <head>Tractatus 6</head>
+        <questionTitle>De sacramento confirmationis</questionTitle>
+        <item id="sSsf3q-d1e6636">
+          <fileName filestem="sSsf3q-d1e6636"/>
+          <title>Cap 1</title>
+          <questionTitle> De essentia confirmationis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6647">
+          <fileName filestem="sSsf3q-d1e6647"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum in confirmatione imprimatur caracter </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6658">
+          <fileName filestem="sSsf3q-d1e6658"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum minores sacerdotes possint dare sacramentum confirmationis
+          </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6670">
+          <fileName filestem="sSsf3q-d1e6670"/>
+          <title>Cap 4</title>
+          <questionTitle> Si detur confirmatio non baptizato, utrum prosit ei</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6682">
+        <head>Tractatus 7</head>
+        <questionTitle>De sacramento eucharistiae</questionTitle>
+        <item id="sSsf3q-d1e6690">
+          <fileName filestem="sSsf3q-d1e6690"/>
+          <title>Cap 1</title>
+          <questionTitle> De causa institutionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6701">
+          <fileName filestem="sSsf3q-d1e6701"/>
+          <title>Cap 2</title>
+          <questionTitle> De mutatione panis in corpus Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6712">
+          <fileName filestem="sSsf3q-d1e6712"/>
+          <title>Cap 3</title>
+          <questionTitle> De modo sumendi sive manducandi corpus Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6724">
+          <fileName filestem="sSsf3q-d1e6724"/>
+          <title>Cap 4</title>
+          <questionTitle> Quomodo Christus sumpsit corpus suum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6735">
+          <fileName filestem="sSsf3q-d1e6735"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum corpus Christi sumptum cum magna quantitate satiet
+            corporaliter</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6746">
+          <fileName filestem="sSsf3q-d1e6746"/>
+          <title>Cap 6</title>
+          <questionTitle> De forma sub qua est corpus Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6757">
+          <fileName filestem="sSsf3q-d1e6757"/>
+          <title>Cap 7</title>
+          <questionTitle> De diversitate accipientium corpus Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6768">
+          <fileName filestem="sSsf3q-d1e6768"/>
+          <title>Cap 8</title>
+          <questionTitle> De discordia quae est inter Graecos et Latinos in confectione
+            eucharistiae</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6780">
+        <head>Tractatus 8</head>
+        <questionTitle>De sacramento poenitentiae: De poenitentia in generali</questionTitle>
+        <item id="sSsf3q-d1e6788">
+          <fileName filestem="sSsf3q-d1e6788"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit poenitentia et an sit unum sacramentum an plura</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6799">
+          <fileName filestem="sSsf3q-d1e6799"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum confessio, contritio et satisfactio sint partes integrales
+            poenitentiae an subiectivae</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6810">
+          <fileName filestem="sSsf3q-d1e6810"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum poenitentia sit virtus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6822">
+          <fileName filestem="sSsf3q-d1e6822"/>
+          <title>Cap 4</title>
+          <questionTitle> Quam efficaciam habet poenitentia in remissionem
+            peccatorum</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6833">
+          <fileName filestem="sSsf3q-d1e6833"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum poenitentia qua homo punitur post confessionem peccati sit de
+            iustitia Dei</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6844">
+          <fileName filestem="sSsf3q-d1e6844"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum poenitentia sit iteranda</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6856">
+        <head>Tractatus 9</head>
+        <questionTitle>De partibus poenitentiae et primo de contritione</questionTitle>
+        <item id="sSsf3q-d1e6864">
+          <fileName filestem="sSsf3q-d1e6864"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit contritio</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6875">
+          <fileName filestem="sSsf3q-d1e6875"/>
+          <title>Cap 2</title>
+          <questionTitle> Quid sit contritio et cuius virtutis sit motus</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6886">
+          <fileName filestem="sSsf3q-d1e6886"/>
+          <title>Cap 3</title>
+          <questionTitle> De effectu contritionis </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6898">
+          <fileName filestem="sSsf3q-d1e6898"/>
+          <title>Cap 4</title>
+          <questionTitle> De quantitate contritionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6909">
+          <fileName filestem="sSsf3q-d1e6909"/>
+          <title>Cap 5</title>
+          <questionTitle> De continuatione contritionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6920">
+          <fileName filestem="sSsf3q-d1e6920"/>
+          <title>Cap 6</title>
+          <questionTitle> Utrum motus contritionis sit successivus</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6932">
+        <head>Tractatus 10</head>
+        <questionTitle>De confessione</questionTitle>
+        <item id="sSsf3q-d1e6940">
+          <fileName filestem="sSsf3q-d1e6940"/>
+          <title>Cap 1</title>
+          <questionTitle> </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6951">
+          <fileName filestem="sSsf3q-d1e6951"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum teneamur confiteri ex caritate</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6962">
+          <fileName filestem="sSsf3q-d1e6962"/>
+          <title>Cap 3</title>
+          <questionTitle> De revelatione peccati</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6974">
+          <fileName filestem="sSsf3q-d1e6974"/>
+          <title>Cap 4</title>
+          <questionTitle> Quando possit aliquis differre confessionem</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e6985">
+          <fileName filestem="sSsf3q-d1e6985"/>
+          <title>Cap 5</title>
+          <questionTitle> Utrum teneamur confiteri venialia</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e6998">
+        <head>Tractatus 11</head>
+        <questionTitle>De operis satisfactione</questionTitle>
+        <item id="sSsf3q-d1e7006">
+          <fileName filestem="sSsf3q-d1e7006"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit satisfacere</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7017">
+          <fileName filestem="sSsf3q-d1e7017"/>
+          <title>Cap 2</title>
+          <questionTitle> De speciebus satisfactionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7028">
+          <fileName filestem="sSsf3q-d1e7028"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum poenitentia facta pro vivo valeat ei pro quo fit</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7040">
+          <fileName filestem="sSsf3q-d1e7040"/>
+          <title>Cap 4</title>
+          <questionTitle> De poenitentia maiori vel minori condigna</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7051">
+          <fileName filestem="sSsf3q-d1e7051"/>
+          <title>Cap 5</title>
+          <questionTitle> De sollempni poenitentia </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7062">
+          <fileName filestem="sSsf3q-d1e7062"/>
+          <title>Cap 6</title>
+          <questionTitle> De restitutione</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7074">
+        <head>Tractatus 12</head>
+        <questionTitle>Utrum ille qui patitur recidivum teneatur iterum agere
+          poenitentiam</questionTitle>
+        <item id="sSsf3q-d1e7082">
+          <fileName filestem="sSsf3q-d1e7082"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum peccata redeant </questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7093">
+          <fileName filestem="sSsf3q-d1e7093"/>
+          <title>Cap 2</title>
+          <questionTitle> De ingratitudine</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7105">
+        <head>Tractatus 13</head>
+        <questionTitle>De sacramentis in generali</questionTitle>
+        <item id="sSsf3q-d1e7113">
+          <fileName filestem="sSsf3q-d1e7113"/>
+          <title>Cap 1</title>
+          <questionTitle> Utrum aliquis decedens cum fundamento portet secum lignum, fenum,
+            stipulam</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7124">
+          <fileName filestem="sSsf3q-d1e7124"/>
+          <title>Cap 2</title>
+          <questionTitle> Quid sit aedificare lignum, fenum, stipulam, etc</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7135">
+          <fileName filestem="sSsf3q-d1e7135"/>
+          <title>Cap 3</title>
+          <questionTitle> Qualiter intelligitur illa aedificatio secundum Ambrosium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7147">
+          <fileName filestem="sSsf3q-d1e7147"/>
+          <title>Cap 4</title>
+          <questionTitle> De igne purgatorio</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7159">
+        <head>Tractatus 14</head>
+        <questionTitle>De adiunctis poenitentiae</questionTitle>
+        <div id="sSsf3q-d1e7167">
+          <head>Pars 1</head>
+          <questionTitle>De clavibus</questionTitle>
+          <item id="sSsf3q-d1e7175">
+            <fileName filestem="sSsf3q-d1e7175"/>
+            <title>Cap 1</title>
+            <questionTitle> Quid sit clavis et quot sint claves</questionTitle>
+          </item>
+          <item id="sSsf3q-d1e7186">
+            <fileName filestem="sSsf3q-d1e7186"/>
+            <title>Cap 2</title>
+            <questionTitle> Qualiter intelligendus sit generalis usus clavium</questionTitle>
+          </item>
+          <item id="sSsf3q-d1e7197">
+            <fileName filestem="sSsf3q-d1e7197"/>
+            <title>Cap 3</title>
+            <questionTitle> Quae personae habeant claves</questionTitle>
+          </item>
+          <item id="sSsf3q-d1e7209">
+            <fileName filestem="sSsf3q-d1e7209"/>
+            <title>Cap 4</title>
+            <questionTitle> De excommunicatione</questionTitle>
+          </item>
+        </div>
+        <div id="sSsf3q-d1e7221">
+          <head>Pars 2</head>
+          <questionTitle>De relaxationibus quae fiunt per claves</questionTitle>
+          <item id="sSsf3q-d1e7229">
+            <fileName filestem="sSsf3q-d1e7229"/>
+            <title>Cap 1</title>
+            <questionTitle> Utrum tantum valeat relaxatio quantum ecclesia videtur promittere
+            </questionTitle>
+          </item>
+          <item id="sSsf3q-d1e7240">
+            <fileName filestem="sSsf3q-d1e7240"/>
+            <title>Cap 2</title>
+            <questionTitle> Utrum aequalis sit conditionis pauper et dives in huiusmodi
+              relaxationibus </questionTitle>
+          </item>
+        </div>
+      </div>
+      <div id="sSsf3q-d1e7253">
+        <head>Tractatus 15</head>
+        <questionTitle>De sacramento extremae unctionis</questionTitle>
+        <item id="sSsf3q-d1e7261">
+          <fileName filestem="sSsf3q-d1e7261"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit sacramentum extremae unctionis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7272">
+          <fileName filestem="sSsf3q-d1e7272"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum hoc sacramentum debeat iterari</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7284">
+        <head>Tractatus 16</head>
+        <questionTitle>De ordine</questionTitle>
+        <item id="sSsf3q-d1e7292">
+          <fileName filestem="sSsf3q-d1e7292"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit ordo et quot ordines</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7303">
+          <fileName filestem="sSsf3q-d1e7303"/>
+          <title>Cap 2</title>
+          <questionTitle> Utrum episcopatus et archiepiscopatus sint ordines</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7314">
+          <fileName filestem="sSsf3q-d1e7314"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum idem sit sacerdotium novae et veteris legis</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7326">
+          <fileName filestem="sSsf3q-d1e7326"/>
+          <title>Cap 4</title>
+          <questionTitle> Utrum haeretici vere ordinent aut non</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7337">
+          <fileName filestem="sSsf3q-d1e7337"/>
+          <title>Cap 5</title>
+          <questionTitle> De aetate ordinandorum</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7350">
+        <head>Tractatus 17</head>
+        <questionTitle>De matrimonio</questionTitle>
+        <item id="sSsf3q-d1e7358">
+          <fileName filestem="sSsf3q-d1e7358"/>
+          <title>Cap 1</title>
+          <questionTitle> Quid sit matrimonium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7369">
+          <fileName filestem="sSsf3q-d1e7369"/>
+          <title>Cap 2</title>
+          <questionTitle> De causis matrimonii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7380">
+          <fileName filestem="sSsf3q-d1e7380"/>
+          <title>Cap 3</title>
+          <questionTitle> Utrum matrimonium sit de iure naturali</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7392">
+          <fileName filestem="sSsf3q-d1e7392"/>
+          <title>Cap 4</title>
+          <questionTitle> De bonis matrimonii</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7403">
+          <fileName filestem="sSsf3q-d1e7403"/>
+          <title>Cap 5</title>
+          <questionTitle> De impedimentis matrimonii</questionTitle>
+        </item>
+      </div>
+      <div id="sSsf3q-d1e7415">
+        <head>Tractatus 18</head>
+        <questionTitle>De effectu sacramentorum, sive de resurrectione</questionTitle>
+        <item id="sSsf3q-d1e7423">
+          <fileName filestem="sSsf3q-d1e7423"/>
+          <title>Cap 1</title>
+          <questionTitle> De generali resurrectione</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7434">
+          <fileName filestem="sSsf3q-d1e7434"/>
+          <title>Cap 2</title>
+          <questionTitle> De resurrectione Christi</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7445">
+          <fileName filestem="sSsf3q-d1e7445"/>
+          <title>Cap 3</title>
+          <questionTitle> De dotibus resurgentium</questionTitle>
+        </item>
+        <item id="sSsf3q-d1e7457">
+          <fileName filestem="sSsf3q-d1e7457"/>
+          <title>Cap 4</title>
+          <questionTitle> De damnatione reproborum</questionTitle>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
