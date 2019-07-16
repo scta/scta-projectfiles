@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Augustine</authorName>
+    <commentaryName>De haeresibus</commentaryName>
+    <commentaryid>LrkScg</commentaryid>
+    <commentaryslug>LrkScg</commentaryslug>
+    <alias>AugustineDeHaeresibus</alias>
+    <authorUri>http://scta.info/resource/Augustine</authorUri>
+    <parentUri>http://scta.info/resource/LrkScg</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/LrkScg/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="LrkScg-J3vbQy" alias="LrkScg-prae">
+      <fileName filestem="LrkScg-J3vbQy"/>
+      <title>Praefatio</title>
+      <questionTitle/>
+      <hasWitnesses> </hasWitnesses>
+    </item>
+    <item id="LrkScg-tcc0kd" alias="LrkScg-l1">
+      <fileName filestem="LrkScg-tcc0kd"/>
+      <title>Liber 1</title>
+      <questionTitle/>
+      <hasWitnesses> </hasWitnesses>
+    </item>
+    <item id="LrkScg-CXrnnx" alias="LrkScg-epi">
+      <fileName filestem="LrkScg-CXrnnx"/>
+      <title>Epilogus</title>
+      <questionTitle/>
+      <hasWitnesses> </hasWitnesses>
+    </item>
+    <!-- also seems to be an appendix in PL; not sure what to do with that -->
+  </div>
+</listofFileNames>
