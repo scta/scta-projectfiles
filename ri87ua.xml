@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- NO MORE EDITS HERE!!!!! JW: July 26, 2019 THIS FILE HAS BEEN MOVED TO THE SCTA EDF Directory https://github.com/scta/scta-projectfiles/--><listofFileNames>
+  <header>
+    <authorName>Henricus de Oyta</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>ri87ua</commentaryid>
+    <commentaryslug>ri87ua</commentaryslug>
+    <alias>OytaQuaestiones</alias>
+    <authorUri>http://scta.info/resource/Oyta</authorUri>
+    <parentUri>http://scta.info/resource/ri87ua</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ri87ua/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="ri87ua-d1e67">
+      <fileName filestem="ri87ua-d1e67"/>
+      <title>Questio de Deo</title>
+      <questionTitle>Utrum tantum unum Deum esse sit evidenter naturali ratione
+        convincibile</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>50r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ri87ua-d1e87">
+      <fileName filestem="ri87ua-d1e87"/>
+      <title>Nota de Deo</title>
+      <questionTitle>Nota quod ille articulus 'tantum unus est Deus' est naturali ratione
+        investigabilis et determinabilis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>53v</folio>
+          <folio>54r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ri87ua-d1e110">
+      <fileName filestem="ri87ua-d1e110"/>
+      <title>Notae</title>
+      <questionTitle><supplied>Regule</supplied></questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>68av</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
