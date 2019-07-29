@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Stephanus de Entzendorf</authorName>
+    <commentaryName>Quaestiones</commentaryName>
+    <commentaryid>ru7y7y</commentaryid>
+    <commentaryslug>ru7y7y</commentaryslug>
+    <alias>EntzendorfQuaestiones</alias>
+    <authorUri>http://scta.info/resource/StephansuDeEntzendorf</authorUri>
+    <parentUri>http://scta.info/resource/ru7y7y</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ru7y7y/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="ru7y7y-d1e66">
+      <fileName filestem="ru7y7y-d1e66"/>
+      <title>Questio de latitudine creabilium specierum</title>
+      <questionTitle>Utrum in latitudine creabilium specierum sit dare summam citra
+        Deum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>1r</folio>
+          <folio>1v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
