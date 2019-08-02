@@ -4798,10 +4798,35 @@
         </item>
       </div>
     </div>
-    <div id="pl-liber3" type="liber">
-      <head>Liber III</head>
-      <div id="pl-l3d1" type="distinctio">
-        <head>DISTINCTIO I</head>
+    <div id="pl-liber3" type="liber3">
+      <head>Liber 3</head>
+      <item id="pl-l3prol" type="liber3-prologus">
+        <fileName filestem="pl-l3prol"/>
+        <title>Prologus</title>
+        <questionTitle/>
+      </item>
+      <div id="pl-l3d1" type="liber3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="pl-l3d1prae">
+          <fileName filestem="pl-l3d1prae"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#H">
+              <folio>97r</folio>
+            </witness>
+            <witness ref="#Vb"> <!-- vatlat 681 -->
+              <folio>170r</folio>
+            </witness>
+            <witness ref="#Vd"> <!-- vatlat 683 -->
+              <folio>92r</folio>
+              <folio>92v</folio>
+            </witness>
+            <witness ref="#Pd"> <!-- Parker -->
+              <folio>211v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
         <item id="pl-l3d1c1" type="capitulum">
           <fileName filestem="pl-l3d1c1">pl-l3d1c1.xml</fileName>
           <title>III, Dist. 1, Cap. 1.</title>
