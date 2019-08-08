@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Petrus Scad</authorName>
+    <commentaryName>Quaestiones</commentaryName>
+    <commentaryid>m3SbvW</commentaryid>
+    <commentaryslug>m3SbvW</commentaryslug>
+    <alias>ScadQuaestiones</alias>
+    <authorUri>http://scta.info/resource/PetrusScad</authorUri>
+    <parentUri>http://scta.info/resource/m3SbvW</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/m3SbvW/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+    <item id="m3SbvW-d1e69">
+      <fileName filestem="m3SbvW-d1e69"/>
+      <title>De personis divinis</title>
+      <questionTitle>Utrum eadem natura humana possit assumi a tribus personis divinis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>34r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Petrus de Walse</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>r11d3v</commentaryid>
+    <commentaryslug>r11d3v</commentaryslug>
+    <alias>WalseQuaestiones</alias>
+    <authorUri>http://scta.info/resource/PetrusDeWalse</authorUri>
+    <parentUri>http://scta.info/resource/r11d3v</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/r11d3v/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>BaselAX44</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+      <item id="r11d3v-d1e69">
+        <fileName filestem="r11d3v-d1e69"/>
+        <title>Questio de potentia creandi</title>
+        <questionTitle>Utrum potentia creandi sit communicabilis creature</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>7v</folio>
+            <folio>8r</folio>
+            <folio>8v</folio>
+            <folio>9r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="r11d3v-d1e98">
+        <fileName filestem="r11d3v-d1e98"/>
+        <title>De vi spirativa</title>
+        <questionTitle>Utrum eadem vis spirativa que est in Patre et Filio sit in Spiritu
+          Sancto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>23r</folio>
+            <folio>23v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="r11d3v-d1e121">
+        <fileName filestem="r11d3v-d1e121"/>
+        <title>De Deo</title>
+        <!-- linked to 18r -->
+        <questionTitle>Utrum Deus sit simpliciter conceptibilis et proprie
+          diffinibilis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+  </div>
+</listofFileNames>

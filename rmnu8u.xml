@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- NO MORE EDITS HERE!!!!! JW: August 8, 2019 THIS FILE HAS BEEN MOVED TO THE SCTA EDF Directory https://github.com/scta/scta-projectfiles/--><listofFileNames>
+  <header>
+    <authorName>Gerhardus Vischpekch de Osnabrück</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>rmnu8u</commentaryid>
+    <commentaryslug>rmnu8u</commentaryslug>
+    <alias>GerhardusQuaestiones</alias>
+    <authorUri>http://scta.info/resource/GerhardusVischpekchDeOsnabruck</authorUri>
+    <parentUri>http://scta.info/resource/rmnu8u</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/rmnu8u/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>BaselAX44</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+      <item id="rmnu8u-d1e70">
+        <fileName filestem="rmnu8u-d1e70"/>
+        <title>Questio de sacerdote</title>
+        <questionTitle>Utrum quilibet sacerdos possit subditum suum ab excommunicatione absolvere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>9r</folio>
+            <folio>9v</folio>
+            <folio>10r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+  </div>
+</listofFileNames>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- NO MORE EDITS HERE!!!!! JW: August 8, 2019 THIS FILE HAS BEEN MOVED TO THE SCTA EDF Directory https://github.com/scta/scta-projectfiles/--><listofFileNames>
+  <header>
+    <authorName>Petrus de Treisa</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>ri8u7d</commentaryid>
+    <commentaryslug>ri8u7d</commentaryslug>
+    <alias>TreisaQuaestiones</alias>
+    <authorUri>http://scta.info/resource/PetrusDeTreisa</authorUri>
+    <parentUri>http://scta.info/resource/ri8u7d</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/ri8u7d/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+    <item id="ri8u7d-d1e70">
+      <fileName filestem="ri8u7d-d1e70"/>
+      <title>Questio de anima</title>
+      <questionTitle>Utrum anime a corporibus separate cognoscant res in proprio
+        genere</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>11v</folio>
+          <folio>12r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Thomas de Clivis</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>rg77h7</commentaryid>
+    <commentaryslug>rg77h7</commentaryslug>
+    <alias>ClivisQuaestiones</alias>
+    <authorUri>http://scta.info/resource/ThomasDeClivis</authorUri>
+    <parentUri>http://scta.info/resource/rg77h7</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/rg77h7/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+    <item id="rg77h7-d1e69">
+      <fileName filestem="rg77h7-d1e69"/>
+      <title>Questio de salute humana</title>
+      <questionTitle>Utrum ad salutem humani generis requiritur caritas</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>51v</folio>
+          <folio>52r</folio>
+          <!-- new edits here: added the last two folio nrs -->
+          <folio>52v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

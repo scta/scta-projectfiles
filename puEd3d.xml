@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Michael</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>puEd3d</commentaryid>
+    <commentaryslug>puEd3d</commentaryslug>
+    <alias>MichaelQuaestiones</alias>
+    <authorUri>http://scta.info/resource/Michael</authorUri>
+    <parentUri>http://scta.info/resource/puEd3d</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/puEd3d/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+    <item id="puEd3d-d1e69">
+      <fileName filestem="puEd3d-d1e69"/>
+      <title>De libero arbitrio</title>
+      <!-- links to 20v, 34v; are these Michael's too, but unattributed? -->
+      <questionTitle>Utrum liberum arbitrium se eque habeat ad bonum et ad malum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>128v</folio>
+          <folio>129r</folio>
+          <folio>129v</folio>
+          <folio>130r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

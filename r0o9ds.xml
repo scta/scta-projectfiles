@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Paulus de Gelria</authorName>
+    <commentaryName>Variae</commentaryName>
+    <commentaryid>r0o9ds</commentaryid>
+    <commentaryslug>r0o9ds</commentaryslug>
+    <alias>GelriaVariae</alias>
+    <authorUri>http://scta.info/resource/PaulusDeGelria</authorUri>
+    <parentUri>http://scta.info/resource/r0o9ds</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/r0o9ds/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Variae</head>
+    <item id="r0o9ds-d1e69">
+      <fileName filestem="r0o9ds-d1e69"/>
+      <title>Questio de oblatione eukaristie</title>
+      <questionTitle>Utrum oblatio eukaristie sit opus maximi valoris inter sacramenta
+        ecclesie</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>3v</folio>
+          <folio>4r</folio>
+          <folio>4v</folio>
+          <folio>5r</folio>
+          <folio>13r</folio>
+          <folio>13v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e105">
+      <fileName filestem="r0o9ds-d1e105"/>
+      <title>Nota quedam ex dictis magistri Pauli</title>
+      <questionTitle>Quamvis foret sustinebile lucem gentium Dei sapientiam posse esse creature
+        rationali beatitudinem formaliter</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>10r</folio>
+          <folio>10v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e128">
+      <fileName filestem="r0o9ds-d1e128"/>
+      <title>Nota quod univoce aliquid personaliter de Deo et creaturis</title>
+      <questionTitle>Quantumcumque res sint diversimode cognoscentes non propter hoc ly sapientia
+        vel esse sapiens dicitur de eis equivoce, sed univoce</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>10v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e148">
+      <fileName filestem="r0o9ds-d1e148"/>
+      <title>Nota ex secundo articulo questionis in sexterno et in cedula</title>
+      <!-- this may be a continuation of another question from somewhere later in the ms, so not sure if I should add it here under Paulus' items -->
+      <!-- It is Paul because these are all notes tucked under the broader title 'nota quedam ex dicta m. Pauli' -->
+      <questionTitle>Divina sapientia omnia factibilia secundum omnes perfectiones et modos essendi
+        seu positive habendi eis possibiles in se ab eterno imitabiliter exemplavit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>10v</folio>
+          <folio>10ar</folio>
+          <!-- I've added this line, but the reason i wrote it like that is that it's on a cedula.The text from 10v continued on that smaller piece of paper -->
+          <!-- Yes, that's correct -->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e181">
+      <fileName filestem="r0o9ds-d1e181"/>
+      <title>Nota de nihilo</title>
+      <!-- Is it Paul's? -->
+      <!-- yep -->
+      <questionTitle>Aliquid produci ex nihilo sine subiecto presupposito nullam repugnantiam
+        includit in effectu producto</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>11r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e206">
+      <fileName filestem="r0o9ds-d1e206"/>
+      <title>Nota de anima humana</title>
+      <questionTitle>Nota quod anime humane nobilitas ex hoc nobis innotescit quod cognoscitur esse
+        intellectiva quam quod cognoscitur esse volitiva</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>11v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- new edits lines 105-107 -->
+    <item id="r0o9ds-d1e228">
+      <fileName filestem="r0o9ds-d1e228"/>
+      <title>Notae</title>
+      <questionTitle>Quamvis sola lux gentium Christus homines viatores in administratione
+        sacramentorum iustificet auctoritative et principaliter, communicari tamen potest homini
+        puro ut hoc idem faciat regulario et ministerialiter</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>12r</folio>
+          <folio>12v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- new edits: added the 2 items below -->
+    <item id="r0o9ds-d1e253">
+      <fileName filestem="r0o9ds-d1e253"/>
+      <title>Notae</title>
+      <questionTitle>Omnis quantitas perfectionis essentialis creature potest a nobis penes hoc
+        mensurari per quod nobis innotescere potest gradus sibi essentialiter conveniens in ordine
+        universi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>12v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="r0o9ds-d1e274">
+      <fileName filestem="r0o9ds-d1e274"/>
+      <title>Nota ex dictis magistri Iohanni Buridan</title>
+      <questionTitle>Magister Iohannes Buridan in questione finali circa 10
+        Ethicorum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>12v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

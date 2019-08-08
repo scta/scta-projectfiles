@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Nicolas de Anaskilch</authorName>
+    <commentaryName>Questiones</commentaryName>
+    <commentaryid>rpo0od</commentaryid>
+    <commentaryslug>rpo0od</commentaryslug>
+    <alias>NicolasAnaskilchQuaestiones</alias>
+    <authorUri>http://scta.info/resource/NicolasDeAnaskilch</authorUri>
+    <parentUri>http://scta.info/resource/rpo0od</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/rpo0od/</textfilesdir>
+    <questionListSource>UB Basel, A X 44</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Luciana Cioca</questionListEncoder>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="B">
+        <slug>cod-qzi78h</slug>
+        <title>Basel A X 44</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestiones</head>
+    <item id="rpo0od-d1e69">
+      <fileName filestem="rpo0od-d1e69"/>
+      <title>Questio de cogitationes</title>
+      <questionTitle>Utrum spiritus angelici cogitationes hominum possint intueri</questionTitle>
+      <hasWitnesses>
+        <witness ref="#B">
+          <folio>5r</folio>
+          <folio>5v</folio>
+          <folio>6r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
