@@ -6,9 +6,13 @@ require "pry"
 require "fileutils"
 
 projectfile = ARGV[0]
-#destination_base = "/Users/jcwitt/Desktop/test/"
-destination_base = ARGV[1]
-doc = Nokogiri::XML(open(projectfile))
+projectfile_base = "/Users/jcwitt/Projects/scta/scta-projectfiles/"
+#destination_base = "/Users/jcwitt/Projects/scta/scta-texts/"
+destination_base = "/Users/jcwitt/Desktop/"
+destination = destination_base + projectfile
+
+file = projectfile_base + projectfile + ".xml"
+doc = Nokogiri::XML(open(file))
 items = doc.xpath("//item")
 
 items.each do |item|
@@ -17,11 +21,11 @@ items.each do |item|
   if item.attributes["alias"]
     idalias = item.attributes["alias"].value
     puts "alias: #{idalias}"
-    FileUtils.mkdir_p "#{destination_base}/#{id}/"
-    FileUtils.touch "#{destination_base}/#{id}/readme.md"
-    FileUtils.mkdir_p "#{destination_base}/symlinks/"
-    if !File.exist? "#{destination_base}/symlinks/#{idalias}"
-      FileUtils.ln_s "../#{id}", "#{destination_base}/symlinks/#{idalias}"
+    FileUtils.mkdir_p "#{destination}/#{id}/"
+    FileUtils.touch "#{destination}/#{id}/readme.md"
+    FileUtils.mkdir_p "#{destination}/symlinks/"
+    if !File.exist? "#{destination}/symlinks/#{idalias}"
+      FileUtils.ln_s "../#{id}", "#{destination}/symlinks/#{idalias}"
     end
   end
 end

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Fulda Sacramentary</commentaryName>
+    <commentaryid>kju7yg</commentaryid>
+    <commentaryslug>kju7yg</commentaryslug>
+    <alias>FuldaSacramentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/wN2gEA</parentUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wN2gEA/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-fy37hf">
+        <slug>cod-fy37hf</slug>
+        <title>CLM 10077</title>
+        <initial>cod-fy37hf</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Fulda Sacramentary</head>
+    <item id="kju7yg-d1e65" alias="kju7yg-o1">
+      <fileName filestem="kju7yg-d1e65"/>
+      <title>Oratio 1</title>
+      <questionTitle>Exoratio sacerdotis ad vota plebis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <folio>10v</folio>
+          <folio>11r</folio>
+          <folio>11v</folio>
+          <folio>12r</folio>
+          <folio>12v</folio>
+          <folio>13r</folio>
+          <folio>13v</folio>
+          <folio>14r</folio>
+          <folio>14v</folio>
+          <folio>15r</folio>
+          <folio>15v</folio>
+          <folio>16r</folio>
+          <folio>16v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e123" alias="kju7yg-o2">
+      <fileName filestem="kju7yg-d1e123"/>
+      <title>Oratio 2</title>
+      <questionTitle>Oratio pro ebdomadario refectorii lectore</questionTitle>
+      <hasWitnesses>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e137" alias="kju7yg-o3">
+      <fileName filestem="kju7yg-d1e137"/>
+      <title>Oratio 3</title>
+      <questionTitle>Statio ad sanctam Mariam</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <folio>19r</folio>
+          <folio>19v</folio>
+          <folio>20r</folio>
+          <folio>20v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
