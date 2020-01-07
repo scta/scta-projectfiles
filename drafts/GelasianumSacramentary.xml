@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Gelasianum Sacramentary</commentaryName>
+    <commentaryid>gvn38u</commentaryid>
+    <commentaryslug>gvn38u</commentaryslug>
+    <alias>GelasianumSacramentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/gvn38u</parentUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/gvn38u/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-xxyx5x">
+        <slug>cod-xxyx5x</slug>
+        <title>Reg lat 316</title>
+        <initial>cod-xxyx5x</initial>
+        <!-- https://digi.vatlib.it/view/MSS_Reg.lat.316 -->
+      </witness>
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Gelasianum Sacramentary</head>
+    <div id="gvn38u-d1e67">
+      <head>Sacramentale</head>
+    <item id="gvn38u-d1e72">
+      <fileName filestem="gvn38u-d1e72"/>
+      <title>Canon missae</title> <!--isRelatedTo REAL CanonMissae --> 
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-xxyx5x">
+          <!--
+            <folio>179v</folio>
+            <folio>180r</folio>
+            <folio>180v</folio>
+            <folio>181r</folio>
+            <folio>181v</folio>
+            <folio>182r</folio>
+            <folio>182v</folio>
+          -->
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
+    <div id="gvn38u-d1e93">
+      <head>Temporale</head>
+    </div>
+    <div id="gvn38u-d1e99">
+      <head>Missae votivae</head>
+    <!-- more inbetween -->
+    <item id="gvn38u-d1e106">
+      <fileName filestem="gvn38u-d1e106"/>
+      <title>Missa pro regibus</title> <!--isRelatedTo REAL CanonMissae --> 
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-xxyx5x">
+          <!--
+            <folio>214r</folio>
+            <folio>214v</folio>
+          -->
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
+  </div>
+</listofFileNames>

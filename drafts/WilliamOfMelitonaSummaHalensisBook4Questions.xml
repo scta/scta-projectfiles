@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>William of Melitona</authorName>
+    <commentaryName>Liber 4 Summae Halensis</commentaryName>
+    <commentaryid>v78d89</commentaryid>
+    <commentaryslug>v78d89</commentaryslug>
+    <alias>WillamOfMelitonaLiber4SummaeHalensis</alias>
+    <authorUri>http://scta.info/resource/WilliamOfMelitona</authorUri>
+    <parentUri>http://scta.info/resource/v78d89</parentUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/v78d89/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-Nuf2f2"><!-- not yet created -->
+        <slug>cod-Nuf2f2</slug>
+        <title>Nuremberg </title>
+        <initial>cod-Nuf2f2</initial>
+        <!--https://archive.org/details/A336115/page/n11-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Liber 4 Summae Halensis</head>
+    <div alias="v78d89-q1">
+      <head>Quaestio 1</head>
+      <questionTitle>De sacramentis in genere</questionTitle>
+      <item alias="v78d89-q1m1">
+        <fileName/>
+        <title>Membrum 1</title>
+        <questionTitle>De quidditate sacramenti</questionTitle>
+      </item>
+      <item alias="v78d89-q1m2">
+        <fileName/>
+        <title>Membrum 2</title>
+        <questionTitle>Quae sit necessitas sacramentorum</questionTitle>
+        <!-- has three articles -->
+      </item>
+      <item alias="v78d89-q1m3">
+        <fileName/>
+        <title>Membrum 3</title>
+        <questionTitle>De sacramentorum institutione</questionTitle>
+        <!-- four articles-->
+      </item>
+      <item alias="v78d89-q1m4">
+        <fileName/>
+        <title>Membrum 4</title>
+        <questionTitle>In quibus consistant sacramenta et de sacramentorum differentia</questionTitle>
+      </item>
+      <item alias="v78d89-q1m5">
+        <fileName/>
+        <title>Membrum 5</title>
+        <questionTitle>Utrum sint alicuius virtutis specialiter</questionTitle>
+        <!-- two articles -->
+      </item>
+      <item alias="v78d89-q1m6">
+        <fileName/>
+        <title>Membrum 6</title>
+        <questionTitle>De duratione eorum tantum debuit esse usque ad Christum vel ad Christi passionem</questionTitle>
+      </item>
+      <item alias="v78d89-q1m7">
+        <fileName/>
+        <title>Membrum 7</title>
+        <questionTitle>De effectu sacramentorum</questionTitle>
+      </item>
+    </div>
+    <!-- left off https://archive.org/details/A336115/page/n11-->
+    <!--114 questions in total 
+    consistent structure of 
+    -question 
+      -member
+        - (optionl) article 
+    -->
+  </div>
+</listofFileNames>
