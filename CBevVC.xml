@@ -14,7 +14,13 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <!--Venice 1570 Version https://books.google.com/books?id=ArNRAAAAcAAJ -->
+      <witness id="cod-vnhQWE"> <!-- not yet created -->
+        <slug>cod-vnhQWE</slug>
+        <title>Venice 1570</title>
+        <initial>cod-vnhQWE</initial>
+        <!--Venice 1570 Version https://books.google.com/books?id=ArNRAAAAcAAJ -->
+      </witness>
+      
       <!--Lyon 1519 seems to be a high quality version reprinted in 20th c -->
       <!-- see here for list of Lyon1519 folio breaks http://www.canonlaw.info/canonlaw_IUSGOTTO.htm -->
       <!-- manuscript: 
@@ -34,6 +40,9 @@
         <fileName filestem="CBevVC-d1e60"/>
         <title>Titulus 1</title>
         <questionTitle>De summa trinitate et fide catholica</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-vnhQWE"/>
+        </hasWitnesses>
       </item>
       <item id="CBevVC-d1e71" alias="CBevVC-l1t2" type="decretales-l1t2">
         <fileName filestem="CBevVC-d1e71"/>
