@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Missale Francorum Sacramentary</commentaryName>
+    <commentaryid>vYYSTs</commentaryid>
+    <commentaryslug>vYYSTs</commentaryslug>
+    <alias>MissaleFrancorumSacramentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/vYYSTs</parentUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vYYSTs/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-OpOpOp"> <!-- not yet created -->
+        <slug>cod-OpOpOp</slug>
+        <title>Reg lat 257</title>
+        <initial>cod-OpOpOp</initial>
+        <!-- https://digi.vatlib.it/view/MSS_Reg.lat.257 -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <item id="vYYSTs-d1e72">
+      <fileName filestem="vYYSTs-d1e72"/>
+      <title>Canon missae</title> <!--isRelatedTo REAL CanonMissae --> 
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-OpOpOp">
+          <!--
+          <folio>179v</folio>
+          <folio>180r</folio>
+          <folio>180v</folio>
+          <folio>181r</folio>
+          <folio>181v</folio>
+          <folio>182r</folio>
+          <folio>182v</folio>
+        -->
+          <!-- te igitur, 140v to 141v -->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- more inbetween -->
+    <item id="vYYSTs-d1e106">
+      <fileName filestem="vYYSTs-d1e106"/>
+      <title>Missa pro regibus</title> <!--isRelatedTo REAL CanonMissae --> 
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-OpOpOp">
+          <!--- ??? -->
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
