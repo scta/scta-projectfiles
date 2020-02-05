@@ -45,25 +45,182 @@
         </witness>
       </hasWitnesses>
     </item>
-    <item id="kju7yg-d1e123" alias="kju7yg-o2">
+    <item id="kju7yg-d1e123">
       <fileName filestem="kju7yg-d1e123"/>
       <title>Oratio 2</title>
       <questionTitle>Oratio pro ebdomadario refectorii lectore</questionTitle>
       <hasWitnesses>
+        <!-- not in CLM 10077 -->
       </hasWitnesses>
     </item>
-    <item id="kju7yg-d1e137" alias="kju7yg-o3">
+    <item id="kju7yg-d1e137" alias="kju7yg-o3" type="lit-temporale">
       <fileName filestem="kju7yg-d1e137"/>
       <title>Oratio 3</title>
-      <questionTitle>Statio ad sanctam Mariam</questionTitle>
+      <questionTitle>VIIII Kl. Ian. In Vigilia Nativitatis Domini</questionTitle>
+      <!-- Statio ad sanctam Mariam -->
+      <!-- incipit "Deus qui nos redemptionis" -->
       <hasWitnesses>
         <witness ref="#cod-fy37hf">
+          <!-- 41-43-->
           <folio>19r</folio>
           <folio>19v</folio>
           <folio>20r</folio>
-          <folio>20v</folio>
         </witness>
       </hasWitnesses>
     </item>
+    <item id="kju7yg-d1e173" alias="kju7yg-o4" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e173"/>
+      <title>Oratio 4</title>
+      <questionTitle>VIII Kl. Ian. In Vigilia Nativitatis Domini Primo Galli Cantu</questionTitle>
+      <!-- ad sanctam mariam -->
+      <!-- incipit: "Deus qui hanc -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 43-45-->
+          
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e198" alias="kju7yg-o5" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e198"/>
+      <title>Oratio 5</title>
+      <questionTitle>Mane primo</questionTitle>
+      <!-- statio ad sanctam Anastasiam -->
+      <!-- incipit: "De quaesumus omnipotens deus ut qui nova -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 44(21v)-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e222" alias="kju7yg-o6" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e222"/>
+      <title>Oratio 6</title>
+      <questionTitle>In die ad missam</questionTitle>
+      <!-- statio ad sanctum petrum-->
+      <!-- incipit: "Concede quaesumus -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 45(21r)-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e246" alias="kju7yg-o7" type="lit-sanctorale">
+      <fileName filestem="kju7yg-d1e246"/>
+      <title>Oratio 7</title>
+      <questionTitle>VII. Kl. Ian. Nativitas Sancti Stephani</questionTitle>
+      <!-- incipit: "da nobis quaesumus domine imitare quod  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 48/22r-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e267" alias="kju7yg-o8" type="lit-sanctorale">
+      <fileName filestem="kju7yg-d1e267"/>
+      <title>Oratio 8</title>
+      <questionTitle>VI. Kl. Ian. Nativitas Sancti Iohannis Evangelistae</questionTitle>
+      <!-- incipit: "Aecclesiam tuam domine benignus  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 50-52/23v-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e288" alias="kju7yg-o9" type="lit-sanctorale">
+      <fileName filestem="kju7yg-d1e288"/>
+      <title>Oratio 9</title>
+      <questionTitle>V. Kl. Ian. Nativitas Sanctorum Innocentum</questionTitle>
+      <!-- incipit: "Deus, cuius hodierna die praeconium innocentes  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 52/24v-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- seems like there is another formual here at p. 54, "dominica prima post natale domini..." -->
+    <item id="kju7yg-d1e312" alias="kju7yg-o10" type="lit-sanctorale">
+      <fileName filestem="kju7yg-d1e312"/>
+      <title>Oratio 10</title>
+      <questionTitle>II. Kl. Ian. Nativitas Sancti Silvestri Papae</questionTitle>
+      <!-- incipit: "Da quaesumus omnipotens deus, ut beati Silvestri  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 55-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e333" alias="kju7yg-o11" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e333"/>
+      <title>Oratio 11</title>
+      <questionTitle>Kl. Ian. Octab. Domini</questionTitle>
+      <!-- incipit: "deus qui nobis nati salvatoris diem"  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 55-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!--
+      doesn't seem present in CLM 10077
+      
+      <item alias="kju7yg-o12" type="lit-sanctorale">
+      <fileName/>
+      <title>Oratio 12</title>
+      <questionTitle>Non. Ian. Nativitas sanctae Genouuefe Virginis </questionTitle>
+      <!-\- incipit: "Beatae Genouefae natalicia veneranda"  -\->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-\- 55-\->
+        </witness>
+      </hasWitnesses>
+    </item>-->
+    <item id="kju7yg-d1e356" alias="kju7yg-o12" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e356"/>
+      <title>Oratio 12</title>
+      <questionTitle>Non. Ian. Vigilia Epiphaniae</questionTitle>
+      <!-- incipit: "Corda nostra quaesumus..."  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 58-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-d1e377" alias="kju7yg-o14" type="lit-temporale">
+      <fileName filestem="kju7yg-d1e377"/>
+      <title>Oratio 14</title>
+      <questionTitle>VIII. Id. Ian. Epiphania Domini Nostri Iesu Christi</questionTitle>
+      <!-- incipit: "Deus qui hodierna..."  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 58-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!--- many more here --> 
+    <item id="kju7yg-e1e401" alias="kju7yg-o14" type="lit-votive-masses">
+      <fileName filestem="kju7yg-e1e401"/>
+      <title>Oratio 341</title>
+      <questionTitle>Missa pro regibus</questionTitle>
+      <!-- incipit: "Deus regnorum omnium..."  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 355 or folio 183r-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="kju7yg-e1e422" alias="kju7yg-o342" type="lit-votive-masses">
+      <fileName filestem="kju7yg-e1e422"/>
+      <title>Oratio 342</title>
+      <questionTitle>Orationes in tempore belli</questionTitle>
+      <!-- incipit: "Deus regnorum omnium..."  -->
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <!-- 356 or folio 183v-->
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- prayer number 237 on page 313 -->
+    <!-- prayer 313 on page 351 --> 
   </div>
 </listofFileNames>
