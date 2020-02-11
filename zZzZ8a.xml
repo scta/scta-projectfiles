@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Gregorian Sacramentary</commentaryName>
+    <!---  is this different from Gregorian-Hadrian Sacramentary? 
+      See https://en.wikipedia.org/wiki/Sacramentary#The_Gregorian_Sacramentary 
+    -->
+    <commentaryid>zZzZ8a</commentaryid>
+    <commentaryslug>zZzZ8a</commentaryslug>
+    <alias>GregorianSacramentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/zZzZ8a</parentUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/zZzZ8a/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-zZOoHh"> <!-- not yet created -->
+        <slug>cod-zZOoHh</slug>
+        <title>Paris, BnF, Latin 1141</title>
+        <initial>cod-zZOoHh</initial>
+        <!-- https://gallica.bnf.fr/ark:/12148/btv1b53019391x 
+        https://gallica.bnf.fr/iiif/ark:/12148/btv1b53019391x/manifest.json
+        -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Gregorian Sacramentary</head>
+    <item id="zZzZ8a-d1e72" type="lit-canon-missae">
+      <fileName filestem="zZzZ8a-d1e72"/>
+      <title>Canon missae</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-zZOoHh">
+          <!-- te igitur, 6v-7r -->
+          <!-- ms date from bnf manifest: "label": "Date", "value": "0869-0870 -->
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
