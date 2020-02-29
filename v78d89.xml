@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>William of Melitona</authorName>
     <commentaryName>Liber 4 Summae Halensis</commentaryName>
@@ -16,7 +14,7 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <witness id="cod-Nuf2f2"><!-- not yet created -->
+      <witness id="cod-Nuf2f2">
         <slug>cod-Nuf2f2</slug>
         <title>Nuremberg 1482 </title>
         <initial>cod-Nuf2f2</initial>
@@ -26,261 +24,317 @@
   </header>
   <div id="body">
     <head>Liber 4 Summae Halensis</head>
-    <div alias="v78d89-q1">
+    <div id="v78d89-d1e69" alias="v78d89-q1">
       <head>Quaestio 1</head>
       <questionTitle>De sacramentis in genere</questionTitle>
-      <item alias="v78d89-q1m1">
-        <fileName/>
+      <item id="v78d89-d1e77" alias="v78d89-q1m1">
+        <fileName filestem="v78d89-d1e77"/>
         <title>Membrum 1</title>
         <questionTitle>De quidditate sacramenti</questionTitle>
       </item>
-      <item alias="v78d89-q1m2">
-        <fileName/>
+      <item id="v78d89-d1e88" alias="v78d89-q1m2">
+        <fileName filestem="v78d89-d1e88"/>
         <title>Membrum 2</title>
         <questionTitle>Quae sit necessitas sacramentorum</questionTitle>
         <!-- has three articles -->
       </item>
-      <item alias="v78d89-q1m3">
-        <fileName/>
+      <item id="v78d89-d1e101" alias="v78d89-q1m3">
+        <fileName filestem="v78d89-d1e101"/>
         <title>Membrum 3</title>
         <questionTitle>De sacramentorum institutione</questionTitle>
         <!-- four articles-->
       </item>
-      <item alias="v78d89-q1m4">
-        <fileName/>
+      <item id="v78d89-d1e115" alias="v78d89-q1m4">
+        <fileName filestem="v78d89-d1e115"/>
         <title>Membrum 4</title>
         <questionTitle>In quibus consistant sacramenta et de sacramentorum differentia</questionTitle>
       </item>
-      <item alias="v78d89-q1m5">
-        <fileName/>
+      <item id="v78d89-d1e126" alias="v78d89-q1m5">
+        <fileName filestem="v78d89-d1e126"/>
         <title>Membrum 5</title>
         <questionTitle>Utrum sint alicuius virtutis specialiter</questionTitle>
         <!-- two articles -->
       </item>
-      <item alias="v78d89-q1m6">
-        <fileName/>
+      <item id="v78d89-d1e139" alias="v78d89-q1m6">
+        <fileName filestem="v78d89-d1e139"/>
         <title>Membrum 6</title>
         <questionTitle>De duratione eorum tantum debuit esse usque ad Christum vel ad Christi passionem</questionTitle>
       </item>
-      <item alias="v78d89-q1m7">
-        <fileName/>
+      <item id="v78d89-d1e150" alias="v78d89-q1m7">
+        <fileName filestem="v78d89-d1e150"/>
         <title>Membrum 7</title>
         <questionTitle>De effectu sacramentorum</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q2">
+    <div id="v78d89-d1e162" alias="v78d89-q2">
       <head>Quaestio 2</head>
       <questionTitle>De sacramentis tempore legis naturae</questionTitle>
-      <item alias="v78d89-q2m1">
-        <fileName/>
+      <item id="v78d89-d1e170" alias="v78d89-q2m1">
+        <fileName filestem="v78d89-d1e170"/>
         <title>Membrum 1</title>
         <questionTitle>De numero sacramentorum</questionTitle>
       </item>
-      <item alias="v78d89-q2m2">
-        <fileName/>
+      <item id="v78d89-d1e181" alias="v78d89-q2m2">
+        <fileName filestem="v78d89-d1e181"/>
         <title>Membrum 2</title>
         <questionTitle>De matrimonio</questionTitle>
       </item>
-      <item alias="v78d89-q2m3">
-        <fileName/>
+      <item id="v78d89-d1e192" alias="v78d89-q2m3">
+        <fileName filestem="v78d89-d1e192"/>
         <title>Membrum 3</title>
         <questionTitle>De sacramento poenitentiae tempore legis naturae</questionTitle>
       </item>
-      <item alias="v78d89-q2m4">
-        <fileName/>
+      <item id="v78d89-d1e204" alias="v78d89-q2m4">
+        <fileName filestem="v78d89-d1e204"/>
         <title>Membrum 4</title>
         <questionTitle>De sacrificio</questionTitle>
       </item>
-      <item alias="v78d89-q2m5">
-        <fileName/>
+      <item id="v78d89-d1e215" alias="v78d89-q2m5">
+        <fileName filestem="v78d89-d1e215"/>
         <title>Membrum 5</title>
         <questionTitle>De sacramento decimationis</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q3">
+    <div id="v78d89-d1e227" alias="v78d89-q3">
       <head>Quaestio 3</head>
       <questionTitle>De congruitate temporis quo instituta sunt illa sacramenta</questionTitle>
-      <item alias="v78d89-q3m1">
-        <fileName/>
+      <item id="v78d89-d1e235" alias="v78d89-q3m1">
+        <fileName filestem="v78d89-d1e235"/>
         <title>Membrum 1</title>
         <questionTitle>Utrum conveniebat illa tunc esse sive aliqua erat illorum indigentia</questionTitle>
       </item>
-      <item alias="v78d89-q3m2">
-        <fileName/>
+      <item id="v78d89-d1e246" alias="v78d89-q3m2">
+        <fileName filestem="v78d89-d1e246"/>
         <title>Membrum 2</title>
         <questionTitle>Utrum erant necessaria ad salutem</questionTitle>
       </item>
-      <item alias="v78d89-q3m3">
-        <fileName/>
+      <item id="v78d89-d1e257" alias="v78d89-q3m3">
+        <fileName filestem="v78d89-d1e257"/>
         <title>Membrum 3</title>
         <questionTitle>Utrum illa scilicet decimationes sacrificium et oblationes erant alicuius meriti sive utilitatis</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q4">
+    <div id="v78d89-d1e269" alias="v78d89-q4">
       <head>Quaestio 4</head>
       <questionTitle>De initio et durationes ecclesiae</questionTitle>
-      <item alias="v78d89-q4m1">
-        <fileName/>
+      <item id="v78d89-d1e277" alias="v78d89-q4m1">
+        <fileName filestem="v78d89-d1e277"/>
         <title>Membrum 1</title>
         <questionTitle>Quo tempore incepit ecclesia; utrum ab Adam vel ab Abel vel ab alio principio</questionTitle>
       </item>
-      <item alias="v78d89-q4m2">
-        <fileName/>
+      <item id="v78d89-d1e288" alias="v78d89-q4m2">
+        <fileName filestem="v78d89-d1e288"/>
         <title>Membrum 2</title>
         <questionTitle>Supposito quod ab Abel, utrum tunc conceptus ecclesiae esset acephalum; an haberet caput suum</questionTitle>
       </item>
-      <item alias="v78d89-q4m3">
-        <fileName/>
+      <item id="v78d89-d1e299" alias="v78d89-q4m3">
+        <fileName filestem="v78d89-d1e299"/>
         <title>Membrum 3</title>
         <questionTitle>De duratione ecclesiae</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q5">
+    <div id="v78d89-d1e312" alias="v78d89-q5">
       <head>Quaestio 5</head>
       <questionTitle>De remedio parvulorum ante circumcisionem contra originale</questionTitle>
-      <item alias="v78d89-q5m1">
-        <fileName/>
+      <item id="v78d89-d1e320" alias="v78d89-q5m1">
+        <fileName filestem="v78d89-d1e320"/>
         <title>Membrum 1</title>
         <questionTitle>De remedio fidei</questionTitle>
       </item>
-      <item alias="v78d89-q5m2">
-        <fileName/>
+      <item id="v78d89-d1e331" alias="v78d89-q5m2">
+        <fileName filestem="v78d89-d1e331"/>
         <title>Membrum 2</title>
         <questionTitle>De remedio decimarum et sacrificiorum</questionTitle>
       </item>
-      <item alias="v78d89-q5m3">
-        <fileName/>
+      <item id="v78d89-d1e342" alias="v78d89-q5m3">
+        <fileName filestem="v78d89-d1e342"/>
         <title>Membrum 3</title>
         <questionTitle>De efficacia horum remediorum</questionTitle>
       </item>
-      <item alias="v78d89-q5m4">
-        <fileName/>
+      <item id="v78d89-d1e354" alias="v78d89-q5m4">
+        <fileName filestem="v78d89-d1e354"/>
         <title>Membrum 4</title>
         <questionTitle>Utrum haec sacramenta indita fuerunt a natura an ex disciplina</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q6">
+    <div id="v78d89-d1e366" alias="v78d89-q6">
       <head>Quaestio 6</head>
       <questionTitle>De sacramentis tempore legis scriptae in generali</questionTitle>
-      <item alias="v78d89-q6m1">
-        <fileName/>
+      <item id="v78d89-d1e374" alias="v78d89-q6m1">
+        <fileName filestem="v78d89-d1e374"/>
         <title>Membrum 1</title>
         <questionTitle>De sacramentorum tempore legis Moysi necessitate</questionTitle>
       </item>
-      <item alias="v78d89-q6m2">
-        <fileName/>
+      <item id="v78d89-d1e385" alias="v78d89-q6m2">
+        <fileName filestem="v78d89-d1e385"/>
         <title>Membrum 2</title>
         <questionTitle>De numero sacramentorum legalium et ratione numeri</questionTitle>
       </item>
-      <item alias="v78d89-q6m3">
-        <fileName/>
+      <item id="v78d89-d1e396" alias="v78d89-q6m3">
+        <fileName filestem="v78d89-d1e396"/>
         <title>Membrum 3</title>
         <questionTitle>Quaeritur de institutione sacramentorum legalium</questionTitle>
       </item>
-      <item alias="v78d89-q6m4">
-        <fileName/>
+      <item id="v78d89-d1e408" alias="v78d89-q6m4">
+        <fileName filestem="v78d89-d1e408"/>
         <title>Membrum 4</title>
         <questionTitle>De efficacia sacramentorum legalium</questionTitle>
       </item>
-      <item alias="v78d89-q6m5">
-        <fileName/>
+      <item id="v78d89-d1e419" alias="v78d89-q6m5">
+        <fileName filestem="v78d89-d1e419"/>
         <title>Membrum 5</title>
         <questionTitle>De duratione et cessatione sacramentorum legalium</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q7">
+    <div id="v78d89-d1e431" alias="v78d89-q7">
       <head>Quaestio 7</head>
       <questionTitle>De circumcisione</questionTitle>
-      <item alias="v78d89-q7m1">
-        <fileName/>
+      <item id="v78d89-d1e439" alias="v78d89-q7m1">
+        <fileName filestem="v78d89-d1e439"/>
         <title>Membrum 1</title>
         <questionTitle>De circumcisione diffinitione</questionTitle>
       </item>
-      <item alias="v78d89-q7m2">
-        <fileName/>
+      <item id="v78d89-d1e450" alias="v78d89-q7m2">
+        <fileName filestem="v78d89-d1e450"/>
         <title>Membrum 2</title>
         <questionTitle>De institutione circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m3">
-        <fileName/>
+      <item id="v78d89-d1e461" alias="v78d89-q7m3">
+        <fileName filestem="v78d89-d1e461"/>
         <title>Membrum 3</title>
         <questionTitle>De latione sive datione circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m4">
-        <fileName/>
+      <item id="v78d89-d1e473" alias="v78d89-q7m4">
+        <fileName filestem="v78d89-d1e473"/>
         <title>Membrum 4</title>
         <questionTitle>De obligatione circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m5">
-        <fileName/>
+      <item id="v78d89-d1e484" alias="v78d89-q7m5">
+        <fileName filestem="v78d89-d1e484"/>
         <title>Membrum 5</title>
         <questionTitle>De significatione circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m6">
-        <fileName/>
+      <item id="v78d89-d1e495" alias="v78d89-q7m6">
+        <fileName filestem="v78d89-d1e495"/>
         <title>Membrum 6</title>
         <questionTitle>De integritate circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m7">
-        <fileName/>
+      <item id="v78d89-d1e506" alias="v78d89-q7m7">
+        <fileName filestem="v78d89-d1e506"/>
         <title>Membrum 7</title>
         <questionTitle>De efficacia circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m8">
-        <fileName/>
+      <item id="v78d89-d1e517" alias="v78d89-q7m8">
+        <fileName filestem="v78d89-d1e517"/>
         <title>Membrum 8</title>
         <questionTitle>Utrum circumcisio erat iteranda</questionTitle>
       </item>
-      <item alias="v78d89-q7m9">
-        <fileName/>
+      <item id="v78d89-d1e528" alias="v78d89-q7m9">
+        <fileName filestem="v78d89-d1e528"/>
         <title>Membrum 9</title>
         <questionTitle>De duratione circumcisionis</questionTitle>
       </item>
-      <item alias="v78d89-q7m10">
-        <fileName/>
+      <item id="v78d89-d1e540" alias="v78d89-q7m10">
+        <fileName filestem="v78d89-d1e540"/>
         <title>Membrum 10</title>
         <questionTitle>De circumcisione Christi; utrum debuit circumcidi</questionTitle>
       </item>
     </div>
-    <div alias="v78d89-q8">
+    <div id="v78d89-d1e552" alias="v78d89-q8">
       <head>Quaestio 8</head>
       <questionTitle>De sacramentis legis evangelicae in genere</questionTitle>
-      <item alias="v78d89-q8m1">
-        <fileName/>
+      <item id="v78d89-d1e560" alias="v78d89-q8m1">
+        <fileName filestem="v78d89-d1e560"/>
         <title>Membrum 1</title>
         <questionTitle>De quidditate sacramenti</questionTitle>
       </item>
-      <item alias="v78d89-q8m2">
-        <fileName/>
+      <item id="v78d89-d1e571" alias="v78d89-q8m2">
+        <fileName filestem="v78d89-d1e571"/>
         <title>Membrum 2</title>
         <questionTitle>De institutione sacramenti</questionTitle>
       </item>
-      <item alias="v78d89-q8m3">
-        <fileName/>
+      <item id="v78d89-d1e582" alias="v78d89-q8m3">
+        <fileName filestem="v78d89-d1e582"/>
         <title>Membrum 3</title>
         <questionTitle>De essentialitate sacramentorum</questionTitle>
       </item>
-      <item alias="v78d89-q8m4">
-        <fileName/>
+      <item id="v78d89-d1e594" alias="v78d89-q8m4">
+        <fileName filestem="v78d89-d1e594"/>
         <title>Membrum 4</title>
         <questionTitle>De effectu sacramentorum</questionTitle>
       </item>
-      <item alias="v78d89-q8m5">
-        <fileName/>
+      <item id="v78d89-d1e605" alias="v78d89-q8m5">
+        <fileName filestem="v78d89-d1e605"/>
         <title>Membrum 5</title>
         <questionTitle>De dispensatione novae legis</questionTitle>
       </item>
-      <item alias="v78d89-q8m6">
-        <fileName/>
+      <item id="v78d89-d1e616" alias="v78d89-q8m6">
+        <fileName filestem="v78d89-d1e616"/>
         <title>Membrum 6</title>
         <questionTitle>De duratione</questionTitle>
       </item>
-      <item alias="v78d89-q8m7">
-        <fileName/>
+      <item id="v78d89-d1e627" alias="v78d89-q8m7">
+        <fileName filestem="v78d89-d1e627"/>
         <title>Membrum 7</title>
         <questionTitle>De numero sacramentorum novae legis</questionTitle>
       </item>
     </div>
+    <div id="v78d89-d1e639" alias="v78d89-q9">
+      <head>Quaestio 8</head>
+      <questionTitle>De sacramentis evangelicis in speciali</questionTitle>
+      <item id="v78d89-d1e647" alias="v78d89-q9m1">
+        <fileName filestem="v78d89-d1e647"/>
+        <title>Membrum 1</title>
+        <questionTitle>Quare baptismus christi habuit praeparatorium proprium plusquam alia sacramenta</questionTitle>
+      </item>
+    </div>
     <!-- left off https://archive.org/details/A336115/page/n12 -->
+    <!-- skipping to 37 -->
+    <div id="v78d89-e1e664" alias="v78d89-q37">
+      <head>Quaestio 37</head>
+      <questionTitle>De officio missae </questionTitle>
+      <item id="v78d89-e1e672" alias="v78d89-q37p1">
+        <fileName filestem="v78d89-e1e672"/>
+        <title>Pars 1</title>
+        <questionTitle/>
+      </item>
+      <div id="v78d89-e1e682" alias="v78d89-q37p2">
+        <head>Pars 2</head>
+        <item id="v78d89-e1e687" alias="v78d89-q37p2prae">
+          <fileName filestem="v78d89-e1e687"/>
+          <title>Praeambulum</title>
+        </item>
+        <item id="v78d89-e1e695" alias="v78d89-q37p2m1">
+          <fileName filestem="v78d89-e1e695"/>
+          <title>Membrum 1</title>
+          <questionTitle>De consecrandorum oblatione</questionTitle>
+        </item>
+        <item id="v78d89-e1e706" alias="v78d89-q37p2m2">
+          <fileName filestem="v78d89-e1e706"/>
+          <title>Membrum 2</title>
+          <questionTitle>De oblatorum consecratione</questionTitle>
+        </item>
+        <item id="v78d89-e1e717" alias="v78d89-q37p2m3">
+          <fileName filestem="v78d89-e1e717"/>
+          <title>Membrum 3</title>
+          <questionTitle>De rei consecratae rememoratione</questionTitle>
+        </item>
+        <item id="v78d89-e1e729" alias="v78d89-q37p2m4">
+          <fileName filestem="v78d89-e1e729"/>
+          <title>Membrum 4</title>
+          <questionTitle>De ecclesiae militantis conservatione per plures distinctiones dominicae orationis</questionTitle>
+        </item>
+        <item id="v78d89-e1e740" alias="v78d89-q37p2m5">
+          <fileName filestem="v78d89-e1e740"/>
+          <title>Membrum 5</title>
+          <questionTitle>De rei consecratae perceptione</questionTitle>
+        </item>
+      </div>
+      <item id="v78d89-e1e752" alias="v78d89-q37p3">
+        <fileName filestem="v78d89-e1e752"/>
+        <title>Pars 3</title>
+        <questionTitle/>
+      </item>
+    </div>
   </div>
 </listofFileNames>
