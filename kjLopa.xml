@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anonymous</authorName>
+    <commentaryName>Gellone Sacramentary</commentaryName>
+    <commentaryid>kjLopa</commentaryid>
+    <commentaryslug>kjLopa</commentaryslug>
+    <alias>GelloneSacramentary</alias>
+    <authorUri>http://scta.info/resource/Anonymous</authorUri>
+    <parentUri>http://scta.info/resource/kjLopa</parentUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/kjLopa/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-hYupoi">
+        <!-- not yet created -->
+        <slug>cod-hYupoi</slug>
+        <title>BnF Latin, 12048</title>
+        <initial>cod-hYupoi</initial>
+        <!-- https://gallica.bnf.fr/ark:/12148/btv1b60000317.image -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Gellone Sacramentary</head>
+    <item id="kjLopa-e1e69" type="lit-canon-missae">
+      <fileName filestem="kjLopa-e1e69"/>
+      <title>Canon missae</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-hYupoi">
+          <folio>143v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
