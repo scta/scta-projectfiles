@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Anonymous</authorName>
-    <commentaryName>Missale Francorum Sacramentary</commentaryName>
+    <commentaryName>Gallican Sacramentary</commentaryName>
     <commentaryid>vYYSTs</commentaryid>
     <commentaryslug>vYYSTs</commentaryslug>
-    <alias>MissaleFrancorumSacramentary</alias>
+    <alias>GallicanSacramentary</alias>
     <authorUri>http://scta.info/resource/Anonymous</authorUri>
     <parentUri>http://scta.info/resource/vYYSTs</parentUri>
     <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
@@ -15,6 +15,7 @@
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="cod-OpOpOp"> <!-- not yet created -->
+        <!--Missale Francorum-->
         <slug>cod-OpOpOp</slug>
         <title>Reg lat 257</title>
         <initial>cod-OpOpOp</initial>
@@ -23,7 +24,7 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <head>Missale Francorum Sacramentary</head>
+    <head>Gallican Sacramentary</head>
     <item id="vYYSTs-d1e72" type="lit-canon-missae">
       <fileName filestem="vYYSTs-d1e72"/>
       <title>Canon missae</title>
