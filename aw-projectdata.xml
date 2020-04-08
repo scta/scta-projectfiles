@@ -10,62 +10,60 @@
     <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamordinatio/</textfilesdir>
-    <questionListSource></questionListSource>
-    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListSource/>
+    <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-        <witness id="S">
-          <slug>sorb193</slug>
-          <title>Paris, Bibl. de la Sorbonne, ms 193</title>
-          <initial>S</initial>
-        </witness>
-        <witness id="M">
-          <slug>maz</slug>
-          <title>Paris, Bibl. Mazarine, ms. 915</title>
-          <initial>M</initial>
-        </witness>
-        <witness id="V">
-          <slug>vatlat955</slug>
-          <title>Vatican, Vat. lat. 955</title>
-          <initial>V</initial>
-        </witness>
-        <witness id="T">
-          <slug>tara</slug>
-          <title>Tarazona, Bibl. de la Catedral, ms codex 7</title>
-          <initial>T</initial>
-        </witness>
-        <witness id="B">
-          <slug>bruges</slug>
-          <title>Bruges, bibl. de la Ville, Ms. 172</title>
-          <initial>B</initial>
-        </witness>
-      </hasWitnesses>
-      <rcsid>100059</rcsid>
-    </header>
-    <div id="body">
-      <head>Ordinatio</head>
+      <witness id="S">
+        <slug>sorb193</slug>
+        <title>Paris, Bibl. de la Sorbonne, ms 193</title>
+        <initial>S</initial>
+      </witness>
+      <witness id="M">
+        <slug>maz</slug>
+        <title>Paris, Bibl. Mazarine, ms. 915</title>
+        <initial>M</initial>
+      </witness>
+      <witness id="V">
+        <slug>vatlat955</slug>
+        <title>Vatican, Vat. lat. 955</title>
+        <initial>V</initial>
+      </witness>
+      <witness id="T">
+        <slug>tara</slug>
+        <title>Tarazona, Bibl. de la Catedral, ms codex 7</title>
+        <initial>T</initial>
+      </witness>
+      <witness id="B">
+        <slug>bruges</slug>
+        <title>Bruges, bibl. de la Ville, Ms. 172</title>
+        <initial>B</initial>
+      </witness>
+    </hasWitnesses>
+    <rcsid>100059</rcsid>
+  </header>
+  <div id="body">
+    <head>Ordinatio</head>
     <div id="book1" class="toplevel" type="liber" subtype="liber1-collatio">
-        <head>Book I</head>
-        <div id="b1-col" type="distinctio">
-          <head>Collatio</head>
-          <item  type="quaestio">
-            <fileName filestem="b1-col-qun">Collatio 3ra-3va</fileName>
-            <title>Collatio</title>
-            <hasWitnesses>
-              <witness ref="#V">
-                <folio>1r</folio>
-                <folio>1v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="b1-prol" type="distinctio" subtype="liber1-prologus">
-          <head>Prologue</head>
-          <item  type="quaestio">
+      <head>Liber I</head>
+      <item type="quaestio">
+        <fileName filestem="b1-col-qun"/>
+        <title>Collatio</title>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>1r</folio>
+            <folio>1v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <div id="b1-prol" type="distinctio" subtype="liber1-prologus">
+        <head>Prologus</head>
+        <item type="quaestio">
           <fileName filestem="b1-prol-q1">b1-prol-q1.xml</fileName>
           <title>Prologue, q. 1</title>
-          <questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae sit meritorium vitae aeternae.</questionTitle>
+          <questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae
+            sit meritorium vitae aeternae.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>3v</folio>
@@ -104,10 +102,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-prol-q2">b1-prol-q2.xml</fileName>
           <title>Prologue, q. 2</title>
-          <questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro omissione contraria sit meritorium. </questionTitle>
+          <questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro
+            omissione contraria sit meritorium. </questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>7r</folio>
@@ -159,13 +158,14 @@
             </witness>
           </hasWitnesses>
         </item>
-        </div>
+      </div>
       <div id="b1-d1" type="distinctio" subtype="liber1-distinctio1">
         <head>Distinctio 1</head>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q1">b1-d1-q1.xml</fileName>
           <title>Dist. 1, q. 1</title>
-          <questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro mercede visio Dei et eius fruitio.</questionTitle>
+          <questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro
+            mercede visio Dei et eius fruitio.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>12v</folio>
@@ -201,36 +201,36 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
-            <fileName filestem="b1-d1-q2">b1-d1-q2.xml</fileName>
-            <title>Dist. 1, q. 2</title>
-            <questionTitle>Utrum fruitio beatifica differat ab ipsa anima.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                <folio>16r</folio>
-                <folio>16v</folio>
-                <folio>17r</folio>
-                <folio>17v</folio>
-                <folio>18r</folio>
-              </witness>
-              <witness ref="#V">
-                <folio>21r</folio>
-                <folio>21v</folio>
-                <folio>22r</folio>
-                <folio>22v</folio>
-                <folio>23r</folio>
-                <folio>23v</folio>
-              </witness>
-              <witness ref="#M">
-                <folio>13r</folio>
-                <folio>13v</folio>
-                <folio>14r</folio>
-                <folio>14v</folio>
-                <folio>15r</folio>
-              </witness>
-            </hasWitnesses>
+        <item type="quaestio">
+          <fileName filestem="b1-d1-q2">b1-d1-q2.xml</fileName>
+          <title>Dist. 1, q. 2</title>
+          <questionTitle>Utrum fruitio beatifica differat ab ipsa anima.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>16r</folio>
+              <folio>16v</folio>
+              <folio>17r</folio>
+              <folio>17v</folio>
+              <folio>18r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>21r</folio>
+              <folio>21v</folio>
+              <folio>22r</folio>
+              <folio>22v</folio>
+              <folio>23r</folio>
+              <folio>23v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>13r</folio>
+              <folio>13v</folio>
+              <folio>14r</folio>
+              <folio>14v</folio>
+              <folio>15r</folio>
+            </witness>
+          </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q3">b1-d1-q3.xml</fileName>
           <title>Dist. 1, q. 3</title>
           <questionTitle>Utrum fruitio realiter distinguatur ab omni cognitione.</questionTitle>
@@ -260,7 +260,7 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item id="b1-d1-q4"  type="quaestio">
+        <item id="b1-d1-q4" type="quaestio">
           <fileName filestem="b1-d1-q4"/>
           <title>Dist. 1, q. 4</title>
           <questionTitle>Utrum fruitio realiter distinguatur a delectatione.</questionTitle>
@@ -298,7 +298,8 @@
         <item id="b1-d1-q5" type="quaestio">
           <fileName filestem="b1-d1-q5"/>
           <title>Dist. 1, q. 5</title>
-          <questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut nolitio.</questionTitle>
+          <questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut
+            nolitio.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>23r</folio>
@@ -319,7 +320,7 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q6">b1-d1-q6.xml</fileName>
           <title>Dist. 1, q. 6</title>
           <questionTitle>Utrum voluntas necessario vel libere principiet actus suos.</questionTitle>
@@ -404,10 +405,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q7">b1-d1-q7.xml</fileName>
           <title>Dist. 1, q. 7</title>
-          <questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita communi Dei influentia vel concausatione.</questionTitle>
+          <questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita
+            communi Dei influentia vel concausatione.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>35r</folio>
@@ -437,10 +439,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q8">b1-d1-q8.xml</fileName>
           <title>Dist. 1, q. 8</title>
-          <questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie et libere dilectionis.</questionTitle>
+          <questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie
+            et libere dilectionis.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>37v</folio>
@@ -494,10 +497,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q9">b1-d1-q9.xml</fileName>
           <title>Dist. 1, q. 9</title>
-          <questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu habito cessare.</questionTitle>
+          <questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu
+            habito cessare.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>44r</folio>
@@ -536,10 +540,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q10">b1-d1-q10.xml</fileName>
           <title>Dist. 1, q. 10</title>
-          <questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat ipsum.</questionTitle>
+          <questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat
+            ipsum.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>48r</folio>
@@ -619,10 +624,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q11">b1-d1-q11.xml</fileName>
           <title>Dist. 1, q. 11</title>
-          <questionTitle>Undecimo circa distinctionem primam quaero: Utrum solus Deus sit licite a creatura rationali ultimate fruibilis.</questionTitle>
+          <questionTitle>Undecimo circa distinctionem primam quaero: Utrum solus Deus sit licite a
+            creatura rationali ultimate fruibilis.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>58r</folio>
@@ -670,10 +676,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q12">b1-d1-q12.xml</fileName>
           <title>Dist. 1, q. 12</title>
-          <questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina non fruendo alia. </questionTitle>
+          <questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina
+            non fruendo alia. </questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>64r</folio>
@@ -719,10 +726,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
+        <item type="quaestio">
           <fileName filestem="b1-d1-q13">b1-d1-q13.xml</fileName>
           <title>Dist. 1, q. 13</title>
-          <questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum sanctum.</questionTitle>
+          <questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum
+            sanctum.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>69v</folio>
@@ -783,1175 +791,1457 @@
             </witness>
           </hasWitnesses>
         </item>
-        </div>
-        <div id="b1-d2" type="distinctio">
-          <head>Distinctio 2</head>
-          <item  type="quaestio">
-            <fileName filestem="b1-d2-qun">b1-d2-qun.xml</fileName>
-            <title>Dist. 2, q. un.</title>
-            <questionTitle>Utrum in entibus sit tantum unus Deus.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                <folio>74v</folio>
-                <folio>75r</folio>
-                <folio>75v</folio>
-                <folio>76r</folio>
-                <folio>76v</folio>
-                <folio>77r</folio>
-                <folio>77v</folio>
-                <folio>78r</folio>
-                <folio>78v</folio>
-                <folio>79r</folio>
-              </witness>
-              <witness ref="#V">
-                <folio>100v</folio>
-                <folio>101r</folio>
-                <folio>101v</folio>
-                <folio>102r</folio>
-                <folio>102v</folio>
-                <folio>103r</folio>
-                <folio>103v</folio>
-                <folio>104r</folio>
-                <folio>104v</folio>
-                <folio>105r</folio>
-                <folio>105v</folio>
-                <folio>106r</folio>
-                <folio>106v</folio>
-              </witness>
-              <witness ref="#T"/>
-              <witness ref="#M">
-                <folio>62r</folio>
-                <folio>62v</folio>
-                <folio>63r</folio>
-                <folio>63v</folio>
-                <folio>64r</folio>
-                <folio>64v</folio>
-                <folio>65r</folio>
-                <folio>65v</folio>
-                <folio>66r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="b1-d3" type="distinctio">
-          <head>Distinctio 3</head>
-          <item>
-            <fileName filestem="b1-d3-qun">b1-d3-qun.xml</fileName>
-            <title>Dist. 3, q. un.</title>
-            <questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                <folio>79r</folio>
-                <folio>79v</folio>
-                <folio>80r</folio>
-                <folio>80v</folio>
-                <folio>81r</folio>
-                <folio>81v</folio>
-                <folio>82r</folio>
-                <folio>82v</folio>
-                <folio>83r</folio>
-                <folio>83v</folio>
-                <folio>84r</folio>
-                <folio>84v</folio>
-                <folio>85v</folio>
-              </witness>
-              <witness ref="#V">
-                <folio>106v</folio>
-                <folio>107r</folio>
-                <folio>107v</folio>
-                <folio>108r</folio>
-                <folio>108v</folio>
-                <folio>109r</folio>
-                <folio>109v</folio>
-                <folio>110r</folio>
-                <folio>110v</folio>
-                <folio>111r</folio>
-                <folio>111v</folio>
-                <folio>112r</folio>
-                <folio>112v</folio>
-                <folio>113r</folio>
-                <folio>113v</folio>
-                <folio>114r</folio>
-                <folio>114v</folio>
-              </witness>
-              <witness ref="#T">
-                <folio>56v</folio>
-                <folio>56v</folio>
-                <folio>57r</folio>
-                <folio>57v</folio>
-                <folio>58r</folio>
-                <folio>58v</folio>
-                <folio>59r</folio>
-                <folio>59v</folio>
-                <folio>60r</folio>
-                <folio>60v</folio>
-                <folio>61r</folio>
-                <folio>61v</folio>
-                <folio>62r</folio>
-                <folio>62v</folio>
-              </witness>
-              <witness ref="#M">
-                <folio>66r</folio>
-                <folio>66v</folio>
-                <folio>67r</folio>
-                <folio>67v</folio>
-                <folio>68r</folio>
-                <folio>68v</folio>
-                <folio>69r</folio>
-                <folio>69v</folio>
-                <folio>70r</folio>
-                <folio>70v</folio>
-                <folio>71r</folio>
-                <folio>71v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="b1-d6" type="distinctio">
-          <head>Distinctio 6</head>
-          <item  type="quaestio">
-            <fileName filestem="b1-d6-q1">b1-d6-q1.xml</fileName>
-            <title>Dist. 6, q. 1</title>
-            <questionTitle>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac improprietate loquendi non potest homo in hac materia leviter exprimere illud quod vellet.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                <folio>85v</folio>
-                <folio>86r</folio>
-                <folio>86v</folio>
-                <folio>86r</folio>
-                <folio>87v</folio>
-              </witness>
-              <witness ref="#V">
-                <folio>114v</folio>
-                <folio>115r</folio>
-                <folio>115v</folio>
-                <folio>116r</folio>
-                <folio>116v</folio>
-                <folio>117r</folio>
-              </witness>
-              <witness ref="#M">
-                <folio>71v</folio>
-                <folio>72r</folio>
-                <folio>72v</folio>
-                <folio>73r</folio>
-                <folio>73v</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-          <item type="quaestio">
-            <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
-            <title>Dist. 6, q. 2</title>
-            <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic de similibus.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                <folio>87v</folio>
-                <folio>88r</folio>
-                <folio>88v</folio>
-                <folio>89r</folio>
-                <folio>89v</folio>
-                <folio>90r</folio>
-                <folio>90v</folio>
-                <folio>91r</folio>
-              </witness>
-              <witness ref="#V">
-                <folio>117r</folio>
-                <folio>117v</folio>
-                <folio>118r</folio>
-                <folio>118v</folio>
-                <folio>119r</folio>
-                <folio>119v</folio>
-                <folio>120r</folio>
-                <folio>120v</folio>
-                <folio>121r</folio>
-                <folio>121v</folio>
-              </witness>
-              <witness ref="#M">
-                <folio>73v</folio>
-                <folio>74r</folio>
-                <folio>74v</folio>
-                <folio>75r</folio>
-                <folio>75v</folio>
-                <folio>76r</folio>
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
-        <div id="b1-d8" type="distinctio">
-            <head>Distinctio 8</head>
-            <item  type="quaestio">
-              <fileName filestem="b1-d8-qun">b1-d8-qun.xml</fileName>
-              <title>Dist. 8, q. un.</title>
-              <questionTitle>Utrum solus Deus sit immutabilis.</questionTitle>
-              <hasWitnesses>
-                <witness ref="#S">
-                  <folio>91r</folio>
-                  <folio>91v</folio>
-                  <folio>92r</folio>
-                  <folio>92v</folio>
-                  <folio>93r</folio>
-                  <folio>93v</folio>
-                  <folio>94r</folio>
-                </witness>
-                <witness ref="#V">
-                  <folio>121v</folio>
-                  <folio>122r</folio>
-                  <folio>122v</folio>
-                  <folio>123r</folio>
-                  <folio>123v</folio>
-                  <folio>124r</folio>
-                  <folio>124v</folio>
-                  <folio>125r</folio>
-                  <folio>125v</folio>
-                  <folio>126r</folio>
-                </witness>
-                <witness ref="#M">
-                  <folio>76v</folio>
-                  <folio>77r</folio>
-                  <folio>77v</folio>
-                  <folio>78r</folio>
-                  <folio>78v</folio>
-                  <folio>79r</folio>
-                  <folio>79v</folio>
-                </witness>
-              </hasWitnesses>
-            </item>
-        </div>
-        <div id="b1-d17" type="distinctio">
-            <head>Distinctio 17</head>
-            <item type="quaestio">
-                <fileName filestem="b1-d17-q1">b1-d17-q1.xml</fileName>
-                <title>Dist. 17, q. 1</title>
-                <questionTitle>Utrum gratia seu caritas sit viatori necessaria ad salutem</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>94r</folio>
-                    <folio>94v</folio>
-                    <folio>95r</folio>
-                    <folio>95v</folio>
-                    <folio>96r</folio>
-                    <folio>96v</folio>
-                    <folio>97r</folio>
-                    <folio>97v</folio>
-                    <folio>98r</folio>
-                    <folio>98v</folio>
-                    <folio>99r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>126r</folio>
-                    <folio>126v</folio>
-                    <folio>127r</folio>
-                    <folio>127v</folio>
-                    <folio>128r</folio>
-                    <folio>128v</folio>
-                    <folio>129r</folio>
-                    <folio>129v</folio>
-                    <folio>130r</folio>
-                    <folio>130v</folio>
-                    <folio>131r</folio>
-                    <folio>131v</folio>
-                    <folio>132r</folio>
-                    <folio>132v</folio>
-                    <folio>133r</folio>
-                    <folio>133v</folio>
-                    <folio>134r</folio>
-                    <folio>134v</folio>
-                    <folio>135r</folio>
-                    <folio>135v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>79v</folio>
-                    <folio>80r</folio>
-                    <folio>80v</folio>
-                    <folio>81r</folio>
-                    <folio>81v</folio>
-                    <folio>82r</folio>
-                    <folio>82v</folio>
-                    <folio>83r</folio>
-                    <folio>83v</folio>
-                    <folio>84r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-              <fileName filestem="b1-d17-q2">b1-d17-q2.xml</fileName>
-              <title>Dist. 17, q. 2</title>
-              <questionTitle>Utrum caritas seu gratia increata sine alio possit sufficere ad salutem</questionTitle>
-              <hasWitnesses>
-                <witness ref="#S">
-                  <folio>99r</folio>
-                  <folio>99v</folio>
-                  <folio>100r</folio>
-                  <folio>100v</folio>
-                  <folio>101r</folio>
-                  <folio>101v</folio>
-                  <folio>102r</folio>
-                  <folio>102v</folio>
-                </witness>
-                <witness ref="#V">
-                  <folio>135v</folio>
-                  <folio>136r</folio>
-                  <folio>136v</folio>
-                  <!-- no folio 137r -->
-                  <folio>138r</folio>
-                  <folio>138v</folio>
-                  <folio>139r</folio>
-                  <folio>139v</folio>
-                  <folio>140r</folio>
-                  <folio>140v</folio>
-                  <folio>141r</folio>
-                  <folio>141v</folio>
-                  <folio>142r</folio>
-                  <folio>142v</folio>
-                  <folio>143r</folio>
-                  <folio>143v</folio>
-                </witness>
-                <witness ref="#M">
-                  <folio>84r</folio>
-                  <folio>84v</folio>
-                  <folio>85r</folio>
-                  <folio>85v</folio>
-                  <folio>86r</folio>
-                  <folio>86v</folio>
-                  <folio>87r</folio>
-                  <folio>87v</folio>
-                </witness>
-              </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d17-q3">b1-d17-q3.xml</fileName>
-                <title>Dist. 17, q. 3</title>
-                <questionTitle>Utrum de peccatore possit fieri non peccator et acceptus Deo sine tali habitu sibi infuso per gratiam increatam.</questionTitle>
-              <hasWitnesses>
-                <witness ref="#S">
-                  <folio>102v</folio>
-                  <folio>103r</folio>
-                  <folio>103v</folio>
-                  <folio>104r</folio>
-                  <folio>104v</folio>
-                  <folio>105r</folio>
-                  <folio>105v</folio>
-                  <folio>106r</folio>
-                  <folio>106v</folio>
-                </witness>
-                <witness ref="#V">
-                  <folio>143v</folio>
-                  <folio>144r</folio>
-                  <folio>144v</folio>
-                  <folio>145r</folio>
-                  <folio>145v</folio>
-                  <folio>146r</folio>
-                  <folio>146v</folio>
-                  <folio>147r</folio>
-                  <folio>147v</folio>
-                  <folio>148r</folio>
-                  <folio>148v</folio>
-                  <folio>149r</folio>
-                  <folio>149v</folio>
-                  <folio>150r</folio>
-                  <folio>150v</folio>
-                  <folio>151r</folio>
-                </witness>
-                <witness ref="#M">
-                  <folio>87v</folio>
-                  <folio>88r</folio>
-                  <folio>88v</folio>
-                  <folio>89r</folio>
-                  <folio>89v</folio>
-                  <folio>90r</folio>
-                  <folio>90v</folio>
-                  <folio>91r</folio>
-                </witness>
-              </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d17-q4">b1-d17-q4.xml</fileName>
-                <title>Dist. 17, q. 4</title>
-                <questionTitle>Utrum caritas vel alia forma augmentabilis augmentetur per deminutionem contrarii sui.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>106v</folio>
-                    <folio>107r</folio>
-                    <folio>107v</folio>
-                    <folio>108r</folio>
-                    <folio>108v</folio>
-                    <folio>109r</folio>
-                    <folio>109v</folio>
-                    <folio>110r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>151r</folio>
-                    <folio>151v</folio>
-                    <folio>152r</folio>
-                    <folio>152v</folio>
-                    <folio>153r</folio>
-                    <folio>153v</folio>
-                    <folio>154r</folio>
-                    <folio>154v</folio>
-                    <folio>155r</folio>
-                    <folio>155v</folio>
-                    <folio>156r</folio>
-                    <folio>156v</folio>
-                    <folio>157r</folio>
-                    <folio>157v</folio>
-                    <folio>158r</folio>
-                    <folio>158v</folio>
-                    <folio>159r</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>91r</folio>
-                    <folio>91v</folio>
-                    <folio>92r</folio>
-                    <folio>92v</folio>
-                    <folio>93r</folio>
-                    <folio>93v</folio>
-                    <folio>94r</folio>
-                    <folio>94v</folio>
-                    <folio>95r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d17-q5">b1-d17-q5.xml</fileName>
-                <title>Dist. 17, q. 5</title>
-                <questionTitle>Utrum in augmentatione caritatis vel alterius formae gradus omnis praeexistens corrumpatur cum novus gradus inducitur ita videlicet intelligendo quod in omni instanti sit totaliter nova forma.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>110r</folio>
-                    <folio>110v</folio>
-                    <folio>111r</folio>
-                    <folio>111v</folio>
-                    <folio>112r</folio>
-                    <folio>112v</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>159r</folio>
-                    <folio>159v</folio>
-                    <folio>160r</folio>
-                    <folio>160v</folio>
-                    <folio>161r</folio>
-                    <folio>161v</folio>
-                    <folio>162r</folio>
-                    <folio>162v</folio>
-                    <folio>163r</folio>
-                    <folio>163v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>95r</folio>
-                    <folio>95v</folio>
-                    <folio>96r</folio>
-                    <folio>96v</folio>
-                    <folio>97r</folio>
-                    <folio>97v</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d17-q6">b1-d17-q6.xml</fileName>
-                <title>Dist. 17, q. 6</title>
-                <questionTitle>Utrum omnis bonus motus voluntatis meritorie augmentatius caritatis ad quem homo tenetur debeat vel possit ex caritate procedere collata ex merito redemptoris.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>112v</folio>
-                    <folio>113r</folio>
-                    <folio>113v</folio>
-                    <folio>114r</folio>
-                    <folio>114v</folio>
-                    <folio>115r</folio>
-                    <folio>115v</folio>
-                    <folio>116r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>163v</folio>
-                    <folio>164r</folio>
-                    <folio>164v</folio>
-                    <folio>165r</folio>
-                    <folio>165v</folio>
-                    <folio>166r</folio>
-                    <folio>166v</folio>
-                    <folio>167r</folio>
-                    <folio>167v</folio>
-                    <folio>168r</folio>
-                    <folio>168v</folio>
-                    <folio>169r</folio>
-                    <folio>169v</folio>
-                    <folio>170r</folio>
-                    <folio>170v</folio>
-                    <folio>171r</folio>
-                    <folio>171v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>97v</folio>
-                    <folio>98r</folio>
-                    <folio>98v</folio>
-                    <folio>99r</folio>
-                    <folio>99v</folio>
-                    <folio>100r</folio>
-                    <folio>100v</folio>
-                    <folio>101r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-        </div>
-        <div id="b1-d33" type="distinctio">
-            <head>Distinctio 33</head>
-            <item  type="quaestio">
-              <fileName filestem="b1-d33-q1">b1-d33-q1.xml</fileName>
-              <title>Dist. 33, q. 1</title>
-              <questionTitle>Utrum Deus essentialiter unus sit personaliter trinus.</questionTitle>
-              <hasWitnesses>
-                <witness ref="#S">
-                  <folio>116r</folio>
-                  <folio>116v</folio>
-                  <folio>117r</folio>
-                  <folio>117v</folio>
-                  <folio>118r</folio>
-                  <folio>118v</folio>
-                  <folio>119r</folio>
-                  <folio>119v</folio>
-                  <folio>120r</folio>
-                  <folio>120v</folio>
-                  <folio>121r</folio>
-                  <folio>121v</folio>
-                  <folio>122r</folio>
-                </witness>
-                <witness ref="#V">
-                  <folio>171v</folio>
-                  <folio>172r</folio>
-                  <folio>172v</folio>
-                  <folio>173r</folio>
-                  <folio>173v</folio>
-                  <folio>174r</folio>
-                  <folio>174v</folio>
-                  <folio>175r</folio>
-                  <folio>175v</folio>
-                  <folio>176r</folio>
-                  <folio>176v</folio>
-                  <folio>177r</folio>
-                  <folio>177v</folio>
-                  <folio>178r</folio>
-                  <folio>178v</folio>
-                  <folio>179r</folio>
-                  <folio>179v</folio>
-                  <folio>180r</folio>
-                  <folio>180v</folio>
-                  <folio>181r</folio>
-                  <folio>181v</folio>
-                </witness>
-                <witness ref="#M">
-                  <folio>101r</folio>
-                  <folio>101v</folio>
-                  <folio>102r</folio>
-                  <folio>102v</folio>
-                  <folio>103r</folio>
-                  <folio>103v</folio>
-                  <folio>104r</folio>
-                  <folio>104v</folio>
-                  <folio>105r</folio>
-                  <folio>105v</folio>
-                  <folio>106r</folio>
-                  <folio>106v</folio>
-                  <folio>107r</folio>
-                </witness>
-              </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-              <fileName filestem="b1-d33-q2">b1-d33-q2.xml</fileName>
-              <title>Dist. 33, q. 2</title>
-              <questionTitle>Utrum Deus genuerit Deum</questionTitle>
-              <hasWitnesses>
-                <witness ref="#S">
-                  <folio>122r</folio>
-                  <folio>122v</folio>
-                  <folio>123r</folio>
-                  <folio>123v</folio>
-                  <folio>124r</folio>
-                  <folio>124v</folio>
-                </witness>
-                <witness ref="#V">
-                  <folio>181v</folio>
-                  <folio>182r</folio>
-                  <folio>182v</folio>
-                  <folio>183r</folio>
-                  <folio>183v</folio>
-                  <folio>184r</folio>
-                  <folio>184v</folio>
-                  <folio>185r</folio>
-                  <folio>185v</folio>
-                  <folio>186r</folio>
-                  <folio>186v</folio>
-                </witness>
-                <witness ref="#M">
-                  <folio>107r</folio>
-                  <folio>107v</folio>
-                  <folio>108r</folio>
-                  <folio>108v</folio>
-                  <folio>109r</folio>
-                  <folio>109v</folio>
-                  <folio>110r</folio>
-                </witness>
-              </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q3">b1-d33-q3.xml</fileName>
-                <title>Dist. 33, q. 3</title>
-                <questionTitle>Utrum aliqua sit certa regula vel ars per quam solvi possint communiter paralogismi facti et talibus similes circa materiam Trinitatis.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>124v</folio>
-                    <folio>125r</folio>
-                    <folio>125v</folio>
-                    <folio>126r</folio>
-                    <folio>126v</folio>
-                    <folio>127r</folio>
-                    <folio>127v</folio>
-                    <folio>128v</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>186r</folio>
-                    <folio>186v</folio>
-                    <folio>187r</folio>
-                    <folio>187v</folio>
-                    <folio>188r</folio>
-                    <folio>188v</folio>
-                    <folio>189r</folio>
-                    <folio>189v</folio>
-                    <folio>190r</folio>
-                    <folio>190v</folio>
-                    <folio>191r</folio>
-                    <folio>191v</folio>
-                    <folio>192r</folio>
-                    <folio>192v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>110r</folio>
-                    <folio>110v</folio>
-                    <folio>111r</folio>
-                    <folio>111v</folio>
-                    <folio>112r</folio>
-                    <folio>112v</folio>
-                    <folio>113r</folio>
-                    <folio>113v</folio>
-                    <folio>114r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q4">b1-d33-q4.xml</fileName>
-                <title>Dist. 33, q. 4</title>
-                <questionTitle>Utrum divina essentia generet vel generetur.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>128v</folio>
-                    <folio>129r</folio>
-                    <folio>129v</folio>
-                    <folio>130r</folio>
-                    <folio>130v</folio>
-                    <folio>131r</folio>
-                    <folio>131v</folio>
-                    <folio>132r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>192v</folio>
-                    <folio>193r</folio>
-                    <folio>193v</folio>
-                    <folio>194r</folio>
-                    <folio>194v</folio>
-                    <folio>195r</folio>
-                    <folio>195v</folio>
-                    <folio>196r</folio>
-                    <folio>196v</folio>
-                    <folio>197r</folio>
-                    <folio>197v</folio>
-                    <folio>198r</folio>
-                    <folio>198v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>114r</folio>
-                    <folio>114v</folio>
-                    <folio>115r</folio>
-                    <folio>115v</folio>
-                    <folio>116r</folio>
-                    <folio>116v</folio>
-                    <folio>117r</folio>
-                    <folio>117v</folio>
-                    <folio>118r</folio>
-                    <folio>118v</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q5">b1-d33-q5.xml</fileName>
-                <title>Dist. 33, q. 5</title>
-                <questionTitle>Utrum potentia generandi possit communicari filio in divinis.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>132r</folio>
-                    <folio>132v</folio>
-                    <folio>133r</folio>
-                    <folio>133v</folio>
-                    <folio>134r</folio>
-                    <folio>134v</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>198v</folio>
-                    <folio>199r</folio>
-                    <folio>199v</folio>
-                    <folio>200r</folio>
-                    <folio>200v</folio>
-                    <folio>201r</folio>
-                    <folio>201v</folio>
-                    <folio>202r</folio>
-                    <folio>202v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>118v</folio>
-                    <folio>119r</folio>
-                    <folio>119v</folio>
-                    <folio>120r</folio>
-                    <folio>120v</folio>
-                    <folio>121r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item>
-                <fileName filestem="b1-d33-q6">b1-d33-q6.xml</fileName>
-                <title>Dist. 33, q. 6</title>
-                <questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab eo.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>134v</folio>
-                    <folio>135r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>202v</folio>
-                    <folio>203r</folio>
-                    <folio>203v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>121r</folio>
-                    <folio>121v</folio>
-                    <folio>122r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q7">b1-d33-q7.xml</fileName>
-                <title>Dist. 33, q. 7</title>
-                <questionTitle>Utrum pater et filius sint unum principium spirans Spiritum Sanctum.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>135r</folio>
-                    <folio>135v</folio>
-                    <folio>136r</folio>
-                    <folio>136v</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>203v</folio>
-                    <folio>204r</folio>
-                    <folio>204v</folio>
-                    <folio>205r</folio>
-                    <folio>205v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>122r</folio>
-                    <folio>122v</folio>
-                    <folio>123r</folio>
-                    <folio>123v</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q8">b1-d33-q8.xml</fileName>
-                <title>Dist. 33, q. 8</title>
-                <questionTitle>Utrum personae divinae primo et adaequate distinguantur ab invicem semetipsis.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>136v</folio>
-                    <folio>137r</folio>
-                    <folio>137v</folio>
-                    <folio>138r</folio>
-                    <folio>138v</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>205v</folio>
-                    <folio>206r</folio>
-                    <folio>206v</folio>
-                    <folio>207r</folio>
-                    <folio>207v</folio>
-                    <folio>208r</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>123v</folio>
-                    <folio>124r</folio>
-                    <folio>124v</folio>
-                    <folio>125r</folio>
-                    <folio>125v</folio>
-                    <folio>126r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-            <item  type="quaestio">
-                <fileName filestem="b1-d33-q9">b1-d33-q9.xml</fileName>
-                <title>Dist. 33, q. 9</title>
-                <questionTitle>Utrum omne idem patri sit omnibus modis idem patri.</questionTitle>
-                <hasWitnesses>
-                  <witness ref="#S">
-                    <folio>138v</folio>
-                    <folio>139r</folio>
-                  </witness>
-                  <witness ref="#V">
-                    <folio>208v</folio>
-                  </witness>
-                  <witness ref="#M">
-                    <folio>126r</folio>
-                  </witness>
-                </hasWitnesses>
-            </item>
-        </div>
-    </div>
-    <div id="book2" class="toplevel" type="liber">
-        <head>Book II</head>
-        <item  type="quaestio">
-            <fileName filestem="b2-q1">b2-q1.xml</fileName>
-            <title>Question 1</title>
-            <questionTitle>Utrum creatura rationalis meritorie serviendo Deo proficiat ad augmentum gratiae seu caritatis, sine omni novo addito gratiae praecedenti.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-              </witness>
-            </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q2">b2-q2.xml</fileName>
-            <title>Question 2</title>
-            <questionTitle>Utrum profectus vel augmentum gratiae fiat per compositionem gratiae novae cum gratia praecedenti.</questionTitle>
+      </div>
+      <div id="b1-d2" type="distinctio">
+        <head>Distinctio 2</head>
+        <item type="quaestio">
+          <fileName filestem="b1-d2-qun">b1-d2-qun.xml</fileName>
+          <title>Dist. 2, q. un.</title>
+          <questionTitle>Utrum in entibus sit tantum unus Deus.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
+              <folio>74v</folio>
+              <folio>75r</folio>
+              <folio>75v</folio>
+              <folio>76r</folio>
+              <folio>76v</folio>
+              <folio>77r</folio>
+              <folio>77v</folio>
+              <folio>78r</folio>
+              <folio>78v</folio>
+              <folio>79r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>100v</folio>
+              <folio>101r</folio>
+              <folio>101v</folio>
+              <folio>102r</folio>
+              <folio>102v</folio>
+              <folio>103r</folio>
+              <folio>103v</folio>
+              <folio>104r</folio>
+              <folio>104v</folio>
+              <folio>105r</folio>
+              <folio>105v</folio>
+              <folio>106r</folio>
+              <folio>106v</folio>
+            </witness>
+            <witness ref="#T"/>
+            <witness ref="#M">
+              <folio>62r</folio>
+              <folio>62v</folio>
+              <folio>63r</folio>
+              <folio>63v</folio>
+              <folio>64r</folio>
+              <folio>64v</folio>
+              <folio>65r</folio>
+              <folio>65v</folio>
+              <folio>66r</folio>
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q3">b2-q3.xml</fileName>
-            <title>Question 3</title>
-            <questionTitle>Utrum creatura rationalis habens gratiam possit mereri suam gratiam augmentari.</questionTitle>
+      </div>
+      <div id="b1-d3" type="distinctio">
+        <head>Distinctio 3</head>
+        <item>
+          <fileName filestem="b1-d3-qun">b1-d3-qun.xml</fileName>
+          <title>Dist. 3, q. un.</title>
+          <questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis
+            factis propter hominem est vestigium eiusdem trinitatis.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
+              <folio>79r</folio>
+              <folio>79v</folio>
+              <folio>80r</folio>
+              <folio>80v</folio>
+              <folio>81r</folio>
+              <folio>81v</folio>
+              <folio>82r</folio>
+              <folio>82v</folio>
+              <folio>83r</folio>
+              <folio>83v</folio>
+              <folio>84r</folio>
+              <folio>84v</folio>
+              <folio>85v</folio>
             </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q4">b2-q4.xml</fileName>
-            <title>Question 4</title>
-            <questionTitle>Utrum viator operibus meritoriis insistendo ex hiis carior Deo fiat.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
+            <witness ref="#V">
+              <folio>106v</folio>
+              <folio>107r</folio>
+              <folio>107v</folio>
+              <folio>108r</folio>
+              <folio>108v</folio>
+              <folio>109r</folio>
+              <folio>109v</folio>
+              <folio>110r</folio>
+              <folio>110v</folio>
+              <folio>111r</folio>
+              <folio>111v</folio>
+              <folio>112r</folio>
+              <folio>112v</folio>
+              <folio>113r</folio>
+              <folio>113v</folio>
+              <folio>114r</folio>
+              <folio>114v</folio>
             </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q5">b2-q5.xml</fileName>
-            <title>Question 5</title>
-            <questionTitle>Utrum praesupposita gratia baptismali viator per merita sua possit pertingere ad gratiam maximam viae sibi possibilem.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q6">b2-q6.xml</fileName>
-            <title>Question 6</title>
-            <questionTitle>Utrum viator existens in gratia ultra omnem gratiam habitam vel habendam possit proficere ad maiorem per instantaneas causationes actuum volendi omnia pro futuro peccata venialia devirare.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q7">b2-q7.xml</fileName>
-            <title>Question 7</title>
-            <questionTitle>Utrum Deus possit creare finitam caritatem aliquam qua non possit creare maiorem vel aliquam aliam ita magnam secundum extensionem quod non possit maiorem illa producere, et sic de similibus.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q8">b2-q8.xml</fileName>
-            <title>Question 8</title>
-            <questionTitle>Utrum secundum proportionem caritatis viae succedat pro praemio proportionaliter magnitudo gloriae.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q9">b2-q9.xml</fileName>
-            <title>Question 9</title>
-            <questionTitle>Utrum, scilicet propter demerita, minuatur.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b2-q10">b2-q10.xml</fileName>
-            <title>Question 10</title>
-            <questionTitle>Utrum caritas decrescat ad decrementum cupiditatis.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-    </div>
-    
-    <div id="book3" class="toplevel" type="liber">
-        <head>Book III</head>
-        <item  type="quaestio">
-            <fileName filestem="b3-q1">b3-q1.xml</fileName>
-            <title>Question 1</title>
-            <questionTitle>Utrum anima Christi habuerit et habeat sapientiam aequalem Deo.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-              <folio c="b">124v</folio>
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q2">b3-q2.xml</fileName>
-            <title>Question 2</title>
-            <questionTitle>Utrum ipsum verbum Dei sit sibi ipsi quamvis non animae sibi unitae scientia futurorum contingentium.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q3">b3-q3.xml</fileName>
-            <title>Question 3</title>
-            <questionTitle>Utrum cum determinata verbi praescientia stet quod futura praescita sint ad utrumlibet contingentia.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q4">b3-q4.xml</fileName>
-            <title>Question 4</title>
-            <questionTitle>Utrum anima Christi vel angeli sciant futura aliqua contingentia per revelationem sibi possibilem fieri ab ipso verbo vel etiam scire possint.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q5">b3-q5.xml</fileName>
-            <title>Question 5</title>
-            <questionTitle>Utrum alicuius contingentis futuri absoluta revelatio sequens tollat contingentiam.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q6">b3-q6.xml</fileName>
-            <title>Question 6</title>
-            <questionTitle>Utrum Deus vel verbum Dei existenti in gratia possit revelare quod talis finaliter sit damnandus.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q7">b3-q7.xml</fileName>
-            <title>Question 7</title>
-            <questionTitle>Utrum animae Christi vel angelo beato possit in verbo revelari aeternitas suae beatitudinis.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q8">b3-q8.xml</fileName>
-            <title>Question 8</title>
-            <questionTitle>Utrum Gabrieli potuerit in verbo verbi incarnatio revelari.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q9">b3-q9.xml</fileName>
-            <title>Question 9</title>
-            <questionTitle>Utrum per revelationes possibiles fieri in verbo posset aliquis sufficienter dirigi in volendis.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q10">b3-q10.xml</fileName>
-            <title>Question 10</title>
-            <questionTitle>Utrum anima Christi in verbo Dei cui unitur distincte videre valeat infinita.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q11">b3-q11.xml</fileName>
-            <title>Question 11</title>
-            <questionTitle>Utrum anima Christi possit in verbo cui unitur distincte cognoscere minimas partium sibi inhaerentium vel minimas particulas corporis quod informat.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b3-q12">b3-q12.xml</fileName>
-            <title>Question 12</title>
-            <questionTitle>Utrum per unionem ad verbum ipsa sit omnipotens.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-    </div>
-    
-    <div id="book4" class="toplevel" type="liber">
-        <head>Book IV</head>
-        <item  type="quaestio">
-            <fileName filestem="b4-q1">b4-q1.xml</fileName>
-            <title>Question 1</title>
-            <questionTitle>Utrum aliqua creatura possit in effectum sacramenti praecise productibilem per creationem. Et hoc est expressius quaerere: Utrum aliqua creatura possit creare caritatem vel gratiam vel aliam creaturam.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q2">b4-q2.xml</fileName>
-            <title>Question 2</title>
-            <questionTitle>Utrum posse creare gratiam vel aliquid aliud repugnet propter virtutis activae insufficientiam cuilibet creaturae.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q3">b4-q3.xml</fileName>
-            <title>Question 3</title>
-            <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis conferatur gratia salutaris.</questionTitle>
-            <hasWitnesses>
-              <witness ref="#S">
-                    <folio>165v</folio>
-                    <folio>166v</folio>
-                </witness>
-                <witness ref="#M">
-                    <folio></folio>
-                    <folio></folio>
-                </witness>
-            </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q4">b4-q4.xml</fileName>
-            <title>Question 4</title>
-            <questionTitle>Utrum corpus Christi realiter sub speciebus quae fuerunt panis et vini contineatur.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-              <folio>166v</folio>
-              <folio></folio>
+            <witness ref="#T">
+              <folio>56v</folio>
+              <folio>56v</folio>
+              <folio>57r</folio>
+              <folio>57v</folio>
+              <folio>58r</folio>
+              <folio>58v</folio>
+              <folio>59r</folio>
+              <folio>59v</folio>
+              <folio>60r</folio>
+              <folio>60v</folio>
+              <folio>61r</folio>
+              <folio>61v</folio>
+              <folio>62r</folio>
+              <folio>62v</folio>
             </witness>
             <witness ref="#M">
-              <folio></folio>
-              <folio></folio>
+              <folio>66r</folio>
+              <folio>66v</folio>
+              <folio>67r</folio>
+              <folio>67v</folio>
+              <folio>68r</folio>
+              <folio>68v</folio>
+              <folio>69r</folio>
+              <folio>69v</folio>
+              <folio>70r</folio>
+              <folio>70v</folio>
+              <folio>71r</folio>
+              <folio>71v</folio>
             </witness>
           </hasWitnesses>
         </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q5">b4-q5.xml</fileName>
-            <title>Question 5</title>
-            <questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam distincta realiter a substantia et qualitate cuius est.</questionTitle>
+      </div>
+      <div id="b1-d6" type="distinctio">
+        <head>Distinctio 6</head>
+        <item type="quaestio">
+          <fileName filestem="b1-d6-q1">b1-d6-q1.xml</fileName>
+          <title>Dist. 6, q. 1</title>
+          <questionTitle>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et
+            voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec
+            moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac
+            improprietate loquendi non potest homo in hac materia leviter exprimere illud quod
+            vellet.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
+              <folio>85v</folio>
+              <folio>86r</folio>
+              <folio>86v</folio>
+              <folio>86r</folio>
+              <folio>87v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>114v</folio>
+              <folio>115r</folio>
+              <folio>115v</folio>
+              <folio>116r</folio>
+              <folio>116v</folio>
+              <folio>117r</folio>
             </witness>
             <witness ref="#M">
-              <folio>211v</folio>
-              <folio>212r</folio>
-              <folio>212v</folio>
-              <folio>213r</folio>
-              <folio>213v</folio>
-              <folio>214r</folio>
-              <folio>214v</folio>
-              <folio>215r</folio>
-              <folio>215v</folio>
-              <folio>216r</folio>
-              <folio>216v</folio>
-              <folio>217r</folio>
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q6">b4-q6.xml</fileName>
-            <title>Question 6</title>
-            <questionTitle>Utrum sacramentum poenitentiae sit necessarium ad delendum peccatum mortale post baptismum commissum.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q7">b4-q7.xml</fileName>
-            <title>Question 7</title>
-            <questionTitle>Utrum actus paenitentiae requisitus ad deletionem culpae mortalis sit meritorius vitae aeternae. </questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q8">b4-q8.xml</fileName>
-            <title>Question 8</title>
-            <questionTitle>Utrum quilibet qui commisit peccatum mortale teneatur secundum legem Dei communem de illo conteri.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q9">b4-q9.xml</fileName>
-            <title>Question 9</title>
-            <questionTitle>Utrum vera poenitentia sit formaliter vel virtualiter velle cavere peccatum quodlibet in futuro.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q10">b4-q10.xml</fileName>
-            <title>Question 10</title>
-            <questionTitle>Utrum ille qui peccaverit mortaliter in opere exteriori teneatur plus poenitere de opere exteriori et interiori simul quam de interiori solo.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
-            </witness>
-          </hasWitnesses>
-        </item>
-        <item  type="quaestio">
-            <fileName filestem="b4-q11">b4-q11.xml</fileName>
-            <title>Question 11</title>
-            <questionTitle>Utrum aliqua poena infernalis possit esse insensibilis in damnato.</questionTitle>
-          <hasWitnesses>
-            <witness ref="#S">
+              <folio>71v</folio>
+              <folio>72r</folio>
+              <folio>72v</folio>
+              <folio>73r</folio>
+              <folio>73v</folio>
             </witness>
           </hasWitnesses>
         </item>
         <item type="quaestio">
-            <fileName filestem="b4-q12">b4-q12.xml</fileName>
-            <title>Question 12</title>
-            <questionTitle>Utrum sit maxima gloria possibilis in beato.</questionTitle>
+          <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
+          <title>Dist. 6, q. 2</title>
+          <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic
+            de similibus.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
+              <folio>87v</folio>
+              <folio>88r</folio>
+              <folio>88v</folio>
+              <folio>89r</folio>
+              <folio>89v</folio>
+              <folio>90r</folio>
+              <folio>90v</folio>
+              <folio>91r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>117r</folio>
+              <folio>117v</folio>
+              <folio>118r</folio>
+              <folio>118v</folio>
+              <folio>119r</folio>
+              <folio>119v</folio>
+              <folio>120r</folio>
+              <folio>120v</folio>
+              <folio>121r</folio>
+              <folio>121v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>73v</folio>
+              <folio>74r</folio>
+              <folio>74v</folio>
+              <folio>75r</folio>
+              <folio>75v</folio>
+              <folio>76r</folio>
             </witness>
           </hasWitnesses>
         </item>
+      </div>
+      <div id="b1-d8" type="distinctio">
+        <head>Distinctio 8</head>
+        <item type="quaestio">
+          <fileName filestem="b1-d8-qun">b1-d8-qun.xml</fileName>
+          <title>Dist. 8, q. un.</title>
+          <questionTitle>Utrum solus Deus sit immutabilis.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>91r</folio>
+              <folio>91v</folio>
+              <folio>92r</folio>
+              <folio>92v</folio>
+              <folio>93r</folio>
+              <folio>93v</folio>
+              <folio>94r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>121v</folio>
+              <folio>122r</folio>
+              <folio>122v</folio>
+              <folio>123r</folio>
+              <folio>123v</folio>
+              <folio>124r</folio>
+              <folio>124v</folio>
+              <folio>125r</folio>
+              <folio>125v</folio>
+              <folio>126r</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>76v</folio>
+              <folio>77r</folio>
+              <folio>77v</folio>
+              <folio>78r</folio>
+              <folio>78v</folio>
+              <folio>79r</folio>
+              <folio>79v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="b1-d17" type="distinctio">
+        <head>Distinctio 17</head>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q1">b1-d17-q1.xml</fileName>
+          <title>Dist. 17, q. 1</title>
+          <questionTitle>Utrum gratia seu caritas sit viatori necessaria ad salutem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>94r</folio>
+              <folio>94v</folio>
+              <folio>95r</folio>
+              <folio>95v</folio>
+              <folio>96r</folio>
+              <folio>96v</folio>
+              <folio>97r</folio>
+              <folio>97v</folio>
+              <folio>98r</folio>
+              <folio>98v</folio>
+              <folio>99r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>126r</folio>
+              <folio>126v</folio>
+              <folio>127r</folio>
+              <folio>127v</folio>
+              <folio>128r</folio>
+              <folio>128v</folio>
+              <folio>129r</folio>
+              <folio>129v</folio>
+              <folio>130r</folio>
+              <folio>130v</folio>
+              <folio>131r</folio>
+              <folio>131v</folio>
+              <folio>132r</folio>
+              <folio>132v</folio>
+              <folio>133r</folio>
+              <folio>133v</folio>
+              <folio>134r</folio>
+              <folio>134v</folio>
+              <folio>135r</folio>
+              <folio>135v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>79v</folio>
+              <folio>80r</folio>
+              <folio>80v</folio>
+              <folio>81r</folio>
+              <folio>81v</folio>
+              <folio>82r</folio>
+              <folio>82v</folio>
+              <folio>83r</folio>
+              <folio>83v</folio>
+              <folio>84r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q2">b1-d17-q2.xml</fileName>
+          <title>Dist. 17, q. 2</title>
+          <questionTitle>Utrum caritas seu gratia increata sine alio possit sufficere ad
+            salutem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>99r</folio>
+              <folio>99v</folio>
+              <folio>100r</folio>
+              <folio>100v</folio>
+              <folio>101r</folio>
+              <folio>101v</folio>
+              <folio>102r</folio>
+              <folio>102v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>135v</folio>
+              <folio>136r</folio>
+              <folio>136v</folio>
+              <!-- no folio 137r -->
+              <folio>138r</folio>
+              <folio>138v</folio>
+              <folio>139r</folio>
+              <folio>139v</folio>
+              <folio>140r</folio>
+              <folio>140v</folio>
+              <folio>141r</folio>
+              <folio>141v</folio>
+              <folio>142r</folio>
+              <folio>142v</folio>
+              <folio>143r</folio>
+              <folio>143v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>84r</folio>
+              <folio>84v</folio>
+              <folio>85r</folio>
+              <folio>85v</folio>
+              <folio>86r</folio>
+              <folio>86v</folio>
+              <folio>87r</folio>
+              <folio>87v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q3">b1-d17-q3.xml</fileName>
+          <title>Dist. 17, q. 3</title>
+          <questionTitle>Utrum de peccatore possit fieri non peccator et acceptus Deo sine tali
+            habitu sibi infuso per gratiam increatam.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>102v</folio>
+              <folio>103r</folio>
+              <folio>103v</folio>
+              <folio>104r</folio>
+              <folio>104v</folio>
+              <folio>105r</folio>
+              <folio>105v</folio>
+              <folio>106r</folio>
+              <folio>106v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>143v</folio>
+              <folio>144r</folio>
+              <folio>144v</folio>
+              <folio>145r</folio>
+              <folio>145v</folio>
+              <folio>146r</folio>
+              <folio>146v</folio>
+              <folio>147r</folio>
+              <folio>147v</folio>
+              <folio>148r</folio>
+              <folio>148v</folio>
+              <folio>149r</folio>
+              <folio>149v</folio>
+              <folio>150r</folio>
+              <folio>150v</folio>
+              <folio>151r</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>87v</folio>
+              <folio>88r</folio>
+              <folio>88v</folio>
+              <folio>89r</folio>
+              <folio>89v</folio>
+              <folio>90r</folio>
+              <folio>90v</folio>
+              <folio>91r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q4">b1-d17-q4.xml</fileName>
+          <title>Dist. 17, q. 4</title>
+          <questionTitle>Utrum caritas vel alia forma augmentabilis augmentetur per deminutionem
+            contrarii sui.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>106v</folio>
+              <folio>107r</folio>
+              <folio>107v</folio>
+              <folio>108r</folio>
+              <folio>108v</folio>
+              <folio>109r</folio>
+              <folio>109v</folio>
+              <folio>110r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>151r</folio>
+              <folio>151v</folio>
+              <folio>152r</folio>
+              <folio>152v</folio>
+              <folio>153r</folio>
+              <folio>153v</folio>
+              <folio>154r</folio>
+              <folio>154v</folio>
+              <folio>155r</folio>
+              <folio>155v</folio>
+              <folio>156r</folio>
+              <folio>156v</folio>
+              <folio>157r</folio>
+              <folio>157v</folio>
+              <folio>158r</folio>
+              <folio>158v</folio>
+              <folio>159r</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>91r</folio>
+              <folio>91v</folio>
+              <folio>92r</folio>
+              <folio>92v</folio>
+              <folio>93r</folio>
+              <folio>93v</folio>
+              <folio>94r</folio>
+              <folio>94v</folio>
+              <folio>95r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q5">b1-d17-q5.xml</fileName>
+          <title>Dist. 17, q. 5</title>
+          <questionTitle>Utrum in augmentatione caritatis vel alterius formae gradus omnis
+            praeexistens corrumpatur cum novus gradus inducitur ita videlicet intelligendo quod in
+            omni instanti sit totaliter nova forma.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>110r</folio>
+              <folio>110v</folio>
+              <folio>111r</folio>
+              <folio>111v</folio>
+              <folio>112r</folio>
+              <folio>112v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>159r</folio>
+              <folio>159v</folio>
+              <folio>160r</folio>
+              <folio>160v</folio>
+              <folio>161r</folio>
+              <folio>161v</folio>
+              <folio>162r</folio>
+              <folio>162v</folio>
+              <folio>163r</folio>
+              <folio>163v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>95r</folio>
+              <folio>95v</folio>
+              <folio>96r</folio>
+              <folio>96v</folio>
+              <folio>97r</folio>
+              <folio>97v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d17-q6">b1-d17-q6.xml</fileName>
+          <title>Dist. 17, q. 6</title>
+          <questionTitle>Utrum omnis bonus motus voluntatis meritorie augmentatius caritatis ad quem
+            homo tenetur debeat vel possit ex caritate procedere collata ex merito
+            redemptoris.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>112v</folio>
+              <folio>113r</folio>
+              <folio>113v</folio>
+              <folio>114r</folio>
+              <folio>114v</folio>
+              <folio>115r</folio>
+              <folio>115v</folio>
+              <folio>116r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>163v</folio>
+              <folio>164r</folio>
+              <folio>164v</folio>
+              <folio>165r</folio>
+              <folio>165v</folio>
+              <folio>166r</folio>
+              <folio>166v</folio>
+              <folio>167r</folio>
+              <folio>167v</folio>
+              <folio>168r</folio>
+              <folio>168v</folio>
+              <folio>169r</folio>
+              <folio>169v</folio>
+              <folio>170r</folio>
+              <folio>170v</folio>
+              <folio>171r</folio>
+              <folio>171v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>97v</folio>
+              <folio>98r</folio>
+              <folio>98v</folio>
+              <folio>99r</folio>
+              <folio>99v</folio>
+              <folio>100r</folio>
+              <folio>100v</folio>
+              <folio>101r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="b1-d33" type="distinctio">
+        <head>Distinctio 33</head>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q1">b1-d33-q1.xml</fileName>
+          <title>Dist. 33, q. 1</title>
+          <questionTitle>Utrum Deus essentialiter unus sit personaliter trinus.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>116r</folio>
+              <folio>116v</folio>
+              <folio>117r</folio>
+              <folio>117v</folio>
+              <folio>118r</folio>
+              <folio>118v</folio>
+              <folio>119r</folio>
+              <folio>119v</folio>
+              <folio>120r</folio>
+              <folio>120v</folio>
+              <folio>121r</folio>
+              <folio>121v</folio>
+              <folio>122r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>171v</folio>
+              <folio>172r</folio>
+              <folio>172v</folio>
+              <folio>173r</folio>
+              <folio>173v</folio>
+              <folio>174r</folio>
+              <folio>174v</folio>
+              <folio>175r</folio>
+              <folio>175v</folio>
+              <folio>176r</folio>
+              <folio>176v</folio>
+              <folio>177r</folio>
+              <folio>177v</folio>
+              <folio>178r</folio>
+              <folio>178v</folio>
+              <folio>179r</folio>
+              <folio>179v</folio>
+              <folio>180r</folio>
+              <folio>180v</folio>
+              <folio>181r</folio>
+              <folio>181v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>101r</folio>
+              <folio>101v</folio>
+              <folio>102r</folio>
+              <folio>102v</folio>
+              <folio>103r</folio>
+              <folio>103v</folio>
+              <folio>104r</folio>
+              <folio>104v</folio>
+              <folio>105r</folio>
+              <folio>105v</folio>
+              <folio>106r</folio>
+              <folio>106v</folio>
+              <folio>107r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q2">b1-d33-q2.xml</fileName>
+          <title>Dist. 33, q. 2</title>
+          <questionTitle>Utrum Deus genuerit Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>122r</folio>
+              <folio>122v</folio>
+              <folio>123r</folio>
+              <folio>123v</folio>
+              <folio>124r</folio>
+              <folio>124v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>181v</folio>
+              <folio>182r</folio>
+              <folio>182v</folio>
+              <folio>183r</folio>
+              <folio>183v</folio>
+              <folio>184r</folio>
+              <folio>184v</folio>
+              <folio>185r</folio>
+              <folio>185v</folio>
+              <folio>186r</folio>
+              <folio>186v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>107r</folio>
+              <folio>107v</folio>
+              <folio>108r</folio>
+              <folio>108v</folio>
+              <folio>109r</folio>
+              <folio>109v</folio>
+              <folio>110r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q3">b1-d33-q3.xml</fileName>
+          <title>Dist. 33, q. 3</title>
+          <questionTitle>Utrum aliqua sit certa regula vel ars per quam solvi possint communiter
+            paralogismi facti et talibus similes circa materiam Trinitatis.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>124v</folio>
+              <folio>125r</folio>
+              <folio>125v</folio>
+              <folio>126r</folio>
+              <folio>126v</folio>
+              <folio>127r</folio>
+              <folio>127v</folio>
+              <folio>128v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>186r</folio>
+              <folio>186v</folio>
+              <folio>187r</folio>
+              <folio>187v</folio>
+              <folio>188r</folio>
+              <folio>188v</folio>
+              <folio>189r</folio>
+              <folio>189v</folio>
+              <folio>190r</folio>
+              <folio>190v</folio>
+              <folio>191r</folio>
+              <folio>191v</folio>
+              <folio>192r</folio>
+              <folio>192v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>110r</folio>
+              <folio>110v</folio>
+              <folio>111r</folio>
+              <folio>111v</folio>
+              <folio>112r</folio>
+              <folio>112v</folio>
+              <folio>113r</folio>
+              <folio>113v</folio>
+              <folio>114r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q4">b1-d33-q4.xml</fileName>
+          <title>Dist. 33, q. 4</title>
+          <questionTitle>Utrum divina essentia generet vel generetur.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>128v</folio>
+              <folio>129r</folio>
+              <folio>129v</folio>
+              <folio>130r</folio>
+              <folio>130v</folio>
+              <folio>131r</folio>
+              <folio>131v</folio>
+              <folio>132r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>192v</folio>
+              <folio>193r</folio>
+              <folio>193v</folio>
+              <folio>194r</folio>
+              <folio>194v</folio>
+              <folio>195r</folio>
+              <folio>195v</folio>
+              <folio>196r</folio>
+              <folio>196v</folio>
+              <folio>197r</folio>
+              <folio>197v</folio>
+              <folio>198r</folio>
+              <folio>198v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>114r</folio>
+              <folio>114v</folio>
+              <folio>115r</folio>
+              <folio>115v</folio>
+              <folio>116r</folio>
+              <folio>116v</folio>
+              <folio>117r</folio>
+              <folio>117v</folio>
+              <folio>118r</folio>
+              <folio>118v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q5">b1-d33-q5.xml</fileName>
+          <title>Dist. 33, q. 5</title>
+          <questionTitle>Utrum potentia generandi possit communicari filio in
+            divinis.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>132r</folio>
+              <folio>132v</folio>
+              <folio>133r</folio>
+              <folio>133v</folio>
+              <folio>134r</folio>
+              <folio>134v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>198v</folio>
+              <folio>199r</folio>
+              <folio>199v</folio>
+              <folio>200r</folio>
+              <folio>200v</folio>
+              <folio>201r</folio>
+              <folio>201v</folio>
+              <folio>202r</folio>
+              <folio>202v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>118v</folio>
+              <folio>119r</folio>
+              <folio>119v</folio>
+              <folio>120r</folio>
+              <folio>120v</folio>
+              <folio>121r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item>
+          <fileName filestem="b1-d33-q6">b1-d33-q6.xml</fileName>
+          <title>Dist. 33, q. 6</title>
+          <questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab
+            eo.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>134v</folio>
+              <folio>135r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>202v</folio>
+              <folio>203r</folio>
+              <folio>203v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>121r</folio>
+              <folio>121v</folio>
+              <folio>122r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q7">b1-d33-q7.xml</fileName>
+          <title>Dist. 33, q. 7</title>
+          <questionTitle>Utrum pater et filius sint unum principium spirans Spiritum
+            Sanctum.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>135r</folio>
+              <folio>135v</folio>
+              <folio>136r</folio>
+              <folio>136v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>203v</folio>
+              <folio>204r</folio>
+              <folio>204v</folio>
+              <folio>205r</folio>
+              <folio>205v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>122r</folio>
+              <folio>122v</folio>
+              <folio>123r</folio>
+              <folio>123v</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q8">b1-d33-q8.xml</fileName>
+          <title>Dist. 33, q. 8</title>
+          <questionTitle>Utrum personae divinae primo et adaequate distinguantur ab invicem
+            semetipsis.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>136v</folio>
+              <folio>137r</folio>
+              <folio>137v</folio>
+              <folio>138r</folio>
+              <folio>138v</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>205v</folio>
+              <folio>206r</folio>
+              <folio>206v</folio>
+              <folio>207r</folio>
+              <folio>207v</folio>
+              <folio>208r</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>123v</folio>
+              <folio>124r</folio>
+              <folio>124v</folio>
+              <folio>125r</folio>
+              <folio>125v</folio>
+              <folio>126r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item type="quaestio">
+          <fileName filestem="b1-d33-q9">b1-d33-q9.xml</fileName>
+          <title>Dist. 33, q. 9</title>
+          <questionTitle>Utrum omne idem patri sit omnibus modis idem patri.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#S">
+              <folio>138v</folio>
+              <folio>139r</folio>
+            </witness>
+            <witness ref="#V">
+              <folio>208v</folio>
+            </witness>
+            <witness ref="#M">
+              <folio>126r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
     </div>
+    <div id="book2" class="toplevel" type="liber">
+      <head>Liber II</head>
+      <item type="quaestio">
+        <fileName filestem="b2-q1">b2-q1.xml</fileName>
+        <title>Quaestio 1</title>
+        <questionTitle>
+          Utrum creatura rationalis meritorie serviendo Deo proficiat ad augmentum
+          gratiae seu caritatis, sine omni novo addito gratiae praecedenti.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>139r</folio>
+            <folio>139v</folio>
+            <folio>140r</folio>
+            <folio>140v</folio>
+            <folio>141r</folio>
+            <folio>141v</folio>
+            <folio>142r</folio>
+            <folio>142v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q2">b2-q2.xml</fileName>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum profectus vel augmentum gratiae fiat per compositionem gratiae novae
+          cum gratia praecedenti.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>142v</folio>
+            <folio>143r</folio>
+            <folio>143v</folio>
+            <folio>144r</folio>
+            <folio>144v</folio>
+            <folio>145r</folio>
+            <folio>145v</folio>
+            <folio>146r</folio>
+            <folio>146v</folio>
+            <folio>147r</folio>
+            <folio>147v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q3">b2-q3.xml</fileName>
+        <title>Quaestio 3</title>
+        <questionTitle>
+          Utrum creatura rationalis 
+          habens gratiam possit mereri suam gratiam augmentari.
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>147v</folio>
+            <folio>148r</folio>
+            <folio>148v</folio>
+            <folio>149r</folio>
+            <folio>149v</folio>
+            <folio>150r</folio>
+            <folio>150v</folio>
+            <folio>151r</folio>
+            <folio>151v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q4">b2-q4.xml</fileName>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum viator operibus meritoriis insistendo ex hiis carior Deo
+          fiat.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>151v</folio>
+            <folio>152r</folio>
+            <folio>152v</folio>
+            <folio>153r</folio>
+            <folio>153v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q5">b2-q5.xml</fileName>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum praesupposita gratia baptismali viator per merita sua possit pertingere
+          ad gratiam maximam viae sibi possibilem.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>153v</folio>
+            <folio>154r</folio>
+            <folio>154v</folio>
+            <folio>155r</folio>
+            <folio>155v</folio>
+            <folio>156r</folio>
+            <folio>156v</folio>
+            <folio>157r</folio>
+            <folio>157v</folio>
+            <folio>158r</folio>
+            <folio>158v</folio>
+            <folio>159r</folio>
+            <folio>159v</folio>
+            <folio>160r</folio>
+            <folio>160v</folio>
+            <folio>161r</folio>
+            <folio>161v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q6">b2-q6.xml</fileName>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum viator existens in gratia ultra omnem gratiam habitam vel habendam
+          possit proficere ad maiorem per instantaneas causationes actuum volendi omnia pro futuro
+          peccata venialia devirare.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>161v</folio>
+            <folio>162r</folio>
+            <folio>162v</folio>
+            <folio>163r</folio>
+            <folio>163v</folio>
+            <folio>164r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q7">b2-q7.xml</fileName>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum Deus possit creare finitam caritatem aliquam qua non possit creare
+          maiorem vel aliquam aliam ita magnam secundum extensionem quod non possit maiorem illa
+          producere, et sic de similibus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>164r</folio>
+            <folio>164v</folio>
+            <folio>165r</folio>
+            <folio>165v</folio>
+            <folio>166r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q8">b2-q8.xml</fileName>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum secundum proportionem caritatis viae succedat pro praemio
+          proportionaliter magnitudo gloriae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>166r</folio>
+            <folio>166v</folio>
+            <folio>167r</folio>
+            <folio>167v</folio>
+            <folio>168r</folio>
+            <folio>168v</folio>
+            <folio>169r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q9">b2-q9.xml</fileName>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum, scilicet propter demerita, minuatur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>169r</folio>
+            <folio>169v</folio>
+            <folio>170r</folio>
+            <folio>170v</folio>
+            <folio>171r</folio>
+            <folio>171v</folio>
+            <folio>172r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b2-q10">b2-q10.xml</fileName>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum caritas decrescat ad decrementum cupiditatis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>172r</folio>
+            <folio>172v</folio>
+            <folio>173r</folio>
+            <folio>173v</folio>
+            <folio>174r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
     </div>
+    <div id="book3" class="toplevel" type="liber">
+      <head>Liber III</head>
+      <!-- principium 3 should go here; dbcheck and then uncomment 
+        <item type="principium">
+        <fileName filestem="aw-p3"/>
+        <title>Principium 3</title>
+        <hasWitnesses>
+          <witness ref="#V">
+            <folio>174r</folio>
+            <folio>174</folio>
+          </witness>
+        </hasWitnesses>
+      </item>-->
+      <item type="quaestio">
+        <fileName filestem="b3-q1">b3-q1.xml</fileName>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum anima Christi habuerit et habeat sapientiam aequalem
+          Deo.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio c="b">174v</folio>
+            <folio>175r</folio>
+            <folio>175v</folio>
+            <folio>176r</folio>
+            <folio>176v</folio>
+            <folio>177r</folio>
+            <folio>177v</folio>
+            <folio>178r</folio>
+            <folio>178v</folio>
+            <folio>179r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q2">b3-q2.xml</fileName>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum ipsum verbum Dei sit sibi ipsi quamvis non animae sibi unitae scientia
+          futurorum contingentium.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>179r</folio>
+            <folio>179v</folio>
+            <folio>180r</folio>
+            <folio>180v</folio>
+            <folio>181r</folio>
+            <folio>181v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q3">b3-q3.xml</fileName>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum cum determinata verbi praescientia stet quod futura praescita sint ad
+          utrumlibet contingentia.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>181v</folio>
+            <folio>182r</folio>
+            <folio>182v</folio>
+            <folio>183r</folio>
+            <folio>183v</folio>
+            <folio>184r</folio>
+            <folio>184v</folio>
+            <folio>185r</folio>
+            <folio>185v</folio>
+            <folio>186r</folio>
+            <folio>186v</folio>
+            <folio>187r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q4">b3-q4.xml</fileName>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum anima Christi vel angeli sciant futura aliqua contingentia per
+          revelationem sibi possibilem fieri ab ipso verbo vel etiam scire possint.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>187r</folio>
+            <folio>187v</folio>
+            <folio>188r</folio>
+            <folio>188v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q5">b3-q5.xml</fileName>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum alicuius contingentis futuri absoluta revelatio sequens tollat
+          contingentiam.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>188v</folio>
+            <folio>189r</folio>
+            <folio>189v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q6">b3-q6.xml</fileName>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum Deus vel verbum Dei existenti in gratia possit revelare quod talis
+          finaliter sit damnandus.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>189v</folio>
+            <folio>190r</folio>
+            <folio>190v</folio>
+            <folio>191r</folio>
+            <folio>191v</folio>
+            <folio>192r</folio>
+            <folio>192v</folio>
+            <folio>193r</folio>
+            <folio>193v</folio>
+            <folio>194r</folio>
+            <folio>194v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q7">b3-q7.xml</fileName>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum animae Christi vel angelo beato possit in verbo revelari aeternitas
+          suae beatitudinis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>194v</folio>
+            <folio>195r</folio>
+            <folio>195v</folio>
+            <folio>196r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q8">b3-q8.xml</fileName>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum Gabrieli potuerit in verbo verbi incarnatio revelari.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>196r</folio>
+            <folio>196v</folio>
+            <folio>197r</folio>
+            <folio>197v</folio>
+            <folio>198r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q9">b3-q9.xml</fileName>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum per revelationes possibiles fieri in verbo posset aliquis sufficienter
+          dirigi in volendis.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>198r</folio>
+            <folio>198v</folio>
+            <folio>199r</folio>
+            <folio>199v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q10">b3-q10.xml</fileName>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum anima Christi in verbo Dei cui unitur distincte videre valeat
+          infinita.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>199v</folio>
+            <folio>200r</folio>
+            <folio>200v</folio>
+            <folio>201r</folio>
+            <folio>201v</folio>
+            <folio>202r</folio>
+            <folio>202v</folio>
+            <folio>203r</folio>
+            <folio>203v</folio>
+            <folio>204r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q11">b3-q11.xml</fileName>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum anima Christi possit in verbo cui unitur distincte cognoscere minimas
+          partium sibi inhaerentium vel minimas particulas corporis quod informat.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>204r</folio>
+            <folio>204v</folio>
+            <folio>205r</folio>
+            <folio>205v</folio>
+            <folio>206r</folio>
+            <folio>206v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b3-q12">b3-q12.xml</fileName>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum per unionem ad verbum ipsa sit omnipotens.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>206v</folio>
+            <folio>207r</folio>
+            <folio>207v</folio>
+            <folio>208r</folio>
+            <folio>208v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="book4" class="toplevel" type="liber">
+      <head>Liber IV</head>
+      <item type="quaestio">
+        <fileName filestem="b4-q1">b4-q1.xml</fileName>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum aliqua creatura possit in effectum sacramenti praecise productibilem
+          per creationem. Et hoc est expressius quaerere: Utrum aliqua creatura possit creare
+          caritatem vel gratiam vel aliam creaturam.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>208v</folio>
+            <folio>209r</folio>
+            <folio>209v</folio>
+            <folio>210r</folio>
+            <folio>210v</folio>
+            <folio>211r</folio>
+            <folio>211v</folio>
+            <folio>212r</folio>
+            <folio>212v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q2">b4-q2.xml</fileName>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum posse creare gratiam vel aliquid aliud repugnet propter virtutis
+          activae insufficientiam cuilibet creaturae.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>212v</folio>
+            <folio>213r</folio>
+            <folio>213v</folio>
+            <folio>214r</folio>
+            <folio>214v</folio>
+            <folio>215r</folio>
+            <folio>215v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q3">b4-q3.xml</fileName>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis
+          conferatur gratia salutaris.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>215v</folio>
+            <folio>216r</folio>
+            <folio>216v</folio>
+          </witness>
+          <witness ref="#M">
+            <folio/>
+            <folio/>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q4">b4-q4.xml</fileName>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum corpus Christi realiter sub speciebus quae fuerunt panis et vini
+          contineatur.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>216v</folio>
+            <folio>217r</folio>
+            <folio>217v</folio>
+            <folio>218r</folio>
+          </witness>
+          <witness ref="#M">
+            <folio/>
+            <folio/>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q5">b4-q5.xml</fileName>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam
+          distincta realiter a substantia et qualitate cuius est.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>218r</folio>
+            <folio>218v</folio>
+            <folio>219r</folio>
+            <folio>219v</folio>
+            <folio>220r</folio>
+            <folio>220v</folio>
+            <folio>221r</folio>
+            <folio>221v</folio>
+            <folio>222r</folio>
+          </witness>
+          <witness ref="#M">
+            <folio>211v</folio>
+            <folio>212r</folio>
+            <folio>212v</folio>
+            <folio>213r</folio>
+            <folio>213v</folio>
+            <folio>214r</folio>
+            <folio>214v</folio>
+            <folio>215r</folio>
+            <folio>215v</folio>
+            <folio>216r</folio>
+            <folio>216v</folio>
+            <folio>217r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q6">b4-q6.xml</fileName>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum sacramentum poenitentiae sit necessarium ad delendum peccatum mortale
+          post baptismum commissum.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>222r</folio>
+            <folio>222v</folio>
+            <folio>223r</folio>
+            <folio>223v</folio>
+            <folio>224r</folio>
+            <folio>224v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q7">b4-q7.xml</fileName>
+        <title>Quaestio 7</title>
+        <questionTitle>Utrum actus paenitentiae requisitus ad deletionem culpae mortalis sit
+          meritorius vitae aeternae. </questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>224r</folio>
+            <folio>224v</folio>
+            <folio>225r</folio>
+            <folio>225v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q8">b4-q8.xml</fileName>
+        <title>Quaestio 8</title>
+        <questionTitle>Utrum quilibet qui commisit peccatum mortale teneatur secundum legem Dei
+          communem de illo conteri.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>225v</folio>
+            <folio>226r</folio>
+            <folio>226v</folio>
+            <folio>227r</folio>
+            <folio>227v</folio>
+            <folio>228v</folio>
+            <folio>228v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q9">b4-q9.xml</fileName>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum vera poenitentia sit formaliter vel virtualiter velle cavere peccatum
+          quodlibet in futuro.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>228v</folio>
+            <folio>229r</folio>
+            <folio>229v</folio>
+            <folio>230r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q10">b4-q10.xml</fileName>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum ille qui peccaverit mortaliter in opere exteriori teneatur plus
+          poenitere de opere exteriori et interiori simul quam de interiori solo.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>230r</folio>
+            <folio>230v</folio>
+            <folio>231r</folio>
+            <folio>231v</folio>
+            <folio>232r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q11">b4-q11.xml</fileName>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum aliqua poena infernalis possit esse insensibilis in
+          damnato.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S">
+            <folio>232r</folio>
+            <folio>232v</folio>
+            <folio>233r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item type="quaestio">
+        <fileName filestem="b4-q12">b4-q12.xml</fileName>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum sit maxima gloria possibilis in beato.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>233r</folio>
+            <folio>233v</folio>
+            <folio>234r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
 </listofFileNames>
