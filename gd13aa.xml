@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Gratian</authorName>
+    <commentaryName>Decretum Prima redactio</commentaryName>
+    <commentaryid>gd13aa</commentaryid>
+    <commentaryslug>gd13aa</commentaryslug>
+    <authorUri>http://scta.info/resource/Gratian</authorUri>
+    <parentUri>http://scta.info/resource/gd13aa</parentUri>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/gd13aa/</textfilesdir>
+    <!-- if bitbucket repo was public this could be bitbukcet base -->
+    <questionListSource>Anders Winroth, The Making of Gratian's Decretum</questionListSource>
+    <questionListOriginalEditor>Anders Winroth</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses> 
+      <!-- possible witnesses to first redaction 
+        
+        Aa = Admont, Stiftsbibliothek 23 and 43.
+        Bc = Barcelona, Arxiu de la Corona d'Aragó, Santa Maria de Ripoll 78.
+        Fd = Florence, Biblioteca Nazionale, Conv. Soppr. A I.402.
+        P = Paris, Bibliothèque nationale de France, nouvelles acquisitions latines 1761. 
+-->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Decretum (prima redactio)</head>
+    <div id="gd13aa-d1e55" type="liber">
+      <head>Prima pars</head>
+      <item id="gd13aa-d1e60" type="distinctio">
+        <fileName filestem="gd13aa-d1e60"/>
+        <title>Distinctio 1</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e73" type="distinctio">
+        <fileName filestem="gd13aa-d1e73"/>
+        <title>Distinctio 2</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e86" type="distinctio">
+        <fileName filestem="gd13aa-d1e86"/>
+        <title>Distinctio 3</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e99" type="distinctio">
+        <fileName filestem="gd13aa-d1e99"/>
+        <title>Distinctio 4</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e113" type="distinctio">
+        <fileName filestem="gd13aa-d1e113"/>
+        <title>Distinctio 5</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e126" type="distinctio">
+        <fileName filestem="gd13aa-d1e126"/>
+        <title>Distinctio 6</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e139" type="distinctio">
+        <fileName filestem="gd13aa-d1e139"/>
+        <title>Distinctio 7</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e152" type="distinctio">
+        <fileName filestem="gd13aa-d1e152"/>
+        <title>Distinctio 8</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e165" type="distinctio">
+        <fileName filestem="gd13aa-d1e165"/>
+        <title>Distinctio 9</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e178" type="distinctio">
+        <fileName filestem="gd13aa-d1e178"/>
+        <title>Distinctio 10</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e192" type="distinctio">
+        <fileName filestem="gd13aa-d1e192"/>
+        <title>Distinctio 11</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e205" type="distinctio">
+        <fileName filestem="gd13aa-d1e205"/>
+        <title>Distinctio 12</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e218" type="distinctio">
+        <fileName filestem="gd13aa-d1e218"/>
+        <title>Distinctio 13</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e231" type="distinctio">
+        <fileName filestem="gd13aa-d1e231"/>
+        <title>Distinctio 14</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e244" type="distinctio">
+        <fileName filestem="gd13aa-d1e244"/>
+        <title>Distinctio 15</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e257" type="distinctio">
+        <fileName filestem="gd13aa-d1e257"/>
+        <title>Distinctio 16</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e271" type="distinctio">
+        <fileName filestem="gd13aa-d1e271"/>
+        <title>Distinctio 17</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <!--
+        Not present in first redaction
+        <item type="distinctio">
+        <fileName />
+        <title>Distinctio 18</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>-->
+      <item id="gd13aa-d1e286" type="distinctio">
+        <fileName filestem="gd13aa-d1e286"/>
+        <title>Distinctio 19</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e299" type="distinctio">
+        <fileName filestem="gd13aa-d1e299"/>
+        <title>Distinctio 20</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e312" type="distinctio">
+        <fileName filestem="gd13aa-d1e312"/>
+        <title>Distinctio 21</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e325" type="distinctio">
+        <fileName filestem="gd13aa-d1e325"/>
+        <title>Distinctio 22</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e339" type="distinctio">
+        <fileName filestem="gd13aa-d1e339"/>
+        <title>Distinctio 23</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e352" type="distinctio">
+        <fileName filestem="gd13aa-d1e352"/>
+        <title>Distinctio 24</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e365" type="distinctio">
+        <fileName filestem="gd13aa-d1e365"/>
+        <title>Distinctio 25</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e378" type="distinctio">
+        <fileName filestem="gd13aa-d1e378"/>
+        <title>Distinctio 26</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e391" type="distinctio">
+        <fileName filestem="gd13aa-d1e391"/>
+        <title>Distinctio 27</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e404" type="distinctio">
+        <fileName filestem="gd13aa-d1e404"/>
+        <title>Distinctio 28</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e418" type="distinctio">
+        <fileName filestem="gd13aa-d1e418"/>
+        <title>Distinctio 29</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e431" type="distinctio">
+        <fileName filestem="gd13aa-d1e431"/>
+        <title>Distinctio 30</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e444" type="distinctio">
+        <fileName filestem="gd13aa-d1e444"/>
+        <title>Distinctio 31</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e457" type="distinctio">
+        <fileName filestem="gd13aa-d1e457"/>
+        <title>Distinctio 32</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e470" type="distinctio">
+        <fileName filestem="gd13aa-d1e470"/>
+        <title>Distinctio 33</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e483" type="distinctio">
+        <fileName filestem="gd13aa-d1e483"/>
+        <title>Distinctio 34</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e497" type="distinctio">
+        <fileName filestem="gd13aa-d1e497"/>
+        <title>Distinctio 35</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e510" type="distinctio">
+        <fileName filestem="gd13aa-d1e510"/>
+        <title>Distinctio 36</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e523" type="distinctio">
+        <fileName filestem="gd13aa-d1e523"/>
+        <title>Distinctio 37</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e536" type="distinctio">
+        <fileName filestem="gd13aa-d1e536"/>
+        <title>Distinctio 38</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e549" type="distinctio">
+        <fileName filestem="gd13aa-d1e549"/>
+        <title>Distinctio 39</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e562" type="distinctio">
+        <fileName filestem="gd13aa-d1e562"/>
+        <title>Distinctio 40</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e576" type="distinctio">
+        <fileName filestem="gd13aa-d1e576"/>
+        <title>Distinctio 41</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e589" type="distinctio">
+        <fileName filestem="gd13aa-d1e589"/>
+        <title>Distinctio 42</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e602" type="distinctio">
+        <fileName filestem="gd13aa-d1e602"/>
+        <title>Distinctio 43</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e615" type="distinctio">
+        <fileName filestem="gd13aa-d1e615"/>
+        <title>Distinctio 44</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e628" type="distinctio">
+        <fileName filestem="gd13aa-d1e628"/>
+        <title>Distinctio 45</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e641" type="distinctio">
+        <fileName filestem="gd13aa-d1e641"/>
+        <title>Distinctio 46</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e655" type="distinctio">
+        <fileName filestem="gd13aa-d1e655"/>
+        <title>Distinctio 47</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e668" type="distinctio">
+        <fileName filestem="gd13aa-d1e668"/>
+        <title>Distinctio 48</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e681" type="distinctio">
+        <fileName filestem="gd13aa-d1e681"/>
+        <title>Distinctio 49</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e694" type="distinctio">
+        <fileName filestem="gd13aa-d1e694"/>
+        <title>Distinctio 50</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e707" type="distinctio">
+        <fileName filestem="gd13aa-d1e707"/>
+        <title>Distinctio 51</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <!--
+        Not present in first redaction
+        <item type="distinctio">
+        <fileName />
+        <title>Distinctio 52</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>-->
+      <item id="gd13aa-d1e723" type="distinctio">
+        <fileName filestem="gd13aa-d1e723"/>
+        <title>Distinctio 53</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e736" type="distinctio">
+        <fileName filestem="gd13aa-d1e736"/>
+        <title>Distinctio 54</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e749" type="distinctio">
+        <fileName filestem="gd13aa-d1e749"/>
+        <title>Distinctio 55</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e762" type="distinctio">
+        <fileName filestem="gd13aa-d1e762"/>
+        <title>Distinctio 56</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e775" type="distinctio">
+        <fileName filestem="gd13aa-d1e775"/>
+        <title>Distinctio 57</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e788" type="distinctio">
+        <fileName filestem="gd13aa-d1e788"/>
+        <title>Distinctio 58</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e802" type="distinctio">
+        <fileName filestem="gd13aa-d1e802"/>
+        <title>Distinctio 59</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e815" type="distinctio">
+        <fileName filestem="gd13aa-d1e815"/>
+        <title>Distinctio 60</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e828" type="distinctio">
+        <fileName filestem="gd13aa-d1e828"/>
+        <title>Distinctio 61</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e841" type="distinctio">
+        <fileName filestem="gd13aa-d1e841"/>
+        <title>Distinctio 62</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e854" type="distinctio">
+        <fileName filestem="gd13aa-d1e854"/>
+        <title>Distinctio 63</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e867" type="distinctio">
+        <fileName filestem="gd13aa-d1e867"/>
+        <title>Distinctio 64</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e881" type="distinctio">
+        <fileName filestem="gd13aa-d1e881"/>
+        <title>Distinctio 65</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e894" type="distinctio">
+        <fileName filestem="gd13aa-d1e894"/>
+        <title>Distinctio 66</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e907" type="distinctio">
+        <fileName filestem="gd13aa-d1e907"/>
+        <title>Distinctio 67</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e920" type="distinctio">
+        <fileName filestem="gd13aa-d1e920"/>
+        <title>Distinctio 68</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e933" type="distinctio">
+        <fileName filestem="gd13aa-d1e933"/>
+        <title>Distinctio 69</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e946" type="distinctio">
+        <fileName filestem="gd13aa-d1e946"/>
+        <title>Distinctio 70</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e960" type="distinctio">
+        <fileName filestem="gd13aa-d1e960"/>
+        <title>Distinctio 71</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e973" type="distinctio">
+        <fileName filestem="gd13aa-d1e973"/>
+        <title>Distinctio 72</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <!--
+        not present in first redaction
+        <item type="distinctio">
+        <fileName />
+        <title>Distinctio 73</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>-->
+      <item id="gd13aa-d1e988" type="distinctio">
+        <fileName filestem="gd13aa-d1e988"/>
+        <title>Distinctio 74</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1001" type="distinctio">
+        <fileName filestem="gd13aa-d1e1001"/>
+        <title>Distinctio 75</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1014" type="distinctio">
+        <fileName filestem="gd13aa-d1e1014"/>
+        <title>Distinctio 76</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1028" type="distinctio">
+        <fileName filestem="gd13aa-d1e1028"/>
+        <title>Distinctio 77</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <!--
+        not present in first redaction 
+        <item type="distinctio">
+        <fileName />
+        <title>Distinctio 78</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>-->
+      <item id="gd13aa-d1e1043" type="distinctio">
+        <fileName filestem="gd13aa-d1e1043"/>
+        <title>Distinctio 79</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1056" type="distinctio">
+        <fileName filestem="gd13aa-d1e1056"/>
+        <title>Distinctio 80</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1069" type="distinctio">
+        <fileName filestem="gd13aa-d1e1069"/>
+        <title>Distinctio 81</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1082" type="distinctio">
+        <fileName filestem="gd13aa-d1e1082"/>
+        <title>Distinctio 82</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1096" type="distinctio">
+        <fileName filestem="gd13aa-d1e1096"/>
+        <title>Distinctio 83</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1109" type="distinctio">
+        <fileName filestem="gd13aa-d1e1109"/>
+        <title>Distinctio 84</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1122" type="distinctio">
+        <fileName filestem="gd13aa-d1e1122"/>
+        <title>Distinctio 85</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1135" type="distinctio">
+        <fileName filestem="gd13aa-d1e1135"/>
+        <title>Distinctio 86</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <!--
+        not present in first redaction 
+        <item type="distinctio">
+        <fileName />
+        <title>Distinctio 87</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>-->
+      <item id="gd13aa-d1e1150" type="distinctio">
+        <fileName filestem="gd13aa-d1e1150"/>
+        <title>Distinctio 88</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1164" type="distinctio">
+        <fileName filestem="gd13aa-d1e1164"/>
+        <title>Distinctio 89</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1177" type="distinctio">
+        <fileName filestem="gd13aa-d1e1177"/>
+        <title>Distinctio 90</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1190" type="distinctio">
+        <fileName filestem="gd13aa-d1e1190"/>
+        <title>Distinctio 91</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1203" type="distinctio">
+        <fileName filestem="gd13aa-d1e1203"/>
+        <title>Distinctio 92</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1216" type="distinctio">
+        <fileName filestem="gd13aa-d1e1216"/>
+        <title>Distinctio 93</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1229" type="distinctio">
+        <fileName filestem="gd13aa-d1e1229"/>
+        <title>Distinctio 94</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1243" type="distinctio">
+        <fileName filestem="gd13aa-d1e1243"/>
+        <title>Distinctio 95</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1256" type="distinctio">
+        <fileName filestem="gd13aa-d1e1256"/>
+        <title>Distinctio 96</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1269" type="distinctio">
+        <fileName filestem="gd13aa-d1e1269"/>
+        <title>Distinctio 97</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1282" type="distinctio">
+        <fileName filestem="gd13aa-d1e1282"/>
+        <title>Distinctio 98</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1295" type="distinctio">
+        <fileName filestem="gd13aa-d1e1295"/>
+        <title>Distinctio 99</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1308" type="distinctio">
+        <fileName filestem="gd13aa-d1e1308"/>
+        <title>Distinctio 100</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="gd13aa-d1e1322" type="distinctio">
+        <fileName filestem="gd13aa-d1e1322"/>
+        <title>Distinctio 101</title>
+        <questionTitle/>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+    </div>
+    <div id="gd13aa-d1e1336" type="liber">
+      <head>Secunda pars</head>
+      <div id="gd13aa-d1e1341">
+        <head>Causa 1</head>
+        
+        <item id="gd13aa-d1e1346">
+          <fileName filestem="gd13aa-d1e1346"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1359" type="quaestio">
+          <fileName filestem="gd13aa-d1e1359"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An sit peccatum emere spiritualia?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1373" type="quaestio">
+          <fileName filestem="gd13aa-d1e1373"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An pro ingressu ecclesiae sit exigenda pecunia, vel si exacta fuerit, an
+            sit persolvenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1387" type="quaestio">
+          <fileName filestem="gd13aa-d1e1387"/>
+          <title>Quaestio 3</title>
+          <questionTitle>an ingressum vel praebendas ecclesiae emere sit simoniacum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1402" type="quaestio">
+          <fileName filestem="gd13aa-d1e1402"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An iste sit reus criminis, quod eo ignorante pater admisit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1416" type="quaestio">
+          <fileName filestem="gd13aa-d1e1416"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An liceat ei esse in ecclesia, vel fungi ea ordinatione, quam paterna
+            pecunia est assecutus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1430" type="quaestio">
+          <fileName filestem="gd13aa-d1e1430"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An illi, qui ab eo jam simoniaco ignoranter ordinati sunt, abjiciendi sint,
+            an non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1444" type="quaestio">
+          <fileName filestem="gd13aa-d1e1444"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Si renuncians suae haeresi sit recipiendus in epicopali dignitate, vel
+            non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e1459">
+        <head>Causa 2</head>
+        
+        <item id="gd13aa-d1e1464">
+          <fileName filestem="gd13aa-d1e1464"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1477" type="quaestio">
+          <fileName filestem="gd13aa-d1e1477"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An in manifestis judiciarius ordo sit requirendus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1491" type="quaestio">
+          <fileName filestem="gd13aa-d1e1491"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An exspoliatus ab aliquo sit judicandus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1505" type="quaestio">
+          <fileName filestem="gd13aa-d1e1505"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Qua poena sint feriendi qui in accusatione vel testificatione
+            defecerint?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1520" type="quaestio">
+          <fileName filestem="gd13aa-d1e1520"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Si deficientibus accusatoribus sit cogendus ad purgationem?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!-- this sequence is out of order in the R edition; not sure if it should stay that way -->
+        <item id="gd13aa-d1e1536" type="quaestio">
+          <fileName filestem="gd13aa-d1e1536"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An duorum testimonio sit condemnandus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1550" type="quaestio">
+          <fileName filestem="gd13aa-d1e1550"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Si remedium sit dandum ei, qui causa dilationis vocem appellationis
+            exhibuerit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1564" type="quaestio">
+          <fileName filestem="gd13aa-d1e1564"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Si laici, monachi vel quilibet inferiorum ordinum in accusatione majorum
+            sint audiendi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1578" type="quaestio">
+          <fileName filestem="gd13aa-d1e1578"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Quomodo debeat fieri accusatio, an in scriptis, an sine
+            scriptis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e1593">
+        <head>Causa 3</head>
+        
+        <item id="gd13aa-d1e1598">
+          <fileName filestem="gd13aa-d1e1598"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1611" type="quaestio">
+          <fileName filestem="gd13aa-d1e1611"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An restitutio danda sit quibuslibet exspoliatis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1625" type="quaestio">
+          <fileName filestem="gd13aa-d1e1625"/>
+          <title>Quaestio 2</title>
+          <questionTitle>De induciis, an post restitutionem tantum, an etiam post vocationem ad
+            causam quibuslibet concedendae sint?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1639" type="quaestio">
+          <fileName filestem="gd13aa-d1e1639"/>
+          <title>Quaestio 3</title>
+          <questionTitle>quo spatio mensium utrique sint concedendae?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1654" type="quaestio">
+          <fileName filestem="gd13aa-d1e1654"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An infames et non legitime conjuncti ad accusationem sint
+            admittenti?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1668" type="quaestio">
+          <fileName filestem="gd13aa-d1e1668"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An testes de domo accusatorum sint producendi; vel inimicorum vox sit
+            audienda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1682" type="quaestio">
+          <fileName filestem="gd13aa-d1e1682"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An extra provinciam reus sit producendus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1696" type="quaestio">
+          <fileName filestem="gd13aa-d1e1696"/>
+          <title>Quaestio 7</title>
+          <questionTitle>An sit audienda ejus sententia, quem cum reo par inficit
+            malitia?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1710" type="quaestio">
+          <fileName filestem="gd13aa-d1e1710"/>
+          <title>Quaestio 8</title>
+          <questionTitle>An ab uno tantum episcopus sit audiendus vel judicandus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1724" type="quaestio">
+          <fileName filestem="gd13aa-d1e1724"/>
+          <title>Quaestio 9</title>
+          <questionTitle>An accusatores vel testes in absentem vocem accusationis vel
+            testificationis exhibere valeant?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1739" type="quaestio">
+          <fileName filestem="gd13aa-d1e1739"/>
+          <title>Quaestio 10</title>
+          <questionTitle>An deficientes in primo capitulo sint admittendi ad
+            sequentia?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1753" type="quaestio">
+          <fileName filestem="gd13aa-d1e1753"/>
+          <title>Quaestio 11</title>
+          <questionTitle>An accusato liceat accusationem in accusatorem vertere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e1768">
+        <head>Causa 4</head>
+        
+        <item id="gd13aa-d1e1773">
+          <fileName filestem="gd13aa-d1e1773"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1786" type="quaestio">
+          <fileName filestem="gd13aa-d1e1786"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An in excommunicatione constitutus alium accusare valeat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!-- unclear why these questions are combined; perhaps they should be split -->
+        <item id="gd13aa-d1e1802" type="quaestio">
+          <fileName filestem="gd13aa-d1e1802"/>
+          <title>Quaestio 2 et 3</title>
+          <questionTitle>Secundo, an infra decimum quartum annum in criminali causa testari quis
+            possit? Tertio, an ab accusatione prohibitus personam testificantis possit
+            assumere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1817" type="quaestio">
+          <fileName filestem="gd13aa-d1e1817"/>
+          <title>Quaestio 4</title>
+          <questionTitle>an idem possit esse accusator et testis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1831" type="quaestio">
+          <fileName filestem="gd13aa-d1e1831"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An die constituta non occurrens a communione sit
+            removendus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1845" type="quaestio">
+          <fileName filestem="gd13aa-d1e1845"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Si in episcoporum judicio accusatoris persona culpabilis inventa fuerit, an
+            ad assertionem propriae causae de caetero sit admittenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e1861">
+        <head>Causa 5</head>
+        
+        <item id="gd13aa-d1e1866">
+          <fileName filestem="gd13aa-d1e1866"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1879" type="quaestio">
+          <fileName filestem="gd13aa-d1e1879"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Qua poena sit feriendus, qui, famosum libellum clanculo scribens, probare
+            negligit quae literis mandavit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1893" type="quaestio">
+          <fileName filestem="gd13aa-d1e1893"/>
+          <title>Quaestio 2</title>
+          <questionTitle>quoties sit vocandus ad causam antequam sententiam damnationis
+            accipiat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1907" type="quaestio">
+          <fileName filestem="gd13aa-d1e1907"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An per procuratorem causam suam agere valeat qui per se ipsum causae suae
+            adesse non potest?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1922" type="quaestio">
+          <fileName filestem="gd13aa-d1e1922"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An ideo aliquis habendus sit inimicus, quia crimen alterius
+            judicat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1936" type="quaestio">
+          <fileName filestem="gd13aa-d1e1936"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An ideo aliquis habendus sit inimicus, quia crimen alterius
+            judicat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1950" type="quaestio">
+          <fileName filestem="gd13aa-d1e1950"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Qua poena sit plectendus, qui quod intulit probare non
+            valet?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e1965">
+        <head>Causa 6</head>
+        
+        <item id="gd13aa-d1e1970">
+          <fileName filestem="gd13aa-d1e1970"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1983" type="quaestio">
+          <fileName filestem="gd13aa-d1e1983"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An crimine irretiti vel infamia notati ad hujusmodi accusationem sint
+            admittendi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e1997" type="quaestio">
+          <fileName filestem="gd13aa-d1e1997"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si episcopus in eos accusationem vertere voluerit, an simplici assertioni
+            suae sit fides habenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2011" type="quaestio">
+          <fileName filestem="gd13aa-d1e2011"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si liceat sibi expetere judicium archiepiscopi alterius
+            provinciae?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2026" type="quaestio">
+          <fileName filestem="gd13aa-d1e2026"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Cujus judicium sibi sit expetendum, si circa suam sententiam episcopos suae
+            provinciae discordare contigerit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2040" type="quaestio">
+          <fileName filestem="gd13aa-d1e2040"/>
+          <title>Quaestio 5</title>
+          <questionTitle>si in probatione deficit accusator, an reus sit cogendus ad probationem
+            suae innocentiae.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2055">
+        <head>Causa 7</head>
+        
+        <item id="gd13aa-d1e2060">
+          <fileName filestem="gd13aa-d1e2060"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2073" type="quaestio">
+          <fileName filestem="gd13aa-d1e2073"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum vivente episcopo alius possit in eadem ecclesia
+            ordinari?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2087" type="quaestio">
+          <fileName filestem="gd13aa-d1e2087"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An iste valeat reposcere cathedram, quam sua intercessione alter
+            accepit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2102">
+        <head>Causa 8</head>
+        
+        <item id="gd13aa-d1e2107">
+          <fileName filestem="gd13aa-d1e2107"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2120" type="quaestio">
+          <fileName filestem="gd13aa-d1e2120"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Quod autem episcopo successorem sibi instituere liceat</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2134" type="quaestio">
+          <fileName filestem="gd13aa-d1e2134"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An amicorum patrocinia in electione debeant convalescere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2148" type="quaestio">
+          <fileName filestem="gd13aa-d1e2148"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An sit habendus simoniacus qui post electionem hujusmodi juramentum
+            canonicis praestat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2163" type="quaestio">
+          <fileName filestem="gd13aa-d1e2163"/>
+          <title>Quaestio 4</title>
+          <questionTitle>an liceat clericis ante sententiae tempus ab episcopo suo
+            discedere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2177" type="quaestio">
+          <fileName filestem="gd13aa-d1e2177"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An sine literis apostolicis debeat redire ad propriam
+            ecclesiam?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2192">
+        <head>Causa 9</head>
+        
+        <item id="gd13aa-d1e2197">
+          <fileName filestem="gd13aa-d1e2197"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2210" type="quaestio">
+          <fileName filestem="gd13aa-d1e2210"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An ordinatio, quae ab excommunicatis facta est, aliquo modo possit rata
+            haberi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2224" type="quaestio">
+          <fileName filestem="gd13aa-d1e2224"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An liceat episcopo, archiepiscopo, primati vel patriarchae clericos
+            alterius sine propriis litteris ordinare?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2238" type="quaestio">
+          <fileName filestem="gd13aa-d1e2238"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An archiepiscopus clericos suffraganei sui illo inconsulto damnare valeat,
+            vel damnatos absolvere.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2253">
+        <head>Causa 10</head>
+        
+        <item id="gd13aa-d1e2258">
+          <fileName filestem="gd13aa-d1e2258"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2271" type="quaestio">
+          <fileName filestem="gd13aa-d1e2271"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An basilica cum omni dote sua ad episcopi ordinationem
+            pertineat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2285" type="quaestio">
+          <fileName filestem="gd13aa-d1e2285"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An res ecclesiarum episcopis usurpare liceat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2299" type="quaestio">
+          <fileName filestem="gd13aa-d1e2299"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An res ecclesiarum episcopis usurpare liceat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2315">
+        <head>Causa 11</head>
+        
+        <item id="gd13aa-d1e2320">
+          <fileName filestem="gd13aa-d1e2320"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2333" type="quaestio">
+          <fileName filestem="gd13aa-d1e2333"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum clericus ante civilem judicem sit producendus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2347" type="quaestio">
+          <fileName filestem="gd13aa-d1e2347"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si producendus non est, an haec culpa sit digna
+            suspensione?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2361" type="quaestio">
+          <fileName filestem="gd13aa-d1e2361"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si digna non fuerit, an contemtorem sententiae sui episcopi irreparabiliter
+            oporteat deponi.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2376">
+        <head>Causa 12</head>
+        
+        <item id="gd13aa-d1e2381">
+          <fileName filestem="gd13aa-d1e2381"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2394" type="quaestio">
+          <fileName filestem="gd13aa-d1e2394"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Si digna non fuerit, an contemtorem sententiae sui episcopi irreparabiliter
+            oporteat deponi.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2408" type="quaestio">
+          <fileName filestem="gd13aa-d1e2408"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An res ecclesiae, quae ab eis datae sunt; possint constare aliqua firmitate
+            eis, qui eas acceperunt?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2422" type="quaestio">
+          <fileName filestem="gd13aa-d1e2422"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si ante tempus ordinationis suae, qui nihil habere videbantur et post
+            ordinationem aliqua invenisse noscuntur, an possint ea relinquere quibus voluerint, an
+            non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2437" type="quaestio">
+          <fileName filestem="gd13aa-d1e2437"/>
+          <title>Quaestio 4</title>
+          <questionTitle>si de suis et ecclesiae rebus aliqua acquisisse noscuntur, an utrique
+            communiter, an singulariter ecclesiae vel sacerdoti jure proveniant?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2451" type="quaestio">
+          <fileName filestem="gd13aa-d1e2451"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Si testamenta liceat eis conficere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2466">
+        <head>Causa 13</head>
+        
+        <item id="gd13aa-d1e2471">
+          <fileName filestem="gd13aa-d1e2471"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2484" type="quaestio">
+          <fileName filestem="gd13aa-d1e2484"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Si illi, quorum domicilia sunt in dioecesi hujus baptismalis ecclesiae,
+            debeant persolvere decimas illi ecclesiae, et celebrare suas exsequias apud eam
+            ecclesiam, in qua quondam haec fiebant a parentibus eorum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2498" type="quaestio">
+          <fileName filestem="gd13aa-d1e2498"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An praescriptione temporis jus percipiendi decimas et funerandi
+            tollatur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2513">
+        <head>Causa 14</head>
+        
+        <item id="gd13aa-d1e2518">
+          <fileName filestem="gd13aa-d1e2518"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2531" type="quaestio">
+          <fileName filestem="gd13aa-d1e2531"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An liceat eis sua repetere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2545" type="quaestio">
+          <fileName filestem="gd13aa-d1e2545"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An illi testes sint audiendi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2559" type="quaestio">
+          <fileName filestem="gd13aa-d1e2559"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An illud sit usuras exigere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2574" type="quaestio">
+          <fileName filestem="gd13aa-d1e2574"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An liceat clericis vel laicis a quolibet usuras expetere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2588" type="quaestio">
+          <fileName filestem="gd13aa-d1e2588"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An eleemosynae de usuris fieri possint?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2602" type="quaestio">
+          <fileName filestem="gd13aa-d1e2602"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An usurarii poenitentiam agere valeant, nisi quod male acceperunt
+            restituant.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2617">
+        <head>Causa 15</head>
+        
+        <item id="gd13aa-d1e2622">
+          <fileName filestem="gd13aa-d1e2622"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2635" type="quaestio">
+          <fileName filestem="gd13aa-d1e2635"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Autem an ea, quae mente alienata fiunt, sint imputanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2649" type="quaestio">
+          <fileName filestem="gd13aa-d1e2649"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An pro impensis patrociniis liceat clericis munera exigere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2663" type="quaestio">
+          <fileName filestem="gd13aa-d1e2663"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An ex mulieris confessione iste sit condemnandus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2678" type="quaestio">
+          <fileName filestem="gd13aa-d1e2678"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An die dominico ejus causa sit ventilanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2692" type="quaestio">
+          <fileName filestem="gd13aa-d1e2692"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An sibi neganti purgatio sit deferenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2706" type="quaestio">
+          <fileName filestem="gd13aa-d1e2706"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An ejus confessio cruciatibus sit extorquenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2720" type="quaestio">
+          <fileName filestem="gd13aa-d1e2720"/>
+          <title>Quaestio 7</title>
+          <questionTitle>An absque synodali audientia episcopus valeat sacerdotem
+            damnare?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2734" type="quaestio">
+          <fileName filestem="gd13aa-d1e2734"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Si sponte confessus aut ab aliis convictus fuerit, quod ante ordinationem
+            peccaverit, an suscepti ordinis officium exsequi sibi liceat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2749">
+        <head>Causa 16</head>
+        
+        <item id="gd13aa-d1e2754">
+          <fileName filestem="gd13aa-d1e2754"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2767" type="quaestio">
+          <fileName filestem="gd13aa-d1e2767"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum monachis liceat populis officia celebrare, poenitentiam dare et
+            baptizare?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2781" type="quaestio">
+          <fileName filestem="gd13aa-d1e2781"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si contigerit eos capellas habere episcopali beneficio, an ab eis sint
+            instituendae, an ab episcopis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!-- in R q. 5 comes here before 3 and 4 -->
+        <item id="gd13aa-d1e2798" type="quaestio">
+          <fileName filestem="gd13aa-d1e2798"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An jura ecclesiarum praescriptione tollantur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2812" type="quaestio">
+          <fileName filestem="gd13aa-d1e2812"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Si ecclesia adversus ecclesiam praescribat, an etiam monasterium adversus
+            ecclesiam praescribere possit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2826" type="quaestio">
+          <fileName filestem="gd13aa-d1e2826"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Si capellam in suo territorio aedificatam jure territorii sibi vendicare
+            valeat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2840" type="quaestio">
+          <fileName filestem="gd13aa-d1e2840"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Si archipresbyter vel episcopus sua auctoritate, non judiciaria sententia
+            capellam illam irrepserit, an cadat a causa, ut ecclesia, cui praesidet, non ultra
+            habeat jus reposcendi quod suus pastor illicite usurpavit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2854" type="quaestio">
+          <fileName filestem="gd13aa-d1e2854"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Si laici capellam illam tenebant (ut quibusdam moris est) et in manibus
+            abbatis eam refutaverint, et ordinandam tradiderint, an consensu episcopi et clericorum
+            abbas possit eam tenere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2870">
+        <head>Causa 17</head>
+        
+        <item id="gd13aa-d1e2875">
+          <fileName filestem="gd13aa-d1e2875"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2888" type="quaestio">
+          <fileName filestem="gd13aa-d1e2888"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum reus voti teneatur, an liceat ei a proposito sui cordis
+            discedere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2902" type="quaestio">
+          <fileName filestem="gd13aa-d1e2902"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An ecclesia et beneficium ei reddenda sint, quae prius libera voluntate
+            refutavit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2916" type="quaestio">
+          <fileName filestem="gd13aa-d1e2916"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si contigisset eum se et sua monasterio tradidisse, an licentia abbatis
+            liceret ei ad propria redire?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2931" type="quaestio">
+          <fileName filestem="gd13aa-d1e2931"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Si sine licentia abbatis retro abierit, an sua sibi abbate reddenda
+            sint?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2946">
+        <head>Causa 18</head>
+        
+        <item id="gd13aa-d1e2951">
+          <fileName filestem="gd13aa-d1e2951"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2964" type="quaestio">
+          <fileName filestem="gd13aa-d1e2964"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An monasterium possit petere quae ab episcopo quaesita sunt? an episcopalis
+            ecclesia possit sibi vendicare quae monasterio fuerunt tradita?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e2978" type="quaestio">
+          <fileName filestem="gd13aa-d1e2978"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An per episcopum abbas sit eligendus et ordinandus, an tantummodo a
+            propriis fratribus sit instituendus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e2993">
+        <head>Causa 19</head>
+        
+        <item id="gd13aa-d1e2998" type="quaestio">
+          <fileName filestem="gd13aa-d1e2998"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Si episcopus debeat permittere, ut relicta propria ecclesia clericus
+            monasterium ingrediatur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3012" type="quaestio">
+          <fileName filestem="gd13aa-d1e3012"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si episcopus licentiam dare noluerit, an eo invito monasterium possit
+            adire?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3026" type="quaestio">
+          <fileName filestem="gd13aa-d1e3026"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si contigerit ipsos regulares canonicos fuisse, utrum concedendus esset eis
+            monasterii ingressus?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3041">
+        <head>Causa 20</head>
+        
+        <item id="gd13aa-d1e3046">
+          <fileName filestem="gd13aa-d1e3046"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3059" type="quaestio">
+          <fileName filestem="gd13aa-d1e3059"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Si in pueritiae annis traditi cogantur religionis propositum
+            tenere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3073" type="quaestio">
+          <fileName filestem="gd13aa-d1e3073"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si praeter voluntatem parentum tonsuram vel religionis vestem quis in
+            pueritia accipiat, an possit sibi detrahi, an non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3087" type="quaestio">
+          <fileName filestem="gd13aa-d1e3087"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Qui praeter propriam voluntatem cucullam induerit, an cogatur eam retinere,
+            an non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3102" type="quaestio">
+          <fileName filestem="gd13aa-d1e3102"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Si ab uno monasterio in aliud districtius liceat alicui
+            transire?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3117">
+        <head>Causa 21</head>
+        
+        <item id="gd13aa-d1e3122">
+          <fileName filestem="gd13aa-d1e3122"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3135" type="quaestio">
+          <fileName filestem="gd13aa-d1e3135"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An clericus in duabus ecclesiis possit conscribi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3149" type="quaestio">
+          <fileName filestem="gd13aa-d1e3149"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si unam voluerit relinquere, an liceat ei ad aliam
+            transire?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3163" type="quaestio">
+          <fileName filestem="gd13aa-d1e3163"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An procurationes saecularium negotiorum clericis liceat
+            suscipere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3178" type="quaestio">
+          <fileName filestem="gd13aa-d1e3178"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An claris et fulgidis vestibus eis ornari expediat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3192" type="quaestio">
+          <fileName filestem="gd13aa-d1e3192"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An ab episcopo correpti suum officium relinquere, et ad saecularem judicem
+            confugere valeant?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3207">
+        <head>Causa 22</head>
+        
+        <item id="gd13aa-d1e3212">
+          <fileName filestem="gd13aa-d1e3212"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3225" type="quaestio">
+          <fileName filestem="gd13aa-d1e3225"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An juramentum sit praestandum, an non?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3239" type="quaestio">
+          <fileName filestem="gd13aa-d1e3239"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si sit perjurus qui jurat falsum quod putabat verum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3253" type="quaestio">
+          <fileName filestem="gd13aa-d1e3253"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Si licuit archidiacono denegare episcopo consuetam
+            obedientiam?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3268" type="quaestio">
+          <fileName filestem="gd13aa-d1e3268"/>
+          <title>Quaestio 4</title>
+          <questionTitle>si constiterit esse illicitum quod juravit archidiaconus, an sit
+            servandum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3282" type="quaestio">
+          <fileName filestem="gd13aa-d1e3282"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Si constiterit illud servandum esse, an episcopus sit reus perjurii, qui
+            contra juramentum archidiaconum suum ire compellit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3298">
+        <head>Causa 23</head>
+        
+        <item id="gd13aa-d1e3303">
+          <fileName filestem="gd13aa-d1e3303"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3316" type="quaestio">
+          <fileName filestem="gd13aa-d1e3316"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An militare peccatum sit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3330" type="quaestio">
+          <fileName filestem="gd13aa-d1e3330"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Quod bellum sit justum, et quomodo a filiis Israel justa bella
+            gerebantur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3344" type="quaestio">
+          <fileName filestem="gd13aa-d1e3344"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An injuria sociorum armis sit propulsanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3359" type="quaestio">
+          <fileName filestem="gd13aa-d1e3359"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An vindicta sit inferenda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3373" type="quaestio">
+          <fileName filestem="gd13aa-d1e3373"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An sit peccatum judici vel ministro reos occidere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3387" type="quaestio">
+          <fileName filestem="gd13aa-d1e3387"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An mali sint cogendi ad bonum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3401" type="quaestio">
+          <fileName filestem="gd13aa-d1e3401"/>
+          <title>Quaestio 7</title>
+          <questionTitle>An haeretici suis et ecclesiae rebus sint exspoliandi, et qui possidet ab
+            haereticis ablata an dicatur possidere aliena?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3415" type="quaestio">
+          <fileName filestem="gd13aa-d1e3415"/>
+          <title>Quaestio 8</title>
+          <questionTitle>An episcopis vel quibuslibet clericis sua liceat auctoritate, vel
+            Apostolici, vel imperatoris praecepto arma movere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3430">
+        <head>Causa 24</head>
+        
+        <item id="gd13aa-d1e3435">
+          <fileName filestem="gd13aa-d1e3435"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3448" type="quaestio">
+          <fileName filestem="gd13aa-d1e3448"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An lapsus in haeresim possit aliquos officio privare, vel sententia
+            notare?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3462" type="quaestio">
+          <fileName filestem="gd13aa-d1e3462"/>
+          <title>Quaestio 2</title>
+          <questionTitle>an post mortem aliquis possit excommunicari?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3476" type="quaestio">
+          <fileName filestem="gd13aa-d1e3476"/>
+          <title>Quaestio 3</title>
+          <questionTitle>an pro peccato alicujus tota familia sit excommunicanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3491">
+        <head>Causa 25</head>
+        <item id="gd13aa-d1e3496">
+          <fileName filestem="gd13aa-d1e3496"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3509" type="quaestio">
+          <fileName filestem="gd13aa-d1e3509"/>
+          <title>Quaestio 1</title>
+          <questionTitle>an clerici baptimalis ecclesiae auctoritate privilegii decimas suae
+            dioecesis ex integro sibi valeant vendicare?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3523" type="quaestio">
+          <fileName filestem="gd13aa-d1e3523"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An subsequenti privilegio monachorum derogetur antiquioribus privilegiis
+            baptismalium ecclesiarum.</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3538">
+        <head>Causa 26</head>
+        <item id="gd13aa-d1e3543">
+          <fileName filestem="gd13aa-d1e3543"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3556" type="quaestio">
+          <fileName filestem="gd13aa-d1e3556"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Qui sint sortilegi?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3570" type="quaestio">
+          <fileName filestem="gd13aa-d1e3570"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An sit peccatum esse sortilegum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!-- R has 3 and 4 written together -->
+        <item id="gd13aa-d1e3587" type="quaestio">
+          <fileName filestem="gd13aa-d1e3587"/>
+          <title>Quaestio 3 et 4</title>
+          <questionTitle>A quibus genus divinationis sumpsit exordium? <!-- question 4 -->Quot sint genera divinationis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3603" type="quaestio">
+          <fileName filestem="gd13aa-d1e3603"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An sortilegi vel divini sint excommunicandi, si cessare
+            noluerint?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3617" type="quaestio">
+          <fileName filestem="gd13aa-d1e3617"/>
+          <title>Quaestio 6</title>
+          <questionTitle>An excommunicatus ab episcopo possit reconciliari a presbytero, illo
+            inconsulto?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3631" type="quaestio">
+          <fileName filestem="gd13aa-d1e3631"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Si morientibus est indicenda poenitentia sub quantitate
+            temporis?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3646">
+        <head>Causa 27</head>
+        <item id="gd13aa-d1e3651">
+          <fileName filestem="gd13aa-d1e3651"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3664" type="quaestio">
+          <fileName filestem="gd13aa-d1e3664"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An conjugium possit esse inter voventes?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3678" type="quaestio">
+          <fileName filestem="gd13aa-d1e3678"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An liceat sponsae a sponso recedere, et alii nubere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3693">
+        <head>Causa 28</head>
+        <item id="gd13aa-d1e3698">
+          <fileName filestem="gd13aa-d1e3698"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3711" type="quaestio">
+          <fileName filestem="gd13aa-d1e3711"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An conjugium sit inter infideles?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3725" type="quaestio">
+          <fileName filestem="gd13aa-d1e3725"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An liceat huic aliam ducere priore vivente?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3739" type="quaestio">
+          <fileName filestem="gd13aa-d1e3739"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An sit reputandus bigamus qui ante baptismum habuit unam, et post baptismum
+            alteram?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3755">
+        <head>Causa 29</head>
+        <item id="gd13aa-d1e3760">
+          <fileName filestem="gd13aa-d1e3760"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3773" type="quaestio">
+          <fileName filestem="gd13aa-d1e3773"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An sit conjugium inter eos?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3787" type="quaestio">
+          <fileName filestem="gd13aa-d1e3787"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Si prius putabat, hunc esse liberum, et postea deprehendit, illum esse
+            servum an liceat ei statim ab illo discedere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3802">
+        <head>Causa 30</head>
+        <item id="gd13aa-d1e3807">
+          <fileName filestem="gd13aa-d1e3807"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3820" type="quaestio">
+          <fileName filestem="gd13aa-d1e3820"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An uxori suae debitum reddere valeat qui proprium filium de sacro
+            baptismate suscepit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3834" type="quaestio">
+          <fileName filestem="gd13aa-d1e3834"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An sponsalia contrahantur inter infantes?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3848" type="quaestio">
+          <fileName filestem="gd13aa-d1e3848"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An spirituales vel adoptivi filii naturalibus copulari
+            valeant?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3863" type="quaestio">
+          <fileName filestem="gd13aa-d1e3863"/>
+          <title>Quaestio 4</title>
+          <questionTitle>An uxorem compatris uxoris suae alicui ducere liceat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3877" type="quaestio">
+          <fileName filestem="gd13aa-d1e3877"/>
+          <title>Quaestio 5</title>
+          <questionTitle>an clandestina desponsatio manifestae praejudicet?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3892">
+        <head>Causa 31</head>
+        <item id="gd13aa-d1e3897">
+          <fileName filestem="gd13aa-d1e3897"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3910" type="quaestio">
+          <fileName filestem="gd13aa-d1e3910"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An possit duci in conjugium quae prius est polluta per
+            adulterium?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3924" type="quaestio">
+          <fileName filestem="gd13aa-d1e3924"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An filia invita sit tradenda alicui?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3938" type="quaestio">
+          <fileName filestem="gd13aa-d1e3938"/>
+          <title>Quaestio 3</title>
+          <questionTitle>An post patris sponsionem illa possit nubere alii</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e3953">
+        <head>Causa 32</head>
+        <item id="gd13aa-d1e3958">
+          <fileName filestem="gd13aa-d1e3958"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3971" type="quaestio">
+          <fileName filestem="gd13aa-d1e3971"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An meretrix licite ducatur in uxorem?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3985" type="quaestio">
+          <fileName filestem="gd13aa-d1e3985"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An ea, quae causa incontinentiae ducitur, sit conjux
+            appellanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e3999" type="quaestio">
+          <fileName filestem="gd13aa-d1e3999"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Cujus arbitrium aliqua sequatur, an liberi avi, an originarii
+            patris?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4014" type="quaestio">
+          <fileName filestem="gd13aa-d1e4014"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Si vivente uxore liceat alicui filios ex ancilla quaerere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4028" type="quaestio">
+          <fileName filestem="gd13aa-d1e4028"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Si ea, quae vim patitur, pudicitiam amittere comprobetur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4042" type="quaestio">
+          <fileName filestem="gd13aa-d1e4042"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Si adulter adulteram possit dimittere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4056" type="quaestio">
+          <fileName filestem="gd13aa-d1e4056"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Si vivente dimissa aliam possit accipere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4070" type="quaestio">
+          <fileName filestem="gd13aa-d1e4070"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Si infidelem sub praemissa conditione liceat alicui fidelium in conjugem
+            ducere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e4085">
+        <head>Causa 33</head>
+        <item id="gd13aa-d1e4090">
+          <fileName filestem="gd13aa-d1e4090"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4103" type="quaestio">
+          <fileName filestem="gd13aa-d1e4103"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An propter impossibilitatem coeundi, a viro suo aliqua sit
+            separanda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4117" type="quaestio">
+          <fileName filestem="gd13aa-d1e4117"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An post separationem ei nubere valeat, cum quo prius fornicata
+            est?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <div id="gd13aa-d1e4131" type="quaestio">
+          <head>Quaestio 3</head>
+          <questionTitle>Tractatus de poenitentia</questionTitle>
+          <item id="gd13aa-d1e4139" type="quaestio">
+            <fileName filestem="gd13aa-d1e4139"/>
+            <title>Distinctio 1</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4152" type="quaestio">
+            <fileName filestem="gd13aa-d1e4152"/>
+            <title>Distinctio 2</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4165" type="quaestio">
+            <fileName filestem="gd13aa-d1e4165"/>
+            <title>Distinctio 3</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4179" type="quaestio">
+            <fileName filestem="gd13aa-d1e4179"/>
+            <title>Distinctio 4</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4192" type="quaestio">
+            <fileName filestem="gd13aa-d1e4192"/>
+            <title>Distinctio 5</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4205" type="quaestio">
+            <fileName filestem="gd13aa-d1e4205"/>
+            <title>Distinctio 6</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+          <item id="gd13aa-d1e4218" type="quaestio">
+            <fileName filestem="gd13aa-d1e4218"/>
+            <title>Distinctio 7</title>
+            <questionTitle/>
+            <hasWitnesses> </hasWitnesses>
+          </item>
+        </div>
+        <item id="gd13aa-d1e4233" type="quaestio">
+          <fileName filestem="gd13aa-d1e4233"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Si tempore orationis quis valeat reddere conjugii debitum?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4247" type="quaestio">
+          <fileName filestem="gd13aa-d1e4247"/>
+          <title>Quaestio 5</title>
+          <questionTitle>An vir sine consensu uxoris continentiam vovere possit, vel si minis vel
+            terroribus licentiam vovendi ab ea extorquere valeat?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e4262">
+        <head>Causa 34</head>
+        <item id="gd13aa-d1e4267">
+          <fileName filestem="gd13aa-d1e4267"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4280" type="quaestio">
+          <fileName filestem="gd13aa-d1e4280"/>
+          <title>Quaestio 1 et 2 </title>
+          <questionTitle>An sit ista rea adulterii, quae vivente viro alteri nupsit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!-- combined with above for some reason -->
+        <!--<item type="quaestio">
+          <fileName />
+          <title>Quaestio 2</title>
+          <questionTitle>An redeunte primo sit cogenda recedere a secundo, et redire ad
+            primum?</questionTitle>
+          <hasWitnesses>
+            <!-\-<witness ref="#R">
+              
+            </witness>-\->
+          </hasWitnesses>
+        </item>-->
+      </div>
+      <div id="gd13aa-d1e4300">
+        <head>Causa 35</head>
+        <item id="gd13aa-d1e4305">
+          <fileName filestem="gd13aa-d1e4305"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4318" type="quaestio">
+          <fileName filestem="gd13aa-d1e4318"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Si liceat aliquam ex propria cognatione duci in uxorem?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4332" type="quaestio">
+          <fileName filestem="gd13aa-d1e4332"/>
+          <title>Quaestio 2 et 3</title>
+          <questionTitle>Si ex consanguinitate uxoris aliqua possit in conjugem
+            duci?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <!--
+          combined with above 
+          <item type="quaestio">
+          <fileName />
+          <title>Quaestio 3</title>
+          <questionTitle>Usque ad quem gradum debeat quisque abstinere sive a propriis, sive ab
+            uxoris suae consanguineis?</questionTitle>
+          <hasWitnesses>
+            <!-\-<witness ref="#R">
+              
+            </witness>-\->
+          </hasWitnesses>
+        </item>-->
+        <item id="gd13aa-d1e4349" type="quaestio">
+          <fileName filestem="gd13aa-d1e4349"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Quare usque ad sextum gradum consanguinitas computatur, ita quod nec ultra
+            protenditur, nec infra subsistit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4363" type="quaestio">
+          <fileName filestem="gd13aa-d1e4363"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Quomodo gradus consanguinitatis computandi sunt?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4377" type="quaestio">
+          <fileName filestem="gd13aa-d1e4377"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Qui jurejurando propinquitatem firmare debeant?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4391" type="quaestio">
+          <fileName filestem="gd13aa-d1e4391"/>
+          <title>Quaestio 7</title>
+          <questionTitle>An illi, qui de incestuosis nati sunt, filii reputentur?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4405" type="quaestio">
+          <fileName filestem="gd13aa-d1e4405"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Si ignoranter de consanguinitate vel affinitate aliqua in uxorem ducta est,
+            an ex dispensatione possit viro suo adhaerere?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4419" type="quaestio">
+          <fileName filestem="gd13aa-d1e4419"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Si contigerit ecclesiam decipi, et causa consanguinitatis aliquam a viro
+            suo separare, quae post quadriennium nuptiis hinc inde celebratis deprehenditur non
+            fuisse consanguinea prioris, an secunda conjugia sint rescindenda, et priora sint
+            redintegranda?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4434" type="quaestio">
+          <fileName filestem="gd13aa-d1e4434"/>
+          <title>Quaestio 10</title>
+          <questionTitle>Si relicta alicujus de propria cognatione ad secundas nuptias transierit,
+            an proles ex eis suscepta possit pertingere ad consortium alicujus de cognatione prioris
+            viri?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+      <div id="gd13aa-d1e4449">
+        <head>Causa 36</head>
+        <item id="gd13aa-d1e4454">
+          <fileName filestem="gd13aa-d1e4454"/>
+          <title>Initium</title>
+          <questionTitle/>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4467" type="quaestio">
+          <fileName filestem="gd13aa-d1e4467"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An ille raptum admiserit?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+        <item id="gd13aa-d1e4481" type="quaestio">
+          <fileName filestem="gd13aa-d1e4481"/>
+          <title>Quaestio 2</title>
+          <questionTitle>an rapta raptori nubere possit, patre assensum praestante?</questionTitle>
+          <hasWitnesses> </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
