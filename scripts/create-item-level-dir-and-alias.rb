@@ -18,11 +18,12 @@ items = doc.xpath("//item")
 items.each do |item|
   id = item.attributes["id"].value
   puts "id: #{id}"
+  FileUtils.mkdir_p "#{destination}/#{id}/"
+  FileUtils.touch "#{destination}/#{id}/readme.md"
   if item.attributes["alias"]
     idalias = item.attributes["alias"].value
     puts "alias: #{idalias}"
-    FileUtils.mkdir_p "#{destination}/#{id}/"
-    FileUtils.touch "#{destination}/#{id}/readme.md"
+    
     FileUtils.mkdir_p "#{destination}/symlinks/"
     if !File.exist? "#{destination}/symlinks/#{idalias}"
       FileUtils.ln_s "../#{id}", "#{destination}/symlinks/#{idalias}"
