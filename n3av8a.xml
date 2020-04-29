@@ -83,18 +83,21 @@
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
       </item>
-      <item id="n3av8a-c1e183" alias="n3av8a-q1q7">
+      <item id="n3av8a-c1e183" alias="n3av8a-q1q7et8">
         <fileName filestem="n3av8a-c1e183"/>
-        <title>Quaestio 7</title>
+        <title>Quaestio 7 et 8</title>
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
       </item>
-      <item id="n3av8a-c1e196" alias="n3av8a-q1q8">
+      
+     <!--
+       seems to be collapsed with 7
+       <item id="n3av8a-c1e196" alias="n3av8a-q1q8">
         <fileName filestem="n3av8a-c1e196"/>
         <title>Quaestio 8</title>
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
-      </item>
+      </item>-->
       <item id="n3av8a-c1e209" alias="n3av8a-q1q9">
         <fileName filestem="n3av8a-c1e209"/>
         <title>Quaestio 9</title>
@@ -221,18 +224,23 @@
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
       </item>
-      <item id="n3av8a-c1e486" alias="n3av8a-q1q30">
+      <item id="n3av8a-c1e486" alias="n3av8a-q1q30et31">
         <fileName filestem="n3av8a-c1e486"/>
-        <title>Quaestio 30</title>
+        <title>Quaestio 30 et 31</title>
         <questionTitle/>
-        <hasWitnesses><witness ref="#B"/></hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#B">
+            <folio>22v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
+      <!-- id needs to be moved to delete list 
       <item id="n3av8a-c1e499" alias="n3av8a-q1q31">
         <fileName filestem="n3av8a-c1e499"/>
         <title>Quaestio 31</title>
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
-      </item>
+      </item> -->
       <item id="n3av8a-c1e512" alias="n3av8a-q1q32">
         <fileName filestem="n3av8a-c1e512"/>
         <title>Quaestio 32</title>
@@ -1260,16 +1268,20 @@
       <head>Quodlibet 7</head>
       <item id="n3av8a-c1e2709" alias="n3av8a-q7q1">
         <fileName filestem="n3av8a-c1e2709"/>
-        <title>Quaestio 1</title>
+        <title>Quaestio 1 et 2</title>
+        <!-- seen badius1518/107v/13 that say the questions will be treated together -->
         <questionTitle/>
-        <hasWitnesses><witness ref="#B"/></hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#B"/>
+        </hasWitnesses>
       </item>
-      <item id="n3av8a-c1e2722" alias="n3av8a-q7q2">
+      <!-- needs to be added to deleted graph list 
+        <item id="n3av8a-c1e2722" alias="n3av8a-q7q2">
         <fileName filestem="n3av8a-c1e2722"/>
         <title>Quaestio 2</title>
         <questionTitle/>
         <hasWitnesses><witness ref="#B"/></hasWitnesses>
-      </item>
+      </item>-->
       <item id="n3av8a-c1e2735" alias="n3av8a-q7q3">
         <fileName filestem="n3av8a-c1e2735"/>
         <title>Quaestio 3</title>
