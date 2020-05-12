@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Anselm of Lucca</authorName>
+    <commentaryName>Canonum Collectio Anselmiana, Libri I-IX</commentaryName>
+    <commentaryid>Ans3av</commentaryid>
+    <commentaryslug>Ans3av</commentaryslug>
+    <alias>CanonumCollectioAnselmiana</alias>
+    <authorUri>http://scta.info/resource/per-vqn2ad</authorUri>
+    <parentUri>http://scta.info/resource/Ans3av</parentUri>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/Ans3av/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-Avai3v"> <!-- not yet created -->
+        <slug>cod-Avai3v</slug>
+        <title>Arch. Cap. S. Pietro. C. 118</title>
+        <initial>cod-Avai3v</initial>
+        <!--Manuscript - Arch.Cap.S.Pietro.C.118, f. 74ra
+        See digi vat: https://digi.vatlib.it/view/MSS_Arch.Cap.S.Pietro.C.118-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Canonum Collectio Anselmiana, Libri I-IX</head>
+    <item id="Ans3av-d1e67">
+      <fileName filestem="Ans3av-d1e67"/>
+      <title>Liber 1</title>
+      <questionTitle>De potestate et primatu apostolicae sedis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>1r</folio>
+          <folio>14r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e90">
+      <fileName filestem="Ans3av-d1e90"/>
+      <title>Liber 2</title>
+      <questionTitle>De praelatorum electione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>15r</folio>
+          <folio>24v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e113">
+      <fileName filestem="Ans3av-d1e113"/>
+      <title>Liber 3</title>
+      <questionTitle>De consecrandis ecclesiis et earum ritibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>24v</folio>
+          <folio>36v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e136">
+      <fileName filestem="Ans3av-d1e136"/>
+      <title>Liber 4</title>
+      <questionTitle>De sedibus episcoporum et de auctoritate praedicationis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>37r</folio>
+          <folio>55v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e159">
+      <fileName filestem="Ans3av-d1e159"/>
+      <title>Liber 5</title>
+      <questionTitle>De excommunicatione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>57r</folio>
+          <folio>70v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e183">
+      <fileName filestem="Ans3av-d1e183"/>
+      <title>Liber 6</title>
+      <questionTitle>De accusatione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>71r</folio>
+          <folio>80r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e206">
+      <fileName filestem="Ans3av-d1e206"/>
+      <title>Liber 7</title>
+      <questionTitle>De unitate Ecclesiae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>80v</folio>
+          <folio>94v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e229">
+      <fileName filestem="Ans3av-d1e229"/>
+      <title>Liber 8</title>
+      <questionTitle>De conjugio et adulterio et consanguinitate</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>95r</folio>
+          <folio>109v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="Ans3av-d1e252">
+      <fileName filestem="Ans3av-d1e252"/>
+      <title>Liber 9</title>
+      <questionTitle>De raptoribus et furibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-Avai3v">
+          <folio>110r</folio>
+          <folio>122v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    
+    
+  </div>
+</listofFileNames>
