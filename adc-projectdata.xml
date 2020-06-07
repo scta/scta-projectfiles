@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listofFileNames>
   <header>
     <authorName>Andreas de Novo Castro</authorName>
@@ -7,9 +8,9 @@
     <commentaryid>novocastrocommentary</commentaryid>
     <commentaryslug>adn</commentaryslug>
     <authorUri>http://scta.info/resource/AndreasDeNovoCastro</authorUri>
-    <parentUri>http://scta.info/resource/novocastrocommentary</parentUri>
+    <!--<parentUri>http://scta.info/resource/novocastrocommentary</parentUri>-->
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/novocastrocommentary/</textfilesdir>
+    <!--<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/novocastrocommentary/</textfilesdir>-->
     <questionListSource/>
     <questionListOriginalEditor>Andrei Marinca</questionListOriginalEditor>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>

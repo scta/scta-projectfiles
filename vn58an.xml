@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
   <header>
     <authorName>Henry of Ghent</authorName>
     <commentaryName>Summa quaestionum ordinariarum</commentaryName>
@@ -6,9 +8,9 @@
     <commentaryslug>vn58an</commentaryslug>
     <alias>henryofghentsumma</alias>
     <authorUri>http://scta.info/resource/HenryOfGhent</authorUri>
-    <parentUri>http://scta.info/resource/vn58an</parentUri>
+    <!--<parentUri>http://scta.info/resource/vn58an</parentUri>-->
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vn58an/</textfilesdir>
+    <!--<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/vn58an/</textfilesdir>-->
     <questionListSource>Badius 1520</questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -601,6 +603,10 @@
     <div id="vn58an-d1e1215" alias="vn58an-a14">
       <head>Articulus 14</head>
       <questionTitle>De modo tradendi theologiam</questionTitle>
+      <item id="vn58an-qwwa14" alias="vn58an-a14prae">
+        <fileName filestem="vn58an-qwwa14"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1223" alias="vn58an-a14q1">
         <fileName filestem="vn58an-d1e1223"/>
         <title>Quaestio 1</title>
@@ -615,6 +621,10 @@
     <div id="vn58an-d1e1246" alias="vn58an-a15">
       <head>Articulus 15</head>
       <questionTitle>De modo exponendi hanc scientiam ex parte ipsius scientiae</questionTitle>
+      <item id="vn58an-qwwa15" alias="vn58an-a15prae">
+        <fileName filestem="vn58an-qwwa15"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1254" alias="vn58an-a15q1">
         <fileName filestem="vn58an-d1e1254"/>
         <title>Quaestio 1</title>
@@ -634,6 +644,10 @@
     <div id="vn58an-d1e1288" alias="vn58an-a16">
       <head>Articulus 16</head>
       <questionTitle>De modo exponendi theologiam ex parte ipsius expositionis</questionTitle>
+      <item id="vn58an-qwwa16" alias="vn58an-a16prae">
+        <fileName filestem="vn58an-qwwa16"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1296" alias="vn58an-a16q1">
         <fileName filestem="vn58an-d1e1296"/>
         <title>Quaestio 1</title>
@@ -683,6 +697,10 @@
     <div id="vn58an-d1e1397" alias="vn58an-a17">
       <head>Articulus 17</head>
       <questionTitle>De modo exponendi istam scientiam videlicet theologiam ex parte eius</questionTitle>
+      <item id="vn58an-qwwa17" alias="vn58an-a17prae">
+        <fileName filestem="vn58an-qwwa17"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1405" alias="vn58an-a17q1">
         <fileName filestem="vn58an-d1e1405"/>
         <title>Quaestio 1</title>
@@ -697,6 +715,10 @@
     <div id="vn58an-d1e1429" alias="vn58an-a18">
       <head>Articulus 18</head>
       <questionTitle>De expositore theologiae</questionTitle>
+      <item id="vn58an-qwwa18" alias="vn58an-a18prae">
+        <fileName filestem="vn58an-qwwa18"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1437" alias="vn58an-a18q1">
         <fileName filestem="vn58an-d1e1437"/>
         <title>Quaestio 1</title>
@@ -716,7 +738,11 @@
     <div id="vn58an-d1e1471" alias="vn58an-a19">
       <head>Articulus 19</head>
       <questionTitle>De casu materiali theologiae</questionTitle>
-      <item id="vn58an-d1e1479" alias="vn58an-a19q1">
+      <item id="vn58an-qwwa19" alias="vn58an-a19prae">
+        <fileName filestem="vn58an-qwwa19"/>
+        <title>Praeambulum</title>
+      </item>
+      <item  alias="vn58an-a19q1">
         <fileName filestem="vn58an-d1e1479"/>
         <title>Quaestio 1</title>
         <questionTitle>De quo est theologia ut de subiecto: utrum de Deo an de aliquo alio</questionTitle>
@@ -730,6 +756,10 @@
     <div id="vn58an-d1e1502" alias="vn58an-a20">
       <head>Articulus 20</head>
       <questionTitle>Quomodo in theologia de Deo et de divinis locutio sit habenda, et quomodo intellecta de eis sit exponenda</questionTitle>
+      <item id="vn58an-qwwa20" alias="vn58an-a20prae">
+        <fileName filestem="vn58an-qwwa20"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1510" alias="vn58an-a20q1">
         <fileName filestem="vn58an-d1e1510"/>
         <title>Quaestio 1</title>
@@ -754,6 +784,10 @@
     <div id="vn58an-d1e1556" alias="vn58an-a21">
       <head>Articulus 21</head>
       <questionTitle>De Deo, an sit in se et absolute</questionTitle>
+      <item id="vn58an-qwwa21" alias="vn58an-a21prae">
+        <fileName filestem="vn58an-qwwa21"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1564" alias="vn58an-a21q1">
         <fileName filestem="vn58an-d1e1564"/>
         <title>Quaestio 1</title>
@@ -783,6 +817,10 @@
     <div id="vn58an-d1e1621" alias="vn58an-a22">
       <head>Articulus 22</head>
       <questionTitle>De Deo: an Deus sit in comparatione ad nostram notitiam</questionTitle>
+      <item id="vn58an-qwwa22" alias="vn58an-a22prae">
+        <fileName filestem="vn58an-qwwa22"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1629" alias="vn58an-a22q1">
         <fileName filestem="vn58an-d1e1629"/>
         <title>Quaestio 1</title>
@@ -817,6 +855,10 @@
     <div id="vn58an-d1e1697" alias="vn58an-a23">
       <head>Articulus 23</head>
       <questionTitle>De quiditate Dei in comparatione ad ipsum Deum</questionTitle>
+      <item id="vn58an-qwwa23" alias="vn58an-a23prae">
+        <fileName filestem="vn58an-qwwa23"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1705" alias="vn58an-a23q1">
         <fileName filestem="vn58an-d1e1705"/>
         <title>Quaestio 1</title>
@@ -831,6 +873,10 @@
     <div id="vn58an-d1e1729" alias="vn58an-a24">
       <head>Articulus 24</head>
       <questionTitle>De quiditate Dei in comparatione ad nostram</questionTitle>
+      <item id="vn58an-qwwa24" alias="vn58an-a24prae">
+        <fileName filestem="vn58an-qwwa24"/>
+        <title>Praeambulum</title>
+      </item>
       <item id="vn58an-d1e1737" alias="vn58an-a24q1">
         <fileName filestem="vn58an-d1e1737"/>
         <title>Quaestio 1</title>
