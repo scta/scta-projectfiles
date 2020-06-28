@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
   <header>
     <authorName>John Mair</authorName>
     <commentaryName>In Quartum Sententiarum</commentaryName>
@@ -6,9 +9,7 @@
     <commentaryslug>jMqv4a</commentaryslug>
     <alias>MairCommentariusInLibrumIV</alias>
     <authorUri>http://scta.info/resource/JohnMair</authorUri>
-    <parentUri>http://scta.info/resource/jMqv4a</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/jMqv4a/</textfilesdir>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -2615,7 +2616,7 @@
       <item id="jMqv4a-d1e1544" alias="l4d36q1">
         <fileName filestem="jMqv4a-d1e1544"/>
         <title>Quaestio 1</title>
-        <questionTitle/>
+        <questionTitle>An servitus impediat matrimonium</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-Bda113">
             <folio>290r</folio>
@@ -3585,7 +3586,7 @@
       <item id="jMqv4a-d1e1982" alias="l4d49q12">
         <fileName filestem="jMqv4a-d1e1982"/>
         <title>Quaestio 12</title>
-        <questionTitle/>
+        <questionTitle>An beatitudo sit perpetua</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-Bda113">
             <folio>370r</folio>
@@ -3673,7 +3674,7 @@
       <item id="jMqv4a-d1e2019" alias="l4d49q19">
         <fileName filestem="jMqv4a-d1e2019"/>
         <title>Quaestio 19</title>
-        <questionTitle/>
+        <questionTitle>Utrum dotem claritatis habeant beati</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-Bda113">
             <folio>377r</folio>
