@@ -2,813 +2,1045 @@
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-    <authorName>Anselm</authorName>
-    <commentaryName>Monologion</commentaryName>
-    <commentaryid>anselmmonologion</commentaryid>
-    <commentaryslug>adcmon</commentaryslug>
-    <authorUri>http://scta.info/resource/Anselm</authorUri>
-    <parentUri>http://scta.info/resource/anselmmonologion</parentUri>
-    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anselmmonologion/</textfilesdir>
-    <questionListSource/>
-    <questionListOriginalEditor/>
-    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses>
-      <witness id="cod-Sv1Sv1">
-        <slug>cod-Sv1Sv1</slug> <!--needs to be created -->
-        <title>Seckau 1938</title>
-        <initial>cod-Sv1Sv1</initial>
-        <!--https://archive.org/details/sanselmicantuari01anse-->
-        <!-- <editor></editor> Schmitt; needs person id -->
-      </witness>
-      <witness id="cod-bxf3wa">
-        <slug>cod-bxf3wa</slug>
-        <title>Paris, ms. lat 13413</title>
-        <initial>cod-bxf3wa</initial>
-      </witness>
-    </hasWitnesses>
-    <!-- corrected ocr version available here: http://individual.utoronto.ca/pking/resources/anselm/Monologion.txt -->
+      <authorName>Anselm</authorName>
+      <commentaryName>Monologion</commentaryName>
+      <commentaryid>anselmmonologion</commentaryid>
+      <commentaryslug>adcmon</commentaryslug>
+      <authorUri>http://scta.info/resource/Anselm</authorUri>
+      <parentUri>http://scta.info/resource/anselmmonologion</parentUri>
+      <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/anselmmonologion/</textfilesdir>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-Sv1Sv1">
+            <slug>cod-Sv1Sv1</slug> 
+            <!--needs to be created -->
+            <title>Seckau 1938</title>
+            <initial>cod-Sv1Sv1</initial>
+            <!--https://archive.org/details/sanselmicantuari01anse-->
+           <editor>http://scta.info/resource/per-vnv4a4</editor> 
+         </witness>
+         <witness id="cod-bxf3wa">
+            <slug>cod-bxf3wa</slug>
+            <title>Paris, ms. lat 13413</title>
+            <initial>cod-bxf3wa</initial>
+         </witness>
+      </hasWitnesses>
+      <!-- corrected ocr version available here: http://individual.utoronto.ca/pking/resources/anselm/Monologion.txt -->
   </header>
   <div id="body">
-    <head>Monologion</head>
-    <item id="adcmon-asdfsf">
-      <fileName filestem="adcmon-asdfsf"/>
-      <title/>
-      <questionTitle/>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-bsdfsf">
-      <fileName filestem="adcmon-bsdfsf"/>
-      <title/>
-      <questionTitle/>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-csdfsf">
-      <fileName filestem="adcmon-csdfsf"/>
-      <title>Prologus</title>
-      <questionTitle/>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c1">
-      <fileName filestem="adcmon-c1"/>
-      <title>Capitulum 1</title>
-      <questionTitle> Quod sit quiddam optimum et maximum et summum omnium quae sunt </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c2">
-      <fileName filestem="adcmon-c2"/>
-      <title>Capitulum 2</title>
-      <questionTitle>De eadem re.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c3">
-      <fileName filestem="adcmon-c3"/>
-      <title>Capitulum 3</title>
-      <questionTitle> Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, et
+      <head>Monologion</head>
+      <item id="adcmon-asdfsf">
+         <fileName filestem="adcmon-asdfsf"/>
+         <title/>
+         <questionTitle/>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>5</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-bsdfsf">
+         <fileName filestem="adcmon-bsdfsf"/>
+         <title>Epistola ad Lanfrancum archiepiscopum</title>
+         <questionTitle/>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+              <folio>5</folio> 
+              <folio>6</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-csdfsf">
+         <fileName filestem="adcmon-csdfsf"/>
+         <title>Prologus</title>
+         <questionTitle/>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>7</folio>
+               <folio>8</folio>
+               <folio>9</folio>
+               <folio>10</folio>
+               <folio>11</folio>
+               <folio>12</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c1">
+         <fileName filestem="adcmon-c1"/>
+         <title>Capitulum 1</title>
+         <questionTitle> Quod sit quiddam optimum et maximum et summum omnium quae sunt </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>13</folio>
+               <folio>14</folio>
+               <folio>15</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c2">
+         <fileName filestem="adcmon-c2"/>
+         <title>Capitulum 2</title>
+         <questionTitle>De eadem re.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>15</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c3">
+         <fileName filestem="adcmon-c3"/>
+         <title>Capitulum 3</title>
+         <questionTitle> Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, et
         est summum omnium quae sunt. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c4">
-      <fileName filestem="adcmon-c4"/>
-      <title>Capitulum 4</title>
-      <questionTitle>De eadem re.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c5">
-      <fileName filestem="adcmon-c5"/>
-      <title>Capitulum 5</title>
-      <questionTitle> Quod, sicut illa est per se et alia per illam, ita sit ex se et alia ex illa. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c6">
-      <fileName filestem="adcmon-c6"/>
-      <title>Capitulum 6</title>
-      <questionTitle> Quod illa non sit ulla iuvante causa ducta ad esse, nec tamen sit per nihil
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>15</folio>
+               <folio>16</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c4">
+         <fileName filestem="adcmon-c4"/>
+         <title>Capitulum 4</title>
+         <questionTitle>De eadem re.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>16</folio>
+               <folio>17</folio>
+               <folio>18</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c5">
+         <fileName filestem="adcmon-c5"/>
+         <title>Capitulum 5</title>
+         <questionTitle> Quod, sicut illa est per se et alia per illam, ita sit ex se et alia ex illa. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>18</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c6">
+         <fileName filestem="adcmon-c6"/>
+         <title>Capitulum 6</title>
+         <questionTitle> Quod illa non sit ulla iuvante causa ducta ad esse, nec tamen sit per nihil
         aut ex nihilo; et quomodo intelligi possit esse per se et ex se. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c7">
-      <fileName filestem="adcmon-c7"/>
-      <title>Capitulum 7</title>
-      <questionTitle>Quomodo omnia alia sint per illam et ex illa.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c8">
-      <fileName filestem="adcmon-c8"/>
-      <title>Capitulum 8</title>
-      <questionTitle>Quomodo intelligendum sit, quia fecit omnia ex nihilo.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c9">
-      <fileName filestem="adcmon-c9"/>
-      <title>Capitulum 9</title>
-      <questionTitle> Quod ea quae facta sunt de nihilo, non nihil erant, antequam fierent, quantum
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>18</folio>
+               <folio>19</folio>
+               <folio>20</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c7">
+         <fileName filestem="adcmon-c7"/>
+         <title>Capitulum 7</title>
+         <questionTitle>Quomodo omnia alia sint per illam et ex illa.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>20</folio>
+               <folio>21</folio>
+               <folio>22</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c8">
+         <fileName filestem="adcmon-c8"/>
+         <title>Capitulum 8</title>
+         <questionTitle>Quomodo intelligendum sit, quia fecit omnia ex nihilo.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>22</folio>
+               <folio>23</folio>
+               <folio>24</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c9">
+         <fileName filestem="adcmon-c9"/>
+         <title>Capitulum 9</title>
+         <questionTitle> Quod ea quae facta sunt de nihilo, non nihil erant, antequam fierent, quantum
         ad rationem facientis. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c10">
-      <fileName filestem="adcmon-c10"/>
-      <title>Capitulum 10</title>
-      <questionTitle> Quod illa ratio sit quaedam rerum locutio, sicut faber prius apud se dicit,
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>24</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c10">
+         <fileName filestem="adcmon-c10"/>
+         <title>Capitulum 10</title>
+         <questionTitle> Quod illa ratio sit quaedam rerum locutio, sicut faber prius apud se dicit,
         quod facturus est. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c11">
-      <fileName filestem="adcmon-c11"/>
-      <title>Capitulum 11</title>
-      <questionTitle>Quod tamen multa sit in hac similitudine dissimilitudo.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c12">
-      <fileName filestem="adcmon-c12"/>
-      <title>Capitulum 12</title>
-      <questionTitle> Quod haec summae essentiae locutio sit summa essentia. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c13">
-      <fileName filestem="adcmon-c13"/>
-      <title>Capitulum 13</title>
-      <questionTitle> Quod, sicut omnia per summam essentiam facta sunt, ita vigeant per ipsam. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c14">
-      <fileName filestem="adcmon-c14"/>
-      <title>Capitulum 14</title>
-      <questionTitle> Quod illa sit in omnibus et per omnia, et omnia sint ex illa et per illam et
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>25</folio>
+               <folio>26</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c11">
+         <fileName filestem="adcmon-c11"/>
+         <title>Capitulum 11</title>
+         <questionTitle>Quod tamen multa sit in hac similitudine dissimilitudo.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>27</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c12">
+         <fileName filestem="adcmon-c12"/>
+         <title>Capitulum 12</title>
+         <questionTitle> Quod haec summae essentiae locutio sit summa essentia. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>27</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c13">
+         <fileName filestem="adcmon-c13"/>
+         <title>Capitulum 13</title>
+         <questionTitle> Quod, sicut omnia per summam essentiam facta sunt, ita vigeant per ipsam. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>28</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c14">
+         <fileName filestem="adcmon-c14"/>
+         <title>Capitulum 14</title>
+         <questionTitle> Quod illa sit in omnibus et per omnia, et omnia sint ex illa et per illam et
         in illa. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c15">
-      <fileName filestem="adcmon-c15"/>
-      <title>Capitulum 15</title>
-      <questionTitle>Quid possit aut non possit dici de illa substantialiter.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c16">
-      <fileName filestem="adcmon-c16"/>
-      <title>Capitulum 16</title>
-      <questionTitle> Quod idem sit illi esse iustam, quod est esse iustitiam; et eodem modo de iis
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>28</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c15">
+         <fileName filestem="adcmon-c15"/>
+         <title>Capitulum 15</title>
+         <questionTitle>Quid possit aut non possit dici de illa substantialiter.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>28</folio>
+               <folio>29</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c16">
+         <fileName filestem="adcmon-c16"/>
+         <title>Capitulum 16</title>
+         <questionTitle> Quod idem sit illi esse iustam, quod est esse iustitiam; et eodem modo de iis
         quae similiter de illa dici possunt; et quod nihil horum monstret, qualis illa vel quanta
         sit, sed quid sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c17">
-      <fileName filestem="adcmon-c17"/>
-      <title>Capitulum 17</title>
-      <questionTitle> Quod ita sit simplex, ut omnia quae de eius essentia dici possunt, unum
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>30</folio>
+               <folio>31</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c17">
+         <fileName filestem="adcmon-c17"/>
+         <title>Capitulum 17</title>
+         <questionTitle> Quod ita sit simplex, ut omnia quae de eius essentia dici possunt, unum
         idemque in illa sint, et nihil de ea dici possit substantialiter nisi in eo quod quid est. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c18">
-      <fileName filestem="adcmon-c18"/>
-      <title>Capitulum 18</title>
-      <questionTitle>Quod sit sine principio et sine fine.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c19">
-      <fileName filestem="adcmon-c19"/>
-      <title>Capitulum 19</title>
-      <questionTitle>Quomodo nihil fuit ante aut erit post illam.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c20">
-      <fileName filestem="adcmon-c20"/>
-      <title>Capitulum 20</title>
-      <questionTitle>Quod illa sit in omni loco et tempore.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c21">
-      <fileName filestem="adcmon-c21"/>
-      <title>Capitulum 21</title>
-      <questionTitle>Quod in nullo sit loco aut tempore.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c22">
-      <fileName filestem="adcmon-c22"/>
-      <title>Capitulum 22</title>
-      <questionTitle>Quomodo sit in omni et in nullo loco et tempore.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c23">
-      <fileName filestem="adcmon-c23"/>
-      <title>Capitulum 23</title>
-      <questionTitle>Quomodo melius intellegi possit esse ubique quam in omni loco.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c24">
-      <fileName filestem="adcmon-c24"/>
-      <title>Capitulum 24</title>
-      <questionTitle> Quomodo melius intelligi possit esse semper quam in omni tempore. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c25">
-      <fileName filestem="adcmon-c25"/>
-      <title>Capitulum 25</title>
-      <questionTitle>Quod nullis mutabilis sit accidentibus.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c26">
-      <fileName filestem="adcmon-c26"/>
-      <title>Capitulum 26</title>
-      <questionTitle> Quomodo illa dicenda sit esse substantia, et quod sit extra omnem substantiam,
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>31</folio>
+               <folio>32</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c18">
+         <fileName filestem="adcmon-c18"/>
+         <title>Capitulum 18</title>
+         <questionTitle>Quod sit sine principio et sine fine.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>32</folio>
+               <folio>33</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c19">
+         <fileName filestem="adcmon-c19"/>
+         <title>Capitulum 19</title>
+         <questionTitle>Quomodo nihil fuit ante aut erit post illam.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>33</folio>
+               <folio>34</folio>
+               <folio>35</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c20">
+         <fileName filestem="adcmon-c20"/>
+         <title>Capitulum 20</title>
+         <questionTitle>Quod illa sit in omni loco et tempore.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>35</folio>
+               <folio>36</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c21">
+         <fileName filestem="adcmon-c21"/>
+         <title>Capitulum 21</title>
+         <questionTitle>Quod in nullo sit loco aut tempore.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>36</folio>
+               <folio>37</folio>
+               <folio>38</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c22">
+         <fileName filestem="adcmon-c22"/>
+         <title>Capitulum 22</title>
+         <questionTitle>Quomodo sit in omni et in nullo loco et tempore.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>39</folio>
+               <folio>40</folio>
+               <folio>41</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c23">
+         <fileName filestem="adcmon-c23"/>
+         <title>Capitulum 23</title>
+         <questionTitle>Quomodo melius intellegi possit esse ubique quam in omni loco.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>41</folio>
+               <folio>42</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c24">
+         <fileName filestem="adcmon-c24"/>
+         <title>Capitulum 24</title>
+         <questionTitle> Quomodo melius intelligi possit esse semper quam in omni tempore. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>42</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c25">
+         <fileName filestem="adcmon-c25"/>
+         <title>Capitulum 25</title>
+         <questionTitle>Quod nullis mutabilis sit accidentibus.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>43</folio>
+               <folio>44</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c26">
+         <fileName filestem="adcmon-c26"/>
+         <title>Capitulum 26</title>
+         <questionTitle> Quomodo illa dicenda sit esse substantia, et quod sit extra omnem substantiam,
         et singulariter sit quidquid est. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c27">
-      <fileName filestem="adcmon-c27"/>
-      <title>Capitulum 27</title>
-      <questionTitle> Quod non contineatur in communi tractatu substantiarum, et tamen sit
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>44</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c27">
+         <fileName filestem="adcmon-c27"/>
+         <title>Capitulum 27</title>
+         <questionTitle> Quod non contineatur in communi tractatu substantiarum, et tamen sit
         substantia et individuus spiritus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c28">
-      <fileName filestem="adcmon-c28"/>
-      <title>Capitulum 28</title>
-      <questionTitle>Quod idem spiritus simpliciter sit, et creata illi comparata non
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>45</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c28">
+         <fileName filestem="adcmon-c28"/>
+         <title>Capitulum 28</title>
+         <questionTitle>Quod idem spiritus simpliciter sit, et creata illi comparata non
         sint.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c29">
-      <fileName filestem="adcmon-c29"/>
-      <title>Capitulum 29</title>
-      <questionTitle> Quod eius locutio idipsum sit quod ipse, nec tamen sint duo, sed unus
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>45</folio>
+               <folio>46</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c29">
+         <fileName filestem="adcmon-c29"/>
+         <title>Capitulum 29</title>
+         <questionTitle> Quod eius locutio idipsum sit quod ipse, nec tamen sint duo, sed unus
         spiritus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c30">
-      <fileName filestem="adcmon-c30"/>
-      <title>Capitulum 30</title>
-      <questionTitle>Quod eadem locutio non constet pluribus verbis, sed sit unum
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>47</folio>
+               <folio>48</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c30">
+         <fileName filestem="adcmon-c30"/>
+         <title>Capitulum 30</title>
+         <questionTitle>Quod eadem locutio non constet pluribus verbis, sed sit unum
         verbum.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c31">
-      <fileName filestem="adcmon-c31"/>
-      <title>Capitulum 31</title>
-      <questionTitle> Quod ipsum verbum non sit similitudo factorum, sed veritas essentiae, facta
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>48</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c31">
+         <fileName filestem="adcmon-c31"/>
+         <title>Capitulum 31</title>
+         <questionTitle> Quod ipsum verbum non sit similitudo factorum, sed veritas essentiae, facta
         vero sint aliqua veritatis imitatio; et quae naturae magis sint quam aliae et
         praestantiores. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c32">
-      <fileName filestem="adcmon-c32"/>
-      <title>Capitulum 32</title>
-      <questionTitle> Quod summus spiritus seipsum dicat coaeterno verbo. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c33">
-      <fileName filestem="adcmon-c33"/>
-      <title>Capitulum 33</title>
-      <questionTitle>Quod uno verbo dicat se et quod fecit.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c34">
-      <fileName filestem="adcmon-c34"/>
-      <title>Capitulum 34</title>
-      <questionTitle> Quomodo suo verbo videri possit dicere creaturam. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c35">
-      <fileName filestem="adcmon-c35"/>
-      <title>Capitulum 35</title>
-      <questionTitle> Quod, quidquid factum esi, in eius verbo et scientia sit vita et veritas. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c36">
-      <fileName filestem="adcmon-c36"/>
-      <title>Capitulum 36</title>
-      <questionTitle> Quam incomprehensibili modo dicat vel sciat res a se factas. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c37">
-      <fileName filestem="adcmon-c37"/>
-      <title>Capitulum 37</title>
-      <questionTitle> Quod, quidquid ipse est ad creaturam, hoc sit et verbum eius; nec tamen ambo
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>48</folio>
+               <folio>49</folio>
+               <folio>50</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c32">
+         <fileName filestem="adcmon-c32"/>
+         <title>Capitulum 32</title>
+         <questionTitle> Quod summus spiritus seipsum dicat coaeterno verbo. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>50</folio>
+               <folio>51</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c33">
+         <fileName filestem="adcmon-c33"/>
+         <title>Capitulum 33</title>
+         <questionTitle>Quod uno verbo dicat se et quod fecit.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>51</folio>
+               <folio>52</folio>
+               <folio>53</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c34">
+         <fileName filestem="adcmon-c34"/>
+         <title>Capitulum 34</title>
+         <questionTitle> Quomodo suo verbo videri possit dicere creaturam. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>53</folio>
+               <folio>54</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c35">
+         <fileName filestem="adcmon-c35"/>
+         <title>Capitulum 35</title>
+         <questionTitle> Quod, quidquid factum esi, in eius verbo et scientia sit vita et veritas. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>54</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c36">
+         <fileName filestem="adcmon-c36"/>
+         <title>Capitulum 36</title>
+         <questionTitle> Quam incomprehensibili modo dicat vel sciat res a se factas. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>54</folio>
+               <folio>55</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c37">
+         <fileName filestem="adcmon-c37"/>
+         <title>Capitulum 37</title>
+         <questionTitle> Quod, quidquid ipse est ad creaturam, hoc sit et verbum eius; nec tamen ambo
         simul pluraliter. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c38">
-      <fileName filestem="adcmon-c38"/>
-      <title>Capitulum 38</title>
-      <questionTitle> Quod dici non possit, quid duo sint, quamvis necesse sit esse duos. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c39">
-      <fileName filestem="adcmon-c39"/>
-      <title>Capitulum 39</title>
-      <questionTitle> Quod idem verbum sit a summo spiritu nascendo. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c40">
-      <fileName filestem="adcmon-c40"/>
-      <title>Capitulum 40</title>
-      <questionTitle> Quod verissime ille sit parens et illud proles. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c41">
-      <fileName filestem="adcmon-c41"/>
-      <title>Capitulum 41</title>
-      <questionTitle>Quod ille verissime gignat, illud gignatur.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c42">
-      <fileName filestem="adcmon-c42"/>
-      <title>Capitulum 42</title>
-      <questionTitle> Quod alterius verissime sit esse genitorem et patrem, alterius genitum et
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>55</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c38">
+         <fileName filestem="adcmon-c38"/>
+         <title>Capitulum 38</title>
+         <questionTitle> Quod dici non possit, quid duo sint, quamvis necesse sit esse duos. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>56</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c39">
+         <fileName filestem="adcmon-c39"/>
+         <title>Capitulum 39</title>
+         <questionTitle> Quod idem verbum sit a summo spiritu nascendo. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>57</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c40">
+         <fileName filestem="adcmon-c40"/>
+         <title>Capitulum 40</title>
+         <questionTitle> Quod verissime ille sit parens et illud proles. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>57</folio>
+               <folio>58</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c41">
+         <fileName filestem="adcmon-c41"/>
+         <title>Capitulum 41</title>
+         <questionTitle>Quod ille verissime gignat, illud gignatur.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>58</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c42">
+         <fileName filestem="adcmon-c42"/>
+         <title>Capitulum 42</title>
+         <questionTitle> Quod alterius verissime sit esse genitorem et patrem, alterius genitum et
         filium. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c43">
-      <fileName filestem="adcmon-c43"/>
-      <title>Capitulum 43</title>
-      <questionTitle>Retractatio communionis amborum et proprietatum singulorum.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c44">
-      <fileName filestem="adcmon-c44"/>
-      <title>Capitulum 44</title>
-      <questionTitle> Quomodo alter alterius sit essentia. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c45">
-      <fileName filestem="adcmon-c45"/>
-      <title>Capitulum 45</title>
-      <questionTitle> Quod aptius dici possit filius essentia patris quam pater filii; et quod
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>58</folio>
+               <folio>59</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c43">
+         <fileName filestem="adcmon-c43"/>
+         <title>Capitulum 43</title>
+         <questionTitle>Retractatio communionis amborum et proprietatum singulorum.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>59</folio>
+               <folio>60</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c44">
+         <fileName filestem="adcmon-c44"/>
+         <title>Capitulum 44</title>
+         <questionTitle> Quomodo alter alterius sit essentia. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>60</folio>
+               <folio>61</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c45">
+         <fileName filestem="adcmon-c45"/>
+         <title>Capitulum 45</title>
+         <questionTitle> Quod aptius dici possit filius essentia patris quam pater filii; et quod
         similiter sit filius patris virtus et sapientia et similia. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c46">
-      <fileName filestem="adcmon-c46"/>
-      <title>Capitulum 46</title>
-      <questionTitle> Quomodo quaedam ex iis quae sic proferuntur, aliter quoque possint intelligi. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c47">
-      <fileName filestem="adcmon-c47"/>
-      <title>Capitulum 47</title>
-      <questionTitle> Quod filius sit intelligentia intelligentiae et veritas veritatis et similiter
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>61</folio>
+               <folio>62</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c46">
+         <fileName filestem="adcmon-c46"/>
+         <title>Capitulum 46</title>
+         <questionTitle> Quomodo quaedam ex iis quae sic proferuntur, aliter quoque possint intelligi. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>62</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c47">
+         <fileName filestem="adcmon-c47"/>
+         <title>Capitulum 47</title>
+         <questionTitle> Quod filius sit intelligentia intelligentiae et veritas veritatis et similiter
         de similibus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c48">
-      <fileName filestem="adcmon-c48"/>
-      <title>Capitulum 48</title>
-      <questionTitle> Quod in memoria intelligatur pater9 sicut in intelligentia filius; et quomodo
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>63</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c48">
+         <fileName filestem="adcmon-c48"/>
+         <title>Capitulum 48</title>
+         <questionTitle> Quod in memoria intelligatur pater9 sicut in intelligentia filius; et quomodo
         filius sit intelligentia vel sapientia memoriae et memoria patris et memoriae. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c49">
-      <fileName filestem="adcmon-c49"/>
-      <title>Capitulum 49</title>
-      <questionTitle>Quod summus spiritus se amet.</questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c50">
-      <fileName filestem="adcmon-c50"/>
-      <title>Capitulum 50</title>
-      <questionTitle> Quod idem amor pariter procedat a patre et filio. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c51">
-      <fileName filestem="adcmon-c51"/>
-      <title>Capitulum 51</title>
-      <questionTitle> Quod uterque pari amore diligat se et alterum. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c52">
-      <fileName filestem="adcmon-c52"/>
-      <title>Capitulum 52</title>
-      <questionTitle> Quod tantus sit ipse amor, quantus est summus spiritus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c53">
-      <fileName filestem="adcmon-c53"/>
-      <title>Capitulum 53</title>
-      <questionTitle> Quod idem amor sit idipsum, quod est summus spiritus, et tamen ipse cum patre
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>63</folio>
+               <folio>64</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c49">
+         <fileName filestem="adcmon-c49"/>
+         <title>Capitulum 49</title>
+         <questionTitle>Quod summus spiritus se amet.</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>64</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c50">
+         <fileName filestem="adcmon-c50"/>
+         <title>Capitulum 50</title>
+         <questionTitle> Quod idem amor pariter procedat a patre et filio. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>65</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c51">
+         <fileName filestem="adcmon-c51"/>
+         <title>Capitulum 51</title>
+         <questionTitle> Quod uterque pari amore diligat se et alterum. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>65</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c52">
+         <fileName filestem="adcmon-c52"/>
+         <title>Capitulum 52</title>
+         <questionTitle> Quod tantus sit ipse amor, quantus est summus spiritus. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>65</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c53">
+         <fileName filestem="adcmon-c53"/>
+         <title>Capitulum 53</title>
+         <questionTitle> Quod idem amor sit idipsum, quod est summus spiritus, et tamen ipse cum patre
         ei filio unus spiritus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c54">
-      <fileName filestem="adcmon-c54"/>
-      <title>Capitulum 54</title>
-      <questionTitle> Quod totus procedat a patre, totus a filio, et tamen non sit nisi unus amor. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c55">
-      <fileName filestem="adcmon-c55"/>
-      <title>Capitulum 55</title>
-      <questionTitle> Quod non sit eorum filius. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c56">
-      <fileName filestem="adcmon-c56"/>
-      <title>Capitulum 56</title>
-      <questionTitle> Quod solus pater sit genitor et ingenitus, solus filius genitus, solus amor
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>66</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c54">
+         <fileName filestem="adcmon-c54"/>
+         <title>Capitulum 54</title>
+         <questionTitle> Quod totus procedat a patre, totus a filio, et tamen non sit nisi unus amor. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>66</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c55">
+         <fileName filestem="adcmon-c55"/>
+         <title>Capitulum 55</title>
+         <questionTitle> Quod non sit eorum filius. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>67</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c56">
+         <fileName filestem="adcmon-c56"/>
+         <title>Capitulum 56</title>
+         <questionTitle> Quod solus pater sit genitor et ingenitus, solus filius genitus, solus amor
         nec genitus nec ingenitus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c57">
-      <fileName filestem="adcmon-c57"/>
-      <title>Capitulum 57</title>
-      <questionTitle> Quod amor idem sic sit increatus et creator sicut pater et filius, et tamen
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>67</folio>
+               <folio>68</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c57">
+         <fileName filestem="adcmon-c57"/>
+         <title>Capitulum 57</title>
+         <questionTitle> Quod amor idem sic sit increatus et creator sicut pater et filius, et tamen
         ipse cum illis non tres, sed unus increatus et unus creator; et quod idem possit dici
         spiritus patris et filii. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c58">
-      <fileName filestem="adcmon-c58"/>
-      <title>Capitulum 58</title>
-      <questionTitle> Quod, sicut filius est essentia vel sapientia patris eo sensu quia habet
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>68</folio>
+               <folio>69</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c58">
+         <fileName filestem="adcmon-c58"/>
+         <title>Capitulum 58</title>
+         <questionTitle> Quod, sicut filius est essentia vel sapientia patris eo sensu quia habet
         eandem essentiam vel sapientiam quam pater, sic idem spiritus sit patris et filii essentia
         et sapientia et similia. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c59">
-      <fileName filestem="adcmon-c59"/>
-      <title>Capitulum 59</title>
-      <questionTitle> Quod pater et filius et eorum spiritus pariter sint in se invicem. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c60">
-      <fileName filestem="adcmon-c60"/>
-      <title>Capitulum 60</title>
-      <questionTitle> Quod nullus eorum alio indigeat ad memorandum vel intelligendum vel amandum,
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>69</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c59">
+         <fileName filestem="adcmon-c59"/>
+         <title>Capitulum 59</title>
+         <questionTitle> Quod pater et filius et eorum spiritus pariter sint in se invicem. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>70</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c60">
+         <fileName filestem="adcmon-c60"/>
+         <title>Capitulum 60</title>
+         <questionTitle> Quod nullus eorum alio indigeat ad memorandum vel intelligendum vel amandum,
         quia singulus quisque est memoria et intelligentia et amor et quidquid necesse est inesse
         summae essentiae. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c61">
-      <fileName filestem="adcmon-c61"/>
-      <title>Capitulum 61</title>
-      <questionTitle> Quod tamen non sint tres, sed unus seu pater seu filius sive utriusque
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>70</folio>
+               <folio>71</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c61">
+         <fileName filestem="adcmon-c61"/>
+         <title>Capitulum 61</title>
+         <questionTitle> Quod tamen non sint tres, sed unus seu pater seu filius sive utriusque
         spiritus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c62">
-      <fileName filestem="adcmon-c62"/>
-      <title>Capitulum 62</title>
-      <questionTitle> Quomodo ex his multi filii nasci videantur. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c63">
-      <fileName filestem="adcmon-c63"/>
-      <title>Capitulum 63</title>
-      <questionTitle> Quomodo non sit ibi nisi unus unius. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c64">
-      <fileName filestem="adcmon-c64"/>
-      <title>Capitulum 64</title>
-      <questionTitle> Quod hoc, licet inexplicabile sit, tamen credendum sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c65">
-      <fileName filestem="adcmon-c65"/>
-      <title>Capitulum 65</title>
-      <questionTitle> Quomodo de ineffabili re verum disputatum sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c66">
-      <fileName filestem="adcmon-c66"/>
-      <title>Capitulum 66</title>
-      <questionTitle> Quod per rationalem mentem maxime accedatur ad cognoscendum summam essentiam. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c67">
-      <fileName filestem="adcmon-c67"/>
-      <title>Capitulum 67</title>
-      <questionTitle> Quod mens ipsa speculum eius et imago eius sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c68">
-      <fileName filestem="adcmon-c68"/>
-      <title>Capitulum 68</title>
-      <questionTitle> Quod rationalis creatura ad amandum illam facta sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c69">
-      <fileName filestem="adcmon-c69"/>
-      <title>Capitulum 69</title>
-      <questionTitle> Quod anima semper illam amans aliquando vere beate vivat. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c70">
-      <fileName filestem="adcmon-c70"/>
-      <title>Capitulum 70</title>
-      <questionTitle> Quod illa se amanti seipsam retribuat. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c71">
-      <fileName filestem="adcmon-c71"/>
-      <title>Capitulum 71</title>
-      <questionTitle> Quod illam contemnens aeterne misera sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c72">
-      <fileName filestem="adcmon-c72"/>
-      <title>Capitulum 72</title>
-      <questionTitle> Quod omnis humana anima sit immortalis. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c73">
-      <fileName filestem="adcmon-c73"/>
-      <title>Capitulum 73</title>
-      <questionTitle> Quod aut semper misera aut aliquando vere beata sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c74">
-      <fileName filestem="adcmon-c74"/>
-      <title>Capitulum 74</title>
-      <questionTitle> Quod nulla anima iniuste privetur summo bono; et quod omnino ad ipsum nitendum
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>71</folio>
+               <folio>72</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c62">
+         <fileName filestem="adcmon-c62"/>
+         <title>Capitulum 62</title>
+         <questionTitle> Quomodo ex his multi filii nasci videantur. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>72</folio>
+               <folio>73</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c63">
+         <fileName filestem="adcmon-c63"/>
+         <title>Capitulum 63</title>
+         <questionTitle> Quomodo non sit ibi nisi unus unius. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>73</folio>
+               <folio>74</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c64">
+         <fileName filestem="adcmon-c64"/>
+         <title>Capitulum 64</title>
+         <questionTitle> Quod hoc, licet inexplicabile sit, tamen credendum sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>74</folio>
+               <folio>75</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c65">
+         <fileName filestem="adcmon-c65"/>
+         <title>Capitulum 65</title>
+         <questionTitle> Quomodo de ineffabili re verum disputatum sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>75</folio>
+               <folio>76</folio>
+               <folio>77</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c66">
+         <fileName filestem="adcmon-c66"/>
+         <title>Capitulum 66</title>
+         <questionTitle> Quod per rationalem mentem maxime accedatur ad cognoscendum summam essentiam. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>77</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c67">
+         <fileName filestem="adcmon-c67"/>
+         <title>Capitulum 67</title>
+         <questionTitle> Quod mens ipsa speculum eius et imago eius sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>77</folio>
+               <folio>78</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c68">
+         <fileName filestem="adcmon-c68"/>
+         <title>Capitulum 68</title>
+         <questionTitle> Quod rationalis creatura ad amandum illam facta sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>78</folio>
+               <folio>79</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c69">
+         <fileName filestem="adcmon-c69"/>
+         <title>Capitulum 69</title>
+         <questionTitle> Quod anima semper illam amans aliquando vere beate vivat. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>79</folio>
+               <folio>80</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c70">
+         <fileName filestem="adcmon-c70"/>
+         <title>Capitulum 70</title>
+         <questionTitle> Quod illa se amanti seipsam retribuat. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>80</folio>
+               <folio>81</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c71">
+         <fileName filestem="adcmon-c71"/>
+         <title>Capitulum 71</title>
+         <questionTitle> Quod illam contemnens aeterne misera sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>81</folio>
+               <folio>82</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c72">
+         <fileName filestem="adcmon-c72"/>
+         <title>Capitulum 72</title>
+         <questionTitle> Quod omnis humana anima sit immortalis. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>82</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c73">
+         <fileName filestem="adcmon-c73"/>
+         <title>Capitulum 73</title>
+         <questionTitle> Quod aut semper misera aut aliquando vere beata sit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>82</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c74">
+         <fileName filestem="adcmon-c74"/>
+         <title>Capitulum 74</title>
+         <questionTitle> Quod nulla anima iniuste privetur summo bono; et quod omnino ad ipsum nitendum
         sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c75">
-      <fileName filestem="adcmon-c75"/>
-      <title>Capitulum 75</title>
-      <questionTitle> Quod summa essentia sit speranda. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c76">
-      <fileName filestem="adcmon-c76"/>
-      <title>Capitulum 76</title>
-      <questionTitle> Quod credendum sit in illam. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c77">
-      <fileName filestem="adcmon-c77"/>
-      <title>Capitulum 77</title>
-      <questionTitle> Quod in patrem et filium et eorum spiritum pariter et in singulos et simul in
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>82</folio>
+               <folio>83</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c75">
+         <fileName filestem="adcmon-c75"/>
+         <title>Capitulum 75</title>
+         <questionTitle> Quod summa essentia sit speranda. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>83</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c76">
+         <fileName filestem="adcmon-c76"/>
+         <title>Capitulum 76</title>
+         <questionTitle> Quod credendum sit in illam. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>83</folio>
+               <folio>84</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c77">
+         <fileName filestem="adcmon-c77"/>
+         <title>Capitulum 77</title>
+         <questionTitle> Quod in patrem et filium et eorum spiritum pariter et in singulos et simul in
         tres credendum sit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c78">
-      <fileName filestem="adcmon-c78"/>
-      <title>Capitulum 78</title>
-      <questionTitle> Quae sit viva et quae mortua fides. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c79">
-      <fileName filestem="adcmon-c79"/>
-      <title>Capitulum 79</title>
-      <questionTitle> Quid tres summa essentia quodammodo dici possit. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
-    <item id="adcmon-c80">
-      <fileName filestem="adcmon-c80"/>
-      <title>Capitulum 80</title>
-      <questionTitle> Quod ipsa dominetur omnibus et regat omnia et sit solus deus. </questionTitle>
-      <hasWitnesses>
-        <witness ref="#cod-Sv1Sv1"/>
-        <witness ref="#cod-bxf3wa"/>
-      </hasWitnesses>
-    </item>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>84</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c78">
+         <fileName filestem="adcmon-c78"/>
+         <title>Capitulum 78</title>
+         <questionTitle> Quae sit viva et quae mortua fides. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>84</folio>
+               <folio>85</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c79">
+         <fileName filestem="adcmon-c79"/>
+         <title>Capitulum 79</title>
+         <questionTitle> Quid tres summa essentia quodammodo dici possit. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>85</folio>
+               <folio>86</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
+      <item id="adcmon-c80">
+         <fileName filestem="adcmon-c80"/>
+         <title>Capitulum 80</title>
+         <questionTitle> Quod ipsa dominetur omnibus et regat omnia et sit solus deus. </questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-Sv1Sv1">
+               <folio>86</folio>
+               <folio>87</folio>
+            </witness>
+            <witness ref="#cod-bxf3wa"/>
+         </hasWitnesses>
+      </item>
   </div>
 </listofFileNames>
