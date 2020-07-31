@@ -1,1117 +1,1122 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
   <header>
-    <authorName>John Mair</authorName>
-    <commentaryName>In Primum Sententiarum (Redactio A)</commentaryName>
-    <commentaryid>jm12w4</commentaryid>
-    <commentaryslug>jm12w4</commentaryslug>
-    <alias>MairCommentariusInLibrumI-A</alias>
-    <authorUri>http://scta.info/resource/JohnMair</authorUri>
-    <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
-    <questionListSource/>
-    <questionListOriginalEditor/>
-    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses>
-      <witness id="cod-jmUUUK">
-        <slug>cod-jmUUUK</slug>
-        <title>Paris 1519 </title>
-        <initial>cod-jmUUUK</initial>
-        <editor>http://scta.info/resource/per-jbad3d</editor>
-        <!-- Badius -->
-      </witness>
-      <!-- 1510 version is also part of redaction A -->
-    </hasWitnesses>
+      <authorName>John Mair</authorName>
+      <commentaryName>In Primum Sententiarum (Redactio A)</commentaryName>
+      <commentaryid>jm12w4</commentaryid>
+      <commentaryslug>jm12w4</commentaryslug>
+      <alias>MairCommentariusInLibrumI-A</alias>
+      <authorUri>http://scta.info/resource/JohnMair</authorUri>
+      <parentWorkGroup>http://scta.info/resource/sententia</parentWorkGroup>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-jmUUUK">
+            <slug>cod-jmUUUK</slug>
+            <title>Paris 1519 </title>
+            <initial>cod-jmUUUK</initial>
+            <editor>http://scta.info/resource/per-jbad3d</editor>
+            <!-- Badius -->
+         </witness>
+         <!-- 1510 version is also part of redaction A -->
+      </hasWitnesses>
   </header>
   <div id="body">
-    <head>In Primum Sententiarum (Redactio A)</head>
-    <div id="jm12w4-d1e68" alias="l1prol" type="liber1-prologus">
-      <head>Prologus</head>
-      <item id="jm12w4-e3ad4g" alias="l1prolpro">
-        <fileName filestem="jm12w4-e3ad4g"/>
-        <title>Prooemium</title>
-        <questionTitle/>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>1r</folio>
-            <folio>1v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e11756" alias="l1prolq1">
-        <fileName filestem="jm12w4-e11756"/>
-        <title>Quaestio 1</title>
-        <questionTitle>Quomodo viator possit acquirere fidem</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>1v</folio>
-            <folio>2r</folio>
-            <folio>2v</folio>
-            <folio>3r</folio>
-            <folio>3v</folio>
-            <folio>4r</folio>
-            <folio>4v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e22015" alias="l1prolq2">
-        <fileName filestem="jm12w4-e22015"/>
-        <title>Quaestio 2</title>
-        <questionTitle>Utrum propositio mentalis componatur ex pluribus partialibus notitiis quarum
+      <head>In Primum Sententiarum (Redactio A)</head>
+      <div id="jm12w4-d1e68" alias="l1prol" type="liber1-prologus">
+         <head>Prologus</head>
+         <item id="jm12w4-e3ad4g" alias="l1prolpro">
+            <fileName filestem="jm12w4-e3ad4g"/>
+            <title>Prooemium</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>1r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e11756" alias="l1prolq1">
+            <fileName filestem="jm12w4-e11756"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Quomodo viator possit acquirere fidem</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>1r</folio>
+                  <folio>1v</folio>
+                  <folio>2r</folio>
+                  <folio>2v</folio>
+                  <folio>3r</folio>
+                  <folio>3v</folio>
+                  <folio>4r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e22015" alias="l1prolq2">
+            <fileName filestem="jm12w4-e22015"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum propositio mentalis componatur ex pluribus partialibus notitiis quarum
           una est subiectum, alia copula, et alia praedicatum?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>4v</folio>
-            <folio>5r</folio>
-            <folio>5v</folio>
-            <folio>6r</folio>
-            <folio>6v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e35095" alias="l1prolq3">
-        <fileName filestem="jm12w4-e35095"/>
-        <title>Quaestio 3</title>
-        <questionTitle> An sit possibile intellectum viatoris habere evidentiam de veritatibus
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>4r</folio>
+                  <folio>4v</folio>
+                  <folio>5r</folio>
+                  <folio>5v</folio>
+                  <folio>6r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e35095" alias="l1prolq3">
+            <fileName filestem="jm12w4-e35095"/>
+            <title>Quaestio 3</title>
+            <questionTitle> An sit possibile intellectum viatoris habere evidentiam de veritatibus
           theologicis.</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>6v</folio>
-            <folio>7r</folio>
-            <folio>7v</folio>
-            <folio>8r</folio>
-            <folio>8v</folio>
-            <folio>9r</folio>
-            <folio>9v</folio>
-            <folio>10r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e54756" alias="l1prolq4">
-        <fileName filestem="jm12w4-e54756"/>
-        <title>Quaestio 4</title>
-        <questionTitle>An viator acquirat scientiam de veritatibus theologicis per discursum
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>6r</folio>
+                  <folio>6v</folio>
+                  <folio>7r</folio>
+                  <folio>7v</folio>
+                  <folio>8r</folio>
+                  <folio>8v</folio>
+                  <folio>9r</folio>
+                  <folio>9v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e54756" alias="l1prolq4">
+            <fileName filestem="jm12w4-e54756"/>
+            <title>Quaestio 4</title>
+            <questionTitle>An viator acquirat scientiam de veritatibus theologicis per discursum
           theologicum?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>10r</folio>
-            <folio>10v</folio>
-            <folio>11r</folio>
-            <folio>11v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e66726" alias="l1prolq5">
-        <fileName filestem="jm12w4-e66726"/>
-        <title>Quaestio 5</title>
-        <questionTitle> An fides et scientia se compatiantur </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>11v</folio>
-            <folio>12r</folio>
-            <folio>12v</folio>
-            <folio>13r</folio>
-            <folio>13v</folio>
-            <folio>14r</folio>
-            <folio>14v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e85986" alias="l1prolq6">
-        <fileName filestem="jm12w4-e85986"/>
-        <title>Quaestio 6</title>
-        <questionTitle> An theologia sit scientia practica an speculativa? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>14v</folio>
-            <folio>15r</folio>
-            <folio>15v</folio>
-            <folio>16r</folio>
-            <folio>16v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e98196" alias="l1prolq7">
-        <fileName filestem="jm12w4-e98196"/>
-        <title>Quaestio 7</title>
-        <questionTitle>De obiecto scientiae et fidei</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>16v</folio>
-            <folio>17r</folio>
-            <folio>17v</folio>
-            <folio>18r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e339" alias="l1d1" type="liber1-distinctio1">
-      <head>Distinctio 1</head>
-      <item id="jm12w4-e10781" alias="l1d1q1">
-        <fileName filestem="jm12w4-e10781"/>
-        <title>Quaestio 1</title>
-        <questionTitle>An omnis actus voluntatis sit usus vel fruitio?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>18r</folio>
-            <folio>18v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e11390" alias="l1d1q2">
-        <fileName filestem="jm12w4-e11390"/>
-        <title>Quaestio 2</title>
-        <questionTitle>An possimus eodem actu diligere medium et finem?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>18v</folio>
-            <folio>19r</folio>
-            <folio>19v</folio>
-            <folio>20r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e12176" alias="l1d1q3">
-        <fileName filestem="jm12w4-e12176"/>
-        <title>Quaestio 3</title>
-        <questionTitle>An plures actus possint esse in voluntate</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>20r</folio>
-            <folio>20v</folio>
-            <folio>21r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e12850" alias="l1d1q4">
-        <fileName filestem="jm12w4-e12850"/>
-        <title>Quaestio 4</title>
-        <questionTitle> An fruitio sit cognitio, et breviter an quilibet actus voluntatis sit
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>9v</folio>
+                  <folio>10r</folio>
+                  <folio>10v</folio>
+                  <folio>11r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e66726" alias="l1prolq5">
+            <fileName filestem="jm12w4-e66726"/>
+            <title>Quaestio 5</title>
+            <questionTitle> An fides et scientia se compatiantur </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>11r</folio>
+                  <folio>11v</folio>
+                  <folio>12r</folio>
+                  <folio>12v</folio>
+                  <folio>13r</folio>
+                  <folio>13v</folio>
+                  <folio>14r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e85986" alias="l1prolq6">
+            <fileName filestem="jm12w4-e85986"/>
+            <title>Quaestio 6</title>
+            <questionTitle> An theologia sit scientia practica an speculativa? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>14r</folio>
+                  <folio>14v</folio>
+                  <folio>15r</folio>
+                  <folio>15v</folio>
+                  <folio>16r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e98196" alias="l1prolq7">
+            <fileName filestem="jm12w4-e98196"/>
+            <title>Quaestio 7</title>
+            <questionTitle>De obiecto scientiae et fidei</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>16r</folio>
+                  <folio>16v</folio>
+                  <folio>17r</folio>
+                  <folio>17v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e339" alias="l1d1" type="liber1-distinctio1">
+         <head>Distinctio 1</head>
+         <item id="jm12w4-e10781" alias="l1d1q1">
+            <fileName filestem="jm12w4-e10781"/>
+            <title>Quaestio 1</title>
+            <questionTitle>An omnis actus voluntatis sit usus vel fruitio?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>17v</folio>
+                  <folio>18r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e11390" alias="l1d1q2">
+            <fileName filestem="jm12w4-e11390"/>
+            <title>Quaestio 2</title>
+            <questionTitle>An possimus eodem actu diligere medium et finem?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>18r</folio>
+                  <folio>18v</folio>
+                  <folio>19r</folio>
+                  <folio>19v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e12176" alias="l1d1q3">
+            <fileName filestem="jm12w4-e12176"/>
+            <title>Quaestio 3</title>
+            <questionTitle>An plures actus possint esse in voluntate</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>19v</folio>
+                  <folio>20r</folio>
+                  <folio>20v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e12850" alias="l1d1q4">
+            <fileName filestem="jm12w4-e12850"/>
+            <title>Quaestio 4</title>
+            <questionTitle> An fruitio sit cognitio, et breviter an quilibet actus voluntatis sit
           cognitio </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>21r</folio>
-            <folio>21v</folio>
-            <folio>22r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e13792" alias="l1d1q5">
-        <fileName filestem="jm12w4-e13792"/>
-        <title>Quaestio 5</title>
-        <questionTitle>An solo deo liceat frui, et sola creatura uti?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>22r</folio>
-            <folio>22v</folio>
-            <folio>23r</folio>
-            <folio>23v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e14702" alias="l1d1q6">
-        <fileName filestem="jm12w4-e14702"/>
-        <title>Quaestio 6</title>
-        <questionTitle> De causa dilectionis et delectationis, et quomodo inter se habent </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>23v</folio>
-            <folio>24r</folio>
-            <folio>24v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e15550" alias="l1d1q7">
-        <fileName filestem="jm12w4-e15550"/>
-        <title>Quaestio 7</title>
-        <questionTitle> An aliquis potest diligere vel cognoscere unam personam alia non cognita vel
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>20v</folio>
+                  <folio>21r</folio>
+                  <folio>21v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e13792" alias="l1d1q5">
+            <fileName filestem="jm12w4-e13792"/>
+            <title>Quaestio 5</title>
+            <questionTitle>An solo deo liceat frui, et sola creatura uti?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>21v</folio>
+                  <folio>22r</folio>
+                  <folio>22v</folio>
+                  <folio>23r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e14702" alias="l1d1q6">
+            <fileName filestem="jm12w4-e14702"/>
+            <title>Quaestio 6</title>
+            <questionTitle> De causa dilectionis et delectationis, et quomodo inter se habent </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>23r</folio>
+                  <folio>23v</folio>
+                  <folio>24r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e15550" alias="l1d1q7">
+            <fileName filestem="jm12w4-e15550"/>
+            <title>Quaestio 7</title>
+            <questionTitle> An aliquis potest diligere vel cognoscere unam personam alia non cognita vel
           dilectas </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>24v</folio>
-            <folio>25r</folio>
-            <folio>25v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e16128" alias="l1d1q8">
-        <fileName filestem="jm12w4-e16128"/>
-        <title>Quaestio 8</title>
-        <questionTitle>An voluntas sit causa libera respectu suorum actuum?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>25v</folio>
-            <folio>26r</folio>
-            <folio>26v</folio>
-            <folio>27r</folio>
-            <folio>27v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e563" alias="l1d2" type="liber1-distinctio2">
-      <head>Distinctio 2</head>
-      <item id="jm12w4-e17709" alias="l1d2q1">
-        <fileName filestem="jm12w4-e17709"/>
-        <title>Quaestio 1</title>
-        <questionTitle>An Deum esse sit per se notum, an demonstrabile a viatore</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>27v</folio>
-            <folio>28r</folio>
-            <folio>28v</folio>
-            <folio>29r</folio>
-            <folio>29v</folio>
-            <folio>30r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e19491" alias="l1d2q2">
-        <fileName filestem="jm12w4-e19491"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An in lumine naturali ostendi potest in Deo omnis imperfectionis carentia,
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>24r</folio>
+                  <folio>24v</folio>
+                  <folio>25r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e16128" alias="l1d1q8">
+            <fileName filestem="jm12w4-e16128"/>
+            <title>Quaestio 8</title>
+            <questionTitle>An voluntas sit causa libera respectu suorum actuum?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>25r</folio>
+                  <folio>25v</folio>
+                  <folio>26r</folio>
+                  <folio>26v</folio>
+                  <folio>27r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e563" alias="l1d2" type="liber1-distinctio2">
+         <head>Distinctio 2</head>
+         <item id="jm12w4-e17709" alias="l1d2q1">
+            <fileName filestem="jm12w4-e17709"/>
+            <title>Quaestio 1</title>
+            <questionTitle>An Deum esse sit per se notum, an demonstrabile a viatore</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>27r</folio>
+                  <folio>27v</folio>
+                  <folio>28r</folio>
+                  <folio>28v</folio>
+                  <folio>29r</folio>
+                  <folio>29v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e19491" alias="l1d2q2">
+            <fileName filestem="jm12w4-e19491"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An in lumine naturali ostendi potest in Deo omnis imperfectionis carentia,
           et perfectionis simpliciter positio? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>30r</folio>
-            <folio>30v</folio>
-            <folio>31r</folio>
-            <folio>31v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e634" alias="l1d3" type="liber1-distinctio3">
-      <head>Distinctio 3</head>
-      <item id="jm12w4-e20256" alias="l1d3q1">
-        <fileName filestem="jm12w4-e20256"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Deus potest creare notitiam intuitivam sine praesentia et existentia
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>30r</folio>
+                  <folio>30v</folio>
+                  <folio>31r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e634" alias="l1d3" type="liber1-distinctio3">
+         <head>Distinctio 3</head>
+         <item id="jm12w4-e20256" alias="l1d3q1">
+            <fileName filestem="jm12w4-e20256"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Deus potest creare notitiam intuitivam sine praesentia et existentia
           obiecti </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>31v</folio>
-            <folio>32r</folio>
-            <folio>32v</folio>
-            <folio>33r</folio>
-            <folio>33v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e21845" alias="l1d3q2">
-        <fileName filestem="jm12w4-e21845"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An notitia abstractiva terminatur ad idem obiectum ad quod terminabatur
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>31r</folio>
+                  <folio>31v</folio>
+                  <folio>32r</folio>
+                  <folio>32v</folio>
+                  <folio>33r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e21845" alias="l1d3q2">
+            <fileName filestem="jm12w4-e21845"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An notitia abstractiva terminatur ad idem obiectum ad quod terminabatur
           intuitiva </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>33v</folio>
-            <folio>34r</folio>
-            <folio>34v</folio>
-            <folio>35r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e22876" alias="l1d3q3">
-        <fileName filestem="jm12w4-e22876"/>
-        <title>Quaestio 3</title>
-        <questionTitle> An visibile producat species per medium ad hoc ut videatur </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>35r</folio>
-            <folio>35v</folio>
-            <folio>36r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e23694" alias="l1d3q4">
-        <fileName filestem="jm12w4-e23694"/>
-        <title>Quaestio 4</title>
-        <questionTitle>An universale prius cognoscatur quam singulare</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>36r</folio>
-            <folio>36v</folio>
-            <folio>37r</folio>
-            <folio>37v</folio>
-            <folio>38r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e760" alias="l1d4et5" type="liber1-distinctio4 liber1-distinctio5">
-      <head>Distinctio 4-5</head>
-      <item id="jm12w4-e24912" alias="l1d4et5q1">
-        <fileName filestem="jm12w4-e24912"/>
-        <title>Quaestio 1</title>
-        <questionTitle>An regulae logicales teneant in divinis?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>38r</folio>
-            <folio>38v</folio>
-            <folio>39r</folio>
-            <folio>39v</folio>
-            <folio>40r</folio>
-            <folio>40v</folio>
-            <folio>41r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e805" alias="l1d6" type="liber1-distinctio6">
-      <head>Distinctio 6</head>
-      <item id="jm12w4-e27052" alias="l1d6q1">
-        <fileName filestem="jm12w4-e27052"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Pater Filium de necessitate et naturaliter an voluntarie? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>41r</folio>
-            <folio>41v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e834" alias="l1d7" type="liber1-distinctio7">
-      <head>Distinctio 7</head>
-      <item id="jm12w4-e27266" alias="l1d7q1">
-        <fileName filestem="jm12w4-e27266"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An essentia divina sit potentia vel principium generandi Filium? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>41v</folio>
-            <folio>42r</folio>
-            <folio>42v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e866" alias="l1d8" type="liber1-distinctio8">
-      <head>Distinctio 8</head>
-      <item id="jm12w4-e27872" alias="l1d8q1">
-        <fileName filestem="jm12w4-e27872"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum perfectiones attributales distinguantur inter se? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>42v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e28202" alias="l1d8q2">
-        <fileName filestem="jm12w4-e28202"/>
-        <title>Quaestio 2</title>
-        <questionTitle>Utrum Deus sit immutabilis?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>42v</folio>
-            <folio>43r</folio>
-            <folio>43v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e28793" alias="l1d8q3">
-        <fileName filestem="jm12w4-e28793"/>
-        <title>Quaestio 3</title>
-        <questionTitle>An Deus est spiritus simplex et impartibilis</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>43v</folio>
-            <folio>44r</folio>
-            <folio>44v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e944" alias="l1d9" type="liber1-distinctio9">
-      <head>Distinctio 9</head>
-      <item id="jm12w4-e29417" alias="l1d9q1">
-        <fileName filestem="jm12w4-e29417"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Pater aliquo modo sit prior Filio? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>44v</folio>
-            <folio>45r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e973" alias="l1d8" type="liber1-distinctio10">
-      <head>Distinctio 10</head>
-      <item id="jm12w4-e29902" alias="l1d10q1">
-        <fileName filestem="jm12w4-e29902"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Spiritus Sanctus producatur libere an naturaliter? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>45r</folio>
-            <folio>45v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1003" alias="l1d11et12" type="liber1-distinctio11 liber1-distinctio11">
-      <head>Distinctio 11-12</head>
-      <item id="jm12w4-e30240" alias="l1d11et12q1">
-        <fileName filestem="jm12w4-e30240"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Spiritus Sanctus procedat a Patre et Filio? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>45v</folio>
-            <folio>46r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1032" alias="l1d13" type="liber1-distinctio13">
-      <head>Distinctio 13</head>
-      <item id="jm12w4-e30671" alias="l1d13q1">
-        <fileName filestem="jm12w4-e30671"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An processio Spiritus sancti sit generatio?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>46r</folio>
-            <folio>46v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1061" alias="l1d14-16" type="liber1-distinctio14 liber1-distinctio15 liber1-distinctio16">
-      <head>Distinctio 14-16</head>
-      <item id="jm12w4-e31029" alias="l1d14-16q1">
-        <fileName filestem="jm12w4-e31029"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum Spiritui Sancto competat duplex processio </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>46v</folio>
-            <folio>47r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1090" alias="l1d17" type="liber1-distinctio17">
-      <head>Distinctio 17</head>
-      <item id="jm12w4-e31217" alias="l1d17q1">
-        <fileName filestem="jm12w4-e31217"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An grantia creata sit viatori necessaria ad salutem? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>47r</folio>
-            <folio>47v</folio>
-            <folio>48r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e32092" alias="l1d17q2">
-        <fileName filestem="jm12w4-e32092"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An gratia active ad actum meritorium concurrat? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>48r</folio>
-            <folio>48v</folio>
-            <folio>49r</folio>
-            <folio>49v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e33151" alias="l1d17q3">
-        <fileName filestem="jm12w4-e33151"/>
-        <title>Quaestio 3</title>
-        <questionTitle> An actus elicitus a maiori gratia sit magis meritorius? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>49v</folio>
-            <folio>50r</folio>
-            <folio>50v</folio>
-            <folio>51r</folio>
-            <folio>51v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e34621" alias="l1d17q4">
-        <fileName filestem="jm12w4-e34621"/>
-        <title>Quaestio 4</title>
-        <questionTitle> An caritas acquisita inclinet in suum actum et contra, et universalius an
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>33r</folio>
+                  <folio>33v</folio>
+                  <folio>34r</folio>
+                  <folio>34v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e22876" alias="l1d3q3">
+            <fileName filestem="jm12w4-e22876"/>
+            <title>Quaestio 3</title>
+            <questionTitle> An visibile producat species per medium ad hoc ut videatur </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>34v</folio>
+                  <folio>35r</folio>
+                  <folio>35v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e23694" alias="l1d3q4">
+            <fileName filestem="jm12w4-e23694"/>
+            <title>Quaestio 4</title>
+            <questionTitle>An universale prius cognoscatur quam singulare</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>36r</folio>
+                  <folio>36v</folio>
+                  <folio>37r</folio>
+                  <folio>37v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e760"
+           alias="l1d4et5"
+           type="liber1-distinctio4 liber1-distinctio5">
+         <head>Distinctio 4-5</head>
+         <item id="jm12w4-e24912" alias="l1d4et5q1">
+            <fileName filestem="jm12w4-e24912"/>
+            <title>Quaestio 1</title>
+            <questionTitle>An regulae logicales teneant in divinis?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>37v</folio>
+                  <folio>38r</folio>
+                  <folio>38v</folio>
+                  <folio>39r</folio>
+                  <folio>39v</folio>
+                  <folio>40r</folio>
+                  <folio>40v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e805" alias="l1d6" type="liber1-distinctio6">
+         <head>Distinctio 6</head>
+         <item id="jm12w4-e27052" alias="l1d6q1">
+            <fileName filestem="jm12w4-e27052"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Pater Filium de necessitate et naturaliter an voluntarie? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>40v</folio>
+                  <folio>41r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e834" alias="l1d7" type="liber1-distinctio7">
+         <head>Distinctio 7</head>
+         <item id="jm12w4-e27266" alias="l1d7q1">
+            <fileName filestem="jm12w4-e27266"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An essentia divina sit potentia vel principium generandi Filium? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>41r</folio>
+                  <folio>41v</folio>
+                  <folio>42r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e866" alias="l1d8" type="liber1-distinctio8">
+         <head>Distinctio 8</head>
+         <item id="jm12w4-e27872" alias="l1d8q1">
+            <fileName filestem="jm12w4-e27872"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum perfectiones attributales distinguantur inter se? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e28202" alias="l1d8q2">
+            <fileName filestem="jm12w4-e28202"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum Deus sit immutabilis?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>42r</folio>
+                  <folio>42v</folio>
+                  <folio>43r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e28793" alias="l1d8q3">
+            <fileName filestem="jm12w4-e28793"/>
+            <title>Quaestio 3</title>
+            <questionTitle>An Deus est spiritus simplex et impartibilis</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>43r</folio>
+                  <folio>43v</folio>
+                  <folio>44r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e944" alias="l1d9" type="liber1-distinctio9">
+         <head>Distinctio 9</head>
+         <item id="jm12w4-e29417" alias="l1d9q1">
+            <fileName filestem="jm12w4-e29417"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Pater aliquo modo sit prior Filio? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>44r</folio>
+                  <folio>44v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e973" alias="l1d8" type="liber1-distinctio10">
+         <head>Distinctio 10</head>
+         <item id="jm12w4-e29902" alias="l1d10q1">
+            <fileName filestem="jm12w4-e29902"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Spiritus Sanctus producatur libere an naturaliter? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>44v</folio>
+                  <folio>45r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1003"
+           alias="l1d11et12"
+           type="liber1-distinctio11 liber1-distinctio11">
+         <head>Distinctio 11-12</head>
+         <item id="jm12w4-e30240" alias="l1d11et12q1">
+            <fileName filestem="jm12w4-e30240"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Spiritus Sanctus procedat a Patre et Filio? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>45r</folio>
+                  <folio>45v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1032" alias="l1d13" type="liber1-distinctio13">
+         <head>Distinctio 13</head>
+         <item id="jm12w4-e30671" alias="l1d13q1">
+            <fileName filestem="jm12w4-e30671"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An processio Spiritus sancti sit generatio?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>45v</folio>
+                  <folio>46r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1061"
+           alias="l1d14-16"
+           type="liber1-distinctio14 liber1-distinctio15 liber1-distinctio16">
+         <head>Distinctio 14-16</head>
+         <item id="jm12w4-e31029" alias="l1d14-16q1">
+            <fileName filestem="jm12w4-e31029"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum Spiritui Sancto competat duplex processio </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>46r</folio>
+                  <folio>46v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1090" alias="l1d17" type="liber1-distinctio17">
+         <head>Distinctio 17</head>
+         <item id="jm12w4-e31217" alias="l1d17q1">
+            <fileName filestem="jm12w4-e31217"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An grantia creata sit viatori necessaria ad salutem? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>46v</folio>
+                  <folio>47r</folio>
+                  <folio>47v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e32092" alias="l1d17q2">
+            <fileName filestem="jm12w4-e32092"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An gratia active ad actum meritorium concurrat? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>47v</folio>
+                  <folio>48r</folio>
+                  <folio>48v</folio>
+                  <folio>49r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e33151" alias="l1d17q3">
+            <fileName filestem="jm12w4-e33151"/>
+            <title>Quaestio 3</title>
+            <questionTitle> An actus elicitus a maiori gratia sit magis meritorius? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>49r</folio>
+                  <folio>49v</folio>
+                  <folio>50r</folio>
+                  <folio>50v</folio>
+                  <folio>51r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e34621" alias="l1d17q4">
+            <fileName filestem="jm12w4-e34621"/>
+            <title>Quaestio 4</title>
+            <questionTitle> An caritas acquisita inclinet in suum actum et contra, et universalius an
           quilibet habitus efficientiam habeat respectu actus? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>51v</folio>
-            <folio>52r</folio>
-            <folio>52v</folio>
-            <folio>53r</folio>
-            <folio>53v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e35941" alias="l1d17q5">
-        <fileName filestem="jm12w4-e35941"/>
-        <title>Quaestio 5</title>
-        <questionTitle> An aliqua qualitas naturaliter potest produci in instanti </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>53v</folio>
-            <folio>54r</folio>
-            <folio>54v</folio>
-            <folio>55r</folio>
-            <folio>55v</folio>
-            <folio>56r</folio>
-            <folio>56v</folio>
-            <folio>57r</folio>
-            <folio>57v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e38949" alias="l1d17q6">
-        <fileName filestem="jm12w4-e38949"/>
-        <title>Quaestio 6</title>
-        <questionTitle> An circumstantia temporis agumentet meritum et ex consequenti gratiam? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>57v</folio>
-            <folio>58r</folio>
-            <folio>58v</folio>
-            <folio>59r</folio>
-            <folio>59v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e40347" alias="l1d17q7">
-        <fileName filestem="jm12w4-e40347"/>
-        <title>Quaestio 7</title>
-        <questionTitle> An quis mereatur plus per actum interiorem et exteriorem iunctos quam per
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>51r</folio>
+                  <folio>51v</folio>
+                  <folio>52r</folio>
+                  <folio>52v</folio>
+                  <folio>53r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e35941" alias="l1d17q5">
+            <fileName filestem="jm12w4-e35941"/>
+            <title>Quaestio 5</title>
+            <questionTitle> An aliqua qualitas naturaliter potest produci in instanti </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>53r</folio>
+                  <folio>53v</folio>
+                  <folio>54r</folio>
+                  <folio>54v</folio>
+                  <folio>55r</folio>
+                  <folio>55v</folio>
+                  <folio>56r</folio>
+                  <folio>56v</folio>
+                  <folio>57r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e38949" alias="l1d17q6">
+            <fileName filestem="jm12w4-e38949"/>
+            <title>Quaestio 6</title>
+            <questionTitle> An circumstantia temporis agumentet meritum et ex consequenti gratiam? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>57r</folio>
+                  <folio>57v</folio>
+                  <folio>58r</folio>
+                  <folio>58v</folio>
+                  <folio>59r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e40347" alias="l1d17q7">
+            <fileName filestem="jm12w4-e40347"/>
+            <title>Quaestio 7</title>
+            <questionTitle> An quis mereatur plus per actum interiorem et exteriorem iunctos quam per
           actum interiorem solum </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>59v</folio>
-            <folio>60r</folio>
-            <folio>60v</folio>
-            <folio>61r</folio>
-            <folio>61v</folio>
-            <folio>62r</folio>
-            <folio>62v</folio>
-            <folio>63r</folio>
-            <folio>63v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e43309" alias="l1d17q8">
-        <fileName filestem="jm12w4-e43309"/>
-        <title>Quaestio 8</title>
-        <questionTitle> An sit aliquis actus meritorius vel demeritorius ex natura rei </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>63v</folio>
-            <folio>64r</folio>
-            <folio>64v</folio>
-            <folio>65r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e44523" alias="l1d17q9">
-        <fileName filestem="jm12w4-e44523"/>
-        <title>Quaestio 9</title>
-        <questionTitle>An caritas diminuatur?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>65r</folio>
-            <folio>65v</folio>
-            <folio>66r</folio>
-            <folio>66v</folio>
-            <folio>67r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e45821" alias="l1d17q10">
-        <fileName filestem="jm12w4-e45821"/>
-        <title>Quaestio 10</title>
-        <questionTitle> Utrum intensio fiat per maiorem radicationem in subiecto </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>67r</folio>
-            <folio>67v</folio>
-            <folio>68r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e46466" alias="l1d17q11">
-        <fileName filestem="jm12w4-e46466"/>
-        <title>Quaestio 11</title>
-        <questionTitle> Utrum intensio fiat non per productionem novae formae magis distantis, sed
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>59r</folio>
+                  <folio>59v</folio>
+                  <folio>60r</folio>
+                  <folio>60v</folio>
+                  <folio>61r</folio>
+                  <folio>61v</folio>
+                  <folio>62r</folio>
+                  <folio>62v</folio>
+                  <folio>63r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e43309" alias="l1d17q8">
+            <fileName filestem="jm12w4-e43309"/>
+            <title>Quaestio 8</title>
+            <questionTitle> An sit aliquis actus meritorius vel demeritorius ex natura rei </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>63r</folio>
+                  <folio>63v</folio>
+                  <folio>64r</folio>
+                  <folio>64v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e44523" alias="l1d17q9">
+            <fileName filestem="jm12w4-e44523"/>
+            <title>Quaestio 9</title>
+            <questionTitle>An caritas diminuatur?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>64v</folio>
+                  <folio>65r</folio>
+                  <folio>65v</folio>
+                  <folio>66r</folio>
+                  <folio>66v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e45821" alias="l1d17q10">
+            <fileName filestem="jm12w4-e45821"/>
+            <title>Quaestio 10</title>
+            <questionTitle> Utrum intensio fiat per maiorem radicationem in subiecto </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>66v</folio>
+                  <folio>67r</folio>
+                  <folio>67v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e46466" alias="l1d17q11">
+            <fileName filestem="jm12w4-e46466"/>
+            <title>Quaestio 11</title>
+            <questionTitle> Utrum intensio fiat non per productionem novae formae magis distantis, sed
           per corruptionem praecedentis? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>68r</folio>
-            <folio>68v</folio>
-            <folio>69r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e47422" alias="l1d17q12">
-        <fileName filestem="jm12w4-e47422"/>
-        <title>Quaestio 12</title>
-        <questionTitle> Utrum intensio fiat per deputationem a suo contrario? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>69r</folio>
-            <folio>69v</folio>
-            <folio>70r</folio>
-            <folio>70v</folio>
-            <folio>71r</folio>
-            <folio>71v</folio>
-            <folio>72r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e49570" alias="l1d17q13">
-        <fileName filestem="jm12w4-e49570"/>
-        <title>Quaestio 13</title>
-        <questionTitle> Utrum qualitates contrariae in gradibus remissis licet non in intensis se
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>67v</folio>
+                  <folio>68r</folio>
+                  <folio>68v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e47422" alias="l1d17q12">
+            <fileName filestem="jm12w4-e47422"/>
+            <title>Quaestio 12</title>
+            <questionTitle> Utrum intensio fiat per deputationem a suo contrario? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>68v</folio>
+                  <folio>69r</folio>
+                  <folio>69v</folio>
+                  <folio>70r</folio>
+                  <folio>70v</folio>
+                  <folio>71r</folio>
+                  <folio>71v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e49570" alias="l1d17q13">
+            <fileName filestem="jm12w4-e49570"/>
+            <title>Quaestio 13</title>
+            <questionTitle> Utrum qualitates contrariae in gradibus remissis licet non in intensis se
           compatiantur? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>72r</folio>
-            <folio>72v</folio>
-            <folio>73r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e50129" alias="l1d17q14">
-        <fileName filestem="jm12w4-e50129"/>
-        <title>Quaestio 14</title>
-        <questionTitle>Utrum intensio formae fiat per additionem gradus ad gradum?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>73r</folio>
-            <folio>73v</folio>
-            <folio>74r</folio>
-            <folio>74v</folio>
-            <folio>75r</folio>
-            <folio>75v</folio>
-            <folio>76r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e52106" alias="l1d17q15">
-        <fileName filestem="jm12w4-e52106"/>
-        <title>Quaestio 15</title>
-        <questionTitle> An est status in maxima forma possibili vel in maxima magnitudine? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>76r</folio>
-            <folio>76v</folio>
-            <folio>77r</folio>
-            <folio>77v</folio>
-            <folio>78r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e53644" alias="l1d17q16">
-        <fileName filestem="jm12w4-e53644"/>
-        <title>Quaestio 16</title>
-        <questionTitle> An detur minimum naturale? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>78r</folio>
-            <folio>78v</folio>
-            <folio>79r</folio>
-            <folio>79v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e54732" alias="l1d17q17">
-        <fileName filestem="jm12w4-e54732"/>
-        <title>Quaestio 17</title>
-        <questionTitle> An detur remississimum formae? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>79v</folio>
-            <folio>80r</folio>
-            <folio>80v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e55405" alias="l1d17q18">
-        <fileName filestem="jm12w4-e55405"/>
-        <title>Quaestio 18</title>
-        <questionTitle> Penes quid qualitatis intensio attenditur? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>80v</folio>
-            <folio>81r</folio>
-            <folio>81v</folio>
-            <folio>82r</folio>
-            <folio>82v</folio>
-            <folio>83r</folio>
-            <folio>83v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1683" alias="l1d20" type="liber1-distinctio20">
-      <head>Distinctio 20</head>
-      <item id="jm12w4-e57366" alias="l1d20q1">
-        <fileName filestem="jm12w4-e57366"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An personae divinae sunt aequales, et an naturaliter loquendo Deus effectus
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>71v</folio>
+                  <folio>72r</folio>
+                  <folio>72v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e50129" alias="l1d17q14">
+            <fileName filestem="jm12w4-e50129"/>
+            <title>Quaestio 14</title>
+            <questionTitle>Utrum intensio formae fiat per additionem gradus ad gradum?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>72v</folio>
+                  <folio>73r</folio>
+                  <folio>73v</folio>
+                  <folio>74r</folio>
+                  <folio>74v</folio>
+                  <folio>75r</folio>
+                  <folio>75v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e52106" alias="l1d17q15">
+            <fileName filestem="jm12w4-e52106"/>
+            <title>Quaestio 15</title>
+            <questionTitle> An est status in maxima forma possibili vel in maxima magnitudine? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>75v</folio>
+                  <folio>76r</folio>
+                  <folio>76v</folio>
+                  <folio>77r</folio>
+                  <folio>77v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e53644" alias="l1d17q16">
+            <fileName filestem="jm12w4-e53644"/>
+            <title>Quaestio 16</title>
+            <questionTitle> An detur minimum naturale? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>77v</folio>
+                  <folio>78r</folio>
+                  <folio>78v</folio>
+                  <folio>79r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e54732" alias="l1d17q17">
+            <fileName filestem="jm12w4-e54732"/>
+            <title>Quaestio 17</title>
+            <questionTitle> An detur remississimum formae? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>79r</folio>
+                  <folio>79v</folio>
+                  <folio>80r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e55405" alias="l1d17q18">
+            <fileName filestem="jm12w4-e55405"/>
+            <title>Quaestio 18</title>
+            <questionTitle> Penes quid qualitatis intensio attenditur? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>80r</folio>
+                  <folio>80v</folio>
+                  <folio>81r</folio>
+                  <folio>81v</folio>
+                  <folio>82r</folio>
+                  <folio>82v</folio>
+                  <folio>83r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1683" alias="l1d20" type="liber1-distinctio20">
+         <head>Distinctio 20</head>
+         <item id="jm12w4-e57366" alias="l1d20q1">
+            <fileName filestem="jm12w4-e57366"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An personae divinae sunt aequales, et an naturaliter loquendo Deus effectus
           causet et conservet? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>83v</folio>
-            <folio>84r</folio>
-            <folio>84v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1715" alias="l1d24" type="liber1-distinctio24">
-      <head>Distinctio 24</head>
-      <item id="jm12w4-e58133" alias="l1d24q1">
-        <fileName filestem="jm12w4-e58133"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An quantitas discreta sit aliqua res quantis inhaerens, et universaliter an
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>83r</folio>
+                  <folio>83v</folio>
+                  <folio>84r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1715" alias="l1d24" type="liber1-distinctio24">
+         <head>Distinctio 24</head>
+         <item id="jm12w4-e58133" alias="l1d24q1">
+            <fileName filestem="jm12w4-e58133"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An quantitas discreta sit aliqua res quantis inhaerens, et universaliter an
           sit aliquod indivisibile in quanto? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>84v</folio>
-            <folio>85r</folio>
-            <folio>85v</folio>
-            <folio>86r</folio>
-            <folio>86v</folio>
-            <folio>87r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e60093" alias="l1d24q2">
-        <fileName filestem="jm12w4-e60093"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An unum dicatur de quolibet, et unitas sit res superaddita rei uni sicut
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>84r</folio>
+                  <folio>84v</folio>
+                  <folio>85r</folio>
+                  <folio>85v</folio>
+                  <folio>86r</folio>
+                  <folio>86v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e60093" alias="l1d24q2">
+            <fileName filestem="jm12w4-e60093"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An unum dicatur de quolibet, et unitas sit res superaddita rei uni sicut
           numerus res superaddita rebus numeratis? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>87r</folio>
-            <folio>87v</folio>
-            <folio>88r</folio>
-            <folio>88v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1787" alias="l1d25-29" type="liber1-distinctio25 liber1-distinctio26 liber1-distinctio27 liber1-distinctio28 liber1-distinctio29">
-      <head>Distinctio 25-29</head>
-      <!-- unclear if it should cover all 5 distinctions -->
-      <item id="jm12w4-e61149" alias="l1d25-29q1">
-        <fileName filestem="jm12w4-e61149"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An personae divinae ipsis proprietatibus constituantur, et ab invicem
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>86v</folio>
+                  <folio>87r</folio>
+                  <folio>87v</folio>
+                  <folio>88r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1787"
+           alias="l1d25-29"
+           type="liber1-distinctio25 liber1-distinctio26 liber1-distinctio27 liber1-distinctio28 liber1-distinctio29">
+         <head>Distinctio 25-29</head>
+         <!-- unclear if it should cover all 5 distinctions -->
+         <item id="jm12w4-e61149" alias="l1d25-29q1">
+            <fileName filestem="jm12w4-e61149"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An personae divinae ipsis proprietatibus constituantur, et ab invicem
           personaliter distinguantur? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>88v</folio>
-            <folio>89r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1818" alias="l1d30-31" type="liber1-distinctio30 liber1-distinctio31">
-      <head>Distinctio 30-31</head>
-      <item id="jm12w4-e61531" alias="l1d30et31q1">
-        <fileName filestem="jm12w4-e61531"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An relatio realis distinguatur a fundamento et termino? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>89r</folio>
-            <folio>89v</folio>
-            <folio>90r</folio>
-            <folio>90v</folio>
-            <folio>91r</folio>
-            <folio>91v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1860" alias="l1d33et34" type="liber1-distinctio33 liber1-distinctio34">
-      <head>Distinctio 33-34</head>
-      <item id="jm12w4-e63244" alias="l1d33et34q1">
-        <fileName filestem="jm12w4-e63244"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum in Deo persona vel proprietas personalis distinguatur ab essentia
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>88r</folio>
+                  <folio>88v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1818"
+           alias="l1d30-31"
+           type="liber1-distinctio30 liber1-distinctio31">
+         <head>Distinctio 30-31</head>
+         <item id="jm12w4-e61531" alias="l1d30et31q1">
+            <fileName filestem="jm12w4-e61531"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An relatio realis distinguatur a fundamento et termino? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>88v</folio>
+                  <folio>89r</folio>
+                  <folio>89v</folio>
+                  <folio>90r</folio>
+                  <folio>90v</folio>
+                  <folio>91r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1860"
+           alias="l1d33et34"
+           type="liber1-distinctio33 liber1-distinctio34">
+         <head>Distinctio 33-34</head>
+         <item id="jm12w4-e63244" alias="l1d33et34q1">
+            <fileName filestem="jm12w4-e63244"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum in Deo persona vel proprietas personalis distinguatur ab essentia
           divina seu deitati communi personarum aliquo modo ex natura rei seu circumscripta omni
           operatione animae? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>91v</folio>
-            <folio>92r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1889" alias="l1d35" type="liber1-distinctio35">
-      <head>Distinctio 35</head>
-      <item id="jm12w4-e63602" alias="l1d35q1">
-        <fileName filestem="jm12w4-e63602"/>
-        <title>Quaestio 1</title>
-        <questionTitle>An in lumine naturali ponendum est Deum aliud a se
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>91r</folio>
+                  <folio>91v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1889" alias="l1d35" type="liber1-distinctio35">
+         <head>Distinctio 35</head>
+         <item id="jm12w4-e63602" alias="l1d35q1">
+            <fileName filestem="jm12w4-e63602"/>
+            <title>Quaestio 1</title>
+            <questionTitle>An in lumine naturali ponendum est Deum aliud a se
           intelligere?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>92r</folio>
-            <folio>92v</folio>
-            <folio>93r</folio>
-            <folio>93v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1924" alias="l1d37" type="liber1-distinctio37">
-      <head>Distinctio 37</head>
-      <item id="jm12w4-e64517" alias="l1dt37q1">
-        <fileName filestem="jm12w4-e64517"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An Deus sit ubique et in infinito loco imaginario extra caelum? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>93v</folio>
-            <folio>94r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1953" alias="l1d35" type="liber1-distinctio38">
-      <head>Distinctio 38</head>
-      <item id="jm12w4-e64920" alias="l1d38q1">
-        <fileName filestem="jm12w4-e64920"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum sit aliqua propositio de futuro contingenti vera? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>94r</folio>
-            <folio>94v</folio>
-            <folio>95r</folio>
-            <folio>95v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e1989" alias="l1d39" type="liber1-distinctio39">
-      <head>Distinctio 39</head>
-      <item id="jm12w4-e66126" alias="l1d39q1">
-        <fileName filestem="jm12w4-e66126"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An cum scientia Dei stet futurorum contingentium contingentia? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>95v</folio>
-            <folio>96r</folio>
-            <folio>96v</folio>
-            <folio>97r</folio>
-            <folio>97v</folio>
-            <folio>98r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2031" alias="l1d40" type="liber1-distinctio40">
-      <head>Distinctio 40</head>
-      <item id="jm12w4-e67727" alias="l1d40q1">
-        <fileName filestem="jm12w4-e67727"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An cum aeterna Dei praedestinatione stet praedestinatum posse damnari? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>98r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e68048" alias="l1d40q2">
-        <fileName filestem="jm12w4-e68048"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An sit aliqua causa praedestinations? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>98r</folio>
-            <folio>98v</folio>
-            <folio>99r</folio>
-            <folio>99v</folio>
-            <folio>100r</folio>
-            <folio>100v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2093" alias="l1d43" type="liber1-distinctio43">
-      <head>Distinctio 43</head>
-      <item id="jm12w4-e69813" alias="l1d43q1">
-        <fileName filestem="jm12w4-e69813"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum potentia Dei possit extendi ad deceptionem? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>100v</folio>
-            <folio>101r</folio>
-            <folio>101v</folio>
-            <folio>102r</folio>
-            <folio>102v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2131" alias="l1d44" type="liber1-distinctio44">
-      <head>Distinctio 44</head>
-      <item id="jm12w4-e71216" alias="l1d44q1">
-        <fileName filestem="jm12w4-e71216"/>
-        <title>Quaestio 1</title>
-        <questionTitle> Utrum Deus potuerit mundum fecisse meliorem quam fecerit? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>102v</folio>
-            <folio>103r</folio>
-            <folio>103v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e71950" alias="l1d44q2">
-        <fileName filestem="jm12w4-e71950"/>
-        <title>Quaestio 2</title>
-        <questionTitle> An sit nunc vel an dari potest secundum naturam aliquod actu infinitum </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>103v</folio>
-            <folio>104r</folio>
-            <folio>104v</folio>
-            <folio>105r</folio>
-            <folio>105v</folio>
-            <folio>106r</folio>
-            <folio>106v</folio>
-            <folio>107r</folio>
-            <folio>107v</folio>
-            <folio>108r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e74842" alias="l1d44q3">
-        <fileName filestem="jm12w4-e74842"/>
-        <title>Quaestio 3</title>
-        <questionTitle> An Deus de sua potentia absoluta potest producere aliquod infinitum
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>91v</folio>
+                  <folio>92r</folio>
+                  <folio>92v</folio>
+                  <folio>93r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1924" alias="l1d37" type="liber1-distinctio37">
+         <head>Distinctio 37</head>
+         <item id="jm12w4-e64517" alias="l1dt37q1">
+            <fileName filestem="jm12w4-e64517"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An Deus sit ubique et in infinito loco imaginario extra caelum? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>93r</folio>
+                  <folio>93v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1953" alias="l1d35" type="liber1-distinctio38">
+         <head>Distinctio 38</head>
+         <item id="jm12w4-e64920" alias="l1d38q1">
+            <fileName filestem="jm12w4-e64920"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum sit aliqua propositio de futuro contingenti vera? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>93v</folio>
+                  <folio>94r</folio>
+                  <folio>94v</folio>
+                  <folio>95r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e1989" alias="l1d39" type="liber1-distinctio39">
+         <head>Distinctio 39</head>
+         <item id="jm12w4-e66126" alias="l1d39q1">
+            <fileName filestem="jm12w4-e66126"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An cum scientia Dei stet futurorum contingentium contingentia? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>95r</folio>
+                  <folio>95v</folio>
+                  <folio>96r</folio>
+                  <folio>96v</folio>
+                  <folio>97r</folio>
+                  <folio>97v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2031" alias="l1d40" type="liber1-distinctio40">
+         <head>Distinctio 40</head>
+         <item id="jm12w4-e67727" alias="l1d40q1">
+            <fileName filestem="jm12w4-e67727"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An cum aeterna Dei praedestinatione stet praedestinatum posse damnari? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e68048" alias="l1d40q2">
+            <fileName filestem="jm12w4-e68048"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An sit aliqua causa praedestinations? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>97v</folio>
+                  <folio>98r</folio>
+                  <folio>98v</folio>
+                  <folio>99r</folio>
+                  <folio>99v</folio>
+                  <folio>100r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2093" alias="l1d43" type="liber1-distinctio43">
+         <head>Distinctio 43</head>
+         <item id="jm12w4-e69813" alias="l1d43q1">
+            <fileName filestem="jm12w4-e69813"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum potentia Dei possit extendi ad deceptionem? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>100r</folio>
+                  <folio>100v</folio>
+                  <folio>101r</folio>
+                  <folio>101v</folio>
+                  <folio>102r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2131" alias="l1d44" type="liber1-distinctio44">
+         <head>Distinctio 44</head>
+         <item id="jm12w4-e71216" alias="l1d44q1">
+            <fileName filestem="jm12w4-e71216"/>
+            <title>Quaestio 1</title>
+            <questionTitle> Utrum Deus potuerit mundum fecisse meliorem quam fecerit? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>102r</folio>
+                  <folio>102v</folio>
+                  <folio>103r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e71950" alias="l1d44q2">
+            <fileName filestem="jm12w4-e71950"/>
+            <title>Quaestio 2</title>
+            <questionTitle> An sit nunc vel an dari potest secundum naturam aliquod actu infinitum </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>103r</folio>
+                  <folio>103v</folio>
+                  <folio>104r</folio>
+                  <folio>104v</folio>
+                  <folio>105r</folio>
+                  <folio>105v</folio>
+                  <folio>106r</folio>
+                  <folio>106v</folio>
+                  <folio>107r</folio>
+                  <folio>107v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e74842" alias="l1d44q3">
+            <fileName filestem="jm12w4-e74842"/>
+            <title>Quaestio 3</title>
+            <questionTitle> An Deus de sua potentia absoluta potest producere aliquod infinitum
           magnitudine vel intensione, vel infinitam multitudinem rerum non constituentium aliquod
           unum? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>108r</folio>
-            <folio>108v</folio>
-            <folio>109r</folio>
-            <folio>109v</folio>
-            <folio>110r</folio>
-            <folio>110v</folio>
-            <folio>111r</folio>
-            <folio>111v</folio>
-            <folio>112r</folio>
-            <folio>112v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e78159" alias="l1d44q4">
-        <fileName filestem="jm12w4-e78159"/>
-        <title>Quaestio 4</title>
-        <questionTitle> An dato corpore infinito ipsum potest moveri? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>112v</folio>
-            <folio>113r</folio>
-            <folio>113v</folio>
-            <folio>114r</folio>
-            <folio>114v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e79447" alias="l1d44q5">
-        <fileName filestem="jm12w4-e79447"/>
-        <title>Quaestio 5</title>
-        <questionTitle> Utrum quaelibet qualitas infinita gradualiter sit infinite activa? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>114v</folio>
-            <folio>115r</folio>
-            <folio>115v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-      <item id="jm12w4-e80244" alias="l1d44q6">
-        <fileName filestem="jm12w4-e80244"/>
-        <title>Quaestio 6</title>
-        <questionTitle>An Deus sit infiniti vigoris?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>115v</folio>
-            <folio>116r</folio>
-            <folio>116v</folio>
-            <folio>117r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2347" alias="l1d45" type="liber1-distinctio45">
-      <head>Distinctio 45</head>
-      <item id="jm12w4-e81406" alias="l1d45q1">
-        <fileName filestem="jm12w4-e81406"/>
-        <title>Quaestio 1</title>
-        <questionTitle>An voluntas Dei semper adimpleatur?</questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>117r</folio>
-            <folio>117v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2376" alias="l1d47" type="liber1-distinctio47">
-      <head>Distinctio 47</head>
-      <item id="jm12w4-e81767" alias="l1d47q1">
-        <fileName filestem="jm12w4-e81767"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An teneamur conformare voluntatem nostram in omnibus voluntati divinae? </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>117v</folio>
-            <folio>118r</folio>
-            <folio>118v</folio>
-            <folio>119r</folio>
-            <folio>119v</folio>
-            <folio>120r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
-    <div id="jm12w4-d1e2419" alias="l1d48" type="liber1-distinctio48">
-      <head>Distinctio 48</head>
-      <item id="jm12w4-e83415" alias="l1d48q1">
-        <fileName filestem="jm12w4-e83415"/>
-        <title>Quaestio 1</title>
-        <questionTitle> An voluntas divina sit prima lex obligans </questionTitle>
-        <hasWitnesses>
-          <witness ref="#cod-jmUUUK">
-            <folio>120r</folio>
-            <folio>120v</folio>
-            <folio>121r</folio>
-            <folio>121v</folio>
-            <folio>122r</folio>
-            <folio>122v</folio>
-            <folio>122v</folio>
-            <folio>123v</folio>
-            <folio>124v</folio>
-            <folio>124v</folio>
-            <folio>125v</folio>
-            <folio>125v</folio>
-            <folio>125v</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
-    </div>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>107v</folio>
+                  <folio>108r</folio>
+                  <folio>108v</folio>
+                  <folio>109r</folio>
+                  <folio>109v</folio>
+                  <folio>110r</folio>
+                  <folio>110v</folio>
+                  <folio>111r</folio>
+                  <folio>111v</folio>
+                  <folio>112r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e78159" alias="l1d44q4">
+            <fileName filestem="jm12w4-e78159"/>
+            <title>Quaestio 4</title>
+            <questionTitle> An dato corpore infinito ipsum potest moveri? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>112r</folio>
+                  <folio>112v</folio>
+                  <folio>113r</folio>
+                  <folio>113v</folio>
+                  <folio>114r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e79447" alias="l1d44q5">
+            <fileName filestem="jm12w4-e79447"/>
+            <title>Quaestio 5</title>
+            <questionTitle> Utrum quaelibet qualitas infinita gradualiter sit infinite activa? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>114r</folio>
+                  <folio>114v</folio>
+                  <folio>115r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="jm12w4-e80244" alias="l1d44q6">
+            <fileName filestem="jm12w4-e80244"/>
+            <title>Quaestio 6</title>
+            <questionTitle>An Deus sit infiniti vigoris?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>115r</folio>
+                  <folio>115v</folio>
+                  <folio>116r</folio>
+                  <folio>116v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2347" alias="l1d45" type="liber1-distinctio45">
+         <head>Distinctio 45</head>
+         <item id="jm12w4-e81406" alias="l1d45q1">
+            <fileName filestem="jm12w4-e81406"/>
+            <title>Quaestio 1</title>
+            <questionTitle>An voluntas Dei semper adimpleatur?</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>116v</folio>
+                  <folio>117r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2376" alias="l1d47" type="liber1-distinctio47">
+         <head>Distinctio 47</head>
+         <item id="jm12w4-e81767" alias="l1d47q1">
+            <fileName filestem="jm12w4-e81767"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An teneamur conformare voluntatem nostram in omnibus voluntati divinae? </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>117r</folio>
+                  <folio>117v</folio>
+                  <folio>118r</folio>
+                  <folio>118v</folio>
+                  <folio>119r</folio>
+                  <folio>119v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="jm12w4-d1e2419" alias="l1d48" type="liber1-distinctio48">
+         <head>Distinctio 48</head>
+         <item id="jm12w4-e83415" alias="l1d48q1">
+            <fileName filestem="jm12w4-e83415"/>
+            <title>Quaestio 1</title>
+            <questionTitle> An voluntas divina sit prima lex obligans </questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-jmUUUK">
+                  <folio>119v</folio>
+                  <folio>120r</folio>
+                  <folio>120v</folio>
+                  <folio>121r</folio>
+                  <folio>121v</folio>
+                  <folio>122r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
   </div>
 </listofFileNames>
