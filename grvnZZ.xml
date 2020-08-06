@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Gregory of Rimini</authorName>
-    <commentaryName>Gregory of Rimini Commentary</commentaryName>
-    <commentaryid>riminicommentary</commentaryid>
-    <commentaryslug>gdr</commentaryslug>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>grvnZZ</commentaryid>
+    <commentaryslug>grvnZZ</commentaryslug>
     <authorUri>http://scta.info/resource/Rimini</authorUri>
-    <parentUri>http://scta.info/resource/riminicommentary</parentUri>
+    <parentUri>http://scta.info/resource/grvnZZ</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/riminicommentary/</textfilesdir>
-    <questionListSource></questionListSource>
-    <questionListOriginalEditor></questionListOriginalEditor>
-    <questionListEncoder></questionListEncoder>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="Q">
@@ -37,13 +34,14 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <div id="gdr-l1" class="toplevel" type="liber1">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="grvnZZ-d1e87" alias="gdr-l1" class="toplevel" type="liber1">
       <head>Liber 1</head>
       <div id="gdr-l1prol" type="distinctio" subtype="liber1-prologus">
-        <head>Liber 1, Prologus</head>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1prolq1"/>
-          <title>Liber I, Prologus, Quaestio 1</title>
+        <head>Prologus</head>
+        <item id="grvnZZ-d1e97" type="quaestio">
+          <fileName filestem="grvnZZ-d1e97"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum de obiecto theologico per theologicum discursum notitia</questionTitle>
           <hasWitnesses>
               <witness ref="#Ra">
@@ -51,9 +49,9 @@
               </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1prolq2"/>
-          <title>Liber I, Prologus, Quaestio 2</title>
+        <item id="grvnZZ-d1e116" type="quaestio">
+          <fileName filestem="grvnZZ-d1e116"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum de huiusmodi obiecto possit haberi scientia vel opinio</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -61,9 +59,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1prolq3"/>
-          <title>Liber I, Prologus, Quaestio 3</title>
+        <item id="grvnZZ-d1e135" type="quaestio">
+          <fileName filestem="grvnZZ-d1e135"/>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum omnium conclusionum theologicarum sit habitus unus numero</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -71,9 +69,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1prolq4"/>
-          <title>Liber I, Prologus, Quaestio 4</title>
+        <item id="grvnZZ-d1e154" type="quaestio">
+          <fileName filestem="grvnZZ-d1e154"/>
+          <title>Quaestio 4</title>
           <questionTitle>Utrum deus inquantum deus sit subiectum in theologia nostra</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -81,9 +79,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1prolq5"/>
-          <title>Liber I, Prologus, Quaestio 5</title>
+        <item id="grvnZZ-d1e174" type="quaestio">
+          <fileName filestem="grvnZZ-d1e174"/>
+          <title>Quaestio 5</title>
           <questionTitle>Utrum theologia sit speculativa vel practica</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -92,11 +90,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="gdr-l1d1" type="distinctio" subtype="liber1-distinctio1">
-        <head>Liber 1, Distinctio 1</head>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1d1q1"/>
-          <title>Liber I, Distinctio 1, Quaestio 1</title>
+      <div id="grvnZZ-d1e194" alias="gdr-l1d1" type="distinctio" subtype="liber1-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="grvnZZ-d1e199" type="quaestio">
+          <fileName filestem="grvnZZ-d1e199"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum omnis usus sit fruitio seu omnis actus utendi sit actus fruendi</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -104,9 +102,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1d1q2"/>
-          <title>Liber I, Distinctio 1, Quaestio 2</title>
+        <item id="grvnZZ-d1e218" type="quaestio">
+          <fileName filestem="grvnZZ-d1e218"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum fruitio sit operatio solius voluntatis</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
@@ -114,9 +112,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="gdr-l1d1q3"/>
-          <title>Liber I, Distinctio 1, Quaestio 3</title>
+        <item id="grvnZZ-d1e237" type="quaestio">
+          <fileName filestem="grvnZZ-d1e237"/>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum solo deo sit fruendum</questionTitle>
           <hasWitnesses>
             <witness ref="#Ra">
