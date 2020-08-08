@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Heinrich Buillinger</authorName>
     <commentaryName>Sermonum decades</commentaryName>
@@ -9,63 +11,72 @@
     <parentUri>http://scta.info/resource/UD1xh4</parentUri>
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/UD1xh4/</textfilesdir>
-    <questionListSource>Zurich 1552
-      <!--cod-a3V3DV-->
+    <questionListSource>Zurich 1552 <!--cod-a3V3DV-->
     </questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder/>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> 
+    <hasWitnesses>
       <witness id="cod-z4ine7">
-        <slug>cod-z4ine7</slug><!-- decas 2, latin -->
+        <slug>cod-z4ine7</slug>
+        <!-- decas 2, latin -->
         <title>Zurich 1549</title>
         <initial>cod-z4ine7</initial>
       </witness>
       <witness id="cod-nh6thd">
-        <slug>cod-nh6thd</slug><!-- decas 3, latin -->
+        <slug>cod-nh6thd</slug>
+        <!-- decas 3, latin -->
         <title>Zurich 1550</title>
         <initial>cod-nh6thd</initial>
       </witness>
       <witness id="cod-u876t5">
-        <slug>cod-u876t5</slug><!-- decas 4, latin -->
+        <slug>cod-u876t5</slug>
+        <!-- decas 4, latin -->
         <title>Zurich 1550</title>
         <initial>cod-u876t5</initial>
       </witness>
       <witness id="cod-zj7yAA">
-        <slug>cod-zj7yAA</slug><!-- decas 5, latin Zurich 1551 -->
+        <slug>cod-zj7yAA</slug>
+        <!-- decas 5, latin Zurich 1551 -->
         <title>Zurich 1551</title>
         <initial>cod-zj7yAA</initial>
       </witness>
       <witness id="cod-a3V3DV">
-        <slug>cod-a3V3DV</slug><!-- complete latin Zurich 1552 -->
+        <slug>cod-a3V3DV</slug>
+        <!-- complete latin Zurich 1552 -->
         <title>Zurich 1552</title>
         <initial>cod-a3V3DV</initial>
       </witness>
       <witness id="cod-U78DFf">
-        <slug>cod-U78DFf</slug><!-- complete german Bern 1558-->
-        <title>Bern 1558</title> 
+        <slug>cod-U78DFf</slug>
+        <!-- complete german Bern 1558-->
+        <title>Bern 1558</title>
         <initial>cod-U78DFf</initial>
       </witness>
       <witness id="cod-Qev3dv">
-        <slug>cod-Qev3dv</slug><!-- complete dutch 1563 -->
-        <title>s.I 1563</title> 
+        <slug>cod-Qev3dv</slug>
+        <!-- complete dutch 1563 -->
+        <title>s.I 1563</title>
         <initial>cod-Qev3dv</initial>
       </witness>
       <witness id="cod-Pd33f3">
-        <slug>cod-Pd33f3</slug><!-- complete French geneva 1564 -->
-        <title>Geneva 1564</title> 
+        <slug>cod-Pd33f3</slug>
+        <!-- complete French geneva 1564 -->
+        <title>Geneva 1564</title>
         <initial>cod-Pd33f3</initial>
       </witness>
       <!-- Ueli says that there is 1577 London copy that is the first english translation, but I can't find it -->
       <!-- 1587 is available on Archive.org https://archive.org/details/fiftiegodlielear00bull/page/n2 -->
       <witness id="cod-u2dgeg">
-        <slug>cod-u2dgeg</slug><!-- complete english london 1587 -->
-        <title>London 1587</title> 
+        <slug>cod-u2dgeg</slug>
+        <!-- complete english london 1587 -->
+        <title>London 1587</title>
         <initial>cod-u2dgeg</initial>
       </witness>
     </hasWitnesses>
   </header>
   <div id="body">
+    <head>Sermonum decades</head>
     <div id="UD1xh4-d1e50" alias="UD1xh4-d1">
       <head>Decas 1</head>
       <item id="UD1xh4-XddV3R" alias="UD1xh4-d1s1">
@@ -73,7 +84,19 @@
         <title>Sermo 1</title>
         <questionTitle>De verbo Dei, origine eius, quomodo et per quos mundo sit
           revelatum</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>1r</folio>
+            <folio>1v</folio>
+            <folio>2r</folio>
+            <folio>2v</folio>
+            <folio>3r</folio>
+            <folio>3v</folio>
+            <folio>4r</folio>
+            <folio>4v</folio>
+            <folio>5r</folio>
+            <folio>5v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>1r</folio>
             <folio>1v</folio>
@@ -88,7 +111,8 @@
             <folio>6r</folio>
             <folio>6v</folio>
             <folio>7r</folio>
-          </witness> <!-- first german -->
+          </witness>
+          <!-- first german -->
           <witness ref="#cod-u2dgeg">
             <folio>1</folio>
             <folio>2</folio>
@@ -112,7 +136,16 @@
         <title>Sermo 2</title>
         <questionTitle>De verbo Dei, quibus et in quem finem revelatum, quomodo item audiendum sit,
           et quod omnem pietatis doctrinam plene doceat</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>5v</folio>
+            <folio>6r</folio>
+            <folio>6v</folio>
+            <folio>7r</folio>
+            <folio>7v</folio>
+            <folio>8r</folio>
+            <folio>8v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>7r</folio>
             <folio>7v</folio>
@@ -122,7 +155,8 @@
             <folio>9v</folio>
             <folio>10r</folio>
             <folio>10v</folio>
-          </witness> <!-- first german -->
+          </witness>
+          <!-- first german -->
           <witness ref="#cod-u2dgeg">
             <folio>14</folio>
             <folio>15</folio>
@@ -141,7 +175,15 @@
         <title>Sermo 3</title>
         <questionTitle>De sensu et expositione legitima verbi Dei, quibus modis et rationibus exponi
           possit</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>8v</folio>
+            <folio>9r</folio>
+            <folio>9v</folio>
+            <folio>10r</folio>
+            <folio>10v</folio>
+            <folio>11r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>10v</folio>
             <folio>11r</folio>
@@ -168,7 +210,16 @@
         <title>Sermo 4</title>
         <questionTitle>De fide vera, unde oriatur, quod sit certa persuasio mentis et innitatur Deo
           et verbo eius</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>11r</folio>
+            <folio>11v</folio>
+            <folio>12r</folio>
+            <folio>12v</folio>
+            <folio>13r</folio>
+            <folio>13v</folio>
+            <folio>14r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>13v</folio>
             <folio>17v</folio>
@@ -191,7 +242,13 @@
         <fileName filestem="UD1xh4-agrtvB"/>
         <title>Sermo 5</title>
         <questionTitle>Unam tantum esse fidem veram, et quae sit eius virtus.</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>14v</folio>
+            <folio>15r</folio>
+            <folio>15v</folio>
+            <folio>16r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>17v</folio>
             <folio>19v</folio>
@@ -209,7 +266,17 @@
         <fileName filestem="UD1xh4-2QvvyF"/>
         <title>Sermo 6</title>
         <questionTitle>Fide iustificari homines fideles absque lege operibusque</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>16r</folio>
+            <folio>16v</folio>
+            <folio>17r</folio>
+            <folio>17v</folio>
+            <folio>18r</folio>
+            <folio>18v</folio>
+            <folio>19r</folio>
+            <folio>19v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>19v</folio>
             <folio>20r</folio>
@@ -244,7 +311,18 @@
         <title>Sermo 7</title>
         <questionTitle>De primis fidei Christianae articulis Symbolo apostolorum
           comprehensis</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>20r</folio>
+            <folio>20v</folio>
+            <folio>21r</folio>
+            <folio>21v</folio>
+            <folio>22r</folio>
+            <folio>22v</folio>
+            <folio>23r</folio>
+            <folio>23v</folio>
+            <folio>24r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>25r</folio>
             <folio>30r</folio>
@@ -270,7 +348,17 @@
         <title>Sermo 8</title>
         <questionTitle>De posterioribus fidei Christianae articulis, symbolo apostolorum
           comprehensis</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>24r</folio>
+            <folio>24v</folio>
+            <folio>25r</folio>
+            <folio>25v</folio>
+            <folio>26r</folio>
+            <folio>26v</folio>
+            <folio>27r</folio>
+            <folio>27v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>30v</folio>
             <folio>35r</folio>
@@ -295,7 +383,20 @@
         <title>Sermo 9</title>
         <questionTitle>De postremis fidei Christianae articulis symbolo apostolorum
           comprehensis</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>28r</folio>
+            <folio>28v</folio>
+            <folio>29r</folio>
+            <folio>29v</folio>
+            <folio>30r</folio>
+            <folio>30v</folio>
+            <folio>31r</folio>
+            <folio>31v</folio>
+            <folio>32r</folio>
+            <folio>32v</folio>
+            <folio>33r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>35r</folio>
             <folio>41v</folio>
@@ -323,7 +424,15 @@
         <fileName filestem="UD1xh4-scHirC"/>
         <title>Sermo 10</title>
         <questionTitle>De dilectione dei et proximi</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>33r</folio>
+            <folio>33v</folio>
+            <folio>34r</folio>
+            <folio>34v</folio>
+            <folio>35r</folio>
+            <folio>35v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>42r</folio>
             <folio>45r</folio>
@@ -349,7 +458,16 @@
         <title>Sermo 1</title>
         <questionTitle>De legibus, et primum quidem de lege naturae, deinde vero de legibus
           humanis</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>36r</folio>
+            <folio>36v</folio>
+            <folio>37r</folio>
+            <folio>37v</folio>
+            <folio>38r</folio>
+            <folio>38v</folio>
+            <folio>39r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>45r</folio>
             <folio>49r</folio>
@@ -373,7 +491,21 @@
         <title>Sermo 2</title>
         <questionTitle>De lege divina, ac duobus primis primae tabulae seu Decalogi
           praeceptis</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>39r</folio>
+            <folio>39v</folio>
+            <folio>40r</folio>
+            <folio>40v</folio>
+            <folio>41r</folio>
+            <folio>41v</folio>
+            <folio>42r</folio>
+            <folio>42v</folio>
+            <folio>43r</folio>
+            <folio>43v</folio>
+            <folio>44r</folio>
+            <folio>44v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>49r</folio>
             <folio>56r</folio>
@@ -403,10 +535,18 @@
       <item id="UD1xh4-a45KBx" alias="UD1xh4-d2s3">
         <fileName filestem="UD1xh4-a45KBx"/>
         <title>Sermo 3</title>
-        <questionTitle>De tertio primae tabulae seu decalogi praecepto et de
-          iureiurando
-        </questionTitle>
-        <hasWitnesses> 
+        <questionTitle>De tertio primae tabulae seu decalogi praecepto et de iureiurando </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>44v</folio>
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+            <folio>48r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>56v</folio>
             <folio>61r</folio>
@@ -431,7 +571,16 @@
         <title>Sermo 4</title>
         <questionTitle>De quarto primae tabulae seu Decalogi praecepto, nempe de ratione et
           observatione sabbati</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+            <folio>49v</folio>
+            <folio>50r</folio>
+            <folio>50v</folio>
+            <folio>51r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>61r</folio>
             <folio>64v</folio>
@@ -454,7 +603,22 @@
         <title>Sermo 5</title>
         <questionTitle>De primo secundae tabulae praecepto, quod ordine in Decalogo quintum est, de
           honorandis parentibus.</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>51r</folio>
+            <folio>51v</folio>
+            <folio>52r</folio>
+            <folio>52v</folio>
+            <folio>53r</folio>
+            <folio>53v</folio>
+            <folio>54r</folio>
+            <folio>54v</folio>
+            <folio>55r</folio>
+            <folio>55v</folio>
+            <folio>56r</folio>
+            <folio>56v</folio>
+            <folio>57r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>65r</folio>
             <folio>73r</folio>
@@ -488,7 +652,20 @@
         <title>Sermo 6</title>
         <questionTitle>De secundo secundae tabulae praecepto, quod ordine in Decalogo sextum est,
           Non occides. Item de Magistratu.</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+            <folio>62r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>73r</folio>
             <folio>80r</folio>
@@ -517,7 +694,19 @@
         <title>Sermo 7</title>
         <questionTitle>De officio magistratus, quae ordinet, an cura religionis ad ipsum pertineat:
           an de religione constituat, et de legibus eius</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>62r</folio>
+            <folio>62v</folio>
+            <folio>63r</folio>
+            <folio>63v</folio>
+            <folio>64r</folio>
+            <folio>64v</folio>
+            <folio>65r</folio>
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>80r</folio>
             <folio>86r</folio>
@@ -547,7 +736,20 @@
         <questionTitle>De Iudicio et officio Iudicis. Iudicia non esse Christianis prohibita. De
           vindicta et poenae. An liceat magistratui caedere fontes? Quare, quando, quomodo, et quid
           puniat? An propter religionem punire possit?</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+            <folio>68r</folio>
+            <folio>68v</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>86r</folio>
             <folio>93r</folio>
@@ -578,7 +780,20 @@
         <questionTitle>De Bello. An liceat magistrativi gerere bellum? Quid tradat de bello
           scriptura. An magistratum gerere possit homo Christianus? Et de officio
           subditorum</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>71v</folio>
+            <folio>72r</folio>
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <folio>76v</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>92v</folio>
             <folio>99v</folio>
@@ -608,7 +823,27 @@
         <questionTitle>De tertio secundae tabulae praecepto, quod in Decalogo septimum est, Non
           moechaberis. De Coniugio, contra adulterium et omnem intemperantiam, de
           Continentia.</questionTitle>
-        <hasWitnesses> 
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>76v</folio>
+            <folio>77r</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+            <folio>78v</folio>
+            <folio>79r</folio>
+            <folio>79v</folio>
+            <folio>80r</folio>
+            <folio>80v</folio>
+            <folio>81r</folio>
+            <folio>81v</folio>
+            <folio>82r</folio>
+            <folio>82v</folio>
+            <folio>83r</folio>
+            <folio>83v</folio>
+            <folio>84r</folio>
+            <folio>84v</folio>
+            <folio>85r</folio>
+          </witness>
           <witness ref="#cod-U78DFf">
             <folio>99v</folio>
             <folio>110v</folio>
@@ -651,7 +886,23 @@
         <questionTitle>De quarto secundae tabulae praecepto, quod in Decalogo octavum est, Non
           furtum facias. De proprietate rerum, usteque parandis opibus, contra furti species
           varias.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>89r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+            <folio>91v</folio>
+            <folio>92r</folio>
+            <folio>92v</folio>
+            <folio>93r</folio>
+            <folio>93v</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+            <folio>95r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-RyTXqp" alias="UD1xh4-d3s2">
         <fileName filestem="UD1xh4-RyTXqp"/>
@@ -659,14 +910,48 @@
         <questionTitle>De legitimo usu facultatum terrenarum: hoc est, quomodo recte possideamus et
           iuste dispensemus opes iuste acquisitas: ubi et de Restitutione et Beneficientia
           differitur</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+            <folio>98v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-hQxV69" alias="UD1xh4-d3s3">
         <fileName filestem="UD1xh4-hQxV69"/>
         <title>Sermo 3</title>
         <questionTitle>De clamitatibus miseriisque variis patienter perferendis: item de spe et
           multiiuga fidelium consolatione.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+            <folio>100r</folio>
+            <folio>100v</folio>
+            <folio>101r</folio>
+            <folio>101v</folio>
+            <folio>102r</folio>
+            <folio>102v</folio>
+            <folio>103r</folio>
+            <folio>103v</folio>
+            <folio>104r</folio>
+            <folio>104v</folio>
+            <folio>105r</folio>
+            <folio>105v</folio>
+            <folio>106r</folio>
+            <folio>106v</folio>
+            <folio>107r</folio>
+            <folio>107v</folio>
+            <folio>108r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-0X9Sw0" alias="UD1xh4-d3s4">
         <fileName filestem="UD1xh4-0X9Sw0"/>
@@ -674,27 +959,99 @@
         <questionTitle>De quinto et sexto secundae tabulae praeceptis, quae in Decalogo sunt nonum
           et decimum, nempe, Ne loquaris contra proximum tuum falsum testimonium. Et, Ne concupiscas
           domum proximi tui, etc</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>108r</folio>
+            <folio>108v</folio>
+            <folio>109r</folio>
+            <folio>109v</folio>
+            <folio>110r</folio>
+            <folio>110v</folio>
+            <folio>111r</folio>
+            <folio>111v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-aPbMx8" alias="UD1xh4-d3s5">
         <fileName filestem="UD1xh4-aPbMx8"/>
         <title>Sermo 5</title>
         <questionTitle>De legibus dei Caeremonialibus, praecipue autem de sacerdotio, loco et
           tempore sacro.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>111v</folio>
+            <folio>112r</folio>
+            <folio>112v</folio>
+            <folio>113r</folio>
+            <folio>113v</folio>
+            <folio>114r</folio>
+            <folio>114v</folio>
+            <folio>115r</folio>
+            <folio>115v</folio>
+            <folio>116r</folio>
+            <folio>116v</folio>
+            <folio>117r</folio>
+            <folio>117v</folio>
+            <folio>118r</folio>
+            <folio>118v</folio>
+            <folio>119r</folio>
+            <folio>119v</folio>
+            <folio>120r</folio>
+            <folio>120v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-I2PbKl" alias="UD1xh4-d3s6">
         <fileName filestem="UD1xh4-I2PbKl"/>
         <title>Sermo 6</title>
         <questionTitle>De Sacramentis Iudaeorum, de Sacrificiorum generibus variis, et aliis
           quibusdam pertinentibus sub legem Caeremoniarum</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>120v</folio>
+            <folio>121r</folio>
+            <folio>121v</folio>
+            <folio>122r</folio>
+            <folio>122v</folio>
+            <folio>123r</folio>
+            <folio>123v</folio>
+            <folio>124r</folio>
+            <folio>124v</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+            <folio>128v</folio>
+            <folio>129r</folio>
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+            <folio>131r</folio>
+            <folio>131v</folio>
+            <folio>132r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-uPMZSV" alias="UD1xh4-d3s7">
         <fileName filestem="UD1xh4-uPMZSV"/>
         <title>Sermo 7</title>
         <questionTitle>De legibus dei Iudicialibus</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio>134v</folio>
+            <folio>135r</folio>
+            <folio>135v</folio>
+            <folio>136r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-LH1fk2" alias="UD1xh4-d3s8">
         <fileName filestem="UD1xh4-LH1fk2"/>
@@ -702,21 +1059,115 @@
         <questionTitle>De usu vel effectu legis divinae, de impletione et abrogatione eiusdem: de
           similitudine et differentia utriusque cum Veteris tum Novi testamenti et
           populi</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>136r</folio>
+            <folio>136v</folio>
+            <folio>137r</folio>
+            <folio>137v</folio>
+            <folio>138r</folio>
+            <folio>138v</folio>
+            <folio>139r</folio>
+            <folio>139v</folio>
+            <folio>140r</folio>
+            <folio>140v</folio>
+            <folio>141r</folio>
+            <folio>141v</folio>
+            <folio>142r</folio>
+            <folio>142v</folio>
+            <folio>143r</folio>
+            <folio>143v</folio>
+            <folio>144r</folio>
+            <folio>144v</folio>
+            <folio>145r</folio>
+            <folio>145v</folio>
+            <folio>146r</folio>
+            <folio>146v</folio>
+            <folio>147r</folio>
+            <folio>147v</folio>
+            <folio>148r</folio>
+            <folio>148v</folio>
+            <folio>149r</folio>
+            <folio>149v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-t7SV9c" alias="UD1xh4-d3s9">
         <fileName filestem="UD1xh4-t7SV9c"/>
         <title>Sermo 9</title>
         <questionTitle>De libertate Christiana et scandalo: de bonis operibus et mercede sive
           praemio bonorum operum</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>149v</folio>
+            <folio>150r</folio>
+            <folio>150v</folio>
+            <folio>151r</folio>
+            <folio>151v</folio>
+            <folio>152r</folio>
+            <folio>152v</folio>
+            <folio>153r</folio>
+            <folio>153v</folio>
+            <folio>154r</folio>
+            <folio>154v</folio>
+            <folio>155r</folio>
+            <folio>155v</folio>
+            <folio>156r</folio>
+            <folio>156v</folio>
+            <folio>157r</folio>
+            <folio>157v</folio>
+            <folio>158r</folio>
+            <folio>158v</folio>
+            <folio>159r</folio>
+            <folio>159v</folio>
+            <folio>160r</folio>
+            <folio>160v</folio>
+            <folio>161r</folio>
+            <folio>161v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-f2KuHo" alias="UD1xh4-d3s10">
         <fileName filestem="UD1xh4-f2KuHo"/>
         <title>Sermo 10</title>
         <questionTitle>De peccato et eius speciebus, nempe de peccato originali, actuali, et de
           peccato in spiritum sanctum, certissimaque et iustissima peccatorum poena</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>161v</folio>
+            <folio>162r</folio>
+            <folio>162v</folio>
+            <folio>163r</folio>
+            <folio>163v</folio>
+            <folio>164r</folio>
+            <folio>164v</folio>
+            <folio>165r</folio>
+            <folio>165v</folio>
+            <folio>166r</folio>
+            <folio>166v</folio>
+            <folio>167r</folio>
+            <folio>167v</folio>
+            <folio>168r</folio>
+            <folio>168v</folio>
+            <folio>169r</folio>
+            <folio>169v</folio>
+            <folio>170r</folio>
+            <folio>170v</folio>
+            <folio>171r</folio>
+            <folio>171v</folio>
+            <folio>172r</folio>
+            <folio>172v</folio>
+            <folio>173r</folio>
+            <folio>173v</folio>
+            <folio>174r</folio>
+            <folio>174v</folio>
+            <folio>175r</folio>
+            <folio>175v</folio>
+            <folio>176r</folio>
+            <folio>176v</folio>
+            <folio>177r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
     </div>
     <div id="UD1xh4-d1e491" alias="UD1xh4-d4">
@@ -726,7 +1177,35 @@
         <title>Sermo 1</title>
         <questionTitle>De Euangelio gratiae Dei, qui filium mundo dedit, et in hoc verae salutis
           omnia, ut credentes in ipsum, vitam consequamur aeternam.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>177v</folio>
+            <folio>178r</folio>
+            <folio>178v</folio>
+            <folio>179r</folio>
+            <folio>179v</folio>
+            <folio>180r</folio>
+            <folio>180v</folio>
+            <folio>181r</folio>
+            <folio>181v</folio>
+            <folio>182r</folio>
+            <folio>182v</folio>
+            <folio>183r</folio>
+            <folio>183v</folio>
+            <folio>184r</folio>
+            <folio>184v</folio>
+            <folio>185r</folio>
+            <folio>185v</folio>
+            <folio>186r</folio>
+            <folio>186v</folio>
+            <folio>187r</folio>
+            <folio>187v</folio>
+            <folio>188r</folio>
+            <folio>188v</folio>
+            <folio>189r</folio>
+            <folio>189v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-bNdIjR" alias="UD1xh4-d4s2">
         <fileName filestem="UD1xh4-bNdIjR"/>
@@ -734,28 +1213,118 @@
         <questionTitle>De poenitentia et causis eius. De confessione et remissione peccatorum, de
           satisfactione et indulgentiis, de Vetere et Novo homine, hominisque viribus, et reliquis
           ad poenitentiam pertinentibus</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>189v</folio>
+            <folio>190r</folio>
+            <folio>190v</folio>
+            <folio>191r</folio>
+            <folio>191v</folio>
+            <folio>192r</folio>
+            <folio>192v</folio>
+            <folio>193r</folio>
+            <folio>193v</folio>
+            <folio>194r</folio>
+            <folio>194v</folio>
+            <folio>195r</folio>
+            <folio>195v</folio>
+            <folio>196r</folio>
+            <folio>196v</folio>
+            <folio>197r</folio>
+            <folio>197v</folio>
+            <folio>198r</folio>
+            <folio>198v</folio>
+            <folio>199r</folio>
+            <folio>199v</folio>
+            <folio>200r</folio>
+            <folio>200v</folio>
+            <folio>201r</folio>
+            <folio>201v</folio>
+            <folio>202r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-anpj9l" alias="UD1xh4-d4s3">
         <fileName filestem="UD1xh4-anpj9l"/>
         <title>Sermo 3</title>
         <questionTitle>De Deo et eius cognitione vera, modisque cognoscendi ipsum variis: Quod unus
           sit Deus substantia, personis trinus</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>204r</folio>
+            <folio>204v</folio>
+            <folio>205r</folio>
+            <folio>205v</folio>
+            <folio>206r</folio>
+            <folio>206v</folio>
+            <folio>207r</folio>
+            <folio>207v</folio>
+            <folio>208r</folio>
+            <folio>208v</folio>
+            <folio>209r</folio>
+            <folio>209v</folio>
+            <folio>210r</folio>
+            <folio>210v</folio>
+            <folio>211r</folio>
+            <folio>211v</folio>
+            <folio>212r</folio>
+            <folio>212v</folio>
+            <folio>213r</folio>
+            <folio>213v</folio>
+            <folio>214r</folio>
+            <folio>214v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-vT4nG4" alias="UD1xh4-d4s4">
         <fileName filestem="UD1xh4-vT4nG4"/>
         <title>Sermo 4</title>
         <questionTitle>Deum esse creatorem omnium, omniaque sua gubernare providentia: ubi et de
           bona dei erga nos voluntate, ac praedestinatione disseritur</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>214v</folio>
+            <folio>215r</folio>
+            <folio>215v</folio>
+            <folio>216r</folio>
+            <folio>216v</folio>
+            <folio>217r</folio>
+            <folio>217v</folio>
+            <folio>218r</folio>
+            <folio>218v</folio>
+            <folio>219r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-ztuSok" alias="UD1xh4-d4s5">
         <fileName filestem="UD1xh4-ztuSok"/>
         <title>Sermo 5</title>
         <questionTitle>De solo Deo vivo vero et aeterno adorando, invocando et colendo, deque vera
           et falsa religione</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>219r</folio>
+            <folio>219v</folio>
+            <folio>220r</folio>
+            <folio>220v</folio>
+            <folio>221r</folio>
+            <folio>221v</folio>
+            <folio>222r</folio>
+            <folio>222v</folio>
+            <folio>223r</folio>
+            <folio>223v</folio>
+            <folio>224r</folio>
+            <folio>224v</folio>
+            <folio>225r</folio>
+            <folio>225v</folio>
+            <folio>226r</folio>
+            <folio>226v</folio>
+            <folio>227r</folio>
+            <folio>227v</folio>
+            <folio>228r</folio>
+            <folio>228v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-Cl8wSo" alias="UD1xh4-d4s6">
         <fileName filestem="UD1xh4-Cl8wSo"/>
@@ -764,35 +1333,130 @@
           ideoque deum verum: eundem esse homine verum, nobis consubstantialem, ideoque verum Deum
           et hominem, manentem in duabus inconfusis naturis, et in una persona
           indivisa.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>228v</folio>
+            <folio>229r</folio>
+            <folio>229v</folio>
+            <folio>230r</folio>
+            <folio>230v</folio>
+            <folio>231r</folio>
+            <folio>231v</folio>
+            <folio>232r</folio>
+            <folio>232v</folio>
+            <folio>233r</folio>
+            <folio>233v</folio>
+            <folio>234r</folio>
+            <folio>234v</folio>
+            <folio>235r</folio>
+            <folio>235v</folio>
+            <folio>236r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-0JUNg6" alias="UD1xh4-d4s7">
         <fileName filestem="UD1xh4-0JUNg6"/>
         <title>Sermo 7</title>
         <questionTitle>De Christo et sacerdote, de regno et sacerdotio eius unico et aeterno, et de
           nomine Christiano</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>236r</folio>
+            <folio>236v</folio>
+            <folio>237r</folio>
+            <folio>237v</folio>
+            <folio>238r</folio>
+            <folio>238v</folio>
+            <folio>239r</folio>
+            <folio>239v</folio>
+            <folio>240r</folio>
+            <folio>240v</folio>
+            <folio>241r</folio>
+            <folio>241v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-h7u61G" alias="UD1xh4-d4s8">
         <fileName filestem="UD1xh4-h7u61G"/>
         <title>Sermo 8</title>
         <questionTitle>De Spiritu sancto tertia in adoranda trinitate persona, eiusque divina
           virtute</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>241v</folio>
+            <folio>242r</folio>
+            <folio>242v</folio>
+            <folio>243r</folio>
+            <folio>243v</folio>
+            <folio>244r</folio>
+            <folio>244v</folio>
+            <folio>245r</folio>
+            <folio>245v</folio>
+            <folio>246r</folio>
+            <folio>246v</folio>
+            <folio>247r</folio>
+            <folio>247v</folio>
+            <folio>248r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-Zgtu8Z" alias="UD1xh4-d4s9">
         <fileName filestem="UD1xh4-Zgtu8Z"/>
         <title>Sermo 9</title>
         <questionTitle>De bonis et malis spiritibus, hoc est, de Angelis Dei santis, et diabolis
           sive cacodaemonibus eorumque operationibus</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>248r</folio>
+            <folio>248v</folio>
+            <folio>249r</folio>
+            <folio>249v</folio>
+            <folio>250r</folio>
+            <folio>250v</folio>
+            <folio>251r</folio>
+            <folio>251v</folio>
+            <folio>252r</folio>
+            <folio>252v</folio>
+            <folio>253r</folio>
+            <folio>253v</folio>
+            <folio>254r</folio>
+            <folio>254v</folio>
+            <folio>255r</folio>
+            <folio>255v</folio>
+            <folio>256r</folio>
+            <folio>256v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-6s7PET" alias="UD1xh4-d4s10">
         <fileName filestem="UD1xh4-6s7PET"/>
         <title>Sermo 10</title>
         <questionTitle>De anima hominis rationali, et certissima eius post mortem corpoream
           salute</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>256v</folio>
+            <folio>257r</folio>
+            <folio>257v</folio>
+            <folio>258r</folio>
+            <folio>258v</folio>
+            <folio>259r</folio>
+            <folio>259v</folio>
+            <folio>260r</folio>
+            <folio>260v</folio>
+            <folio>261r</folio>
+            <folio>261v</folio>
+            <folio>262r</folio>
+            <folio>262v</folio>
+            <folio>263r</folio>
+            <folio>263v</folio>
+            <folio>264r</folio>
+            <folio>264v</folio>
+            <folio>265r</folio>
+            <folio>265v</folio>
+            <folio>266r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
     </div>
     <div id="UD1xh4-d1e638" alias="UD1xh4-d5">
@@ -803,7 +1467,32 @@
         <questionTitle>De sancta catholica ecclesia, quid sit, quam late pateat, quibus agnoscatur
           notis, unde oriatur, quomodo conservetur. An errare possit? Item de potestate et studiis
           ecclesiae.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>271r</folio>
+            <folio>271v</folio>
+            <folio>272r</folio>
+            <folio>272v</folio>
+            <folio>273r</folio>
+            <folio>273v</folio>
+            <folio>274r</folio>
+            <folio>274v</folio>
+            <folio>275r</folio>
+            <folio>275v</folio>
+            <folio>276r</folio>
+            <folio>276v</folio>
+            <folio>277r</folio>
+            <folio>277v</folio>
+            <folio>278r</folio>
+            <folio>278v</folio>
+            <folio>279r</folio>
+            <folio>279v</folio>
+            <folio>280r</folio>
+            <folio>280v</folio>
+            <folio>281r</folio>
+            <folio>281v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-Nw82vK" alias="UD1xh4-d5s2">
         <fileName filestem="UD1xh4-Nw82vK"/>
@@ -812,7 +1501,32 @@
           Contra schismaticos. Quare discessum sit a nupera Romana ecclesia. Dei ecclesiam esse
           domum, vineam, et regnum Dei: item corpus, ovile, et sponsam Christi, matrem et
           virginem</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>281v</folio>
+            <folio>282r</folio>
+            <folio>282v</folio>
+            <folio>283r</folio>
+            <folio>283v</folio>
+            <folio>284r</folio>
+            <folio>284v</folio>
+            <folio>285r</folio>
+            <folio>285v</folio>
+            <folio>286r</folio>
+            <folio>286v</folio>
+            <folio>287r</folio>
+            <folio>287v</folio>
+            <folio>288r</folio>
+            <folio>288v</folio>
+            <folio>289r</folio>
+            <folio>289v</folio>
+            <folio>290r</folio>
+            <folio>290v</folio>
+            <folio>291r</folio>
+            <folio>291v</folio>
+            <folio>292r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-WYWDNJ" alias="UD1xh4-d5s3">
         <fileName filestem="UD1xh4-WYWDNJ"/>
@@ -820,7 +1534,26 @@
         <questionTitle>De ministerio et ministris verbi Dei: quare et in quem finem a Deo sint
           instituti. Ordines a Christo ecclesiae traditos, olim fuisse aequales. Unde et quomod
           exorta sit ministrorum praerogativa, ac de Rom. Pont. primatu</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>292r</folio>
+            <folio>292v</folio>
+            <folio>293r</folio>
+            <folio>293v</folio>
+            <folio>294r</folio>
+            <folio>294v</folio>
+            <folio>295r</folio>
+            <folio>295v</folio>
+            <folio>296r</folio>
+            <folio>296v</folio>
+            <folio>297r</folio>
+            <folio>297v</folio>
+            <folio>298r</folio>
+            <folio>298v</folio>
+            <folio>299r</folio>
+            <folio>299v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-LF8QTP" alias="UD1xh4-d5s4">
         <fileName filestem="UD1xh4-LF8QTP"/>
@@ -828,7 +1561,27 @@
         <questionTitle>De Vocatione ad ministerium verbi Dei. Quales et quomodo oporteat in ecclesia
           verbi ministros ordinare. De Clavibus ecclesiae: quodnam sit ordinatorum officium. De
           ratione docendi ecclesiam, et vita pastorum sancta.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>299v</folio>
+            <folio>300r</folio>
+            <folio>300v</folio>
+            <folio>301r</folio>
+            <folio>301v</folio>
+            <folio>302r</folio>
+            <folio>302v</folio>
+            <folio>303r</folio>
+            <folio>303v</folio>
+            <folio>304r</folio>
+            <folio>304v</folio>
+            <folio>305r</folio>
+            <folio>305v</folio>
+            <folio>306r</folio>
+            <folio>306v</folio>
+            <folio>307r</folio>
+            <folio>307v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-HI8PJg" alias="UD1xh4-d5s5">
         <fileName filestem="UD1xh4-HI8PJg"/>
@@ -836,7 +1589,40 @@
         <questionTitle>De modo et ratione orandi Deum, hoc est, de invocatione nominis domini, ubi
           et Oratio dominica exponitur, et cantu, de gratiarum actione ac virtute orationis
           dicitur.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>307v</folio>
+            <folio>308r</folio>
+            <folio>308v</folio>
+            <folio>309r</folio>
+            <folio>309v</folio>
+            <folio>310r</folio>
+            <folio>310v</folio>
+            <folio>311r</folio>
+            <folio>311v</folio>
+            <folio>312r</folio>
+            <folio>312v</folio>
+            <folio>313r</folio>
+            <folio>313v</folio>
+            <folio>314r</folio>
+            <folio>314v</folio>
+            <folio>315r</folio>
+            <folio>315v</folio>
+            <folio>316r</folio>
+            <folio>316v</folio>
+            <folio>317r</folio>
+            <folio>317v</folio>
+            <folio>318r</folio>
+            <folio>318v</folio>
+            <folio>319r</folio>
+            <folio>319v</folio>
+            <folio>320r</folio>
+            <folio>320v</folio>
+            <folio>321r</folio>
+            <folio>321v</folio>
+            <folio>322r</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-YyjT2e" alias="UD1xh4-d5s6">
         <fileName filestem="UD1xh4-YyjT2e"/>
@@ -847,17 +1633,27 @@
           instituta sint: quibus rebus constent: quomodo consecrentur, quomodo vel coniuncta vel
           discreta sint signum et signatum in sacramentis: et de loquutionibus
           sacramentalibus</questionTitle>
-        <hasWitnesses> 
-          <witness ref="#cod-zj7yAA"/> <!-- first latin -->
-          <witness ref="#cod-a3V3DV"> <!-- second latin -->
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
             <folio>667</folio>
+            <folio>322v</folio>
           </witness>
-          <witness ref="#cod-U78DFf"/> <!-- first german -->
-          <witness ref="#cod-Qev3dv"/> <!-- first dutch -->
-          <witness ref="#cod-Pd33f3v"/> <!-- first french -->
+          <witness ref="#cod-zj7yAA"/>
+          <!-- first latin -->
+          <witness ref="#cod-a3V3DV">
+            <folio>667</folio>
+            <folio>322v</folio>
+          </witness>
+          <witness ref="#cod-U78DFf"/>
+          <!-- first german -->
+          <witness ref="#cod-Qev3dv"/>
+          <!-- first dutch -->
+          <witness ref="#cod-Pd33f3v"/>
+          <!-- first french -->
           <witness ref="#cod-u2dgeg">
             <folio>955</folio>
-          </witness> <!-- 1587 english -->
+          </witness>
+          <!-- 1587 english -->
         </hasWitnesses>
       </item>
       <item id="UD1xh4-SwfJWu" alias="UD1xh4-d5s7">
@@ -868,7 +1664,36 @@
           sacramentorum legitimus. Haec sine fide non prodesse, eadem fidem habentibus non esse
           supervacanea; neque ipsa pendere a dignitate, vel indignitate
           ministrantium.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>336r</folio>
+            <folio>336v</folio>
+            <folio>337r</folio>
+            <folio>337v</folio>
+            <folio>338r</folio>
+            <folio>338v</folio>
+            <folio>339r</folio>
+            <folio>339v</folio>
+            <folio>340r</folio>
+            <folio>340v</folio>
+            <folio>341r</folio>
+            <folio>341v</folio>
+            <folio>342r</folio>
+            <folio>342v</folio>
+            <folio>343r</folio>
+            <folio>343v</folio>
+            <folio>344r</folio>
+            <folio>344v</folio>
+            <folio>345r</folio>
+            <folio>345v</folio>
+            <folio>346r</folio>
+            <folio>346v</folio>
+            <folio>347r</folio>
+            <folio>347v</folio>
+            <folio>348r</folio>
+            <folio>348v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-fjjIci" alias="UD1xh4-d5s8">
         <fileName filestem="UD1xh4-fjjIci"/>
@@ -877,7 +1702,32 @@
           duntaxat sit. De baptismo ignis. De ritu baptismi, quomodo, a quo, et quibus conferendus
           sit. De baptismo obstetricum, et infantibus sine baptismo decedentibus. De paruulorum
           baptismo, contra anabaptismum: et de virtute vel efficacia baptismi.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>349r</folio>
+            <folio>349v</folio>
+            <folio>350r</folio>
+            <folio>350v</folio>
+            <folio>351r</folio>
+            <folio>351v</folio>
+            <folio>352r</folio>
+            <folio>352v</folio>
+            <folio>353r</folio>
+            <folio>353v</folio>
+            <folio>354r</folio>
+            <folio>354v</folio>
+            <folio>355r</folio>
+            <folio>355v</folio>
+            <folio>356r</folio>
+            <folio>356v</folio>
+            <folio>357r</folio>
+            <folio>357v</folio>
+            <folio>358r</folio>
+            <folio>358v</folio>
+            <folio>359r</folio>
+            <folio>359v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-Ju3saM" alias="UD1xh4-d5s9">
         <fileName filestem="UD1xh4-Ju3saM"/>
@@ -887,7 +1737,47 @@
           Hoc est corpus meum. De praesentia Christi in coena. De vera manducatione corporis
           Christi. De digne et indigne manducantibus: et quomodo se quisque praeparet ad coenam
           domini.</questionTitle>
-        <hasWitnesses> </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-a3V3DV">
+            <folio>359v</folio>
+            <folio>360r</folio>
+            <folio>360v</folio>
+            <folio>361r</folio>
+            <folio>361v</folio>
+            <folio>362r</folio>
+            <folio>362v</folio>
+            <folio>363r</folio>
+            <folio>363v</folio>
+            <folio>364r</folio>
+            <folio>364v</folio>
+            <folio>365r</folio>
+            <folio>365v</folio>
+            <folio>366r</folio>
+            <folio>366v</folio>
+            <folio>367r</folio>
+            <folio>367v</folio>
+            <folio>368r</folio>
+            <folio>368v</folio>
+            <folio>369r</folio>
+            <folio>369v</folio>
+            <folio>370r</folio>
+            <folio>370v</folio>
+            <folio>371r</folio>
+            <folio>371v</folio>
+            <folio>372r</folio>
+            <folio>372v</folio>
+            <folio>373r</folio>
+            <folio>373v</folio>
+            <folio>374r</folio>
+            <folio>374v</folio>
+            <folio>375r</folio>
+            <folio>375v</folio>
+            <folio>376r</folio>
+            <folio>376v</folio>
+            <folio>377r</folio>
+            <folio>377v</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="UD1xh4-7yMcbW" alias="UD1xh4-d5s10">
         <fileName filestem="UD1xh4-7yMcbW"/>
@@ -898,8 +1788,31 @@
           Virginibus. De Monachis. Quid agat cum aegrotis ecclesia Christi, et de funeribus et
           sepultura</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-u2dgeg">
+          <witness ref="#cod-a3V3DV">
+            <folio>377v</folio>
+            <folio>378r</folio>
+            <folio>378v</folio>
+            <folio>379r</folio>
+            <folio>379v</folio>
+            <folio>380r</folio>
+            <folio>380v</folio>
+            <folio>381r</folio>
+            <folio>381v</folio>
+            <folio>382r</folio>
+            <folio>382v</folio>
+            <folio>383r</folio>
+            <folio>383v</folio>
+            <folio>384r</folio>
+            <folio>384v</folio>
+            <folio>385r</folio>
+            <folio>385v</folio>
+            <folio>386r</folio>
+            <folio>386v</folio>
+            <folio>387r</folio>
+            <folio>387v</folio>
+            <folio>388r</folio>
           </witness>
+          <witness ref="#cod-u2dgeg"> </witness>
         </hasWitnesses>
       </item>
     </div>
