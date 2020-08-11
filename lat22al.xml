@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Innocent II</authorName>
+    <commentaryName>Second Lateran Council</commentaryName>
+    <commentaryid>lat22al</commentaryid>
+    <commentaryslug>lat22al</commentaryslug>
+    <alias>councillateranII</alias>
+    <authorUri>http://scta.info/resource/per-ZEvn3a</authorUri>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-Man1xw">
+        <!-- codex id not yet created -->
+        <slug>cod-Man1xw</slug>
+        <title>Mansi, v. 21</title>
+        <initial>cod-Man1xw</initial>
+      </witness>
+      <!-- 
+          Mansi, XXI, 526-33;See pdf p. 271 in https://www.documentacatholicaomnia.eu/20vs/200_Mansi/1692-1769,_Mansi_JD,_Sacrorum_Conciliorum_Nova_Amplissima_Collectio_Vol_021,_LT.pdf
+          (possible another edition Hefele-Leclercq, V, 725-733.
+          Can't seem to find any mss sources
+        -->
+    </hasWitnesses>
+    <date>1135</date>
+    <!-- date of coundil according to wikipedia https://en.wikipedia.org/wiki/Second_Council_of_the_Lateran -->
+  </header>
+  <div id="body">
+    <head>Second Lateran Council</head>
+    <item id="lat22al-xZaxY3">
+      <fileName filestem="lat22al-xZaxY3"/>
+      <title>Canons</title>
+      <hasWitnesses>
+        <witness ref="#cod-Man1xw"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
