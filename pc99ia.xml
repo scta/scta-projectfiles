@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+  <header>
+    <authorName>Paolo Cortese</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>pc99ia</commentaryid>
+    <commentaryslug>pc99ia</commentaryslug>
+    <alias>Paolo Cortese</alias>
+    <authorUri>http://scta.info/resource/per-b3aq1a</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-V8aqqq">
+        <slug>cod-V8aqqq</slug> <!-- not yet created as of 2020-09-26 -->
+        <title>Paris 1513</title>
+        <initial>cod-V8aqqq</initial>
+        <!--currently using: https://books.google.com/books?id=-ihcy_YmEpwC
+         
+        @book{cortese1513quatuor,
+        title={Quatuor libri Sententiarum},
+        author={Cortese, P.},
+        url={https://books.google.com/books?id=-ihcy\_YmEpwC},
+        year={1513}}
+        
+        which is a scan from BSB
+        https://opacplus.bsb-muenchen.de/title/BV001397877
+
+        -->
+      </witness>
+      <witness id="cod-B8bqqq">
+        <!--- seems like the best copy to start with -->
+        <slug>cod-B8aqqq</slug> <!-- not yet created as of 2020-09-26 -->
+        <title>Basel 1513</title>
+        <initial>cod-B8bqqq</initial>
+        <editor>Froben</editor>
+        <!--  
+        @book{cortese1513pavlvs,
+        title={Pavlvs Cortesivs In Sententias: Qvi In Hoc Opere Eloqventiam Cvm Theologia Conivnxit : Boni Igitvr Ac Stvdiosi Gavdento Atqve Emvnto},
+        author={Cortese, P.},
+        url={https://books.google.com/books?id=m1lGKJb7BhYC},
+        year={1513},
+        publisher={Froben}
+        }
+        {Scanned by BSB}
+        https://opacplus.bsb-muenchen.de/title/BV001397876
+        https://books.google.com/books?id=sLlSAAAAcAAJ
+        -->
+      </witness>
+      
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    
+  </div>
+</listofFileNames>
