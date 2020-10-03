@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Gregory of Rimini</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -27,8 +28,16 @@
         <title>Paris, BnF, Latin 15891 </title>
         <initial>Rb</initial>
       </witness>
+      <witness id="cod-ae1bsb">
+        <slug>cod-ae1bsb</slug>
+        <title>Venice 1503</title>
+        <initial>cod-ae1bsb</initial>
+        <!-- Venice 1503 bsb10812712 let's call it "cod-ae1bsb" (id not yet created) 
+        folio skips in BSB Images of Rimini
+        50v-51r, aber auch folios 75v-76r und 111v-112r und 158v-159r  und 162v-163r 
+        -->
+      </witness>
       <!-- 1518 https://books.google.com/books?id=QvXVoayHBrgC -->
-      <!-- Venice 1503 bsb10812712 let's call it "cod-ae1bsb" (id not yet created) -->
     </hasWitnesses>
   </header>
   <div id="body">
@@ -42,6 +51,7 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum de obiecto theologico per theologicum discursum notitia</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>1r</folio>-->
             </witness>
@@ -52,6 +62,7 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum de huiusmodi obiecto possit haberi scientia vel opinio</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>7v</folio>-->
             </witness>
@@ -62,6 +73,7 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum omnium conclusionum theologicarum sit habitus unus numero</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>12r</folio>-->
             </witness>
@@ -72,6 +84,7 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum deus inquantum deus sit subiectum in theologia nostra</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>15v</folio>-->
             </witness>
@@ -82,6 +95,7 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum theologia sit speculativa vel practica</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>19r</folio>-->
             </witness>
@@ -95,6 +109,7 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum omnis usus sit fruitio seu omnis actus utendi sit actus fruendi</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!-- <folio>24v</folio> -->
             </witness>
@@ -105,6 +120,7 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum fruitio sit operatio solius voluntatis</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!-- <folio>27v</folio>-->
             </witness>
@@ -115,6 +131,7 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum solo deo sit fruendum</questionTitle>
           <hasWitnesses>
+            <witness ref="#cod-ae1bsb"/>
             <witness ref="#Ra">
               <!--<folio>32v</folio>-->
             </witness>
