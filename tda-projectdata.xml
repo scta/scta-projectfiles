@@ -16,15 +16,23 @@
       <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
       <hasWitnesses>
         <!-- 
-          venice 1564 edition 
-          
-          Strasbourg 1490: https://archive.org/details/A336050/page/n43/mode/2up
+          venice 1564 edition
           -->
         <witness id="cod-Vba2v2">
           <slug>cod-Vba2v2</slug>
           <title>Strabourg 1490</title>
           <initial>cod-Vba2v2</initial>
           <!-- https://iiif.archivelab.org/iiif/A336050/manifest.json -->
+          <!--Strasbourg 1490: https://archive.org/details/A336050/page/n43/mode/2up-->
+        </witness>
+        <witness id="cod-TxxxqU">
+          <slug>cod-TxxxqU</slug>
+          <title>Genoa 1585</title>
+          <initial>cod-TxxxqU</initial>
+          <editor>http://scta.info/resource/per-Xxqb4a</editor><!-- Antonius Orerius -->
+          <!-- Genoa : Antonius Orerius, 1585 
+          https://opacplus.bsb-muenchen.de/title/BV001357486
+          https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148420/manifest -->
         </witness>
       </hasWitnesses>
     </header>
