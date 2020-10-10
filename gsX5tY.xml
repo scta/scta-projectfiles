@@ -1,586 +1,1546 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
-    <authorName>Gerard of Siena</authorName>
-    <commentaryName>Commentarius in libros Sententiarum</commentaryName>
-    <commentaryid>gsX5tY</commentaryid>
-    <commentaryslug>gsX5tY</commentaryslug>
-    <alias>sienacommentary</alias>
-    <authorUri>http://scta.info/resource/GerardusDeSiena</authorUri>
-    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-    <questionListSource/>
-    <questionListOriginalEditor/>
-    <questionListEncoder>Kjerstin B. Burdiek</questionListEncoder>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses>
-      <witness id="cod-P122zz">
-        <slug>cod-P122zz</slug>
-        <title>Padua 1598</title>
-        <initial>cod-P122zz</initial>
-        <!-- Padua 1598: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10142549/manifest 
+      <authorName>Gerard of Siena</authorName>
+      <commentaryName>Commentarius in libros Sententiarum</commentaryName>
+      <commentaryid>gsX5tY</commentaryid>
+      <commentaryslug>gsX5tY</commentaryslug>
+      <alias>sienacommentary</alias>
+      <authorUri>http://scta.info/resource/GerardusDeSiena</authorUri>
+      <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Kjerstin B. Burdiek</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-P122zz">
+            <slug>cod-P122zz</slug>
+            <title>Padua 1598</title>
+            <initial>cod-P122zz</initial>
+            <!-- Padua 1598: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10142549/manifest 
         https://opacplus.bsb-muenchen.de/title/BV001549126
         -->
-      </witness>
-    </hasWitnesses>
+         </witness>
+      </hasWitnesses>
   </header>
   <div id="body">
-    <div id="gsX5tY-d1e59" alias="gds-l1" type="liber1">
-      <head>Liber 1</head>
-      <div id="gsX5tY-d1e64" alias="gds-l1prol" type="liber1-prologus">
-        <head>Prologus</head>
-        <item id="gsX5tY-d1e69" alias="gds-l1prolq1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e69"/>
-          <title>Prologus, Quaestio 1</title>
-          <questionTitle>Utrum cognitio divinae veritatis acquisita in Theologia possit haberi per
+      <head>Commentarius in libros Sententiarum</head>
+      <div id="gsX5tY-d1e59" alias="gds-l1" type="liber1">
+         <head>Liber 1</head>
+         <div id="gsX5tY-d1e64" alias="gds-l1prol" type="liber1-prologus">
+            <head>Prologus</head>
+            <item id="gsX5tY-d1e69" alias="gds-l1prolq1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e69"/>
+               <title>Prologus, Quaestio 1</title>
+               <questionTitle>Utrum cognitio divinae veritatis acquisita in Theologia possit haberi per
             scientias a philosophis adinuentas.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e80" alias="gds-l1prolq2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e80"/>
-          <title>Prologus, Quaestio 2</title>
-          <questionTitle>Utrum veritas Theologiae contineatur sub obiecto adaequato nostrae
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>1</folio>
+                     <folio>2</folio>
+                     <folio>3</folio>
+                     <folio>4</folio>
+                     <folio>5</folio>
+                     <folio>6</folio>
+                     <folio>7</folio>
+                     <folio>8</folio>
+                     <folio>9</folio>
+                     <folio>10</folio>
+                     <folio>11</folio>
+                     <folio>12</folio>
+                     <folio>13</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e80" alias="gds-l1prolq2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e80"/>
+               <title>Prologus, Quaestio 2</title>
+               <questionTitle>Utrum veritas Theologiae contineatur sub obiecto adaequato nostrae
             potentiae intellectivae.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e91" alias="gds-l1prolq3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e91"/>
-          <title>Prologus, Quaestio 3</title>
-          <questionTitle>Utrum cognitio veritatis Theologicae tantam habeat certitudinem, quantam
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>13</folio>
+                     <folio>14</folio>
+                     <folio>15</folio>
+                     <folio>16</folio>
+                     <folio>17</folio>
+                     <folio>18</folio>
+                     <folio>19</folio>
+                     <folio>20</folio>
+                     <folio>21</folio>
+                     <folio>22</folio>
+                     <folio>23</folio>
+                     <folio>24</folio>
+                     <folio>25</folio>
+                     <folio>26</folio>
+                     <folio>27</folio>
+                     <folio>28</folio>
+                     <folio>29</folio>
+                     <folio>30</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e91" alias="gds-l1prolq3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e91"/>
+               <title>Prologus, Quaestio 3</title>
+               <questionTitle>Utrum cognitio veritatis Theologicae tantam habeat certitudinem, quantam
             habent scientiae humanitus inventae.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e102" alias="gds-l1prolq4" type="quaestio">
-          <fileName filestem="gsX5tY-d1e102"/>
-          <title>Prologus, Quaestio 4</title>
-          <questionTitle>Utrum cognitio veritatis Theologicae compatiatur secum aenigma fidei, et
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>30</folio>
+                     <folio>31</folio>
+                     <folio>32</folio>
+                     <folio>33</folio>
+                     <folio>34</folio>
+                     <folio>35</folio>
+                     <folio>36</folio>
+                     <folio>37</folio>
+                     <folio>38</folio>
+                     <folio>39</folio>
+                     <folio>40</folio>
+                     <folio>41</folio>
+                     <folio>42</folio>
+                     <folio>43</folio>
+                     <folio>44</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e102" alias="gds-l1prolq4" type="quaestio">
+               <fileName filestem="gsX5tY-d1e102"/>
+               <title>Prologus, Quaestio 4</title>
+               <questionTitle>Utrum cognitio veritatis Theologicae compatiatur secum aenigma fidei, et
             evidentiam scientiae.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e114" alias="gds-l1prolq5" type="quaestio">
-          <fileName filestem="gsX5tY-d1e114"/>
-          <title>Prologus, Quaestio 5</title>
-          <questionTitle>Utrum cognitio veritatis Theologiae sit finis in hac scientia, vel alium
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>44</folio>
+                     <folio>45</folio>
+                     <folio>46</folio>
+                     <folio>47</folio>
+                     <folio>48</folio>
+                     <folio>49</folio>
+                     <folio>50</folio>
+                     <folio>51</folio>
+                     <folio>52</folio>
+                     <folio>53</folio>
+                     <folio>54</folio>
+                     <folio>55</folio>
+                     <folio>56</folio>
+                     <folio>57</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e114" alias="gds-l1prolq5" type="quaestio">
+               <fileName filestem="gsX5tY-d1e114"/>
+               <title>Prologus, Quaestio 5</title>
+               <questionTitle>Utrum cognitio veritatis Theologiae sit finis in hac scientia, vel alium
             habeat finem.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e126" alias="gds-l1d1" type="liber1-distinctio1">
-        <head>Distinctio 1</head>
-        <item id="gsX5tY-d1e131" alias="gds-l1d1q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e131"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum fruitio sit essentialiter unus actus. Quid importetur per hoc nomen
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>57</folio>
+                     <folio>58</folio>
+                     <folio>59</folio>
+                     <folio>60</folio>
+                     <folio>61</folio>
+                     <folio>62</folio>
+                     <folio>63</folio>
+                     <folio>64</folio>
+                     <folio>65</folio>
+                     <folio>66</folio>
+                     <folio>67</folio>
+                     <folio>68</folio>
+                     <folio>69</folio>
+                     <folio>70</folio>
+                     <folio>71</folio>
+                     <folio>72</folio>
+                     <folio>73</folio>
+                     <folio>74</folio>
+                     <folio>75</folio>
+                     <folio>76</folio>
+                     <folio>77</folio>
+                     <folio>78</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e126" alias="gds-l1d1" type="liber1-distinctio1">
+            <head>Distinctio 1</head>
+            <item id="gsX5tY-d1e131" alias="gds-l1d1q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e131"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum fruitio sit essentialiter unus actus. Quid importetur per hoc nomen
             fruitio.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e142" alias="gds-l1d1q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e142"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum obiectum fruitionis ordinatae, et proprie dictae sit unum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>79</folio>
+                     <folio>80</folio>
+                     <folio>81</folio>
+                     <folio>82</folio>
+                     <folio>83</folio>
+                     <folio>84</folio>
+                     <folio>85</folio>
+                     <folio>86</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e142" alias="gds-l1d1q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e142"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum obiectum fruitionis ordinatae, et proprie dictae sit unum
             tantum.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e153" alias="gds-l1d1q3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e153"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum obiectum fruitionis obiiciat se intellectui sub eadem ratione, qua
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>86</folio>
+                     <folio>87</folio>
+                     <folio>88</folio>
+                     <folio>89</folio>
+                     <folio>90</folio>
+                     <folio>91</folio>
+                     <folio>92</folio>
+                     <folio>93</folio>
+                     <folio>94</folio>
+                     <folio>95</folio>
+                     <folio>96</folio>
+                     <folio>97</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e153" alias="gds-l1d1q3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e153"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum obiectum fruitionis obiiciat se intellectui sub eadem ratione, qua
             obiicit se voluntati ad fruendum.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e164" alias="gds-l1d1q4" type="quaestio">
-          <fileName filestem="gsX5tY-d1e164"/>
-          <title>Quaestio 4</title>
-          <questionTitle>Utrum obiectum fruitionis possit movere voluntatem ad actum fruendi, non
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>97</folio>
+                     <folio>98</folio>
+                     <folio>99</folio>
+                     <folio>100</folio>
+                     <folio>101</folio>
+                     <folio>102</folio>
+                     <folio>103</folio>
+                     <folio>104</folio>
+                     <folio>105</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e164" alias="gds-l1d1q4" type="quaestio">
+               <fileName filestem="gsX5tY-d1e164"/>
+               <title>Quaestio 4</title>
+               <questionTitle>Utrum obiectum fruitionis possit movere voluntatem ad actum fruendi, non
             movendo intellectum ad actum videndi.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e176" alias="gds-l1d1q5" type="quaestio">
-          <fileName filestem="gsX5tY-d1e176"/>
-          <title>Quaestio 5</title>
-          <questionTitle>Utrum uti sit actus necessario distinctus ab ipso frui.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e188" alias="gds-l1d2" type="liber1-distinctio2">
-        <head>Distinctio 2</head>
-        <item id="gsX5tY-d1e193" alias="gds-l1d2q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e193"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum sit tantum unus Deus.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e204" alias="gds-l1d2q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e204"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum cum unitate divinae essentiae stet pluralitas perfectionum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>105</folio>
+                     <folio>106</folio>
+                     <folio>107</folio>
+                     <folio>108</folio>
+                     <folio>109</folio>
+                     <folio>110</folio>
+                     <folio>111</folio>
+                     <folio>112</folio>
+                     <folio>113</folio>
+                     <folio>114</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e176" alias="gds-l1d1q5" type="quaestio">
+               <fileName filestem="gsX5tY-d1e176"/>
+               <title>Quaestio 5</title>
+               <questionTitle>Utrum uti sit actus necessario distinctus ab ipso frui.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>114</folio>
+                     <folio>115</folio>
+                     <folio>116</folio>
+                     <folio>117</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e188" alias="gds-l1d2" type="liber1-distinctio2">
+            <head>Distinctio 2</head>
+            <item id="gsX5tY-d1e193" alias="gds-l1d2q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e193"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum sit tantum unus Deus.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>117</folio>
+                     <folio>118</folio>
+                     <folio>119</folio>
+                     <folio>120</folio>
+                     <folio>121</folio>
+                     <folio>122</folio>
+                     <folio>123</folio>
+                     <folio>124</folio>
+                     <folio>125</folio>
+                     <folio>126</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e204" alias="gds-l1d2q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e204"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum cum unitate divinae essentiae stet pluralitas perfectionum
             attributalium.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e215" alias="gds-l1d2q3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e215"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum cum unitate essentiae stet pluralitas personarum.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e227" alias="gds-l1d3" type="liber1-distinctio3">
-        <head>Distinctio 3</head>
-        <item id="gsX5tY-d1e232" alias="gds-l1d3q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e232"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus cognoscatur a nobis aliquo communi conceptu cum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>126</folio>
+                     <folio>127</folio>
+                     <folio>128</folio>
+                     <folio>129</folio>
+                     <folio>130</folio>
+                     <folio>131</folio>
+                     <folio>132</folio>
+                     <folio>133</folio>
+                     <folio>134</folio>
+                     <folio>135</folio>
+                     <folio>136</folio>
+                     <folio>137</folio>
+                     <folio>138</folio>
+                     <folio>139</folio>
+                     <folio>140</folio>
+                     <folio>141</folio>
+                     <folio>142</folio>
+                     <folio>143</folio>
+                     <folio>144</folio>
+                     <folio>145</folio>
+                     <folio>146</folio>
+                     <folio>147</folio>
+                     <folio>148</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e215" alias="gds-l1d2q3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e215"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum cum unitate essentiae stet pluralitas personarum.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>148</folio>
+                     <folio>149</folio>
+                     <folio>150</folio>
+                     <folio>151</folio>
+                     <folio>152</folio>
+                     <folio>153</folio>
+                     <folio>154</folio>
+                     <folio>155</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e227" alias="gds-l1d3" type="liber1-distinctio3">
+            <head>Distinctio 3</head>
+            <item id="gsX5tY-d1e232" alias="gds-l1d3q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e232"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus cognoscatur a nobis aliquo communi conceptu cum
             creaturis.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e243" alias="gds-l1d3q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e243"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum Deus sit primum cognitum ab intellectu nostro.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e254" alias="gds-l1d3q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e254"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum primum cognitum ab intellectu nostro sit aliquod
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>155</folio>
+                     <folio>156</folio>
+                     <folio>157</folio>
+                     <folio>158</folio>
+                     <folio>159</folio>
+                     <folio>160</folio>
+                     <folio>161</folio>
+                     <folio>162</folio>
+                     <folio>163</folio>
+                     <folio>164</folio>
+                     <folio>165</folio>
+                     <folio>166</folio>
+                     <folio>167</folio>
+                     <folio>168</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e243" alias="gds-l1d3q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e243"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum Deus sit primum cognitum ab intellectu nostro.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>168</folio>
+                     <folio>169</folio>
+                     <folio>170</folio>
+                     <folio>171</folio>
+                     <folio>172</folio>
+                     <folio>173</folio>
+                     <folio>174</folio>
+                     <folio>175</folio>
+                     <folio>176</folio>
+                     <folio>177</folio>
+                     <folio>178</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e254" alias="gds-l1d3q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e254"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum primum cognitum ab intellectu nostro sit aliquod
             universale.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e265" alias="gds-l1d3q4" type="quaestio">
-          <fileName filestem="gsX5tY-d1e265"/>
-          <title>Quaestio 4</title>
-          <questionTitle>Utrum Trinitas personarum repraesentetur in creatura, tam per vestigium,
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>178</folio>
+                     <folio>179</folio>
+                     <folio>180</folio>
+                     <folio>181</folio>
+                     <folio>182</folio>
+                     <folio>183</folio>
+                     <folio>184</folio>
+                     <folio>185</folio>
+                     <folio>186</folio>
+                     <folio>187</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e265" alias="gds-l1d3q4" type="quaestio">
+               <fileName filestem="gsX5tY-d1e265"/>
+               <title>Quaestio 4</title>
+               <questionTitle>Utrum Trinitas personarum repraesentetur in creatura, tam per vestigium,
             quam per imaginem.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e278" alias="gds-l1d4" type="liber1-distinctio4">
-        <head>Distinctio 4</head>
-        <item id="gsX5tY-d1e283" alias="gds-l1d4q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e283"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in divinis sit generatio</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e295" alias="gds-l1d5" type="liber1-distinctio5">
-        <head>Distinctio 5</head>
-        <item id="gsX5tY-d1e300" alias="gds-l1d5q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e300"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum divina essentia sit generans</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e311" alias="gds-l1d5q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e311"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum divina essentia sit formalis terminus generationis</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e322" alias="gds-l1d5q3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e322"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum divina essentia sit subiectum generationis</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e333" alias="gds-l1d5q4" type="quaestio">
-          <fileName filestem="gsX5tY-d1e333"/>
-          <title>Quaestio 4</title>
-          <questionTitle>Utrum filius generetur de substantia patris</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e345" alias="gds-l1d6" type="liber1-distinctio6">
-        <head>Distinctio 6</head>
-        <item id="gsX5tY-d1e350" alias="gds-l1d6q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e350"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum pater generet filium naturali necessitate</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e361" alias="gds-l1d6q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e361"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum pater generet filium voluntate</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e373" alias="gds-l1d7" type="liber1-distinctio7">
-        <head>Distinctio 7</head>
-        <item id="gsX5tY-d1e378" alias="gds-l1d7q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e378"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum potentia generandi in Deo sit aliquid absolutum</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e390" alias="gds-l1d8" type="liber1-distinctio8">
-        <head>Distinctio 8</head>
-        <item id="gsX5tY-d1e395" alias="gds-l1d8q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e395"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in Deo sit aliqua realis compositio</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e406" alias="gds-l1d8q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e406"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum in Deo sit aliqua compositio secundum rationem</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e417" alias="gds-l1d8q3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e417"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum anima rationalis sit ita simplex, quod possit esse tota in toto
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>187</folio>
+                     <folio>188</folio>
+                     <folio>189</folio>
+                     <folio>190</folio>
+                     <folio>191</folio>
+                     <folio>192</folio>
+                     <folio>193</folio>
+                     <folio>194</folio>
+                     <folio>195</folio>
+                     <folio>196</folio>
+                     <folio>197</folio>
+                     <folio>198</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e278" alias="gds-l1d4" type="liber1-distinctio4">
+            <head>Distinctio 4</head>
+            <item id="gsX5tY-d1e283" alias="gds-l1d4q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e283"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in divinis sit generatio</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>198</folio>
+                     <folio>199</folio>
+                     <folio>200</folio>
+                     <folio>201</folio>
+                     <folio>202</folio>
+                     <folio>203</folio>
+                     <folio>204</folio>
+                     <folio>205</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e295" alias="gds-l1d5" type="liber1-distinctio5">
+            <head>Distinctio 5</head>
+            <item id="gsX5tY-d1e300" alias="gds-l1d5q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e300"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum divina essentia sit generans</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>205</folio>
+                     <folio>206</folio>
+                     <folio>207</folio>
+                     <folio>208</folio>
+                     <folio>209</folio>
+                     <folio>210</folio>
+                     <folio>211</folio>
+                     <folio>212</folio>
+                     <folio>213</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e311" alias="gds-l1d5q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e311"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum divina essentia sit formalis terminus generationis</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>213</folio>
+                     <folio>214</folio>
+                     <folio>215</folio>
+                     <folio>216</folio>
+                     <folio>217</folio>
+                     <folio>218</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e322" alias="gds-l1d5q3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e322"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum divina essentia sit subiectum generationis</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>218</folio>
+                     <folio>219</folio>
+                     <folio>220</folio>
+                     <folio>221</folio>
+                     <folio>222</folio>
+                     <folio>223</folio>
+                     <folio>224</folio>
+                     <folio>225</folio>
+                     <folio>226</folio>
+                     <folio>227</folio>
+                     <folio>228</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e333" alias="gds-l1d5q4" type="quaestio">
+               <fileName filestem="gsX5tY-d1e333"/>
+               <title>Quaestio 4</title>
+               <questionTitle>Utrum filius generetur de substantia patris</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>228</folio>
+                     <folio>229</folio>
+                     <folio>230</folio>
+                     <folio>231</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e345" alias="gds-l1d6" type="liber1-distinctio6">
+            <head>Distinctio 6</head>
+            <item id="gsX5tY-d1e350" alias="gds-l1d6q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e350"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum pater generet filium naturali necessitate</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>231</folio>
+                     <folio>232</folio>
+                     <folio>233</folio>
+                     <folio>234</folio>
+                     <folio>235</folio>
+                     <folio>236</folio>
+                     <folio>237</folio>
+                     <folio>238</folio>
+                     <folio>239</folio>
+                     <folio>240</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e361" alias="gds-l1d6q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e361"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum pater generet filium voluntate</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>240</folio>
+                     <folio>241</folio>
+                     <folio>242</folio>
+                     <folio>243</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e373" alias="gds-l1d7" type="liber1-distinctio7">
+            <head>Distinctio 7</head>
+            <item id="gsX5tY-d1e378" alias="gds-l1d7q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e378"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum potentia generandi in Deo sit aliquid absolutum</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>243</folio>
+                     <folio>244</folio>
+                     <folio>245</folio>
+                     <folio>246</folio>
+                     <folio>247</folio>
+                     <folio>248</folio>
+                     <folio>249</folio>
+                     <folio>250</folio>
+                     <folio>251</folio>
+                     <folio>252</folio>
+                     <folio>253</folio>
+                     <folio>254</folio>
+                     <folio>255</folio>
+                     <folio>256</folio>
+                     <folio>257</folio>
+                     <folio>258</folio>
+                     <folio>259</folio>
+                     <folio>260</folio>
+                     <folio>261</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e390" alias="gds-l1d8" type="liber1-distinctio8">
+            <head>Distinctio 8</head>
+            <item id="gsX5tY-d1e395" alias="gds-l1d8q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e395"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in Deo sit aliqua realis compositio</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>261</folio>
+                     <folio>262</folio>
+                     <folio>263</folio>
+                     <folio>264</folio>
+                     <folio>265</folio>
+                     <folio>266</folio>
+                     <folio>267</folio>
+                     <folio>268</folio>
+                     <folio>269</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e406" alias="gds-l1d8q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e406"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum in Deo sit aliqua compositio secundum rationem</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>270</folio>
+                     <folio>271</folio>
+                     <folio>272</folio>
+                     <folio>273</folio>
+                     <folio>274</folio>
+                     <folio>275</folio>
+                     <folio>276</folio>
+                     <folio>277</folio>
+                     <folio>278</folio>
+                     <folio>279</folio>
+                     <folio>280</folio>
+                     <folio>281</folio>
+                     <folio>282</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e417" alias="gds-l1d8q3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e417"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum anima rationalis sit ita simplex, quod possit esse tota in toto
             corpore, et in suis partibus absque sui extensione, et divisione</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e429" alias="gds-l1d9" type="liber1-distinctio9">
-        <head>Distinctio 9</head>
-        <item id="gsX5tY-d1e434" alias="gds-l1d9q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e434"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum generatio in divinis distinguat filium a patre</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e445" alias="gds-l1d9q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e445"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum sit aliquis ordo in divinis inter patrem, et filium</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e458" alias="gds-l1d10" type="liber1-distinctio10">
-        <head>Distinctio 10</head>
-        <item id="gsX5tY-d1e463" alias="gds-l1d10q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e463"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Spiritus Sanctus procedat per modum voluntatis</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e475" alias="gds-l1d11" type="liber1-distinctio11">
-        <head>Distinctio 11</head>
-        <item id="gsX5tY-d1e480" alias="gds-l1d11q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e480"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Spiritus Sanctus procedat a filio</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e491" alias="gds-l1d11q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e491"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum si Spiritus Sanctus non procederet a filio, distingueretur ab
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>282</folio>
+                     <folio>283</folio>
+                     <folio>284</folio>
+                     <folio>285</folio>
+                     <folio>286</folio>
+                     <folio>287</folio>
+                     <folio>288</folio>
+                     <folio>289</folio>
+                     <folio>290</folio>
+                     <folio>291</folio>
+                     <folio>292</folio>
+                     <folio>293</folio>
+                     <folio>294</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e429" alias="gds-l1d9" type="liber1-distinctio9">
+            <head>Distinctio 9</head>
+            <item id="gsX5tY-d1e434" alias="gds-l1d9q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e434"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum generatio in divinis distinguat filium a patre</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>294</folio>
+                     <folio>295</folio>
+                     <folio>296</folio>
+                     <folio>297</folio>
+                     <folio>298</folio>
+                     <folio>299</folio>
+                     <folio>300</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e445" alias="gds-l1d9q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e445"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum sit aliquis ordo in divinis inter patrem, et filium</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>300</folio>
+                     <folio>301</folio>
+                     <folio>302</folio>
+                     <folio>303</folio>
+                     <folio>304</folio>
+                     <folio>305</folio>
+                     <folio>306</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e458" alias="gds-l1d10" type="liber1-distinctio10">
+            <head>Distinctio 10</head>
+            <item id="gsX5tY-d1e463" alias="gds-l1d10q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e463"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Spiritus Sanctus procedat per modum voluntatis</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>306</folio>
+                     <folio>307</folio>
+                     <folio>308</folio>
+                     <folio>309</folio>
+                     <folio>310</folio>
+                     <folio>311</folio>
+                     <folio>312</folio>
+                     <folio>313</folio>
+                     <folio>314</folio>
+                     <folio>315</folio>
+                     <folio>316</folio>
+                     <folio>317</folio>
+                     <folio>318</folio>
+                     <folio>319</folio>
+                     <folio>320</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e475" alias="gds-l1d11" type="liber1-distinctio11">
+            <head>Distinctio 11</head>
+            <item id="gsX5tY-d1e480" alias="gds-l1d11q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e480"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Spiritus Sanctus procedat a filio</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>320</folio>
+                     <folio>321</folio>
+                     <folio>322</folio>
+                     <folio>323</folio>
+                     <folio>324</folio>
+                     <folio>325</folio>
+                     <folio>326</folio>
+                     <folio>327</folio>
+                     <folio>328</folio>
+                     <folio>329</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e491" alias="gds-l1d11q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e491"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum si Spiritus Sanctus non procederet a filio, distingueretur ab
             eo</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e503" alias="gds-l1d12" type="liber1-distinctio12">
-        <head>Distinctio 12</head>
-        <item id="gsX5tY-d1e508" alias="gds-l1d12q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e508"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Spiritus Sanctus procedat a patre, et filio per mutuum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>329</folio>
+                     <folio>330</folio>
+                     <folio>331</folio>
+                     <folio>332</folio>
+                     <folio>333</folio>
+                     <folio>334</folio>
+                     <folio>335</folio>
+                     <folio>336</folio>
+                     <folio>337</folio>
+                     <folio>338</folio>
+                     <folio>339</folio>
+                     <folio>340</folio>
+                     <folio>341</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e503" alias="gds-l1d12" type="liber1-distinctio12">
+            <head>Distinctio 12</head>
+            <item id="gsX5tY-d1e508" alias="gds-l1d12q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e508"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Spiritus Sanctus procedat a patre, et filio per mutuum
             amorem</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e520" alias="gds-l1d13" type="liber1-distinctio13">
-        <head>Distinctio 13</head>
-        <item id="gsX5tY-d1e525" alias="gds-l1d13q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e525"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum generatio filii, et processio Spiritus Sancti sint realiter
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>341</folio>
+                     <folio>342</folio>
+                     <folio>343</folio>
+                     <folio>344</folio>
+                     <folio>345</folio>
+                     <folio>346</folio>
+                     <folio>347</folio>
+                     <folio>348</folio>
+                     <folio>349</folio>
+                     <folio>350</folio>
+                     <folio>351</folio>
+                     <folio>352</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e520" alias="gds-l1d13" type="liber1-distinctio13">
+            <head>Distinctio 13</head>
+            <item id="gsX5tY-d1e525" alias="gds-l1d13q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e525"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum generatio filii, et processio Spiritus Sancti sint realiter
             distincta</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e537" alias="gds-l1d14" type="liber1-distinctio14">
-        <head>Distinctio 14</head>
-        <item id="gsX5tY-d1e542" alias="gds-l1d14q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e542"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum detur duplex processio Spiritus Sancti, scilicet aeternae, et
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>352</folio>
+                     <folio>353</folio>
+                     <folio>354</folio>
+                     <folio>355</folio>
+                     <folio>356</folio>
+                     <folio>357</folio>
+                     <folio>358</folio>
+                     <folio>359</folio>
+                     <folio>360</folio>
+                     <folio>361</folio>
+                     <folio>362</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e537" alias="gds-l1d14" type="liber1-distinctio14">
+            <head>Distinctio 14</head>
+            <item id="gsX5tY-d1e542" alias="gds-l1d14q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e542"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum detur duplex processio Spiritus Sancti, scilicet aeternae, et
             temporalis</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e554" alias="gds-l1d15" type="liber1-distinctio15">
-        <head>Distinctio 15</head>
-        <item id="gsX5tY-d1e559" alias="gds-l1d15q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e559"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum missio sit communis toti Trinitati</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e572" alias="gds-l1d16" type="liber1-distinctio16">
-        <head>Distinctio 16</head>
-        <item id="gsX5tY-d1e577" alias="gds-l1d16q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e577"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in divinis sit missio visibilis</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e589" alias="gds-l1d17" type="liber1-distinctio17">
-        <head>Distinctio 17</head>
-        <item id="gsX5tY-d1e594" alias="gds-l1d17q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e594"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum charitas sit habitus creatus in anima necessarius ad eliciendum actum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>362</folio>
+                     <folio>363</folio>
+                     <folio>364</folio>
+                     <folio>365</folio>
+                     <folio>366</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e554" alias="gds-l1d15" type="liber1-distinctio15">
+            <head>Distinctio 15</head>
+            <item id="gsX5tY-d1e559" alias="gds-l1d15q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e559"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum missio sit communis toti Trinitati</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>366</folio>
+                     <folio>367</folio>
+                     <folio>368</folio>
+                     <folio>369</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e572" alias="gds-l1d16" type="liber1-distinctio16">
+            <head>Distinctio 16</head>
+            <item id="gsX5tY-d1e577" alias="gds-l1d16q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e577"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in divinis sit missio visibilis</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>369</folio>
+                     <folio>370</folio>
+                     <folio>371</folio>
+                     <folio>372</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e589" alias="gds-l1d17" type="liber1-distinctio17">
+            <head>Distinctio 17</head>
+            <item id="gsX5tY-d1e594" alias="gds-l1d17q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e594"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum charitas sit habitus creatus in anima necessarius ad eliciendum actum
             meritorium, et ad esse gratuitum</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e605" alias="gds-l1d17q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e605"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum charitas possit augeri</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e617" alias="gds-l1d18" type="liber1-distinctio18">
-        <head>Distinctio 18</head>
-        <item id="gsX5tY-d1e622" alias="gds-l1d18q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e622"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum id, quod significatur nomine doni, in divinis sit quid
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>372</folio>
+                     <folio>373</folio>
+                     <folio>374</folio>
+                     <folio>375</folio>
+                     <folio>376</folio>
+                     <folio>377</folio>
+                     <folio>378</folio>
+                     <folio>379</folio>
+                     <folio>380</folio>
+                     <folio>381</folio>
+                     <folio>382</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e605" alias="gds-l1d17q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e605"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum charitas possit augeri</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>382</folio>
+                     <folio>383</folio>
+                     <folio>384</folio>
+                     <folio>385</folio>
+                     <folio>386</folio>
+                     <folio>387</folio>
+                     <folio>388</folio>
+                     <folio>389</folio>
+                     <folio>390</folio>
+                     <folio>391</folio>
+                     <folio>392</folio>
+                     <folio>393</folio>
+                     <folio>394</folio>
+                     <folio>395</folio>
+                     <folio>396</folio>
+                     <folio>397</folio>
+                     <folio>398</folio>
+                     <folio>399</folio>
+                     <folio>400</folio>
+                     <folio>401</folio>
+                     <folio>402</folio>
+                     <folio>403</folio>
+                     <folio>404</folio>
+                     <folio>405</folio>
+                     <folio>406</folio>
+                     <folio>407</folio>
+                     <folio>408</folio>
+                     <folio>409</folio>
+                     <folio>410</folio>
+                     <folio>411</folio>
+                     <folio>412</folio>
+                     <folio>413</folio>
+                     <folio>414</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e617" alias="gds-l1d18" type="liber1-distinctio18">
+            <head>Distinctio 18</head>
+            <item id="gsX5tY-d1e622" alias="gds-l1d18q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e622"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum id, quod significatur nomine doni, in divinis sit quid
             essentiale</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e634" alias="gds-l1d19" type="liber1-distinctio19">
-        <head>Distinctio 19</head>
-        <item id="gsX5tY-d1e639" alias="gds-l1d19q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e639"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum divinae personae sint aequales</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e650" alias="gds-l1d19q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e650"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum detur aliqua veritas praeter divinam</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e662" alias="gds-l1d20" type="liber1-distinctio20">
-        <head>Distinctio 20</head>
-        <item id="gsX5tY-d1e667" alias="gds-l1d20q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e667"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum filius sit aequalis patri in potentia</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e679" alias="gds-l1d21" type="liber1-distinctio21">
-        <head>Distinctio 21</head>
-        <item id="gsX5tY-d1e684" alias="gds-l1d21q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e684"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum dictio exclusiva addita patri excludat filium, et e converso, vel
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>414</folio>
+                     <folio>415</folio>
+                     <folio>416</folio>
+                     <folio>417</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e634" alias="gds-l1d19" type="liber1-distinctio19">
+            <head>Distinctio 19</head>
+            <item id="gsX5tY-d1e639" alias="gds-l1d19q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e639"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum divinae personae sint aequales</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>418</folio>
+                     <folio>419</folio>
+                     <folio>420</folio>
+                     <folio>421</folio>
+                     <folio>422</folio>
+                     <folio>423</folio>
+                     <folio>424</folio>
+                     <folio>425</folio>
+                     <folio>426</folio>
+                     <folio>427</folio>
+                     <folio>428</folio>
+                     <folio>429</folio>
+                     <folio>430</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e650" alias="gds-l1d19q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e650"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum detur aliqua veritas praeter divinam</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>431</folio>
+                     <folio>432</folio>
+                     <folio>433</folio>
+                     <folio>434</folio>
+                     <folio>435</folio>
+                     <folio>436</folio>
+                     <folio>437</folio>
+                     <folio>438</folio>
+                     <folio>439</folio>
+                     <folio>440</folio>
+                     <folio>441</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e662" alias="gds-l1d20" type="liber1-distinctio20">
+            <head>Distinctio 20</head>
+            <item id="gsX5tY-d1e667" alias="gds-l1d20q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e667"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum filius sit aequalis patri in potentia</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>442</folio>
+                     <folio>443</folio>
+                     <folio>444</folio>
+                     <folio>445</folio>
+                     <folio>446</folio>
+                     <folio>447</folio>
+                     <folio>448</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e679" alias="gds-l1d21" type="liber1-distinctio21">
+            <head>Distinctio 21</head>
+            <item id="gsX5tY-d1e684" alias="gds-l1d21q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e684"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum dictio exclusiva addita patri excludat filium, et e converso, vel
             Spiritum Sanctum</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e697" alias="gds-l1d22" type="liber1-distinctio22">
-        <head>Distinctio 22</head>
-        <item id="gsX5tY-d1e702" alias="gds-l1d22q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e702"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus sit nominabilis a nobis aliquo nomine significante suam
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>448</folio>
+                     <folio>449</folio>
+                     <folio>450</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e697" alias="gds-l1d22" type="liber1-distinctio22">
+            <head>Distinctio 22</head>
+            <item id="gsX5tY-d1e702" alias="gds-l1d22q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e702"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus sit nominabilis a nobis aliquo nomine significante suam
             essentiam</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e714" alias="gds-l1d23" type="liber1-distinctio23">
-        <head>Distinctio 23</head>
-        <item id="gsX5tY-d1e719" alias="gds-l1d23q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e719"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum nomen personae in divinis significet intentionem rei, vel rem
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>450</folio>
+                     <folio>451</folio>
+                     <folio>452</folio>
+                     <folio>453</folio>
+                     <folio>454</folio>
+                     <folio>455</folio>
+                     <folio>456</folio>
+                     <folio>457</folio>
+                     <folio>458</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e714" alias="gds-l1d23" type="liber1-distinctio23">
+            <head>Distinctio 23</head>
+            <item id="gsX5tY-d1e719" alias="gds-l1d23q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e719"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum nomen personae in divinis significet intentionem rei, vel rem
             intellectam</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e731" alias="gds-l1d24" type="liber1-distinctio24">
-        <head>Distinctio 24</head>
-        <item id="gsX5tY-d1e736" alias="gds-l1d24q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e736"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in Deo sit unitas</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e747" alias="gds-l1d24q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e747"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum in Deo sit aliquis numerus</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e759" alias="gds-l1d25" type="liber1-distinctio25">
-        <head>Distinctio 1</head>
-        <item id="gsX5tY-d1e764" alias="gds-l1d25q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e764"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum illud, quod significatur nomine personae, sit quid abstrahibile ab
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>458</folio>
+                     <folio>459</folio>
+                     <folio>460</folio>
+                     <folio>461</folio>
+                     <folio>462</folio>
+                     <folio>463</folio>
+                     <folio>464</folio>
+                     <folio>465</folio>
+                     <folio>466</folio>
+                     <folio>467</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e731" alias="gds-l1d24" type="liber1-distinctio24">
+            <head>Distinctio 24</head>
+            <item id="gsX5tY-d1e736" alias="gds-l1d24q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e736"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in Deo sit unitas</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>467</folio>
+                     <folio>468</folio>
+                     <folio>469</folio>
+                     <folio>470</folio>
+                     <folio>471</folio>
+                     <folio>472</folio>
+                     <folio>473</folio>
+                     <folio>474</folio>
+                     <folio>475</folio>
+                     <folio>476</folio>
+                     <folio>477</folio>
+                     <folio>478</folio>
+                     <folio>479</folio>
+                     <folio>480</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e747" alias="gds-l1d24q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e747"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum in Deo sit aliquis numerus</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>480</folio>
+                     <folio>481</folio>
+                     <folio>482</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e759" alias="gds-l1d25" type="liber1-distinctio25">
+            <head>Distinctio 1</head>
+            <item id="gsX5tY-d1e764" alias="gds-l1d25q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e764"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum illud, quod significatur nomine personae, sit quid abstrahibile ab
             his de quibus dicitur, et quid plurificabile in eis</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e776" alias="gds-l1d26" type="liber1-distinctio26">
-        <head>Distinctio 26</head>
-        <item id="gsX5tY-d1e781" alias="gds-l1d26q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e781"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum divinae personae constituantur in esse personali per aliquas
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>482</folio>
+                     <folio>483</folio>
+                     <folio>484</folio>
+                     <folio>485</folio>
+                     <folio>486</folio>
+                     <folio>487</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e776" alias="gds-l1d26" type="liber1-distinctio26">
+            <head>Distinctio 26</head>
+            <item id="gsX5tY-d1e781" alias="gds-l1d26q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e781"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum divinae personae constituantur in esse personali per aliquas
             proprietates, et abinuicem distinguantur per easdem</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e793" alias="gds-l1d27" type="liber1-distinctio27">
-        <head>Distinctio 27</head>
-        <item id="gsX5tY-d1e798" alias="gds-l1d27q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e798"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum verbum mentis nostrae habeat aliquam similitudinem cum verbo
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>487</folio>
+                     <folio>488</folio>
+                     <folio>489</folio>
+                     <folio>490</folio>
+                     <folio>491</folio>
+                     <folio>492</folio>
+                     <folio>493</folio>
+                     <folio>494</folio>
+                     <folio>495</folio>
+                     <folio>496</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e793" alias="gds-l1d27" type="liber1-distinctio27">
+            <head>Distinctio 27</head>
+            <item id="gsX5tY-d1e798" alias="gds-l1d27q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e798"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum verbum mentis nostrae habeat aliquam similitudinem cum verbo
             increato</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e811" alias="gds-l1d28" type="liber1-distinctio28">
-        <head>Distinctio 28</head>
-        <item id="gsX5tY-d1e816" alias="gds-l1d28q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e816"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum innascibilitas in divinis dicat rationem positivam</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e828" alias="gds-l1d29" type="liber1-distinctio29">
-        <head>Distinctio 29</head>
-        <item id="gsX5tY-d1e833" alias="gds-l1d29q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e833"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum principium dicatur secundum unam rationem in Deo, et
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>496</folio>
+                     <folio>497</folio>
+                     <folio>498</folio>
+                     <folio>499</folio>
+                     <folio>500</folio>
+                     <folio>501</folio>
+                     <folio>502</folio>
+                     <folio>503</folio>
+                     <folio>504</folio>
+                     <folio>505</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e811" alias="gds-l1d28" type="liber1-distinctio28">
+            <head>Distinctio 28</head>
+            <item id="gsX5tY-d1e816" alias="gds-l1d28q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e816"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum innascibilitas in divinis dicat rationem positivam</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>505</folio>
+                     <folio>506</folio>
+                     <folio>507</folio>
+                     <folio>508</folio>
+                     <folio>509</folio>
+                     <folio>510</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e828" alias="gds-l1d29" type="liber1-distinctio29">
+            <head>Distinctio 29</head>
+            <item id="gsX5tY-d1e833" alias="gds-l1d29q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e833"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum principium dicatur secundum unam rationem in Deo, et
             creaturis</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e845" alias="gds-l1d30" type="liber1-distinctio30">
-        <head>Distinctio 30</head>
-        <item id="gsX5tY-d1e850" alias="gds-l1d30q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e850"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum relationes dictae de Deo ex tempore sint reales.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e862" alias="gds-l1d31" type="liber1-distinctio31">
-        <head>Distinctio 31</head>
-        <item id="gsX5tY-d1e867" alias="gds-l1d31q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e867"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum aequalitas, et similitudo sint nomina relationum
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>510</folio>
+                     <folio>511</folio>
+                     <folio>512</folio>
+                     <folio>513</folio>
+                     <folio>514</folio>
+                     <folio>515</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e845" alias="gds-l1d30" type="liber1-distinctio30">
+            <head>Distinctio 30</head>
+            <item id="gsX5tY-d1e850" alias="gds-l1d30q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e850"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum relationes dictae de Deo ex tempore sint reales.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>515</folio>
+                     <folio>516</folio>
+                     <folio>517</folio>
+                     <folio>518</folio>
+                     <folio>519</folio>
+                     <folio>520</folio>
+                     <folio>521</folio>
+                     <folio>522</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e862" alias="gds-l1d31" type="liber1-distinctio31">
+            <head>Distinctio 31</head>
+            <item id="gsX5tY-d1e867" alias="gds-l1d31q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e867"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum aequalitas, et similitudo sint nomina relationum
             realium.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e879" alias="gds-l1d32" type="liber1-distinctio32">
-        <head>Distinctio 32</head>
-        <item id="gsX5tY-d1e884" alias="gds-l1d32q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e884"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum pater, et filius diligant se Spiritu Sancto.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e896" alias="gds-l1d33" type="liber1-distinctio33">
-        <head>Distinctio 33</head>
-        <item id="gsX5tY-d1e901" alias="gds-l1d33q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e901"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum aliqua relatio in creaturis sit verum ens reale extra
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>522</folio>
+                     <folio>523</folio>
+                     <folio>524</folio>
+                     <folio>525</folio>
+                     <folio>526</folio>
+                     <folio>527</folio>
+                     <folio>528</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e879" alias="gds-l1d32" type="liber1-distinctio32">
+            <head>Distinctio 32</head>
+            <item id="gsX5tY-d1e884" alias="gds-l1d32q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e884"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum pater, et filius diligant se Spiritu Sancto.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>528</folio>
+                     <folio>529</folio>
+                     <folio>530</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e896" alias="gds-l1d33" type="liber1-distinctio33">
+            <head>Distinctio 33</head>
+            <item id="gsX5tY-d1e901" alias="gds-l1d33q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e901"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum aliqua relatio in creaturis sit verum ens reale extra
             animam.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e912" alias="gds-l1d33q2" type="quaestio">
-          <fileName filestem="gsX5tY-d1e912"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum proprietates personales in divinis sint relationes reales distinctae
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>531</folio>
+                     <folio>532</folio>
+                     <folio>533</folio>
+                     <folio>534</folio>
+                     <folio>535</folio>
+                     <folio>536</folio>
+                     <folio>537</folio>
+                     <folio>538</folio>
+                     <folio>539</folio>
+                     <folio>540</folio>
+                     <folio>541</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e912" alias="gds-l1d33q2" type="quaestio">
+               <fileName filestem="gsX5tY-d1e912"/>
+               <title>Quaestio 2</title>
+               <questionTitle>Utrum proprietates personales in divinis sint relationes reales distinctae
             ab essentia.</questionTitle>
-        </item>
-        <item id="gsX5tY-d1e923" alias="gds-l1d33q3" type="quaestio">
-          <fileName filestem="gsX5tY-d1e923"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum proprietates relativae sint idem quod origines.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e936" alias="gds-l1d34" type="liber1-distinctio34">
-        <head>Distinctio 34</head>
-        <item id="gsX5tY-d1e941" alias="gds-l1d34q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e941"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum persona sint <!-- sit? --> aeque simplex sicut
-            essentia.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e955" alias="gds-l1d35" type="liber1-distinctio35">
-        <head>Distinctio 35</head>
-        <item id="gsX5tY-d1e960" alias="gds-l1d35q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e960"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus habeat scientiam de aliis a se</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e972" alias="gds-l1d36" type="liber1-distinctio36">
-        <head>Distinctio 36</head>
-        <item id="gsX5tY-d1e977" alias="gds-l1d36q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e977"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in Deo sint Ideae.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e989" alias="gds-l1d37" type="liber1-distinctio37">
-        <head>Distinctio 37</head>
-        <item id="gsX5tY-d1e994" alias="gds-l1d37q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e994"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus sit ubique.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1006" alias="gds-l1d38" type="liber1-distinctio38">
-        <head>Distinctio 38</head>
-        <item id="gsX5tY-d1e1011" alias="gds-l1d38q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1011"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum futura contingentia in divina essentia immutabiliter
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>541</folio>
+                     <folio>542</folio>
+                     <folio>543</folio>
+                     <folio>544</folio>
+                     <folio>545</folio>
+                     <folio>546</folio>
+                     <folio>547</folio>
+                     <folio>548</folio>
+                     <folio>549</folio>
+                     <folio>550</folio>
+                     <folio>551</folio>
+                     <folio>552</folio>
+                     <folio>553</folio>
+                     <folio>554</folio>
+                     <folio>555</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="gsX5tY-d1e923" alias="gds-l1d33q3" type="quaestio">
+               <fileName filestem="gsX5tY-d1e923"/>
+               <title>Quaestio 3</title>
+               <questionTitle>Utrum proprietates relativae sint idem quod origines.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>555</folio>
+                     <folio>556</folio>
+                     <folio>557</folio>
+                     <folio>558</folio>
+                     <folio>559</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e936" alias="gds-l1d34" type="liber1-distinctio34">
+            <head>Distinctio 34</head>
+            <item id="gsX5tY-d1e941" alias="gds-l1d34q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e941"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum persona sit aeque simplex sicut essentia.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>560</folio>
+                     <folio>561</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e955" alias="gds-l1d35" type="liber1-distinctio35">
+            <head>Distinctio 35</head>
+            <item id="gsX5tY-d1e960" alias="gds-l1d35q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e960"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus habeat scientiam de aliis a se</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>561</folio>
+                     <folio>562</folio>
+                     <folio>563</folio>
+                     <folio>564</folio>
+                     <folio>565</folio>
+                     <folio>566</folio>
+                     <folio>567</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e972" alias="gds-l1d36" type="liber1-distinctio36">
+            <head>Distinctio 36</head>
+            <item id="gsX5tY-d1e977" alias="gds-l1d36q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e977"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in Deo sint Ideae.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>567</folio>
+                     <folio>568</folio>
+                     <folio>569</folio>
+                     <folio>570</folio>
+                     <folio>571</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e989" alias="gds-l1d37" type="liber1-distinctio37">
+            <head>Distinctio 37</head>
+            <item id="gsX5tY-d1e994" alias="gds-l1d37q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e994"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus sit ubique.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>571</folio>
+                     <folio>572</folio>
+                     <folio>573</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1006" alias="gds-l1d38" type="liber1-distinctio38">
+            <head>Distinctio 38</head>
+            <item id="gsX5tY-d1e1011" alias="gds-l1d38q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1011"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum futura contingentia in divina essentia immutabiliter
             repraesententur.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1023" alias="gds-l1d39" type="liber1-distinctio39">
-        <head>Distinctio 39</head>
-        <item id="gsX5tY-d1e1028" alias="gds-l1d39q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1028"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum divina providentia ad omnia se extendat.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1041" alias="gds-l1d40" type="liber1-distinctio40">
-        <head>Distinctio 40</head>
-        <item id="gsX5tY-d1e1046" alias="gds-l1d40q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1046"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deo conveniat aliquas praedestinare, vel reprobare.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1058" alias="gds-l1d41" type="liber1-distinctio41">
-        <head>Distinctio 41</head>
-        <item id="gsX5tY-d1e1063" alias="gds-l1d41q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1063"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum praedestinatio habeat causam.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1075" alias="gds-l1d42" type="liber1-distinctio42">
-        <head>Distinctio 42</head>
-        <item id="gsX5tY-d1e1080" alias="gds-l1d42q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1080"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum in Deo sit potentia.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1092" alias="gds-l1d43" type="liber1-distinctio43">
-        <head>Distinctio 43</head>
-        <item id="gsX5tY-d1e1097" alias="gds-l1d43q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1097"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus sit omnipotens.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1109" alias="gds-l1d44" type="liber1-distinctio44">
-        <head>Distinctio 44</head>
-        <item id="gsX5tY-d1e1114" alias="gds-l1d44q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1114"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Deus possit facere universum melius quam fecit.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1126" alias="gds-l1d45" type="liber1-distinctio45">
-        <head>Distinctio 45</head>
-        <item id="gsX5tY-d1e1131" alias="gds-l1d45q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1131"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum voluntas divina convenienter distinguatur in voluntatem signi, et
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>573</folio>
+                     <folio>574</folio>
+                     <folio>575</folio>
+                     <folio>576</folio>
+                     <folio>577</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1023" alias="gds-l1d39" type="liber1-distinctio39">
+            <head>Distinctio 39</head>
+            <item id="gsX5tY-d1e1028" alias="gds-l1d39q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1028"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum divina providentia ad omnia se extendat.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>578</folio>
+                     <folio>579</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1041" alias="gds-l1d40" type="liber1-distinctio40">
+            <head>Distinctio 40</head>
+            <item id="gsX5tY-d1e1046" alias="gds-l1d40q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1046"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deo conveniat aliquas praedestinare, vel reprobare.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>579</folio>
+                     <folio>580</folio>
+                     <folio>581</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1058" alias="gds-l1d41" type="liber1-distinctio41">
+            <head>Distinctio 41</head>
+            <item id="gsX5tY-d1e1063" alias="gds-l1d41q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1063"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum praedestinatio habeat causam.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>581</folio>
+                     <folio>582</folio>
+                     <folio>583</folio>
+                     <folio>584</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1075" alias="gds-l1d42" type="liber1-distinctio42">
+            <head>Distinctio 42</head>
+            <item id="gsX5tY-d1e1080" alias="gds-l1d42q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1080"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum in Deo sit potentia.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>584</folio>
+                     <folio>585</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1092" alias="gds-l1d43" type="liber1-distinctio43">
+            <head>Distinctio 43</head>
+            <item id="gsX5tY-d1e1097" alias="gds-l1d43q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1097"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus sit omnipotens.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>585</folio>
+                     <folio>586</folio>
+                     <folio>587</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1109" alias="gds-l1d44" type="liber1-distinctio44">
+            <head>Distinctio 44</head>
+            <item id="gsX5tY-d1e1114" alias="gds-l1d44q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1114"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum Deus possit facere universum melius quam fecit.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>587</folio>
+                     <folio>588</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1126" alias="gds-l1d45" type="liber1-distinctio45">
+            <head>Distinctio 45</head>
+            <item id="gsX5tY-d1e1131" alias="gds-l1d45q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1131"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum voluntas divina convenienter distinguatur in voluntatem signi, et
             beneplaciti.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1144" alias="gds-l1d46" type="liber1-distinctio46">
-        <head>Distinctio 46</head>
-        <item id="gsX5tY-d1e1149" alias="gds-l1d46q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1149"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum voluntas divina necessario semper impleatur.</questionTitle>
-        </item>
-      </div>
-      <div id="gsX5tY-d1e1161" alias="gds-l1d47" type="liber1-distinctio47">
-        <head>Distinctio 47</head>
-        <item id="gsX5tY-d1e1166" alias="gds-l1d47q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1166"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum illud, quod est contra voluntatem antecedentem, obsequatur voluntati
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>588</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1144" alias="gds-l1d46" type="liber1-distinctio46">
+            <head>Distinctio 46</head>
+            <item id="gsX5tY-d1e1149" alias="gds-l1d46q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1149"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum voluntas divina necessario semper impleatur.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>588</folio>
+                     <folio>589</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1161" alias="gds-l1d47" type="liber1-distinctio47">
+            <head>Distinctio 47</head>
+            <item id="gsX5tY-d1e1166" alias="gds-l1d47q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1166"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum illud, quod est contra voluntatem antecedentem, obsequatur voluntati
             consequenti.</questionTitle>
-        </item>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>589</folio>
+                     <folio>590</folio>
+                     <folio>591</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="gsX5tY-d1e1178" alias="gds-l1d48" type="liber1-distinctio48">
+            <head>Distinctio 48</head>
+            <item id="gsX5tY-d1e1183" alias="gds-l1d48q1" type="quaestio">
+               <fileName filestem="gsX5tY-d1e1183"/>
+               <title>Quaestio 1</title>
+               <questionTitle>Utrum voluntas nostra debeat conformari voluntati divinae.</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-P122zz">
+                     <folio>591</folio>
+                     <folio>592</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
       </div>
-      <div id="gsX5tY-d1e1178" alias="gds-l1d48" type="liber1-distinctio48">
-        <head>Distinctio 48</head>
-        <item id="gsX5tY-d1e1183" alias="gds-l1d48q1" type="quaestio">
-          <fileName filestem="gsX5tY-d1e1183"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum voluntas nostra debeat conformari voluntati divinae.</questionTitle>
-        </item>
-      </div>
-    </div>
   </div>
 </listofFileNames>
