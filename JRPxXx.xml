@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>John of Ripa</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>JRPxXx</commentaryid>
+    <commentaryslug>JRPxXx</commentaryslug>
+    <authorUri>http://scta.info/resource/Ripa</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-XJAjaj"><!-- not yet created -->
+        <slug>cod-XJAjaj</slug>
+        <title>Vat lat 1082</title>
+        <initial>cod-XJAjaj</initial>
+      </witness>
+      <!-- https://digi.vatlib.it/iiif/MSS_Vat.lat.1082/manifest.json 
+            https://digi.vatlib.it/view/MSS_Vat.lat.1082
+            
+            from stegmuller
+            Johannes de Ripa, I; compositus c. 1344–1357. 
+            Assisi, Comunale 156 f. 1–202: I d. 1–19. 
+            Braunschweig, Stadtbibl. 145 f. 200–205: I Prol. [communicavit Dr. Spiess]. 
+            Firenze, Naz. Conv. Sopp. B 1. 996: I. 
+            Padova, Antoniana 159 f. 1–16: I d. 2; 190: I. 
+            Paris, nat. lat. 15369: I. 
+            Vaticana, vat. lat. 1082 f. 1–264: I (Circa prologum); 
+            1083 f. 1–281: I 
+            (Amice H 6738: I d. 2, 4, 10–17, 37–48; finit. 16. 12. 1357; 
+            6761 f. 1–255: I (Amice).
+        -->
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <!--<head>Commentarius in Libros Sententiarum</head>
+    <item alias="JRPxXx -l1prolq1">
+      <fileName filestem=""></fileName>
+      <title>Quaestio 1</title>
+      <hasWitnesses>
+        <witness ref="cod-XJAjaj">
+          <folio>1r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item alias="JRPxXx -l1prolq2">
+      <fileName filestem=""></fileName>
+      <title>Quaestio 2</title>
+      <questionTitle>Utrum prima intellegentia cuiuslibet intelligentiae citra se sit notitia theologica beatifica</questionTitle>
+      <hasWitnesses>
+        <witness ref="cod-XJAjaj">
+          <folio c="b">23v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item alias="JRPxXx -l1prolq3">
+      <fileName filestem=""></fileName>
+      <title>Quaestio 3</title>
+      <questionTitle>Utrum sola divina essentia possit esse 
+        <unclear>viteus</unclear> creati notitia theologica beatifica</questionTitle>
+      <hasWitnesses>
+        <witness ref="cod-XJAjaj">
+          <folio c="b">30r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item alias="JRPxXx-l1prolq4">
+      <fileName filestem=""></fileName>
+      <title>Quaestio 4</title>
+      <questionTitle>Utrum sola divina essentia sit omnium verorum relucentium 
+      in ipsa intellectui beato formalis notitia</questionTitle>
+      <hasWitnesses>
+        <witness ref="cod-XJAjaj">
+          <folio c="b">30r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item alias="JRPxXx-l1prolq5">
+      <fileName filestem=""></fileName>
+      <title>Quaestio 5</title>
+      <questionTitle>Utrum dei essentia sub quacumque ratione intrinseca menti obiecta sit de sua 
+      <unclear>invisa</unclear> <unclear>non</unclear> sufficiens notitia theologica beatifica</questionTitle>
+      <hasWitnesses>
+        <witness ref="cod-XJAjaj">
+          <folio c="b">30r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>-->
+    
+    <!-- ? third part of prologue 60ra-->
+    <!-- Q6 utrum intellectui viatoris de veritatibus theologicis possit ad geneari habitus proprie scientificus -->
+    
+    <!-- distion 1 62rb -->
+    <!-- Question 1 62rb: Utrum sola trinitate incommutabili circa rationalis beatifice possit frui -->
+    <!-- Question 2 65vb: Utrum respectum cuiuslibet obiecti visiblis usus 
+      et fruitio sit actus <unclear>immeriati</unclear> et rationaliter differentes -->
+    <!-- question 3 70v: utrum solo beato incommutabili voluntas viatoris licite possit frui -->
+    <!-- question 4 79v:  utrum omnis qualitas subiectivo inexistens voluntati sit operatio eius immanens-->
+    <!-- 2 part of distinction 1 -->
+    <!-- q 5 82v Utrum nostras creata respectu suae <unclear>libre</unclear> motionis pii frui vel uti sive alterius 
+      menie sit n?alis obietive. -->
+    <!-- dist 2 86vb -->
+      <!-- dist 2 question 1 Utrum in latitudine entium sit aliquis simpliciter primus gradus et omniquaque immensus -->
+    <!-- disti 4 127vb -->
+    <!-- dist 5 131vb -->
+    <!-- dist 6 134v -->
+    <!-- dist 8 139v -->
+    <!-- dist 8 q. 2 143va -->
+    <!-- are folios 150r-159v mssing in vat1082, or has the counting simply changed -->
+    <!-- dist 10 160 r -->
+    <!-- dist 12 165r -->
+    <!-- dist 13 166vb -->
+    <!-- dist 14 168vb-->
+    <!-- dist 15 171ra-->
+    <!-- dist 17 176rb utrum sit absolute possibile voluntatem creatam acceptari ad beatificum praemium sine dono supernaturali infuso vel creato-->
+    <!-- dist 17 q. 2 180ra Utrum in omne actum meritorium prius naturaliter influat carias increata ac creata quam ipsa voluntas-->
+    <!-- dist 17 q. 3??? 184ra utrum per solum donum caritatis creatae voluntas viatoris ad beatificum <unclear>praei?ui</unclear> sit intrinsece beatificabilis-->
+    <!-- 2 part of distinction 17-->
+    <!--- dist 17 q. 4? 186r utrum caritas creata sit forma proprie et intensibilis 
+        d17 1/q5?: 194va Utrum caritas creata supernaturalis in infinitum sit absolute intelligiblis
+        q. 2/6? 197v: Utrum qualibet persona? distincta? certum incessime? sit alteri existens
+        
+        d. 19q. 1 198vb utrum personae divinae supernaturaliter snt aequales secundum perfectionem
+        d. 20q1 203rb [utrum] ??  divinarum personarum secundum potentiam et virtutuem agendum simplicituer sint aequales
+        d. 21q1 205ra utrum aliquod praedicatum nominale vel essentiale verificabile sit de divina essentia exclusive per additionem scilicut huiusmodi dictionis tantum et solus
+        d. 22q1 205va utrum divina essentia sit proprie nominabilis ab intellectu viatoris
+        d. 23q1 206vb utrum conceptus personae sit conceptus personae intelligentis
+        d. 24q1 207rb Utrum in divina essentia aliqua <unclear>matierialis<unclear> forma proprie sit ponenda
+        
+        
+        
+    -->
+    
+  </div>
+</listofFileNames>

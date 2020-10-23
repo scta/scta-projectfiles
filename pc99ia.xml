@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
   <header>
     <authorName>Paolo Cortese</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -15,7 +13,8 @@
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
       <witness id="cod-V8aqqq">
-        <slug>cod-V8aqqq</slug> <!-- not yet created as of 2020-09-26 -->
+        <slug>cod-V8aqqq</slug>
+        <!-- not yet created as of 2020-09-26 -->
         <title>Paris 1513</title>
         <initial>cod-V8aqqq</initial>
         <!--currently using: https://books.google.com/books?id=-ihcy_YmEpwC
@@ -33,7 +32,8 @@
       </witness>
       <witness id="cod-B8bqqq">
         <!--- seems like the best copy to start with -->
-        <slug>cod-B8aqqq</slug> <!-- not yet created as of 2020-09-26 -->
+        <slug>cod-B8aqqq</slug>
+        <!-- not yet created as of 2020-09-26 -->
         <title>Basel 1513</title>
         <initial>cod-B8bqqq</initial>
         <editor>Froben</editor>
@@ -50,11 +50,525 @@
         https://books.google.com/books?id=sLlSAAAAcAAJ
         -->
       </witness>
-      
-      
     </hasWitnesses>
   </header>
   <div id="body">
-    
+    <head>Commentarius in Libros Sententiarum</head>
+    <item id="pc99ia-d1e3da" alias="proem">
+      <fileName filestem="pc99ia-d1e3da"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>0r</folio>
+          <folio>0v</folio>
+          <folio>1r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <div id="pc99ia-d1e112">
+      <head>Liber 1</head>
+    <item id="pc99ia-d1e172" alias="l1proem">
+      <fileName filestem="pc99ia-d1e172"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>1r</folio>
+          <folio>1v</folio>
+          <folio>2r</folio>
+          <folio>2v</folio>
+          <folio>3r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e502" alias="l1d1">
+      <fileName filestem="pc99ia-d1e502"/>
+      <title>Distinctio 1</title>
+      <questionTitle>De theologia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>3r</folio>
+          <folio>3v</folio>
+          <folio>4r</folio>
+          <folio>4v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e856" alias="l1d2">
+      <fileName filestem="pc99ia-d1e856"/>
+      <title>Distinctio 2</title>
+      <questionTitle>An Deus intelligi possit ab hominibus in vita</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>4v</folio>
+          <folio>5r</folio>
+          <folio>5v</folio>
+          <folio>6r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e117" alias="l1d3">
+      <fileName filestem="pc99ia-d1e117"/>
+      <title>Distinctio 3</title>
+      <questionTitle>De scientia dei</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>6r</folio>
+          <folio>6v</folio>
+          <folio>7r</folio>
+          <folio>7v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e143" alias="l1d4">
+      <fileName filestem="pc99ia-d1e143"/>
+      <title>Distinctio 4</title>
+      <questionTitle>De Ideis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>7v</folio>
+          <folio>8r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e153" alias="l1d5">
+      <fileName filestem="pc99ia-d1e153"/>
+      <title>Distinctio 5</title>
+      <questionTitle>De Providentia Dei</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>8r</folio>
+          <folio>8v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e165" alias="l1d6">
+      <fileName filestem="pc99ia-d1e165"/>
+      <title>Distinctio 6</title>
+      <questionTitle>De Praedestinatione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>8v</folio>
+          <folio>9r</folio>
+          <folio>9v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e181" alias="l1d7">
+      <fileName filestem="pc99ia-d1e181"/>
+      <title>Distinctio 7</title>
+      <questionTitle>De potentia Dei</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>9v</folio>
+          <folio>10r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e196" alias="l1d8">
+      <fileName filestem="pc99ia-d1e196"/>
+      <title>Distinctio 8</title>
+      <questionTitle>De Voluntate Dei</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>10r</folio>
+          <folio>10v</folio>
+          <folio>11r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e211" alias="l1d9">
+      <fileName filestem="pc99ia-d1e211"/>
+      <title>Distinctio 9</title>
+      <questionTitle>De Trinitate</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>11r</folio>
+          <folio>11v</folio>
+          <folio>12r</folio>
+          <folio>12v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
+    <div id="pc99ia-d1e38X">
+      <head>Liber 2</head>
+    <item id="pc99ia-d1e246" alias="l2proem">
+      <fileName filestem="pc99ia-d1e246"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>12v</folio>
+          <folio>13r</folio>
+          <folio>13v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e275" alias="l2d1">
+      <fileName filestem="pc99ia-d1e275"/>
+      <title>Distinctio 1</title>
+      <questionTitle>Mundum esse creatum contra Aristotelem</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>13v</folio>
+          <folio>14r</folio>
+          <folio>14v</folio>
+          <folio>15r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e299" alias="l2d2">
+      <fileName filestem="pc99ia-d1e299"/>
+      <title>Distinctio 2</title>
+      <questionTitle>De angelis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>15r</folio>
+          <folio>15v</folio>
+          <folio>16r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e327" alias="l2d3">
+      <fileName filestem="pc99ia-d1e327"/>
+      <title>Distinctio 3</title>
+      <questionTitle>De daemonibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>16r</folio>
+          <folio>16v</folio>
+          <folio>17r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e348" alias="l2d4">
+      <fileName filestem="pc99ia-d1e348"/>
+      <title>Distinctio 4</title>
+      <questionTitle>De creatione corporum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>17r</folio>
+          <folio>17v</folio>
+          <folio>18r</folio>
+          <folio>18v</folio>
+          <folio>19r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e387" alias="l2d5">
+      <fileName filestem="pc99ia-d1e387"/>
+      <title>Distinctio 5</title>
+      <questionTitle>De creatione hominis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>19r</folio>
+          <folio>19v</folio>
+          <folio>20r</folio>
+          <folio>20v</folio>
+          <folio>21r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e426" alias="l2d6">
+      <fileName filestem="pc99ia-d1e426"/>
+      <title>Distinctio 6</title>
+      <questionTitle>De hominis statu ante peccatum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>21r</folio>
+          <folio>21v</folio>
+          <folio>22r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e450" alias="l2d7">
+      <fileName filestem="pc99ia-d1e450"/>
+      <title>Distinctio 7</title>
+      <questionTitle>De peccato parentum et originis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>22r</folio>
+          <folio>22v</folio>
+          <folio>23r</folio>
+          <folio>23v</folio>
+          <folio>24r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
+    <div id="pc99ia-d1e622">
+      <head>Liber 3</head>
+    <item id="pc99ia-d1e491" alias="l3proem">
+      <fileName filestem="pc99ia-d1e491"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>24r</folio>
+          <folio>24v</folio>
+          <folio>25r</folio>
+          <folio>25v</folio>
+          <folio>26r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e530" alias="l3d1">
+      <fileName filestem="pc99ia-d1e530"/>
+      <title>Distinctio 1</title>
+      <questionTitle>De incarnatione Christi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>26r</folio>
+          <folio>26v</folio>
+          <folio>27r</folio>
+          <folio>27v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e567" alias="l3d2">
+      <fileName filestem="pc99ia-d1e567"/>
+      <title>Distinctio 2</title>
+      <questionTitle>De perfectione Christi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>27v</folio>
+          <folio>28r</folio>
+          <folio>28v</folio>
+          <folio>29r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e598" alias="l3d3">
+      <fileName filestem="pc99ia-d1e598"/>
+      <title>Distinctio 3</title>
+      <questionTitle>De adoratione Christi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>29r</folio>
+          <folio>29v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e617" alias="l3d4">
+      <fileName filestem="pc99ia-d1e617"/>
+      <title>Distinctio 4</title>
+      <questionTitle>De conceptione virginis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>29v</folio>
+          <folio>30r</folio>
+          <folio>30v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e636" alias="l3d5">
+      <fileName filestem="pc99ia-d1e636"/>
+      <title>Distinctio 5</title>
+      <questionTitle>De passione Christi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>30v</folio>
+          <folio>31r</folio>
+          <folio>31v</folio>
+          <folio>32r</folio>
+          <folio>32v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e671" alias="l3d6">
+      <fileName filestem="pc99ia-d1e671"/>
+      <title>Distinctio 6</title>
+      <questionTitle>De resurrectione et de ascensione Christi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>32v</folio>
+          <folio>33r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e67X" alias="l3d7">
+      <fileName filestem="pc99ia-d1e67X"/>
+      <title>Distinctio 7</title>
+      <questionTitle>De virtutibus theologicis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>33r</folio>
+          <folio>33v</folio>
+          <folio>34r</folio>
+          <folio>34v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e716" alias="l3d8">
+      <fileName filestem="pc99ia-d1e716"/>
+      <title>Distinctio 8</title>
+      <questionTitle>De virtutibus moralibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>34v</folio>
+          <folio>35r</folio>
+          <folio>35v</folio>
+          <folio>36r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
+    <div id="pc99ia-d1e881">
+      <head>Liber 4</head>
+    <item id="pc99ia-d1e746" alias="l4proem">
+      <fileName filestem="pc99ia-d1e746"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>36r</folio>
+          <folio>36v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e757" alias="l4q1">
+      <fileName filestem="pc99ia-d1e757"/>
+      <title>Distinctio 1</title>
+      <questionTitle>De sacramentis et primum de baptismate</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>36v</folio>
+          <folio>37r</folio>
+          <folio>37v</folio>
+          <folio>38r</folio>
+          <folio>38v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e792" alias="l4q2">
+      <fileName filestem="pc99ia-d1e792"/>
+      <title>Distinctio 2</title>
+      <questionTitle>De eucharistia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>38v</folio>
+          <folio>39r</folio>
+          <folio>39v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e819" alias="l4q3">
+      <fileName filestem="pc99ia-d1e819"/>
+      <title>Distinctio 3</title>
+      <questionTitle>De sacramento poenitentiae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>39v</folio>
+          <folio>40r</folio>
+          <folio>40v</folio>
+          <folio>41r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e850" alias="l4q4">
+      <fileName filestem="pc99ia-d1e850"/>
+      <title>Distinctio 4</title>
+      <questionTitle>De sacramento extremae unctionis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>41r</folio>
+          <folio>41v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e862" alias="l4q5">
+      <fileName filestem="pc99ia-d1e862"/>
+      <title>Distinctio 4</title>
+      <questionTitle>De sacramento ordinis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>41v</folio>
+          <folio>42r</folio>
+          <folio>42v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e885" alias="l4q6">
+      <fileName filestem="pc99ia-d1e885"/>
+      <title>Distinctio 6</title>
+      <questionTitle>De sacramento matrimonii</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>42v</folio>
+          <folio>43r</folio>
+          <folio>43v</folio>
+          <folio>44r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e923" alias="l4q7">
+      <fileName filestem="pc99ia-d1e923"/>
+      <title>Distinctio 7</title>
+      <questionTitle>De resurrectione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>44r</folio>
+          <folio>44v</folio>
+          <folio>45r</folio>
+          <folio>45v</folio>
+          <folio>46r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e960" alias="l4q8">
+      <fileName filestem="pc99ia-d1e960"/>
+      <title>Distinctio 8</title>
+      <questionTitle>De eadem resurrectione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>46r</folio>
+          <folio>46v</folio>
+          <folio>47r</folio>
+          <folio>47v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e991" alias="l4q9">
+      <fileName filestem="pc99ia-d1e991"/>
+      <title>Distinctio 9</title>
+      <questionTitle>De iudicio</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>47v</folio>
+          <folio>48r</folio>
+          <folio>48v</folio>
+          <folio>49r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e10X" alias="l4q10">
+      <fileName filestem="pc99ia-d1e10X"/>
+      <title>Distinctio 10</title>
+      <questionTitle>De beatitudine</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>49r</folio>
+          <folio>49v</folio>
+          <folio>50r</folio>
+          <folio>50v</folio>
+          <folio>51r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="pc99ia-d1e10Y" alias="l4q11">
+      <fileName filestem="pc99ia-d1e10Y"/>
+      <title>Distinctio 11</title>
+      <questionTitle>De poenis damnatorum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-ae1bsb">
+          <folio>51r</folio>
+          <folio>51v</folio>
+          <folio>52r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    </div>
   </div>
 </listofFileNames>
