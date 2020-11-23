@@ -14,13 +14,32 @@
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> </hasWitnesses>
+    <hasWitnesses>
+      <witness id="cod-RGT6RG"><!-- codex file not yet created -->
+        <!-- Ross English Translation -->
+        <slug>cod-RGT6RG</slug>
+        <title>David Ross English Translation<!-- should be replaced with short tile of first edition of ross translation --></title>
+        <initial>cod-RGT6RG</initial>
+        <editor><!-- David Ross --></editor>
+      </witness>
+      <witness id="cod-AAssXX"><!-- codex file not yet created -->
+        <!-- Non italic edition in Junta  -->
+        <slug>cod-AAssXX</slug>
+        <title>Venice 1562</title> <!-- editio Juntina secunda, vol. VIII (Venezia, 1562) -->
+        <initial>cod-AAssXX</initial>
+        <editor><!-- Juntina --></editor>
+      </witness>
+    </hasWitnesses>
   </header>
   <div id="body">
     <head>Metaphysics</head>
     <item id="aristmet-l1">
       <fileName filestem="aristmet-l1"/>
       <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-RGT6RG"></witness>
+        <witness ref="#cod-AAssXX"></witness>
+      </hasWitnesses>
     </item>
     <item id="aristmet-l2">
       <fileName filestem="aristmet-l2"/>

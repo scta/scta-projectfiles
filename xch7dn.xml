@@ -14,6 +14,12 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses> 
+      <witness id="cod-AAssXX">
+        <slug>cod-AAssXX</slug>
+        <title>Venice 1562</title> <!-- editio Juntina secunda, vol. VIII (Venezia, 1562) -->
+        <initial>cod-AAssXX</initial>
+        <editor><!-- Juntina --></editor>
+      </witness>
       <!--
         Aristotelis metaphysicorum libri XIIII cum Averrois Cordubensis in eosdem commentariis et epitome, Theophrasti metaphysicorum liber : 
         editio Juntina prima, vol. VIII (Venezia, 1552);  (http://capricorn.bc.edu/siepm/DOCUMENTS/AVERROES/Averroes_Metaphysica_JuntPrima_08.pdf)
@@ -25,6 +31,9 @@
     <item id="xch7dn-d1e53" alias="xch7dn-l1">
       <fileName filestem="xch7dn-d1e53"/>
       <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAssXX"></witness>
+      </hasWitnesses>
     </item>
     <item id="xch7dn-d1e61" alias="xch7dn-l2">
       <fileName filestem="xch7dn-d1e61"/>
