@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Clement V</authorName>
-    <commentaryName>Constitutiones</commentaryName>
+    <commentaryName>Constitutiones Clementinae</commentaryName>
     <commentaryid>kdhaWs</commentaryid>
     <commentaryslug>kdhaWs</commentaryslug>
     <alias>ClementConstitutiones</alias>
@@ -14,298 +15,454 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <!--<witness id="Fb">
+      <witness id="Friedberg1879b">
         <slug>Friedberg1879b</slug>
         <title>Friedberg 1879 Volume 2</title>
-        <initial>Fb</initial>
-      </witness>-->
+        <initial>Friedberg1879b</initial>
+        <editor><!-- Friedberg --></editor>
+      </witness>
     </hasWitnesses>
-    <date>1314
-      <!-- https://en.wikipedia.org/wiki/Liber_Septimus#Constitutiones_Clementinae,_1314 --></date>
+    <date>1314 <!-- https://en.wikipedia.org/wiki/Liber_Septimus#Constitutiones_Clementinae,_1314 --></date>
     <!-- or 1313 see: https://en.wikipedia.org/wiki/Pope_Clement_V -->
   </header>
   <div id="body">
-    <div id="kdhaWs-d1e60">
+    <head>Constitutiones Clementinae</head>
+    <item id="kdhaWs-2eija3" alias="kdhaWs-prooemium">
+      <fileName filestem="kdhaWs-2eija3"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#Friedberg1879b"/>
+      </hasWitnesses>
+    </item>
+    <div id="kdhaWs-d1e60" alias="kdhaWs-l1">
       <head>Liber 1</head>
-      <item id="kdhaWs-d1e65">
+      <item id="kdhaWs-d1e65" alias="kdhaWs-l1t1">
         <fileName filestem="kdhaWs-d1e65"/>
         <title>Titulus 1</title>
         <questionTitle>De summa Trinitate et fide catholica</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e76">
+      <item id="kdhaWs-d1e76" alias="kdhaWs-l1t2">
         <fileName filestem="kdhaWs-d1e76"/>
         <title>Titulus 2</title>
         <questionTitle>De rescriptis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e87">
+      <item id="kdhaWs-d1e87" alias="kdhaWs-l1t3">
         <fileName filestem="kdhaWs-d1e87"/>
         <title>Titulus 3</title>
         <questionTitle>De electione et electi potestate <!-- [p.453] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e99">
+      <item id="kdhaWs-d1e99" alias="kdhaWs-l1t4">
         <fileName filestem="kdhaWs-d1e99"/>
         <title>Titulus 4</title>
         <questionTitle>De renuntiatione <!-- [p.468] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e112">
+      <item id="kdhaWs-d1e112" alias="kdhaWs-l1t5">
         <fileName filestem="kdhaWs-d1e112"/>
         <title>Titulus 5</title>
         <questionTitle>De supplenda negligentia praelatorum <!-- [p.469] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e124">
+      <item id="kdhaWs-d1e124" alias="kdhaWs-l1t6">
         <fileName filestem="kdhaWs-d1e124"/>
         <title>Titulus 6</title>
         <questionTitle>De aetate et qualitate, et ordine praeficiendorum <!-- [p.471] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e136">
+      <item id="kdhaWs-d1e136" alias="kdhaWs-l1t7">
         <fileName filestem="kdhaWs-d1e136"/>
         <title>Titulus 7</title>
         <questionTitle>De officio vicarii <!-- [p.474] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e148">
+      <item id="kdhaWs-d1e148" alias="kdhaWs-l1t8">
         <fileName filestem="kdhaWs-d1e148"/>
-        <title>Titulus [8]</title>
+        <title>Titulus 8</title>
         <questionTitle>De officio et potestate judicis deleg <!-- [p.475] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e160">
+      <item id="kdhaWs-d1e160" alias="kdhaWs-l1t9">
         <fileName filestem="kdhaWs-d1e160"/>
         <title>Titulus 9</title>
         <questionTitle>De officio judicis ordinarii <!-- [p.477] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e172">
+      <item id="kdhaWs-d1e172" alias="kdhaWs-l1t10">
         <fileName filestem="kdhaWs-d1e172"/>
         <title>Titulus 10</title>
         <questionTitle>De procuratoribus <!-- [p.478] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e185">
+      <item id="kdhaWs-d1e185" alias="kdhaWs-l1t11">
         <fileName filestem="kdhaWs-d1e185"/>
         <title>Titulus 11</title>
         <questionTitle>De restitutione in integrum <!-- [p.481] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="kdhaWs-d1e198">
+    <div id="kdhaWs-d1e198" alias="kdhaWs-l2">
       <head>Liber 2 <!-- [p.483] --></head>
-      <item id="kdhaWs-d1e204">
+      <item id="kdhaWs-d1e204" alias="kdhaWs-l2t1">
         <fileName filestem="kdhaWs-d1e204"/>
         <title>Titulus 1</title>
         <questionTitle>De judiciis <!-- [p.483] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e216">
+      <item id="kdhaWs-d1e216" alias="kdhaWs-l2t2">
         <fileName filestem="kdhaWs-d1e216"/>
         <title>Titulus 2</title>
         <questionTitle>De foro competenti <!-- [p.485] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e228">
+      <item id="kdhaWs-d1e228" alias="kdhaWs-l2t3">
         <fileName filestem="kdhaWs-d1e228"/>
         <title>Titulus 3</title>
         <questionTitle>De causa possessionis et proprietatis <!-- [p.489] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e240">
+      <item id="kdhaWs-d1e240" alias="kdhaWs-l2t4">
         <fileName filestem="kdhaWs-d1e240"/>
         <title>Titulus 4</title>
         <questionTitle>De dolo et contumacia <!-- [p.490] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e253">
+      <item id="kdhaWs-d1e253" alias="kdhaWs-l2t5">
         <fileName filestem="kdhaWs-d1e253"/>
         <title>Titulus 5</title>
         <questionTitle>Ut lite pendente nil innovetur <!-- [p.492] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e265">
+      <item id="kdhaWs-d1e265" alias="kdhaWs-l2t6">
         <fileName filestem="kdhaWs-d1e265"/>
         <title>Titulus 6</title>
         <questionTitle>De sequestratione possessionum et fructuum <!-- [p.494] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e277">
+      <item id="kdhaWs-d1e277" alias="kdhaWs-l2t7">
         <fileName filestem="kdhaWs-d1e277"/>
         <title>Titulus 7</title>
         <questionTitle>De probationibus <!-- [p.496] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e289">
+      <item id="kdhaWs-d1e289" alias="kdhaWs-l2t8">
         <fileName filestem="kdhaWs-d1e289"/>
         <title>Titulus 8</title>
         <questionTitle>De testibus <!-- [p.496] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e301">
+      <item id="kdhaWs-d1e301" alias="kdhaWs-l2t9">
         <fileName filestem="kdhaWs-d1e301"/>
         <title>Titulus 9</title>
         <questionTitle>De jurejurando <!-- [p.498] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e313">
+      <item id="kdhaWs-d1e313" alias="kdhaWs-l2t10">
         <fileName filestem="kdhaWs-d1e313"/>
         <title>Titulus 10</title>
         <questionTitle>De exceptionibus <!-- [p.503] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e326">
+      <item id="kdhaWs-d1e326" alias="kdhaWs-l2t11">
         <fileName filestem="kdhaWs-d1e326"/>
         <title>Titulus 11</title>
         <questionTitle>De sententia, et rejudicata <!-- [p.504] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e338">
+      <item id="kdhaWs-d1e338" alias="kdhaWs-l2t12">
         <fileName filestem="kdhaWs-d1e338"/>
         <title>Titulus 12</title>
         <questionTitle>De appellationibus <!-- [p.510] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="kdhaWs-d1e351">
+    <div id="kdhaWs-d1e351" alias="kdhaWs-l3">
       <head>Liber 3 <!-- [p.517] --></head>
-      <item id="kdhaWs-d1e357">
+      <item id="kdhaWs-d1e357" alias="kdhaWs-l3t1">
         <fileName filestem="kdhaWs-d1e357"/>
         <title>Titulus 1</title>
         <questionTitle>De vita et honestate clericorum <!-- [p.517] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e369">
+      <item id="kdhaWs-d1e369" alias="kdhaWs-l3t2">
         <fileName filestem="kdhaWs-d1e369"/>
         <title>Titulus 2</title>
         <questionTitle>De praebendis et dignitatibus <!-- [p.520] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e381">
+      <item id="kdhaWs-d1e381" alias="kdhaWs-l3t3">
         <fileName filestem="kdhaWs-d1e381"/>
         <title>Titulus 3</title>
-        <questionTitle>De consessione praebendae, et ecclesiae non vacantis <!-- [p.525] --></questionTitle>
+        <questionTitle>De concessione praebendae, et ecclesiae non vacantis <!-- [p.525] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e393">
+      <item id="kdhaWs-d1e393" alias="kdhaWs-l3t4">
         <fileName filestem="kdhaWs-d1e393"/>
         <title>Titulus 4</title>
         <questionTitle>De rebus ecclesiae non alienandis <!-- [p.527] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e406">
+      <item id="kdhaWs-d1e406" alias="kdhaWs-l3t5">
         <fileName filestem="kdhaWs-d1e406"/>
-        <title>Titulus 4 (listed again as 4)</title>
-        <questionTitle>De rerum permutatione <!-- [p.530] --></questionTitle>
-      </item>
-      <item id="kdhaWs-d1e418">
-        <fileName filestem="kdhaWs-d1e418"/>
         <title>Titulus 5</title>
+        <questionTitle>De rerum permutatione <!-- [p.530] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
+      </item>
+      <item id="kdhaWs-d1e418" alias="kdhaWs-l3t6">
+        <fileName filestem="kdhaWs-d1e418"/>
+        <title>Titulus 6</title>
         <questionTitle>De testamentis et ultimis voluntatibus <!-- [p.530] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e430">
+      <item id="kdhaWs-d1e430" alias="kdhaWs-l3t7">
         <fileName filestem="kdhaWs-d1e430"/>
-        <title>Titulus 7 (skips 6; repeats 4)</title>
+        <title>Titulus 7</title>
         <questionTitle>De sepulturis <!-- [p.531] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e442">
+      <item id="kdhaWs-d1e442" alias="kdhaWs-l3t8">
         <fileName filestem="kdhaWs-d1e442"/>
         <title>Titulus 8</title>
         <questionTitle>De decimis, [primitiis et oblationibus] <!-- [p.538] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e454">
+      <item id="kdhaWs-d1e454" alias="kdhaWs-l3t9">
         <fileName filestem="kdhaWs-d1e454"/>
         <title>Titulus 9</title>
         <questionTitle>De regularibus et transeuntibus ad religionem <!-- [p.540] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e466">
+      <item id="kdhaWs-d1e466" alias="kdhaWs-l3t10">
         <fileName filestem="kdhaWs-d1e466"/>
         <title>Titulus 10</title>
         <questionTitle>De statu monachorum, vel canonicorum regularium <!-- [p.543] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e479">
+      <item id="kdhaWs-d1e479" alias="kdhaWs-l3t11">
         <fileName filestem="kdhaWs-d1e479"/>
         <title>Titulus 11</title>
         <questionTitle>De religiosis domibus, ut episcopo sint subjectae <!-- [p.549] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e491">
+      <item id="kdhaWs-d1e491" alias="kdhaWs-l3t12">
         <fileName filestem="kdhaWs-d1e491"/>
         <title>Titulus 12</title>
         <questionTitle>De jure patronatus <!-- [p.552] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e503">
+      <item id="kdhaWs-d1e503" alias="kdhaWs-l3t13">
         <fileName filestem="kdhaWs-d1e503"/>
         <title>Titulus 13</title>
         <questionTitle>De cesibus, exactionibus, et procurationibus <!-- [p.556] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e515">
+      <item id="kdhaWs-d1e515" alias="kdhaWs-l3t14">
         <fileName filestem="kdhaWs-d1e515"/>
         <title>Titulus 14</title>
-        <questionTitle>De celebratione et Missarum, et aliis divinis officiis
-          <!-- [p.559] --></questionTitle>
+        <questionTitle>De celebratione et Missarum, et aliis divinis officiis <!-- [p.559] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e527">
+      <item id="kdhaWs-d1e527" alias="kdhaWs-l3t15">
         <fileName filestem="kdhaWs-d1e527"/>
         <title>Titulus 15</title>
         <questionTitle>De baptismo et eius effectu <!-- [p.560] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e539">
+      <item id="kdhaWs-d1e539" alias="kdhaWs-l3t16">
         <fileName filestem="kdhaWs-d1e539"/>
         <title>Titulus 16</title>
         <questionTitle>De reliquiis et veneratione sanctorum <!-- [p.561] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e552">
+      <item id="kdhaWs-d1e552" alias="kdhaWs-l3t17">
         <fileName filestem="kdhaWs-d1e552"/>
-        <title>Titulus 16</title>
-        <questionTitle>De reliquiis et veneratione sanctorum <!-- [p.566] --></questionTitle>
-      </item>
-      <item id="kdhaWs-d1e564">
-        <fileName filestem="kdhaWs-d1e564"/>
-        <title>Titulus 16</title>
-        <questionTitle>De reliquiis et veneratione sanctorum <!-- [p.566] --></questionTitle>
+        <title>Titulus 17</title>
+        <questionTitle>De immunitate ecclesiarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="kdhaWs-d1e577">
+    <div id="kdhaWs-d1e577" alias="kdhaWs-l4">
       <head>Liber 4 <!-- [p.568] --></head>
-      <item id="kdhaWs-d1e583">
+      <item id="kdhaWs-d1e583" alias="kdhaWs-l4t1">
         <fileName filestem="kdhaWs-d1e583"/>
         <title>Titulus 1</title>
         <questionTitle>De consanguinitate et affinitate <!-- [p.568] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
     </div>
-    <div id="kdhaWs-d1e596">
+    <div id="kdhaWs-d1e596" alias="kdhaWs-l5">
       <head>Liber 5 <!-- [p.570] --></head>
-      <item id="kdhaWs-d1e602">
+      <item id="kdhaWs-d1e602" alias="kdhaWs-l5t1">
         <fileName filestem="kdhaWs-d1e602"/>
         <title>Titulus 1</title>
-        <questionTitle>De magistris: et ne aliquid exigatur pro licentia docendi
-          <!-- [p.570] --></questionTitle>
+        <questionTitle>De magistris: et ne aliquid exigatur pro licentia docendi <!-- [p.570] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e614">
+      <item id="kdhaWs-d1e614" alias="kdhaWs-l5t2">
         <fileName filestem="kdhaWs-d1e614"/>
         <title>Titulus 2</title>
         <questionTitle>De Judaeis et Sarracenis <!-- [p.572] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e626">
+      <item id="kdhaWs-d1e626" alias="kdhaWs-l5t3">
         <fileName filestem="kdhaWs-d1e626"/>
         <title>Titulus 3</title>
         <questionTitle>De haereticis <!-- [p.573] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e638">
+      <item id="kdhaWs-d1e638" alias="kdhaWs-l5t4">
         <fileName filestem="kdhaWs-d1e638"/>
         <title>Titulus 4</title>
         <questionTitle>De homicidio voluntario, vel casuali <!-- [p.580] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e651">
+      <item id="kdhaWs-d1e651" alias="kdhaWs-l5t5">
         <fileName filestem="kdhaWs-d1e651"/>
         <title>Titulus 5</title>
         <questionTitle>De usuries <!-- [p.581] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e663">
+      <item id="kdhaWs-d1e663" alias="kdhaWs-l5t6">
         <fileName filestem="kdhaWs-d1e663"/>
         <title>Titulus 6</title>
         <questionTitle>De excessibus praelatorum <!-- [p.583] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e675">
+      <item id="kdhaWs-d1e675" alias="kdhaWs-l5t7">
         <fileName filestem="kdhaWs-d1e675"/>
         <title>Titulus 7</title>
         <questionTitle>De privilegiis et excessibus privilegiatorum <!-- [p.585] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e687">
+      <item id="kdhaWs-d1e687" alias="kdhaWs-l5t8">
         <fileName filestem="kdhaWs-d1e687"/>
         <title>Titulus 8</title>
         <questionTitle>De poenis <!-- [p.588] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e699">
+      <item id="kdhaWs-d1e699" alias="kdhaWs-l5t9">
         <fileName filestem="kdhaWs-d1e699"/>
         <title>Titulus 9</title>
         <questionTitle>De paenitentiis et remissionibus <!-- [p.593] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e711">
+      <item id="kdhaWs-d1e711" alias="kdhaWs-l5t10">
         <fileName filestem="kdhaWs-d1e711"/>
         <title>Titulus 10</title>
-        <questionTitle>De sententia excommunicationis, suspensionis et interdicti
-          <!-- [p.594] --></questionTitle>
+        <questionTitle>De sententia excommunicationis, suspensionis et interdicti <!-- [p.594] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
-      <item id="kdhaWs-d1e724">
+      <item id="kdhaWs-d1e724" alias="kdhaWs-l5t11">
         <fileName filestem="kdhaWs-d1e724"/>
         <title>Titulus 11</title>
         <questionTitle>De verborum significatione <!-- [p.598] --></questionTitle>
+        <hasWitnesses>
+          <witness ref="#Friedberg1879b"/>
+        </hasWitnesses>
       </item>
     </div>
   </div>
