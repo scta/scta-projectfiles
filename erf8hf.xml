@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
-    <authorName>Philip Melanchthon</authorName>
-    <commentaryName>Loci Communes</commentaryName>
-    <commentaryid>erf8hf</commentaryid>
-    <commentaryslug>erf8hf</commentaryslug>
-    <alias>melanchthonlocicommunes</alias>
-    <authorUri>http://scta.info/resource/PhilipMelanchthon</authorUri>
-    <parentUri>http://scta.info/resource/erf8hf</parentUri>
-    <parentWorkGroup>http://scta.info/resource/locicommunes</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/erf8hf/</textfilesdir>
-    <questionListSource></questionListSource>
-    <questionListOriginalEditor/>
-    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses>
-      <witness id="cod-8jWitP">
-        <slug>cod-8jWitP</slug>
-        <title>Wittenberg 1521</title>
-        <initial>cod-8jWitP</initial>
-        <!-- https://www.e-rara.ch/zuz/doi/10.3931/e-rara-24721 -->
-      </witness>
-      <!-- https://archive.org/details/bub_gb_y7M_AAAAYAAJ --><!--https://archive.org/stream/bub_gb_y7M_AAAAYAAJ#page/n113--><!-- first (expression) publication 1521 https://www.e-rara.ch/bau_1/content/titleinfo/137152 --><!--
+      <authorName>Philip Melanchthon</authorName>
+      <commentaryName>Loci Communes</commentaryName>
+      <commentaryid>erf8hf</commentaryid>
+      <commentaryslug>erf8hf</commentaryslug>
+      <alias>melanchthonlocicommunes</alias>
+      <authorUri>http://scta.info/resource/PhilipMelanchthon</authorUri>
+      <parentUri>http://scta.info/resource/erf8hf</parentUri>
+      <parentWorkGroup>http://scta.info/resource/locicommunes</parentWorkGroup>
+      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/erf8hf/</textfilesdir>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-8jWitP">
+            <slug>cod-8jWitP</slug>
+            <title>Wittenberg 1521</title>
+            <initial>cod-8jWitP</initial>
+            <!-- https://www.e-rara.ch/zuz/doi/10.3931/e-rara-24721 
+        https://www.e-rara.ch/i3f/v20/7753032/manifest
+        -->
+         </witness>
+         <!-- https://archive.org/details/bub_gb_y7M_AAAAYAAJ -->   <!--https://archive.org/stream/bub_gb_y7M_AAAAYAAJ#page/n113-->   <!-- first (expression) publication 1521 https://www.e-rara.ch/bau_1/content/titleinfo/137152 -->   <!--
   
   Basileae : [Adam Petri], 1521	e-rara 		
 Mainz : Johann Schöffer, 1522	ULBH 		
@@ -30,194 +34,582 @@ Are thre three different expression ????
 
 p.276 of https://archive.org/stream/bub_gb_y7M_AAAAYAAJ#page/n289 
 says that in 1521 there were two printingsi n Wittenberg and a third in Basel -->
-    </hasWitnesses>
+      </hasWitnesses>
   </header>
   <div id="body">
-    <item id="erf8hf-d1e7">
-      <fileName filestem="erf8hf-d1e7"/>
-      <title>Introductio</title>
-      <questionTitle/>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e211">
-      <fileName filestem="erf8hf-d1e211"/>
-      <title>DE HOMINIS VIRIBUS ADEOQUE DE LIBERO ARBITRIO.</title>
-      <questionTitle>DE HOMINIS VIRIBUS ADEOQUE DE LIBERO ARBITRIO.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e566">
-      <fileName filestem="erf8hf-d1e566"/>
-      <title>DE PECCATO</title>
-      <questionTitle>DE PECCATO</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e577">
-      <fileName filestem="erf8hf-d1e577"/>
-      <title>Quid Peccatum</title>
-      <questionTitle>Quid Peccatum</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e586">
-      <fileName filestem="erf8hf-d1e586"/>
-      <title>Unde Peccatum Originale</title>
-      <questionTitle>Unde Peccatum Originale</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e602">
-      <fileName filestem="erf8hf-d1e602"/>
-      <title>VIS PECCATI ET FRUCTUS.</title>
-      <questionTitle>VIS PECCATI ET FRUCTUS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e721">
-      <fileName filestem="erf8hf-d1e721"/>
-      <title>DE LEGE</title>
-      <questionTitle>DE LEGE</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e793">
-      <fileName filestem="erf8hf-d1e793"/>
-      <title>DE DIVINIS LEGIBUS.</title>
-      <questionTitle>DE DIVINIS LEGIBUS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e821">
-      <fileName filestem="erf8hf-d1e821"/>
-      <title>DE CONSILIIS.</title>
-      <questionTitle>DE CONSILIIS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e833">
-      <fileName filestem="erf8hf-d1e833"/>
-      <title>DE MONACHORUM VOTIS.</title>
-      <questionTitle>DE MONACHORUM VOTIS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e842">
-      <fileName filestem="erf8hf-d1e842"/>
-      <title>DE JUDICIALIBUS ET CEREMONIALIBUS</title>
-      <questionTitle>DE JUDICIALIBUS ET CEREMONIALIBUS</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e861">
-      <fileName filestem="erf8hf-d1e861"/>
-      <title>DE HUMANIS LEGIBUS.</title>
-      <questionTitle>DE HUMANIS LEGIBUS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e917">
-      <fileName filestem="erf8hf-d1e917"/>
-      <title>DE EVANGELIO</title>
-      <questionTitle>DE EVANGELIO</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e926">
-      <fileName filestem="erf8hf-d1e926"/>
-      <title>QUID EVANGELIUM</title>
-      <questionTitle>QUID EVANGELIUM</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e957">
-      <fileName filestem="erf8hf-d1e957"/>
-      <title>DE VI LEGIS.</title>
-      <questionTitle>DE VI LEGIS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1007">
-      <fileName filestem="erf8hf-d1e1007"/>
-      <title>DE VI EVANGELII.</title>
-      <questionTitle>DE VI EVANGELII.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1025">
-      <fileName filestem="erf8hf-d1e1025"/>
-      <title>DE GRATIA.</title>
-      <questionTitle>DE GRATIA</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1051">
-      <fileName filestem="erf8hf-d1e1051"/>
-      <title>DE JUSTIFICATIONE ET FIDE.</title>
-      <questionTitle>DE JUSTIFICATIONE ET FIDE.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1148">
-      <fileName filestem="erf8hf-d1e1148"/>
-      <title>DE FIDEI EFFICACIA.</title>
-      <questionTitle>DE FIDEI EFFICACIA.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1160">
-      <fileName filestem="erf8hf-d1e1160"/>
-      <title>DE CARITATE ET SPE.</title>
-      <questionTitle>DE CARITATE ET SPE.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1311">
-      <fileName filestem="erf8hf-d1e1311"/>
-      <title>DE DISCRIMINE V. AC N. TESTAMENTI ; ITEM DE ABROGATIONE LEGIS.</title>
-      <questionTitle>DE DISCRIMINE V. AC N. TESTAMENTI ; ITEM DE ABROGATIONE LEGIS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1380">
-      <fileName filestem="erf8hf-d1e1380"/>
-      <title>DE VETERI AC NOVO HOMINE.</title>
-      <questionTitle>DE VETERI AC NOVO HOMINE.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1389">
-      <fileName filestem="erf8hf-d1e1389"/>
-      <title>DE PECCATO MORTALI ET QUOTIDIANO.</title>
-      <questionTitle>DE PECCATO MORTALI ET QUOTIDIANO.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1405">
-      <fileName filestem="erf8hf-d1e1405"/>
-      <title>De SIGNIS</title>
-      <questionTitle>De SIGNIS</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1423">
-      <fileName filestem="erf8hf-d1e1423"/>
-      <title>DE BAPTISMO.</title>
-      <questionTitle>DE BAPTISMO.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1441">
-      <fileName filestem="erf8hf-d1e1441"/>
-      <title>DE POENITENTIA.</title>
-      <questionTitle>DE POENITENTIA.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1466">
-      <fileName filestem="erf8hf-d1e1466"/>
-      <title>DE PRIVATIS CONFESSIONIBUS.</title>
-      <questionTitle>DE PRIVATIS CONFESSIONIBUS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1497">
-      <fileName filestem="erf8hf-d1e1497"/>
-      <title>DE PARTICIPATIONE MENSAE DOMINI.</title>
-      <questionTitle>DE PARTICIPATIONE MENSAE DOMINI.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1512">
-      <fileName filestem="erf8hf-d1e1512"/>
-      <title>DE CARITATE.</title>
-      <questionTitle>DE CARITATE.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1522">
-      <fileName filestem="erf8hf-d1e1522"/>
-      <title>DE MAGISTRATIBUS.</title>
-      <questionTitle>DE MAGISTRATIBUS.</questionTitle>
-      <hasWitnesses/>
-    </item>
-    <item id="erf8hf-d1e1571">
-      <fileName filestem="erf8hf-d1e1571"/>
-      <title>DE SCANDALO</title>
-      <questionTitle>DE SCANDALO</questionTitle>
-      <hasWitnesses/>
-    </item>
+      <div id="erf8hf-d1e70">
+         <head>Introductio</head>
+         <item id="erf8hf-d1eV9">
+            <fileName filestem="erf8hf-d1eV9"/>
+            <title>Epistola</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>1v</folio>
+                  <folio>2r</folio>
+                  <folio>2v</folio>
+                  <folio>3r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e7">
+            <fileName filestem="erf8hf-d1e7"/>
+            <title>Loci communes seu hypotyposes theologicae</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>3r</folio>
+                  <folio>3v</folio>
+                  <folio>4r</folio>
+                  <folio>4v</folio>
+                  <folio>5r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e211">
+            <fileName filestem="erf8hf-d1e211"/>
+            <title>De hominis viribus adeoque de libero arbitrio</title>
+            <questionTitle>De hominis viribus adeoque de libero arbitrio</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>5v</folio>
+                  <folio>6r</folio>
+                  <folio>6v</folio>
+                  <folio>7r</folio>
+                  <folio>7v</folio>
+                  <folio>8r</folio>
+                  <folio>8v</folio>
+                  <folio>9r</folio>
+                  <folio>9v</folio>
+                  <folio>10r</folio>
+                  <folio>10v</folio>
+                  <folio>11r</folio>
+                  <folio>11v</folio>
+                  <folio>12r</folio>
+                  <folio>12v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e2X8">
+            <fileName filestem="erf8hf-d1e2X8"/>
+            <title>Summa</title>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP"/>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="erf8hf-d1e123">
+         <head>De peccato</head>
+         <item id="erf8hf-d1e566">
+            <fileName filestem="erf8hf-d1e566"/>
+            <title>De peccato</title>
+            <questionTitle>De peccato</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e577">
+            <fileName filestem="erf8hf-d1e577"/>
+            <title>Quid peccatum</title>
+            <questionTitle>Quid Peccatum</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>13r</folio>
+                  <folio>13v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e586">
+            <fileName filestem="erf8hf-d1e586"/>
+            <title>Unde peccatum originale</title>
+            <questionTitle>Unde peccatum originale</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>13v</folio>
+                  <folio>14r</folio>
+                  <folio>14v</folio>
+                  <folio>15r</folio>
+                  <folio>15v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e602">
+            <fileName filestem="erf8hf-d1e602"/>
+            <title>Vis peccati et fructus</title>
+            <questionTitle>Vis peccati et fructus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>15v</folio>
+                  <folio>16r</folio>
+                  <folio>16v</folio>
+                  <folio>17r</folio>
+                  <folio>17v</folio>
+                  <folio>18r</folio>
+                  <folio>18v</folio>
+                  <folio>19r</folio>
+                  <folio>19v</folio>
+                  <folio>20r</folio>
+                  <folio>20v</folio>
+                  <folio>21r</folio>
+                  <folio>21v</folio>
+                  <folio>22r</folio>
+                  <folio>22v</folio>
+                  <folio>23r</folio>
+                  <folio>23v</folio>
+                  <folio>24r</folio>
+                  <folio>24v</folio>
+                  <folio>25r</folio>
+                  <folio>25v</folio>
+                  <folio>26r</folio>
+                  <folio>26v</folio>
+                  <folio>27r</folio>
+                  <folio>27v</folio>
+                  <folio>28r</folio>
+                  <folio>28v</folio>
+                  <folio>29r</folio>
+                  <folio>29v</folio>
+                  <folio>30r</folio>
+                  <folio>30v</folio>
+                  <folio>31r</folio>
+                  <folio>31v</folio>
+                  <folio>32r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="erf8hf-d1e181">
+         <head>De lege</head>
+         <questionTitle>De lege</questionTitle>
+         <item id="erf8hf-d1e721">
+            <fileName filestem="erf8hf-d1e721"/>
+            <title>De naturalibus legibus</title>
+            <questionTitle>De naturalibus legibus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>32r</folio>
+                  <folio>32v</folio>
+                  <folio>33r</folio>
+                  <folio>33v</folio>
+                  <folio>34r</folio>
+                  <folio>34v</folio>
+                  <folio>35r</folio>
+                  <folio>35v</folio>
+                  <folio>36r</folio>
+                  <folio>36v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e793">
+            <fileName filestem="erf8hf-d1e793"/>
+            <title>De divinis legibus</title>
+            <questionTitle>De divinis legibus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>37r</folio>
+                  <folio>37v</folio>
+                  <folio>38r</folio>
+                  <folio>38v</folio>
+                  <folio>39r</folio>
+                  <folio>39v</folio>
+                  <folio>40r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e821">
+            <fileName filestem="erf8hf-d1e821"/>
+            <title>De consiliis</title>
+            <questionTitle>De consiliis</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>40r</folio>
+                  <folio>40v</folio>
+                  <folio>41r</folio>
+                  <folio>41v</folio>
+                  <folio>42r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e833">
+            <fileName filestem="erf8hf-d1e833"/>
+            <title>De monachorum votis</title>
+            <questionTitle>De monachorum votis</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>42v</folio>
+                  <folio>43r</folio>
+                  <folio>43v</folio>
+                  <folio>44r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e842">
+            <fileName filestem="erf8hf-d1e842"/>
+            <title>De iudicialibus et ceremonialibus</title>
+            <questionTitle>De iudicialibus et ceremonialibus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>44r</folio>
+                  <folio>44v</folio>
+                  <folio>45r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e861">
+            <fileName filestem="erf8hf-d1e861"/>
+            <title>De humanis legibus</title>
+            <questionTitle>De humanis legibus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>45r</folio>
+                  <folio>45v</folio>
+                  <folio>46r</folio>
+                  <folio>46v</folio>
+                  <folio>47r</folio>
+                  <folio>47v</folio>
+                  <folio>48r</folio>
+                  <folio>48v</folio>
+                  <folio>49r</folio>
+                  <folio>49v</folio>
+                  <folio>50r</folio>
+                  <folio>50v</folio>
+                  <folio>51r</folio>
+                  <folio>51v</folio>
+                  <folio>52r</folio>
+                  <folio>52v</folio>
+                  <folio>53r</folio>
+                  <folio>53v</folio>
+                  <folio>54r</folio>
+                  <folio>54v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="erf8hf-d1e269">
+         <head>De evangelio</head>
+         <questionTitle>De evangelio</questionTitle>
+         <item id="erf8hf-d1e917">
+            <fileName filestem="erf8hf-d1e917"/>
+            <title>Praeambulum</title>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>54v</folio>
+                  <folio>55r</folio>
+                  <folio>55v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e926">
+            <fileName filestem="erf8hf-d1e926"/>
+            <title>Quid Evangelium</title>
+            <questionTitle>Quid Evangelium</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>55v</folio>
+                  <folio>56r</folio>
+                  <folio>56v</folio>
+                  <folio>57r</folio>
+                  <folio>57v</folio>
+                  <folio>58r</folio>
+                  <folio>58v</folio>
+                  <folio>59r</folio>
+                  <folio>59v</folio>
+                  <folio>60r</folio>
+                  <folio>60v</folio>
+                  <folio>61r</folio>
+                  <folio>61v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e957">
+            <fileName filestem="erf8hf-d1e957"/>
+            <title>De vi legis</title>
+            <questionTitle>De vi legis</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>61v</folio>
+                  <folio>62r</folio>
+                  <folio>62v</folio>
+                  <folio>63r</folio>
+                  <folio>63v</folio>
+                  <folio>64r</folio>
+                  <folio>64v</folio>
+                  <folio>65r</folio>
+                  <folio>65v</folio>
+                  <folio>66r</folio>
+                  <folio>66v</folio>
+                  <folio>67r</folio>
+                  <folio>67v</folio>
+                  <folio>68r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1007">
+            <fileName filestem="erf8hf-d1e1007"/>
+            <title>De vi evangelii</title>
+            <questionTitle>De vi evangelii</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>68r</folio>
+                  <folio>68v</folio>
+                  <folio>69r</folio>
+                  <folio>69v</folio>
+                  <folio>70r</folio>
+                  <folio>70v</folio>
+                  <folio>71r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <item id="erf8hf-d1e1025">
+         <fileName filestem="erf8hf-d1e1025"/>
+         <title>De Gratia</title>
+         <questionTitle>De Gratia</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-8jWitP">
+               <folio>71r</folio>
+               <folio>71v</folio>
+               <folio>72r</folio>
+               <folio>72v</folio>
+               <folio>73r</folio>
+            </witness>
+         </hasWitnesses>
+      </item>
+      <div id="erf8hf-d1e342">
+         <head>De justificatione et fide</head>
+         <questionTitle>De justificatione et fide</questionTitle>
+         <item id="erf8hf-d1e1051">
+            <fileName filestem="erf8hf-d1e1051"/>
+            <title>Praeambulum</title>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP"/>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1148">
+            <fileName filestem="erf8hf-d1e1148"/>
+            <title>De fidei efficacia</title>
+            <questionTitle>De fidei efficacia</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>95v</folio>
+                  <folio>96r</folio>
+                  <folio>96v</folio>
+                  <folio>97r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1160">
+            <fileName filestem="erf8hf-d1e1160"/>
+            <title>De Caritate et Spe</title>
+            <questionTitle>De Caritate et Spe</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>97r</folio>
+                  <folio>97v</folio>
+                  <folio>98r</folio>
+                  <folio>98v</folio>
+                  <folio>99r</folio>
+                  <folio>99v</folio>
+                  <folio>100r</folio>
+                  <folio>100v</folio>
+                  <folio>101r</folio>
+                  <folio>101v</folio>
+                  <folio>102r</folio>
+                  <folio>102v</folio>
+                  <folio>103r</folio>
+                  <folio>103v</folio>
+                  <folio>104r</folio>
+                  <folio>104v</folio>
+                  <folio>105r</folio>
+                  <folio>105v</folio>
+                  <folio>106r</folio>
+                  <folio>106v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="erf8hf-d1e387">
+         <head>De discrimine veteris ac novi testamenti. Item de abrogatione legis</head>
+         <questionTitle>De discrimine veteris ac novi testamenti. Item de abrogatione legis</questionTitle>
+         <item id="erf8hf-d1e1311">
+            <fileName filestem="erf8hf-d1e1311"/>
+            <title>Praeambulum</title>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>106v</folio>
+                  <folio>107r</folio>
+                  <folio>107v</folio>
+                  <folio>108r</folio>
+                  <folio>108v</folio>
+                  <folio>109r</folio>
+                  <folio>109v</folio>
+                  <folio>110r</folio>
+                  <folio>110v</folio>
+                  <folio>111r</folio>
+                  <folio>111v</folio>
+                  <folio>112r</folio>
+                  <folio>112v</folio>
+                  <folio>113r</folio>
+                  <folio>113v</folio>
+                  <folio>114r</folio>
+                  <folio>114v</folio>
+                  <folio>115r</folio>
+                  <folio>115v</folio>
+                  <folio>116r</folio>
+                  <folio>116v</folio>
+                  <folio>117r</folio>
+                  <folio>117v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1380">
+            <fileName filestem="erf8hf-d1e1380"/>
+            <title>De veteri ac novo homine</title>
+            <questionTitle>De veteri ac novo homine</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>117v</folio>
+                  <folio>118r</folio>
+                  <folio>118v</folio>
+                  <folio>119r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1389">
+            <fileName filestem="erf8hf-d1e1389"/>
+            <title>De peccato mortali et quotidiano</title>
+            <questionTitle>De peccato mortali et quotidiano</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>119v</folio>
+                  <folio>120r</folio>
+                  <folio>120v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="erf8hf-d1e432">
+         <head>De signis</head>
+         <questionTitle>De signis</questionTitle>
+         <item id="erf8hf-d1e1405">
+            <fileName filestem="erf8hf-d1e1405"/>
+            <title>Praeambulum</title>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>120v</folio>
+                  <folio>121r</folio>
+                  <folio>121v</folio>
+                  <folio>122r</folio>
+                  <folio>122v</folio>
+                  <folio>123r</folio>
+                  <folio>123v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1423">
+            <fileName filestem="erf8hf-d1e1423"/>
+            <title>De baptismo</title>
+            <questionTitle>De baptismo</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>123v</folio>
+                  <folio>124r</folio>
+                  <folio>124v</folio>
+                  <folio>125r</folio>
+                  <folio>125v</folio>
+                  <folio>126r</folio>
+                  <folio>126v</folio>
+                  <folio>127r</folio>
+                  <folio>127v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1441">
+            <fileName filestem="erf8hf-d1e1441"/>
+            <title>De poenitentia</title>
+            <questionTitle>De poenitentia</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>127v</folio>
+                  <folio>128r</folio>
+                  <folio>128v</folio>
+                  <folio>129r</folio>
+                  <folio>129v</folio>
+                  <folio>130r</folio>
+                  <folio>130v</folio>
+                  <folio>131r</folio>
+                  <folio>131v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1466">
+            <fileName filestem="erf8hf-d1e1466"/>
+            <title>De privatis confessionibus</title>
+            <questionTitle>De privatis confessionibus</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>132r</folio>
+                  <folio>132v</folio>
+                  <folio>133r</folio>
+                  <folio>133v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="erf8hf-d1e1497">
+            <fileName filestem="erf8hf-d1e1497"/>
+            <title>De participatione mensae domini</title>
+            <questionTitle>De participatione mensae domini</questionTitle>
+            <hasWitnesses>
+               <witness ref="#cod-8jWitP">
+                  <folio>133v</folio>
+                  <folio>134r</folio>
+                  <folio>134v</folio>
+                  <folio>135r</folio>
+                  <folio>135v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <item id="erf8hf-d1e1512">
+         <fileName filestem="erf8hf-d1e1512"/>
+         <title>De caritate</title>
+         <questionTitle>De caritate</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-8jWitP">
+               <folio>135v</folio>
+               <folio>136r</folio>
+            </witness>
+         </hasWitnesses>
+      </item>
+      <item id="erf8hf-d1e1522">
+         <fileName filestem="erf8hf-d1e1522"/>
+         <title>De magistratibus</title>
+         <questionTitle>De magistratibus</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-8jWitP">
+               <folio>136r</folio>
+               <folio>136v</folio>
+               <folio>137r</folio>
+               <folio>137v</folio>
+               <folio>138r</folio>
+               <folio>138v</folio>
+            </witness>
+         </hasWitnesses>
+      </item>
+      <item id="erf8hf-d1e1571">
+         <fileName filestem="erf8hf-d1e1571"/>
+         <title>De scandalo</title>
+         <questionTitle>De scandalo</questionTitle>
+         <hasWitnesses>
+            <witness ref="#cod-8jWitP">
+               <folio>138v</folio>
+               <folio>139r</folio>
+               <folio>139v</folio>
+               <folio>140r</folio>
+               <folio>140v</folio>
+            </witness>
+         </hasWitnesses>
+      </item>
   </div>
 </listofFileNames>
