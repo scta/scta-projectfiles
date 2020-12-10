@@ -23,14 +23,14 @@
         <editor><!-- David Ross --></editor>
       </witness>
       <witness id="cod-AAssXX"><!-- codex file not yet created -->
-        <!-- Non italic edition in Junta  -->
+        <!-- Non italic edition in Junta  (I think this is somewhat close to Moerbek translation -->
         <slug>cod-AAssXX</slug>
         <title>Venice 1562</title> <!-- editio Juntina secunda, vol. VIII (Venezia, 1562) -->
         <initial>cod-AAssXX</initial>
         <editor><!-- Juntina --></editor>
       </witness>
       <witness id="cod-AAssXI"><!-- same codex as cod-AAssXX, but embedded as second translation -->
-        <!-- Non italic edition in Junta  -->
+        <!-- Non italic edition in Junta; seems to be version quoted in averroes commentary -->
         <slug>cod-AAssXI</slug>
         <title>Venice 1562</title> <!-- editio Juntina secunda, vol. VIII (Venezia, 1562) -->
         <initial>cod-AAssXI</initial>
@@ -70,6 +70,11 @@
     <item id="aristmet-l4">
       <fileName filestem="aristmet-l4"/>
       <title>Liber 4</title>
+      <hasWitnesses>
+        <witness ref="#cod-RGT6RG"></witness>
+        <witness ref="#cod-AAssXX"></witness>
+        <witness ref="#cod-AAssXI"></witness>
+      </hasWitnesses>
     </item>
     <item id="aristmet-l5">
       <fileName filestem="aristmet-l5"/>
