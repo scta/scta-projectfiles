@@ -14,15 +14,67 @@
     <questionListEncoder/>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
+      <witness id="cod-fy37hf">
+        <slug>cod-fy37hf</slug><!--considered a fulda witness -->
+        <title>Clm 10077</title>
+        <initial>cod-fy37hf</initial>
+      </witness>
+      <witness id="cod-xxyx5x"> <!--considered a galasianum witness -->
+        <slug>cod-xxyx5x</slug>
+        <title>Reg lat 316</title>
+        <initial>cod-xxyx5x</initial>
+      </witness>
+      <witness id="cod-hYupoi"> <!--considered a gellone witness -->
+        <slug>cod-hYupoi</slug>
+        <title>BnF lat 12048</title>
+        <initial>cod-hYupoi</initial>
+      </witness>
+      <witness id="cod-OpOpOp"> <!-- not yet created -->
+        <!--Missale Francorum-->
+        <slug>cod-OpOpOp</slug>
+        <title>Reg lat 257</title>
+        <initial>cod-OpOpOp</initial>
+        <!-- https://digi.vatlib.it/view/MSS_Reg.lat.257 -->
+      </witness>
+      <witness id="cod-zZOoHh"> <!-- not yet created -->
+        <!--GregorianSacramentary-->
+        <slug>cod-zZOoHh</slug>
+        <title>Paris, BnF, Latin 1141</title>
+        <initial>cod-zZOoHh</initial>
+        <!-- https://gallica.bnf.fr/ark:/12148/btv1b53019391x 
+        https://gallica.bnf.fr/iiif/ark:/12148/btv1b53019391x/manifest.json
+        -->
+      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
     <head>Orationes</head>
     <!-- canon missae -->
-    
-    <item id="mnvhfy-d1e53" alias="mnvhfy-o1" type="lit-temporale">
+    <item id="mnvhfy-d1e53" alias="mnvhfy-o1" type="lit-temporale ">
       <fileName filestem="mnvhfy-d1e53"/>
       <title>Te igitur</title>
+      <hasWitnesses>
+        <witness ref="#cod-fy37hf">
+          <folio>12r</folio>
+          <folio>12v</folio>
+        </witness>
+        <witness ref="#cod-xxyx5x">
+          <folio>180r</folio>
+        </witness>
+        <witness ref="#cod-hYupoi">
+          <folio>143v</folio>
+          <folio>144r</folio>
+        </witness>
+        <witness ref="#cod-OpOpOp">
+          <folio>140v</folio>
+          <folio>141r</folio>
+          <folio>141v</folio>
+        </witness>
+        <witness ref="#cod-zZOoHh">
+          <folio>6v</folio>
+          <folio>7r</folio>
+        </witness>
+      </hasWitnesses>
     </item>
     
     <!-- missa pro regibus -->
