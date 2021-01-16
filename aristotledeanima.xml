@@ -5,30 +5,72 @@
     <authorName>Aristotle</authorName>
     <commentaryName>De Anima</commentaryName>
     <commentaryid>aristotledeanima</commentaryid>
+    <!-- TODO: commentary slug should be deleted as I don't think it used anywhere 
+      I think it was originally used as just a reminder for a human reader -->
     <commentaryslug>aristda</commentaryslug>
     <authorUri>http://scta.info/resource/Aristotle</authorUri>
     <parentUri>http://scta.info/resource/aristotledeanima</parentUri>
-    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/aristotledeanima/</textfilesdir>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> </hasWitnesses>
+    <hasWitnesses> 
+      <witness id="cod-dsKs3a-1"> <!-- manifestation cod-dsKs3a-1 in codex cod-dsKs3a- --> 
+        <!--TODO: perhaps SLUG should point to containing codex id?? -->
+        <!-- NOTE: at present some breakage will occur 
+          because this manifestion will not be able to find the id of the containing codex -->
+        <!-- NOTE: using "cod-dsKs3a-1" for manifestation slug 
+          is also brittle because there is no protecting against re-using the id 
+          in the scta-codex data file, though re-use is unlikely since anything starting with cod-dsKs3a-
+          will likely be avoided -->
+        <slug>cod-dsKs3a-1</slug> <!-- antiqua translation -->
+        <title>Antiqua Translatio, Venice 1562, volume 11</title> <!-- editio Juntina secunda, vol. XI (Venezia, 1562) -->
+        <initial>cod-dsKs3a-1</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+      <witness id="cod-dsKs3a-2"> <!-- manifestation cod-dsKs3a-2 in codex cod-dsKs3a- --> 
+        <slug>cod-dsKs3a-2</slug> <!--soph translation -->
+        <title>Sophiani Translatio, Venice 1562, volume 11</title> <!-- editio Juntina secunda, vol. XI (Venezia, 1562) -->
+        <initial>cod-dsKs3a-2</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+      <witness id="cod-dsKs3a-3"> <!-- manifestation cod-dsKs3a-3 in codex cod-dsKs3a- --> 
+        <slug>cod-dsKs3a-3</slug> <!--soph translation -->
+        <title>Averrois Textus, Venice 1562, volume 11</title> <!-- editio Juntina secunda, vol. XI (Venezia, 1562) -->
+        <initial>cod-dsKs3a-3</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+    </hasWitnesses>
   </header>
   <div id="body">
     <head>De Anima</head>
     <item id="aristda-l1">
       <fileName filestem="aristda-l1"/>
       <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a-1"></witness>
+        <witness ref="#cod-dsKs3a-2"></witness>
+        <witness ref="#cod-dsKs3a-3"></witness>
+      </hasWitnesses>
     </item>
     <item id="aristda-l2">
       <fileName filestem="aristda-l2"/>
       <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a-1"></witness>
+        <witness ref="#cod-dsKs3a-2"></witness>
+        <witness ref="#cod-dsKs3a-3"></witness>
+      </hasWitnesses>
     </item>
     <item id="aristda-l3">
       <fileName filestem="aristda-l3"/>
       <title>Liber 3</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a-1"></witness>
+        <witness ref="#cod-dsKs3a-2"></witness>
+        <witness ref="#cod-dsKs3a-3"></witness>
+      </hasWitnesses>
     </item>
   </div>
 </listofFileNames>

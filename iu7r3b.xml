@@ -13,21 +13,40 @@
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> 
-      <!--Averroes:  Aristotelis de anima libri tres, cum Averrois commentariis, editio Juntina secunda, vol. XI (Venezia, 1562)
+    <hasWitnesses>
+        <!--Averroes:  Aristotelis de anima libri tres, cum Averrois commentariis, editio Juntina secunda, vol. XI (Venezia, 1562)
       see http://capricorn.bc.edu/siepm/DOCUMENTS/AVERROES/Averroes_DeAnima_JuntSecunda_11.pdf for PDF
       -->
-    </hasWitnesses>
+        <witness id="cod-dsKs3a"><!-- codex file not yet created -->
+          <slug>cod-dsKs3a</slug>
+          <title>Venice 1562, Volume 11</title> <!-- editio Juntina secunda, vol. XI (Venezia, 1562) -->
+          <initial>cod-dsKs3a</initial>
+          <editor>http://scta.info/resource/per-vandEE</editor>
+        </witness>
+      </hasWitnesses>
   </header>
   <div id="body">
-    <div id="iu7r3b-d1e48" alias="iu7r3b-l1">
-      <head>Liber 1</head>
-    </div>
-    <div id="iu7r3b-d1e54" alias="iu7r3b-l2">
-      <head>Liber 2</head>
-    </div>
-    <div id="iu7r3b-d1e60" alias="iu7r3b-l3">
-      <head>Liber 3</head>
-    </div>
+    <head>In De Anima</head>
+    <item id="iu7r3b-d1e48" alias="iu7r3b-l1">
+      <fileName filestem="iu7r3b-d1e48"></fileName>
+      <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="iu7r3b-d1e54" alias="iu7r3b-l2">
+      <fileName filestem="iu7r3b-d1e54"></fileName>
+      <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="iu7r3b-d1e60" alias="iu7r3b-l3">
+      <fileName filestem="iu7r3b-d1e60"></fileName>
+      <title>Liber 3</title>
+      <hasWitnesses>
+        <witness ref="#cod-dsKs3a"></witness>
+      </hasWitnesses>
+    </item>
   </div>
 </listofFileNames>
