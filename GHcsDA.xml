@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Marcantonio Zimara</authorName>
+    <commentaryName>Solutiones Contradictionum in De Anima</commentaryName>
+    <commentaryid>GHcsDA</commentaryid>
+    <commentaryslug>GHcsDA</commentaryslug>
+    <alias>ZimaraDeAnimaCommentary</alias>
+    <authorUri>http://scta.info/resource/per-sdv3av</authorUri>
+    <parentWorkGroup>http://scta.info/resource/deanima</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-AAssDA"><!-- codex file not yet created -->
+        <slug>cod-AAssDA</slug>
+        <title>Venice 1562, Volume 11</title> <!-- editio Juntina secunda, vol. XI (Venezia, 1562) -->
+        <initial>cod-AAssDA</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Solutiones Contradictionum in De Anima</head>
+    <item id="GHcsDA-d1e66" alias="GHcsDA-l1">
+      <fileName filestem="GHcsDA-d1e66"/>
+      <title>Liber 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-AAssDA">
+          <folio>205r</folio>
+          <folio>205v</folio>
+          <folio>206r</folio>
+          <folio>206v</folio>
+          <folio>207r</folio>
+          <folio>207v</folio>
+          <folio>208r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="GHcsDA-d1e104" alias="GHcsDA-l2">
+      <fileName filestem="GHcsDA-d1e104"/>
+      <title>Liber 2</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-AAssDA">
+          <folio>208r</folio>
+          <folio>208v</folio>
+          <folio>209r</folio>
+          <folio>209v</folio>
+          <folio>210r</folio>
+          <folio>210v</folio>
+          <folio>211r</folio>
+          <folio>211v</folio>
+          <folio>212r</folio>
+          <folio>212v</folio>
+          <folio>213r</folio>
+          <folio>213v</folio>
+          <folio>214r</folio>
+          <folio>214v</folio>
+          <folio>215r</folio>
+          <folio>215v</folio>
+          <folio>216r</folio>
+          <folio>216v</folio>
+          <folio>217r</folio>
+          <folio>217v</folio>
+          <folio>218r</folio>
+          <folio>218v</folio>
+          <folio>219r</folio>
+          <folio>219v</folio>
+          <folio>220r</folio>
+          <folio>220v</folio>
+          <folio>221r</folio>
+          <folio>221r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="GHcsDA-d1e208" alias="GHcsDA-l3">
+      <fileName filestem="GHcsDA-d1e208"/>
+      <title>Liber 3</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-AAssDA">
+          <folio>221r</folio>
+          <folio>221v</folio>
+          <folio>222r</folio>
+          <folio>222v</folio>
+          <folio>223r</folio>
+          <folio>223v</folio>
+          <folio>224r</folio>
+          <folio>224v</folio>
+          <folio>225r</folio>
+          <folio>225v</folio>
+          <folio>226r</folio>
+          <folio>226v</folio>
+          <folio>227r</folio>
+          <folio>227v</folio>
+          <folio>228r</folio>
+          <folio>228v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
