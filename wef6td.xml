@@ -6,10 +6,8 @@
     <commentaryslug>wef6td</commentaryslug>
     <alias>libersextus</alias>
     <authorUri>http://scta.info/resource/BonifaceVIII</authorUri>
-    <parentUri>http://scta.info/resource/wef6td</parentUri>
     <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wef6td/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
-    <questionListSource><!--http://digital.library.ucla.edu/canonlaw/toc.html--></questionListSource>
+    <questionListSource><!--Friedberg 1879 Volume 2<--></questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
@@ -22,8 +20,18 @@
     </hasWitnesses>
   </header>
   <div id="body">
+    <head>Liber Sextus Decretalium</head>
+    <item id="wef6td-d1epRo" alias="wef6td-prooemium">
+      <fileName filestem="wef6td-d1epRo"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#Fb">
+        </witness>
+      </hasWitnesses>
+    </item>
     <div id="wef6td-d1e63" alias="wef6td-l1">
-      <head>Liber I</head>
+      <head>Liber 1</head>
       <item id="wef6td-d1e68" alias="wef6td-l1t1">
         <fileName filestem="wef6td-d1e68"/>
         <title>Titulus 1</title>
@@ -357,6 +365,15 @@
         <hasWitnesses>
           <witness ref="#Fb">
             <folio>544</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="wef6td-d1e735" alias="wef6td-l2t12">
+        <fileName filestem="wef6td-d1e735"/>
+        <title>Titulus 12</title>
+        <questionTitle>De exceptionibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#Fb">
           </witness>
         </hasWitnesses>
       </item>
