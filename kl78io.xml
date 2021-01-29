@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>John Klenkok</authorName>
+    <commentaryName>Expositio litteralis in quattuor libris Sententiarum</commentaryName>
+    <commentaryid>kl78io</commentaryid>
+    <commentaryslug>kl78io</commentaryslug>
+    <alias>KlenkokSentCommentary</alias>
+    <authorUri>http://scta.info/resource/JohnKlenkok</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!-- 
+        ms list from Ocker: see https://books.google.com/books?id=8CALAAAAIAAJ&pg=PA95&dq=Klosterneuburg,+Stiftsbibliothek,+304&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwjWg7SE-7_uAhURFVkFHY5BDXgQ6AEwAHoECAIQAg#v=onepage&q=Klosterneuburg%2C%20Stiftsbibliothek%2C%20304&f=false
+        
+        E1 Erfurt, Allgemeine Stadtbücherei, Amplon. F.
+        118, ff. 119ra-135vb (I Sent.), 86ra-107ra
+        (II Sent.).
+        ________
+        E2 Erfurt, Allgemeine Stadtbücherei, Amplon.
+        F. 117, ff. 1ra-66vb.
+        ________
+        K Klosterneuburg, Stiftsbibliothek Ms. 304,
+        ff. 68r-195r. (images at https://manuscripta.at/diglit/AT5000-304/0001/image; does not yet seem IIIF available)
+        
+        K also seems to contain: Klosterneuburg, Augustiner-Chorherrenstift, Cod. 304
+THESAURUS PAUPERUM. PETRUS DE TARANTASIA. HENRICUS TOTTING DE OYTA. IOHANNES KLENKOK. PETRUS REMENSIS. HENRICUS DE LANGENSTEIN (?)
+        
+        _________
+        S Siena, Biblioteca Comunale G.V.16, ff. 1ra-
+        105vb. -->
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Expositio litteralis in quattuor libris Sententiarum</head>
+    <div id="kl78io-d1e49">
+      <head>Liber 1</head>
+    </div>
+    <div id="kl78io-d1e55">
+      <head>Liber 2</head>
+    </div>
+    <div id="kl78io-d1e61">
+      <head>Liber 3</head>
+    </div>
+    <div id="kl78io-d1e67">
+      <head>Liber 4</head>
+    </div>
+  </div>
+</listofFileNames>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Fascinus de Asti</authorName>
+    <commentaryName>Commentarius in libros Sententiarum</commentaryName>
+    <commentaryid>ASTFas</commentaryid>
+    <commentaryslug>ASTFas</commentaryslug>
+    <alias>FascinusDeAstiSentCommentary</alias>
+    <authorUri>http://scta.info/resource/FascinusOfAsti</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!-- stegmuller 
+          Erfurt, Universitätsbibliothek, CA 2º 115; contains books I, III on fols. 1-191
+» Rome, Vatican Library, Ottob. lat. 446; contains books II-III
+-->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in libros Sententiarum</head>
+  </div>
+</listofFileNames>

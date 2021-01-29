@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Thomas Bradwardine</authorName>
+    <commentaryName>De causa dei</commentaryName>
+    <commentaryid>dcn2br</commentaryid>
+    <commentaryslug>dcn2br</commentaryslug>
+    <alias>BradwardineDeCausaDei</alias>
+    <authorUri>http://scta.info/resource/Bradwardine</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-vzXPK8">
+        <slug>cod-vzXPK8</slug>
+        <title>London, Bill, 1618</title>
+        <initial>cod-vzXPK8</initial>
+        <!--
+         https://reader.digitale-sammlungen.de/resolve/display/bsb10634627.html
+        https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10634627/manifest
+        -->
+      </witness>
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De causa dei</head>
+    <div id="dcn2br-d1e47">
+      <head>Liber 1</head>
+    </div>
+    <div id="dcn2br-d1e53">
+      <head>Liber 2</head>
+    </div>
+    <div id="dcn2br-d1e59">
+      <head>Liber 3</head>
+    </div>
+  </div>
+</listofFileNames>
