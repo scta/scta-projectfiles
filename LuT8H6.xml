@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Martin Luther</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>LuT8H6</commentaryid>
+    <commentaryslug>LuT8H6</commentaryslug>
+    <alias>LutherSentCommentary</alias>
+    <authorUri>http://scta.info/resource/MartinLuther</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--
+        print Witness Martin Luthers Werke, Weimar 1883-1919, Weimarer Ausgabe - WA9 
+      see archive.org
+      
+      corrected text seems available here 
+      http://www.lutherdansk.dk/WA%209%20-%20web/WA%209%20-%20Schriften%20und%20Predigten%201509-21.htm 
+      -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="LuT8H6-d1e50">
+      <head>Liber 1</head>
+      <item id="LuT8H6-d1e55X" type="liber1-distinctio17">
+        <fileName filestem="LuT8H6-d1e55X"/>
+        <title>Distinctio 17</title>
+      </item>
+    </div>
+    <!--<div>
+      <head>Liber 2</head>
+    </div>-->
+  </div>
+</listofFileNames>
