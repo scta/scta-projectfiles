@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+  <header>
+    <authorName>Richard of St. Victor</authorName>
+    <commentaryName>De Trinitate</commentaryName>
+    <commentaryid>stRiVi</commentaryid>
+    <commentaryslug>stRiVi</commentaryslug>
+    <alias>RichardOfStVictorDeTrinitate</alias>
+    <authorUri>http://scta.info/resource/RichardOfStVictor</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!-- critical text 
+        Jean Ribaillier, De Trinitate: texte critique avec introduction, notes et tables (Paris: Librairie Philosophique J. Vrin, 1958)
+        See https://books.google.com/books?id=mcsWAAAAIAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+        -->
+      <!-- ms listed in Ribaillier  
+          Paris Mazarine 769
+          Paris B.N. Lat 14519
+          Paris Arsenal 239
+          Paris B.N. lat 15729
+          Paris B.N. lat 3156
+          Paris B.N. lat 15660
+          Paris B.N. lat 15689
+          Paris B.N. lat 15734
+          Paris B.N. Lat 15730
+          
+          Navarre Paris Mazarine 775
+          Mazarine 1639
+          
+          Berline B.N. lat 72
+          
+          Mertonensis 140
+          
+          Cracovie, Jagellonensis 1383, C C VI 32
+          
+          Paris B.N. Lat 12325
+          Valenciennes 198
+          Paris B.N. Lat 13432
+          Arras 703
+          Melk 230
+          Melk 68, B 33
+          Munich B.N. Lat 18578
+          Paris B.N. Lat 2495
+          Dijon 149
+          Dijon 202
+          British Museum Additional 15407
+          Oxford Bodleian E Musaeo 62
+          British Meseum Arundel 191
+          Bruges 169
+          Bruges 170
+          Paris B.N. lat 1910
+          Paris B.N. Lat 2178
+          Assise 98
+          Toulouse 206
+          Edinburge University 109
+          Cambrai 474
+          Florence Laurentienne, Sanctae Crucis Plust XXIII, Dextr. cod IV
+          Cremone 159
+          Utrecht Universite
+          Wurtzbourg Universite M. CH. F 252
+          Tours 247
+          Tortosa 86
+          Cambridge University 2027
+          Prague Capitulaire 210, A. 113. I
+          Escorial Q III 8 120
+          Venise Marciana 86
+          Rome Vaticane Urbinates Lat 103
+          Prague Universite 239
+          Prague Universite 2530
+          Bale Universite B IX 18
+          Paris B.N. Lat 2591
+          Rome Vaticane Cod lat 818
+          Oxford Bodelian E Musaeo 134
+          Bruxelles B.R. II 2312 no. 1487
+          Vienne B.N. Lat 785
+          Prague Universite 852 V. C. 10
+          -->
+          
+          
+          --&gt;
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De Trinitate</head>
+    <item id="stRiVi-d1e53">
+      <fileName filestem="stRiVi-d1e53"/>
+      <title>Prologus</title>
+    </item>
+    <item id="stRiVi-d1e61">
+      <fileName filestem="stRiVi-d1e61"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="stRiVi-d1e69">
+      <fileName filestem="stRiVi-d1e69"/>
+      <title>Liber 2</title>
+    </item>
+    <item id="stRiVi-d1e77">
+      <fileName filestem="stRiVi-d1e77"/>
+      <title>Liber 3</title>
+    </item>
+    <item id="stRiVi-d1e86">
+      <fileName filestem="stRiVi-d1e86"/>
+      <title>Liber 4</title>
+    </item>
+    <item id="stRiVi-d1e94">
+      <fileName filestem="stRiVi-d1e94"/>
+      <title>Liber 5</title>
+    </item>
+    <item id="stRiVi-d1e102">
+      <fileName filestem="stRiVi-d1e102"/>
+      <title>Liber 6</title>
+    </item>
+  </div>
+</listofFileNames>

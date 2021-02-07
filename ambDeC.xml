@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+  <header>
+    <authorName>Ambrose</authorName>
+    <commentaryName>De Cain et Abel</commentaryName>
+    <commentaryid>ambDeC</commentaryid>
+    <commentaryslug>ambDeC</commentaryslug>
+    <alias>AmbroseDeCainEtAbel</alias>
+    <authorUri>http://scta.info/resource/Ambrose</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--PL 14.333-380 see https://archive.org/details/patrologiae_cursus_completus_lat_vol_014/page/n163/mode/2up
+      CSEL 323.1.413-497-->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De Cain et Abel</head>
+    <item id="ambDeC-d1e51">
+      <fileName filestem="ambDeC-d1e51"/>
+      <title>Liber 1</title>
+    </item>
+    <item id="ambDeC-d1e59">
+      <fileName filestem="ambDeC-d1e59"/>
+      <title>Liber 2</title>
+    </item>
+  </div>
+</listofFileNames>
