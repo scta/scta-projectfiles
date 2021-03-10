@@ -5,48 +5,84 @@
     <commentaryid>aristotledephysica</commentaryid>
     <commentaryslug>aristdp</commentaryslug>
     <authorUri>http://scta.info/resource/Aristotle</authorUri>
-    <parentUri>http://scta.info/resource/aristotledephysica</parentUri>
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/aristotledephysica/</textfilesdir>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> </hasWitnesses>
+    <hasWitnesses>
+      <witness id="cod-qwzw4v"><!-- codex file not yet created -->
+        <slug>cod-qwzw4v</slug><!-- italic version; possibly Martini translation --> 
+        <title>Juntina, Venice 1562</title>
+        <initial>cod-qwzw4v</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+      <witness id="cod-qwzw4v-2"> <!-- non-italic version -->
+        <slug>cod-qwzw4v-2</slug><!-- non-italic version; possibly Antiqua translation --> 
+        <title>Juntina, Venice 1562</title>
+        <initial>cod-qwzw4v</initial>
+        <editor>http://scta.info/resource/per-vandEE</editor>
+      </witness>
+    </hasWitnesses>
   </header>
   <div id="body">
     <head>De Physica</head>
     <item id="aristdp-d1e48" alias="aristpa-l1">
       <fileName filestem="aristdp-d1e48"/>
       <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+        <witness ref="cod-qwzw4v-2"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e56" alias="aristpa-l2">
       <fileName filestem="aristdp-d1e56"/>
       <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e64" alias="aristpa-l3">
       <fileName filestem="aristdp-d1e64"/>
       <title>Liber 3</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e72" alias="aristpa-l4">
       <fileName filestem="aristdp-d1e72"/>
       <title>Liber 4</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e80" alias="aristpa-l5">
       <fileName filestem="aristdp-d1e80"/>
       <title>Liber 5</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e89" alias="aristpa-l6">
       <fileName filestem="aristdp-d1e89"/>
       <title>Liber 6</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e97" alias="aristpa-l7">
       <fileName filestem="aristdp-d1e97"/>
       <title>Liber 7</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
     <item id="aristdp-d1e105" alias="aristpa-l8">
       <fileName filestem="aristdp-d1e105"/>
       <title>Liber 8</title>
+      <hasWitnesses>
+        <witness ref="cod-qwzw4v"/>
+      </hasWitnesses>
     </item>
   </div>
 </listofFileNames>
