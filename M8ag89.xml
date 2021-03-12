@@ -12,31 +12,75 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <!--Leiden https://digitalcollections.universiteitleiden.nl/view/item/935752 ff. 51r -58r
+      <witness id="cod-LEvdwA">
+        <slug>cod-LEvdwA</slug>
+        <title>Leiden University, VCQ 27</title>
+        <initial>cod-LEvdwA</initial>
+        <!--Leiden https://digitalcollections.universiteitleiden.nl/view/item/935752 ff. 51r -58r
         https://iiifviewer.universiteitleiden.nl/?manifest=https%3A//digitalcollections.universiteitleiden.nl/iiif_manifest/item%253A935650/manifest&canvasID=https%3A//digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A935752/canvas/default
       -->
-      <!-- 
-        Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1122
-        Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340
-        Rome, Biblioteca Apostolica Vaticana, Vat. lat. 4082
-        
-        1558 print edition -->
+      </witness>
+      <witness id="cod-car8hs">
+        <slug>cod-car8hs</slug>
+        <title>Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1122</title>
+        <initial>cod-car8hs</initial>
+      </witness>
+      <witness id="cod-x998da">
+        <slug>cod-x998da</slug>
+        <title>Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340</title>
+        <initial>cod-x998da</initial>
+        <!-- 30v-34v-->
+      </witness>
+      <witness id="cod-cn8881">
+        <slug>cod-cn8881</slug>
+        <title>Rome, Biblioteca Apostolica Vaticana, Vat. lat. 4082</title>
+        <initial>cod-cn8881</initial>
+      </witness>
+      <witness id="cod-Zvn098">
+        <slug>cod-Zvn098</slug>
+        <title>1558</title>
+        <initial>cod-Zvn098</initial>
+      </witness>
     </hasWitnesses>
     
   </header>
   <div id="body">
     <head>Tractatus de magnete</head>
     <item id="M8ag89-d1e52">
-      <fileName filestem=""/>
+      <fileName filestem="M8ag89-d1e52"/>
       <title>Prologus</title>
+      <hasWitnesses>
+        <witness ref="#cod-LEvdwA">
+          <folio>51r</folio>
+        </witness>
+        <witness ref="#cod-x998da">
+          <folio>30v</folio>
+        </witness>
+      </hasWitnesses>
     </item>
     <item id="M8ag89-d1e60">
-      <fileName filestem=""/>
+      <fileName filestem="M8ag89-d1e60"/>
       <title>Pars 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-LEvdwA">
+          <folio></folio>
+        </witness>
+        <witness ref="#cod-x998da">
+          <folio></folio>
+        </witness>
+      </hasWitnesses>
     </item>
     <item id="M8ag89-d1e68">
-      <fileName filestem=""/>
+      <fileName filestem="M8ag89-d1e68"/>
       <title>Pars 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-LEvdwA">
+          <folio></folio>
+        </witness>
+        <witness ref="#cod-x998da">
+          <folio></folio>
+        </witness>
+      </hasWitnesses>
     </item>
   </div>
 </listofFileNames>
