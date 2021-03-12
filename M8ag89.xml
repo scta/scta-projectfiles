@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Peregrinus</authorName>
+    <commentaryName>Tractatus de magnete</commentaryName><!--treatise onf magnets -->
+    <commentaryid>M8ag89</commentaryid>
+    <commentaryslug>M8ag89</commentaryslug>
+    <alias/>
+    <authorUri>http://scta.info/resource/per-PePeMa</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--Leiden https://digitalcollections.universiteitleiden.nl/view/item/935752 ff. 51r -58r
+        https://iiifviewer.universiteitleiden.nl/?manifest=https%3A//digitalcollections.universiteitleiden.nl/iiif_manifest/item%253A935650/manifest&canvasID=https%3A//digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A935752/canvas/default
+      -->
+      <!-- 
+        Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1122
+        Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340
+        Rome, Biblioteca Apostolica Vaticana, Vat. lat. 4082
+        
+        1558 print edition -->
+    </hasWitnesses>
+    
+  </header>
+  <div id="body">
+    <head>Tractatus de magnete</head>
+    <item id="M8ag89-d1e52">
+      <fileName filestem=""/>
+      <title>Prologus</title>
+    </item>
+    <item id="M8ag89-d1e60">
+      <fileName filestem=""/>
+      <title>Pars 1</title>
+    </item>
+    <item id="M8ag89-d1e68">
+      <fileName filestem=""/>
+      <title>Pars 2</title>
+    </item>
+  </div>
+</listofFileNames>
