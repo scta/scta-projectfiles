@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Fulgentius</authorName>
+    <commentaryName>De fide ad Petrum</commentaryName>
+    <commentaryid>AuGch8</commentaryid>
+    <commentaryslug>AuGch8</commentaryslug>
+    <alias>fulgentiusDeFideAdPetrum</alias>
+    <authorUri>http://scta.info/resource/per-Fulcq4</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-xci40P"> <!-- id not yet created -->
+        <slug>cod-xci40P</slug>
+        <title>PL 40</title>
+        <initial>cod-xci40P</initial>
+        <editor><!--Migne--></editor>
+        <!--<publisher>Garnier</publisher>
+        <pubPlace>Paris</pubPlace>
+        <date>1845</date> this info goes in codex file-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De fide ad Petrum</head>
+    <item id="AuGch8-dd88aa">
+      <fileName filestem="AuGch8-dd88aa"/>
+      <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci40P"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
