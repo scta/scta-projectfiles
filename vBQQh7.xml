@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Iohannes Monachus</authorName>
+    <commentaryName>Glossa aurea super Sexto</commentaryName>
+    <commentaryid>vBQQh7</commentaryid>
+    <commentaryslug>vBQQh7</commentaryslug>
+    <alias>IohannesMonachusGlossaSuperSexto</alias>
+    <authorUri>http://scta.info/resource/JohannesMonachus</authorUri>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <!-- <description> Possibly refered to as the "cardinal gloss" see gracilis q. 12 -->
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-gh333a"><!-- not yet created -->
+        <slug>cod-gh333a</slug>
+        <title>Paris 1535</title><!-- publisher Petit -->
+        <initial>cod-gh333a</initial>
+        <!--google books copy from Austrian National Library https://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ163712409 
+        Signatur/Inv-Nr. etc.
+        25.H.17 ALT PRUNK
+        Zitierlink
+        http://data.onb.ac.at/rec/AC10062153
+        -->
+        <!--https://books.google.com/books?id=G8NLAAAAcAAJ&newbks=1&newbks_redir=0&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false-->
+        <!-- also contains commentary of D. Philippus Probus Bituricus -->
+      </witness>
+      <witness id="cod-y8765x">
+        <slug>cod-y8765x</slug>
+        <title>BSB Clm 6353</title>
+        <initial>cod-y8765x</initial>
+        <!--https://daten.digitale-sammlungen.de/0011/bsb00115078/images/index.html?id=00115078&seite=5&fip=193.174.98.30&nativeno=&groesser=200%25-->
+        <!-- currently no manifest seems to be available -->
+      </witness>
+    </hasWitnesses>
+    
+  </header>
+  <div id="body">
+    <head>Liber Sextus Decretalium</head>
+    <item id="vBQQh7-d1e83" alias="vBQQh7-prooemium">
+      <fileName filestem="vBQQh7-d1e83"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      
+    </item>
+    <div id="vBQQh7-d1e93" alias="vBQQh7-l1">
+      <head>Liber 1</head>
+      <item id="vBQQh7-d1e98" alias="vBQQh7-l1t1">
+        <fileName filestem="vBQQh7-d1e98"/>
+        <title>Titulus 1</title>
+        <questionTitle>De summa trinitate et fide catholica</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e109" alias="vBQQh7-l1t2">
+        <fileName filestem="vBQQh7-d1e109"/>
+        <title>Titulus 2</title>
+        <questionTitle>De constitutionibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e120" alias="vBQQh7-l1t3">
+        <fileName filestem="vBQQh7-d1e120"/>
+        <title>Titulus 3</title>
+        <questionTitle>De rescriptis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e131" alias="vBQQh7-l1t4">
+        <fileName filestem="vBQQh7-d1e131"/>
+        <title>Titulus 4</title>
+        <questionTitle>De consuetudine</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e143" alias="vBQQh7-l1t5">
+        <fileName filestem="vBQQh7-d1e143"/>
+        <title>Titulus 5</title>
+        <questionTitle>De postulatione praelatorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e154" alias="vBQQh7-l1t6">
+        <fileName filestem="vBQQh7-d1e154"/>
+        <title>Titulus 6</title>
+        <questionTitle>De electione et electi potestate</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e165" alias="vBQQh7-l1t7">
+        <fileName filestem="vBQQh7-d1e165"/>
+        <title>Titulus 7</title>
+        <questionTitle>De renunciatione</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e176" alias="vBQQh7-l1t8">
+        <fileName filestem="vBQQh7-d1e176"/>
+        <title>Titulus 8</title>
+        <questionTitle>De supplenda negligentia praelatorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e187" alias="vBQQh7-l1t9">
+        <fileName filestem="vBQQh7-d1e187"/>
+        <title>Titulus 9</title>
+        <questionTitle>De temporibus ordinationum et qualitate ordinandorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e198" alias="vBQQh7-l1t10">
+        <fileName filestem="vBQQh7-d1e198"/>
+        <title>Titulus 10</title>
+        <questionTitle>De aetate et qualitate et ordine praeficiendorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e210" alias="vBQQh7-l1t11">
+        <fileName filestem="vBQQh7-d1e210"/>
+        <title>Titulus 11</title>
+        <questionTitle>De filiis presbyterorum et aliis illegitime natis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e221" alias="vBQQh7-l1t12">
+        <fileName filestem="vBQQh7-d1e221"/>
+        <title>Titulus 12</title>
+        <questionTitle>De bigamis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e232" alias="vBQQh7-l1t13">
+        <fileName filestem="vBQQh7-d1e232"/>
+        <title>Titulus 13</title>
+        <questionTitle>De officio vicarii</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e243" alias="vBQQh7-l1t14">
+        <fileName filestem="vBQQh7-d1e243"/>
+        <title>Titulus 14</title>
+        <questionTitle>De officio et potestate iudicis delegati</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e254" alias="vBQQh7-l1t15">
+        <fileName filestem="vBQQh7-d1e254"/>
+        <title>Titulus 15</title>
+        <questionTitle>De officio legati</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e265" alias="vBQQh7-l1t16">
+        <fileName filestem="vBQQh7-d1e265"/>
+        <title>Titulus 16</title>
+        <questionTitle>De officio ordinarii</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e277" alias="vBQQh7-l1t17">
+        <fileName filestem="vBQQh7-d1e277"/>
+        <title>Titulus 17</title>
+        <questionTitle>De maioritate et obedientia</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e288" alias="vBQQh7-l1t18">
+        <fileName filestem="vBQQh7-d1e288"/>
+        <title>Titulus 18</title>
+        <questionTitle>De pactis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e299" alias="vBQQh7-l1t19">
+        <fileName filestem="vBQQh7-d1e299"/>
+        <title>Titulus 19</title>
+        <questionTitle>De procuratoribus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e310" alias="vBQQh7-l1t20">
+        <fileName filestem="vBQQh7-d1e310"/>
+        <title>Titulus 20</title>
+        <questionTitle>De iis, quae vi metusve causa fiunt</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e321" alias="vBQQh7-l1t21">
+        <fileName filestem="vBQQh7-d1e321"/>
+        <title>Titulus 21</title>
+        <questionTitle>De restitutione in integrum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e332" alias="vBQQh7-l1t22">
+        <fileName filestem="vBQQh7-d1e332"/>
+        <title>Titulus 22</title>
+        <questionTitle>De arbitris</questionTitle>
+        
+      </item>
+    </div>
+    <div id="vBQQh7-d1e344" alias="vBQQh7-l2">
+      <head>Liber 2</head>
+      <item id="vBQQh7-d1e349" alias="vBQQh7-l2t1">
+        <fileName filestem="vBQQh7-d1e349"/>
+        <title>Titulus 1</title>
+        <questionTitle>De iudiciis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e360" alias="vBQQh7-l2t2">
+        <fileName filestem="vBQQh7-d1e360"/>
+        <title>Titulus 2</title>
+        <questionTitle>De foro competenti</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e371" alias="vBQQh7-l2t3">
+        <fileName filestem="vBQQh7-d1e371"/>
+        <title>Titulus 3</title>
+        <questionTitle>De litis contestatione</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e382" alias="vBQQh7-l2t4">
+        <fileName filestem="vBQQh7-d1e382"/>
+        <title>Titulus 4</title>
+        <questionTitle>De iuramento calumniae</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e394" alias="vBQQh7-l2t5">
+        <fileName filestem="vBQQh7-d1e394"/>
+        <title>Titulus 5</title>
+        <questionTitle>De restitutione spoliatorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e405" alias="vBQQh7-l2t6">
+        <fileName filestem="vBQQh7-d1e405"/>
+        <title>Titulus 6</title>
+        <questionTitle>De dolo et contumacia</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e416" alias="vBQQh7-l2t7">
+        <fileName filestem="vBQQh7-d1e416"/>
+        <title>Titulus 7</title>
+        <questionTitle>De eo, qui mittitur in possessionem causa rei servandae</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e427" alias="vBQQh7-l2t8">
+        <fileName filestem="vBQQh7-d1e427"/>
+        <title>Titulus 8</title>
+        <questionTitle>Ut lite pendente nihil innovetur</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e438" alias="vBQQh7-l2t9">
+        <fileName filestem="vBQQh7-d1e438"/>
+        <title>Titulus 9</title>
+        <questionTitle>De Confessis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e449" alias="vBQQh7-l2t10">
+        <fileName filestem="vBQQh7-d1e449"/>
+        <title>Titulus 10</title>
+        <questionTitle>De testibus et attestationibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e461" alias="vBQQh7-l2t11">
+        <fileName filestem="vBQQh7-d1e461"/>
+        <title>Titulus 11</title>
+        <questionTitle>De iureiurando</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e472" alias="vBQQh7-l2t12">
+        <fileName filestem="vBQQh7-d1e472"/>
+        <title>Titulus 12</title>
+        <questionTitle>De exceptionibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e483" alias="vBQQh7-l2t13">
+        <fileName filestem="vBQQh7-d1e483"/>
+        <title>Titulus 13</title>
+        <questionTitle>De praescriptionibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e494" alias="vBQQh7-l2t14">
+        <fileName filestem="vBQQh7-d1e494"/>
+        <title>Titulus 14</title>
+        <questionTitle>De sententia et re iudicata</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e505" alias="vBQQh7-l2t15">
+        <fileName filestem="vBQQh7-d1e505"/>
+        <title>Titulus 15</title>
+        <questionTitle>De appellationibus</questionTitle>
+        
+      </item>
+    </div>
+    <div id="vBQQh7-d1e517" alias="vBQQh7-l3">
+      <head>Liber 3</head>
+      <item id="vBQQh7-d1e522" alias="vBQQh7-l3t1">
+        <fileName filestem="vBQQh7-d1e522"/>
+        <title>Titulus 1</title>
+        <questionTitle>De vita et honestate clericorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e533" alias="vBQQh7-l3t2">
+        <fileName filestem="vBQQh7-d1e533"/>
+        <title>Titulus 2</title>
+        <questionTitle>De clericis non residentibus in ecclesia vel praebenda</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e544" alias="vBQQh7-l3t3">
+        <fileName filestem="vBQQh7-d1e544"/>
+        <title>Titulus 3</title>
+        <questionTitle>De clericis non residentibus in ecclesia vel praebenda</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e555" alias="vBQQh7-l3t4">
+        <fileName filestem="vBQQh7-d1e555"/>
+        <title>Titulus 4</title>
+        <questionTitle>De praebendis et dignitatibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e567" alias="vBQQh7-l3t5">
+        <fileName filestem="vBQQh7-d1e567"/>
+        <title>Titulus 5</title>
+        <questionTitle>De clerico aegrotante vel debilitato</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e578" alias="vBQQh7-l3t6">
+        <fileName filestem="vBQQh7-d1e578"/>
+        <title>Titulus 6</title>
+        <questionTitle>De institutionibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e589" alias="vBQQh7-l3t7">
+        <fileName filestem="vBQQh7-d1e589"/>
+        <title>Titulus 7</title>
+        <questionTitle>De concessione praebendae et ecclesiae non vacantis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e600" alias="vBQQh7-l3t8">
+        <fileName filestem="vBQQh7-d1e600"/>
+        <title>Titulus 8</title>
+        <questionTitle>Ne sede vacante aliquid innovetur</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e611" alias="vBQQh7-l3t9">
+        <fileName filestem="vBQQh7-d1e611"/>
+        <title>Titulus 9</title>
+        <questionTitle>De rebus ecclesiae non alienandis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e622" alias="vBQQh7-l3t10">
+        <fileName filestem="vBQQh7-d1e622"/>
+        <title>Titulus 10</title>
+        <questionTitle>De rerum permutatione</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e634" alias="vBQQh7-l3t11">
+        <fileName filestem="vBQQh7-d1e634"/>
+        <title>Titulus 11</title>
+        <questionTitle>De testamentis et ultimis voluntatibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e645" alias="vBQQh7-l3t12">
+        <fileName filestem="vBQQh7-d1e645"/>
+        <title>Titulus 12</title>
+        <questionTitle>De sepulturis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e656" alias="vBQQh7-l3t13">
+        <fileName filestem="vBQQh7-d1e656"/>
+        <title>Titulus 13</title>
+        <questionTitle>De decimis, primitiis et oblationibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e667" alias="vBQQh7-l3t14">
+        <fileName filestem="vBQQh7-d1e667"/>
+        <title>Titulus 14</title>
+        <questionTitle>De regularibus et transeuntibus ad religionem</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e678" alias="vBQQh7-l3t15">
+        <fileName filestem="vBQQh7-d1e678"/>
+        <title>Titulus 15</title>
+        <questionTitle>De voto et voti redemptione</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e689" alias="vBQQh7-l3t16">
+        <fileName filestem="vBQQh7-d1e689"/>
+        <title>Titulus 16</title>
+        <questionTitle>De statu regularium</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e701" alias="vBQQh7-l3t17">
+        <fileName filestem="vBQQh7-d1e701"/>
+        <title>Titulus 17</title>
+        <questionTitle>De religiosis domibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e712" alias="vBQQh7-l3t18">
+        <fileName filestem="vBQQh7-d1e712"/>
+        <title>Titulus 18</title>
+        <questionTitle>De capellis monachorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e723" alias="vBQQh7-l3t19">
+        <fileName filestem="vBQQh7-d1e723"/>
+        <title>Titulus 19</title>
+        <questionTitle>De iure patronatus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e734" alias="vBQQh7-l3t20">
+        <fileName filestem="vBQQh7-d1e734"/>
+        <title>Titulus 20</title>
+        <questionTitle>De censibus, exactionibus et procurationibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e745" alias="vBQQh7-l3t21">
+        <fileName filestem="vBQQh7-d1e745"/>
+        <title>Titulus 21</title>
+        <questionTitle>De consecratione ecclesiae vel altaris</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e756" alias="vBQQh7-l3t22">
+        <fileName filestem="vBQQh7-d1e756"/>
+        <title>Titulus 22</title>
+        <questionTitle>De reliquiis et veneratione sanctorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e768" alias="vBQQh7-l3t23">
+        <fileName filestem="vBQQh7-d1e768"/>
+        <title>Titulus 23</title>
+        <questionTitle>De immunitate ecclesiarum, 
+        Coemeteriorum et aliorum locorum religiosorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e779" alias="vBQQh7-l3t24">
+        <fileName filestem="vBQQh7-d1e779"/>
+        <title>Titulus 24</title>
+        <questionTitle>De clerici vel monachi saecularibus negotiis se immisceant</questionTitle>
+        
+      </item>
+    </div>
+    <div id="vBQQh7-d1e792" alias="vBQQh7-l4">
+      <head>Liber 4</head>
+      <item id="vBQQh7-d1e797" alias="vBQQh7-l4t1">
+        <fileName filestem="vBQQh7-d1e797"/>
+        <title>Titulus 1</title>
+        <questionTitle>De sponsalibus et matrimoniis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e808" alias="vBQQh7-l4t2">
+        <fileName filestem="vBQQh7-d1e808"/>
+        <title>Titulus 2</title>
+        <questionTitle>De desponsatione impuberum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e819" alias="vBQQh7-l4t3">
+        <fileName filestem="vBQQh7-d1e819"/>
+        <title>Titulus 3</title>
+        <questionTitle>De cognatione spirituali</questionTitle>
+        
+      </item>
+    </div>
+    <div id="vBQQh7-d1e831" alias="vBQQh7-l5">
+      <head>Liber 5</head>
+      <item id="vBQQh7-d1e836" alias="vBQQh7-l5t1">
+        <fileName filestem="vBQQh7-d1e836"/>
+        <title>Titulus 1</title>
+        <questionTitle>De accusationibus, inquisitionibus et denunciationibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e847" alias="vBQQh7-l5t2">
+        <fileName filestem="vBQQh7-d1e847"/>
+        <title>Titulus 2</title>
+        <questionTitle>De Haereticis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e858" alias="vBQQh7-l5t3">
+        <fileName filestem="vBQQh7-d1e858"/>
+        <title>Titulus 3</title>
+        <questionTitle>De schismaticis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e869" alias="vBQQh7-l5t4">
+        <fileName filestem="vBQQh7-d1e869"/>
+        <title>Titulus 4</title>
+        <questionTitle>De homicidio</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e881" alias="vBQQh7-l5t5">
+        <fileName filestem="vBQQh7-d1e881"/>
+        <title>Titulus 5</title>
+        <questionTitle>De usuris</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e892" alias="vBQQh7-l5t6">
+        <fileName filestem="vBQQh7-d1e892"/>
+        <title>Titulus 6</title>
+        <questionTitle>De excessibus praelatorum et subditorum</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e903" alias="vBQQh7-l5t7">
+        <fileName filestem="vBQQh7-d1e903"/>
+        <title>Titulus 7</title>
+        <questionTitle>De privilegiis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e914" alias="vBQQh7-l5t8">
+        <fileName filestem="vBQQh7-d1e914"/>
+        <title>Titulus 8</title>
+        <questionTitle>De iniuriis et damno dato</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e925" alias="vBQQh7-l5t9">
+        <fileName filestem="vBQQh7-d1e925"/>
+        <title>Titulus 9</title>
+        <questionTitle>De poenis</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e936" alias="vBQQh7-l5t10">
+        <fileName filestem="vBQQh7-d1e936"/>
+        <title>Titulus 10</title>
+        <questionTitle>De poenitentiis et remissionibus</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e948" alias="vBQQh7-l5t11">
+        <fileName filestem="vBQQh7-d1e948"/>
+        <title>Titulus 11</title>
+        <questionTitle>De sententia excommunicationis, 
+        suspensionis et interdicti</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e959" alias="vBQQh7-l5t12">
+        <fileName filestem="vBQQh7-d1e959"/>
+        <title>Titulus 12</title>
+        <questionTitle>De verborum significatione</questionTitle>
+        
+      </item>
+      <item id="vBQQh7-d1e970" alias="vBQQh7-l5dri">
+        <fileName filestem="vBQQh7-d1e970"/>
+        <title>De regulis iuris</title>
+        <questionTitle/>
+        
+      </item>
+    </div>
+  </div>
+</listofFileNames>
