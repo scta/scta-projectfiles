@@ -3,7 +3,7 @@
 <listofFileNames>
   <header>
     <authorName/>
-    <commentaryName>Glossa ordinaria</commentaryName>
+    <commentaryName>Glossa ordinaria interlinearia</commentaryName>
     <commentaryid>glossaordinaria</commentaryid>
     <commentaryslug>go</commentaryslug>
     <authorUri/>
@@ -26,6 +26,7 @@
     </hasWitnesses>
   </header>
   <div id="body">
+    <head>Glossa ordinaria interlinearia </head>
     <div id="go-gen">
       
       <head>Genesis</head>
@@ -289,8 +290,14 @@
       <head>ad Thessalonicenses I</head>
     </div>
     <div id="go-IIth">
-      
       <head>ad Thessalonicenses II</head>
+      <item id="go-IIth3">
+        <fileName filestem="go-IIth3"></fileName>
+        <title>Capitulum 3</title>
+        <hasWitnesses>
+          <witness ref="#S"></witness>
+        </hasWitnesses>
+      </item>
     </div>
     <div id="go-Itim">
       

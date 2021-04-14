@@ -2,6 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
+    <!-- TODO DEPRECIATE and then DELETE/REPLACE THIS EDF with updated ids -->
     <authorName>William de Vaurouillon</authorName>
     <commentaryName>William de Vaurouillon Commentary</commentaryName>
     <commentaryid>vaurouilloncommentary</commentaryid>
@@ -21,7 +22,16 @@
         <title>Venice 1496</title>
         <initial>V</initial>
       </witness>
+      <!--
+        cod-bvbVBV (cdf not yet created)
+        Basel 1510 
+        https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10990854/manifest
+        "München, Bayerische Staatsbibliothek 4 P.lat. 1302"
+        https://opacplus.bsb-muenchen.de/title/BV001735842
+      -->
     </hasWitnesses>
+    
+    
     <rcsid>100384</rcsid>
   </header>
   <div id="body">
