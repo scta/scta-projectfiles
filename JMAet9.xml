@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+      <authorName>John Mair</authorName>
+      <commentaryName>Commentarius in libros Ethicorum Aristotelis</commentaryName>
+      <commentaryid>JMAet9</commentaryid>
+      <commentaryslug>JMAet9</commentaryslug>
+      <alias>MairEthicsCommentary</alias>
+      <authorUri>http://scta.info/resource/JohnMair</authorUri>
+      <parentUri>http://scta.info/resource/JMAet9</parentUri>
+      <parentWorkGroup>http://scta.info/resource/ethica</parentWorkGroup>
+      <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/JMAet9/</textfilesdir>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Jeffrey C. Witt Ueli Zahnd</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-MaEth8">
+            <slug>cod-MaEth8</slug>
+            <!-- not yet created -->
+            <title>Paris 1530</title>
+            <initial>cod-MaEth8</initial>
+         </witness>
+      </hasWitnesses>
+  </header>
+  <div id="body">
+      <head>Commentarius in libros Ethicorum Aristotelis</head>
+      <div id="JMAet9-d1e68">
+         <head>Liber 1</head>
+         <!-- NOTE; mair groups chapters in "Treatises"; so chapters could be further wrapped in Treatises" -->
+        <!-- NOTE; folio numbers after book 1 are generally off by one because starts-on numbers have not yet been added -->
+         <item id="JMAet9-d1e3EC" alias="mair-l1c1">
+            <fileName filestem="JMAet9-d1e3EC"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>1r</folio>
+                  <folio>1v</folio>
+                  <folio>2r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d1e432" alias="mair-l1c2">
+            <fileName filestem="JMAet9-d1e432"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>2v</folio>
+                  <folio>3r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d1e793" alias="mair-l1c3">
+            <fileName filestem="JMAet9-d1e793"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>3v</folio>
+                  <folio>4r</folio>
+                  <folio>4v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de1178" alias="mair-l1c4">
+            <fileName filestem="JMAet9-de1178"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>5r</folio>
+                  <folio>5v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de1510" alias="mair-l1c5">
+            <fileName filestem="JMAet9-de1510"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>6r</folio>
+                  <folio>6v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de1633" alias="mair-l1c6">
+            <fileName filestem="JMAet9-de1633"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>7r</folio>
+                  <folio>7v</folio>
+                  <folio>8r</folio>
+                  <folio>8v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de2222" alias="mair-l1c7">
+            <fileName filestem="JMAet9-de2222"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>9r</folio>
+                  <folio>9v</folio>
+                  <folio>10r</folio>
+                  <folio>10v</folio>
+                  <folio>11r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de2809" alias="mair-l1c8">
+            <fileName filestem="JMAet9-de2809"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>11v</folio>
+                  <folio>12r</folio>
+                  <folio>12v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de3269" alias="mair-l1c9">
+            <fileName filestem="JMAet9-de3269"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>13r</folio>
+                  <folio>13v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de3470" alias="mair-l1c10">
+            <fileName filestem="JMAet9-de3470"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>14r</folio>
+                  <folio>14v</folio>
+                  <folio>15r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de3861" alias="mair-l1c11">
+            <fileName filestem="JMAet9-de3861"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>15v</folio>
+                  <folio>16r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de4014" alias="mair-l1c12">
+            <fileName filestem="JMAet9-de4014"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>16r</folio>
+                  <folio>16v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de4162" alias="mair-l1c13">
+            <fileName filestem="JMAet9-de4162"/>
+            <title>Caput 13</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>17r</folio>
+                  <folio>17v</folio>
+                  <folio>18r</folio>
+                  <folio>18v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e403">
+         <head>Liber 2</head>
+         <item id="JMAet9-de4749" alias="mair-l2c1">
+            <fileName filestem="JMAet9-de4749"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>19v</folio>
+                  <folio>20r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de5077" alias="mair-l2c2">
+            <fileName filestem="JMAet9-de5077"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>20v</folio>
+                  <folio>21r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de5364" alias="mair-l2c3">
+            <fileName filestem="JMAet9-de5364"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>22r</folio>
+                  <folio>22v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de5793" alias="mair-l2c4">
+            <fileName filestem="JMAet9-de5793"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>23r</folio>
+                  <folio>23v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de6132" alias="mair-l2c5">
+            <fileName filestem="JMAet9-de6132"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>24v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de6284" alias="mair-l2c6">
+            <fileName filestem="JMAet9-de6284"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>25v</folio>
+                  <folio>26r</folio>
+                  <folio>26v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de6871" alias="mair-l2c7">
+            <fileName filestem="JMAet9-de6871"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>27v</folio>
+                  <folio>28r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de7117" alias="mair-l2c8">
+            <fileName filestem="JMAet9-de7117"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>28v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de7310" alias="mair-l2c9">
+            <fileName filestem="JMAet9-de7310"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>29v</folio>
+                  <folio>30r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e632">
+         <head>Liber 3</head>
+         <item id="JMAet9-de7415" alias="mair-l3c1">
+            <fileName filestem="JMAet9-de7415"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>31r</folio>
+                  <folio>31v</folio>
+                  <folio>32r</folio>
+                  <folio>33r</folio>
+                  <folio>33v</folio>
+                  <folio>34r</folio>
+                  <folio>34v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-de9082" alias="mair-l3c2">
+            <fileName filestem="JMAet9-de9082"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>35v</folio>
+                  <folio>36r</folio>
+                  <folio>36v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="JMAet9-de9607" alias="mair-l3c3">
+            <fileName filestem="JMAet9-de9607"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>37r</folio>
+                  <folio>37v</folio>
+                  <folio>38v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d10335" alias="mair-l3c4">
+            <fileName filestem="JMAet9-d10335"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>39v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="JMAet9-d10574" alias="mair-l3c5">
+            <fileName filestem="JMAet9-d10574"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>40v</folio>
+                  <folio>41r</folio>
+                  <folio>41v</folio>
+                  <folio>42v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d11390" alias="mair-l3c6">
+            <fileName filestem="JMAet9-d11390"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>43v</folio>
+                  <folio>44r</folio>
+                  <folio>44v</folio>
+                  <folio>45r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d11991" alias="mair-l3c7">
+            <fileName filestem="JMAet9-d11991"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>45v</folio>
+                  <folio>46r</folio>
+                  <folio>46v</folio>
+                  <folio>47r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d12815" alias="mair-l3c8">
+            <fileName filestem="JMAet9-d12815"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>48r</folio>
+                  <folio>48v</folio>
+                  <folio>49r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d13382" alias="mair-l3c9">
+            <fileName filestem="JMAet9-d13382"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>49v</folio>
+                  <folio>50r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d13711" alias="mair-l3c10">
+            <fileName filestem="JMAet9-d13711"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>51r</folio>
+                  <folio>52r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d14344" alias="mair-l3c11">
+            <fileName filestem="JMAet9-d14344"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>53r</folio>
+                  <folio>53v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d14811" alias="mair-l3c12">
+            <fileName filestem="JMAet9-d14811"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>54v</folio>
+                  <folio>55r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e984">
+         <head>Liber 4</head>
+         <item id="JMAet9-d15155" alias="mair-l4c1">
+            <fileName filestem="JMAet9-d15155"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>56r</folio>
+                  <folio>56v</folio>
+                  <folio>57v</folio>
+                  <folio>58r</folio>
+                  <folio>58v</folio>
+                  <folio>59r</folio>
+                  <folio>59v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d16355" alias="mair-l4c2">
+            <fileName filestem="JMAet9-d16355"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>60v</folio>
+                  <folio>61r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d16780" alias="mair-l4c3">
+            <fileName filestem="JMAet9-d16780"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>62v</folio>
+                  <folio>63r</folio>
+                  <folio>63v</folio>
+                  <folio>64r</folio>
+                  <folio>64v</folio>
+                  <folio>65r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d17879" alias="mair-l4c4">
+            <fileName filestem="JMAet9-d17879"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8"/>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d18064" alias="mair-l4c5">
+            <fileName filestem="JMAet9-d18064"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>66v</folio>
+                  <folio>67r</folio>
+                  <folio>67v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d18542" alias="mair-l4c6">
+            <fileName filestem="JMAet9-d18542"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>68r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d18780" alias="mair-l4c7">
+            <fileName filestem="JMAet9-d18780"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>69r</folio>
+                  <folio>69v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d19243" alias="mair-l4c8">
+            <fileName filestem="JMAet9-d19243"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>70v</folio>
+                  <folio>71r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d19638" alias="mair-l4c9">
+            <fileName filestem="JMAet9-d19638"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8"/>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e1234">
+         <head>Liber 5</head>
+         <item id="JMAet9-d19805" alias="mair-l5c1">
+            <fileName filestem="JMAet9-d19805"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>72v</folio>
+                  <folio>73r</folio>
+                  <folio>73v</folio>
+                  <folio>74r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d20388" alias="mair-l5c2">
+            <fileName filestem="JMAet9-d20388"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>75r</folio>
+                  <folio>75v</folio>
+                  <folio>76r</folio>
+                  <folio>76v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d20967" alias="mair-l5c3">
+            <fileName filestem="JMAet9-d20967"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>77v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d21267" alias="mair-l5c4">
+            <fileName filestem="JMAet9-d21267"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>78v</folio>
+                  <folio>79r</folio>
+                  <folio>79v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d21726" alias="mair-l5c5">
+            <fileName filestem="JMAet9-d21726"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>81r</folio>
+                  <folio>81v</folio>
+                  <folio>82r</folio>
+                  <folio>82v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d22374" alias="mair-l5c6">
+            <fileName filestem="JMAet9-d22374"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>83r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d22551" alias="mair-l5c7">
+            <fileName filestem="JMAet9-d22551"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>84r</folio>
+                  <folio>84v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d22854" alias="mair-l5c8">
+            <fileName filestem="JMAet9-d22854"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>85v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d23174" alias="mair-l5c9">
+            <fileName filestem="JMAet9-d23174"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>87r</folio>
+                  <folio>87v</folio>
+                  <folio>88r</folio>
+                  <folio>88v</folio>
+                  <folio>89r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d24127" alias="mair-l5c10">
+            <fileName filestem="JMAet9-d24127"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>90r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d24397" alias="mair-l5c11">
+            <fileName filestem="JMAet9-d24397"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>91r</folio>
+                  <folio>91v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e1536">
+         <head>Liber 6</head>
+         <item id="JMAet9-d24726" alias="mair-l6c1">
+            <fileName filestem="JMAet9-d24726"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>92r</folio>
+                  <folio>92v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d24945" alias="mair-l6c2">
+            <fileName filestem="JMAet9-d24945"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>93r</folio>
+                  <folio>93v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d25261" alias="mair-l6c3">
+            <fileName filestem="JMAet9-d25261"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>94r</folio>
+                  <folio>94v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d25468" alias="mair-l6c4">
+            <fileName filestem="JMAet9-d25468"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>95r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d25626" alias="mair-l6c5">
+            <fileName filestem="JMAet9-d25626"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>96r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d25809" alias="mair-l6c6">
+            <fileName filestem="JMAet9-d25809"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>96v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d25920" alias="mair-l6c7">
+            <fileName filestem="JMAet9-d25920"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>97r</folio>
+                  <folio>97v</folio>
+                  <folio>98r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d26458" alias="mair-l6c8">
+            <fileName filestem="JMAet9-d26458"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>99r</folio>
+                  <folio>99v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+
+         <item id="JMAet9-d26886" alias="mair-l6c10">
+            <fileName filestem="JMAet9-d26886"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>101r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d27008" alias="mair-l6c11">
+            <fileName filestem="JMAet9-d27008"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8"/>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d27158" alias="mair-l6c12">
+            <fileName filestem="JMAet9-d27158"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>102v</folio>
+                  <folio>103r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d27519" alias="mair-l6c13">
+            <fileName filestem="JMAet9-d27519"/>
+            <title>Caput 13</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>104r</folio>
+                  <folio>104v</folio>
+                  <folio>105r</folio>
+                  <folio>105v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e1835">
+         <head>Liber 7</head>
+         <item id="JMAet9-d28272" alias="mair-l7c1">
+            <fileName filestem="JMAet9-d28272"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>106v</folio>
+                  <folio>107r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d28510" alias="mair-l7c2">
+            <fileName filestem="JMAet9-d28510"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>107v</folio>
+                  <folio>108r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d28843" alias="mair-l7c3">
+            <fileName filestem="JMAet9-d28843"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>109v</folio>
+                  <folio>110r</folio>
+                  <folio>110v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d29381" alias="mair-l7c4">
+            <fileName filestem="JMAet9-d29381"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>111v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d29566" alias="mair-l7c5">
+            <fileName filestem="JMAet9-d29566"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>112v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d29767" alias="mair-l7c6">
+            <fileName filestem="JMAet9-d29767"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>113v</folio>
+                  <folio>114r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d30085" alias="mair-l7c7">
+            <fileName filestem="JMAet9-d30085"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>115r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d30312" alias="mair-l7c8">
+            <fileName filestem="JMAet9-d30312"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>116r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d30616" alias="mair-l7c9">
+            <fileName filestem="JMAet9-d30616"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>117r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d30826" alias="mair-l7c10">
+            <fileName filestem="JMAet9-d30826"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>118r</folio>
+                  <folio>118v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d31238" alias="mair-l7c11">
+            <fileName filestem="JMAet9-d31238"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>119r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d31424" alias="mair-l7c12">
+            <fileName filestem="JMAet9-d31424"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>120r</folio>
+                  <folio>120v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d31819" alias="mair-l7c13">
+            <fileName filestem="JMAet9-d31819"/>
+            <title>Caput 13</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>121v</folio>
+                  <folio>122r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d32083" alias="mair-l7c14">
+            <fileName filestem="JMAet9-d32083"/>
+            <title>Caput 14</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>122v</folio>
+                  <folio>123r</folio>
+                  <folio>123v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e2181">
+         <head>Liber 8</head>
+         <item id="JMAet9-d32427" alias="mair-l8c1">
+            <fileName filestem="JMAet9-d32427"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>124r</folio>
+                  <folio>124v</folio>
+                  <folio>125r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d32805" alias="mair-l8c2">
+            <fileName filestem="JMAet9-d32805"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>125v</folio>
+                  <folio>126r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d33058" alias="mair-l8c3">
+            <fileName filestem="JMAet9-d33058"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>127r</folio>
+                  <folio>127v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d33473" alias="mair-l8c4">
+            <fileName filestem="JMAet9-d33473"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>128v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d33766" alias="mair-l8c5">
+            <fileName filestem="JMAet9-d33766"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>129v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d34061" alias="mair-l8c6">
+            <fileName filestem="JMAet9-d34061"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>130v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d34251" alias="mair-l8c7">
+            <fileName filestem="JMAet9-d34251"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>131v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d34603" alias="mair-l8c8">
+            <fileName filestem="JMAet9-d34603"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>132v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d34805" alias="mair-l8c9">
+            <fileName filestem="JMAet9-d34805"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>133v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d34998" alias="mair-l8c10">
+            <fileName filestem="JMAet9-d34998"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>134r</folio>
+                  <folio>134v</folio>
+                  <folio>135r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d35417" alias="mair-l8c11">
+            <fileName filestem="JMAet9-d35417"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>136r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d35607" alias="mair-l8c12">
+            <fileName filestem="JMAet9-d35607"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>136v</folio>
+                  <folio>137r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d35936" alias="mair-l8c13">
+            <fileName filestem="JMAet9-d35936"/>
+            <title>Caput 13</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>138r</folio>
+                  <folio>138v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d36188" alias="mair-l8c14">
+            <fileName filestem="JMAet9-d36188"/>
+            <title>Caput 14</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>139r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e2521">
+         <head>Liber 9</head>
+         <item id="JMAet9-d36340" alias="mair-l9c1">
+            <fileName filestem="JMAet9-d36340"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>140r</folio>
+                  <folio>140v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d36597" alias="mair-l9c2">
+            <fileName filestem="JMAet9-d36597"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>141v</folio>
+                  <folio>142r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d37057" alias="mair-l9c3">
+            <fileName filestem="JMAet9-d37057"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>143r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d37188" alias="mair-l9c4">
+            <fileName filestem="JMAet9-d37188"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>143v</folio>
+                  <folio>144r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d37443" alias="mair-l9c5">
+            <fileName filestem="JMAet9-d37443"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>144v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d37564" alias="mair-l9c6">
+            <fileName filestem="JMAet9-d37564"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>145v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d37761" alias="mair-l9c7">
+            <fileName filestem="JMAet9-d37761"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>146r</folio>
+                  <folio>146v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d38022" alias="mair-l9c8">
+            <fileName filestem="JMAet9-d38022"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>147v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d38292" alias="mair-l9c9">
+            <fileName filestem="JMAet9-d38292"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>148v</folio>
+                  <folio>149r</folio>
+                  <folio>149v</folio>
+                  <folio>150r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d38860" alias="mair-l9c10">
+            <fileName filestem="JMAet9-d38860"/>
+            <title>Caput 10</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>150v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d39107" alias="mair-l9c11">
+            <fileName filestem="JMAet9-d39107"/>
+            <title>Caput 11</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>151v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d39476" alias="mair-l9c12">
+            <fileName filestem="JMAet9-d39476"/>
+            <title>Caput 12</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8"/>
+            </hasWitnesses>
+         </item>
+      </div>
+      <div id="JMAet9-d1e2811">
+         <head>Liber 10</head>
+         <item id="JMAet9-d39592" alias="mair-l10c1">
+            <fileName filestem="JMAet9-d39592"/>
+            <title>Caput 1</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>153r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d39834" alias="mair-l10c2">
+            <fileName filestem="JMAet9-d39834"/>
+            <title>Caput 2</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>154r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d40026" alias="mair-l10c3">
+            <fileName filestem="JMAet9-d40026"/>
+            <title>Caput 3</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>155r</folio>
+                  <folio>155v</folio>
+                  <folio>156r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="JMAet9-d40528" alias="mair-l10c4">
+            <fileName filestem="JMAet9-d40528"/>
+            <title>Caput 4</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>157r</folio>
+                  <folio>157v</folio>
+                  <folio>158r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+         <item id="JMAet9-d40920" alias="mair-l10c5">
+            <fileName filestem="JMAet9-d40920"/>
+            <title>Caput 5</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>159r</folio>
+                  <folio>159v</folio>
+                  <folio>160r</folio>
+                  <folio>160v</folio>
+                  <folio>161r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d41700" alias="mair-l10c6">
+            <fileName filestem="JMAet9-d41700"/>
+            <title>Caput 6</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>162r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d41986" alias="mair-l10c7">
+            <fileName filestem="JMAet9-d41986"/>
+            <title>Caput 7</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>163r</folio>
+                  <folio>163v</folio>
+                  <folio>164r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d42524" alias="mair-l10c8">
+            <fileName filestem="JMAet9-d42524"/>
+            <title>Caput 8</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>165v</folio>
+                  <folio>166r</folio>
+                  <folio>166v</folio>
+                  <folio>167r</folio>
+                  <folio>167v</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+
+         <item id="JMAet9-d43443" alias="mair-l10c9">
+            <fileName filestem="JMAet9-d43443"/>
+            <title>Caput 9</title>
+            <questionTitle/>
+            <hasWitnesses>
+               <witness ref="#cod-MaEth8">
+                  <folio>168v</folio>
+                  <folio>169r</folio>
+                  <folio>170r</folio>
+               </witness>
+            </hasWitnesses>
+         </item>
+      </div>
+  </div>
+</listofFileNames>
