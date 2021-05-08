@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Aristotle</authorName>
+    <commentaryName>N. Ethica</commentaryName>
+    <commentaryid>ArNeTH</commentaryid>
+    <commentaryslug>ArNeTH</commentaryslug>
+    <authorUri>http://scta.info/resource/Aristotle</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-MaEth8">
+        <slug>cod-MaEth8</slug>
+        <title>Paris 1530</title>
+        <initial>cod-MaEth8</initial>
+        <editor><!-- Translation by Ioanne Argyropylo Bizantio [unclear; needs confirmation] --></editor>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>N. Ethica</head>
+    <item id="ArNeTH-d1e101" alias="arist-l1">
+      <fileName filestem="ArNeTH-d1e101"/>
+      <title>Liber 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>1r</folio>
+          <folio>2v</folio>
+          <folio>3v</folio>
+          <folio>6r</folio>
+          <folio>7r</folio>
+          <folio>9r</folio>
+          <folio>11v</folio>
+          <folio>14r</folio>
+          <folio>15v</folio>
+          <folio>17r</folio>
+          <folio>19r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e108" alias="arist-l2">
+      <fileName filestem="ArNeTH-d1e108"/>
+      <title>Liber 2</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>19r</folio>
+          <folio>21v</folio>
+          <folio>24r</folio>
+          <folio>25r</folio>
+          <folio>27r</folio>
+          <folio>29r</folio>
+          <folio>30v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e112" alias="arist-l3">
+      <fileName filestem="ArNeTH-d1e112"/>
+      <title>Liber 3</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>30v</folio>
+          <folio>32v</folio>
+          <folio>35r</folio>
+          <folio>38r</folio>
+          <folio>39r</folio>
+          <folio>40r</folio>
+          <folio>42r</folio>
+          <folio>43r</folio>
+          <folio>45r</folio>
+          <folio>47v</folio>
+          <folio>50v</folio>
+          <folio>51v</folio>
+          <folio>52v</folio>
+          <folio>54r</folio>
+          <folio>55v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e118" alias="arist-l4">
+      <fileName filestem="ArNeTH-d1e118"/>
+      <title>Liber 4</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>55v</folio>
+          <folio>57r</folio>
+          <folio>60r</folio>
+          <folio>61v</folio>
+          <folio>62r</folio>
+          <folio>65v</folio>
+          <folio>66r</folio>
+          <folio>68v</folio>
+          <folio>70r</folio>
+          <folio>71v</folio>
+          <folio>72r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e125" alias="arist-l5">
+      <fileName filestem="ArNeTH-d1e125"/>
+      <title>Liber 5</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>72r</folio>
+          <folio>74v</folio>
+          <folio>77r</folio>
+          <folio>78r</folio>
+          <folio>80r</folio>
+          <folio>80v</folio>
+          <folio>83v</folio>
+          <folio>85r</folio>
+          <folio>86r</folio>
+          <folio>86v</folio>
+          <folio>89v</folio>
+          <folio>89r</folio>
+          <folio>89v</folio>
+          <folio>90v</folio>
+          <folio>95v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e145" alias="arist-l6">
+      <fileName filestem="ArNeTH-d1e145"/>
+      <title>Liber 6</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>95v</folio>
+          <folio>98v</folio>
+          <folio>100r</folio>
+          <folio>101v</folio>
+          <folio>102r</folio>
+          <folio>103v</folio>
+          <folio>106r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e150" alias="arist-l7">
+      <fileName filestem="ArNeTH-d1e150"/>
+      <title>Liber 7</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>106r</folio>
+          <folio>108v</folio>
+          <folio>109r</folio>
+          <folio>111r</folio>
+          <folio>112r</folio>
+          <folio>113r</folio>
+          <folio>114v</folio>
+          <folio>114v</folio>
+          <folio>115r</folio>
+          <folio>115v</folio>
+          <folio>116v</folio>
+          <folio>117v</folio>
+          <folio>119v</folio>
+          <folio>121r</folio>
+          <folio>126v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e250" alias="arist-l8">
+      <fileName filestem="ArNeTH-d1e250"/>
+      <title>Liber 8</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>126v</folio>
+          <folio>128r</folio>
+          <folio>129r</folio>
+          <folio>130r</folio>
+          <folio>131r</folio>
+          <folio>132r</folio>
+          <folio>133r</folio>
+          <folio>135v</folio>
+          <folio>137v</folio>
+          <folio>139v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e398" alias="arist-l9">
+      <fileName filestem="ArNeTH-d1e398"/>
+      <title>Liber 9</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>139v</folio>
+          <folio>141r</folio>
+          <folio>142v</folio>
+          <folio>145r</folio>
+          <folio>147r</folio>
+          <folio>148r</folio>
+          <folio>151r</folio>
+          <folio>152r</folio>
+          <folio>152v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ArNeTH-d1e593" alias="arist-l10">
+      <fileName filestem="ArNeTH-d1e593"/>
+      <title>Liber 10</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-MaEth8">
+          <folio>152v</folio>
+          <folio>153v</folio>
+          <folio>154v</folio>
+          <folio>156v</folio>
+          <folio>158v</folio>
+          <folio>161v</folio>
+          <folio>162v</folio>
+          <folio>164v</folio>
+          <folio>165r</folio>
+          <folio>168r</folio>
+          <folio>169v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
