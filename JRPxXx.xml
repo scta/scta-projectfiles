@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>John of Ripa</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -40,67 +38,775 @@
             (Amice H 6738: I d. 2, 4, 10–17, 37–48; finit. 16. 12. 1357; 
             6761 f. 1–255: I (Amice).
         -->
-      
     </hasWitnesses>
   </header>
   <div id="body">
-    <!--<head>Commentarius in Libros Sententiarum</head>
-    <item alias="JRPxXx -l1prolq1">
-      <fileName filestem=""></fileName>
-      <title>Quaestio 1</title>
-      <hasWitnesses>
-        <witness ref="cod-XJAjaj">
-          <folio>1r</folio>
-        </witness>
-      </hasWitnesses>
-    </item>
-    <item alias="JRPxXx -l1prolq2">
-      <fileName filestem=""></fileName>
-      <title>Quaestio 2</title>
-      <questionTitle>Utrum prima intellegentia cuiuslibet intelligentiae citra se sit notitia theologica beatifica</questionTitle>
-      <hasWitnesses>
-        <witness ref="cod-XJAjaj">
-          <folio c="b">23v</folio>
-        </witness>
-      </hasWitnesses>
-    </item>
-    <item alias="JRPxXx -l1prolq3">
-      <fileName filestem=""></fileName>
-      <title>Quaestio 3</title>
-      <questionTitle>Utrum sola divina essentia possit esse 
-        <unclear>viteus</unclear> creati notitia theologica beatifica</questionTitle>
-      <hasWitnesses>
-        <witness ref="cod-XJAjaj">
-          <folio c="b">30r</folio>
-        </witness>
-      </hasWitnesses>
-    </item>
-    <item alias="JRPxXx-l1prolq4">
-      <fileName filestem=""></fileName>
-      <title>Quaestio 4</title>
-      <questionTitle>Utrum sola divina essentia sit omnium verorum relucentium 
-      in ipsa intellectui beato formalis notitia</questionTitle>
-      <hasWitnesses>
-        <witness ref="cod-XJAjaj">
-          <folio c="b">30r</folio>
-        </witness>
-      </hasWitnesses>
-    </item>
-    <item alias="JRPxXx-l1prolq5">
-      <fileName filestem=""></fileName>
-      <title>Quaestio 5</title>
-      <questionTitle>Utrum dei essentia sub quacumque ratione intrinseca menti obiecta sit de sua 
-      <unclear>invisa</unclear> <unclear>non</unclear> sufficiens notitia theologica beatifica</questionTitle>
-      <hasWitnesses>
-        <witness ref="cod-XJAjaj">
-          <folio c="b">30r</folio>
-        </witness>
-      </hasWitnesses>
-    </item>-->
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="JRPxXx-de75" type="liber1-prologus">
+      <head>Prologus</head>
+      <item id="JRPxXx-de80" alias="JRPxXx-l1prolq1">
+        <fileName filestem="JRPxXx-de80"/>
+        <title>Quaestio 1</title>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>1r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de97" alias="JRPxXx-l1prolq2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum prima intellegentia cuiuslibet intelligentiae citra se sit notitia
+          theologica beatifica</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">23v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de117" alias="JRPxXx -l1prolq3">
+        <fileName filestem=""/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum sola divina essentia possit esse <unclear>viteus</unclear> creati
+          notitia theologica beatifica</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">30r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de140" alias="JRPxXx-l1prolq4">
+        <fileName filestem=""/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum sola divina essentia sit omnium verorum relucentium in ipsa intellectui
+          beato formalis notitia</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">30r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de161" alias="JRPxXx-l1prolq5">
+        <fileName filestem=""/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum dei essentia sub quacumque ratione intrinseca menti obiecta sit de sua
+            <unclear>invisa</unclear>
+          <unclear>non</unclear> sufficiens notitia theologica beatifica</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">30r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de187" alias="JRPxXx-l1prolq5">
+        <fileName filestem=""/>
+        <title>Quaestio 6</title>
+        <!-- third part of prologue -->
+        <questionTitle>Utrum intellectui viatoris de veritatibus theologicis possit ad geneari
+          habitus proprie scientificus</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">60r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de210" type="liber1-distinctio1">
+      <head>Distinctio 1</head>
+      <item id="JRPxXx-de215" alias="JRPxXx-l1d1q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum sola trinitate incommutabili circa rationalis beatifice possit
+          frui</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">62r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de235" alias="JRPxXx-l1d1q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum respectum cuiuslibet obiecti visibilis usus et fruitio sit actus
+            <unclear>immeriati</unclear> et rationaliter differentes</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">65v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de258" alias="JRPxXx-l1d1q3">
+        <fileName filestem=""/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum solo beato incommutabili voluntas viatoris licite possit
+          frui</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">70v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de278" alias="JRPxXx-l1d1q4">
+        <fileName filestem=""/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum omnis qualitas subiectivo inexistens voluntati sit operatio eius
+          immanens</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>79v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de299" alias="JRPxXx-l1d1q5">
+        <fileName filestem=""/>
+        <title>Quaestio 5</title>
+        <!-- possibly beginning of part 2 of distinction 1 -->
+        <questionTitle>Utrum nostras creata respectu suae <unclear>libre</unclear> motionis pii frui
+          vel uti sive alterius menie sit <unclear>n?alis</unclear> obiective.</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>82v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de328" type="liber1-distinctio2">
+      <head>Distinctio 2</head>
+      <item id="JRPxXx-de333" alias="JRPxXx-l1d2q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum in latitudine entium sit aliquis simpliciter primus gradus et
+            <unclear>omniquaque</unclear> immensus</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">86v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!--
+      doesn't seem present
+      <div type="liber1-distinctio3">
+      <head>Distinctio 3</head>
+    </div>-->
+    <div id="JRPxXx-de360" type="liber1-distinctio4">
+      <head>Distinctio 4</head>
+      <item id="JRPxXx-de365" alias="JRPxXx-l1d4q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">127v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de385" type="liber1-distinctio5">
+      <head>Distinctio 5</head>
+      <item id="JRPxXx-de390" alias="JRPxXx-l1d5q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">131v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de410" type="liber1-distinctio6">
+      <head>Distinctio 6</head>
+      <item id="JRPxXx-de415" alias="JRPxXx-l1d6q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">134v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- no dist. 7 ?? -->
+    <div id="JRPxXx-de437" type="liber1-distinctio8">
+      <head>Distinctio 8</head>
+      <item id="JRPxXx-de442" alias="JRPxXx-l1d8q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">139v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de461" alias="JRPxXx-l1d8q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">143v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- unclear if d. 8 is missing -->
+    <div id="JRPxXx-de484" type="liber1-distinctio10">
+      <head>Distinctio 10</head>
+      <item id="JRPxXx-de489" alias="JRPxXx-l1d10q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">160r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- d. 11 possibly missing -->
+    <div id="JRPxXx-de511" type="liber1-distinctio12">
+      <head>Distinctio 12</head>
+      <item id="JRPxXx-de516" alias="JRPxXx-l1d12q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">165r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de536" type="liber1-distinctio13">
+      <head>Distinctio 13</head>
+      <item id="JRPxXx-de541" alias="JRPxXx-l1d13q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">166v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de561" type="liber1-distinctio14">
+      <head>Distinctio 14</head>
+      <item id="JRPxXx-de566" alias="JRPxXx-l1d14q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">168v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de586" type="liber1-distinctio15">
+      <head>Distinctio 15</head>
+      <item id="JRPxXx-de591" alias="JRPxXx-l1d15q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">171r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- d. 16 seems missing -->
+    <div id="JRPxXx-de614" type="liber1-distinctio17">
+      <head>Distinctio 17</head>
+      <item id="JRPxXx-de619" alias="JRPxXx-l1d17q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">180r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de638" alias="JRPxXx-l1d17q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum in omne actum meritorium prius naturaliter influat carias increata ac
+          creata quam ipsa voluntas</questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">180r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de658" alias="JRPxXx-l1d17q3">
+        <fileName filestem=""/>
+        <title>Quaestio 3</title>
+        <questionTitle> Utrum per solum donum caritatis creatae voluntas viatoris ad beatificum
+            <unclear>praei?ui</unclear> sit intrinsece beatificabilis </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">184r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <!-- possible part 2 of d. 17 -->
+      <item id="JRPxXx-de684" alias="JRPxXx-l1d17q4">
+        <fileName filestem=""/>
+        <title>Quaestio 4</title>
+        <questionTitle> Utrum caritas creata sit forma proprie et intensibilis </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">186r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de704" alias="JRPxXx-l1d17q5">
+        <fileName filestem=""/>
+        <title>Quaestio 5</title>
+        <questionTitle> Utrum caritas creata supernaturalis in infinitum sit absolute intelligibilis </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">194v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de724" alias="JRPxXx-l1d17q6">
+        <fileName filestem=""/>
+        <title>Quaestio 6</title>
+        <questionTitle> Utrum qualibet persona? distincta? certum incessime? sit alteri existens </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">197v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- no dist 18 -->
+    <div id="JRPxXx-de747" type="liber1-distinctio19">
+      <head>Distinctio 19</head>
+      <item id="JRPxXx-de752" alias="JRPxXx-l1d19q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum personae divinae supernaturaliter sunt aequales secundum perfectionem </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">198v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de773" type="liber1-distinctio20">
+      <head>Distinctio 20</head>
+      <item id="JRPxXx-de778" alias="JRPxXx-l1d20q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> [utrum] ?? divinarum personarum secundum potentiam et virtutuem agendum
+          simplicituer sint aequales </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">203r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de799" type="liber1-distinctio21">
+      <head>Distinctio 21</head>
+      <item id="JRPxXx-de804" alias="JRPxXx-l1d21q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum aliquod praedicatum nominale vel essentiale verificabile sit de divina
+          essentia exclusive per additionem scilicet huiusmodi dictionis tantum et solus </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">205r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de825" type="liber1-distinctio22">
+      <head>Distinctio 22</head>
+      <item id="JRPxXx-de830" alias="JRPxXx-l1d22q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum divina essentia sit proprie nominabilis ab intellectu viatoris </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="a">205v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de852" type="liber1-distinctio23">
+      <head>Distinctio 23</head>
+      <item id="JRPxXx-de857" alias="JRPxXx-l1d23q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum conceptus personae sit conceptus personae intelligentis </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">206v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de878" type="liber1-distinctio24">
+      <head>Distinctio 24</head>
+      <item id="JRPxXx-de883" alias="JRPxXx-l1d24q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum in divina essentia aliqua <unclear>matierialis</unclear> forma proprie
+          sit ponenda </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">207r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de907" type="liber1-distinctio25">
+      <head>Distinctio 25</head>
+      <item id="JRPxXx-de912" alias="JRPxXx-l1d25q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum personae divinae ex relationibus originis personaliter constituantur
+          in esse </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio c="b">208v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de933" type="liber1-distinctio26">
+      <head>Distinctio 26</head>
+      <item id="JRPxXx-de938" alias="JRPxXx-l1d26q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum rationes suppositionales personarum divinarum realiter distinctive
+          sint rationes formaliter absolute vel relative </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>211r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de959" type="liber1-distinctio27">
+      <head>Distinctio 27</head>
+      <item id="JRPxXx-de964" alias="JRPxXx-l1d27q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum in divinis proprie sit ponendum aliquod verbum suppositionale </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>212v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de984" alias="JRPxXx-l1d27q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle> utrum in verbum divinum ex communicatione divinae essentiae per modum
+          intellectum sit verbum proprie cuiuslibet creaturae </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>215r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1005" type="liber1-distinctio28">
+      <head>Distinctio 28</head>
+      <item id="JRPxXx-de1010" alias="JRPxXx-l1d28q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum? innascbilitas sit patris proprietas constitutiva et distinctiva </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>216r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1032" type="liber1-distinctio29">
+      <head>Distinctio 29</head>
+      <item id="JRPxXx-de1037" alias="JRPxXx-l1d29q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum trinitas increata sint unicum creaturae principium et penitus
+          indiussum[?] </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>217v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1058" type="liber1-distinctio30">
+      <head>Distinctio 30</head>
+      <item id="JRPxXx-de1063" alias="JRPxXx-l1d30q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum in deo respectu creaturae ex tempore aliqua relatio realis possit
+          consurgere </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>222r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1084" type="liber1-distinctio31">
+      <head>Distinctio 31</head>
+      <item id="JRPxXx-de1089" alias="JRPxXx-l1d31q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum in deo huius relationes similitudo et aequalitas sint entitates mediae
+          a proprietatibus relativis distincte </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>223v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1110" type="liber1-distinctio32">
+      <head>Distinctio 32</head>
+      <item id="JRPxXx-de1115" alias="JRPxXx-l1d32q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum patri et filio in divinis spiritus sanctus sit formalis dilectio </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>224v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1136" type="liber1-distinctio33">
+      <head>Distinctio 33</head>
+      <item id="JRPxXx-de1141" alias="JRPxXx-l1d33q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum in divinis quaelibet proprietates relativa sint formaliter divina
+          essentia </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>225v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1162" type="liber1-distinctio34">
+      <head>Distinctio 34</head>
+      <item id="JRPxXx-de1167" alias="JRPxXx-l1d34q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum quaelibet proprietas suppositionalis divina distinguatur realiter a
+          divina essentia </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>227v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1189" type="liber1-distinctio35">
+      <head>Distinctio 35</head>
+      <item id="JRPxXx-de1194" alias="JRPxXx-l1d35q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum secundum varias rationes essentiales intrinsecas divina essentia sit
+          omnium creabilium perfectior contentiva </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>229v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1215" type="liber1-distinctio36">
+      <head>Distinctio 36</head>
+      <item id="JRPxXx-de1220" alias="JRPxXx-l1d36q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum divina essentia secundum eandem omnimode rationem causalem sit
+          cuiuslibet creaturae virtualiter contentiva </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>236v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de1240" alias="JRPxXx-l1d36q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle> Utrum respectu effectuum possibilium ad extra quaelibet intellectus divini
+          scientia sit proprie practica </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>238v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1261" type="liber1-distinctio37">
+      <head>Distinctio 37</head>
+      <item id="JRPxXx-de1266" alias="JRPxXx-l1d37q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum sola divina essentia sit immensa localiter ex natura </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>239v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1287" type="liber1-distinctio38">
+      <head>Distinctio 38</head>
+      <item id="JRPxXx-de1292" alias="JRPxXx-l1d38q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum intellectus divinus sit ex natura rei potentia perceptiva </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>242v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1313" type="liber1-distinctio39">
+      <head>Distinctio 39</head>
+      <item id="JRPxXx-de1318" alias="JRPxXx-l1d39q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum divina scientia respectu cuiuslibet veri contingentis de creatura
+          generaliter sit causalis </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>248ra</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- something strange going on here -->
+    <div id="JRPxXx-de1342" type="liber1-distinctio40">
+      <head>Distinctio 40</head>
+      <item id="JRPxXx-de1347" alias="JRPxXx-l1d40q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum divina praedestinationis aeternae sit causa futurarumc reaturarum
+          initum inbi effectu exhibitum vel praevisum </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>256r<!-- ?? --></folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="JRPxXx-de1368" alias="JRPxXx-l1d40q2">
+        <fileName filestem=""/>
+        <title>Quaestio 2</title>
+        <questionTitle> utrum divina activa praedestinatio sit aeterna gratificatio creaturae
+          praedeterminatae </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>257<!--r or v? --></folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1390" type="liber1-distinctio41">
+      <head>Distinctio 41</head>
+      <item id="JRPxXx-de1395" alias="JRPxXx-l1d41q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> Utrum reprobatis aeterne sit aliquo modo causa futurum demeritum </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>258v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- 42 seems missing -->
+    <div id="JRPxXx-de1418" type="liber1-distinctio43">
+      <head>Distinctio 43</head>
+      <item id="JRPxXx-de1423" alias="JRPxXx-l1d43q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum divina potentia <unclear>?peu?</unclear> summum terminatur ad extra </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>258v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1447" type="liber1-distinctio44">
+      <head>Distinctio 44</head>
+      <item id="JRPxXx-de1452" alias="JRPxXx-l1d44q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum universum ex permixtione maiorum respectu datur decentius </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>262r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1473" type="liber1-distinctio45">
+      <head>Distinctio 45</head>
+      <item id="JRPxXx-de1478" alias="JRPxXx-l1d45q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum voluntas divina per idem formaliter velit quo estque[?] ad extra </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>262r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="JRPxXx-de1500" type="liber1-distinctio46">
+      <head>Distinctio 46</head>
+      <item id="JRPxXx-de1505" alias="JRPxXx-l1d46q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum voluntas divina per suum infruibile velle immediate efficiat quod sed
+          citra se </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>263v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <!-- dist 47 missing or perhaps earlieraround 253va -->
+    <div id="JRPxXx-de1528" type="liber1-distinctio48">
+      <head>Distinctio 48</head>
+      <item id="JRPxXx-de1533" alias="JRPxXx-l1d48q1">
+        <fileName filestem=""/>
+        <title>Quaestio 1</title>
+        <questionTitle> utrum cuiuslibet voluntatis creatae iiuste et recte agere a prima et
+          summa[?] <unclear>rectitudine</unclear> voluntatis divinae originaliter dei?a naturae </questionTitle>
+        <hasWitnesses>
+          <witness ref="cod-XJAjaj">
+            <folio>264r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
     
     <!-- ? third part of prologue 60ra-->
     <!-- Q6 utrum intellectui viatoris de veritatibus theologicis possit ad geneari habitus proprie scientificus -->
-    
+
     <!-- distion 1 62rb -->
     <!-- Question 1 62rb: Utrum sola trinitate incommutabili circa rationalis beatifice possit frui -->
     <!-- Question 2 65vb: Utrum respectum cuiuslibet obiecti visiblis usus 
@@ -111,7 +817,7 @@
     <!-- q 5 82v Utrum nostras creata respectu suae <unclear>libre</unclear> motionis pii frui vel uti sive alterius 
       menie sit n?alis obietive. -->
     <!-- dist 2 86vb -->
-      <!-- dist 2 question 1 Utrum in latitudine entium sit aliquis simpliciter primus gradus et omniquaque immensus -->
+    <!-- dist 2 question 1 Utrum in latitudine entium sit aliquis simpliciter primus gradus et omniquaque immensus -->
     <!-- disti 4 127vb -->
     <!-- dist 5 131vb -->
     <!-- dist 6 134v -->
@@ -176,16 +882,7 @@
          no d. 47?? 
         d. 48: 264ra: " utrum cuiuslibet voluntatis creatae iiuste et recte agere a prima et summa[?] rectitude voluntatis divinae originaliter dei?a naturae 
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
     -->
-    
+
   </div>
 </listofFileNames>
