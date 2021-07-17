@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Stephen Tempier</authorName>
+    <commentaryName>Articuli Parisius condemnati</commentaryName>
+    <commentaryid>z88d99</commentaryid>
+    <commentaryslug>z88d99</commentaryslug>
+    <authorUri>http://scta.info/resource/per-x84nST</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-chaPa1"> <!-- not yet created -->
+        <slug>cod-chaPa1</slug>
+        <title>Chartularium Universitatis Parisiensis, vol. 1</title>
+        <initial>cod-chaPa1</initial>
+        <!-- <editor>Denifle, H. and E. Châtelain</editor>-->
+      </witness>
+      <!-- possible witness: Ms. lat. fol. 456 der Staatsbibliothek Preussischer Kulturbesitz zu Berlin -->
+    </hasWitnesses>
+    <date>1277</date>
+  </header>
+  <div id="body">
+    <head>Articuli Parisius condemnati</head>
+    <item id="z88d99-z88d99-avn8u1">
+      <fileName filestem="z88d99-avn8u1"/>
+      <title>Epistola</title>
+      <hasWitnesses>
+        <witness ref="#cod-chaPa1">
+          <folio>543</folio>
+          <folio>544</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="z88d99-avn8u2">
+      <fileName filestem="z88d99-avn8u2"/>
+      <title>Errores</title>
+      <hasWitnesses>
+        <witness ref="#cod-chaPa1">
+          <folio>544</folio>
+          <folio>545</folio>
+          <folio>546</folio>
+          <folio>547</folio>
+          <folio>548</folio>
+          <folio>549</folio>
+          <folio>550</folio>
+          <folio>551</folio>
+          <folio>552</folio>
+          <folio>553</folio>
+          <folio>554</folio>
+          <folio>555</folio>
+          <folio>556</folio>
+          <folio>557</folio>
+          <folio>558</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
