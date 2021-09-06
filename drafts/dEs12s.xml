@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>René Descartes</authorName>
+    <commentaryName>Principia philosophiae</commentaryName>
+    <commentaryid>dEs12s</commentaryid>
+    <commentaryslug>dEs12s</commentaryslug>
+    <alias/>
+    <authorUri>http://scta.info/resource/ TODO add Descartes id</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-Y7777a">
+        <slug>cod-Y7777a</slug>
+        <title>Amsterdam 1655</title>
+        <initial>cod-Y7777a</initial>
+        <editor><!--LUDOVICUM ELZEVIRIUM--></editor>
+        <!-- 
+         https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11430130/manifest
+         another "item" of the same manifestation
+         https://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/permanent/archimedes_repository/large/desca_princ_081_la_1644/index.meta&start=331&viewMode=index&pn=34
+          -->
+      </witness>
+      <witness id="cod-G77Ge8">
+        <slug>cod-G77Ge8</slug>
+        <title/>
+        <initial>cod-G77Ge8</initial>
+        <editor><!-- --></editor>
+        <!-- german translation, manuscript 
+        possibly a different expression
+        -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Principia philosophiae</head>
+    <item id="dEs12s-d1e80">
+      <fileName filestem="dEs12s-d1e80"/>
+      <title>Pars 1</title>
+      <questionTitle>De principiis cognitionis humanae</questionTitle>
+      <!-- 76 chapters -->
+    </item>
+    <item id="dEs12s-d1e93">
+      <fileName filestem="dEs12s-d1e93"/>
+      <title>Pars 2</title>
+      <questionTitle>De principiis rerum materialium</questionTitle>
+      <!-- 64 chapters -->
+    </item>
+    <item id="dEs12s-d1e106">
+      <fileName filestem="dEs12s-d1e106"/>
+      <title>Pars 3</title>
+      <questionTitle>De mundo adspectabili</questionTitle>
+      <!-- 157 chapters, usually paragraph length -->
+    </item>
+    <item id="dEs12s-d1e119">
+      <fileName filestem="dEs12s-d1e119"/>
+      <title>Pars 4</title>
+      <questionTitle>De terra</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-G77Ge8"> </witness>
+      </hasWitnesses>
+      <!-- 207 chapters, usually of paragraph length-->
+      <!-- magnetism 133 to 183 -->
+    </item>
+  </div>
+</listofFileNames>

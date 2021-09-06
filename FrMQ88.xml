@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Francis de Meyronnes</authorName>
+    <commentaryName>Quodlibeta</commentaryName>
+    <commentaryid>FrMQ88</commentaryid>
+    <commentaryslug>FrMQ88</commentaryslug>
+    <alias>MeyronnesQuodlibeta</alias>
+    <authorUri>http://scta.info/resource/FrancisofMeyronnes</authorUri>
+    <parentWorkGroup>http://scta.info/resource/quodlibet</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-FdM888">
+        <!-- not yet created -->
+        <slug>cod-FdM888</slug>
+        <title>Venice 1519</title>
+        <initial>cod-FdM888</initial>
+        <!--
+          https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10149005/manifest
+        -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quodlibeta</head>
+    <item id="FrMQ88-d1e311" alias="quod-prooem">
+      <fileName filestem="FrMQ88-d1e311"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>237r</folio>
+          <folio>237v</folio>
+          <folio>238r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-d1e375" alias="quod-q1">
+      <fileName filestem="FrMQ88-d1e375"/>
+      <title>Quaestio 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>238r</folio>
+          <folio>238v</folio>
+          <folio>239r</folio>
+          <folio>239v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de1809" alias="quod-q2">
+      <fileName filestem="FrMQ88-de1809"/>
+      <title>Quaestio 2</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>239v</folio>
+          <folio>240r</folio>
+          <folio>240v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de2532" alias="quod-q3">
+      <fileName filestem="FrMQ88-de2532"/>
+      <title>Quaestio 3</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>240v</folio>
+          <folio>241r</folio>
+          <folio>241v</folio>
+          <folio>242r</folio>
+          <folio>242v</folio>
+          <folio>243r</folio>
+          <folio>243v</folio>
+          <folio>244r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de4886" alias="quod-q4">
+      <fileName filestem="FrMQ88-de4886"/>
+      <title>Quaestio 4</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>244r</folio>
+          <folio>244v</folio>
+          <folio>245r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de5736" alias="quod-q5">
+      <fileName filestem="FrMQ88-de5736"/>
+      <title>Quaestio 5</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>245r</folio>
+          <folio>245v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de6484" alias="quod-q6">
+      <fileName filestem="FrMQ88-de6484"/>
+      <title>Quaestio 6</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>245v</folio>
+          <folio>246r</folio>
+          <folio>246v</folio>
+          <folio>247r</folio>
+          <folio>247v</folio>
+          <folio>248r</folio>
+          <folio>248v</folio>
+          <folio>249r</folio>
+          <folio>249v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-de9254" alias="quod-q7">
+      <fileName filestem="FrMQ88-de9254"/>
+      <title>Quaestio 7</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>249v</folio>
+          <folio>250r</folio>
+          <folio>250v</folio>
+          <folio>251r</folio>
+          <folio>251v</folio>
+          <folio>252r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e11495" alias="quod-q8">
+      <fileName filestem="FrMQ88-e11495"/>
+      <title>Quaestio 8</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>252r</folio>
+          <folio>252v</folio>
+          <folio>253r</folio>
+          <folio>253v</folio>
+          <folio>254r</folio>
+          <folio>254v</folio>
+          <folio>255r</folio>
+          <folio>255v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e14121" alias="quod-q9">
+      <fileName filestem="FrMQ88-e14121"/>
+      <title>Quaestio 9</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>255v</folio>
+          <folio>256r</folio>
+          <folio>256v</folio>
+          <folio>257r</folio>
+          <folio>257v</folio>
+          <folio>258r</folio>
+          <folio>258v</folio>
+          <folio>259r</folio>
+          <folio>259v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e16982" alias="quod-q10">
+      <fileName filestem="FrMQ88-e16982"/>
+      <title>Quaestio 10</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>259v</folio>
+          <folio>260r</folio>
+          <folio>260v</folio>
+          <folio>261r</folio>
+          <folio>261v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e18567" alias="quod-q11">
+      <fileName filestem="FrMQ88-e18567"/>
+      <title>Quaestio 11</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>261v</folio>
+          <folio>262r</folio>
+          <folio>262v</folio>
+          <folio>263r</folio>
+          <folio>263v</folio>
+          <folio>264r</folio>
+          <folio>264v</folio>
+          <folio>265r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e20925" alias="quod-q12">
+      <fileName filestem="FrMQ88-e20925"/>
+      <title>Quaestio 12</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>265r</folio>
+          <folio>265v</folio>
+          <folio>266r</folio>
+          <folio>266v</folio>
+          <folio>267r</folio>
+          <folio>267v</folio>
+          <folio>268r</folio>
+          <folio>268v</folio>
+          <folio>269r</folio>
+          <folio>269v</folio>
+          <folio>270r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e24743" alias="quod-q13">
+      <fileName filestem="FrMQ88-e24743"/>
+      <title>Quaestio 13</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>270r</folio>
+          <folio>270v</folio>
+          <folio>271r</folio>
+          <folio>271v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e25822" alias="quod-q14">
+      <fileName filestem="FrMQ88-e25822"/>
+      <title>Quaestio 14</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>271v</folio>
+          <folio>272r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e26546" alias="quod-q15">
+      <fileName filestem="FrMQ88-e26546"/>
+      <title>Quaestio 15</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>272r</folio>
+          <folio>272v</folio>
+          <folio>273r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="FrMQ88-e27039" alias="quod-q16">
+      <fileName filestem="FrMQ88-e27039"/>
+      <title>Quaestio 16</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-FdM888">
+          <folio>273r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
