@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+  <header>
+    <authorName>Augustinus</authorName>
+    <commentaryName>Sermones</commentaryName>
+    <commentaryid>ASer31</commentaryid>
+    <commentaryslug>ASer31</commentaryslug>
+    <alias>augustineSermons</alias>
+    <authorUri>http://scta.info/resource/Augustine</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sermones</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-AAHz87">
+        <slug>cod-AAHz87</slug>
+        <title>BSB Clm 17059</title>
+        <initial>cod-AAHz87</initial>
+        <!-- https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00073147/manifest -->
+      </witness>
+      <witness id="cod-xci38P">
+        <slug>cod-xci38P</slug>
+        <title>PL 38</title>
+        <initial>cod-xci38P</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Sermones</head>
+    <item id="ASer31-d1e75x" alias="sermo-350">
+      <fileName filestem="ASer31-d1e75x"/>
+      <title>Sermo 350</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAHz87">
+          <folio>7r</folio>
+          <folio>7v</folio>
+          <folio>8r</folio>
+          <folio>8v</folio>
+          <folio>9r</folio>
+          <folio>9v</folio>
+        </witness>
+        <witness ref="#cod-xci38P"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
