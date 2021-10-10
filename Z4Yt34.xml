@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Melchior Cano</authorName>
     <commentaryName>De loci theologicis</commentaryName>
@@ -26,6 +27,12 @@
     <item id="Z4Yt34-d1e51" alias="Z4Yt34-proem">
       <fileName filestem="Z4Yt34-d1e51"/>
       <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#cod-se3E3d"/>
+      </hasWitnesses>
+      <hasWitnesses>
+        <witness ref="#cod-se3E3d"/>
+      </hasWitnesses>
     </item>
     <div id="Z4Yt34-d1e59" alias="Z4Yt34-l1">
       <head>Liber 1</head>
@@ -33,59 +40,98 @@
         <fileName filestem="Z4Yt34-d1e64"/>
         <title>Caput 1</title>
         <questionTitle>De totius operis partitione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e75" alias="Z4Yt34-l1c2">
         <fileName filestem="Z4Yt34-d1e75"/>
         <title>Caput 2</title>
-        <questionTitle>De duobus generibus argumentorum quibus omnis disputatio transgitur</questionTitle>
+        <questionTitle>De duobus generibus argumentorum quibus omnis disputatio
+          transgitur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e86" alias="Z4Yt34-l1c3">
         <fileName filestem="Z4Yt34-d1e86"/>
         <title>Caput 3</title>
         <questionTitle>De locorum theologicorum numero atque ordine</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e98" alias="Z4Yt34-l2">
       <head>Liber 2</head>
-      <item id="Z4Yt34-d1e103" alias="Z4Yt34-l2cproem">
+      <item id="Z4Yt34-d1e103" alias="Z4Yt34-l2proem">
         <fileName filestem="Z4Yt34-d1e103"/>
         <title>Prooemium</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e113" alias="Z4Yt34-l2c1">
         <fileName filestem="Z4Yt34-d1e113"/>
         <title>Caput 1</title>
-        <questionTitle>De sacrarum literarum solidissimo firmamento et quatuor machinis quibus illud impetitur</questionTitle>
+        <questionTitle>De sacrarum literarum solidissimo firmamento et quatuor machinis quibus illud
+          impetitur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e124" alias="Z4Yt34-l2c2">
         <fileName filestem="Z4Yt34-d1e124"/>
         <title>Caput 2</title>
-        <questionTitle>Ubi argumenta referuntur suadere volentium quod Deus fallere aliquando potest</questionTitle>
+        <questionTitle>Ubi argumenta referuntur suadere volentium quod Deus fallere aliquando
+          potest</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e135" alias="Z4Yt34-l2c3">
         <fileName filestem="Z4Yt34-d1e135"/>
         <title>Caput 3</title>
         <questionTitle>Ostendit Deum nec per se nec per alium fallere unquam posse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e147" alias="Z4Yt34-l2c4">
         <fileName filestem="Z4Yt34-d1e147"/>
         <title>Caput 4</title>
         <questionTitle>Ubi argumenta capitis secundi diluuntur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e158" alias="Z4Yt34-l2c5">
         <fileName filestem="Z4Yt34-d1e158"/>
         <title>Caput 5</title>
-        <questionTitle>Ubi quatuordecim libri e sacris biblis numerantur quos quidam vel ambigunt esse canonicos vel certo a canone reiiciunt</questionTitle>
+        <questionTitle>Ubi quatuordecim libri e sacris biblis numerantur quos quidam vel ambigunt
+          esse canonicos vel certo a canone reiiciunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e169" alias="Z4Yt34-l2c6">
         <fileName filestem="Z4Yt34-d1e169"/>
         <title>Caput 6</title>
-        <questionTitle>Continet argumenta eorum qui suadere conantur scripturam sacram non egere ecclesiae approbatione</questionTitle>
+        <questionTitle>Continet argumenta eorum qui suadere conantur scripturam sacram non egere
+          ecclesiae approbatione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e180" alias="Z4Yt34-l2c7">
         <fileName filestem="Z4Yt34-d1e180"/>
         <title>Caput 7</title>
-        <questionTitle>Docet ad cuius auctoritatem spectat de libris canonicis iudicare</questionTitle>
+        <questionTitle>Docet ad cuius auctoritatem spectat de libris canonicis
+          iudicare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
         <hasWitnesses>
           <witness ref="#cod-se3E3d"/>
         </hasWitnesses>
@@ -94,56 +140,95 @@
         <fileName filestem="Z4Yt34-d1e191"/>
         <title>Caput 8</title>
         <questionTitle>Ubi confutantur argumenta capitis sexti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e202" alias="Z4Yt34-l2c9">
         <fileName filestem="Z4Yt34-d1e202"/>
         <title>Caput 9</title>
-        <questionTitle>Ostendit illos libros de quibus erat controversia habendos esse sine dubio pro canonicis</questionTitle>
+        <questionTitle>Ostendit illos libros de quibus erat controversia habendos esse sine dubio
+          pro canonicis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e214" alias="Z4Yt34-l2c10">
         <fileName filestem="Z4Yt34-d1e214"/>
         <title>Caput 10</title>
-        <questionTitle>Continet argumentationes adversariorum contra ea quae capite superiori definita sunt</questionTitle>
+        <questionTitle>Continet argumentationes adversariorum contra ea quae capite superiori
+          definita sunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e225" alias="Z4Yt34-l2c11">
         <fileName filestem="Z4Yt34-d1e225"/>
         <title>Caput 11</title>
         <questionTitle>Ubi confutantur argumenta capite nunc proximo posita</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e236" alias="Z4Yt34-l2c12">
         <fileName filestem="Z4Yt34-d1e236"/>
         <title>Caput 12</title>
-        <questionTitle>Ubi eorum argumenta ponuntur qui suadere volunt in sacrarum intelligentia scripturarum ad fontes Hebraicum et Graecum recurrendum</questionTitle>
+        <questionTitle>Ubi eorum argumenta ponuntur qui suadere volunt in sacrarum intelligentia
+          scripturarum ad fontes Hebraicum et Graecum recurrendum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e247" alias="Z4Yt34-l2c13">
         <fileName filestem="Z4Yt34-d1e247"/>
         <title>Caput 13</title>
-        <questionTitle>In quo veteris vulgatae editionis auctoritas demonstratur et quod non est nunc ad Hebraeos Graecosve recurrendum</questionTitle>
+        <questionTitle>In quo veteris vulgatae editionis auctoritas demonstratur et quod non est
+          nunc ad Hebraeos Graecosve recurrendum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e258" alias="Z4Yt34-l2c14">
         <fileName filestem="Z4Yt34-d1e258"/>
         <title>Caput 14</title>
         <questionTitle>In quo argumenta capitis duodecimi refutantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e269" alias="Z4Yt34-l2c15">
         <fileName filestem="Z4Yt34-d1e269"/>
         <title>Caput 15</title>
         <questionTitle>De linguarum hebraicae et Graecae utilitate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e281" alias="Z4Yt34-l2c16">
         <fileName filestem="Z4Yt34-d1e281"/>
         <title>Caput 16</title>
-        <questionTitle>Ubi ponuntur argumenta eorum qui sunt opinati sacros auctores in libris canonicis non semper divino spiritu fuisse locutos</questionTitle>
+        <questionTitle>Ubi ponuntur argumenta eorum qui sunt opinati sacros auctores in libris
+          canonicis non semper divino spiritu fuisse locutos</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e292" alias="Z4Yt34-l2c17">
         <fileName filestem="Z4Yt34-d1e292"/>
         <title>Caput 17</title>
-        <questionTitle>Ubi ostenditur singulas particulas librorum canonicorum spiritu sancto assistente scriptas fuisse</questionTitle>
+        <questionTitle>Ubi ostenditur singulas particulas librorum canonicorum spiritu sancto
+          assistente scriptas fuisse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e303" alias="Z4Yt34-l2c18">
         <fileName filestem="Z4Yt34-d1e303"/>
         <title>Caput 18</title>
         <questionTitle>Ubi refelluntur argumenta capitis decimi sexti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e315" alias="Z4Yt34-l3">
@@ -151,37 +236,62 @@
       <item id="Z4Yt34-d1e320" alias="Z4Yt34-l3c1">
         <fileName filestem="Z4Yt34-d1e320"/>
         <title>Caput 1</title>
-        <questionTitle>Ubi eorum argumenta referuntur qui apostolicas traditiones impugnarunt</questionTitle>
+        <questionTitle>Ubi eorum argumenta referuntur qui apostolicas traditiones
+          impugnarunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e331" alias="Z4Yt34-l3c2">
         <fileName filestem="Z4Yt34-d1e331"/>
         <title>Caput 2</title>
-        <questionTitle>Supervacaneam videri cum Lutheranis non de hoc solum loco sed de quibusque aliis disputationem</questionTitle>
+        <questionTitle>Supervacaneam videri cum Lutheranis non de hoc solum loco sed de quibusque
+          aliis disputationem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e342" alias="Z4Yt34-l3c3">
         <fileName filestem="Z4Yt34-d1e342"/>
         <title>Caput 3</title>
-        <questionTitle>In quo quatuor fundamenta ponuntur ad traditiones Christi et Apostolorum Constituendas</questionTitle>
+        <questionTitle>In quo quatuor fundamenta ponuntur ad traditiones Christi et Apostolorum
+          Constituendas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e353" alias="Z4Yt34-l3c4">
         <fileName filestem="Z4Yt34-d1e353"/>
         <title>Caput 4</title>
-        <questionTitle>Ubi sternuntur viae ad traditiones Christi et Apostolorum investigandas</questionTitle>
+        <questionTitle>Ubi sternuntur viae ad traditiones Christi et Apostolorum
+          investigandas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e365" alias="Z4Yt34-l3c5">
         <fileName filestem="Z4Yt34-d1e365"/>
         <title>Caput 5</title>
         <questionTitle>De variis generibus traditionum apostolicarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e376" alias="Z4Yt34-l3c6">
         <fileName filestem="Z4Yt34-d1e376"/>
         <title>Caput 6</title>
         <questionTitle>De firmitate et certitudine traditionum apostolicarum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e387" alias="Z4Yt34-l3c7">
         <fileName filestem="Z4Yt34-d1e387"/>
         <title>Caput 7</title>
         <questionTitle>In quo refelluntur argumenta capitis primi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e399" alias="Z4Yt34-l4">
@@ -190,31 +300,50 @@
         <fileName filestem="Z4Yt34-d1e404"/>
         <title>Caput 1</title>
         <questionTitle>Quibus argumentis ecclesiae auctoritas impugnetur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e415" alias="Z4Yt34-l4c2">
         <fileName filestem="Z4Yt34-d1e415"/>
         <title>Caput 2</title>
         <questionTitle>Quid ecclesiae voce significetur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e426" alias="Z4Yt34-l4c3">
         <fileName filestem="Z4Yt34-d1e426"/>
         <title>Caput 3</title>
-        <questionTitle>Quinam sint fideles illi, e quibus vere et proprie ecclesia confletur</questionTitle>
+        <questionTitle>Quinam sint fideles illi, e quibus vere et proprie ecclesia
+          confletur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e437" alias="Z4Yt34-l4c4">
         <fileName filestem="Z4Yt34-d1e437"/>
         <title>Caput 4</title>
         <questionTitle>Quaenam sit ecclesiae catholicae in fidei dogmatae auctoritas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e449" alias="Z4Yt34-l4c5">
         <fileName filestem="Z4Yt34-d1e449"/>
         <title>Caput 5</title>
         <questionTitle>Adversus hanc postremam conclusionem obiectiones quaedam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e460" alias="Z4Yt34-l4c6">
         <fileName filestem="Z4Yt34-d1e460"/>
         <title>Caput 6</title>
         <questionTitle>In quo argumenta primi capitis confutantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e473" alias="Z4Yt34-l5">
@@ -222,32 +351,54 @@
       <item id="Z4Yt34-d1e478" alias="Z4Yt34-l5c1">
         <fileName filestem="Z4Yt34-d1e478"/>
         <title>Caput 1</title>
-        <questionTitle>Argumenta continet quibus haeretici utuntur ad huius loci auctoritatem labefactandam</questionTitle>
+        <questionTitle>Argumenta continet quibus haeretici utuntur ad huius loci auctoritatem
+          labefactandam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e489" alias="Z4Yt34-l5c2">
         <fileName filestem="Z4Yt34-d1e489"/>
         <title>Caput 2</title>
-        <questionTitle>Docet quidnam nomen aut synodi aut concilii hoc sane loco significet</questionTitle>
+        <questionTitle>Docet quidnam nomen aut synodi aut concilii hoc sane loco
+          significet</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e500" alias="Z4Yt34-l5c3">
         <fileName filestem="Z4Yt34-d1e500"/>
         <title>Caput 3</title>
         <questionTitle>In quo synodorum varia genera ponuntur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e511" alias="Z4Yt34-l5c4">
         <fileName filestem="Z4Yt34-d1e511"/>
         <title>Caput 4</title>
-        <questionTitle>Ubi conclusiones ponuntur quibus loci huius auctoritas continetur</questionTitle>
+        <questionTitle>Ubi conclusiones ponuntur quibus loci huius auctoritas
+          continetur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e523" alias="Z4Yt34-l5c5">
         <fileName filestem="Z4Yt34-d1e523"/>
         <title>Caput 5</title>
-        <questionTitle>Ubi nodi quidam solvuntur quibus interdum homines etiam docti illigari solent</questionTitle>
+        <questionTitle>Ubi nodi quidam solvuntur quibus interdum homines etiam docti illigari
+          solent</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e534" alias="Z4Yt34-l5c6">
         <fileName filestem="Z4Yt34-d1e534"/>
         <title>Caput 6</title>
         <questionTitle>In quo refelluntur argumenta capitis primi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e546" alias="Z4Yt34-l6">
@@ -257,42 +408,71 @@
         <fileName filestem="Z4Yt34-d1e554"/>
         <title>Caput 1</title>
         <questionTitle>Ubi ponuntur argumenta quibus huius loci auctoritas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e565" alias="Z4Yt34-l6c2">
         <fileName filestem="Z4Yt34-d1e565"/>
         <title>Caput 2</title>
-        <questionTitle>In quo redditur causa cur sedes apostolica quintum locum obtineat</questionTitle>
+        <questionTitle>In quo redditur causa cur sedes apostolica quintum locum
+          obtineat</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e576" alias="Z4Yt34-l6c3">
         <fileName filestem="Z4Yt34-d1e576"/>
         <title>Caput 3</title>
-        <questionTitle>Tria pronunciata continet quibus efficitur Petri in fide firmitatem ad successores quoque derivari</questionTitle>
+        <questionTitle>Tria pronunciata continet quibus efficitur Petri in fide firmitatem ad
+          successores quoque derivari</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e588" alias="Z4Yt34-l6c4">
         <fileName filestem="Z4Yt34-d1e588"/>
         <title>Caput 4</title>
-        <questionTitle>In quo ostenditur quod romanus episcopus ille sit qui 
-        Petro et in fidei firmitate et in componendis religionis controversiis divino iure succedat</questionTitle>
+        <questionTitle>In quo ostenditur quod romanus episcopus ille sit qui Petro et in fidei
+          firmitate et in componendis religionis controversiis divino iure succedat</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e599" alias="Z4Yt34-l6c5">
         <fileName filestem="Z4Yt34-d1e599"/>
         <title>Caput 5</title>
-        <questionTitle>Ubi conclusio eadem ostenditur sanctorum veterum testimoniis manifestis</questionTitle>
+        <questionTitle>Ubi conclusio eadem ostenditur sanctorum veterum testimoniis
+          manifestis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e610" alias="Z4Yt34-l6c6">
         <fileName filestem="Z4Yt34-d1e610"/>
         <title>Caput 6</title>
-        <questionTitle>Ubi conciliorum clarissima testimonia referuntur quibus ecclesiae romanae vis et auctoritas comprobatur</questionTitle>
+        <questionTitle>Ubi conciliorum clarissima testimonia referuntur quibus ecclesiae romanae vis
+          et auctoritas comprobatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e621" alias="Z4Yt34-l6c7">
         <fileName filestem="Z4Yt34-d1e621"/>
         <title>Caput 7</title>
-        <questionTitle>Rationibus theologiae probat romanum pontificemin fidei controversiis finiendis errare non posse</questionTitle>
+        <questionTitle>Rationibus theologiae probat romanum pontificemin fidei controversiis
+          finiendis errare non posse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e632" alias="Z4Yt34-l6c8">
         <fileName filestem="Z4Yt34-d1e632"/>
         <title>Caput 8</title>
         <questionTitle>Ubi argumenta capitis primi refutantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e644" alias="Z4Yt34-l7">
@@ -302,21 +482,33 @@
         <fileName filestem="Z4Yt34-d1e652"/>
         <title>Caput 1</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e662" alias="Z4Yt34-l7c2">
         <fileName filestem="Z4Yt34-d1e662"/>
         <title>Caput 2</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e672" alias="Z4Yt34-l7c3">
         <fileName filestem="Z4Yt34-d1e672"/>
         <title>Caput 3</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e683" alias="Z4Yt34-l7c4">
         <fileName filestem="Z4Yt34-d1e683"/>
         <title>Caput 4</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e694" alias="Z4Yt34-l8">
@@ -329,36 +521,57 @@
         <hasWitnesses>
           <witness ref="#cod-se3E3d"/>
         </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e712" alias="Z4Yt34-l8c2">
         <fileName filestem="Z4Yt34-d1e712"/>
         <title>Caput 2</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e722" alias="Z4Yt34-l8c3">
         <fileName filestem="Z4Yt34-d1e722"/>
         <title>Caput 3</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e733" alias="Z4Yt34-l8c4">
         <fileName filestem="Z4Yt34-d1e733"/>
         <title>Caput 4</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e743" alias="Z4Yt34-l8c5">
         <fileName filestem="Z4Yt34-d1e743"/>
         <title>Caput 5</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e753" alias="Z4Yt34-l8c6">
         <fileName filestem="Z4Yt34-d1e753"/>
         <title>Caput 6</title>
         <questionTitle>De auctoritate iuris pontifici prudentium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e764" alias="Z4Yt34-l8c7">
         <fileName filestem="Z4Yt34-d1e764"/>
         <title>Caput 7</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e775" alias="Z4Yt34-l9">
@@ -368,46 +581,73 @@
         <fileName filestem="Z4Yt34-d1e783"/>
         <title>Caput 1</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e793" alias="Z4Yt34-l9c2">
         <fileName filestem="Z4Yt34-d1e793"/>
         <title>Caput 2</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e803" alias="Z4Yt34-l9c3">
         <fileName filestem="Z4Yt34-d1e803"/>
         <title>Caput 3</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e814" alias="Z4Yt34-l9c4">
         <fileName filestem="Z4Yt34-d1e814"/>
         <title>Caput 4</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e824" alias="Z4Yt34-l9c5">
         <fileName filestem="Z4Yt34-d1e824"/>
         <title>Caput 5</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e834" alias="Z4Yt34-l9c6">
         <fileName filestem="Z4Yt34-d1e834"/>
         <title>Caput 6</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e844" alias="Z4Yt34-l9c7">
         <fileName filestem="Z4Yt34-d1e844"/>
         <title>Caput 7</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e854" alias="Z4Yt34-l9c8">
         <fileName filestem="Z4Yt34-d1e854"/>
         <title>Caput 8</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e864" alias="Z4Yt34-l9c9">
         <fileName filestem="Z4Yt34-d1e864"/>
         <title>Caput 9</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e875" alias="Z4Yt34-l10">
@@ -417,51 +657,73 @@
         <fileName filestem="Z4Yt34-d1e883"/>
         <title>Caput 1</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e893" alias="Z4Yt34-l10c2">
         <fileName filestem="Z4Yt34-d1e893"/>
         <title>Caput 2</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e903" alias="Z4Yt34-l10c3">
         <fileName filestem="Z4Yt34-d1e903"/>
         <title>Caput 3</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e914" alias="Z4Yt34-l10c4">
         <fileName filestem="Z4Yt34-d1e914"/>
         <title>Caput 4</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e924" alias="Z4Yt34-l10c5">
         <fileName filestem="Z4Yt34-d1e924"/>
         <title>Caput 5</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e934" alias="Z4Yt34-l10c6">
         <fileName filestem="Z4Yt34-d1e934"/>
         <title>Caput 6</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e944" alias="Z4Yt34-l10c7">
         <fileName filestem="Z4Yt34-d1e944"/>
         <title>Caput 7</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e954" alias="Z4Yt34-l10c8">
         <fileName filestem="Z4Yt34-d1e954"/>
         <title>Caput 8</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e964" alias="Z4Yt34-l10c9">
         <fileName filestem="Z4Yt34-d1e964"/>
         <title>Caput 9</title>
         <questionTitle/>
-      </item>
-      <item id="Z4Yt34-d1e975" alias="Z4Yt34-l10c10">
-        <fileName filestem="Z4Yt34-d1e975"/>
-        <title>Caput 10</title>
-        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="Z4Yt34-d1e987" alias="Z4Yt34-l11">
@@ -471,51 +733,81 @@
         <fileName filestem="Z4Yt34-d1e994"/>
         <title>Caput 1</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1004" alias="Z4Yt34-l11c2">
         <fileName filestem="Z4Yt34-d1e1004"/>
         <title>Caput 2</title>
         <questionTitle>De historiae humanae in theologiam utilitate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1015" alias="Z4Yt34-l11c3">
         <fileName filestem="Z4Yt34-d1e1015"/>
         <title>Caput 3</title>
-        <questionTitle>Argumenta continet quibus auctoritas humanae historiae impugantur</questionTitle>
+        <questionTitle>Argumenta continet quibus auctoritas humanae historiae
+          impugantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1027" alias="Z4Yt34-l11c4">
         <fileName filestem="Z4Yt34-d1e1027"/>
         <title>Caput 4</title>
-        <questionTitle>Quod auctoritas humanae historiae aliquando probabilis quandoque etiam certa est</questionTitle>
+        <questionTitle>Quod auctoritas humanae historiae aliquando probabilis quandoque etiam certa
+          est</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1038" alias="Z4Yt34-l11c5">
         <fileName filestem="Z4Yt34-d1e1038"/>
         <title>Caput 5</title>
         <questionTitle>Ubi respondetur argumentis capitis tertii</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1049" alias="Z4Yt34-l11c6">
         <fileName filestem="Z4Yt34-d1e1049"/>
         <title>Caput 6</title>
         <questionTitle>Qui sint probatae fidei auctores, qui contra non sint</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1060" alias="Z4Yt34-l11c7">
         <fileName filestem="Z4Yt34-d1e1060"/>
         <title>Caput 7</title>
         <questionTitle>In quo 15, 16, 17 et 18 argumenta refelluntur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
-      
-  </div>
+
+    </div>
     <div id="Z4Yt34-d1e1072" alias="Z4Yt34-l12">
       <head>Liber 12</head>
       <questionTitle/>
+      <!-- note numbering is screwed up in Louvain edition -->
       <item id="Z4Yt34-d1e1079" alias="Z4Yt34-l12proem">
         <fileName filestem="Z4Yt34-d1e1079"/>
         <title>Prooemium</title>
         <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1089" alias="Z4Yt34-l12c1">
         <fileName filestem="Z4Yt34-d1e1089"/>
         <title>Caput 1</title>
         <questionTitle>Quid theologia sit, quae ei obiecta res, quis finis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
         <hasWitnesses>
           <witness ref="#cod-se3E3d"/>
         </hasWitnesses>
@@ -527,63 +819,103 @@
         <hasWitnesses>
           <witness ref="#cod-se3E3d"/>
         </hasWitnesses>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1112" alias="Z4Yt34-l12c3">
         <fileName filestem="Z4Yt34-d1e1112"/>
         <title>Caput 3</title>
-        <questionTitle>Capitis superioris argumentarefellit</questionTitle>
+        <questionTitle>Capitis superioris argumentare fellit</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1123" alias="Z4Yt34-l12c4">
         <fileName filestem="Z4Yt34-d1e1123"/>
         <title>Caput 4</title>
         <questionTitle>Quae sint quaestiones seu conclusiones theologia </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1134" alias="Z4Yt34-l12c5">
         <fileName filestem="Z4Yt34-d1e1134"/>
         <title>Caput 5</title>
         <questionTitle>Quibus notis quaestiones fidei diiudicari possint</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1145" alias="Z4Yt34-l12c6">
         <fileName filestem="Z4Yt34-d1e1145"/>
         <title>Caput 6</title>
-        <questionTitle>De variis errorum gradibus primumque de haeresi et haeretica propositione</questionTitle>
+        <questionTitle>De variis errorum gradibus primumque de haeresi et haeretica
+          propositione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1156" alias="Z4Yt34-l12c7">
         <fileName filestem="Z4Yt34-d1e1156"/>
         <title>Caput 7</title>
         <questionTitle>Contra haeresis finitionem argumenta quaedam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1167" alias="Z4Yt34-l12c8">
         <fileName filestem="Z4Yt34-d1e1167"/>
         <title>Caput 8</title>
         <questionTitle>Regulae tres ad quas fidei externa iudicia dirigenda sunt</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1179" alias="Z4Yt34-l12c9">
         <fileName filestem="Z4Yt34-d1e1179"/>
         <title>Caput 9</title>
-        <questionTitle>De propositione erronea, sapiente haeresim, piarum 
-        aurium offensiva temeraria scandalosa</questionTitle>
+        <questionTitle>De propositione erronea, sapiente haeresim, piarum aurium offensiva temeraria
+          scandalosa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1190" alias="Z4Yt34-l12c10">
         <fileName filestem="Z4Yt34-d1e1190"/>
         <title>Caput 10</title>
-        <questionTitle>Quemadmodum argumenta theologiae invenienda atque e locis ducenda sint</questionTitle>
+        <questionTitle>Quemadmodum argumenta theologiae invenienda atque e locis ducenda
+          sint</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1201" alias="Z4Yt34-l12c11">
         <fileName filestem="Z4Yt34-d1e1201"/>
         <title>Caput 11</title>
-        <questionTitle>Exemplum primum ubi principium theologiae in quaestionem vertitur</questionTitle>
+        <questionTitle>Exemplum primum ubi principium theologiae in quaestionem
+          vertitur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
       <item id="Z4Yt34-d1e1212" alias="Z4Yt34-l12c12">
         <fileName filestem="Z4Yt34-d1e1212"/>
         <title>Caput 12</title>
-        <questionTitle>Exemplum secundum ubi theologiae conclusio in quaestionem vertitur</questionTitle>
+        <questionTitle>Exemplum secundum ubi theologiae conclusio in quaestionem
+          vertitur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
-      <item id="Z4Yt34-d1e1223" alias="Z4Yt34-l12c12">
+      <item id="Z4Yt34-d1e1223" alias="Z4Yt34-l12c13">
         <fileName filestem="Z4Yt34-d1e1223"/>
         <title>Caput 13</title>
-        <questionTitle>In quo ea quaestio vocatur in dubium, quae cum naturalis sit 
-        tum etiam ad fidem pertinet</questionTitle>
+        <questionTitle>In quo ea quaestio vocatur in dubium, quae cum naturalis sit tum etiam ad
+          fidem pertinet</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-se3E3d"/>
+        </hasWitnesses>
       </item>
     </div>
   </div>
