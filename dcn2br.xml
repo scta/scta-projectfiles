@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Thomas Bradwardine</authorName>
     <commentaryName>De causa dei</commentaryName>
@@ -14,26 +15,2285 @@
     <hasWitnesses>
       <witness id="cod-vzXPK8">
         <slug>cod-vzXPK8</slug>
-        <title>London, Bill, 1618</title>
+        <title>London, 1618</title>
         <initial>cod-vzXPK8</initial>
+        <editor><!--Iohannes Billium--></editor>
         <!--
+        https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11204259/manifest
+        -->
+      </witness>
+      <!-- possible other witnesses or "items" of the same manifestation 
          https://reader.digitale-sammlungen.de/resolve/display/bsb10634627.html
         https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10634627/manifest
         -->
-      </witness>
-      
     </hasWitnesses>
   </header>
   <div id="body">
     <head>De causa dei</head>
-    <div id="dcn2br-d1e47">
+    <item id="dcn2br-d1e3xx" alias="praefatio">
+      <fileName filestem="dcn2br-d1e3xx"/>
+      <title>Praefatio</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-bW1234">
+          <folio>f13</folio>
+          <folio>f14</folio>
+          <folio>f15</folio>
+          <folio>f16</folio>
+          <folio>f17</folio>
+          <folio>f18</folio>
+          <folio>f19</folio>
+          <folio>f20</folio>
+          <folio>f33</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+
+
+    <item id="dcn2br-d1e653" alias="epistola-prior">
+      <fileName filestem="dcn2br-d1e653"/>
+      <title>Epistola prior</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-bW1234">
+          <folio>f33</folio>
+          <folio>f34</folio>
+          <folio>1</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <div id="dcn2br-yh78df" alias="l1">
       <head>Liber 1</head>
+      <item id="dcn2br-d1e796" alias="l1c1">
+        <fileName filestem="dcn2br-d1e796"/>
+        <title>Caput 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>1</folio>
+            <folio>2</folio>
+            <folio>3</folio>
+            <folio>4</folio>
+            <folio>5</folio>
+            <folio>6</folio>
+            <folio>7</folio>
+            <folio>8</folio>
+            <folio>9</folio>
+            <folio>10</folio>
+            <folio>11</folio>
+            <folio>12</folio>
+            <folio>13</folio>
+            <folio>14</folio>
+            <folio>15</folio>
+            <folio>16</folio>
+            <folio>17</folio>
+            <folio>18</folio>
+            <folio>19</folio>
+            <folio>20</folio>
+            <folio>21</folio>
+            <folio>22</folio>
+            <folio>23</folio>
+            <folio>24</folio>
+            <folio>25</folio>
+            <folio>26</folio>
+            <folio>27</folio>
+            <folio>28</folio>
+            <folio>29</folio>
+            <folio>30</folio>
+            <folio>31</folio>
+            <folio>32</folio>
+            <folio>33</folio>
+            <folio>34</folio>
+            <folio>35</folio>
+            <folio>36</folio>
+            <folio>37</folio>
+            <folio>38</folio>
+            <folio>39</folio>
+            <folio>40</folio>
+            <folio>41</folio>
+            <folio>42</folio>
+            <folio>43</folio>
+            <folio>44</folio>
+            <folio>45</folio>
+            <folio>46</folio>
+            <folio>47</folio>
+            <folio>48</folio>
+            <folio>49</folio>
+            <folio>50</folio>
+            <folio>51</folio>
+            <folio>52</folio>
+            <folio>53</folio>
+            <folio>54</folio>
+            <folio>55</folio>
+            <folio>56</folio>
+            <folio>57</folio>
+            <folio>58</folio>
+            <folio>59</folio>
+            <folio>60</folio>
+            <folio>61</folio>
+            <folio>62</folio>
+            <folio>63</folio>
+            <folio>64</folio>
+            <folio>65</folio>
+            <folio>66</folio>
+            <folio>67</folio>
+            <folio>68</folio>
+            <folio>69</folio>
+            <folio>70</folio>
+            <folio>71</folio>
+            <folio>72</folio>
+            <folio>73</folio>
+            <folio>74</folio>
+            <folio>75</folio>
+            <folio>76</folio>
+            <folio>77</folio>
+            <folio>78</folio>
+            <folio>79</folio>
+            <folio>80</folio>
+            <folio>81</folio>
+            <folio>82</folio>
+            <folio>83</folio>
+            <folio>84</folio>
+            <folio>85</folio>
+            <folio>86</folio>
+            <folio>87</folio>
+            <folio>88</folio>
+            <folio>89</folio>
+            <folio>90</folio>
+            <folio>91</folio>
+            <folio>92</folio>
+            <folio>93</folio>
+            <folio>94</folio>
+            <folio>95</folio>
+            <folio>96</folio>
+            <folio>97</folio>
+            <folio>98</folio>
+            <folio>99</folio>
+            <folio>100</folio>
+            <folio>101</folio>
+            <folio>102</folio>
+            <folio>103</folio>
+            <folio>104</folio>
+            <folio>105</folio>
+            <folio>106</folio>
+            <folio>107</folio>
+            <folio>108</folio>
+            <folio>109</folio>
+            <folio>110</folio>
+            <folio>111</folio>
+            <folio>112</folio>
+            <folio>113</folio>
+            <folio>114</folio>
+            <folio>115</folio>
+            <folio>116</folio>
+            <folio>117</folio>
+            <folio>118</folio>
+            <folio>119</folio>
+            <folio>120</folio>
+            <folio>121</folio>
+            <folio>122</folio>
+            <folio>123</folio>
+            <folio>124</folio>
+            <folio>125</folio>
+            <folio>126</folio>
+            <folio>127</folio>
+            <folio>128</folio>
+            <folio>129</folio>
+            <folio>130</folio>
+            <folio>131</folio>
+            <folio>132</folio>
+            <folio>133</folio>
+            <folio>134</folio>
+            <folio>135</folio>
+            <folio>136</folio>
+            <folio>137</folio>
+            <folio>138</folio>
+            <folio>139</folio>
+            <folio>140</folio>
+            <folio>141</folio>
+            <folio>142</folio>
+            <folio>143</folio>
+            <folio>144</folio>
+            <folio>145</folio>
+            <folio>146</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e20419" alias="l1c2">
+        <fileName filestem="dcn2br-e20419"/>
+        <title>Caput 2</title>
+        <questionTitle> Quod Deus est omnium aliorum necessarius conseruator </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>146</folio>
+            <folio>147</folio>
+            <folio>148</folio>
+            <folio>149</folio>
+            <folio>150</folio>
+            <folio>151</folio>
+            <folio>152</folio>
+            <folio>153</folio>
+            <folio>154</folio>
+            <folio>155</folio>
+            <folio>156</folio>
+            <folio>157</folio>
+            <folio>158</folio>
+            <folio>159</folio>
+            <folio>160</folio>
+            <folio>161</folio>
+            <folio>162</folio>
+            <folio>163</folio>
+            <folio>164</folio>
+            <folio>165</folio>
+            <folio>166</folio>
+            <folio>167</folio>
+            <folio>168</folio>
+            <folio>169</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e23449" alias="l1c3">
+        <fileName filestem="dcn2br-e23449"/>
+        <title>Caput 3</title>
+        <questionTitle> Quod Deus est necessaria causa efficiens cuiuslibet rei factae </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>169</folio>
+            <folio>170</folio>
+            <folio>171</folio>
+            <folio>172</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e23850" alias="l1c4">
+        <fileName filestem="dcn2br-e23850"/>
+        <title>Caput 4</title>
+        <questionTitle> Quod qualibet creatura mouente, Deus necessario commouet </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>172</folio>
+            <folio>173</folio>
+            <folio>174</folio>
+            <folio>175</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e24226" alias="l1c5">
+        <fileName filestem="dcn2br-e24226"/>
+        <title>Caput 5</title>
+        <questionTitle>Quod Deus non est mutabilis ullo modo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>175</folio>
+            <folio>176</folio>
+            <folio>177</folio>
+            <folio>178</folio>
+            <folio>179</folio>
+            <folio>180</folio>
+            <folio>181</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e25006" alias="l1c6">
+        <fileName filestem="dcn2br-e25006"/>
+        <title>Caput 6</title>
+        <questionTitle>Quod Deus habet distinctam scientiam omnium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>181</folio>
+            <folio>182</folio>
+            <folio>183</folio>
+            <folio>184</folio>
+            <folio>185</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e25439" alias="l1c7">
+        <fileName filestem="dcn2br-e25439"/>
+        <title>Caput 7</title>
+        <questionTitle>Obiicit contra sextum et soluit.</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>185</folio>
+            <folio>186</folio>
+            <folio>187</folio>
+            <folio>188</folio>
+            <folio>189</folio>
+            <folio>190</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e26164" alias="l1c8">
+        <fileName filestem="dcn2br-e26164"/>
+        <title>Caput 8</title>
+        <questionTitle> Quod Deus habet volutionem et amorem communiter et specialiter ad
+          quaecunque. </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>190</folio>
+            <folio>191</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e26270" alias="l1c9">
+        <fileName filestem="dcn2br-e26270"/>
+        <title>Caput 9</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>191</folio>
+            <folio>192</folio>
+            <folio>193</folio>
+            <folio>194</folio>
+            <folio>195</folio>
+            <folio>196</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e26883" alias="l1c10">
+        <fileName filestem="dcn2br-e26883"/>
+        <title>Caput 10</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>196</folio>
+            <folio>197</folio>
+            <folio>198</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e27222" alias="l1c11">
+        <fileName filestem="dcn2br-e27222"/>
+        <title>Caput 11</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>198</folio>
+            <folio>199</folio>
+            <folio>200</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e27469" alias="l1c12">
+        <fileName filestem="dcn2br-e27469"/>
+        <title>Caput 12</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>200</folio>
+            <folio>201</folio>
+            <folio>202</folio>
+            <folio>203</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e27800" alias="l1c13">
+        <fileName filestem="dcn2br-e27800"/>
+        <title>Caput 13</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>203</folio>
+            <folio>204</folio>
+            <folio>205</folio>
+            <folio>206</folio>
+            <folio>207</folio>
+            <folio>208</folio>
+            <folio>209</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e28682" alias="l1c14">
+        <fileName filestem="dcn2br-e28682"/>
+        <title>Caput 14</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>209</folio>
+            <folio>210</folio>
+            <folio>211</folio>
+            <folio>212</folio>
+            <folio>213</folio>
+            <folio>214</folio>
+            <folio>215</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e29500" alias="l1c15">
+        <fileName filestem="dcn2br-e29500"/>
+        <title>Caput 15</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>215</folio>
+            <folio>216</folio>
+            <folio>217</folio>
+            <folio>218</folio>
+            <folio>219</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e29975" alias="l1c16">
+        <fileName filestem="dcn2br-e29975"/>
+        <title>Caput 16</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>219</folio>
+            <folio>220</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e30099" alias="l1c17">
+        <fileName filestem="dcn2br-e30099"/>
+        <title>Caput 17</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>220</folio>
+            <folio>221</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e30292" alias="l1c18">
+        <fileName filestem="dcn2br-e30292"/>
+        <title>Caput 18</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>221</folio>
+            <folio>222</folio>
+            <folio>223</folio>
+            <folio>224</folio>
+            <folio>225</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e30797" alias="l1c19">
+        <fileName filestem="dcn2br-e30797"/>
+        <title>Caput 19</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>225</folio>
+            <folio>226</folio>
+            <folio>227</folio>
+            <folio>228</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e31192" alias="l1c20">
+        <fileName filestem="dcn2br-e31192"/>
+        <title>Caput 20</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>228</folio>
+            <folio>229</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e31329" alias="l1c21">
+        <fileName filestem="dcn2br-e31329"/>
+        <title>Caput 21</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>229</folio>
+            <folio>230</folio>
+            <folio>231</folio>
+            <folio>232</folio>
+            <folio>233</folio>
+            <folio>234</folio>
+            <folio>235</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e32124" alias="l1c22">
+        <fileName filestem="dcn2br-e32124"/>
+        <title>Caput 22</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>235</folio>
+            <folio>236</folio>
+            <folio>237</folio>
+            <folio>238</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e32452" alias="l1c23">
+        <fileName filestem="dcn2br-e32452"/>
+        <title>Caput 23</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>238</folio>
+            <folio>239</folio>
+            <folio>240</folio>
+            <folio>241</folio>
+            <folio>242</folio>
+            <folio>243</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e33207" alias="l1c24">
+        <fileName filestem="dcn2br-e33207"/>
+        <title>Caput 24</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>243</folio>
+            <folio>244</folio>
+            <folio>245</folio>
+            <folio>246</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e33563" alias="l1c25">
+        <fileName filestem="dcn2br-e33563"/>
+        <title>Caput 25</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>246</folio>
+            <folio>247</folio>
+            <folio>248</folio>
+            <folio>249</folio>
+            <folio>250</folio>
+            <folio>251</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e34252" alias="l1c26">
+        <fileName filestem="dcn2br-e34252"/>
+        <title>Caput 26</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>251</folio>
+            <folio>252</folio>
+            <folio>253</folio>
+            <folio>254</folio>
+            <folio>255</folio>
+            <folio>256</folio>
+            <folio>257</folio>
+            <folio>258</folio>
+            <folio>259</folio>
+            <folio>260</folio>
+            <folio>261</folio>
+            <folio>262</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e35616" alias="l1c27">
+        <fileName filestem="dcn2br-e35616"/>
+        <title>Caput 27</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>262</folio>
+            <folio>263</folio>
+            <folio>264</folio>
+            <folio>265</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e36060" alias="l1c28">
+        <fileName filestem="dcn2br-e36060"/>
+        <title>Caput 28</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>265</folio>
+            <folio>266</folio>
+            <folio>267</folio>
+            <folio>268</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e36437" alias="l1c29">
+        <fileName filestem="dcn2br-e36437"/>
+        <title>Caput 29</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>268</folio>
+            <folio>269</folio>
+            <folio>270</folio>
+            <folio>271</folio>
+            <folio>272</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e36996" alias="l1c30">
+        <fileName filestem="dcn2br-e36996"/>
+        <title>Caput 30</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>272</folio>
+            <folio>273</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e37120" alias="l1c31">
+        <fileName filestem="dcn2br-e37120"/>
+        <title>Caput 31</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>273</folio>
+            <folio>274</folio>
+            <folio>275</folio>
+            <folio>276</folio>
+            <folio>277</folio>
+            <folio>278</folio>
+            <folio>279</folio>
+            <folio>280</folio>
+            <folio>281</folio>
+            <folio>282</folio>
+            <folio>283</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e38380" alias="l1c32">
+        <fileName filestem="dcn2br-e38380"/>
+        <title>Caput 32</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>283</folio>
+            <folio>284</folio>
+            <folio>285</folio>
+            <folio>286</folio>
+            <folio>287</folio>
+            <folio>288</folio>
+            <folio>289</folio>
+            <folio>290</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e39305" alias="l1c33">
+        <fileName filestem="dcn2br-e39305"/>
+        <title>Caput 33</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>290</folio>
+            <folio>291</folio>
+            <folio>292</folio>
+            <folio>293</folio>
+            <folio>294</folio>
+            <folio>295</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e39949" alias="l1c34">
+        <fileName filestem="dcn2br-e39949"/>
+        <title>Caput 34</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>295</folio>
+            <folio>296</folio>
+            <folio>297</folio>
+            <folio>298</folio>
+            <folio>299</folio>
+            <folio>300</folio>
+            <folio>301</folio>
+            <folio>302</folio>
+            <folio>303</folio>
+            <folio>304</folio>
+            <folio>305</folio>
+            <folio>306</folio>
+            <folio>307</folio>
+            <folio>308</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e41672" alias="l1c35">
+        <fileName filestem="dcn2br-e41672"/>
+        <title>Caput 35</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>308</folio>
+            <folio>309</folio>
+            <folio>310</folio>
+            <folio>311</folio>
+            <folio>312</folio>
+            <folio>313</folio>
+            <folio>314</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e42489" alias="l1c36">
+        <fileName filestem="dcn2br-e42489"/>
+        <title>Caput 36</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>314</folio>
+            <folio>315</folio>
+            <folio>316</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e42741" alias="l1c37">
+        <fileName filestem="dcn2br-e42741"/>
+        <title>Caput 37</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>316</folio>
+            <folio>317</folio>
+            <folio>318</folio>
+            <folio>319</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e43119" alias="l1c38">
+        <fileName filestem="dcn2br-e43119"/>
+        <title>Caput 38</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>319</folio>
+            <folio>320</folio>
+            <folio>321</folio>
+            <folio>322</folio>
+            <folio>323</folio>
+            <folio>324</folio>
+            <folio>325</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e43900" alias="l1c39">
+        <fileName filestem="dcn2br-e43900"/>
+        <title>Caput 39</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>325</folio>
+            <folio>326</folio>
+            <folio>327</folio>
+            <folio>328</folio>
+            <folio>329</folio>
+            <folio>330</folio>
+            <folio>331</folio>
+            <folio>332</folio>
+            <folio>333</folio>
+            <folio>334</folio>
+            <folio>335</folio>
+            <folio>336</folio>
+            <folio>337</folio>
+            <folio>338</folio>
+            <folio>339</folio>
+            <folio>340</folio>
+            <folio>341</folio>
+            <folio>342</folio>
+            <folio>343</folio>
+            <folio>344</folio>
+            <folio>345</folio>
+            <folio>346</folio>
+            <folio>347</folio>
+            <folio>348</folio>
+            <folio>349</folio>
+            <folio>350</folio>
+            <folio>351</folio>
+            <folio>352</folio>
+            <folio>353</folio>
+            <folio>354</folio>
+            <folio>355</folio>
+            <folio>356</folio>
+            <folio>357</folio>
+            <folio>358</folio>
+            <folio>359</folio>
+            <folio>360</folio>
+            <folio>361</folio>
+            <folio>362</folio>
+            <folio>363</folio>
+            <folio>364</folio>
+            <folio>365</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e49001" alias="l1c40">
+        <fileName filestem="dcn2br-e49001"/>
+        <title>Caput 40</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>365</folio>
+            <folio>366</folio>
+            <folio>367</folio>
+            <folio>368</folio>
+            <folio>369</folio>
+            <folio>370</folio>
+            <folio>371</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e49876" alias="l1c41">
+        <fileName filestem="dcn2br-e49876"/>
+        <title>Caput 41</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>371</folio>
+            <folio>372</folio>
+            <folio>373</folio>
+            <folio>374</folio>
+            <folio>375</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e50304" alias="l1c42">
+        <fileName filestem="dcn2br-e50304"/>
+        <title>Caput 42</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>375</folio>
+            <folio>376</folio>
+            <folio>377</folio>
+            <folio>378</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e50729" alias="l1c43">
+        <fileName filestem="dcn2br-e50729"/>
+        <title>Caput 43</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>378</folio>
+            <folio>379</folio>
+            <folio>380</folio>
+            <folio>381</folio>
+            <folio>382</folio>
+            <folio>383</folio>
+            <folio>384</folio>
+            <folio>385</folio>
+            <folio>386</folio>
+            <folio>387</folio>
+            <folio>388</folio>
+            <folio>389</folio>
+            <folio>390</folio>
+            <folio>391</folio>
+            <folio>392</folio>
+            <folio>393</folio>
+            <folio>394</folio>
+            <folio>395</folio>
+            <folio>396</folio>
+            <folio>397</folio>
+            <folio>398</folio>
+            <folio>399</folio>
+            <folio>400</folio>
+            <folio>401</folio>
+            <folio>402</folio>
+            <folio>403</folio>
+            <folio>404</folio>
+            <folio>405</folio>
+            <folio>406</folio>
+            <folio>407</folio>
+            <folio>408</folio>
+            <folio>409</folio>
+            <folio>410</folio>
+            <folio>411</folio>
+            <folio>412</folio>
+            <folio>413</folio>
+            <folio>414</folio>
+            <folio>415</folio>
+            <folio>416</folio>
+            <folio>417</folio>
+            <folio>418</folio>
+            <folio>419</folio>
+            <folio>420</folio>
+            <folio>421</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e56320" alias="l1c44">
+        <fileName filestem="dcn2br-e56320"/>
+        <title>Caput 44</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>421</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e56365" alias="l1c45">
+        <fileName filestem="dcn2br-e56365"/>
+        <title>Caput 45</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>421</folio>
+            <folio>422</folio>
+            <folio>423</folio>
+            <folio>424</folio>
+            <folio>425</folio>
+            <folio>426</folio>
+            <folio>427</folio>
+            <folio>428</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e57286" alias="l1c46">
+        <fileName filestem="dcn2br-e57286"/>
+        <title>Caput 46</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>428</folio>
+            <folio>429</folio>
+            <folio>430</folio>
+            <folio>431</folio>
+            <folio>432</folio>
+            <folio>433</folio>
+            <folio>434</folio>
+            <folio>435</folio>
+            <folio>436</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e58382" alias="l1c47">
+        <fileName filestem="dcn2br-e58382"/>
+        <title>Caput 47</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>436</folio>
+            <folio>437</folio>
+            <folio>438</folio>
+            <folio>439</folio>
+            <folio>440</folio>
+            <folio>441</folio>
+            <folio>443</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
     </div>
-    <div id="dcn2br-d1e53">
+    <div id="dcn2br-sdvg1d" alias="l2">
       <head>Liber 2</head>
+      <item id="dcn2br-e59104" alias="l2c1">
+        <fileName filestem="dcn2br-e59104"/>
+        <title>Caput 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>443</folio>
+            <folio>444</folio>
+            <folio>445</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e59271" alias="l2c2">
+        <fileName filestem="dcn2br-e59271"/>
+        <title>Caput 2</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>445</folio>
+            <folio>446</folio>
+            <folio>447</folio>
+            <folio>448</folio>
+            <folio>449</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e59863" alias="l2c3">
+        <fileName filestem="dcn2br-e59863"/>
+        <title>Caput 3</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>449</folio>
+            <folio>450</folio>
+            <folio>451</folio>
+            <folio>452</folio>
+            <folio>453</folio>
+            <folio>454</folio>
+            <folio>455</folio>
+            <folio>456</folio>
+            <folio>457</folio>
+            <folio>458</folio>
+            <folio>459</folio>
+            <folio>460</folio>
+            <folio>461</folio>
+            <folio>462</folio>
+            <folio>463</folio>
+            <folio>464</folio>
+            <folio>465</folio>
+            <folio>466</folio>
+            <folio>467</folio>
+            <folio>468</folio>
+            <folio>469</folio>
+            <folio>470</folio>
+            <folio>471</folio>
+            <folio>472</folio>
+            <folio>473</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e62893" alias="l2c4">
+        <fileName filestem="dcn2br-e62893"/>
+        <title>Caput 4</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>473</folio>
+            <folio>474</folio>
+            <folio>475</folio>
+            <folio>476</folio>
+            <folio>477</folio>
+            <folio>478</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e63589" alias="l2c5">
+        <fileName filestem="dcn2br-e63589"/>
+        <title>Caput 5</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>478</folio>
+            <folio>479</folio>
+            <folio>480</folio>
+            <folio>481</folio>
+            <folio>482</folio>
+            <folio>483</folio>
+            <folio>484</folio>
+            <folio>485</folio>
+            <folio>486</folio>
+            <folio>487</folio>
+            <folio>488</folio>
+            <folio>489</folio>
+            <folio>490</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e65155" alias="l2c6">
+        <fileName filestem="dcn2br-e65155"/>
+        <title>Caput 6</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>490</folio>
+            <folio>491</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e65279" alias="l2c7">
+        <fileName filestem="dcn2br-e65279"/>
+        <title>Caput 7</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>491</folio>
+            <folio>492</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e65415" alias="l2c8">
+        <fileName filestem="dcn2br-e65415"/>
+        <title>Caput 8</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>492</folio>
+            <folio>493</folio>
+            <folio>494</folio>
+            <folio>495</folio>
+            <folio>496</folio>
+            <folio>497</folio>
+            <folio>498</folio>
+            <folio>499</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e66271" alias="l2c9">
+        <fileName filestem="dcn2br-e66271"/>
+        <title>Caput 9</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>499</folio>
+            <folio>500</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e66432" alias="l2c10">
+        <fileName filestem="dcn2br-e66432"/>
+        <title>Caput 10</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>500</folio>
+            <folio>501</folio>
+            <folio>502</folio>
+            <folio>503</folio>
+            <folio>504</folio>
+            <folio>505</folio>
+            <folio>506</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e67210" alias="l2c11">
+        <fileName filestem="dcn2br-e67210"/>
+        <title>Caput 11</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>506</folio>
+            <folio>507</folio>
+            <folio>508</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e67474" alias="l2c12">
+        <fileName filestem="dcn2br-e67474"/>
+        <title>Caput 12</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>508</folio>
+            <folio>509</folio>
+            <folio>510</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e67756" alias="l2c13">
+        <fileName filestem="dcn2br-e67756"/>
+        <title>Caput 13</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>510</folio>
+            <folio>511</folio>
+            <folio>512</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e68003" alias="l2c14">
+        <fileName filestem="dcn2br-e68003"/>
+        <title>Caput 14</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>512</folio>
+            <folio>513</folio>
+            <folio>514</folio>
+            <folio>515</folio>
+            <folio>516</folio>
+            <folio>517</folio>
+            <folio>518</folio>
+            <folio>519</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e68873" alias="l2c15">
+        <fileName filestem="dcn2br-e68873"/>
+        <title>Caput 15</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>519</folio>
+            <folio>520</folio>
+            <folio>521</folio>
+            <folio>522</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e69273" alias="l2c16">
+        <fileName filestem="dcn2br-e69273"/>
+        <title>Caput 16</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>522</folio>
+            <folio>523</folio>
+            <folio>524</folio>
+            <folio>525</folio>
+            <folio>526</folio>
+            <folio>527</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e70014" alias="l2c17">
+        <fileName filestem="dcn2br-e70014"/>
+        <title>Caput 17</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>527</folio>
+            <folio>528</folio>
+            <folio>529</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e70263" alias="l2c18">
+        <fileName filestem="dcn2br-e70263"/>
+        <title>Caput 18</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>529</folio>
+            <folio>530</folio>
+            <folio>531</folio>
+            <folio>532</folio>
+            <folio>533</folio>
+            <folio>534</folio>
+            <folio>535</folio>
+            <folio>536</folio>
+            <folio>537</folio>
+            <folio>538</folio>
+            <folio>539</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e71466" alias="l2c19">
+        <fileName filestem="dcn2br-e71466"/>
+        <title>Caput 19</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>539</folio>
+            <folio>540</folio>
+            <folio>541</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e71725" alias="l2c20">
+        <fileName filestem="dcn2br-e71725"/>
+        <title>Caput 20</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>541</folio>
+            <folio>542</folio>
+            <folio>543</folio>
+            <folio>544</folio>
+            <folio>545</folio>
+            <folio>546</folio>
+            <folio>547</folio>
+            <folio>548</folio>
+            <folio>549</folio>
+            <folio>550</folio>
+            <folio>551</folio>
+            <folio>552</folio>
+            <folio>553</folio>
+            <folio>554</folio>
+            <folio>555</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e73672" alias="l2c21">
+        <fileName filestem="dcn2br-e73672"/>
+        <title>Caput 21</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>555</folio>
+            <folio>556</folio>
+            <folio>557</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e73890" alias="l2c22">
+        <fileName filestem="dcn2br-e73890"/>
+        <title>Caput 22</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>557</folio>
+            <folio>558</folio>
+            <folio>559</folio>
+            <folio>560</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e74300" alias="l2c23">
+        <fileName filestem="dcn2br-e74300"/>
+        <title>Caput 23</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>560</folio>
+            <folio>561</folio>
+            <folio>562</folio>
+            <folio>563</folio>
+            <folio>564</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e74714" alias="l2c24">
+        <fileName filestem="dcn2br-e74714"/>
+        <title>Caput 24</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>564</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e74753" alias="l2c25">
+        <fileName filestem="dcn2br-e74753"/>
+        <title>Caput 25</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>564</folio>
+            <folio>565</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e74842" alias="l2c26">
+        <fileName filestem="dcn2br-e74842"/>
+        <title>Caput 26</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>565</folio>
+            <folio>566</folio>
+            <folio>567</folio>
+            <folio>568</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e75241" alias="l2c27">
+        <fileName filestem="dcn2br-e75241"/>
+        <title>Caput 27</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>568</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e75312" alias="l2c28">
+        <fileName filestem="dcn2br-e75312"/>
+        <title>Caput 28</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>568</folio>
+            <folio>569</folio>
+            <folio>570</folio>
+            <folio>571</folio>
+            <folio>572</folio>
+            <folio>573</folio>
+            <folio>574</folio>
+            <folio>575</folio>
+            <folio>576</folio>
+            <folio>577</folio>
+            <folio>578</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e76567" alias="l2c29">
+        <fileName filestem="dcn2br-e76567"/>
+        <title>Caput 29</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>578</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e76634" alias="l2c30">
+        <fileName filestem="dcn2br-e76634"/>
+        <title>Caput 30</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>578</folio>
+            <folio>579</folio>
+            <folio>580</folio>
+            <folio>581</folio>
+            <folio>582</folio>
+            <folio>583</folio>
+            <folio>584</folio>
+            <folio>585</folio>
+            <folio>586</folio>
+            <folio>587</folio>
+            <folio>588</folio>
+            <folio>589</folio>
+            <folio>590</folio>
+            <folio>591</folio>
+            <folio>592</folio>
+            <folio>593</folio>
+            <folio>594</folio>
+            <folio>595</folio>
+            <folio>596</folio>
+            <folio>597</folio>
+            <folio>598</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e79190" alias="l2c31">
+        <fileName filestem="dcn2br-e79190"/>
+        <title>Caput 31</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>598</folio>
+            <folio>599</folio>
+            <folio>600</folio>
+            <folio>601</folio>
+            <folio>602</folio>
+            <folio>603</folio>
+            <folio>604</folio>
+            <folio>605</folio>
+            <folio>606</folio>
+            <folio>607</folio>
+            <folio>608</folio>
+            <folio>609</folio>
+            <folio>610</folio>
+            <folio>611</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e80829" alias="l2c32">
+        <fileName filestem="dcn2br-e80829"/>
+        <title>Caput 32</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>611</folio>
+            <folio>612</folio>
+            <folio>613</folio>
+            <folio>614</folio>
+            <folio>615</folio>
+            <folio>616</folio>
+            <folio>617</folio>
+            <folio>618</folio>
+            <folio>619</folio>
+            <folio>620</folio>
+            <folio>621</folio>
+            <folio>622</folio>
+            <folio>623</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e82442" alias="l2c33">
+        <fileName filestem="dcn2br-e82442"/>
+        <title>Caput 33</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>623</folio>
+            <folio>624</folio>
+            <folio>625</folio>
+            <folio>626</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e82885" alias="l2c34">
+        <fileName filestem="dcn2br-e82885"/>
+        <title>Caput 34</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>626</folio>
+            <folio>627</folio>
+            <folio>628</folio>
+            <folio>629</folio>
+            <folio>630</folio>
+            <folio>631</folio>
+            <folio>632</folio>
+            <folio>633</folio>
+            <folio>634</folio>
+            <folio>635</folio>
+            <folio>636</folio>
+            <folio>637</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
     </div>
-    <div id="dcn2br-d1e59">
+    <div id="dcn2br-qwe833" alias="l3">
       <head>Liber 3</head>
+      <item id="dcn2br-e84297" alias="l3c1">
+        <fileName filestem="dcn2br-e84297"/>
+        <title>Caput 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>637</folio>
+            <folio>638</folio>
+            <folio>639</folio>
+            <folio>640</folio>
+            <folio>641</folio>
+            <folio>642</folio>
+            <folio>643</folio>
+            <folio>644</folio>
+            <folio>645</folio>
+            <folio>646</folio>
+            <folio>647</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e85488" alias="l3c2">
+        <fileName filestem="dcn2br-e85488"/>
+        <title>Caput 2</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>647</folio>
+            <folio>648</folio>
+            <folio>649</folio>
+            <folio>650</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e85920" alias="l3c3">
+        <fileName filestem="dcn2br-e85920"/>
+        <title>Caput 3</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>650</folio>
+            <folio>651</folio>
+            <folio>652</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e86185" alias="l3c4">
+        <fileName filestem="dcn2br-e86185"/>
+        <title>Caput 4</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>652</folio>
+            <folio>653</folio>
+            <folio>654</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e86449" alias="l3c5">
+        <fileName filestem="dcn2br-e86449"/>
+        <title>Caput 5</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>654</folio>
+            <folio>655</folio>
+            <folio>656</folio>
+            <folio>657</folio>
+            <folio>658</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e86995" alias="l3c6">
+        <fileName filestem="dcn2br-e86995"/>
+        <title>Caput 6</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>658</folio>
+            <folio>659</folio>
+            <folio>660</folio>
+            <folio>661</folio>
+            <folio>662</folio>
+            <folio>663</folio>
+            <folio>664</folio>
+            <folio>665</folio>
+            <folio>666</folio>
+            <folio>667</folio>
+            <folio>668</folio>
+            <folio>669</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e88362" alias="l3c7">
+        <fileName filestem="dcn2br-e88362"/>
+        <title>Caput 7</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>669</folio>
+            <folio>670</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e88464" alias="l3c8">
+        <fileName filestem="dcn2br-e88464"/>
+        <title>Caput 8</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>670</folio>
+            <folio>671</folio>
+            <folio>672</folio>
+            <folio>673</folio>
+            <folio>674</folio>
+            <folio>675</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e89195" alias="l3c9">
+        <fileName filestem="dcn2br-e89195"/>
+        <title>Caput 9</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>675</folio>
+            <folio>676</folio>
+            <folio>677</folio>
+            <folio>678</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e89579" alias="l3c10">
+        <fileName filestem="dcn2br-e89579"/>
+        <title>Caput 10</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>678</folio>
+            <folio>679</folio>
+            <folio>680</folio>
+            <folio>681</folio>
+            <folio>682</folio>
+            <folio>683</folio>
+            <folio>684</folio>
+            <folio>685</folio>
+            <folio>686</folio>
+            <folio>687</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e90689" alias="l3c11">
+        <fileName filestem="dcn2br-e90689"/>
+        <title>Caput 11</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>687</folio>
+            <folio>688</folio>
+            <folio>689</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e90974" alias="l3c12">
+        <fileName filestem="dcn2br-e90974"/>
+        <title>Caput 12</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>689</folio>
+            <folio>690</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91052" alias="l3c13">
+        <fileName filestem="dcn2br-e91052"/>
+        <title>Caput 13</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>690</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91091" alias="l3c14">
+        <fileName filestem="dcn2br-e91091"/>
+        <title>Caput 14</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>690</folio>
+            <folio>691</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91236" alias="l3c15">
+        <fileName filestem="dcn2br-e91236"/>
+        <title>Caput 15</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>691</folio>
+            <folio>692</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91353" alias="l3c16">
+        <fileName filestem="dcn2br-e91353"/>
+        <title>Caput 16</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>692</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91405" alias="l3c17">
+        <fileName filestem="dcn2br-e91405"/>
+        <title>Caput 17</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>692</folio>
+            <folio>693</folio>
+            <folio>694</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91587" alias="l3c18">
+        <fileName filestem="dcn2br-e91587"/>
+        <title>Caput 18</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>694</folio>
+            <folio>695</folio>
+            <folio>696</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91813" alias="l3c19">
+        <fileName filestem="dcn2br-e91813"/>
+        <title>Caput 19</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>696</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91908" alias="l3c20">
+        <fileName filestem="dcn2br-e91908"/>
+        <title>Caput 20</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>696</folio>
+            <folio>697</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91956" alias="l3c21">
+        <fileName filestem="dcn2br-e91956"/>
+        <title>Caput 21</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>697</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e91995" alias="l3c22">
+        <fileName filestem="dcn2br-e91995"/>
+        <title>Caput 22</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>697</folio>
+            <folio>698</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e92081" alias="l3c23">
+        <fileName filestem="dcn2br-e92081"/>
+        <title>Caput 23</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>698</folio>
+            <folio>699</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e92210" alias="l3c24">
+        <fileName filestem="dcn2br-e92210"/>
+        <title>Caput 24</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>699</folio>
+            <folio>700</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e92330" alias="l3c25">
+        <fileName filestem="dcn2br-e92330"/>
+        <title>Caput 25</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>700</folio>
+            <folio>701</folio>
+            <folio>702</folio>
+            <folio>703</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e92746" alias="l3c26">
+        <fileName filestem="dcn2br-e92746"/>
+        <title>Caput 26</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>703</folio>
+            <folio>704</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e92907" alias="l3c27">
+        <fileName filestem="dcn2br-e92907"/>
+        <title>Caput 27</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>704</folio>
+            <folio>705</folio>
+            <folio>706</folio>
+            <folio>707</folio>
+            <folio>708</folio>
+            <folio>709</folio>
+            <folio>710</folio>
+            <folio>711</folio>
+            <folio>712</folio>
+            <folio>713</folio>
+            <folio>714</folio>
+            <folio>715</folio>
+            <folio>716</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e94408" alias="l3c28">
+        <fileName filestem="dcn2br-e94408"/>
+        <title>Caput 28</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>716</folio>
+            <folio>717</folio>
+            <folio>718</folio>
+            <folio>719</folio>
+            <folio>720</folio>
+            <folio>721</folio>
+            <folio>722</folio>
+            <folio>723</folio>
+            <folio>724</folio>
+            <folio>725</folio>
+            <folio>726</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e95674" alias="l3c29">
+        <fileName filestem="dcn2br-e95674"/>
+        <title>Caput 29</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>726</folio>
+            <folio>727</folio>
+            <folio>728</folio>
+            <folio>729</folio>
+            <folio>730</folio>
+            <folio>731</folio>
+            <folio>732</folio>
+            <folio>733</folio>
+            <folio>734</folio>
+            <folio>735</folio>
+            <folio>736</folio>
+            <folio>737</folio>
+            <folio>738</folio>
+            <folio>739</folio>
+            <folio>740</folio>
+            <folio>741</folio>
+            <folio>742</folio>
+            <folio>743</folio>
+            <folio>744</folio>
+            <folio>745</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e98222" alias="l3c30">
+        <fileName filestem="dcn2br-e98222"/>
+        <title>Caput 30</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>745</folio>
+            <folio>746</folio>
+            <folio>747</folio>
+            <folio>748</folio>
+            <folio>749</folio>
+            <folio>750</folio>
+            <folio>751</folio>
+            <folio>752</folio>
+            <folio>753</folio>
+            <folio>754</folio>
+            <folio>755</folio>
+            <folio>756</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e99628" alias="l3c31">
+        <fileName filestem="dcn2br-e99628"/>
+        <title>Caput 31</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>756</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e99714" alias="l3c32">
+        <fileName filestem="dcn2br-e99714"/>
+        <title>Caput 32</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>756</folio>
+            <folio>757</folio>
+            <folio>758</folio>
+            <folio>759</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e00061" alias="l3c33">
+        <fileName filestem="dcn2br-e00061"/>
+        <title>Caput 33</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>759</folio>
+            <folio>760</folio>
+            <folio>761</folio>
+            <folio>762</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e00410" alias="l3c34">
+        <fileName filestem="dcn2br-e00410"/>
+        <title>Caput 34</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>762</folio>
+            <folio>763</folio>
+            <folio>764</folio>
+            <folio>765</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e00887" alias="l3c35">
+        <fileName filestem="dcn2br-e00887"/>
+        <title>Caput 35</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>765</folio>
+            <folio>766</folio>
+            <folio>767</folio>
+            <folio>768</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e01190" alias="l3c36">
+        <fileName filestem="dcn2br-e01190"/>
+        <title>Caput 36</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>768</folio>
+            <folio>769</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e01336" alias="l3c37">
+        <fileName filestem="dcn2br-e01336"/>
+        <title>Caput 37</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>769</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e01399" alias="l3c38">
+        <fileName filestem="dcn2br-e01399"/>
+        <title>Caput 38</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>769</folio>
+            <folio>770</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e01440" alias="l3c39">
+        <fileName filestem="dcn2br-e01440"/>
+        <title>Caput 39</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>770</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e01505" alias="l3c40">
+        <fileName filestem="dcn2br-e01505"/>
+        <title>Caput 40</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>770</folio>
+            <folio>771</folio>
+            <folio>772</folio>
+            <folio>773</folio>
+            <folio>774</folio>
+            <folio>775</folio>
+            <folio>776</folio>
+            <folio>777</folio>
+            <folio>778</folio>
+            <folio>779</folio>
+            <folio>780</folio>
+            <folio>781</folio>
+            <folio>782</folio>
+            <folio>783</folio>
+            <folio>784</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e03287" alias="l3c41">
+        <fileName filestem="dcn2br-e03287"/>
+        <title>Caput 41</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>784</folio>
+            <folio>785</folio>
+            <folio>786</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e03507" alias="l3c42">
+        <fileName filestem="dcn2br-e03507"/>
+        <title>Caput 42</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>786</folio>
+            <folio>787</folio>
+            <folio>788</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e03795" alias="l3c43">
+        <fileName filestem="dcn2br-e03795"/>
+        <title>Caput 43</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>788</folio>
+            <folio>789</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e03873" alias="l3c44">
+        <fileName filestem="dcn2br-e03873"/>
+        <title>Caput 44</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>789</folio>
+            <folio>790</folio>
+            <folio>791</folio>
+            <folio>792</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e04242" alias="l3c45">
+        <fileName filestem="dcn2br-e04242"/>
+        <title>Caput 45</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>792</folio>
+            <folio>793</folio>
+            <folio>794</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e04550" alias="l3c46">
+        <fileName filestem="dcn2br-e04550"/>
+        <title>Caput 46</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>794</folio>
+            <folio>795</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e04680" alias="l3c47">
+        <fileName filestem="dcn2br-e04680"/>
+        <title>Caput 47</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>795</folio>
+            <folio>796</folio>
+            <folio>797</folio>
+            <folio>798</folio>
+            <folio>799</folio>
+            <folio>800</folio>
+            <folio>801</folio>
+            <folio>802</folio>
+            <folio>803</folio>
+            <folio>804</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e05782" alias="l3c48">
+        <fileName filestem="dcn2br-e05782"/>
+        <title>Caput 48</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>804</folio>
+            <folio>805</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e05915" alias="l3c49">
+        <fileName filestem="dcn2br-e05915"/>
+        <title>Caput 49</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>805</folio>
+            <folio>806</folio>
+            <folio>807</folio>
+            <folio>808</folio>
+            <folio>809</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e06444" alias="l3c50">
+        <fileName filestem="dcn2br-e06444"/>
+        <title>Caput 50</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>809</folio>
+            <folio>810</folio>
+            <folio>811</folio>
+            <folio>812</folio>
+            <folio>813</folio>
+            <folio>814</folio>
+            <folio>815</folio>
+            <folio>816</folio>
+            <folio>817</folio>
+            <folio>818</folio>
+            <folio>819</folio>
+            <folio>820</folio>
+            <folio>821</folio>
+            <folio>822</folio>
+            <folio>823</folio>
+            <folio>824</folio>
+            <folio>825</folio>
+            <folio>826</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e08670" alias="l3c51">
+        <fileName filestem="dcn2br-e08670"/>
+        <title>Caput 51</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>826</folio>
+            <folio>827</folio>
+            <folio>828</folio>
+            <folio>829</folio>
+            <folio>830</folio>
+            <folio>831</folio>
+            <folio>832</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e09386" alias="l3c52">
+        <fileName filestem="dcn2br-e09386"/>
+        <title>Caput 52</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>832</folio>
+            <folio>833</folio>
+            <folio>834</folio>
+            <folio>835</folio>
+            <folio>836</folio>
+            <folio>837</folio>
+            <folio>838</folio>
+            <folio>839</folio>
+            <folio>840</folio>
+            <folio>841</folio>
+            <folio>842</folio>
+            <folio>843</folio>
+            <folio>844</folio>
+            <folio>845</folio>
+            <folio>846</folio>
+            <folio>847</folio>
+            <folio>848</folio>
+            <folio>849</folio>
+            <folio>850</folio>
+            <folio>851</folio>
+            <folio>852</folio>
+            <folio>853</folio>
+            <folio>854</folio>
+            <folio>855</folio>
+            <folio>856</folio>
+            <folio>857</folio>
+            <folio>858</folio>
+            <folio>859</folio>
+            <folio>860</folio>
+            <folio>861</folio>
+            <folio>862</folio>
+            <folio>863</folio>
+            <folio>864</folio>
+            <folio>865</folio>
+            <folio>866</folio>
+            <folio>867</folio>
+            <folio>868</folio>
+            <folio>869</folio>
+            <folio>870</folio>
+            <folio>871</folio>
+            <folio>872</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e14729" alias="l3c53">
+        <fileName filestem="dcn2br-e14729"/>
+        <title>Caput 53</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234">
+            <folio>872</folio>
+            <folio>873</folio>
+            <folio>874</folio>
+            <folio>875</folio>
+            <folio>876</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="dcn2br-e15532" alias="epistola-posterior">
+        <fileName filestem="dcn2br-e15532"/>
+        <title>Epistola posterior</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-bW1234"/>
+        </hasWitnesses>
+      </item>
+
     </div>
   </div>
 </listofFileNames>
