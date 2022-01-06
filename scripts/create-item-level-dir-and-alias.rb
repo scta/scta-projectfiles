@@ -2,7 +2,6 @@
 
 require "nokogiri"
 require "open-uri"
-require "pry"
 require "fileutils"
 
 projectfile = ARGV[0]
