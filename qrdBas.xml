@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
    <header>
       <authorName>John Bassolis</authorName>
       <commentaryName>Commentarius in libros Sententiarum</commentaryName>
@@ -23,8 +26,6 @@
             <initial>cod-B876a2</initial>
             <!--<editor><!-\-Regnault ; Frellon-\-><!-\- vol 2, edited by Roberto Hurault, see colophon on BSB p. 2 -\-></editor>-->
          </witness>
-         
-         
       </hasWitnesses>
    </header>
    <div id="body">
@@ -41,7 +42,6 @@
                   <folio>1v</folio>
                   <folio>2r</folio>
                   <folio>2v</folio>
-                  <folio>3r</folio>
                </witness>
             </hasWitnesses>
          </item>
@@ -53,6 +53,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>2v</folio>
                      <folio>3r</folio>
                      <folio>3v</folio>
                      <folio>4r</folio>
@@ -64,7 +65,6 @@
                      <folio>7r</folio>
                      <folio>7v</folio>
                      <folio>8r</folio>
-                     <folio>8v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -74,6 +74,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>8r</folio>
                      <folio>8v</folio>
                      <folio>9r</folio>
                      <folio>9v</folio>
@@ -81,7 +82,6 @@
                      <folio>10v</folio>
                      <folio>11r</folio>
                      <folio>11v</folio>
-                     <folio>12r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -91,6 +91,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>11v</folio>
                      <folio>12r</folio>
                      <folio>12v</folio>
                      <folio>13r</folio>
@@ -99,7 +100,6 @@
                      <folio>14v</folio>
                      <folio>15r</folio>
                      <folio>15v</folio>
-                     <folio>16r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -109,12 +109,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>15v</folio>
                      <folio>16r</folio>
                      <folio>16v</folio>
                      <folio>17r</folio>
                      <folio>17v</folio>
                      <folio>18r</folio>
-                     <folio>18v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -124,6 +124,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>18r</folio>
                      <folio>18v</folio>
                      <folio>19r</folio>
                      <folio>19v</folio>
@@ -134,7 +135,6 @@
                      <folio>22r</folio>
                      <folio>22v</folio>
                      <folio>23r</folio>
-                     <folio>23v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -144,17 +144,16 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>23r</folio>
                      <folio>23v</folio>
                      <folio>24r</folio>
                      <folio>24v</folio>
                      <folio>25r</folio>
                      <folio>25v</folio>
                      <folio>26r</folio>
-                     <folio>26r</folio>
                      <folio>26v</folio>
                      <folio>27r</folio>
                      <folio>27v</folio>
-                     <folio>28r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -164,6 +163,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>27v</folio>
                      <folio>28r</folio>
                      <folio>28v</folio>
                      <folio>29r</folio>
@@ -172,7 +172,6 @@
                      <folio>30v</folio>
                      <folio>31r</folio>
                      <folio>31v</folio>
-                     <folio>32r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -182,6 +181,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>31v</folio>
                      <folio>32r</folio>
                      <folio>32v</folio>
                      <folio>33r</folio>
@@ -192,8 +192,6 @@
                      <folio>35v</folio>
                      <folio>36r</folio>
                      <folio>36v</folio>
-                     <folio>36v</folio>
-                     <folio>37r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -206,6 +204,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>36v</folio>
                      <folio>37r</folio>
                      <folio>37v</folio>
                      <folio>38r</folio>
@@ -215,7 +214,6 @@
                      <folio>40r</folio>
                      <folio>40v</folio>
                      <folio>41r</folio>
-                     <folio>41v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -225,10 +223,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>41r</folio>
                      <folio>41v</folio>
                      <folio>42r</folio>
                      <folio>42v</folio>
-                     <folio>43r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -238,11 +236,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>42v</folio>
                      <folio>43r</folio>
                      <folio>43v</folio>
                      <folio>44r</folio>
                      <folio>44v</folio>
-                     <folio>45r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -252,9 +250,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>44v</folio>
                      <folio>45r</folio>
                      <folio>45v</folio>
-                     <folio>46r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -267,12 +265,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>45v</folio>
                      <folio>46r</folio>
                      <folio>46v</folio>
                      <folio>47r</folio>
                      <folio>47v</folio>
                      <folio>48r</folio>
-                     <folio>48v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -282,13 +280,13 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>48r</folio>
                      <folio>48v</folio>
                      <folio>49r</folio>
                      <folio>49v</folio>
                      <folio>50r</folio>
                      <folio>50v</folio>
                      <folio>51r</folio>
-                     <folio>51v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -298,10 +296,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>51r</folio>
                      <folio>51v</folio>
                      <folio>52r</folio>
                      <folio>52v</folio>
-                     <folio>53r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -313,7 +311,6 @@
                   <witness ref="#cod-B876a1">
                      <folio>53r</folio>
                      <folio>53v</folio>
-                     <folio>54r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -323,10 +320,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>53v</folio>
                      <folio>54r</folio>
                      <folio>54v</folio>
                      <folio>55r</folio>
-                     <folio>55v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -336,11 +333,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>55r</folio>
                      <folio>55v</folio>
                      <folio>56r</folio>
                      <folio>56v</folio>
                      <folio>57r</folio>
-                     <folio>57v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -353,13 +350,13 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>57r</folio>
                      <folio>57v</folio>
                      <folio>58r</folio>
                      <folio>58v</folio>
                      <folio>59r</folio>
                      <folio>59v</folio>
                      <folio>60r</folio>
-                     <folio>60v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -369,8 +366,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>60r</folio>
                      <folio>60v</folio>
-                     <folio>61r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -380,9 +377,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>60v</folio>
                      <folio>61r</folio>
                      <folio>61v</folio>
-                     <folio>62r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -392,12 +389,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>61v</folio>
                      <folio>62r</folio>
                      <folio>62v</folio>
                      <folio>63r</folio>
                      <folio>63v</folio>
                      <folio>64r</folio>
-                     <folio>64v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -407,8 +404,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>64r</folio>
                      <folio>64v</folio>
-                     <folio>65r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -418,11 +415,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>64v</folio>
                      <folio>65r</folio>
                      <folio>65v</folio>
                      <folio>66r</folio>
                      <folio>66v</folio>
-                     <folio>67r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -435,10 +432,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>66v</folio>
                      <folio>67r</folio>
                      <folio>67v</folio>
                      <folio>68r</folio>
-                     <folio>68v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -448,10 +445,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>68r</folio>
                      <folio>68v</folio>
                      <folio>69r</folio>
                      <folio>69v</folio>
-                     <folio>70r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -461,10 +458,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>69v</folio>
                      <folio>70r</folio>
                      <folio>70v</folio>
                      <folio>71r</folio>
-                     <folio>71v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -474,8 +471,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>71r</folio>
                      <folio>71v</folio>
-                     <folio>72r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -488,9 +485,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>71v</folio>
                      <folio>72r</folio>
                      <folio>72v</folio>
-                     <folio>73r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -500,12 +497,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>72v</folio>
                      <folio>73r</folio>
                      <folio>73v</folio>
                      <folio>74r</folio>
                      <folio>74v</folio>
                      <folio>75r</folio>
-                     <folio>75v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -515,8 +512,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>75r</folio>
                      <folio>75v</folio>
-                     <folio>76r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -526,8 +523,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>75v</folio>
                      <folio>76r</folio>
-                     <folio>76v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -540,8 +537,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>76r</folio>
                      <folio>76v</folio>
-                     <folio>77r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -551,8 +548,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>76v</folio>
                      <folio>77r</folio>
-                     <folio>77v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -562,9 +559,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>77r</folio>
                      <folio>77v</folio>
                      <folio>78r</folio>
-                     <folio>78v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -574,10 +571,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>78r</folio>
                      <folio>78v</folio>
                      <folio>79r</folio>
                      <folio>79v</folio>
-                     <folio>80r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -590,11 +587,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>79v</folio>
                      <folio>80r</folio>
                      <folio>80v</folio>
                      <folio>81r</folio>
                      <folio>81v</folio>
-                     <folio>82r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -604,11 +601,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>81v</folio>
                      <folio>82r</folio>
                      <folio>82v</folio>
                      <folio>83r</folio>
                      <folio>83v</folio>
-                     <folio>84r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -618,9 +615,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>83v</folio>
                      <folio>84r</folio>
                      <folio>84v</folio>
-                     <folio>85r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -630,10 +627,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>84v</folio>
                      <folio>85r</folio>
                      <folio>85v</folio>
                      <folio>86r</folio>
-                     <folio>86v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -657,7 +654,6 @@
                      <folio>90v</folio>
                      <folio>91r</folio>
                      <folio>91v</folio>
-                     <folio>92r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -670,7 +666,6 @@
                      <folio>92r</folio>
                      <folio>92v</folio>
                      <folio>93r</folio>
-                     <folio>93v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -680,10 +675,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>93r</folio>
                      <folio>93v</folio>
                      <folio>94r</folio>
                      <folio>94v</folio>
-                     <folio>95r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -693,10 +688,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>94v</folio>
                      <folio>95r</folio>
                      <folio>95v</folio>
                      <folio>96r</folio>
-                     <folio>96v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -709,12 +704,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>96r</folio>
                      <folio>96v</folio>
                      <folio>97r</folio>
                      <folio>97v</folio>
                      <folio>98r</folio>
                      <folio>98v</folio>
-                     <folio>99r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -727,13 +722,13 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>98v</folio>
                      <folio>99r</folio>
                      <folio>99v</folio>
                      <folio>100r</folio>
                      <folio>100v</folio>
                      <folio>101r</folio>
                      <folio>101v</folio>
-                     <folio>102r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -746,6 +741,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>101v</folio>
                      <folio>102r</folio>
                      <folio>102v</folio>
                      <folio>103r</folio>
@@ -753,7 +749,6 @@
                      <folio>104r</folio>
                      <folio>104v</folio>
                      <folio>105r</folio>
-                     <folio>105v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -766,9 +761,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>105r</folio>
                      <folio>105v</folio>
                      <folio>106r</folio>
-                     <folio>106v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -781,11 +776,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>106r</folio>
                      <folio>106v</folio>
                      <folio>107r</folio>
                      <folio>107v</folio>
                      <folio>108r</folio>
-                     <folio>108v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -798,8 +793,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>108r</folio>
                      <folio>108v</folio>
-                     <folio>109r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -812,10 +807,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>108v</folio>
                      <folio>109r</folio>
                      <folio>109v</folio>
                      <folio>110r</folio>
-                     <folio>110v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -828,8 +823,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>110r</folio>
                      <folio>110v</folio>
-                     <folio>111r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -848,7 +843,6 @@
                      <folio>112v</folio>
                      <folio>113r</folio>
                      <folio>113v</folio>
-                     <folio>114r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -865,7 +859,6 @@
                      <folio>116r</folio>
                      <folio>116v</folio>
                      <folio>117r</folio>
-                     <folio>117v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -875,12 +868,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>117r</folio>
                      <folio>117v</folio>
                      <folio>118r</folio>
                      <folio>118v</folio>
                      <folio>119r</folio>
                      <folio>119v</folio>
-                     <folio>120r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -890,10 +883,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>119v</folio>
                      <folio>120r</folio>
                      <folio>120v</folio>
                      <folio>121r</folio>
-                     <folio>121v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -906,8 +899,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>121r</folio>
                      <folio>121v</folio>
-                     <folio>122r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -920,6 +913,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>121v</folio>
                      <folio>122r</folio>
                      <folio>122v</folio>
                      <folio>123r</folio>
@@ -927,7 +921,6 @@
                      <folio>124r</folio>
                      <folio>124v</folio>
                      <folio>125r</folio>
-                     <folio>125v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -937,9 +930,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>125r</folio>
                      <folio>125v</folio>
                      <folio>126r</folio>
-                     <folio>126v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -949,9 +942,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>126r</folio>
                      <folio>126v</folio>
                      <folio>127r</folio>
-                     <folio>127v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -964,12 +957,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>127r</folio>
                      <folio>127v</folio>
                      <folio>128r</folio>
                      <folio>128v</folio>
                      <folio>129r</folio>
                      <folio>129v</folio>
-                     <folio>130r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -982,11 +975,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>129v</folio>
                      <folio>130r</folio>
                      <folio>130v</folio>
                      <folio>131r</folio>
                      <folio>131v</folio>
-                     <folio>132r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -999,12 +992,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>131v</folio>
                      <folio>132r</folio>
                      <folio>132v</folio>
                      <folio>133r</folio>
                      <folio>133v</folio>
                      <folio>134r</folio>
-                     <folio>134v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1014,11 +1007,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>134r</folio>
                      <folio>134v</folio>
                      <folio>135r</folio>
                      <folio>135v</folio>
                      <folio>136r</folio>
-                     <folio>136v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1028,6 +1021,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>136r</folio>
                      <folio>136v</folio>
                      <folio>137r</folio>
                      <folio>137v</folio>
@@ -1035,7 +1029,6 @@
                      <folio>138v</folio>
                      <folio>139r</folio>
                      <folio>139v</folio>
-                     <folio>140r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1045,6 +1038,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>139v</folio>
                      <folio>140r</folio>
                      <folio>140v</folio>
                      <folio>141r</folio>
@@ -1057,7 +1051,6 @@
                      <folio>144v</folio>
                      <folio>145r</folio>
                      <folio>145v</folio>
-                     <folio>146r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1070,10 +1063,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>145v</folio>
                      <folio>146r</folio>
                      <folio>146v</folio>
                      <folio>147r</folio>
-                     <folio>147v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1086,10 +1079,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>147r</folio>
                      <folio>147v</folio>
                      <folio>148r</folio>
                      <folio>148v</folio>
-                     <folio>149r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1102,11 +1095,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>148v</folio>
                      <folio>149r</folio>
                      <folio>149v</folio>
                      <folio>150r</folio>
                      <folio>150v</folio>
-                     <folio>151r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1119,12 +1112,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>150v</folio>
                      <folio>151r</folio>
                      <folio>151v</folio>
                      <folio>152r</folio>
                      <folio>152v</folio>
                      <folio>153r</folio>
-                     <folio>153v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1134,6 +1127,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>153r</folio>
                      <folio>153v</folio>
                      <folio>154r</folio>
                      <folio>154v</folio>
@@ -1141,7 +1135,6 @@
                      <folio>155v</folio>
                      <folio>156r</folio>
                      <folio>156v</folio>
-                     <folio>157r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1154,11 +1147,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>156v</folio>
                      <folio>157r</folio>
                      <folio>157v</folio>
                      <folio>158r</folio>
                      <folio>158v</folio>
-                     <folio>159r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1168,11 +1161,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>158v</folio>
                      <folio>159r</folio>
                      <folio>159v</folio>
                      <folio>160r</folio>
                      <folio>160v</folio>
-                     <folio>161r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1182,10 +1175,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>160v</folio>
                      <folio>161r</folio>
                      <folio>161v</folio>
                      <folio>162r</folio>
-                     <folio>162v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1198,12 +1191,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>162r</folio>
                      <folio>162v</folio>
                      <folio>163r</folio>
                      <folio>163v</folio>
                      <folio>164r</folio>
                      <folio>164v</folio>
-                     <folio>165r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1213,10 +1206,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>164v</folio>
                      <folio>165r</folio>
                      <folio>165v</folio>
                      <folio>166r</folio>
-                     <folio>166v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1229,9 +1222,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>166r</folio>
                      <folio>166v</folio>
                      <folio>167r</folio>
-                     <folio>167v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1244,12 +1237,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>167r</folio>
                      <folio>167v</folio>
                      <folio>168r</folio>
                      <folio>168v</folio>
                      <folio>169r</folio>
                      <folio>169v</folio>
-                     <folio>170r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1259,6 +1252,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>169v</folio>
                      <folio>170r</folio>
                      <folio>170v</folio>
                      <folio>171r</folio>
@@ -1267,7 +1261,6 @@
                      <folio>172v</folio>
                      <folio>173r</folio>
                      <folio>173v</folio>
-                     <folio>174r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1280,12 +1273,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>173v</folio>
                      <folio>174r</folio>
                      <folio>174v</folio>
                      <folio>175r</folio>
                      <folio>175v</folio>
                      <folio>176r</folio>
-                     <folio>176v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1295,8 +1288,8 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>176r</folio>
                      <folio>176v</folio>
-                     <folio>177r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1309,10 +1302,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>176v</folio>
                      <folio>177r</folio>
                      <folio>177v</folio>
                      <folio>178r</folio>
-                     <folio>178v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1325,6 +1318,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>178r</folio>
                      <folio>178v</folio>
                      <folio>179r</folio>
                      <folio>179v</folio>
@@ -1335,7 +1329,6 @@
                      <folio>182r</folio>
                      <folio>182v</folio>
                      <folio>183r</folio>
-                     <folio>183v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1345,9 +1338,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>183r</folio>
                      <folio>183v</folio>
                      <folio>184r</folio>
-                     <folio>184v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1360,7 +1353,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
-                     <folio>184v</folio>
+                     <folio>r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1373,12 +1366,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>184r</folio>
                      <folio>184v</folio>
                      <folio>185r</folio>
                      <folio>185v</folio>
                      <folio>186r</folio>
                      <folio>186v</folio>
-                     <folio>187r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1391,12 +1384,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>186v</folio>
                      <folio>187r</folio>
                      <folio>187v</folio>
                      <folio>188r</folio>
                      <folio>188v</folio>
                      <folio>189r</folio>
-                     <folio>189v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1406,6 +1399,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>189r</folio>
                      <folio>189v</folio>
                      <folio>190r</folio>
                      <folio>190v</folio>
@@ -1413,7 +1407,6 @@
                      <folio>191v</folio>
                      <folio>192r</folio>
                      <folio>192v</folio>
-                     <folio>193r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1423,6 +1416,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>192v</folio>
                      <folio>193r</folio>
                      <folio>193v</folio>
                      <folio>194r</folio>
@@ -1430,7 +1424,6 @@
                      <folio>195r</folio>
                      <folio>195v</folio>
                      <folio>196r</folio>
-                     <folio>196v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1443,9 +1436,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>196r</folio>
                      <folio>196v</folio>
                      <folio>197r</folio>
-                     <folio>197v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1458,11 +1451,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>197r</folio>
                      <folio>197v</folio>
                      <folio>198r</folio>
                      <folio>198v</folio>
                      <folio>199r</folio>
-                     <folio>199v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1475,12 +1468,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>199r</folio>
                      <folio>199v</folio>
                      <folio>200r</folio>
                      <folio>200v</folio>
                      <folio>201r</folio>
                      <folio>201v</folio>
-                     <folio>202r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1493,10 +1486,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>201v</folio>
                      <folio>202r</folio>
                      <folio>202v</folio>
                      <folio>203r</folio>
-                     <folio>203v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1509,11 +1502,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>203r</folio>
                      <folio>203v</folio>
                      <folio>204r</folio>
                      <folio>204v</folio>
                      <folio>205r</folio>
-                     <folio>205v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1526,12 +1519,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>205r</folio>
                      <folio>205v</folio>
                      <folio>206r</folio>
                      <folio>206v</folio>
                      <folio>207r</folio>
                      <folio>207v</folio>
-                     <folio>208r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1541,11 +1534,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>207v</folio>
                      <folio>208r</folio>
                      <folio>208v</folio>
                      <folio>209r</folio>
                      <folio>209v</folio>
-                     <folio>210r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1558,6 +1551,7 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>209v</folio>
                      <folio>210r</folio>
                      <folio>210v</folio>
                      <folio>211r</folio>
@@ -1566,7 +1560,6 @@
                      <folio>212v</folio>
                      <folio>213r</folio>
                      <folio>213v</folio>
-                     <folio>214r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1579,10 +1572,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>213v</folio>
                      <folio>214r</folio>
                      <folio>214v</folio>
                      <folio>215r</folio>
-                     <folio>215v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1595,11 +1588,11 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>215r</folio>
                      <folio>215v</folio>
                      <folio>216r</folio>
                      <folio>216v</folio>
                      <folio>217r</folio>
-                     <folio>217v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1609,12 +1602,12 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>217r</folio>
                      <folio>217v</folio>
                      <folio>218r</folio>
                      <folio>218v</folio>
                      <folio>219r</folio>
                      <folio>219v</folio>
-                     <folio>220r</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1627,10 +1620,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>219v</folio>
                      <folio>220r</folio>
                      <folio>220v</folio>
                      <folio>221r</folio>
-                     <folio>221v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1643,9 +1636,9 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>221r</folio>
                      <folio>221v</folio>
                      <folio>222r</folio>
-                     <folio>222v</folio>
                   </witness>
                </hasWitnesses>
             </item>
@@ -1658,10 +1651,10 @@
                <questionTitle/>
                <hasWitnesses>
                   <witness ref="#cod-B876a1">
+                     <folio>222r</folio>
                      <folio>222v</folio>
                      <folio>223r</folio>
                      <folio>223v</folio>
-                     <folio>224r</folio>
                      <folio>224r</folio>
                   </witness>
                </hasWitnesses>
@@ -1678,1020 +1671,1028 @@
                <witness ref="#cod-B876a2">
                   <folio>1r</folio>
                   <folio>1v</folio>
-                  <folio>2r</folio>
                </witness>
             </hasWitnesses>
          </item>
-        <div id="qrdBas-d1e3057" alias="l2d1" type="liber2-distinctio1">
-          <head>Distinctio 1</head>
-         <item id="qrdBas-be331x" alias="l2d1q1">
-            <fileName filestem="qrdBas-be331x"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>2r</folio>
-                  <folio>2v</folio>
-                  <folio>3r</folio>
-                  <folio>3v</folio>
-                  <folio>4r</folio>
-                  <folio>4v</folio>
-                  <folio>5r</folio>
-                  <folio>5v</folio>
-                  <folio>6r</folio>
-                  <folio>6v</folio>
-                  <folio>7r</folio>
-                  <folio>7v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-be3954" alias="l2d1q2">
-            <fileName filestem="qrdBas-be3954"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>7v</folio>
-                  <folio>8r</folio>
-                  <folio>8v</folio>
-                  <folio>9r</folio>
-                  <folio>9v</folio>
-                  <folio>10r</folio>
-                  <folio>10v</folio>
-                  <folio>11r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-be6275" alias="l2d1q3">
-            <fileName filestem="qrdBas-be6275"/>
-            <title>Quaestio 3</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>11r</folio>
-                  <folio>11v</folio>
-                  <folio>12r</folio>
-                  <folio>12v</folio>
-                  <folio>13r</folio>
-                  <folio>13v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-be7871" alias="l2d1q4">
-            <fileName filestem="qrdBas-be7871"/>
-            <title>Quaestio 4</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>13v</folio>
-                  <folio>14r</folio>
-                  <folio>14v</folio>
-                  <folio>15r</folio>
-                  <folio>15v</folio>
-                  <folio>16r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-be9599" alias="l2d1q5">
-            <fileName filestem="qrdBas-be9599"/>
-            <title>Quaestio 5</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>16r</folio>
-                  <folio>16v</folio>
-                  <folio>17r</folio>
-                  <folio>17v</folio>
-                  <folio>18r</folio>
-                  <folio>18v</folio>
-                  <folio>19r</folio>
-                  <folio>19v</folio>
-                  <folio>20r</folio>
-                  <folio>20v</folio>
-                  <folio>21r</folio>
-                  <folio>21v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b13253" alias="l2d1q6">
-            <fileName filestem="qrdBas-b13253"/>
-            <title>Quaestio 6</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>21v</folio>
-                  <folio>22r</folio>
-                  <folio>22v</folio>
-                  <folio>23r</folio>
-                  <folio>23v</folio>
-                  <folio>24r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3261" alias="l2d2" type="liber2-distinctio2">
-          <head>Distinctio 2</head>
-         <item id="qrdBas-b14755" alias="l2d2q1">
-            <fileName filestem="qrdBas-b14755"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>24r</folio>
-                  <folio>24v</folio>
-                  <folio>25r</folio>
-                  <folio>25v</folio>
-                  <folio>26r</folio>
-                  <folio>26v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b16411" alias="l2d2q2">
-            <fileName filestem="qrdBas-b16411"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>26v</folio>
-                  <folio>27r</folio>
-                  <folio>27v</folio>
-                  <folio>28r</folio>
-                  <folio>28v</folio>
-                  <folio>29r</folio>
-                  <folio>29v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b18322" alias="l2d2q3">
-            <fileName filestem="qrdBas-b18322"/>
-            <title>Quaestio 3</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>29v</folio>
-                  <folio>30r</folio>
-                  <folio>30v</folio>
-                  <folio>31r</folio>
-                  <folio>31v</folio>
-                  <folio>32r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b20177" alias="l2d2q4">
-            <fileName filestem="qrdBas-b20177"/>
-            <title>Quaestio 4</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>32r</folio>
-                  <folio>32v</folio>
-                  <folio>33r</folio>
-                  <folio>33v</folio>
-                  <folio>34r</folio>
-                  <folio>34v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3380" alias="l2d3" type="liber2-distinctio3">
-          <head>Distinctio 3</head>
-         <item id="qrdBas-b21736" alias="l2d3q1">
-            <fileName filestem="qrdBas-b21736"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>34v</folio>
-                  <folio>35r</folio>
-                  <folio>35v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b22566" alias="l2d3q2">
-            <fileName filestem="qrdBas-b22566"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>35v</folio>
-                  <folio>36r</folio>
-                  <folio>36v</folio>
-                  <folio>37r</folio>
-                  <folio>37v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b23800" alias="l2d3q3">
-            <fileName filestem="qrdBas-b23800"/>
-            <title>Quaestio 3</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>37v</folio>
-                  <folio>38r</folio>
-                  <folio>38v</folio>
-                  <folio>39r</folio>
-                  <folio>39v</folio>
-                  <folio>40r</folio>
-                  <folio>40v</folio>
-                  <folio>41r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b26091" alias="l2d3q4">
-            <fileName filestem="qrdBas-b26091"/>
-            <title>Quaestio 4</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>41r</folio>
-                  <folio>41v</folio>
-                  <folio>42r</folio>
-                  <folio>42v</folio>
-                  <folio>43r</folio>
-                  <folio>43v</folio>
-                  <folio>44r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3494" alias="l2d4" type="liber2-distinctio4 liber2-distinctio5">
-          <head>Distinctio 4-5</head>
-         <item id="qrdBas-b28209" alias="l2d4-5q1">
-            <fileName filestem="qrdBas-b28209"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>44r</folio>
-                  <folio>44v</folio>
-                  <folio>45r</folio>
-                  <folio>45v</folio>
-                  <folio>46r</folio>
-                  <folio>46v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3527" alias="l2d6" type="liber2-distinctio6">
-          <head>Distinctio 6</head>
-         <item id="qrdBas-b29907" alias="l2d6q1">
-            <fileName filestem="qrdBas-b29907"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>46v</folio>
-                  <folio>47r</folio>
-                  <folio>47v</folio>
-                  <folio>48r</folio>
-                  <folio>48v</folio>
-                  <folio>49r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3560" alias="l2d7" type="liber2-distinctio7">
-          <head>Distinctio 7</head>
-         <item id="qrdBas-b31467" alias="l2d7q1">
-            <fileName filestem="qrdBas-b31467"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>49r</folio>
-                  <folio>49v</folio>
-                  <folio>50r</folio>
-                  <folio>50v</folio>
-                  <folio>51r</folio>
-                  <folio>51v</folio>
-                  <folio>52r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3595" alias="l2d8" type="liber2-distinctio8">
-          <head>Distinctio 8</head>
-         <item id="qrdBas-b33645" alias="l2d8q1">
-            <fileName filestem="qrdBas-b33645"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>52r</folio>
-                  <folio>52v</folio>
-                  <folio>53r</folio>
-                  <folio>53v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3623" alias="l2d9" type="liber2-distinctio9">
-          <head>Distinctio 9</head>
-         <item id="qrdBas-b34538" alias="l2d9q1">
-            <fileName filestem="qrdBas-b34538"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>53v</folio>
-                  <folio>54r</folio>
-                  <folio>54v</folio>
-                  <folio>55r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b35660" alias="l2d9q2">
-            <fileName filestem="qrdBas-b35660"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>55r</folio>
-                  <folio>55v</folio>
-                  <folio>56r</folio>
-                  <folio>56v</folio>
-                  <folio>57r</folio>
-                  <folio>57v</folio>
-                  <folio>58r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3681" alias="l2d10" type="liber2-distinctio10">
-          <head>Distinctio 10</head>
-         <item id="qrdBas-b37699" alias="l2d10q1">
-            <fileName filestem="qrdBas-b37699"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>58r</folio>
-                  <folio>58v</folio>
-                  <folio>59r</folio>
-                  <folio>59v</folio>
-                  <folio>60r</folio>
-                  <folio>60v</folio>
-                  <folio>61r</folio>
-                  <folio>61v</folio>
-                  <folio>62r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3721" alias="l2d11" type="liber2-distinctio11">
-          <head>Distinctio 11</head>
-         <item id="qrdBas-b40301" alias="l2d11q1">
-            <fileName filestem="qrdBas-b40301"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>62r</folio>
-                  <folio>62v</folio>
-                  <folio>63r</folio>
-                  <folio>63v</folio>
-                  <folio>64r</folio>
-                  <folio>64v</folio>
-                  <folio>65r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3756" alias="l2d12" type="liber2-distinctio12">
-          <head>Distinctio 12</head>
-         <item id="qrdBas-b42075" alias="l2d12q1">
-            <fileName filestem="qrdBas-b42075"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>65r</folio>
-                  <folio>65v</folio>
-                  <folio>66r</folio>
-                  <folio>66v</folio>
-                  <folio>67r</folio>
-                  <folio>67v</folio>
-                  <folio>68r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b44312" alias="l2d12q2">
-            <fileName filestem="qrdBas-b44312"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>68r</folio>
-                  <folio>68v</folio>
-                  <folio>69r</folio>
-                  <folio>69v</folio>
-                  <folio>70r</folio>
-                  <folio>70v</folio>
-                  <folio>71r</folio>
-                  <folio>71v</folio>
-                  <folio>72r</folio>
-                  <folio>72v</folio>
-                  <folio>73r</folio>
-                  <folio>73v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b47989" alias="l2d12q3">
-            <fileName filestem="qrdBas-b47989"/>
-            <title>Quaestio 3</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>73v</folio>
-                  <folio>74r</folio>
-                  <folio>74v</folio>
-                  <folio>75r</folio>
-                  <folio>75v</folio>
-                  <folio>76r</folio>
-                  <folio>76v</folio>
-                  <folio>77r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b50342" alias="l2d12q4">
-            <fileName filestem="qrdBas-b50342"/>
-            <title>Quaestio 4</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>77r</folio>
-                  <folio>77v</folio>
-                  <folio>78r</folio>
-                  <folio>78v</folio>
-                  <folio>79r</folio>
-                  <folio>79v</folio>
-                  <folio>80r</folio>
-                  <folio>80v</folio>
-                  <folio>81r</folio>
-                  <folio>81v</folio>
-                  <folio>82r</folio>
-                  <folio>82v</folio>
-                  <folio>83r</folio>
-                  <folio>83v</folio>
-                  <folio>84r</folio>
-                  <folio>84v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3913" alias="l2d13" type="liber2-distinctio13">
-          <head>Distinctio 13</head>
-         <item id="qrdBas-b55298" alias="l2d13q1">
-            <fileName filestem="qrdBas-b55298"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>84v</folio>
-                  <folio>85r</folio>
-                  <folio>85v</folio>
-                  <folio>86r</folio>
-                  <folio>86v</folio>
-                  <folio>87r</folio>
-                  <folio>87v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e3948" alias="l2d14" type="liber2-distinctio14">
-          <head>Distinctio 14</head>
-         <item id="qrdBas-b57340" alias="l2d14q1">
-            <fileName filestem="qrdBas-b57340"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>87v</folio>
-                  <folio>88r</folio>
-                  <folio>88v</folio>
-                  <folio>89r</folio>
-                  <folio>89v</folio>
-                  <folio>90r</folio>
-                  <folio>90v</folio>
-                  <folio>91r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b59627" alias="l2d14q2">
-            <fileName filestem="qrdBas-b59627"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>91r</folio>
-                  <folio>91v</folio>
-                  <folio>92r</folio>
-                  <folio>92v</folio>
-                  <folio>93r</folio>
-                  <folio>93v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4013" alias="l2d15" type="liber2-distinctio 15">
-          <head>Distinctio 15</head>
-         <item id="qrdBas-b61470" alias="l2d15q1">
-            <fileName filestem="qrdBas-b61470"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>93v</folio>
-                  <folio>94r</folio>
-                  <folio>94v</folio>
-                  <folio>95r</folio>
-                  <folio>95v</folio>
-                  <folio>96r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <!-- No d. 16 -->
-        <div id="qrdBas-d1e4049" alias="l2d17" type="liber2-distinctio17">
-          <head>Distinctio 17</head>
-         <item id="qrdBas-b63091" alias="l2d17q1">
-            <fileName filestem="qrdBas-b63091"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>96r</folio>
-                  <folio>96v</folio>
-                  <folio>97r</folio>
-                  <folio>97v</folio>
-                  <folio>98r</folio>
-                  <folio>98v</folio>
-                  <folio>99r</folio>
-                  <folio>99v</folio>
-                  <folio>100r</folio>
-                  <folio>100v</folio>
-                  <folio>101r</folio>
-                  <folio>101v</folio>
-                  <folio>102r</folio>
-                  <folio>102v</folio>
-                  <folio>103r</folio>
-                  <folio>103v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b67998" alias="l2d17q2">
-            <fileName filestem="qrdBas-b67998"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>103v</folio>
-                  <folio>104r</folio>
-                  <folio>104v</folio>
-                  <folio>105r</folio>
-                  <folio>105v</folio>
-                  <folio>106r</folio>
-                  <folio>106v</folio>
-                  <folio>107r</folio>
-                  <folio>107v</folio>
-                  <folio>108r</folio>
-                  <folio>108v</folio>
-                  <folio>109r</folio>
-                  <folio>109v</folio>
-                  <folio>110r</folio>
-                  <folio>110v</folio>
-                  <folio>111r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b72974" alias="l2d17q3">
-            <fileName filestem="qrdBas-b72974"/>
-            <title>Quaestio 3</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>111r</folio>
-                  <folio>111v</folio>
-                  <folio>112r</folio>
-                  <folio>112v</folio>
-                  <folio>113r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4177" alias="l2d18" type="liber2-distinctio18">
-          <head>Distinctio 18</head>
-         <item id="qrdBas-b74246" alias="l2d18q1">
-            <fileName filestem="qrdBas-b74246"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>113r</folio>
-                  <folio>113v</folio>
-                  <folio>114r</folio>
-                  <folio>114v</folio>
-                  <folio>115r</folio>
-                  <folio>115v</folio>
-                  <folio>116r</folio>
-                  <folio>116v</folio>
-                  <folio>117r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4216" alias="l2d19" type="liber2-distinctio19">
-          <head>Distinctio 19</head>
-         <item id="qrdBas-b77107" alias="l2d19q1">
-            <fileName filestem="qrdBas-b77107"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>117r</folio>
-                  <folio>117v</folio>
-                  <folio>118r</folio>
-                  <folio>118v</folio>
-                  <folio>119r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4246" alias="l2d20" type="liber2-distinctio20">
-          <head>Distinctio 20</head>
-         <item id="qrdBas-b78188" alias="l2d20q1">
-            <fileName filestem="qrdBas-b78188"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>119r</folio>
-                  <folio>119v</folio>
-                  <folio>120r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4272" alias="l2d21-22" type="liber2-distinctio21 liber2-distinctio22">
-          <head>Distinctio 21-22</head>
-         <item id="qrdBas-b79097" alias="l2d21-22q1">
-            <fileName filestem="qrdBas-b79097"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>120r</folio>
-                  <folio>120v</folio>
-                  <folio>121r</folio>
-                  <folio>121v</folio>
-                  <folio>122r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4302" alias="l2d23" type="liber2-distinctio23">
-          <head>Distinctio 23</head>
-         <item id="qrdBas-b80124" alias="l2d23q1">
-            <fileName filestem="qrdBas-b80124"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>122r</folio>
-                  <folio>122v</folio>
-                  <folio>123r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4329" alias="l2d24" type="liber2-distinctio24">
-          <head>Distinctio 24</head>
-         <item id="qrdBas-b80844" alias="l2d24q1">
-            <fileName filestem="qrdBas-b80844"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>123r</folio>
-                  <folio>123v</folio>
-                  <folio>124r</folio>
-                  <folio>124v</folio>
-                  <folio>125r</folio>
-                  <folio>125v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b82644" alias="l2d24q2">
-            <fileName filestem="qrdBas-b82644"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>125v</folio>
-                  <folio>126r</folio>
-                  <folio>126v</folio>
-                  <folio>127r</folio>
-                  <folio>127v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4387" alias="l2d25" type="liber2-distinctio25">
-          <head>Distinctio 25</head>
-         <item id="qrdBas-b83836" alias="l2d25q1">
-            <fileName filestem="qrdBas-b83836"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>127v</folio>
-                  <folio>128r</folio>
-                  <folio>128v</folio>
-                  <folio>129r</folio>
-                  <folio>129v</folio>
-                  <folio>130r</folio>
-                  <folio>130v</folio>
-                  <folio>131r</folio>
-                  <folio>131v</folio>
-                  <folio>132r</folio>
-                  <folio>132v</folio>
-                  <folio>133r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b87609" alias="l2d25q2">
-            <fileName filestem="qrdBas-b87609"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>133r</folio>
-                  <folio>133v</folio>
-                  <folio>134r</folio>
-                  <folio>134v</folio>
-                  <folio>135r</folio>
-                  <folio>135v</folio>
-                  <folio>136r</folio>
-                  <folio>136v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4465" alias="l2d26-28" type="liber2-distinctio26 liber2-distinctio27 liber2-distinctio28">
-          <head>Distinctio 26-28</head>
-         <item id="qrdBas-b89731" alias="l2d26-28q1">
-            <fileName filestem="qrdBas-b89731"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>136v</folio>
-                  <folio>137r</folio>
-                  <folio>137v</folio>
-                  <folio>138r</folio>
-                  <folio>138v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4495" alias="l2d29" type="liber2-distinctio29">
-          <head>Distinctio 29</head>
-         <item id="qrdBas-b91142" alias="l2d29q1">
-            <fileName filestem="qrdBas-b91142"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>138v</folio>
-                  <folio>139r</folio>
-                  <folio>139v</folio>
-                  <folio>140r</folio>
-                  <folio>140v</folio>
-                  <folio>141r</folio>
-                  <folio>141v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4530" alias="l2d30" type="liber2-distinctio30">
-          <head>Distinctio 30</head>
-         <item id="qrdBas-b93050" alias="l2d30q1">
-            <fileName filestem="qrdBas-b93050"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>141v</folio>
-                  <folio>142r</folio>
-                  <folio>142v</folio>
-                  <folio>143r</folio>
-                  <folio>143v</folio>
-                  <folio>144r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-         <item id="qrdBas-b95009" alias="l2d30q2">
-            <fileName filestem="qrdBas-b95009"/>
-            <title>Quaestio 2</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>144r</folio>
-                  <folio>144v</folio>
-                  <folio>145r</folio>
-                  <folio>145v</folio>
-                  <folio>146r</folio>
-                  <folio>146v</folio>
-                  <folio>147r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4593" alias="l2d31-32" type="liber2-distinctio31 liber2-distinctio32">
-          <head>Distinctio 31-32</head>
-         <item id="qrdBas-b96915" alias="l2d31-32q1">
-            <fileName filestem="qrdBas-b96915"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>147r</folio>
-                  <folio>147v</folio>
-                  <folio>148r</folio>
-                  <folio>148v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4622" alias="l2d33" type="liber2-distinctio33">
-          <head>Distinctio 33</head>
-         <item id="qrdBas-b98054" alias="l2d33q1">
-            <fileName filestem="qrdBas-b98054"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>148v</folio>
-                  <folio>149r</folio>
-                  <folio>149v</folio>
-                  <folio>150r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4650" alias="l2d34" type="liber2-distinctio34">
-          <head>Distinctio 34</head>
-         <item id="qrdBas-b99056" alias="l2d34q1">
-            <fileName filestem="qrdBas-b99056"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>150r</folio>
-                  <folio>150v</folio>
-                  <folio>151r</folio>
-                  <folio>151v</folio>
-                  <folio>152r</folio>
-                  <folio>152v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4683" alias="l2d35" type="liber2-distinctio35">
-          <head>Distinctio 35</head>
-         <item id="qrdBas-b1005z" alias="l2d35q1">
-            <fileName filestem="qrdBas-b1005z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>152v</folio>
-                  <folio>153r</folio>
-                  <folio>153v</folio>
-                  <folio>154r</folio>
-                  <folio>154v</folio>
-                  <folio>155r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4716" alias="l2d36" type="liber2-distinctio36">
-          <head>Distinctio 36</head>
-         <item id="qrdBas-b1023z" alias="l2d36q1">
-            <fileName filestem="qrdBas-b1023z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>155r</folio>
-                  <folio>155v</folio>
-                  <folio>156r</folio>
-                  <folio>156v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4744" alias="l2d37" type="liber2-distinctio37">
-          <head>Distinctio 37</head>
-         <item id="qrdBas-b1032z" alias="l2d37q1">
-            <fileName filestem="qrdBas-b1032z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>156v</folio>
-                  <folio>157r</folio>
-                  <folio>157v</folio>
-                  <folio>158r</folio>
-                  <folio>158v</folio>
-                  <folio>159r</folio>
-                  <folio>159v</folio>
-                  <folio>160r</folio>
-                  <folio>160v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4783" alias="l2d38" type="liber2-distinctio38">
-          <head>Distinctio 38</head>
-         <item id="qrdBas-b1059z" alias="l2d38q1">
-            <fileName filestem="qrdBas-b1059z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>160v</folio>
-                  <folio>161r</folio>
-                  <folio>161v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4810" alias="l2d39" type="liber2-distinctio39">
-          <head>Distinctio 39</head>
-         <item id="qrdBas-b1066z" alias="l2d39q1">
-            <fileName filestem="qrdBas-b1066z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>161v</folio>
-                  <folio>162r</folio>
-                  <folio>162v</folio>
-                  <folio>164r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4838" alias="l2d40-41" type="liber2-distinctio40 liber2-distinctio41">
-          <head>Distinctio 40-41</head>
-         <item id="qrdBas-b1078z" alias="l2d40-41q1">
-            <fileName filestem="qrdBas-b1078z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>164r</folio>
-                  <folio>164v</folio>
-                  <folio>165r</folio>
-                  <folio>165v</folio>
-                  <folio>166r</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4868" alias="l2d42" type="liber2-distinctio42">
-          <head>Distinctio 42</head>
-         <item id="qrdBas-b1091z" alias="l2d42q1">
-            <fileName filestem="qrdBas-b1091z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>166r</folio>
-                  <folio>166v</folio>
-                  <folio>167r</folio>
-                  <folio>168v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
-        <div id="qrdBas-d1e4896" alias="l2d43-44" type="liber2-distinctio43 liber2-distinctio44">
-          <head>Distinctio 43-44</head>
-         <item id="qrdBas-b1102z" alias="l2d43-44q1">
-            <fileName filestem="qrdBas-b1102z"/>
-            <title>Quaestio 1</title>
-            <questionTitle/>
-            <hasWitnesses>
-               <witness ref="#cod-B876a2">
-                  <folio>168v</folio>
-                  <folio>169r</folio>
-                  <folio>169v</folio>
-               </witness>
-            </hasWitnesses>
-         </item>
-        </div>
+         <div id="qrdBas-d1e3057" alias="l2d1" type="liber2-distinctio1">
+            <head>Distinctio 1</head>
+            <item id="qrdBas-be331x" alias="l2d1q1">
+               <fileName filestem="qrdBas-be331x"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>1v</folio>
+                     <folio>2r</folio>
+                     <folio>2v</folio>
+                     <folio>3r</folio>
+                     <folio>3v</folio>
+                     <folio>4r</folio>
+                     <folio>4v</folio>
+                     <folio>5r</folio>
+                     <folio>5v</folio>
+                     <folio>6r</folio>
+                     <folio>6v</folio>
+                     <folio>7r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-be3954" alias="l2d1q2">
+               <fileName filestem="qrdBas-be3954"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>7r</folio>
+                     <folio>7v</folio>
+                     <folio>8r</folio>
+                     <folio>8v</folio>
+                     <folio>9r</folio>
+                     <folio>9v</folio>
+                     <folio>10r</folio>
+                     <folio>10v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-be6275" alias="l2d1q3">
+               <fileName filestem="qrdBas-be6275"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>10v</folio>
+                     <folio>11r</folio>
+                     <folio>11v</folio>
+                     <folio>12r</folio>
+                     <folio>12v</folio>
+                     <folio>13r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-be7871" alias="l2d1q4">
+               <fileName filestem="qrdBas-be7871"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>13r</folio>
+                     <folio>13v</folio>
+                     <folio>14r</folio>
+                     <folio>14v</folio>
+                     <folio>15r</folio>
+                     <folio>15v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-be9599" alias="l2d1q5">
+               <fileName filestem="qrdBas-be9599"/>
+               <title>Quaestio 5</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>15v</folio>
+                     <folio>16r</folio>
+                     <folio>16v</folio>
+                     <folio>17r</folio>
+                     <folio>17v</folio>
+                     <folio>18r</folio>
+                     <folio>18v</folio>
+                     <folio>19r</folio>
+                     <folio>19v</folio>
+                     <folio>20r</folio>
+                     <folio>20v</folio>
+                     <folio>21r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b13253" alias="l2d1q6">
+               <fileName filestem="qrdBas-b13253"/>
+               <title>Quaestio 6</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>21r</folio>
+                     <folio>21v</folio>
+                     <folio>22r</folio>
+                     <folio>22v</folio>
+                     <folio>23r</folio>
+                     <folio>23v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3261" alias="l2d2" type="liber2-distinctio2">
+            <head>Distinctio 2</head>
+            <item id="qrdBas-b14755" alias="l2d2q1">
+               <fileName filestem="qrdBas-b14755"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>23v</folio>
+                     <folio>24r</folio>
+                     <folio>24v</folio>
+                     <folio>25r</folio>
+                     <folio>25v</folio>
+                     <folio>26r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b16411" alias="l2d2q2">
+               <fileName filestem="qrdBas-b16411"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>26r</folio>
+                     <folio>26v</folio>
+                     <folio>27r</folio>
+                     <folio>27v</folio>
+                     <folio>28r</folio>
+                     <folio>28v</folio>
+                     <folio>29r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b18322" alias="l2d2q3">
+               <fileName filestem="qrdBas-b18322"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>29r</folio>
+                     <folio>29v</folio>
+                     <folio>30r</folio>
+                     <folio>30v</folio>
+                     <folio>31r</folio>
+                     <folio>31v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b20177" alias="l2d2q4">
+               <fileName filestem="qrdBas-b20177"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>31v</folio>
+                     <folio>32r</folio>
+                     <folio>32v</folio>
+                     <folio>33r</folio>
+                     <folio>33v</folio>
+                     <folio>34r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3380" alias="l2d3" type="liber2-distinctio3">
+            <head>Distinctio 3</head>
+            <item id="qrdBas-b21736" alias="l2d3q1">
+               <fileName filestem="qrdBas-b21736"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>34r</folio>
+                     <folio>34v</folio>
+                     <folio>35r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b22566" alias="l2d3q2">
+               <fileName filestem="qrdBas-b22566"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>35r</folio>
+                     <folio>35v</folio>
+                     <folio>36r</folio>
+                     <folio>36v</folio>
+                     <folio>37r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b23800" alias="l2d3q3">
+               <fileName filestem="qrdBas-b23800"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>37r</folio>
+                     <folio>37v</folio>
+                     <folio>38r</folio>
+                     <folio>38v</folio>
+                     <folio>39r</folio>
+                     <folio>39v</folio>
+                     <folio>40r</folio>
+                     <folio>40v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b26091" alias="l2d3q4">
+               <fileName filestem="qrdBas-b26091"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>40v</folio>
+                     <folio>41r</folio>
+                     <folio>41v</folio>
+                     <folio>42r</folio>
+                     <folio>42v</folio>
+                     <folio>43r</folio>
+                     <folio>43v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3494"
+              alias="l2d4"
+              type="liber2-distinctio4 liber2-distinctio5">
+            <head>Distinctio 4-5</head>
+            <item id="qrdBas-b28209" alias="l2d4-5q1">
+               <fileName filestem="qrdBas-b28209"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>43v</folio>
+                     <folio>44r</folio>
+                     <folio>44v</folio>
+                     <folio>45r</folio>
+                     <folio>45v</folio>
+                     <folio>46r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3527" alias="l2d6" type="liber2-distinctio6">
+            <head>Distinctio 6</head>
+            <item id="qrdBas-b29907" alias="l2d6q1">
+               <fileName filestem="qrdBas-b29907"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>46r</folio>
+                     <folio>46v</folio>
+                     <folio>47r</folio>
+                     <folio>47v</folio>
+                     <folio>48r</folio>
+                     <folio>48v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3560" alias="l2d7" type="liber2-distinctio7">
+            <head>Distinctio 7</head>
+            <item id="qrdBas-b31467" alias="l2d7q1">
+               <fileName filestem="qrdBas-b31467"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>48v</folio>
+                     <folio>49r</folio>
+                     <folio>49v</folio>
+                     <folio>50r</folio>
+                     <folio>50v</folio>
+                     <folio>51r</folio>
+                     <folio>51v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3595" alias="l2d8" type="liber2-distinctio8">
+            <head>Distinctio 8</head>
+            <item id="qrdBas-b33645" alias="l2d8q1">
+               <fileName filestem="qrdBas-b33645"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>51v</folio>
+                     <folio>52r</folio>
+                     <folio>52v</folio>
+                     <folio>53r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3623" alias="l2d9" type="liber2-distinctio9">
+            <head>Distinctio 9</head>
+            <item id="qrdBas-b34538" alias="l2d9q1">
+               <fileName filestem="qrdBas-b34538"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>53r</folio>
+                     <folio>53v</folio>
+                     <folio>54r</folio>
+                     <folio>54v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b35660" alias="l2d9q2">
+               <fileName filestem="qrdBas-b35660"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>54v</folio>
+                     <folio>55r</folio>
+                     <folio>55v</folio>
+                     <folio>56r</folio>
+                     <folio>56v</folio>
+                     <folio>57r</folio>
+                     <folio>57v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3681" alias="l2d10" type="liber2-distinctio10">
+            <head>Distinctio 10</head>
+            <item id="qrdBas-b37699" alias="l2d10q1">
+               <fileName filestem="qrdBas-b37699"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>57v</folio>
+                     <folio>58r</folio>
+                     <folio>58v</folio>
+                     <folio>59r</folio>
+                     <folio>59v</folio>
+                     <folio>60r</folio>
+                     <folio>60v</folio>
+                     <folio>61r</folio>
+                     <folio>61v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3721" alias="l2d11" type="liber2-distinctio11">
+            <head>Distinctio 11</head>
+            <item id="qrdBas-b40301" alias="l2d11q1">
+               <fileName filestem="qrdBas-b40301"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>61v</folio>
+                     <folio>62r</folio>
+                     <folio>62v</folio>
+                     <folio>63r</folio>
+                     <folio>63v</folio>
+                     <folio>64r</folio>
+                     <folio>64v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3756" alias="l2d12" type="liber2-distinctio12">
+            <head>Distinctio 12</head>
+            <item id="qrdBas-b42075" alias="l2d12q1">
+               <fileName filestem="qrdBas-b42075"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>64v</folio>
+                     <folio>65r</folio>
+                     <folio>65v</folio>
+                     <folio>66r</folio>
+                     <folio>66v</folio>
+                     <folio>67r</folio>
+                     <folio>67v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b44312" alias="l2d12q2">
+               <fileName filestem="qrdBas-b44312"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>67v</folio>
+                     <folio>68r</folio>
+                     <folio>68v</folio>
+                     <folio>69r</folio>
+                     <folio>69v</folio>
+                     <folio>70r</folio>
+                     <folio>70v</folio>
+                     <folio>71r</folio>
+                     <folio>71v</folio>
+                     <folio>72r</folio>
+                     <folio>72v</folio>
+                     <folio>73r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b47989" alias="l2d12q3">
+               <fileName filestem="qrdBas-b47989"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>73r</folio>
+                     <folio>73v</folio>
+                     <folio>74r</folio>
+                     <folio>74v</folio>
+                     <folio>75r</folio>
+                     <folio>75v</folio>
+                     <folio>76r</folio>
+                     <folio>76v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b50342" alias="l2d12q4">
+               <fileName filestem="qrdBas-b50342"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>76v</folio>
+                     <folio>77r</folio>
+                     <folio>77v</folio>
+                     <folio>78r</folio>
+                     <folio>78v</folio>
+                     <folio>79r</folio>
+                     <folio>79v</folio>
+                     <folio>80r</folio>
+                     <folio>80v</folio>
+                     <folio>81r</folio>
+                     <folio>81v</folio>
+                     <folio>82r</folio>
+                     <folio>82v</folio>
+                     <folio>83r</folio>
+                     <folio>83v</folio>
+                     <folio>84r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3913" alias="l2d13" type="liber2-distinctio13">
+            <head>Distinctio 13</head>
+            <item id="qrdBas-b55298" alias="l2d13q1">
+               <fileName filestem="qrdBas-b55298"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>84r</folio>
+                     <folio>84v</folio>
+                     <folio>85r</folio>
+                     <folio>85v</folio>
+                     <folio>86r</folio>
+                     <folio>86v</folio>
+                     <folio>87r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e3948" alias="l2d14" type="liber2-distinctio14">
+            <head>Distinctio 14</head>
+            <item id="qrdBas-b57340" alias="l2d14q1">
+               <fileName filestem="qrdBas-b57340"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>87r</folio>
+                     <folio>87v</folio>
+                     <folio>88r</folio>
+                     <folio>88v</folio>
+                     <folio>89r</folio>
+                     <folio>89v</folio>
+                     <folio>90r</folio>
+                     <folio>90v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b59627" alias="l2d14q2">
+               <fileName filestem="qrdBas-b59627"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>90v</folio>
+                     <folio>91r</folio>
+                     <folio>91v</folio>
+                     <folio>92r</folio>
+                     <folio>92v</folio>
+                     <folio>93r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4013" alias="l2d15" type="liber2-distinctio 15">
+            <head>Distinctio 15</head>
+            <item id="qrdBas-b61470" alias="l2d15q1">
+               <fileName filestem="qrdBas-b61470"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>93r</folio>
+                     <folio>93v</folio>
+                     <folio>94r</folio>
+                     <folio>94v</folio>
+                     <folio>95r</folio>
+                     <folio>95v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <!-- No d. 16 -->
+         <div id="qrdBas-d1e4049" alias="l2d17" type="liber2-distinctio17">
+            <head>Distinctio 17</head>
+            <item id="qrdBas-b63091" alias="l2d17q1">
+               <fileName filestem="qrdBas-b63091"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>95v</folio>
+                     <folio>96r</folio>
+                     <folio>96v</folio>
+                     <folio>97r</folio>
+                     <folio>97v</folio>
+                     <folio>98r</folio>
+                     <folio>98v</folio>
+                     <folio>99r</folio>
+                     <folio>99v</folio>
+                     <folio>100r</folio>
+                     <folio>100v</folio>
+                     <folio>101r</folio>
+                     <folio>101v</folio>
+                     <folio>102r</folio>
+                     <folio>102v</folio>
+                     <folio>103r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b67998" alias="l2d17q2">
+               <fileName filestem="qrdBas-b67998"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>103r</folio>
+                     <folio>103v</folio>
+                     <folio>104r</folio>
+                     <folio>104v</folio>
+                     <folio>105r</folio>
+                     <folio>105v</folio>
+                     <folio>106r</folio>
+                     <folio>106v</folio>
+                     <folio>107r</folio>
+                     <folio>107v</folio>
+                     <folio>108r</folio>
+                     <folio>108v</folio>
+                     <folio>109r</folio>
+                     <folio>109v</folio>
+                     <folio>110r</folio>
+                     <folio>110v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b72974" alias="l2d17q3">
+               <fileName filestem="qrdBas-b72974"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>110v</folio>
+                     <folio>111r</folio>
+                     <folio>111v</folio>
+                     <folio>112r</folio>
+                     <folio>112v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4177" alias="l2d18" type="liber2-distinctio18">
+            <head>Distinctio 18</head>
+            <item id="qrdBas-b74246" alias="l2d18q1">
+               <fileName filestem="qrdBas-b74246"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>112v</folio>
+                     <folio>113r</folio>
+                     <folio>113v</folio>
+                     <folio>114r</folio>
+                     <folio>114v</folio>
+                     <folio>115r</folio>
+                     <folio>115v</folio>
+                     <folio>116r</folio>
+                     <folio>116v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4216" alias="l2d19" type="liber2-distinctio19">
+            <head>Distinctio 19</head>
+            <item id="qrdBas-b77107" alias="l2d19q1">
+               <fileName filestem="qrdBas-b77107"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>117r</folio>
+                     <folio>117v</folio>
+                     <folio>118r</folio>
+                     <folio>118v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4246" alias="l2d20" type="liber2-distinctio20">
+            <head>Distinctio 20</head>
+            <item id="qrdBas-b78188" alias="l2d20q1">
+               <fileName filestem="qrdBas-b78188"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>118v</folio>
+                     <folio>119r</folio>
+                     <folio>119v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4272"
+              alias="l2d21-22"
+              type="liber2-distinctio21 liber2-distinctio22">
+            <head>Distinctio 21-22</head>
+            <item id="qrdBas-b79097" alias="l2d21-22q1">
+               <fileName filestem="qrdBas-b79097"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>119v</folio>
+                     <folio>120r</folio>
+                     <folio>120v</folio>
+                     <folio>121r</folio>
+                     <folio>121v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4302" alias="l2d23" type="liber2-distinctio23">
+            <head>Distinctio 23</head>
+            <item id="qrdBas-b80124" alias="l2d23q1">
+               <fileName filestem="qrdBas-b80124"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>121v</folio>
+                     <folio>122r</folio>
+                     <folio>122v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4329" alias="l2d24" type="liber2-distinctio24">
+            <head>Distinctio 24</head>
+            <item id="qrdBas-b80844" alias="l2d24q1">
+               <fileName filestem="qrdBas-b80844"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>122v</folio>
+                     <folio>123r</folio>
+                     <folio>123v</folio>
+                     <folio>124r</folio>
+                     <folio>124v</folio>
+                     <folio>125r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b82644" alias="l2d24q2">
+               <fileName filestem="qrdBas-b82644"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>125r</folio>
+                     <folio>125v</folio>
+                     <folio>126r</folio>
+                     <folio>126v</folio>
+                     <folio>127r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4387" alias="l2d25" type="liber2-distinctio25">
+            <head>Distinctio 25</head>
+            <item id="qrdBas-b83836" alias="l2d25q1">
+               <fileName filestem="qrdBas-b83836"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>127r</folio>
+                     <folio>127v</folio>
+                     <folio>128r</folio>
+                     <folio>128v</folio>
+                     <folio>129r</folio>
+                     <folio>129v</folio>
+                     <folio>130r</folio>
+                     <folio>130v</folio>
+                     <folio>131r</folio>
+                     <folio>131v</folio>
+                     <folio>132r</folio>
+                     <folio>132v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b87609" alias="l2d25q2">
+               <fileName filestem="qrdBas-b87609"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>133r</folio>
+                     <folio>133v</folio>
+                     <folio>134r</folio>
+                     <folio>134v</folio>
+                     <folio>135r</folio>
+                     <folio>135v</folio>
+                     <folio>136r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4465"
+              alias="l2d26-28"
+              type="liber2-distinctio26 liber2-distinctio27 liber2-distinctio28">
+            <head>Distinctio 26-28</head>
+            <item id="qrdBas-b89731" alias="l2d26-28q1">
+               <fileName filestem="qrdBas-b89731"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>136r</folio>
+                     <folio>136v</folio>
+                     <folio>137r</folio>
+                     <folio>137v</folio>
+                     <folio>138r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4495" alias="l2d29" type="liber2-distinctio29">
+            <head>Distinctio 29</head>
+            <item id="qrdBas-b91142" alias="l2d29q1">
+               <fileName filestem="qrdBas-b91142"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>138r</folio>
+                     <folio>138v</folio>
+                     <folio>139r</folio>
+                     <folio>139v</folio>
+                     <folio>140r</folio>
+                     <folio>140v</folio>
+                     <folio>141r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4530" alias="l2d30" type="liber2-distinctio30">
+            <head>Distinctio 30</head>
+            <item id="qrdBas-b93050" alias="l2d30q1">
+               <fileName filestem="qrdBas-b93050"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>141r</folio>
+                     <folio>141v</folio>
+                     <folio>142r</folio>
+                     <folio>142v</folio>
+                     <folio>143r</folio>
+                     <folio>143v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="qrdBas-b95009" alias="l2d30q2">
+               <fileName filestem="qrdBas-b95009"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>143v</folio>
+                     <folio>144r</folio>
+                     <folio>144v</folio>
+                     <folio>145r</folio>
+                     <folio>145v</folio>
+                     <folio>146r</folio>
+                     <folio>146v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4593"
+              alias="l2d31-32"
+              type="liber2-distinctio31 liber2-distinctio32">
+            <head>Distinctio 31-32</head>
+            <item id="qrdBas-b96915" alias="l2d31-32q1">
+               <fileName filestem="qrdBas-b96915"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>146v</folio>
+                     <folio>147r</folio>
+                     <folio>147v</folio>
+                     <folio>148r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4622" alias="l2d33" type="liber2-distinctio33">
+            <head>Distinctio 33</head>
+            <item id="qrdBas-b98054" alias="l2d33q1">
+               <fileName filestem="qrdBas-b98054"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>148r</folio>
+                     <folio>148v</folio>
+                     <folio>149r</folio>
+                     <folio>149v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4650" alias="l2d34" type="liber2-distinctio34">
+            <head>Distinctio 34</head>
+            <item id="qrdBas-b99056" alias="l2d34q1">
+               <fileName filestem="qrdBas-b99056"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>149v</folio>
+                     <folio>150r</folio>
+                     <folio>150v</folio>
+                     <folio>151r</folio>
+                     <folio>151v</folio>
+                     <folio>152r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4683" alias="l2d35" type="liber2-distinctio35">
+            <head>Distinctio 35</head>
+            <item id="qrdBas-b1005z" alias="l2d35q1">
+               <fileName filestem="qrdBas-b1005z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>152r</folio>
+                     <folio>152v</folio>
+                     <folio>153r</folio>
+                     <folio>153v</folio>
+                     <folio>154r</folio>
+                     <folio>154v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4716" alias="l2d36" type="liber2-distinctio36">
+            <head>Distinctio 36</head>
+            <item id="qrdBas-b1023z" alias="l2d36q1">
+               <fileName filestem="qrdBas-b1023z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>154v</folio>
+                     <folio>155r</folio>
+                     <folio>155v</folio>
+                     <folio>156r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4744" alias="l2d37" type="liber2-distinctio37">
+            <head>Distinctio 37</head>
+            <item id="qrdBas-b1032z" alias="l2d37q1">
+               <fileName filestem="qrdBas-b1032z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>156r</folio>
+                     <folio>156v</folio>
+                     <folio>157r</folio>
+                     <folio>157v</folio>
+                     <folio>158r</folio>
+                     <folio>158v</folio>
+                     <folio>159r</folio>
+                     <folio>159v</folio>
+                     <folio>160r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4783" alias="l2d38" type="liber2-distinctio38">
+            <head>Distinctio 38</head>
+            <item id="qrdBas-b1059z" alias="l2d38q1">
+               <fileName filestem="qrdBas-b1059z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>160r</folio>
+                     <folio>160v</folio>
+                     <folio>161r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4810" alias="l2d39" type="liber2-distinctio39">
+            <head>Distinctio 39</head>
+            <item id="qrdBas-b1066z" alias="l2d39q1">
+               <fileName filestem="qrdBas-b1066z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>161r</folio>
+                     <folio>161v</folio>
+                     <folio>162r</folio>
+                     <folio>162v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4838"
+              alias="l2d40-41"
+              type="liber2-distinctio40 liber2-distinctio41">
+            <head>Distinctio 40-41</head>
+            <item id="qrdBas-b1078z" alias="l2d40-41q1">
+               <fileName filestem="qrdBas-b1078z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>164r</folio>
+                     <folio>164v</folio>
+                     <folio>165r</folio>
+                     <folio>165v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4868" alias="l2d42" type="liber2-distinctio42">
+            <head>Distinctio 42</head>
+            <item id="qrdBas-b1091z" alias="l2d42q1">
+               <fileName filestem="qrdBas-b1091z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>165v</folio>
+                     <folio>166r</folio>
+                     <folio>166v</folio>
+                     <folio>167r</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="qrdBas-d1e4896"
+              alias="l2d43-44"
+              type="liber2-distinctio43 liber2-distinctio44">
+            <head>Distinctio 43-44</head>
+            <item id="qrdBas-b1102z" alias="l2d43-44q1">
+               <fileName filestem="qrdBas-b1102z"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-B876a2">
+                     <folio>168v</folio>
+                     <folio>169r</folio>
+                     <folio>169v</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
       </div>
    </div>
 </listofFileNames>
