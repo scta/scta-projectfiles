@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
   <header>
     <authorName>John Bassolis</authorName>
     <commentaryName>Commentarius in libros Sententiarum</commentaryName>
@@ -2435,7 +2438,8 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e4465" alias="l2d26-28" type="liber2-distinctio26 liber2-distinctio27 liber2-distinctio28">
+      <div id="qrdBas-d1e4465" alias="l2d26-28"
+        type="liber2-distinctio26 liber2-distinctio27 liber2-distinctio28">
         <head>Distinctiones 26-28</head>
         <item id="qrdBas-b89731" alias="l2d26-28q1">
           <fileName filestem="qrdBas-b89731"/>
@@ -2700,7 +2704,6 @@
             <folio>1r</folio>
             <folio>1v</folio>
             <folio>2r</folio>
-            <folio>2v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -2712,6 +2715,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>2r</folio>
               <folio>2v</folio>
               <folio>3r</folio>
               <folio>3v</folio>
@@ -2724,7 +2728,6 @@
               <folio>7r</folio>
               <folio>7v</folio>
               <folio>8r</folio>
-              <folio>8v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2734,6 +2737,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>8r</folio>
               <folio>8v</folio>
               <folio>9r</folio>
               <folio>9v</folio>
@@ -2746,7 +2750,6 @@
               <folio>13r</folio>
               <folio>13v</folio>
               <folio>14r</folio>
-              <folio>14v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2756,11 +2759,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>14r</folio>
               <folio>14v</folio>
               <folio>15r</folio>
               <folio>15v</folio>
               <folio>16r</folio>
-              <folio>16v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2770,13 +2773,13 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>16r</folio>
               <folio>16v</folio>
               <folio>17r</folio>
               <folio>17v</folio>
               <folio>18r</folio>
               <folio>18v</folio>
               <folio>19r</folio>
-              <folio>19v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2786,10 +2789,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>19r</folio>
               <folio>19v</folio>
               <folio>20r</folio>
               <folio>20v</folio>
-              <folio>21r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2799,10 +2802,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>20v</folio>
               <folio>21r</folio>
               <folio>21v</folio>
               <folio>22r</folio>
-              <folio>22v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2815,10 +2818,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>22r</folio>
               <folio>22v</folio>
               <folio>23r</folio>
               <folio>23v</folio>
-              <folio>24r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2828,11 +2831,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>23v</folio>
               <folio>24r</folio>
               <folio>24v</folio>
               <folio>25r</folio>
               <folio>25v</folio>
-              <folio>26r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2842,9 +2845,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>25v</folio>
               <folio>26r</folio>
               <folio>26v</folio>
-              <folio>27r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2854,8 +2857,8 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>26v</folio>
               <folio>27r</folio>
-              <folio>27v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2868,10 +2871,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>27r</folio>
               <folio>27v</folio>
               <folio>28r</folio>
               <folio>28v</folio>
-              <folio>29r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2881,10 +2884,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>28v</folio>
               <folio>29r</folio>
               <folio>29v</folio>
               <folio>30r</folio>
-              <folio>30v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2897,12 +2900,12 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>30r</folio>
               <folio>30v</folio>
               <folio>31r</folio>
               <folio>31v</folio>
               <folio>32r</folio>
               <folio>32v</folio>
-              <folio>33r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2915,10 +2918,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>32v</folio>
               <folio>33r</folio>
               <folio>33v</folio>
               <folio>34r</folio>
-              <folio>34v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2931,6 +2934,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>34r</folio>
               <folio>34v</folio>
               <folio>35r</folio>
               <folio>35v</folio>
@@ -2938,7 +2942,6 @@
               <folio>36v</folio>
               <folio>37r</folio>
               <folio>37v</folio>
-              <folio>38r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2951,9 +2954,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>37v</folio>
               <folio>38r</folio>
               <folio>38v</folio>
-              <folio>39r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2966,13 +2969,13 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>38v</folio>
               <folio>39r</folio>
               <folio>39v</folio>
               <folio>40r</folio>
               <folio>40v</folio>
               <folio>41r</folio>
               <folio>41v</folio>
-              <folio>42r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2985,7 +2988,6 @@
               <folio>42r</folio>
               <folio>42v</folio>
               <folio>43r</folio>
-              <folio>43v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -2998,10 +3000,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>43r</folio>
               <folio>43v</folio>
               <folio>44r</folio>
               <folio>44v</folio>
-              <folio>45r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3014,9 +3016,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>44v</folio>
               <folio>45r</folio>
               <folio>45v</folio>
-              <folio>46r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3029,10 +3031,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>45v</folio>
               <folio>46r</folio>
               <folio>46v</folio>
               <folio>47r</folio>
-              <folio>47v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3047,7 +3049,6 @@
             <witness ref="#cod-B876a3">
               <folio>47v</folio>
               <folio>48r</folio>
-              <folio>48v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3060,10 +3061,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>48r</folio>
               <folio>48v</folio>
               <folio>49r</folio>
               <folio>49v</folio>
-              <folio>50r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3076,13 +3077,13 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>49v</folio>
               <folio>50r</folio>
               <folio>50v</folio>
               <folio>51r</folio>
               <folio>51v</folio>
               <folio>52r</folio>
               <folio>52v</folio>
-              <folio>53r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3092,13 +3093,13 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>52v</folio>
               <folio>53r</folio>
               <folio>53v</folio>
               <folio>54r</folio>
               <folio>54v</folio>
               <folio>55r</folio>
               <folio>55v</folio>
-              <folio>56r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3108,13 +3109,13 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>55v</folio>
               <folio>56r</folio>
               <folio>56v</folio>
               <folio>57r</folio>
               <folio>57v</folio>
               <folio>58r</folio>
               <folio>58v</folio>
-              <folio>59r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3127,6 +3128,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>58v</folio>
               <folio>59r</folio>
               <folio>59v</folio>
               <folio>60r</folio>
@@ -3135,7 +3137,6 @@
               <folio>61v</folio>
               <folio>62r</folio>
               <folio>62v</folio>
-              <folio>63r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3148,9 +3149,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>62v</folio>
               <folio>63r</folio>
               <folio>63v</folio>
-              <folio>64r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3163,8 +3164,8 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>63v</folio>
               <folio>64r</folio>
-              <folio>64v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3177,11 +3178,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>64r</folio>
               <folio>64v</folio>
               <folio>65r</folio>
               <folio>65v</folio>
               <folio>66r</folio>
-              <folio>66v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3194,10 +3195,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>66r</folio>
               <folio>66v</folio>
               <folio>67r</folio>
               <folio>67v</folio>
-              <folio>68r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3210,11 +3211,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>67v</folio>
               <folio>68r</folio>
               <folio>68v</folio>
               <folio>69r</folio>
               <folio>69v</folio>
-              <folio>70r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3227,11 +3228,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>69v</folio>
               <folio>70r</folio>
               <folio>70v</folio>
               <folio>71r</folio>
               <folio>71v</folio>
-              <folio>72r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3244,6 +3245,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>71v</folio>
               <folio>72r</folio>
               <folio>72v</folio>
               <folio>73r</folio>
@@ -3251,7 +3253,6 @@
               <folio>74r</folio>
               <folio>74v</folio>
               <folio>75r</folio>
-              <folio>75v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3264,11 +3265,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>75r</folio>
               <folio>75v</folio>
               <folio>76r</folio>
               <folio>76v</folio>
               <folio>77r</folio>
-              <folio>77v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3281,10 +3282,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>77r</folio>
               <folio>77v</folio>
               <folio>78r</folio>
               <folio>78v</folio>
-              <folio>79r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3297,8 +3298,8 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>78v</folio>
               <folio>79r</folio>
-              <folio>79v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3311,10 +3312,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>79r</folio>
               <folio>79v</folio>
               <folio>80r</folio>
               <folio>80v</folio>
-              <folio>81r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3327,18 +3328,19 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>80v</folio>
               <folio>81r</folio>
               <folio>81v</folio>
               <folio>82r</folio>
               <folio>82v</folio>
               <folio>83r</folio>
               <folio>83v</folio>
-              <folio>84r</folio>
             </witness>
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e6068" alias="l3d28-30" type="liber3-distinctio28 liber3-distinctio29 liber3-distinctio30">
+      <div id="qrdBas-d1e6068" alias="l3d28-30"
+        type="liber3-distinctio28 liber3-distinctio29 liber3-distinctio30">
         <head>Distinctiones 28-30</head>
         <item id="qrdBas-c55048" alias="l3d28-30q1">
           <fileName filestem="qrdBas-c55048"/>
@@ -3346,9 +3348,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>83v</folio>
               <folio>84r</folio>
               <folio>84v</folio>
-              <folio>85r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3361,10 +3363,10 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>84v</folio>
               <folio>85r</folio>
               <folio>85v</folio>
               <folio>86r</folio>
-              <folio>86v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3377,9 +3379,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>86r</folio>
               <folio>86v</folio>
               <folio>87r</folio>
-              <folio>87v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3392,12 +3394,12 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>87r</folio>
               <folio>87v</folio>
               <folio>88r</folio>
               <folio>88v</folio>
               <folio>89r</folio>
               <folio>89v</folio>
-              <folio>90r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3407,12 +3409,12 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>89v</folio>
               <folio>90r</folio>
               <folio>90v</folio>
               <folio>91r</folio>
               <folio>91v</folio>
               <folio>92r</folio>
-              <folio>92v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3422,11 +3424,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>92r</folio>
               <folio>92v</folio>
               <folio>93r</folio>
               <folio>93v</folio>
               <folio>94r</folio>
-              <folio>94v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3439,9 +3441,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>94r</folio>
               <folio>94v</folio>
               <folio>95r</folio>
-              <folio>95v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3454,9 +3456,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>95r</folio>
               <folio>95v</folio>
               <folio>96r</folio>
-              <folio>96v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3469,6 +3471,7 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>96r</folio>
               <folio>96v</folio>
               <folio>97r</folio>
               <folio>97v</folio>
@@ -3477,7 +3480,6 @@
               <folio>99r</folio>
               <folio>99v</folio>
               <folio>100r</folio>
-              <folio>100v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3490,11 +3492,11 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>100r</folio>
               <folio>100v</folio>
               <folio>101r</folio>
               <folio>101v</folio>
               <folio>102r</folio>
-              <folio>102v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3507,9 +3509,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>102r</folio>
               <folio>102v</folio>
               <folio>103r</folio>
-              <folio>103v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3522,8 +3524,8 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>103r</folio>
               <folio>103v</folio>
-              <folio>104r</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3533,8 +3535,8 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>103v</folio>
               <folio>104r</folio>
-              <folio>104v</folio>
             </witness>
           </hasWitnesses>
         </item>
@@ -3547,9 +3549,9 @@
           <questionTitle/>
           <hasWitnesses>
             <witness ref="#cod-B876a3">
+              <folio>104r</folio>
               <folio>104v</folio>
               <folio>105r</folio>
-              <folio>105v</folio>
               <folio>105v</folio>
             </witness>
           </hasWitnesses>
@@ -4280,7 +4282,8 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e7768" alias="l4d27-29" type="liber4-distinctio27 liber4-distinctio28 liber4-distinctio29">
+      <div id="qrdBas-d1e7768" alias="l4d27-29"
+        type="liber4-distinctio27 liber4-distinctio28 liber4-distinctio29">
         <head>Distinctio 27-29</head>
         <item id="qrdBas-f65663" alias="l4d27-29q1">
           <fileName filestem="qrdBas-f65663"/>
@@ -4345,7 +4348,8 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e7883" alias="l4d34-36" type="liber4-distinctio34 liber4-distinctio35 liber4-distinctio36">
+      <div id="qrdBas-d1e7883" alias="l4d34-36"
+        type="liber4-distinctio34 liber4-distinctio35 liber4-distinctio36">
         <head>Distinctiones 34-36</head>
         <item id="qrdBas-f69791" alias="l4d34-36q1">
           <fileName filestem="qrdBas-f69791"/>
@@ -4361,7 +4365,8 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e7911" alias="l4d37-39" type="liber4-distinctio37 liber4-distinctio38 liber4-distinctio39">
+      <div id="qrdBas-d1e7911" alias="l4d37-39"
+        type="liber4-distinctio37 liber4-distinctio38 liber4-distinctio39">
         <head>Distinctiones 37-39</head>
         <item id="qrdBas-f70827" alias="l4d37-39q1">
           <fileName filestem="qrdBas-f70827"/>
@@ -4377,7 +4382,8 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="qrdBas-d1e7939" alias="l4d40-42" type="liber4-distinctio40 liber4-distinctio41 liber4-distinctio42">
+      <div id="qrdBas-d1e7939" alias="l4d40-42"
+        type="liber4-distinctio40 liber4-distinctio41 liber4-distinctio42">
         <head>Distinctiones 40-42</head>
         <item id="qrdBas-f71870" alias="l4d40-42q1">
           <fileName filestem="qrdBas-f71870"/>
