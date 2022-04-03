@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Peter of Tarantaise</authorName>
+    <commentaryName>Commentarius in libros Sententiarum</commentaryName>
+    <commentaryid>pdt7y6</commentaryid>
+    <commentaryslug>pdt7y6</commentaryslug>
+    <authorUri>http://scta.info/resource/PetrusDeTarantasia</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource>1652 edition</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt and Calix G. O'Hara</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="P">
+        <slug>bnf14556</slug>
+        <title>Paris, BnF, Latin 14556 </title>
+        <initial>P</initial>
+      </witness>
+      <witness id="cod-gpmsgd">
+        <slug>cod-gpmsgd</slug>
+        <title>Toulouse 1652</title>
+        <initial>cod-gpmsgd</initial>
+      </witness>
+      <witness id="B">
+        <slug>clm14067</slug>
+        <title>Munich Clm 14067</title>
+        <initial>B</initial>
+        <!-- https://opacplus.bsb-muenchen.de/title/BV035278454
+          https://daten.digitale-sammlungen.de/~db/0003/bsb00034250/images/
+        -->
+      </witness>
+      <witness id="Ba">
+        <slug>clm28212</slug>
+        <title>Munich Clm 28212</title>
+        <initial>Ba</initial>
+        <!-- https://opacplus.bsb-muenchen.de/title/BV037460588 
+        https://daten.digitale-sammlungen.de/~db/0010/bsb00106778/images/ (good color images) 
+        -->
+      </witness>
+      <!-- 
+        CLM 3774
+        https://opacplus.bsb-muenchen.de/title/BV037449540
+        https://daten.digitale-sammlungen.de/~db/0011/bsb00114314/images/
+        
+        CLM 18365 
+        https://opacplus.bsb-muenchen.de/title/BV037455899
+        
+        Bfn Latin 14899
+        https://gallica.bnf.fr/ark:/12148/btv1b53164663t
+        -->
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in libros Sententiarum</head>
+    <div id="pdt7y6-d1e78" type="liber1">
+      <head>Liber 1</head>
+<item id="pdt7y6-e1e300" alias="l1prooemium">
+   <fileName filestem="pdt7y6-e1e300"/>
+   <title>Prooemium</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>1</folio>
+         <folio>2</folio>
+         <folio>3</folio>
+         <folio>4</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e106" type="liber1-prologus">
+      <head>Prologus</head>
+<item id="pdt7y6-e1e577" alias="l1prolq1">
+   <fileName filestem="pdt7y6-e1e577"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De scientia theologiae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>4</folio>
+         <folio>5</folio>
+         <folio>6</folio>
+         <folio>7</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee1877" alias="l1prolprae">
+   <fileName filestem="pdt7y6-ee1877"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>7</folio>
+         <folio>8</folio>
+         <folio>9</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+      <div id="pdt7y6-d1e155" type="liber1-distinctio1">
+        <head>Distinctio 1</head>
+<item id="pdt7y6-ee2211" alias="l1d1prae">
+   <fileName filestem="pdt7y6-ee2211"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>9</folio>
+         <folio>10</folio>
+         <folio>11</folio>
+         <folio>12</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee2703" alias="l1d1q1">
+   <fileName filestem="pdt7y6-ee2703"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De usu</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>12</folio>
+         <folio>13</folio>
+         <folio>14</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee3431" alias="l1d1q2">
+   <fileName filestem="pdt7y6-ee3431"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De fruitione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>14</folio>
+         <folio>15</folio>
+         <folio>16</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+      </div>
+    <div id="pdt7y6-d1e225" type="liber1-distinctio2">
+      <head>Distinctio 2</head>
+<item id="pdt7y6-ee4404" alias="l1d2prae">
+   <fileName filestem="pdt7y6-ee4404"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>16</folio>
+         <folio>17</folio>
+         <folio>18</folio>
+         <folio>19</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee4965" alias="l1d2q1">
+   <fileName filestem="pdt7y6-ee4965"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De unitate essentia</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>19</folio>
+         <folio>20</folio>
+         <folio>21</folio>
+         <folio>22</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee5773" alias="l1d2q2">
+   <fileName filestem="pdt7y6-ee5773"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De pluralitate personarum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>22</folio>
+         <folio>23</folio>
+         <folio>24</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e298" type="liber1-distinctio3">
+      <head>Distinctio 3</head>
+<item id="pdt7y6-ee6691" alias="l1d3prae">
+   <fileName filestem="pdt7y6-ee6691"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>24</folio>
+         <folio>25</folio>
+         <folio>26</folio>
+         <folio>27</folio>
+         <folio>28</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee7358" alias="l1d3q1">
+   <fileName filestem="pdt7y6-ee7358"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De cognitio Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>28</folio>
+         <folio>29</folio>
+         <folio>30</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee8125" alias="l1d3q2">
+   <fileName filestem="pdt7y6-ee8125"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De modo cognoscendi Deum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>30</folio>
+         <folio>31</folio>
+         <folio>32</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee8635" alias="l1d3q3">
+   <fileName filestem="pdt7y6-ee8635"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De medio cognoscendi Deum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>32</folio>
+         <folio>33</folio>
+         <folio>34</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-ee9540" alias="l1d3q4">
+   <fileName filestem="pdt7y6-ee9540"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De imagine Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>34</folio>
+         <folio>35</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e10002" alias="l1d3q5">
+   <fileName filestem="pdt7y6-e10002"/>
+   <title>Quaestio 5</title>
+   <questionTitle>
+  De imagine memoriae, intelligentiae, et voluntatis in speciali</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>35</folio>
+         <folio>36</folio>
+         <folio>37</folio>
+         <folio>38</folio>
+         <folio>39</folio>
+         <folio>40</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e11557" alias="l1d3q6">
+   <fileName filestem="pdt7y6-e11557"/>
+   <title>Quaestio 6</title>
+   <questionTitle>De imagine mentis notitiae et amoris</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>40</folio>
+         <folio>41</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e11984" alias="l1d3q7">
+   <fileName filestem="pdt7y6-e11984"/>
+   <title>Quaestio 7</title>
+   <questionTitle>De differentia praedictarum duarum imaginum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>41</folio>
+         <folio>42</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e477" type="liber1-distinctio4">
+      <head>Distinctio 4</head>
+<item id="pdt7y6-e12492" alias="l1d4prae">
+   <fileName filestem="pdt7y6-e12492"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>42</folio>
+         <folio>43</folio>
+         <folio>44</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e12746" alias="l1d4q1">
+   <fileName filestem="pdt7y6-e12746"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De veritate divinae generationis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>44</folio>
+         <folio>45</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e13081" alias="l1d4q2">
+   <fileName filestem="pdt7y6-e13081"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De veritate propositionum generationum Diuinam significantium</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>45</folio>
+         <folio>46</folio>
+         <folio>47</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e13765" alias="l1d4q3">
+   <fileName filestem="pdt7y6-e13765"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De veritate praedicationis circa Divina</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>47</folio>
+         <folio>48</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e14269" alias="l1d4q4">
+   <fileName filestem="pdt7y6-e14269"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De natura huius Termini Deus</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>48</folio>
+         <folio>49</folio>
+         <folio>52</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e584" type="liber1-distinctio5">
+      <head>Distinctio 5</head>
+<item id="pdt7y6-e14893" alias="l1d5prae">
+   <fileName filestem="pdt7y6-e14893"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>52</folio>
+         <folio>53</folio>
+         <folio>54</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e15511" alias="l1d5q1">
+   <fileName filestem="pdt7y6-e15511"/>
+   <title>Quaestio 1</title>
+   <questionTitle>An essentia Divina sit generans</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>54</folio>
+         <folio>55</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e16036" alias="l1d5q2">
+   <fileName filestem="pdt7y6-e16036"/>
+   <title>Quaestio 2</title>
+   <questionTitle>An essentia sit genita</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>55</folio>
+         <folio>56</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e16477" alias="l1d5q3">
+   <fileName filestem="pdt7y6-e16477"/>
+   <title>Quaestio 3</title>
+   <questionTitle>An generatio fiat de essentia</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>56</folio>
+         <folio>57</folio>
+         <folio>59</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e669" type="liber1-distinctio6">
+      <head>Distinctio 6</head>
+<item id="pdt7y6-e17306" alias="l1d6prae">
+   <fileName filestem="pdt7y6-e17306"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>59</folio>
+         <folio>60</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e17501" alias="l1d6q1">
+   <fileName filestem="pdt7y6-e17501"/>
+   <title>Quaestio 1</title>
+   <questionTitle>An Pater genuit filium necessitate vel voluntate</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>60</folio>
+         <folio>61</folio>
+         <folio>63</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e18562" alias="l1d7prae">
+   <fileName filestem="pdt7y6-e18562"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>63</folio>
+         <folio>64</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e733" type="liber1-distinctio7">
+      <head>Distinctio 7</head>
+<item id="pdt7y6-e18830" alias="l1d7q1">
+   <fileName filestem="pdt7y6-e18830"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De potentia generandi in comparatione ad generantem</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>64</folio>
+         <folio>65</folio>
+         <folio>66</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e19498" alias="l1d7q2">
+   <fileName filestem="pdt7y6-e19498"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De potentia generativa per comparationem ad genitum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>66</folio>
+         <folio>67</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e19903" alias="l1d7q3">
+   <fileName filestem="pdt7y6-e19903"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De potentia generandi in 
+comparatione ad potentiam creandi</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>67</folio>
+         <folio>68</folio>
+         <folio>71</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e799" type="liber1-distinctio8">
+      <head>Distinctio 8</head>
+<item id="pdt7y6-e20549" alias="l1d8prae">
+   <fileName filestem="pdt7y6-e20549"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>71</folio>
+         <folio>72</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e21074" alias="l1d8q1">
+   <fileName filestem="pdt7y6-e21074"/>
+   <title>Quaestio 1</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>72</folio>
+         <folio>73</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e21412" alias="l1d8q2">
+   <fileName filestem="pdt7y6-e21412"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De veritate divinae essentiae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>73</folio>
+         <folio>74</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e21740" alias="l1d8q3">
+   <fileName filestem="pdt7y6-e21740"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De aeternitate divinae essentiae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>74</folio>
+         <folio>75</folio>
+         <folio>76</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e22623" alias="l1d8q4">
+   <fileName filestem="pdt7y6-e22623"/>
+   <title>Quaestio 4</title>
+   <questionTitle> De divina immutabilitate</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>76</folio>
+         <folio>77</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e23068" alias="l1d8q5">
+   <fileName filestem="pdt7y6-e23068"/>
+   <title>Quaestio 5</title>
+   <questionTitle>De divina simplicitate</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>77</folio>
+         <folio>78</folio>
+         <folio>79</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e23685" alias="l1d8q6">
+   <fileName filestem="pdt7y6-e23685"/>
+   <title>Quaestio 6</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>79</folio>
+         <folio>80</folio>
+         <folio>81</folio>
+         <folio>84</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e947" type="liber1-distinctio9">
+      <head>Distinctio 9</head>
+<item id="pdt7y6-e24776" alias="l1d9prae">
+   <fileName filestem="pdt7y6-e24776"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>84</folio>
+         <folio>85</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e25260" alias="l1d9q1">
+   <fileName filestem="pdt7y6-e25260"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De distinctione geniti a generante</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>85</folio>
+         <folio>86</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e25720" alias="l1d9q2">
+   <fileName filestem="pdt7y6-e25720"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De ordine Patris Filii</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>86</folio>
+         <folio>87</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e26093" alias="l1d9q3">
+   <fileName filestem="pdt7y6-e26093"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De aeternitate generantis et geniti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>87</folio>
+         <folio>88</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e26585" alias="l1d9q4">
+   <fileName filestem="pdt7y6-e26585"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De coaeternitatis significatione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>88</folio>
+         <folio>89</folio>
+         <folio>90</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1050" type="liber1-distinctio10">
+      <head>Distinctio 10</head>
+<item id="pdt7y6-e27180" alias="l1d10prae">
+   <fileName filestem="pdt7y6-e27180"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>90</folio>
+         <folio>91</folio>
+         <folio>92</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e27506" alias="l1d10q1">
+   <fileName filestem="pdt7y6-e27506"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De modo quo Spiritus Sanctus procedit</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>92</folio>
+         <folio>93</folio>
+         <folio>94</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e28168" alias="l1d10q2">
+   <fileName filestem="pdt7y6-e28168"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De proprietate Spiritus Sancti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>94</folio>
+         <folio>95</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e28731" alias="l1d10q3">
+   <fileName filestem="pdt7y6-e28731"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De communitate nominis Spiritus Sancti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>95</folio>
+         <folio>96</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1135" type="liber1-distinctio11">
+      <head>Distinctio 11</head>
+<item id="pdt7y6-e29165" alias="l1d11prae">
+   <fileName filestem="pdt7y6-e29165"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>96</folio>
+         <folio>97</folio>
+         <folio>98</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e29402" alias="l1d11q1">
+   <fileName filestem="pdt7y6-e29402"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De processione Spiritus sancti a Patre et Filio</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>98</folio>
+         <folio>99</folio>
+         <folio>100</folio>
+         <folio>101</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1184" type="liber1-distinctio12">
+      <head>Distinctio 12</head>
+<item id="pdt7y6-e30693" alias="l1d12prae">
+   <fileName filestem="pdt7y6-e30693"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>101</folio>
+         <folio>102</folio>
+         <folio>103</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e30956" alias="l1d12q1">
+   <fileName filestem="pdt7y6-e30956"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De ordine processionis Spiritus Sancti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>103</folio>
+         <folio>104</folio>
+         <folio>105</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1231" type="liber1-distinctio13">
+      <head>Distinctio 13</head>
+<item id="pdt7y6-e31834" alias="l1d13prae">
+   <fileName filestem="pdt7y6-e31834"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>105</folio>
+         <folio>106</folio>
+         <folio>107</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e32152" alias="l1d13q1">
+   <fileName filestem="pdt7y6-e32152"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De processione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>107</folio>
+         <folio>108</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e32547" alias="l1d13q2">
+   <fileName filestem="pdt7y6-e32547"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De comparatione generationis et processionis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>108</folio>
+         <folio>109</folio>
+         <folio>110</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e33109" alias="l1d13q3">
+   <fileName filestem="pdt7y6-e33109"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De ratione ingeniti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>110</folio>
+         <folio>111</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1316" type="liber1-distinctio14">
+      <head>Distinctio 14</head>
+<item id="pdt7y6-e33552" alias="l1d14prae">
+   <fileName filestem="pdt7y6-e33552"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>111</folio>
+         <folio>112</folio>
+         <folio>113</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e33882" alias="l1d14q1">
+   <fileName filestem="pdt7y6-e33882"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De processione temporali Spiritus Sancti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>113</folio>
+         <folio>114</folio>
+         <folio>115</folio>
+         <folio>116</folio>
+         <folio>117</folio>
+         <folio>118</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1371" type="liber1-distinctio15">
+      <head>Distinctio 15</head>
+<item id="pdt7y6-e35754" alias="l1d15prae">
+   <fileName filestem="pdt7y6-e35754"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>118</folio>
+         <folio>119</folio>
+         <folio>120</folio>
+         <folio>121</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e36242" alias="l1d15q1">
+   <fileName filestem="pdt7y6-e36242"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De missione in communi</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>121</folio>
+         <folio>122</folio>
+         <folio>123</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e36820" alias="l1d15q2">
+   <fileName filestem="pdt7y6-e36820"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De missione Spiritus Sancti</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>123</folio>
+         <folio>124</folio>
+         <folio>125</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e37646" alias="l1d15q3">
+   <fileName filestem="pdt7y6-e37646"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De missione Filii</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>125</folio>
+         <folio>126</folio>
+         <folio>127</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e38237" alias="l1d15q4">
+   <fileName filestem="pdt7y6-e38237"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De termino missionis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>127</folio>
+         <folio>128</folio>
+         <folio>129</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1484" type="liber1-distinctio16">
+      <head>Distinctio 16</head>
+<item id="pdt7y6-e39022" alias="l1d16prae">
+   <fileName filestem="pdt7y6-e39022"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>129</folio>
+         <folio>130</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e39316" alias="l1d16q1">
+   <fileName filestem="pdt7y6-e39316"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De missione visibili</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>130</folio>
+         <folio>131</folio>
+         <folio>132</folio>
+         <folio>133</folio>
+         <folio>134</folio>
+         <folio>135</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1536" type="liber1-distinctio17">
+      <head>Distinctio 17</head>
+<item id="pdt7y6-e40985" alias="l1d17prae">
+   <fileName filestem="pdt7y6-e40985"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>135</folio>
+         <folio>136</folio>
+         <folio>137</folio>
+         <folio>138</folio>
+         <folio>139</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e41725" alias="l1d17q1">
+   <fileName filestem="pdt7y6-e41725"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De essentia caritatis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>139</folio>
+         <folio>140</folio>
+         <folio>141</folio>
+         <folio>142</folio>
+         <folio>143</folio>
+         <folio>144</folio>
+         <folio>145</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e43828" alias="l1d17q2">
+   <fileName filestem="pdt7y6-e43828"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De augmento caritatis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>145</folio>
+         <folio>146</folio>
+         <folio>147</folio>
+         <folio>148</folio>
+         <folio>149</folio>
+         <folio>150</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1624" type="liber1-distinctio18">
+      <head>Distinctio 18</head>
+<item id="pdt7y6-e45699" alias="l1d18prae">
+   <fileName filestem="pdt7y6-e45699"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>150</folio>
+         <folio>151</folio>
+         <folio>152</folio>
+         <folio>153</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e46168" alias="l1d18q1">
+   <fileName filestem="pdt7y6-e46168"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De ratione doni in seipso</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>153</folio>
+         <folio>154</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e46488" alias="l1d18q2">
+   <fileName filestem="pdt7y6-e46488"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De ratione doni in comparatione ad alias personas</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>154</folio>
+         <folio>155</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e47106" alias="l1d18q3">
+   <fileName filestem="pdt7y6-e47106"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De dono Spiritus Sancti in comparatione ad alia dona</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>155</folio>
+         <folio>156</folio>
+         <folio>157</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e47626" alias="l1d18q4">
+   <fileName filestem="pdt7y6-e47626"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De dono Spiritus Sancti in comparatione ad eos quibus datur</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>157</folio>
+         <folio>158</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1731" type="liber1-distinctio19">
+      <head>Distinctio 19</head>
+<item id="pdt7y6-e48251" alias="l1d19prae">
+   <fileName filestem="pdt7y6-e48251"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>158</folio>
+         <folio>159</folio>
+         <folio>160</folio>
+         <folio>161</folio>
+         <folio>162</folio>
+         <folio>163</folio>
+         <folio>164</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e49127" alias="l1d19q1">
+   <fileName filestem="pdt7y6-e49127"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De aequalitate personarum divinarum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>164</folio>
+         <folio>165</folio>
+         <folio>166</folio>
+         <folio>167</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e50302" alias="l1d19q2">
+   <fileName filestem="pdt7y6-e50302"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De illis in quibus assignatur aequalitas personarum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>167</folio>
+         <folio>168</folio>
+         <folio>169</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e50943" alias="l1d19q3">
+   <fileName filestem="pdt7y6-e50943"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De rationibus per quas probatur personarum aequalitas</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>169</folio>
+         <folio>170</folio>
+         <folio>171</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e51818" alias="l1d19q4">
+   <fileName filestem="pdt7y6-e51818"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De exclusione numeri a personis quo impugnatur earum aequalitas</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>171</folio>
+         <folio>172</folio>
+         <folio>173</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1853" type="liber1-distinctio20">
+      <head>Distinctio 20</head>
+<item id="pdt7y6-e52719" alias="l1d20prae">
+   <fileName filestem="pdt7y6-e52719"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>173</folio>
+         <folio>174</folio>
+         <folio>175</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e52954" alias="l1d20q1">
+   <fileName filestem="pdt7y6-e52954"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De aequalitate personarum in potentia</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>175</folio>
+         <folio>176</folio>
+         <folio>177</folio>
+         <folio>178</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1903" type="liber1-distinctio21">
+      <head>Distinctio 21</head>
+<item id="pdt7y6-e54134" alias="l1d21prae">
+   <fileName filestem="pdt7y6-e54134"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>178</folio>
+         <folio>179</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e54342" alias="l1d21q1">
+   <fileName filestem="pdt7y6-e54342"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De dictionibus exclusivis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>179</folio>
+         <folio>180</folio>
+         <folio>181</folio>
+         <folio>182</folio>
+         <folio>183</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e1952" type="liber1-distinctio22">
+      <head>Distinctio 22</head>
+<item id="pdt7y6-e55641" alias="l1d22prae">
+   <fileName filestem="pdt7y6-e55641"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>183</folio>
+         <folio>184</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e55876" alias="l1d22q1">
+   <fileName filestem="pdt7y6-e55876"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De Divinis Nominibus</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>184</folio>
+         <folio>185</folio>
+         <folio>186</folio>
+         <folio>187</folio>
+         <folio>188</folio>
+         <folio>189</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2004" type="liber1-distinctio23">
+      <head>Distinctio 23</head>
+<item id="pdt7y6-e57582" alias="l1d23prae">
+   <fileName filestem="pdt7y6-e57582"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>189</folio>
+         <folio>190</folio>
+         <folio>191</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e58062" alias="l1d23q1">
+   <fileName filestem="pdt7y6-e58062"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De nomine et significatione personae secundum se</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>191</folio>
+         <folio>192</folio>
+         <folio>193</folio>
+         <folio>194</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e59046" alias="l1d23q2">
+   <fileName filestem="pdt7y6-e59046"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De Quibusdam Nominibus inclusis in intellectu personae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>194</folio>
+         <folio>195</folio>
+         <folio>196</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2074" type="liber1-distinctio24">
+      <head>Distinctio 24</head>
+<item id="pdt7y6-e59873" alias="l1d24prae">
+   <fileName filestem="pdt7y6-e59873"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>196</folio>
+         <folio>197</folio>
+         <folio>198</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e60185" alias="l1d24q1">
+   <fileName filestem="pdt7y6-e60185"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De uno in divinis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>198</folio>
+         <folio>199</folio>
+         <folio>200</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e60983" alias="l1d24q2">
+   <fileName filestem="pdt7y6-e60983"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De numero in divinis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>200</folio>
+         <folio>201</folio>
+         <folio>202</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e61502" alias="l1d24q3">
+   <fileName filestem="pdt7y6-e61502"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De termino significante unitatem et numerum in Divinis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>202</folio>
+         <folio>203</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2161" type="liber1-distinctio25">
+      <head>Distinctio 25</head>
+<item id="pdt7y6-e61852" alias="l1d25prae">
+   <fileName filestem="pdt7y6-e61852"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>203</folio>
+         <folio>204</folio>
+         <folio>205</folio>
+         <folio>206</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e62336" alias="l1d25q1">
+   <fileName filestem="pdt7y6-e62336"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De ratione personae eiusque significatione quando iungitur terminis distinctivis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>206</folio>
+         <folio>207</folio>
+         <folio>208</folio>
+         <folio>209</folio>
+         <folio>210</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2214" type="liber1-distinctio26">
+      <head>Distinctio 26</head>
+<item id="pdt7y6-e64106" alias="l1d26prae">
+   <fileName filestem="pdt7y6-e64106"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>210</folio>
+         <folio>211</folio>
+         <folio>212</folio>
+         <folio>213</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e64578" alias="l1d26q1">
+   <fileName filestem="pdt7y6-e64578"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De hypostasi </questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>213</folio>
+         <folio>214</folio>
+         <folio>215</folio>
+         <folio>216</folio>
+         <folio>217</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e65773" alias="l1d26q2">
+   <fileName filestem="pdt7y6-e65773"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De proprietatibus personalibus secundum quod significantur Nominibus propriis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>217</folio>
+         <folio>218</folio>
+         <folio>219</folio>
+         <folio>220</folio>
+         <folio>221</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2293" type="liber1-distinctio27">
+      <head>Distinctio 27</head>
+<item id="pdt7y6-e67472" alias="l1d27prae">
+   <fileName filestem="pdt7y6-e67472"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>221</folio>
+         <folio>222</folio>
+         <folio>223</folio>
+         <folio>224</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e67871" alias="l1d27q1">
+   <fileName filestem="pdt7y6-e67871"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De proprietatibus personalibus in generali, secundum quod significantur aliis nominibus</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>224</folio>
+         <folio>225</folio>
+         <folio>226</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e68513" alias="l1d27q2">
+   <fileName filestem="pdt7y6-e68513"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De proprietate verbi specialiter</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>226</folio>
+         <folio>227</folio>
+         <folio>228</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2363" type="liber1-distinctio28">
+      <head>Distinctio 28</head>
+<item id="pdt7y6-e69491" alias="l1d28prae">
+   <fileName filestem="pdt7y6-e69491"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>228</folio>
+         <folio>229</folio>
+         <folio>230</folio>
+         <folio>231</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e69924" alias="l1d28q1">
+   <fileName filestem="pdt7y6-e69924"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De Differentia proprietatum in eadem persona</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>231</folio>
+         <folio>232</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e70435" alias="l1d28q2">
+   <fileName filestem="pdt7y6-e70435"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De innascibilitate</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>232</folio>
+         <folio>233</folio>
+         <folio>234</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e71268" alias="l1d28q3">
+   <fileName filestem="pdt7y6-e71268"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De proprietate imaginis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>234</folio>
+         <folio>235</folio>
+         <folio>236</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2452" type="liber1-distinctio29">
+      <head>Distinctio 29</head>
+<item id="pdt7y6-e71732" alias="l1d29prae">
+   <fileName filestem="pdt7y6-e71732"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>236</folio>
+         <folio>237</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e72027" alias="l1d29q1">
+   <fileName filestem="pdt7y6-e72027"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De communi spiratione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>237</folio>
+         <folio>238</folio>
+         <folio>239</folio>
+         <folio>240</folio>
+         <folio>241</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2501" type="liber1-distinctio30">
+      <head>Distinctio 30</head>
+<item id="pdt7y6-e73316" alias="l1d30prae">
+   <fileName filestem="pdt7y6-e73316"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>241</folio>
+         <folio>242</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e73537" alias="l1d30q1">
+   <fileName filestem="pdt7y6-e73537"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De quibusdam relationibus quae 
+dicuntur de Deo ex tempore</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>242</folio>
+         <folio>243</folio>
+         <folio>244</folio>
+         <folio>245</folio>
+         <folio>246</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2550" type="liber1-distinctio31">
+      <head>Distinctio 31</head>
+<item id="pdt7y6-e74790" alias="l1d31prae">
+   <fileName filestem="pdt7y6-e74790"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>246</folio>
+         <folio>247</folio>
+         <folio>248</folio>
+         <folio>249</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e75320" alias="l1d31q1">
+   <fileName filestem="pdt7y6-e75320"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De significatione cuiusdam appropriabilis, nempe aequalitate</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>249</folio>
+         <folio>250</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e75748" alias="l1d31q2">
+   <fileName filestem="pdt7y6-e75748"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De appropriatis secundum Hilarium</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>250</folio>
+         <folio>251</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e76181" alias="l1d31q3">
+   <fileName filestem="pdt7y6-e76181"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De appropriatis secundum Augustinum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>251</folio>
+         <folio>252</folio>
+         <folio>253</folio>
+         <folio>254</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2639" type="liber1-distinctio32">
+      <head>Distinctio 32</head>
+<item id="pdt7y6-e77182" alias="l1d32prae">
+   <fileName filestem="pdt7y6-e77182"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>254</folio>
+         <folio>255</folio>
+         <folio>256</folio>
+         <folio>257</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e77644" alias="l1d32q1">
+   <fileName filestem="pdt7y6-e77644"/>
+   <title>Quaestio 1</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>257</folio>
+         <folio>258</folio>
+         <folio>259</folio>
+         <folio>260</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e78862" alias="l1d32q2">
+   <fileName filestem="pdt7y6-e78862"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De appropriatis pertinentibus ad Filium</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>260</folio>
+         <folio>261</folio>
+         <folio>262</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2712" type="liber1-distinctio33">
+      <head>Distinctio 1</head>
+<item id="pdt7y6-e79635" alias="l1d33prae">
+   <fileName filestem="pdt7y6-e79635"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>262</folio>
+         <folio>263</folio>
+         <folio>264</folio>
+         <folio>265</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e80079" alias="l1d33q1">
+   <fileName filestem="pdt7y6-e80079"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De comparatione Notionum ad essentiam</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>265</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e80331" alias="l1d33q2">
+   <fileName filestem="pdt7y6-e80331"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De comparatione notionum ad personas</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>265</folio>
+         <folio>266</folio>
+         <folio>267</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e80976" alias="l1d33q3">
+   <fileName filestem="pdt7y6-e80976"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De comparatione Notionum ad essentiam</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>267</folio>
+         <folio>268</folio>
+         <folio>269</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e81746" alias="l1d33q4">
+   <fileName filestem="pdt7y6-e81746"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De comparatione notionum ad adiectiva sive essentialia sive personalia</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>269</folio>
+         <folio>270</folio>
+         <folio>271</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2821" type="liber1-distinctio34">
+      <head>Distinctio 34</head>
+<item id="pdt7y6-e82287" alias="l1d34prae">
+   <fileName filestem="pdt7y6-e82287"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>271</folio>
+         <folio>272</folio>
+         <folio>273</folio>
+         <folio>274</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e82810" alias="l1d34q1">
+   <fileName filestem="pdt7y6-e82810"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De identitate essentiae et personae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>274</folio>
+         <folio>275</folio>
+         <folio>276</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e83411" alias="l1d34q2">
+   <fileName filestem="pdt7y6-e83411"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De praedicatione essentiae de personis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>276</folio>
+         <folio>277</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e83760" alias="l1d34q3">
+   <fileName filestem="pdt7y6-e83760"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De appropriatione quorundam attributorum ad personas</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>277</folio>
+         <folio>278</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e84288" alias="l1d34q4">
+   <fileName filestem="pdt7y6-e84288"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De translatione nominum ad divina</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>278</folio>
+         <folio>279</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2928" type="liber1-distinctio35">
+      <head>Distinctio 35</head>
+<item id="pdt7y6-e84818" alias="l1d35prae">
+   <fileName filestem="pdt7y6-e84818"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>279</folio>
+         <folio>280</folio>
+         <folio>281</folio>
+         <folio>282</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e85183" alias="l1d35q1">
+   <fileName filestem="pdt7y6-e85183"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De scientia secundum se</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>282</folio>
+         <folio>283</folio>
+         <folio>284</folio>
+         <folio>285</folio>
+         <folio>286</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e2981" type="liber1-distinctio36">
+      <head>Distinctio 36</head>
+<item id="pdt7y6-e86986" alias="l1d36prae">
+   <fileName filestem="pdt7y6-e86986"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>286</folio>
+         <folio>287</folio>
+         <folio>288</folio>
+         <folio>289</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e87333" alias="l1d36q1">
+   <fileName filestem="pdt7y6-e87333"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De rebus a Deo cognitis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>289</folio>
+         <folio>290</folio>
+         <folio>291</folio>
+         <folio>292</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e88503" alias="l1d36q2">
+   <fileName filestem="pdt7y6-e88503"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De medio per quod Deus cognoscit res</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>292</folio>
+         <folio>293</folio>
+         <folio>294</folio>
+         <folio>295</folio>
+         <folio>296</folio>
+         <folio>297</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3060" type="liber1-distinctio37">
+      <head>Distinctio 37</head>
+<item id="pdt7y6-e90341" alias="l1d37prae">
+   <fileName filestem="pdt7y6-e90341"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>297</folio>
+         <folio>298</folio>
+         <folio>299</folio>
+         <folio>300</folio>
+         <folio>301</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e91088" alias="l1d37q1">
+   <fileName filestem="pdt7y6-e91088"/>
+   <title>Quaestio 1</title>
+   <questionTitle>Qualiter Deus est in rebus</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>301</folio>
+         <folio>302</folio>
+         <folio>303</folio>
+         <folio>304</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e91888" alias="l1d37q2">
+   <fileName filestem="pdt7y6-e91888"/>
+   <title>Quaestio 2</title>
+   <questionTitle>Qualiter se habeat Deus ad locum et motum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>304</folio>
+         <folio>305</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e92541" alias="l1d37q3">
+   <fileName filestem="pdt7y6-e92541"/>
+   <title>Quaestio 3</title>
+   <questionTitle>Qualiter se habeat Deus ad locum et motum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>305</folio>
+         <folio>306</folio>
+         <folio>307</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e93079" alias="l1d37q4">
+   <fileName filestem="pdt7y6-e93079"/>
+   <title>Quaestio 4</title>
+   <questionTitle>Qualiter spiritus creatus seu Angelus sit in loco</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>307</folio>
+         <folio>308</folio>
+         <folio>309</folio>
+         <folio>310</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e94186" alias="l1d37q5">
+   <fileName filestem="pdt7y6-e94186"/>
+   <title>Quaestio 5</title>
+   <questionTitle>Qualiter Angelus moveatur de loco ad locum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>310</folio>
+         <folio>311</folio>
+         <folio>312</folio>
+         <folio>313</folio>
+         <folio>314</folio>
+         <folio>315</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3205" type="liber1-distinctio38">
+      <head>Distinctio 38</head>
+<item id="pdt7y6-e95980" alias="l1d38prae">
+   <fileName filestem="pdt7y6-e95980"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>315</folio>
+         <folio>316</folio>
+         <folio>317</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e96284" alias="l1d38q1">
+   <fileName filestem="pdt7y6-e96284"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De causalitate scientiae Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>317</folio>
+         <folio>318</folio>
+         <folio>319</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e97109" alias="l1d38q2">
+   <fileName filestem="pdt7y6-e97109"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De infallibilitate scientiae Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>319</folio>
+         <folio>320</folio>
+         <folio>321</folio>
+         <folio>322</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3276" type="liber1-distinctio39">
+      <head>Distinctio 39</head>
+<item id="pdt7y6-e98328" alias="l1d39prae">
+   <fileName filestem="pdt7y6-e98328"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>322</folio>
+         <folio>323</folio>
+         <folio>324</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e98618" alias="l1d39q1">
+   <fileName filestem="pdt7y6-e98618"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De invariabilitate scientiae divinae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>324</folio>
+         <folio>325</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e99172" alias="l1d39q2">
+   <fileName filestem="pdt7y6-e99172"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De numero scibilium a Deo</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>325</folio>
+         <folio>326</folio>
+         <folio>327</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-e99640" alias="l1d39q3">
+   <fileName filestem="pdt7y6-e99640"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De Dei providentia</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>327</folio>
+         <folio>328</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3361" type="liber1-distinctio40">
+      <head>Distinctio 40</head>
+<item id="pdt7y6-f00120" alias="l1d40prae">
+   <fileName filestem="pdt7y6-f00120"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>328</folio>
+         <folio>329</folio>
+         <folio>330</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f00416" alias="l1d40q1">
+   <fileName filestem="pdt7y6-f00416"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De praedestinatione secundum se</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>330</folio>
+         <folio>331</folio>
+         <folio>332</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f01347" alias="l1d40q2">
+   <fileName filestem="pdt7y6-f01347"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De certitudine praedestinationis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>332</folio>
+         <folio>333</folio>
+         <folio>334</folio>
+         <folio>335</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f02365" alias="l1d40q3">
+   <fileName filestem="pdt7y6-f02365"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De reprobatione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>335</folio>
+         <folio>336</folio>
+         <folio>337</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3452" type="liber1-distinctio41">
+      <head>Distinctio 41</head>
+<item id="pdt7y6-f03065" alias="l1d41prae">
+   <fileName filestem="pdt7y6-f03065"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>337</folio>
+         <folio>338</folio>
+         <folio>339</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f03447" alias="l1d41q1">
+   <fileName filestem="pdt7y6-f03447"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De divina electione</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>339</folio>
+         <folio>340</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f03798" alias="l1d41q2">
+   <fileName filestem="pdt7y6-f03798"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De causa praedestinationis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>340</folio>
+         <folio>341</folio>
+         <folio>342</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f04339" alias="l1d41q3">
+   <fileName filestem="pdt7y6-f04339"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De causa reprobationis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>342</folio>
+         <folio>343</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f04721" alias="l1d41q4">
+   <fileName filestem="pdt7y6-f04721"/>
+   <title>Quaestio 4</title>
+   <questionTitle>De praescientia Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>343</folio>
+         <folio>344</folio>
+         <folio>345</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3559" type="liber1-distinctio42">
+      <head>Distinctio 42</head>
+<item id="pdt7y6-f05487" alias="l1d42prae">
+   <fileName filestem="pdt7y6-f05487"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>345</folio>
+         <folio>346</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f05809" alias="l1d42q1">
+   <fileName filestem="pdt7y6-f05809"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De potentia Dei secundum se</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>346</folio>
+         <folio>347</folio>
+         <folio>348</folio>
+         <folio>349</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f06783" alias="l1d42q2">
+   <fileName filestem="pdt7y6-f06783"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De iis quae subiecta sunt omnipotentiae Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>349</folio>
+         <folio>350</folio>
+         <folio>351</folio>
+         <folio>352</folio>
+         <folio>353</folio>
+         <folio>354</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3634" type="liber1-distinctio43">
+      <head>Distinctio 43</head>
+<item id="pdt7y6-f08494" alias="l1d43prae">
+   <fileName filestem="pdt7y6-f08494"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>354</folio>
+         <folio>355</folio>
+         <folio>356</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f08875" alias="l1d43q1">
+   <fileName filestem="pdt7y6-f08875"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De infinitate divinae potentiae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>356</folio>
+         <folio>357</folio>
+         <folio>358</folio>
+         <folio>359</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f10060" alias="l1d43q2">
+   <fileName filestem="pdt7y6-f10060"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De necessitate operandi in Deo</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>359</folio>
+         <folio>360</folio>
+         <folio>361</folio>
+         <folio>362</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3706" type="liber1-distinctio44">
+      <head>Distinctio 44</head>
+<item id="pdt7y6-f11100" alias="l1d44prae">
+   <fileName filestem="pdt7y6-f11100"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>362</folio>
+         <folio>363</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f11325" alias="l1d44q1">
+   <fileName filestem="pdt7y6-f11325"/>
+   <title>Quaestio 1</title>
+   <questionTitle>Qualia possit Deus et qualiter</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>363</folio>
+         <folio>364</folio>
+         <folio>365</folio>
+         <folio>366</folio>
+         <folio>367</folio>
+         <folio>368</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3759" type="liber1-distinctio45">
+      <head>Distinctio 45</head>
+<item id="pdt7y6-f13105" alias="l1d45prae">
+   <fileName filestem="pdt7y6-f13105"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>368</folio>
+         <folio>369</folio>
+         <folio>370</folio>
+         <folio>371</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f13546" alias="l1d45q1">
+   <fileName filestem="pdt7y6-f13546"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De voluntate Dei generaliter</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>371</folio>
+         <folio>372</folio>
+         <folio>373</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f14413" alias="l1d45q2">
+   <fileName filestem="pdt7y6-f14413"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De causalitate divinae voluntatis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>373</folio>
+         <folio>374</folio>
+         <folio>375</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f15115" alias="l1d45q3">
+   <fileName filestem="pdt7y6-f15115"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De multiplicitate voluntatis Dei</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>375</folio>
+         <folio>376</folio>
+         <folio>377</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3850" type="liber1-distinctio46">
+      <head>Distinctio 46</head>
+<item id="pdt7y6-f15837" alias="l1d46prae">
+   <fileName filestem="pdt7y6-f15837"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>377</folio>
+         <folio>378</folio>
+         <folio>379</folio>
+         <folio>380</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f16451" alias="l1d46q1">
+   <fileName filestem="pdt7y6-f16451"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De voluntate Dei per comparationem ad effectum</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>380</folio>
+         <folio>381</folio>
+         <folio>382</folio>
+         <folio>383</folio>
+         <folio>384</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f17795" alias="l1d46q2">
+   <fileName filestem="pdt7y6-f17795"/>
+   <title>Quaestio 2</title>
+   <questionTitle>De utilitate mali</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>384</folio>
+         <folio>385</folio>
+         <folio>386</folio>
+         <folio>387</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3926" type="liber1-distinctio47">
+      <head>Distinctio 47</head>
+<item id="pdt7y6-f18862" alias="l1d47prae">
+   <fileName filestem="pdt7y6-f18862"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>387</folio>
+         <folio>388</folio>
+         <folio>389</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f19093" alias="l1d47q1">
+   <fileName filestem="pdt7y6-f19093"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De efficacia divinae voluntatis</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>389</folio>
+         <folio>390</folio>
+         <folio>391</folio>
+         <folio>392</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+    <div id="pdt7y6-d1e3975" type="liber1-distinctio48">
+      <head>Distinctio 48</head>
+<item id="pdt7y6-f20319" alias="l1d48prae">
+   <fileName filestem="pdt7y6-f20319"/>
+   <title>Praeambulum</title>
+   <questionTitle/>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>392</folio>
+         <folio>393</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f20596" alias="l1d48q1">
+   <fileName filestem="pdt7y6-f20596"/>
+   <title>Quaestio 1</title>
+   <questionTitle>De conformitate voluntatis nostrae ad divinam</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>393</folio>
+         <folio>394</folio>
+         <folio>395</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f21211" alias="l1d48q2">
+   <fileName filestem="pdt7y6-f21211"/>
+   <title>Quaestio 2</title>
+   <questionTitle>In quo teneamur conformari voluntati divinae</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>395</folio>
+         <folio>396</folio>
+         <folio>397</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+<item id="pdt7y6-f22083" alias="l1d48q3">
+   <fileName filestem="pdt7y6-f22083"/>
+   <title>Quaestio 3</title>
+   <questionTitle>De casibus specialibus circa conformitatem voluntatis humanae ad divinam</questionTitle>
+   <hasWitnesses>
+      <witness ref="#cod-gpmsgd">
+         <folio>397</folio>
+         <folio>398</folio>
+      </witness>
+   </hasWitnesses>
+</item>
+    </div>
+  </div>
+</listofFileNames>
