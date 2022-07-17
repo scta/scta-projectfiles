@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
-    <header>
-        <authorName>Peter Plaoul</authorName>
-        <commentaryName>Reportatio Sentences Commentary</commentaryName>
-        <commentaryid>plaoulreportatio</commentaryid>
-        <commentaryslug>ppr</commentaryslug>
-        <authorUri>http://scta.info/resource/peter-plaoul</authorUri>
-        <parentUri>http://scta.info/resource/plaoulreportatio</parentUri>
-        <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-        <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/plaoulreportatio/</textfilesdir>
-        <questionListSource>Manuscripta Article</questionListSource>
-        <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
-        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-        <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-        <hasWitnesses>
-          <witness id="E">
-            <slug>erlang</slug>
-            <title>Erlangen</title>
-            <initial>E</initial>
-          </witness>
-          <witness id="PV">
-            <slug>pal</slug>
-            <title>Vatican, Pal. lat.</title>
-            <initial>PV</initial>
-          </witness>
-          <!--<witness id="P">
+  <header>
+    <authorName>Peter Plaoul</authorName>
+    <commentaryName>Reportatio Sentences Commentary</commentaryName>
+    <commentaryid>plaoulreportatio</commentaryid>
+    <commentaryslug>ppr</commentaryslug>
+    <authorUri>http://scta.info/resource/peter-plaoul</authorUri>
+    <parentUri>http://scta.info/resource/plaoulreportatio</parentUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/plaoulreportatio/</textfilesdir>
+    <questionListSource>Manuscripta Article</questionListSource>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="E">
+        <slug>erlang</slug>
+        <title>Erlangen</title>
+        <initial>E</initial>
+      </witness>
+      <witness id="PV">
+        <slug>pal</slug>
+        <title>Vatican, Pal. lat.</title>
+        <initial>PV</initial>
+      </witness>
+      <!--<witness id="P">
             <slug>paris</slug>
             <title>Paris</title>
             <initial>P</initial>
           </witness> -->
-        </hasWitnesses>
-    </header>
-    <div id="body">
+    </hasWitnesses>
+  </header>
+  <div id="body">
     <div id="ppr-principia" class="toplevel" type="principia">
       <head>Principia</head>
       <item type="lectio">
@@ -231,7 +231,6 @@
             <folio>13v</folio>
             <folio>14r</folio>
             <folio>14v</folio>
-            <folio>15r</folio>
           </witness>
           <witness ref="#PV">
             <folio>15v</folio>
@@ -278,7 +277,6 @@
         <hasWitnesses>
           <witness ref="#E">
             <folio>16v</folio>
-            <folio>16r</folio>
             <folio>17r</folio>
             <folio>17v</folio>
             <folio>18r</folio>
@@ -729,7 +727,6 @@
             <folio>52r</folio>
             <folio>52v</folio>
             <folio>53r</folio>
-            <folio>53v</folio>
           </witness>
           <witness ref="#PV">
             <folio>66v</folio>
@@ -1191,7 +1188,6 @@
           <witness ref="#E">
             <folio>84v</folio>
             <folio>85r</folio>
-            <folio>85v</folio>
           </witness>
           <witness ref="#PV">
             <folio>114r</folio>
@@ -1240,8 +1236,6 @@
         <hasWitnesses>
           <witness ref="#E">
             <folio>88v</folio>
-            <folio>89r</folio>
-            <folio>89v</folio>
             <folio>89r</folio>
           </witness>
           <witness ref="#PV">
