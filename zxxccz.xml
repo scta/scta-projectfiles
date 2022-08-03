@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Kilianus Stetzing</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>zxxccz</commentaryid>
+    <commentaryslug>zxxccz</commentaryslug>
+    <alias>KilianusSentCommentary</alias>
+    <authorUri>http://scta.info/resource/per-kSkSkS</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource>Berlin, Staatsbibliothek zur Berlin, Ms. theol. lat. fol. 97</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-sbZbbb">
+        <slug>cod-sbZbbb</slug>
+        <title>Berlin, Staatsbibliothek zur Berlin, Ms. theol. lat. fol. 97</title>
+        <initial>cod-sbZbbb</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="zxxccz-d1e50">
+      <!-- stegmuller suggest that there is an A and B version of book 4. cod-sbZbbb supposedly contains version A -->
+      <head>Liber 4</head>
+    </div>
+  </div>
+</listofFileNames>

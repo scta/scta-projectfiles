@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Johannes de Wesalia</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>mnbzzz</commentaryid>
+    <commentaryslug>mnbzzz</commentaryslug>
+    <alias>WesaliaSentCommentary</alias>
+    <authorUri>http://scta.info/resource/per-jdwJDW</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource>Berlin, Staatsbibliothek zur Berlin, Ms. theol. lat. fol. 97</questionListSource>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-sbZbbb">
+        <slug>cod-sbZbbb</slug>
+        <title>Berlin, Staatsbibliothek zur Berlin, Ms. theol. lat. fol. 97</title>
+        <initial>cod-sbZbbb</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="mnbzzz-d1e54">
+      <head>Liber 1</head>
+      <item id="mnbzzz-d1e58" alias="l1prol" type="liber1-prologus">
+        <fileName filestem="mnbzzz-d1e58"/>
+        <title>Prologus</title>
+        <hasWitnesses>
+          <witness ref="#cod-sbZbbb">
+            <folio>3v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="mnbzzz-d1e59">
+      <head>Liber 2</head>
+    </div>
+    <div id="mnbzzz-d1e64">
+      <head>Liber 3</head>
+    </div>
+  </div>
+</listofFileNames>
