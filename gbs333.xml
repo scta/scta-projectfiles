@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
-   <header>
-      <authorName>Gabriel Biel</authorName>
-      <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
-      <commentaryid>gbs333</commentaryid>
-      <commentaryslug>gbs333</commentaryslug>
-      <authorUri>http://scta.info/resource/GabrielBiel</authorUri>
-      <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-      <questionListSource/>
-      <questionListOriginalEditor/>
-      <questionListEncoder/>
-      <description/>
-      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-      <hasWitnesses>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Gabriel Biel</authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>gbs333</commentaryid>
+    <commentaryslug>gbs333</commentaryslug>
+    <authorUri>http://scta.info/resource/GabrielBiel</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder/>
+    <description/>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
       <!-- 
         
         Commentarii doctissimi in IIII sententiarum libros / 1. : In primum sententiarum (Brixiae : Bozola, 1574)
@@ -36,1378 +34,2995 @@
         
         THERE ARE MORE see PRDL search results
 -->
-         <witness id="cod-gbzzz3">
-            <slug>cod-gbzzz3</slug>
-            <title>Brescia 1574</title>
-            <initial>cod-gbzzz3</initial>
-            <!--<editor>Bozola</editor>-->
-           <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
-         </witness>
-      </hasWitnesses>
-      <rcsid>100294</rcsid>
-   </header>
-   <div id="body">
-      <head>Commentarius in Libros Sententiarum</head>
-      <div id="gbs333-d1e54">
-         <head>Liber 3</head>
-         <div id="gbs333-d1e58" alias="liber3-distinctio1">
-            <head>Distinctio 1</head>
-            <item id="gbs333-h1e510" alias="l3d1prae">
-               <fileName filestem="gbs333-h1e510"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>1</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h1e171" alias="l3d1q1">
-               <fileName filestem="gbs333-h1e171"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>1</folio>
-                     <folio>2</folio>
-                     <folio>3</folio>
-                     <folio>4</folio>
-                     <folio>5</folio>
-                     <folio>6</folio>
-                     <folio>7</folio>
-                     <folio>8</folio>
-                     <folio>9</folio>
-                     <folio>10</folio>
-                     <folio>11</folio>
-                     <folio>12</folio>
-                     <folio>13</folio>
-                     <folio>14</folio>
-                     <folio>15</folio>
-                     <folio>16</folio>
-                     <folio>17</folio>
-                     <folio>18</folio>
-                     <folio>19</folio>
-                     <folio>20</folio>
-                     <folio>21</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-he4933" alias="l3d1q2">
-               <fileName filestem="gbs333-he4933"/>
-               <title>Quaestio 2</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>21</folio>
-                     <folio>22</folio>
-                     <folio>23</folio>
-                     <folio>24</folio>
-                     <folio>25</folio>
-                     <folio>26</folio>
-                     <folio>27</folio>
-                     <folio>28</folio>
-                     <folio>29</folio>
-                     <folio>30</folio>
-                     <folio>31</folio>
-                     <folio>32</folio>
-                     <folio>33</folio>
-                     <folio>34</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e189" alias="liber3-distinctio2">
-            <head>Distinctio 2</head>
-            <item id="gbs333-he8109" alias="l3d2prae">
-               <fileName filestem="gbs333-he8109"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-he8175" alias="l3d2q1">
-               <fileName filestem="gbs333-he8175"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>34</folio>
-                     <folio>35</folio>
-                     <folio>36</folio>
-                     <folio>37</folio>
-                     <folio>38</folio>
-                     <folio>39</folio>
-                     <folio>40</folio>
-                     <folio>41</folio>
-                     <folio>42</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e245" alias="liber3-distinctio3">
-            <head>Distinctio 3</head>
-            <item id="gbs333-h10206" alias="l3d3prae">
-               <fileName filestem="gbs333-h10206"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>42</folio>
-                     <folio>43</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h10275" alias="l3d3q1">
-               <fileName filestem="gbs333-h10275"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>43</folio>
-                     <folio>44</folio>
-                     <folio>45</folio>
-                     <folio>46</folio>
-                     <folio>47</folio>
-                     <folio>48</folio>
-                     <folio>49</folio>
-                     <folio>50</folio>
-                     <folio>51</folio>
-                     <folio>52</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h12724" alias="l3d3q2">
-               <fileName filestem="gbs333-h12724"/>
-               <title>Quaestio 2</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>53</folio>
-                     <folio>54</folio>
-                     <folio>55</folio>
-                     <folio>56</folio>
-                     <folio>57</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e333" alias="liber3-distinctio4">
-            <head>Distinctio 4</head>
-            <item id="gbs333-h13798" alias="l3d4prae">
-               <fileName filestem="gbs333-h13798"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h13868" alias="l3d4q1">
-               <fileName filestem="gbs333-h13868"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>57</folio>
-                     <folio>58</folio>
-                     <folio>59</folio>
-                     <folio>60</folio>
-                     <folio>61</folio>
-                     <folio>62</folio>
-                     <folio>63</folio>
-                     <folio>64</folio>
-                     <folio>65</folio>
-                     <folio>66</folio>
-                     <folio>67</folio>
-                     <folio>68</folio>
-                     <folio>69</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e399" alias="liber3-distinctio5">
-            <head>Distinctio 5</head>
-            <item id="gbs333-h16909" alias="l3d5prae">
-               <fileName filestem="gbs333-h16909"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>70</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h16998" alias="l3d5q1">
-               <fileName filestem="gbs333-h16998"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>70</folio>
-                     <folio>71</folio>
-                     <folio>72</folio>
-                     <folio>73</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e446" alias="liber3-distinctio6">
-            <head>Distinctio 6</head>
-            <item id="gbs333-h17896" alias="l3d6prae">
-               <fileName filestem="gbs333-h17896"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>74</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h18056" alias="l3d6q1">
-               <fileName filestem="gbs333-h18056"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>74</folio>
-                     <folio>75</folio>
-                     <folio>76</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h18559" alias="l3d6q2">
-               <fileName filestem="gbs333-h18559"/>
-               <title>Quaestio 2</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>76</folio>
-                     <folio>77</folio>
-                     <folio>78</folio>
-                     <folio>79</folio>
-                     <folio>80</folio>
-                     <folio>81</folio>
-                     <folio>82</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e521" alias="liber3-distinctio7">
-            <head>Distinctio 7</head>
-            <item id="gbs333-h19934" alias="l3d7prae">
-               <fileName filestem="gbs333-h19934"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h20035" alias="l3d7q1">
-               <fileName filestem="gbs333-h20035"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>82</folio>
-                     <folio>83</folio>
-                     <folio>84</folio>
-                     <folio>85</folio>
-                     <folio>86</folio>
-                     <folio>87</folio>
-                     <folio>88</folio>
-                     <folio>89</folio>
-                     <folio>90</folio>
-                     <folio>91</folio>
-                     <folio>92</folio>
-                     <folio>93</folio>
-                     <folio>94</folio>
-                     <folio>95</folio>
-                     <folio>96</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e590" alias="liber3-distinctio8">
-            <head>Distinctio 8</head>
-            <item id="gbs333-h23378" alias="l3d8prae">
-               <fileName filestem="gbs333-h23378"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h23475" alias="l3d8q1">
-               <fileName filestem="gbs333-h23475"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>96</folio>
-                     <folio>97</folio>
-                     <folio>98</folio>
-                     <folio>99</folio>
-                     <folio>100</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e637" alias="liber3-distinctio9">
-            <head>Distinctio 9</head>
-            <item id="gbs333-h24403" alias="l3d9prae">
-               <fileName filestem="gbs333-h24403"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h24470" alias="l3d9q1">
-               <fileName filestem="gbs333-h24470"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>100</folio>
-                     <folio>101</folio>
-                     <folio>102</folio>
-                     <folio>103</folio>
-                     <folio>104</folio>
-                     <folio>105</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e687" alias="liber3-distinctio10">
-            <head>Distinctio 10</head>
-            <item id="gbs333-h25673" alias="l3d10prae">
-               <fileName filestem="gbs333-h25673"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h25760" alias="l3d10q1">
-               <fileName filestem="gbs333-h25760"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>105</folio>
-                     <folio>106</folio>
-                     <folio>107</folio>
-                     <folio>108</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e733" alias="liber3-distinctio11">
-            <head>Distinctio 11</head>
-            <item id="gbs333-h26470" alias="l3d11prae">
-               <fileName filestem="gbs333-h26470"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h26541" alias="l3d11q1">
-               <fileName filestem="gbs333-h26541"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>108</folio>
-                     <folio>109</folio>
-                     <folio>110</folio>
-                     <folio>111</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e778" alias="liber3-distinctio12">
-            <head>Distinctio 12</head>
-            <item id="gbs333-h27210" alias="l3d12prae">
-               <fileName filestem="gbs333-h27210"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h27281" alias="l3d12q1">
-               <fileName filestem="gbs333-h27281"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>111</folio>
-                     <folio>112</folio>
-                     <folio>113</folio>
-                     <folio>114</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e823" alias="liber3-distinctio13">
-            <head>Distinctio 13</head>
-            <item id="gbs333-h27891" alias="l3d13prae">
-               <fileName filestem="gbs333-h27891"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h27972" alias="l3d13q1">
-               <fileName filestem="gbs333-h27972"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>114</folio>
-                     <folio>115</folio>
-                     <folio>116</folio>
-                     <folio>117</folio>
-                     <folio>118</folio>
-                     <folio>119</folio>
-                     <folio>120</folio>
-                     <folio>121</folio>
-                     <folio>122</folio>
-                     <folio>123</folio>
-                     <folio>124</folio>
-                     <folio>125</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e886" alias="liber3-distinctio14">
-            <head>Distinctio 14</head>
-            <item id="gbs333-h30594" alias="l3d14prae">
-               <fileName filestem="gbs333-h30594"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h30666" alias="l3d14q1">
-               <fileName filestem="gbs333-h30666"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>125</folio>
-                     <folio>126</folio>
-                     <folio>127</folio>
-                     <folio>128</folio>
-                     <folio>129</folio>
-                     <folio>130</folio>
-                     <folio>131</folio>
-                     <folio>132</folio>
-                     <folio>133</folio>
-                     <folio>134</folio>
-                     <folio>135</folio>
-                     <folio>136</folio>
-                     <folio>137</folio>
-                     <folio>138</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e953" alias="liber3-distinctio15">
-            <head>Distinctio 15</head>
-            <item id="gbs333-h33755" alias="l3d15prae">
-               <fileName filestem="gbs333-h33755"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>138</folio>
-                     <folio>139</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h33915" alias="l3d15q1">
-               <fileName filestem="gbs333-h33915"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>139</folio>
-                     <folio>140</folio>
-                     <folio>141</folio>
-                     <folio>142</folio>
-                     <folio>143</folio>
-                     <folio>144</folio>
-                     <folio>145</folio>
-                     <folio>146</folio>
-                     <folio>147</folio>
-                     <folio>148</folio>
-                     <folio>149</folio>
-                     <folio>150</folio>
-                     <folio>151</folio>
-                     <folio>152</folio>
-                     <folio>153</folio>
-                     <folio>154</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1026" alias="liber3-distinctio16">
-            <head>Distinctio 16</head>
-            <item id="gbs333-h37616" alias="l3d16prae">
-               <fileName filestem="gbs333-h37616"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h37690" alias="l3d16q1">
-               <fileName filestem="gbs333-h37690"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>154</folio>
-                     <folio>155</folio>
-                     <folio>156</folio>
-                     <folio>157</folio>
-                     <folio>158</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1074" alias="liber3-distinctio17">
-            <head>Distinctio 17</head>
-            <item id="gbs333-h38768" alias="l3d17prae">
-               <fileName filestem="gbs333-h38768"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>158</folio>
-                     <folio>159</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h38846" alias="l3d17q1">
-               <fileName filestem="gbs333-h38846"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>159</folio>
-                     <folio>160</folio>
-                     <folio>161</folio>
-                     <folio>162</folio>
-                     <folio>163</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1123" alias="liber3-distinctio18">
-            <head>Distinctio 18</head>
-            <item id="gbs333-h40046" alias="l3d18prae">
-               <fileName filestem="gbs333-h40046"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>164</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h40121" alias="l3d18q1">
-               <fileName filestem="gbs333-h40121"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>164</folio>
-                     <folio>165</folio>
-                     <folio>166</folio>
-                     <folio>167</folio>
-                     <folio>168</folio>
-                     <folio>169</folio>
-                     <folio>170</folio>
-                     <folio>171</folio>
-                     <folio>172</folio>
-                     <folio>173</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1183" alias="liber3-distinctio19">
-            <head>Distinctio 19</head>
-            <item id="gbs333-h42413" alias="l3d19prae">
-               <fileName filestem="gbs333-h42413"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h42481" alias="l3d19q1">
-               <fileName filestem="gbs333-h42481"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>173</folio>
-                     <folio>174</folio>
-                     <folio>175</folio>
-                     <folio>176</folio>
-                     <folio>177</folio>
-                     <folio>178</folio>
-                     <folio>179</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1235" alias="liber3-distinctio20">
-            <head>Distinctio 20</head>
-            <item id="gbs333-h43822" alias="l3d20prae">
-               <fileName filestem="gbs333-h43822"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h43884" alias="l3d20q1">
-               <fileName filestem="gbs333-h43884"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>179</folio>
-                     <folio>180</folio>
-                     <folio>181</folio>
-                     <folio>182</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1280" alias="liber3-distinctio21">
-            <head>Distinctio 21</head>
-            <item id="gbs333-h44702" alias="l3d21prae">
-               <fileName filestem="gbs333-h44702"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>183</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h44793" alias="l3d21q1">
-               <fileName filestem="gbs333-h44793"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>183</folio>
-                     <folio>184</folio>
-                     <folio>185</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1325" alias="liber3-distinctio22">
-            <head>Distinctio 22</head>
-            <item id="gbs333-h45402" alias="l3d22prae">
-               <fileName filestem="gbs333-h45402"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>185</folio>
-                     <folio>186</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h45475" alias="l3d22q1">
-               <fileName filestem="gbs333-h45475"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>186</folio>
-                     <folio>187</folio>
-                     <folio>188</folio>
-                     <folio>189</folio>
-                     <folio>190</folio>
-                     <folio>191</folio>
-                     <folio>192</folio>
-                     <folio>193</folio>
-                     <folio>194</folio>
-                     <folio>195</folio>
-                     <folio>196</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1388" alias="liber3-distinctio23">
-            <head>Distinctio 23</head>
-            <item id="gbs333-h47986" alias="l3d23prae">
-               <fileName filestem="gbs333-h47986"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h48133" alias="l3d23q1">
-               <fileName filestem="gbs333-h48133"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>196</folio>
-                     <folio>197</folio>
-                     <folio>198</folio>
-                     <folio>199</folio>
-                     <folio>200</folio>
-                     <folio>201</folio>
-                     <folio>202</folio>
-                     <folio>203</folio>
-                     <folio>204</folio>
-                     <folio>205</folio>
-                     <folio>206</folio>
-                     <folio>207</folio>
-                     <folio>208</folio>
-                     <folio>209</folio>
-                     <folio>210</folio>
-                     <folio>211</folio>
-                     <folio>212</folio>
-                     <folio>213</folio>
-                     <folio>214</folio>
-                     <folio>215</folio>
-                     <folio>216</folio>
-                     <folio>217</folio>
-                     <folio>218</folio>
-                     <folio>219</folio>
-                     <folio>220</folio>
-                     <folio>221</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h54165" alias="l3d23q2">
-               <fileName filestem="gbs333-h54165"/>
-               <title>Quaestio 2</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>221</folio>
-                     <folio>222</folio>
-                     <folio>223</folio>
-                     <folio>224</folio>
-                     <folio>225</folio>
-                     <folio>226</folio>
-                     <folio>227</folio>
-                     <folio>228</folio>
-                     <folio>229</folio>
-                     <folio>230</folio>
-                     <folio>231</folio>
-                     <folio>232</folio>
-                     <folio>233</folio>
-                     <folio>234</folio>
-                     <folio>235</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1528" alias="liber3-distinctio24">
-            <head>Distinctio 24</head>
-            <item id="gbs333-h58041" alias="l3d24prae">
-               <fileName filestem="gbs333-h58041"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>236</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h58121" alias="l3d24q1">
-               <fileName filestem="gbs333-h58121"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>236</folio>
-                     <folio>237</folio>
-                     <folio>238</folio>
-                     <folio>239</folio>
-                     <folio>240</folio>
-                     <folio>241</folio>
-                     <folio>242</folio>
-                     <folio>243</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1584" alias="liber3-distinctio25">
-            <head>Distinctio 25</head>
-            <item id="gbs333-h59848" alias="l3d25prae">
-               <fileName filestem="gbs333-h59848"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h59932" alias="l3d25q1">
-               <fileName filestem="gbs333-h59932"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>243</folio>
-                     <folio>244</folio>
-                     <folio>245</folio>
-                     <folio>246</folio>
-                     <folio>247</folio>
-                     <folio>248</folio>
-                     <folio>249</folio>
-                     <folio>250</folio>
-                     <folio>251</folio>
-                     <folio>252</folio>
-                     <folio>253</folio>
-                     <folio>254</folio>
-                     <folio>255</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1649" alias="liber3-distinctio26">
-            <head>Distinctio 26</head>
-            <item id="gbs333-h62772" alias="l3d26prae">
-               <fileName filestem="gbs333-h62772"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h62849" alias="l3d26q1">
-               <fileName filestem="gbs333-h62849"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>255</folio>
-                     <folio>256</folio>
-                     <folio>257</folio>
-                     <folio>258</folio>
-                     <folio>259</folio>
-                     <folio>260</folio>
-                     <folio>261</folio>
-                     <folio>262</folio>
-                     <folio>263</folio>
-                     <folio>264</folio>
-                     <folio>265</folio>
-                     <folio>266</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1712" alias="liber3-distinctio27">
-            <head>Distinctio 27</head>
-            <item id="gbs333-h65532" alias="l3d27prae">
-               <fileName filestem="gbs333-h65532"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h65621" alias="l3d27q1">
-               <fileName filestem="gbs333-h65621"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>266</folio>
-                     <folio>267</folio>
-                     <folio>268</folio>
-                     <folio>269</folio>
-                     <folio>270</folio>
-                     <folio>271</folio>
-                     <folio>272</folio>
-                     <folio>273</folio>
-                     <folio>274</folio>
-                     <folio>275</folio>
-                     <folio>276</folio>
-                     <folio>277</folio>
-                     <folio>278</folio>
-                     <folio>279</folio>
-                     <folio>280</folio>
-                     <folio>281</folio>
-                     <folio>282</folio>
-                     <folio>283</folio>
-                     <folio>284</folio>
-                     <folio>285</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1792" alias="liber3-distinctio28">
-            <head>Distinctio 28</head>
-            <item id="gbs333-h70066" alias="l3d28prae">
-               <fileName filestem="gbs333-h70066"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h70137" alias="l3d28q1">
-               <fileName filestem="gbs333-h70137"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>285</folio>
-                     <folio>286</folio>
-                     <folio>287</folio>
-                     <folio>288</folio>
-                     <folio>289</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1840" alias="liber3-distinctio29">
-            <head>Distinctio 29</head>
-            <item id="gbs333-h71098" alias="l3d29prae">
-               <fileName filestem="gbs333-h71098"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h71171" alias="l3d29q1">
-               <fileName filestem="gbs333-h71171"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>289</folio>
-                     <folio>290</folio>
-                     <folio>291</folio>
-                     <folio>292</folio>
-                     <folio>293</folio>
-                     <folio>294</folio>
-                     <folio>295</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1892" alias="liber3-distinctio30">
-            <head>Distinctio 30</head>
-            <item id="gbs333-h72657" alias="l3d30prae">
-               <fileName filestem="gbs333-h72657"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h72719" alias="l3d30q1">
-               <fileName filestem="gbs333-h72719"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>295</folio>
-                     <folio>296</folio>
-                     <folio>297</folio>
-                     <folio>298</folio>
-                     <folio>299</folio>
-                     <folio>300</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1942" alias="liber3-distinctio31">
-            <head>Distinctio 31</head>
-            <item id="gbs333-h73869" alias="l3d31prae">
-               <fileName filestem="gbs333-h73869"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h73934" alias="l3d31q1">
-               <fileName filestem="gbs333-h73934"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>300</folio>
-                     <folio>301</folio>
-                     <folio>302</folio>
-                     <folio>303</folio>
-                     <folio>304</folio>
-                     <folio>305</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e1992" alias="liber3-distinctio32">
-            <head>Distinctio 32</head>
-            <item id="gbs333-h75041" alias="l3d32prae">
-               <fileName filestem="gbs333-h75041"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h75166" alias="l3d32q1">
-               <fileName filestem="gbs333-h75166"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>305</folio>
-                     <folio>306</folio>
-                     <folio>307</folio>
-                     <folio>308</folio>
-                     <folio>309</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2039" alias="liber3-distinctio33">
-            <head>Distinctio 33</head>
-            <item id="gbs333-h76036" alias="l3d33prae">
-               <fileName filestem="gbs333-h76036"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h76105" alias="l3d33q1">
-               <fileName filestem="gbs333-h76105"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>309</folio>
-                     <folio>310</folio>
-                     <folio>311</folio>
-                     <folio>312</folio>
-                     <folio>313</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2086" alias="liber3-distinctio34">
-            <head>Distinctio 34</head>
-            <item id="gbs333-h77109" alias="l3d34prae">
-               <fileName filestem="gbs333-h77109"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>313</folio>
-                     <folio>314</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h77200" alias="l3d34q1">
-               <fileName filestem="gbs333-h77200"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>314</folio>
-                     <folio>315</folio>
-                     <folio>316</folio>
-                     <folio>317</folio>
-                     <folio>318</folio>
-                     <folio>319</folio>
-                     <folio>320</folio>
-                     <folio>321</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2143" alias="liber3-distinctio35">
-            <head>Distinctio 35</head>
-            <item id="gbs333-h79144" alias="l3d35prae">
-               <fileName filestem="gbs333-h79144"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>321</folio>
-                     <folio>322</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h79227" alias="l3d35q1">
-               <fileName filestem="gbs333-h79227"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>322</folio>
-                     <folio>323</folio>
-                     <folio>324</folio>
-                     <folio>325</folio>
-                     <folio>326</folio>
-                     <folio>327</folio>
-                     <folio>328</folio>
-                     <folio>329</folio>
-                     <folio>330</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2201" alias="liber3-distinctio36">
-            <head>Distinctio 36</head>
-            <item id="gbs333-h81196" alias="l3d36prae">
-               <fileName filestem="gbs333-h81196"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h81263" alias="l3d36q1">
-               <fileName filestem="gbs333-h81263"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>329</folio>
-                     <folio>330</folio>
-                     <folio>331</folio>
-                     <folio>332</folio>
-                     <folio>333</folio>
-                     <folio>334</folio>
-                     <folio>335</folio>
-                     <folio>336</folio>
-                     <folio>337</folio>
-                     <folio>338</folio>
-                     <folio>339</folio>
-                     <folio>340</folio>
-                     <folio>341</folio>
-                     <folio>342</folio>
-                     <folio>343</folio>
-                     <folio>344</folio>
-                     <folio>345</folio>
-                     <folio>346</folio>
-                     <folio>347</folio>
-                     <folio>348</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2281" alias="liber3-distinctio37">
-            <head>Distinctio 37</head>
-            <item id="gbs333-h85613" alias="l3d37prae">
-               <fileName filestem="gbs333-h85613"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>348</folio>
-                     <folio>349</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h85766" alias="l3d37q1">
-               <fileName filestem="gbs333-h85766"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>349</folio>
-                     <folio>350</folio>
-                     <folio>351</folio>
-                     <folio>352</folio>
-                     <folio>353</folio>
-                     <folio>354</folio>
-                     <folio>355</folio>
-                     <folio>356</folio>
-                     <folio>357</folio>
-                     <folio>358</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2341" alias="liber3-distinctio38">
-            <head>Distinctio 38</head>
-            <item id="gbs333-h87979" alias="l3d38prae">
-               <fileName filestem="gbs333-h87979"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h88063" alias="l3d38q1">
-               <fileName filestem="gbs333-h88063"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>357</folio>
-                     <folio>358</folio>
-                     <folio>359</folio>
-                     <folio>360</folio>
-                     <folio>361</folio>
-                     <folio>362</folio>
-                     <folio>363</folio>
-                     <folio>364</folio>
-                     <folio>365</folio>
-                     <folio>366</folio>
-                     <folio>367</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2401" alias="liber3-distinctio39">
-            <head>Distinctio 39</head>
-            <item id="gbs333-h90391" alias="l3d39prae">
-               <fileName filestem="gbs333-h90391"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>368</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h90476" alias="l3d39q1">
-               <fileName filestem="gbs333-h90476"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>367</folio>
-                     <folio>368</folio>
-                     <folio>369</folio>
-                     <folio>370</folio>
-                     <folio>371</folio>
-                     <folio>372</folio>
-                     <folio>373</folio>
-                     <folio>374</folio>
-                     <folio>375</folio>
-                     <folio>376</folio>
-                     <folio>377</folio>
-                     <folio>378</folio>
-                     <folio>379</folio>
-                     <folio>380</folio>
-                     <folio>381</folio>
-                     <folio>382</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h93828" alias="l3d39q2">
-               <fileName filestem="gbs333-h93828"/>
-               <title>Quaestio 2</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>381</folio>
-                     <folio>382</folio>
-                     <folio>383</folio>
-                     <folio>384</folio>
-                     <folio>385</folio>
-                     <folio>386</folio>
-                     <folio>387</folio>
-                     <folio>388</folio>
-                     <folio>389</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
-         <div id="gbs333-d1e2508" alias="liber3-distinctio40">
-            <head>Distinctio 40</head>
-            <item id="gbs333-h95522" alias="l3d40prae">
-               <fileName filestem="gbs333-h95522"/>
-               <title>Praeambulum</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>NaN</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-            <item id="gbs333-h95595" alias="l3d40q1">
-               <fileName filestem="gbs333-h95595"/>
-               <title>Quaestio 1</title>
-               <questionTitle/>
-               <hasWitnesses>
-                  <witness ref="#cod-gbzzz3">
-                     <folio>389</folio>
-                     <folio>390</folio>
-                     <folio>391</folio>
-                     <folio>392</folio>
-                  </witness>
-               </hasWitnesses>
-            </item>
-         </div>
+      <witness id="cod-gbzzz1">
+        <slug>cod-gbzzz1</slug>
+        <title>Brescia 1574</title>
+        <initial>cod-gbzzz1</initial>
+        <!--<editor>Bozola</editor>-->
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
+      </witness>
+      <witness id="cod-gbzzz3">
+        <slug>cod-gbzzz3</slug>
+        <title>Brescia 1574</title>
+        <initial>cod-gbzzz3</initial>
+        <!--<editor>Bozola</editor>-->
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
+      </witness>
+    </hasWitnesses>
+    <rcsid>100294</rcsid>
+  </header>
+  <div id="body">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="gbs333-aD56">
+      <head>Liber 1</head>
+      <div id="gbs333-aD60" type="liber1-prologus">
+        <head>Prologus</head>
+        <item id="gbs333-aaa301" alias="l1prolprae">
+          <fileName filestem="gbs333-aaa301"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aaa394" alias="l1prolq1">
+          <fileName filestem="gbs333-aaa394"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sit possibile intellectui viatoris habere notitiam evidentem de
+            veritatibus theologicis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa3538" alias="l1prolq2">
+          <fileName filestem="gbs333-aa3538"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum notitia evidens veritatum theologicarum sit scientia proprie
+            dicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa4354" alias="l1prolq3">
+          <fileName filestem="gbs333-aa4354"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum passio scibilis de aliqua scientia proprie dicta distinguatur ab ea
+            realiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa4852" alias="l1prol4">
+          <fileName filestem="gbs333-aa4852"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum omnis passio sit demonstrabilis de subiecto primo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa5112" alias="l1prolq5">
+          <fileName filestem="gbs333-aa5112"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum in omni demonstratione diffinitio sit medium
+            demonstrandi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa5279" alias="l1prolq6">
+          <fileName filestem="gbs333-aa5279"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum sola propositio per se secundo modo est scibilis proprie
+            dicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa5457" alias="l1prolq7">
+          <fileName filestem="gbs333-aa5457"/>
+          <title>Quaestio 7 </title>
+          <questionTitle>Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa6045" alias="l1prolq8">
+          <fileName filestem="gbs333-aa6045"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Quaestio 8</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa6516" alias="l1prolq9">
+          <fileName filestem="gbs333-aa6516"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum Deus sub propria ratione deitatis sit subiectum
+            theologiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa7264" alias="l1prolq10">
+          <fileName filestem="gbs333-aa7264"/>
+          <title>Quaestio 10</title>
+          <questionTitle>Utrum sola operatio potentiae sensitivae sit praxis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa7793" alias="l1prolq11">
+          <fileName filestem="gbs333-aa7793"/>
+          <title>Quaestio 11</title>
+          <questionTitle>Utrum notitia practica et speculativa distinguuntur per fines, vel penes
+            obiecta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-aa8710" alias="l1prolq12">
+          <fileName filestem="gbs333-aa8710"/>
+          <title>Quaestio 12</title>
+          <questionTitle>Utrum habitus theologicus sit practicus vel speculativus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
       </div>
-   </div>
+      <div id="gbs333-aD249" type="liber1-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="gbs333-aa9373" alias="l1d1q1">
+          <fileName filestem="gbs333-aa9373"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum tamen omni alio a Deo sit utendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a11133" alias="l1d1q2">
+          <fileName filestem="gbs333-a11133"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum frui sit actus solius voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a11731" alias="l1d1q3">
+          <fileName filestem="gbs333-a11731"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum fruitio sit qualitas distincta realiter a delectione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a12831" alias="l1d1q4">
+          <fileName filestem="gbs333-a12831"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum solus deus sit debitum obiectum fruitionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a13318" alias="l1d1q5">
+          <fileName filestem="gbs333-a13318"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum voluntas possit frui essentia non fruendo persona et
+            econtra</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a14535" alias="l1d1q6">
+          <fileName filestem="gbs333-a14535"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum voluntas contingenter, et libere fruatur ultimo fine</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD339" type="liber1-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="gbs333-a15017" alias="l1d2prae">
+          <fileName filestem="gbs333-a15017"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a15182" alias="l1dwq1">
+          <fileName filestem="gbs333-a15182"/>
+          <title>Quaestio 1</title>
+          <questionTitle>De identitate essentiae divinae cum attributis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a17825" alias="l1d2q2">
+          <fileName filestem="gbs333-a17825"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum perfectiones attributales sit realiter divina
+            essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a18173" alias="l1d3q4">
+          <fileName filestem="gbs333-a18173"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum aliquod reale possit distingui secundum rationem ab aliquo
+            reali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a18961" alias="l1d2q4">
+          <fileName filestem="gbs333-a18961"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum illud, quod immediate, et proxime denominatur ab intentione
+            universalis, et univoci sit aliqua res vera extra animam intrinseca, et essentialis
+            illis, quibus est communis, et univoca distincta realiter ab illis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a19691" alias="l1d2q5">
+          <fileName filestem="gbs333-a19691"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum universale et univocum sit vera res extra animam ab individuo cui
+            inest realiter distincta et ad multiplicationem individuorum realiter multiplicata et
+            variata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a19813" alias="l1d2q6">
+          <fileName filestem="gbs333-a19813"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum aliquid quod est universale et univocum sit realiter extra animam ex
+            natura rei distinctum ab individuo quamvis non realiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a20615" alias="l1d2q7">
+          <fileName filestem="gbs333-a20615"/>
+          <title>Quaestio 7 Utrum id, quod est universale, et commune univocum sit quodcumque
+            realiter a parte rei extra animam </title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a20911" alias="l1d2q8">
+          <fileName filestem="gbs333-a20911"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum universale univocum sit aliquid reale alicubi existens
+            subiective</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a22549" alias="l1d2q9">
+          <fileName filestem="gbs333-a22549"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum aliquod universale sit univocum deo et creaturae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a23190" alias="l1d2q10">
+          <fileName filestem="gbs333-a23190"/>
+          <title>Quaestio 10</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a24053" alias="l1d2q11">
+          <fileName filestem="gbs333-a24053"/>
+          <title>Quaestio 11</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD514" type="liber1-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="gbs333-a25714" alias="l1d3prae">
+          <fileName filestem="gbs333-a25714"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a25775" alias="l1d3q1">
+          <fileName filestem="gbs333-a25775"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum primum cognitum ab intellectu nostro sit divina
+            essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a26055" alias="l1d3q2">
+          <fileName filestem="gbs333-a26055"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum essentia divina sit a nobis cognoscibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a27171" alias="l1d3q3">
+          <fileName filestem="gbs333-a27171"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum de Deo possumus habere plures conceptus quidditativos</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a27783" alias="l1d3q4">
+          <fileName filestem="gbs333-a27783"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum Deum esse sit per notum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a28321" alias="l1d3q5">
+          <fileName filestem="gbs333-a28321"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum universale communissimum sit primum cognitum a nobis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a28836" alias="l1d3q6">
+          <fileName filestem="gbs333-a28836"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum prima notitia intellectus primitate generationis sit notitia
+            intuitiva alicuius singularis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a29836" alias="l1d3q7">
+          <fileName filestem="gbs333-a29836"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum singulare potest distincte cognosci cognitionem entis, vel
+            cuiuscumque universalis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a30092" alias="l1d3q8">
+          <fileName filestem="gbs333-a30092"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum ens quod est commune ad decem praedicamenta, et ad deum et creaturam
+            sit obiectum adaequatum et primum intellectus nostri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a30900" alias="l1d3q9">
+          <fileName filestem="gbs333-a30900"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum in omni creatura sit vestigium trinitatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a31676" alias="l1d3q10">
+          <fileName filestem="gbs333-a31676"/>
+          <title>Quaestio 10</title>
+          <questionTitle>Utrum creatura rationalis sit imag trinitatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD676" type="liber1-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="gbs333-a32213" alias="l1ld4prae">
+          <fileName filestem="gbs333-a32213"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a32278" alias="l1d4q1">
+          <fileName filestem="gbs333-a32278"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum haec sit concedenda: deus generat deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a33211" alias="l1d4q2">
+          <fileName filestem="gbs333-a33211"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An haec sit vera: Deus est pater, et filius, et spiritus sanctus: et per
+            totam questionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD723" type="liber1-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="gbs333-a33352" alias="l1d5prae">
+          <fileName filestem="gbs333-a33352"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a33405" alias="l1d5q1">
+          <fileName filestem="gbs333-a33405"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An essentia generet, vel generetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a34487" alias="l1d5q2">
+          <fileName filestem="gbs333-a34487"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum filius generetur de substantia patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a35033" alias="l1d5q3">
+          <fileName filestem="gbs333-a35033"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum essentia divina sit terminus formalis generationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a35779" alias="l1d6prae">
+          <fileName filestem="gbs333-a35779"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD799" type="liber1-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="gbs333-a35837" alias="l1d6q1">
+          <fileName filestem="gbs333-a35837"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater genuit filium natura vel voluntate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a36056" alias="l1d7prae">
+          <fileName filestem="gbs333-a36056"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD832" type="liber1-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="gbs333-a36110" alias="l1d7q1">
+          <fileName filestem="gbs333-a36110"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum potentia generandi in patre sit aliquod absolutum, vel
+            respectivum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a36664" alias="l1d7q2">
+          <fileName filestem="gbs333-a36664"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum absolutum sub ratione essentiae, vel ratione attributali sit potentia
+            genetandi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a37049" alias="l1d7q3">
+          <fileName filestem="gbs333-a37049"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum potentia generandi possit communicari filio a patre</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD879" type="liber1-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="gbs333-a37371" alias="l1d8prae">
+          <fileName filestem="gbs333-a37371"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a37455" alias="l1d8q1">
+          <fileName filestem="gbs333-a37455"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum divinae simplicitati repugnet esse in genere
+            praedicamentali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a38184" alias="l1d8q2">
+          <fileName filestem="gbs333-a38184"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum aliquod simpliciter simplex possit esse in genere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a39060" alias="l1d8q3">
+          <fileName filestem="gbs333-a39060"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum omne genus dividatur in suas species per differentias divisivas
+            generum et constitutivas specierum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a39257" alias="l1d8q4">
+          <fileName filestem="gbs333-a39257"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum genus et differentia important eamdem rem primo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a39621" alias="l1d8q5">
+          <fileName filestem="gbs333-a39621"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum deus possit diffiniri diffinitione non data per
+            additamentum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a39768" alias="l1d8q6">
+          <fileName filestem="gbs333-a39768"/>
+          <title>Quaestio 6</title>
+          <questionTitle>In omni diffinitione completissima debent poni omnes differentiae
+            essentiales cum suo genere generalissimo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a39910" alias="l1d8q7">
+          <fileName filestem="gbs333-a39910"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum solus deus sit immutabilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD997" type="liber1-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="gbs333-a40346" alias="l1d9prae">
+          <fileName filestem="gbs333-a40346"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a40427" alias="l1d9q1">
+          <fileName filestem="gbs333-a40427"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum filius vere generetur a Patre</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a41018" alias="l1d9q2">
+          <fileName filestem="gbs333-a41018"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum generatio in divinis sit univoca</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a41972" alias="l1d9q3">
+          <fileName filestem="gbs333-a41972"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum generatio in divinis sit univoca</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1059" type="liber1-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="gbs333-a42923" alias="l1d10prae">
+          <fileName filestem="gbs333-a42923"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a43018" alias="l1d10q1">
+          <fileName filestem="gbs333-a43018"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum voluntas sit principiun productivum spiritus sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a44013" alias="l1d10q2">
+          <fileName filestem="gbs333-a44013"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum spiritus sanctus libere producatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1106" type="liber1-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="gbs333-a44575" alias="l1d11prae">
+          <fileName filestem="gbs333-a44575"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a44634" alias="l1d11q1">
+          <fileName filestem="gbs333-a44634"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Spiritus Sanctus procedit a patre et filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a44994" alias="l1d11q2">
+          <fileName filestem="gbs333-a44994"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Spiritus Sanctus posset distingui a filio, si non procederet ab
+            eodem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1153" type="liber1-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="gbs333-a45443" alias="l1d12prae">
+          <fileName filestem="gbs333-a45443"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a45515" alias="l1d12q1">
+          <fileName filestem="gbs333-a45515"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater et filius sunt unum principium spiritans Spiritum
+            Sanctum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a47074" alias="l1d12q2">
+          <fileName filestem="gbs333-a47074"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a47368" alias="l1d12q3">
+          <fileName filestem="gbs333-a47368"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum pater et filius spirant omnino uniformiter Spiritum
+            sanctum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1214" type="liber1-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="gbs333-a47581" alias="l1d13prae">
+          <fileName filestem="gbs333-a47581"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a47639" alias="l1d13q1">
+          <fileName filestem="gbs333-a47639"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum generatio filii sit spiratio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1247" type="liber1-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="gbs333-a48335" alias="l1d14prae">
+          <fileName filestem="gbs333-a48335"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a48431" alias="l1d14q1">
+          <fileName filestem="gbs333-a48431"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Spiritui Sancto competat duplex processio temporalis et
+            aeterna</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a49125" alias="l1d14q2">
+          <fileName filestem="gbs333-a49125"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum spiritus sanctus detur in persona proprie, vel tantum secundum dona
+            sua.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1294" type="liber1-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="gbs333-a49581" alias="l1d15prae">
+          <fileName filestem="gbs333-a49581"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a49642" alias="l1d15q1">
+          <fileName filestem="gbs333-a49642"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1328" type="liber1-distinctio6">
+        <head>Distinctio 16</head>
+        <item id="gbs333-a49903" alias="l1d16prae">
+          <fileName filestem="gbs333-a49903"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a49983" alias="l1d16q1">
+          <fileName filestem="gbs333-a49983"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona divina visibiliter mittatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1361" type="liber1-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="gbs333-a50594" alias="l1d17prae">
+          <fileName filestem="gbs333-a50594"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a50663" alias="l1d17q1">
+          <fileName filestem="gbs333-a50663"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum praeter Spiritum Sanctum necesse sit ponere charitatem absolutam
+            creatam animam formaliter informantem quo sit cara Deo et accepta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a52344" alias="l1d17q2">
+          <fileName filestem="gbs333-a52344"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum aliquis actus potest esse meritorius sine caritate formaliter animam
+            informante</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a52558" alias="l1d17q3">
+          <fileName filestem="gbs333-a52558"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum de facto omni actui meritorio creata caritas
+            praesupponatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a53732" alias="l1d17q4">
+          <fileName filestem="gbs333-a53732"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum caritas possit augeri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a55432" alias="l1d17q5">
+          <fileName filestem="gbs333-a55432"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum caritas praeexistens maneat in fine augmentationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a55697" alias="l1d17q6">
+          <fileName filestem="gbs333-a55697"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum augmentatione caritatis aliquid realiter differens a priori sibi
+            adveniat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a56059" alias="l1d17q7">
+          <fileName filestem="gbs333-a56059"/>
+          <title>Quaestio 7</title>
+          <questionTitle> Utrum illud quod in caritatis augmentatione additae sit eiusdem speciei
+            specialissimae in caritate praecedente se parata ab ea </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a56930" alias="l1d17q8">
+          <fileName filestem="gbs333-a56930"/>
+          <title>Quaestio 8</title>
+          <questionTitle>Utrum donum dicat proprietatem personalem per totam
+            quaestionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1493" type="liber1-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="gbs333-a57640" alias="l1d18prae">
+          <fileName filestem="gbs333-a57640"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a57700" alias="l1d18q1">
+          <fileName filestem="gbs333-a57700"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum donum dicat proprietatem personalem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1526" type="liber1-distinctio19">
+        <head>Distinctio 1</head>
+        <item id="gbs333-a58295" alias="l1d19prae">
+          <fileName filestem="gbs333-a58295"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a58368" alias="l1d19q1">
+          <fileName filestem="gbs333-a58368"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum personae divinae sint secundum magnitudinem perfecte
+            aequales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a58838" alias="l1d19q2">
+          <fileName filestem="gbs333-a58838"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum quaelibet persona sit in alia per circumincessionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1573" type="liber1-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="gbs333-a59140" alias="l1d20prae">
+          <fileName filestem="gbs333-a59140"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a59195" alias="l1d20q1">
+          <fileName filestem="gbs333-a59195"/>
+          <title>Queaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1606" type="liber1-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="gbs333-a59669" alias="l1d21prae">
+          <fileName filestem="gbs333-a59669"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a59721" alias="l1d21q1">
+          <fileName filestem="gbs333-a59721"/>
+          <title>Questio 1</title>
+          <questionTitle> Utrum haec sit concedenda, solus Pater est Deus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1640" type="liber1-distinctio22">
+        <head>Distinctio 11</head>
+        <item id="gbs333-a60294" alias="l1d22prae">
+          <fileName filestem="gbs333-a60294"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a60395" alias="l1d22q1">
+          <fileName filestem="gbs333-a60395"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum viator possit aliquod nomen imponere ad significandum distincte
+            divinam essentiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1673" type="liber1-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="gbs333-a61157" alias="l1d23prae">
+          <fileName filestem="gbs333-a61157"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a61213" alias="">
+          <fileName filestem="gbs333-a61213"/>
+          <title>Quaestio 1 Utrum nomen persona sit terminus primae vel secundae intentionis </title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1706" type="liber1-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="gbs333-a61707" alias="l1d24prae">
+          <fileName filestem="gbs333-a61707"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a61772" alias="l1d24q1">
+          <fileName filestem="gbs333-a61772"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum unitas qua Deus dicitur unus sit aliquis additum Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a62387" alias="l1d24q2">
+          <fileName filestem="gbs333-a62387"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum persona in divinis dicatur secundum substantiam ut
+            relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1753" type="liber1-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="gbs333-a62920" alias="l1d25prae">
+          <fileName filestem="gbs333-a62920"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a62979" alias="l1d25q1">
+          <fileName filestem="gbs333-a62979"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona in divinis secundum substantiam vel
+            relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1786" type="liber1-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="gbs333-a63547" alias="l1d26prae">
+          <fileName filestem="gbs333-a63547"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a63660" alias="l1d26q1">
+          <fileName filestem="gbs333-a63660"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum personae divinae constituantur et distinguantur per relationes
+            originis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a65991" alias="l1d26q2">
+          <fileName filestem="gbs333-a65991"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum personae divinae constituantur et distinguantur per relationes sub
+            ratione relationis vel alia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a66379" alias="l1d26q3">
+          <fileName filestem="gbs333-a66379"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum omnes relationes divinae sint constitutivae personarum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1847" type="liber1-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="gbs333-a66626" alias="l1d27prae">
+          <fileName filestem="gbs333-a66626"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a66701" alias="l1d27q1">
+          <fileName filestem="gbs333-a66701"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in eadem persona sint plures proprietates</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a66984" alias="l1d27q2">
+          <fileName filestem="gbs333-a66984"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum verbum intellectus creati sit vera</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a67695" alias="l1d27q3">
+          <fileName filestem="gbs333-a67695"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum solus filius sit verbum in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1909" type="liber1-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="gbs333-a68644" alias="l1d28prae">
+          <fileName filestem="gbs333-a68644"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a68717" alias="l1d28q1">
+          <fileName filestem="gbs333-a68717"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum innascibilitas sit constitutiva patris proprietas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1942" type="liber1-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="gbs333-a69575" alias="l1d29prae">
+          <fileName filestem="gbs333-a69575"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a69649" alias="l1d29q1">
+          <fileName filestem="gbs333-a69649"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum principium univoce dicatur de omnibus illis in Deo, de quibus
+            praedicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD1975" type="liber1-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="gbs333-a70038" alias="l1d30prae">
+          <fileName filestem="gbs333-a70038"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a70100" alias="l1d30q1">
+          <fileName filestem="gbs333-a70100"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omni auctoritate seculsa, facilius negari possit omnis relatio esse
+            aliquid a parte rei quomodocumque ab absoluto, vel absolutis distinctum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a70522" alias="l1d30q2">
+          <fileName filestem="gbs333-a70522"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum per rationem naturalem probari possit sex principia importare
+            respectus extrinsecus advenientes absolutis distinctos</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a70829" alias="l1d30q3">
+          <fileName filestem="gbs333-a70829"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum de intentione philosophi fuit ponere quemcumque respectum a parte rei
+            distinctum ab omnibus absolutis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a71046" alias="l1d30q4">
+          <fileName filestem="gbs333-a71046"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum secundum rei veritatem sit ponendus aliquis respectus ab absolutis
+            distinctis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a73494" alias="l1d30q5">
+          <fileName filestem="gbs333-a73494"/>
+          <title>Quaestio 5</title>
+          <questionTitle> Utrum relatio temporalis Dei ad creaturam sit relatio realis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2065" type="liber1-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="gbs333-a73809" alias="l1d31prae">
+          <fileName filestem="gbs333-a73809"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a73891" alias="l1d31q1">
+          <fileName filestem="gbs333-a73891"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum identitas, similitudo, et aequalitas in divinis sit relatio realis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2098" type="liber1-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="gbs333-a74597" alias="l1d32prae">
+          <fileName filestem="gbs333-a74597"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a74677" alias="l1d32q1">
+          <fileName filestem="gbs333-a74677"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater sit sapiens sapientia genita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a75220" alias="l1d32q2">
+          <fileName filestem="gbs333-a75220"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum pater et filius diligant se Spiritu Sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2145" type="liber1-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="gbs333-a75511" alias="l1d33prae">
+          <fileName filestem="gbs333-a75511"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a75588" alias="l1d33q1">
+          <fileName filestem="gbs333-a75588"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2179" type="liber1-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="gbs333-a75813" alias="l1d34prae">
+          <fileName filestem="gbs333-a75813"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a75891" alias="l1d34q1">
+          <fileName filestem="gbs333-a75891"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona sit realiter essentia divina</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2212" type="liber1-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="gbs333-a75979" alias="l1d35prae">
+          <fileName filestem="gbs333-a75979"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a76115" alias="l1d35q1">
+          <fileName filestem="gbs333-a76115"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Deo sit scientia ex natura rei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a76812" alias="l1d35q2">
+          <fileName filestem="gbs333-a76812"/>
+          <title>Quaestio 2 Utrum Deus intelligat omnia alia a se distincte</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a77559" alias="l1d35q3">
+          <fileName filestem="gbs333-a77559"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum essentia divina sit primum obiectum intellectus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a78067" alias="l1d35q4">
+          <fileName filestem="gbs333-a78067"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum ad hoc quod Deus intelligat alia a se distincte requirantur
+            necessario in eo distinctae relationes rationis ad sua intelligibilia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a78556" alias="l1d35q5">
+          <fileName filestem="gbs333-a78556"/>
+          <title>Quaesito 5</title>
+          <questionTitle>Utrum Deus intelligat omnia alia a se per ideas earum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a80594" alias="l1d35q6">
+          <fileName filestem="gbs333-a80594"/>
+          <title>Quaestio 6</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2316" type="liber1-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="gbs333-a81117" alias="l1d36prae">
+          <fileName filestem="gbs333-a81117"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a81203" alias="l1d36q1">
+          <fileName filestem="gbs333-a81203"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum perfectiones creaturarum in Deo contentae ab aeterno distinguantur
+            inter se realiter et a divina essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2349" type="liber1-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="gbs333-a82164" alias="l1d37prae">
+          <fileName filestem="gbs333-a82164"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a82229" alias="l1d37q1">
+          <fileName filestem="gbs333-a82229"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum esse ubique et in omnibus rebus per essentiam, praesentiam,
+            potentiam, sit proprium soli Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2382" type="liber1-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="gbs333-a82941" alias="l1d38prae">
+          <fileName filestem="gbs333-a82941"/>
+          <title>Distinctio 38</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a83022" alias="l1d38q1">
+          <fileName filestem="gbs333-a83022"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus habeat scientiam determinatam, et necessariam omnium futurorum
+            contingentium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2415" type="liber1-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="gbs333-a87405" alias="l1d39prae">
+          <fileName filestem="gbs333-a87405"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a87477" alias="l1d39q1">
+          <fileName filestem="gbs333-a87477"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus possit plura scire quam scit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2449" type="liber1-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="gbs333-a88320" alias="l1d40prae">
+          <fileName filestem="gbs333-a88320"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a88398" alias="l1d40q1">
+          <fileName filestem="gbs333-a88398"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sit possibile aliquem praedestinatum damnari et praescitum
+            salvari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2482" type="liber1-distinctio41">
+        <head>Distinctio 41</head>
+        <item id="gbs333-a89045" alias="l1d41prae">
+          <fileName filestem="gbs333-a89045"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a89106" alias="l1d41q1">
+          <fileName filestem="gbs333-a89106"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum in praedestinato sit aliqua causa suae praedestinationis et in
+            reprobato causae suae reprobationis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2515" type="liber1-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="gbs333-a90019" alias="l1d42prae">
+          <fileName filestem="gbs333-a90019"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a90101" alias="l1d42q1">
+          <fileName filestem="gbs333-a90101"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus possit facere omne possibile fieri a creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2548" type="liber1-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="gbs333-a90778" alias="l1d43prae">
+          <fileName filestem="gbs333-a90778"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a90842" alias="l1d43q1">
+          <fileName filestem="gbs333-a90842"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus possit aliqua facere, quae non fecit, nec faciet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a91344" alias="l1d43q2">
+          <fileName filestem="gbs333-a91344"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum plus conveniat Deo non posse facere impossibile, quam impossibilia
+            non posse fieri a Deo </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2595" type="liber1-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="gbs333-a91508" alias="l1d44prae">
+          <fileName filestem="gbs333-a91508"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a91573" alias="l1d44q1">
+          <fileName filestem="gbs333-a91573"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus possit facere mundum meliorem isto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2628" type="liber1-distinctio45">
+        <head>Distinctio 45</head>
+        <item id="gbs333-a92126" alias="l1d45prae">
+          <fileName filestem="gbs333-a92126"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a92231" alias="l1d45q1">
+          <fileName filestem="gbs333-a92231"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum voluntas Dei sit causa immediata, et prima omnium rerum, quae
+            fiunt</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2662" type="liber1-distinctio46">
+        <head>Distinctio 46</head>
+        <item id="gbs333-a92405" alias="l1d46prae">
+          <fileName filestem="gbs333-a92405"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a92469" alias="l1d46q1">
+          <fileName filestem="gbs333-a92469"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum voluntas divina possit impediri per quamcumque potentiam creaturae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a93076" alias="l1d46q2">
+          <fileName filestem="gbs333-a93076"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum per rationem naturalem probari possit quod voluntas divina semper
+            impletur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2709" type="liber1-distinctio47">
+        <head>Distinctio 47</head>
+        <item id="gbs333-a93169" alias="l1d47prae">
+          <fileName filestem="gbs333-a93169"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a93221" alias="l1d47q1">
+          <fileName filestem="gbs333-a93221"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus possit praecipere malum fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-aD2742" type="liber1-distinctio48">
+        <head>Distinctio 48</head>
+        <item id="gbs333-a93381" alias="l1d48prae">
+          <fileName filestem="gbs333-a93381"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-a93440" alias="l1d48q1">
+          <fileName filestem="gbs333-a93440"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum quaelibet voluntas creata teneatur se conformare divinae
+            voluntati</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz1"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="gbs333-d1e54">
+      <head>Liber 3</head>
+      <div id="gbs333-d1e58" alias="liber3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="gbs333-h1e510" alias="l3d1prae">
+          <fileName filestem="gbs333-h1e510"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>1</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h1e171" alias="l3d1q1">
+          <fileName filestem="gbs333-h1e171"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>1</folio>
+              <folio>2</folio>
+              <folio>3</folio>
+              <folio>4</folio>
+              <folio>5</folio>
+              <folio>6</folio>
+              <folio>7</folio>
+              <folio>8</folio>
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+              <folio>13</folio>
+              <folio>14</folio>
+              <folio>15</folio>
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+              <folio>21</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-he4933" alias="l3d1q2">
+          <fileName filestem="gbs333-he4933"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>21</folio>
+              <folio>22</folio>
+              <folio>23</folio>
+              <folio>24</folio>
+              <folio>25</folio>
+              <folio>26</folio>
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+              <folio>30</folio>
+              <folio>31</folio>
+              <folio>32</folio>
+              <folio>33</folio>
+              <folio>34</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e189" alias="liber3-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="gbs333-he8109" alias="l3d2prae">
+          <fileName filestem="gbs333-he8109"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-he8175" alias="l3d2q1">
+          <fileName filestem="gbs333-he8175"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>34</folio>
+              <folio>35</folio>
+              <folio>36</folio>
+              <folio>37</folio>
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+              <folio>42</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e245" alias="liber3-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="gbs333-h10206" alias="l3d3prae">
+          <fileName filestem="gbs333-h10206"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>42</folio>
+              <folio>43</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h10275" alias="l3d3q1">
+          <fileName filestem="gbs333-h10275"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>43</folio>
+              <folio>44</folio>
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+              <folio>48</folio>
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+              <folio>52</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h12724" alias="l3d3q2">
+          <fileName filestem="gbs333-h12724"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>53</folio>
+              <folio>54</folio>
+              <folio>55</folio>
+              <folio>56</folio>
+              <folio>57</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e333" alias="liber3-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="gbs333-h13798" alias="l3d4prae">
+          <fileName filestem="gbs333-h13798"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h13868" alias="l3d4q1">
+          <fileName filestem="gbs333-h13868"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>57</folio>
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+              <folio>64</folio>
+              <folio>65</folio>
+              <folio>66</folio>
+              <folio>67</folio>
+              <folio>68</folio>
+              <folio>69</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e399" alias="liber3-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="gbs333-h16909" alias="l3d5prae">
+          <fileName filestem="gbs333-h16909"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>70</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h16998" alias="l3d5q1">
+          <fileName filestem="gbs333-h16998"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>70</folio>
+              <folio>71</folio>
+              <folio>72</folio>
+              <folio>73</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e446" alias="liber3-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="gbs333-h17896" alias="l3d6prae">
+          <fileName filestem="gbs333-h17896"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>74</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h18056" alias="l3d6q1">
+          <fileName filestem="gbs333-h18056"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>74</folio>
+              <folio>75</folio>
+              <folio>76</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h18559" alias="l3d6q2">
+          <fileName filestem="gbs333-h18559"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>76</folio>
+              <folio>77</folio>
+              <folio>78</folio>
+              <folio>79</folio>
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e521" alias="liber3-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="gbs333-h19934" alias="l3d7prae">
+          <fileName filestem="gbs333-h19934"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h20035" alias="l3d7q1">
+          <fileName filestem="gbs333-h20035"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>82</folio>
+              <folio>83</folio>
+              <folio>84</folio>
+              <folio>85</folio>
+              <folio>86</folio>
+              <folio>87</folio>
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+              <folio>91</folio>
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+              <folio>96</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e590" alias="liber3-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="gbs333-h23378" alias="l3d8prae">
+          <fileName filestem="gbs333-h23378"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h23475" alias="l3d8q1">
+          <fileName filestem="gbs333-h23475"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>96</folio>
+              <folio>97</folio>
+              <folio>98</folio>
+              <folio>99</folio>
+              <folio>100</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e637" alias="liber3-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="gbs333-h24403" alias="l3d9prae">
+          <fileName filestem="gbs333-h24403"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h24470" alias="l3d9q1">
+          <fileName filestem="gbs333-h24470"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>100</folio>
+              <folio>101</folio>
+              <folio>102</folio>
+              <folio>103</folio>
+              <folio>104</folio>
+              <folio>105</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e687" alias="liber3-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="gbs333-h25673" alias="l3d10prae">
+          <fileName filestem="gbs333-h25673"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h25760" alias="l3d10q1">
+          <fileName filestem="gbs333-h25760"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+              <folio>108</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e733" alias="liber3-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="gbs333-h26470" alias="l3d11prae">
+          <fileName filestem="gbs333-h26470"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h26541" alias="l3d11q1">
+          <fileName filestem="gbs333-h26541"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>108</folio>
+              <folio>109</folio>
+              <folio>110</folio>
+              <folio>111</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e778" alias="liber3-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="gbs333-h27210" alias="l3d12prae">
+          <fileName filestem="gbs333-h27210"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h27281" alias="l3d12q1">
+          <fileName filestem="gbs333-h27281"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>111</folio>
+              <folio>112</folio>
+              <folio>113</folio>
+              <folio>114</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e823" alias="liber3-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="gbs333-h27891" alias="l3d13prae">
+          <fileName filestem="gbs333-h27891"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h27972" alias="l3d13q1">
+          <fileName filestem="gbs333-h27972"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>114</folio>
+              <folio>115</folio>
+              <folio>116</folio>
+              <folio>117</folio>
+              <folio>118</folio>
+              <folio>119</folio>
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+              <folio>123</folio>
+              <folio>124</folio>
+              <folio>125</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e886" alias="liber3-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="gbs333-h30594" alias="l3d14prae">
+          <fileName filestem="gbs333-h30594"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h30666" alias="l3d14q1">
+          <fileName filestem="gbs333-h30666"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>125</folio>
+              <folio>126</folio>
+              <folio>127</folio>
+              <folio>128</folio>
+              <folio>129</folio>
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+              <folio>133</folio>
+              <folio>134</folio>
+              <folio>135</folio>
+              <folio>136</folio>
+              <folio>137</folio>
+              <folio>138</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e953" alias="liber3-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="gbs333-h33755" alias="l3d15prae">
+          <fileName filestem="gbs333-h33755"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h33915" alias="l3d15q1">
+          <fileName filestem="gbs333-h33915"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>139</folio>
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+              <folio>143</folio>
+              <folio>144</folio>
+              <folio>145</folio>
+              <folio>146</folio>
+              <folio>147</folio>
+              <folio>148</folio>
+              <folio>149</folio>
+              <folio>150</folio>
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1026" alias="liber3-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="gbs333-h37616" alias="l3d16prae">
+          <fileName filestem="gbs333-h37616"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h37690" alias="l3d16q1">
+          <fileName filestem="gbs333-h37690"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>154</folio>
+              <folio>155</folio>
+              <folio>156</folio>
+              <folio>157</folio>
+              <folio>158</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1074" alias="liber3-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="gbs333-h38768" alias="l3d17prae">
+          <fileName filestem="gbs333-h38768"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>158</folio>
+              <folio>159</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h38846" alias="l3d17q1">
+          <fileName filestem="gbs333-h38846"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>159</folio>
+              <folio>160</folio>
+              <folio>161</folio>
+              <folio>162</folio>
+              <folio>163</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1123" alias="liber3-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="gbs333-h40046" alias="l3d18prae">
+          <fileName filestem="gbs333-h40046"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>164</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h40121" alias="l3d18q1">
+          <fileName filestem="gbs333-h40121"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>164</folio>
+              <folio>165</folio>
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1183" alias="liber3-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="gbs333-h42413" alias="l3d19prae">
+          <fileName filestem="gbs333-h42413"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h42481" alias="l3d19q1">
+          <fileName filestem="gbs333-h42481"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>173</folio>
+              <folio>174</folio>
+              <folio>175</folio>
+              <folio>176</folio>
+              <folio>177</folio>
+              <folio>178</folio>
+              <folio>179</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1235" alias="liber3-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="gbs333-h43822" alias="l3d20prae">
+          <fileName filestem="gbs333-h43822"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h43884" alias="l3d20q1">
+          <fileName filestem="gbs333-h43884"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>179</folio>
+              <folio>180</folio>
+              <folio>181</folio>
+              <folio>182</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1280" alias="liber3-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="gbs333-h44702" alias="l3d21prae">
+          <fileName filestem="gbs333-h44702"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>183</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h44793" alias="l3d21q1">
+          <fileName filestem="gbs333-h44793"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1325" alias="liber3-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="gbs333-h45402" alias="l3d22prae">
+          <fileName filestem="gbs333-h45402"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>185</folio>
+              <folio>186</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h45475" alias="l3d22q1">
+          <fileName filestem="gbs333-h45475"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>186</folio>
+              <folio>187</folio>
+              <folio>188</folio>
+              <folio>189</folio>
+              <folio>190</folio>
+              <folio>191</folio>
+              <folio>192</folio>
+              <folio>193</folio>
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1388" alias="liber3-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="gbs333-h47986" alias="l3d23prae">
+          <fileName filestem="gbs333-h47986"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h48133" alias="l3d23q1">
+          <fileName filestem="gbs333-h48133"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>196</folio>
+              <folio>197</folio>
+              <folio>198</folio>
+              <folio>199</folio>
+              <folio>200</folio>
+              <folio>201</folio>
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+              <folio>205</folio>
+              <folio>206</folio>
+              <folio>207</folio>
+              <folio>208</folio>
+              <folio>209</folio>
+              <folio>210</folio>
+              <folio>211</folio>
+              <folio>212</folio>
+              <folio>213</folio>
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+              <folio>217</folio>
+              <folio>218</folio>
+              <folio>219</folio>
+              <folio>220</folio>
+              <folio>221</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h54165" alias="l3d23q2">
+          <fileName filestem="gbs333-h54165"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>221</folio>
+              <folio>222</folio>
+              <folio>223</folio>
+              <folio>224</folio>
+              <folio>225</folio>
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+              <folio>229</folio>
+              <folio>230</folio>
+              <folio>231</folio>
+              <folio>232</folio>
+              <folio>233</folio>
+              <folio>234</folio>
+              <folio>235</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1528" alias="liber3-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="gbs333-h58041" alias="l3d24prae">
+          <fileName filestem="gbs333-h58041"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>236</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h58121" alias="l3d24q1">
+          <fileName filestem="gbs333-h58121"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>236</folio>
+              <folio>237</folio>
+              <folio>238</folio>
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+              <folio>242</folio>
+              <folio>243</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1584" alias="liber3-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="gbs333-h59848" alias="l3d25prae">
+          <fileName filestem="gbs333-h59848"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h59932" alias="l3d25q1">
+          <fileName filestem="gbs333-h59932"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>243</folio>
+              <folio>244</folio>
+              <folio>245</folio>
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>248</folio>
+              <folio>249</folio>
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+              <folio>255</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1649" alias="liber3-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="gbs333-h62772" alias="l3d26prae">
+          <fileName filestem="gbs333-h62772"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h62849" alias="l3d26q1">
+          <fileName filestem="gbs333-h62849"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+              <folio>261</folio>
+              <folio>262</folio>
+              <folio>263</folio>
+              <folio>264</folio>
+              <folio>265</folio>
+              <folio>266</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1712" alias="liber3-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="gbs333-h65532" alias="l3d27prae">
+          <fileName filestem="gbs333-h65532"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h65621" alias="l3d27q1">
+          <fileName filestem="gbs333-h65621"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+              <folio>269</folio>
+              <folio>270</folio>
+              <folio>271</folio>
+              <folio>272</folio>
+              <folio>273</folio>
+              <folio>274</folio>
+              <folio>275</folio>
+              <folio>276</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+              <folio>279</folio>
+              <folio>280</folio>
+              <folio>281</folio>
+              <folio>282</folio>
+              <folio>283</folio>
+              <folio>284</folio>
+              <folio>285</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1792" alias="liber3-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="gbs333-h70066" alias="l3d28prae">
+          <fileName filestem="gbs333-h70066"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h70137" alias="l3d28q1">
+          <fileName filestem="gbs333-h70137"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+              <folio>288</folio>
+              <folio>289</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1840" alias="liber3-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="gbs333-h71098" alias="l3d29prae">
+          <fileName filestem="gbs333-h71098"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h71171" alias="l3d29q1">
+          <fileName filestem="gbs333-h71171"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>289</folio>
+              <folio>290</folio>
+              <folio>291</folio>
+              <folio>292</folio>
+              <folio>293</folio>
+              <folio>294</folio>
+              <folio>295</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1892" alias="liber3-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="gbs333-h72657" alias="l3d30prae">
+          <fileName filestem="gbs333-h72657"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h72719" alias="l3d30q1">
+          <fileName filestem="gbs333-h72719"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+              <folio>298</folio>
+              <folio>299</folio>
+              <folio>300</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1942" alias="liber3-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="gbs333-h73869" alias="l3d31prae">
+          <fileName filestem="gbs333-h73869"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h73934" alias="l3d31q1">
+          <fileName filestem="gbs333-h73934"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e1992" alias="liber3-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="gbs333-h75041" alias="l3d32prae">
+          <fileName filestem="gbs333-h75041"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h75166" alias="l3d32q1">
+          <fileName filestem="gbs333-h75166"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>305</folio>
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2039" alias="liber3-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="gbs333-h76036" alias="l3d33prae">
+          <fileName filestem="gbs333-h76036"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h76105" alias="l3d33q1">
+          <fileName filestem="gbs333-h76105"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>309</folio>
+              <folio>310</folio>
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2086" alias="liber3-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="gbs333-h77109" alias="l3d34prae">
+          <fileName filestem="gbs333-h77109"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>313</folio>
+              <folio>314</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h77200" alias="l3d34q1">
+          <fileName filestem="gbs333-h77200"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+              <folio>320</folio>
+              <folio>321</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2143" alias="liber3-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="gbs333-h79144" alias="l3d35prae">
+          <fileName filestem="gbs333-h79144"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>321</folio>
+              <folio>322</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h79227" alias="l3d35q1">
+          <fileName filestem="gbs333-h79227"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>322</folio>
+              <folio>323</folio>
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+              <folio>330</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2201" alias="liber3-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="gbs333-h81196" alias="l3d36prae">
+          <fileName filestem="gbs333-h81196"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h81263" alias="l3d36q1">
+          <fileName filestem="gbs333-h81263"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>329</folio>
+              <folio>330</folio>
+              <folio>331</folio>
+              <folio>332</folio>
+              <folio>333</folio>
+              <folio>334</folio>
+              <folio>335</folio>
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+              <folio>343</folio>
+              <folio>344</folio>
+              <folio>345</folio>
+              <folio>346</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2281" alias="liber3-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="gbs333-h85613" alias="l3d37prae">
+          <fileName filestem="gbs333-h85613"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>348</folio>
+              <folio>349</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h85766" alias="l3d37q1">
+          <fileName filestem="gbs333-h85766"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+              <folio>352</folio>
+              <folio>353</folio>
+              <folio>354</folio>
+              <folio>355</folio>
+              <folio>356</folio>
+              <folio>357</folio>
+              <folio>358</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2341" alias="liber3-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="gbs333-h87979" alias="l3d38prae">
+          <fileName filestem="gbs333-h87979"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h88063" alias="l3d38q1">
+          <fileName filestem="gbs333-h88063"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>357</folio>
+              <folio>358</folio>
+              <folio>359</folio>
+              <folio>360</folio>
+              <folio>361</folio>
+              <folio>362</folio>
+              <folio>363</folio>
+              <folio>364</folio>
+              <folio>365</folio>
+              <folio>366</folio>
+              <folio>367</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2401" alias="liber3-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="gbs333-h90391" alias="l3d39prae">
+          <fileName filestem="gbs333-h90391"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>368</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h90476" alias="l3d39q1">
+          <fileName filestem="gbs333-h90476"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>367</folio>
+              <folio>368</folio>
+              <folio>369</folio>
+              <folio>370</folio>
+              <folio>371</folio>
+              <folio>372</folio>
+              <folio>373</folio>
+              <folio>374</folio>
+              <folio>375</folio>
+              <folio>376</folio>
+              <folio>377</folio>
+              <folio>378</folio>
+              <folio>379</folio>
+              <folio>380</folio>
+              <folio>381</folio>
+              <folio>382</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h93828" alias="l3d39q2">
+          <fileName filestem="gbs333-h93828"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>381</folio>
+              <folio>382</folio>
+              <folio>383</folio>
+              <folio>384</folio>
+              <folio>385</folio>
+              <folio>386</folio>
+              <folio>387</folio>
+              <folio>388</folio>
+              <folio>389</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e2508" alias="liber3-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="gbs333-h95522" alias="l3d40prae">
+          <fileName filestem="gbs333-h95522"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>NaN</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-h95595" alias="l3d40q1">
+          <fileName filestem="gbs333-h95595"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz3">
+              <folio>389</folio>
+              <folio>390</folio>
+              <folio>391</folio>
+              <folio>392</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
 </listofFileNames>
