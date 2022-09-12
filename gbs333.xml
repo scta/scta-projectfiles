@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Gabriel Biel</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -62,7 +64,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>1</folio>
+              <folio>2</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aaa394" alias="l1prolq1">
@@ -71,7 +76,21 @@
           <questionTitle>Utrum sit possibile intellectui viatoris habere notitiam evidentem de
             veritatibus theologicis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>3</folio>
+              <folio>4</folio>
+              <folio>5</folio>
+              <folio>6</folio>
+              <folio>7</folio>
+              <folio>8</folio>
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+              <folio>13</folio>
+              <folio>14</folio>
+              <folio>15</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa3538" alias="l1prolq2">
@@ -80,7 +99,12 @@
           <questionTitle>Utrum notitia evidens veritatum theologicarum sit scientia proprie
             dicta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>15</folio>
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa4354" alias="l1prolq3">
@@ -89,7 +113,11 @@
           <questionTitle>Utrum passio scibilis de aliqua scientia proprie dicta distinguatur ab ea
             realiter</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa4852" alias="l1prol4">
@@ -97,7 +125,10 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum omnis passio sit demonstrabilis de subiecto primo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>20</folio>
+              <folio>21</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa5112" alias="l1prolq5">
@@ -106,7 +137,10 @@
           <questionTitle>Utrum in omni demonstratione diffinitio sit medium
             demonstrandi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>21</folio>
+              <folio>22</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa5279" alias="l1prolq6">
@@ -115,15 +149,23 @@
           <questionTitle>Utrum sola propositio per se secundo modo est scibilis proprie
             dicta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa5457" alias="l1prolq7">
           <fileName filestem="gbs333-aa5457"/>
           <title>Quaestio 7 </title>
-          <questionTitle>Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</questionTitle>
+          <questionTitle>Utrum theologia quae de communi lege habetur a theologis sit scientia
+            proprie dicta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>22</folio>
+              <folio>23</folio>
+              <folio>24</folio>
+              <folio>25</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa6045" alias="l1prolq8">
@@ -131,7 +173,10 @@
           <title>Quaestio 8</title>
           <questionTitle>Quaestio 8</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>25</folio>
+              <folio>26</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa6516" alias="l1prolq9">
@@ -140,7 +185,11 @@
           <questionTitle>Utrum Deus sub propria ratione deitatis sit subiectum
             theologiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa7264" alias="l1prolq10">
@@ -148,7 +197,11 @@
           <title>Quaestio 10</title>
           <questionTitle>Utrum sola operatio potentiae sensitivae sit praxis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>29</folio>
+              <folio>30</folio>
+              <folio>31</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa7793" alias="l1prolq11">
@@ -157,7 +210,12 @@
           <questionTitle>Utrum notitia practica et speculativa distinguuntur per fines, vel penes
             obiecta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>32</folio>
+              <folio>33</folio>
+              <folio>34</folio>
+              <folio>35</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-aa8710" alias="l1prolq12">
@@ -165,7 +223,12 @@
           <title>Quaestio 12</title>
           <questionTitle>Utrum habitus theologicus sit practicus vel speculativus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>35</folio>
+              <folio>36</folio>
+              <folio>37</folio>
+              <folio>38</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -176,7 +239,16 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum tamen omni alio a Deo sit utendum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+              <folio>42</folio>
+              <folio>43</folio>
+              <folio>44</folio>
+              <folio>45</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a11133" alias="l1d1q2">
@@ -184,7 +256,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum frui sit actus solius voluntatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a11731" alias="l1d1q3">
@@ -192,7 +268,13 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum fruitio sit qualitas distincta realiter a delectione</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>47</folio>
+              <folio>48</folio>
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a12831" alias="l1d1q4">
@@ -200,7 +282,10 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum solus deus sit debitum obiectum fruitionis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>52</folio>
+              <folio>53</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a13318" alias="l1d1q5">
@@ -209,7 +294,14 @@
           <questionTitle>Utrum voluntas possit frui essentia non fruendo persona et
             econtra</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>53</folio>
+              <folio>54</folio>
+              <folio>55</folio>
+              <folio>56</folio>
+              <folio>57</folio>
+              <folio>58</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a14535" alias="l1d1q6">
@@ -217,7 +309,11 @@
           <title>Quaestio 6</title>
           <questionTitle>Utrum voluntas contingenter, et libere fruatur ultimo fine</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -228,7 +324,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>60</folio>
+              <folio>61</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a15182" alias="l1dwq1">
@@ -236,7 +335,20 @@
           <title>Quaestio 1</title>
           <questionTitle>De identitate essentiae divinae cum attributis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+              <folio>64</folio>
+              <folio>65</folio>
+              <folio>66</folio>
+              <folio>67</folio>
+              <folio>68</folio>
+              <folio>69</folio>
+              <folio>70</folio>
+              <folio>71</folio>
+              <folio>72</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a17825" alias="l1d2q2">
@@ -245,7 +357,10 @@
           <questionTitle>Utrum perfectiones attributales sit realiter divina
             essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>72</folio>
+              <folio>73</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a18173" alias="l1d3q4">
@@ -254,7 +369,12 @@
           <questionTitle>Utrum aliquod reale possit distingui secundum rationem ab aliquo
             reali</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>73</folio>
+              <folio>74</folio>
+              <folio>75</folio>
+              <folio>76</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a18961" alias="l1d2q4">
@@ -264,7 +384,12 @@
             universalis, et univoci sit aliqua res vera extra animam intrinseca, et essentialis
             illis, quibus est communis, et univoca distincta realiter ab illis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>76</folio>
+              <folio>77</folio>
+              <folio>78</folio>
+              <folio>79</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a19691" alias="l1d2q5">
@@ -274,7 +399,9 @@
             inest realiter distincta et ad multiplicationem individuorum realiter multiplicata et
             variata</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a19813" alias="l1d2q6">
@@ -283,7 +410,12 @@
           <questionTitle>Utrum aliquid quod est universale et univocum sit realiter extra animam ex
             natura rei distinctum ab individuo quamvis non realiter</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>79</folio>
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a20615" alias="l1d2q7">
@@ -292,7 +424,10 @@
             realiter a parte rei extra animam </title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>82</folio>
+              <folio>83</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a20911" alias="l1d2q8">
@@ -301,7 +436,16 @@
           <questionTitle>Utrum universale univocum sit aliquid reale alicubi existens
             subiective</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>83</folio>
+              <folio>84</folio>
+              <folio>85</folio>
+              <folio>86</folio>
+              <folio>87</folio>
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a22549" alias="l1d2q9">
@@ -309,7 +453,11 @@
           <title>Quaestio 9</title>
           <questionTitle>Utrum aliquod universale sit univocum deo et creaturae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>90</folio>
+              <folio>91</folio>
+              <folio>92</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a23190" alias="l1d2q10">
@@ -317,7 +465,13 @@
           <title>Quaestio 10</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+              <folio>96</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a24053" alias="l1d2q11">
@@ -325,7 +479,15 @@
           <title>Quaestio 11</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>96</folio>
+              <folio>97</folio>
+              <folio>98</folio>
+              <folio>99</folio>
+              <folio>100</folio>
+              <folio>101</folio>
+              <folio>102</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -336,7 +498,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a25775" alias="l1d3q1">
@@ -345,7 +509,10 @@
           <questionTitle>Utrum primum cognitum ab intellectu nostro sit divina
             essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>102</folio>
+              <folio>103</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a26055" alias="l1d3q2">
@@ -353,7 +520,13 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum essentia divina sit a nobis cognoscibilis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>104</folio>
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+              <folio>108</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a27171" alias="l1d3q3">
@@ -361,7 +534,11 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum de Deo possumus habere plures conceptus quidditativos</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>108</folio>
+              <folio>109</folio>
+              <folio>110</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a27783" alias="l1d3q4">
@@ -369,7 +546,11 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum Deum esse sit per notum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>110</folio>
+              <folio>111</folio>
+              <folio>112</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a28321" alias="l1d3q5">
@@ -377,7 +558,10 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum universale communissimum sit primum cognitum a nobis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>113</folio>
+              <folio>114</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a28836" alias="l1d3q6">
@@ -386,7 +570,12 @@
           <questionTitle>Utrum prima notitia intellectus primitate generationis sit notitia
             intuitiva alicuius singularis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>115</folio>
+              <folio>116</folio>
+              <folio>117</folio>
+              <folio>118</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a29836" alias="l1d3q7">
@@ -395,7 +584,10 @@
           <questionTitle>Utrum singulare potest distincte cognosci cognitionem entis, vel
             cuiuscumque universalis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>118</folio>
+              <folio>119</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a30092" alias="l1d3q8">
@@ -404,7 +596,13 @@
           <questionTitle>Utrum ens quod est commune ad decem praedicamenta, et ad deum et creaturam
             sit obiectum adaequatum et primum intellectus nostri</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>119</folio>
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+              <folio>123</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a30900" alias="l1d3q9">
@@ -412,7 +610,12 @@
           <title>Quaestio 9</title>
           <questionTitle>Utrum in omni creatura sit vestigium trinitatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>123</folio>
+              <folio>124</folio>
+              <folio>125</folio>
+              <folio>126</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a31676" alias="l1d3q10">
@@ -420,7 +623,11 @@
           <title>Quaestio 10</title>
           <questionTitle>Utrum creatura rationalis sit imag trinitatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>126</folio>
+              <folio>127</folio>
+              <folio>128</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -431,7 +638,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a32278" alias="l1d4q1">
@@ -439,7 +648,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum haec sit concedenda: deus generat deum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>128</folio>
+              <folio>129</folio>
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a33211" alias="l1d4q2">
@@ -448,7 +663,9 @@
           <questionTitle>An haec sit vera: Deus est pater, et filius, et spiritus sanctus: et per
             totam questionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -459,7 +676,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a33405" alias="l1d5q1">
@@ -467,7 +686,14 @@
           <title>Quaestio 1</title>
           <questionTitle>An essentia generet, vel generetur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>132</folio>
+              <folio>133</folio>
+              <folio>134</folio>
+              <folio>135</folio>
+              <folio>136</folio>
+              <folio>137</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a34487" alias="l1d5q2">
@@ -475,7 +701,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum filius generetur de substantia patris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>137</folio>
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a35033" alias="l1d5q3">
@@ -483,7 +713,12 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum essentia divina sit terminus formalis generationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>139</folio>
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a35779" alias="l1d6prae">
@@ -491,7 +726,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -502,7 +739,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum pater genuit filium natura vel voluntate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>142</folio>
+              <folio>143</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a36056" alias="l1d7prae">
@@ -510,7 +750,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -522,7 +764,11 @@
           <questionTitle>Utrum potentia generandi in patre sit aliquod absolutum, vel
             respectivum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>143</folio>
+              <folio>144</folio>
+              <folio>145</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a36664" alias="l1d7q2">
@@ -531,7 +777,10 @@
           <questionTitle>Utrum absolutum sub ratione essentiae, vel ratione attributali sit potentia
             genetandi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>145</folio>
+              <folio>146</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a37049" alias="l1d7q3">
@@ -539,7 +788,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum potentia generandi possit communicari filio a patre</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>147</folio>
+              <folio>148</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -550,7 +802,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a37455" alias="l1d8q1">
@@ -559,7 +813,12 @@
           <questionTitle>Utrum divinae simplicitati repugnet esse in genere
             praedicamentali</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>148</folio>
+              <folio>149</folio>
+              <folio>150</folio>
+              <folio>151</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a38184" alias="l1d8q2">
@@ -567,7 +826,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum aliquod simpliciter simplex possit esse in genere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a39060" alias="l1d8q3">
@@ -576,7 +840,9 @@
           <questionTitle>Utrum omne genus dividatur in suas species per differentias divisivas
             generum et constitutivas specierum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>155</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a39257" alias="l1d8q4">
@@ -584,7 +850,11 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum genus et differentia important eamdem rem primo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>155</folio>
+              <folio>156</folio>
+              <folio>157</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a39621" alias="l1d8q5">
@@ -593,7 +863,9 @@
           <questionTitle>Utrum deus possit diffiniri diffinitione non data per
             additamentum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a39768" alias="l1d8q6">
@@ -602,7 +874,10 @@
           <questionTitle>In omni diffinitione completissima debent poni omnes differentiae
             essentiales cum suo genere generalissimo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>157</folio>
+              <folio>158</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a39910" alias="l1d8q7">
@@ -610,7 +885,10 @@
           <title>Quaestio 7</title>
           <questionTitle>Utrum solus deus sit immutabilis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>158</folio>
+              <folio>159</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -621,7 +899,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>159</folio>
+              <folio>160</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a40427" alias="l1d9q1">
@@ -629,7 +910,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum filius vere generetur a Patre</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>160</folio>
+              <folio>161</folio>
+              <folio>162</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a41018" alias="l1d9q2">
@@ -637,7 +922,13 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum generatio in divinis sit univoca</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>162</folio>
+              <folio>163</folio>
+              <folio>164</folio>
+              <folio>165</folio>
+              <folio>166</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a41972" alias="l1d9q3">
@@ -645,7 +936,12 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum generatio in divinis sit univoca</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -656,7 +952,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>170</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a43018" alias="l1d10q1">
@@ -664,7 +962,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas sit principiun productivum spiritus sancti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+              <folio>174</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a44013" alias="l1d10q2">
@@ -672,7 +976,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum spiritus sanctus libere producatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>174</folio>
+              <folio>175</folio>
+              <folio>176</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -683,7 +991,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a44634" alias="l1d11q1">
@@ -691,7 +1001,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Spiritus Sanctus procedit a patre et filio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>176</folio>
+              <folio>177</folio>
+              <folio>178</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a44994" alias="l1d11q2">
@@ -700,7 +1014,11 @@
           <questionTitle>Utrum Spiritus Sanctus posset distingui a filio, si non procederet ab
             eodem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>178</folio>
+              <folio>179</folio>
+              <folio>180</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -711,7 +1029,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a45515" alias="l1d12q1">
@@ -720,7 +1040,15 @@
           <questionTitle>Utrum pater et filius sunt unum principium spiritans Spiritum
             Sanctum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>180</folio>
+              <folio>181</folio>
+              <folio>182</folio>
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+              <folio>186</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a47074" alias="l1d12q2">
@@ -728,7 +1056,10 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>186</folio>
+              <folio>187</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a47368" alias="l1d12q3">
@@ -737,7 +1068,10 @@
           <questionTitle>Utrum pater et filius spirant omnino uniformiter Spiritum
             sanctum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>187</folio>
+              <folio>188</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -748,7 +1082,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a47639" alias="l1d13q1">
@@ -756,7 +1092,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum generatio filii sit spiratio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>188</folio>
+              <folio>189</folio>
+              <folio>190</folio>
+              <folio>191</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -767,7 +1108,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a48431" alias="l1d14q1">
@@ -776,7 +1119,11 @@
           <questionTitle>Utrum Spiritui Sancto competat duplex processio temporalis et
             aeterna</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>192</folio>
+              <folio>193</folio>
+              <folio>194</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a49125" alias="l1d14q2">
@@ -785,7 +1132,11 @@
           <questionTitle>Utrum spiritus sanctus detur in persona proprie, vel tantum secundum dona
             sua.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -796,7 +1147,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a49642" alias="l1d15q1">
@@ -804,7 +1157,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>196</folio>
+              <folio>197</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -815,7 +1171,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>197</folio>
+              <folio>198</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a49983" alias="l1d16q1">
@@ -823,7 +1182,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona divina visibiliter mittatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>198</folio>
+              <folio>199</folio>
+              <folio>200</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -834,7 +1197,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a50663" alias="l1d17q1">
@@ -843,7 +1208,16 @@
           <questionTitle>Utrum praeter Spiritum Sanctum necesse sit ponere charitatem absolutam
             creatam animam formaliter informantem quo sit cara Deo et accepta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>200</folio>
+              <folio>201</folio>
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+              <folio>205</folio>
+              <folio>206</folio>
+              <folio>207</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a52344" alias="l1d17q2">
@@ -852,7 +1226,10 @@
           <questionTitle>Utrum aliquis actus potest esse meritorius sine caritate formaliter animam
             informante</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>207</folio>
+              <folio>208</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a52558" alias="l1d17q3">
@@ -861,7 +1238,14 @@
           <questionTitle>Utrum de facto omni actui meritorio creata caritas
             praesupponatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>208</folio>
+              <folio>209</folio>
+              <folio>210</folio>
+              <folio>211</folio>
+              <folio>212</folio>
+              <folio>213</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a53732" alias="l1d17q4">
@@ -869,7 +1253,15 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum caritas possit augeri</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>213</folio>
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+              <folio>217</folio>
+              <folio>218</folio>
+              <folio>219</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a55432" alias="l1d17q5">
@@ -877,7 +1269,10 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum caritas praeexistens maneat in fine augmentationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>219</folio>
+              <folio>220</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a55697" alias="l1d17q6">
@@ -886,7 +1281,11 @@
           <questionTitle>Utrum augmentatione caritatis aliquid realiter differens a priori sibi
             adveniat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>220</folio>
+              <folio>221</folio>
+              <folio>222</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a56059" alias="l1d17q7">
@@ -895,7 +1294,12 @@
           <questionTitle> Utrum illud quod in caritatis augmentatione additae sit eiusdem speciei
             specialissimae in caritate praecedente se parata ab ea </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>222</folio>
+              <folio>223</folio>
+              <folio>224</folio>
+              <folio>225</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a56930" alias="l1d17q8">
@@ -904,7 +1308,12 @@
           <questionTitle>Utrum donum dicat proprietatem personalem per totam
             quaestionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>225</folio>
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -915,7 +1324,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a57700" alias="l1d18q1">
@@ -923,7 +1334,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum donum dicat proprietatem personalem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>228</folio>
+              <folio>229</folio>
+              <folio>230</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -934,7 +1349,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a58368" alias="l1d19q1">
@@ -943,7 +1360,11 @@
           <questionTitle>Utrum personae divinae sint secundum magnitudinem perfecte
             aequales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>230</folio>
+              <folio>231</folio>
+              <folio>232</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a58838" alias="l1d19q2">
@@ -951,7 +1372,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum quaelibet persona sit in alia per circumincessionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>232</folio>
+              <folio>233</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -962,7 +1386,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a59195" alias="l1d20q1">
@@ -970,7 +1396,10 @@
           <title>Queaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>234</folio>
+              <folio>235</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -981,7 +1410,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a59721" alias="l1d21q1">
@@ -989,7 +1420,11 @@
           <title>Questio 1</title>
           <questionTitle> Utrum haec sit concedenda, solus Pater est Deus </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>236</folio>
+              <folio>237</folio>
+              <folio>238</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1000,7 +1435,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a60395" alias="l1d22q1">
@@ -1009,7 +1446,12 @@
           <questionTitle>Utrum viator possit aliquod nomen imponere ad significandum distincte
             divinam essentiam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>238</folio>
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1020,7 +1462,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a61213" alias="">
@@ -1028,7 +1472,11 @@
           <title>Quaestio 1 Utrum nomen persona sit terminus primae vel secundae intentionis </title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>241</folio>
+              <folio>242</folio>
+              <folio>243</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1039,7 +1487,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a61772" alias="l1d24q1">
@@ -1047,7 +1497,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum unitas qua Deus dicitur unus sit aliquis additum Deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>243</folio>
+              <folio>244</folio>
+              <folio>245</folio>
+              <folio>246</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a62387" alias="l1d24q2">
@@ -1056,7 +1511,11 @@
           <questionTitle>Utrum persona in divinis dicatur secundum substantiam ut
             relationem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>248</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1067,7 +1526,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a62979" alias="l1d25q1">
@@ -1076,7 +1537,11 @@
           <questionTitle>Utrum persona in divinis secundum substantiam vel
             relationem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>248</folio>
+              <folio>249</folio>
+              <folio>250</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1087,7 +1552,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>251</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a63660" alias="l1d26q1">
@@ -1096,7 +1563,18 @@
           <questionTitle> Utrum personae divinae constituantur et distinguantur per relationes
             originis </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a65991" alias="l1d26q2">
@@ -1105,7 +1583,11 @@
           <questionTitle>Utrum personae divinae constituantur et distinguantur per relationes sub
             ratione relationis vel alia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>260</folio>
+              <folio>261</folio>
+              <folio>262</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a66379" alias="l1d26q3">
@@ -1113,7 +1595,10 @@
           <title>Quaestio 3</title>
           <questionTitle> Utrum omnes relationes divinae sint constitutivae personarum </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>262</folio>
+              <folio>263</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1124,7 +1609,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a66701" alias="l1d27q1">
@@ -1132,7 +1619,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum in eadem persona sint plures proprietates</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>263</folio>
+              <folio>264</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a66984" alias="l1d27q2">
@@ -1140,7 +1630,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum verbum intellectus creati sit vera</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>264</folio>
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a67695" alias="l1d27q3">
@@ -1148,7 +1643,13 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum solus filius sit verbum in divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>267</folio>
+              <folio>268</folio>
+              <folio>269</folio>
+              <folio>270</folio>
+              <folio>271</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1159,7 +1660,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a68717" alias="l1d28q1">
@@ -1167,7 +1670,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum innascibilitas sit constitutiva patris proprietas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>271</folio>
+              <folio>272</folio>
+              <folio>273</folio>
+              <folio>274</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1178,7 +1686,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a69649" alias="l1d29q1">
@@ -1187,7 +1697,11 @@
           <questionTitle>Utrum principium univoce dicatur de omnibus illis in Deo, de quibus
             praedicatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>274</folio>
+              <folio>275</folio>
+              <folio>276</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1198,7 +1712,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a70100" alias="l1d30q1">
@@ -1207,7 +1723,11 @@
           <questionTitle>Utrum omni auctoritate seculsa, facilius negari possit omnis relatio esse
             aliquid a parte rei quomodocumque ab absoluto, vel absolutis distinctum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>276</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a70522" alias="l1d30q2">
@@ -1216,7 +1736,10 @@
           <questionTitle>Utrum per rationem naturalem probari possit sex principia importare
             respectus extrinsecus advenientes absolutis distinctos</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>278</folio>
+              <folio>279</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a70829" alias="l1d30q3">
@@ -1225,7 +1748,10 @@
           <questionTitle>Utrum de intentione philosophi fuit ponere quemcumque respectum a parte rei
             distinctum ab omnibus absolutis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>279</folio>
+              <folio>280</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a71046" alias="l1d30q4">
@@ -1234,7 +1760,19 @@
           <questionTitle>Utrum secundum rei veritatem sit ponendus aliquis respectus ab absolutis
             distinctis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>280</folio>
+              <folio>281</folio>
+              <folio>282</folio>
+              <folio>283</folio>
+              <folio>284</folio>
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+              <folio>288</folio>
+              <folio>289</folio>
+              <folio>290</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a73494" alias="l1d30q5">
@@ -1242,7 +1780,10 @@
           <title>Quaestio 5</title>
           <questionTitle> Utrum relatio temporalis Dei ad creaturam sit relatio realis </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>290</folio>
+              <folio>291</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1253,7 +1794,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a73891" alias="l1d31q1">
@@ -1261,7 +1804,11 @@
           <title>Quaestio 1</title>
           <questionTitle> Utrum identitas, similitudo, et aequalitas in divinis sit relatio realis </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>292</folio>
+              <folio>293</folio>
+              <folio>294</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1272,7 +1819,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a74677" alias="l1d32q1">
@@ -1280,7 +1829,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum pater sit sapiens sapientia genita</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a75220" alias="l1d32q2">
@@ -1288,7 +1841,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum pater et filius diligant se Spiritu Sancto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>297</folio>
+              <folio>298</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1299,7 +1855,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a75588" alias="l1d33q1">
@@ -1307,7 +1865,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>298</folio>
+              <folio>299</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1318,7 +1879,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a75891" alias="l1d34q1">
@@ -1326,7 +1889,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona sit realiter essentia divina</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1337,7 +1902,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>300</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a76115" alias="l1d35q1">
@@ -1345,7 +1912,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Deo sit scientia ex natura rei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+              <folio>303</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a76812" alias="l1d35q2">
@@ -1353,7 +1925,12 @@
           <title>Quaestio 2 Utrum Deus intelligat omnia alia a se distincte</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+              <folio>306</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a77559" alias="l1d35q3">
@@ -1361,7 +1938,11 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum essentia divina sit primum obiectum intellectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a78067" alias="l1d35q4">
@@ -1370,7 +1951,11 @@
           <questionTitle>Utrum ad hoc quod Deus intelligat alia a se distincte requirantur
             necessario in eo distinctae relationes rationis ad sua intelligibilia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>308</folio>
+              <folio>309</folio>
+              <folio>310</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a78556" alias="l1d35q5">
@@ -1378,7 +1963,17 @@
           <title>Quaesito 5</title>
           <questionTitle>Utrum Deus intelligat omnia alia a se per ideas earum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>310</folio>
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a80594" alias="l1d35q6">
@@ -1386,7 +1981,11 @@
           <title>Quaestio 6</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>318</folio>
+              <folio>319</folio>
+              <folio>320</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1397,7 +1996,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a81203" alias="l1d36q1">
@@ -1406,7 +2007,13 @@
           <questionTitle>Utrum perfectiones creaturarum in Deo contentae ab aeterno distinguantur
             inter se realiter et a divina essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>320</folio>
+              <folio>321</folio>
+              <folio>322</folio>
+              <folio>323</folio>
+              <folio>324</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1417,7 +2024,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a82229" alias="l1d37q1">
@@ -1426,7 +2035,12 @@
           <questionTitle>Utrum esse ubique et in omnibus rebus per essentiam, praesentiam,
             potentiam, sit proprium soli Deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+              <folio>327</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1437,7 +2051,9 @@
           <title>Distinctio 38</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a83022" alias="l1d38q1">
@@ -1446,7 +2062,27 @@
           <questionTitle>Utrum Deus habeat scientiam determinatam, et necessariam omnium futurorum
             contingentium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+              <folio>330</folio>
+              <folio>331</folio>
+              <folio>332</folio>
+              <folio>333</folio>
+              <folio>334</folio>
+              <folio>335</folio>
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+              <folio>343</folio>
+              <folio>344</folio>
+              <folio>345</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1457,7 +2093,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a87477" alias="l1d39q1">
@@ -1465,7 +2103,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit plura scire quam scit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>345</folio>
+              <folio>346</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1476,7 +2119,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a88398" alias="l1d40q1">
@@ -1485,7 +2130,12 @@
           <questionTitle>Utrum sit possibile aliquem praedestinatum damnari et praescitum
             salvari</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>348</folio>
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1496,7 +2146,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a89106" alias="l1d41q1">
@@ -1505,7 +2157,13 @@
           <questionTitle> Utrum in praedestinato sit aliqua causa suae praedestinationis et in
             reprobato causae suae reprobationis </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>351</folio>
+              <folio>352</folio>
+              <folio>353</folio>
+              <folio>354</folio>
+              <folio>355</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1516,7 +2174,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a90101" alias="l1d42q1">
@@ -1524,7 +2184,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit facere omne possibile fieri a creatura</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>355</folio>
+              <folio>356</folio>
+              <folio>357</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1535,7 +2199,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>358</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a90842" alias="l1d43q1">
@@ -1543,7 +2209,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit aliqua facere, quae non fecit, nec faciet</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>358</folio>
+              <folio>359</folio>
+              <folio>360</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a91344" alias="l1d43q2">
@@ -1552,7 +2222,9 @@
           <questionTitle> Utrum plus conveniat Deo non posse facere impossibile, quam impossibilia
             non posse fieri a Deo </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1563,7 +2235,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>360</folio>
+              <folio>361</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a91573" alias="l1d44q1">
@@ -1571,7 +2246,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit facere mundum meliorem isto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>361</folio>
+              <folio>362</folio>
+              <folio>363</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1582,7 +2261,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a92231" alias="l1d45q1">
@@ -1591,7 +2272,10 @@
           <questionTitle>Utrum voluntas Dei sit causa immediata, et prima omnium rerum, quae
             fiunt</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>363</folio>
+              <folio>364</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1602,7 +2286,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a92469" alias="l1d46q1">
@@ -1610,7 +2296,11 @@
           <title>Quaestio 1</title>
           <questionTitle> Utrum voluntas divina possit impediri per quamcumque potentiam creaturae </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>364</folio>
+              <folio>365</folio>
+              <folio>366</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a93076" alias="l1d46q2">
@@ -1619,7 +2309,9 @@
           <questionTitle>Utrum per rationem naturalem probari possit quod voluntas divina semper
             impletur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>367</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1630,7 +2322,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a93221" alias="l1d47q1">
@@ -1638,7 +2332,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit praecipere malum fieri</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>367</folio>
+              <folio>368</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1649,7 +2346,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>NaN</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="gbs333-a93440" alias="l1d48q1">
@@ -1658,7 +2357,10 @@
           <questionTitle>Utrum quaelibet voluntas creata teneatur se conformare divinae
             voluntati</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-gbzzz1"/>
+            <witness ref="#cod-gbzzz1">
+              <folio>368</folio>
+              <folio>369</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
