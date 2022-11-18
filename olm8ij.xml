@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+   <header>
+      <authorName>Petrus Aureolus</authorName>
+      <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+      <commentaryid>olm8ij</commentaryid>
+      <commentaryslug>olm8ij</commentaryslug>
+      <alias>PetrusAureoliSentCommentary</alias>
+      <authorUri>http://scta.info/resource/Aureoli</authorUri>
+      <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+      <questionListSource/>
+      <questionListOriginalEditor/>
+      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+      <hasWitnesses>
+         <witness id="cod-pa05b4">
+            <slug>cod-pa05b4</slug>
+            <title>Roma 1605, Book 4</title>
+            <initial>cod-pa054</initial>
+            <!-- editor Aloisii Zanetti -->
+            <!-- contains book 4 -->
+         </witness>
+         <witness id="cod-pa05b2">
+            <slug>cod-pa05b2</slug>
+            <title>Roma 1605, Book 2</title>
+            <initial>cod-pa052</initial>
+            <!-- editor Aloisii Zanetti -->
+            <!-- contains book 2 -->
+         </witness>
+      </hasWitnesses>
+   </header>
+   <div id="body">
+      <head>Commentarius in Libros Sententiarum</head>
+      <div id="olm8ij-aaa66" alias="l4">
+         <head>Liber 4</head>
+         <div id="olm8ij-aaa701" alias="l4-prooem">
+            <head>Prologus</head>
+            <item id="olm8ij-haa311" alias="l4-prooemprae">
+               <fileName filestem="olm8ij-haa311"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>1</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-haa861" alias="l4-prooemq1">
+               <fileName filestem="olm8ij-haa861"/>
+               <title>Quaestio 1</title>
+               <questionTitle> Utrum Sacramentis, seu Sacramentorum Ministris communicari potuit aliqua
+            virtus creatiua respectu sacramentalis effectus. </questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>2</folio>
+                     <folio>3</folio>
+                     <folio>4</folio>
+                     <folio>5</folio>
+                     <folio>6</folio>
+                     <folio>7</folio>
+                     <folio>8</folio>
+                     <folio>9</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa103" alias="l4-d4" type="liber4-distinctio1">
+            <head>Distinctio 1</head>
+            <item id="olm8ij-hb2486" alias="l4-d1prae">
+               <fileName filestem="olm8ij-hb2486"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>9</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-hb2596" alias="l4-d1q1">
+               <fileName filestem="olm8ij-hb2596"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>9</folio>
+                     <folio>10</folio>
+                     <folio>11</folio>
+                     <folio>12</folio>
+                     <folio>13</folio>
+                     <folio>14</folio>
+                     <folio>15</folio>
+                     <folio>16</folio>
+                     <folio>17</folio>
+                     <folio>18</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-hb5806" alias="l4-d1q2">
+               <fileName filestem="olm8ij-hb5806"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De definitione sacramenti</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>18</folio>
+                     <folio>19</folio>
+                     <folio>20</folio>
+                     <folio>21</folio>
+                     <folio>22</folio>
+                     <folio>23</folio>
+                     <folio>24</folio>
+                     <folio>25</folio>
+                     <folio>26</folio>
+                     <folio>27</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-hb8742" alias="l4-d1q3">
+               <fileName filestem="olm8ij-hb8742"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>27</folio>
+                     <folio>28</folio>
+                     <folio>29</folio>
+                     <folio>30</folio>
+                     <folio>31</folio>
+                     <folio>32</folio>
+                     <folio>33</folio>
+                     <folio>34</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa164" alias="l4-d2" type="liber4-distinctio2">
+            <head>Distinctio 2</head>
+            <item id="olm8ij-hb1289" alias="l4-d2prae">
+               <fileName filestem="olm8ij-hb1289"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>34</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h11352" alias="l4-d2q1">
+               <fileName filestem="olm8ij-h11352"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>34</folio>
+                     <folio>35</folio>
+                     <folio>36</folio>
+                     <folio>37</folio>
+                     <folio>38</folio>
+                     <folio>39</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa197" alias="l4-d3" type="liber4-distinctio3">
+            <head>Distinctio 3</head>
+            <item id="olm8ij-h12995" alias="l4-d3prae">
+               <fileName filestem="olm8ij-h12995"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>39</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h13027" alias="l4-d3q1">
+               <fileName filestem="olm8ij-h13027"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>39</folio>
+                     <folio>40</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h13595" alias="l4-d3q2">
+               <fileName filestem="olm8ij-h13595"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De institutione baptismi quantum ad formam, sive de forma
+            eius</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>40</folio>
+                     <folio>41</folio>
+                     <folio>42</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h14326" alias="l4-d3q3">
+               <fileName filestem="olm8ij-h14326"/>
+               <title>Quaestio 3</title>
+               <questionTitle>De institutione baptismi quantum ad materiam, siue de materia
+            Baptismi</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>42</folio>
+                     <folio>43</folio>
+                     <folio>44</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h14942" alias="l4-d3q4">
+               <fileName filestem="olm8ij-h14942"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>44</folio>
+                     <folio>45</folio>
+                     <folio>46</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa274" alias="l4-d4" type="liber4-distinctio4">
+            <head>Distinctio 4</head>
+            <item id="olm8ij-h15545" alias="l4-d4prae">
+               <fileName filestem="olm8ij-h15545"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>46</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h15621" alias="l4-d4q1">
+               <fileName filestem="olm8ij-h15621"/>
+               <title>Quaestio 1</title>
+               <questionTitle>De charactere</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>46</folio>
+                     <folio>47</folio>
+                     <folio>48</folio>
+                     <folio>49</folio>
+                     <folio>50</folio>
+                     <folio>51</folio>
+                     <folio>52</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h17530" alias="l4-d4q2">
+               <fileName filestem="olm8ij-h17530"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De effectu baptismi</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>52</folio>
+                     <folio>53</folio>
+                     <folio>54</folio>
+                     <folio>55</folio>
+                     <folio>56</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa321" alias="l4-d5" type="liber4-distinctio5">
+            <head>Distinctio 5</head>
+            <item id="olm8ij-h19132" alias="l4-d5prae">
+               <fileName filestem="olm8ij-h19132"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>56</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h19165" alias="l4-d5q1">
+               <fileName filestem="olm8ij-h19165"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>56</folio>
+                     <folio>57</folio>
+                     <folio>58</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h19735" alias="l4-d5q2">
+               <fileName filestem="olm8ij-h19735"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>58</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa368" alias="l4-d6" type="liber4-distinctio6">
+            <head>Distinctio 6</head>
+            <item id="olm8ij-h19855" alias="l4-d6prae">
+               <fileName filestem="olm8ij-h19855"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>58</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h19922" alias="l4-d6q1">
+               <fileName filestem="olm8ij-h19922"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>59</folio>
+                     <folio>60</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h20415" alias="l4-d6q2">
+               <fileName filestem="olm8ij-h20415"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>60</folio>
+                     <folio>61</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa415" alias="l4-d7" type="liber4-distinctio7">
+            <head>Distinctio 7</head>
+            <item id="olm8ij-h20858" alias="l4-d7prae">
+               <fileName filestem="olm8ij-h20858"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>61</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h20897" alias="l4-d7q1">
+               <fileName filestem="olm8ij-h20897"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>61</folio>
+                     <folio>62</folio>
+                     <folio>63</folio>
+                     <folio>64</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h21881" alias="l4-d7q2">
+               <fileName filestem="olm8ij-h21881"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>64</folio>
+                     <folio>65</folio>
+                     <folio>66</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa462" alias="l4-d8" type="liber4-distinctio8">
+            <head>Distinctio 8</head>
+            <item id="olm8ij-h22429" alias="l4-d8prae">
+               <fileName filestem="olm8ij-h22429"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>66</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h22472" alias="l4-d8q1">
+               <fileName filestem="olm8ij-h22472"/>
+               <title>Quaestio 1</title>
+               <questionTitle>De sacramento eucharistiae, quoad essentialia</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>66</folio>
+                     <folio>67</folio>
+                     <folio>68</folio>
+                     <folio>69</folio>
+                     <folio>70</folio>
+                     <folio>71</folio>
+                     <folio>72</folio>
+                     <folio>73</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h24857" alias="l4-d8q2">
+               <fileName filestem="olm8ij-h24857"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De forma sacramenti eucharistiae</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>73</folio>
+                     <folio>74</folio>
+                     <folio>75</folio>
+                     <folio>76</folio>
+                     <folio>77</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa509" alias="l4-d8" type="liber4-distinctio9">
+            <head>Distinctio 9</head>
+            <item id="olm8ij-h26243" alias="l4-d9prae">
+               <fileName filestem="olm8ij-h26243"/>
+               <title>Distinctio 9</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>77</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h26294" alias="l4-d9q1">
+               <fileName filestem="olm8ij-h26294"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>77</folio>
+                     <folio>78</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h26771" alias="l4-d9q2">
+               <fileName filestem="olm8ij-h26771"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>78</folio>
+                     <folio>79</folio>
+                     <folio>80</folio>
+                     <folio>81</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h27829" alias="l4-d9q3">
+               <fileName filestem="olm8ij-h27829"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>81</folio>
+                     <folio>82</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa571" alias="l4-d10" type="liber4-distinctio10">
+            <head>Distinctio 10</head>
+            <item id="olm8ij-h28102" alias="l4-d10prae">
+               <fileName filestem="olm8ij-h28102"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>82</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h28182" alias="l4-d10q1">
+               <fileName filestem="olm8ij-h28182"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>82</folio>
+                     <folio>83</folio>
+                     <folio>84</folio>
+                     <folio>85</folio>
+                     <folio>86</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h29304" alias="l4-d10q2">
+               <fileName filestem="olm8ij-h29304"/>
+               <title>Quaestio 2</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>86</folio>
+                     <folio>87</folio>
+                     <folio>88</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h30087" alias="l4-d10q3">
+               <fileName filestem="olm8ij-h30087"/>
+               <title>Quaestio 3</title>
+               <questionTitle> De modo existendi corporis Christi in Sacramento in ordine ad agens
+            intrinsecum, siue respectu suarum dimensionum. </questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>88</folio>
+                     <folio>89</folio>
+                     <folio>90</folio>
+                     <folio>91</folio>
+                     <folio>92</folio>
+                     <folio>93</folio>
+                     <folio>94</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h32116" alias="l4-d10q4">
+               <fileName filestem="olm8ij-h32116"/>
+               <title>Quaestio 4</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>94</folio>
+                     <folio>95</folio>
+                     <folio>96</folio>
+                     <folio>97</folio>
+                     <folio>98</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa647" alias="l4-d11" type="liber4-distinctio11">
+            <head>Distinctio 11</head>
+            <item id="olm8ij-h33404" alias="l4-d11prae">
+               <fileName filestem="olm8ij-h33404"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>98</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h33461" alias="l4-d11q1">
+               <fileName filestem="olm8ij-h33461"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>98</folio>
+                     <folio>99</folio>
+                     <folio>100</folio>
+                     <folio>101</folio>
+                     <folio>102</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h34804" alias="l4-d11q2">
+               <fileName filestem="olm8ij-h34804"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De transubstantiatione in ordine ad subiectum</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>102</folio>
+                     <folio>103</folio>
+                     <folio>104</folio>
+                     <folio>105</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h35951" alias="l4-d11q3">
+               <fileName filestem="olm8ij-h35951"/>
+               <title>Quaestio 3</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>105</folio>
+                     <folio>106</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h36351" alias="l4-d11q4">
+               <fileName filestem="olm8ij-h36351"/>
+               <title>Quaestio 4</title>
+               <questionTitle>De transubstantiatione in ordine ad terminum ad quem</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>106</folio>
+                     <folio>107</folio>
+                     <folio>108</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa723" alias="l4-d12" type="liber4-distinctio12">
+            <head>Distinctio 12</head>
+            <item id="olm8ij-h36984" alias="l4-d12prae">
+               <fileName filestem="olm8ij-h36984"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>108</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h37036" alias="l4-d12q1">
+               <fileName filestem="olm8ij-h37036"/>
+               <title>Quaestio 1</title>
+               <questionTitle> De entitate accidentium </questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>108</folio>
+                     <folio>109</folio>
+                     <folio>110</folio>
+                     <folio>111</folio>
+                     <folio>112</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h38408" alias="l4-d12q2">
+               <fileName filestem="olm8ij-h38408"/>
+               <title>Quaestio 2</title>
+               <questionTitle>De accidentium separabilitate</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>112</folio>
+                     <folio>113</folio>
+                     <folio>114</folio>
+                     <folio>115</folio>
+                     <folio>116</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h39631" alias="l4-d12q3">
+               <fileName filestem="olm8ij-h39631"/>
+               <title>Quaestio 3</title>
+               <questionTitle> De naturali operatione accidentium in Sacramento Altaris. </questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>116</folio>
+                     <folio>117</folio>
+                     <folio>118</folio>
+                     <folio>119</folio>
+                     <folio>120</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa784" alias="l4-d13" type="liber4-distinctio13">
+            <head>Distinctio 13</head>
+            <item id="olm8ij-h41213" alias="l4-d13prae">
+               <fileName filestem="olm8ij-h41213"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>120</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h41283" alias="l4-d13q1">
+               <fileName filestem="olm8ij-h41283"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>121</folio>
+                     <folio>122</folio>
+                     <folio>123</folio>
+                     <folio>124</folio>
+                     <folio>125</folio>
+                     <folio>126</folio>
+                     <folio>127</folio>
+                     <folio>128</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa817" alias="l4-d14" type="liber4-distinctio14">
+            <head>Distinctio 14</head>
+            <item id="olm8ij-h43891" alias="l4-d14prae">
+               <fileName filestem="olm8ij-h43891"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>128</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h43934" alias="l4-d14q1">
+               <fileName filestem="olm8ij-h43934"/>
+               <title>Quaestio 1</title>
+               <questionTitle>De poenitentia</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>128</folio>
+                     <folio>129</folio>
+                     <folio>130</folio>
+                     <folio>131</folio>
+                     <folio>132</folio>
+                     <folio>133</folio>
+                     <folio>134</folio>
+                     <folio>135</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa850" alias="l4-d15" type="liber4-distinctio15">
+            <head>Distinctio 15</head>
+            <item id="olm8ij-h46294" alias="l4-d15prae">
+               <fileName filestem="olm8ij-h46294"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>135</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h46361" alias="l4-d15q1">
+               <fileName filestem="olm8ij-h46361"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>135</folio>
+                     <folio>136</folio>
+                     <folio>137</folio>
+                     <folio>138</folio>
+                     <folio>139</folio>
+                     <folio>140</folio>
+                     <folio>141</folio>
+                     <folio>142</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa884" alias="l4-d16" type="liber4-distinctio16">
+            <head>Distinctio 16</head>
+            <item id="olm8ij-h48697" alias="l4-d16prae">
+               <fileName filestem="olm8ij-h48697"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>142</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h48738" alias="l4-d16q1">
+               <fileName filestem="olm8ij-h48738"/>
+               <title>Quaestio 1</title>
+               <questionTitle>De Sacramento poenitentiae</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>142</folio>
+                     <folio>143</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa917" alias="l4-d17" type="liber4-distinctio17">
+            <head>Distinctio 17</head>
+            <item id="olm8ij-h49304" alias="l4-d17prae">
+               <fileName filestem="olm8ij-h49304"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>144</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h49344" alias="l4-d17q1">
+               <fileName filestem="olm8ij-h49344"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>144</folio>
+                     <folio>145</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-aaa950" alias="l4-d18" type="liber4-distinctio18">
+            <head>Distinctio 18</head>
+            <item id="olm8ij-h49913" alias="l4-d18prae">
+               <fileName filestem="olm8ij-h49913"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>145</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h49945" alias="l4-d18q1">
+               <fileName filestem="olm8ij-h49945"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>145</folio>
+                     <folio>146</folio>
+                     <folio>147</folio>
+                     <folio>148</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <!-- no dist 19 -->
+         <div id="olm8ij-aaa985" alias="l4-d20" type="liber4-distinctio20">
+            <head>Distinctio 20</head>
+            <item id="olm8ij-h50817" alias="l4-d20prae">
+               <fileName filestem="olm8ij-h50817"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>148</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h50858" alias="l4-d20q1">
+               <fileName filestem="olm8ij-h50858"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>148</folio>
+                     <folio>149</folio>
+                     <folio>150</folio>
+                     <folio>151</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1018" alias="l4-d21" type="liber4-distinctio21">
+            <head>Distinctio 21</head>
+            <item id="olm8ij-h51852" alias="l4-d21prae">
+               <fileName filestem="olm8ij-h51852"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>151</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h51886" alias="l4-d21q1">
+               <fileName filestem="olm8ij-h51886"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>151</folio>
+                     <folio>152</folio>
+                     <folio>153</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1052" alias="l4-d22" type="liber4-distinctio22">
+            <head>Distinctio 22</head>
+            <item id="olm8ij-h52673" alias="l4-d22prae">
+               <fileName filestem="olm8ij-h52673"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>153</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h52721" alias="l4-d22q1">
+               <fileName filestem="olm8ij-h52721"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>153</folio>
+                     <folio>154</folio>
+                     <folio>155</folio>
+                     <folio>156</folio>
+                     <folio>157</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1085" alias="l4-d23" type="liber4-distinctio23">
+            <head>Distinctio 23</head>
+            <item id="olm8ij-h54155" alias="l4-d23prae">
+               <fileName filestem="olm8ij-h54155"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>158</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h54206" alias="l4-d23q1">
+               <fileName filestem="olm8ij-h54206"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>158</folio>
+                     <folio>159</folio>
+                     <folio>160</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1118" alias="l4-d24" type="liber4-distinctio24">
+            <head>Distinctio 24</head>
+            <item id="olm8ij-h55043" alias="l4-d24prae">
+               <fileName filestem="olm8ij-h55043"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>160</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h55083" alias="l4-d24q1">
+               <fileName filestem="olm8ij-h55083"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>160</folio>
+                     <folio>161</folio>
+                     <folio>162</folio>
+                     <folio>163</folio>
+                     <folio>164</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1151" alias="l4-d25" type="liber4-distinctio25">
+            <head>Distinctio 25</head>
+            <item id="olm8ij-h56448" alias="l4-d25prae">
+               <fileName filestem="olm8ij-h56448"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>164</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h56496" alias="l4-d25q1">
+               <fileName filestem="olm8ij-h56496"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>164</folio>
+                     <folio>165</folio>
+                     <folio>166</folio>
+                     <folio>167</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1184" alias="l4-d26" type="liber4-distinctio26">
+            <head>Distinctio 26</head>
+            <item id="olm8ij-h57365" alias="l4-d26prae">
+               <fileName filestem="olm8ij-h57365"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>167</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h57390" alias="l4-d26q1">
+               <fileName filestem="olm8ij-h57390"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>167</folio>
+                     <folio>168</folio>
+                     <folio>170</folio>
+                     <folio>171</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1217" alias="l4-d27" type="liber4-distinctio27">
+            <head>Distinctio 27</head>
+            <item id="olm8ij-h58654" alias="l4-d27prae">
+               <fileName filestem="olm8ij-h58654"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>171</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h58698" alias="l4-d27q1">
+               <fileName filestem="olm8ij-h58698"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>171</folio>
+                     <folio>172</folio>
+                     <folio>173</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1251"
+              alias="l4-d28et29"
+              type="liber4-distinctio28 liber4-distinctio29">
+            <head>Distinctiones 28 et 29</head>
+            <item id="olm8ij-h59359" alias="l4-d28et29prae">
+               <fileName filestem="olm8ij-h59359"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>173</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h59393" alias="l4-d28et29q1">
+               <fileName filestem="olm8ij-h59393"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>173</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1284" alias="l4-d30" type="liber4-distinctio30">
+            <head>Distinctio 30</head>
+            <item id="olm8ij-h59524" alias="l4-d30prae">
+               <fileName filestem="olm8ij-h59524"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>173</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h59564" alias="l4-d30q1">
+               <fileName filestem="olm8ij-h59564"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>173</folio>
+                     <folio>174</folio>
+                     <folio>175</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1317" alias="l4-d31" type="liber4-distinctio31">
+            <head>Distinctio 31</head>
+            <item id="olm8ij-h60293" alias="l4-d31prae">
+               <fileName filestem="olm8ij-h60293"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>175</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h60316" alias="l4-d31q1">
+               <fileName filestem="olm8ij-h60316"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>176</folio>
+                     <folio>177</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1350" alias="l4-d32" type="liber4-distinctio32">
+            <head>Distinctio 32</head>
+            <item id="olm8ij-h60847" alias="l4-d32prae">
+               <fileName filestem="olm8ij-h60847"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>177</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h60882" alias="l4-d32q1">
+               <fileName filestem="olm8ij-h60882"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>177</folio>
+                     <folio>178</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1383" alias="l4-d33" type="liber4-distinctio33">
+            <head>Distinctio 33</head>
+            <item id="olm8ij-h61181" alias="l4-d33prae">
+               <fileName filestem="olm8ij-h61181"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>178</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h61218" alias="l4-d33q1">
+               <fileName filestem="olm8ij-h61218"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>178</folio>
+                     <folio>179</folio>
+                     <folio>180</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1416" alias="l4-d34" type="liber4-distinctio34">
+            <head>Distinctio 34</head>
+            <item id="olm8ij-h61785" alias="l4-d34prae">
+               <fileName filestem="olm8ij-h61785"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>180</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h61828" alias="l4-d34q1">
+               <fileName filestem="olm8ij-h61828"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>180</folio>
+                     <folio>181</folio>
+                     <folio>182</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1450" alias="l4-d35" type="liber4-distinctio35">
+            <head>Distinctio 35</head>
+            <item id="olm8ij-h62511" alias="l4-d35prae">
+               <fileName filestem="olm8ij-h62511"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>182</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h62536" alias="l4-d35q1">
+               <fileName filestem="olm8ij-h62536"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>182</folio>
+                     <folio>183</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1483" alias="l4-d36" type="liber4-distinctio36">
+            <head>Distinctio 36</head>
+            <item id="olm8ij-h62747" alias="l4-d36prae">
+               <fileName filestem="olm8ij-h62747"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>183</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h62780" alias="l4-d36q1">
+               <fileName filestem="olm8ij-h62780"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>183</folio>
+                     <folio>184</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1516" alias="l4-d37" type="liber4-distinctio37">
+            <head>Distinctio 37</head>
+            <item id="olm8ij-h63340" alias="l4-d37prae">
+               <fileName filestem="olm8ij-h63340"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>184</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h63361" alias="l4-d37q1">
+               <fileName filestem="olm8ij-h63361"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>184</folio>
+                     <folio>185</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1549" alias="l4-d38" type="liber4-distinctio38">
+            <head>Distinctio 38</head>
+            <item id="olm8ij-h63598" alias="l4-d38prae">
+               <fileName filestem="olm8ij-h63598"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>185</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h63623" alias="l4-d38q1">
+               <fileName filestem="olm8ij-h63623"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>185</folio>
+                     <folio>186</folio>
+                     <folio>187</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1582" alias="l4-d39" type="liber4-distinctio39">
+            <head>Distinctio 39</head>
+            <item id="olm8ij-h64294" alias="l4-d39prae">
+               <fileName filestem="olm8ij-h64294"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>187</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h64324" alias="l4-d39q1">
+               <fileName filestem="olm8ij-h64324"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>187</folio>
+                     <folio>188</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1615" alias="l4-d40" type="liber4-distinctio40">
+            <head>Distinctio 40</head>
+            <item id="olm8ij-h64582" alias="l4-d40prae">
+               <fileName filestem="olm8ij-h64582"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>188</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h64616" alias="l4-d40q1">
+               <fileName filestem="olm8ij-h64616"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>188</folio>
+                     <folio>189</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1649" alias="l4-d41" type="liber4-distinctio41">
+            <head>Distinctio 41</head>
+            <item id="olm8ij-h64894" alias="l4-d41prae">
+               <fileName filestem="olm8ij-h64894"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>189</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h64906" alias="l4-d41q1">
+               <fileName filestem="olm8ij-h64906"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>189</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1682" alias="l4-d42" type="liber4-distinctio42">
+            <head>Distinctio 42</head>
+            <item id="olm8ij-h64978" alias="l4-d42prae">
+               <fileName filestem="olm8ij-h64978"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>189</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h65005" alias="l4-d42q1">
+               <fileName filestem="olm8ij-h65005"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>189</folio>
+                     <folio>190</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1715" alias="l4-d43" type="liber4-distinctio43">
+            <head>Distinctio 43</head>
+            <item id="olm8ij-h65111" alias="l4-d43prae">
+               <fileName filestem="olm8ij-h65111"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>190</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h65169" alias="l4-d43q1">
+               <fileName filestem="olm8ij-h65169"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>190</folio>
+                     <folio>191</folio>
+                     <folio>192</folio>
+                     <folio>193</folio>
+                     <folio>194</folio>
+                     <folio>195</folio>
+                     <folio>197</folio>
+                     <folio>198</folio>
+                     <folio>199</folio>
+                     <folio>200</folio>
+                     <folio>201</folio>
+                     <folio>202</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1748" alias="l4-d44" type="liber4-distinctio44">
+            <head>Distinctio 44</head>
+            <item id="olm8ij-h69309" alias="l4-d44prae">
+               <fileName filestem="olm8ij-h69309"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>202</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h69371" alias="l4-d44q1">
+               <fileName filestem="olm8ij-h69371"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>202</folio>
+                     <folio>203</folio>
+                     <folio>204</folio>
+                     <folio>205</folio>
+                     <folio>206</folio>
+                     <folio>207</folio>
+                     <folio>208</folio>
+                     <folio>209</folio>
+                     <folio>210</folio>
+                     <folio>211</folio>
+                     <folio>212</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1781" alias="l4-d45" type="liber4-distinctio45">
+            <head>Distinctio 45</head>
+            <item id="olm8ij-h72587" alias="l4-d45prae">
+               <fileName filestem="olm8ij-h72587"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>212</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h72627" alias="l4-d45q1">
+               <fileName filestem="olm8ij-h72627"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>212</folio>
+                     <folio>213</folio>
+                     <folio>214</folio>
+                     <folio>215</folio>
+                     <folio>216</folio>
+                     <folio>217</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1814" alias="l4-d46" type="liber4-distinctio46">
+            <head>Distinctio 46</head>
+            <item id="olm8ij-h74432" alias="l4-d46prae">
+               <fileName filestem="olm8ij-h74432"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>217</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h74459" alias="l4-d46q1">
+               <fileName filestem="olm8ij-h74459"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>217</folio>
+                     <folio>218</folio>
+                     <folio>219</folio>
+                     <folio>220</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1848" alias="l4-d47" type="liber4-distinctio47">
+            <head>Distinctio 47</head>
+            <div id="olm8ij-ab1852">
+               <head>Pars 1</head>
+               <item id="olm8ij-h75489" alias="l4-d47prae">
+                  <fileName filestem="olm8ij-h75489"/>
+                  <title>Praeambulum</title>
+                  <questionTitle/>
+                  <hasWitnesses>
+                     <witness ref="#cod-pa05b4">
+                        <folio>220</folio>
+                     </witness>
+                  </hasWitnesses>
+               </item>
+               <item id="olm8ij-h75514" alias="l4-d47q1">
+                  <fileName filestem="olm8ij-h75514"/>
+                  <title>Quaestio 1</title>
+                  <questionTitle/>
+                  <hasWitnesses>
+                     <witness ref="#cod-pa05b4">
+                        <folio>220</folio>
+                        <folio>221</folio>
+                        <folio>222</folio>
+                     </witness>
+                  </hasWitnesses>
+               </item>
+            </div>
+            <div id="olm8ij-ab1885">
+               <head>Pars 2</head>
+               <item id="olm8ij-h75996" alias="l4-d47Bprae">
+                  <fileName filestem="olm8ij-h75996"/>
+                  <title>Praeambulum</title>
+                  <questionTitle/>
+                  <hasWitnesses>
+                     <witness ref="#cod-pa05b4">
+                        <folio>222</folio>
+                     </witness>
+                  </hasWitnesses>
+               </item>
+               <item id="olm8ij-h76034" alias="l4-d47Bq1">
+                  <fileName filestem="olm8ij-h76034"/>
+                  <title>Quaestio 1</title>
+                  <questionTitle/>
+                  <hasWitnesses>
+                     <witness ref="#cod-pa05b4">
+                        <folio>222</folio>
+                        <folio>223</folio>
+                        <folio>224</folio>
+                     </witness>
+                  </hasWitnesses>
+               </item>
+            </div>
+         </div>
+         <div id="olm8ij-ab1919" alias="l4-d48" type="liber4-distinctio48">
+            <head>Distinctio 48</head>
+            <item id="olm8ij-h76811" alias="l4-d48prae">
+               <fileName filestem="olm8ij-h76811"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>224</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h76872" alias="l4-d48q1">
+               <fileName filestem="olm8ij-h76872"/>
+               <title>Quaestio 1</title>
+               <questionTitle>De beatitudine respectu corporis</questionTitle>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>224</folio>
+                     <folio>225</folio>
+                     <folio>226</folio>
+                     <folio>227</folio>
+                     <folio>228</folio>
+                     <folio>229</folio>
+                     <folio>230</folio>
+                     <folio>231</folio>
+                     <folio>232</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1952" alias="l4-d49" type="liber4-distinctio49">
+            <head>Distinctio 49</head>
+            <item id="olm8ij-h79467" alias="l4-d49prae">
+               <fileName filestem="olm8ij-h79467"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>232</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h79528" alias="l4-d49q1">
+               <fileName filestem="olm8ij-h79528"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>232</folio>
+                     <folio>233</folio>
+                     <folio>234</folio>
+                     <folio>235</folio>
+                     <folio>236</folio>
+                     <folio>237</folio>
+                     <folio>238</folio>
+                     <folio>240</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+         <div id="olm8ij-ab1985" alias="l4-d50" type="liber4-distinctio50">
+            <head>Distinctio 50</head>
+            <item id="olm8ij-h82301" alias="l4-d50prae">
+               <fileName filestem="olm8ij-h82301"/>
+               <title>Praeambulum</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>240</folio>
+                     <folio>241</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+            <item id="olm8ij-h82365" alias="l4-d50q1">
+               <fileName filestem="olm8ij-h82365"/>
+               <title>Quaestio 1</title>
+               <questionTitle/>
+               <hasWitnesses>
+                  <witness ref="#cod-pa05b4">
+                     <folio>241</folio>
+                     <folio>242</folio>
+                     <folio>243</folio>
+                     <folio>244</folio>
+                     <folio>245</folio>
+                     <folio>246</folio>
+                  </witness>
+               </hasWitnesses>
+            </item>
+         </div>
+      </div>
+   </div>
+</listofFileNames>
