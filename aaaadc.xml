@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/jcwitt/Projects/scta/edf-schema/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Aristotle</authorName>
+    <commentaryName>De Caelo</commentaryName>
+    <commentaryid>aaaadc</commentaryid>
+    <commentaryslug>aaaadc</commentaryslug>
+    <authorUri>http://scta.info/resource/Aristotle</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-AAAdcg-1" canonical="true">
+        <slug>cod-AAAdcg-1</slug>
+        <title>Venice 1562, volume 05</title> <!-- non italic -->
+        <initial>cod-AAAdcg-1</initial>
+        <!--<editor></editor>-->
+      </witness>
+      <witness id="cod-AAAdcg-2" canonical="true"> <!-- italic version  -->
+        <slug>cod-AAAdcg-2</slug>
+        <title>Venice 1562, volume 05</title>
+        <initial>cod-AAAdcg-2</initial>
+        <!--<editor></editor>-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De Caelo</head>
+    <item id="aaaadc-gfdsss">
+      <fileName filestem="aaaadc-gfdsss"/>
+      <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAAdcg-1"></witness>
+        <witness ref="#cod-AAAdcg-2"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="aaaadc-gfdttt">
+      <fileName filestem="aaaadc-gfdttt"/>
+      <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAAdcg-1"></witness>
+        <witness ref="#cod-AAAdcg-2"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="aaaadc-gfduuu">
+      <fileName filestem="aaaadc-gfduuu"/>
+      <title>Liber 3</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAAdcg-1"></witness>
+        <witness ref="#cod-AAAdcg-2"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="aaaadc-gfdvvv">
+      <fileName filestem="aaaadc-gfdvvv"/>
+      <title>Liber 4</title>
+      <hasWitnesses>
+        <witness ref="#cod-AAAdcg-1"></witness>
+        <witness ref="#cod-AAAdcg-2"></witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
