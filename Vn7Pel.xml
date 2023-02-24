@@ -2,1973 +2,2432 @@
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-      <authorName>Pelbartus de Themeswar</authorName>
-      <commentaryName>Aureum Rosarium Theologiae</commentaryName>
-      <commentaryid>Vn7Pel</commentaryid>
-      <commentaryslug>Vn7Pel</commentaryslug>
-      <alias/>
-      <authorUri>http://scta.info/resource/per-a28anv</authorUri>
-      <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-      <questionListSource/>
-      <questionListOriginalEditor/>
-      <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
-      <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-      <hasWitnesses>
-         <witness id="cod-PELthe">
-            <slug>cod-PELthe</slug>
-            <title>Augsburg 1503</title>
-            <initial>cod-PELthe</initial>
-            <!--<editor></editor>-->
-            <!-- 
+    <authorName>Pelbartus de Themeswar</authorName>
+    <commentaryName>Aureum Rosarium Theologiae</commentaryName>
+    <commentaryid>Vn7Pel</commentaryid>
+    <commentaryslug>Vn7Pel</commentaryslug>
+    <alias/>
+    <authorUri>http://scta.info/resource/per-a28anv</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-PELthe">
+        <slug>cod-PELthe</slug>
+        <title>Augsburg 1503</title>
+        <initial>cod-PELthe</initial>
+        <!--<editor></editor>-->
+        <!-- 
           https://opacplus.bsb-muenchen.de/title/BV010649783
           https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11059610/manifest
           -->
-         </witness>
-      </hasWitnesses>
+      </witness>
+      <witness id="cod-PELth2">
+        <slug>cod-PELth2</slug>
+        <title>Augsburg 1503, v. 2</title>
+        <initial>cod-PELth2</initial>
+      </witness>
+      <witness id="cod-PELth3">
+        <slug>cod-PELth3</slug>
+        <title>Augsburg 1503, v. 3</title>
+        <initial>cod-PELth3</initial>
+      </witness>
+      <witness id="cod-PELth4">
+        <slug>cod-PELth4</slug>
+        <title>Augsburg 1503, v. 4</title>
+        <initial>cod-PELth4</initial>
+      </witness>
+    </hasWitnesses>
   </header>
   <div id="body">
-      <head>Aureum Rosarium Theologiae</head>
+    <head>Aureum Rosarium Theologiae</head>
+    <div id="Vn7Pel-aDaa1a">
+      <head>Liber 1</head>
       <item id="Vn7Pel-d1e4XX">
-         <fileName filestem="Vn7Pel-d1e4XX"/>
-         <title>Prologus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>3</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d1e4XX"/>
+        <title>Prologus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>3</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d1e284">
-         <fileName filestem="Vn7Pel-d1e284"/>
-         <title>Abyssus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>3</folio>
-               <folio>4</folio>
-               <folio>5</folio>
-               <folio>6</folio>
-               <folio>7</folio>
-               <folio>8</folio>
-               <folio>9</folio>
-               <folio>10</folio>
-               <folio>11</folio>
-               <folio>12</folio>
-               <folio>13</folio>
-               <folio>14</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d1e284"/>
+        <title>Abyssus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>3</folio>
+            <folio>4</folio>
+            <folio>5</folio>
+            <folio>6</folio>
+            <folio>7</folio>
+            <folio>8</folio>
+            <folio>9</folio>
+            <folio>10</folio>
+            <folio>11</folio>
+            <folio>12</folio>
+            <folio>13</folio>
+            <folio>14</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de3370">
-         <fileName filestem="Vn7Pel-de3370"/>
-         <title>Absolutum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>14</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de3370"/>
+        <title>Absolutum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>14</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de3536">
-         <fileName filestem="Vn7Pel-de3536"/>
-         <title>Abstractum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>14</folio>
-               <folio>15</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de3536"/>
+        <title>Abstractum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>14</folio>
+            <folio>15</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de3876">
-         <fileName filestem="Vn7Pel-de3876"/>
-         <title>Accidens</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>15</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de3876"/>
+        <title>Accidens</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>15</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de3940">
-         <fileName filestem="Vn7Pel-de3940"/>
-         <title>Actio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>15</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de3940"/>
+        <title>Actio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>15</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de3959">
-         <fileName filestem="Vn7Pel-de3959"/>
-         <title>Addiscere</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>15</folio>
-               <folio>16</folio>
-               <folio>17</folio>
-               <folio>18</folio>
-               <folio>19</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de3959"/>
+        <title>Addiscere</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>15</folio>
+            <folio>16</folio>
+            <folio>17</folio>
+            <folio>18</folio>
+            <folio>19</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de5175">
-         <fileName filestem="Vn7Pel-de5175"/>
-         <title>Adorare</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>19</folio>
-               <folio>20</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de5175"/>
+        <title>Adorare</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>19</folio>
+            <folio>20</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de5364">
-         <fileName filestem="Vn7Pel-de5364"/>
-         <title>Affectus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>20</folio>
-               <folio>21</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de5364"/>
+        <title>Affectus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>20</folio>
+            <folio>21</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de5613">
-         <fileName filestem="Vn7Pel-de5613"/>
-         <title>Affirmatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>21</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de5613"/>
+        <title>Affirmatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>21</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de5704">
-         <fileName filestem="Vn7Pel-de5704"/>
-         <title>Agere vel actio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>21</folio>
-               <folio>22</folio>
-               <folio>23</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de5704"/>
+        <title>Agere vel actio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>21</folio>
+            <folio>22</folio>
+            <folio>23</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de6250">
-         <fileName filestem="Vn7Pel-de6250"/>
-         <title>Actus animae</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>23</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de6250"/>
+        <title>Actus animae</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>23</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de6496">
-         <fileName filestem="Vn7Pel-de6496"/>
-         <title>Aliud alius alter</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>23</folio>
-               <folio>24</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de6496"/>
+        <title>Aliud alius alter</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>23</folio>
+            <folio>24</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de6700">
-         <fileName filestem="Vn7Pel-de6700"/>
-         <title>Amare vel amor</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>24</folio>
-               <folio>25</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de6700"/>
+        <title>Amare vel amor</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>24</folio>
+            <folio>25</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de7164">
-         <fileName filestem="Vn7Pel-de7164"/>
-         <title>Amor dilectio et caritas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>25</folio>
-               <folio>26</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de7164"/>
+        <title>Amor dilectio et caritas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>25</folio>
+            <folio>26</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de7200">
-         <fileName filestem="Vn7Pel-de7200"/>
-         <title>Amor de ab aeterno ad entia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>26</folio>
-               <folio>27</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de7200"/>
+        <title>Amor de ab aeterno ad entia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>26</folio>
+            <folio>27</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de7615">
-         <fileName filestem="Vn7Pel-de7615"/>
-         <title>Angeli ad trinitatem et ad ea quae sunt fidei mysteria</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>27</folio>
-               <folio>28</folio>
-               <folio>29</folio>
-               <folio>30</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de7615"/>
+        <title>Angeli ad trinitatem et ad ea quae sunt fidei mysteria</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>27</folio>
+            <folio>28</folio>
+            <folio>29</folio>
+            <folio>30</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de8606">
-         <fileName filestem="Vn7Pel-de8606"/>
-         <title>Anima humana est ad dei imaginem</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>30</folio>
-               <folio>31</folio>
-               <folio>32</folio>
-               <folio>33</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de8606"/>
+        <title>Anima humana est ad dei imaginem</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>30</folio>
+            <folio>31</folio>
+            <folio>32</folio>
+            <folio>33</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9464">
-         <fileName filestem="Vn7Pel-de9464"/>
-         <title>Apparere scilicet Deum in creatura</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>33</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9464"/>
+        <title>Apparere scilicet Deum in creatura</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>33</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9635">
-         <fileName filestem="Vn7Pel-de9635"/>
-         <title>Appropriata divina ubi proprie </title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>33</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9635"/>
+        <title>Appropriata divina ubi proprie </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>33</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9654">
-         <fileName filestem="Vn7Pel-de9654"/>
-         <title>Arbitrium liberum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>33</folio>
-               <folio>34</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9654"/>
+        <title>Arbitrium liberum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>33</folio>
+            <folio>34</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9679">
-         <fileName filestem="Vn7Pel-de9679"/>
-         <title>Argumentalis processus an liceat in theologia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>34</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9679"/>
+        <title>Argumentalis processus an liceat in theologia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>34</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9700">
-         <fileName filestem="Vn7Pel-de9700"/>
-         <title>Ars artis habitus quomodo differet ab aliis habitibus vicem</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>34</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9700"/>
+        <title>Ars artis habitus quomodo differet ab aliis habitibus vicem</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>34</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9806">
-         <fileName filestem="Vn7Pel-de9806"/>
-         <title>Asserere aliquid de deo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>34</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9806"/>
+        <title>Asserere aliquid de deo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>34</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-de9873">
-         <fileName filestem="Vn7Pel-de9873"/>
-         <title>Attributa divina</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>34</folio>
-               <folio>35</folio>
-               <folio>36</folio>
-               <folio>37</folio>
-               <folio>38</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-de9873"/>
+        <title>Attributa divina</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>34</folio>
+            <folio>35</folio>
+            <folio>36</folio>
+            <folio>37</folio>
+            <folio>38</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d10923">
-         <fileName filestem="Vn7Pel-d10923"/>
-         <title>Bonitas vel bonum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>38</folio>
-               <folio>39</folio>
-               <folio>40</folio>
-               <folio>41</folio>
-               <folio>42</folio>
-               <folio>43</folio>
-               <folio>44</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d10923"/>
+        <title>Bonitas vel bonum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>38</folio>
+            <folio>39</folio>
+            <folio>40</folio>
+            <folio>41</folio>
+            <folio>42</folio>
+            <folio>43</folio>
+            <folio>44</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d12901">
-         <fileName filestem="Vn7Pel-d12901"/>
-         <title>Caritas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>44</folio>
-               <folio>45</folio>
-               <folio>46</folio>
-               <folio>47</folio>
-               <folio>48</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d12901"/>
+        <title>Caritas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>44</folio>
+            <folio>45</folio>
+            <folio>46</folio>
+            <folio>47</folio>
+            <folio>48</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d14103">
-         <fileName filestem="Vn7Pel-d14103"/>
-         <title>Causa</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>48</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d14103"/>
+        <title>Causa</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>48</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d14129">
-         <fileName filestem="Vn7Pel-d14129"/>
-         <title>Certitudo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>48</folio>
-               <folio>49</folio>
-               <folio>50</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d14129"/>
+        <title>Certitudo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>48</folio>
+            <folio>49</folio>
+            <folio>50</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d14700">
-         <fileName filestem="Vn7Pel-d14700"/>
-         <title>Circumincessio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>50</folio>
-               <folio>51</folio>
-               <folio>52</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d14700"/>
+        <title>Circumincessio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>50</folio>
+            <folio>51</folio>
+            <folio>52</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d15163">
-         <fileName filestem="Vn7Pel-d15163"/>
-         <title>Cognoscere Deum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>52</folio>
-               <folio>53</folio>
-               <folio>54</folio>
-               <folio>55</folio>
-               <folio>56</folio>
-               <folio>57</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d15163"/>
+        <title>Cognoscere Deum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>52</folio>
+            <folio>53</folio>
+            <folio>54</folio>
+            <folio>55</folio>
+            <folio>56</folio>
+            <folio>57</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d16750">
-         <fileName filestem="Vn7Pel-d16750"/>
-         <title>Compositio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>57</folio>
-               <folio>58</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d16750"/>
+        <title>Compositio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>57</folio>
+            <folio>58</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17076">
-         <fileName filestem="Vn7Pel-d17076"/>
-         <title>Comprehensio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>58</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17076"/>
+        <title>Comprehensio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>58</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17097">
-         <fileName filestem="Vn7Pel-d17097"/>
-         <title>Conceptus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>58</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17097"/>
+        <title>Conceptus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>58</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17216">
-         <fileName filestem="Vn7Pel-d17216"/>
-         <title>Consuetudo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>58</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17216"/>
+        <title>Consuetudo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>58</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17238">
-         <fileName filestem="Vn7Pel-d17238"/>
-         <title>Creare quomodo dicitur de Deo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>58</folio>
-               <folio>59</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17238"/>
+        <title>Creare quomodo dicitur de Deo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>58</folio>
+            <folio>59</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17502">
-         <fileName filestem="Vn7Pel-d17502"/>
-         <title>Dependentia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>59</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17502"/>
+        <title>Dependentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>59</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d17521">
-         <fileName filestem="Vn7Pel-d17521"/>
-         <title>Deus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>59</folio>
-               <folio>60</folio>
-               <folio>61</folio>
-               <folio>62</folio>
-               <folio>63</folio>
-               <folio>64</folio>
-               <folio>65</folio>
-               <folio>66</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d17521"/>
+        <title>Deus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>59</folio>
+            <folio>60</folio>
+            <folio>61</folio>
+            <folio>62</folio>
+            <folio>63</folio>
+            <folio>64</folio>
+            <folio>65</folio>
+            <folio>66</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d19711">
-         <fileName filestem="Vn7Pel-d19711"/>
-         <title>Dicere vel dictio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>66</folio>
-               <folio>67</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d19711"/>
+        <title>Dicere vel dictio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>66</folio>
+            <folio>67</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d19978">
-         <fileName filestem="Vn7Pel-d19978"/>
-         <title>Diligere vel dilectio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>67</folio>
-               <folio>68</folio>
-               <folio>69</folio>
-               <folio>70</folio>
-               <folio>71</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d19978"/>
+        <title>Diligere vel dilectio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>67</folio>
+            <folio>68</folio>
+            <folio>69</folio>
+            <folio>70</folio>
+            <folio>71</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d21098">
-         <fileName filestem="Vn7Pel-d21098"/>
-         <title>Distinctio quales habet modos vel quot</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>71</folio>
-               <folio>72</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d21098"/>
+        <title>Distinctio quales habet modos vel quot</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>71</folio>
+            <folio>72</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d21425">
-         <fileName filestem="Vn7Pel-d21425"/>
-         <title>Diuinus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>72</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d21425"/>
+        <title>Diuinus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>72</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d21516">
-         <fileName filestem="Vn7Pel-d21516"/>
-         <title>Donum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>72</folio>
-               <folio>73</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d21516"/>
+        <title>Donum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>72</folio>
+            <folio>73</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d21771">
-         <fileName filestem="Vn7Pel-d21771"/>
-         <title>Elementum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>73</folio>
-               <folio>74</folio>
-               <folio>75</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d21771"/>
+        <title>Elementum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>73</folio>
+            <folio>74</folio>
+            <folio>75</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d22327">
-         <fileName filestem="Vn7Pel-d22327"/>
-         <title>Ens primo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>75</folio>
-               <folio>76</folio>
-               <folio>77</folio>
-               <folio>78</folio>
-               <folio>79</folio>
-               <folio>80</folio>
-               <folio>81</folio>
-               <folio>82</folio>
-               <folio>83</folio>
-               <folio>84</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d22327"/>
+        <title>Ens primo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>75</folio>
+            <folio>76</folio>
+            <folio>77</folio>
+            <folio>78</folio>
+            <folio>79</folio>
+            <folio>80</folio>
+            <folio>81</folio>
+            <folio>82</folio>
+            <folio>83</folio>
+            <folio>84</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d25353">
-         <fileName filestem="Vn7Pel-d25353"/>
-         <title>Equalitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>84</folio>
-               <folio>85</folio>
-               <folio>86</folio>
-               <folio>87</folio>
-               <folio>88</folio>
-               <folio>89</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d25353"/>
+        <title>Equalitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>84</folio>
+            <folio>85</folio>
+            <folio>86</folio>
+            <folio>87</folio>
+            <folio>88</folio>
+            <folio>89</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d26847">
-         <fileName filestem="Vn7Pel-d26847"/>
-         <title>Errare</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>89</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d26847"/>
+        <title>Errare</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>89</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d26888">
-         <fileName filestem="Vn7Pel-d26888"/>
-         <title>Esse essentiae et esse existentiae</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>89</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d26888"/>
+        <title>Esse essentiae et esse existentiae</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>89</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d26918">
-         <fileName filestem="Vn7Pel-d26918"/>
-         <title>Eternitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>89</folio>
-               <folio>90</folio>
-               <folio>91</folio>
-               <folio>92</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d26918"/>
+        <title>Eternitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>89</folio>
+            <folio>90</folio>
+            <folio>91</folio>
+            <folio>92</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d27820">
-         <fileName filestem="Vn7Pel-d27820"/>
-         <title>Evum et Eviternitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>92</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d27820"/>
+        <title>Evum et Eviternitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>92</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d27841">
-         <fileName filestem="Vn7Pel-d27841"/>
-         <title>Exclusiva dictio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>92</folio>
-               <folio>93</folio>
-               <folio>94</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d27841"/>
+        <title>Exclusiva dictio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>92</folio>
+            <folio>93</folio>
+            <folio>94</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d28650">
-         <fileName filestem="Vn7Pel-d28650"/>
-         <title>Fidei christianae</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>94</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d28650"/>
+        <title>Fidei christianae</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>94</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d28678">
-         <fileName filestem="Vn7Pel-d28678"/>
-         <title>Filius vel filiatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>94</folio>
-               <folio>95</folio>
-               <folio>96</folio>
-               <folio>97</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d28678"/>
+        <title>Filius vel filiatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>94</folio>
+            <folio>95</folio>
+            <folio>96</folio>
+            <folio>97</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d29440">
-         <fileName filestem="Vn7Pel-d29440"/>
-         <title>Finis vel finalis</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>87</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d29440"/>
+        <title>Finis vel finalis</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>87</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d29468">
-         <fileName filestem="Vn7Pel-d29468"/>
-         <title>Finitum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>97</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d29468"/>
+        <title>Finitum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>97</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d29552">
-         <fileName filestem="Vn7Pel-d29552"/>
-         <title>Forma</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>97</folio>
-               <folio>98</folio>
-               <folio>99</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d29552"/>
+        <title>Forma</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>97</folio>
+            <folio>98</folio>
+            <folio>99</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d30116">
-         <fileName filestem="Vn7Pel-d30116"/>
-         <title>Frui et uti</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>99</folio>
-               <folio>100</folio>
-               <folio>101</folio>
-               <folio>102</folio>
-               <folio>103</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d30116"/>
+        <title>Frui et uti</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>99</folio>
+            <folio>100</folio>
+            <folio>101</folio>
+            <folio>102</folio>
+            <folio>103</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d31383">
-         <fileName filestem="Vn7Pel-d31383"/>
-         <title>Generatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>103</folio>
-               <folio>104</folio>
-               <folio>105</folio>
-               <folio>106</folio>
-               <folio>107</folio>
-               <folio>108</folio>
-               <folio>109</folio>
-               <folio>110</folio>
-               <folio>111</folio>
-               <folio>112</folio>
-               <folio>113</folio>
-               <folio>114</folio>
-               <folio>115</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d31383"/>
+        <title>Generatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>103</folio>
+            <folio>104</folio>
+            <folio>105</folio>
+            <folio>106</folio>
+            <folio>107</folio>
+            <folio>108</folio>
+            <folio>109</folio>
+            <folio>110</folio>
+            <folio>111</folio>
+            <folio>112</folio>
+            <folio>113</folio>
+            <folio>114</folio>
+            <folio>115</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35206">
-         <fileName filestem="Vn7Pel-d35206"/>
-         <title>Genus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>115b</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35206"/>
+        <title>Genus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>115b</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35226">
-         <fileName filestem="Vn7Pel-d35226"/>
-         <title>Habitus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>115</folio>
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35226"/>
+        <title>Habitus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>115</folio>
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35382">
-         <fileName filestem="Vn7Pel-d35382"/>
-         <title>Hereticus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35382"/>
+        <title>Hereticus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35403">
-         <fileName filestem="Vn7Pel-d35403"/>
-         <title>Hierarchia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35403"/>
+        <title>Hierarchia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35481">
-         <fileName filestem="Vn7Pel-d35481"/>
-         <title>Hilias</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35481"/>
+        <title>Hilias</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35504">
-         <fileName filestem="Vn7Pel-d35504"/>
-         <title>Hisocheies</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35504"/>
+        <title>Hisocheies</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35547">
-         <fileName filestem="Vn7Pel-d35547"/>
-         <title>Honestas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35547"/>
+        <title>Honestas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d35567">
-         <fileName filestem="Vn7Pel-d35567"/>
-         <title>Identica praedicatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>116</folio>
-               <folio>117</folio>
-               <folio>118</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d35567"/>
+        <title>Identica praedicatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>116</folio>
+            <folio>117</folio>
+            <folio>118</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d36068">
-         <fileName filestem="Vn7Pel-d36068"/>
-         <title>Imago</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>118</folio>
-               <folio>119</folio>
-               <folio>120</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d36068"/>
+        <title>Imago</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>118</folio>
+            <folio>119</folio>
+            <folio>120</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d36656">
-         <fileName filestem="Vn7Pel-d36656"/>
-         <title>Immediate</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>120</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d36656"/>
+        <title>Immediate</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>120</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d36763">
-         <fileName filestem="Vn7Pel-d36763"/>
-         <title>Immensitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>120</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d36763"/>
+        <title>Immensitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>120</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d36961">
-         <fileName filestem="Vn7Pel-d36961"/>
-         <title>Immutabilitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>120</folio>
-               <folio>121</folio>
-               <folio>122</folio>
-               <folio>123</folio>
-               <folio>124</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d36961"/>
+        <title>Immutabilitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>120</folio>
+            <folio>121</folio>
+            <folio>122</folio>
+            <folio>123</folio>
+            <folio>124</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d37989">
-         <fileName filestem="Vn7Pel-d37989"/>
-         <title>Incircumscriptibilitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>124</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d37989"/>
+        <title>Incircumscriptibilitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>124</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d38011">
-         <fileName filestem="Vn7Pel-d38011"/>
-         <title>Incomprehensibilitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>124</folio>
-               <folio>125</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d38011"/>
+        <title>Incomprehensibilitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>124</folio>
+            <folio>125</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d38265">
-         <fileName filestem="Vn7Pel-d38265"/>
-         <title>Individium</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>125</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d38265"/>
+        <title>Individium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>125</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d38291">
-         <fileName filestem="Vn7Pel-d38291"/>
-         <title>Inesse</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>125</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d38291"/>
+        <title>Inesse</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>125</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d38321">
-         <fileName filestem="Vn7Pel-d38321"/>
-         <title>Infinitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>125</folio>
-               <folio>126</folio>
-               <folio>127</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d38321"/>
+        <title>Infinitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>125</folio>
+            <folio>126</folio>
+            <folio>127</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d39118">
-         <fileName filestem="Vn7Pel-d39118"/>
-         <title>Ingenitum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>127</folio>
-               <folio>128</folio>
-               <folio>129</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d39118"/>
+        <title>Ingenitum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>127</folio>
+            <folio>128</folio>
+            <folio>129</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d39715">
-         <fileName filestem="Vn7Pel-d39715"/>
-         <title>Intellectus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>129</folio>
-               <folio>130</folio>
-               <folio>131</folio>
-               <folio>132</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d39715"/>
+        <title>Intellectus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>129</folio>
+            <folio>130</folio>
+            <folio>131</folio>
+            <folio>132</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d40706">
-         <fileName filestem="Vn7Pel-d40706"/>
-         <title>Intentio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>132</folio>
-               <folio>133</folio>
-               <folio>134</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d40706"/>
+        <title>Intentio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>132</folio>
+            <folio>133</folio>
+            <folio>134</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d41065">
-         <fileName filestem="Vn7Pel-d41065"/>
-         <title>Iustitia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>134</folio>
-               <folio>135</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d41065"/>
+        <title>Iustitia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>134</folio>
+            <folio>135</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d41603">
-         <fileName filestem="Vn7Pel-d41603"/>
-         <title>Liber</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>135</folio>
-               <folio>136</folio>
-               <folio>137</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d41603"/>
+        <title>Liber</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>135</folio>
+            <folio>136</folio>
+            <folio>137</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d42306">
-         <fileName filestem="Vn7Pel-d42306"/>
-         <title>Liberum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>137</folio>
-               <folio>138</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d42306"/>
+        <title>Liberum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>137</folio>
+            <folio>138</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d42477">
-         <fileName filestem="Vn7Pel-d42477"/>
-         <title>Localis motus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>138</folio>
-               <folio>139</folio>
-               <folio>140</folio>
-               <folio>141</folio>
-               <folio>142</folio>
-               <folio>143</folio>
-               <folio>144</folio>
-               <folio>145</folio>
-               <folio>146</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d42477"/>
+        <title>Localis motus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>138</folio>
+            <folio>139</folio>
+            <folio>140</folio>
+            <folio>141</folio>
+            <folio>142</folio>
+            <folio>143</folio>
+            <folio>144</folio>
+            <folio>145</folio>
+            <folio>146</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d45047">
-         <fileName filestem="Vn7Pel-d45047"/>
-         <title>Lumen Luminosum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>146</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d45047"/>
+        <title>Lumen Luminosum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>146</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d45238">
-         <fileName filestem="Vn7Pel-d45238"/>
-         <title>Maior et Minor</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>146</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d45238"/>
+        <title>Maior et Minor</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>146</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d45338">
-         <fileName filestem="Vn7Pel-d45338"/>
-         <title>Malum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>146</folio>
-               <folio>147</folio>
-               <folio>148</folio>
-               <folio>149</folio>
-               <folio>150</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d45338"/>
+        <title>Malum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>146</folio>
+            <folio>147</folio>
+            <folio>148</folio>
+            <folio>149</folio>
+            <folio>150</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d46521">
-         <fileName filestem="Vn7Pel-d46521"/>
-         <title>Mens</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>150</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d46521"/>
+        <title>Mens</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>150</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d46589">
-         <fileName filestem="Vn7Pel-d46589"/>
-         <title>Meritum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>150</folio>
-               <folio>151</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d46589"/>
+        <title>Meritum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>150</folio>
+            <folio>151</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d46720">
-         <fileName filestem="Vn7Pel-d46720"/>
-         <title>Misericordia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>151</folio>
-               <folio>152</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d46720"/>
+        <title>Misericordia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>151</folio>
+            <folio>152</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d47197">
-         <fileName filestem="Vn7Pel-d47197"/>
-         <title>Missio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>152</folio>
-               <folio>153</folio>
-               <folio>154</folio>
-               <folio>155</folio>
-               <folio>156</folio>
-               <folio>157</folio>
-               <folio>158</folio>
-               <folio>159</folio>
-               <folio>160</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d47197"/>
+        <title>Missio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>152</folio>
+            <folio>153</folio>
+            <folio>154</folio>
+            <folio>155</folio>
+            <folio>156</folio>
+            <folio>157</folio>
+            <folio>158</folio>
+            <folio>159</folio>
+            <folio>160</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d49727">
-         <fileName filestem="Vn7Pel-d49727"/>
-         <title>Mobile</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>160</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d49727"/>
+        <title>Mobile</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>160</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d49776">
-         <fileName filestem="Vn7Pel-d49776"/>
-         <title>Modus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>160</folio>
-               <folio>161</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d49776"/>
+        <title>Modus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>160</folio>
+            <folio>161</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50165">
-         <fileName filestem="Vn7Pel-d50165"/>
-         <title>Modus quo aliquid</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>161</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50165"/>
+        <title>Modus quo aliquid</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>161</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50208">
-         <fileName filestem="Vn7Pel-d50208"/>
-         <title>Modi quibus aliqua</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>161</folio>
-               <folio>162</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50208"/>
+        <title>Modi quibus aliqua</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>161</folio>
+            <folio>162</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50266">
-         <fileName filestem="Vn7Pel-d50266"/>
-         <title>Modi quibus aliqua</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>162</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50266"/>
+        <title>Modi quibus aliqua</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>162</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50298">
-         <fileName filestem="Vn7Pel-d50298"/>
-         <title>Modi perseitatis</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>162</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50298"/>
+        <title>Modi perseitatis</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>162</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50422">
-         <fileName filestem="Vn7Pel-d50422"/>
-         <title>Moralis vel mos</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>162</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50422"/>
+        <title>Moralis vel mos</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>162</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50447">
-         <fileName filestem="Vn7Pel-d50447"/>
-         <title>Motus vel mutatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>162</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50447"/>
+        <title>Motus vel mutatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>162</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50535">
-         <fileName filestem="Vn7Pel-d50535"/>
-         <title>Mundus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>162</folio>
-               <folio>163</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50535"/>
+        <title>Mundus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>162</folio>
+            <folio>163</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50760">
-         <fileName filestem="Vn7Pel-d50760"/>
-         <title>Natura et naturale</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>163</folio>
-               <folio>164</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50760"/>
+        <title>Natura et naturale</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>163</folio>
+            <folio>164</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d50999">
-         <fileName filestem="Vn7Pel-d50999"/>
-         <title>Necessitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>164</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d50999"/>
+        <title>Necessitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>164</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d51093">
-         <fileName filestem="Vn7Pel-d51093"/>
-         <title>Negatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>164</folio>
-               <folio>165</folio>
-               <folio>166</folio>
-               <folio>167</folio>
-               <folio>168</folio>
-               <folio>169</folio>
-               <folio>170</folio>
-               <folio>171</folio>
-               <folio>172</folio>
-               <folio>173</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d51093"/>
+        <title>Negatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>164</folio>
+            <folio>165</folio>
+            <folio>166</folio>
+            <folio>167</folio>
+            <folio>168</folio>
+            <folio>169</folio>
+            <folio>170</folio>
+            <folio>171</folio>
+            <folio>172</folio>
+            <folio>173</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d53789">
-         <fileName filestem="Vn7Pel-d53789"/>
-         <title>Numerus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>173</folio>
-               <folio>174</folio>
-               <folio>175</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d53789"/>
+        <title>Numerus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>173</folio>
+            <folio>174</folio>
+            <folio>175</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d54349">
-         <fileName filestem="Vn7Pel-d54349"/>
-         <title>OBduratio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>175</folio>
-               <folio>176</folio>
-               <folio>177</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d54349"/>
+        <title>OBduratio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>175</folio>
+            <folio>176</folio>
+            <folio>177</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d55039">
-         <fileName filestem="Vn7Pel-d55039"/>
-         <title>Obiectum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>177</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d55039"/>
+        <title>Obiectum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>177</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d55147">
-         <fileName filestem="Vn7Pel-d55147"/>
-         <title>Obiectiva</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>177</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d55147"/>
+        <title>Obiectiva</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>177</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d55166">
-         <fileName filestem="Vn7Pel-d55166"/>
-         <title>Omnipotentia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>177</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d55166"/>
+        <title>Omnipotentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>177</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d55185">
-         <fileName filestem="Vn7Pel-d55185"/>
-         <title>Opinio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>177</folio>
-               <folio>178</folio>
-               <folio>179</folio>
-               <folio>180</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d55185"/>
+        <title>Opinio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>177</folio>
+            <folio>178</folio>
+            <folio>179</folio>
+            <folio>180</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d56227">
-         <fileName filestem="Vn7Pel-d56227"/>
-         <title>Ordo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>180</folio>
-               <folio>181</folio>
-               <folio>182</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d56227"/>
+        <title>Ordo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>180</folio>
+            <folio>181</folio>
+            <folio>182</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d56772">
-         <fileName filestem="Vn7Pel-d56772"/>
-         <title>Originari</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>182</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d56772"/>
+        <title>Originari</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>182</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d56823">
-         <fileName filestem="Vn7Pel-d56823"/>
-         <title>Passio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>182</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d56823"/>
+        <title>Passio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>182</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d56872">
-         <fileName filestem="Vn7Pel-d56872"/>
-         <title>Pater</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>182</folio>
-               <folio>183</folio>
-               <folio>184</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d56872"/>
+        <title>Pater</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>182</folio>
+            <folio>183</folio>
+            <folio>184</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d57434">
-         <fileName filestem="Vn7Pel-d57434"/>
-         <title>Perfectio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>184</folio>
-               <folio>185</folio>
-               <folio>186</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d57434"/>
+        <title>Perfectio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>184</folio>
+            <folio>185</folio>
+            <folio>186</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d58079">
-         <fileName filestem="Vn7Pel-d58079"/>
-         <title>Permissio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>186</folio>
-               <folio>187</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d58079"/>
+        <title>Permissio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>186</folio>
+            <folio>187</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d58404">
-         <fileName filestem="Vn7Pel-d58404"/>
-         <title>Persona</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>187</folio>
-               <folio>188</folio>
-               <folio>189</folio>
-               <folio>190</folio>
-               <folio>191</folio>
-               <folio>192</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d58404"/>
+        <title>Persona</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>187</folio>
+            <folio>188</folio>
+            <folio>189</folio>
+            <folio>190</folio>
+            <folio>191</folio>
+            <folio>192</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d59829">
-         <fileName filestem="Vn7Pel-d59829"/>
-         <title>Possibile et impossibile</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>192</folio>
-               <folio>193</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d59829"/>
+        <title>Possibile et impossibile</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>192</folio>
+            <folio>193</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d60010">
-         <fileName filestem="Vn7Pel-d60010"/>
-         <title>Potentia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>193</folio>
-               <folio>194</folio>
-               <folio>195</folio>
-               <folio>196</folio>
-               <folio>197</folio>
-               <folio>198</folio>
-               <folio>199</folio>
-               <folio>200</folio>
-               <folio>201</folio>
-               <folio>202</folio>
-               <folio>203</folio>
-               <folio>204</folio>
-               <folio>205</folio>
-               <folio>206</folio>
-               <folio>207</folio>
-               <folio>208</folio>
-               <folio>209</folio>
-               <folio>210</folio>
-               <folio>211</folio>
-               <folio>212</folio>
-               <folio>213</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d60010"/>
+        <title>Potentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>193</folio>
+            <folio>194</folio>
+            <folio>195</folio>
+            <folio>196</folio>
+            <folio>197</folio>
+            <folio>198</folio>
+            <folio>199</folio>
+            <folio>200</folio>
+            <folio>201</folio>
+            <folio>202</folio>
+            <folio>203</folio>
+            <folio>204</folio>
+            <folio>205</folio>
+            <folio>206</folio>
+            <folio>207</folio>
+            <folio>208</folio>
+            <folio>209</folio>
+            <folio>210</folio>
+            <folio>211</folio>
+            <folio>212</folio>
+            <folio>213</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d66177">
-         <fileName filestem="Vn7Pel-d66177"/>
-         <title>Praxis</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>213</folio>
-               <folio>214</folio>
-               <folio>215</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d66177"/>
+        <title>Praxis</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>213</folio>
+            <folio>214</folio>
+            <folio>215</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d66844">
-         <fileName filestem="Vn7Pel-d66844"/>
-         <title>Precipere</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>215</folio>
-               <folio>216</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d66844"/>
+        <title>Precipere</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>215</folio>
+            <folio>216</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d67202">
-         <fileName filestem="Vn7Pel-d67202"/>
-         <title>Predestinatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>216</folio>
-               <folio>217</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d67202"/>
+        <title>Predestinatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>216</folio>
+            <folio>217</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d67578">
-         <fileName filestem="Vn7Pel-d67578"/>
-         <title>Predestinatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>217</folio>
-               <folio>218</folio>
-               <folio>219</folio>
-               <folio>220</folio>
-               <folio>221</folio>
-               <folio>222</folio>
-               <folio>223</folio>
-               <folio>224</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d67578"/>
+        <title>Predestinatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>217</folio>
+            <folio>218</folio>
+            <folio>219</folio>
+            <folio>220</folio>
+            <folio>221</folio>
+            <folio>222</folio>
+            <folio>223</folio>
+            <folio>224</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d69758">
-         <fileName filestem="Vn7Pel-d69758"/>
-         <title>Praedicatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>224</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d69758"/>
+        <title>Praedicatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>224</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d69777">
-         <fileName filestem="Vn7Pel-d69777"/>
-         <title>Praepositiones</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>224</folio>
-               <folio>225</folio>
-               <folio>226</folio>
-               <folio>227</folio>
-               <folio>228</folio>
-               <folio>229</folio>
-               <folio>230</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d69777"/>
+        <title>Praepositiones</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>224</folio>
+            <folio>225</folio>
+            <folio>226</folio>
+            <folio>227</folio>
+            <folio>228</folio>
+            <folio>229</folio>
+            <folio>230</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d71739">
-         <fileName filestem="Vn7Pel-d71739"/>
-         <title>Praesentia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>230</folio>
-               <folio>231</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d71739"/>
+        <title>Praesentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>230</folio>
+            <folio>231</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d71769">
-         <fileName filestem="Vn7Pel-d71769"/>
-         <title>Primum et prioritas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>231</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d71769"/>
+        <title>Primum et prioritas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>231</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d72020">
-         <fileName filestem="Vn7Pel-d72020"/>
-         <title>Principium</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>231</folio>
-               <folio>232</folio>
-               <folio>233</folio>
-               <folio>234</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d72020"/>
+        <title>Principium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>231</folio>
+            <folio>232</folio>
+            <folio>233</folio>
+            <folio>234</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d72822">
-         <fileName filestem="Vn7Pel-d72822"/>
-         <title>PRivatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>234</folio>
-               <folio>235</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d72822"/>
+        <title>PRivatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>234</folio>
+            <folio>235</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d73276">
-         <fileName filestem="Vn7Pel-d73276"/>
-         <title>Processio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>235</folio>
-               <folio>236</folio>
-               <folio>237</folio>
-               <folio>238</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d73276"/>
+        <title>Processio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>235</folio>
+            <folio>236</folio>
+            <folio>237</folio>
+            <folio>238</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d74155">
-         <fileName filestem="Vn7Pel-d74155"/>
-         <title>Proprie et proprietas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>238</folio>
-               <folio>239</folio>
-               <folio>240</folio>
-               <folio>241</folio>
-               <folio>242</folio>
-               <folio>243</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d74155"/>
+        <title>Proprie et proprietas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>238</folio>
+            <folio>239</folio>
+            <folio>240</folio>
+            <folio>241</folio>
+            <folio>242</folio>
+            <folio>243</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d75677">
-         <fileName filestem="Vn7Pel-d75677"/>
-         <title>Providentia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>243</folio>
-               <folio>244</folio>
-               <folio>245</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d75677"/>
+        <title>Providentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>243</folio>
+            <folio>244</folio>
+            <folio>245</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d76486">
-         <fileName filestem="Vn7Pel-d76486"/>
-         <title>Pulcritudo</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>245</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d76486"/>
+        <title>Pulcritudo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>245</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d76505">
-         <fileName filestem="Vn7Pel-d76505"/>
-         <title>QUiditas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>245</folio>
-               <folio>246</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d76505"/>
+        <title>QUiditas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>245</folio>
+            <folio>246</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d76748">
-         <fileName filestem="Vn7Pel-d76748"/>
-         <title>Quo est et quod est</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>246</folio>
-               <folio>247</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d76748"/>
+        <title>Quo est et quod est</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>246</folio>
+            <folio>247</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d76968">
-         <fileName filestem="Vn7Pel-d76968"/>
-         <title>Ratio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>247</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d76968"/>
+        <title>Ratio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>247</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d77022">
-         <fileName filestem="Vn7Pel-d77022"/>
-         <title>Reduplicativa</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>247</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d77022"/>
+        <title>Reduplicativa</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>247</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d77102">
-         <fileName filestem="Vn7Pel-d77102"/>
-         <title>Relatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>247</folio>
-               <folio>248</folio>
-               <folio>249</folio>
-               <folio>250</folio>
-               <folio>251</folio>
-               <folio>252</folio>
-               <folio>253</folio>
-               <folio>254</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d77102"/>
+        <title>Relatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>247</folio>
+            <folio>248</folio>
+            <folio>249</folio>
+            <folio>250</folio>
+            <folio>251</folio>
+            <folio>252</folio>
+            <folio>253</folio>
+            <folio>254</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d79239">
-         <fileName filestem="Vn7Pel-d79239"/>
-         <title>Reprobatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>254</folio>
-               <folio>255</folio>
-               <folio>256</folio>
-               <folio>257</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d79239"/>
+        <title>Reprobatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>254</folio>
+            <folio>255</folio>
+            <folio>256</folio>
+            <folio>257</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d80269">
-         <fileName filestem="Vn7Pel-d80269"/>
-         <title>Revelatio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>257</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d80269"/>
+        <title>Revelatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>257</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d80293">
-         <fileName filestem="Vn7Pel-d80293"/>
-         <title>Sapientia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>258</folio>
-               <folio>259</folio>
-               <folio>260</folio>
-               <folio>261</folio>
-               <folio>262</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d80293"/>
+        <title>Sapientia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>258</folio>
+            <folio>259</folio>
+            <folio>260</folio>
+            <folio>261</folio>
+            <folio>262</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d81721">
-         <fileName filestem="Vn7Pel-d81721"/>
-         <title>Scientia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>262</folio>
-               <folio>263</folio>
-               <folio>264</folio>
-               <folio>265</folio>
-               <folio>266</folio>
-               <folio>267</folio>
-               <folio>268</folio>
-               <folio>269</folio>
-               <folio>270</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d81721"/>
+        <title>Scientia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>262</folio>
+            <folio>263</folio>
+            <folio>264</folio>
+            <folio>265</folio>
+            <folio>266</folio>
+            <folio>267</folio>
+            <folio>268</folio>
+            <folio>269</folio>
+            <folio>270</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d84133">
-         <fileName filestem="Vn7Pel-d84133"/>
-         <title>Se</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>270</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d84133"/>
+        <title>Se</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>270</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d84182">
-         <fileName filestem="Vn7Pel-d84182"/>
-         <title>Si</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>270</folio>
-               <folio>271</folio>
-               <folio>272</folio>
-               <folio>273</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d84182"/>
+        <title>Si</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>270</folio>
+            <folio>271</folio>
+            <folio>272</folio>
+            <folio>273</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d85151">
-         <fileName filestem="Vn7Pel-d85151"/>
-         <title>Solus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>273</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d85151"/>
+        <title>Solus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>273</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d85170">
-         <fileName filestem="Vn7Pel-d85170"/>
-         <title>Sophistice</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>273</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d85170"/>
+        <title>Sophistice</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>273</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d85190">
-         <fileName filestem="Vn7Pel-d85190"/>
-         <title>Species</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>273</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d85190"/>
+        <title>Species</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>273</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d85284">
-         <fileName filestem="Vn7Pel-d85284"/>
-         <title>Spiratio</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>273</folio>
-               <folio>274</folio>
-               <folio>275</folio>
-               <folio>276</folio>
-               <folio>277</folio>
-               <folio>278</folio>
-               <folio>279</folio>
-               <folio>280</folio>
-               <folio>281</folio>
-               <folio>282</folio>
-               <folio>283</folio>
-               <folio>284</folio>
-               <folio>285</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d85284"/>
+        <title>Spiratio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>273</folio>
+            <folio>274</folio>
+            <folio>275</folio>
+            <folio>276</folio>
+            <folio>277</folio>
+            <folio>278</folio>
+            <folio>279</folio>
+            <folio>280</folio>
+            <folio>281</folio>
+            <folio>282</folio>
+            <folio>283</folio>
+            <folio>284</folio>
+            <folio>285</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d88939">
-         <fileName filestem="Vn7Pel-d88939"/>
-         <title>Subiectum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>285</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d88939"/>
+        <title>Subiectum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>285</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d89056">
-         <fileName filestem="Vn7Pel-d89056"/>
-         <title>Substantia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>285</folio>
-               <folio>286</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d89056"/>
+        <title>Substantia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>285</folio>
+            <folio>286</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d89221">
-         <fileName filestem="Vn7Pel-d89221"/>
-         <title>Summum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>286</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d89221"/>
+        <title>Summum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>286</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d89418">
-         <fileName filestem="Vn7Pel-d89418"/>
-         <title>Theologia</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>286</folio>
-               <folio>287</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d89418"/>
+        <title>Theologia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>286</folio>
+            <folio>287</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d89521">
-         <fileName filestem="Vn7Pel-d89521"/>
-         <title>Transferre</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>287</folio>
-               <folio>288</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d89521"/>
+        <title>Transferre</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>287</folio>
+            <folio>288</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d89929">
-         <fileName filestem="Vn7Pel-d89929"/>
-         <title>Trinitas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>288</folio>
-               <folio>289</folio>
-               <folio>290</folio>
-               <folio>291</folio>
-               <folio>292</folio>
-               <folio>293</folio>
-               <folio>294</folio>
-               <folio>295</folio>
-               <folio>296</folio>
-               <folio>297</folio>
-               <folio>298</folio>
-               <folio>299</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d89929"/>
+        <title>Trinitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>288</folio>
+            <folio>289</folio>
+            <folio>290</folio>
+            <folio>291</folio>
+            <folio>292</folio>
+            <folio>293</folio>
+            <folio>294</folio>
+            <folio>295</folio>
+            <folio>296</folio>
+            <folio>297</folio>
+            <folio>298</folio>
+            <folio>299</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d93404">
-         <fileName filestem="Vn7Pel-d93404"/>
-         <title>Vertias</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>299</folio>
-               <folio>300</folio>
-               <folio>301</folio>
-               <folio>302</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d93404"/>
+        <title>Vertias</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>299</folio>
+            <folio>300</folio>
+            <folio>301</folio>
+            <folio>302</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d94199">
-         <fileName filestem="Vn7Pel-d94199"/>
-         <title>Vestigium</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>302</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d94199"/>
+        <title>Vestigium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>302</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d94218">
-         <fileName filestem="Vn7Pel-d94218"/>
-         <title>Virtus</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>302</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d94218"/>
+        <title>Virtus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>302</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d94239">
-         <fileName filestem="Vn7Pel-d94239"/>
-         <title>Vita</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>302</folio>
-               <folio>303</folio>
-               <folio>304</folio>
-               <folio>305</folio>
-               <folio>306</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d94239"/>
+        <title>Vita</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>302</folio>
+            <folio>303</folio>
+            <folio>304</folio>
+            <folio>305</folio>
+            <folio>306</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d95753">
-         <fileName filestem="Vn7Pel-d95753"/>
-         <title>Univocum</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>306</folio>
-               <folio>307</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d95753"/>
+        <title>Univocum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>306</folio>
+            <folio>307</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d95778">
-         <fileName filestem="Vn7Pel-d95778"/>
-         <title>Voluntas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>307</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d95778"/>
+        <title>Voluntas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>307</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-d96003">
-         <fileName filestem="Vn7Pel-d96003"/>
-         <title>Voluntas</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>307</folio>
-               <folio>308</folio>
-               <folio>309</folio>
-               <folio>310</folio>
-               <folio>311</folio>
-               <folio>312</folio>
-               <folio>313</folio>
-               <folio>314</folio>
-               <folio>315</folio>
-               <folio>316</folio>
-               <folio>317</folio>
-               <folio>318</folio>
-               <folio>319</folio>
-               <folio>320</folio>
-               <folio>321</folio>
-               <folio>322</folio>
-               <folio>323</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-d96003"/>
+        <title>Voluntas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>307</folio>
+            <folio>308</folio>
+            <folio>309</folio>
+            <folio>310</folio>
+            <folio>311</folio>
+            <folio>312</folio>
+            <folio>313</folio>
+            <folio>314</folio>
+            <folio>315</folio>
+            <folio>316</folio>
+            <folio>317</folio>
+            <folio>318</folio>
+            <folio>319</folio>
+            <folio>320</folio>
+            <folio>321</folio>
+            <folio>322</folio>
+            <folio>323</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-e00998">
-         <fileName filestem="Vn7Pel-e00998"/>
-         <title>Xristus (Christus)</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>323</folio>
-               <folio>324</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-e00998"/>
+        <title>Xristus (Christus)</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>323</folio>
+            <folio>324</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-e01215">
-         <fileName filestem="Vn7Pel-e01215"/>
-         <title>Ydea (Idea)</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>324</folio>
-               <folio>325</folio>
-               <folio>326</folio>
-               <folio>327</folio>
-               <folio>328</folio>
-               <folio>329</folio>
-               <folio>330</folio>
-               <folio>331</folio>
-               <folio>332</folio>
-               <folio>333</folio>
-               <folio>334</folio>
-               <folio>335</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-e01215"/>
+        <title>Ydea (Idea)</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>324</folio>
+            <folio>325</folio>
+            <folio>326</folio>
+            <folio>327</folio>
+            <folio>328</folio>
+            <folio>329</folio>
+            <folio>330</folio>
+            <folio>331</folio>
+            <folio>332</folio>
+            <folio>333</folio>
+            <folio>334</folio>
+            <folio>335</folio>
+          </witness>
+        </hasWitnesses>
       </item>
       <item id="Vn7Pel-e04514">
-         <fileName filestem="Vn7Pel-e04514"/>
-         <title>Ypostasis (Hypostasis)</title>
-         <questionTitle/>
-         <hasWitnesses>
-            <witness ref="#cod-PELthe">
-               <folio>335</folio>
-               <folio>336</folio>
-            </witness>
-         </hasWitnesses>
+        <fileName filestem="Vn7Pel-e04514"/>
+        <title>Ypostasis (Hypostasis)</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELthe">
+            <folio>335</folio>
+            <folio>336</folio>
+          </witness>
+        </hasWitnesses>
       </item>
+    </div>
+    <div id="Vn7Pel-aDaa2a">
+      <head>Liber 2</head>
+    </div>
+    <div id="Vn7Pel-aDaa3a">
+      <head>Liber 3</head>
+    </div>
+    <div id="Vn7Pel-aDaa4a">
+      <head>Liber 4</head>
+      <item id="Vn7Pel-k12311">
+        <fileName filestem="Vn7Pel-k12311"/>
+        <title>Prologus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k20511">
+        <fileName filestem="Vn7Pel-k20511"/>
+        <title>Abel</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k22711">
+        <fileName filestem="Vn7Pel-k22711"/>
+        <title>Absolutio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k37961">
+        <fileName filestem="Vn7Pel-k37961"/>
+        <title>Altare</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k39891">
+        <fileName filestem="Vn7Pel-k39891"/>
+        <title>Aqua</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k41341">
+        <fileName filestem="Vn7Pel-k41341"/>
+        <title>Aureola</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k54521">
+        <fileName filestem="Vn7Pel-k54521"/>
+        <title>Baptismus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k12655">
+        <fileName filestem="Vn7Pel-k12655"/>
+        <title>Beatitudo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k15066">
+        <fileName filestem="Vn7Pel-k15066"/>
+        <title>Beneficium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k15795">
+        <fileName filestem="Vn7Pel-k15795"/>
+        <title>Bigamia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k16162">
+        <fileName filestem="Vn7Pel-k16162"/>
+        <title>Calix</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k16262">
+        <fileName filestem="Vn7Pel-k16262"/>
+        <title>Character</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k16278">
+        <fileName filestem="Vn7Pel-k16278"/>
+        <title>Casus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k16581">
+        <fileName filestem="Vn7Pel-k16581"/>
+        <title>Cathecismus</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k16595">
+        <fileName filestem="Vn7Pel-k16595"/>
+        <title> Circumcisio </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k17262">
+        <fileName filestem="Vn7Pel-k17262"/>
+        <title> Clauis </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k18398">
+        <fileName filestem="Vn7Pel-k18398"/>
+        <title>Confessio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k25706">
+        <fileName filestem="Vn7Pel-k25706"/>
+        <title> Confirmatio </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k26920">
+        <fileName filestem="Vn7Pel-k26920"/>
+        <title>Contritio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k29005">
+        <fileName filestem="Vn7Pel-k29005"/>
+        <title> Correctio </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k29872">
+        <fileName filestem="Vn7Pel-k29872"/>
+        <title>Chrisma</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k29926">
+        <fileName filestem="Vn7Pel-k29926"/>
+        <title>Damnati</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k32252">
+        <fileName filestem="Vn7Pel-k32252"/>
+        <title>Dos</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k35264">
+        <fileName filestem="Vn7Pel-k35264"/>
+        <title>Elemosyna</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k36770">
+        <fileName filestem="Vn7Pel-k36770"/>
+        <title>Emptio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k37074">
+        <fileName filestem="Vn7Pel-k37074"/>
+        <title>Eucharistia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k48773">
+        <fileName filestem="Vn7Pel-k48773"/>
+        <title>Excommunicatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k59348">
+        <fileName filestem="Vn7Pel-k59348"/>
+        <title>Extrema unctio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k60845">
+        <fileName filestem="Vn7Pel-k60845"/>
+        <title>Ieiunium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k62292">
+        <fileName filestem="Vn7Pel-k62292"/>
+        <title>Indulgentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k63781">
+        <fileName filestem="Vn7Pel-k63781"/>
+        <title> Infamia </title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k64514">
+        <fileName filestem="Vn7Pel-k64514"/>
+        <title>Interdictum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k66123">
+        <fileName filestem="Vn7Pel-k66123"/>
+        <title>Irregularitas</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k67926">
+        <fileName filestem="Vn7Pel-k67926"/>
+        <title>Iudex</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k68600">
+        <fileName filestem="Vn7Pel-k68600"/>
+        <title>Iudicium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k75857">
+        <fileName filestem="Vn7Pel-k75857"/>
+        <title>Iustificatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k77438">
+        <fileName filestem="Vn7Pel-k77438"/>
+        <title>Matrimonium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k86635">
+        <fileName filestem="Vn7Pel-k86635"/>
+        <title>Missa</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k89466">
+        <fileName filestem="Vn7Pel-k89466"/>
+        <title>Oratio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k90754">
+        <fileName filestem="Vn7Pel-k90754"/>
+        <title>Ordo</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k92614">
+        <fileName filestem="Vn7Pel-k92614"/>
+        <title>Poenitentia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k94786">
+        <fileName filestem="Vn7Pel-k94786"/>
+        <title>Poenitentia peccatorum venialium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k94798">
+        <fileName filestem="Vn7Pel-k94798"/>
+        <title>Punitio damnatorum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k94810">
+        <fileName filestem="Vn7Pel-k94810"/>
+        <title>Recidiuatio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k95535">
+        <fileName filestem="Vn7Pel-k95535"/>
+        <title>Resurrectio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k97034">
+        <fileName filestem="Vn7Pel-k97034"/>
+        <title>Restitutio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k97138">
+        <fileName filestem="Vn7Pel-k97138"/>
+        <title>Sacramentum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98100">
+        <fileName filestem="Vn7Pel-k98100"/>
+        <title>Satisfactio</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98222">
+        <fileName filestem="Vn7Pel-k98222"/>
+        <title>Scandalum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98333">
+        <fileName filestem="Vn7Pel-k98333"/>
+        <title>Sepultura</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98444">
+        <fileName filestem="Vn7Pel-k98444"/>
+        <title>Simonia</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98555">
+        <fileName filestem="Vn7Pel-k98555"/>
+        <title>Testamentum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98666">
+        <fileName filestem="Vn7Pel-k98666"/>
+        <title>Votum</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+      <item id="Vn7Pel-k98777">
+        <fileName filestem="Vn7Pel-k98777"/>
+        <title>Xenodocium</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-PELth4"/>
+        </hasWitnesses>
+      </item>
+    </div>
   </div>
 </listofFileNames>
