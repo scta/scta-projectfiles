@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
-    <authorName>Ricardus de Mediavilla</authorName>
-    <commentaryName>Mediavilla Commentary</commentaryName>
-    <commentaryid>mediavillacommentary</commentaryid>
-    <commentaryslug>rdm</commentaryslug>
+    <authorName>Ricardus de Mediavilla </authorName>
+    <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
+    <commentaryid>kzz7yh</commentaryid>
+    <commentaryslug>kzz7yh</commentaryslug>
     <authorUri>http://scta.info/resource/RicardusDeMediavilla</authorUri>
-    <parentUri>http://scta.info/resource/mediavillacommentary</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/mediavillacommentary/</textfilesdir>
-    <questionListSource></questionListSource>
+    <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
@@ -48,15 +44,16 @@
     </hasWitnesses>
   </header>
   <div id="body">
-    <div id="rdm-liber1" type="liber">
-      <head>Liber I</head>
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="kzz7yh-d1e91" type="liber1">
+      <head>Liber 1</head>
     </div>
-    <div id="rdm-liber2" type="liber">
-      <head>Liber II</head>
+    <div id="kzz7yh-d1e96" type="liber2">
+      <head>Liber </head>
     </div>
-    <div id="rdm-liber3" type="liber">
-      <head>Liber III</head>
-      <div id="rdm-l3d1" type="distinctio" subtype="liber3-distinctio1">
+    <div id="kzz7yh-d1e101" type="liber3">
+      <head>Liber 3</head>
+      <!--<div id="rdm-l3d1" type="distinctio" subtype="liber3-distinctio1">
         <head>Liber III, Distinctio 1</head>
         <item id="rdm-l3d1int" type="introitus">
           <fileName filestem="rdm-l3d1int"/>
@@ -140,10 +137,10 @@
             </witness>
           </hasWitnesses>
         </item>
-      </div>
+      </div>-->
     </div>
-    <div id="rdm-liber4" type="liber">
-      <head>Liber IV</head>
+    <div id="kzz7yh-d1e106" type="liber4">
+      <head>Liber 4</head>
     <!--  <item>d, 1, </item>
       d. 2, 7rb
       d2q17va
@@ -275,5 +272,3 @@ d. 50 174va
     </div>
   </div>
 </listofFileNames>
-
-
