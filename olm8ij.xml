@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listofFileNames>
   <header>
     <authorName>Petrus Aureolus</authorName>
@@ -40,7 +42,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>1</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f12222" alias="l2prol-q1">
@@ -48,7 +52,16 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>1</folio>
+              <folio>2</folio>
+              <folio>3</folio>
+              <folio>4</folio>
+              <folio>5</folio>
+              <folio>6</folio>
+              <folio>7</folio>
+              <folio>8</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -59,7 +72,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>8</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f12624" alias="l2d1-q1">
@@ -67,7 +82,17 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>8</folio>
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+              <folio>13</folio>
+              <folio>14</folio>
+              <folio>15</folio>
+              <folio>16</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f18395" alias="l2d1-q2">
@@ -75,7 +100,15 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+              <folio>21</folio>
+              <folio>22</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f18786" alias="l2d1-q3">
@@ -83,7 +116,13 @@
           <title>Quaestio 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>23</folio>
+              <folio>24</folio>
+              <folio>25</folio>
+              <folio>26</folio>
+              <folio>27</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f13487" alias="l2d1-q4">
@@ -91,7 +130,14 @@
           <title>Quaestio 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+              <folio>30</folio>
+              <folio>31</folio>
+              <folio>32</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -102,7 +148,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>32</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f13757" alias="l2d2-q1">
@@ -110,7 +158,21 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>32</folio>
+              <folio>33</folio>
+              <folio>34</folio>
+              <folio>35</folio>
+              <folio>36</folio>
+              <folio>37</folio>
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+              <folio>42</folio>
+              <folio>43</folio>
+              <folio>44</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f13889" alias="l2d2-q2">
@@ -118,7 +180,13 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+              <folio>48</folio>
+              <folio>49</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f15302" alias="l2d2-q3">
@@ -126,7 +194,15 @@
           <title>Quaestio 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+              <folio>52</folio>
+              <folio>53</folio>
+              <folio>54</folio>
+              <folio>55</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -137,7 +213,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>55</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f17348" alias="l2d3-q1">
@@ -145,7 +223,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>56</folio>
+              <folio>57</folio>
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f18882" alias="l2d3-q2">
@@ -153,7 +237,21 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>60</folio>
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+              <folio>64</folio>
+              <folio>65</folio>
+              <folio>66</folio>
+              <folio>67</folio>
+              <folio>68</folio>
+              <folio>69</folio>
+              <folio>70</folio>
+              <folio>71</folio>
+              <folio>72</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -164,7 +262,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>73</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f22869" alias="l2d4-q1">
@@ -172,7 +272,16 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>73</folio>
+              <folio>74</folio>
+              <folio>75</folio>
+              <folio>76</folio>
+              <folio>77</folio>
+              <folio>78</folio>
+              <folio>79</folio>
+              <folio>80</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -183,7 +292,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>80</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f25280" alias="l2d5-q1">
@@ -191,7 +302,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -202,7 +317,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>83</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f25949" alias="l2d6-q1">
@@ -210,7 +327,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>83</folio>
+              <folio>84</folio>
+              <folio>85</folio>
+              <folio>86</folio>
+              <folio>87</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -221,7 +344,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>88</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f27363" alias="l2d7-q1">
@@ -229,7 +354,12 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+              <folio>91</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -240,7 +370,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>92</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f28597" alias="l2d8-q1">
@@ -248,7 +380,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+              <folio>96</folio>
+              <folio>97</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -259,7 +398,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>97</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f30240" alias="l2d9-q1">
@@ -267,7 +408,15 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>97</folio>
+              <folio>98</folio>
+              <folio>99</folio>
+              <folio>100</folio>
+              <folio>101</folio>
+              <folio>102</folio>
+              <folio>103</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f32108" alias="l2d9-q2">
@@ -275,7 +424,15 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>103</folio>
+              <folio>104</folio>
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+              <folio>108</folio>
+              <folio>109</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f34094" alias="l2d9-q3">
@@ -283,7 +440,19 @@
           <title>Quaestio 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>109</folio>
+              <folio>110</folio>
+              <folio>111</folio>
+              <folio>112</folio>
+              <folio>113</folio>
+              <folio>114</folio>
+              <folio>115</folio>
+              <folio>116</folio>
+              <folio>117</folio>
+              <folio>118</folio>
+              <folio>119</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f37361" alias="l2d9-q4">
@@ -291,7 +460,12 @@
           <title>Quaestio 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>119</folio>
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -302,7 +476,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>122</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f38213" alias="l2d10-q1">
@@ -310,7 +486,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>122</folio>
+              <folio>123</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -321,7 +500,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>123</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f38512" alias="l2d11-q1">
@@ -329,7 +510,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>123</folio>
+              <folio>124</folio>
+              <folio>125</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f39207" alias="l2d11-q2">
@@ -337,7 +522,10 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>126</folio>
+              <folio>127</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f39672" alias="l2d11-q3">
@@ -345,7 +533,18 @@
           <title>Quaestio 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>127</folio>
+              <folio>128</folio>
+              <folio>129</folio>
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+              <folio>133</folio>
+              <folio>134</folio>
+              <folio>135</folio>
+              <folio>136</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f42522" alias="l2d11-q4">
@@ -353,7 +552,12 @@
           <title>Quaestio 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>136</folio>
+              <folio>137</folio>
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f43694" alias="l2d11-q5">
@@ -361,7 +565,19 @@
           <title>Quaestio 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+              <folio>143</folio>
+              <folio>144</folio>
+              <folio>145</folio>
+              <folio>146</folio>
+              <folio>147</folio>
+              <folio>148</folio>
+              <folio>149</folio>
+              <folio>150</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -372,7 +588,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>150</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f46917" alias="l2d12-q1">
@@ -380,7 +598,33 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>150</folio>
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+              <folio>155</folio>
+              <folio>156</folio>
+              <folio>157</folio>
+              <folio>158</folio>
+              <folio>159</folio>
+              <folio>160</folio>
+              <folio>161</folio>
+              <folio>162</folio>
+              <folio>163</folio>
+              <folio>164</folio>
+              <folio>165</folio>
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+              <folio>174</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f54635" alias="l2d12-q2">
@@ -388,7 +632,15 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>174</folio>
+              <folio>175</folio>
+              <folio>176</folio>
+              <folio>177</folio>
+              <folio>178</folio>
+              <folio>179</folio>
+              <folio>180</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -399,7 +651,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>180</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f56528" alias="l2d13-q1">
@@ -407,7 +661,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>180</folio>
+              <folio>181</folio>
+              <folio>182</folio>
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -418,7 +679,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>185</folio>
+              <folio>186</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f58267" alias="l2d14-q1">
@@ -426,7 +690,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>186</folio>
+              <folio>187</folio>
+              <folio>188</folio>
+              <folio>189</folio>
+              <folio>190</folio>
+              <folio>191</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f59844" alias="l2d14-q2">
@@ -434,7 +705,17 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>191</folio>
+              <folio>192</folio>
+              <folio>193</folio>
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+              <folio>197</folio>
+              <folio>198</folio>
+              <folio>199</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f62604" alias="l2d14-q3">
@@ -442,7 +723,10 @@
           <title>Quaestio 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>200</folio>
+              <folio>201</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -453,7 +737,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>201</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f63037" alias="l2d15-q1">
@@ -461,7 +747,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>201</folio>
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+              <folio>205</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f64318" alias="l2d15-q2">
@@ -469,7 +761,20 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>206</folio>
+              <folio>207</folio>
+              <folio>208</folio>
+              <folio>209</folio>
+              <folio>210</folio>
+              <folio>211</folio>
+              <folio>212</folio>
+              <folio>213</folio>
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+              <folio>217</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -480,7 +785,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>218</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f68097" alias="l2d16-q1">
@@ -488,7 +795,20 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>218</folio>
+              <folio>219</folio>
+              <folio>220</folio>
+              <folio>221</folio>
+              <folio>222</folio>
+              <folio>223</folio>
+              <folio>224</folio>
+              <folio>225</folio>
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+              <folio>229</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -499,7 +819,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>230</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f71723" alias="l2d17-q1">
@@ -507,7 +829,21 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>230</folio>
+              <folio>231</folio>
+              <folio>232</folio>
+              <folio>233</folio>
+              <folio>234</folio>
+              <folio>235</folio>
+              <folio>236</folio>
+              <folio>237</folio>
+              <folio>238</folio>
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+              <folio>242</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -518,7 +854,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>242</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f75431" alias="l2d18-q2">
@@ -526,7 +864,11 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>242</folio>
+              <folio>243</folio>
+              <folio>244</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -537,7 +879,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>244</folio>
+              <folio>245</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f76114" alias="l2d19-q2">
@@ -545,7 +890,11 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>245</folio>
+              <folio>246</folio>
+              <folio>247</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -556,7 +905,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>247</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f76896" alias="l2d20-q1">
@@ -564,7 +915,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>248</folio>
+              <folio>249</folio>
+              <folio>250</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -575,7 +930,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>250</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f77650" alias="l2d21-q1">
@@ -583,7 +940,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -594,7 +957,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>254</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f78825" alias="l2d22-q1">
@@ -602,7 +967,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>254</folio>
+              <folio>255</folio>
+              <folio>256</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -613,7 +982,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>257</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -624,7 +995,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>258</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f79695" alias="l2d24-q1">
@@ -632,7 +1005,12 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+              <folio>261</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -643,7 +1021,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>262</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f80809" alias="l2d25-q1">
@@ -651,7 +1031,15 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>262</folio>
+              <folio>263</folio>
+              <folio>264</folio>
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -662,7 +1050,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>269</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f82871" alias="l2d26-q1">
@@ -670,7 +1060,12 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>269</folio>
+              <folio>270</folio>
+              <folio>271</folio>
+              <folio>272</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -681,7 +1076,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>273</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f84102" alias="l2d27-q1">
@@ -689,7 +1086,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>273</folio>
+              <folio>274</folio>
+              <folio>275</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -700,7 +1101,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>275</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f84705" alias="l2d28-q1">
@@ -708,7 +1111,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>275</folio>
+              <folio>276</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -719,7 +1125,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>277</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f85219" alias="l2d29-q1">
@@ -727,7 +1135,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>277</folio>
+              <folio>278</folio>
+              <folio>279</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -738,7 +1150,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>279</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f85947" alias="l2d30-q1">
@@ -746,7 +1160,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>279</folio>
+              <folio>280</folio>
+              <folio>281</folio>
+              <folio>282</folio>
+              <folio>283</folio>
+              <folio>284</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -757,7 +1178,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>285</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f87644" alias="l2d31et32-q1">
@@ -765,7 +1188,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -776,7 +1203,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>287</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f88429" alias="l2d33-q1">
@@ -784,7 +1213,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>287</folio>
+              <folio>288</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -795,7 +1227,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>288</folio>
+              <folio>289</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f88713" alias="l2d34-q1">
@@ -803,7 +1238,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>289</folio>
+              <folio>290</folio>
+              <folio>291</folio>
+              <folio>292</folio>
+              <folio>293</folio>
+              <folio>294</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -814,7 +1256,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>294</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f90438" alias="l2d35-q1">
@@ -822,7 +1266,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>294</folio>
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+              <folio>298</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -833,7 +1283,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>299</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f91735" alias="l2d36-q1">
@@ -841,7 +1293,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>299</folio>
+              <folio>300</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -852,7 +1307,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>300</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f92091" alias="l2d37-q1">
@@ -860,7 +1317,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -871,7 +1332,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>302</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f92770" alias="l2d38-q1">
@@ -879,7 +1342,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>302</folio>
+              <folio>303</folio>
+              <folio>304</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f93517" alias="l2d38-q2">
@@ -887,7 +1354,10 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>305</folio>
+              <folio>306</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -898,7 +1368,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>307</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f94146" alias="l2d39-q1">
@@ -906,7 +1378,13 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+              <folio>310</folio>
+              <folio>311</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -917,7 +1395,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>311</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f95547" alias="l2d40-q1">
@@ -925,7 +1405,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -936,7 +1420,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>313</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f96070" alias="l2d42-prae">
@@ -944,7 +1430,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>314</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -955,7 +1443,18 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+              <folio>320</folio>
+              <folio>321</folio>
+              <folio>322</folio>
+              <folio>323</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -966,7 +1465,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>324</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f99111" alias="l2d43-q1">
@@ -974,7 +1475,10 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>324</folio>
+              <folio>325</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -985,7 +1489,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>326</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="olm8ij-f99693" alias="l2d44-q1">
@@ -993,7 +1499,14 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-pa05b2"/>
+            <witness ref="#cod-pa05b2">
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+              <folio>330</folio>
+              <folio>331</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
