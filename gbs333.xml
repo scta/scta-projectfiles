@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Gabriel Biel</authorName>
@@ -38,15 +37,29 @@
 -->
       <witness id="cod-gbzzz1">
         <slug>cod-gbzzz1</slug>
-        <title>Brescia 1574</title>
+        <title>Brescia 1574, vol. 1</title>
         <initial>cod-gbzzz1</initial>
+        <!--<editor>Bozola</editor>-->
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
+      </witness>
+      <witness id="cod-gbzzz2">
+        <slug>cod-gbzzz1</slug>
+        <title>Brescia 1574, vol. 2</title>
+        <initial>cod-gbzzz2</initial>
         <!--<editor>Bozola</editor>-->
         <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
       </witness>
       <witness id="cod-gbzzz3">
         <slug>cod-gbzzz3</slug>
-        <title>Brescia 1574</title>
+        <title>Brescia 1574, vol. 3</title>
         <initial>cod-gbzzz3</initial>
+        <!--<editor>Bozola</editor>-->
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
+      </witness>
+      <witness id="cod-gbzzz4">
+        <slug>cod-gbzzz4</slug>
+        <title>Brescia 1574, vol. 4</title>
+        <initial>cod-gbzzz4</initial>
         <!--<editor>Bozola</editor>-->
         <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
       </witness>
@@ -3723,6 +3736,780 @@
           </hasWitnesses>
         </item>
       </div>
+    </div>
+    <div id="gbs333-d1e6505">
+      <head>Liber 4</head>
+      <div id="gbs333-d1e6509" type="liber4-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="gbs333-v10011" alias="l4-d1prae">
+          <fileName filestem="gbs333-v10011"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v12001" alias="l4-d1q1">
+          <fileName filestem="gbs333-v12001"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum sacramenta legis novae sint causae effectivae gratiae. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v14658" alias="l4-d1q2">
+          <fileName filestem="gbs333-v14658"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum congruebat institui sacramenta in cuiuslibet legis tempore pro lapsi
+            hominis reparatione </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v16577" alias="l4-d1q3">
+          <fileName filestem="gbs333-v16577"/>
+          <title>Quaestio 3</title>
+          <questionTitle> utrum cerimoniae ueteris legis quae dicuntur sacramenta generali uocabulo:
+            contulerunt gratiam rite utentibus ex opere operato </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v17885" alias="l4-d1q4">
+          <fileName filestem="gbs333-v17885"/>
+          <title>Quaestio 4</title>
+          <questionTitle> Utrum circumcisionis sacramentum masculis currente lege necessarium,
+            institutione baptismi factum sit mortiferum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6585" type="liber4-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="gbs333-v11865" alias="l4-d2prae">
+          <fileName filestem="gbs333-v11865"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v11975" alias="l4-d2q1">
+          <fileName filestem="gbs333-v11975"/>
+          <title>Quaestio 1</title>
+          <questionTitle> UTRVM sacramenta nouaelegis in septenario numero a christo instituta, sint
+            sacramentis caeteris perfestiora </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v14045" alias="l4-d2q2">
+          <fileName filestem="gbs333-v14045"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum baptismate Ioannis baptizati, erant baptismo christi iterum
+            baptizandi </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6632" type="liber4-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="gbs333-v15694" alias="l4-d3prae">
+          <fileName filestem="gbs333-v15694"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v15815" alias="l4-d3q1">
+          <fileName filestem="gbs333-v15815"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum baptismiChristi sit una eademque materia, et forma ad eius effectus
+            consecutionem necessaria </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6665" type="liber4-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="gbs333-v18974" alias="l4-d4prae">
+          <fileName filestem="gbs333-v18974"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v19049" alias="l4-d4q1">
+          <fileName filestem="gbs333-v19049"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum effectus baptismi in non indigne suscipiente sit infusio uirtutum,
+            et gratiae, ac remissio culpae, et poenae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v22805" alias="l4-d4q2">
+          <fileName filestem="gbs333-v22805"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum omnes suscipientes baptismum aequaliter accipiant sacramentalem eius
+            effectum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6713" type="liber4-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="gbs333-v27596" alias="l4-d5prae">
+          <fileName filestem="gbs333-v27596"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v27656" alias="l4-d5q1">
+          <fileName filestem="gbs333-v27656"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccet mortaliter, qui a malo ministro verum baptisma suscipit
+            scienter </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6746" type="liber4-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="gbs333-v29819" alias="l4-d6prae">
+          <fileName filestem="gbs333-v29819"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v29911" alias="l4-d6q1">
+          <fileName filestem="gbs333-v29911"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum ad veritatem baptismi ex parte baptizantis requiritur certus gradus,
+            conditio, et qualitas ministrantis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v32837" alias="l4-d6q2">
+          <fileName filestem="gbs333-v32837"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum characteris impressio sit in iterabilitatis baptismi causa, uel
+            ratio </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v37718" alias="l4-d7prae">
+          <fileName filestem="gbs333-v37718"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6807" type="liber4-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="gbs333-v37800" alias="l4-d7q1">
+          <fileName filestem="gbs333-v37800"/>
+          <title>Quaestio 1 Vtrum confirmatio sit sacramentum noualegis irreiterabile, a solis
+            episcopis dispensabile </title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6826" type="liber4-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="gbs333-v40381" alias="l4-d8prae">
+          <fileName filestem="gbs333-v40381"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v40551" alias="l4-d8q1">
+          <fileName filestem="gbs333-v40551"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum eucharistia nouae legis sacramentum conuenienter fuerit a christo
+            post coenam ultimam institutum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v41514" alias="l4-d8q2">
+          <fileName filestem="gbs333-v41514"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum cum figurarum praecedentium pluralitate salue tur unitas sacramenti
+            eucharistiae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v42167" alias="l4-d8q3">
+          <fileName filestem="gbs333-v42167"/>
+          <title>Quaestio 3</title>
+          <questionTitle> utrum a christo instituta sit certa uerborum forma ad essentiam
+            eucharistiae: uel eius consecrationis necessaria </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6887" type="liber4-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="gbs333-v42724" alias="l4-d9prae">
+          <fileName filestem="gbs333-v42724"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v42803" alias="l4-d9q1">
+          <fileName filestem="gbs333-v42803"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum manducatio eucharistiae sacramentalis, aut spiritualis sit de
+            necessitate salutis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v43747" alias="l4-d9q2">
+          <fileName filestem="gbs333-v43747"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum solum mortale peccatum reddat accedentem huius sacramenti indignum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6934" type="liber4-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="gbs333-v45535" alias="l4-d10prae">
+          <fileName filestem="gbs333-v45535"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v45607" alias="l4-d10q1">
+          <fileName filestem="gbs333-v45607"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omnes proprietates corpori christi inexistenres in caelo conueniant
+            eidem in eucharistiae sacramento </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e6968" type="liber4-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="gbs333-v47208" alias="l4-d11prae">
+          <fileName filestem="gbs333-v47208"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v47321" alias="l4-d11q1">
+          <fileName filestem="gbs333-v47321"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum substantia panis, et uini in corpus, et sanguinem christi conuersa,
+            maneat cum eisdem sub sacramenti forma </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v48804" alias="l4-d11q2">
+          <fileName filestem="gbs333-v48804"/>
+          <title>Quaestio 2</title>
+          <questionTitle>utrum materia eucharistiae sit panis triticeus, et naturalis liquor
+            vini</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7015" type="liber4-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="gbs333-v49326" alias="l4-d12prae">
+          <fileName filestem="gbs333-v49326"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v49430" alias="l4-d12q1">
+          <fileName filestem="gbs333-v49430"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum accidentia, quae sine subjecto subsistunt in eucharistia: agant et
+            patiantur tanquam subjecto inhaerentia </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v50436" alias="l4-d12q2">
+          <fileName filestem="gbs333-v50436"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum ad consequendum eucharistiae fructum frequenter sit conicandum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7062" type="liber4-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="gbs333-v51261" alias="l4-d13prae">
+          <fileName filestem="gbs333-v51261"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v51349" alias="l4-d13q1">
+          <fileName filestem="gbs333-v51349"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v54451" alias="l4-d13q2">
+          <fileName filestem="gbs333-v54451"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum haeretici ab haeresi condemnata nominati: sint in ecclesia catholica
+            tolerandi </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7109" type="liber4-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="gbs333-v55693" alias="l4-d14prae">
+          <fileName filestem="gbs333-v55693"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v55820" alias="l4-d14q1">
+          <fileName filestem="gbs333-v55820"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum sine paenitentia possit deseri peccatum post baptisma conmissum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v59807" alias="l4-d14q2">
+          <fileName filestem="gbs333-v59807"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum per poenitentiae sacramentum deleatur mortale peccatum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v63961" alias="l4-d14q3">
+          <fileName filestem="gbs333-v63961"/>
+          <title>Quaestio 3</title>
+          <questionTitle> utrum poenitens post uerum paenitentiam possit recidiuando in peccatum
+            cadere: et quoties ceciderit, per ueram paenitentia a peccatis resurgere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7170" type="liber4-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="gbs333-v67955" alias="l4-d15prae">
+          <fileName filestem="gbs333-v67955"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v68051" alias="l4-d15q1">
+          <fileName filestem="gbs333-v68051"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum existens in pluribus peccatis mortalibus: de aliquibus possit uere
+            poenitere, ita quod non simul de omnibus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v68500" alias="l4-d15q2">
+          <fileName filestem="gbs333-v68500"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum restitutio, qua alienum iniuste occupatum suo domino redditur: sit
+            aliquid poenitentiae; per quam peccatum remittitur </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v72683" alias="l4-d15q3">
+          <fileName filestem="gbs333-v72683"/>
+          <title>Quaestio 3</title>
+          <questionTitle> utrum omnes fures raptores, ac eorum participes teneantur ad restitutionem
+            rerum singularum a suis dumis alienatarum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v77058" alias="l4-d15q4">
+          <fileName filestem="gbs333-v77058"/>
+          <title>Quaestio 4</title>
+          <questionTitle> utrum inbello acquisita sint suis dominis restituenda </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v79531" alias="l4-d15q5">
+          <fileName filestem="gbs333-v79531"/>
+          <title>Quaestio 5</title>
+          <questionTitle> Utrum habentes temporale dominium in subditos, omnia teneantur restituere,
+            in quibus inueniuntur subditos tam suos, quam alienos aggrauasse </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v82572" alias="l4-d15q6">
+          <fileName filestem="gbs333-v82572"/>
+          <title>Quaestio 6</title>
+          <questionTitle> Utrum ministri iustitiae exacta a partibus propter actus iudiciales, uel
+            ad iudicium requisitos, teneantur restituere: et iustitiam: partibus gratis ministrare </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v86061" alias="l4-d15q7">
+          <fileName filestem="gbs333-v86061"/>
+          <title>Quaestio 7</title>
+          <questionTitle> Utrum praeficientes ad officia, dignitates, uel beneficia personas minus
+            idoneas teneantur recompensare damna, et negligentias per huiusmodi personas commistas </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v87728" alias="l4-d15q8">
+          <fileName filestem="gbs333-v87728"/>
+          <title>Quaestio 8</title>
+          <questionTitle> Utrum beneficiati, aut prae bendati in ecclesia intrantes sinistre: uel
+            negligentes onera eis imposita perficere: teneantur subleuata restituere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v91950" alias="l4-d15q9">
+          <fileName filestem="gbs333-v91950"/>
+          <title>Quaestio 9</title>
+          <questionTitle>Utrum falsarius acquirens aliquid per dolum falsitatis teneatur ad
+            restitutionem taliter acquisiti damnificatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v93950" alias="l4-d15q10">
+          <fileName filestem="gbs333-v93950"/>
+          <title>Quaestio 10</title>
+          <questionTitle> Utrum fraudans proximum in negotio, mercantiis, uel labore teneatur
+            fraudato damna restituere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v97648" alias="l4-d15q11">
+          <fileName filestem="gbs333-v97648"/>
+          <title>Quaestio 11</title>
+          <questionTitle> Utrum possidens aliqua per usurariam acquisitionem teneatur de necessitate
+            salutis ad eorum restitutionem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v104960" alias="l4-d15q12">
+          <fileName filestem="gbs333-v104960"/>
+          <title>Quaestio 12</title>
+          <questionTitle> Utrum habentes census, uel redditus annuos temporales, uel perpetuos
+            teneantur ad restitutionem huiusmodi uendentibus, seu donantibus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v109840" alias="l4-d15q13">
+          <fileName filestem="gbs333-v109840"/>
+          <title>Quaestio 13</title>
+          <questionTitle> Utrum acquisitum per turpe lucrum sit de necessitate salutis restituendum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v112367" alias="l4-d15q14">
+          <fileName filestem="gbs333-v112367"/>
+          <title>Quaestio 14</title>
+          <questionTitle> Utrum titulo praescriptionis acquisita sint restitutioni in foro
+            conscientiae ob noxia </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v113880" alias="l4-d15q15">
+          <fileName filestem="gbs333-v113880"/>
+          <title>Quaestio 15</title>
+          <questionTitle> Utrum damnificans proximum in bonis corporis: teneatus ad dam
+            nirestitutionem de necessitate salutis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v114921" alias="l4-d15q16">
+          <fileName filestem="gbs333-v114921"/>
+          <title>Quaestio 16</title>
+          <questionTitle> Utrum damnificans alium in fama, teneatur restituere damna hac occasione
+            illata </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v115908" alias="l4-d15q17">
+          <fileName filestem="gbs333-v115908"/>
+          <title>Quaestio 17</title>
+          <questionTitle> utrum damnificans proximum in spiritualibus bonis teneatur ad eorundem
+            restitutionem damnificatis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7430" type="liber4-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="gbs333-v116666" alias="l4-d16prae">
+          <fileName filestem="gbs333-v116666"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v116768" alias="l4-d16q1">
+          <fileName filestem="gbs333-v116768"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum partium paenitentie: quad sunt contritio cordis: confessio oris: et
+            opis satisfactio: principalior sit interna contritio </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v118416" alias="l4-d16q2">
+          <fileName filestem="gbs333-v118416"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum satisfactio paenalium operum requiratur ad perfectam remissionem
+            peccatorum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v121732" alias="l4-d16q3">
+          <fileName filestem="gbs333-v121732"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum ieiunium ecclesiae trasgredientes obliget ad mortale </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v128421" alias="l4-d16q4">
+          <fileName filestem="gbs333-v128421"/>
+          <title>Quaestio 4</title>
+          <questionTitle> utrum etet eleemosyna, quae est pars satis factionis: sit de consilio, aut
+            de necessitate salutis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v131990" alias="l4-d16q5">
+          <fileName filestem="gbs333-v131990"/>
+          <title>Quaestio 5</title>
+          <questionTitle> Utrum uenialium peccatorum paenitentia sit ad salutem necessaria </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7521" type="liber4-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="gbs333-v133787" alias="l4-d17prae">
+          <fileName filestem="gbs333-v133787"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v133875" alias="l4-d17q1">
+          <fileName filestem="gbs333-v133875"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum confiteri peccata sacerdoti sit necessarium ad salutem mortaliter
+            peccanti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v138101" alias="l4-d17q2">
+          <fileName filestem="gbs333-v138101"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum quilibet obnoxius peccato mortali teneatur confiteriproprio
+            sacerdoti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7568" type="liber4-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="gbs333-v140234" alias="l4-d18prae">
+          <fileName filestem="gbs333-v140234"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v140337" alias="l4-d18q1">
+          <fileName filestem="gbs333-v140337"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum potestas clauium data ecclesiae extendat se ad remissionem reatus,
+            et culpae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v142100" alias="l4-d18q2">
+          <fileName filestem="gbs333-v142100"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum virtute clauium ecclesiae, homo possit hominem exconmunicare </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v144796" alias="l4-d18q3">
+          <fileName filestem="gbs333-v144796"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum omnis participans ex communicato maiori excommunicatione in diuinis,
+            et humanis, sit excommunicatus, et peccet mortaliter in casibus non exceptis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7629" type="liber4-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="gbs333-v148468" alias="l4-d19prae">
+          <fileName filestem="gbs333-v148468"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v148558" alias="l4-d19q1">
+          <fileName filestem="gbs333-v148558"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum cuilibet, et solieuangelico sacerdoti conferantur claues in
+            susceptione. sacerdotii </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7662" type="liber4-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="gbs333-v150511" alias="l4-d20prae">
+          <fileName filestem="gbs333-v150511"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v150606" alias="l4-d20q1">
+          <fileName filestem="gbs333-v150606"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum poenitentia peccatori ad uitam necessaria, ptedatur usque ad
+            terminum uiae in hac praesenti uita etc </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v151395" alias="l4-d21prae">
+          <fileName filestem="gbs333-v151395"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v151492" alias="l4-d21q1">
+          <fileName filestem="gbs333-v151492"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum confessor teneatur celare peccatum sibi quocumque detectum in
+            confessione etc. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7723" type="liber4-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="gbs333-v153527" alias="l4-d22prae">
+          <fileName filestem="gbs333-v153527"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-v153619" alias="l4-d22q1">
+          <fileName filestem="gbs333-v153619"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum confessor teneatur celare peccatum sibi quocumque detectum in
+            confessione etc. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e7756" type="liber4-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="gbs333-v154604" alias="l4-d23prae">
+          <fileName filestem="gbs333-v154604"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-pa05b3"/>
+          </hasWitnesses>
+        </item>
+      </div>
+
     </div>
   </div>
 </listofFileNames>
