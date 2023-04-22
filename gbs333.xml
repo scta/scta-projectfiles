@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Gabriel Biel</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -44,7 +42,7 @@
         <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11231827/manifest-->
       </witness>
       <witness id="cod-gbzzz2">
-        <slug>cod-gbzzz1</slug>
+        <slug>cod-gbzzz2</slug>
         <title>Brescia 1574, vol. 2</title>
         <initial>cod-gbzzz2</initial>
         <!--<editor>Bozola</editor>-->
@@ -2376,6 +2374,990 @@
               <folio>368</folio>
               <folio>369</folio>
             </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="gbs333-d1e4057">
+      <head>Liber 2</head>
+      <div id="gbs333-d1e4061" alias="liber2-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="gbs333-b10001" alias="l2-d1prae">
+          <fileName filestem="gbs333-b10001"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10011" alias="l2-d1q1">
+          <fileName filestem="gbs333-b10011"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum creatio passio distinguitur a creatura. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10022" alias="l2-d1q2">
+          <fileName filestem="gbs333-b10022"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum deus sit prima, et immediata causa omnium effectuum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10033" alias="l2-d1q3">
+          <fileName filestem="gbs333-b10033"/>
+          <title>Quaestio 3</title>
+          <questionTitle> utrum deus et potuit mundum creasse ab aeterno </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10044" alias="l2-d1q4">
+          <fileName filestem="gbs333-b10044"/>
+          <title>Quaestio 4</title>
+          <questionTitle> VTRVM creare repugnet creaturae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10114" alias="l2-d1q5">
+          <fileName filestem="gbs333-b10114"/>
+          <title>Quaestio 5</title>
+          <questionTitle> Utrum deus sit causa finalis omnium </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10179" alias="l2-d1q6">
+          <fileName filestem="gbs333-b10179"/>
+          <title>Quaestio 6</title>
+          <questionTitle> Utrum angelus, et anima intellectiua distinguantur specie </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4165" alias="liber2-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="gbs333-b10698" alias="l2-d2qprae">
+          <fileName filestem="gbs333-b10698"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b10811" alias="l2-d2q1">
+          <fileName filestem="gbs333-b10811"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum tempus sit mensura et angelorum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b13083" alias="l2-d2q2">
+          <fileName filestem="gbs333-b13083"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum et angelus sit in loco per suam substantiam </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b14232" alias="l2-d2q3">
+          <fileName filestem="gbs333-b14232"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum angelus possit moueri localiter </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4226" alias="liber2-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="gbs333-b14752" alias="l2-d3prae">
+          <fileName filestem="gbs333-b14752"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b14828" alias="l2-d3q1">
+          <fileName filestem="gbs333-b14828"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omnes angeli inter et se personaliter discreti, essentiali specie
+            sint distincti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b15443" alias="l2-d3q2">
+          <fileName filestem="gbs333-b15443"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4273" alias="liber2-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="gbs333-b21207" alias="l2-d4prae">
+          <fileName filestem="gbs333-b21207"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b21312" alias="l2-d4q1">
+          <fileName filestem="gbs333-b21312"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum angeli boni, et mali in sua cratione fuerunt donis gloriae, gratiae,
+            et naturae perfecti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4307" alias="liber2-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="gbs333-b22960" alias="l2-d5prae">
+          <fileName filestem="gbs333-b22960"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b23072" alias="l2-d5q1">
+          <fileName filestem="gbs333-b23072"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum angelus meruit suam beatitudinem in instanti creationis, aut in mora
+            temporis, posterioris </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4340" alias="liber2-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="gbs333-b24246" alias="l2-d6prae">
+          <fileName filestem="gbs333-b24246"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b24329" alias="l2-d6q1">
+          <fileName filestem="gbs333-b24329"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum primum peccatum primi angeli pertinens ad speciem superbiae fuerit
+            simpliciter irremediabile </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4373" alias="liber2-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="gbs333-b26781" alias="l2-d7prae">
+          <fileName filestem="gbs333-b26781"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b26863" alias="l2-d7q1">
+          <fileName filestem="gbs333-b26863"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum obstinatio diaboli in malo, stare possit cum libero eius arbitrio </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4406" alias="liber2-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="gbs333-b28747" alias="l2-d8prae">
+          <fileName filestem="gbs333-b28747"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b28834" alias="l2-d8q1">
+          <fileName filestem="gbs333-b28834"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum angeli naturaliter incorporei possint assumere corpora, et in eis
+            exercere opera uitae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b30334" alias="l2-d8q2">
+          <fileName filestem="gbs333-b30334"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum demones humana corpora possidentes illabantur animabus, et suis
+            praestigiis illudant humanis sensibus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4453" alias="liber2-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="gbs333-b32471" alias="l2-d9prae">
+          <fileName filestem="gbs333-b32471"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b32553" alias="l2-d9q1">
+          <fileName filestem="gbs333-b32553"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum nouem angelorum ordines in hierarchia triplici scilicet dona
+            gratuita, et officia sunt distincti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b34603" alias="l2-d9q2">
+          <fileName filestem="gbs333-b34603"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum per actus hierarchicos superiorum ordinum; angeli possunt inferiores
+            illuminando mentaliter eis loqui </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4500" alias="liber2-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="gbs333-b37241" alias="l2-d10prae">
+          <fileName filestem="gbs333-b37241"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b37353" alias="l2-d10q1">
+          <fileName filestem="gbs333-b37353"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omnes spiritus intellectuales a solo deo mittantur ad homines
+            uiatores </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4534" alias="liber2-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="gbs333-b38010" alias="l2-d11prae">
+          <fileName filestem="gbs333-b38010"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b38079" alias="l2-d11q1">
+          <fileName filestem="gbs333-b38079"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum cuilibet homini deputatur angelus bonus a natiuitatis suae principio
+            usque ad praesentis uitae terminum, eius custodiae assignatus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4567" alias="liber2-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="gbs333-b39776" alias="l2-d12prae">
+          <fileName filestem="gbs333-b39776"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b39869" alias="l2-d12q1">
+          <fileName filestem="gbs333-b39869"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum materia prima sit aliqua entitas positiua a forma distincta </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b41289" alias="l2-d12q2">
+          <fileName filestem="gbs333-b41289"/>
+          <title>Quaestio 2</title>
+          <questionTitle> utrum caelum habeat materiam eiusdem rationis cum materia illorum
+            inferiorum elementorum, et mixtorum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4614" alias="liber2-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="gbs333-b42667" alias="l2-d13prae">
+          <fileName filestem="gbs333-b42667"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b42783" alias="l2-d13q1">
+          <fileName filestem="gbs333-b42783"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum lux a nocte prima distinguens diem causat lumen, tanquam distinctam
+            a se qualitatem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4647" alias="liber2-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="gbs333-b43814" alias="l2-d14prae">
+          <fileName filestem="gbs333-b43814"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b43893" alias="l2-d14q1">
+          <fileName filestem="gbs333-b43893"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum aquae superiores per firmamentum ab inferioribus diuisae dic secunda
+            sint de caelesti, uel elementari natura. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4680" alias="liber2-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="gbs333-b45987" alias="l2-d15prae">
+          <fileName filestem="gbs333-b45987"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b46074" alias="l2-d15q1">
+          <fileName filestem="gbs333-b46074"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum elementa, ex quibus constant animantium corpora, realiter manent in
+            eis substantialiter </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4713" alias="liber2-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="gbs333-b47497" alias="l2-d16prae">
+          <fileName filestem="gbs333-b47497"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b47610" alias="l2-d16q1">
+          <fileName filestem="gbs333-b47610"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum sicut anima in¬ tellectiua, sensitiua, et uegetatiua in eo dem
+            homine: ita eiusdem animae potentiae in ter se, et ab anima sint distinctae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4747" alias="liber2-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="gbs333-b51759" alias="l2-d17prae">
+          <fileName filestem="gbs333-b51759"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b51845" alias="l2-d17q1">
+          <fileName filestem="gbs333-b51845"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum anima rationalis sit ex tradue ce, et educta de potentia materiae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b53482" alias="l2-d17q2">
+          <fileName filestem="gbs333-b53482"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum paradisus sit corporalis uoluptatis locus a deo a principio
+            plantatus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4794" alias="liber2-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="gbs333-b54240" alias="l2-d18prae">
+          <fileName filestem="gbs333-b54240"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b54318" alias="l2-d18q1">
+          <fileName filestem="gbs333-b54318"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum in costa Ade fuerat ratio seminalis, peret quam de ea productum sit
+            corpus mulieris </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4827" alias="liber2-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="gbs333-b55462" alias="l2-d19prae">
+          <fileName filestem="gbs333-b55462"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b55557" alias="l2-d19q1">
+          <fileName filestem="gbs333-b55557"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum homo prostatu innocentiae habuit cor pus immortale </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4860" alias="liber2-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="gbs333-b56381" alias="l2-d20prae">
+          <fileName filestem="gbs333-b56381"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b56457" alias="l2-d20q1">
+          <fileName filestem="gbs333-b56457"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum tantummodo electi fuissent in statu innocentiae geniti: et hi sta
+            tim post generationem in gratia confirmati </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4893" alias="liber2-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="gbs333-b57565" alias="l2-d21prae">
+          <fileName filestem="gbs333-b57565"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b57696" alias="l2-d21q1">
+          <fileName filestem="gbs333-b57696"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omne peccatum hominis oriatur ex tentatione daemonis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4926" alias="liber2-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="gbs333-b58579" alias="l2-d22prae">
+          <fileName filestem="gbs333-b58579"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b58650" alias="l2-d22q1">
+          <fileName filestem="gbs333-b58650"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccatum per protoplastum Adam conmissum non tantum pctonEuae, sed
+            omnium sit grauissimum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b59826" alias="l2-d22q2">
+          <fileName filestem="gbs333-b59826"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum peccatum Adae fuit per ignorantiam excusabile </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e4974" alias="liber2-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="gbs333-b61327" alias="l2-d23prae">
+          <fileName filestem="gbs333-b61327"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b61410" alias="l2-d23q1">
+          <fileName filestem="gbs333-b61410"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum deus facere posset uoluntatem rationalis creaturae per naturam
+            impeccabilem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5007" alias="liber2-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="gbs333-b62368" alias="l2-d24prae">
+          <fileName filestem="gbs333-b62368"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b62474" alias="l2-d24q1">
+          <fileName filestem="gbs333-b62474"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum portio animae superior, et portio inferior sint potentiae aliquo
+            modo ad inuicem distinctae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5040" alias="liber2-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="gbs333-b63495" alias="l2-d25prae">
+          <fileName filestem="gbs333-b63495"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b63564" alias="l2-d25q1">
+          <fileName filestem="gbs333-b63564"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum liberum arbitrium sit aliquid a ratione, et uoluntate distinctum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5073" alias="liber2-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="gbs333-b65508" alias="l2-d26prae">
+          <fileName filestem="gbs333-b65508"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b65624" alias="l2-d26q1">
+          <fileName filestem="gbs333-b65624"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum operans. et cooperans gratia distinguantur realiter a charitate
+            infusa </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5106" alias="liber2-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="gbs333-b67068" alias="l2-d27prae">
+          <fileName filestem="gbs333-b67068"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b67144" alias="l2-d27q1">
+          <fileName filestem="gbs333-b67144"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum anima per actum elicitum a uoluntate, et gratia, qua informa tur:
+            praemium aeternum de condigno mereatur </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5139" alias="liber2-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="gbs333-b69652" alias="l2-d28prae">
+          <fileName filestem="gbs333-b69652"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b69751" alias="l2-d28q1">
+          <fileName filestem="gbs333-b69751"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum hominis liberum arbitrium possit sine gratia actum bonum moraliter
+            eligere: peccata mortalia cauere, et diuina praecepta ad implere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5173" alias="liber2-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="gbs333-b72185" alias="l2-d29prae">
+          <fileName filestem="gbs333-b72185"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b72267" alias="l2-d29q1">
+          <fileName filestem="gbs333-b72267"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum homo in statu naturae integrae gratiam habuit, qua aeque
+            efficaciter, sicut post lapsum mereri potuit </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5206" alias="liber2-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="gbs333-b73314" alias="l2-d30prae">
+          <fileName filestem="gbs333-b73314"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b73410" alias="l2-d30q1">
+          <fileName filestem="gbs333-b73410"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum iustitia originalis in primo parente fuit donum supernaturale </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b74256" alias="l2-d30q2">
+          <fileName filestem="gbs333-b74256"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum peccatum originale sit aliquid positiuum in anima, uel in carne </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5253" alias="liber2-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="gbs333-b76101" alias="l2-d31prae">
+          <fileName filestem="gbs333-b76101"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b76168" alias="l2-d31q1">
+          <fileName filestem="gbs333-b76168"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccatum originale in anima prolis lege propagationis genite,
+            contrahatur ab anima uel a carne </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5286" alias="liber2-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="gbs333-b76432" alias="l2-d32prae">
+          <fileName filestem="gbs333-b76432"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b76509" alias="l2-d32q1">
+          <fileName filestem="gbs333-b76509"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum per sacramentum baptismatis tollatur reatus culpae originalis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5319" alias="liber2-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="gbs333-b77032" alias="l2-d33prae">
+          <fileName filestem="gbs333-b77032"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b77101" alias="l2-d33q1">
+          <fileName filestem="gbs333-b77101"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum sicut et in prolem non transeunt proximorum parentum peccata: ita
+            transfusi peccati poena in prole sit leuissima </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5352" alias="liber2-distinctio34">
+        <head>Distinctio 2</head>
+        <item id="gbs333-b78562" alias="l2-d34prae">
+          <fileName filestem="gbs333-b78562"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b78655" alias="l2-d34q1">
+          <fileName filestem="gbs333-b78655"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum malum, quod non est ab aliquo efficiente: sit a bono sicut a causa
+            deficienti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5386" alias="liber2-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="gbs333-b79786" alias="l2-d35prae">
+          <fileName filestem="gbs333-b79786"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b79880" alias="l2-d35q1">
+          <fileName filestem="gbs333-b79880"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccatum ab S Augu. et Amb. diffinitum sufficienter sit entitas
+            positiua, uel tantum priuatio boni formaliter </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5419" alias="liber2-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="gbs333-b81454" alias="l2-d36prae">
+          <fileName filestem="gbs333-b81454"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b81524" alias="l2-d36q1">
+          <fileName filestem="gbs333-b81524"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omne peccatum, et omnis culpa sit alicuius peccati poena </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5452" alias="liber2-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="gbs333-b82869" alias="l2-d37prae">
+          <fileName filestem="gbs333-b82869"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b82950" alias="l2-d37q1">
+          <fileName filestem="gbs333-b82950"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum deus sit causa efficiens immediata actualis culpae quantum ad actum
+            importatum propctum subiectiue </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5485" alias="liber2-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="gbs333-b85096" alias="l2-d38prae">
+          <fileName filestem="gbs333-b85096"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b85178" alias="l2-d38q1">
+          <fileName filestem="gbs333-b85178"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum uoluntatis finis, et intentionis sit distinctio realis, aut tantum
+            rationis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5518" alias="liber2-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="gbs333-b85901" alias="l2-d39prae">
+          <fileName filestem="gbs333-b85901"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b86021" alias="l2-d39q1">
+          <fileName filestem="gbs333-b86021"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum synderesis, quae rationis scintilla dicitur, et conscientia, sint in
+            intellectu, aut effecti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5551" alias="liber2-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="gbs333-b87537" alias="l2-d40prae">
+          <fileName filestem="gbs333-b87537"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b87619" alias="l2-d40q1">
+          <fileName filestem="gbs333-b87619"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum ex sola intentione finis attendatur bonitas operis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5585" alias="liber2-distinctio41">
+        <head>Distinctio 41</head>
+        <item id="gbs333-b88239" alias="l2-d41prae">
+          <fileName filestem="gbs333-b88239"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b88316" alias="l2-d41q1">
+          <fileName filestem="gbs333-b88316"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum inter humanos actus, aliquis indifferens sit dicendus </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5618" alias="liber2-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="gbs333-b91200" alias="l2-d42prae">
+          <fileName filestem="gbs333-b91200"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b91320" alias="l2-d42q1">
+          <fileName filestem="gbs333-b91320"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum actus exterior, qui a uoluntate imperatur, habet bonitatem uel
+            malitiam propriam, propter quam magis, quam solus interior uoluntati imputatur </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5651" alias="liber2-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="gbs333-b92349" alias="l2-d43prae">
+          <fileName filestem="gbs333-b92349"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b92409" alias="l2-d43q1">
+          <fileName filestem="gbs333-b92409"/>
+          <title>Quaestio 1</title>
+          <questionTitle> utrum omne peccatum ex malitia commissum, sit peccatum in spiritum sanctum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="gbs333-d1e5684" alias="liber2-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="gbs333-b93368" alias="l2-d44prae">
+          <fileName filestem="gbs333-b93368"/>
+          <title>Praeambulum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
+          </hasWitnesses>
+        </item>
+        <item id="gbs333-b93434" alias="l2-d44q1">
+          <fileName filestem="gbs333-b93434"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccandi potentia sit a deo creatura rationali concessa </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-gbzzz2"/>
           </hasWitnesses>
         </item>
       </div>
