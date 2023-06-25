@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Godfrey of Fontaines</authorName>
     <commentaryName>Quodlibeta</commentaryName>
@@ -9,24 +10,26 @@
     <parentUri>http://scta.info/resource/v27ab7</parentUri>
     <parentWorkGroup>http://scta.info/resource/quodlibeta</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/v27ab7/</textfilesdir>
-    <questionListSource>
-      Les quatre premiers Quodlibets de Godefroid de Fontaines, ed. Maurice De Wulf, Auguste Pelzer, Louvain, 1904;
-    </questionListSource>
+    <questionListSource> Les quatre premiers Quodlibets de Godefroid de Fontaines, ed. Maurice De
+      Wulf, Auguste Pelzer, Louvain, 1904; </questionListSource>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <witness id="L">
-        <slug>Louvain1904</slug>
+      <witness id="cod-gf01lv">
+        <slug>cod-gf01lv</slug>
         <title>Louvain 1904</title>
-        <initial>L</initial>
-        <!-- tom2
+        <initial>cod-gf01lv</initial>
+        <!--https://archive.org/details/lesquatrepremier00godf/page/n7/mode/2up-->
+        <editor>http://scta.info/resource/per-mdwmdw</editor>
+      </witness>
+      <!--  Wulf, M. de (Maurice), 1867-1947; Pelzer, Auguste, 1876-1958, ed< -->
+      <!-- tom2
           archive.org id: lesquatrepremier00godf
           archive.org id: lesquatrepremier14godf
         
         Louvain 1932 tom5 archive.org id lesquodlibetsonz00godf
         -->
-      </witness>
       <witness id="A">
         <slug>bnf14311</slug>
         <title>Bnf 14311</title>
@@ -50,134 +53,185 @@
       <item id="v27ab7-d1e56" alias="v27ab7-q1q1">
         <fileName filestem="v27ab7-d1e56"/>
         <title>Quaestio 1</title>
-        <questionTitle>Utrum eadem sit actio qua Deus producit 
-          res in esse et qua conservat easdem in esse per eiusdem esse continuationem</questionTitle>
+        <questionTitle>Utrum eadem sit actio qua Deus producit res in esse et qua conservat easdem
+          in esse per eiusdem esse continuationem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e67" alias="v27ab7-q1q2">
         <fileName filestem="v27ab7-d1e67"/>
         <title>Quaestio 2</title>
-        <questionTitle>Utrum operatio qua Deus iustificat impium sit perfectior operatio Dei circa creaturas</questionTitle>
+        <questionTitle>Utrum operatio qua Deus iustificat impium sit perfectior operatio Dei circa
+          creaturas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e78" alias="v27ab7-q1q3">
         <fileName filestem="v27ab7-d1e78"/>
         <title>Quaestio 3</title>
-        <questionTitle>Utrum in Christo sint duae filiationes reales; 
-          una qua dicitur filius Patris ab aeterno et alia qua dicitur filius matris ex tempore
-        </questionTitle>
+        <questionTitle>Utrum in Christo sint duae filiationes reales; una qua dicitur filius Patris
+          ab aeterno et alia qua dicitur filius matris ex tempore </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e89" alias="v27ab7-q1q4">
         <fileName filestem="v27ab7-d1e89"/>
         <title>Quaestio 4</title>
-        <questionTitle>Utrum materia prima creata fuerit 
-          vel creari potuerit omnino informis sive carens omni forma
-        </questionTitle>
+        <questionTitle>Utrum materia prima creata fuerit vel creari potuerit omnino informis sive
+          carens omni forma </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e101" alias="v27ab7-q1q5">
         <fileName filestem="v27ab7-d1e101"/>
         <title>Quaestio 5</title>
-        <questionTitle>Utrum scientia theologica habeat pro obiecto Deum 
-          simpliciter et absolute vel sub aliqua ratione speciali
-        </questionTitle>
+        <questionTitle>Utrum scientia theologica habeat pro obiecto Deum simpliciter et absolute vel
+          sub aliqua ratione speciali </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e112" alias="v27ab7-q1q6">
         <fileName filestem="v27ab7-d1e112"/>
         <title>Quaestio 6</title>
         <questionTitle>Utrum lex habeat facere homines bonos et virtuosos</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e123" alias="v27ab7-q1q7">
         <fileName filestem="v27ab7-d1e123"/>
         <title>Quaestio 7</title>
-        <questionTitle>Utrum intellectus possibilis ad ipsum actum intelligendi 
-          sit aliquo modo activus, 
-          sive utrum ad ipsum se habeat aliquo modo in ratione 
-          causae efficientis et agentis vel solum in ratione recipientis et patientis
-        </questionTitle>
+        <questionTitle>Utrum intellectus possibilis ad ipsum actum intelligendi sit aliquo modo
+          activus, sive utrum ad ipsum se habeat aliquo modo in ratione causae efficientis et
+          agentis vel solum in ratione recipientis et patientis </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e134" alias="v27ab7-q1q8">
         <fileName filestem="v27ab7-d1e134"/>
         <title>Quaestio 8</title>
         <questionTitle>Utrum intellectus possit simul intelligere plura ut plura</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e145" alias="v27ab7-q1q9">
         <fileName filestem="v27ab7-d1e145"/>
         <title>Quaestio 9</title>
-        <questionTitle>Utrum intellectus possibilis necessario informetur 
-          aliqua specie intelligibili alia ab ipso actu intelligendi, 
-          quae sit necessaria ad hoc quod ipsa operatio intelligendi eliciatur
-        </questionTitle>
+        <questionTitle>Utrum intellectus possibilis necessario informetur aliqua specie
+          intelligibili alia ab ipso actu intelligendi, quae sit necessaria ad hoc quod ipsa
+          operatio intelligendi eliciatur </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e156" alias="v27ab7-q1q10">
         <fileName filestem="v27ab7-d1e156"/>
         <title>Quaestio 10</title>
         <questionTitle>Utrum unus amicorum debeat alteri amico velle maxima bona</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e168" alias="v27ab7-q1q11">
         <fileName filestem="v27ab7-d1e168"/>
         <title>Quaestio 11</title>
-        <questionTitle>Utrum testamentum hominis 
-          quo disposuit ut eius corpus sepeliretur in aliquo loco sacro, 
-          in quo etiam patres sui communiter sunt sepulti, 
-          possit ab aliquo immutari in hoc quod aliqua eius pars in alio loco sepeliatur
-        </questionTitle>
+        <questionTitle>Utrum testamentum hominis quo disposuit ut eius corpus sepeliretur in aliquo
+          loco sacro, in quo etiam patres sui communiter sunt sepulti, possit ab aliquo immutari in
+          hoc quod aliqua eius pars in alio loco sepeliatur </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e179" alias="v27ab7-q1q12">
         <fileName filestem="v27ab7-d1e179"/>
         <title>Quaestio 12</title>
-        <questionTitle>Quis illorum gravius peccat, 
-          vel qui omnino non vult baptizari, 
-          vel qui baptismum circa seipsum vult iterari</questionTitle>
+        <questionTitle>Quis illorum gravius peccat, vel qui omnino non vult baptizari, vel qui
+          baptismum circa seipsum vult iterari</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e190" alias="v27ab7-q1q13">
         <fileName filestem="v27ab7-d1e190"/>
         <title>Quaestio 13</title>
-        <questionTitle>Quis illorum gravius peccat 
-          qui simulat sanctitatem vite propter bonum utile 
-          vel ille qui simulat sanctitatem propter bonum honorabile
-        </questionTitle>
+        <questionTitle>Quis illorum gravius peccat qui simulat sanctitatem vite propter bonum utile
+          vel ille qui simulat sanctitatem propter bonum honorabile </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e201" alias="v27ab7-q1q14">
         <fileName filestem="v27ab7-d1e201"/>
         <title>Quaestio 14</title>
-        <questionTitle>Utrum liceat religiosis inducere novicios signo, 
-          nutu vel verbo ad hoc quod ante lapsum anni probationis profiteantur</questionTitle>
+        <questionTitle>Utrum liceat religiosis inducere novicios signo, nutu vel verbo ad hoc quod
+          ante lapsum anni probationis profiteantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e212" alias="v27ab7-q1q15">
         <fileName filestem="v27ab7-d1e212"/>
         <title>Quaestio 15</title>
-        <questionTitle>Utrum monasterium aliquod habens sub se aliquem prioratum 
-          fundatum de bonis alicuius defuncti hac intentione ut de illis ministrantes 
-          in illo prioratu sustententur et ut etiam hospitalitates et eleemosynae 
-          in illo loco possint fieri, 
-          convenienter possit tali prioratui de novo imponere aliquod onus</questionTitle>
+        <questionTitle> Utrum monasterium aliquod habens sub se aliquem prioratum fundatum de bonis
+          alicuius defuncti hac intentione ut de illis ministrantes in illo prioratu sustententur et
+          ut etiam hospitalitates et eleemosynae in illo loco possint fieri, convenienter possit
+          tali prioratui de novo imponere aliquod onus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e223" alias="v27ab7-q1q16">
         <fileName filestem="v27ab7-d1e223"/>
         <title>Quaestio 16</title>
-        <questionTitle>Utrum licite possint laici tenere decimas titulo fidei 
-          vel quocumque alio modo ius et proprietatem in illis habendo</questionTitle>
+        <questionTitle>Utrum licite possint laici tenere decimas titulo fidei vel quocumque alio
+          modo ius et proprietatem in illis habendo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e235" alias="v27ab7-q1q17">
         <fileName filestem="v27ab7-d1e235"/>
         <title>Quaestio 17</title>
-        <questionTitle>Utrum principes et potestates seculares ad mandatum Ecclesiae teneantur cercere et punire brachio seculari in excommunicatione permanentes per annum et claves Ecclesiae contemnentes</questionTitle>
+        <questionTitle>Utrum principes et potestates seculares ad mandatum Ecclesiae teneantur
+          cercere et punire brachio seculari in excommunicatione permanentes per annum et claves
+          Ecclesiae contemnentes</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e246" alias="v27ab7-q1q18">
         <fileName filestem="v27ab7-d1e246"/>
         <title>Quaestio 18</title>
-        <questionTitle>Utrum exceptionem super maiore excommunicatione a reo contra actorem propositam admittere teneatur iudex secularis</questionTitle>
+        <questionTitle>Utrum exceptionem super maiore excommunicatione a reo contra actorem
+          propositam admittere teneatur iudex secularis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e257" alias="v27ab7-q1q19">
         <fileName filestem="v27ab7-d1e257"/>
         <title>Quaestio 19</title>
-        <questionTitle>Utrum uxor sciens maritum suum consanguineam suam cognovisse, 
-          ratione cuius facti est affinis factus sue uxori, 
-          possit licite debitum exigere a suo marito
-        </questionTitle>
+        <questionTitle>Utrum uxor sciens maritum suum consanguineam suam cognovisse, ratione cuius
+          facti est affinis factus sue uxori, possit licite debitum exigere a suo marito </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e268" alias="v27ab7-q1q20">
         <fileName filestem="v27ab7-d1e268"/>
         <title>Quaestio 20</title>
-        <questionTitle>Utrum alicui accidenti conveniat per naturam habere esse sine subiecto</questionTitle>
+        <questionTitle>Utrum alicui accidenti conveniat per naturam habere esse sine
+          subiecto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="v27ab7-d1e328" alias="v27ab7-q2">
@@ -185,72 +239,127 @@
       <item id="v27ab7-d1e333" alias="v27ab7-q2q1">
         <fileName filestem="v27ab7-d1e333"/>
         <title>Quaestio 1</title>
-        <questionTitle>Utrum anima Christi in triduo fuerit aliquo modo impedita a plenitudine beatitudinis ratione suae separationis a corpore</questionTitle>
+        <questionTitle>Utrum anima Christi in triduo fuerit aliquo modo impedita a plenitudine
+          beatitudinis ratione suae separationis a corpore</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e344" alias="v27ab7-q2q2">
         <fileName filestem="v27ab7-d1e344"/>
         <title>Quaestio 2</title>
-        <questionTitle>Utrum essentia creature sit aliquid indifferens ad esse et non esse</questionTitle>
+        <questionTitle>Utrum essentia creature sit aliquid indifferens ad esse et non
+          esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e355" alias="v27ab7-q2q3">
         <fileName filestem="v27ab7-d1e355"/>
         <title>Quaestio 3</title>
-        <questionTitle>Utrum mundus sive aliqua creatura potuit esse vel existere ab aeterno</questionTitle>
+        <questionTitle>Utrum mundus sive aliqua creatura potuit esse vel existere ab
+          aeterno</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e366" alias="v27ab7-q2q4">
         <fileName filestem="v27ab7-d1e366"/>
         <title>Quaestio 4</title>
-        <questionTitle>Utrum aliqua substantia creata possit esse immediatum principium alicuius operationis</questionTitle>
+        <questionTitle>Utrum aliqua substantia creata possit esse immediatum principium alicuius
+          operationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e378" alias="v27ab7-q2q5">
         <fileName filestem="v27ab7-d1e378"/>
         <title>Quaestio 5</title>
-        <questionTitle>Utrum angeli superiores intelligant per universaliores species et pauciores quam inferiores</questionTitle>
+        <questionTitle>Utrum angeli superiores intelligant per universaliores species et pauciores
+          quam inferiores</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e389" alias="v27ab7-q2q6">
         <fileName filestem="v27ab7-d1e389"/>
         <title>Quaestio 6</title>
-        <questionTitle>Utrum in materia prima virtute supernaturalis agentis possit fieri forma et species ad quam non est in potentia naturali</questionTitle>
+        <questionTitle>Utrum in materia prima virtute supernaturalis agentis possit fieri forma et
+          species ad quam non est in potentia naturali</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e400" alias="v27ab7-q2q7">
         <fileName filestem="v27ab7-d1e400"/>
         <title>Quaestio 7</title>
-        <questionTitle>Utrum homo habeat esse ab una forma substantiali vel a pluribus</questionTitle>
+        <questionTitle>Utrum homo habeat esse ab una forma substantiali vel a
+          pluribus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e411" alias="v27ab7-q2q8">
         <fileName filestem="v27ab7-d1e411"/>
         <title>Quaestio 8</title>
-        <questionTitle>Utrum animam respectu necessariorum et respectu contingentium aliter se habere sit ponere plures potentias intellectivas realiter differentes</questionTitle>
+        <questionTitle>Utrum animam respectu necessariorum et respectu contingentium aliter se
+          habere sit ponere plures potentias intellectivas realiter differentes</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e422" alias="v27ab7-q2q9">
         <fileName filestem="v27ab7-d1e422"/>
         <title>Quaestio 9</title>
         <questionTitle>Utrum voluntas vel intellectus sit excellentior potentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e433" alias="v27ab7-q2q10">
         <fileName filestem="v27ab7-d1e433"/>
         <title>Quaestio 10</title>
-        <questionTitle>Utrum caritas sive quicumque habitus possit augeri per essentiam</questionTitle>
+        <questionTitle>Utrum caritas sive quicumque habitus possit augeri per
+          essentiam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e445" alias="v27ab7-q2q11">
         <fileName filestem="v27ab7-d1e445"/>
         <title>Quaestio 11</title>
-        <questionTitle>Utrum possit haberi una virtus moralis perfecte absque hoc quod perfecte prudentia habeatur</questionTitle>
+        <questionTitle>Utrum possit haberi una virtus moralis perfecte absque hoc quod perfecte
+          prudentia habeatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e456" alias="v27ab7-q2q12">
         <fileName filestem="v27ab7-d1e456"/>
         <title>Quaestio 12</title>
         <questionTitle>Utrum avaritia sit vitium deterius quam prodigalitas</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e467" alias="v27ab7-q2q13">
         <fileName filestem="v27ab7-d1e467"/>
         <title>Quaestio 13</title>
-        <questionTitle>Utrum liceat religiosos inducere divites ad eligendum sepulturam in cemeteriis vel in claustris eorum</questionTitle>
+        <questionTitle>Utrum liceat religiosos inducere divites ad eligendum sepulturam in
+          cemeteriis vel in claustris eorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e478" alias="v27ab7-q2q14">
         <fileName filestem="v27ab7-d1e478"/>
         <title>Quaestio 14</title>
-        <questionTitle>Utrum sacerdos curatus possit dare licentiam ut parochianus defunctus, qui extra parochiam suam non elegit sepulturam, in loco religioso extra suam parochiam sepeliatur</questionTitle>
+        <questionTitle>Utrum sacerdos curatus possit dare licentiam ut parochianus defunctus, qui
+          extra parochiam suam non elegit sepulturam, in loco religioso extra suam parochiam
+          sepeliatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="v27ab7-d1e491" alias="v27ab7-q3">
@@ -258,82 +367,144 @@
       <item id="v27ab7-d1e496" alias="v27ab7-q3q1">
         <fileName filestem="v27ab7-d1e496"/>
         <title>Quaestio 1</title>
-        <questionTitle>Utrum creatura possit dici ens ratione sue essentiae, cum ipsa est non ens quantum ad esse existentiae</questionTitle>
+        <questionTitle>Utrum creatura possit dici ens ratione sue essentiae, cum ipsa est non ens
+          quantum ad esse existentiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e507" alias="v27ab7-q3q2">
         <fileName filestem="v27ab7-d1e507"/>
         <title>Quaestio 2</title>
         <questionTitle>Utrum prius creetur essentia quam esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e518" alias="v27ab7-q3q3">
         <fileName filestem="v27ab7-d1e518"/>
         <title>Quaestio 3</title>
-        <questionTitle>Utrum natura angelica sit composita ex vera materia et vera forma</questionTitle>
+        <questionTitle>Utrum natura angelica sit composita ex vera materia et vera
+          forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e529" alias="v27ab7-q3q4">
         <fileName filestem="v27ab7-d1e529"/>
         <title>Quaestio 4</title>
-        <questionTitle>Utrum anima separata existat eodem esse quo existit totus homo</questionTitle>
+        <questionTitle>Utrum anima separata existat eodem esse quo existit totus
+          homo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e541" alias="v27ab7-q3q5">
         <fileName filestem="v27ab7-d1e541"/>
         <title>Quaestio 5</title>
-        <questionTitle>Utrum dicere quod corpus Christi mortuum et alterius hominis mortuum fuerit corpus aequivoce sit erroneum</questionTitle>
+        <questionTitle>Utrum dicere quod corpus Christi mortuum et alterius hominis mortuum fuerit
+          corpus aequivoce sit erroneum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e552" alias="v27ab7-q3q6">
         <fileName filestem="v27ab7-d1e552"/>
         <title>Quaestio 6</title>
-        <questionTitle>Utrum dicere quod corpus Christi non potuit comburi sit inconveniens secundum fidem</questionTitle>
+        <questionTitle>Utrum dicere quod corpus Christi non potuit comburi sit inconveniens secundum
+          fidem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e563" alias="v27ab7-q3q7">
         <fileName filestem="v27ab7-d1e563"/>
         <title>Quaestio 7</title>
-        <questionTitle>Utrum confessus ab aliquo habente potestatem audiendi confessiones et absolvendi confitentes virtute privilegii Martini IV teneatur eadem peccata proprio sacerdoti iterum confiteri</questionTitle>
+        <questionTitle>Utrum confessus ab aliquo habente potestatem audiendi confessiones et
+          absolvendi confitentes virtute privilegii Martini IV teneatur eadem peccata proprio
+          sacerdoti iterum confiteri</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e574" alias="v27ab7-q3q8">
         <fileName filestem="v27ab7-d1e574"/>
         <title>Quaestio 8</title>
-        <questionTitle>Utrum habens talem potestatem possit absolvere in casibus episcopi de iure et consuetudine et retentione reservatis</questionTitle>
+        <questionTitle>Utrum habens talem potestatem possit absolvere in casibus episcopi de iure et
+          consuetudine et retentione reservatis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e585" alias="v27ab7-q3q9">
         <fileName filestem="v27ab7-d1e585"/>
         <title>Quaestio 9</title>
-        <questionTitle>Utrum aliquis specialis vel particularis praelatus sive episcopus possit aliquam positionem habitam prius pro opinione tanquam haereticam vel erroneam condemnare</questionTitle>
+        <questionTitle>Utrum aliquis specialis vel particularis praelatus sive episcopus possit
+          aliquam positionem habitam prius pro opinione tanquam haereticam vel erroneam
+          condemnare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e596" alias="v27ab7-q3q10">
         <fileName filestem="v27ab7-d1e596"/>
         <title>Quaestio 10</title>
-        <questionTitle>Utrum doctor in theologia possit determinare ea quae ad solum papam pertinent</questionTitle>
+        <questionTitle>Utrum doctor in theologia possit determinare ea quae ad solum papam
+          pertinent</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e608" alias="v27ab7-q3q11">
         <fileName filestem="v27ab7-d1e608"/>
         <title>Quaestio 11</title>
-        <questionTitle>Utrum liceat decimas vendere carius ratione solutionis differendae</questionTitle>
+        <questionTitle>Utrum liceat decimas vendere carius ratione solutionis
+          differendae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e619" alias="v27ab7-q3q12">
         <fileName filestem="v27ab7-d1e619"/>
         <title>Quaestio 12</title>
-        <questionTitle>Utrum uxor possit dare eleemosynam invito et contradicente marito</questionTitle>
+        <questionTitle>Utrum uxor possit dare eleemosynam invito et contradicente
+          marito</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e630" alias="v27ab7-q3q13">
         <fileName filestem="v27ab7-d1e630"/>
         <title>Quaestio 13</title>
         <questionTitle>Utrum omnes habitus morales sint in voluntate ut in subiecto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e641" alias="v27ab7-q3q14">
         <fileName filestem="v27ab7-d1e641"/>
         <title>Quaestio 14</title>
         <questionTitle>Utrum peccatum originale sit maius quam actuale</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e652" alias="v27ab7-q3q15">
         <fileName filestem="v27ab7-d1e652"/>
         <title>Quaestio 15</title>
         <questionTitle>Utrum voluntas sit magis libera potentia quam intellectus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e663" alias="v27ab7-q3q16">
         <fileName filestem="v27ab7-d1e663"/>
         <title>Quaestio 16</title>
-        <questionTitle>Utrum voluntas facta in actu respectu finis possit seipsam, absque adiutorio intellectus, facere in actum respectu eorum quae sunt ad finem</questionTitle>
+        <questionTitle>Utrum voluntas facta in actu respectu finis possit seipsam, absque adiutorio
+          intellectus, facere in actum respectu eorum quae sunt ad finem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
     </div>
     <div id="v27ab7-d1e675" alias="v27ab7-q4">
@@ -341,114 +512,472 @@
       <item id="v27ab7-d1e680" alias="v27ab7-q4q1">
         <fileName filestem="v27ab7-d1e680"/>
         <title>Quaestio 1</title>
-        <questionTitle>Utrum in Deo sit idea propria et distincta respectu cuiuslibet singularis</questionTitle>
+        <questionTitle>Utrum in Deo sit idea propria et distincta respectu cuiuslibet
+          singularis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e691" alias="v27ab7-q4q2">
         <fileName filestem="v27ab7-d1e691"/>
         <title>Quaestio 2</title>
-        <questionTitle>Utrum ponere res praedicamentales esse aeternas secundum esse quidditativum sit ponere mundum esse aeternum</questionTitle>
+        <questionTitle>Utrum ponere res praedicamentales esse aeternas secundum esse quidditativum
+          sit ponere mundum esse aeternum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e702" alias="v27ab7-q4q3">
         <fileName filestem="v27ab7-d1e702"/>
         <title>Quaestio 3</title>
-        <questionTitle>Utrum in perfectionibus essentialibus rerum sive ordinem essentialem habentibus sit processus in infinitum</questionTitle>
+        <questionTitle>Utrum in perfectionibus essentialibus rerum sive ordinem essentialem
+          habentibus sit processus in infinitum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e713" alias="v27ab7-q4q4">
         <fileName filestem="v27ab7-d1e713"/>
         <title>Quaestio 4</title>
-        <questionTitle>Utrum, supposito quod Deus posset facere angelum angelo perfectiorem in infinitum, oporteret quemlibet pertinere ad aliquam determinatam hierarchiam nunc existentium</questionTitle>
+        <questionTitle>Utrum, supposito quod Deus posset facere angelum angelo perfectiorem in
+          infinitum, oporteret quemlibet pertinere ad aliquam determinatam hierarchiam nunc
+          existentium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e725" alias="v27ab7-q4q5">
         <fileName filestem="v27ab7-d1e725"/>
         <title>Quaestio 5</title>
         <questionTitle>Utrum aliquod corpus possit simul esse in diversis locis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e736" alias="v27ab7-q4q6">
         <fileName filestem="v27ab7-d1e736"/>
         <title>Quaestio 6</title>
-        <questionTitle>Utrum posset extra mundum istum fieri altera terra eiusdem speciei cum terra huius mundi</questionTitle>
+        <questionTitle>Utrum posset extra mundum istum fieri altera terra eiusdem speciei cum terra
+          huius mundi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e747" alias="v27ab7-q4q7">
         <fileName filestem="v27ab7-d1e747"/>
         <title>Quaestio 7</title>
-        <questionTitle>Utrum panis confectus de blado quod dicitur spelta sit materia conveniens sacramento eucharistiae</questionTitle>
+        <questionTitle>Utrum panis confectus de blado quod dicitur spelta sit materia conveniens
+          sacramento eucharistiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e758" alias="v27ab7-q4q8">
         <fileName filestem="v27ab7-d1e758"/>
         <title>Quaestio 8</title>
-        <questionTitle>Utrum voluntas humana contineat duas potentias sicut intellectus humanus</questionTitle>
+        <questionTitle>Utrum voluntas humana contineat duas potentias sicut intellectus
+          humanus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e769" alias="v27ab7-q4q9">
         <fileName filestem="v27ab7-d1e769"/>
         <title>Quaestio 9</title>
-        <questionTitle>Utrum in prima productione rerum mulier debuit produci in esse a Deo</questionTitle>
+        <questionTitle>Utrum in prima productione rerum mulier debuit produci in esse a
+          Deo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e780" alias="v27ab7-q4q10">
         <fileName filestem="v27ab7-d1e780"/>
         <title>Quaestio 10</title>
-        <questionTitle>Utrum possit haberi certa scientia de conclusione elicita ex principiis solum creditis vel opinatis</questionTitle>
+        <questionTitle>Utrum possit haberi certa scientia de conclusione elicita ex principiis solum
+          creditis vel opinatis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e792" alias="v27ab7-q4q11">
         <fileName filestem="v27ab7-d1e792"/>
         <title>Quaestio 11</title>
-        <questionTitle>Utrum illud quod per se est malum possit aliquo modo fieri bonum</questionTitle>
+        <questionTitle>Utrum illud quod per se est malum possit aliquo modo fieri
+          bonum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e803" alias="v27ab7-q4q12">
         <fileName filestem="v27ab7-d1e803"/>
         <title>Quaestio 12</title>
-        <questionTitle>Utrum statuto generalis concilii possit per consuetudinem contrariam derogari</questionTitle>
+        <questionTitle>Utrum statuto generalis concilii possit per consuetudinem contrariam
+          derogari</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e814" alias="v27ab7-q4q13">
         <fileName filestem="v27ab7-d1e814"/>
         <title>Quaestio 13</title>
-        <questionTitle>Utrum magister theologiae questionem cuius veritatem scire est necessarium ad salutem, debeat reputare esse litigiosam et ob hoc eam repellere et nolle determinare</questionTitle>
+        <questionTitle>Utrum magister theologiae questionem cuius veritatem scire est necessarium ad
+          salutem, debeat reputare esse litigiosam et ob hoc eam repellere et nolle
+          determinare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e825" alias="v27ab7-q4q14">
         <fileName filestem="v27ab7-d1e825"/>
         <title>Quaestio 14</title>
-        <questionTitle>Utrum illi qui examinati et electi a certis personis 
-          habeant potestatem praedicandi ex privilegio vel delegatione, 
-          debeant recipi ad praedicandum in locis praelatorum ordinariorum</questionTitle>
+        <questionTitle>Utrum illi qui examinati et electi a certis personis habeant potestatem
+          praedicandi ex privilegio vel delegatione, debeant recipi ad praedicandum in locis
+          praelatorum ordinariorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e836" alias="v27ab7-q4q15">
         <fileName filestem="v27ab7-d1e836"/>
         <title>Quaestio 15</title>
-        <questionTitle>Utrum habentes potestatem a papa audiendi confessiones et absolvendi, possint absolvere poenitentes venientes ad ipsos de licentia sacerdotum parochialium in casibus qui episcopis de iure vel consuetudine vel retentione reservantur</questionTitle>
+        <questionTitle>Utrum habentes potestatem a papa audiendi confessiones et absolvendi, possint
+          absolvere poenitentes venientes ad ipsos de licentia sacerdotum parochialium in casibus
+          qui episcopis de iure vel consuetudine vel retentione reservantur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e847" alias="v27ab7-q4q16">
         <fileName filestem="v27ab7-d1e847"/>
         <title>Quaestio 16</title>
-        <questionTitle>Utrum habere aliquid in communi diminuat de perfectione religionis</questionTitle>
+        <questionTitle>Utrum habere aliquid in communi diminuat de perfectione
+          religionis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e859" alias="v27ab7-q4q17">
         <fileName filestem="v27ab7-d1e859"/>
         <title>Quaestio 17</title>
-        <questionTitle>Utrum qui vovit simpliciter se intraturum aliquam religionem si intret cum proposito exeundi satisfaciat et a voto absolvatur</questionTitle>
+        <questionTitle>Utrum qui vovit simpliciter se intraturum aliquam religionem si intret cum
+          proposito exeundi satisfaciat et a voto absolvatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e870" alias="v27ab7-q4q18">
         <fileName filestem="v27ab7-d1e870"/>
         <title>Quaestio 18</title>
-        <questionTitle>Utrum qui vovit solemniter continere possit per dispensationem matrimonium contrahere</questionTitle>
+        <questionTitle>Utrum qui vovit solemniter continere possit per dispensationem matrimonium
+          contrahere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e881" alias="v27ab7-q4q19">
         <fileName filestem="v27ab7-d1e881"/>
         <title>Quaestio 19</title>
-        <questionTitle>Utrum religiosus qui vovit obedire praelato teneatur contra praeceptum praelati exire ad subveniendum necessitati parentum</questionTitle>
+        <questionTitle>Utrum religiosus qui vovit obedire praelato teneatur contra praeceptum
+          praelati exire ad subveniendum necessitati parentum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e892" alias="v27ab7-q4q20">
         <fileName filestem="v27ab7-d1e892"/>
         <title>Quaestio 20</title>
-        <questionTitle>Utrum subditus qui scit aliquod secretum vel quodcumque occultum peccatum praelato praecipienti ut revelet teneatur revelare</questionTitle>
+        <questionTitle>Utrum subditus qui scit aliquod secretum vel quodcumque occultum peccatum
+          praelato praecipienti ut revelet teneatur revelare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e903" alias="v27ab7-q4q21">
         <fileName filestem="v27ab7-d1e903"/>
         <title>Quaestio 21</title>
-        <questionTitle>Utrum in pecunia usuraria sic transeat dominium in usurarium quod habens centum libras legitime et alias centum libras per usuram, absque periurio possit iurare se non habere nisi centum libras</questionTitle>
+        <questionTitle>Utrum in pecunia usuraria sic transeat dominium in usurarium quod habens
+          centum libras legitime et alias centum libras per usuram, absque periurio possit iurare se
+          non habere nisi centum libras</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
       <item id="v27ab7-d1e914" alias="v27ab7-q4q22">
         <fileName filestem="v27ab7-d1e914"/>
         <title>Quaestio 22</title>
-        <questionTitle>Utrum aliqua qualitas possit habere esse absque omni subiecto sive sine quantitate</questionTitle>
+        <questionTitle>Utrum aliqua qualitas possit habere esse absque omni subiecto sive sine
+          quantitate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="v27ab7-d1f899" alias="v27ab7-q3short">
+      <head>Quodlibet 3 (Brevis)</head>
+      <item id="v27ab7-d1f001" alias="v27ab7-q3short-q1">
+        <fileName filestem="v27ab7-d1f001"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum creatura habeat esse reale extra Deum quantum ad esse essentiae,
+          antequam habeat esse existentiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f002" alias="v27ab7-q3short-q2">
+        <fileName filestem="v27ab7-d1f002"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum prius creetur essentia quam esse</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f003" alias="v27ab7-q3short-q3">
+        <fileName filestem="v27ab7-d1f003"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum natura angelica sit composita ex materia et forma</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f004" alias="v27ab7-q3short-q4">
+        <fileName filestem="v27ab7-d1f004"/>
+        <title>Quaestio 4</title>
+        <questionTitle>Utrum anima separata retineat totum esse quo existit totus
+          homo</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f005" alias="v27ab7-q3short-q5">
+        <fileName filestem="v27ab7-d1f005"/>
+        <title>Quaestio 5</title>
+        <questionTitle>Utrum corpus Christi mortuum et corpus alterius hominis mortuum statim post
+          mortem sint corpora mortua univoce</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f006" alias="v27ab7-q3short-q6">
+        <fileName filestem="v27ab7-d1f006"/>
+        <title>Quaestio 6</title>
+        <questionTitle>Utrum ponere quod corpus Christi non potuit comburi sit inconveniens secundum
+          fidem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f009" alias="v27ab7-q3short-q9">
+        <fileName filestem="v27ab7-d1f009"/>
+        <title>Quaestio 9</title>
+        <questionTitle>Utrum liceat vendere carius decimas propter dilationem
+          solutionis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f012" alias="v27ab7-q3short-q12">
+        <fileName filestem="v27ab7-d1f012"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum uxor possit facere eleemosynam invito vel contradicente
+          marito</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="v27ab7-d1f977" alias="v27ab7-q4short">
+      <head>Quodlibet 4 (Brevis)</head>
+      <item id="v27ab7-d1f010" alias="v27ab7-q4short-q1">
+        <fileName filestem="v27ab7-d1f010"/>
+        <title>Quaestio 1</title>
+        <questionTitle>Utrum in Deo sit propria idea et discreta respectu singularis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f020" alias="v27ab7-q4short-q2">
+        <fileName filestem="v27ab7-d1f020"/>
+        <title>Quaestio 2</title>
+        <questionTitle>Utrum ponere creaturam ab aeterno esse quantum ad esse quidditativum secundum
+          quod est in praedicamento, sit ponere mundum fuisse ab aeterno</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f030" alias="v27ab7-q4short-q3">
+        <fileName filestem="v27ab7-d1f030"/>
+        <title>Quaestio 3</title>
+        <questionTitle>Utrum in gradibus essentialibus creaturarum habentibus essentialem ordinem
+          sit possibilis processus in infinitum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f040" alias="v27ab7-q4short-q4">
+        <fileName filestem="v27ab7-d1f040"/>
+        <title>Quaestio 4</title>
+        <questionTitle> Utrum, si Deus posset facere angelum perfectiorem quolibet dato in
+          infinitum, oporteret quemlibet eorum pertinere ad aliquam hierarchiam nunc existentium </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f050" alias="v27ab7-q4short-q5">
+        <fileName filestem="v27ab7-d1f050"/>
+        <title>Quaestio 5</title>
+        <questionTitle> Utrum idem corpus possit virtute divina esse localiter in pluribus locis per
+          se et sine conversione alterius in ipsum </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f060" alias="v27ab7-q4short-q6">
+        <fileName filestem="v27ab7-d1f060"/>
+        <title>Quaestio 6</title>
+        <questionTitle> Utrum extra istum mundum posset Deus facere aliam terram eiusdem speciei cum
+          terra huius mundi </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f070" alias="v27ab7-q4short-q7">
+        <fileName filestem="v27ab7-d1f070"/>
+        <title>Quaestio 7</title>
+        <questionTitle> Utrum corpus Christi possit confici de spelta </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f080" alias="v27ab7-q4short-q8">
+        <fileName filestem="v27ab7-d1f080"/>
+        <title>Quaestio 8</title>
+        <questionTitle> Utrum voluntas includat duas potentias, unam passivam et aliam activam sicut
+          et intellectus </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f090" alias="v27ab7-q4short-q9">
+        <fileName filestem="v27ab7-d1f090"/>
+        <title>Quaestio 9</title>
+        <questionTitle> Utrum in prima rerum productione debuit mulier fieri </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f100" alias="v27ab7-q4short-q10">
+        <fileName filestem="v27ab7-d1f100"/>
+        <title>Quaestio 10</title>
+        <questionTitle>Utrum ex principiis tantum creditis vel opinatis possit haberi certa
+          scientia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f110" alias="v27ab7-q4short-q11">
+        <fileName filestem="v27ab7-d1f110"/>
+        <title>Quaestio 11</title>
+        <questionTitle>Utrum illud quod secundum se est malum et illicitum possit aliquo modo esse
+          bonum et licitum </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f120" alias="v27ab7-q4short-q12">
+        <fileName filestem="v27ab7-d1f120"/>
+        <title>Quaestio 12</title>
+        <questionTitle>Utrum per contrariam consuetudinem possit derogari statuto generalis
+          synodi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f130" alias="v27ab7-q4short-q13">
+        <fileName filestem="v27ab7-d1f130"/>
+        <title>Quaestio 13</title>
+        <questionTitle>Utrum magister in theologia quaestionem cuius cognitio est necessaria ad
+          salutem debeat reputare litigiosam et inducentem scandalum et ob hoc non recipiat
+          eam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f140" alias="v27ab7-q4short-q14">
+        <fileName filestem="v27ab7-d1f140"/>
+        <title>Quaestio 14</title>
+        <questionTitle> Utrum examinati et approbati a certis personis habentes ex privilegio
+          potestatem praedicandi post talem approbationem debeant ab ordinariis recipi ad
+          praedicandum nisi doceant se sic examuinatos </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f150" alias="v27ab7-q4short-q15">
+        <fileName filestem="v27ab7-d1f150"/>
+        <title>Quaestio 15</title>
+        <questionTitle> Utrum illi quibus commissa est a domino papa potestas audiendi confessiones
+          possint absolvere a casibus retentis episcopis a iure vel consuetudine habita licentia a
+          sacerdotibus parochialibus </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <!-- no 16 -->
+      <item id="v27ab7-d1f170" alias="v27ab7-q4short-q17">
+        <fileName filestem="v27ab7-d1f170"/>
+        <title>Quaestio 17</title>
+        <questionTitle>Utrum vovens absolute ingressum religionis et intrans cum proposito exeundi
+          satisfaciat sic quod sit liberatus a voto</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f180" alias="v27ab7-q4short-q18">
+        <fileName filestem="v27ab7-d1f180"/>
+        <title>Quaestio 18</title>
+        <questionTitle>Utrum in solemni voto continentiae possit sic dispensari quod obligatus tali
+          voto possit per dispensationem contrahere matrimonium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f190" alias="v27ab7-q4short-q19">
+        <fileName filestem="v27ab7-d1f190"/>
+        <title>Quaestio 19</title>
+        <questionTitle>Utrum in solemni voto continentiae possit sic dispensari quod obligatus tali
+          voto possit per dispensationem contrahere matrimonium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f200" alias="v27ab7-q4short-q20">
+        <fileName filestem="v27ab7-d1f200"/>
+        <title>Quaestio 20</title>
+        <questionTitle>Utrum religiosus teneatur revelare secretum commissum fidei suae vel peccatum
+          occultum proximi praelato talem revelationem praecifrienti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f210" alias="v27ab7-q4short-q21">
+        <fileName filestem="v27ab7-d1f210"/>
+        <title>Quaestio 21</title>
+        <questionTitle> Utrum habens centum libras legitime et centum libras de usura. posset sine.
+          periurio iurare se non habere nisi centum libras. propter hoc. quod. pecunia. usuraría non
+          transit in dominium eius </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
+      </item>
+      <item id="v27ab7-d1f220" alias="v27ab7-q4short-q22">
+        <fileName filestem="v27ab7-d1f220"/>
+        <title>Quaestio 22</title>
+        <questionTitle> Utrum habens centum libras legitime et centum libras de usura. posset sine.
+          periurio iurare se non habere nisi centum libras. propter hoc. quod. pecunia. usuraría non
+          transit in dominium eius </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-gf01lv"/>
+        </hasWitnesses>
       </item>
     </div>
   </div>
