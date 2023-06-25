@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Godfrey of Fontaines</authorName>
@@ -56,7 +57,10 @@
         <questionTitle>Utrum eadem sit actio qua Deus producit res in esse et qua conservat easdem
           in esse per eiusdem esse continuationem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>1</folio>
+            <folio>2</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e67" alias="v27ab7-q1q2">
@@ -65,7 +69,11 @@
         <questionTitle>Utrum operatio qua Deus iustificat impium sit perfectior operatio Dei circa
           creaturas</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>3</folio>
+            <folio>4</folio>
+            <folio>5</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e78" alias="v27ab7-q1q3">
@@ -74,7 +82,9 @@
         <questionTitle>Utrum in Christo sint duae filiationes reales; una qua dicitur filius Patris
           ab aeterno et alia qua dicitur filius matris ex tempore </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>6</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e89" alias="v27ab7-q1q4">
@@ -83,7 +93,11 @@
         <questionTitle>Utrum materia prima creata fuerit vel creari potuerit omnino informis sive
           carens omni forma </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>7</folio>
+            <folio>8</folio>
+            <folio>9</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e101" alias="v27ab7-q1q5">
@@ -92,7 +106,17 @@
         <questionTitle>Utrum scientia theologica habeat pro obiecto Deum simpliciter et absolute vel
           sub aliqua ratione speciali </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>9</folio>
+            <folio>10</folio>
+            <folio>11</folio>
+            <folio>12</folio>
+            <folio>13</folio>
+            <folio>14</folio>
+            <folio>15</folio>
+            <folio>16</folio>
+            <folio>17</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e112" alias="v27ab7-q1q6">
@@ -100,7 +124,10 @@
         <title>Quaestio 6</title>
         <questionTitle>Utrum lex habeat facere homines bonos et virtuosos</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>17</folio>
+            <folio>18</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e123" alias="v27ab7-q1q7">
@@ -110,7 +137,12 @@
           activus, sive utrum ad ipsum se habeat aliquo modo in ratione causae efficientis et
           agentis vel solum in ratione recipientis et patientis </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>18</folio>
+            <folio>19</folio>
+            <folio>20</folio>
+            <folio>21</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e134" alias="v27ab7-q1q8">
@@ -118,7 +150,9 @@
         <title>Quaestio 8</title>
         <questionTitle>Utrum intellectus possit simul intelligere plura ut plura</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>21</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e145" alias="v27ab7-q1q9">
@@ -128,7 +162,10 @@
           intelligibili alia ab ipso actu intelligendi, quae sit necessaria ad hoc quod ipsa
           operatio intelligendi eliciatur </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>22</folio>
+            <folio>23</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e156" alias="v27ab7-q1q10">
@@ -136,7 +173,12 @@
         <title>Quaestio 10</title>
         <questionTitle>Utrum unus amicorum debeat alteri amico velle maxima bona</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>24</folio>
+            <folio>25</folio>
+            <folio>26</folio>
+            <folio>27</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e168" alias="v27ab7-q1q11">
@@ -146,7 +188,13 @@
           loco sacro, in quo etiam patres sui communiter sunt sepulti, possit ab aliquo immutari in
           hoc quod aliqua eius pars in alio loco sepeliatur </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>27</folio>
+            <folio>28</folio>
+            <folio>29</folio>
+            <folio>30</folio>
+            <folio>31</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e179" alias="v27ab7-q1q12">
@@ -155,7 +203,10 @@
         <questionTitle>Quis illorum gravius peccat, vel qui omnino non vult baptizari, vel qui
           baptismum circa seipsum vult iterari</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>31</folio>
+            <folio>32</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e190" alias="v27ab7-q1q13">
@@ -164,7 +215,10 @@
         <questionTitle>Quis illorum gravius peccat qui simulat sanctitatem vite propter bonum utile
           vel ille qui simulat sanctitatem propter bonum honorabile </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>33</folio>
+            <folio>34</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e201" alias="v27ab7-q1q14">
@@ -173,7 +227,10 @@
         <questionTitle>Utrum liceat religiosis inducere novicios signo, nutu vel verbo ad hoc quod
           ante lapsum anni probationis profiteantur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>35</folio>
+            <folio>36</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e212" alias="v27ab7-q1q15">
@@ -184,7 +241,11 @@
           ut etiam hospitalitates et eleemosynae in illo loco possint fieri, convenienter possit
           tali prioratui de novo imponere aliquod onus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>36</folio>
+            <folio>37</folio>
+            <folio>38</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e223" alias="v27ab7-q1q16">
@@ -193,7 +254,10 @@
         <questionTitle>Utrum licite possint laici tenere decimas titulo fidei vel quocumque alio
           modo ius et proprietatem in illis habendo</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>38</folio>
+            <folio>39</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e235" alias="v27ab7-q1q17">
@@ -203,7 +267,10 @@
           cercere et punire brachio seculari in excommunicatione permanentes per annum et claves
           Ecclesiae contemnentes</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>39</folio>
+            <folio>40</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e246" alias="v27ab7-q1q18">
@@ -212,7 +279,10 @@
         <questionTitle>Utrum exceptionem super maiore excommunicatione a reo contra actorem
           propositam admittere teneatur iudex secularis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>40</folio>
+            <folio>41</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e257" alias="v27ab7-q1q19">
@@ -221,7 +291,9 @@
         <questionTitle>Utrum uxor sciens maritum suum consanguineam suam cognovisse, ratione cuius
           facti est affinis factus sue uxori, possit licite debitum exigere a suo marito </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>42</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e268" alias="v27ab7-q1q20">
@@ -230,7 +302,10 @@
         <questionTitle>Utrum alicui accidenti conveniat per naturam habere esse sine
           subiecto</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>43</folio>
+            <folio>44</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -242,7 +317,17 @@
         <questionTitle>Utrum anima Christi in triduo fuerit aliquo modo impedita a plenitudine
           beatitudinis ratione suae separationis a corpore</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>45</folio>
+            <folio>46</folio>
+            <folio>47</folio>
+            <folio>48</folio>
+            <folio>49</folio>
+            <folio>50</folio>
+            <folio>51</folio>
+            <folio>52</folio>
+            <folio>53</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e344" alias="v27ab7-q2q2">
@@ -251,7 +336,24 @@
         <questionTitle>Utrum essentia creature sit aliquid indifferens ad esse et non
           esse</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>53</folio>
+            <folio>54</folio>
+            <folio>55</folio>
+            <folio>56</folio>
+            <folio>57</folio>
+            <folio>58</folio>
+            <folio>59</folio>
+            <folio>60</folio>
+            <folio>61</folio>
+            <folio>62</folio>
+            <folio>63</folio>
+            <folio>64</folio>
+            <folio>65</folio>
+            <folio>66</folio>
+            <folio>67</folio>
+            <folio>68</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e355" alias="v27ab7-q2q3">
@@ -260,7 +362,21 @@
         <questionTitle>Utrum mundus sive aliqua creatura potuit esse vel existere ab
           aeterno</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>68</folio>
+            <folio>69</folio>
+            <folio>70</folio>
+            <folio>71</folio>
+            <folio>72</folio>
+            <folio>73</folio>
+            <folio>74</folio>
+            <folio>75</folio>
+            <folio>76</folio>
+            <folio>77</folio>
+            <folio>78</folio>
+            <folio>79</folio>
+            <folio>80</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e366" alias="v27ab7-q2q4">
@@ -269,7 +385,14 @@
         <questionTitle>Utrum aliqua substantia creata possit esse immediatum principium alicuius
           operationis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>80</folio>
+            <folio>81</folio>
+            <folio>82</folio>
+            <folio>83</folio>
+            <folio>84</folio>
+            <folio>85</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e378" alias="v27ab7-q2q5">
@@ -278,7 +401,12 @@
         <questionTitle>Utrum angeli superiores intelligant per universaliores species et pauciores
           quam inferiores</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>86</folio>
+            <folio>87</folio>
+            <folio>88</folio>
+            <folio>89</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e389" alias="v27ab7-q2q6">
@@ -287,7 +415,15 @@
         <questionTitle>Utrum in materia prima virtute supernaturalis agentis possit fieri forma et
           species ad quam non est in potentia naturali</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>90</folio>
+            <folio>91</folio>
+            <folio>92</folio>
+            <folio>93</folio>
+            <folio>94</folio>
+            <folio>95</folio>
+            <folio>96</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e400" alias="v27ab7-q2q7">
@@ -296,7 +432,47 @@
         <questionTitle>Utrum homo habeat esse ab una forma substantiali vel a
           pluribus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>97</folio>
+            <folio>98</folio>
+            <folio>99</folio>
+            <folio>100</folio>
+            <folio>101</folio>
+            <folio>102</folio>
+            <folio>103</folio>
+            <folio>104</folio>
+            <folio>105</folio>
+            <folio>106</folio>
+            <folio>107</folio>
+            <folio>108</folio>
+            <folio>109</folio>
+            <folio>110</folio>
+            <folio>111</folio>
+            <folio>112</folio>
+            <folio>113</folio>
+            <folio>114</folio>
+            <folio>115</folio>
+            <folio>116</folio>
+            <folio>117</folio>
+            <folio>118</folio>
+            <folio>119</folio>
+            <folio>120</folio>
+            <folio>121</folio>
+            <folio>122</folio>
+            <folio>123</folio>
+            <folio>124</folio>
+            <folio>125</folio>
+            <folio>126</folio>
+            <folio>127</folio>
+            <folio>128</folio>
+            <folio>129</folio>
+            <folio>130</folio>
+            <folio>131</folio>
+            <folio>132</folio>
+            <folio>133</folio>
+            <folio>134</folio>
+            <folio>135</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e411" alias="v27ab7-q2q8">
@@ -305,7 +481,13 @@
         <questionTitle>Utrum animam respectu necessariorum et respectu contingentium aliter se
           habere sit ponere plures potentias intellectivas realiter differentes</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>136</folio>
+            <folio>137</folio>
+            <folio>138</folio>
+            <folio>139</folio>
+            <folio>140</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e422" alias="v27ab7-q2q9">
@@ -313,7 +495,10 @@
         <title>Quaestio 9</title>
         <questionTitle>Utrum voluntas vel intellectus sit excellentior potentia</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>140</folio>
+            <folio>141</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e433" alias="v27ab7-q2q10">
@@ -322,7 +507,16 @@
         <questionTitle>Utrum caritas sive quicumque habitus possit augeri per
           essentiam</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>141</folio>
+            <folio>142</folio>
+            <folio>143</folio>
+            <folio>144</folio>
+            <folio>145</folio>
+            <folio>146</folio>
+            <folio>147</folio>
+            <folio>148</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e445" alias="v27ab7-q2q11">
@@ -331,7 +525,13 @@
         <questionTitle>Utrum possit haberi una virtus moralis perfecte absque hoc quod perfecte
           prudentia habeatur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>149</folio>
+            <folio>150</folio>
+            <folio>151</folio>
+            <folio>152</folio>
+            <folio>153</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e456" alias="v27ab7-q2q12">
@@ -339,7 +539,12 @@
         <title>Quaestio 12</title>
         <questionTitle>Utrum avaritia sit vitium deterius quam prodigalitas</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>153</folio>
+            <folio>154</folio>
+            <folio>155</folio>
+            <folio>156</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e467" alias="v27ab7-q2q13">
@@ -348,7 +553,9 @@
         <questionTitle>Utrum liceat religiosos inducere divites ad eligendum sepulturam in
           cemeteriis vel in claustris eorum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>156</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e478" alias="v27ab7-q2q14">
@@ -358,7 +565,9 @@
           extra parochiam suam non elegit sepulturam, in loco religioso extra suam parochiam
           sepeliatur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>157</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -370,7 +579,30 @@
         <questionTitle>Utrum creatura possit dici ens ratione sue essentiae, cum ipsa est non ens
           quantum ad esse existentiae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>157</folio>
+            <folio>158</folio>
+            <folio>159</folio>
+            <folio>160</folio>
+            <folio>161</folio>
+            <folio>162</folio>
+            <folio>163</folio>
+            <folio>164</folio>
+            <folio>165</folio>
+            <folio>166</folio>
+            <folio>167</folio>
+            <folio>168</folio>
+            <folio>169</folio>
+            <folio>170</folio>
+            <folio>171</folio>
+            <folio>172</folio>
+            <folio>173</folio>
+            <folio>174</folio>
+            <folio>175</folio>
+            <folio>176</folio>
+            <folio>177</folio>
+            <folio>178</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e507" alias="v27ab7-q3q2">
@@ -378,7 +610,11 @@
         <title>Quaestio 2</title>
         <questionTitle>Utrum prius creetur essentia quam esse</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>178</folio>
+            <folio>179</folio>
+            <folio>180</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e518" alias="v27ab7-q3q3">
@@ -387,7 +623,16 @@
         <questionTitle>Utrum natura angelica sit composita ex vera materia et vera
           forma</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>180</folio>
+            <folio>181</folio>
+            <folio>182</folio>
+            <folio>183</folio>
+            <folio>184</folio>
+            <folio>185</folio>
+            <folio>186</folio>
+            <folio>187</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e529" alias="v27ab7-q3q4">
@@ -396,7 +641,17 @@
         <questionTitle>Utrum anima separata existat eodem esse quo existit totus
           homo</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>187</folio>
+            <folio>188</folio>
+            <folio>189</folio>
+            <folio>190</folio>
+            <folio>191</folio>
+            <folio>192</folio>
+            <folio>193</folio>
+            <folio>194</folio>
+            <folio>195</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e541" alias="v27ab7-q3q5">
@@ -405,7 +660,26 @@
         <questionTitle>Utrum dicere quod corpus Christi mortuum et alterius hominis mortuum fuerit
           corpus aequivoce sit erroneum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>195</folio>
+            <folio>196</folio>
+            <folio>197</folio>
+            <folio>198</folio>
+            <folio>199</folio>
+            <folio>200</folio>
+            <folio>201</folio>
+            <folio>202</folio>
+            <folio>203</folio>
+            <folio>204</folio>
+            <folio>205</folio>
+            <folio>206</folio>
+            <folio>207</folio>
+            <folio>208</folio>
+            <folio>209</folio>
+            <folio>210</folio>
+            <folio>211</folio>
+            <folio>212</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e552" alias="v27ab7-q3q6">
@@ -414,7 +688,11 @@
         <questionTitle>Utrum dicere quod corpus Christi non potuit comburi sit inconveniens secundum
           fidem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>212</folio>
+            <folio>213</folio>
+            <folio>214</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e563" alias="v27ab7-q3q7">
@@ -424,7 +702,11 @@
           absolvendi confitentes virtute privilegii Martini IV teneatur eadem peccata proprio
           sacerdoti iterum confiteri</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>214</folio>
+            <folio>215</folio>
+            <folio>216</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e574" alias="v27ab7-q3q8">
@@ -433,7 +715,10 @@
         <questionTitle>Utrum habens talem potestatem possit absolvere in casibus episcopi de iure et
           consuetudine et retentione reservatis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>216</folio>
+            <folio>217</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e585" alias="v27ab7-q3q9">
@@ -443,7 +728,9 @@
           aliquam positionem habitam prius pro opinione tanquam haereticam vel erroneam
           condemnare</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>218</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e596" alias="v27ab7-q3q10">
@@ -452,7 +739,9 @@
         <questionTitle>Utrum doctor in theologia possit determinare ea quae ad solum papam
           pertinent</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>219</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e608" alias="v27ab7-q3q11">
@@ -461,7 +750,12 @@
         <questionTitle>Utrum liceat decimas vendere carius ratione solutionis
           differendae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>219</folio>
+            <folio>220</folio>
+            <folio>221</folio>
+            <folio>222</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e619" alias="v27ab7-q3q12">
@@ -470,7 +764,12 @@
         <questionTitle>Utrum uxor possit dare eleemosynam invito et contradicente
           marito</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>223</folio>
+            <folio>224</folio>
+            <folio>225</folio>
+            <folio>226</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e630" alias="v27ab7-q3q13">
@@ -478,7 +777,10 @@
         <title>Quaestio 13</title>
         <questionTitle>Utrum omnes habitus morales sint in voluntate ut in subiecto</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>226</folio>
+            <folio>227</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e641" alias="v27ab7-q3q14">
@@ -486,7 +788,9 @@
         <title>Quaestio 14</title>
         <questionTitle>Utrum peccatum originale sit maius quam actuale</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>227</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e652" alias="v27ab7-q3q15">
@@ -494,7 +798,10 @@
         <title>Quaestio 15</title>
         <questionTitle>Utrum voluntas sit magis libera potentia quam intellectus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>227</folio>
+            <folio>228</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e663" alias="v27ab7-q3q16">
@@ -503,7 +810,10 @@
         <questionTitle>Utrum voluntas facta in actu respectu finis possit seipsam, absque adiutorio
           intellectus, facere in actum respectu eorum quae sunt ad finem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>228</folio>
+            <folio>229</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -515,7 +825,13 @@
         <questionTitle>Utrum in Deo sit idea propria et distincta respectu cuiuslibet
           singularis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>230</folio>
+            <folio>231</folio>
+            <folio>232</folio>
+            <folio>233</folio>
+            <folio>234</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e691" alias="v27ab7-q4q2">
@@ -524,7 +840,17 @@
         <questionTitle>Utrum ponere res praedicamentales esse aeternas secundum esse quidditativum
           sit ponere mundum esse aeternum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>234</folio>
+            <folio>235</folio>
+            <folio>236</folio>
+            <folio>237</folio>
+            <folio>238</folio>
+            <folio>239</folio>
+            <folio>240</folio>
+            <folio>241</folio>
+            <folio>242</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e702" alias="v27ab7-q4q3">
@@ -533,7 +859,14 @@
         <questionTitle>Utrum in perfectionibus essentialibus rerum sive ordinem essentialem
           habentibus sit processus in infinitum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>243</folio>
+            <folio>244</folio>
+            <folio>245</folio>
+            <folio>246</folio>
+            <folio>247</folio>
+            <folio>248</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e713" alias="v27ab7-q4q4">
@@ -543,7 +876,12 @@
           infinitum, oporteret quemlibet pertinere ad aliquam determinatam hierarchiam nunc
           existentium</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>248</folio>
+            <folio>249</folio>
+            <folio>250</folio>
+            <folio>251</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e725" alias="v27ab7-q4q5">
@@ -551,7 +889,13 @@
         <title>Quaestio 5</title>
         <questionTitle>Utrum aliquod corpus possit simul esse in diversis locis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>251</folio>
+            <folio>252</folio>
+            <folio>253</folio>
+            <folio>254</folio>
+            <folio>255</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e736" alias="v27ab7-q4q6">
@@ -560,7 +904,10 @@
         <questionTitle>Utrum posset extra mundum istum fieri altera terra eiusdem speciei cum terra
           huius mundi</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>255</folio>
+            <folio>256</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e747" alias="v27ab7-q4q7">
@@ -569,7 +916,10 @@
         <questionTitle>Utrum panis confectus de blado quod dicitur spelta sit materia conveniens
           sacramento eucharistiae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>256</folio>
+            <folio>257</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e758" alias="v27ab7-q4q8">
@@ -578,7 +928,10 @@
         <questionTitle>Utrum voluntas humana contineat duas potentias sicut intellectus
           humanus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>258</folio>
+            <folio>259</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e769" alias="v27ab7-q4q9">
@@ -587,7 +940,10 @@
         <questionTitle>Utrum in prima productione rerum mulier debuit produci in esse a
           Deo</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>260</folio>
+            <folio>261</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e780" alias="v27ab7-q4q10">
@@ -596,7 +952,13 @@
         <questionTitle>Utrum possit haberi certa scientia de conclusione elicita ex principiis solum
           creditis vel opinatis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>261</folio>
+            <folio>262</folio>
+            <folio>263</folio>
+            <folio>264</folio>
+            <folio>265</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e792" alias="v27ab7-q4q11">
@@ -605,7 +967,17 @@
         <questionTitle>Utrum illud quod per se est malum possit aliquo modo fieri
           bonum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>265</folio>
+            <folio>266</folio>
+            <folio>267</folio>
+            <folio>268</folio>
+            <folio>269</folio>
+            <folio>270</folio>
+            <folio>271</folio>
+            <folio>272</folio>
+            <folio>273</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e803" alias="v27ab7-q4q12">
@@ -614,7 +986,10 @@
         <questionTitle>Utrum statuto generalis concilii possit per consuetudinem contrariam
           derogari</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>274</folio>
+            <folio>275</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e814" alias="v27ab7-q4q13">
@@ -624,7 +999,12 @@
           salutem, debeat reputare esse litigiosam et ob hoc eam repellere et nolle
           determinare</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>275</folio>
+            <folio>276</folio>
+            <folio>277</folio>
+            <folio>278</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e825" alias="v27ab7-q4q14">
@@ -634,7 +1014,10 @@
           praedicandi ex privilegio vel delegatione, debeant recipi ad praedicandum in locis
           praelatorum ordinariorum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>278</folio>
+            <folio>279</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e836" alias="v27ab7-q4q15">
@@ -644,7 +1027,10 @@
           absolvere poenitentes venientes ad ipsos de licentia sacerdotum parochialium in casibus
           qui episcopis de iure vel consuetudine vel retentione reservantur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>279</folio>
+            <folio>280</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e847" alias="v27ab7-q4q16">
@@ -653,7 +1039,9 @@
         <questionTitle>Utrum habere aliquid in communi diminuat de perfectione
           religionis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>281</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e859" alias="v27ab7-q4q17">
@@ -662,7 +1050,16 @@
         <questionTitle>Utrum qui vovit simpliciter se intraturum aliquam religionem si intret cum
           proposito exeundi satisfaciat et a voto absolvatur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>281</folio>
+            <folio>282</folio>
+            <folio>283</folio>
+            <folio>284</folio>
+            <folio>285</folio>
+            <folio>286</folio>
+            <folio>287</folio>
+            <folio>288</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e870" alias="v27ab7-q4q18">
@@ -671,7 +1068,12 @@
         <questionTitle>Utrum qui vovit solemniter continere possit per dispensationem matrimonium
           contrahere</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>288</folio>
+            <folio>289</folio>
+            <folio>290</folio>
+            <folio>291</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e881" alias="v27ab7-q4q19">
@@ -680,7 +1082,12 @@
         <questionTitle>Utrum religiosus qui vovit obedire praelato teneatur contra praeceptum
           praelati exire ad subveniendum necessitati parentum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>291</folio>
+            <folio>292</folio>
+            <folio>293</folio>
+            <folio>294</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e892" alias="v27ab7-q4q20">
@@ -689,7 +1096,12 @@
         <questionTitle>Utrum subditus qui scit aliquod secretum vel quodcumque occultum peccatum
           praelato praecipienti ut revelet teneatur revelare</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>294</folio>
+            <folio>295</folio>
+            <folio>296</folio>
+            <folio>297</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e903" alias="v27ab7-q4q21">
@@ -699,7 +1111,11 @@
           centum libras legitime et alias centum libras per usuram, absque periurio possit iurare se
           non habere nisi centum libras</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>297</folio>
+            <folio>298</folio>
+            <folio>299</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1e914" alias="v27ab7-q4q22">
@@ -708,7 +1124,11 @@
         <questionTitle>Utrum aliqua qualitas possit habere esse absque omni subiecto sive sine
           quantitate</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>299</folio>
+            <folio>300</folio>
+            <folio>301</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -720,7 +1140,14 @@
         <questionTitle>Utrum creatura habeat esse reale extra Deum quantum ad esse essentiae,
           antequam habeat esse existentiae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>301</folio>
+            <folio>302</folio>
+            <folio>303</folio>
+            <folio>304</folio>
+            <folio>305</folio>
+            <folio>306</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f002" alias="v27ab7-q3short-q2">
@@ -728,7 +1155,10 @@
         <title>Quaestio 2</title>
         <questionTitle>Utrum prius creetur essentia quam esse</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>306</folio>
+            <folio>307</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f003" alias="v27ab7-q3short-q3">
@@ -736,7 +1166,11 @@
         <title>Quaestio 3</title>
         <questionTitle>Utrum natura angelica sit composita ex materia et forma</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>307</folio>
+            <folio>308</folio>
+            <folio>309</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f004" alias="v27ab7-q3short-q4">
@@ -745,7 +1179,12 @@
         <questionTitle>Utrum anima separata retineat totum esse quo existit totus
           homo</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>309</folio>
+            <folio>310</folio>
+            <folio>311</folio>
+            <folio>312</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f005" alias="v27ab7-q3short-q5">
@@ -754,7 +1193,14 @@
         <questionTitle>Utrum corpus Christi mortuum et corpus alterius hominis mortuum statim post
           mortem sint corpora mortua univoce</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>312</folio>
+            <folio>313</folio>
+            <folio>314</folio>
+            <folio>315</folio>
+            <folio>316</folio>
+            <folio>317</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f006" alias="v27ab7-q3short-q6">
@@ -763,7 +1209,10 @@
         <questionTitle>Utrum ponere quod corpus Christi non potuit comburi sit inconveniens secundum
           fidem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>318</folio>
+            <folio>319</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f009" alias="v27ab7-q3short-q9">
@@ -772,7 +1221,10 @@
         <questionTitle>Utrum liceat vendere carius decimas propter dilationem
           solutionis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>319</folio>
+            <folio>320</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f012" alias="v27ab7-q3short-q12">
@@ -781,7 +1233,10 @@
         <questionTitle>Utrum uxor possit facere eleemosynam invito vel contradicente
           marito</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>321</folio>
+            <folio>322</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -792,7 +1247,9 @@
         <title>Quaestio 1</title>
         <questionTitle>Utrum in Deo sit propria idea et discreta respectu singularis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>323</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f020" alias="v27ab7-q4short-q2">
@@ -801,7 +1258,12 @@
         <questionTitle>Utrum ponere creaturam ab aeterno esse quantum ad esse quidditativum secundum
           quod est in praedicamento, sit ponere mundum fuisse ab aeterno</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>323</folio>
+            <folio>324</folio>
+            <folio>325</folio>
+            <folio>326</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f030" alias="v27ab7-q4short-q3">
@@ -810,7 +1272,11 @@
         <questionTitle>Utrum in gradibus essentialibus creaturarum habentibus essentialem ordinem
           sit possibilis processus in infinitum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>326</folio>
+            <folio>327</folio>
+            <folio>328</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f040" alias="v27ab7-q4short-q4">
@@ -819,7 +1285,10 @@
         <questionTitle> Utrum, si Deus posset facere angelum perfectiorem quolibet dato in
           infinitum, oporteret quemlibet eorum pertinere ad aliquam hierarchiam nunc existentium </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>329</folio>
+            <folio>330</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f050" alias="v27ab7-q4short-q5">
@@ -828,7 +1297,11 @@
         <questionTitle> Utrum idem corpus possit virtute divina esse localiter in pluribus locis per
           se et sine conversione alterius in ipsum </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>330</folio>
+            <folio>331</folio>
+            <folio>332</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f060" alias="v27ab7-q4short-q6">
@@ -837,7 +1310,10 @@
         <questionTitle> Utrum extra istum mundum posset Deus facere aliam terram eiusdem speciei cum
           terra huius mundi </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>332</folio>
+            <folio>333</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f070" alias="v27ab7-q4short-q7">
@@ -845,7 +1321,9 @@
         <title>Quaestio 7</title>
         <questionTitle> Utrum corpus Christi possit confici de spelta </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>333</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f080" alias="v27ab7-q4short-q8">
@@ -854,7 +1332,9 @@
         <questionTitle> Utrum voluntas includat duas potentias, unam passivam et aliam activam sicut
           et intellectus </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>334</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f090" alias="v27ab7-q4short-q9">
@@ -862,7 +1342,9 @@
         <title>Quaestio 9</title>
         <questionTitle> Utrum in prima rerum productione debuit mulier fieri </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>335</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f100" alias="v27ab7-q4short-q10">
@@ -871,7 +1353,10 @@
         <questionTitle>Utrum ex principiis tantum creditis vel opinatis possit haberi certa
           scientia</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>335</folio>
+            <folio>336</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f110" alias="v27ab7-q4short-q11">
@@ -880,7 +1365,11 @@
         <questionTitle>Utrum illud quod secundum se est malum et illicitum possit aliquo modo esse
           bonum et licitum </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>336</folio>
+            <folio>337</folio>
+            <folio>338</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f120" alias="v27ab7-q4short-q12">
@@ -889,7 +1378,9 @@
         <questionTitle>Utrum per contrariam consuetudinem possit derogari statuto generalis
           synodi</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>339</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f130" alias="v27ab7-q4short-q13">
@@ -899,7 +1390,11 @@
           salutem debeat reputare litigiosam et inducentem scandalum et ob hoc non recipiat
           eam</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>339</folio>
+            <folio>340</folio>
+            <folio>341</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f140" alias="v27ab7-q4short-q14">
@@ -909,7 +1404,10 @@
           potestatem praedicandi post talem approbationem debeant ab ordinariis recipi ad
           praedicandum nisi doceant se sic examuinatos </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>341</folio>
+            <folio>342</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f150" alias="v27ab7-q4short-q15">
@@ -919,7 +1417,10 @@
           possint absolvere a casibus retentis episcopis a iure vel consuetudine habita licentia a
           sacerdotibus parochialibus </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>342</folio>
+            <folio>343</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <!-- no 16 -->
@@ -929,7 +1430,12 @@
         <questionTitle>Utrum vovens absolute ingressum religionis et intrans cum proposito exeundi
           satisfaciat sic quod sit liberatus a voto</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>343</folio>
+            <folio>344</folio>
+            <folio>345</folio>
+            <folio>346</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f180" alias="v27ab7-q4short-q18">
@@ -938,7 +1444,10 @@
         <questionTitle>Utrum in solemni voto continentiae possit sic dispensari quod obligatus tali
           voto possit per dispensationem contrahere matrimonium</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>346</folio>
+            <folio>347</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f190" alias="v27ab7-q4short-q19">
@@ -947,7 +1456,10 @@
         <questionTitle>Utrum in solemni voto continentiae possit sic dispensari quod obligatus tali
           voto possit per dispensationem contrahere matrimonium</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>348</folio>
+            <folio>349</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f200" alias="v27ab7-q4short-q20">
@@ -956,7 +1468,10 @@
         <questionTitle>Utrum religiosus teneatur revelare secretum commissum fidei suae vel peccatum
           occultum proximi praelato talem revelationem praecifrienti</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>350</folio>
+            <folio>351</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f210" alias="v27ab7-q4short-q21">
@@ -966,7 +1481,10 @@
           periurio iurare se non habere nisi centum libras. propter hoc. quod. pecunia. usuraría non
           transit in dominium eius </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>352</folio>
+            <folio>353</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="v27ab7-d1f220" alias="v27ab7-q4short-q22">
@@ -976,7 +1494,10 @@
           periurio iurare se non habere nisi centum libras. propter hoc. quod. pecunia. usuraría non
           transit in dominium eius </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-gf01lv"/>
+          <witness ref="#cod-gf01lv">
+            <folio>353</folio>
+            <folio>354</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
