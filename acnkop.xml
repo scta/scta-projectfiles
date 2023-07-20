@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Athanasius</authorName>
+    <commentaryName>Symbolum</commentaryName>
+    <commentaryid>acnkop</commentaryid>
+    <commentaryslug>acnkop</commentaryslug>
+    <alias>athanasiussymbolum</alias>
+    <authorUri>http://scta.info/resource/Athanasius</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-ui8u89">
+        <slug>cod-ui8u89</slug>
+        <title>New York, 1919, v. 2</title>
+        <initial>cod-ui8u89</initial>
+        <!--https://archive.org/details/TheCreedsOfChristendomV2/page/66/mode/2up-->
+        <!--<editor>Philip Schaff</editor>-->
+        <!-- The Creeds Of Christendom, with a History and Critical Notes: Volume 2, The Greek and  Latin creeds, with translations by Schaff, Philip, 1819-1893;-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Symbolum</head>
+    <item id="acnkop-c1c1c1">
+      <fileName filestem="acnkop-c1c1c1"></fileName>
+      <title>Symbolum Quicunque</title>
+      <hasWitnesses>
+        <witness ref="#cod-ui8u89">
+          <folio>66</folio>
+          <folio>67</folio>
+          <folio>68</folio>
+          <folio>69</folio>
+          <folio>70</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    
+  </div>
+</listofFileNames>
