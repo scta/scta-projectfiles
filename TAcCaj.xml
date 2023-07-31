@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Thomas Cajetan</authorName>
@@ -27,7 +28,12 @@
       <fileName filestem="TAcCaj-d1e41"/>
       <title>Praefatio</title>
       <hasWitnesses>
-        <witness ref="#cod-cnLxE4"/>
+        <witness ref="#cod-cnLxE4">
+          <folio>1</folio>
+          <folio>2</folio>
+          <folio>3</folio>
+          <folio>4</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <div id="TAcCaj-d1e46">
@@ -36,350 +42,672 @@
         <fileName filestem="TAcCaj-d1e41"/>
         <title>Prologus</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>7</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e51" alias="TAcCajp1-q1">
         <fileName filestem="TAcCaj-d1e51"/>
         <title>Quaestio 1</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>7</folio>
+            <folio>8</folio>
+            <folio>10</folio>
+            <folio>11</folio>
+            <folio>13</folio>
+            <folio>14</folio>
+            <folio>15</folio>
+            <folio>17</folio>
+            <folio>20</folio>
+            <folio>21</folio>
+            <folio>23</folio>
+            <folio>25</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e56" alias="TAcCajp1-q2">
         <fileName filestem="TAcCaj-d1e56"/>
         <title>Quaestio 2</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>28</folio>
+            <folio>29</folio>
+            <folio>33</folio>
+            <folio>34</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e61" alias="TAcCajp1-q3">
         <fileName filestem="TAcCaj-d1e61"/>
         <title>Quaestio 3</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>36</folio>
+            <folio>37</folio>
+            <folio>39</folio>
+            <folio>41</folio>
+            <folio>43</folio>
+            <folio>45</folio>
+            <folio>49</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e66" alias="TAcCajp1-q4">
         <fileName filestem="TAcCaj-d1e66"/>
         <title>Quaestio 4</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>50</folio>
+            <folio>51</folio>
+            <folio>53</folio>
+            <folio>55</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e72" alias="TAcCajp1-q5">
         <fileName filestem="TAcCaj-d1e72"/>
         <title>Quaestio 5</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>56</folio>
+            <folio>57</folio>
+            <folio>59</folio>
+            <folio>60</folio>
+            <folio>61</folio>
+            <folio>62</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e77" alias="TAcCajp1-q6">
         <fileName filestem="TAcCaj-d1e77"/>
         <title>Quaestio 6</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>67</folio>
+            <folio>68</folio>
+            <folio>69</folio>
+            <folio>71</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e82" alias="TAcCajp1-q7">
         <fileName filestem="TAcCaj-d1e82"/>
         <title>Quaestio 7</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>72</folio>
+            <folio>73</folio>
+            <folio>74</folio>
+            <folio>75</folio>
+            <folio>77</folio>
+            <folio>78</folio>
+            <folio>79</folio>
+            <folio>81</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e87" alias="TAcCajp1-q8">
         <fileName filestem="TAcCaj-d1e87"/>
         <title>Quaestio 8</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>82</folio>
+            <folio>83</folio>
+            <folio>84</folio>
+            <folio>85</folio>
+            <folio>88</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e92" alias="TAcCajp1-q9">
         <fileName filestem="TAcCaj-d1e92"/>
         <title>Quaestio 9</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>92</folio>
+            <folio>93</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e97" alias="TAcCajp1-q10">
         <fileName filestem="TAcCaj-d1e97"/>
         <title>Quaestio 10</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>95</folio>
+            <folio>96</folio>
+            <folio>97</folio>
+            <folio>102</folio>
+            <folio>103</folio>
+            <folio>104</folio>
+            <folio>106</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e103" alias="TAcCajp1-q11">
         <fileName filestem="TAcCaj-d1e103"/>
         <title>Quaestio 11</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>108</folio>
+            <folio>109</folio>
+            <folio>111</folio>
+            <folio>113</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e108" alias="TAcCajp1-q12">
         <fileName filestem="TAcCaj-d1e108"/>
         <title>Quaestio 12</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>115</folio>
+            <folio>116</folio>
+            <folio>118</folio>
+            <folio>119</folio>
+            <folio>122</folio>
+            <folio>123</folio>
+            <folio>124</folio>
+            <folio>125</folio>
+            <folio>126</folio>
+            <folio>132</folio>
+            <folio>133</folio>
+            <folio>134</folio>
+            <folio>136</folio>
+            <folio>137</folio>
+            <folio>139</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e113" alias="TAcCajp1-q13">
         <fileName filestem="TAcCaj-d1e113"/>
         <title>Quaestio 13</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>143</folio>
+            <folio>144</folio>
+            <folio>146</folio>
+            <folio>147</folio>
+            <folio>149</folio>
+            <folio>151</folio>
+            <folio>152</folio>
+            <folio>153</folio>
+            <folio>154</folio>
+            <folio>155</folio>
+            <folio>158</folio>
+            <folio>159</folio>
+            <folio>160</folio>
+            <folio>163</folio>
+            <folio>166</folio>
+            <folio>167</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e118" alias="TAcCajp1-q14">
         <fileName filestem="TAcCaj-d1e118"/>
         <title>Quaestio 14</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>170</folio>
+            <folio>171</folio>
+            <folio>173</folio>
+            <folio>174</folio>
+            <folio>175</folio>
+            <folio>177</folio>
+            <folio>178</folio>
+            <folio>181</folio>
+            <folio>184</folio>
+            <folio>185</folio>
+            <folio>186</folio>
+            <folio>191</folio>
+            <folio>192</folio>
+            <folio>193</folio>
+            <folio>194</folio>
+            <folio>195</folio>
+            <folio>196</folio>
+            <folio>199</folio>
+            <folio>201</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e123" alias="TAcCajp1-q15">
         <fileName filestem="TAcCaj-d1e123"/>
         <title>Quaestio 15</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>202</folio>
+            <folio>203</folio>
+            <folio>204</folio>
+            <folio>206</folio>
+            <folio>207</folio>
+            <folio>208</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e128" alias="TAcCajp1-q16">
         <fileName filestem="TAcCaj-d1e128"/>
         <title>Quaestio 16</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>211</folio>
+            <folio>212</folio>
+            <folio>214</folio>
+            <folio>215</folio>
+            <folio>216</folio>
+            <folio>217</folio>
+            <folio>220</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e134" alias="TAcCajp1-q17">
         <fileName filestem="TAcCaj-d1e134"/>
         <title>Quaestio 17</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>223</folio>
+            <folio>224</folio>
+            <folio>226</folio>
+            <folio>227</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e139" alias="TAcCajp1-q18">
         <fileName filestem="TAcCaj-d1e139"/>
         <title>Quaestio 18</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>231</folio>
+            <folio>232</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e144" alias="TAcCajp1-q19">
         <fileName filestem="TAcCaj-d1e144"/>
         <title>Quaestio 19</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>234</folio>
+            <folio>235</folio>
+            <folio>237</folio>
+            <folio>239</folio>
+            <folio>240</folio>
+            <folio>242</folio>
+            <folio>245</folio>
+            <folio>247</folio>
+            <folio>248</folio>
+            <folio>249</folio>
+            <folio>251</folio>
+            <folio>252</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e149" alias="TAcCajp1-q20">
         <fileName filestem="TAcCaj-d1e149"/>
         <title>Quaestio 20</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>268</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e154" alias="TAcCajp1-q21">
         <fileName filestem="TAcCaj-d1e154"/>
         <title>Quaestio 21</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>268</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e159" alias="TAcCajp1-q22">
         <fileName filestem="TAcCaj-d1e159"/>
         <title>Quaestio 22</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>268</folio>
+            <folio>269</folio>
+            <folio>272</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e165" alias="TAcCajp1-q23">
         <fileName filestem="TAcCaj-d1e165"/>
         <title>Quaestio 23</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>276</folio>
+            <folio>277</folio>
+            <folio>278</folio>
+            <folio>281</folio>
+            <folio>282</folio>
+            <folio>283</folio>
+            <folio>284</folio>
+            <folio>286</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e170" alias="TAcCajp1-q24">
         <fileName filestem="TAcCaj-d1e170"/>
         <title>Quaestio 24</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>287</folio>
+            <folio>288</folio>
+            <folio>290</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e175" alias="TAcCajp1-q25">
         <fileName filestem="TAcCaj-d1e175"/>
         <title>Quaestio 25</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>292</folio>
+            <folio>293</folio>
+            <folio>294</folio>
+            <folio>296</folio>
+            <folio>299</folio>
+            <folio>301</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e180" alias="TAcCajp1-q26">
         <fileName filestem="TAcCaj-d1e180"/>
         <title>Quaestio 26</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>303</folio>
+            <folio>304</folio>
+            <folio>305</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e185" alias="TAcCajp1-q27">
         <fileName filestem="TAcCaj-d1e185"/>
         <title>Quaestio 27</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>307</folio>
+            <folio>308</folio>
+            <folio>309</folio>
+            <folio>310</folio>
+            <folio>311</folio>
+            <folio>312</folio>
+            <folio>313</folio>
+            <folio>315</folio>
+            <folio>317</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e190" alias="TAcCajp1-q28">
         <fileName filestem="TAcCaj-d1e190"/>
         <title>Quaestio 28</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>319</folio>
+            <folio>320</folio>
+            <folio>323</folio>
+            <folio>324</folio>
+            <folio>325</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e196" alias="TAcCajp1-q29">
         <fileName filestem="TAcCaj-d1e196"/>
         <title>Quaestio 29</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>328</folio>
+            <folio>329</folio>
+            <folio>335</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e201" alias="TAcCajp1-q30">
         <fileName filestem="TAcCaj-d1e201"/>
         <title>Quaestio 30</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>336</folio>
+            <folio>337</folio>
+            <folio>339</folio>
+            <folio>341</folio>
+            <folio>342</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e206" alias="TAcCajp1-q31">
         <fileName filestem="TAcCaj-d1e206"/>
         <title>Quaestio 31</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>347</folio>
+            <folio>348</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e211" alias="TAcCajp1-q32">
         <fileName filestem="TAcCaj-d1e211"/>
         <title>Quaestio 32</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>352</folio>
+            <folio>353</folio>
+            <folio>354</folio>
+            <folio>356</folio>
+            <folio>357</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e216" alias="TAcCajp1-q33">
         <fileName filestem="TAcCaj-d1e216"/>
         <title>Quaestio 33</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>358</folio>
+            <folio>359</folio>
+            <folio>362</folio>
+            <folio>364</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e221" alias="TAcCajp1-q34">
         <fileName filestem="TAcCaj-d1e221"/>
         <title>Quaestio 34</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>367</folio>
+            <folio>368</folio>
+            <folio>371</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e227" alias="TAcCajp1-q35">
         <fileName filestem="TAcCaj-d1e227"/>
         <title>Quaestio 35</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>372</folio>
+            <folio>373</folio>
+            <folio>374</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e232" alias="TAcCajp1-q36">
         <fileName filestem="TAcCaj-d1e232"/>
         <title>Quaestio 36</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>378</folio>
+            <folio>379</folio>
+            <folio>380</folio>
+            <folio>381</folio>
+            <folio>385</folio>
+            <folio>386</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e237" alias="TAcCajp1-q37">
         <fileName filestem="TAcCaj-d1e237"/>
         <title>Quaestio 37</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>390</folio>
+            <folio>391</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e242" alias="TAcCajp1-q38">
         <fileName filestem="TAcCaj-d1e242"/>
         <title>Quaestio 38</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>394</folio>
+            <folio>395</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e247" alias="TAcCajp1-q39">
         <fileName filestem="TAcCaj-d1e247"/>
         <title>Quaestio 39</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>397</folio>
+            <folio>398</folio>
+            <folio>401</folio>
+            <folio>403</folio>
+            <folio>404</folio>
+            <folio>406</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e252" alias="TAcCajp1-q40">
         <fileName filestem="TAcCaj-d1e252"/>
         <title>Quaestio 40</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>414</folio>
+            <folio>415</folio>
+            <folio>416</folio>
+            <folio>418</folio>
+            <folio>419</folio>
+            <folio>420</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e258" alias="TAcCajp1-q41">
         <fileName filestem="TAcCaj-d1e258"/>
         <title>Quaestio 41</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>423</folio>
+            <folio>424</folio>
+            <folio>425</folio>
+            <folio>426</folio>
+            <folio>428</folio>
+            <folio>431</folio>
+            <folio>432</folio>
+            <folio>433</folio>
+            <folio>434</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e263" alias="TAcCajp1-q42">
         <fileName filestem="TAcCaj-d1e263"/>
         <title>Quaestio 42</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>436</folio>
+            <folio>437</folio>
+            <folio>438</folio>
+            <folio>442</folio>
+            <folio>443</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e268" alias="TAcCajp1-q43">
         <fileName filestem="TAcCaj-d1e268"/>
         <title>Quaestio 43</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>445</folio>
+            <folio>446</folio>
+            <folio>447</folio>
+            <folio>449</folio>
+            <folio>452</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e273" alias="TAcCajp1-q44">
         <fileName filestem="TAcCaj-d1e273"/>
         <title>Quaestio 44</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>456</folio>
+            <folio>457</folio>
+            <folio>459</folio>
+            <folio>461</folio>
+            <folio>463</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e278" alias="TAcCajp1-q45">
         <fileName filestem="TAcCaj-d1e278"/>
         <title>Quaestio 45</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>467</folio>
+            <folio>468</folio>
+            <folio>469</folio>
+            <folio>471</folio>
+            <folio>472</folio>
+            <folio>473</folio>
+            <folio>474</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e283" alias="TAcCajp1-q46">
         <fileName filestem="TAcCaj-d1e283"/>
         <title>Quaestio 46</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>480</folio>
+            <folio>481</folio>
+            <folio>483</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e289" alias="TAcCajp1-q47">
         <fileName filestem="TAcCaj-d1e289"/>
         <title>Quaestio 47</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>487</folio>
+            <folio>488</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e294" alias="TAcCajp1-q48">
         <fileName filestem="TAcCaj-d1e294"/>
         <title>Quaestio 48</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>492</folio>
+            <folio>493</folio>
+            <folio>498</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e299" alias="TAcCajp1-q49">
         <fileName filestem="TAcCaj-d1e299"/>
         <title>Quaestio 49</title>
         <hasWitnesses>
-          <witness ref="#cod-cnLxE4"/>
+          <witness ref="#cod-cnLxE4">
+            <folio>501</folio>
+            <folio>502</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="TAcCaj-d1e304" alias="TAcCajp1-q50">
