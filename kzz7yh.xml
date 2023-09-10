@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Ricardus de Mediavilla </authorName>
@@ -56,7 +57,9 @@
         <title>Praefatio</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-ve09v2"/>
+          <witness ref="#cod-ve09v2">
+            <folio>1r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="kzz7yh-d1e114" alias="l2d1" type="liber2-distinctio1">
@@ -66,7 +69,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>1r</folio>
+              <folio>1v</folio>
+              <folio>2r</folio>
+              <folio>2v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f00983" alias="l2d1a1">
@@ -74,7 +82,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>2v</folio>
+              <folio>3r</folio>
+              <folio>3v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f01812" alias="l2d1a2">
@@ -82,7 +94,12 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>3v</folio>
+              <folio>4r</folio>
+              <folio>4v</folio>
+              <folio>5r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f02923" alias="l2d1a3">
@@ -90,7 +107,12 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>5r</folio>
+              <folio>5v</folio>
+              <folio>6r</folio>
+              <folio>6v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f04172" alias="l2d1a4">
@@ -98,7 +120,12 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>6v</folio>
+              <folio>7r</folio>
+              <folio>7v</folio>
+              <folio>8r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f05147" alias="l2d1a5">
@@ -106,7 +133,11 @@
           <title>Articulus 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>8r</folio>
+              <folio>8v</folio>
+              <folio>9r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f06180" alias="l2d1cl">
@@ -114,7 +145,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>9r</folio>
+              <folio>9v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -125,7 +159,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>9v</folio>
+              <folio>10r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f06866" alias="l2d2a1">
@@ -133,7 +170,13 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>10r</folio>
+              <folio>10v</folio>
+              <folio>11r</folio>
+              <folio>11v</folio>
+              <folio>12r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f08211" alias="l2d2a2">
@@ -141,7 +184,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>12r</folio>
+              <folio>12v</folio>
+              <folio>13r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f08868" alias="l2d2a3">
@@ -149,7 +196,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>13r</folio>
+              <folio>13v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f09333" alias="l2d2cl">
@@ -157,7 +207,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>13v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -168,7 +220,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>13v</folio>
+              <folio>14r</folio>
+              <folio>14v</folio>
+              <folio>15r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f10183" alias="l2d3a1">
@@ -176,7 +233,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>15r</folio>
+              <folio>15v</folio>
+              <folio>16r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f11117" alias="l2d3a2">
@@ -184,7 +245,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>16r</folio>
+              <folio>16v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f11618" alias="l2d3a3">
@@ -192,7 +256,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>16v</folio>
+              <folio>17r</folio>
+              <folio>17v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f12173" alias="l2d3a4">
@@ -200,7 +268,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>17v</folio>
+              <folio>18r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f12694" alias="l2d3a5">
@@ -208,7 +279,10 @@
           <title>Articulus 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>18r</folio>
+              <folio>18v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f13125" alias="l2d3a6">
@@ -216,7 +290,11 @@
           <title>Articulus 6</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>18v</folio>
+              <folio>19r</folio>
+              <folio>19v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f13667" alias="l2d3a7">
@@ -224,7 +302,10 @@
           <title>Articulus 7</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>19v</folio>
+              <folio>20r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f14126" alias="l2d3a8">
@@ -232,7 +313,10 @@
           <title>Articulus 8</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>20r</folio>
+              <folio>20v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f14662" alias="l2d3cl">
@@ -240,7 +324,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>20v</folio>
+              <folio>21r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -251,7 +338,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>21r</folio>
+              <folio>21v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f15119" alias="l2d4a1">
@@ -259,7 +349,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>21v</folio>
+              <folio>22r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f15536" alias="l2d4a2">
@@ -267,7 +360,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>22r</folio>
+              <folio>22v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f15895" alias="l2d4a3">
@@ -275,7 +371,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>22v</folio>
+              <folio>23r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f16299" alias="l2d4a4">
@@ -283,7 +382,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>23r</folio>
+              <folio>23v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f16825" alias="l2d4cl">
@@ -291,7 +393,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>23v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -302,7 +406,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>23v</folio>
+              <folio>24r</folio>
+              <folio>24v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f17284" alias="l2d5a1">
@@ -310,7 +418,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>24v</folio>
+              <folio>25r</folio>
+              <folio>25v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f18048" alias="l2d5a2">
@@ -318,7 +430,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>25v</folio>
+              <folio>26r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f18554" alias="l2d5cl">
@@ -326,7 +441,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>26r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -337,7 +454,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>26r</folio>
+              <folio>26v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f19041" alias="l2d6a1">
@@ -345,7 +465,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>26v</folio>
+              <folio>27r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f19416" alias="l2d6a2">
@@ -353,7 +476,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>27r</folio>
+              <folio>27v</folio>
+              <folio>28r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f19903" alias="l2d6a3">
@@ -361,7 +488,9 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>28r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f20250" alias="l2d6cl">
@@ -369,7 +498,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>28r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -380,7 +511,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>28v</folio>
+              <folio>29r</folio>
+              <folio>29v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f21074" alias="l2d7a1">
@@ -388,7 +523,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>29v</folio>
+              <folio>30r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f21495" alias="l2d7a2">
@@ -396,7 +534,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>30r</folio>
+              <folio>30v</folio>
+              <folio>31r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f22165" alias="l2d7a3">
@@ -404,7 +546,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>31r</folio>
+              <folio>31v</folio>
+              <folio>32r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f22940" alias="l2d7a4">
@@ -412,7 +558,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>32r</folio>
+              <folio>32v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f23484" alias="l2d7cl">
@@ -420,7 +569,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>32v</folio>
+              <folio>33r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -431,7 +583,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>33r</folio>
+              <folio>33v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f24075" alias="l2d8a1">
@@ -439,7 +594,12 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>33v</folio>
+              <folio>34r</folio>
+              <folio>34v</folio>
+              <folio>35r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f25054" alias="l2d8a2">
@@ -447,7 +607,13 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>35r</folio>
+              <folio>35v</folio>
+              <folio>36r</folio>
+              <folio>36v</folio>
+              <folio>37r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f26489" alias="l2d8cl">
@@ -455,7 +621,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>37r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -466,7 +634,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>37r</folio>
+              <folio>37v</folio>
+              <folio>38r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f27246" alias="l2d9a1">
@@ -474,7 +646,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>38r</folio>
+              <folio>38v</folio>
+              <folio>39r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f27784" alias="l2d9a2">
@@ -482,7 +658,13 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>39r</folio>
+              <folio>39v</folio>
+              <folio>40r</folio>
+              <folio>40v</folio>
+              <folio>41r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f29294" alias="l2d9cl">
@@ -490,7 +672,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>41r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -501,7 +685,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>41r</folio>
+              <folio>41v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f29733" alias="l2d10a1">
@@ -509,7 +696,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>41v</folio>
+              <folio>42r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f29985" alias="l2d10a2">
@@ -517,7 +707,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>42r</folio>
+              <folio>42v</folio>
+              <folio>43r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f30781" alias="l2d10cl">
@@ -525,7 +719,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>43r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -536,7 +732,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>43r</folio>
+              <folio>43v</folio>
+              <folio>44r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f31379" alias="l2d11a1">
@@ -544,7 +744,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>44r</folio>
+              <folio>44v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f32009" alias="l2d11a2">
@@ -552,7 +755,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>44v</folio>
+              <folio>45r</folio>
+              <folio>45v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f32741" alias="l2d11cl">
@@ -560,7 +767,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>45v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -571,7 +780,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>45v</folio>
+              <folio>46r</folio>
+              <folio>46v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f33279" alias="l2d12a1">
@@ -579,7 +792,16 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>46v</folio>
+              <folio>47r</folio>
+              <folio>47v</folio>
+              <folio>48r</folio>
+              <folio>48v</folio>
+              <folio>49r</folio>
+              <folio>49v</folio>
+              <folio>50r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f35717" alias="l2d12cl">
@@ -587,7 +809,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>50r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -598,7 +822,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>50r</folio>
+              <folio>50v</folio>
+              <folio>51r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f36405" alias="l2d13a1">
@@ -606,7 +834,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>51r</folio>
+              <folio>51v</folio>
+              <folio>52r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f37197" alias="l2d13a2">
@@ -614,7 +846,12 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>52r</folio>
+              <folio>52v</folio>
+              <folio>53r</folio>
+              <folio>53v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f38383" alias="l2d13cl">
@@ -622,7 +859,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>53v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -633,7 +872,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>53v</folio>
+              <folio>54r</folio>
+              <folio>54v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f38947" alias="l2d14a1">
@@ -641,7 +884,13 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>54v</folio>
+              <folio>55r</folio>
+              <folio>55v</folio>
+              <folio>56r</folio>
+              <folio>56v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f40575" alias="l2d14a2">
@@ -649,7 +898,14 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>56v</folio>
+              <folio>57r</folio>
+              <folio>57v</folio>
+              <folio>58r</folio>
+              <folio>58v</folio>
+              <folio>59r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f42515" alias="l2d14a3">
@@ -657,7 +913,15 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>59r</folio>
+              <folio>59v</folio>
+              <folio>60r</folio>
+              <folio>60v</folio>
+              <folio>61r</folio>
+              <folio>61v</folio>
+              <folio>62r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f44427" alias="l2d14cl">
@@ -665,7 +929,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>62r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -676,7 +942,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>62r</folio>
+              <folio>62v</folio>
+              <folio>63r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f45065" alias="l2d15a1">
@@ -684,7 +954,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>63r</folio>
+              <folio>63v</folio>
+              <folio>64r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f45810" alias="l2d15a2">
@@ -692,7 +966,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>64r</folio>
+              <folio>64v</folio>
+              <folio>65r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f46637" alias="l2d15a3">
@@ -700,7 +978,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>65r</folio>
+              <folio>65v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f47197" alias="l2d15a4">
@@ -708,7 +989,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>65v</folio>
+              <folio>66r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f47354" alias="l2d15a5">
@@ -716,7 +1000,9 @@
           <title>Articulus 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>66r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f47627" alias="l2d15cl">
@@ -724,7 +1010,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>66v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -735,7 +1023,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>66v</folio>
+              <folio>67r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f48103" alias="l2d16a1">
@@ -743,7 +1034,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>67r</folio>
+              <folio>67v</folio>
+              <folio>68r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f48954" alias="l2d16cl">
@@ -751,7 +1046,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>68r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -762,7 +1059,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>68r</folio>
+              <folio>68v</folio>
+              <folio>69r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f49503" alias="l2d17a1">
@@ -770,7 +1071,16 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>69r</folio>
+              <folio>69v</folio>
+              <folio>70r</folio>
+              <folio>70v</folio>
+              <folio>71r</folio>
+              <folio>71v</folio>
+              <folio>72r</folio>
+              <folio>72v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f51825" alias="l2d17a2">
@@ -778,7 +1088,12 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>72v</folio>
+              <folio>73r</folio>
+              <folio>73v</folio>
+              <folio>74r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f53147" alias="l2d17cl">
@@ -786,7 +1101,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>74r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -797,7 +1114,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>74v</folio>
+              <folio>75r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f53797" alias="l2d18a1">
@@ -805,7 +1125,12 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>75r</folio>
+              <folio>75v</folio>
+              <folio>76r</folio>
+              <folio>76v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f54682" alias="l2d18a2">
@@ -813,7 +1138,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>76v</folio>
+              <folio>77r</folio>
+              <folio>77v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f55355" alias="l2d18cl">
@@ -821,7 +1150,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>77v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -832,7 +1163,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>77v</folio>
+              <folio>78r</folio>
+              <folio>78v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f56002" alias="l2d19a1">
@@ -840,7 +1175,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>78v</folio>
+              <folio>79r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f56589" alias="l2d19a2">
@@ -848,7 +1186,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>79r</folio>
+              <folio>79v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f57075" alias="l2d19a3">
@@ -856,7 +1197,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>79v</folio>
+              <folio>80r</folio>
+              <folio>80v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f57526" alias="l2d19cl">
@@ -864,7 +1209,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>80v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -875,7 +1222,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>80v</folio>
+              <folio>81r</folio>
+              <folio>81v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f58197" alias="l2d20a1">
@@ -883,7 +1234,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>81v</folio>
+              <folio>82r</folio>
+              <folio>82v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f58876" alias="l2d20a2">
@@ -891,7 +1246,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>82v</folio>
+              <folio>83r</folio>
+              <folio>83v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f59631" alias="l2d20cl">
@@ -899,7 +1258,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>83v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -910,7 +1271,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>83v</folio>
+              <folio>84r</folio>
+              <folio>84v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f60317" alias="l2d21a1">
@@ -918,7 +1283,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>84v</folio>
+              <folio>85r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f60895" alias="l2d21a2">
@@ -926,7 +1294,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>85r</folio>
+              <folio>85v</folio>
+              <folio>86r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f61446" alias="l2d21a3">
@@ -934,7 +1306,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>86r</folio>
+              <folio>86v</folio>
+              <folio>87r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f62178" alias="l2d21cl">
@@ -942,7 +1318,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>87r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -953,7 +1331,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>87r</folio>
+              <folio>87v</folio>
+              <folio>88r</folio>
+              <folio>88v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f63107" alias="l2d22a1">
@@ -961,7 +1344,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>88v</folio>
+              <folio>89r</folio>
+              <folio>89v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f63981" alias="l2d22a2">
@@ -969,7 +1356,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>89v</folio>
+              <folio>90r</folio>
+              <folio>90v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f64843" alias="l2d22cl">
@@ -977,7 +1368,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>90v</folio>
+              <folio>91r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -988,7 +1382,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>91r</folio>
+              <folio>91v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f65243" alias="l2d23a1">
@@ -996,7 +1393,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>91v</folio>
+              <folio>92r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f65956" alias="l2d23a2">
@@ -1004,7 +1404,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>92r</folio>
+              <folio>92v</folio>
+              <folio>93r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f66715" alias="l2d23cl">
@@ -1012,7 +1416,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>93r</folio>
+              <folio>93v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1023,7 +1430,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>93v</folio>
+              <folio>94r</folio>
+              <folio>94v</folio>
+              <folio>95r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f67874" alias="l2d24a1">
@@ -1031,7 +1443,14 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>95r</folio>
+              <folio>95v</folio>
+              <folio>96r</folio>
+              <folio>96v</folio>
+              <folio>97r</folio>
+              <folio>97v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f69560" alias="l2d24a2">
@@ -1039,7 +1458,13 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>97v</folio>
+              <folio>98r</folio>
+              <folio>98v</folio>
+              <folio>99r</folio>
+              <folio>99v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f70880" alias="l2d24a3">
@@ -1047,7 +1472,14 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>99v</folio>
+              <folio>100r</folio>
+              <folio>100v</folio>
+              <folio>101r</folio>
+              <folio>101v</folio>
+              <folio>102r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f72787" alias="l2d24a4">
@@ -1055,7 +1487,12 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>102r</folio>
+              <folio>102v</folio>
+              <folio>103r</folio>
+              <folio>103v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f73987" alias="l2d24cl">
@@ -1063,7 +1500,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>103v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1074,7 +1513,13 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>103v</folio>
+              <folio>104r</folio>
+              <folio>104v</folio>
+              <folio>105r</folio>
+              <folio>105v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f75113" alias="l2d25a1">
@@ -1082,7 +1527,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>105v</folio>
+              <folio>106r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f75502" alias="l2d25a2">
@@ -1090,7 +1538,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>106r</folio>
+              <folio>106v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f75957" alias="l2d25a3">
@@ -1098,7 +1549,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>106v</folio>
+              <folio>107r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f76399" alias="l2d25a4">
@@ -1106,7 +1560,11 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>106v</folio>
+              <folio>107r</folio>
+              <folio>107v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f76836" alias="l2d25a5">
@@ -1114,7 +1572,11 @@
           <title>Articulus 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>107v</folio>
+              <folio>108r</folio>
+              <folio>108v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f77699" alias="l2d25cl">
@@ -1122,7 +1584,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>108v</folio>
+              <folio>109r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1133,7 +1598,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>109r</folio>
+              <folio>109v</folio>
+              <folio>110r</folio>
+              <folio>110v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f78722" alias="l2d26a1">
@@ -1141,7 +1611,12 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>110v</folio>
+              <folio>111r</folio>
+              <folio>111v</folio>
+              <folio>112r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f80066" alias="l2d26cl">
@@ -1149,7 +1624,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>112r</folio>
+              <folio>112v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1160,7 +1638,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>112v</folio>
+              <folio>113r</folio>
+              <folio>113v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f80863" alias="l2d27a1">
@@ -1168,7 +1650,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>113v</folio>
+              <folio>114r</folio>
+              <folio>114v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f81481" alias="l2d27a2">
@@ -1176,7 +1662,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>114v</folio>
+              <folio>115r</folio>
+              <folio>115v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f82231" alias="l2d27cl">
@@ -1184,7 +1674,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>115v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1195,7 +1687,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>115v</folio>
+              <folio>116r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f82746" alias="l2d28a1">
@@ -1203,7 +1698,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>116r</folio>
+              <folio>116v</folio>
+              <folio>117r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f83454" alias="l2d28a2">
@@ -1211,7 +1710,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>117r</folio>
+              <folio>117v</folio>
+              <folio>118r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f84092" alias="l2d28cl">
@@ -1219,7 +1722,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>118r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1230,7 +1735,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>118r</folio>
+              <folio>118v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f84596" alias="l2d29a1">
@@ -1238,7 +1746,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>118v</folio>
+              <folio>119r</folio>
+              <folio>119v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f85103" alias="l2d29a2">
@@ -1246,7 +1758,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>119v</folio>
+              <folio>120r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f85549" alias="l2d29a3">
@@ -1254,7 +1769,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>120r</folio>
+              <folio>120v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f85945" alias="l2d29cl">
@@ -1262,7 +1780,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>120v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1273,7 +1793,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>120v</folio>
+              <folio>121r</folio>
+              <folio>121v</folio>
+              <folio>122r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f86884" alias="l2d30a1">
@@ -1281,7 +1806,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>122r</folio>
+              <folio>122v</folio>
+              <folio>123r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f87670" alias="l2d30a2">
@@ -1289,7 +1818,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>123r</folio>
+              <folio>123v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f87907" alias="l2d30a3">
@@ -1297,7 +1829,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>123v</folio>
+              <folio>124r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f88304" alias="l2d30a4">
@@ -1305,7 +1840,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>124r</folio>
+              <folio>124v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f88687" alias="l2d30a5">
@@ -1313,7 +1851,13 @@
           <title>Articulus 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>124v</folio>
+              <folio>125r</folio>
+              <folio>125v</folio>
+              <folio>126r</folio>
+              <folio>126v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f90036" alias="l2d30cl">
@@ -1321,7 +1865,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>126v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1332,7 +1878,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>126v</folio>
+              <folio>127r</folio>
+              <folio>127v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f90646" alias="l2d31a1">
@@ -1340,7 +1890,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>127v</folio>
+              <folio>128r</folio>
+              <folio>128v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f91425" alias="l2d31a2">
@@ -1348,7 +1902,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>128v</folio>
+              <folio>129r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f92103" alias="l2d31cl">
@@ -1356,7 +1913,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>129v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1367,7 +1926,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>129v</folio>
+              <folio>130r</folio>
+              <folio>130v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f92863" alias="l2d32a1">
@@ -1375,7 +1938,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>130v</folio>
+              <folio>131r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f93408" alias="l2d32a2">
@@ -1383,7 +1949,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>131r</folio>
+              <folio>131v</folio>
+              <folio>132r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f93831" alias="l2d32a3">
@@ -1391,7 +1961,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>132r</folio>
+              <folio>132v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f94344" alias="l2d32a4">
@@ -1399,7 +1972,11 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>132v</folio>
+              <folio>133r</folio>
+              <folio>133v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f95089" alias="l2d32cl">
@@ -1407,7 +1984,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>133v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1418,7 +1997,12 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>133v</folio>
+              <folio>134r</folio>
+              <folio>134v</folio>
+              <folio>135r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f96164" alias="l2d33a1">
@@ -1426,7 +2010,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>135r</folio>
+              <folio>135v</folio>
+              <folio>136r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f96650" alias="l2d33a2">
@@ -1434,7 +2022,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>136r</folio>
+              <folio>136v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f97207" alias="l2d33a3">
@@ -1442,7 +2033,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>136v</folio>
+              <folio>137r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f97651" alias="l2d33cl">
@@ -1450,7 +2044,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>137r</folio>
+              <folio>137v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1461,7 +2058,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>137v</folio>
+              <folio>138r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f98260" alias="l2d34a1">
@@ -1469,7 +2069,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>138r</folio>
+              <folio>138v</folio>
+              <folio>139r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f99070" alias="l2d34a2">
@@ -1477,7 +2081,12 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>139r</folio>
+              <folio>139v</folio>
+              <folio>140r</folio>
+              <folio>140v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f100085" alias="l2d34cl">
@@ -1485,7 +2094,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>140v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1496,7 +2107,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>141r</folio>
+              <folio>141v</folio>
+              <folio>142r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f101088" alias="l2d35a1">
@@ -1504,7 +2119,13 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>142r</folio>
+              <folio>142v</folio>
+              <folio>143r</folio>
+              <folio>143v</folio>
+              <folio>144r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f102336" alias="l2d35a2">
@@ -1512,7 +2133,12 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>144r</folio>
+              <folio>144v</folio>
+              <folio>145r</folio>
+              <folio>145v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f103488" alias="l2d35cl">
@@ -1520,7 +2146,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>145v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1531,7 +2159,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>145v</folio>
+              <folio>146r</folio>
+              <folio>146v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f104241" alias="l2d36a1">
@@ -1539,7 +2171,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>146v</folio>
+              <folio>147r</folio>
+              <folio>147v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f104689" alias="l2d36a2">
@@ -1547,7 +2183,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>147v</folio>
+              <folio>148r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f105131" alias="l2d36a3">
@@ -1555,7 +2194,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>148r</folio>
+              <folio>148v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f105545" alias="l2d36cl">
@@ -1563,7 +2205,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>148v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1574,7 +2218,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>148v</folio>
+              <folio>149r</folio>
+              <folio>149v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f106172" alias="l2d37a1">
@@ -1582,7 +2230,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>149v</folio>
+              <folio>150r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f106657" alias="l2d37a2">
@@ -1590,7 +2241,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>150r</folio>
+              <folio>150v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f106909" alias="l2d37a3">
@@ -1598,7 +2252,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>150v</folio>
+              <folio>151r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f107373" alias="l2d37a4">
@@ -1606,7 +2263,10 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>151r</folio>
+              <folio>151v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1617,7 +2277,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>151v</folio>
+              <folio>152r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f108039" alias="l2d38prae">
@@ -1625,7 +2288,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>152r</folio>
+              <folio>152v</folio>
+              <folio>153r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f108684" alias="l2d38a1">
@@ -1633,7 +2300,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>153r</folio>
+              <folio>153v</folio>
+              <folio>154r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f109525" alias="l2d38a2">
@@ -1641,7 +2312,15 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>154r</folio>
+              <folio>154v</folio>
+              <folio>155r</folio>
+              <folio>155v</folio>
+              <folio>156r</folio>
+              <folio>156v</folio>
+              <folio>157r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f111603" alias="l2d38a3">
@@ -1649,7 +2328,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>157r</folio>
+              <folio>157v</folio>
+              <folio>158r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f112490" alias="l2d38cl">
@@ -1657,7 +2340,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>158r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1668,7 +2353,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>158r</folio>
+              <folio>158v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f112937" alias="l2d39a1">
@@ -1676,7 +2364,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>158v</folio>
+              <folio>159r</folio>
+              <folio>159v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f113600" alias="l2d39a2">
@@ -1684,7 +2376,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>159v</folio>
+              <folio>160r</folio>
+              <folio>160v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f114224" alias="l2d39a3">
@@ -1692,7 +2388,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>160v</folio>
+              <folio>161r</folio>
+              <folio>161v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f114928" alias="l2d39cl">
@@ -1700,7 +2400,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>161v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1711,7 +2413,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>161v</folio>
+              <folio>162r</folio>
+              <folio>162v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f115544" alias="l2d40a1">
@@ -1719,7 +2425,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>162v</folio>
+              <folio>163r</folio>
+              <folio>163v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f116325" alias="l2d40a2">
@@ -1727,7 +2437,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>163v</folio>
+              <folio>164r</folio>
+              <folio>164v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f117339" alias="l2d40cl">
@@ -1735,7 +2449,10 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>164v</folio>
+              <folio>165r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1746,7 +2463,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>165r</folio>
+              <folio>165v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f117877" alias="l2d41a1">
@@ -1754,7 +2474,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>165v</folio>
+              <folio>166r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f118353" alias="l2d41a2">
@@ -1762,7 +2485,11 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>166r</folio>
+              <folio>166v</folio>
+              <folio>167r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f118937" alias="l2d41cl">
@@ -1770,7 +2497,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>167r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1781,7 +2510,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>167r</folio>
+              <folio>167v</folio>
+              <folio>168r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f119594" alias="l2d42a1">
@@ -1789,7 +2522,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>168r</folio>
+              <folio>168v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f119957" alias="l2d42a2">
@@ -1797,7 +2533,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>169v</folio>
+              <folio>170r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f120532" alias="l2d42a3">
@@ -1805,7 +2544,10 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>169r</folio>
+              <folio>169v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f120933" alias="l2d42a4">
@@ -1813,7 +2555,11 @@
           <title>Articulus 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>169v</folio>
+              <folio>170r</folio>
+              <folio>170v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f121494" alias="l2d42cl">
@@ -1821,7 +2567,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>170v</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1832,7 +2580,11 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>170v</folio>
+              <folio>171r</folio>
+              <folio>171v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f122176" alias="l2d43a1">
@@ -1840,7 +2592,11 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>171v</folio>
+              <folio>172r</folio>
+              <folio>172v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f122746" alias="l2d43a2">
@@ -1848,7 +2604,10 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>172v</folio>
+              <folio>173r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f123364" alias="l2d43a3">
@@ -1856,7 +2615,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>173r</folio>
+              <folio>173v</folio>
+              <folio>174r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f123832" alias="l2d43cl">
@@ -1864,7 +2627,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>174r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1875,7 +2640,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>174r</folio>
+              <folio>174v</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f124277" alias="l2d44a1">
@@ -1883,7 +2651,10 @@
           <title>Articulus 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>174v</folio>
+              <folio>175r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f124550" alias="l2d44a2">
@@ -1891,7 +2662,9 @@
           <title>Articulus 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>175r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f124844" alias="l2d44a3">
@@ -1899,7 +2672,11 @@
           <title>Articulus 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>175r</folio>
+              <folio>175v</folio>
+              <folio>176r</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="kzz7yh-f125549" alias="l2d44cl">
@@ -1907,7 +2684,9 @@
           <title>Circa litteram</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-ve09v2"/>
+            <witness ref="#cod-ve09v2">
+              <folio>176r</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
