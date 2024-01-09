@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Johannes Monachus</authorName>
     <commentaryName>Glossa aurea super Sexto</commentaryName>
@@ -13,9 +15,11 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <witness id="cod-gh333a"><!-- not yet created -->
+      <witness id="cod-gh333a">
+        <!-- not yet created -->
         <slug>cod-gh333a</slug>
-        <title>Paris, 1535</title><!-- publisher Petit -->
+        <title>Paris, 1535</title>
+        <!-- publisher Petit -->
         <initial>cod-gh333a</initial>
         <!--google books copy from Austrian National Library https://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ163712409 
         Signatur/Inv-Nr. etc.
@@ -34,7 +38,6 @@
         <!-- currently no manifest seems to be available -->
       </witness>
     </hasWitnesses>
-    
   </header>
   <div id="body">
     <head>Glossa aurea super Sexto</head>
@@ -44,6 +47,7 @@
       <questionTitle/>
       <hasWitnesses>
         <witness ref="#cod-gh333a">
+          <folio>8r</folio>
         </witness>
       </hasWitnesses>
     </item>
@@ -53,6 +57,8 @@
       <questionTitle/>
       <hasWitnesses>
         <witness ref="#cod-gh333a">
+          <folio>8r</folio>
+          <folio>8v</folio>
         </witness>
       </hasWitnesses>
     </item>
@@ -64,7 +70,9 @@
         <questionTitle>De summa trinitate et fide catholica</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>10r</folio>
+            <folio>10v</folio>
+            <folio>11v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -74,7 +82,8 @@
         <questionTitle>De constitutionibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>12r</folio>
+            <folio>12v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -84,10 +93,16 @@
         <questionTitle>De rescriptis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
-            
-            
-            
+            <folio>23r</folio>
+            <folio>23v</folio>
+            <folio>25r</folio>
+            <folio>27r</folio>
+            <folio>28r</folio>
+            <folio>28v</folio>
+            <folio>30r</folio>
+            <folio>36r</folio>
+            <folio>36v</folio>
+            <folio>43v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -97,7 +112,8 @@
         <questionTitle>De consuetudine</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>47r</folio>
+            <folio>47v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -107,7 +123,8 @@
         <questionTitle>De postulatione praelatorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>56r</folio>
+            <folio>56v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -117,7 +134,46 @@
         <questionTitle>De electione et electi potestate</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>61v</folio>
+            <folio>64r</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>69r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>74r</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+            <folio>81r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+            <folio>91v</folio>
+            <folio>92r</folio>
+            <folio>92v</folio>
+            <folio>93r</folio>
+            <folio>93v</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+            <folio>95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+            <folio>98v</folio>
+            <folio>106r</folio>
+            <folio>108r</folio>
+            <folio>115r</folio>
+            <folio>116v</folio>
+            <folio>118r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -127,7 +183,7 @@
         <questionTitle>De renunciatione</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>125v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -137,7 +193,8 @@
         <questionTitle>De supplenda negligentia praelatorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>125v</folio>
+            <folio>126r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -147,7 +204,8 @@
         <questionTitle>De temporibus ordinationum et qualitate ordinandorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>131r</folio>
+            <folio>131v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -157,7 +215,7 @@
         <questionTitle>De aetate et qualitate et ordine praeficiendorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>136v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -167,7 +225,9 @@
         <questionTitle>De filiis presbyterorum et aliis illegitime natis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>136v</folio>
+            <folio>137r</folio>
+            <folio>138r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -177,7 +237,7 @@
         <questionTitle>De bigamis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>139r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -187,7 +247,10 @@
         <questionTitle>De officio vicarii</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>139r</folio>
+            <folio>139v</folio>
+            <folio>140v</folio>
+            <folio>141r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -197,7 +260,8 @@
         <questionTitle>De officio et potestate iudicis delegati</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>145r</folio>
+            <folio>145v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -207,7 +271,8 @@
         <questionTitle>De officio legati</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>146v</folio>
+            <folio>147r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -217,7 +282,9 @@
         <questionTitle>De officio ordinarii</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>156v</folio>
+            <folio>157r</folio>
+            <folio>159r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -227,7 +294,7 @@
         <questionTitle>De maioritate et obedientia</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>165r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -237,7 +304,8 @@
         <questionTitle>De pactis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>165r</folio>
+            <folio>165v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -247,7 +315,8 @@
         <questionTitle>De procuratoribus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>170v</folio>
+            <folio>171r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -257,7 +326,8 @@
         <questionTitle>De iis, quae vi metusve causa fiunt</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>174r</folio>
+            <folio>174v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -267,7 +337,7 @@
         <questionTitle>De restitutione in integrum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>178r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -277,7 +347,9 @@
         <questionTitle>De arbitris</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>178r</folio>
+            <folio>178v</folio>
+            <folio>180r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -290,7 +362,10 @@
         <questionTitle>De iudiciis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>181v</folio>
+            <folio>182r</folio>
+            <folio>183r</folio>
+            <folio>183v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -300,7 +375,10 @@
         <questionTitle>De foro competenti</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>185r</folio>
+            <folio>185v</folio>
+            <folio>187r</folio>
+            <folio>187v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -310,7 +388,8 @@
         <questionTitle>De litis contestatione</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>190v</folio>
+            <folio>191r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -320,7 +399,7 @@
         <questionTitle>De iuramento calumniae</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>193r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -330,7 +409,8 @@
         <questionTitle>De restitutione spoliatorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>193r</folio>
+            <folio>193v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -340,7 +420,7 @@
         <questionTitle>De dolo et contumacia</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>199r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -350,7 +430,7 @@
         <questionTitle>De eo, qui mittitur in possessionem causa rei servandae</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>199r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -360,7 +440,7 @@
         <questionTitle>Ut lite pendente nihil innovetur</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>199r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -370,7 +450,9 @@
         <questionTitle>De Confessis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>199r</folio>
+            <folio>199v</folio>
+            <folio>202v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -380,7 +462,8 @@
         <questionTitle>De testibus et attestationibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>203v</folio>
+            <folio>204r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -390,7 +473,7 @@
         <questionTitle>De iureiurando</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>212r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -400,6 +483,8 @@
         <questionTitle>De exceptionibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
+            <folio>212r</folio>
+            <folio>212v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -409,7 +494,7 @@
         <questionTitle>De praescriptionibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>218v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -419,7 +504,11 @@
         <questionTitle>De sententia et re iudicata</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>218v</folio>
+            <folio>219r</folio>
+            <folio>223v</folio>
+            <folio>224r</folio>
+            <folio>225r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -429,7 +518,16 @@
         <questionTitle>De appellationibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>226r</folio>
+            <folio>226v</folio>
+            <folio>227r</folio>
+            <folio>228v</folio>
+            <folio>229v</folio>
+            <folio>230r</folio>
+            <folio>231v</folio>
+            <folio>232r</folio>
+            <folio>232v</folio>
+            <folio>234r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -442,7 +540,7 @@
         <questionTitle>De vita et honestate clericorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>246r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -452,7 +550,7 @@
         <questionTitle>De clericis non residentibus in ecclesia vel praebenda</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>246r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -462,7 +560,7 @@
         <questionTitle>De clericis non residentibus in ecclesia vel praebenda</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>246r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -472,7 +570,18 @@
         <questionTitle>De praebendis et dignitatibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>246r</folio>
+            <folio>246v</folio>
+            <folio>251v</folio>
+            <folio>253v</folio>
+            <folio>263v</folio>
+            <folio>267v</folio>
+            <folio>271v</folio>
+            <folio>276r</folio>
+            <folio>277r</folio>
+            <folio>280r</folio>
+            <folio>283r</folio>
+            <folio>288r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -482,7 +591,8 @@
         <questionTitle>De clerico aegrotante vel debilitato</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>291v</folio>
+            <folio>292r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -492,7 +602,7 @@
         <questionTitle>De institutionibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>293v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -502,7 +612,11 @@
         <questionTitle>De concessione praebendae et ecclesiae non vacantis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>293v</folio>
+            <folio>294r</folio>
+            <folio>294v</folio>
+            <folio>295r</folio>
+            <folio>297r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -512,7 +626,7 @@
         <questionTitle>Ne sede vacante aliquid innovetur</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>300v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -522,7 +636,9 @@
         <questionTitle>De rebus ecclesiae non alienandis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>300v</folio>
+            <folio>301r</folio>
+            <folio>303v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -532,7 +648,8 @@
         <questionTitle>De rerum permutatione</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>305v</folio>
+            <folio>306r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -542,7 +659,9 @@
         <questionTitle>De testamentis et ultimis voluntatibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>307v</folio>
+            <folio>308r</folio>
+            <folio>311r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -552,7 +671,10 @@
         <questionTitle>De sepulturis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>311r</folio>
+            <folio>311v</folio>
+            <folio>312r</folio>
+            <folio>314r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -562,7 +684,7 @@
         <questionTitle>De decimis, primitiis et oblationibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>317r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -572,7 +694,8 @@
         <questionTitle>De regularibus et transeuntibus ad religionem</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>317r</folio>
+            <folio>317v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -582,7 +705,8 @@
         <questionTitle>De voto et voti redemptione</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>321r</folio>
+            <folio>321v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -592,7 +716,7 @@
         <questionTitle>De statu regularium</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>324r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -602,7 +726,9 @@
         <questionTitle>De religiosis domibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>324r</folio>
+            <folio>324v</folio>
+            <folio>325r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -612,7 +738,7 @@
         <questionTitle>De capellis monachorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>327r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -622,7 +748,8 @@
         <questionTitle>De iure patronatus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>327r</folio>
+            <folio>327v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -632,7 +759,11 @@
         <questionTitle>De censibus, exactionibus et procurationibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>329r</folio>
+            <folio>329v</folio>
+            <folio>330r</folio>
+            <folio>331r</folio>
+            <folio>331v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -642,7 +773,7 @@
         <questionTitle>De consecratione ecclesiae vel altaris</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>332v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -652,18 +783,20 @@
         <questionTitle>De reliquiis et veneratione sanctorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>332v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="nyf6td-d1e1258" alias="nyf6td-l3t23" type="et-sextus-l3t23">
         <fileName filestem="nyf6td-d1e1258"/>
         <title>Titulus 23</title>
-        <questionTitle>De immunitate ecclesiarum, 
-        Coemeteriorum et aliorum locorum religiosorum</questionTitle>
+        <questionTitle>De immunitate ecclesiarum, Coemeteriorum et aliorum locorum
+          religiosorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>332v</folio>
+            <folio>333r</folio>
+            <folio>334r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -673,7 +806,8 @@
         <questionTitle>De clerici vel monachi saecularibus negotiis se immisceant</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>335v</folio>
+            <folio>336r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -686,7 +820,8 @@
         <questionTitle>De sponsalibus et matrimoniis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>338r</folio>
+            <folio>338v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -696,7 +831,8 @@
         <questionTitle>De desponsatione impuberum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>339r</folio>
+            <folio>339v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -706,7 +842,8 @@
         <questionTitle>De cognatione spirituali</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>340v</folio>
+            <folio>341r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -719,7 +856,8 @@
         <questionTitle>De accusationibus, inquisitionibus et denunciationibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>342r</folio>
+            <folio>342v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -729,7 +867,12 @@
         <questionTitle>De Haereticis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>352r</folio>
+            <folio>352v</folio>
+            <folio>356r</folio>
+            <folio>358v</folio>
+            <folio>359r</folio>
+            <folio>364v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -739,7 +882,8 @@
         <questionTitle>De schismaticis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>366r</folio>
+            <folio>366v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -749,7 +893,9 @@
         <questionTitle>De homicidio</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>368r</folio>
+            <folio>368v</folio>
+            <folio>369v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -759,7 +905,8 @@
         <questionTitle>De usuris</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>375r</folio>
+            <folio>375v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -769,7 +916,7 @@
         <questionTitle>De excessibus praelatorum et subditorum</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>380r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -779,7 +926,11 @@
         <questionTitle>De privilegiis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>380r</folio>
+            <folio>380v</folio>
+            <folio>381v</folio>
+            <folio>385r</folio>
+            <folio>387r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -789,7 +940,8 @@
         <questionTitle>De iniuriis et damno dato</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>390r</folio>
+            <folio>390v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -799,7 +951,11 @@
         <questionTitle>De poenis</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>391r</folio>
+            <folio>391v</folio>
+            <folio>392v</folio>
+            <folio>394r</folio>
+            <folio>394v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -809,18 +965,33 @@
         <questionTitle>De poenitentiis et remissionibus</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>395r</folio>
+            <folio>395v</folio>
           </witness>
         </hasWitnesses>
       </item>
       <item id="nyf6td-d1e1572" alias="nyf6td-l5t11" type="et-sextus-l5t11">
         <fileName filestem="nyf6td-d1e1572"/>
         <title>Titulus 11</title>
-        <questionTitle>De sententia excommunicationis, 
-        suspensionis et interdicti</questionTitle>
+        <questionTitle>De sententia excommunicationis, suspensionis et interdicti</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>397r</folio>
+            <folio>397v</folio>
+            <folio>399r</folio>
+            <folio>399v</folio>
+            <folio>401r</folio>
+            <folio>402v</folio>
+            <folio>404r</folio>
+            <folio>405v</folio>
+            <folio>409r</folio>
+            <folio>410v</folio>
+            <folio>412r</folio>
+            <folio>412v</folio>
+            <folio>413v</folio>
+            <folio>415r</folio>
+            <folio>415v</folio>
+            <folio>417v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -830,7 +1001,10 @@
         <questionTitle>De verborum significatione</questionTitle>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>420r</folio>
+            <folio>420v</folio>
+            <folio>421v</folio>
+            <folio>428r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -840,7 +1014,23 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#cod-gh333a">
-            
+            <folio>430r</folio>
+            <folio>430v</folio>
+            <folio>431v</folio>
+            <folio>432r</folio>
+            <folio>434v</folio>
+            <folio>436r</folio>
+            <folio>438r</folio>
+            <folio>438v</folio>
+            <folio>439r</folio>
+            <folio>439v</folio>
+            <folio>441v</folio>
+            <folio>443v</folio>
+            <folio>444r</folio>
+            <folio>444v</folio>
+            <folio>445r</folio>
+            <folio>445v</folio>
+            <folio>446r</folio>
           </witness>
         </hasWitnesses>
       </item>
