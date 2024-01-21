@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
-    <authorName>Willem Hessels van Est <!-- Guillelmus Estius --></authorName>
+    <authorName>Guillelmus Estius <!--Willem Hessels van Est--></authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
     <commentaryid>bt67yj</commentaryid>
     <commentaryslug>bt67yj</commentaryslug>
@@ -14,6 +14,16 @@
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
+      <witness id="cod-pipoql">
+        <slug>cod-pipoql</slug>
+        <title>Paris 1696, v. 1</title>
+        <initial>cod-pipoql</initial>
+      </witness>
+      <witness id="cod-pip2ql">
+        <slug>cod-pip2ql</slug>
+        <title>Paris 1696, v. 2</title>
+        <initial>cod-pip2ql</initial>
+      </witness>
       <!-- 1615 -->
       <!-- 1672 edition https://books.google.com/books?id=svQyB5Ji3NsC -->
       <!-- 1696 https://books.google.com/books?id=X6sdDG_it9MC -->
@@ -21,379 +31,2479 @@
     <date>1615</date> <!-- date suggested by wikipedia; haven't yet found this edition -->
   </header>
   <div id="body">
-    <div id="bt67yj-d1e61" alias="bt67yj-l1" type="liber1">
+    <head>Commentarius in Libros Sententiarum</head>
+    <div id="bt67yj-a1e61" alias="bt67yj-l1" type="liber1">
       <head>Liber 1</head>
-      <item id="bt67yj-d1e66" alias="bt67yj-l1d1" type="liber1-distinctio1">
-        <fileName filestem="bt67yj-d1e66"/>
-        <title>Distinctio 1</title>
-      </item>
-      <item id="bt67yj-d1e74" alias="bt67yj-l1d2" type="liber1-distinctio2">
-        <fileName filestem="bt67yj-d1e74"/>
-        <title>Distinctio 2</title>
-      </item>
-      <item id="bt67yj-d1e82" alias="bt67yj-l1d3" type="liber1-distinctio3">
-        <fileName filestem="bt67yj-d1e82"/>
-        <title>Distinctio 3</title>
-      </item>
-      <item id="bt67yj-d1e90" alias="bt67yj-l1d4" type="liber1-distinctio4">
-        <fileName filestem="bt67yj-d1e90"/>
-        <title>Distinctio 4</title>
-      </item>
-      <item id="bt67yj-d1e99" alias="bt67yj-l1d5" type="liber1-distinctio5">
-        <fileName filestem="bt67yj-d1e99"/>
-        <title>Distinctio 5</title>
-      </item>
-      <item id="bt67yj-d1e107" alias="bt67yj-l1d6" type="liber1-distinctio6">
-        <fileName filestem="bt67yj-d1e107"/>
-        <title>Distinctio 6</title>
-      </item>
-      <item id="bt67yj-d1e115" alias="bt67yj-l1d7" type="liber1-distinctio7">
-        <fileName filestem="bt67yj-d1e115"/>
-        <title>Distinctio 7</title>
-      </item>
-      <item id="bt67yj-d1e123" alias="bt67yj-l1d8" type="liber1-distinctio8">
-        <fileName filestem="bt67yj-d1e123"/>
-        <title>Distinctio 8</title>
-      </item>
-      <item id="bt67yj-d1e131" alias="bt67yj-l1d9" type="liber1-distinctio9">
-        <fileName filestem="bt67yj-d1e131"/>
-        <title>Distinctio 9</title>
-      </item>
-      <item id="bt67yj-d1e139" alias="bt67yj-l1d10" type="liber1-distinctio10">
-        <fileName filestem="bt67yj-d1e139"/>
-        <title>Distinctio 10</title>
-      </item>
-      <item id="bt67yj-d1e148" alias="bt67yj-l1d11" type="liber1-distinctio11">
-        <fileName filestem="bt67yj-d1e148"/>
-        <title>Distinctio 11</title>
-      </item>
-      <item id="bt67yj-d1e156" alias="bt67yj-l1d12" type="liber1-distinctio12">
-        <fileName filestem="bt67yj-d1e156"/>
-        <title>Distinctio 12</title>
-      </item>
-      <item id="bt67yj-d1e164" alias="bt67yj-l1d13" type="liber1-distinctio13">
-        <fileName filestem="bt67yj-d1e164"/>
-        <title>Distinctio 13</title>
-      </item>
-      <item id="bt67yj-d1e172" alias="bt67yj-l1d14" type="liber1-distinctio14">
-        <fileName filestem="bt67yj-d1e172"/>
-        <title>Distinctio 14</title>
-      </item>
-      <item id="bt67yj-d1e180" alias="bt67yj-l1d15" type="liber1-distinctio15">
-        <fileName filestem="bt67yj-d1e180"/>
-        <title>Distinctio 15</title>
-      </item>
-      <item id="bt67yj-d1e188" alias="bt67yj-l1d16" type="liber1-distinctio16">
-        <fileName filestem="bt67yj-d1e188"/>
-        <title>Distinctio 16</title>
-      </item>
-      <item id="bt67yj-d1e197" alias="bt67yj-l1d17" type="liber1-distinctio17">
-        <fileName filestem="bt67yj-d1e197"/>
-        <title>Distinctio 17</title>
-      </item>
-      <item id="bt67yj-d1e205" alias="bt67yj-l1d18" type="liber1-distinctio18">
-        <fileName filestem="bt67yj-d1e205"/>
-        <title>Distinctio 18</title>
-      </item>
-      <item id="bt67yj-d1e213" alias="bt67yj-l1d19" type="liber1-distinctio19">
-        <fileName filestem="bt67yj-d1e213"/>
-        <title>Distinctio 19</title>
-      </item>
-      <item id="bt67yj-d1e221" alias="bt67yj-l1d20" type="liber1-distinctio20">
-        <fileName filestem="bt67yj-d1e221"/>
-        <title>Distinctio 20</title>
-      </item>
-      <item id="bt67yj-d1e229" alias="bt67yj-l1d21" type="liber1-distinctio21">
-        <fileName filestem="bt67yj-d1e229"/>
-        <title>Distinctio 21</title>
-      </item>
-      <item id="bt67yj-d1e237" alias="bt67yj-l1d22" type="liber1-distinctio22">
-        <fileName filestem="bt67yj-d1e237"/>
-        <title>Distinctio 22</title>
-      </item>
-      <item id="bt67yj-d1e246" alias="bt67yj-l1d23" type="liber1-distinctio23">
-        <fileName filestem="bt67yj-d1e246"/>
-        <title>Distinctio 23</title>
-      </item>
-      <item id="bt67yj-d1e254" alias="bt67yj-l1d24" type="liber1-distinctio24">
-        <fileName filestem="bt67yj-d1e254"/>
-        <title>Distinctio 24</title>
-      </item>
-      <item id="bt67yj-d1e262" alias="bt67yj-l1d25" type="liber1-distinctio25">
-        <fileName filestem="bt67yj-d1e262"/>
-        <title>Distinctio 25</title>
-      </item>
-      <item id="bt67yj-d1e270" alias="bt67yj-l1d26" type="liber1-distinctio26">
-        <fileName filestem="bt67yj-d1e270"/>
-        <title>Distinctio 26</title>
-      </item>
-      <item id="bt67yj-d1e278" alias="bt67yj-l1d27" type="liber1-distinctio27">
-        <fileName filestem="bt67yj-d1e278"/>
-        <title>Distinctio 27</title>
-      </item>
-      <item id="bt67yj-d1e286" alias="bt67yj-l1d28" type="liber1-distinctio28">
-        <fileName filestem="bt67yj-d1e286"/>
-        <title>Distinctio 28</title>
-      </item>
-      <item id="bt67yj-d1e295" alias="bt67yj-l1d29" type="liber1-distinctio29">
-        <fileName filestem="bt67yj-d1e295"/>
-        <title>Distinctio 29</title>
-      </item>
-      <item id="bt67yj-d1e303" alias="bt67yj-l1d30" type="liber1-distinctio30">
-        <fileName filestem="bt67yj-d1e303"/>
-        <title>Distinctio 30</title>
-      </item>
-      <item id="bt67yj-d1e311" alias="bt67yj-l1d31" type="liber1-distinctio31">
-        <fileName filestem="bt67yj-d1e311"/>
-        <title>Distinctio 31</title>
-      </item>
-      <item id="bt67yj-d1e319" alias="bt67yj-l1d32" type="liber1-distinctio32">
-        <fileName filestem="bt67yj-d1e319"/>
-        <title>Distinctio 32</title>
-      </item>
-      <item id="bt67yj-d1e327" alias="bt67yj-l1d33" type="liber1-distinctio33">
-        <fileName filestem="bt67yj-d1e327"/>
-        <title>Distinctio 33</title>
-      </item>
-      <item id="bt67yj-d1e335" alias="bt67yj-l1d34" type="liber1-distinctio34">
-        <fileName filestem="bt67yj-d1e335"/>
-        <title>Distinctio 34</title>
-      </item>
-      <item id="bt67yj-d1e344" alias="bt67yj-l1d35" type="liber1-distinctio35">
-        <fileName filestem="bt67yj-d1e344"/>
-        <title>Distinctio 35</title>
-      </item>
-      <item id="bt67yj-d1e352" alias="bt67yj-l1d36" type="liber1-distinctio36">
-        <fileName filestem="bt67yj-d1e352"/>
-        <title>Distinctio 36</title>
-      </item>
-      <item id="bt67yj-d1e360" alias="bt67yj-l1d37" type="liber1-distinctio37">
-        <fileName filestem="bt67yj-d1e360"/>
-        <title>Distinctio 37</title>
-      </item>
-      <item id="bt67yj-d1e368" alias="bt67yj-l1d38" type="liber1-distinctio38">
-        <fileName filestem="bt67yj-d1e368"/>
-        <title>Distinctio 38</title>
-      </item>
-      <item id="bt67yj-d1e376" alias="bt67yj-l1d39" type="liber1-distinctio39">
-        <fileName filestem="bt67yj-d1e376"/>
-        <title>Distinctio 39</title>
-      </item>
-      <item id="bt67yj-d1e384" alias="bt67yj-l1d40" type="liber1-distinctio40">
-        <fileName filestem="bt67yj-d1e384"/>
-        <title>Distinctio 40</title>
-      </item>
-      <item id="bt67yj-d1e393" alias="bt67yj-l1d41" type="liber1-distinctio41">
-        <fileName filestem="bt67yj-d1e393"/>
-        <title>Distinctio 41</title>
-      </item>
-      <item id="bt67yj-d1e401" alias="bt67yj-l1d42" type="liber1-distinctio42">
-        <fileName filestem="bt67yj-d1e401"/>
-        <title>Distinctio 42</title>
-      </item>
-      <item id="bt67yj-d1e409" alias="bt67yj-l1d43" type="liber1-distinctio43">
-        <fileName filestem="bt67yj-d1e409"/>
-        <title>Distinctio 43</title>
-      </item>
-      <item id="bt67yj-d1e417" alias="bt67yj-l1d44" type="liber1-distinctio44">
-        <fileName filestem="bt67yj-d1e417"/>
-        <title>Distinctio 44</title>
-      </item>
-      <item id="bt67yj-d1e425" alias="bt67yj-l1d45" type="liber1-distinctio45">
-        <fileName filestem="bt67yj-d1e425"/>
-        <title>Distinctio 45</title>
-      </item>
-      <item id="bt67yj-d1e433" alias="bt67yj-l1d46" type="liber1-distinctio46">
-        <fileName filestem="bt67yj-d1e433"/>
-        <title>Distinctio 46</title>
-      </item>
-      <item id="bt67yj-d1e442" alias="bt67yj-l1d47" type="liber1-distinctio47">
-        <fileName filestem="bt67yj-d1e442"/>
-        <title>Distinctio 47</title>
-      </item>
-      <item id="bt67yj-d1e450" alias="bt67yj-l1d48" type="liber1-distinctio48">
-        <fileName filestem="bt67yj-d1e450"/>
-        <title>Distinctio 48</title>
-      </item>
+      <div id="bt67yj-a1e66" alias="bt67yj-l1d1" type="liber1-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="bt67yj-k00005" alias="l1d1c1">
+          <fileName filestem="bt67yj-k00005"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quid uti et frui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k00311" alias="l1d1c2">
+          <fileName filestem="bt67yj-k00311"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quibus rebus fruendum sit et quibus utendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k00595" alias="l1d1c3">
+          <fileName filestem="bt67yj-k00595"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An mercedis intuitu Deo servire liceat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k01096" alias="l1d1c4">
+          <fileName filestem="bt67yj-k01096"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Solvuntur argumenta quaedam in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k01623" alias="l1d1c5">
+          <fileName filestem="bt67yj-k01623"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Utrum virtutibus utendum sit, an 
+            fruendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k01903" alias="l1d1c6">
+          <fileName filestem="bt67yj-k01903"/>
+          <title>Capitulum 6</title>
+          <questionTitle>De iis rebus quae utuntur vel fruuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e74" alias="bt67yj-l1d2" type="liber1-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="bt67yj-k02156" alias="l1d2c1">
+          <fileName filestem="bt67yj-k02156"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Unum esse Deum, non plures</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k02362" alias="l1d2c2">
+          <fileName filestem="bt67yj-k02362"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo intelligendum sit unum esse Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k02665" alias="l1d2c3">
+          <fileName filestem="bt67yj-k02665"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Tres esse Personas in divinis summarie 
+            ostenditur ex Scripturis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k03258" alias="l1d2c4">
+          <fileName filestem="bt67yj-k03258"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Qui praecipui errores circa Trinitatem 
+            extiterint</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k03476" alias="l1d2c5">
+          <fileName filestem="bt67yj-k03476"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Ad generales quasdam contra praedicta 
+            objectiones responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e82" alias="bt67yj-l1d3" type="liber1-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="bt67yj-k03657" alias="l1d3c1">
+          <fileName filestem="bt67yj-k03657"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Deum ex rebus creatis cognosci 
+            posse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k03941" alias="l1d3c2">
+          <fileName filestem="bt67yj-k03941"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Deum esse an demonstratione doceri possit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k04180" alias="l1d3c3">
+          <fileName filestem="bt67yj-k04180"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Responsio ad argumenta in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k04506" alias="l1d3c4">
+          <fileName filestem="bt67yj-k04506"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Utrum Dei notitia omnibus 
+            insit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k05172" alias="l1d3c5">
+          <fileName filestem="bt67yj-k05172"/>
+          <title>Capitulum 5</title>
+          <questionTitle>An solis naturae viribus in Dei notitiam 
+            perveniri possit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k05578" alias="l1d3c6">
+          <fileName filestem="bt67yj-k05578"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Explicatio cujusdam difficultatis circa praedicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k06059" alias="l1d3c7">
+          <fileName filestem="bt67yj-k06059"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Trinitatis mysterium ratione demonstrari 
+            non posse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k06279" alias="l1d3c8">
+          <fileName filestem="bt67yj-k06279"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Quaedam in contrarium argumenta 
+            solvuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k06865" alias="l1d3c9">
+          <fileName filestem="bt67yj-k06865"/>
+          <title>Capitulum 9</title>
+          <questionTitle>In quibus rebus, et quomodo vestigium 
+            Trinitatis inveniatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k06994" alias="l1d3c10">
+          <fileName filestem="bt67yj-k06994"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Imago Trinitatis in quibus et quomodo 
+            reperiatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k07233" alias="l1d3c11">
+          <fileName filestem="bt67yj-k07233"/>
+          <title>Capitulum 11</title>
+          <questionTitle>Trinitatis mysterium ex ternarii numeri 
+            perfectione declaratur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e90" alias="bt67yj-l1d4" type="liber1-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="bt67yj-k07392" alias="l1d4c1">
+          <fileName filestem="bt67yj-k07392"/>
+          <title>Capitulum 1</title>
+          <questionTitle>De varietate vocum quibus utimur de 
+            Deo loquentes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k07676" alias="l1d4c2">
+          <fileName filestem="bt67yj-k07676"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo concretis nominibus utendum 
+            sit in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k07800" alias="l1d4c3">
+          <fileName filestem="bt67yj-k07800"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quod recte dicitur Deus Deum genuisse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k07909" alias="l1d4c4">
+          <fileName filestem="bt67yj-k07909"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Responsio ad argumenta in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k08074" alias="l1d4c5">
+          <fileName filestem="bt67yj-k08074"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Quo sensu quidam dixerint Deum a se 
+            genitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k08395" alias="l1d4c6">
+          <fileName filestem="bt67yj-k08395"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Recte personam de essentia praedicari et contra 
+            cum solutione argumentorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e99" alias="bt67yj-l1d5" type="liber1-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="bt67yj-k08522" alias="l1d5c1">
+          <fileName filestem="bt67yj-k08522"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vtrum essentia divina dicenda sit gignere 
+            vel gigni</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k08760" alias="l1d5c2">
+          <fileName filestem="bt67yj-k08760"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Responsio ad ea quae ex patribus objiciuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k09136" alias="l1d5c3">
+          <fileName filestem="bt67yj-k09136"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Declaratio erroris Abbatis Joachim cum ejus 
+            refutatione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e107" alias="bt67yj-l1d6" type="liber1-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="bt67yj-k09444" alias="l1d6c1">
+          <fileName filestem="bt67yj-k09444"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vtrum voluntate an necessitate pater 
+            filium genuerit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k09760" alias="l1d6c2">
+          <fileName filestem="bt67yj-k09760"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo pater filium consilio genuisse dicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e115" alias="bt67yj-l1d7" type="liber1-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="bt67yj-k09875" alias="l1d7c1">
+          <fileName filestem="bt67yj-k09875"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quid sit in divinis generatio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k10095" alias="l1d7c2">
+          <fileName filestem="bt67yj-k10095"/>
+          <title>Capitulum 2</title>
+          <questionTitle>An generatio in divinis recte vocetur conceptio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k10163" alias="l1d7c3">
+          <fileName filestem="bt67yj-k10163"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An possit a nobis intelligi generatio divina</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k10388" alias="l1d7c4">
+          <fileName filestem="bt67yj-k10388"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Utrum potentia et voluntas gignendi competat 
+            etiam filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k10580" alias="l1d7c5">
+          <fileName filestem="bt67yj-k10580"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Collatio duarum opinionum circa potentiam 
+            generandi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k10883" alias="l1d7c6">
+          <fileName filestem="bt67yj-k10883"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Contra eos qui dicunt filium potuisse gignere 
+            sed noluisse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e123" alias="bt67yj-l1d8" type="liber1-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="bt67yj-k11048" alias="l1d8c1">
+          <fileName filestem="bt67yj-k11048"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quomodo soli Deo competat vere ac proprie esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k11436" alias="l1d8c2">
+          <fileName filestem="bt67yj-k11436"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quod nomen Deo maxime proprium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k11681" alias="l1d8c3">
+          <fileName filestem="bt67yj-k11681"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quomodo praeteritum et futurum Deo 
+            tribuantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k11863" alias="l1d8c4">
+          <fileName filestem="bt67yj-k11863"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Incommutabilem esse Dei naturam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k12055" alias="l1d8c5">
+          <fileName filestem="bt67yj-k12055"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Voluntatem Dei immutabilem esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k12204" alias="l1d8c6">
+          <fileName filestem="bt67yj-k12204"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Responsio ad quaedam in contrarium 
+            argumenta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k12885" alias="l1d8c7">
+          <fileName filestem="bt67yj-k12885"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Solvuntur quae contra immutabilem Dei 
+            voluntatem objiciuntur.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k13320" alias="l1d8c8">
+          <fileName filestem="bt67yj-k13320"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Dei naturam esse perfecte simplicem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k13547" alias="l1d8c9">
+          <fileName filestem="bt67yj-k13547"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Quomodo Deus multiplex et quomodo sine 
+            compositione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k13726" alias="l1d8c10">
+          <fileName filestem="bt67yj-k13726"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Deum in nullo rerum genere collocari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e131" alias="bt67yj-l1d9" type="liber1-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="bt67yj-k13827" alias="l1d9c1">
+          <fileName filestem="bt67yj-k13827"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Personarum in Deo distinctio unde petenda 
+            et qualiter exprimenda</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k14052" alias="l1d9c2">
+          <fileName filestem="bt67yj-k14052"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Filium Dei esse patri coaeternum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k14436" alias="l1d9c3">
+          <fileName filestem="bt67yj-k14436"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Solvuntur objectiones quadam adversus praedicta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k14762" alias="l1d9c4">
+          <fileName filestem="bt67yj-k14762"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quis ordo sit agnoscendus in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k14981" alias="l1d9c5">
+          <fileName filestem="bt67yj-k14981"/>
+          <title>Capitulum 5</title>
+          <questionTitle>An fatendum sit tres esse aeternos et de 
+            similibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k15195" alias="l1d9c6">
+          <fileName filestem="bt67yj-k15195"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Generationem filii Dei nunquam terminari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k15334" alias="l1d9c7">
+          <fileName filestem="bt67yj-k15334"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Utrum filius semper natus, an semper nasci 
+            dicendus sit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k15583" alias="l1d9c8">
+          <fileName filestem="bt67yj-k15583"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Filium Dei esse patri consubstantialem 
+            et proprio Deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k16488" alias="l1d9c9">
+          <fileName filestem="bt67yj-k16488"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Responsio ad quasdam in contrarium objectiones</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e139" alias="bt67yj-l1d10" type="liber1-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="bt67yj-k17077" alias="l1d10c1">
+          <fileName filestem="bt67yj-k17077"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Nomen Spiritus sancti quid significet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k17292" alias="l1d10c2">
+          <fileName filestem="bt67yj-k17292"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quis sit modus processionis Spiritus sancti 
+            ex Patre et Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k17525" alias="l1d10c3">
+          <fileName filestem="bt67yj-k17525"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Amor seu charitas in divinis quomodo 
+            accipiatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k17659" alias="l1d10c4">
+          <fileName filestem="bt67yj-k17659"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quo sensu scriptura Deum charitatem 
+            vocet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k17905" alias="l1d10c5">
+          <fileName filestem="bt67yj-k17905"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Spiritum Sanctum vere et proprie 
+            Deum esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k18358" alias="l1d10c6">
+          <fileName filestem="bt67yj-k18358"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Quaedam in contrarium objectiones diluuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e148" alias="bt67yj-l1d11" type="liber1-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="bt67yj-k18675" alias="l1d11c1">
+          <fileName filestem="bt67yj-k18675"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Spiritum sanctum ex filio procedere per 
+            scripturas ostenditur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k19029" alias="l1d11c2">
+          <fileName filestem="bt67yj-k19029"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Ejusdem probatio ex patribus et conciliis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k19560" alias="l1d11c3">
+          <fileName filestem="bt67yj-k19560"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Eadem doctrina rationibus confirmata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k19742" alias="l1d11c4">
+          <fileName filestem="bt67yj-k19742"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Respondetur ad argumenta Graecorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e156" alias="bt67yj-l1d12" type="liber1-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="bt67yj-k20729" alias="l1d12c1">
+          <fileName filestem="bt67yj-k20729"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Spiritum sanctum nec prius nec plenius a 
+            patre procedere quam a filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k20886" alias="l1d12c2">
+          <fileName filestem="bt67yj-k20886"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Patrem et Filium esse unum principium 
+            Spiritus sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k21035" alias="l1d12c3">
+          <fileName filestem="bt67yj-k21035"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quo sensu spiritus a patre procedere dicatur 
+            principaliter, proprie et per filium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k21176" alias="l1d12c4">
+          <fileName filestem="bt67yj-k21176"/>
+          <title>Capitulum 4</title>
+          <questionTitle>An immediate procedat Spiritus sanctus a patre</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e164" alias="bt67yj-l1d13" type="liber1-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="bt67yj-k21222" alias="l1d13c1">
+          <fileName filestem="bt67yj-k21222"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Explicatur discrimen inter generationem 
+            filii et processionem Spiritus sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k21519" alias="l1d13c2">
+          <fileName filestem="bt67yj-k21519"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quaedam in contrarium argumenta solvuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k21889" alias="l1d13c3">
+          <fileName filestem="bt67yj-k21889"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Utrum Spiritus sanctus ingenitus dici debeat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e172" alias="bt67yj-l1d14" type="liber1-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="bt67yj-k22078" alias="l1d14c1">
+          <fileName filestem="bt67yj-k22078"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Esse quandam temporalem Spiritus sancti 
+            processionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k22263" alias="l1d14c2">
+          <fileName filestem="bt67yj-k22263"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quid intersit inter missionem et dationem 
+            Spiritus sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k22372" alias="l1d14c3">
+          <fileName filestem="bt67yj-k22372"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quomodo Spiritus sanctus dari dicatur 
+            hominibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k22702" alias="l1d14c4">
+          <fileName filestem="bt67yj-k22702"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Qua ratione Spiritus sanctus hominem 
+            inhabitare dicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k22829" alias="l1d14c5">
+          <fileName filestem="bt67yj-k22829"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Utrum fatendum sit homines dare Spiritum 
+            sanctum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e180" alias="bt67yj-l1d15" type="liber1-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="bt67yj-k23082" alias="l1d15c1">
+          <fileName filestem="bt67yj-k23082"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vtrum Spiritus sanctus detur aut 
+            mittatur a seipso</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k23403" alias="l1d15c2">
+          <fileName filestem="bt67yj-k23403"/>
+          <title>Capitulum 2</title>
+          <questionTitle>An filius a spiritu sancto vel a seipso 
+            missus sit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k23715" alias="l1d15c3">
+          <fileName filestem="bt67yj-k23715"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Multiplicem esse missionem Filii Dei.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e188" alias="bt67yj-l1d16" type="liber1-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="bt67yj-k23899" alias="l1d16c1">
+          <fileName filestem="bt67yj-k23899"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quomodo visibiliter missi filius 
+            et Spiritus sanctus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k24097" alias="l1d16c2">
+          <fileName filestem="bt67yj-k24097"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quo sensu dictum sit patrem esse filio 
+            majorem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k24449" alias="l1d16c3">
+          <fileName filestem="bt67yj-k24449"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Removetur objectio Arianorum contra priorem 
+            expositionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k24646" alias="l1d16c4">
+          <fileName filestem="bt67yj-k24646"/>
+          <title>Capitulum 4</title>
+          <questionTitle>An dici possit patrem esse majorem Spiritu sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e197" alias="bt67yj-l1d17" type="liber1-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="bt67yj-k24785" alias="l1d17c1">
+          <fileName filestem="bt67yj-k24785"/>
+          <title>Capitulum 1</title>
+          <questionTitle>An Spiritus sanctus sit ea charitas qua 
+            homo Deum et proximum diligit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k24896" alias="l1d17c2">
+          <fileName filestem="bt67yj-k24896"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Praeter spiritum sanctum esse in homine charitatem 
+            creatam, ex scripturis docetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k25224" alias="l1d17c3">
+          <fileName filestem="bt67yj-k25224"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Ejusdem probatio ex Patribus et conciliis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k25547" alias="l1d17c4">
+          <fileName filestem="bt67yj-k25547"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Eadem doctrina rationibus confirmata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k25762" alias="l1d17c5">
+          <fileName filestem="bt67yj-k25762"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Responsio ad argumenta Magistri et aliorum.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e205" alias="bt67yj-l1d18" type="liber1-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="bt67yj-k26210" alias="l1d18c1">
+          <fileName filestem="bt67yj-k26210"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Spiritum sanctum alia ratione donum
+            alia datum dici</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k26415" alias="l1d18c2">
+          <fileName filestem="bt67yj-k26415"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Utrum etiam filius donum dici possit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k26544" alias="l1d18c3">
+          <fileName filestem="bt67yj-k26544"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Cui donabilis sit Spiritus sanctus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k26616" alias="l1d18c4">
+          <fileName filestem="bt67yj-k26616"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quomodo filius nascendo et Spiritus sanctus 
+            procedendo essentiam accipiant</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k26775" alias="l1d18c5">
+          <fileName filestem="bt67yj-k26775"/>
+          <title>Capitulum 5</title>
+          <questionTitle>An filius dici possit noster, sicut Pater 
+            et Spiritus sanctus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e213" alias="bt67yj-l1d19" type="liber1-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="bt67yj-k26909" alias="l1d19c1">
+          <fileName filestem="bt67yj-k26909"/>
+          <title>Capitulum 1</title>
+          <questionTitle>AEqualitas personarum in divinis probatur 
+            et explicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k27147" alias="l1d19c2">
+          <fileName filestem="bt67yj-k27147"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quo sensu personarum unaquaeque in alia 
+            esse dicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k27405" alias="l1d19c3">
+          <fileName filestem="bt67yj-k27405"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quomodo tres personae sint unum natura.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k27619" alias="l1d19c4">
+          <fileName filestem="bt67yj-k27619"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Cur Deus non triplex sed trinus dicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e221" alias="bt67yj-l1d20" type="liber1-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="bt67yj-k27784" alias="l1d20c1">
+          <fileName filestem="bt67yj-k27784"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Tres personas potentia esse aequales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k28075" alias="l1d20c2">
+          <fileName filestem="bt67yj-k28075"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Ad objectiones responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k28278" alias="l1d20c3">
+          <fileName filestem="bt67yj-k28278"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Inseparabilia ee Trinitatis opera</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k28463" alias="l1d20c4">
+          <fileName filestem="bt67yj-k28463"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Respondetur ad objectiones</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e229" alias="bt67yj-l1d21" type="liber1-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="bt67yj-k28775" alias="l1d21c1">
+          <fileName filestem="bt67yj-k28775"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quomodo vox exclusiva, solus, Dec 
+            tribuatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k28941" alias="l1d21c2">
+          <fileName filestem="bt67yj-k28941"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo dictiones exclusivae personis divinis 
+            tribuantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e237" alias="bt67yj-l1d22" type="liber1-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="bt67yj-k29140" alias="l1d22c1">
+          <fileName filestem="bt67yj-k29140"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quaedam observationes circa nomina 
+            Deo attributa</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k29278" alias="l1d22c2">
+          <fileName filestem="bt67yj-k29278"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Multiplex divisio nominum divinorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e246" alias="bt67yj-l1d23" type="liber1-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="bt67yj-k29479" alias="l1d23c1">
+          <fileName filestem="bt67yj-k29479"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quid nomine personae significetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k29629" alias="l1d23c2">
+          <fileName filestem="bt67yj-k29629"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Utrum persona essentiam an relationem significet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k29810" alias="l1d23c3">
+          <fileName filestem="bt67yj-k29810"/>
+          <title>Capitulum 3</title>
+          <questionTitle>De Graecis vocabulis hypostasis et usiae, 
+            et Latinis respondentibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k30114" alias="l1d23c4">
+          <fileName filestem="bt67yj-k30114"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quomodo in Trinitate nec diversitas sit nec 
+            singularitas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e254" alias="bt67yj-l1d24" type="liber1-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="bt67yj-k30238" alias="l1d24c1">
+          <fileName filestem="bt67yj-k30238"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vnitas et numerus quomodo accipienda 
+            in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e262" alias="bt67yj-l1d25" type="liber1-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="bt67yj-k30445" alias="l1d25c1">
+          <fileName filestem="bt67yj-k30445"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Rationes quibus docetur personam et 
+            essentiam non idem significare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k30570" alias="l1d25c2">
+          <fileName filestem="bt67yj-k30570"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Respondetur ad rationes in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k30763" alias="l1d25c3">
+          <fileName filestem="bt67yj-k30763"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Res et ens in divinis quomodo sumantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e270" alias="bt67yj-l1d26" type="liber1-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="bt67yj-k30867" alias="l1d26c1">
+          <fileName filestem="bt67yj-k30867"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quae sint divinarum personarum notiones 
+            et proprietates</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k31047" alias="l1d26c2">
+          <fileName filestem="bt67yj-k31047"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Ad dubia quadam responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k31207" alias="l1d26c3">
+          <fileName filestem="bt67yj-k31207"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quae secundum substantiam de Deo dicantur, et 
+            quibus relationibus personae distinguantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k31313" alias="l1d26c4">
+          <fileName filestem="bt67yj-k31313"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Multipliciter in scriptura filios Dei vocari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e278" alias="bt67yj-l1d27" type="liber1-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="bt67yj-k31567" alias="l1d27c1">
+          <fileName filestem="bt67yj-k31567"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Filium esse et genitum esse, quo ordine 
+            se habeant</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k31701" alias="l1d27c2">
+          <fileName filestem="bt67yj-k31701"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Verbi appellatio in divinis, unde accepta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k31851" alias="l1d27c3">
+          <fileName filestem="bt67yj-k31851"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quid Graece λόγς, et quomodo Latine 
+            reddendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32006" alias="l1d27c4">
+          <fileName filestem="bt67yj-k32006"/>
+          <title>Capitulum 4</title>
+          <questionTitle>In quibus consentiant verbum divinum et 
+            humanum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32237" alias="l1d27c5">
+          <fileName filestem="bt67yj-k32237"/>
+          <title>Capitulum 5</title>
+          <questionTitle>In quibus discrepet verbum divinum ab humano</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32338" alias="l1d27c6">
+          <fileName filestem="bt67yj-k32338"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Multiplex verbi divini respectu ad creaturas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32416" alias="l1d27c7">
+          <fileName filestem="bt67yj-k32416"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Nomen ac proprietatem verbi, soli filio competere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32578" alias="l1d27c8">
+          <fileName filestem="bt67yj-k32578"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Ad quadam in contrarium argumenta, responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k32990" alias="l1d27c9">
+          <fileName filestem="bt67yj-k32990"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Filium Dei eumque solum esse imaginem 
+            patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k33248" alias="l1d27c10">
+          <fileName filestem="bt67yj-k33248"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Quae fuerit Graecorum de imagine sententia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e286" alias="bt67yj-l1d28" type="liber1-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="bt67yj-k33408" alias="l1d28c1">
+          <fileName filestem="bt67yj-k33408"/>
+          <title>Capitulum 11</title>
+          <questionTitle>Ingeniti nomen quare soli patri attributum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k33537" alias="l1d28c2">
+          <fileName filestem="bt67yj-k33537"/>
+          <title>Capitulum 12</title>
+          <questionTitle>Utrum nomen ingeniti substantiam an 
+            relationem significet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k33648" alias="l1d28c3">
+          <fileName filestem="bt67yj-k33648"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An divina natura dicit possit ingenita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k33753" alias="l1d28c4">
+          <fileName filestem="bt67yj-k33753"/>
+          <title>Capitulum 4</title>
+          <questionTitle>An filio et spiritui sancto aliqua competat 
+            negativa notio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e295" alias="bt67yj-l1d29" type="liber1-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="bt67yj-k33863" alias="l1d29c1">
+          <fileName filestem="bt67yj-k33863"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Principii nomen Deo attributum quid 
+            significet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k34070" alias="l1d29c2">
+          <fileName filestem="bt67yj-k34070"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Inter principium et causam quid intersit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e303" alias="bt67yj-l1d30" type="liber1-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="bt67yj-k34262" alias="l1d30c1">
+          <fileName filestem="bt67yj-k34262"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quae nomina Deo tantum ex tempore 
+            conveniant</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k34519" alias="l1d30c2">
+          <fileName filestem="bt67yj-k34519"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Utrum Deus ex tempore, an ab aeterno 
+            sit Dominus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e311" alias="bt67yj-l1d31" type="liber1-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="bt67yj-k34815" alias="l1d31c1">
+          <fileName filestem="bt67yj-k34815"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Aequalitas et similitudo divinarum 
+            personarum quomodo sit accipienda</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k35003" alias="l1d31c2">
+          <fileName filestem="bt67yj-k35003"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Appropriata divinarum personarum quae 
+            dicantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k35116" alias="l1d31c3">
+          <fileName filestem="bt67yj-k35116"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Appropriata ab Hilario assignata explicantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k35433" alias="l1d31c4">
+          <fileName filestem="bt67yj-k35433"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quomodo dicat Augustinus imaginem coaequari 
+            exemplari, non contra</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k35558" alias="l1d31c5">
+          <fileName filestem="bt67yj-k35558"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Appropriata ab Augustino assignata explicantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e319" alias="bt67yj-l1d32" type="liber1-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="bt67yj-k35715" alias="l1d32c1">
+          <fileName filestem="bt67yj-k35715"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vtrum Pater et Filius se mutuo diligant 
+            Spiritu sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k36043" alias="l1d32c2">
+          <fileName filestem="bt67yj-k36043"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Utrum pater sit Sapiens sapientia 
+            genita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k36250" alias="l1d32c3">
+          <fileName filestem="bt67yj-k36250"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An recte dicatur filius agere a seipso</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e327" alias="bt67yj-l1d33" type="liber1-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="bt67yj-k36493" alias="l1d33c1">
+          <fileName filestem="bt67yj-k36493"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Relationes personarum in divinis reipsa 
+            distinctas esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k36643" alias="l1d33c2">
+          <fileName filestem="bt67yj-k36643"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Relationes personales nec a personis, nec ab essentia 
+            reipsa distingui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k36795" alias="l1d33c3">
+          <fileName filestem="bt67yj-k36795"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Refelluntur errores circa ea, quibus persona 
+            distinguuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k36993" alias="l1d33c4">
+          <fileName filestem="bt67yj-k36993"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Responsio ad objectiones in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e335" alias="bt67yj-l1d34" type="liber1-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="bt67yj-k37172" alias="l1d34c1">
+          <fileName filestem="bt67yj-k37172"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quid intersit inter naturam et personam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k37309" alias="l1d34c2">
+          <fileName filestem="bt67yj-k37309"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo Hilarius dixerit aliud esse naturam, 
+            aliud rem naturae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k37458" alias="l1d34c3">
+          <fileName filestem="bt67yj-k37458"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quare patri in divinis approprietur potentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k37590" alias="l1d34c4">
+          <fileName filestem="bt67yj-k37590"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Cur filio approprietur sapientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k37719" alias="l1d34c5">
+          <fileName filestem="bt67yj-k37719"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Cur bonitas approprietur Spiritui sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e344" alias="bt67yj-l1d35" type="liber1-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="bt67yj-k37866" alias="l1d35c1">
+          <fileName filestem="bt67yj-k37866"/>
+          <title>Capitulum 1</title>
+          <questionTitle>De scientia Dei, ejusque partibus 
+            summaria annotatio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k38139" alias="l1d35c2">
+          <fileName filestem="bt67yj-k38139"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Utrum praescientia potuerit non esse in Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e352" alias="bt67yj-l1d36" type="liber1-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="bt67yj-k38278" alias="l1d36c1">
+          <fileName filestem="bt67yj-k38278"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Omnia esse in Deo secundum ideas, non 
+            secundum essentiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k38519" alias="l1d36c2">
+          <fileName filestem="bt67yj-k38519"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Mala non esse in Deo, aut cum Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k38828" alias="l1d36c4">
+          <fileName filestem="bt67yj-k38828"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Omnia ex ipso, per ipsum et in ipso, quomodo 
+            intelligendum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e360" alias="bt67yj-l1d37" type="liber1-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="bt67yj-k39009" alias="l1d37c1">
+          <fileName filestem="bt67yj-k39009"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Deum esse ubique et in omnibus rebus, 
+            idque tribus modis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k39381" alias="l1d37c2">
+          <fileName filestem="bt67yj-k39381"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Deum in quibusdam esse peculiari modo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k39494" alias="l1d37c3">
+          <fileName filestem="bt67yj-k39494"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quomodo Deus sit in loco, et quomodo in tempore</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k39706" alias="l1d37c4">
+          <fileName filestem="bt67yj-k39706"/>
+          <title>Capitulum 4</title>
+          <questionTitle>An Deo proprium sit esse ubique</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k39888" alias="l1d37c5">
+          <fileName filestem="bt67yj-k39888"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Ubi fuerit Deus ante mundum conditum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k40308" alias="l1d37c6">
+          <fileName filestem="bt67yj-k40308"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Quare Deus rerum in quibus est, sordibus 
+            non inquinetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e368" alias="bt67yj-l1d38" type="liber1-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="bt67yj-k40386" alias="l1d38c1">
+          <fileName filestem="bt67yj-k40386"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Vtrum Dei scientia sit causa rerum 
+            cognitarum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k40608" alias="l1d38c2">
+          <fileName filestem="bt67yj-k40608"/>
+          <title>Capitulum 2</title>
+          <questionTitle>An res cognitae sint causa scientiae Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k40778" alias="l1d38c3">
+          <fileName filestem="bt67yj-k40778"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Praescientiam Dei ad omnia futura etiam 
+            contingentia extendi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k41065" alias="l1d38c4">
+          <fileName filestem="bt67yj-k41065"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Soli Deo competere futurorum omnium 
+            praescientiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k41242" alias="l1d38c5">
+          <fileName filestem="bt67yj-k41242"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Solvuntur ea quae contra Dei praescientiam 
+            objiciuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k41491" alias="l1d38c6">
+          <fileName filestem="bt67yj-k41491"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Praescientiam Dei non adferre necessitatem 
+            rebus praevisis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k41725" alias="l1d38c7">
+          <fileName filestem="bt67yj-k41725"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Distinctio triplicis necessitatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k41892" alias="l1d38c8">
+          <fileName filestem="bt67yj-k41892"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Solvuntur argumenta, quae ex praescientia 
+            colligunt eventuum necessitatem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k42299" alias="l1d38c9">
+          <fileName filestem="bt67yj-k42299"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Providentiam Dei non adferre necessitatem rebus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k42586" alias="l1d38c10">
+          <fileName filestem="bt67yj-k42586"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Respondetur ad argumenta in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e376" alias="bt67yj-l1d39" type="liber1-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="bt67yj-k43131" alias="l1d39c1">
+          <fileName filestem="bt67yj-k43131"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Scientiam Dei immutabilem esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k43317" alias="l1d39c2">
+          <fileName filestem="bt67yj-k43317"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Scientia visionis in Deo, utrum mutabilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k43414" alias="l1d39c3">
+          <fileName filestem="bt67yj-k43414"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Scientia Dei circa propositiones, quatenus 
+            variari possit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k43669" alias="l1d39c4">
+          <fileName filestem="bt67yj-k43669"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Providentia Dei quae sit, et qui actus eam 
+            exequentes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k43929" alias="l1d39c5">
+          <fileName filestem="bt67yj-k43929"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Omnia subjecta esse providentiae divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k44712" alias="l1d39c7">
+          <fileName filestem="bt67yj-k44712"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Actus humanos subesse providentiae Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k45193" alias="l1d39c8">
+          <fileName filestem="bt67yj-k45193"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Utrum Deus omnia provideat immediate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k45540" alias="l1d39c9">
+          <fileName filestem="bt67yj-k45540"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Utrum peccata subjecta sint providentiae divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k45703" alias="l1d39c10">
+          <fileName filestem="bt67yj-k45703"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Ad ea quae contra universalem Dei 
+            providentiam objiciuntur responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e384" alias="bt67yj-l1d40" type="liber1-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="bt67yj-k46089" alias="l1d40c1">
+          <fileName filestem="bt67yj-k46089"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Praedestinationis nomine quid significetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k46405" alias="l1d40c2">
+          <fileName filestem="bt67yj-k46405"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Praedestinatio, dilectio, electio quo differant, 
+            et quo referantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k46652" alias="l1d40c3">
+          <fileName filestem="bt67yj-k46652"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Praedestinati quibus appellentur nominibus 
+            in scriptura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k46948" alias="l1d40c4">
+          <fileName filestem="bt67yj-k46948"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Contra eos qui non omnes salvandos, volunt esse 
+            praedestinatos</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k47441" alias="l1d40c5">
+          <fileName filestem="bt67yj-k47441"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Ad objectionem praecipuam respondetur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k47630" alias="l1d40c6">
+          <fileName filestem="bt67yj-k47630"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Cujus gratiae praeparatio sit hominis 
+            praedestinatio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k47966" alias="l1d40c7">
+          <fileName filestem="bt67yj-k47966"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Qui sint effectus praedestinationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k48537" alias="l1d40c8">
+          <fileName filestem="bt67yj-k48537"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Utrum praedestinatio ad gloriam prior sit ea, 
+            quae ad gratiam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k49100" alias="l1d40c9">
+          <fileName filestem="bt67yj-k49100"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Quid reprobatio et quomodo reprobos scriptura 
+            appellet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k49464" alias="l1d40c10">
+          <fileName filestem="bt67yj-k49464"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Qui effectus in reprobationem referendi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k49885" alias="l1d40c11">
+          <fileName filestem="bt67yj-k49885"/>
+          <title>Capitulum 11</title>
+          <questionTitle>Utrum permissio peccati sit effectus reprobationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k50938" alias="l1d40c12">
+          <fileName filestem="bt67yj-k50938"/>
+          <title>Capitulum 12</title>
+          <questionTitle>Non omnes reprobos damnari propter originale 
+            peccatum, cum explicatione locorum Augustini</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k51361" alias="l1d40c13">
+          <fileName filestem="bt67yj-k51361"/>
+          <title>Capitulum 13</title>
+          <questionTitle>Reprobationem Dei non esse causam peccatorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k51711" alias="l1d40c14">
+          <fileName filestem="bt67yj-k51711"/>
+          <title>Capitulum 14</title>
+          <questionTitle>Responsio ad argumenta adversariorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k52616" alias="l1d40c15">
+          <fileName filestem="bt67yj-k52616"/>
+          <title>Capitulum 15</title>
+          <questionTitle>Praedestinatione et reprobatione non tolli 
+            libertatem arbitrii</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k52875" alias="l1d40c16">
+          <fileName filestem="bt67yj-k52875"/>
+          <title>Capitulum 16</title>
+          <questionTitle>Ad objectiones in contrarium responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k53365" alias="l1d40c17">
+          <fileName filestem="bt67yj-k53365"/>
+          <title>Capitulum 17</title>
+          <questionTitle>Utrum praedestinatus damnari possit, et 
+            reprobus salvari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k53525" alias="l1d40c18">
+          <fileName filestem="bt67yj-k53525"/>
+          <title>Capitulum 18</title>
+          <questionTitle>Ad ea quae dictis videntur adversa, responsio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k53808" alias="l1d40c19">
+          <fileName filestem="bt67yj-k53808"/>
+          <title>Capitulum 19</title>
+          <questionTitle>Praedestinatum peccare et reprobum. 
+            justificari posse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k54023" alias="l1d40c20">
+          <fileName filestem="bt67yj-k54023"/>
+          <title>Capitulum 20</title>
+          <questionTitle>Quaedam in contrarium objectiones solvuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k54481" alias="l1d40c21">
+          <fileName filestem="bt67yj-k54481"/>
+          <title>Capitulum 21</title>
+          <questionTitle>Praedestinationem ac reprobationem Dei certissimam et invariabilem esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k54945" alias="l1d40c22">
+          <fileName filestem="bt67yj-k54945"/>
+          <title>Capitulum 22</title>
+          <questionTitle>Solutio eorum quae contra dictam certitudinem 
+            objiciuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k55964" alias="l1d40c23">
+          <fileName filestem="bt67yj-k55964"/>
+          <title>Capitulum 23</title>
+          <questionTitle>Quis sit numerus electorum et reproborum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k56288" alias="l1d40c24">
+          <fileName filestem="bt67yj-k56288"/>
+          <title>Capitulum 24</title>
+          <questionTitle>Neminem in hac vita certum esse de sua 
+            praedestinatione vel reprobatione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k56793" alias="l1d40c25">
+          <fileName filestem="bt67yj-k56793"/>
+          <title>Capitulum 25</title>
+          <questionTitle>Quarumdam objectionum solutio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e393" alias="bt67yj-l1d41" type="liber1-distinctio41">
+        <head>Distinctio 41</head>
+        <item id="bt67yj-k57160" alias="l1d41c1">
+          <fileName filestem="bt67yj-k57160"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Variae recensentur opiniones circa causam.
+            praedestinationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k57629" alias="l1d41c2">
+          <fileName filestem="bt67yj-k57629"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quomodo intelligendum praedestinationem 
+            non esse ex meritis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k57917" alias="l1d41c3">
+          <fileName filestem="bt67yj-k57917"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Merita praevisa non esse causam praedestinationis 
+            ex scripturis ostenditur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k58462" alias="l1d41c4">
+          <fileName filestem="bt67yj-k58462"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Ejusdem doctrinae probatio ex patribus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k59034" alias="l1d41c5">
+          <fileName filestem="bt67yj-k59034"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Eadem doctrina rationibus confirmata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k59486" alias="l1d41c6">
+          <fileName filestem="bt67yj-k59486"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Praevisam gratiae acceptationem non esse 
+            praedestinationis causam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k60093" alias="l1d41c7">
+          <fileName filestem="bt67yj-k60093"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Objectionum ex patribus et scripturis adversus 
+            praedicta solutio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k60774" alias="l1d41c8">
+          <fileName filestem="bt67yj-k60774"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Objectiones ex Patribus solvuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k62289" alias="l1d41c9">
+          <fileName filestem="bt67yj-k62289"/>
+          <title>Capitulum 9</title>
+          <questionTitle>Solvuntur argumenta ex ratione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k63170" alias="l1d41c10">
+          <fileName filestem="bt67yj-k63170"/>
+          <title>Capitulum 10</title>
+          <questionTitle>Praedestinationem non praesupponere praescientiam
+            operum conditionatam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k63605" alias="l1d41c11">
+          <fileName filestem="bt67yj-k63605"/>
+          <title>Capitulum 11</title>
+          <questionTitle>Solvuntur opinionis jam dictae argumenta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k64096" alias="l1d41c12">
+          <fileName filestem="bt67yj-k64096"/>
+          <title>Capitulum 12</title>
+          <questionTitle>An praedestinatio conjunctum habeat respectum 
+            praescientiae ad nostram cooperationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k64611" alias="l1d41c13">
+          <fileName filestem="bt67yj-k64611"/>
+          <title>Capitulum 13</title>
+          <questionTitle>Utrum angelorum electio fuerit. 
+            ex praevisis meritis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k65739" alias="l1d41c14">
+          <fileName filestem="bt67yj-k65739"/>
+          <title>Capitulum 14</title>
+          <questionTitle>Proponuntur argumenta diversae opinionis 
+            cum responsione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k66681" alias="l1d41c15">
+          <fileName filestem="bt67yj-k66681"/>
+          <title>Capitulum 15</title>
+          <questionTitle>Utrum reprobatio sit ex praevisis meritis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k67282" alias="l1d41c16">
+          <fileName filestem="bt67yj-k67282"/>
+          <title>Capitulum 16</title>
+          <questionTitle>Argumenta pro parte negativa</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k68144" alias="l1d41c17">
+          <fileName filestem="bt67yj-k68144"/>
+          <title>Capitulum 17</title>
+          <questionTitle>Quaedam notanda pro solutione quaestionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k68501" alias="l1d41c18">
+          <fileName filestem="bt67yj-k68501"/>
+          <title>Capitulum 18</title>
+          <questionTitle>Respondetur ad argumenta proposita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e401" alias="bt67yj-l1d42" type="liber1-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="bt67yj-k69091" alias="l1d42c1">
+          <fileName filestem="bt67yj-k69091"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quae sit potentia in Deo, et quomodo 
+            dicatur omnipotens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k69408" alias="l1d42c2">
+          <fileName filestem="bt67yj-k69408"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Objectionum solutio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e409" alias="bt67yj-l1d43" type="liber1-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="bt67yj-k69705" alias="l1d43c1">
+          <fileName filestem="bt67yj-k69705"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Deum posse facere quae non facit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k70152" alias="l1d43c2">
+          <fileName filestem="bt67yj-k70152"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Argumenta adversariorum diluuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e417" alias="bt67yj-l1d44" type="liber1-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="bt67yj-k70623" alias="l1d44c1">
+          <fileName filestem="bt67yj-k70623"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Deum posse facere meliora iis quae facit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k70725" alias="l1d44c2">
+          <fileName filestem="bt67yj-k70725"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Solutio eorum quae objiciuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k71065" alias="l1d44c3">
+          <fileName filestem="bt67yj-k71065"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An facere possit Deus ut praeterita non fuerint</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k71184" alias="l1d44c4">
+          <fileName filestem="bt67yj-k71184"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Solvuntur objectiones</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e425" alias="bt67yj-l1d45" type="liber1-distinctio45">
+        <head>Distinctio 45</head>
+        <item id="bt67yj-k71337" alias="l1d45c1">
+          <fileName filestem="bt67yj-k71337"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Deum non necessario sed libere operari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k71534" alias="l1d45c2">
+          <fileName filestem="bt67yj-k71534"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Objectiones solvuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k72016" alias="l1d45c3">
+          <fileName filestem="bt67yj-k72016"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Voluntatem Dei esse omnium rerum 
+            causam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k72214" alias="l1d45c4">
+          <fileName filestem="bt67yj-k72214"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Voluntatis divinae nullam esse causam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k72479" alias="l1d45c5">
+          <fileName filestem="bt67yj-k72479"/>
+          <title>Capitulum 5</title>
+          <questionTitle>An voluntas Dei sit causa malorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k72948" alias="l1d45c6">
+          <fileName filestem="bt67yj-k72948"/>
+          <title>Capitulum 6</title>
+          <questionTitle>An Dei voluntas necessitatem rebus imponat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k73138" alias="l1d45c7">
+          <fileName filestem="bt67yj-k73138"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Varia acceptio voluntatis Dei explicatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k73541" alias="l1d45c8">
+          <fileName filestem="bt67yj-k73541"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Alia quadam voluntatis Dei divisio declaratur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e433" alias="bt67yj-l1d46" type="liber1-distinctio46">
+        <head>Distinctio 46</head>
+        <item id="bt67yj-k73736" alias="l1d46c1">
+          <fileName filestem="bt67yj-k73736"/>
+          <title>Capitulum 1</title>
+          <questionTitle>An Dei voluntas semper impleatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k74120" alias="l1d46c2">
+          <fileName filestem="bt67yj-k74120"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Non esse absolutam Dei voluntatem, ut 
+            omnes salventur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k74321" alias="l1d46c3">
+          <fileName filestem="bt67yj-k74321"/>
+          <title>Capitulum 3</title>
+          <questionTitle>Quomodo voluntas antecedens salutis 
+            omnium in Deo sit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k74684" alias="l1d46c4">
+          <fileName filestem="bt67yj-k74684"/>
+          <title>Capitulum 4</title>
+          <questionTitle>Quo sensu dicat scriptura Deum velle omnes 
+            salvos fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k75424" alias="l1d46c5">
+          <fileName filestem="bt67yj-k75424"/>
+          <title>Capitulum 5</title>
+          <questionTitle>Quomodo intelligendum illud: Quoties 
+            volui congregare, etc.</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k75666" alias="l1d46c6">
+          <fileName filestem="bt67yj-k75666"/>
+          <title>Capitulum 6</title>
+          <questionTitle>Aliae consimiles scripturae breviter explicantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k76120" alias="l1d46c7">
+          <fileName filestem="bt67yj-k76120"/>
+          <title>Capitulum 7</title>
+          <questionTitle>Utrum Deus mala esse aut fieri velit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k76342" alias="l1d46c8">
+          <fileName filestem="bt67yj-k76342"/>
+          <title>Capitulum 8</title>
+          <questionTitle>Refutatio eorum quae objiciuntur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e442" alias="bt67yj-l1d47" type="liber1-distinctio47">
+        <head>Distinctio 47</head>
+        <item id="bt67yj-k76630" alias="l1d47c1">
+          <fileName filestem="bt67yj-k76630"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quomodo fieri quadam dicantur contra 
+            Dei voluntatem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k76833" alias="l1d47c2">
+          <fileName filestem="bt67yj-k76833"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Quare Deus praecipiat quae fieri non vult</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k77021" alias="l1d47c3">
+          <fileName filestem="bt67yj-k77021"/>
+          <title>Capitulum 3</title>
+          <questionTitle>An Deus praecipere possit aliquid contra legem 
+            a se latam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="bt67yj-a1e450" alias="bt67yj-l1d48" type="liber1-distinctio48">
+        <head>Distinctio 48</head>
+        <item id="bt67yj-k77296" alias="l1d48c1">
+          <fileName filestem="bt67yj-k77296"/>
+          <title>Capitulum 1</title>
+          <questionTitle>Quatenus voluntas nostra conformis 
+            esset debet voluntati Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+        <item id="bt67yj-k78066" alias="l1d48c2">
+          <fileName filestem="bt67yj-k78066"/>
+          <title>Capitulum 2</title>
+          <questionTitle>Responsio ad argumenta in contrarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-pipoql"/>
+          </hasWitnesses>
+        </item>
+      </div>
     </div>
-    <div id="bt67yj-d1e459" type="liber2">
+    <div id="bt67yj-a1e459" type="liber2">
       <head>Liber 2</head>
-      <item id="bt67yj-d1e464" alias="bt67yj-l1d1" type="liber2-distinctio1">
-        <fileName filestem="bt67yj-d1e464"/>
-        <title>Distinctio 1</title>
-      </item>
-      <item id="bt67yj-d1e472" alias="bt67yj-l1d2" type="liber2-distinctio2">
-        <fileName filestem="bt67yj-d1e472"/>
-        <title>Distinctio 2</title>
-      </item>
-      <item id="bt67yj-d1e480" alias="bt67yj-l1d3" type="liber2-distinctio3">
-        <fileName filestem="bt67yj-d1e480"/>
-        <title>Distinctio 3</title>
-      </item>
-      <item id="bt67yj-d1e488" alias="bt67yj-l1d4" type="liber2-distinctio4">
-        <fileName filestem="bt67yj-d1e488"/>
-        <title>Distinctio 4</title>
-      </item>
-      <item id="bt67yj-d1e497" alias="bt67yj-l1d5" type="liber2-distinctio5">
-        <fileName filestem="bt67yj-d1e497"/>
-        <title>Distinctio 5</title>
-      </item>
-      <item id="bt67yj-d1e505" alias="bt67yj-l1d6" type="liber2-distinctio6">
-        <fileName filestem="bt67yj-d1e505"/>
-        <title>Distinctio 6</title>
-      </item>
-      <item id="bt67yj-d1e513" alias="bt67yj-l1d7" type="liber2-distinctio7">
-        <fileName filestem="bt67yj-d1e513"/>
-        <title>Distinctio 7</title>
-      </item>
-      <item id="bt67yj-d1e521" alias="bt67yj-l1d8" type="liber2-distinctio8">
-        <fileName filestem="bt67yj-d1e521"/>
-        <title>Distinctio 8</title>
-      </item>
-      <item id="bt67yj-d1e529" alias="bt67yj-l1d9" type="liber2-distinctio9">
-        <fileName filestem="bt67yj-d1e529"/>
-        <title>Distinctio 9</title>
-      </item>
-      <item id="bt67yj-d1e537" alias="bt67yj-l1d10" type="liber2-distinctio10">
-        <fileName filestem="bt67yj-d1e537"/>
-        <title>Distinctio 10</title>
-      </item>
-      <item id="bt67yj-d1e546" alias="bt67yj-l1d11" type="liber2-distinctio11">
-        <fileName filestem="bt67yj-d1e546"/>
-        <title>Distinctio 11</title>
-      </item>
-      <item id="bt67yj-d1e554" alias="bt67yj-l1d12" type="liber2-distinctio12">
-        <fileName filestem="bt67yj-d1e554"/>
-        <title>Distinctio 12</title>
-      </item>
-      <item id="bt67yj-d1e562" alias="bt67yj-l1d13" type="liber2-distinctio13">
-        <fileName filestem="bt67yj-d1e562"/>
-        <title>Distinctio 13</title>
-      </item>
-      <item id="bt67yj-d1e570" alias="bt67yj-l1d14" type="liber2-distinctio14">
-        <fileName filestem="bt67yj-d1e570"/>
-        <title>Distinctio 14</title>
-      </item>
-      <item id="bt67yj-d1e578" alias="bt67yj-l1d15" type="liber2-distinctio15">
-        <fileName filestem="bt67yj-d1e578"/>
-        <title>Distinctio 15</title>
-      </item>
-      <item id="bt67yj-d1e586" alias="bt67yj-l1d16" type="liber2-distinctio16">
-        <fileName filestem="bt67yj-d1e586"/>
-        <title>Distinctio 16</title>
-      </item>
-      <item id="bt67yj-d1e595" alias="bt67yj-l1d17" type="liber2-distinctio17">
-        <fileName filestem="bt67yj-d1e595"/>
-        <title>Distinctio 17</title>
-      </item>
-      <item id="bt67yj-d1e603" alias="bt67yj-l1d18" type="liber2-distinctio18">
-        <fileName filestem="bt67yj-d1e603"/>
-        <title>Distinctio 18</title>
-      </item>
-      <item id="bt67yj-d1e611" alias="bt67yj-l1d19" type="liber2-distinctio19">
-        <fileName filestem="bt67yj-d1e611"/>
-        <title>Distinctio 19</title>
-      </item>
-      <item id="bt67yj-d1e619" alias="bt67yj-l1d20" type="liber2-distinctio20">
-        <fileName filestem="bt67yj-d1e619"/>
-        <title>Distinctio 20</title>
-      </item>
-      <item id="bt67yj-d1e627" alias="bt67yj-l1d21" type="liber2-distinctio21">
-        <fileName filestem="bt67yj-d1e627"/>
-        <title>Distinctio 21</title>
-      </item>
-      <item id="bt67yj-d1e635" alias="bt67yj-l1d22" type="liber2-distinctio22">
-        <fileName filestem="bt67yj-d1e635"/>
-        <title>Distinctio 22</title>
-      </item>
-      <item id="bt67yj-d1e644" alias="bt67yj-l1d23" type="liber2-distinctio23">
-        <fileName filestem="bt67yj-d1e644"/>
-        <title>Distinctio 23</title>
-      </item>
-      <item id="bt67yj-d1e652" alias="bt67yj-l1d24" type="liber2-distinctio24">
-        <fileName filestem="bt67yj-d1e652"/>
-        <title>Distinctio 24</title>
-      </item>
-      <item id="bt67yj-d1e660" alias="bt67yj-l1d25" type="liber2-distinctio25">
-        <fileName filestem="bt67yj-d1e660"/>
-        <title>Distinctio 25</title>
-      </item>
-      <item id="bt67yj-d1e668" alias="bt67yj-l1d26" type="liber2-distinctio26">
-        <fileName filestem="bt67yj-d1e668"/>
-        <title>Distinctio 26</title>
-      </item>
-      <item id="bt67yj-d1e676" alias="bt67yj-l1d27" type="liber2-distinctio27">
-        <fileName filestem="bt67yj-d1e676"/>
-        <title>Distinctio 27</title>
-      </item>
-      <item id="bt67yj-d1e684" alias="bt67yj-l1d28" type="liber2-distinctio28">
-        <fileName filestem="bt67yj-d1e684"/>
-        <title>Distinctio 28</title>
-      </item>
-      <item id="bt67yj-d1e693" alias="bt67yj-l1d29" type="liber2-distinctio29">
-        <fileName filestem="bt67yj-d1e693"/>
-        <title>Distinctio 29</title>
-      </item>
-      <item id="bt67yj-d1e701" alias="bt67yj-l1d30" type="liber2-distinctio30">
-        <fileName filestem="bt67yj-d1e701"/>
-        <title>Distinctio 30</title>
-      </item>
-      <item id="bt67yj-d1e709" alias="bt67yj-l1d31" type="liber2-distinctio31">
-        <fileName filestem="bt67yj-d1e709"/>
-        <title>Distinctio 31</title>
-      </item>
-      <item id="bt67yj-d1e717" alias="bt67yj-l1d32" type="liber2-distinctio32">
-        <fileName filestem="bt67yj-d1e717"/>
-        <title>Distinctio 32</title>
-      </item>
-      <item id="bt67yj-d1e725" alias="bt67yj-l1d33" type="liber2-distinctio33">
-        <fileName filestem="bt67yj-d1e725"/>
-        <title>Distinctio 33</title>
-      </item>
-      <item id="bt67yj-d1e733" alias="bt67yj-l1d34" type="liber2-distinctio34">
-        <fileName filestem="bt67yj-d1e733"/>
-        <title>Distinctio 34</title>
-      </item>
-      <item id="bt67yj-d1e742" alias="bt67yj-l1d35" type="liber2-distinctio35">
-        <fileName filestem="bt67yj-d1e742"/>
-        <title>Distinctio 35</title>
-      </item>
-      <item id="bt67yj-d1e750" alias="bt67yj-l1d36" type="liber2-distinctio36">
-        <fileName filestem="bt67yj-d1e750"/>
-        <title>Distinctio 36</title>
-      </item>
-      <item id="bt67yj-d1e758" alias="bt67yj-l1d37" type="liber2-distinctio37">
-        <fileName filestem="bt67yj-d1e758"/>
-        <title>Distinctio 37</title>
-      </item>
-      <item id="bt67yj-d1e766" alias="bt67yj-l1d38" type="liber2-distinctio38">
-        <fileName filestem="bt67yj-d1e766"/>
-        <title>Distinctio 38</title>
-      </item>
-      <item id="bt67yj-d1e774" alias="bt67yj-l1d39" type="liber2-distinctio39">
-        <fileName filestem="bt67yj-d1e774"/>
-        <title>Distinctio 39</title>
-      </item>
-      <item id="bt67yj-d1e782" alias="bt67yj-l1d40" type="liber2-distinctio40">
-        <fileName filestem="bt67yj-d1e782"/>
-        <title>Distinctio 40</title>
-      </item>
-      <item id="bt67yj-d1e791" alias="bt67yj-l1d41" type="liber2-distinctio41">
-        <fileName filestem="bt67yj-d1e791"/>
-        <title>Distinctio 41</title>
-      </item>
-      <item id="bt67yj-d1e799" alias="bt67yj-l1d42" type="liber2-distinctio42">
-        <fileName filestem="bt67yj-d1e799"/>
-        <title>Distinctio 42</title>
-      </item>
-      <item id="bt67yj-d1e807" alias="bt67yj-l1d43" type="liber2-distinctio43">
-        <fileName filestem="bt67yj-d1e807"/>
-        <title>Distinctio 43</title>
-      </item>
-      <item id="bt67yj-d1e815" alias="bt67yj-l1d44" type="liber2-distinctio44">
-        <fileName filestem="bt67yj-d1e815"/>
-        <title>Distinctio 44</title>
-      </item>
+      <div id="bt67yj-a1e464" alias="bt67yj-l2d1" type="liber2-distinctio1">
+        <head>Distinctio 1</head>
+      </div>
+      <div id="bt67yj-a1e472" alias="bt67yj-l2d2" type="liber2-distinctio2">
+        <head>Distinctio 2</head>
+      </div>
+      <div id="bt67yj-a1e480" alias="bt67yj-l2d3" type="liber2-distinctio3">
+        <head>Distinctio 3</head>
+      </div>
+      <div id="bt67yj-a1e488" alias="bt67yj-l2d4" type="liber2-distinctio4">
+        <head>Distinctio 4</head>
+      </div>
+      <div id="bt67yj-a1e497" alias="bt67yj-l2d5" type="liber2-distinctio5">
+        <head>Distinctio 5</head>
+      </div>
+      <div id="bt67yj-a1e505" alias="bt67yj-l2d6" type="liber2-distinctio6">
+        <head>Distinctio 6</head>
+      </div>
+      <div id="bt67yj-a1e513" alias="bt67yj-l2d7" type="liber2-distinctio7">
+        <head>Distinctio 7</head>
+      </div>
+      <div id="bt67yj-a1e521" alias="bt67yj-l2d8" type="liber2-distinctio8">
+        <head>Distinctio 8</head>
+      </div>
+      <div id="bt67yj-a1e529" alias="bt67yj-l2d9" type="liber2-distinctio9">
+        <head>Distinctio 9</head>
+      </div>
+      <div id="bt67yj-a1e537" alias="bt67yj-l2d10" type="liber2-distinctio10">
+        <head>Distinctio 10</head>
+      </div>
+      <div id="bt67yj-a1e546" alias="bt67yj-l2d11" type="liber2-distinctio11">
+        <head>Distinctio 11</head>
+      </div>
+      <div id="bt67yj-a1e554" alias="bt67yj-l2d12" type="liber2-distinctio12">
+        <head>Distinctio 12</head>
+      </div>
+      <div id="bt67yj-a1e562" alias="bt67yj-l2d13" type="liber2-distinctio13">
+        <head>Distinctio 13</head>
+      </div>
+      <div id="bt67yj-a1e570" alias="bt67yj-l2d14" type="liber2-distinctio14">
+        <head>Distinctio 14</head>
+      </div>
+      <div id="bt67yj-a1e578" alias="bt67yj-l2d15" type="liber2-distinctio15">
+        <head>Distinctio 15</head>
+      </div>
+      <div id="bt67yj-a1e586" alias="bt67yj-l2d16" type="liber2-distinctio16">
+        <head>Distinctio 16</head>
+      </div>
+      <div id="bt67yj-a1e595" alias="bt67yj-l2d17" type="liber2-distinctio17">
+        <head>Distinctio 17</head>
+      </div>
+      <div id="bt67yj-a1e603" alias="bt67yj-l2d18" type="liber2-distinctio18">
+        <head>Distinctio 18</head>
+      </div>
+      <div id="bt67yj-a1e611" alias="bt67yj-l2d19" type="liber2-distinctio19">
+        <head>Distinctio 19</head>
+      </div>
+      <div id="bt67yj-a1e619" alias="bt67yj-l2d20" type="liber2-distinctio20">
+        <head>Distinctio 20</head>
+      </div>
+      <div id="bt67yj-a1e627" alias="bt67yj-l2d21" type="liber2-distinctio21">
+        <head>Distinctio 21</head>
+      </div>
+      <div id="bt67yj-a1e635" alias="bt67yj-l2d22" type="liber2-distinctio22">
+        <head>Distinctio 22</head>
+      </div>
+      <div id="bt67yj-a1e644" alias="bt67yj-l2d23" type="liber2-distinctio23">
+        <head>Distinctio 23</head>
+      </div>
+      <div id="bt67yj-a1e652" alias="bt67yj-l2d24" type="liber2-distinctio24">
+        <head>Distinctio 24</head>
+      </div>
+      <div id="bt67yj-a1e660" alias="bt67yj-l2d25" type="liber2-distinctio25">
+        <head>Distinctio 25</head>
+      </div>
+      <div id="bt67yj-a1e668" alias="bt67yj-l2d26" type="liber2-distinctio26">
+        <head>Distinctio 26</head>
+      </div>
+      <div id="bt67yj-a1e676" alias="bt67yj-l2d27" type="liber2-distinctio27">
+        <head>Distinctio 27</head>
+      </div>
+      <div id="bt67yj-a1e684" alias="bt67yj-l2d28" type="liber2-distinctio28">
+        <head>Distinctio 28</head>
+      </div>
+      <div id="bt67yj-a1e693" alias="bt67yj-l2d29" type="liber2-distinctio29">
+        <head>Distinctio 29</head>
+      </div>
+      <div id="bt67yj-a1e701" alias="bt67yj-l2d30" type="liber2-distinctio30">
+        <head>Distinctio 30</head>
+      </div>
+      <div id="bt67yj-a1e709" alias="bt67yj-l2d31" type="liber2-distinctio31">
+        <head>Distinctio 31</head>
+      </div>
+      <div id="bt67yj-a1e717" alias="bt67yj-l2d32" type="liber2-distinctio32">
+        <head>Distinctio 32</head>
+      </div>
+      <div id="bt67yj-a1e725" alias="bt67yj-l2d33" type="liber2-distinctio33">
+        <head>Distinctio 33</head>
+      </div>
+      <div id="bt67yj-a1e733" alias="bt67yj-l2d34" type="liber2-distinctio34">
+        <head>Distinctio 34</head>
+      </div>
+      <div id="bt67yj-a1e742" alias="bt67yj-l2d35" type="liber2-distinctio35">
+        <head>Distinctio 35</head>
+      </div>
+      <div id="bt67yj-a1e750" alias="bt67yj-l2d36" type="liber2-distinctio36">
+        <head>Distinctio 36</head>
+      </div>
+      <div id="bt67yj-a1e758" alias="bt67yj-l2d37" type="liber2-distinctio37">
+        <head>Distinctio 37</head>
+      </div>
+      <div id="bt67yj-a1e766" alias="bt67yj-l2d38" type="liber2-distinctio38">
+        <head>Distinctio 38</head>
+      </div>
+      <div id="bt67yj-a1e774" alias="bt67yj-l2d39" type="liber2-distinctio39">
+        <head>Distinctio 39</head>
+      </div>
+      <div id="bt67yj-a1e782" alias="bt67yj-l2d40" type="liber2-distinctio40">
+        <head>Distinctio 40</head>
+      </div>
+      <div id="bt67yj-a1e791" alias="bt67yj-l2d41" type="liber2-distinctio41">
+        <head>Distinctio 41</head>
+      </div>
+      <div id="bt67yj-a1e799" alias="bt67yj-l2d42" type="liber2-distinctio42">
+        <head>Distinctio 42</head>
+      </div>
+      <div id="bt67yj-a1e807" alias="bt67yj-l2d43" type="liber2-distinctio43">
+        <head>Distinctio 43</head>
+      </div>
+      <div id="bt67yj-a1e815" alias="bt67yj-l2d44" type="liber2-distinctio44">
+        <head>Distinctio 44</head>
+      </div>
     </div>
   </div>
 </listofFileNames>
