@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>John Duns Scotus</authorName>
     <commentaryName>Ordinatio</commentaryName>
@@ -116,6 +117,18 @@
         <initial>cod-u78xV9</initial>
         <editor>http://scta.info/resource/per-av4Viv</editor>
       </witness>
+      <witness id="cod-u78x10">
+        <slug>cod-u78x10</slug>
+        <title>Vives, Paris, 1893, volume 10</title>
+        <initial>cod-u78x10</initial>
+        <editor>http://scta.info/resource/per-av4Viv</editor>
+      </witness>
+      <witness id="cod-u78x11">
+        <slug>cod-u78x11</slug>
+        <title>Vives, Paris, 1893, volume 11</title>
+        <initial>cod-u78x10</initial>
+        <editor>http://scta.info/resource/per-av4Viv</editor>
+      </witness>
       <witness id="cod-W61xza">
         <slug>cod-W61xza</slug>
         <title>Wadding, Lyon 1639, v. 6.1</title>
@@ -159,11 +172,9 @@
           <item id="jdso8u-d1e110" alias="jdso8u-b1prolp3q1" type="quaestio">
             <fileName filestem="jdso8u-d1e110"/>
             <title>Quaestio 1-3</title>
-            <questionTitle>
-              Utrum theologia sit de Deo tamquam de primo obiecto;
-              Utrum theologia sit de Deo sub aliqua speciali ratione;
-              Utrum theologia sit de omnibus ipsorum ad primum eius subiectum
-            </questionTitle>
+            <questionTitle> Utrum theologia sit de Deo tamquam de primo obiecto; Utrum theologia sit
+              de Deo sub aliqua speciali ratione; Utrum theologia sit de omnibus ipsorum ad primum
+              eius subiectum </questionTitle>
             <!-- vat lat 874, 6vb -->
             <hasWitnesses>
               <witness ref="#cod-u78xZZ"/>
@@ -198,9 +209,8 @@
           <item id="jdso8u-d1e167" alias="jdso8u-b1prolp5q1" type="quaestio">
             <fileName filestem="jdso8u-d1e167"/>
             <title>Quaestio 1-2</title>
-            <questionTitle>Utrum theologia sit scientia practica vel speculativa; 
-              Utrum ex ordine ad praxim ut ad finem dicatur per se scientia
-              practica</questionTitle>
+            <questionTitle>Utrum theologia sit scientia practica vel speculativa; Utrum ex ordine ad
+              praxim ut ad finem dicatur per se scientia practica</questionTitle>
             <hasWitnesses>
               <witness ref="#cod-u78xZZ"/>
             </hasWitnesses>
@@ -631,12 +641,16 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e840" alias="jdso8u-b1d14-16" type="liber1-distinctio14 liber1-distinctio15 liber1-distinctio16">
+      <div id="jdso8u-d1e840" alias="jdso8u-b1d14-16"
+        type="liber1-distinctio14 liber1-distinctio15 liber1-distinctio16">
         <head>Distinctiones 14, 15, et 16</head>
         <item id="jdso8u-d1e845" alias="jdso8u-b1d14-16q1" type="quaestio">
           <fileName filestem="jdso8u-d1e845"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum quaelibet persona mittat quamlibet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e857" alias="jdso8u-b1d17" type="liber1-distinctio17">
@@ -648,13 +662,18 @@
             <title>Quaestio 1</title>
             <questionTitle>Utrum necesse sit ponere caritatem creatam, formaliter inhaerentem
               naturae beatificabili</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
+          <!-- 
           <item id="jdso8u-d1e878" alias="jdso8u-b1d17p1q2" type="quaestio">
             <fileName filestem="jdso8u-d1e878"/>
             <title>Quaestio 2</title>
             <questionTitle>Utrum necesse sit ponere in habitu rationem principii activi respectu
               actus</questionTitle>
           </item>
+          -->
         </div>
         <div id="jdso8u-d1e890" alias="jdso8u-b1d17p2" type="pars">
           <head>Pars 2</head>
@@ -663,12 +682,18 @@
             <title>Quaestio 1</title>
             <questionTitle>Utrum tota caritas praeexsistens corrumpatur ita quod nulla realitas
               eadem numero maneat in caritate maiore et minore</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
           <item id="jdso8u-d1e906" alias="jdso8u-b1d17p2q2" type="quaestio">
             <fileName filestem="jdso8u-d1e906"/>
             <title>Quaestio 2</title>
             <questionTitle>Utrum illud positivum caritatis praeexsistentis quod manet in augmento,
               sit tota essentia caritatis intensae</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
         </div>
       </div>
@@ -678,11 +703,17 @@
           <fileName filestem="jdso8u-d1e925"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum personae divinae sint aequales secundum magnitudinem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e936" alias="jdso8u-b1d19q2" type="quaestio">
           <fileName filestem="jdso8u-d1e936"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum quaelibet persona sit in alia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e948" alias="jdso8u-b1d20" type="liber1-distinctio20">
@@ -691,6 +722,9 @@
           <fileName filestem="jdso8u-d1e953"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum tres personae sint aequales in potentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e965" alias="jdso8u-b1d21" type="distinctio">
@@ -699,6 +733,9 @@
           <fileName filestem="jdso8u-d1e970"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum haec sit veta 'solus Pater est Deus'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e982" alias="jdso8u-b1d22" type="liber1-distinctio22">
@@ -708,6 +745,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus sit nominabilis a nobis aliquo nomine significante essentiam
             divinam in se, ut est 'haec'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e999" alias="jdso8u-b1d23" type="distinctio">
@@ -717,6 +757,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona secundum quod dicit aliquid commune Patri et Filio et
             Spiritui Sancto, dicat praecise aliquid secundae intentionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1016" alias="jdso8u-b1d24" type="liber1-distinctio24">
@@ -725,6 +768,9 @@
           <fileName filestem="jdso8u-d1e1021"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in divinis sit proprie numerus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1034" alias="jdso8u-b1d25" type="liber1-distinctio25">
@@ -733,6 +779,9 @@
           <fileName filestem="jdso8u-d1e1039"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona in divinis dicat substantiam vel relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1051" alias="jdso8u-b1d26" type="liber1-distinctio26">
@@ -740,7 +789,11 @@
         <item id="jdso8u-d1e1056" alias="jdso8u-b1d26q1" type="quaestio">
           <fileName filestem="jdso8u-d1e1056"/>
           <title>Quaestio 1</title>
-          <questionTitle>Utrum personae constituantur in esse personali per relationes originis</questionTitle>
+          <questionTitle>Utrum personae constituantur in esse personali per relationes
+            originis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1068" alias="jdso8u-b1d27" type="liber1-distinctio27">
@@ -749,7 +802,11 @@
           <fileName filestem="jdso8u-d1e1073"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum verbum creatum sit actualis intellectio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
+        <!-- these three questions should be combined into one item 
         <item id="jdso8u-d1e1084" alias="jdso8u-b1d27q2" type="quaestio">
           <fileName filestem="jdso8u-d1e1084"/>
           <title>Quaestio 2</title>
@@ -760,6 +817,7 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum verbum divinum dicat respectum ad creaturam</questionTitle>
         </item>
+        -->
       </div>
       <div id="jdso8u-d1e1107" alias="jdso8u-b1d28" type="liber1-distinctio28">
         <head>Distinctio 28</head>
@@ -767,18 +825,27 @@
           <fileName filestem="jdso8u-d1e1112"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum 'ingenitum' sit proprietas ipsius Patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e1123" alias="jdso8u-b1d28q2" type="quaestio">
           <fileName filestem="jdso8u-d1e1123"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum innascibilitas sit proprietas constitutiva primae personae in
             divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e1134" alias="jdso8u-b1d28q3" type="quaestio">
           <fileName filestem="jdso8u-d1e1134"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum personae prima divina constituatur in esse personali aliqua relatione
             positiva ad secundam personam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1146" alias="jdso8u-b1d29" type="liber1-distinctio29">
@@ -788,6 +855,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum principium dicatur univoce de principiis ad intra et ad extra in
             Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1163" alias="jdso8u-b1d30" type="liber1-distinctio30">
@@ -796,12 +866,17 @@
           <fileName filestem="jdso8u-d1e1168"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum de Deo dicatur aliqua relatio ex tempore</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
+        <!-- these questions should be combined into one item 
         <item id="jdso8u-d1e1179" alias="jdso8u-b1d30q2" type="quaestio">
           <fileName filestem="jdso8u-d1e1179"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Dei ad creaturam possit esse aliqua relatio realis</questionTitle>
         </item>
+        -->
       </div>
       <div id="jdso8u-d1e1192" alias="jdso8u-b1d31" type="liber1-distinctio31">
         <head>Distinctio 31</head>
@@ -810,6 +885,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum identitas, similitudo et aequalitas sint relationes reales in
             Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1209" alias="jdso8u-b1d32" type="liber1-distinctio32">
@@ -818,20 +896,29 @@
           <fileName filestem="jdso8u-d1e1214"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Pater et Filius diligant se Spiritu Sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
+        <!-- TODO These questions should be combined into one item
         <item id="jdso8u-d1e1225" alias="jdso8u-b1d32q2" type="quaestio">
           <fileName filestem="jdso8u-d1e1225"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Pater sit sapiens sapientia genita</questionTitle>
         </item>
+        -->
       </div>
-      <div id="jdso8u-d1e1237" alias="jdso8u-b1d33-34" type="liber1-distinctio33 liber1-distinctio34">
+      <div id="jdso8u-d1e1237" alias="jdso8u-b1d33-34"
+        type="liber1-distinctio33 liber1-distinctio34">
         <head>Distinctiones 33 et 34</head>
         <item id="jdso8u-d1e1242" alias="jdso8u-b1d33-34q1-3" type="quaestio">
           <fileName filestem="jdso8u-d1e1242"/>
           <title>Quaestiones 1-3</title>
           <questionTitle>Utrum proprietas sit idem cum persona, utrum sit idem cum essentia, et
             utrum persona sit idem cum essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1254" alias="jdso8u-b1d35" type="liber1-distinctio35">
@@ -839,7 +926,11 @@
         <item id="jdso8u-d1e1259" alias="jdso8u-b1d35q1" type="quaestio">
           <fileName filestem="jdso8u-d1e1259"/>
           <title>Quaestio 1</title>
-          <questionTitle>Utrum in Deo sint relationes aeternae ad omnia scibilia ut quiditative cognita</questionTitle>
+          <questionTitle>Utrum in Deo sint relationes aeternae ad omnia scibilia ut quiditative
+            cognita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1271" alias="jdso8u-b1d36" type="distinctio">
@@ -849,6 +940,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum fundamentum relationis aeternae ad Deum ut cognoscentem habeat vere
             esse essentiae ex hoc quod est sub tali respectu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1288" alias="jdso8u-b1d37" type="liber1-distinctio37">
@@ -857,6 +951,9 @@
           <fileName filestem="jdso8u-d1e1293"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Dei omnipotentia necessaria inferat eius immensitatem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
           <hasWitnesses>
             <witness ref="#cod-u78xV9"/>
           </hasWitnesses>
@@ -868,6 +965,9 @@
           <fileName filestem="jdso8u-d1e1311"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum scientia Dei respectu factibilium sit practica</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1323" alias="jdso8u-b1d40" type="liber1-distinctio40">
@@ -876,6 +976,9 @@
           <fileName filestem="jdso8u-d1e1328"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum praedestinatus possit damnari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1340" alias="jdso8u-b1d41" type="liber1-distinctio41">
@@ -885,6 +988,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sit aliquod meritum praedestinationis vel
             reprobationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1357" alias="jdso8u-b1d42" type="liber1-distinctio42">
@@ -892,7 +998,11 @@
         <item id="jdso8u-d1e1362" alias="jdso8u-b1d42q1" type="quaestio">
           <fileName filestem="jdso8u-d1e1362"/>
           <title>Quaestio 1</title>
-          <questionTitle>Utrum Deum esse omnipotentem possit probari naturali ratione</questionTitle>
+          <questionTitle>Utrum Deum esse omnipotentem possit probari naturali
+            ratione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1374" alias="jdso8u-b1d43" type="liber1-distinctio43">
@@ -902,6 +1012,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum prima ratio impossibilitatis rei fiendae sit ex parte Dei vel rei
             factibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1391" alias="jdso8u-b1d44" type="liber1-distinctio44">
@@ -911,6 +1024,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit aliter facere res quam ab ipso ordinatum est eas
             fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1409" alias="jdso8u-b1d45" type="liber1-distinctio45">
@@ -919,6 +1035,9 @@
           <fileName filestem="jdso8u-d1e1414"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus ab aeterno voluit alia a se</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1426" alias="jdso8u-b1d46" type="liber1-distinctio46">
@@ -927,6 +1046,9 @@
           <fileName filestem="jdso8u-d1e1431"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas beneplaciti Dei semper impleatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1443" alias="jdso8u-b1d47" type="liber1-distinctio47">
@@ -935,6 +1057,9 @@
           <fileName filestem="jdso8u-d1e1448"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum permissio divina sit aliquis actus voluntatis divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e1460" alias="jdso8u-b1d48" type="liber1-distinctio48">
@@ -944,6 +1069,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas creata sit bona moraliter quandocumque conformatur voluntati
             increatae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
     </div>
@@ -1024,7 +1152,7 @@
             <title>Quaestio 2</title>
             <questionTitle>Utrum angelus requirat determinatum locum</questionTitle>
             <hasWitnesses>
-               <witness ref="#cod-W61xza"/>
+              <witness ref="#cod-W61xza"/>
             </hasWitnesses>
           </item>
           <item id="jdso8u-d1e1638" alias="jdso8u-b2d2p2q3" type="quaestio">
@@ -1269,21 +1397,18 @@
         </item>
         <item id="jdso8u-d1e2120" alias="jdso8u-b2d30-32q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2120"/>
-          <title>Quaestio
-            2</title>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum peccatum originale sit carentia originalis iustitiae</questionTitle>
         </item>
         <item id="jdso8u-d1e2131" alias="jdso8u-b2d30-32q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2131"/>
-          <title>Quaestio
-            3</title>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum anima contrahat peccatum originale a carne infecta, concupiscibiliter
             seminata</questionTitle>
         </item>
         <item id="jdso8u-d1e2142" alias="jdso8u-b2d30-32q4" type="quaestio">
           <fileName filestem="jdso8u-d1e2142"/>
-          <title>Quaestio
-            4</title>
+          <title>Quaestio 4</title>
           <questionTitle>Utrum in baptismo remittatur peccatum originale</questionTitle>
         </item>
       </div>
@@ -2188,21 +2313,18 @@
             <head>Articulus Secundus</head>
             <item id="jdso8u-d1e3960" alias="jdso8u-b4d11p1a2q1" type="quaestio">
               <fileName filestem="jdso8u-d1e3960"/>
-              <title>Quaestio
-                1</title>
+              <title>Quaestio 1</title>
               <questionTitle>Utrum panis convertatur in corpus Christi</questionTitle>
             </item>
             <item id="jdso8u-d1e3971" alias="jdso8u-b4d11p1a2q2" type="quaestio">
               <fileName filestem="jdso8u-d1e3971"/>
-              <title>Quaestio
-                2</title>
+              <title>Quaestio 2</title>
               <questionTitle>Utrum panis in conversione in corpus Christi
                 annihiletur</questionTitle>
             </item>
             <item id="jdso8u-d1e3982" alias="jdso8u-b4d11p1a2q3" type="quaestio">
               <fileName filestem="jdso8u-d1e3982"/>
-              <title>Quaestio
-                3</title>
+              <title>Quaestio 3</title>
               <questionTitle>Quibus propositionibus conversio panis in corpus Christi possit vere
                 exprimi</questionTitle>
             </item>
@@ -2255,16 +2377,14 @@
             <head>Articulus Primus</head>
             <item id="jdso8u-d1e4084" alias="jdso8u-b4d12p3a1q1" type="quaestio">
               <fileName filestem="jdso8u-d1e4084"/>
-              <title>Quaestio
-                1</title>
+              <title>Quaestio 1</title>
               <questionTitle>Utrum omnis transmutatio, quae potest causari ab agente creato circa
                 accidentia in eucharistia manente, necessario requirat eandem quantitatem
                 manere</questionTitle>
             </item>
             <item id="jdso8u-d1e4095" alias="jdso8u-b4d12p3a1q2" type="quaestio">
               <fileName filestem="jdso8u-d1e4095"/>
-              <title>Quaestio
-                2</title>
+              <title>Quaestio 2</title>
               <questionTitle>Utrum possibile sit circa eucharistiam fieri transmutationem
                 corruptivam accidentium</questionTitle>
             </item>
@@ -2273,8 +2393,7 @@
             <head>Articulus Secundus</head>
             <item id="jdso8u-d1e4112" alias="jdso8u-b4d12p3a2q1" type="quaestio">
               <fileName filestem="jdso8u-d1e4112"/>
-              <title>Quaestio
-                1</title>
+              <title>Quaestio 1</title>
               <questionTitle>Utrum in aliqua transmutatione, facta circa eucharistiam, necesse sit
                 aliquam substantiam actione divina redire</questionTitle>
             </item>
