@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Nicolo de Tudeschi</authorName>
+    <commentaryName>Commentarius in Decretales</commentaryName>
+    <commentaryid>b77yvv</commentaryid>
+    <commentaryslug>b77yvv</commentaryslug>
+    <authorUri>http://scta.info/resource/per-ndtndt</authorUri>
+    <parentWorkGroup>http://scta.info/resource/canonlaw</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-yuhyqa">
+        <slug>cod-yuhyqa</slug>
+        <title>Free Library of Pennsylvania, Philadelphia, Lewis E 163</title>
+        <initial>cod-yuhyqa</initial>
+        <!--archive.org id = lewis_e_163-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Summa Aurea super titulis Decretalium</head>
+    <!--item id="b77yvv-d1e20" alias="b77yvv-prooemium">
+      <fileName filestem="b77yvv-d1e20"/>
+      <title>Prooemium</title>
+      <questionTitle/>
+      <hasWitnesses> </hasWitnesses>
+    </item>
+    <div id="b77yvv-d1e55" type="decretales-liber1">
+      <head>Liber 1</head>
+      <item id="b77yvv-d1e60" alias="b77yvv-l1t1" type="decretales-l1t1">
+        <fileName filestem="b77yvv-d1e60"/>
+        <title>Titulus 1</title>
+        <questionTitle>De summa trinitate et fide catholica</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e71" alias="b77yvv-l1t2" type="decretales-l1t2">
+        <fileName filestem="b77yvv-d1e71"/>
+        <title>Titulus 2</title>
+        <questionTitle>De constitutionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e82" alias="b77yvv-l1t3" type="decretales-l1t3">
+        <fileName filestem="b77yvv-d1e82"/>
+        <title>Titulus 3</title>
+        <questionTitle>De rescriptis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e93" alias="b77yvv-l1t4" type="decretales-l1t4">
+        <fileName filestem="b77yvv-d1e93"/>
+        <title>Titulus 4</title>
+        <questionTitle>De consuetudine</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e105" alias="b77yvv-l1t5" type="decretales-l1t5">
+        <fileName filestem="b77yvv-d1e105"/>
+        <title>Titulus 5</title>
+        <questionTitle>De postulatione praelatorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e116" alias="b77yvv-l1t6" type="decretales-l1t6">
+        <fileName filestem="b77yvv-d1e116"/>
+        <title>Titulus 6</title>
+        <questionTitle>De electione et electi potestate</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e127" alias="b77yvv-l1t7" type="decretales-l1t7">
+        <fileName filestem="b77yvv-d1e127"/>
+        <title>Titulus 7</title>
+        <questionTitle>De translatione episcopi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e138" alias="b77yvv-l1t8" type="decretales-l1t8">
+        <fileName filestem="b77yvv-d1e138"/>
+        <title>Titulus 8</title>
+        <questionTitle>De auctoritate et usu pallii</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e149" alias="b77yvv-l1t9" type="decretales-l1t9">
+        <fileName filestem="b77yvv-d1e149"/>
+        <title>Titulus 9</title>
+        <questionTitle>De renunciatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e160" alias="b77yvv-l1t10" type="decretales-l1t10">
+        <fileName filestem="b77yvv-d1e160"/>
+        <title>Titulus 10</title>
+        <questionTitle>De supplenda negligentia praelatorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e172" alias="b77yvv-l1t11" type="decretales-l1t11">
+        <fileName filestem="b77yvv-d1e172"/>
+        <title>Titulus 11</title>
+        <questionTitle>De temporibus ordinationum et qualitate ordinandorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e183" alias="b77yvv-l1t12" type="decretales-l1t12">
+        <fileName filestem="b77yvv-d1e183"/>
+        <title>Titulus 12</title>
+        <questionTitle>De scrutinio in ordine faciendo</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e194" alias="b77yvv-l1t13" type="decretales-l1t13">
+        <fileName filestem="b77yvv-d1e194"/>
+        <title>Titulus 13</title>
+        <questionTitle>De ordinatis ab episcopo qui renunciauit episcopatui</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e205" alias="b77yvv-l1t14" type="decretales-l1t14">
+        <fileName filestem="b77yvv-d1e205"/>
+        <title>Titulus 14</title>
+        <questionTitle>De aetate et qualitate et ordine praeficiendorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e216" alias="b77yvv-l1t15" type="decretales-l1t15">
+        <fileName filestem="b77yvv-d1e216"/>
+        <title>Titulus 15</title>
+        <questionTitle>De sacra unctione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e227" alias="b77yvv-l1t16" type="decretales-l1t16">
+        <fileName filestem="b77yvv-d1e227"/>
+        <title>Titulus 16</title>
+        <questionTitle>De sacramentis non iterandis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e239" alias="b77yvv-l1t17" type="decretales-l1t17">
+        <fileName filestem="b77yvv-d1e239"/>
+        <title>Titulus 17</title>
+        <questionTitle>De filiis presbyterorum ordinandis vel non</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e250" alias="b77yvv-l1t18" type="decretales-l1t18">
+        <fileName filestem="b77yvv-d1e250"/>
+        <title>Titulus 18</title>
+        <questionTitle>De servis non ordinandis et eorum manumissione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e261" alias="b77yvv-l1t19" type="decretales-l1t19">
+        <fileName filestem="b77yvv-d1e261"/>
+        <title>Titulus 19</title>
+        <questionTitle>De obligatis ad ratiocinia ordinandis, vel non</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e272" alias="b77yvv-l1t20" type="decretales-l1t20">
+        <fileName filestem="b77yvv-d1e272"/>
+        <title>Titulus 20</title>
+        <questionTitle>De corpore vitiatis ordinandis vel non</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e283" alias="b77yvv-l1t21" type="decretales-l1t21">
+        <fileName filestem="b77yvv-d1e283"/>
+        <title>Titulus 21</title>
+        <questionTitle>De bigamis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e294" alias="b77yvv-l1t22" type="decretales-l1t22">
+        <fileName filestem="b77yvv-d1e294"/>
+        <title>Titulus 22</title>
+        <questionTitle>De clericis peregrinis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e306" alias="b77yvv-l1t23" type="decretales-l1t23">
+        <fileName filestem="b77yvv-d1e306"/>
+        <title>Titulus 23</title>
+        <questionTitle>De officio archidiaconi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e317" alias="b77yvv-l1t24" type="decretales-l1t24">
+        <fileName filestem="b77yvv-d1e317"/>
+        <title>Titulus 24</title>
+        <questionTitle>De officio archipresbyteri</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e328" alias="b77yvv-l1t25" type="decretales-l1t25">
+        <fileName filestem="b77yvv-d1e328"/>
+        <title>Titulus 25</title>
+        <questionTitle>De officio primicerii</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e339" alias="b77yvv-l1t26" type="decretales-l1t26">
+        <fileName filestem="b77yvv-d1e339"/>
+        <title>Titulus 26</title>
+        <questionTitle>De officio sacristae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e350" alias="b77yvv-l1t27" type="decretales-l1t27">
+        <fileName filestem="b77yvv-d1e350"/>
+        <title>Titulus 27</title>
+        <questionTitle>De officio custodis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e361" alias="b77yvv-l1t28" type="decretales-l1t28">
+        <fileName filestem="b77yvv-d1e361"/>
+        <title>Titulus 28</title>
+        <questionTitle>De officio vicarii</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e373" alias="b77yvv-l1t29" type="decretales-l1t29">
+        <fileName filestem="b77yvv-d1e373"/>
+        <title>Titulus 29</title>
+        <questionTitle>De officio et potestate iudicis delegati</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e384" alias="b77yvv-l1t30" type="decretales-l1t30">
+        <fileName filestem="b77yvv-d1e384"/>
+        <title>Titulus 30</title>
+        <questionTitle>De officio legati</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e395" alias="b77yvv-l1t31" type="decretales-l1t31">
+        <fileName filestem="b77yvv-d1e395"/>
+        <title>Titulus 31</title>
+        <questionTitle>De officio judicis ordinarii</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e406" alias="b77yvv-l1t32" type="decretales-l1t32">
+        <fileName filestem="b77yvv-d1e406"/>
+        <title>Titulus 32</title>
+        <questionTitle>De officio judicis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e417" alias="b77yvv-l1t33" type="decretales-l1t33">
+        <fileName filestem="b77yvv-d1e417"/>
+        <title>Titulus 33</title>
+        <questionTitle>De majoritate et obedientia</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e428" alias="b77yvv-l1t34" type="decretales-l1t34">
+        <fileName filestem="b77yvv-d1e428"/>
+        <title>Titulus 34</title>
+        <questionTitle>De treuga et pace</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e440" alias="b77yvv-l1t35" type="decretales-l1t35">
+        <fileName filestem="b77yvv-d1e440"/>
+        <title>Titulus 35</title>
+        <questionTitle>De pactis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e451" alias="b77yvv-l1t36" type="decretales-l1t36">
+        <fileName filestem="b77yvv-d1e451"/>
+        <title>Titulus 36</title>
+        <questionTitle>De transactionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e462" alias="b77yvv-l1t37" type="decretales-l1t37">
+        <fileName filestem="b77yvv-d1e462"/>
+        <title>Titulus 37</title>
+        <questionTitle>De postulando</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e473" alias="b77yvv-l1t38" type="decretales-l1t38">
+        <fileName filestem="b77yvv-d1e473"/>
+        <title>Titulus 38</title>
+        <questionTitle>De procuratoribus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e484" alias="b77yvv-l1t39" type="decretales-l1t39">
+        <fileName filestem="b77yvv-d1e484"/>
+        <title>Titulus 39</title>
+        <questionTitle>De syndico</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e495" alias="b77yvv-l1t40" type="decretales-l1t40">
+        <fileName filestem="b77yvv-d1e495"/>
+        <title>Titulus 40</title>
+        <questionTitle>De his, quae vi metusve causa fiunt</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e507" alias="b77yvv-l1t41" type="decretales-l1t41">
+        <fileName filestem="b77yvv-d1e507"/>
+        <title>Titulus 41</title>
+        <questionTitle>De in integrum restitutione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e518" alias="b77yvv-l1t42" type="decretales-l1t42">
+        <fileName filestem="b77yvv-d1e518"/>
+        <title>Titulus 42</title>
+        <questionTitle>De arbitris</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e529" alias="b77yvv-l1t43" type="decretales-l1t43">
+        <fileName filestem="b77yvv-d1e529"/>
+        <title>Titulus 43</title>
+        <questionTitle>De alienatione judicii mutandi causa facta</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e531" alias="b77yvv-l1t44">
+        <!-\- listed as 43 in cologn text; 
+          but we already have de alienatione has 43 which is listed as 42 in cologne text -\->
+        <fileName filestem="b77yvv-d1e531"/>
+        <title>Titulus 44</title>
+        <questionTitle>De cessione actionum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+        <!-\- item 44 cessione actionum, actually listed as 43 -\->
+      </item>
+    </div>
+    <div id="b77yvv-d1e541" type="decretales-liber2">
+      <head>Liber 2</head>
+      <item id="b77yvv-d1e546" alias="b77yvv-l2t1" type="decretales-l2t1">
+        <fileName filestem="b77yvv-d1e546"/>
+        <title>Titulus 1</title>
+        <questionTitle>De judiciis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e557" alias="b77yvv-l2t2" type="decretales-l2t2">
+        <fileName filestem="b77yvv-d1e557"/>
+        <title>Titulus 2</title>
+        <questionTitle>De foro competenti</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e568" alias="b77yvv-l2t3" type="decretales-l2t3">
+        <fileName filestem="b77yvv-d1e568"/>
+        <title>Titulus 3</title>
+        <questionTitle>De libelli oblatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e579" alias="b77yvv-l2t4" type="decretales-l2t4">
+        <fileName filestem="b77yvv-d1e579"/>
+        <title>Titulus 4</title>
+        <questionTitle>De mutuis petitionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e591" alias="b77yvv-l2t5" type="decretales-l2t5">
+        <fileName filestem="b77yvv-d1e591"/>
+        <title>Titulus 5</title>
+        <questionTitle>De litis contestatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e602" alias="b77yvv-l2t6" type="decretales-l2t6">
+        <fileName filestem="b77yvv-d1e602"/>
+        <title>Titulus 6</title>
+        <questionTitle>Ut lite non contestata non procedatur ad testium receptionem vel ad
+          sententiam diffinitivam</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e613" alias="b77yvv-l2t7" type="decretales-l2t7">
+        <fileName filestem="b77yvv-d1e613"/>
+        <title>Titulus 7</title>
+        <questionTitle>De juramento calumniae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e624" alias="b77yvv-l2t8" type="decretales-l2t8">
+        <fileName filestem="b77yvv-d1e624"/>
+        <title>Titulus 8</title>
+        <questionTitle>De dilationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e635" alias="b77yvv-l2t9" type="decretales-l2t9">
+        <fileName filestem="b77yvv-d1e635"/>
+        <title>Titulus 9</title>
+        <questionTitle>De feriis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e646" alias="b77yvv-l2t10" type="decretales-l2t10">
+        <fileName filestem="b77yvv-d1e646"/>
+        <title>Titulus 10</title>
+        <questionTitle>De ordine cognitionum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e658" alias="b77yvv-l2t11" type="decretales-l2t11">
+        <fileName filestem="b77yvv-d1e658"/>
+        <title>Titulus 11</title>
+        <questionTitle>De plus petitionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e669" alias="b77yvv-l2t12" type="decretales-l2t12">
+        <fileName filestem="b77yvv-d1e669"/>
+        <title>Titulus 12</title>
+        <questionTitle>De causa possessionis et proprietatis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e680" alias="b77yvv-l2t13" type="decretales-l2t13">
+        <fileName filestem="b77yvv-d1e680"/>
+        <title>Titulus 13</title>
+        <questionTitle>De restitutione spoliatorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e691" alias="b77yvv-l2t14" type="decretales-l2t14">
+        <fileName filestem="b77yvv-d1e691"/>
+        <title>Titulus 14</title>
+        <questionTitle>De dolo et contumacia</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e702" alias="b77yvv-l2t15" type="decretales-l2t15">
+        <fileName filestem="b77yvv-d1e702"/>
+        <title>Titulus 15</title>
+        <questionTitle>De eo, qui mittitur in possessionem causa rei servandae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e713" alias="b77yvv-l2t16" type="decretales-l2t16">
+        <fileName filestem="b77yvv-d1e713"/>
+        <title>Titulus 16</title>
+        <questionTitle>Ut lite pendente nihil innovetur</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e725" alias="b77yvv-l2t17" type="decretales-l2t17">
+        <fileName filestem="b77yvv-d1e725"/>
+        <title>Titulus 17</title>
+        <questionTitle>De sequestratione possessionum et fructuum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e736" alias="b77yvv-l2t18" type="decretales-l2t18">
+        <fileName filestem="b77yvv-d1e736"/>
+        <title>Titulus 18</title>
+        <questionTitle>De confessis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e747" alias="b77yvv-l2t19" type="decretales-l2t19">
+        <fileName filestem="b77yvv-d1e747"/>
+        <title>Titulus 19</title>
+        <questionTitle>De probationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e758" alias="b77yvv-l2t20" type="decretales-l2t20">
+        <fileName filestem="b77yvv-d1e758"/>
+        <title>Titulus 20</title>
+        <questionTitle>De testibus et attestationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e769" alias="b77yvv-l2t21" type="decretales-l2t21">
+        <fileName filestem="b77yvv-d1e769"/>
+        <title>Titulus 21</title>
+        <questionTitle>De testibus cogendis vel non</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e780" alias="b77yvv-l2t22" type="decretales-l2t22">
+        <fileName filestem="b77yvv-d1e780"/>
+        <title>Titulus 22</title>
+        <questionTitle>De fide instrumentorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e792" alias="b77yvv-l2t23" type="decretales-l2t23">
+        <fileName filestem="b77yvv-d1e792"/>
+        <title>Titulus 23</title>
+        <questionTitle>De praesumptionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e803" alias="b77yvv-l2t24" type="decretales-l2t24">
+        <fileName filestem="b77yvv-d1e803"/>
+        <title>Titulus 24</title>
+        <questionTitle>De jurejurando</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e814" alias="b77yvv-l2t25" type="decretales-l2t25">
+        <fileName filestem="b77yvv-d1e814"/>
+        <title>Titulus 25</title>
+        <questionTitle>De exceptionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e825" alias="b77yvv-l2t26" type="decretales-l2t26">
+        <fileName filestem="b77yvv-d1e825"/>
+        <title>Titulus 26</title>
+        <questionTitle>De praescriptionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e836" alias="b77yvv-l2t27" type="decretales-l2t27">
+        <fileName filestem="b77yvv-d1e836"/>
+        <title>Titulus 27</title>
+        <questionTitle>Sententia et re iudicata</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e847" alias="b77yvv-l2t28" type="decretales-l2t28">
+        <fileName filestem="b77yvv-d1e847"/>
+        <title>Titulus 28</title>
+        <questionTitle>De appellationibus, recusationibus, et relationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e859" alias="b77yvv-l2t29" type="decretales-l2t29">
+        <fileName filestem="b77yvv-d1e859"/>
+        <title>Titulus 29</title>
+        <questionTitle>De clericis peregrinantibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e870" alias="b77yvv-l2t30" type="decretales-l2t30">
+        <fileName filestem="b77yvv-d1e870"/>
+        <title>Titulus 30</title>
+        <questionTitle>De confirmatione utili vel inutili</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+    </div>
+    <div id="b77yvv-d1e882" type="decretales-liber3">
+      <head>Liber 3</head>
+      <item id="b77yvv-d1e887" alias="b77yvv-l3t1" type="decretales-l3t1">
+        <fileName filestem="b77yvv-d1e887"/>
+        <title>Titulus 1</title>
+        <questionTitle>De vita et honestate clericorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e898" alias="b77yvv-l3t2" type="decretales-l3t2">
+        <fileName filestem="b77yvv-d1e898"/>
+        <title>Titulus 2</title>
+        <questionTitle>De cohabitatione clericorum et mulierum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e909" alias="b77yvv-l3t3" type="decretales-l3t3">
+        <fileName filestem="b77yvv-d1e909"/>
+        <title>Titulus 3</title>
+        <questionTitle>De clericis conjugatis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e920" alias="b77yvv-l3t4" type="decretales-l3t4">
+        <fileName filestem="b77yvv-d1e920"/>
+        <title>Titulus 4</title>
+        <questionTitle>De clericis non residentibus in ecclesia vel praebenda</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e932" alias="b77yvv-l3t5" type="decretales-l3t5">
+        <fileName filestem="b77yvv-d1e932"/>
+        <title>Titulus 5</title>
+        <questionTitle>De praebendis et dignitatibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e943" alias="b77yvv-l3t6" type="decretales-l3t6">
+        <fileName filestem="b77yvv-d1e943"/>
+        <title>Titulus 6</title>
+        <questionTitle>De clerico aegrotante vel debilitato</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e954" alias="b77yvv-l3t7" type="decretales-l3t7">
+        <fileName filestem="b77yvv-d1e954"/>
+        <title>Titulus 7</title>
+        <questionTitle>De institutionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e965" alias="b77yvv-l3t8" type="decretales-l3t8">
+        <fileName filestem="b77yvv-d1e965"/>
+        <title>Titulus 8</title>
+        <questionTitle>De concessione praebendae et ecclesiae non vacantis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e976" alias="b77yvv-l3t9" type="decretales-l3t9">
+        <fileName filestem="b77yvv-d1e976"/>
+        <title>Titulus 9</title>
+        <questionTitle>Ne sede vacante aliquid innovetur</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e987" alias="b77yvv-l3t10" type="decretales-l3t10">
+        <fileName filestem="b77yvv-d1e987"/>
+        <title>Titulus 10</title>
+        <questionTitle>De his, quae fiunt a praelato sine consensu capituli</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e999" alias="b77yvv-l3t11" type="decretales-l3t11">
+        <fileName filestem="b77yvv-d1e999"/>
+        <title>Titulus 11</title>
+        <questionTitle>De his, quae fiunt a maiori parte capituli</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1010" alias="b77yvv-l3t12" type="decretales-l3t12">
+        <fileName filestem="b77yvv-d1e1010"/>
+        <title>Titulus 12</title>
+        <questionTitle>Ut ecclesiastica beneficia sine diminutione conferantur</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1021" alias="b77yvv-l3t13" type="decretales-l3t13">
+        <fileName filestem="b77yvv-d1e1021"/>
+        <title>Titulus 13</title>
+        <questionTitle>De rebus ecclesiae alienandis vel non</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1032" alias="b77yvv-l3t14" type="decretales-l3t14">
+        <fileName filestem="b77yvv-d1e1032"/>
+        <title>Titulus 14</title>
+        <questionTitle>De precariis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1043" alias="b77yvv-l3t15" type="decretales-l3t15">
+        <fileName filestem="b77yvv-d1e1043"/>
+        <title>Titulus 15</title>
+        <questionTitle>De commodato</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1054" alias="b77yvv-l3t16" type="decretales-l3t16">
+        <fileName filestem="b77yvv-d1e1054"/>
+        <title>Titulus 16</title>
+        <questionTitle>De deposito</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1066" alias="b77yvv-l3t17" type="decretales-l3t17">
+        <fileName filestem="b77yvv-d1e1066"/>
+        <title>Titulus 17</title>
+        <questionTitle>De emptione et venditione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1077" alias="b77yvv-l3t18" type="decretales-l3t18">
+        <fileName filestem="b77yvv-d1e1077"/>
+        <title>Titulus 18</title>
+        <questionTitle>De locato et conducto</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1088" alias="b77yvv-l3t19" type="decretales-l3t19">
+        <fileName filestem="b77yvv-d1e1088"/>
+        <title>Titulus 19</title>
+        <questionTitle>De rerum permutatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1099" alias="b77yvv-l3t20" type="decretales-l3t20">
+        <fileName filestem="b77yvv-d1e1099"/>
+        <title>Titulus 20</title>
+        <questionTitle>De feudis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1110" alias="b77yvv-l3t21" type="decretales-l3t21">
+        <fileName filestem="b77yvv-d1e1110"/>
+        <title>Titulus 21</title>
+        <questionTitle>De pignoribus et aliis cautionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1121" alias="b77yvv-l3t22" type="decretales-l3t22">
+        <fileName filestem="b77yvv-d1e1121"/>
+        <title>Titulus 22</title>
+        <questionTitle>De fidejussoribus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1133" alias="b77yvv-l3t23" type="decretales-l3t23">
+        <fileName filestem="b77yvv-d1e1133"/>
+        <title>Titulus 23</title>
+        <questionTitle>De solutionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1144" alias="b77yvv-l3t24" type="decretales-l3t24">
+        <fileName filestem="b77yvv-d1e1144"/>
+        <title>Titulus 24</title>
+        <questionTitle>De donationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1155" alias="b77yvv-l3t25" type="decretales-l3t25">
+        <fileName filestem="b77yvv-d1e1155"/>
+        <title>Titulus 25</title>
+        <questionTitle>De peculio clericorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1166" alias="b77yvv-l3t26" type="decretales-l3t26">
+        <fileName filestem="b77yvv-d1e1166"/>
+        <title>Titulus 26</title>
+        <questionTitle>De testamentis et ultimis voluntatibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1177" alias="b77yvv-l3t27" type="decretales-l3t27">
+        <fileName filestem="b77yvv-d1e1177"/>
+        <title>Titulus 27</title>
+        <questionTitle>De successionibus ab intestato</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1188" alias="b77yvv-l3t28" type="decretales-l3t28">
+        <fileName filestem="b77yvv-d1e1188"/>
+        <title>Titulus 28</title>
+        <questionTitle>De sepulturis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1200" alias="b77yvv-l3t29" type="decretales-l3t29">
+        <fileName filestem="b77yvv-d1e1200"/>
+        <title>Titulus 29</title>
+        <questionTitle>De parochis, et alienis parochianis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1211" alias="b77yvv-l3t30" type="decretales-l3t30">
+        <fileName filestem="b77yvv-d1e1211"/>
+        <title>Titulus 30</title>
+        <questionTitle>De decimis, primitiis et oblationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1222" alias="b77yvv-l3t31" type="decretales-l3t31">
+        <fileName filestem="b77yvv-d1e1222"/>
+        <title>Titulus 31</title>
+        <questionTitle>De regularibus et transeuntibus ad religionem</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1233" alias="b77yvv-l3t32" type="decretales-l3t32">
+        <fileName filestem="b77yvv-d1e1233"/>
+        <title>Titulus 32</title>
+        <questionTitle>De conversione conjugatorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1244" alias="b77yvv-l3t33" type="decretales-l3t33">
+        <fileName filestem="b77yvv-d1e1244"/>
+        <title>Titulus 33</title>
+        <questionTitle>De conversione infidelium</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1255" alias="b77yvv-l3t34" type="decretales-l3t34">
+        <fileName filestem="b77yvv-d1e1255"/>
+        <title>Titulus 34</title>
+        <questionTitle>De voto et voti redemptione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1267" alias="b77yvv-l3t35" type="decretales-l3t35">
+        <fileName filestem="b77yvv-d1e1267"/>
+        <title>Titulus 35</title>
+        <questionTitle>De statu monachorum et canonicorum regularium</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1278" alias="b77yvv-l3t36" type="decretales-l3t36">
+        <fileName filestem="b77yvv-d1e1278"/>
+        <title>Titulus 36</title>
+        <questionTitle>De religiosis domibus, ut episcopo sint subiectae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1289" alias="b77yvv-l3t37" type="decretales-l3t37">
+        <fileName filestem="b77yvv-d1e1289"/>
+        <title>Titulus 37</title>
+        <questionTitle>De capellis monachorum et aliorum religiosorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1300" alias="b77yvv-l3t38" type="decretales-l3t38">
+        <fileName filestem="b77yvv-d1e1300"/>
+        <title>Titulus 38</title>
+        <questionTitle>De jure patronatus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1311" alias="b77yvv-l3t39" type="decretales-l3t39">
+        <fileName filestem="b77yvv-d1e1311"/>
+        <title>Titulus 39</title>
+        <questionTitle>De censibus, exactionibus et procurationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1322" alias="b77yvv-l3t40" type="decretales-l3t40">
+        <fileName filestem="b77yvv-d1e1322"/>
+        <title>Titulus 40</title>
+        <questionTitle>De consecratione ecclesiae vel altaris</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1334" alias="b77yvv-l3t41" type="decretales-l3t41">
+        <fileName filestem="b77yvv-d1e1334"/>
+        <title>Titulus 41</title>
+        <questionTitle>De celebratione missarum, et sacramento eucharistiae et divinis
+          officiis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1345" alias="b77yvv-l3t42" type="decretales-l3t42">
+        <fileName filestem="b77yvv-d1e1345"/>
+        <title>Titulus 42</title>
+        <questionTitle>De baptismo, et eius effectu</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1356" alias="b77yvv-l3t43" type="decretales-l3t43">
+        <fileName filestem="b77yvv-d1e1356"/>
+        <title>Titulus 43</title>
+        <questionTitle>De presbytero non baptizato</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1367" alias="b77yvv-l3t44" type="decretales-l3t44">
+        <fileName filestem="b77yvv-d1e1367"/>
+        <title>Titulus 44</title>
+        <questionTitle>De custodia eucharistiae, chrismatis et aliorum sacramentorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1378" alias="b77yvv-l3t45" type="decretales-l3t45">
+        <fileName filestem="b77yvv-d1e1378"/>
+        <title>Titulus 45</title>
+        <questionTitle>De reliquiis et veneratione sanctorum.</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1389" alias="b77yvv-l3t46" type="decretales-l3t46">
+        <fileName filestem="b77yvv-d1e1389"/>
+        <title>Titulus 46</title>
+        <questionTitle>De observatione jejuniorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1401" alias="b77yvv-l3t47" type="decretales-l3t47">
+        <fileName filestem="b77yvv-d1e1401"/>
+        <title>Titulus 47</title>
+        <questionTitle>De purificatione post partum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1412" alias="b77yvv-l3t48" type="decretales-l3t48">
+        <fileName filestem="b77yvv-d1e1412"/>
+        <title>Titulus 48</title>
+        <questionTitle>De ecclesiis aedificandis vel reparandis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1423" alias="b77yvv-l3t49" type="decretales-l3t49">
+        <fileName filestem="b77yvv-d1e1423"/>
+        <title>Titulus 49</title>
+        <questionTitle>De immunitate ecclesiarum, coemiterii, et rerum, ad eas
+          pertinentium</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1434" alias="b77yvv-l3t50" type="decretales-l3t50">
+        <fileName filestem="b77yvv-d1e1434"/>
+        <title>Titulus 50</title>
+        <questionTitle>Ne clerici vel monachi saecularibus negotiis se immisceant</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+    </div>
+    <div id="b77yvv-d1e1446" type="decretales-liber4">
+      <head>Liber 4</head>
+      <item id="b77yvv-d1e1451" alias="b77yvv-l4t1" type="decretales-l4t1">
+        <fileName filestem="b77yvv-d1e1451"/>
+        <title>Titulus 1</title>
+        <questionTitle>De sponsalibus et matrimoniis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1462" alias="b77yvv-l4t2" type="decretales-l4t2">
+        <fileName filestem="b77yvv-d1e1462"/>
+        <title>Titulus 2</title>
+        <questionTitle>De desponsatione impuberum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1473" alias="b77yvv-l4t3" type="decretales-l4t3">
+        <fileName filestem="b77yvv-d1e1473"/>
+        <title>Titulus 3</title>
+        <questionTitle>De clandestina desponsatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1484" alias="b77yvv-l4t4" type="decretales-l4t4">
+        <fileName filestem="b77yvv-d1e1484"/>
+        <title>Titulus 4</title>
+        <questionTitle>De sponsa duorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1496" alias="b77yvv-l4t5" type="decretales-l4t5">
+        <fileName filestem="b77yvv-d1e1496"/>
+        <title>Titulus 5</title>
+        <questionTitle>De conditionibus appositis in desponsatione vel in aliis
+          contractibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1507" alias="b77yvv-l4t6" type="decretales-l4t6">
+        <fileName filestem="b77yvv-d1e1507"/>
+        <title>Titulus 6</title>
+        <questionTitle>Qui clerici vel voventes matrimonium contrahere possunt</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1518" alias="b77yvv-l4t7" type="decretales-l4t7">
+        <fileName filestem="b77yvv-d1e1518"/>
+        <title>Titulus 7</title>
+        <questionTitle>De eo, qui duxit in matrimonium quam polluit per adulterium</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1529" alias="b77yvv-l4t8" type="decretales-l4t8">
+        <fileName filestem="b77yvv-d1e1529"/>
+        <title>Titulus 8</title>
+        <questionTitle>De conjugio leprosorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1540" alias="b77yvv-l4t9" type="decretales-l4t9">
+        <fileName filestem="b77yvv-d1e1540"/>
+        <title>Titulus 9</title>
+        <questionTitle>De conjugio servorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1551" alias="b77yvv-l4t10" type="decretales-l4t10">
+        <fileName filestem="b77yvv-d1e1551"/>
+        <title>Titulus 10</title>
+        <questionTitle>De natis ex libero ventre</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1563" alias="b77yvv-l4t11" type="decretales-l4t11">
+        <fileName filestem="b77yvv-d1e1563"/>
+        <title>Titulus 11</title>
+        <questionTitle>De cognatione spirituali</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1574" alias="b77yvv-l4t12" type="decretales-l4t12">
+        <fileName filestem="b77yvv-d1e1574"/>
+        <title>Titulus 12</title>
+        <questionTitle>De cognatione legali</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1585" alias="b77yvv-l4t13" type="decretales-l4t13">
+        <fileName filestem="b77yvv-d1e1585"/>
+        <title>Titulus 13</title>
+        <questionTitle>De eo, qui cognovit consanguineam uxoris suae vel sponsae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1596" alias="b77yvv-l4t14" type="decretales-l4t14">
+        <fileName filestem="b77yvv-d1e1596"/>
+        <title>Titulus 14</title>
+        <questionTitle>De consanguinitate et affinitate</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1607" alias="b77yvv-l4t15" type="decretales-l4t15">
+        <fileName filestem="b77yvv-d1e1607"/>
+        <title>Titulus 15</title>
+        <questionTitle>De frigidis et maleficiatis, et impotentia coeundi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1618" alias="b77yvv-l4t16" type="decretales-l4t16">
+        <fileName filestem="b77yvv-d1e1618"/>
+        <title>Titulus 16</title>
+        <questionTitle>De matrimonio contracto contra interdictum ecclesiae</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1630" alias="b77yvv-l4t17" type="decretales-l4t17">
+        <fileName filestem="b77yvv-d1e1630"/>
+        <title>Titulus 17</title>
+        <questionTitle>Qui filii sint legitimi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1641" alias="b77yvv-l4t18" type="decretales-l4t18">
+        <fileName filestem="b77yvv-d1e1641"/>
+        <title>Titulus 18</title>
+        <questionTitle>Qui matrimonium accusare possunt, vel contra illud testari</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1652" alias="b77yvv-l4t19" type="decretales-l4t19">
+        <fileName filestem="b77yvv-d1e1652"/>
+        <title>Titulus 19</title>
+        <questionTitle>De divortiis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1663" alias="b77yvv-l4t20" type="decretales-l4t20">
+        <fileName filestem="b77yvv-d1e1663"/>
+        <title>Titulus 20</title>
+        <questionTitle>De donationibus inter virum et uxorem et de dote post divortium
+          restituenda</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1674" alias="b77yvv-l4t21" type="decretales-l4t21">
+        <fileName filestem="b77yvv-d1e1674"/>
+        <title>Titulus 21</title>
+        <questionTitle>De secundis nuptiis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+    </div>
+    -->
+    <!-- cod-yuhyqa only contains commentary on book 5, i'm not yet sure if there is a commentary on the other books -->
+    <div id="b77yvv-d1e1686" type="decretales-liber5">
+      <head>Liber 5</head>
+      <item id="b77yvv-d1e1691" alias="b77yvv-l5t1" type="decretales-l5t1">
+        <fileName filestem="b77yvv-d1e1691"/>
+        <title>Titulus 1</title>
+        <questionTitle>De accusationibus, inquisitionibus et denunciationibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1702" alias="b77yvv-l5t2" type="decretales-l5t2">
+        <fileName filestem="b77yvv-d1e1702"/>
+        <title>Titulus 2</title>
+        <questionTitle>De calumniatoribus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1713" alias="b77yvv-l5t3" type="decretales-l5t3">
+        <fileName filestem="b77yvv-d1e1713"/>
+        <title>Titulus 3</title>
+        <questionTitle>De simonia, et ne aliquid pro spiritualibus exigatur vel
+          promittatur</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1724" alias="b77yvv-l5t4" type="decretales-l5t4">
+        <fileName filestem="b77yvv-d1e1724"/>
+        <title>Titulus 4</title>
+        <questionTitle>Ne praelati vices suas vel ecclesias sub annuo censu
+          concedant</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1736" alias="b77yvv-l5t5" type="decretales-l5t5">
+        <fileName filestem="b77yvv-d1e1736"/>
+        <title>Titulus 5</title>
+        <questionTitle>De magistris, et ne aliquid exigatur pro licentia docendi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1747" alias="b77yvv-l5t6" type="decretales-l5t6">
+        <fileName filestem="b77yvv-d1e1747"/>
+        <title>Titulus 6</title>
+        <questionTitle>De judaeis, sarracenis, et eorum servis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1758" alias="b77yvv-l5t7" type="decretales-l5t7">
+        <fileName filestem="b77yvv-d1e1758"/>
+        <title>Titulus 7</title>
+        <questionTitle>De haereticis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1769" alias="b77yvv-l5t8" type="decretales-l5t8">
+        <fileName filestem="b77yvv-d1e1769"/>
+        <title>Titulus 8</title>
+        <questionTitle>De schismaticis et ordinatis ab eis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1780" alias="b77yvv-l5t9" type="decretales-l5t9">
+        <fileName filestem="b77yvv-d1e1780"/>
+        <title>Titulus 9</title>
+        <questionTitle>De apostatis et reiterantibus baptisma</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1791" alias="b77yvv-l5t10" type="decretales-l5t10">
+        <fileName filestem="b77yvv-d1e1791"/>
+        <title>Titulus 10</title>
+        <questionTitle>De his, qui filios occiderunt</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1803" alias="b77yvv-l5t11" type="decretales-l5t11">
+        <fileName filestem="b77yvv-d1e1803"/>
+        <title>Titulus 11</title>
+        <questionTitle>De infantibus et languidis expositis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1814" alias="b77yvv-l5t12" type="decretales-l5t12">
+        <fileName filestem="b77yvv-d1e1814"/>
+        <title>Titulus 12</title>
+        <questionTitle>De homicidio voluntario vel casuali</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1825" alias="b77yvv-l5t13" type="decretales-l5t13">
+        <fileName filestem="b77yvv-d1e1825"/>
+        <title>Titulus 13</title>
+        <questionTitle>De torneamentis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1836" alias="b77yvv-l5t14" type="decretales-l5t14">
+        <fileName filestem="b77yvv-d1e1836"/>
+        <title>Titulus 14</title>
+        <questionTitle>De clericis pugnantibus in duello</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1847" alias="b77yvv-l5t15" type="decretales-l5t15">
+        <fileName filestem="b77yvv-d1e1847"/>
+        <title>Titulus 15</title>
+        <questionTitle>De sagittariis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1858" alias="b77yvv-l5t16" type="decretales-l5t16">
+        <fileName filestem="b77yvv-d1e1858"/>
+        <title>Titulus 16</title>
+        <questionTitle>De adulteriis et stupro</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1870" alias="b77yvv-l5t17" type="decretales-l5t17">
+        <fileName filestem="b77yvv-d1e1870"/>
+        <title>Titulus 17</title>
+        <questionTitle>De raptoribus, incendiariis et violatoribus ecclesiarum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1881" alias="b77yvv-l5t18" type="decretales-l5t18">
+        <fileName filestem="b77yvv-d1e1881"/>
+        <title>Titulus 18</title>
+        <questionTitle>De furtis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1892" alias="b77yvv-l5t19" type="decretales-l5t19">
+        <fileName filestem="b77yvv-d1e1892"/>
+        <title>Titulus 19</title>
+        <questionTitle>De usuris</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1903" alias="b77yvv-l5t20" type="decretales-l5t20">
+        <fileName filestem="b77yvv-d1e1903"/>
+        <title>Titulus 20</title>
+        <questionTitle>De crimine falsi</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1914" alias="b77yvv-l5t21" type="decretales-l5t21">
+        <fileName filestem="b77yvv-d1e1914"/>
+        <title>Titulus 21</title>
+        <questionTitle>De sortilegiis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1925" alias="b77yvv-l5t22" type="decretales-l5t22">
+        <fileName filestem="b77yvv-d1e1925"/>
+        <title>Titulus 22</title>
+        <questionTitle>De collusione detegenda</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1937" alias="b77yvv-l5t23" type="decretales-l5t23">
+        <fileName filestem="b77yvv-d1e1937"/>
+        <title>Titulus 23</title>
+        <questionTitle>De delictis puerorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1948" alias="b77yvv-l5t24" type="decretales-l5t24">
+        <fileName filestem="b77yvv-d1e1948"/>
+        <title>Titulus 24</title>
+        <questionTitle>De clerico venatore</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1959" alias="b77yvv-l5t25" type="decretales-l5t25">
+        <fileName filestem="b77yvv-d1e1959"/>
+        <title>Titulus 25</title>
+        <questionTitle>De clerico venatore</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1970" alias="b77yvv-l5t26" type="decretales-l5t26">
+        <fileName filestem="b77yvv-d1e1970"/>
+        <title>Titulus 26</title>
+        <questionTitle>De maledicis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1981" alias="b77yvv-l5t27" type="decretales-l5t27">
+        <fileName filestem="b77yvv-d1e1981"/>
+        <title>Titulus 27</title>
+        <questionTitle>De clerico excommunicato, deposito vel interdicto ministrante</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e1992" alias="b77yvv-l5t28" type="decretales-l5t28">
+        <fileName filestem="b77yvv-d1e1992"/>
+        <title>Titulus 28</title>
+        <questionTitle>De clerico non ordinato ministrant</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2004" alias="b77yvv-l5t29" type="decretales-l5t29">
+        <fileName filestem="b77yvv-d1e2004"/>
+        <title>Titulus 29</title>
+        <questionTitle>De clerico per saltum promoto</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2015" alias="b77yvv-l5t30" type="decretales-l5t30">
+        <fileName filestem="b77yvv-d1e2015"/>
+        <title>Titulus 30</title>
+        <questionTitle>De eo, qui furtive ordinem suscepit</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2026" alias="b77yvv-l5t31" type="decretales-l5t31">
+        <fileName filestem="b77yvv-d1e2026"/>
+        <title>Titulus 31</title>
+        <questionTitle>De excessibus praelatorum et subditorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2037" alias="b77yvv-l5t32" type="decretales-l5t32">
+        <fileName filestem="b77yvv-d1e2037"/>
+        <title>Titulus 32</title>
+        <questionTitle>De novi operis nunciatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2048" alias="b77yvv-l5t33" type="decretales-l5t33">
+        <fileName filestem="b77yvv-d1e2048"/>
+        <title>Titulus 33</title>
+        <questionTitle>De privilegiis et excessibus privilegiatorum</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2059" alias="b77yvv-l5t34" type="decretales-l5t34">
+        <fileName filestem="b77yvv-d1e2059"/>
+        <title>Titulus 34</title>
+        <questionTitle>De purgatione canonica</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2071" alias="b77yvv-l5t35" type="decretales-l5t35">
+        <fileName filestem="b77yvv-d1e2071"/>
+        <title>Titulus 35</title>
+        <questionTitle>De purgatione vulgari</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2082" alias="b77yvv-l5t36" type="decretales-l5t36">
+        <fileName filestem="b77yvv-d1e2082"/>
+        <title>Titulus 36</title>
+        <questionTitle>De iniuriis et damno dato</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2093" alias="b77yvv-l5t37" type="decretales-l5t37">
+        <fileName filestem="b77yvv-d1e2093"/>
+        <title>Titulus 37</title>
+        <questionTitle>De poenis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2104" alias="b77yvv-l5t38" type="decretales-l5t38">
+        <fileName filestem="b77yvv-d1e2104"/>
+        <title>Titulus 38</title>
+        <questionTitle>De poenitentiis et remissionibus</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2115" alias="b77yvv-l5t39" type="decretales-l5t39">
+        <fileName filestem="b77yvv-d1e2115"/>
+        <title>Titulus 39</title>
+        <questionTitle>De sententia excommunicationis</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2126" alias="b77yvv-l5t40" type="decretales-l5t40">
+        <fileName filestem="b77yvv-d1e2126"/>
+        <title>Titulus 40</title>
+        <questionTitle>De verborum significatione</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+      <item id="b77yvv-d1e2138" alias="b77yvv-l5t41" type="decretales-l5t41">
+        <fileName filestem="b77yvv-d1e2138"/>
+        <title>Titulus 41</title>
+        <questionTitle>De regulis juris</questionTitle>
+        <hasWitnesses> </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
