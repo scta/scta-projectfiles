@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Augustine</authorName>
+    <commentaryName>Quaestionum in heptateuchum</commentaryName>
+    <commentaryid>bnh77h</commentaryid>
+    <commentaryslug>bnh77h</commentaryslug>
+    <alias>AugustineQuaestionumInHeptateuchum</alias>
+    <authorUri>http://scta.info/resource/Augustine</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-xci34x">
+        <slug>cod-xci34x</slug>
+        <title>PL v. 34</title>
+        <initial>cod-xci34x</initial>
+        <!-- PL 34 -->
+      </witness>
+      
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestionum in heptateuchum</head>
+    <item id="bnh77h-d1e41" alias="bnh77h-l1">
+      <fileName filestem="bnh77h-d1e41"/>
+      <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e48" alias="bnh77h-l2">
+      <fileName filestem="bnh77h-d1e48"/>
+      <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e55" alias="bnh77h-l3">
+      <fileName filestem="bnh77h-d1e55"/>
+      <title>Liber 3</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e62" alias="bnh77h-l4">
+      <fileName filestem="bnh77h-d1e62"/>
+      <title>Liber 4</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e70" alias="bnh77h-l5">
+      <fileName filestem="bnh77h-d1e70"/>
+      <title>Liber 5</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e77" alias="bnh77h-l6">
+      <fileName filestem="bnh77h-d1e77"/>
+      <title>Liber 6</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+    <item id="bnh77h-d1e84" alias="bnh77h-l7">
+      <fileName filestem="bnh77h-d1e84"/>
+      <title>Liber 7</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci34x"></witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
