@@ -569,10 +569,28 @@
           <fileName filestem="mm30o9-d1e845"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum quaelibet persona mittat quamlibet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
-      <!-- there is also a commentary on distinction 16 here which is likely a commentary 
-        on an "additio" -->
+      <!-- there is a commentary on a question from distinction 16 here
+        which is likely a commentary on an "additio" 
+        Even though ordinatio distinction 16 q1 doesn't exists in ordinatio
+        it still exists in lychtus commentary so it should be included here
+        when a separate work for the "additiones" exist then this commentary will be able to be linked
+      -->
+      <div id="mm30o9-d1e850" alias="mm30o9-b1d16" type="liber1-distinctio18">
+        <head>Distinctio 16</head>
+        <item id="mm30o9-d1e855" alias="mm30o9-b1d16q1" type="quaestio">
+          <fileName filestem="mm30o9-d1e855"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum a conveniat Spiritui sancto visibilis missio?</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
+        </item>
+      </div>
       <div id="mm30o9-d1e857" alias="mm30o9-b1d17" type="liber1-distinctio17">
         <head>Distinctio 17</head>
         <div id="mm30o9-d1e862" alias="mm30o9-b1d17p1" type="pars">
@@ -582,13 +600,9 @@
             <title>Quaestiones 1-2</title>
             <questionTitle>Utrum necesse sit ponere caritatem creatam, formaliter inhaerentem
               naturae beatificabili</questionTitle>
-          </item>
-          <!-- TODO: combine with above and remove graph -->
-          <item id="mm30o9-d1e878" alias="mm30o9-b1d17p1q2" type="quaestio">
-            <fileName filestem="mm30o9-d1e878"/>
-            <title>Quaestio 2</title>
-            <questionTitle>Utrum necesse sit ponere in habitu rationem principii activi respectu
-              actus</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
         </div>
         <div id="mm30o9-d1e890" alias="mm30o9-b1d17p2" type="pars">
@@ -598,28 +612,55 @@
             <title>Quaestio 1</title>
             <questionTitle>Utrum tota caritas praeexsistens corrumpatur ita quod nulla realitas
               eadem numero maneat in caritate maiore et minore</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
           <item id="mm30o9-d1e906" alias="mm30o9-b1d17p2q2" type="quaestio">
             <fileName filestem="mm30o9-d1e906"/>
             <title>Quaestio 2</title>
             <questionTitle>Utrum illud positivum caritatis praeexsistentis quod manet in augmento,
               sit tota essentia caritatis intensae</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x10"/>
+            </hasWitnesses>
           </item>
         </div>
       </div>
       <!-- there is a commentary on a question from distinction 18 here
-        which is likely a commentary on an "additio" -->
+        which is likely a commentary on an "additio" 
+        Even though ordinatio distinction 18 q1 doesn't exists in ordinatio
+        it still exists in lychtus commentary so it should be included here
+        when a separate work for the "additiones" exist then this commentary will be able to be linked
+      -->
+      <div id="mm30o9-d1e910" alias="mm30o9-b1d18" type="liber1-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="mm30o9-d1e915" alias="mm30o9-b1d18q1" type="quaestio">
+          <fileName filestem="mm30o9-d1e915"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum donum dicat proprietatem personalem Spiritus sancti?</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
+        </item>
+      </div>
       <div id="mm30o9-d1e920" alias="mm30o9-b1d19" type="liber1-distinctio19">
         <head>Distinctio 19</head>
         <item id="mm30o9-d1e925" alias="mm30o9-b1d19q1" type="quaestio">
           <fileName filestem="mm30o9-d1e925"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum personae divinae sint aequales secundum magnitudinem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
         <item id="mm30o9-d1e936" alias="mm30o9-b1d19q2" type="quaestio">
           <fileName filestem="mm30o9-d1e936"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum quaelibet persona sit in alia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e948" alias="mm30o9-b1d20" type="liber1-distinctio20">
@@ -628,6 +669,9 @@
           <fileName filestem="mm30o9-d1e953"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum tres personae sint aequales in potentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e965" alias="mm30o9-b1d21" type="distinctio">
@@ -636,6 +680,9 @@
           <fileName filestem="mm30o9-d1e970"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum haec sit veta 'solus Pater est Deus'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e982" alias="mm30o9-b1d22" type="liber1-distinctio22">
@@ -645,6 +692,19 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus sit nominabilis a nobis aliquo nomine significante essentiam
             divinam in se, ut est 'haec'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
+        </item>
+        <!-- questio 2 here seems to be an additio that is not
+          in ordinatio but there is still a lychtus commentary here so we need an entry-->
+        <item id="mm30o9-d1e990" alias="mm30o9-b1d22q2" type="quaestio">
+          <fileName filestem="mm30o9-d1e990"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Deus sit nominabilis ab aliqua creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e999" alias="mm30o9-b1d23" type="distinctio">
@@ -654,6 +714,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona secundum quod dicit aliquid commune Patri et Filio et
             Spiritui Sancto, dicat praecise aliquid secundae intentionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1016" alias="mm30o9-b1d24" type="liber1-distinctio24">
@@ -662,6 +725,9 @@
           <fileName filestem="mm30o9-d1e1021"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in divinis sit proprie numerus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1034" alias="mm30o9-b1d25" type="liber1-distinctio25">
@@ -670,6 +736,9 @@
           <fileName filestem="mm30o9-d1e1039"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona in divinis dicat substantiam vel relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1051" alias="mm30o9-b1d26" type="liber1-distinctio26">
@@ -678,44 +747,43 @@
           <fileName filestem="mm30o9-d1e1056"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum personae constituantur in esse personali per relationes originis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1068" alias="mm30o9-b1d27" type="liber1-distinctio27">
         <head>Distinctio 27</head>
         <item id="mm30o9-d1e1073" alias="mm30o9-b1d27q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1073"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum verbum creatum sit actualis intellectio</questionTitle>
-        </item>
-        <item id="mm30o9-d1e1084" alias="mm30o9-b1d27q2" type="quaestio">
-          <fileName filestem="mm30o9-d1e1084"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum verbum in divinis dicat proprium personae genitae</questionTitle>
-        </item>
-        <item id="mm30o9-d1e1095" alias="mm30o9-b1d27q3" type="quaestio">
-          <fileName filestem="mm30o9-d1e1095"/>
-          <title>Quaestio 3</title>
-          <questionTitle>Utrum verbum divinum dicat respectum ad creaturam</questionTitle>
+          <title>Quaestiones 1-3</title>
+          <questionTitle>Utrum verbum creatum sit actualis intellectio; 
+            Utrum verbum in divinis dicat proprium personae genitae;
+            Utrum verbum divinum dicat respectum ad creaturam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1107" alias="mm30o9-b1d28" type="liber1-distinctio28">
         <head>Distinctio 28</head>
-        <item id="mm30o9-d1e1112" alias="mm30o9-b1d28q1" type="quaestio">
-          <fileName filestem="mm30o9-d1e1112"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum 'ingenitum' sit proprietas ipsius Patris</questionTitle>
-        </item>
         <item id="mm30o9-d1e1123" alias="mm30o9-b1d28q2" type="quaestio">
           <fileName filestem="mm30o9-d1e1123"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum innascibilitas sit proprietas constitutiva primae personae in
             divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
         <item id="mm30o9-d1e1134" alias="mm30o9-b1d28q3" type="quaestio">
           <fileName filestem="mm30o9-d1e1134"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum personae prima divina constituatur in esse personali aliqua relatione
             positiva ad secundam personam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1146" alias="mm30o9-b1d29" type="liber1-distinctio29">
@@ -725,19 +793,22 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum principium dicatur univoce de principiis ad intra et ad extra in
             Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1163" alias="mm30o9-b1d30" type="liber1-distinctio30">
         <head>Distinctio 30</head>
         <item id="mm30o9-d1e1168" alias="mm30o9-b1d30q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1168"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum de Deo dicatur aliqua relatio ex tempore</questionTitle>
-        </item>
-        <item id="mm30o9-d1e1179" alias="mm30o9-b1d30q2" type="quaestio">
-          <fileName filestem="mm30o9-d1e1179"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum Dei ad creaturam possit esse aliqua relatio realis</questionTitle>
+          <title>Quaestiones 1-2</title>
+          <questionTitle>Utrum de Deo dicatur aliqua relatio ex tempore; 
+            Utrum Dei ad creaturam possit esse aliqua relatio realis
+          </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1192" alias="mm30o9-b1d31" type="liber1-distinctio31">
@@ -747,28 +818,21 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum identitas, similitudo et aequalitas sint relationes reales in
             Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1209" alias="mm30o9-b1d32" type="liber1-distinctio32">
         <head>Distinctio 32</head>
         <item id="mm30o9-d1e1214" alias="mm30o9-b1d32q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1214"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum Pater et Filius diligant se Spiritu Sancto</questionTitle>
-        </item>
-        <item id="mm30o9-d1e1225" alias="mm30o9-b1d32q2" type="quaestio">
-          <fileName filestem="mm30o9-d1e1225"/>
-          <title>Quaestio 2</title>
-          <questionTitle>Utrum Pater sit sapiens sapientia genita</questionTitle>
-        </item>
-      </div>
-      <div id="mm30o9-d1e1237" alias="mm30o9-b1d33-34" type="liber1-distinctio33 liber1-distinctio34">
-        <head>Distinctiones 33 et 34</head>
-        <item id="mm30o9-d1e1242" alias="mm30o9-b1d33-34q1-3" type="quaestio">
-          <fileName filestem="mm30o9-d1e1242"/>
-          <title>Quaestiones 1-3</title>
-          <questionTitle>Utrum proprietas sit idem cum persona, utrum sit idem cum essentia, et
-            utrum persona sit idem cum essentia</questionTitle>
+          <title>Quaestiones 1-2</title>
+          <questionTitle>Utrum Pater et Filius diligant se Spiritu Sancto; 
+            Utrum Pater sit sapiens sapientia genita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1254" alias="mm30o9-b1d35" type="liber1-distinctio35">
@@ -777,6 +841,9 @@
           <fileName filestem="mm30o9-d1e1259"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Deo sint relationes aeternae ad omnia scibilia ut quiditative cognita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1271" alias="mm30o9-b1d36" type="distinctio">
@@ -786,16 +853,19 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum fundamentum relationis aeternae ad Deum ut cognoscentem habeat vere
             esse essentiae ex hoc quod est sub tali respectu</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1288" alias="mm30o9-b1d37" type="liber1-distinctio37">
         <head>Distinctio 37</head>
         <item id="mm30o9-d1e1293" alias="mm30o9-b1d37q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1293"/>
-          <title>Liber I, Distinctio Trigesima Septima, Quaestio 1</title>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum Dei omnipotentia necessaria inferat eius immensitatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-u78xV9"/>
+            <witness ref="#cod-u78x10"/>
           </hasWitnesses>
         </item>
         <!-- 
@@ -810,6 +880,26 @@
           <fileName filestem="mm30o9-d1e1311"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum scientia Dei respectu factibilium sit practica</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- there is a commentary on a question from distinction 39 here
+        which is likely a commentary on an "additio" 
+        Even though ordinatio distinction 39 q1 doesn't exists in ordinatio
+        it still exists in lychtus commentary so it should be included here
+        when a separate work for the "additiones" exist then this commentary will be able to be linked
+      -->
+      <div id="mm30o9-d1e1315" alias="mm30o9-b1d39" type="liber1-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="mm30o9-d1e1318" alias="mm30o9-b1d39q1" type="quaestio">
+          <fileName filestem="mm30o9-d1e1318"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus habeat notitiam  determinatum omnium, quantum ad omnes conditiones existentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1323" alias="mm30o9-b1d40" type="liber1-distinctio40">
@@ -818,6 +908,9 @@
           <fileName filestem="mm30o9-d1e1328"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum praedestinatus possit damnari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1340" alias="mm30o9-b1d41" type="liber1-distinctio41">
@@ -827,6 +920,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sit aliquod meritum praedestinationis vel
             reprobationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1357" alias="mm30o9-b1d42" type="liber1-distinctio42">
@@ -835,6 +931,9 @@
           <fileName filestem="mm30o9-d1e1362"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deum esse omnipotentem possit probari naturali ratione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1374" alias="mm30o9-b1d43" type="liber1-distinctio43">
@@ -844,6 +943,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum prima ratio impossibilitatis rei fiendae sit ex parte Dei vel rei
             factibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1391" alias="mm30o9-b1d44" type="liber1-distinctio44">
@@ -853,6 +955,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus possit aliter facere res quam ab ipso ordinatum est eas
             fieri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1409" alias="mm30o9-b1d45" type="liber1-distinctio45">
@@ -861,6 +966,9 @@
           <fileName filestem="mm30o9-d1e1414"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Deus ab aeterno voluit alia a se</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1426" alias="mm30o9-b1d46" type="liber1-distinctio46">
@@ -869,6 +977,9 @@
           <fileName filestem="mm30o9-d1e1431"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas beneplaciti Dei semper impleatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1443" alias="mm30o9-b1d47" type="liber1-distinctio47">
@@ -877,6 +988,9 @@
           <fileName filestem="mm30o9-d1e1448"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum permissio divina sit aliquis actus voluntatis divinae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
       <div id="mm30o9-d1e1460" alias="mm30o9-b1d48" type="liber1-distinctio48">
@@ -886,12 +1000,15 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas creata sit bona moraliter quandocumque conformatur voluntati
             increatae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x10"/>
+          </hasWitnesses>
         </item>
       </div>
     </div>
     <div id="mm30o9-d1e1478" alias="mm30o9-book2" type="liber2">
       <head>Liber 2</head>
-      <div id="mm30o9-d1e1483" alias="mm30o9-b2d1" type="distinctio">
+      <div id="mm30o9-d1e1483" alias="mm30o9-b2d1" type="liber2-distinctio1">
         <head>Distinctio 1</head>
         <item id="mm30o9-d1e1488" alias="mm30o9-b2d1q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1488"/>
@@ -926,7 +1043,7 @@
           <questionTitle>Utrum angelus et anima differant specie</questionTitle>
         </item>
       </div>
-      <div id="mm30o9-d1e1556" alias="mm30o9-b2d2" type="distinctio">
+      <div id="mm30o9-d1e1556" alias="mm30o9-b2d2" type="liber2-distinctio2">
         <head>Distinctio 2</head>
         <div id="mm30o9-d1e1561" alias="mm30o9-b2d2p1" type="pars">
           <head>Pars 1</head>
@@ -1002,7 +1119,7 @@
           </item>
         </div>
       </div>
-      <div id="mm30o9-d1e1707" alias="mm30o9-b2d3" type="distinctio">
+      <div id="mm30o9-d1e1707" alias="mm30o9-b2d3" type="liber2-distinctio3">
         <head>Distinctio 3</head>
         <div id="mm30o9-d1e1712" alias="mm30o9-b2d3p1" type="pars">
           <head>Pars 1</head>
@@ -1069,7 +1186,7 @@
           </item>
         </div>
       </div>
-      <div id="mm30o9-d1e1836" alias="mm30o9-b2d4-5" type="distinctio">
+      <div id="mm30o9-d1e1836" alias="mm30o9-b2d4-5" type="liber2-distinctio4 liber2-distinctio5">
         <head>Distinctiones 4-5</head>
         <item id="mm30o9-d1e1841" alias="mm30o9-b2d4-5q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1841"/>
@@ -1084,7 +1201,7 @@
             acceperit</questionTitle>
         </item>
       </div>
-      <div id="mm30o9-d1e1865" alias="mm30o9-b2d6" type="distinctio">
+      <div id="mm30o9-d1e1865" alias="mm30o9-b2d6" type="liber2-distinctio5">
         <head>Distinctio 6</head>
         <item id="mm30o9-d1e1870" alias="mm30o9-b2d6q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1870"/>
@@ -1097,7 +1214,7 @@
           <questionTitle>Utrum primum peccatum angeli fuerit formaliter superbia</questionTitle>
         </item>
       </div>
-      <div id="mm30o9-d1e1893" alias="mm30o9-b2d7" type="distinctio">
+      <div id="mm30o9-d1e1893" alias="mm30o9-b2d7" type="liber2-distinctio6">
         <head>Distinctio 7</head>
         <item id="mm30o9-d1e1898" alias="mm30o9-b2d7q1" type="quaestio">
           <fileName filestem="mm30o9-d1e1898"/>
