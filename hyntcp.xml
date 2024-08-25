@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Nicholas Trevet</authorName>
+    <commentaryName>Commentarius in consolationem philosophiae</commentaryName>
+    <commentaryid>hyntcp</commentaryid>
+    <commentaryslug>hyntcp</commentaryslug>
+    <alias>TrevetCommentaryONConsolatioPhilosophiae</alias>
+    <authorUri>http://scta.info/resource/per-nt88nt</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-cpntcp">
+        <slug>cod-cpntcp</slug>
+        <title>Cambridge, Parker Library, MS Dd.1.11</title>
+        <initial>cod-cpntcp</initial>
+        <!-- https://cudl.lib.cam.ac.uk//iiif/MS-DD-00001-00011 -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in consolationem philosophiae</head>
+    <item id="hyntcp-d1e40" alias="hyntcp-prologus">
+      <fileName filestem="hyntcp-d1e40"/>
+      <title>Prologus</title>
+      <hasWitnesses>
+        <witness ref="#cod-cpntcp"/>
+      </hasWitnesses>
+    </item>
+    <div id="hyntcp-d1e51" alias="hyntcp-l1">
+      <head>Liber 1</head>
+      <item id="hyntcp-d1e66">
+        <fileName filestem="hyntcp-d1e66"/>
+        <title>Metrum 1</title>
+        <hasWitnesses>
+          <witness ref="#cod-cpntcp"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="hyntcp-d1e59" alias="hyntcp-l2">
+      <head>Liber 2</head>
+    </div>
+    <div id="hyntcp-d1e67" alias="hyntcp-l3">
+      <head>Liber 3</head>
+    </div>
+    <div id="hyntcp-d1e75" alias="hyntcp-l4">
+      <head>Liber 4</head>
+    </div>
+    <div id="hyntcp-d1e83" alias="hyntcp-l5">
+      <head>Liber 5</head>
+    </div>
+  </div>
+</listofFileNames>
