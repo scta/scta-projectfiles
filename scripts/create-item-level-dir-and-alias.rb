@@ -18,7 +18,7 @@ items.each do |item|
   id = item.attributes["id"].value
   puts "id: #{id}"
   FileUtils.mkdir_p "#{destination}/#{id}/"
-  #FileUtils.touch "#{destination}/#{id}/readme.md"
+  FileUtils.touch "#{destination}/#{id}/readme.md"
   if item.attributes["alias"]
     idalias = item.attributes["alias"].value
     puts "alias: #{idalias}"
