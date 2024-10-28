@@ -136,6 +136,12 @@
         <initial>cod-u78x12</initial>
         <editor>http://scta.info/resource/per-av4Viv</editor>
       </witness>
+      <witness id="cod-u78x13">
+        <slug>cod-u78x13</slug>
+        <title>Vives, Paris, 1893, volume 13</title>
+        <initial>cod-u78x13</initial>
+        <editor>http://scta.info/resource/per-av4Viv</editor>
+      </witness>
       <witness id="cod-W61xza">
         <slug>cod-W61xza</slug>
         <title>Wadding, Lyon 1639, v. 6.1</title>
@@ -2580,6 +2586,10 @@
           <fileName filestem="jdso8u-d1e2040"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum gratia sit in essentia animae vel in potentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2052" alias="jdso8u-b2d27" type="liber2-distinctio27">
@@ -2588,6 +2598,10 @@
           <fileName filestem="jdso8u-d1e2057"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum gratia sit virtus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2069" alias="jdso8u-b2d28" type="liber2-distinctio28">
@@ -2597,6 +2611,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum liberum arbitrium hominis sine gratia possit cavere omne peccatum
             mortale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2086" alias="jdso8u-b2d29" type="liber2-distinctio29">
@@ -2606,6 +2624,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum iustitiam originalem in Adam necesse sit ponere aliquod donum
             supernaturale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2104" alias="jdso8u-b2d30-32"
@@ -2613,11 +2635,16 @@
         <head>Distinctiones 30-32</head>
         <item id="jdso8u-d1e2109" alias="jdso8u-b2d30-32q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2109"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum quilibet, secundum legem communem propagatus ab Adam, contrahat
-            peccatum originale</questionTitle>
+          <title>Quaestiones 1-4</title>
+          <!--<questionTitle>Utrum quilibet, secundum legem communem propagatus ab Adam, contrahat
+            peccatum originale</questionTitle>-->
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
-        <item id="jdso8u-d1e2120" alias="jdso8u-b2d30-32q2" type="quaestio">
+        <!-- todo delete item ids for 2-4-->
+        <!--<item id="jdso8u-d1e2120" alias="jdso8u-b2d30-32q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2120"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum peccatum originale sit carentia originalis iustitiae</questionTitle>
@@ -2632,7 +2659,7 @@
           <fileName filestem="jdso8u-d1e2142"/>
           <title>Quaestio 4</title>
           <questionTitle>Utrum in baptismo remittatur peccatum originale</questionTitle>
-        </item>
+        </item>-->
       </div>
       <div id="jdso8u-d1e2154" alias="jdso8u-b2d33" type="distinctio">
         <head> Distinctio 33</head>
@@ -2641,16 +2668,25 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum peccato originali debeatur sola carentia visionis divinae pro
             poena</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2171" alias="jdso8u-b2d34-37" type="distinctio">
         <head> Distinctiones 34-37</head>
+        <!-- TODO changes this to questions 1-5 as a single item -->
         <item id="jdso8u-d1e2176" alias="jdso8u-b2d34-37q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2176"/>
-          <title>Quaestio 1</title>
-          <questionTitle>Utrum peccatum sit a nobis sicut a causa</questionTitle>
+          <title>Quaestiones 1-5</title>
+          <!--<questionTitle>Utrum peccatum sit a bono sicut a causa</questionTitle>-->
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
-        <item id="jdso8u-d1e2187" alias="jdso8u-b2d34-37q2" type="quaestio">
+        <!--<item id="jdso8u-d1e2187" alias="jdso8u-b2d34-37q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2187"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum peccatum sit per se corruptio boni</questionTitle>
@@ -2671,7 +2707,7 @@
           <questionTitle>Utrum voluntas creata sit totalis causa et immediata respectu sui velle,
             ita quod Deus respectu illius velle non habeat aliquam efficientiam immediatam, sed
             tantum mediatam</questionTitle>
-        </item>
+        </item>-->
       </div>
       <div id="jdso8u-d1e2233" alias="jdso8u-b2d38" type="distinctio">
         <head>Distinctio 38</head>
@@ -2679,20 +2715,29 @@
           <fileName filestem="jdso8u-d1e2238"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum intentio sit solus actus voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2250" alias="jdso8u-b2d39" type="distinctio">
         <head>Distinctio 39</head>
         <item id="jdso8u-d1e2255" alias="jdso8u-b2d39q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2255"/>
-          <title>Quaestio 1</title>
+          <title>Quaestiones 1-2</title>
           <questionTitle>Utrum synderesis sit in voluntate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
-        <item id="jdso8u-d1e2266" alias="jdso8u-b2d39q2" type="quaestio">
+        <!-- delete below and combine below into single item -->
+        <!--<item id="jdso8u-d1e2266" alias="jdso8u-b2d39q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2266"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum conscientia sit in voluntate</questionTitle>
-        </item>
+        </item>-->
       </div>
       <div id="jdso8u-d1e2278" alias="jdso8u-b2d40" type="distinctio">
         <head>Distinctio 40</head>
@@ -2700,6 +2745,10 @@
           <fileName filestem="jdso8u-d1e2283"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum omnis actus sit bonus ex fine</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2296" alias="jdso8u-b2d41" type="distinctio">
@@ -2708,6 +2757,10 @@
           <fileName filestem="jdso8u-d1e2301"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum aliquis actus noster possit esse indifferens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2313" alias="jdso8u-b2d42" type="distinctio">
@@ -2716,6 +2769,10 @@
           <fileName filestem="jdso8u-d1e2318"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum peccata capitalia distinguantur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2330" alias="jdso8u-b2d43" type="distinctio">
@@ -2724,6 +2781,10 @@
           <fileName filestem="jdso8u-d1e2335"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas creata possit peccare ex malitia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
       <div id="jdso8u-d1e2347" alias="jdso8u-b2d44" type="distinctio">
@@ -2732,6 +2793,10 @@
           <fileName filestem="jdso8u-d1e2352"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum potentia peccandi sit a Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x13">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
     </div>
