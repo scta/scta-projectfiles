@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+  <header>
+    <authorName>Stefan Yavorskyi</authorName>
+    <commentaryName>Tractus theologicus augustissimo incarnationis mysterio traditus</commentaryName>
+    <!--Stefan Yavorskyi (taught at the Kyiv-Mohyla Academy in 1695).-->
+    <commentaryid>yth33t</commentaryid>
+    <commentaryslug>yth33t</commentaryslug>
+    <authorUri>http://scta.info/resource/per-sykisy</authorUri>
+    <parentWorkGroup>http://scta.info/resource/kygivmohylaacademy</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-hbbgut">
+        <slug>cod-hbbgut</slug>
+        <title>KDA 265</title>
+        <initial>cod-hbbgut</initial>
+      </witness>
+    </hasWitnesses>
+    <date>1695</date><!-- oct 18 1695 -->
+  </header>
+  <div id="body">
+    <head>Tractus theologicus augustissimo incarnationis mysterio traditus</head>
+    <item id="yth33t-f2x51" alias="yth33t-prooem">
+      <fileName filestem=""/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#cod-hbbgut">
+          <folio>1r</folio>
+          <folio>1v</folio>
+          <folio>2r</folio>
+          <folio>2v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <div id="yth33t-f2x58" alias="yth33t-d1">
+      <head>Disputatio 1</head>
+      <questionTitle>De cognoscibilitate existentia et convenientia incarnationis</questionTitle>
+      <item id="yth33t-f2x64" alias="yth33t-d1s1">
+        <fileName filestem="yth33t-f2x64"/>
+        <title>Sectio 1</title>
+        <questionTitle>An naturali ratione posset cognosci possibilitas incarnationi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>2v</folio>
+            <folio>3r</folio>
+            <folio>3v</folio>
+            <folio>4r</folio>
+            <folio>4v</folio>
+            <folio>5r</folio>
+            <folio>5v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x73" alias="yth33t-d1s2">
+        <fileName filestem="yth33t-f2x73"/>
+        <title>Sectio 2</title>
+        <questionTitle>Possibilitas incarnationis declaratur et soluuntur argumenta contra eam militantia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>5v</folio>
+            <folio>6r</folio>
+            <folio>6v</folio>
+            <folio>7r</folio>
+            <folio>7v</folio>
+            <folio>8r</folio>
+            <folio>8v</folio>
+            <folio>9r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x82" alias="yth33t-d1s3">
+        <fileName filestem="yth33t-f2x82"/>
+        <title>Sectio 3</title>
+        <questionTitle>De existentia incarnationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>9r</folio>
+            <folio>9v</folio>
+            <folio>10r</folio>
+            <folio>10v</folio>
+            <folio>11r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x92" alias="yth33t-d1s4">
+        <fileName filestem="yth33t-f2x92"/>
+        <title>Sectio 4</title>
+        <questionTitle>De convenientia incarnationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>11r</folio>
+            <folio>11v</folio>
+            <folio>12r</folio>
+            <folio>12v</folio>
+            <folio>13r</folio>
+            
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x102" alias="yth33t-d2">
+      <head>Disputatio 2</head>
+      <questionTitle>De necessitate incarnationis</questionTitle>
+      <item id="yth33t-f2x108" alias="yth33t-d2s1">
+        <fileName filestem="yth33t-f2x108"/>
+        <title>Sectio 1</title>
+        <questionTitle>An in deo fuerit necessitas absolute ad incarnationem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>13r</folio>
+            <folio>13v</folio>
+            <folio>14r</folio>
+            <folio>14v</folio>
+            <folio>15r</folio>
+            <folio>15v</folio>
+            <folio>16r</folio>
+            <folio>16v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x117" alias="yth33t-d2s2">
+        <fileName filestem="yth33t-f2x117"/>
+        <title>Sectio 2</title>
+        <questionTitle>
+          An ex suppositione mundi conditi vel voluntatis reparandi hominem lapsum
+          et reducendi ad finem suum supernaturalem necessitatus sit Deus ad
+          incarnationem
+        </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>16v</folio>
+            <folio>17r</folio>
+            <folio>17v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x127" alias="yth33t-d3">
+      <head>Disputatio 3</head>
+      <questionTitle>An incarnatio necessaria fuerit ex suppositione volutatis divinae de praestanda condigna
+        satisfactione pro peccatis?</questionTitle>
+      <item id="yth33t-f2x133" alias="yth33t-d3s2">
+        <fileName filestem="yth33t-f2x133"/>
+        <title>Sectio 1</title>
+        <questionTitle>An purus homo potuerit esse sufficiens ad redimendos alios homines ex iustitia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>17v</folio>
+            <folio>18r</folio>
+            <folio>18v</folio>
+            <folio>19r</folio>
+            <folio>19v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x142" alias="yth33t-d3s2">
+        <fileName filestem="yth33t-f2x142"/>
+        <title>Sectio 2</title>
+        <questionTitle>Utrum homo purus posset ad aequalitatem satisfacere pro culpa mortali propria 
+          ita ut ex vera iustitia obtineat remissionem eius</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>19v</folio>
+            <folio>20r</folio>
+            <folio>20v</folio>
+            <folio>21r</folio>
+            <folio>21v</folio>
+            <folio>22r</folio>
+            <folio>22v</folio>
+            <folio>23r</folio>
+            <folio>23v</folio>
+            <folio>24r</folio>
+            <folio>24v</folio>
+            <folio>25r</folio>
+            <folio>25v</folio>
+            <folio>26r</folio>
+            <folio>26v</folio>
+            <folio>27r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x153" alias="yth33t-d4">
+      <head>Disputatio 4</head>
+      <questionTitle>De condignitate satisfactionis Christi domini pro peccatis nostris</questionTitle>
+      <item id="yth33t-f2x159" alias="yth33t-d4s1">
+        <fileName filestem="yth33t-f2x159"/>
+        <title>Sectio 1</title>
+        <questionTitle>An opera domini de se fuerint sufficientis valoris ad satisfaciendum condigne
+          pro peccatis hominum, et de facto pro illa taliter sit satisfactum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>27r</folio>
+            <folio>27v</folio>
+            <folio>28r</folio>
+            <folio>28v</folio>
+            <folio>29r</folio>
+            <folio>29v</folio>
+            <folio>30r</folio>
+            <folio>30v</folio>
+            <folio>31r</folio>
+            <folio>31v</folio>
+            <folio>32r</folio>
+            <folio>32v</folio>
+            <folio>33r</folio>
+            <folio>33v</folio>
+            <folio>34r</folio>
+            <folio>34v</folio>
+            <folio>35r</folio>
+            <folio>35v</folio>
+            <folio>36r</folio>
+            <folio>36v</folio>
+            <folio>37r</folio>
+            <folio>37v</folio>
+            <folio>38r</folio>
+            <folio>38v</folio>
+            <folio>39r</folio>
+            <folio>39v</folio>
+            <folio>40r</folio>
+            <folio>40v</folio>
+            <folio>41r</folio>
+            <folio>41v</folio>
+            <folio>42r</folio>
+            <folio>42v</folio>
+            <folio>43r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x168" alias="yth33t-d4s2">
+        <fileName filestem="yth33t-f2x168"/>
+        <title>Sectio 2</title>
+        <questionTitle>An Christus dominus ex rigore iustitiae satisfecerit pro peccatis generis humani</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>43r</folio>
+            <folio>43v</folio>
+            <folio>44r</folio>
+            <folio>44v</folio>
+            <folio>45r</folio>
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x178" alias="yth33t-d5">
+      <head>Disputatio 5</head>
+      <questionTitle>De motivo propter quod decreta est existentia incarnationis</questionTitle>
+      <item id="yth33t-f2x184" alias="yth33t-d5s1">
+        <fileName filestem="yth33t-f2x184"/>
+        <title>Sectio 1</title>
+        <questionTitle>De ordine divinarum cognitionum et decretorum inter se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>49r</folio>
+            <folio>49v</folio>
+            <folio>50r</folio>
+            <folio>50v</folio>
+            <folio>51r</folio>
+            <folio>51v</folio>
+            <folio>52r</folio>
+            <folio>52v</folio>
+            <folio>53r</folio>
+            <folio>53v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x193" alias="yth33t-d5s2">
+        <fileName filestem="yth33t-f2x193"/>
+        <title>Sectio 2</title>
+        <questionTitle>Utrum voluntas incarnationis antecesserit in Deo praevisionem peccati originalis 53v
+          vel subsequuta fuerit</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>53v</folio>
+            <folio>54r</folio>
+            <folio>54v</folio>
+            <folio>55r</folio>
+            <folio>55v</folio>
+            <folio>56r</folio>
+            <folio>56v</folio>
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+            <folio>62r</folio>
+            <folio>62v</folio>
+            <folio>63r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x202" alias="yth33t-d5s3">
+        <fileName filestem="yth33t-f2x202"/>
+        <title>Sectio 3</title>
+        <questionTitle>An Christus venisset si Adam ne peccasset</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>63r</folio>
+            <folio>63v</folio>
+            <folio>64r</folio>
+            <folio>64v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x212" alias="yth33t-d5s4">
+        <fileName filestem="yth33t-f2x212"/>
+        <title>Sectio 4</title>
+        <questionTitle>An Christus decretus fuerit prius aut principalius propter peccatum originale 64v
+          quam propter actualia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>64v</folio>
+            <folio>65r</folio>
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+            <folio>68r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x221" alias="yth33t-d5s5">
+        <fileName filestem="yth33t-f2x221"/>
+        <title>Sectio 5</title>
+        <questionTitle>Proponitur ordo decretorum circa mysterium incarnationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>68r</folio>
+            <folio>69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x231" alias="yth33t-d6">
+      <head>Disputatio 6</head>
+      <questionTitle>De causa efficiente physica et morali meritoria incarnationis</questionTitle>
+      <item id="yth33t-f2x237" alias="yth33t-d6s1">
+        <fileName filestem="yth33t-f2x237"/>
+        <title>Sectio 1</title>
+        <questionTitle>Quaenam potuerit esse vel fuit causa physica incarnationis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>70r</folio>
+            <folio>70v</folio>
+            <folio>71r</folio>
+            <folio>71v</folio>
+            <folio>72r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x246" alias="yth33t-d6s2">
+        <fileName filestem="yth33t-f2x246"/>
+        <title>Sectio 2</title>
+        <questionTitle>An causa efficiens moralis seu meritoria incarnationis fuerit beatissima virgo
+          et sancti patres</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>72r</folio>
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <folio>76v</folio>
+            <folio>77r</folio>
+            <folio>77v</folio>
+            <folio>78r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x255" alias="yth33t-d6s3">
+        <fileName filestem="yth33t-f2x255"/>
+        <title>Sectio 3</title>
+        <questionTitle>An beatissima virgo sibi meruerit maternitatem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>78r</folio>
+            <folio>79r</folio>
+            <folio>79v</folio>
+            <folio>80r</folio>
+            <folio>80v</folio>
+            <folio>81r</folio>
+            <folio>81v</folio>
+            <folio>82r</folio>
+            <folio>82v</folio>
+            <folio>83r</folio>
+            <folio>83v</folio>
+            <folio>84r</folio>
+            <folio>84v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x265" alias="yth33t-d6s4">
+        <fileName filestem="yth33t-f2x265"/>
+        <title>Sectio 4</title>
+        <questionTitle>An Christus sibi meruit unionem hypostaticam</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>84v</folio>
+            <folio>85r</folio>
+            <folio>85v</folio>
+            <folio>86r</folio>
+            <folio>86v</folio>
+            <folio>87r</folio>
+            <folio>87v</folio>
+            <folio>88r</folio>
+            <folio>88v</folio>
+            <folio>89r</folio>
+            <folio>89v</folio>
+            <folio>90r</folio>
+            <folio>90v</folio>
+            <folio>91r</folio>
+            <folio>91v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x275" alias="yth33t-d7">
+      <head>Disputatio 7</head>
+      <questionTitle>De incarnatione quoad substantiam suam et terminos eius</questionTitle>
+      <item id="yth33t-f2x281" alias="yth33t-d7s1">
+        <fileName filestem="yth33t-f2x281"/>
+        <title>Sectio 1</title>
+        <questionTitle>De actione productiva unionis hypostaticae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>91v</folio>
+            <folio>92r</folio>
+            <folio>92v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x290" alias="yth33t-d7s2">
+        <fileName filestem="yth33t-f2x290"/>
+        <title>Sectio 2</title>
+        <questionTitle>De unione hypostatica secundum se</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>92v</folio>
+            <folio>93r</folio>
+            <folio>93v</folio>
+            <folio>94r</folio>
+            <folio>94v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x299" alias="yth33t-d7s3">
+        <fileName filestem="yth33t-f2x299"/>
+        <title>Sectio 3</title>
+        <questionTitle>De verbo ut est terminus unionis hypostaticae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>94v</folio>
+            <folio>95r</folio>
+            <folio>95v</folio>
+            <folio>96r</folio>
+            <folio>96v</folio>
+            <folio>97r</folio>
+            <folio>97v</folio>
+            <folio>98r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x309" alias="yth33t-d7s4">
+        <fileName filestem="yth33t-f2x309"/>
+        <title>Sectio 4</title>
+        <questionTitle>De natura assumpta et assumptibili</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>98r</folio>
+            <folio>98v</folio>
+            <folio>99r</folio>
+            <folio>99v</folio>
+            <folio>100r</folio>
+            <folio>100v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x318" alias="yth33t-d7s5">
+        <fileName filestem="yth33t-f2x318"/>
+        <title>Sectio 5</title>
+        <questionTitle>De termino totali incarnationis qui est Christus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>100v</folio>
+            <folio>101r</folio>
+            <folio>101v</folio>
+            <folio>102r</folio>
+            <folio>102v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x327" alias="yth33t-d7s6">
+        <fileName filestem="yth33t-f2x327"/>
+        <title>Sectio 6</title>
+        <questionTitle>De communicatione idiomatum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>102v</folio>
+            <folio>103r</folio>
+            <folio>103v</folio>
+            <folio>104r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x337" alias="yth33t-d8">
+      <head>Disputatio 8</head>
+      <questionTitle>De sanctitate Christi</questionTitle>
+      <item id="yth33t-f2x343" alias="yth33t-d8s1">
+        <fileName filestem="yth33t-f2x343"/>
+        <title>Sectio 1</title>
+        <questionTitle>De sanctitate substantiali Christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>104r</folio>
+            <folio>104v</folio>
+            <folio>105r</folio>
+            <folio>105v</folio>
+            <folio>106r</folio>
+            <folio>106v</folio>
+            <folio>107r</folio>
+            <folio>107v</folio>
+            <folio>108r</folio>
+            <folio>108v</folio>
+            <folio>109r</folio>
+            <folio>109v</folio>
+            <folio>110r</folio>
+            <folio>110v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x352" alias="yth33t-d8s2">
+        <fileName filestem="yth33t-f2x352"/>
+        <title>Sectio 2</title>
+        <questionTitle>De sanctitate accidentali Christi domini</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>110v</folio>
+            <folio>111r</folio>
+            <folio>111v</folio>
+            <folio>112r</folio>
+            <folio>112v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x362" alias="yth33t-d9">
+      <head>Disputatio 9</head>
+      <questionTitle>De impeccabilitate Christi et beatissimae matris eius</questionTitle>
+      <item id="yth33t-f2x368" alias="yth33t-d9s1">
+        <fileName filestem="yth33t-f2x368"/>
+        <title>Sectio 1</title>
+        <questionTitle>De impeccabilitate Christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>112v</folio>
+            <folio>113r</folio>
+            <folio>113v</folio>
+            <folio>114r</folio>
+            <folio>114v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x377" alias="yth33t-d9s2">
+        <fileName filestem="yth33t-f2x377"/>
+        <title>Sectio 2</title>
+        <questionTitle>De impeccabilitate matris Christi</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>114v</folio>
+            <folio>115r</folio>
+            <folio>115v</folio>
+            <folio>116r</folio>
+            <folio>116v</folio>
+            <folio>117r</folio>
+            <folio>117v</folio>
+            <folio>118r</folio>
+            <folio>118v</folio>
+            <folio>119r</folio>
+            <folio>119v</folio>
+            <folio>120r</folio>
+            <folio>120v</folio>
+            <folio>121r</folio>
+            <folio>121v</folio>
+            <folio>122r</folio>
+            <folio>122v</folio>
+            <folio>123r</folio>
+            <folio>123v</folio>
+            <folio>124r</folio>
+            <folio>124v</folio>
+            <folio>125r</folio>
+            <folio>125v</folio>
+            <folio>126r</folio>
+            <folio>126v</folio>
+            <folio>127r</folio>
+            <folio>127v</folio>
+            <folio>128r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="yth33t-f2x388" alias="yth33t-d10">
+      <head>Disputatio 10</head>
+      <questionTitle>De libertate Christi domini</questionTitle>
+      <item id="yth33t-f2x394" alias="yth33t-d10s1">
+        <fileName filestem="yth33t-f2x394"/>
+        <title>Sectio 1</title>
+        <questionTitle>An et quomodo libera fuerit et <unclear>voluntas</unclear> et divinae conformis humanae voluntas 
+          Christi domini in materia non cadente sub praeceptum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>128r</folio>
+            <folio>128v</folio>
+            <folio>129r</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <item id="yth33t-f2x406" alias="yth33t-d10s2">
+        <fileName filestem="yth33t-f2x406"/>
+        <title>Sectio 2</title>
+        <questionTitle>De libertate Christi domini in materia cadente sub praeceptum praesertim circa 
+          mortem subeundum<!-- corr from "subeundam"--> </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-hbbgut">
+            <folio>129r</folio>
+            <folio>129v</folio>
+            <folio>130r</folio>
+            <folio>130v</folio>
+            <folio>131r</folio>
+            <folio>131v</folio>
+            <folio>132r</folio>
+            <folio>132v</folio>
+            <folio>133r</folio>
+            <folio>133v</folio>
+            <folio>134r</folio>
+            <folio>134v</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>
