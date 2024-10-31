@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Adam Wodeham</authorName>
-    <commentaryName>Ordinatio (Depreciated; See aw98wa)</commentaryName>
-    <commentaryid>wodehamordinatio</commentaryid>
-    <commentaryslug>aw</commentaryslug>
+    <commentaryName>Ordinatio</commentaryName>
+    <commentaryid>aw98wa</commentaryid>
+    <commentaryslug>aw98wa</commentaryslug>
     <authorUri>http://scta.info/resource/Wodeham</authorUri>
-    <parentUri>http://scta.info/resource/wodehamordinatio</parentUri>
     <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/wodehamordinatio/</textfilesdir>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
@@ -45,10 +41,10 @@
   </header>
   <div id="body">
     <head>Ordinatio</head>
-    <div id="book1" class="toplevel" type="liber" subtype="liber1-collatio">
-      <head>Liber I</head>
-      <item type="quaestio">
-        <fileName filestem="b1-col-qun"/>
+    <div id="aw98wa-xg0084" alias="book1" type="liber1">
+      <head>Liber 1</head>
+      <item id="aw98wa-xg0088" alias="b1-col-qun" type="collatio">
+        <fileName filestem="aw98wa-xg0088"/>
         <title>Collatio</title>
         <hasWitnesses>
           <witness ref="#V">
@@ -69,11 +65,11 @@
           </witness>
         </hasWitnesses>
       </item>-->
-      <div id="b1-prol" type="distinctio" subtype="liber1-prologus">
+      <div id="aw98wa-xg0107" alias="b1-prol" type="liber1-prologus">
         <head>Prologus</head>
-        <item type="quaestio">
-          <fileName filestem="b1-prol-q1">b1-prol-q1.xml</fileName>
-          <title>Prologue, q. 1</title>
+        <item id="aw98wa-xg0111" alias="b1-prol-q1" type="quaestio">
+          <fileName filestem="aw98wa-xg0111"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae
             sit meritorium vitae aeternae.</questionTitle>
           <hasWitnesses>
@@ -114,9 +110,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-prol-q2">b1-prol-q2.xml</fileName>
-          <title>Prologue, q. 2</title>
+        <item id="aw98wa-xg0194" alias="b1-prol-q2" type="quaestio">
+          <fileName filestem="aw98wa-xg0194"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro
             omissione contraria sit meritorium. </questionTitle>
           <hasWitnesses>
@@ -182,11 +178,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d1" type="distinctio" subtype="liber1-distinctio1">
+      <div id="aw98wa-xg0328" alias="b1-d1" type="liber1-distinctio1">
         <head>Distinctio 1</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q1">b1-d1-q1.xml</fileName>
-          <title>Dist. 1, q. 1</title>
+        <item id="aw98wa-xg0332" alias="b1-d1-q1" type="quaestio">
+          <fileName filestem="aw98wa-xg0332"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro
             mercede visio Dei et eius fruitio.</questionTitle>
           <hasWitnesses>
@@ -232,9 +228,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q2">b1-d1-q2.xml</fileName>
-          <title>Dist. 1, q. 2</title>
+        <item id="aw98wa-xg0424" alias="b1-d1-q2" type="quaestio">
+          <fileName filestem="aw98wa-xg0424"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum fruitio beatifica differat ab ipsa anima.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -266,9 +262,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q3">b1-d1-q3.xml</fileName>
-          <title>Dist. 1, q. 3</title>
+        <item id="aw98wa-xg0487" alias="b1-d1-q3" type="quaestio">
+          <fileName filestem="aw98wa-xg0487"/>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum fruitio realiter distinguatur ab omni cognitione.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -303,9 +299,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item id="b1-d1-q4" type="quaestio">
-          <fileName filestem="b1-d1-q4"/>
-          <title>Dist. 1, q. 4</title>
+        <item id="aw98wa-xg0556" alias="b1-d1-q4" type="quaestio">
+          <fileName filestem="aw98wa-xg0556"/>
+          <title>Quaestio 4</title>
           <questionTitle>Utrum fruitio realiter distinguatur a delectatione.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -345,9 +341,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item id="b1-d1-q5" type="quaestio">
-          <fileName filestem="b1-d1-q5"/>
-          <title>Dist. 1, q. 5</title>
+        <item id="aw98wa-xg0637" alias="b1-d1-q5" type="quaestio">
+          <fileName filestem="aw98wa-xg0637"/>
+          <title>Quaestio 5</title>
           <questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut
             nolitio.</questionTitle>
           <hasWitnesses>
@@ -375,9 +371,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q6">b1-d1-q6.xml</fileName>
-          <title>Dist. 1, q. 6</title>
+        <item id="aw98wa-xg0689" alias="b1-d1-q6" type="quaestio">
+          <fileName filestem="aw98wa-xg0689"/>
+          <title>Quaestio 6</title>
           <questionTitle>Utrum voluntas necessario vel libere principiet actus suos.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -478,9 +474,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q7">b1-d1-q7.xml</fileName>
-          <title>Dist. 1, q. 7</title>
+        <item id="aw98wa-xg0902" alias="b1-d1-q7" type="quaestio">
+          <fileName filestem="aw98wa-xg0902"/>
+          <title>Quaestio 7</title>
           <questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita
             communi Dei influentia vel concausatione.</questionTitle>
           <hasWitnesses>
@@ -518,9 +514,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q8">b1-d1-q8.xml</fileName>
-          <title>Dist. 1, q. 8</title>
+        <item id="aw98wa-xg0976" alias="b1-d1-q8" type="quaestio">
+          <fileName filestem="aw98wa-xg0976"/>
+          <title>Quaestio 8</title>
           <questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie
             et libere dilectionis.</questionTitle>
           <hasWitnesses>
@@ -588,9 +584,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q9">b1-d1-q9.xml</fileName>
-          <title>Dist. 1, q. 9</title>
+        <item id="aw98wa-xg1115" alias="b1-d1-q9" type="quaestio">
+          <fileName filestem="aw98wa-xg1115"/>
+          <title>Quaestio 9</title>
           <questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu
             habito cessare.</questionTitle>
           <hasWitnesses>
@@ -635,9 +631,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q10">b1-d1-q10.xml</fileName>
-          <title>Dist. 1, q. 10</title>
+        <item id="aw98wa-xg1205" alias="b1-d1-q10" type="quaestio">
+          <fileName filestem="aw98wa-xg1205"/>
+          <title>Quaestio 10</title>
           <questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat
             ipsum.</questionTitle>
           <hasWitnesses>
@@ -736,9 +732,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q11">b1-d1-q11.xml</fileName>
-          <title>Dist. 1, q. 11</title>
+        <item id="aw98wa-xg1413" alias="b1-d1-q11" type="quaestio">
+          <fileName filestem="aw98wa-xg1413"/>
+          <title>Quaestio 11</title>
           <questionTitle>Undecimo circa distinctionem primam quaero: Utrum solus Deus sit licite a
             creatura rationali ultimate fruibilis.</questionTitle>
           <hasWitnesses>
@@ -799,11 +795,11 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q12">b1-d1-q12.xml</fileName>
-          <title>Dist. 1, q. 12</title>
+        <item id="aw98wa-xg1537" alias="b1-d1-q12" type="quaestio">
+          <fileName filestem="aw98wa-xg1537"/>
+          <title>Quaestio 12</title>
           <questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina
-            non fruendo alia. </questionTitle>
+            non fruendo alia.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>64r</folio>
@@ -860,9 +856,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d1-q13">b1-d1-q13.xml</fileName>
-          <title>Dist. 1, q. 13</title>
+        <item id="aw98wa-xg1657" alias="b1-d1-q13" type="quaestio">
+          <fileName filestem="aw98wa-xg1657"/>
+          <title>Quaestio 13</title>
           <questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum
             sanctum.</questionTitle>
           <hasWitnesses>
@@ -904,9 +900,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item>
-          <fileName filestem="b1-d1-q14">b1-d1-q14.xml</fileName>
-          <title>Dist. 1, q. 14</title>
+        <item id="aw98wa-xg1740" alias="b1-d1-q14">
+          <fileName filestem="aw98wa-xg1740"/>
+          <title>Quaestio 14</title>
           <questionTitle>Utrum fruitio beatifica sit actus intellectus.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -940,11 +936,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d2" type="distinctio">
+      <div id="aw98wa-xg1807" alias="b1-d2" type="liber1-distinctio2">
         <head>Distinctio 2</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d2-qun">b1-d2-qun.xml</fileName>
-          <title>Dist. 2, q. un.</title>
+        <item id="aw98wa-xg1811" alias="b1-d2-qun" type="quaestio">
+          <fileName filestem="aw98wa-xg1811"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum in entibus sit tantum unus Deus.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -998,11 +994,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d3" type="distinctio">
+      <div id="aw98wa-xg1921" alias="b1-d3" type="liber1-distinctio3">
         <head>Distinctio 3</head>
-        <item>
-          <fileName filestem="b1-d3-qun">b1-d3-qun.xml</fileName>
-          <title>Dist. 3, q. un.</title>
+        <item id="aw98wa-xg1925" alias="b1-d3-qun">
+          <fileName filestem="aw98wa-xg1925"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis
             factis propter hominem est vestigium eiusdem trinitatis.</questionTitle>
           <hasWitnesses>
@@ -1073,11 +1069,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d6" type="distinctio">
+      <div id="aw98wa-xg2070" alias="b1-d6" type="liber1-distinctio6">
         <head>Distinctio 6</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d6-q1">b1-d6-q1.xml</fileName>
-          <title>Dist. 6, q. 1</title>
+        <item id="aw98wa-xg2074" alias="b1-d6-q1" type="quaestio">
+          <fileName filestem="aw98wa-xg2074"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et
             voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec
             moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac
@@ -1108,9 +1104,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
-          <title>Dist. 6, q. 2</title>
+        <item id="aw98wa-xg2128" alias="b1-d6-q2" type="quaestio">
+          <fileName filestem="aw98wa-xg2128"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic
             de similibus.</questionTitle>
           <hasWitnesses>
@@ -1147,11 +1143,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d8" type="distinctio">
+      <div id="aw98wa-xg2201" alias="b1-d8" type="liber1-distinctio8">
         <head>Distinctio 8</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d8-qun">b1-d8-qun.xml</fileName>
-          <title>Dist. 8, q. un.</title>
+        <item id="aw98wa-xg2205" alias="b1-d8-qun" type="quaestio">
+          <fileName filestem="aw98wa-xg2205"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum solus Deus sit immutabilis.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1187,11 +1183,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d17" type="distinctio">
+      <div id="aw98wa-xg2278" alias="b1-d17" type="liber1-distinctio17">
         <head>Distinctio 17</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q1">b1-d17-q1.xml</fileName>
-          <title>Dist. 17, q. 1</title>
+        <item id="aw98wa-xg2282" alias="b1-d17-q1" type="quaestio">
+          <fileName filestem="aw98wa-xg2282"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum gratia seu caritas sit viatori necessaria ad salutem</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1243,9 +1239,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q2">b1-d17-q2.xml</fileName>
-          <title>Dist. 17, q. 2</title>
+        <item id="aw98wa-xg2390" alias="b1-d17-q2" type="quaestio">
+          <fileName filestem="aw98wa-xg2390"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum caritas seu gratia increata sine alio possit sufficere ad
             salutem</questionTitle>
           <hasWitnesses>
@@ -1289,9 +1285,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q3">b1-d17-q3.xml</fileName>
-          <title>Dist. 17, q. 3</title>
+        <item id="aw98wa-xg2479" alias="b1-d17-q3" type="quaestio">
+          <fileName filestem="aw98wa-xg2479"/>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum de peccatore possit fieri non peccator et acceptus Deo sine tali
             habitu sibi infuso per gratiam increatam.</questionTitle>
           <hasWitnesses>
@@ -1336,9 +1332,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q4">b1-d17-q4.xml</fileName>
-          <title>Dist. 17, q. 4</title>
+        <item id="aw98wa-xg2570" alias="b1-d17-q4" type="quaestio">
+          <fileName filestem="aw98wa-xg2570"/>
+          <title>Quaestio 4</title>
           <questionTitle>Utrum caritas vel alia forma augmentabilis augmentetur per deminutionem
             contrarii sui.</questionTitle>
           <hasWitnesses>
@@ -1384,9 +1380,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q5">b1-d17-q5.xml</fileName>
-          <title>Dist. 17, q. 5</title>
+        <item id="aw98wa-xg2664" alias="b1-d17-q5" type="quaestio">
+          <fileName filestem="aw98wa-xg2664"/>
+          <title>Quaestio 5</title>
           <questionTitle>Utrum in augmentatione caritatis vel alterius formae gradus omnis
             praeexistens corrumpatur cum novus gradus inducitur ita videlicet intelligendo quod in
             omni instanti sit totaliter nova forma.</questionTitle>
@@ -1421,9 +1417,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d17-q6">b1-d17-q6.xml</fileName>
-          <title>Dist. 17, q. 6</title>
+        <item id="aw98wa-xg2732" alias="b1-d17-q6" type="quaestio">
+          <fileName filestem="aw98wa-xg2732"/>
+          <title>Quaestio 6</title>
           <questionTitle>Utrum omnis bonus motus voluntatis meritorie augmentatius caritatis ad quem
             homo tenetur debeat vel possit ex caritate procedere collata ex merito
             redemptoris.</questionTitle>
@@ -1470,11 +1466,11 @@
           </hasWitnesses>
         </item>
       </div>
-      <div id="b1-d33" type="distinctio">
+      <div id="aw98wa-xg2824" alias="b1-d33" type="liber1-distinctio33">
         <head>Distinctio 33</head>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q1">b1-d33-q1.xml</fileName>
-          <title>Dist. 33, q. 1</title>
+        <item id="aw98wa-xg2828" alias="b1-d33-q1" type="quaestio">
+          <fileName filestem="aw98wa-xg2828"/>
+          <title>Quaestio 1</title>
           <questionTitle>Utrum Deus essentialiter unus sit personaliter trinus.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1532,9 +1528,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q2">b1-d33-q2.xml</fileName>
-          <title>Dist. 33, q. 2</title>
+        <item id="aw98wa-xg2950" alias="b1-d33-q2" type="quaestio">
+          <fileName filestem="aw98wa-xg2950"/>
+          <title>Quaestio 2</title>
           <questionTitle>Utrum Deus genuerit Deum</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1569,9 +1565,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q3">b1-d33-q3.xml</fileName>
-          <title>Dist. 33, q. 3</title>
+        <item id="aw98wa-xg3022" alias="b1-d33-q3" type="quaestio">
+          <fileName filestem="aw98wa-xg3022"/>
+          <title>Quaestio 3</title>
           <questionTitle>Utrum aliqua sit certa regula vel ars per quam solvi possint communiter
             paralogismi facti et talibus similes circa materiam Trinitatis.</questionTitle>
           <hasWitnesses>
@@ -1614,9 +1610,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q4">b1-d33-q4.xml</fileName>
-          <title>Dist. 33, q. 4</title>
+        <item id="aw98wa-xg3109" alias="b1-d33-q4" type="quaestio">
+          <fileName filestem="aw98wa-xg3109"/>
+          <title>Quaestio 4</title>
           <questionTitle>Utrum divina essentia generet vel generetur.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1658,9 +1654,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q5">b1-d33-q5.xml</fileName>
-          <title>Dist. 33, q. 5</title>
+        <item id="aw98wa-xg3197" alias="b1-d33-q5" type="quaestio">
+          <fileName filestem="aw98wa-xg3197"/>
+          <title>Quaestio 5</title>
           <questionTitle>Utrum potentia generandi possit communicari filio in
             divinis.</questionTitle>
           <hasWitnesses>
@@ -1693,11 +1689,10 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item>
-          <fileName filestem="b1-d33-q6">b1-d33-q6.xml</fileName>
-          <title>Dist. 33, q. 6</title>
-          <questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab
-            eo.</questionTitle>
+        <item id="aw98wa-xg3263" alias="b1-d33-q6">
+          <fileName filestem="aw98wa-xg3263"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab eo.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>134v</folio>
@@ -1715,9 +1710,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q7">b1-d33-q7.xml</fileName>
-          <title>Dist. 33, q. 7</title>
+        <item id="aw98wa-xg3300" alias="b1-d33-q7" type="quaestio">
+          <fileName filestem="aw98wa-xg3300"/>
+          <title>Quaestio 7</title>
           <questionTitle>Utrum pater et filius sint unum principium spirans Spiritum
             Sanctum.</questionTitle>
           <hasWitnesses>
@@ -1742,9 +1737,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q8">b1-d33-q8.xml</fileName>
-          <title>Dist. 33, q. 8</title>
+        <item id="aw98wa-xg3347" alias="b1-d33-q8" type="quaestio">
+          <fileName filestem="aw98wa-xg3347"/>
+          <title>Quaestio 8</title>
           <questionTitle>Utrum personae divinae primo et adaequate distinguantur ab invicem
             semetipsis.</questionTitle>
           <hasWitnesses>
@@ -1773,9 +1768,9 @@
             </witness>
           </hasWitnesses>
         </item>
-        <item type="quaestio">
-          <fileName filestem="b1-d33-q9">b1-d33-q9.xml</fileName>
-          <title>Dist. 33, q. 9</title>
+        <item id="aw98wa-xg3404" alias="b1-d33-q9" type="quaestio">
+          <fileName filestem="aw98wa-xg3404"/>
+          <title>Quaestio 9</title>
           <questionTitle>Utrum omne idem patri sit omnibus modis idem patri.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
@@ -1792,10 +1787,10 @@
         </item>
       </div>
     </div>
-    <div id="book2" class="toplevel" type="liber">
-      <head>Liber II</head>
-      <item type="quaestio">
-        <fileName filestem="b2-q1">b2-q1.xml</fileName>
+    <div id="aw98wa-xg3435" alias="book2" type="liber2">
+      <head>Liber 2</head>
+      <item id="aw98wa-xg3439" alias="b2-q1" type="quaestio">
+        <fileName filestem="aw98wa-xg3439"/>
         <title>Quaestio 1</title>
         <questionTitle>
           Utrum creatura rationalis meritorie serviendo Deo proficiat ad augmentum
@@ -1814,8 +1809,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q2">b2-q2.xml</fileName>
+      <item id="aw98wa-xg3471" alias="b2-q2" type="quaestio">
+        <fileName filestem="aw98wa-xg3471"/>
         <title>Quaestio 2</title>
         <questionTitle>Utrum profectus vel augmentum gratiae fiat per compositionem gratiae novae
           cum gratia praecedenti.</questionTitle>
@@ -1835,8 +1830,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q3">b2-q3.xml</fileName>
+      <item id="aw98wa-xg3509" alias="b2-q3" type="quaestio">
+        <fileName filestem="aw98wa-xg3509"/>
         <title>Quaestio 3</title>
         <questionTitle>
           Utrum creatura rationalis 
@@ -1856,8 +1851,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q4">b2-q4.xml</fileName>
+      <item id="aw98wa-xg3543" alias="b2-q4" type="quaestio">
+        <fileName filestem="aw98wa-xg3543"/>
         <title>Quaestio 4</title>
         <questionTitle>Utrum viator operibus meritoriis insistendo ex hiis carior Deo
           fiat.</questionTitle>
@@ -1871,8 +1866,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q5">b2-q5.xml</fileName>
+      <item id="aw98wa-xg3569" alias="b2-q5" type="quaestio">
+        <fileName filestem="aw98wa-xg3569"/>
         <title>Quaestio 5</title>
         <questionTitle>Utrum praesupposita gratia baptismali viator per merita sua possit pertingere
           ad gratiam maximam viae sibi possibilem.</questionTitle>
@@ -1898,8 +1893,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q6">b2-q6.xml</fileName>
+      <item id="aw98wa-xg3620" alias="b2-q6" type="quaestio">
+        <fileName filestem="aw98wa-xg3620"/>
         <title>Quaestio 6</title>
         <questionTitle>Utrum viator existens in gratia ultra omnem gratiam habitam vel habendam
           possit proficere ad maiorem per instantaneas causationes actuum volendi omnia pro futuro
@@ -1915,8 +1910,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q7">b2-q7.xml</fileName>
+      <item id="aw98wa-xg3648" alias="b2-q7" type="quaestio">
+        <fileName filestem="aw98wa-xg3648"/>
         <title>Quaestio 7</title>
         <questionTitle>Utrum Deus possit creare finitam caritatem aliquam qua non possit creare
           maiorem vel aliquam aliam ita magnam secundum extensionem quod non possit maiorem illa
@@ -1931,8 +1926,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q8">b2-q8.xml</fileName>
+      <item id="aw98wa-xg3673" alias="b2-q8" type="quaestio">
+        <fileName filestem="aw98wa-xg3673"/>
         <title>Quaestio 8</title>
         <questionTitle>Utrum secundum proportionem caritatis viae succedat pro praemio
           proportionaliter magnitudo gloriae.</questionTitle>
@@ -1948,8 +1943,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q9">b2-q9.xml</fileName>
+      <item id="aw98wa-xg3703" alias="b2-q9" type="quaestio">
+        <fileName filestem="aw98wa-xg3703"/>
         <title>Quaestio 9</title>
         <questionTitle>Utrum, scilicet propter demerita, minuatur.</questionTitle>
         <hasWitnesses>
@@ -1964,8 +1959,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b2-q10">b2-q10.xml</fileName>
+      <item id="aw98wa-xg3733" alias="b2-q10" type="quaestio">
+        <fileName filestem="aw98wa-xg3733"/>
         <title>Quaestio 10</title>
         <questionTitle>Utrum caritas decrescat ad decrementum cupiditatis.</questionTitle>
         <hasWitnesses>
@@ -1979,8 +1974,8 @@
         </hasWitnesses>
       </item>
     </div>
-    <div id="book3" class="toplevel" type="liber">
-      <head>Liber III</head>
+    <div id="aw98wa-xg3759" alias="book3" type="liber3">
+      <head>Liber 3</head>
       <!-- principium 3 should go here; dbcheck and then uncomment 
         <item type="principium">
         <fileName filestem="aw-p3"/>
@@ -1992,8 +1987,8 @@
           </witness>
         </hasWitnesses>
       </item>-->
-      <item type="quaestio">
-        <fileName filestem="b3-q1">b3-q1.xml</fileName>
+      <item id="aw98wa-xg3765" alias="b3-q1" type="quaestio">
+        <fileName filestem="aw98wa-xg3765"/>
         <title>Quaestio 1</title>
         <questionTitle>Utrum anima Christi habuerit et habeat sapientiam aequalem
           Deo.</questionTitle>
@@ -2012,8 +2007,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q2">b3-q2.xml</fileName>
+      <item id="aw98wa-xg3802" alias="b3-q2">
+        <fileName filestem="aw98wa-xg3802"/>
         <title>Quaestio 2</title>
         <questionTitle>Utrum ipsum verbum Dei sit sibi ipsi quamvis non animae sibi unitae scientia
           futurorum contingentium.</questionTitle>
@@ -2028,8 +2023,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q3">b3-q3.xml</fileName>
+      <item id="aw98wa-xg3830" alias="b3-q3" type="quaestio">
+        <fileName filestem="aw98wa-xg3830"/>
         <title>Quaestio 3</title>
         <questionTitle>Utrum cum determinata verbi praescientia stet quod futura praescita sint ad
           utrumlibet contingentia.</questionTitle>
@@ -2050,8 +2045,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q4">b3-q4.xml</fileName>
+      <item id="aw98wa-xg3872" alias="b3-q4" type="quaestio">
+        <fileName filestem="aw98wa-xg3872"/>
         <title>Quaestio 4</title>
         <questionTitle>Utrum anima Christi vel angeli sciant futura aliqua contingentia per
           revelationem sibi possibilem fieri ab ipso verbo vel etiam scire possint.</questionTitle>
@@ -2064,8 +2059,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q5">b3-q5.xml</fileName>
+      <item id="aw98wa-xg3895" alias="b3-q5" type="quaestio">
+        <fileName filestem="aw98wa-xg3895"/>
         <title>Quaestio 5</title>
         <questionTitle>Utrum alicuius contingentis futuri absoluta revelatio sequens tollat
           contingentiam.</questionTitle>
@@ -2077,8 +2072,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q6">b3-q6.xml</fileName>
+      <item id="aw98wa-xg3916" alias="b3-q6" type="quaestio">
+        <fileName filestem="aw98wa-xg3916"/>
         <title>Quaestio 6</title>
         <questionTitle>Utrum Deus vel verbum Dei existenti in gratia possit revelare quod talis
           finaliter sit damnandus.</questionTitle>
@@ -2098,8 +2093,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q7">b3-q7.xml</fileName>
+      <item id="aw98wa-xg3954" alias="b3-q7" type="quaestio">
+        <fileName filestem="aw98wa-xg3954"/>
         <title>Quaestio 7</title>
         <questionTitle>Utrum animae Christi vel angelo beato possit in verbo revelari aeternitas
           suae beatitudinis.</questionTitle>
@@ -2112,8 +2107,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q8">b3-q8.xml</fileName>
+      <item id="aw98wa-xg3977" alias="b3-q8" type="quaestio">
+        <fileName filestem="aw98wa-xg3977"/>
         <title>Quaestio 8</title>
         <questionTitle>Utrum Gabrieli potuerit in verbo verbi incarnatio revelari.</questionTitle>
         <hasWitnesses>
@@ -2126,8 +2121,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q9">b3-q9.xml</fileName>
+      <item id="aw98wa-xg4002" alias="b3-q9" type="quaestio">
+        <fileName filestem="aw98wa-xg4002"/>
         <title>Quaestio 9</title>
         <questionTitle>Utrum per revelationes possibiles fieri in verbo posset aliquis sufficienter
           dirigi in volendis.</questionTitle>
@@ -2140,8 +2135,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q10">b3-q10.xml</fileName>
+      <item id="aw98wa-xg4026" alias="b3-q10">
+        <fileName filestem="aw98wa-xg4026"/>
         <title>Quaestio 10</title>
         <questionTitle>Utrum anima Christi in verbo Dei cui unitur distincte videre valeat
           infinita.</questionTitle>
@@ -2160,8 +2155,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q11">b3-q11.xml</fileName>
+      <item id="aw98wa-xg4062" alias="b3-q11" type="quaestio">
+        <fileName filestem="aw98wa-xg4062"/>
         <title>Quaestio 11</title>
         <questionTitle>Utrum anima Christi possit in verbo cui unitur distincte cognoscere minimas
           partium sibi inhaerentium vel minimas particulas corporis quod informat.</questionTitle>
@@ -2176,8 +2171,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b3-q12">b3-q12.xml</fileName>
+      <item id="aw98wa-xg4090" alias="b3-q12" type="quaestio">
+        <fileName filestem="aw98wa-xg4090"/>
         <title>Quaestio 12</title>
         <questionTitle>Utrum per unionem ad verbum ipsa sit omnipotens.</questionTitle>
         <hasWitnesses>
@@ -2191,10 +2186,10 @@
         </hasWitnesses>
       </item>
     </div>
-    <div id="book4" class="toplevel" type="liber">
-      <head>Liber IV</head>
-      <item type="quaestio">
-        <fileName filestem="b4-q1">b4-q1.xml</fileName>
+    <div id="aw98wa-xg4116" alias="book4" type="liber4">
+      <head>Liber 4</head>
+      <item id="aw98wa-xg4120" alias="b4-q1" type="quaestio">
+        <fileName filestem="aw98wa-xg4120"/>
         <title>Quaestio 1</title>
         <questionTitle>Utrum aliqua creatura possit in effectum sacramenti praecise productibilem
           per creationem. Et hoc est expressius quaerere: Utrum aliqua creatura possit creare
@@ -2213,8 +2208,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q2">b4-q2.xml</fileName>
+      <item id="aw98wa-xg4154" alias="b4-q2" type="quaestio">
+        <fileName filestem="aw98wa-xg4154"/>
         <title>Quaestio 2</title>
         <questionTitle>Utrum posse creare gratiam vel aliquid aliud repugnet propter virtutis
           activae insufficientiam cuilibet creaturae.</questionTitle>
@@ -2230,8 +2225,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q3">b4-q3.xml</fileName>
+      <item id="aw98wa-xg4184" alias="b4-q3" type="quaestio">
+        <fileName filestem="aw98wa-xg4184"/>
         <title>Quaestio 3</title>
         <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis
           conferatur gratia salutaris.</questionTitle>
@@ -2247,8 +2242,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q4">b4-q4.xml</fileName>
+      <item id="aw98wa-xg4212" alias="b4-q4" type="quaestio">
+        <fileName filestem="aw98wa-xg4212"/>
         <title>Quaestio 4</title>
         <questionTitle>Utrum corpus Christi realiter sub speciebus quae fuerunt panis et vini
           contineatur.</questionTitle>
@@ -2265,8 +2260,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q5">b4-q5.xml</fileName>
+      <item id="aw98wa-xg4243" alias="b4-q5" type="quaestio">
+        <fileName filestem="aw98wa-xg4243"/>
         <title>Quaestio 5</title>
         <questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam
           distincta realiter a substantia et qualitate cuius est.</questionTitle>
@@ -2298,8 +2293,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q6">b4-q6.xml</fileName>
+      <item id="aw98wa-xg4306" alias="b4-q6" type="quaestio">
+        <fileName filestem="aw98wa-xg4306"/>
         <title>Quaestio 6</title>
         <questionTitle>Utrum sacramentum poenitentiae sit necessarium ad delendum peccatum mortale
           post baptismum commissum.</questionTitle>
@@ -2314,8 +2309,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q7">b4-q7.xml</fileName>
+      <item id="aw98wa-xg4334" alias="b4-q7" type="quaestio">
+        <fileName filestem="aw98wa-xg4334"/>
         <title>Quaestio 7</title>
         <questionTitle>Utrum actus paenitentiae requisitus ad deletionem culpae mortalis sit
           meritorius vitae aeternae. </questionTitle>
@@ -2328,8 +2323,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q8">b4-q8.xml</fileName>
+      <item id="aw98wa-xg4357" alias="b4-q8" type="quaestio">
+        <fileName filestem="aw98wa-xg4357"/>
         <title>Quaestio 8</title>
         <questionTitle>Utrum quilibet qui commisit peccatum mortale teneatur secundum legem Dei
           communem de illo conteri.</questionTitle>
@@ -2345,8 +2340,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q9">b4-q9.xml</fileName>
+      <item id="aw98wa-xg4387" alias="b4-q9" type="quaestio">
+        <fileName filestem="aw98wa-xg4387"/>
         <title>Quaestio 9</title>
         <questionTitle>Utrum vera poenitentia sit formaliter vel virtualiter velle cavere peccatum
           quodlibet in futuro.</questionTitle>
@@ -2359,8 +2354,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q10">b4-q10.xml</fileName>
+      <item id="aw98wa-xg4410" alias="b4-q10" type="quaestio">
+        <fileName filestem="aw98wa-xg4410"/>
         <title>Quaestio 10</title>
         <questionTitle>Utrum ille qui peccaverit mortaliter in opere exteriori teneatur plus
           poenitere de opere exteriori et interiori simul quam de interiori solo.</questionTitle>
@@ -2374,8 +2369,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q11">b4-q11.xml</fileName>
+      <item id="aw98wa-xg4436" alias="b4-q11" type="quaestio">
+        <fileName filestem="aw98wa-xg4436"/>
         <title>Quaestio 11</title>
         <questionTitle>Utrum aliqua poena infernalis possit esse insensibilis in
           damnato.</questionTitle>
@@ -2387,8 +2382,8 @@
           </witness>
         </hasWitnesses>
       </item>
-      <item type="quaestio">
-        <fileName filestem="b4-q12">b4-q12.xml</fileName>
+      <item id="aw98wa-xg4457" alias="b4-q12" type="quaestio">
+        <fileName filestem="aw98wa-xg4457"/>
         <title>Quaestio 12</title>
         <questionTitle>Utrum sit maxima gloria possibilis in beato.</questionTitle>
         <hasWitnesses>
