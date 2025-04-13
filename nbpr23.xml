@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Nicolaus Bonetus</authorName>
+    <commentaryName>De praedicamentis</commentaryName>
+    <commentaryid>nbpr23</commentaryid>
+    <commentaryslug>nbpr23</commentaryslug>
+    <authorUri>http://scta.info/resource/per-nbd2d8</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor>Jeffrey C. Witt</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-nb05ve">
+        <slug>cod-nb05ve</slug>
+        <title>Venice 1505</title>
+        <initial>cod-nb05ve</initial>
+        <!-- https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10870847/manifest -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De praedicamentis</head>
+    <item id="nbpr23-c00005" alias="pred-l1">
+      <fileName filestem="nbpr23-c00005"/>
+      <title>Libellus 1</title>
+      <questionTitle>De substantia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c01113" alias="pred-l2">
+      <fileName filestem="nbpr23-c01113"/>
+      <title>Libellus 2</title>
+      <questionTitle>De quantitate</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c03004" alias="pred-l3">
+      <fileName filestem="nbpr23-c03004"/>
+      <title>Libellus 3</title>
+      <questionTitle>De qualitate</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c03422" alias="pred-l4">
+      <fileName filestem="nbpr23-c03422"/>
+      <title>Libellus 4</title>
+      <questionTitle>De relationibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c05173" alias="pred-l5">
+      <fileName filestem="nbpr23-c05173"/>
+      <title>Libellus 5</title>
+      <questionTitle>De actione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c05967" alias="pred-l6">
+      <fileName filestem="nbpr23-c05967"/>
+      <title>Libellus 6</title>
+      <questionTitle>De passione</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c07450" alias="pred-l7">
+      <fileName filestem="nbpr23-c07450"/>
+      <title>Libellus 7</title>
+      <questionTitle>De situm</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c07595" alias="pred-l8">
+      <fileName filestem="nbpr23-c07595"/>
+      <title>Libellus 8</title>
+      <questionTitle>De quando</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c07676" alias="pred-l9">
+      <fileName filestem="nbpr23-c07676"/>
+      <title>Libellus 9</title>
+      <questionTitle>De ubi</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+    <item id="nbpr23-c07763" alias="pred-l10">
+      <fileName filestem="nbpr23-c07763"/>
+      <title>Libellus 10</title>
+      <questionTitle>De habitum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-nb05ve"/>
+      </hasWitnesses>
+    </item>
+
+
+  </div>
+</listofFileNames>
