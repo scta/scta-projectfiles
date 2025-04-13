@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Nicolaus Bonetus</authorName>
@@ -27,7 +28,12 @@
       <title>Libellus 1</title>
       <questionTitle>De substantia</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>77r</folio>
+          <folio>77v</folio>
+          <folio>78r</folio>
+          <folio>78v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c01113" alias="pred-l2">
@@ -35,7 +41,15 @@
       <title>Libellus 2</title>
       <questionTitle>De quantitate</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>78v</folio>
+          <folio>79r</folio>
+          <folio>79v</folio>
+          <folio>80r</folio>
+          <folio>80v</folio>
+          <folio>81r</folio>
+          <folio>81v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c03004" alias="pred-l3">
@@ -43,7 +57,11 @@
       <title>Libellus 3</title>
       <questionTitle>De qualitate</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>81v</folio>
+          <folio>82r</folio>
+          <folio>82v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c03422" alias="pred-l4">
@@ -51,7 +69,14 @@
       <title>Libellus 4</title>
       <questionTitle>De relationibus</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>82v</folio>
+          <folio>83r</folio>
+          <folio>83v</folio>
+          <folio>84r</folio>
+          <folio>84v</folio>
+          <folio>85r</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c05173" alias="pred-l5">
@@ -59,7 +84,12 @@
       <title>Libellus 5</title>
       <questionTitle>De actione</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>85r</folio>
+          <folio>85v</folio>
+          <folio>86r</folio>
+          <folio>86v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c05967" alias="pred-l6">
@@ -67,7 +97,14 @@
       <title>Libellus 6</title>
       <questionTitle>De passione</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>86v</folio>
+          <folio>87r</folio>
+          <folio>87v</folio>
+          <folio>88r</folio>
+          <folio>88v</folio>
+          <folio>89r</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c07450" alias="pred-l7">
@@ -75,7 +112,9 @@
       <title>Libellus 7</title>
       <questionTitle>De situm</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>89r</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c07595" alias="pred-l8">
@@ -83,7 +122,9 @@
       <title>Libellus 8</title>
       <questionTitle>De quando</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>89r</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c07676" alias="pred-l9">
@@ -91,7 +132,10 @@
       <title>Libellus 9</title>
       <questionTitle>De ubi</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>89r</folio>
+          <folio>89v</folio>
+        </witness>
       </hasWitnesses>
     </item>
     <item id="nbpr23-c07763" alias="pred-l10">
@@ -99,10 +143,12 @@
       <title>Libellus 10</title>
       <questionTitle>De habitum</questionTitle>
       <hasWitnesses>
-        <witness ref="#cod-nb05ve"/>
+        <witness ref="#cod-nb05ve">
+          <folio>89v</folio>
+          <folio>90r</folio>
+          <folio>90v</folio>
+        </witness>
       </hasWitnesses>
     </item>
-
-
   </div>
 </listofFileNames>
