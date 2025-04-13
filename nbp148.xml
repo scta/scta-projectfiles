@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Nicolaus Bonetus</authorName>
@@ -29,7 +30,10 @@
         <title>Caput 1</title>
         <questionTitle>De subiecto totius naturalis philosophiae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>45r</folio>
+            <folio>45v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p00466" alias="phy-l1c2">
@@ -37,7 +41,11 @@
         <title>Caput 2</title>
         <questionTitle>Quod principia rerum naturalium sunt contraria</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>45v</folio>
+            <folio>46r</folio>
+            <folio>46v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p00966" alias="phy-l1c3">
@@ -46,7 +54,12 @@
         <questionTitle>In hoc capite tertio duobus principiis contrariis substerni tertium
           manifestatur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>46r</folio>
+            <folio>46v</folio>
+            <folio>47r</folio>
+            <folio>47v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p01883" alias="phy-l1c4">
@@ -54,7 +67,12 @@
         <title>Caput 4</title>
         <questionTitle>Ostendit tantum compositum generari</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>47v</folio>
+            <folio>48r</folio>
+            <folio>48v</folio>
+            <folio>49r</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -65,7 +83,10 @@
         <title>Caput 1</title>
         <questionTitle>Ostendit necessitatem causae efficientis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>49r</folio>
+            <folio>49v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p03104" alias="phy-l2c2">
@@ -74,7 +95,12 @@
         <questionTitle>Inquirit conditiones causae agentis et conservantis et earum
           distinctionum</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>49v</folio>
+            <folio>50r</folio>
+            <folio>50v</folio>
+            <folio>51r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p03938" alias="phy-l2c3">
@@ -82,7 +108,10 @@
         <title>Caput 3</title>
         <questionTitle>Quomodo eiusdem effectus possint esse plures causae</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>51r</folio>
+            <folio>51v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p04390" alias="phy-l2c4">
@@ -90,7 +119,10 @@
         <title>Caput 4</title>
         <questionTitle>De causa uniuoca et aequivoca diffuse satis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>51v</folio>
+            <folio>52r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p04790" alias="phy-l2c5">
@@ -99,7 +131,11 @@
         <questionTitle>De causis essentialiter ordinatis quo ad omnes earum
           proprietates</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>52r</folio>
+            <folio>52v</folio>
+            <folio>53r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p05259" alias="phy-l2c6">
@@ -107,7 +143,10 @@
         <title>Caput 6</title>
         <questionTitle>An sit circulatio possibilis in causis per se</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>53r</folio>
+            <folio>53v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p05528" alias="phy-l2c7">
@@ -116,7 +155,10 @@
         <questionTitle>An causae essentialiter ordinate necessario concludant primam causam esse
           unam numero</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>53v</folio>
+            <folio>54r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p05902" alias="phy-l2c8">
@@ -124,7 +166,11 @@
         <title>Caput 8</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>54r</folio>
+            <folio>54v</folio>
+            <folio>55r</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -135,7 +181,12 @@
         <title>Caput 1</title>
         <questionTitle>De fortuna abundanter determinat</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>55r</folio>
+            <folio>55v</folio>
+            <folio>56r</folio>
+            <folio>56v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p07373" alias="phy-l3c2">
@@ -143,7 +194,10 @@
         <title>Caput 2</title>
         <questionTitle>De fato quaedam attentione dignissima</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>56v</folio>
+            <folio>57r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p07904" alias="phy-l3c3">
@@ -151,7 +205,11 @@
         <title>Caput 3</title>
         <questionTitle>Agit de causa finali et unitate eiusdem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>57r</folio>
+            <folio>57v</folio>
+            <folio>58r</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -162,7 +220,12 @@
         <title>Caput 1</title>
         <questionTitle>Definitionem naturae profundissime explanat</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>58r</folio>
+            <folio>58v</folio>
+            <folio>59r</folio>
+            <folio>59v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p09587" alias="phy-l4c2">
@@ -171,7 +234,15 @@
         <questionTitle>De motu passionibus motus et mensura motus copiosissime
           determinat</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>59v</folio>
+            <folio>60r</folio>
+            <folio>60v</folio>
+            <folio>61r</folio>
+            <folio>61v</folio>
+            <folio>62r</folio>
+            <folio>62v</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -183,7 +254,11 @@
         <questionTitle>An in vacuo sit motus naturalis et violentus et talium motuum
           conditiones</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>62v</folio>
+            <folio>63r</folio>
+            <folio>63v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p11975" alias="phy-l5c2">
@@ -191,7 +266,10 @@
         <title>Caput 2</title>
         <questionTitle>De variis terminis motus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>63v</folio>
+            <folio>64r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p12256" alias="phy-l5c3">
@@ -200,7 +278,12 @@
         <questionTitle>An idem possit mouere seipsum platonice et peripatetice: platoni tamen
           consentiendo</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>64r</folio>
+            <folio>64v</folio>
+            <folio>65r</folio>
+            <folio>65v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p13468" alias="phy-l5c4">
@@ -208,7 +291,11 @@
         <title>Caput 4</title>
         <questionTitle>Inquirit varias intelligentiarum mouentium conditiones</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>65v</folio>
+            <folio>66r</folio>
+            <folio>66v</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -219,7 +306,11 @@
         <title>Caput 1</title>
         <questionTitle>Quid sit nunc: et quamplurimas eius manifestat proprietates</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>66v</folio>
+            <folio>67r</folio>
+            <folio>67v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p14497" alias="phy-l6c2">
@@ -228,7 +319,11 @@
         <questionTitle>Aperit definitionem et subiectum temporis: nec non vnitatem: plurificationem
           et simultatem</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>67v</folio>
+            <folio>68r</folio>
+            <folio>68v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p15237" alias="phy-l6c3">
@@ -237,7 +332,10 @@
         <questionTitle>Aevum nunc aevi unitatem comparationemque eius ad tempus palam
           ostendit</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>68v</folio>
+            <folio>69r</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -249,7 +347,12 @@
         <questionTitle> Mundum potuisse esse aeternum et quantum ad permanentia et quantum ad
           successiua declarat </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>69r</folio>
+            <folio>69v</folio>
+            <folio>70r</folio>
+            <folio>70v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p16447" alias="phy-l7c2">
@@ -258,7 +361,10 @@
         <questionTitle>Ostendit mundum de nouo generatum: soluitque rationes Aristotelis et
           commentatoris</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>70v</folio>
+            <folio>71r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p16963" alias="phy-l7c3">
@@ -267,7 +373,11 @@
         <questionTitle> Concludit ab omnino immutabili posse aliquid de novo sine sui mutatione
           produci </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>71r</folio>
+            <folio>71v</folio>
+            <folio>72r</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -278,7 +388,10 @@
         <title>Caput 1</title>
         <questionTitle>Quid sit locus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>72r</folio>
+            <folio>72v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p17759" alias="phy-l8c2">
@@ -286,7 +399,11 @@
         <title>Caput 2</title>
         <questionTitle>De primo subiecto locationis active et passive</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>72v</folio>
+            <folio>73r</folio>
+            <folio>73v</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p18390" alias="phy-l8c3">
@@ -295,7 +412,10 @@
         <questionTitle> Docet quomodo vltima spera intelligentiae quiditates ante esse sint in loco
           et quid per differentias loci importetur </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>73v</folio>
+            <folio>74r</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="nbp148-p18873" alias="phy-l8c4">
@@ -303,7 +423,14 @@
         <title>Caput 4</title>
         <questionTitle> De necessitate immobilitate et vnitate loci diffuse loquitur </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-nb05ve"/>
+          <witness ref="#cod-nb05ve">
+            <folio>74r</folio>
+            <folio>74v</folio>
+            <folio>75r</folio>
+            <folio>75v</folio>
+            <folio>76r</folio>
+            <folio>76v</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
