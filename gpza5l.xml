@@ -14,10 +14,14 @@
     <questionListEncoder/>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-     <witness id="cod-huvbsw">
+     <witness id="cod-huvbsw"> <!-- TODO: id not yet created -->
        <slug>cod-huvbsw</slug>
        <title>London 1913</title>
        <initial>cod-huvbsw</initial>
+       <!-- https://www.gutenberg.org/files/47001/47001-h/47001-h.htm#Pgix -->
+       <!-- loeb classic edition; translation WALTER MILLER 1913 
+       editor Walter Miller
+       -->
      </witness>
     </hasWitnesses>
   </header>
@@ -28,7 +32,7 @@
        <title>Liber 1</title>
        <questionTitle></questionTitle>
        <hasWitnesses>
-
+         <witness ref="#cod-huvbsw"></witness>
        </hasWitnesses>
      </item>
      <item id="gpza5l-7tvweq">
@@ -36,7 +40,7 @@
        <title>Liber 2</title>
        <questionTitle></questionTitle>
        <hasWitnesses>
-
+         <witness ref="#cod-huvbsw"></witness>
        </hasWitnesses>
      </item>
      <item id="gpza5l-s6jdwt">
@@ -44,7 +48,7 @@
        <title>Liber 3</title>
        <questionTitle></questionTitle>
        <hasWitnesses>
-
+         <witness ref="#cod-huvbsw"></witness>
        </hasWitnesses>
      </item>
   </div>
