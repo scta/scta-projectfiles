@@ -142,6 +142,12 @@
         <initial>cod-u78x13</initial>
         <editor>http://scta.info/resource/per-av4Viv</editor>
       </witness>
+      <witness id="cod-u78x14">
+        <slug>cod-u78x14</slug>
+        <title>Vives, Paris, 1893, volume 14</title>
+        <initial>cod-u78x14</initial>
+        <editor>http://scta.info/resource/per-av4Viv</editor>
+      </witness>
       <witness id="cod-W61xza">
         <slug>cod-W61xza</slug>
         <title>Wadding, Lyon 1639, v. 6.1</title>
@@ -2910,10 +2916,18 @@
         </item>
       </div>
     </div>
-    <div id="jdso8u-d1e2365" alias="jdso8u-book3" type="liber">
-      <head>Liber III</head>
-      <div id="jdso8u-d1e2370" alias="jdso8u-b3d1" type="distinctio">
-        <head>Distinctio Prima</head>
+    <div id="jdso8u-d1e2365" alias="jdso8u-book3" type="liber1">
+      <head>Liber 3</head>
+      <div id="jdso8u-d1e2370" alias="jdso8u-b3d1" type="liber3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="jdso8u-d1e2372" alias="jdso8u-b3d1prae">
+          <fileName filestem="jdso8u-d1e2372"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
         <div id="jdso8u-d1e2375" alias="jdso8u-b3d1p1" type="pars">
           <head>Pars 1</head>
           <item id="jdso8u-d1e2380" alias="jdso8u-b3d1p1q1" type="quaestio">
@@ -2921,23 +2935,39 @@
             <title>Quaestio 1</title>
             <questionTitle>Utrum possibile fuerit humanam naturam uniri Verbo in unitate
               suppositi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x14">
+              </witness>
+            </hasWitnesses>
           </item>
           <item id="jdso8u-d1e2391" alias="jdso8u-b3d1p1q2" type="quaestio">
             <fileName filestem="jdso8u-d1e2391"/>
             <title>Quaestio 2</title>
             <questionTitle>Utrum tres personae possent assumere eandem naturam
               numero</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x14">
+              </witness>
+            </hasWitnesses>
           </item>
           <item id="jdso8u-d1e2402" alias="jdso8u-b3d1p1q3" type="quaestio">
             <fileName filestem="jdso8u-d1e2402"/>
             <title>Quaestio 3</title>
             <questionTitle>Utrum una persona possit assumere plures naturas</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x14">
+              </witness>
+            </hasWitnesses>
           </item>
           <item id="jdso8u-d1e2413" alias="jdso8u-b3d1p1q4" type="quaestio">
             <fileName filestem="jdso8u-d1e2413"/>
             <title>Quaestio 4</title>
             <questionTitle>Utrum suppositum creatum possit substantificare hypostatice aliam naturam
               creatam quam illam quam habet</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x14">
+              </witness>
+            </hasWitnesses>
           </item>
         </div>
         <div id="jdso8u-d1e2425" alias="jdso8u-b3d1p2" type="pars">
@@ -2947,238 +2977,460 @@
             <title>Quaestio 1</title>
             <questionTitle>Utrum formalis ratio terminandi unionem naturae humanae ad Verbum sit
               proprietas eius relativa</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x14">
+              </witness>
+            </hasWitnesses>
           </item>
         </div>
       </div>
-      <div id="jdso8u-d1e2443" alias="jdso8u-b3d2" type="distinctio">
-        <head>Distinctio Secunda</head>
+      <div id="jdso8u-d1e2443" alias="jdso8u-b3d2" type="liber3-distinctio2">
+        <head>Distinctio 2</head>
         <item id="jdso8u-d1e2448" alias="jdso8u-b3d2q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2448"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum naturam aliquam immediate uniri Verbo hypostatice et non frui eo
             includat contradictionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2459" alias="jdso8u-b3d2q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2459"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Verbum primo et immediate assumpsit totam naturam
             humanam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2470" alias="jdso8u-b3d2q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2470"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum incarnationem praecessit corporis organizatio et
             animatio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2482" alias="jdso8u-b3d3" type="distinctio">
-        <head>Distinctio Tertia</head>
+      <div id="jdso8u-d1e2482" alias="jdso8u-b3d3" type="liber3-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="jdso8u-d1e2484" alias="jdso8u-b3d3prae">
+          <fileName filestem="jdso8u-d1e2484"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
         <item id="jdso8u-d1e2487" alias="jdso8u-b3d3q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2487"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum beata Virgo fuerit concepta in peccato originali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2498" alias="jdso8u-b3d3q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2498"/>
           <title>Quaestio 2</title>
           <questionTitle>Quare et quomodo corpus Christi non contraxit sicut alia corpora peccatum
             originale</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2510" alias="jdso8u-b3d4" type="distinctio">
-        <head>Distinctio Quarta</head>
+      <div id="jdso8u-d1e2510" alias="jdso8u-b3d4" type="liber3-distinctio4">
+        <head>Distinctio 4</head>
         <item id="jdso8u-d1e2515" alias="jdso8u-b3d4q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2515"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum beata Virgo fuerit vere Mater Dei et hominis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2528" alias="jdso8u-b3d5" type="distinctio">
-        <head>Distinctio Quinta</head>
+      <div id="jdso8u-d1e2528" alias="jdso8u-b3d5" type="liber3-distinctio5">
+        <head>Distinctio 5</head>
         <item id="jdso8u-d1e2533" alias="jdso8u-b3d5q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2533"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum natura divina assumpsit naturam humanam vel assumere
             potuit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2544" alias="jdso8u-b3d5q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2544"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum persona creata fuerit assumpta vel potuit assumi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2556" alias="jdso8u-b3d6" type="distinctio">
-        <head>Distinctio Sexta</head>
+      <div id="jdso8u-d1e2556" alias="jdso8u-b3d6" type="liber3-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="jdso8u-d1e2559" alias="jdso8u-b3d6prae">
+          <fileName filestem="jdso8u-d1e2559"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
         <item id="jdso8u-d1e2561" alias="jdso8u-b3d6q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2561"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Christo sit aliquod esse aliud ab esse increato</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2572" alias="jdso8u-b3d6q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2572"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Christus sit aliqua duo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2583" alias="jdso8u-b3d6q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2583"/>
           <title>Quaestio 3</title>
           <questionTitle>Quae illarum trium opinionum, quas recitat Magister, sit
             tenenda</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2595" alias="jdso8u-b3d7" type="distinctio">
-        <head>Distinctio Septima</head>
+      <div id="jdso8u-d1e2595" alias="jdso8u-b3d7" type="liber3-distinctio7">
+        <head>Distinctio 7</head>
         <item id="jdso8u-d1e2600" alias="jdso8u-b3d7q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2600"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum ista sit vera 'Deus est homo'</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2611" alias="jdso8u-b3d7q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2611"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Deus factus sit homo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2622" alias="jdso8u-b3d7q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2622"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum Christus praedestinatus sit esse Filius Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2634" alias="jdso8u-b3d8" type="distinctio">
-        <head>Distinctio Octava</head>
+      <div id="jdso8u-d1e2634" alias="jdso8u-b3d8" type="liber3-distinctio8">
+        <head>Distinctio 8</head>
         <item id="jdso8u-d1e2639" alias="jdso8u-b3d8q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2639"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Christo sint duae filiationes reales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2651" alias="jdso8u-b3d9" type="distinctio">
-        <head>Distinctio Nona</head>
+      <div id="jdso8u-d1e2651" alias="jdso8u-b3d9" type="liber3-distinctio9">
+        <head>Distinctio 9</head>
         <item id="jdso8u-d1e2656" alias="jdso8u-b3d9q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2656"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Christo debeatur latria vel honor latriae solummodo secundum naturam
             divinam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2668" alias="jdso8u-b3d10" type="distinctio">
-        <head>Distinctio Decima</head>
+      <div id="jdso8u-d1e2668" alias="jdso8u-b3d10" type="liber3-distinctio10">
+        <head>Distinctio 10</head>
         <item id="jdso8u-d1e2673" alias="jdso8u-b3d10q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2673"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Christus sit filius Dei adoptivus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2686" alias="jdso8u-b3d11" type="distinctio">
-        <head>Distinctio Undecima</head>
+      <div id="jdso8u-d1e2686" alias="jdso8u-b3d11" type="liber3-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="jdso8u-d1e2689" alias="jdso8u-b3d11prae">
+          <fileName filestem="jdso8u-d1e2689"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
         <item id="jdso8u-d1e2691" alias="jdso8u-b3d11q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2691"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Christus sit creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2702" alias="jdso8u-b3d11q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2702"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum Christus, secundum quod homo, sit creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2713" alias="jdso8u-b3d11q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2713"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum Christus incepit esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2725" alias="jdso8u-b3d12" type="distinctio">
-        <head>Distinctio Duodecima</head>
+      <div id="jdso8u-d1e2725" alias="jdso8u-b3d12" type="liber3-distinctio12">
+        <head>Distinctio 12</head>
         <item id="jdso8u-d1e2730" alias="jdso8u-b3d12q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2730"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum natura humana in Christo potuit peccare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2742" alias="jdso8u-b3d13" type="distinctio">
-        <head>Distinctio Decima Tertia</head>
+      <div id="jdso8u-d1e2742" alias="jdso8u-b3d13" type="liber3-distinctio13">
+        <head>Distinctio 13</head>
         <item id="jdso8u-d1e2747" alias="jdso8u-b3d13q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2747"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum animae Christi potuit conferri summa gratia quae potuit conferri
             creaturae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2758" alias="jdso8u-b3d13q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2758"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum animae Christi fuerit collata summa gratia quae potuit creaturae
             conferri</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2769" alias="jdso8u-b3d13q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2769"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum possibile fuit voluntatem animae Christi habere summam fruitionem
             possibilem naturae creatae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2780" alias="jdso8u-b3d13q4" type="quaestio">
           <fileName filestem="jdso8u-d1e2780"/>
           <title>Quaestio 4</title>
           <questionTitle>Utrum anima Christi potuit summe frui Deo sine summa gratia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2792" alias="jdso8u-b3d14" type="distinctio">
-        <head>Distinctio Decima Quarta</head>
+      <div id="jdso8u-d1e2792" alias="jdso8u-b3d14" type="liber3-distinctio14">
+        <head>Distinctio 14</head>
         <item id="jdso8u-d1e2797" alias="jdso8u-b3d14q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2797"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum possibile fuit intellectum animae Christi primo et immediate perfici
             visione Verbi perfectissima possibili creaturae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2808" alias="jdso8u-b3d14q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2808"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum possibile sit intellectum animae Christi videre omnia in Verbo quae
             videt Verbum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2819" alias="jdso8u-b3d14q3" type="quaestio">
           <fileName filestem="jdso8u-d1e2819"/>
           <title>Quaestio 3</title>
           <questionTitle>Utrum anima Christi novit omnia in genere proprio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2830" alias="jdso8u-b3d14q4" type="quaestio">
           <fileName filestem="jdso8u-d1e2830"/>
           <title>Quaestio 4</title>
           <questionTitle>Utrum Christus perfectissime novit omnia in genere proprio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2842" alias="jdso8u-b3d15" type="distinctio">
-        <head>Distinctio Decima Quinta</head>
+      <div id="jdso8u-d1e2842" alias="jdso8u-b3d15" type="liber3-distinctio15">
+        <head>Distinctio 15</head>
         <item id="jdso8u-d1e2847" alias="jdso8u-b3d15q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2847"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in anima Christi secundum portionem superiorem fuerit verus
             dolor</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2859" alias="jdso8u-b3d16" type="distinctio">
-        <head>Distinctio Decima Sexta</head>
+      <div id="jdso8u-d1e2859" alias="jdso8u-b3d16" type="liber3-distinctio16">
+        <head>Distinctio 16</head>
         <item id="jdso8u-d1e2864" alias="jdso8u-b3d16q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2864"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum Christus habuit necessitatem moriendi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
         <item id="jdso8u-d1e2875" alias="jdso8u-b3d16q2" type="quaestio">
           <fileName filestem="jdso8u-d1e2875"/>
           <title>Quaestio 2</title>
           <questionTitle>Utrum in potestate animae Christi fuerit non mori ex violentia
             passionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
-      <div id="jdso8u-d1e2888" alias="jdso8u-b3d17" type="distinctio">
-        <head>Distinctio Decima Septima</head>
+      <div id="jdso8u-d1e2888" alias="jdso8u-b3d17" type="liber3-distinctio17">
+        <head>Distinctio 17</head>
         <item id="jdso8u-d1e2893" alias="jdso8u-b3d17q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2893"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Christo fuerunt duae voluntates</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
         </item>
       </div>
+      <!-- TODO: seems like we're missing a item from d. 18-22 -->
+      <div id="jdso8u-d1e2894" alias="jdso8u-b3d18" type="liber3-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="jdso8u-d1e2895" alias="jdso8u-b3d18q1" type="quaestio">
+          <fileName filestem="jdso8u-d1e2895"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus meruerit in primo instanti suae conceptionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jdso8u-d1e2896" alias="jdso8u-b3d19" type="liber3-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="jdso8u-d1e2897" alias="jdso8u-b3d19q1" type="quaestio">
+          <fileName filestem="jdso8u-d1e2897"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus meruerit omnibus nobis gratiam, et gloriam, et remissionem culpa et poena</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jdso8u-d1e2898" alias="jdso8u-b3d20" type="liber3-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="jdso8u-d1e2899" alias="jdso8u-b3d20q1" type="quaestio">
+          <fileName filestem="jdso8u-d1e2899"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum necesse fuerit genus humanum reparari per passionem Christi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jdso8u-d1e2900" alias="jdso8u-b3d21" type="liber3-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="jdso8u-d1e2901" alias="jdso8u-b3d21q1" type="quaestio">
+          <fileName filestem="jdso8u-d1e2901"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corpus Christi fuisset  putrefactum, si resurrectio non fuisset accelerata</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jdso8u-d1e2902" alias="jdso8u-b3d22" type="liber3-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="jdso8u-d1e2903" alias="jdso8u-b3d22q1" type="quaestio">
+          <fileName filestem="jdso8u-d1e2903"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus fuerit homo in triduo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x14">
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <!-- End addition -->
       <div id="jdso8u-d1e2905" alias="jdso8u-b3d26" type="distinctio">
-        <head>Distinctio Vigesima Sexta</head>
+        <head>Distinctio 26</head>
         <item id="jdso8u-d1e2910" alias="jdso8u-b3d26q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2910"/>
           <title>Quaestio 1</title>
@@ -3187,7 +3439,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e2922" alias="jdso8u-b3d27" type="distinctio">
-        <head>Distinctio Vigesima Septima</head>
+        <head>Distinctio 27</head>
         <item id="jdso8u-d1e2927" alias="jdso8u-b3d27q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2927"/>
           <title>Quaestio 1</title>
@@ -3196,7 +3448,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e2939" alias="jdso8u-b3d28" type="distinctio">
-        <head>Distinctio Vigesima Octava</head>
+        <head>Distinctio 28</head>
         <item id="jdso8u-d1e2944" alias="jdso8u-b3d28q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2944"/>
           <title>Quaestio 1</title>
@@ -3205,7 +3457,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e2956" alias="jdso8u-b3d29" type="distinctio">
-        <head>Distinctio Vigesima Nona</head>
+        <head>Distinctio 29</head>
         <item id="jdso8u-d1e2961" alias="jdso8u-b3d29q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2961"/>
           <title>Quaestio 1</title>
@@ -3213,7 +3465,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e2973" alias="jdso8u-b3d30" type="distinctio">
-        <head>Distinctio Trigesima</head>
+        <head>Distinctio 30</head>
         <item id="jdso8u-d1e2978" alias="jdso8u-b3d30q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2978"/>
           <title>Quaestio 1</title>
@@ -3221,7 +3473,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e2991" alias="jdso8u-b3d31" type="distinctio">
-        <head>Distinctio Trigesima Prima</head>
+        <head>Distinctio 31</head>
         <item id="jdso8u-d1e2996" alias="jdso8u-b3d31q1" type="quaestio">
           <fileName filestem="jdso8u-d1e2996"/>
           <title>Quaestio 1</title>
@@ -3229,7 +3481,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3008" alias="jdso8u-b3d32" type="distinctio">
-        <head>Distinctio Trigesima Secunda</head>
+        <head>Distinctio 32</head>
         <item id="jdso8u-d1e3013" alias="jdso8u-b3d32q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3013"/>
           <title>Quaestio 1</title>
@@ -3237,7 +3489,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3025" alias="jdso8u-b3d33" type="distinctio">
-        <head>Distinctio Trigesima Tertia</head>
+        <head>Distinctio 33</head>
         <item id="jdso8u-d1e3030" alias="jdso8u-b3d33q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3030"/>
           <title>Quaestio 1</title>
@@ -3245,7 +3497,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3042" alias="jdso8u-b3d34" type="distinctio">
-        <head>Distinctio Trigesima Quarta</head>
+        <head>Distinctio 34</head>
         <item id="jdso8u-d1e3047" alias="jdso8u-b3d34q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3047"/>
           <title>Quaestio 1</title>
@@ -3254,7 +3506,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3059" alias="jdso8u-b3d35" type="distinctio">
-        <head>Distinctio Trigesima Quinta</head>
+        <head>Distinctio 35</head>
         <item id="jdso8u-d1e3064" alias="jdso8u-b3d35q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3064"/>
           <title>Quaestio 1</title>
@@ -3263,7 +3515,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3076" alias="jdso8u-b3d36" type="distinctio">
-        <head>Distinctio Trigesima Sexta</head>
+        <head>Distinctio 36</head>
         <item id="jdso8u-d1e3081" alias="jdso8u-b3d36q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3081"/>
           <title>Quaestio 1</title>
@@ -3271,7 +3523,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3094" alias="jdso8u-b3d37" type="distinctio">
-        <head>Distinctio Trigesima Septima</head>
+        <head>Distinctio 37</head>
         <item id="jdso8u-d1e3099" alias="jdso8u-b3d37q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3099"/>
           <title>Quaestio 1</title>
@@ -3279,7 +3531,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3111" alias="jdso8u-b3d38" type="distinctio">
-        <head>Distinctio Trigesima Octava</head>
+        <head>Distinctio 38</head>
         <item id="jdso8u-d1e3116" alias="jdso8u-b3d38q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3116"/>
           <title>Quaestio 1</title>
@@ -3287,7 +3539,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3128" alias="jdso8u-b3d39" type="distinctio">
-        <head>Distinctio Trigesima Nona</head>
+        <head>Distinctio 39</head>
         <item id="jdso8u-d1e3133" alias="jdso8u-b3d39q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3133"/>
           <title>Quaestio 1</title>
@@ -3295,7 +3547,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3145" alias="jdso8u-b3d40" type="distinctio">
-        <head>Distinctio Quadragesima</head>
+        <head>Distinctio 40</head>
         <item id="jdso8u-d1e3150" alias="jdso8u-b3d40q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3150"/>
           <title>Quaestio 1</title>
@@ -3304,9 +3556,9 @@
       </div>
     </div>
     <div id="jdso8u-d1e3163" alias="jdso8u-book4" type="liber">
-      <head>Liber IV</head>
+      <head>Liber 4</head>
       <div id="jdso8u-d1e3168" alias="jdso8u-b4d1" type="distinctio">
-        <head>Distinctio Prima</head>
+        <head>Distinctio 1</head>
         <div id="jdso8u-d1e3173" alias="jdso8u-b4d1p1" type="pars">
           <head>Pars 1</head>
           <item id="jdso8u-d1e3178" alias="jdso8u-b4d1p1q1" type="quaestio">
@@ -3362,7 +3614,7 @@
         </div>
       </div>
       <div id="jdso8u-d1e3275" alias="jdso8u-b4d2" type="distinctio">
-        <head>Distinctio Secunda</head>
+        <head>Distinctio 2</head>
         <item id="jdso8u-d1e3280" alias="jdso8u-b4d2q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3280"/>
           <title>Quaestio 1</title>
@@ -3377,7 +3629,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3303" alias="jdso8u-b4d3" type="distinctio">
-        <head>Distinctio Tertia</head>
+        <head>Distinctio 3</head>
         <item id="jdso8u-d1e3308" alias="jdso8u-b4d3q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3308"/>
           <title>Quaestio 1</title>
@@ -3404,7 +3656,7 @@
         </item>
       </div>
       <div id="jdso8u-d1e3353" alias="jdso8u-b4d4" type="distinctio">
-        <head>Distinctio Quarta</head>
+        <head>Distinctio 4</head>
         <div id="jdso8u-d1e3358" alias="jdso8u-b4d4p1" type="pars">
           <head>Pars 1</head>
           <item id="jdso8u-d1e3363" alias="jdso8u-b4d4p1q1" type="quaestio">
@@ -3467,7 +3719,7 @@
         </div>
       </div>
       <div id="jdso8u-d1e3483" alias="jdso8u-b4d5" type="distinctio">
-        <head>Distinctio Quinta</head>
+        <head>Distinctio 5</head>
         <item id="jdso8u-d1e3488" alias="jdso8u-b4d5q1" type="quaestio">
           <fileName filestem="jdso8u-d1e3488"/>
           <title>Quaestio 1</title>
