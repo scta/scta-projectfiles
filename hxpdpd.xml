@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Herveus Natalis</authorName>
+    <commentaryName>De potestate papae</commentaryName>
+    <commentaryid>hxpdpd</commentaryid>
+    <commentaryslug>hxpdpd</commentaryslug>
+    <authorUri>http://scta.info/resource/HerveusNatalis</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/hxpdpd/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--<witness id="">
+        <slug></slug>
+        <title>Venice 1505</title>
+        <initial></initial>
+      </witness>-->
+      <witness id="cod-hvna87">
+        <slug>cod-hvna87</slug>
+        <title>Paris 1647</title>
+        <initial>cod-hvna87</initial>
+        <!-- 
+          Facsimile reprint of Paris ed., 1647
+          https://iiif.archive.org/iiif/2/herveinatalisbri00herv/manifest.json
+          Hervei Natalis Britonis In quatuor libros sententiarum commentaria. Quibus adiectus et eiusdem auctoris Tractatus de potestate Papae 
+          -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De potestate papae</head>
+    <item id="hxpdpd-asdfjk">
+      <fileName filestem="hxpdpd-asdfjk"/>
+      <title>Pars Unica</title>
+      <hasWitnesses>
+        <witness ref="#cod-hvna87">
+          <folio>363</folio>
+          <folio>364</folio>
+          <folio>365</folio>
+          <folio>366</folio>
+          <folio>367</folio>
+          <folio>368</folio>
+          <folio>369</folio>
+          <folio>370</folio>
+          <folio>371</folio>
+          <folio>372</folio>
+          <folio>373</folio>
+          <folio>374</folio>
+          <folio>375</folio>
+          <folio>376</folio>
+          <folio>377</folio>
+          <folio>378</folio>
+          <folio>379</folio>
+          <folio>380</folio>
+          <folio>381</folio>
+          <folio>382</folio>
+          <folio>383</folio>
+          <folio>384</folio>
+          <folio>385</folio>
+          <folio>386</folio>
+          <folio>387</folio>
+          <folio>388</folio>
+          <folio>389</folio>
+          <folio>390</folio>
+          <folio>391</folio>
+          <folio>392</folio>
+          <folio>393</folio>
+          <folio>394</folio>
+          <folio>395</folio>
+          <folio>396</folio>
+          <folio>397</folio>
+          <folio>398</folio>
+          <folio>399</folio>
+          <folio>400</folio>
+          <folio>401</folio>
+          <folio>402</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
