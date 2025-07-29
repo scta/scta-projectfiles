@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Herveus Natalis</authorName>
+    <commentaryName>Commentarius in libros Sententiarum</commentaryName>
+    <commentaryid>hx2hx3</commentaryid>
+    <commentaryslug>hx2hx3</commentaryslug>
+    <authorUri>http://scta.info/resource/HerveusNatalis</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/nataliscommentary/</textfilesdir>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!--<witness id="">
+        <slug></slug>
+        <title>Venice 1505</title>
+        <initial></initial>
+      </witness>-->
+      <witness id="cod-hvna87">
+        <slug>cod-hvna87</slug>
+        <title>Paris 1647</title>
+        <initial>cod-hvna87</initial>
+        <!-- 
+          Facsimile reprint of Paris ed., 1647
+          https://iiif.archive.org/iiif/2/herveinatalisbri00herv/manifest.json
+          Hervei Natalis Britonis In quatuor libros sententiarum commentaria. Quibus adiectus et eiusdem auctoris Tractatus de potestate Papae 
+          -->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in libros Sententiarum</head>
+    <div id="hx2hx3-d1e052" type="liber1">
+      <head>Liber 1</head>
+      <div id="hx2hx3-d1e56" type="liber1-prologus">
+        <head>Prologus</head>
+
+        <item id="hx2hx3-a00003" alias="l1prolq1">
+          <fileName filestem="hx2hx3-a00003"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum theologia sit scientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a01698" alias="l1prolq2">
+          <fileName filestem="hx2hx3-a01698"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum speculativum et practicum distinguantur penes obiecta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a02492" alias="l1prolq3">
+          <fileName filestem="hx2hx3-a02492"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum ista scientia debeat denominari a finde habendo in via vel in
+            patria</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a02906" alias="l1prolq4">
+          <fileName filestem="hx2hx3-a02906"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum theologia sit speculativa vel practica</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a04083" alias="l1prolq5">
+          <fileName filestem="hx2hx3-a04083"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum theologia sit scientia una</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a04373" alias="l1prolq6">
+          <fileName filestem="hx2hx3-a04373"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum theologia subalternetur alicui scientiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a05647" alias="l1prolq7">
+          <fileName filestem="hx2hx3-a05647"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum deus sit subiectum theologiae sub ratione speciali et non absolute
+            secundum quod deus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e160" type="liber1-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="hx2hx3-a07274" alias="l1d1add">
+          <fileName filestem="hx2hx3-a07274"/>
+          <title>Addendum</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e179" type="liber1-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="hx2hx3-a07363" alias="l1d2q1">
+          <fileName filestem="hx2hx3-a07363"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sit necessarium ponere unum deum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a07791" alias="l1d2q2">
+          <fileName filestem="hx2hx3-a07791"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum deo conveniat pluralitas attributorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a08596" alias="l1d2q3">
+          <fileName filestem="hx2hx3-a08596"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum distinctio attributorum secundum rationem sit accipienda in deo per
+            comparationem ad intra vel per comparationem ad extra</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-a09831" alias="l1d2q4">
+          <fileName filestem="hx2hx3-a09831"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum in divinis sit pluralitas personarum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e240" type="liber1-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="hx2hx3-a10300" alias="l1d3q1">
+          <fileName filestem="hx2hx3-a10300"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum de deo possimus scire quid est</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b11132" alias="l1d3q2">
+          <fileName filestem="hx2hx3-b11132"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum deum esse sit per se notum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b12079" alias="l1d3q3">
+          <fileName filestem="hx2hx3-b12079"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum per ea quae facta sunt aliquod trinitatis vestigium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b12283" alias="l1d3q4">
+          <fileName filestem="hx2hx3-b12283"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum anima sit suae potentiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b13122" alias="l1d3q5">
+          <fileName filestem="hx2hx3-b13122"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum potentiae animae originentur ab ipsa anima</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e317" type="liber1-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="hx2hx3-b13924" alias="l1d4q1">
+          <fileName filestem="hx2hx3-b13924"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum generatio sit in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b14232" alias="l1d4q2">
+          <fileName filestem="hx2hx3-b14232"/>
+          <title>Quaesito 2</title>
+          <questionTitle>Utrum in divinis natura praedicetur de supposito</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e350" type="liber1-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="hx2hx3-b15348" alias="l1d5q1">
+          <fileName filestem="hx2hx3-b15348"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum essentia generet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b16673" alias="l1d5q2">
+          <fileName filestem="hx2hx3-b16673"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum essentia sit terminus generationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b17351" alias="l1d5q3">
+          <fileName filestem="hx2hx3-b17351"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum Filius Dei sit de nihilo vel de aliquo </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e397" type="liber1-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="hx2hx3-b17423" alias="l1d6q1">
+          <fileName filestem="hx2hx3-b17423"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater genuerit filium de necessitate</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b17604" alias="l1d6q2">
+          <fileName filestem="hx2hx3-b17604"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum filius procedat per modum artis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e430" type="liber1-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="hx2hx3-b17671" alias="l1d7q1">
+          <fileName filestem="hx2hx3-b17671"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum potentia generandi sit in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e449" type="liber1-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="hx2hx3-b18744" alias="l1d8q1">
+          <fileName filestem="hx2hx3-b18744"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum esse sit proprium deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b19407" alias="l1d8q2">
+          <fileName filestem="hx2hx3-b19407"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum soli deo conveniat esse omnino simplex</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b19780" alias="l1d8q3">
+          <fileName filestem="hx2hx3-b19780"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum deus sit in genere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b19854" alias="l1d8q4">
+          <fileName filestem="hx2hx3-b19854"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum anima sit tota in qualibet parte corporis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e510" type="liber1-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="hx2hx3-b20927" alias="l1d9q1">
+          <fileName filestem="hx2hx3-b20927"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater sit alius a filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b21365" alias="l1d9q2">
+          <fileName filestem="hx2hx3-b21365"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum tres personae debeant dici tres aeterni</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b21539" alias="l1d9q3">
+          <fileName filestem="hx2hx3-b21539"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum verba praesentis temporis magis conveniant nativitati filii quam
+            verba praeteriti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e558" type="liber1-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="hx2hx3-b21842" alias="l1d10q1">
+          <fileName filestem="hx2hx3-b21842"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum spiritus sanctus procedat per modum voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b23095" alias="l1d10q2">
+          <fileName filestem="hx2hx3-b23095"/>
+          <title>Quaestio 2</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e591" type="liber1-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="hx2hx3-b23547" alias="l1d11q1">
+          <fileName filestem="hx2hx3-b23547"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum spiritus sanctus distingueretur a filio si non
+            procederet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b24861" alias="l1d11q2">
+          <fileName filestem="hx2hx3-b24861"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum pater et filius spirent inquantum unum vel inquantum
+            plures</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b25111" alias="l1d11q3">
+          <fileName filestem="hx2hx3-b25111"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum possit dici plures spiratores vel unus spirator</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e638" type="liber1-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="hx2hx3-b25198" alias="l1d12q1">
+          <fileName filestem="hx2hx3-b25198"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum generatio sit prior processione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b25497" alias="l1d12q2">
+          <fileName filestem="hx2hx3-b25497"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum Spiritus Sanctus magis vel plenius sit a Patre quam a
+            Filio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e671" type="liber1-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="hx2hx3-b25614" alias="l1d13q1">
+          <fileName filestem="hx2hx3-b25614"/>
+          <title>Quaesito 1</title>
+          <questionTitle>Utrum sit aliqua processio in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b25865" alias="l1d13q2">
+          <fileName filestem="hx2hx3-b25865"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in divinis sint plures processiones realiter
+            distinctae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e704" type="liber1-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="hx2hx3-b26958" alias="l1d14q1">
+          <fileName filestem="hx2hx3-b26958"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sit aliqua temporalis processio spiritus sancti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b27324" alias="l1d14q2">
+          <fileName filestem="hx2hx3-b27324"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum processio temporalis ponat in numerum cum aeterna</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b27476" alias="l1d14q3">
+          <fileName filestem="hx2hx3-b27476"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum spiritus sanctus detur in omnibus donis suis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e751" type="liber1-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="hx2hx3-b27596" alias="l1d15q1">
+          <fileName filestem="hx2hx3-b27596"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum divinis personis conveniat missio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b28035" alias="l1d15q2">
+          <fileName filestem="hx2hx3-b28035"/>
+          <title>Quaesito 2</title>
+          <questionTitle>Utrum persona aliqua possit mittere se vel personam non productam a
+            se</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b28157" alias="l1d15q3">
+          <fileName filestem="hx2hx3-b28157"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum per donum spiritus sancti efficiatur quod non simus in hoc
+            mundo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e799" type="liber1-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="hx2hx3-b28369" alias="l1d16ex">
+          <fileName filestem="hx2hx3-b28369"/>
+          <title>Expositio</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e818" type="liber1-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="hx2hx3-b28580" alias="l1d17q1">
+          <fileName filestem="hx2hx3-b28580"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum charitas dicat aliquid creatum in anima qui sit habitus
+            voluntatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b29436" alias="l1d17q2">
+          <fileName filestem="hx2hx3-b29436"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum charitas sit accidens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b29741" alias="l1d17q3">
+          <fileName filestem="hx2hx3-b29741"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum charitas detur secundum capacitatem naturalium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b30271" alias="l1d17q4">
+          <fileName filestem="hx2hx3-b30271"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum charitas augeatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b31539" alias="l1d17q5">
+          <fileName filestem="hx2hx3-b31539"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum charitas augeatur per additionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b32309" alias="l1d17q6">
+          <fileName filestem="hx2hx3-b32309"/>
+          <title>Quaestio 6</title>
+          <questionTitle>Utrum charitas augeatur in infinitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b32873" alias="l1d17q7">
+          <fileName filestem="hx2hx3-b32873"/>
+          <title>Quaestio 7</title>
+          <questionTitle>Utrum charitas possit diminui</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e922" type="liber1-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="hx2hx3-b33001" alias="l1d18q1">
+          <fileName filestem="hx2hx3-b33001"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum donum conveniat soli spiritui sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e941" type="liber1-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="hx2hx3-b33173" alias="l1d19q1">
+          <fileName filestem="hx2hx3-b33173"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in divinis sit aequalitas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b33375" alias="l1d19q2">
+          <fileName filestem="hx2hx3-b33375"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum nunc aeternitatis sit idem quod aeternitas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b34395" alias="l1d19q3">
+          <fileName filestem="hx2hx3-b34395"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum veritas sit in rebus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e988" type="liber1-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="hx2hx3-b35072" alias="l1d20q1">
+          <fileName filestem="hx2hx3-b35072"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum filius dei sit omnipotens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1007" type="liber1-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="hx2hx3-b35726" alias="l1d21q1">
+          <fileName filestem="hx2hx3-b35726"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum dictio exclusiva addita patri excludat filium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1027" type="liber1-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="hx2hx3-b36292" alias="l1d22q1">
+          <fileName filestem="hx2hx3-b36292"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum aliquid proprie dicatur de deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1046" type="liber1-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="hx2hx3-b36631" alias="l1d23q1">
+          <fileName filestem="hx2hx3-b36631"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona in divinis significet essentiam vel
+            relationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1065" type="liber1-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="hx2hx3-b37519" alias="l1d24q1">
+          <fileName filestem="hx2hx3-b37519"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum termini numerales aliquod ponant in divinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1084" type="liber1-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="hx2hx3-b38744" alias="l1d26q1">
+          <fileName filestem="hx2hx3-b38744"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum relationes distinguant hypostases sive personas</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1103" type="liber1-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="hx2hx3-b39737" alias="l1d27q1">
+          <fileName filestem="hx2hx3-b39737"/>
+          <title>Quaestio 27</title>
+          <questionTitle>Utrum paternitas et spiratio activa sint duae res</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1122" type="liber1-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="hx2hx3-b40430" alias="l1d28q1">
+          <fileName filestem="hx2hx3-b40430"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ingenitum sit notio patris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1142" type="liber1-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="hx2hx3-b41082" alias="l1d30q1">
+          <fileName filestem="hx2hx3-b41082"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omnes relationes quibus deus refertur ad creaturam ex tempore sint
+            reales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1161" type="liber1-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="hx2hx3-b42262" alias="l1d32q1">
+          <fileName filestem="hx2hx3-b42262"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum pater et filius diligant se spiritu sancto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1180" type="liber1-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="hx2hx3-b43003" alias="l1d33q1">
+          <fileName filestem="hx2hx3-b43003"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum proprietas relativa sit realiter divina essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1199" type="liber1-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="hx2hx3-b44372" alias="l1d34q1">
+          <fileName filestem="hx2hx3-b44372"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona sit essentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b44925" alias="l1d34q2">
+          <fileName filestem="hx2hx3-b44925"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum bene dicatur tres personae esse unius essentiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b45222" alias="l1d34q3">
+          <fileName filestem="hx2hx3-b45222"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum dicatur aliquid metaphorice de Deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1246" type="liber1-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="hx2hx3-b45307" alias="l1d35q1">
+          <fileName filestem="hx2hx3-b45307"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Deus habeat scientiam certam et distinctam de eis quae sunt extra
+            se</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1265" type="liber1-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="hx2hx3-b46409" alias="l1d36q1">
+          <fileName filestem="hx2hx3-b46409"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum plures ideae sint in deo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1285" type="liber1-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="hx2hx3-b48073" alias="l1d37q1">
+          <fileName filestem="hx2hx3-b48073"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus moveatur localiter</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1304" type="liber1-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="hx2hx3-b50037" alias="l1d38q1">
+          <fileName filestem="hx2hx3-b50037"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum deus habeat certam scientiam de futuris
+            contingentibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1323" type="liber1-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="hx2hx3-b51379" alias="l1d39q1">
+          <fileName filestem="hx2hx3-b51379"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum deus habeat scientiam practicam de rebus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b51901" alias="l1d39q2">
+          <fileName filestem="hx2hx3-b51901"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum omnia subsint providentiae dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1356" type="liber1-distinctio40">
+        <head>Distinctio 40</head>
+        <item id="hx2hx3-b52550" alias="l1d40q1">
+          <fileName filestem="hx2hx3-b52550"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum praescientia meritorum sit causa praedestinationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1375" type="liber1-distinctio42">
+        <head>Distinctio 42</head>
+        <item id="hx2hx3-b53904" alias="l1d42q1">
+          <fileName filestem="hx2hx3-b53904"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum soli deo conveniat omnipotentia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1394" type="liber1-distinctio43">
+        <head>Distinctio 43</head>
+        <item id="hx2hx3-b54750" alias="l1d43q1">
+          <fileName filestem="hx2hx3-b54750"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum potentia dei sit infinita</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b55320" alias="l1d43q2">
+          <fileName filestem="hx2hx3-b55320"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum ea quae deo facit faciat de necessitate naturae vel
+            iustitiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1428" type="liber1-distinctio44">
+        <head>Distinctio 44</head>
+        <item id="hx2hx3-b56419" alias="l1d44q1">
+          <fileName filestem="hx2hx3-b56419"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum deus possit facere universum melius</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b57967" alias="l1d44q2">
+          <fileName filestem="hx2hx3-b57967"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum impossibilia creaturae sint deo possibilia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1461" type="liber1-distinctio46">
+        <head>Distinctio 46</head>
+        <item id="hx2hx3-b58284" alias="l1d46q1">
+          <fileName filestem="hx2hx3-b58284"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum deus agat res per voluntatem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b59210" alias="l1d46q2">
+          <fileName filestem="hx2hx3-b59210"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum voluntas dei infallibiliter et de necessitate semper
+            impleatur</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1494" type="liber1-distinctio47">
+        <head>Distinctio 47</head>
+        <item id="hx2hx3-b60264" alias="l1d47q1">
+          <fileName filestem="hx2hx3-b60264"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum id quod est contra voluntatem antecedentem Dei obsequatur voluntati
+            consequenti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b60463" alias="l1d47q2">
+          <fileName filestem="hx2hx3-b60463"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum deus possit praecipere quod non vult</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b61067" alias="l1d47q3">
+          <fileName filestem="hx2hx3-b61067"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum Deus possit dispensare in praeceptis decalogi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1541" type="liber1-distinctio48">
+        <head>Distinctio 48</head>
+        <item id="hx2hx3-b62502" alias="l1d48q1">
+          <fileName filestem="hx2hx3-b62502"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum teneamur ad formandum nostram voluntatem divinae
+            voluntati</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="hx2hx3-d1e161" type="liber2">
+      <head>Liber 2</head>
+      <div id="hx2hx3-d1e1565" type="liber2-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="hx2hx3-b63662" alias="l2d1q1">
+          <fileName filestem="hx2hx3-b63662"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum mundus potuerit esset ab aeterno</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b65466" alias="l2d1q2">
+          <fileName filestem="hx2hx3-b65466"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum soli deo conveniat creare posse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1598" type="liber2-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="hx2hx3-b67097" alias="l2d2q1">
+          <fileName filestem="hx2hx3-b67097"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sit unum tempus omnium temporalium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b68319" alias="l2d2q2">
+          <fileName filestem="hx2hx3-b68319"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sit unum aevum omnium aeviternorum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b69119" alias="l2d2q3">
+          <fileName filestem="hx2hx3-b69119"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum in aevo sit successio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1645" type="liber2-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="hx2hx3-b69486" alias="l2d3q1">
+          <fileName filestem="hx2hx3-b69486"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus sit compositus ex materia et forma</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b69871" alias="l2d3q2">
+          <fileName filestem="hx2hx3-b69871"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum possint esse plures angeli differentes in eadem
+            specie</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b70488" alias="l2d3q3">
+          <fileName filestem="hx2hx3-b70488"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum angeli sint in generatione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b70907" alias="l2d3q4">
+          <fileName filestem="hx2hx3-b70907"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum angeli superiores cognoscant per species magis
+            universales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1706" type="liber2-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="hx2hx3-b72261" alias="l2d5q1">
+          <fileName filestem="hx2hx3-b72261"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angelus peccavit appetendo aequalitatem Dei</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b73004" alias="l2d5q2">
+          <fileName filestem="hx2hx3-b73004"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum angelus bonus beatitudinem suam meruerit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1740" type="liber2-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="hx2hx3-b73517" alias="l2d6q1">
+          <fileName filestem="hx2hx3-b73517"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum supremus inter omnes angelos fuerit ille qui fuit primus inter
+            peccatores</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1759" type="liber2-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="hx2hx3-b73659" alias="l2d7q1">
+          <fileName filestem="hx2hx3-b73659"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli vel etiam quicumque beati possint peccare</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b74008" alias="l2d7q2">
+          <fileName filestem="hx2hx3-b74008"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum divinationes possint fieri per daemones</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1792" type="liber2-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="hx2hx3-b75022" alias="l2d8q1">
+          <fileName filestem="hx2hx3-b75022"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum angeli assumant corpora</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b75535" alias="l2d8q2">
+          <fileName filestem="hx2hx3-b75535"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in illis corporibus exerceant opera vitae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b75779" alias="l2d8q3">
+          <fileName filestem="hx2hx3-b75779"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum angelus naturaliter possit videre cogitationes</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1839" type="liber2-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="hx2hx3-b76640" alias="l2d9q1">
+          <fileName filestem="hx2hx3-b76640"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum unus angelus possit illuminare alium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1858" type="liber2-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="hx2hx3-b78177" alias="l2d11q1">
+          <fileName filestem="hx2hx3-b78177"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum unus angelus loquatur alii</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b78879" alias="l2d11q2">
+          <fileName filestem="hx2hx3-b78879"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum angeli simul videant verbum et res in proprio genere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1891" type="liber2-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="hx2hx3-b79189" alias="l2d12q1">
+          <fileName filestem="hx2hx3-b79189"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corpora superiora et inferiora communicent in materia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1911" type="liber2-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="hx2hx3-b80515" alias="l2d13q1">
+          <fileName filestem="hx2hx3-b80515"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum informitas materiae praecesserit eius formationem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b81243" alias="l2d13q2">
+          <fileName filestem="hx2hx3-b81243"/>
+          <title>Quaesito 2</title>
+          <questionTitle>Utrum lumen habeat esse reale in aere</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1944" type="liber2-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="hx2hx3-b81865" alias="l2d14q1">
+          <fileName filestem="hx2hx3-b81865"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum caelum moveatur ab anima quae sit ei coniuncta ut
+            forma</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1963" type="liber2-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="hx2hx3-b82963" alias="l2d15q1">
+          <fileName filestem="hx2hx3-b82963"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum caelum agat in omnia ista inferiora et conservet ea</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e1982" type="liber2-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="hx2hx3-b83894" alias="l2d17q1">
+          <fileName filestem="hx2hx3-b83894"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum anima intellectiva sit forma hominis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b85147" alias="l2d17q2">
+          <fileName filestem="hx2hx3-b85147"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum anima nostra intelligat abstrahendo a phantasmatibus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2015" type="liber2-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="hx2hx3-b86109" alias="l2d18q1">
+          <fileName filestem="hx2hx3-b86109"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sint aliquae inchoationes formarum in materia quae sint rationes
+            seminales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2034" type="liber2-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="hx2hx3-b87761" alias="l2d24a1">
+          <fileName filestem="hx2hx3-b87761"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum conscientia pertineat ad intellectum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2054" type="liber2-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="hx2hx3-b88260" alias="l2d25q1">
+          <fileName filestem="hx2hx3-b88260"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum voluntas moveatur ab obiecto</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b89594" alias="l2d25q2">
+          <fileName filestem="hx2hx3-b89594"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum homo sit dominus suorum actuum secundum voluntatem et hoc est
+            quaerere utrum sit liber arbitrium secundum voluntatem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2087" type="liber2-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="hx2hx3-b90899" alias="l2d27q1">
+          <fileName filestem="hx2hx3-b90899"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum charitas et gratia sint idem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2106" type="liber2-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="hx2hx3-b91358" alias="l2d28q1">
+          <fileName filestem="hx2hx3-b91358"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum homo possit vitare peccatum mortale sine gratia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2125" type="liber2-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="hx2hx3-b91861" alias="l2d30q1">
+          <fileName filestem="hx2hx3-b91861"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum aliquod peccatum traducatur per originem a parente in
+            prolem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b93201" alias="l2d30q2">
+          <fileName filestem="hx2hx3-b93201"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum aliquod de alimento transeat in virtutem naturae
+            humanae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b94168" alias="l2d30q3">
+          <fileName filestem="hx2hx3-b94168"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum semen sit de superfluo alimenti</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="hx2hx3-d1e273" type="liber3">
+      <head>Liber 3</head>
+      <div id="hx2hx3-d1e2177" type="liber3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="hx2hx3-b94769" alias="l3d1q1">
+          <fileName filestem="hx2hx3-b94769"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum persona divina possit assumere indifferenter quamcumque naturam
+            creatam in unitate suppositi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-b96750" alias="l3d1q2">
+          <fileName filestem="hx2hx3-b96750"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum tres personae possint assumere unam naturam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2210" type="liber3-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="hx2hx3-b97338" alias="l3d3q1">
+          <fileName filestem="hx2hx3-b97338"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum beata virgo fuerit sanctificata in instanti creationis
+            animae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2229" type="liber3-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="hx2hx3-b98473" alias="l3d5q1">
+          <fileName filestem="hx2hx3-b98473"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum natura assumpserit naturam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2248" type="liber3-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="hx2hx3-b98873" alias="l3d6q1">
+          <fileName filestem="hx2hx3-b98873"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Christo sit tantum unum esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2268" type="liber3-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="hx2hx3-b99938" alias="l3d7q1">
+          <fileName filestem="hx2hx3-b99938"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum haec sit vera Deus factus est homo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2287" type="liber3-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="hx2hx3-c00753" alias="l3d8q1">
+          <fileName filestem="hx2hx3-c00753"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum in Christo sint duae filiationes reales</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2306" type="liber3-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="hx2hx3-c01343" alias="l3d10q1">
+          <fileName filestem="hx2hx3-c01343"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum Christus secundum homo sit persona</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2325" type="liber3-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="hx2hx3-c01614" alias="l3d11q1">
+          <fileName filestem="hx2hx3-c01614"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum christus secundum quod homo sit creatura</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="hx2hx3-d1e345" type="liber4">
+      <head>Liber 4</head>
+      <div id="hx2hx3-d1e2349" type="liber4-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="hx2hx3-c02106" alias="l4d1q1">
+          <fileName filestem="hx2hx3-c02106"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sacramenta sint causa gratiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c04228" alias="l4d1q2">
+          <fileName filestem="hx2hx3-c04228"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum virtus sacramentorum sit a passione christi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c04541" alias="l4d1q3">
+          <fileName filestem="hx2hx3-c04541"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum diffinitio sacramenti data in littera sit bona, scilicet quod
+            sacramentum est invisibilis gratiae visibilis forma ita ut imaginem eius gerat et causa
+            existat</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c05162" alias="l4d1q4">
+          <fileName filestem="hx2hx3-c05162"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum instituere sacramenta fuerit necessarium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c05573" alias="l4d1q5">
+          <fileName filestem="hx2hx3-c05573"/>
+          <title>Quaestio 5</title>
+          <questionTitle>De institutione circumcisionis, utrum fuerit convenienter
+            instituta</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c06134" alias="l4d1q6">
+          <fileName filestem="hx2hx3-c06134"/>
+          <title>Quaestio 6</title>
+          <questionTitle>De ritu circumcisionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c06572" alias="l4d1q7">
+          <fileName filestem="hx2hx3-c06572"/>
+          <title>Quaestio 7</title>
+          <questionTitle>De effectu et cessatione circumcisionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2453" type="liber4-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="hx2hx3-c07019" alias="l4d2q1">
+          <fileName filestem="hx2hx3-c07019"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum omnia sacramenta novae legis sint instituta in
+            remedium</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c07529" alias="l4d2q2">
+          <fileName filestem="hx2hx3-c07529"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sint septem sacramenta novae legis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2486" type="liber4-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="hx2hx3-c07897" alias="l4d3q1">
+          <fileName filestem="hx2hx3-c07897"/>
+          <title>Quaestio 1</title>
+          <questionTitle>trum diffinitio baptismi sit bona, scilicet quod baptismus est ablutio
+            exterior corporis facta sub forma praescripta verborum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c08339" alias="l4d3q2">
+          <fileName filestem="hx2hx3-c08339"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum forma baptismi, scilicet Ego te baptizo in nomine patris et filii et
+            spiritus sancti, sit conveniens</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c08903" alias="l4d3q3">
+          <fileName filestem="hx2hx3-c08903"/>
+          <title>Quaestio 3</title>
+          <questionTitle>De materia, utrum sit aqua simplex</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c09057" alias="l4d3q4">
+          <fileName filestem="hx2hx3-c09057"/>
+          <title>Quaestio 4</title>
+          <questionTitle>De immersione, utrum debeat esse trina</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2547" type="liber4-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="hx2hx3-c09288" alias="l4d4q1">
+          <fileName filestem="hx2hx3-c09288"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum caracter dicat aliquod absolutum existens in anima</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c10476" alias="l4d4q2">
+          <fileName filestem="hx2hx3-c10476"/>
+          <title>Quaestio 2</title>
+          <questionTitle>De effectu baptismi, utrum tollat omnem poenam et culpam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2581" type="liber4-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="hx2hx3-c11133" alias="l4d5q1">
+          <fileName filestem="hx2hx3-c11133"/>
+          <title>Quaestio 1</title>
+          <questionTitle>De ministris utrum quilibet possit dispensare sacramentum
+            baptismi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c11700" alias="l4d5q2">
+          <fileName filestem="hx2hx3-c11700"/>
+          <title>Quaestio 2</title>
+          <questionTitle>De potestate excellentiae christi in sacramento, utrum potuerit conferri
+            aliis a christo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2614" type="liber4-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="hx2hx3-c12195" alias="l4d6q1">
+          <fileName filestem="hx2hx3-c12195"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ad baptismum requiratur nativitas ex utero</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c12463" alias="l4d6q2">
+          <fileName filestem="hx2hx3-c12463"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in baptizato requiratur intentio et fides baptismi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c12597" alias="l4d6q3">
+          <fileName filestem="hx2hx3-c12597"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum requiritur intentio baptizantis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c12910" alias="l4d6q4">
+          <fileName filestem="hx2hx3-c12910"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum baptismus possit reiterari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c13022" alias="l4d6q5">
+          <fileName filestem="hx2hx3-c13022"/>
+          <title>Quaestio 5</title>
+          <questionTitle>De catechismo qui est instructio</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2690" type="liber4-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="hx2hx3-c13287" alias="l4d7q1">
+          <fileName filestem="hx2hx3-c13287"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum confirmatio sit sacramentum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c13943" alias="l4d7q2">
+          <fileName filestem="hx2hx3-c13943"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum confirmatio faciat in anima alium caracterem distinctum a caractere
+            baptismi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2723" type="liber4-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="hx2hx3-c14339" alias="l4d8q1">
+          <fileName filestem="hx2hx3-c14339"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum haec sit forma huius sacramenti hoc est corpus meum, quia li enim non
+            est de necessitate huius sacramenti, sed de institutione ecclesiae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c15469" alias="l4d8q2">
+          <fileName filestem="hx2hx3-c15469"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Circa formam sanguinis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c15728" alias="l4d8q3">
+          <fileName filestem="hx2hx3-c15728"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum formae sacramentorum se expectent</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c15840" alias="l4d8q4">
+          <fileName filestem="hx2hx3-c15840"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum illa verba faciant aliquid effective ad hoc quod corpus christi sit
+            ibi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c15968" alias="l4d8q5">
+          <fileName filestem="hx2hx3-c15968"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum istud sacramentum debeat sumi tantum a ieiunis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2799" type="liber4-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="hx2hx3-c16279" alias="l4d9q1">
+          <fileName filestem="hx2hx3-c16279"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corpus christi debuerit nobis dari per modum
+            manducationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2818" type="liber4-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="hx2hx3-c16825" alias="l4d10q1">
+          <fileName filestem="hx2hx3-c16825"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum corpus christi sit realiter in sacramento altaris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c18413" alias="l4d10q2">
+          <fileName filestem="hx2hx3-c18413"/>
+          <title>Quaestio 2</title>
+          <questionTitle>An angelus naturaliter possit videre corpus christi in sacramento
+            altaris</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2852" type="liber4-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="hx2hx3-c18511" alias="l4d11q1">
+          <fileName filestem="hx2hx3-c18511"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum conversio substantiae panis in corpus christi sit
+            possibilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c19150" alias="l4d11q2">
+          <fileName filestem="hx2hx3-c19150"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum conveniens materia huius sacramenti sit panis et
+            vinum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2885" type="liber4-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="hx2hx3-c19443" alias="l4d12q1">
+          <fileName filestem="hx2hx3-c19443"/>
+          <title>Quaestio 1</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2904" type="liber4-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="hx2hx3-c20355" alias="l4d13q1">
+          <fileName filestem="hx2hx3-c20355"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum minister huius sacramenti sit omnis sacerdos solum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c20778" alias="l4d13q2">
+          <fileName filestem="hx2hx3-c20778"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum haeresis sit perversitas in fide</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hx2hx3-d1e2937" type="liber4-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="hx2hx3-c21133" alias="l4d14q1">
+          <fileName filestem="hx2hx3-c21133"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum poenitentia sit sacramentum novae legis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+        <item id="hx2hx3-c21850" alias="l4d14q2">
+          <fileName filestem="hx2hx3-c21850"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum poenitentia habeat durare usque in finem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-hvna87"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
