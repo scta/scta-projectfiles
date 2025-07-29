@@ -3,7 +3,7 @@
 <listofFileNames>
   <header>
     <authorName>Herveus Natalis</authorName>
-    <commentaryName>Herveus Natalis Commentary on the Sentences</commentaryName>
+    <commentaryName>Herveus Natalis Commentary on the Sentences (Depreciated)</commentaryName>
     <commentaryid>nataliscommentary</commentaryid>
     <commentaryslug>hn</commentaryslug>
     <authorUri>http://scta.info/resource/HerveusNatalis</authorUri>
@@ -254,7 +254,9 @@
             </witness>
           </hasWitnesses>
         </item>
+        <!-- seems to be a missing question 3 here -->
       </div>
+      
       <div id="hn-l1d6" type="distinctio" subtype="liber1-distinctio6">
         <head>Liber 1, Distinctio 6</head>
         <item id="hn-l1d6q1" type="quaestio">
@@ -1782,7 +1784,7 @@
         <item id="hn-l4d5q1" type="quaestio">
           <fileName filestem="hn-l4d5q1"/>
           <title>Liber IV, Distinctio 5, Quaestio 1</title>
-          <questionTitle>De ministris utrum quilibet possit despensare sacramentum baptismi</questionTitle>
+          <questionTitle>De ministris utrum quilibet possit dispensare sacramentum baptismi</questionTitle>
           <hasWitnesses>
             <witness ref="#V"> <!-- there is a problem here as each books seems to restart number -->
               <folio>11r</folio> <!-- 250 PDF -->

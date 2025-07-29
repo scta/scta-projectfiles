@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Herveus Natalis</authorName>
@@ -36,13 +37,19 @@
       <head>Liber 1</head>
       <div id="hx2hx3-d1e56" type="liber1-prologus">
         <head>Prologus</head>
-
         <item id="hx2hx3-a00003" alias="l1prolq1">
           <fileName filestem="hx2hx3-a00003"/>
           <title>Quaestio 1</title>
           <questionTitle>Utrum theologia sit scientia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>1</folio>
+              <folio>2</folio>
+              <folio>3</folio>
+              <folio>4</folio>
+              <folio>5</folio>
+              <folio>6</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a01698" alias="l1prolq2">
@@ -50,7 +57,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum speculativum et practicum distinguantur penes obiecta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>6</folio>
+              <folio>7</folio>
+              <folio>8</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a02492" alias="l1prolq3">
@@ -59,7 +70,10 @@
           <questionTitle>Utrum ista scientia debeat denominari a finde habendo in via vel in
             patria</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>8</folio>
+              <folio>9</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a02906" alias="l1prolq4">
@@ -67,7 +81,13 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum theologia sit speculativa vel practica</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+              <folio>13</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a04083" alias="l1prolq5">
@@ -75,7 +95,10 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum theologia sit scientia una</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>13</folio>
+              <folio>14</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a04373" alias="l1prolq6">
@@ -83,7 +106,13 @@
           <title>Quaestio 6</title>
           <questionTitle>Utrum theologia subalternetur alicui scientiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>14</folio>
+              <folio>15</folio>
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a05647" alias="l1prolq7">
@@ -92,7 +121,14 @@
           <questionTitle>Utrum deus sit subiectum theologiae sub ratione speciali et non absolute
             secundum quod deus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+              <folio>21</folio>
+              <folio>22</folio>
+              <folio>23</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -103,7 +139,9 @@
           <title>Addendum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>23</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -114,7 +152,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sit necessarium ponere unum deum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>23</folio>
+              <folio>24</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a07791" alias="l1d2q2">
@@ -122,7 +163,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum deo conveniat pluralitas attributorum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>24</folio>
+              <folio>25</folio>
+              <folio>26</folio>
+              <folio>27</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a08596" alias="l1d2q3">
@@ -131,7 +177,12 @@
           <questionTitle>Utrum distinctio attributorum secundum rationem sit accipienda in deo per
             comparationem ad intra vel per comparationem ad extra</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+              <folio>30</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-a09831" alias="l1d2q4">
@@ -139,7 +190,11 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum in divinis sit pluralitas personarum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>30</folio>
+              <folio>31</folio>
+              <folio>32</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -150,7 +205,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum de deo possimus scire quid est</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>32</folio>
+              <folio>33</folio>
+              <folio>34</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b11132" alias="l1d3q2">
@@ -158,7 +217,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum deum esse sit per se notum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>34</folio>
+              <folio>35</folio>
+              <folio>36</folio>
+              <folio>37</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b12079" alias="l1d3q3">
@@ -166,7 +230,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum per ea quae facta sunt aliquod trinitatis vestigium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>37</folio>
+              <folio>38</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b12283" alias="l1d3q4">
@@ -174,7 +241,12 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum anima sit suae potentiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b13122" alias="l1d3q5">
@@ -182,7 +254,11 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum potentiae animae originentur ab ipsa anima</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>41</folio>
+              <folio>42</folio>
+              <folio>43</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -193,7 +269,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum generatio sit in divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>43</folio>
+              <folio>44</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b14232" alias="l1d4q2">
@@ -201,7 +280,12 @@
           <title>Quaesito 2</title>
           <questionTitle>Utrum in divinis natura praedicetur de supposito</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>44</folio>
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -212,7 +296,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum essentia generet</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>47</folio>
+              <folio>48</folio>
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b16673" alias="l1d5q2">
@@ -220,7 +310,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum essentia sit terminus generationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>52</folio>
+              <folio>53</folio>
+              <folio>54</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b17351" alias="l1d5q3">
@@ -228,7 +322,9 @@
           <title>Quaestio 3</title>
           <questionTitle> Utrum Filius Dei sit de nihilo vel de aliquo </questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>54</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -239,7 +335,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum pater genuerit filium de necessitate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>54</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b17604" alias="l1d6q2">
@@ -247,7 +345,9 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum filius procedat per modum artis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>54</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -258,7 +358,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum potentia generandi sit in divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>55</folio>
+              <folio>56</folio>
+              <folio>57</folio>
+              <folio>58</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -269,7 +374,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum esse sit proprium deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b19407" alias="l1d8q2">
@@ -277,7 +386,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum soli deo conveniat esse omnino simplex</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>60</folio>
+              <folio>61</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b19780" alias="l1d8q3">
@@ -285,7 +397,9 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum deus sit in genere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>61</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b19854" alias="l1d8q4">
@@ -293,7 +407,12 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum anima sit tota in qualibet parte corporis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+              <folio>64</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -304,7 +423,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum pater sit alius a filio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>64</folio>
+              <folio>65</folio>
+              <folio>66</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b21365" alias="l1d9q2">
@@ -312,7 +435,9 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum tres personae debeant dici tres aeterni</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>66</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b21539" alias="l1d9q3">
@@ -321,7 +446,10 @@
           <questionTitle>Utrum verba praesentis temporis magis conveniant nativitati filii quam
             verba praeteriti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>66</folio>
+              <folio>67</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -332,7 +460,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum spiritus sanctus procedat per modum voluntatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>67</folio>
+              <folio>68</folio>
+              <folio>69</folio>
+              <folio>70</folio>
+              <folio>71</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b23095" alias="l1d10q2">
@@ -340,7 +474,10 @@
           <title>Quaestio 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>71</folio>
+              <folio>72</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -352,7 +489,13 @@
           <questionTitle>Utrum spiritus sanctus distingueretur a filio si non
             procederet</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>72</folio>
+              <folio>73</folio>
+              <folio>74</folio>
+              <folio>75</folio>
+              <folio>76</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b24861" alias="l1d11q2">
@@ -361,7 +504,10 @@
           <questionTitle>Utrum pater et filius spirent inquantum unum vel inquantum
             plures</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>76</folio>
+              <folio>77</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b25111" alias="l1d11q3">
@@ -369,7 +515,9 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum possit dici plures spiratores vel unus spirator</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>77</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -380,7 +528,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum generatio sit prior processione</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>77</folio>
+              <folio>78</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b25497" alias="l1d12q2">
@@ -389,7 +540,9 @@
           <questionTitle>Utrum Spiritus Sanctus magis vel plenius sit a Patre quam a
             Filio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>78</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -400,7 +553,9 @@
           <title>Quaesito 1</title>
           <questionTitle>Utrum sit aliqua processio in divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>79</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b25865" alias="l1d13q2">
@@ -409,7 +564,13 @@
           <questionTitle>Utrum in divinis sint plures processiones realiter
             distinctae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>79</folio>
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+              <folio>83</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -420,7 +581,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sit aliqua temporalis processio spiritus sancti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>83</folio>
+              <folio>84</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b27324" alias="l1d14q2">
@@ -428,7 +592,9 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum processio temporalis ponat in numerum cum aeterna</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>84</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b27476" alias="l1d14q3">
@@ -436,7 +602,9 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum spiritus sanctus detur in omnibus donis suis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>84</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -447,7 +615,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum divinis personis conveniat missio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>85</folio>
+              <folio>86</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b28035" alias="l1d15q2">
@@ -456,7 +627,9 @@
           <questionTitle>Utrum persona aliqua possit mittere se vel personam non productam a
             se</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>86</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b28157" alias="l1d15q3">
@@ -465,7 +638,10 @@
           <questionTitle>Utrum per donum spiritus sancti efficiatur quod non simus in hoc
             mundo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>86</folio>
+              <folio>87</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -476,7 +652,9 @@
           <title>Expositio</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>87</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -488,7 +666,12 @@
           <questionTitle>Utrum charitas dicat aliquid creatum in anima qui sit habitus
             voluntatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>87</folio>
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b29436" alias="l1d17q2">
@@ -496,7 +679,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum charitas sit accidens</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>90</folio>
+              <folio>91</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b29741" alias="l1d17q3">
@@ -504,7 +690,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum charitas detur secundum capacitatem naturalium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>91</folio>
+              <folio>92</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b30271" alias="l1d17q4">
@@ -512,7 +701,13 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum charitas augeatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+              <folio>96</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b31539" alias="l1d17q5">
@@ -520,7 +715,11 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum charitas augeatur per additionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>96</folio>
+              <folio>97</folio>
+              <folio>98</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b32309" alias="l1d17q6">
@@ -528,7 +727,11 @@
           <title>Quaestio 6</title>
           <questionTitle>Utrum charitas augeatur in infinitum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>98</folio>
+              <folio>99</folio>
+              <folio>100</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b32873" alias="l1d17q7">
@@ -536,7 +739,9 @@
           <title>Quaestio 7</title>
           <questionTitle>Utrum charitas possit diminui</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>100</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -547,7 +752,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum donum conveniat soli spiritui sancto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>100</folio>
+              <folio>101</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -558,7 +766,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum in divinis sit aequalitas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>101</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b33375" alias="l1d19q2">
@@ -566,7 +776,13 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum nunc aeternitatis sit idem quod aeternitas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>101</folio>
+              <folio>102</folio>
+              <folio>103</folio>
+              <folio>104</folio>
+              <folio>105</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b34395" alias="l1d19q3">
@@ -574,7 +790,11 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum veritas sit in rebus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -585,7 +805,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum filius dei sit omnipotens</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>107</folio>
+              <folio>108</folio>
+              <folio>109</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -596,7 +820,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum dictio exclusiva addita patri excludat filium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>109</folio>
+              <folio>110</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -607,7 +834,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum aliquid proprie dicatur de deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>110</folio>
+              <folio>111</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -619,7 +849,12 @@
           <questionTitle>Utrum persona in divinis significet essentiam vel
             relationem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>111</folio>
+              <folio>112</folio>
+              <folio>113</folio>
+              <folio>114</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -630,7 +865,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum termini numerales aliquod ponant in divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>114</folio>
+              <folio>115</folio>
+              <folio>116</folio>
+              <folio>117</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -641,7 +881,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum relationes distinguant hypostases sive personas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>117</folio>
+              <folio>118</folio>
+              <folio>119</folio>
+              <folio>120</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -652,7 +897,11 @@
           <title>Quaestio 27</title>
           <questionTitle>Utrum paternitas et spiratio activa sint duae res</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -663,7 +912,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum ingenitum sit notio patris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>122</folio>
+              <folio>123</folio>
+              <folio>124</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -675,7 +928,12 @@
           <questionTitle>Utrum omnes relationes quibus deus refertur ad creaturam ex tempore sint
             reales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>124</folio>
+              <folio>125</folio>
+              <folio>126</folio>
+              <folio>127</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -686,7 +944,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum pater et filius diligant se spiritu sancto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>127</folio>
+              <folio>128</folio>
+              <folio>129</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -697,7 +959,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum proprietas relativa sit realiter divina essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+              <folio>133</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -708,7 +975,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum persona sit essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>134</folio>
+              <folio>135</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b44925" alias="l1d34q2">
@@ -716,7 +986,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum bene dicatur tres personae esse unius essentiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>135</folio>
+              <folio>136</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b45222" alias="l1d34q3">
@@ -724,7 +997,9 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum dicatur aliquid metaphorice de Deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>136</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -736,7 +1011,12 @@
           <questionTitle>Utrum Deus habeat scientiam certam et distinctam de eis quae sunt extra
             se</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>136</folio>
+              <folio>137</folio>
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -747,7 +1027,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum plures ideae sint in deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+              <folio>143</folio>
+              <folio>144</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -758,7 +1044,15 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum angelus moveatur localiter</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>144</folio>
+              <folio>145</folio>
+              <folio>146</folio>
+              <folio>147</folio>
+              <folio>148</folio>
+              <folio>149</folio>
+              <folio>150</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -770,7 +1064,13 @@
           <questionTitle>Utrum deus habeat certam scientiam de futuris
             contingentibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>150</folio>
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -781,7 +1081,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum deus habeat scientiam practicam de rebus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>154</folio>
+              <folio>155</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b51901" alias="l1d39q2">
@@ -789,7 +1092,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum omnia subsint providentiae dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>156</folio>
+              <folio>157</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -800,7 +1106,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum praescientia meritorum sit causa praedestinationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>157</folio>
+              <folio>158</folio>
+              <folio>159</folio>
+              <folio>160</folio>
+              <folio>161</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -811,7 +1123,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum soli deo conveniat omnipotentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>161</folio>
+              <folio>162</folio>
+              <folio>163</folio>
+              <folio>164</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -822,7 +1139,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum potentia dei sit infinita</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>164</folio>
+              <folio>165</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b55320" alias="l1d43q2">
@@ -831,7 +1151,12 @@
           <questionTitle>Utrum ea quae deo facit faciat de necessitate naturae vel
             iustitiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -842,7 +1167,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum deus possit facere universum melius</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>169</folio>
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b57967" alias="l1d44q2">
@@ -850,7 +1181,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum impossibilia creaturae sint deo possibilia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>173</folio>
+              <folio>174</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -861,7 +1195,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum deus agat res per voluntatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>174</folio>
+              <folio>175</folio>
+              <folio>176</folio>
+              <folio>177</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b59210" alias="l1d46q2">
@@ -870,7 +1209,12 @@
           <questionTitle>Utrum voluntas dei infallibiliter et de necessitate semper
             impleatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>177</folio>
+              <folio>178</folio>
+              <folio>179</folio>
+              <folio>180</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -882,7 +1226,9 @@
           <questionTitle>Utrum id quod est contra voluntatem antecedentem Dei obsequatur voluntati
             consequenti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>180</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b60463" alias="l1d47q2">
@@ -890,7 +1236,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum deus possit praecipere quod non vult</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>180</folio>
+              <folio>181</folio>
+              <folio>182</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b61067" alias="l1d47q3">
@@ -898,7 +1248,13 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum Deus possit dispensare in praeceptis decalogi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>182</folio>
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+              <folio>186</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -910,7 +1266,12 @@
           <questionTitle>Utrum teneamur ad formandum nostram voluntatem divinae
             voluntati</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>186</folio>
+              <folio>187</folio>
+              <folio>188</folio>
+              <folio>189</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -924,7 +1285,14 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum mundus potuerit esset ab aeterno</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>191</folio>
+              <folio>192</folio>
+              <folio>193</folio>
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b65466" alias="l2d1q2">
@@ -932,7 +1300,14 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum soli deo conveniat creare posse</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>196</folio>
+              <folio>197</folio>
+              <folio>198</folio>
+              <folio>199</folio>
+              <folio>200</folio>
+              <folio>201</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -943,7 +1318,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sit unum tempus omnium temporalium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>201</folio>
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b68319" alias="l2d2q2">
@@ -951,7 +1331,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum sit unum aevum omnium aeviternorum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>204</folio>
+              <folio>205</folio>
+              <folio>206</folio>
+              <folio>207</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b69119" alias="l2d2q3">
@@ -959,7 +1344,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum in aevo sit successio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>207</folio>
+              <folio>208</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -970,7 +1358,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum angelus sit compositus ex materia et forma</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>208</folio>
+              <folio>209</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b69871" alias="l2d3q2">
@@ -979,7 +1370,11 @@
           <questionTitle>Utrum possint esse plures angeli differentes in eadem
             specie</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>209</folio>
+              <folio>210</folio>
+              <folio>211</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b70488" alias="l2d3q3">
@@ -987,7 +1382,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum angeli sint in generatione</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>211</folio>
+              <folio>212</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b70907" alias="l2d3q4">
@@ -996,7 +1394,13 @@
           <questionTitle>Utrum angeli superiores cognoscant per species magis
             universales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>212</folio>
+              <folio>213</folio>
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1007,7 +1411,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum angelus peccavit appetendo aequalitatem Dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>216</folio>
+              <folio>217</folio>
+              <folio>218</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b73004" alias="l2d5q2">
@@ -1015,7 +1423,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum angelus bonus beatitudinem suam meruerit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>218</folio>
+              <folio>219</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1027,7 +1438,10 @@
           <questionTitle>Utrum supremus inter omnes angelos fuerit ille qui fuit primus inter
             peccatores</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>219</folio>
+              <folio>220</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1038,7 +1452,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum angeli vel etiam quicumque beati possint peccare</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>220</folio>
+              <folio>221</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b74008" alias="l2d7q2">
@@ -1046,7 +1463,11 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum divinationes possint fieri per daemones</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>221</folio>
+              <folio>222</folio>
+              <folio>223</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1057,7 +1478,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum angeli assumant corpora</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>224</folio>
+              <folio>225</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b75535" alias="l2d8q2">
@@ -1065,7 +1489,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum in illis corporibus exerceant opera vitae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>225</folio>
+              <folio>226</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b75779" alias="l2d8q3">
@@ -1073,7 +1500,11 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum angelus naturaliter possit videre cogitationes</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1084,7 +1515,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum unus angelus possit illuminare alium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>228</folio>
+              <folio>229</folio>
+              <folio>230</folio>
+              <folio>231</folio>
+              <folio>232</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1095,7 +1532,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum unus angelus loquatur alii</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>232</folio>
+              <folio>233</folio>
+              <folio>234</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b78879" alias="l2d11q2">
@@ -1103,7 +1544,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum angeli simul videant verbum et res in proprio genere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>234</folio>
+              <folio>235</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1114,7 +1558,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum corpora superiora et inferiora communicent in materia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>235</folio>
+              <folio>236</folio>
+              <folio>237</folio>
+              <folio>238</folio>
+              <folio>239</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1125,7 +1575,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum informitas materiae praecesserit eius formationem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b81243" alias="l2d13q2">
@@ -1133,7 +1587,11 @@
           <title>Quaesito 2</title>
           <questionTitle>Utrum lumen habeat esse reale in aere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>241</folio>
+              <folio>242</folio>
+              <folio>243</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1145,7 +1603,12 @@
           <questionTitle>Utrum caelum moveatur ab anima quae sit ei coniuncta ut
             forma</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>243</folio>
+              <folio>244</folio>
+              <folio>245</folio>
+              <folio>246</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1156,7 +1619,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum caelum agat in omnia ista inferiora et conservet ea</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>248</folio>
+              <folio>249</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1167,7 +1635,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum anima intellectiva sit forma hominis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>249</folio>
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b85147" alias="l2d17q2">
@@ -1175,7 +1648,12 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum anima nostra intelligat abstrahendo a phantasmatibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+              <folio>255</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1187,7 +1665,14 @@
           <questionTitle>Utrum sint aliquae inchoationes formarum in materia quae sint rationes
             seminales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1198,7 +1683,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum conscientia pertineat ad intellectum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>260</folio>
+              <folio>261</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1209,7 +1697,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum voluntas moveatur ab obiecto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>261</folio>
+              <folio>262</folio>
+              <folio>263</folio>
+              <folio>264</folio>
+              <folio>265</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b89594" alias="l2d25q2">
@@ -1218,7 +1712,13 @@
           <questionTitle>Utrum homo sit dominus suorum actuum secundum voluntatem et hoc est
             quaerere utrum sit liber arbitrium secundum voluntatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+              <folio>269</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1229,7 +1729,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum charitas et gratia sint idem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>269</folio>
+              <folio>270</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1240,7 +1743,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum homo possit vitare peccatum mortale sine gratia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>270</folio>
+              <folio>271</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1252,7 +1758,13 @@
           <questionTitle>Utrum aliquod peccatum traducatur per originem a parente in
             prolem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>271</folio>
+              <folio>272</folio>
+              <folio>273</folio>
+              <folio>274</folio>
+              <folio>275</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b93201" alias="l2d30q2">
@@ -1261,7 +1773,12 @@
           <questionTitle>Utrum aliquod de alimento transeat in virtutem naturae
             humanae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>275</folio>
+              <folio>276</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b94168" alias="l2d30q3">
@@ -1269,7 +1786,11 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum semen sit de superfluo alimenti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>278</folio>
+              <folio>279</folio>
+              <folio>280</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1284,7 +1805,15 @@
           <questionTitle>Utrum persona divina possit assumere indifferenter quamcumque naturam
             creatam in unitate suppositi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>281</folio>
+              <folio>282</folio>
+              <folio>283</folio>
+              <folio>284</folio>
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-b96750" alias="l3d1q2">
@@ -1292,7 +1821,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum tres personae possint assumere unam naturam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>287</folio>
+              <folio>288</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1304,7 +1836,13 @@
           <questionTitle>Utrum beata virgo fuerit sanctificata in instanti creationis
             animae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>288</folio>
+              <folio>289</folio>
+              <folio>290</folio>
+              <folio>291</folio>
+              <folio>292</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1315,7 +1853,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum natura assumpserit naturam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>292</folio>
+              <folio>293</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1326,7 +1867,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Christo sit tantum unum esse</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>293</folio>
+              <folio>294</folio>
+              <folio>295</folio>
+              <folio>296</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1337,7 +1883,12 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum haec sit vera Deus factus est homo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>296</folio>
+              <folio>297</folio>
+              <folio>298</folio>
+              <folio>299</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1348,7 +1899,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum in Christo sint duae filiationes reales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>299</folio>
+              <folio>300</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1359,7 +1913,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum Christus secundum homo sit persona</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>300</folio>
+              <folio>301</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1370,7 +1927,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum christus secundum quod homo sit creatura</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>301</folio>
+              <folio>302</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1384,7 +1944,15 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum sacramenta sint causa gratiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c04228" alias="l4d1q2">
@@ -1392,7 +1960,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum virtus sacramentorum sit a passione christi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>309</folio>
+              <folio>310</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c04541" alias="l4d1q3">
@@ -1402,7 +1973,11 @@
             sacramentum est invisibilis gratiae visibilis forma ita ut imaginem eius gerat et causa
             existat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>310</folio>
+              <folio>311</folio>
+              <folio>312</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c05162" alias="l4d1q4">
@@ -1410,7 +1985,10 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum instituere sacramenta fuerit necessarium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>312</folio>
+              <folio>313</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c05573" alias="l4d1q5">
@@ -1419,7 +1997,11 @@
           <questionTitle>De institutione circumcisionis, utrum fuerit convenienter
             instituta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>313</folio>
+              <folio>314</folio>
+              <folio>315</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c06134" alias="l4d1q6">
@@ -1427,7 +2009,10 @@
           <title>Quaestio 6</title>
           <questionTitle>De ritu circumcisionis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>315</folio>
+              <folio>316</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c06572" alias="l4d1q7">
@@ -1435,7 +2020,10 @@
           <title>Quaestio 7</title>
           <questionTitle>De effectu et cessatione circumcisionis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>316</folio>
+              <folio>317</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1447,7 +2035,11 @@
           <questionTitle>Utrum omnia sacramenta novae legis sint instituta in
             remedium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c07529" alias="l4d2q2">
@@ -1455,7 +2047,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum sint septem sacramenta novae legis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>319</folio>
+              <folio>320</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1467,7 +2062,10 @@
           <questionTitle>trum diffinitio baptismi sit bona, scilicet quod baptismus est ablutio
             exterior corporis facta sub forma praescripta verborum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>320</folio>
+              <folio>321</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c08339" alias="l4d3q2">
@@ -1476,7 +2074,11 @@
           <questionTitle>Utrum forma baptismi, scilicet Ego te baptizo in nomine patris et filii et
             spiritus sancti, sit conveniens</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>321</folio>
+              <folio>322</folio>
+              <folio>323</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c08903" alias="l4d3q3">
@@ -1484,7 +2086,9 @@
           <title>Quaestio 3</title>
           <questionTitle>De materia, utrum sit aqua simplex</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>323</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c09057" alias="l4d3q4">
@@ -1492,7 +2096,10 @@
           <title>Quaestio 4</title>
           <questionTitle>De immersione, utrum debeat esse trina</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>323</folio>
+              <folio>324</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1503,7 +2110,13 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum caracter dicat aliquod absolutum existens in anima</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c10476" alias="l4d4q2">
@@ -1511,7 +2124,10 @@
           <title>Quaestio 2</title>
           <questionTitle>De effectu baptismi, utrum tollat omnem poenam et culpam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>328</folio>
+              <folio>329</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1523,7 +2139,10 @@
           <questionTitle>De ministris utrum quilibet possit dispensare sacramentum
             baptismi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>330</folio>
+              <folio>331</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c11700" alias="l4d5q2">
@@ -1532,7 +2151,11 @@
           <questionTitle>De potestate excellentiae christi in sacramento, utrum potuerit conferri
             aliis a christo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>331</folio>
+              <folio>332</folio>
+              <folio>333</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1543,7 +2166,9 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum ad baptismum requiratur nativitas ex utero</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>333</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c12463" alias="l4d6q2">
@@ -1551,7 +2176,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum in baptizato requiratur intentio et fides baptismi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>333</folio>
+              <folio>334</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c12597" alias="l4d6q3">
@@ -1559,7 +2187,10 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum requiritur intentio baptizantis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>334</folio>
+              <folio>335</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c12910" alias="l4d6q4">
@@ -1567,7 +2198,9 @@
           <title>Quaestio 4</title>
           <questionTitle>Utrum baptismus possit reiterari</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>335</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c13022" alias="l4d6q5">
@@ -1575,7 +2208,10 @@
           <title>Quaestio 5</title>
           <questionTitle>De catechismo qui est instructio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>335</folio>
+              <folio>336</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1586,7 +2222,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum confirmatio sit sacramentum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c13943" alias="l4d7q2">
@@ -1595,7 +2235,10 @@
           <questionTitle>Utrum confirmatio faciat in anima alium caracterem distinctum a caractere
             baptismi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>338</folio>
+              <folio>339</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1607,7 +2250,12 @@
           <questionTitle>Utrum haec sit forma huius sacramenti hoc est corpus meum, quia li enim non
             est de necessitate huius sacramenti, sed de institutione ecclesiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c15469" alias="l4d8q2">
@@ -1615,7 +2263,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Circa formam sanguinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>342</folio>
+              <folio>343</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c15728" alias="l4d8q3">
@@ -1623,7 +2274,9 @@
           <title>Quaestio 3</title>
           <questionTitle>Utrum formae sacramentorum se expectent</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>343</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c15840" alias="l4d8q4">
@@ -1632,7 +2285,9 @@
           <questionTitle>Utrum illa verba faciant aliquid effective ad hoc quod corpus christi sit
             ibi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>343</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c15968" alias="l4d8q5">
@@ -1640,7 +2295,10 @@
           <title>Quaestio 5</title>
           <questionTitle>Utrum istud sacramentum debeat sumi tantum a ieiunis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>343</folio>
+              <folio>344</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1652,7 +2310,11 @@
           <questionTitle>Utrum corpus christi debuerit nobis dari per modum
             manducationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>344</folio>
+              <folio>345</folio>
+              <folio>346</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1663,7 +2325,14 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum corpus christi sit realiter in sacramento altaris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>346</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c18413" alias="l4d10q2">
@@ -1672,7 +2341,9 @@
           <questionTitle>An angelus naturaliter possit videre corpus christi in sacramento
             altaris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>351</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1684,7 +2355,11 @@
           <questionTitle>Utrum conversio substantiae panis in corpus christi sit
             possibilis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>351</folio>
+              <folio>352</folio>
+              <folio>353</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c19150" alias="l4d11q2">
@@ -1693,7 +2368,10 @@
           <questionTitle>Utrum conveniens materia huius sacramenti sit panis et
             vinum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>353</folio>
+              <folio>354</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1704,7 +2382,11 @@
           <title>Quaestio 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>354</folio>
+              <folio>355</folio>
+              <folio>356</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1715,7 +2397,10 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum minister huius sacramenti sit omnis sacerdos solum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>357</folio>
+              <folio>358</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c20778" alias="l4d13q2">
@@ -1723,7 +2408,10 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum haeresis sit perversitas in fide</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>358</folio>
+              <folio>359</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1734,7 +2422,11 @@
           <title>Quaestio 1</title>
           <questionTitle>Utrum poenitentia sit sacramentum novae legis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>359</folio>
+              <folio>360</folio>
+              <folio>361</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="hx2hx3-c21850" alias="l4d14q2">
@@ -1742,7 +2434,9 @@
           <title>Quaestio 2</title>
           <questionTitle>Utrum poenitentia habeat durare usque in finem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-hvna87"/>
+            <witness ref="#cod-hvna87">
+              <folio>361</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
