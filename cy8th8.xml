@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Bartolome de las Casas</authorName>
     <commentaryName>De thesauris</commentaryName>
@@ -36,7 +37,6 @@
         <title>English Translation (Born Digital)</title>
         <initial>en</initial>
       </witness>
-      
     </hasWitnesses>
   </header>
   <div id="body">
@@ -54,13 +54,14 @@
         <witness ref="#cod-sstt88">
           <folio>96r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e71" alias="dt-s1">
       <fileName filestem="cy8th8-d1e71"/>
       <title>Sectio 1</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>1r</folio>
           <folio>1v</folio>
           <folio>2r</folio>
@@ -91,7 +92,7 @@
       <fileName filestem="cy8th8-d1e84"/>
       <title>Sectio 2</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>3r</folio>
           <folio>3v</folio>
           <folio>4r</folio>
@@ -192,7 +193,7 @@
       <fileName filestem="cy8th8-d1e124"/>
       <title>Sectio 5</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>13r</folio>
           <folio>13v</folio>
           <folio>14r</folio>
@@ -213,8 +214,9 @@
       <fileName filestem="cy8th8-d1e137"/>
       <title>Sectio 6</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>15r</folio><!-- line 1-->
+        <witness ref="#cod-hgy7ss">
+          <folio>15r</folio>
+          <!-- line 1-->
           <folio>15v</folio>
           <folio>16r</folio>
           <folio>16v</folio>
@@ -243,7 +245,7 @@
       <fileName filestem="cy8th8-d1e150"/>
       <title>Sectio 7</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>18v</folio>
           <folio>19r</folio>
           <folio>19v</folio>
@@ -264,13 +266,14 @@
           <folio>30v</folio>
           <folio>31r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e163" alias="dt-s8">
       <fileName filestem="cy8th8-d1e163"/>
       <title>Sectio 8</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>21v</folio>
           <folio>22r</folio>
           <folio>22v</folio>
@@ -285,13 +288,14 @@
           <folio>33r</folio>
           <folio>33v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e176" alias="dt-s9">
       <fileName filestem="cy8th8-d1e176"/>
       <title>Sectio 9</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>23v</folio>
           <folio>24r</folio>
           <folio>24v</folio>
@@ -310,13 +314,14 @@
           <folio>37r</folio>
           <folio>37v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e190" alias="dt-s10">
       <fileName filestem="cy8th8-d1e190"/>
       <title>Sectio 10</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>26r</folio>
           <folio>26v</folio>
           <folio>27r</folio>
@@ -340,14 +345,16 @@
           <folio>42v</folio>
           <folio>43r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e203" alias="dt-s11">
       <fileName filestem="cy8th8-d1e203"/>
       <title>Sectio 11</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>30r</folio><!-- 1st line -->
+        <witness ref="#cod-hgy7ss">
+          <folio>30r</folio>
+          <!-- 1st line -->
           <folio>30v</folio>
           <folio>31r</folio>
           <folio>31v</folio>
@@ -363,14 +370,16 @@
           <folio>46r</folio>
           <folio>46v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e216" alias="dt-s12">
       <fileName filestem="cy8th8-d1e216"/>
       <title>Sectio 12</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>32v</folio><!-- 1st line -->
+        <witness ref="#cod-hgy7ss">
+          <folio>32v</folio>
+          <!-- 1st line -->
           <folio>33r</folio>
           <folio>33v</folio>
           <folio>34r</folio>
@@ -391,13 +400,14 @@
           <folio>51r</folio>
           <folio>51v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e229" alias="dt-s13">
       <fileName filestem="cy8th8-d1e229"/>
       <title>Sectio 13</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>35v</folio>
           <folio>36r</folio>
           <folio>36v</folio>
@@ -422,13 +432,14 @@
           <folio>56v</folio>
           <folio>57r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e242" alias="dt-s14">
       <fileName filestem="cy8th8-d1e242"/>
       <title>Sectio 14</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>39v</folio>
           <folio>40r</folio>
           <folio>40v</folio>
@@ -445,14 +456,16 @@
           <folio>60r</folio>
           <folio>60v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e255" alias="dt-s15">
       <fileName filestem="cy8th8-d1e255"/>
       <title>Sectio 15</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>42r</folio><!-- 1st line -->
+        <witness ref="#cod-hgy7ss">
+          <folio>42r</folio>
+          <!-- 1st line -->
           <folio>42v</folio>
           <folio>43r</folio>
           <folio>43v</folio>
@@ -468,13 +481,14 @@
           <folio>63v</folio>
           <folio>64r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e269" alias="dt-s16">
       <fileName filestem="cy8th8-d1e269"/>
       <title>Sectio 16</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>44r</folio>
           <folio>44v</folio>
           <folio>45r</folio>
@@ -490,13 +504,14 @@
           <folio>66v</folio>
           <folio>67r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e282" alias="dt-s17">
       <fileName filestem="cy8th8-d1e282"/>
       <title>Sectio 17</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>46r</folio>
           <folio>46v</folio>
           <folio>47r</folio>
@@ -517,6 +532,7 @@
           <folio>71r</folio>
           <folio>71v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e295" alias="dt-s18">
@@ -538,13 +554,14 @@
           <folio>74r</folio>
           <folio>74v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e308" alias="dt-s19">
       <fileName filestem="cy8th8-d1e308"/>
       <title>Sectio 19</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>50v</folio>
           <folio>51r</folio>
           <folio>51v</folio>
@@ -563,13 +580,14 @@
           <folio>78r</folio>
           <folio>78v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e321" alias="dt-s20">
       <fileName filestem="cy8th8-d1e321"/>
       <title>Sectio 20</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>53r</folio>
           <folio>53v</folio>
           <folio>54r</folio>
@@ -586,13 +604,14 @@
           <folio>78r</folio>
           <folio>78v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e334" alias="dt-s21">
       <fileName filestem="cy8th8-d1e334"/>
       <title>Sectio 21</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>54v</folio>
           <folio>55r</folio>
           <folio>55v</folio>
@@ -610,13 +629,14 @@
           <folio>82v</folio>
           <folio>83r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e348" alias="dt-s22">
       <fileName filestem="cy8th8-d1e348"/>
       <title>Sectio 22</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>56r</folio>
           <folio>56v</folio>
           <folio>57r</folio>
@@ -637,14 +657,16 @@
           <folio>86v</folio>
           <folio>87r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e361" alias="dt-s23">
       <fileName filestem="cy8th8-d1e361"/>
       <title>Sectio 23</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>60r</folio><!-- first line -->
+        <witness ref="#cod-hgy7ss">
+          <folio>60r</folio>
+          <!-- first line -->
           <folio>60v</folio>
           <folio>61r</folio>
           <folio>61v</folio>
@@ -658,13 +680,14 @@
           <folio>89r</folio>
           <folio>89v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e374" alias="dt-s24">
       <fileName filestem="cy8th8-d1e374"/>
       <title>Sectio 24</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>62r</folio>
           <folio>62v</folio>
           <folio>63r</folio>
@@ -678,13 +701,14 @@
           <folio>91r</folio>
           <folio>91v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e387" alias="dt-s25">
       <fileName filestem="cy8th8-d1e387"/>
       <title>Sectio 25</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>64r</folio>
           <folio>64v</folio>
           <folio>65r</folio>
@@ -705,13 +729,14 @@
           <folio>95r</folio>
           <folio>95v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e400" alias="dt-s26">
       <fileName filestem="cy8th8-d1e400"/>
       <title>Sectio 26</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>67v</folio>
           <folio>68r</folio>
           <folio>68v</folio>
@@ -727,13 +752,14 @@
           <folio>98r</folio>
           <folio>98v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e413" alias="dt-s27">
       <fileName filestem="cy8th8-d1e413"/>
       <title>Sectio 27</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>69v</folio>
           <folio>70r</folio>
           <folio>70v</folio>
@@ -750,14 +776,16 @@
           <folio>101r</folio>
           <folio>101v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e427" alias="dt-s28">
       <fileName filestem="cy8th8-d1e427"/>
       <title>Sectio 28</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
-          <folio>72v</folio><!-- 1st line -->
+        <witness ref="#cod-hgy7ss">
+          <folio>72v</folio>
+          <!-- 1st line -->
           <folio>73r</folio>
           <folio>73v</folio>
           <folio>74r</folio>
@@ -777,13 +805,14 @@
           <folio>105r</folio>
           <folio>105v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e440" alias="dt-s29">
       <fileName filestem="cy8th8-d1e440"/>
       <title>Sectio 29</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>76r</folio>
           <folio>76v</folio>
           <folio>77r</folio>
@@ -803,13 +832,14 @@
           <folio>109v</folio>
           <folio>110r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e453" alias="dt-s30">
       <fileName filestem="cy8th8-d1e453"/>
       <title>Sectio 30</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>78v</folio>
           <folio>79r</folio>
           <folio>79v</folio>
@@ -822,13 +852,14 @@
           <folio>111v</folio>
           <folio>112r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e466" alias="dt-s31">
       <fileName filestem="cy8th8-d1e466"/>
       <title>Sectio 31</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>80v</folio>
           <folio>81r</folio>
           <folio>81v</folio>
@@ -849,13 +880,14 @@
           <folio>116r</folio>
           <folio>116v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e479" alias="dt-s32">
       <fileName filestem="cy8th8-d1e479"/>
       <title>Sectio 32</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>83v</folio>
           <folio>84r</folio>
           <folio>84v</folio>
@@ -879,13 +911,14 @@
           <folio>121r</folio>
           <folio>121v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e492" alias="dt-s33">
       <fileName filestem="cy8th8-d1e492"/>
       <title>Sectio 33</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>87v</folio>
           <folio>88r</folio>
           <folio>88v</folio>
@@ -912,13 +945,14 @@
           <folio>127r</folio>
           <folio>127v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e506" alias="dt-s34">
       <fileName filestem="cy8th8-d1e506"/>
       <title>Sectio 34</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>92r</folio>
           <folio>92v</folio>
           <folio>93r</folio>
@@ -937,13 +971,14 @@
           <folio>130v</folio>
           <folio>131r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e519" alias="dt-s35">
       <fileName filestem="cy8th8-d1e519"/>
       <title>Sectio 35</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>95r</folio>
           <folio>95v</folio>
           <folio>96r</folio>
@@ -962,13 +997,14 @@
           <folio>134r</folio>
           <folio>134v</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e532" alias="dt-s36">
       <fileName filestem="cy8th8-d1e532"/>
       <title>Sectio 36</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>98r</folio>
           <folio>98v</folio>
           <folio>99r</folio>
@@ -989,13 +1025,14 @@
           <folio>138v</folio>
           <folio>139r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e545" alias="dt-s37">
       <fileName filestem="cy8th8-d1e545"/>
       <title>Sectio 37</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>101r</folio>
           <folio>101v</folio>
           <folio>102r</folio>
@@ -1011,9 +1048,9 @@
           <folio>141v</folio>
           <folio>142r</folio>
           <folio>142v</folio>
-          
-          
-          
+
+
+
         </witness>
       </hasWitnesses>
     </item>
@@ -1048,6 +1085,7 @@
           <folio>147v</folio>
           <folio>148r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e571" alias="dt-s39">
@@ -1076,6 +1114,7 @@
           <folio>151v</folio>
           <folio>152r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e585" alias="dt-s40">
@@ -1110,13 +1149,14 @@
           <folio>157v</folio>
           <folio>158r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e598" alias="dt-s41">
       <fileName filestem="cy8th8-d1e598"/>
       <title>Sectio 41</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <!-- 41 but labelled 40 in ms -->
           <folio>116r</folio>
           <folio>116v</folio>
@@ -1139,6 +1179,7 @@
           <folio>162v</folio>
           <folio>163r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e611" alias="dt-s42">
@@ -1147,7 +1188,8 @@
       <hasWitnesses>
         <witness ref="#cod-hgy7ss">
           <!-- 42 but labelled 41 in ms -->
-          <folio>119v</folio><!-- 1st line -->
+          <folio>119v</folio>
+          <!-- 1st line -->
           <folio>120r</folio>
           <folio>120v</folio>
           <folio>121r</folio>
@@ -1169,13 +1211,14 @@
           <folio>167v</folio>
           <folio>168r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e624" alias="dt-s43">
       <fileName filestem="cy8th8-d1e624"/>
       <title>Sectio 43</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <!-- 43 but labelled 42 in ms -->
           <folio>123r</folio>
           <folio>123v</folio>
@@ -1200,13 +1243,14 @@
           <folio>172v</folio>
           <folio>173r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e637" alias="dt-s44">
       <fileName filestem="cy8th8-d1e637"/>
       <title>Sectio 44</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <!-- 44 but labelled 43 in ms -->
           <folio>127r</folio>
           <folio>127v</folio>
@@ -1219,7 +1263,8 @@
           <folio>131r</folio>
         </witness>
         <witness ref="#cod-sspp33">
-          <folio>173v</folio><!-- line 1 -->
+          <folio>173v</folio>
+          <!-- line 1 -->
           <folio>174r</folio>
           <folio>174v</folio>
           <folio>175r</folio>
@@ -1232,13 +1277,14 @@
           <folio>178v</folio>
           <folio>179r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
     <item id="cy8th8-d1e672" alias="dt-s45">
       <fileName filestem="cy8th8-d1e672"/>
       <title>Sectio 45</title>
       <hasWitnesses>
-        <witness ref="#cod-hgy7ss"> 
+        <witness ref="#cod-hgy7ss">
           <folio>131r</folio>
           <folio>131r</folio>
           <folio>131v</folio>
@@ -1258,6 +1304,7 @@
           <folio>182v</folio>
           <folio>183r</folio>
         </witness>
+        <witness ref="#en"/>
       </hasWitnesses>
     </item>
   </div>
