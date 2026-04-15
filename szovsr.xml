@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
     <authorName>Francisco Suarez</authorName>
@@ -3312,7 +3313,10 @@
         <title>Praeambulum</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv14"/>
+          <witness ref="#cod-sqqv14">
+            <folio>1</folio>
+            <folio>2</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szovsr-kz0583">
@@ -3322,7 +3326,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>4</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00036" alias="t4l1c1">
@@ -3330,7 +3336,12 @@
           <title>Caput 1</title>
           <questionTitle>Quid nomine orationis intelligendum sit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>4</folio>
+              <folio>5</folio>
+              <folio>6</folio>
+              <folio>7</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00117" alias="t4l1c2">
@@ -3339,7 +3350,11 @@
           <questionTitle>Utrum omnis oratio bona sit, vel in bonam et malam sit
             distinguenda?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>7</folio>
+              <folio>8</folio>
+              <folio>9</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00156" alias="t4l1c3">
@@ -3347,7 +3362,12 @@
           <title>Caput 3</title>
           <questionTitle>Utrum oratio sit actus intellectus vel voluntatis?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00249" alias="t4l1c4">
@@ -3356,7 +3376,12 @@
           <questionTitle>Possitne homo in hac vita mente petere sine conceptibus vocum, et
             quomodo?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>12</folio>
+              <folio>13</folio>
+              <folio>14</folio>
+              <folio>15</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00310" alias="t4l1c5">
@@ -3364,7 +3389,12 @@
           <title>Caput 5</title>
           <questionTitle>Nonnullis difficultatibus occurritur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>15</folio>
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00393" alias="t4l1c6">
@@ -3372,7 +3402,13 @@
           <title>Caput 6</title>
           <questionTitle>Sitne conveniens et per se honesta oratio ad deum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+              <folio>21</folio>
+              <folio>22</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00507" alias="t4l1c7">
@@ -3381,7 +3417,14 @@
           <questionTitle>An oratio sit proprius et elicitus actus virtutis
             religionis?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>22</folio>
+              <folio>23</folio>
+              <folio>24</folio>
+              <folio>25</folio>
+              <folio>26</folio>
+              <folio>27</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00617" alias="t4l1c8">
@@ -3390,7 +3433,13 @@
           <questionTitle>Utrum oratio sit actus supernaturalis, pertinensque ad virtutem per se
             infusam?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+              <folio>30</folio>
+              <folio>31</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00717" alias="t4l1c9">
@@ -3398,7 +3447,13 @@
           <title>Caput 9</title>
           <questionTitle>Quomodo solus deus a nobis orandus sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>31</folio>
+              <folio>32</folio>
+              <folio>33</folio>
+              <folio>34</folio>
+              <folio>35</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m00832" alias="t4l1c10">
@@ -3406,7 +3461,19 @@
           <title>Caput 10</title>
           <questionTitle>Quomodo rationales creaturae possint a nobis orari?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>35</folio>
+              <folio>36</folio>
+              <folio>37</folio>
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+              <folio>42</folio>
+              <folio>43</folio>
+              <folio>44</folio>
+              <folio>45</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01075" alias="t4l1c11">
@@ -3414,7 +3481,15 @@
           <title>Caput 11</title>
           <questionTitle>Utrum omnes spiritus beati et justi orare possint?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+              <folio>48</folio>
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01225" alias="t4l1c12">
@@ -3422,7 +3497,11 @@
           <title>Caput 12</title>
           <questionTitle>Utrum viatoribus omnibus conveniat orare?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>51</folio>
+              <folio>52</folio>
+              <folio>53</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01293" alias="t4l1c13">
@@ -3430,7 +3509,11 @@
           <title>Caput 13</title>
           <questionTitle>An sit orandum pro aliquo in particulari</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>53</folio>
+              <folio>54</folio>
+              <folio>55</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01341" alias="t4l1c14">
@@ -3438,7 +3521,11 @@
           <title>Caput 14</title>
           <questionTitle>An orandum sit pro defunctis, seu extra viam existentibus ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>55</folio>
+              <folio>56</folio>
+              <folio>57</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01384" alias="t4l1c15">
@@ -3446,7 +3533,13 @@
           <title>Caput 15</title>
           <questionTitle>An pro omnibus hominibus viatoribus orandum sit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>57</folio>
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+              <folio>61</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01494" alias="t4l1c16">
@@ -3454,7 +3547,11 @@
           <title>Caput 16</title>
           <questionTitle>De oratione pro inimicis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01538" alias="t4l1c17">
@@ -3462,7 +3559,14 @@
           <title>Caput 17</title>
           <questionTitle>An liceat bona temporalia orando a deo petere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>63</folio>
+              <folio>64</folio>
+              <folio>65</folio>
+              <folio>66</folio>
+              <folio>67</folio>
+              <folio>68</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01667" alias="t4l1c18">
@@ -3471,7 +3575,13 @@
           <questionTitle>An orando pro temporalibus bonis petamus a deo aliquam gratiam, et propter
             christum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>68</folio>
+              <folio>69</folio>
+              <folio>70</folio>
+              <folio>71</folio>
+              <folio>72</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01777" alias="t4l1c19">
@@ -3479,7 +3589,12 @@
           <title>Caput 19</title>
           <questionTitle>An temporalia mala in oratione peti possint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>72</folio>
+              <folio>73</folio>
+              <folio>74</folio>
+              <folio>75</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01848" alias="t4l1c20">
@@ -3488,7 +3603,12 @@
           <questionTitle>An spiritualia bona indistincte et absolute a deo peti
             possint.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>75</folio>
+              <folio>76</folio>
+              <folio>77</folio>
+              <folio>78</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m01910" alias="t4l1c21">
@@ -3497,7 +3617,15 @@
           <questionTitle>Expediuntur nonnulla dubia circa modum absolute petendi spiritualia
             bona</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>78</folio>
+              <folio>79</folio>
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+              <folio>83</folio>
+              <folio>84</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02079" alias="t4l1c22">
@@ -3505,7 +3633,12 @@
           <title>Caput 22</title>
           <questionTitle>An oratio sit actus meritorius et satisfactorius.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>84</folio>
+              <folio>85</folio>
+              <folio>86</folio>
+              <folio>87</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02145" alias="t4l1c23">
@@ -3513,7 +3646,12 @@
           <title>Caput 23</title>
           <questionTitle>An oratio sit impetratoria, et quid valeat impetrare ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>87</folio>
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02231" alias="t4l1c24">
@@ -3521,7 +3659,14 @@
           <title>Caput 24</title>
           <questionTitle>Utrum oratio ad impetrandum debeat ex fide procedere?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>90</folio>
+              <folio>91</folio>
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02343" alias="t4l1c25">
@@ -3530,7 +3675,11 @@
           <questionTitle>Utrum necessaria sit charitas ad impetrandum per orationem, et consequenter
             an oratio peccatoris audiatur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>95</folio>
+              <folio>96</folio>
+              <folio>97</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02400" alias="t4l1c26">
@@ -3539,7 +3688,10 @@
           <questionTitle>Utrum perseverantia orationis sit ad impetrandum
             necessaria?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>97</folio>
+              <folio>98</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02444" alias="t4l1c27">
@@ -3548,7 +3700,11 @@
           <questionTitle>Utrum orans tantum pro se infallibiliter impetret, vel etiam pro
             aliis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>99</folio>
+              <folio>100</folio>
+              <folio>101</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02504" alias="t4l1c28">
@@ -3556,7 +3712,11 @@
           <title>Caput 28</title>
           <questionTitle>Sitne oratio ad salutem necessaria</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>101</folio>
+              <folio>102</folio>
+              <folio>103</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02565" alias="t4l1c29">
@@ -3564,7 +3724,13 @@
           <title>Caput 29</title>
           <questionTitle>Quale sit orationis praeceptum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>103</folio>
+              <folio>104</folio>
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02654" alias="t4l1c30">
@@ -3573,7 +3739,16 @@
           <questionTitle>Quomodo discerni possit tempus pro quo orationis necessitas ejusque
             obligatio urget.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>107</folio>
+              <folio>108</folio>
+              <folio>109</folio>
+              <folio>110</folio>
+              <folio>111</folio>
+              <folio>112</folio>
+              <folio>113</folio>
+              <folio>114</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -3584,7 +3759,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>116</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02857" alias="t4l2c1">
@@ -3592,7 +3769,12 @@
           <title>Caput 1</title>
           <questionTitle>De utilitate et necessitate mentalis orationis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>116</folio>
+              <folio>117</folio>
+              <folio>118</folio>
+              <folio>119</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m02942" alias="t4l2c2">
@@ -3600,7 +3782,13 @@
           <title>Caput 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>119</folio>
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+              <folio>123</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03043" alias="t4l2c3">
@@ -3609,7 +3797,13 @@
           <questionTitle>Corollaria ex superiori doctrina, quibus orationis mentalis substantia,
             partes et unitas magis explicantur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>123</folio>
+              <folio>124</folio>
+              <folio>125</folio>
+              <folio>126</folio>
+              <folio>127</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03127" alias="t4l2c4">
@@ -3618,7 +3812,12 @@
           <questionTitle>Utrum oratio mentalis cadat sub praeceptum, vel tantum sub consilium, et
             consequenter ad quos pertineat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>127</folio>
+              <folio>128</folio>
+              <folio>129</folio>
+              <folio>130</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03221" alias="t4l2c5">
@@ -3627,7 +3826,18 @@
           <questionTitle>Quomodo morales circumstantiae in usu orationis mentalis communiter
             observandae sint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+              <folio>133</folio>
+              <folio>134</folio>
+              <folio>135</folio>
+              <folio>136</folio>
+              <folio>137</folio>
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03430" alias="t4l2c6">
@@ -3635,7 +3845,15 @@
           <title>Caput 6</title>
           <questionTitle>Quid sit devotio, quidve hac voce significetur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>139</folio>
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+              <folio>143</folio>
+              <folio>144</folio>
+              <folio>145</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03588" alias="t4l2c7">
@@ -3644,7 +3862,13 @@
           <questionTitle>Sitne devotio semper actus religionis, et quo modo ad alios actus qui in
             orationem mentalem interveniunt comparetur ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>145</folio>
+              <folio>146</folio>
+              <folio>147</folio>
+              <folio>148</folio>
+              <folio>149</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03698" alias="t4l2c8">
@@ -3653,7 +3877,15 @@
           <questionTitle>Quas causas vel effectus habeat devotio, et in universum mentalis
             oratio?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>149</folio>
+              <folio>150</folio>
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+              <folio>155</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03842" alias="t4l2c9">
@@ -3662,7 +3894,14 @@
           <questionTitle>Quid contemplatio sit, et quomodo ad mentalem orationem comparetur
             ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>155</folio>
+              <folio>156</folio>
+              <folio>157</folio>
+              <folio>158</folio>
+              <folio>159</folio>
+              <folio>160</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m03973" alias="t4l2c10">
@@ -3671,7 +3910,14 @@
           <questionTitle>Qualis sit proprius actus contemplationis, quantumque in eo durari
             possit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>160</folio>
+              <folio>161</folio>
+              <folio>162</folio>
+              <folio>163</folio>
+              <folio>164</folio>
+              <folio>165</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04091" alias="t4l2c11">
@@ -3681,7 +3927,13 @@
             orationis mentalis, purgativa, illuminativa, et unitiva, sive incipientium,
             proficientium et perfectorum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>165</folio>
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04199" alias="t4l2c12">
@@ -3690,7 +3942,16 @@
           <questionTitle>Utrum contemplatio vel aliqua mentalis oratio possit interdum sine actu
             intellectus ac voluntatis inveniri.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>169</folio>
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+              <folio>174</folio>
+              <folio>175</folio>
+              <folio>176</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04371" alias="t4l2c13">
@@ -3699,7 +3960,19 @@
           <questionTitle>Utrum mentalis oratio seu contemplatio possit consistere in solo actu
             voluntatis, nullo existente actu intellectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>176</folio>
+              <folio>177</folio>
+              <folio>178</folio>
+              <folio>179</folio>
+              <folio>180</folio>
+              <folio>181</folio>
+              <folio>182</folio>
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+              <folio>186</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04641" alias="t4l2c14">
@@ -3707,7 +3980,12 @@
           <title>Caput 14</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>186</folio>
+              <folio>187</folio>
+              <folio>188</folio>
+              <folio>189</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04716" alias="t4l2c15">
@@ -3716,7 +3994,11 @@
           <questionTitle>Utrum mentis contemplatio interdum impediat vi et efficacia sua operationes
             sensuum externorum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>189</folio>
+              <folio>190</folio>
+              <folio>191</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04769" alias="t4l2c16">
@@ -3725,7 +4007,12 @@
           <questionTitle>Utrum saltem intuitiva contemplatio dei per visionem beatam mortali homini
             concessam natura sua efficiat extasim in sensibus externis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>191</folio>
+              <folio>192</folio>
+              <folio>193</folio>
+              <folio>194</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04834" alias="t4l2c17">
@@ -3734,7 +4021,12 @@
           <questionTitle>Utrum ex intellectuali contemplatione hujus vitae sequi possit extasis in
             actibus omnium sensuum, etiam internorum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+              <folio>197</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04914" alias="t4l2c18">
@@ -3743,7 +4035,11 @@
           <questionTitle>Utrum in extasi fiat abstractio ab omni motione appetitus sentientis, et
             virtutis moventis ac nutrientis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>197</folio>
+              <folio>198</folio>
+              <folio>199</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m04965" alias="t4l2c19">
@@ -3752,7 +4048,19 @@
           <questionTitle>Utrum contemplatio in raptu vel extasi, prout est in intellectu, sit
             operatio humana et meriti capax</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>199</folio>
+              <folio>200</folio>
+              <folio>201</folio>
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+              <folio>205</folio>
+              <folio>206</folio>
+              <folio>207</folio>
+              <folio>208</folio>
+              <folio>209</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05216" alias="t4l2c20">
@@ -3761,7 +4069,12 @@
           <questionTitle>An contemplatio hujus vitae quoad amorem qui in raptu vel extasi habetur,
             libera sit et meritoria</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>209</folio>
+              <folio>210</folio>
+              <folio>211</folio>
+              <folio>212</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -3772,7 +4085,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>213</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05319" alias="t4l3c1">
@@ -3780,7 +4095,12 @@
           <title>Caput 1</title>
           <questionTitle>Utrum vocalis oratio sit honestus ac religiosus actus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>213</folio>
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05398" alias="t4l3c2">
@@ -3788,7 +4108,15 @@
           <title>Caput 2</title>
           <questionTitle>Quotuplex sit oratio vocalis, et quas partes habeat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>216</folio>
+              <folio>217</folio>
+              <folio>218</folio>
+              <folio>219</folio>
+              <folio>220</folio>
+              <folio>221</folio>
+              <folio>222</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05529" alias="t4l3c3">
@@ -3796,7 +4124,11 @@
           <title>Caput 3</title>
           <questionTitle>Utrum de ratione orationis tentio orandi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>222</folio>
+              <folio>223</folio>
+              <folio>224</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05583" alias="t4l3c4">
@@ -3805,7 +4137,15 @@
           <questionTitle>Utrum de ratione et honestate orationis vocalis sit
             attentio?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>224</folio>
+              <folio>225</folio>
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+              <folio>229</folio>
+              <folio>230</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05738" alias="t4l3c5">
@@ -3814,7 +4154,11 @@
           <questionTitle>Utrum ad effectus orationis vocalis sit necessaria
             attentio.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>230</folio>
+              <folio>231</folio>
+              <folio>232</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05809" alias="t4l3c6">
@@ -3822,7 +4166,13 @@
           <title>Caput 6</title>
           <questionTitle>Utrum oratio vocalis privata sit necessaria ex praecepto?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>233</folio>
+              <folio>234</folio>
+              <folio>235</folio>
+              <folio>236</folio>
+              <folio>237</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m05928" alias="t4l3c7">
@@ -3830,7 +4180,14 @@
           <title>Caput 7</title>
           <questionTitle>Caput 7</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>237</folio>
+              <folio>238</folio>
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+              <folio>242</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m06047" alias="t4l3c8">
@@ -3838,7 +4195,21 @@
           <title>Caput 8</title>
           <questionTitle>Dominicae orationis brevis explicatio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>242</folio>
+              <folio>243</folio>
+              <folio>244</folio>
+              <folio>245</folio>
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>248</folio>
+              <folio>249</folio>
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m06368" alias="t4l3c9">
@@ -3846,7 +4217,18 @@
           <title>Caput 9</title>
           <questionTitle>De aliis formulis orandi ab ecclesia usitatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>254</folio>
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+              <folio>261</folio>
+              <folio>262</folio>
+              <folio>263</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -3857,7 +4239,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>265</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m06609" alias="t4l4c1">
@@ -3866,7 +4250,14 @@
           <questionTitle>Quam sit antiqua in ecclesia et per se honesta oratio, quae chorus
             ecclesiasticus appellatur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+              <folio>269</folio>
+              <folio>270</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m06735" alias="t4l4c2">
@@ -3875,7 +4266,19 @@
           <questionTitle>Utrum materia proxima, ex qua divinum officium componitur, conveniens
             sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>270</folio>
+              <folio>271</folio>
+              <folio>272</folio>
+              <folio>273</folio>
+              <folio>274</folio>
+              <folio>275</folio>
+              <folio>276</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+              <folio>279</folio>
+              <folio>280</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m06979" alias="t4l4c3">
@@ -3884,7 +4287,12 @@
           <questionTitle>Utrum ecclesiasticum officium in nocturnum et diurnum convenienter divisum
             sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>280</folio>
+              <folio>281</folio>
+              <folio>282</folio>
+              <folio>283</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07076" alias="t4l4c4">
@@ -3892,7 +4300,12 @@
           <title>Caput 4</title>
           <questionTitle>De divisione nocturni ueffici in partes suas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>284</folio>
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07170" alias="t4l4c5">
@@ -3900,7 +4313,13 @@
           <title>Caput 5</title>
           <questionTitle>De partitione officii diurni.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>287</folio>
+              <folio>288</folio>
+              <folio>289</folio>
+              <folio>290</folio>
+              <folio>291</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07275" alias="t4l4c6">
@@ -3909,7 +4328,15 @@
           <questionTitle>Qui numerus horarum canonicarum ex dictis partitionibus resultet, et quam
             antiqua haec institutio sit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>291</folio>
+              <folio>292</folio>
+              <folio>293</folio>
+              <folio>294</folio>
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07426" alias="t4l4c7">
@@ -3918,7 +4345,14 @@
           <questionTitle>Utrum modus dicendi horas canonicas psallendo et cantando convenienter in
             ecclesia institutus sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>297</folio>
+              <folio>298</folio>
+              <folio>299</folio>
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07544" alias="t4l4c8">
@@ -3926,7 +4360,12 @@
           <title>Caput 8</title>
           <questionTitle>Duo dubia circa ecclesiasticum cantum expediuntur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>302</folio>
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07625" alias="t4l4c9">
@@ -3935,7 +4374,15 @@
           <questionTitle>Ad quas personas pertineat horas canonicas in choro publice canere seu
             recitare.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>305</folio>
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+              <folio>310</folio>
+              <folio>311</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07762" alias="t4l4c10">
@@ -3944,7 +4391,17 @@
           <questionTitle>Quae personae et quo in loco horas canonicas publice dicere
             teneantur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m07967" alias="t4l4c11">
@@ -3952,7 +4409,13 @@
           <title>Caput 11</title>
           <questionTitle>Quodnam officium divinum in choro recitandum sit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>319</folio>
+              <folio>320</folio>
+              <folio>321</folio>
+              <folio>322</folio>
+              <folio>323</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08076" alias="t4l4c12">
@@ -3961,7 +4424,17 @@
           <questionTitle>Utrum satisfaciant clerici in choro alternis versibus psalmos canendo, et
             quid in hoc servare teneantur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>323</folio>
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+              <folio>330</folio>
+              <folio>331</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08287" alias="t4l4c13">
@@ -3970,7 +4443,15 @@
           <questionTitle>De culpa quae omittendo vel mutilando divinum officium in choro, vel
             aliquid illi addendo, committitur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>332</folio>
+              <folio>333</folio>
+              <folio>334</folio>
+              <folio>335</folio>
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08442" alias="t4l4c14">
@@ -3979,7 +4460,14 @@
           <questionTitle>De attentione ac devotione servanda in choro, et circumstantiis externis
             quae ad illam pertinent</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>338</folio>
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+              <folio>343</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08574" alias="t4l4c15">
@@ -3988,7 +4476,14 @@
           <questionTitle>De tempore singulis horis canonicis praescripto pro publico officio
             chori.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>343</folio>
+              <folio>344</folio>
+              <folio>345</folio>
+              <folio>346</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08694" alias="t4l4c16">
@@ -3997,7 +4492,13 @@
           <questionTitle>An clerici omnes ex vi ordinationis sua ad horas canonicas recitandas
             teneantur ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>348</folio>
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+              <folio>352</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08807" alias="t4l4c17">
@@ -4006,7 +4507,12 @@
           <questionTitle>An religiosi professi teneantur horas canonicas recitare, etiamsi in sacris
             ordinati non sint?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>352</folio>
+              <folio>353</folio>
+              <folio>354</folio>
+              <folio>355</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08889" alias="t4l4c18">
@@ -4015,7 +4521,13 @@
           <questionTitle>Utrum clerici beneficium habentes teneantur ad horas canonicas
             recitandas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>355</folio>
+              <folio>356</folio>
+              <folio>357</folio>
+              <folio>358</folio>
+              <folio>359</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m08990" alias="t4l4c19">
@@ -4024,7 +4536,13 @@
           <questionTitle>Utrum beneficium obliget ad recitandum ex vi solius tituli, vel
             possessionem etiam requirat.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>359</folio>
+              <folio>360</folio>
+              <folio>361</folio>
+              <folio>362</folio>
+              <folio>363</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09078" alias="t4l4c20">
@@ -4033,7 +4551,15 @@
           <questionTitle>An juste possidens beneficium, et non recipiens fructus, excusetur, vel
             obligetur recitare.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>363</folio>
+              <folio>364</folio>
+              <folio>365</folio>
+              <folio>366</folio>
+              <folio>367</folio>
+              <folio>368</folio>
+              <folio>369</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09246" alias="t4l4c21">
@@ -4042,7 +4568,14 @@
           <questionTitle>Utrum habens beneficium tenue ad horas canonicas recitandas
             teneatur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>369</folio>
+              <folio>370</folio>
+              <folio>371</folio>
+              <folio>372</folio>
+              <folio>373</folio>
+              <folio>374</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09358" alias="t4l4c22">
@@ -4051,7 +4584,16 @@
           <questionTitle>Utrum clericus, habens redditus ab ecclesia sine beneficio, teneatur horas
             canonicas recitare</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>374</folio>
+              <folio>375</folio>
+              <folio>376</folio>
+              <folio>377</folio>
+              <folio>378</folio>
+              <folio>379</folio>
+              <folio>380</folio>
+              <folio>381</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09541" alias="t4l4c23">
@@ -4060,7 +4602,15 @@
           <questionTitle>Quodnam officium divinum teneantur dicere clerici cum privatim
             recitant.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>381</folio>
+              <folio>382</folio>
+              <folio>383</folio>
+              <folio>384</folio>
+              <folio>385</folio>
+              <folio>386</folio>
+              <folio>387</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09691" alias="t4l4c24">
@@ -4069,7 +4619,13 @@
           <questionTitle>An facere aliquam mutationem in ordine vel continuatione horarum in privata
             recitatione, grave peccatum sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>387</folio>
+              <folio>388</folio>
+              <folio>389</folio>
+              <folio>390</folio>
+              <folio>391</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09801" alias="t4l4c25">
@@ -4078,7 +4634,15 @@
           <questionTitle>Utrum qui privatim recitant, teneantur integre horas canonicas recitare,
             vel aliquid praeter illas, et quomodo hoc non implendo peccent.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>391</folio>
+              <folio>392</folio>
+              <folio>393</folio>
+              <folio>394</folio>
+              <folio>395</folio>
+              <folio>396</folio>
+              <folio>397</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m09954" alias="t4l4c26">
@@ -4088,7 +4652,20 @@
             obligationem tam ecclesiastici praecepti, quam justitiae, seu proprii beneficii
             ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>397</folio>
+              <folio>398</folio>
+              <folio>399</folio>
+              <folio>400</folio>
+              <folio>401</folio>
+              <folio>402</folio>
+              <folio>403</folio>
+              <folio>404</folio>
+              <folio>405</folio>
+              <folio>406</folio>
+              <folio>407</folio>
+              <folio>408</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m10238" alias="t4l4c27">
@@ -4097,7 +4674,14 @@
           <questionTitle>De loco et tempore in quibus canonicum officium recitari potest ac
             debet.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>408</folio>
+              <folio>409</folio>
+              <folio>410</folio>
+              <folio>411</folio>
+              <folio>412</folio>
+              <folio>413</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m10364" alias="t4l4c28">
@@ -4106,7 +4690,22 @@
           <questionTitle>Quibus de causis excusetur a culpa clericus non recitans officium canonicum
             ad quod tenetur ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>413</folio>
+              <folio>414</folio>
+              <folio>415</folio>
+              <folio>416</folio>
+              <folio>417</folio>
+              <folio>418</folio>
+              <folio>419</folio>
+              <folio>420</folio>
+              <folio>421</folio>
+              <folio>422</folio>
+              <folio>423</folio>
+              <folio>424</folio>
+              <folio>425</folio>
+              <folio>426</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m10696" alias="t4l4c29">
@@ -4115,7 +4714,15 @@
           <questionTitle>An beneficiatus non recitans per sex primos menses aliquid teneatur
             restituere?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>426</folio>
+              <folio>427</folio>
+              <folio>428</folio>
+              <folio>429</folio>
+              <folio>430</folio>
+              <folio>431</folio>
+              <folio>432</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m10838" alias="t4l4c30">
@@ -4123,7 +4730,14 @@
           <title>Caput 30</title>
           <questionTitle>Quid teneatur restituere, qui post sex menses non recitat.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>432</folio>
+              <folio>433</folio>
+              <folio>434</folio>
+              <folio>435</folio>
+              <folio>436</folio>
+              <folio>437</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -4135,7 +4749,10 @@
         <title>Praeambulum</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv14"/>
+          <witness ref="#cod-sqqv14">
+            <folio>438</folio>
+            <folio>439</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szovsr-kz0719">
@@ -4145,7 +4762,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>440</folio>
+              <folio>441</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11017" alias="t5l1c1">
@@ -4153,7 +4773,13 @@
           <title>Caput 1</title>
           <questionTitle>Quid sit juramentum.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>441</folio>
+              <folio>442</folio>
+              <folio>443</folio>
+              <folio>444</folio>
+              <folio>445</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11126" alias="t5l1c2">
@@ -4161,7 +4787,15 @@
           <title>Caput 2</title>
           <questionTitle>Utrum juramentum sit actus licitus et honestus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>445</folio>
+              <folio>446</folio>
+              <folio>447</folio>
+              <folio>448</folio>
+              <folio>449</folio>
+              <folio>450</folio>
+              <folio>451</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11292" alias="t5l1c3">
@@ -4170,7 +4804,13 @@
           <questionTitle>Utrum ad honestatem juramenti veritas, justitia et judicium
             requirantur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>451</folio>
+              <folio>452</folio>
+              <folio>453</folio>
+              <folio>454</folio>
+              <folio>455</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11375" alias="t5l1c4">
@@ -4178,7 +4818,13 @@
           <title>Caput 4</title>
           <questionTitle>Utrum juramentum sit actus elicitus virtutis religionis ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>455</folio>
+              <folio>456</folio>
+              <folio>457</folio>
+              <folio>458</folio>
+              <folio>459</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11483" alias="t5l1c5">
@@ -4187,7 +4833,14 @@
           <questionTitle>An juramentum per solum verum deum, vel etiam per creaturas fieri
             possit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>459</folio>
+              <folio>460</folio>
+              <folio>461</folio>
+              <folio>462</folio>
+              <folio>463</folio>
+              <folio>464</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11621" alias="t5l1c6">
@@ -4196,7 +4849,13 @@
           <questionTitle>Utrum finis juramenti sit confirmatio veritatis, vel tantum haec sit
             effectus ejus.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>464</folio>
+              <folio>465</folio>
+              <folio>466</folio>
+              <folio>467</folio>
+              <folio>468</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11719" alias="t5l1c7">
@@ -4205,7 +4864,11 @@
           <questionTitle>De materia juramenti, ejusque divisione in sacrum et
             humanum.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>468</folio>
+              <folio>469</folio>
+              <folio>470</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11761" alias="t5l1c8">
@@ -4213,7 +4876,11 @@
           <title>Caput 8</title>
           <questionTitle>De juramento assertorio et promissorio.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>470</folio>
+              <folio>471</folio>
+              <folio>472</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11817" alias="t5l1c9">
@@ -4222,7 +4889,12 @@
           <questionTitle>Qualis sit divisio juramenti in assertorium et
             promissorium.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>472</folio>
+              <folio>473</folio>
+              <folio>474</folio>
+              <folio>475</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11884" alias="t5l1c10">
@@ -4231,7 +4903,10 @@
           <questionTitle>An materia juramenti debeat esse contingens et dependens a voluntate
             jurantis?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>475</folio>
+              <folio>476</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11922" alias="t5l1c11">
@@ -4239,7 +4914,12 @@
           <title>Caput 11</title>
           <questionTitle>Utrum ex parte forme juramenti verba requirantur ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>476</folio>
+              <folio>477</folio>
+              <folio>478</folio>
+              <folio>479</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m11989" alias="t5l1c12">
@@ -4247,7 +4927,13 @@
           <title>Caput 12</title>
           <questionTitle>De triplici divisione juramenti ex parte formae.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>479</folio>
+              <folio>480</folio>
+              <folio>481</folio>
+              <folio>482</folio>
+              <folio>483</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12088" alias="t5l1c13">
@@ -4255,7 +4941,17 @@
           <title>Caput 13</title>
           <questionTitle>De variis jurandi formulis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>483</folio>
+              <folio>484</folio>
+              <folio>485</folio>
+              <folio>486</folio>
+              <folio>487</folio>
+              <folio>488</folio>
+              <folio>489</folio>
+              <folio>490</folio>
+              <folio>491</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12310" alias="t5l1c14">
@@ -4264,7 +4960,17 @@
           <questionTitle>De personis quae jurare possunt, et primum de deo et
             angelis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>491</folio>
+              <folio>492</folio>
+              <folio>493</folio>
+              <folio>494</folio>
+              <folio>495</folio>
+              <folio>496</folio>
+              <folio>497</folio>
+              <folio>498</folio>
+              <folio>499</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -4275,7 +4981,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>501</folio>
+              <folio>502</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12544" alias="t5l2c1">
@@ -4284,7 +4993,14 @@
           <questionTitle>Utrum juramentum promissorium addat specialem obligationem, non solum
             rigoros promissioni, sed etiam soli assertioni de futuro.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>502</folio>
+              <folio>503</folio>
+              <folio>504</folio>
+              <folio>505</folio>
+              <folio>506</folio>
+              <folio>507</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12682" alias="t5l2c2">
@@ -4293,7 +5009,12 @@
           <questionTitle>Qualis et quanta ex suo genere sit juramenti promissorii
             obligatio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>507</folio>
+              <folio>508</folio>
+              <folio>509</folio>
+              <folio>510</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12745" alias="t5l2c3">
@@ -4301,7 +5022,13 @@
           <title>Caput 3</title>
           <questionTitle>An obligatio juramenti major sit quam obligatio voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>510</folio>
+              <folio>511</folio>
+              <folio>512</folio>
+              <folio>513</folio>
+              <folio>514</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12854" alias="t5l2c4">
@@ -4310,7 +5037,12 @@
           <questionTitle>Utrum ex juramento promissorio acquiratur obligatio alteri cui fit
             promissio, vel soli deo.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>514</folio>
+              <folio>515</folio>
+              <folio>516</folio>
+              <folio>517</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m12928" alias="t5l2c5">
@@ -4319,7 +5051,12 @@
           <questionTitle>Utrum solum juramentum promissorium factum per verum deum inducat
             obligationem ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>517</folio>
+              <folio>518</folio>
+              <folio>519</folio>
+              <folio>520</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13009" alias="t5l2c6">
@@ -4328,7 +5065,13 @@
           <questionTitle>An iuramentum factum per creaturam sine habitudine ad deum verum vel falsum
             obliget ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>520</folio>
+              <folio>521</folio>
+              <folio>522</folio>
+              <folio>523</folio>
+              <folio>524</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13114" alias="t5l2c7">
@@ -4336,7 +5079,17 @@
           <title>Caput 7</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>524</folio>
+              <folio>525</folio>
+              <folio>526</folio>
+              <folio>527</folio>
+              <folio>528</folio>
+              <folio>529</folio>
+              <folio>530</folio>
+              <folio>531</folio>
+              <folio>532</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13307" alias="t5l2c8">
@@ -4345,7 +5098,11 @@
           <questionTitle>Utrum juramentum simulatum vel dolosum quoad verborum significationem
             obligationem inducat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>532</folio>
+              <folio>533</folio>
+              <folio>534</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13381" alias="t5l2c9">
@@ -4353,7 +5110,14 @@
           <title>Caput 9</title>
           <questionTitle>Utrum juramentum extortum per injuriam obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>535</folio>
+              <folio>536</folio>
+              <folio>537</folio>
+              <folio>538</folio>
+              <folio>539</folio>
+              <folio>540</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13533" alias="t5l2c10">
@@ -4361,7 +5125,14 @@
           <title>Caput 10</title>
           <questionTitle>Utrum juramentum metu extortum obligationem inducat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>541</folio>
+              <folio>542</folio>
+              <folio>543</folio>
+              <folio>544</folio>
+              <folio>545</folio>
+              <folio>546</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13670" alias="t5l2c11">
@@ -4370,7 +5141,15 @@
           <questionTitle>Utrum juramentum per dolum vel errorem factum validum sit et
             obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>546</folio>
+              <folio>547</folio>
+              <folio>548</folio>
+              <folio>549</folio>
+              <folio>550</folio>
+              <folio>551</folio>
+              <folio>552</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13828" alias="t5l2c12">
@@ -4379,7 +5158,16 @@
           <questionTitle>Utrum juramentum promissorium de actu virtutis semper inducat
             obligationem?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>552</folio>
+              <folio>553</folio>
+              <folio>554</folio>
+              <folio>555</folio>
+              <folio>556</folio>
+              <folio>557</folio>
+              <folio>558</folio>
+              <folio>559</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m13995" alias="t5l2c13">
@@ -4388,7 +5176,14 @@
           <questionTitle>Varia jura exponuntur, et fundamentis utriusque sententliae positis capite
             praecedenti satisfit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>559</folio>
+              <folio>560</folio>
+              <folio>561</folio>
+              <folio>562</folio>
+              <folio>563</folio>
+              <folio>564</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14136" alias="t5l2c14">
@@ -4397,7 +5192,12 @@
           <questionTitle>Utrum juramentum promissorium de actu, quod sine lethali culpa fieri non
             potest, aliquam inducat obligationem.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>564</folio>
+              <folio>565</folio>
+              <folio>566</folio>
+              <folio>567</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14211" alias="t5l2c15">
@@ -4406,7 +5206,12 @@
           <questionTitle>Utrum juramentum de opere includente venialem culpam
             obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>567</folio>
+              <folio>568</folio>
+              <folio>569</folio>
+              <folio>570</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14280" alias="t5l2c16">
@@ -4414,7 +5219,10 @@
           <title>Caput 16</title>
           <questionTitle>Utrum juramentum de actu indifferente obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>570</folio>
+              <folio>571</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14316" alias="t5l2c17">
@@ -4423,7 +5231,16 @@
           <questionTitle>Quando et quomodo obliget juramentum de omissione seu negatione alicujus
             operis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>571</folio>
+              <folio>572</folio>
+              <folio>573</folio>
+              <folio>574</folio>
+              <folio>575</folio>
+              <folio>576</folio>
+              <folio>577</folio>
+              <folio>578</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14491" alias="t5l2c18">
@@ -4431,7 +5248,13 @@
           <title>Caput 18</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>578</folio>
+              <folio>579</folio>
+              <folio>580</folio>
+              <folio>581</folio>
+              <folio>582</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14584" alias="t5l2c19">
@@ -4440,7 +5263,14 @@
           <questionTitle>Utrum juramentum factum contra prius votum, juramentum aut promissionem
             obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>582</folio>
+              <folio>583</folio>
+              <folio>584</folio>
+              <folio>585</folio>
+              <folio>586</folio>
+              <folio>587</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14709" alias="t5l2c20">
@@ -4448,7 +5278,11 @@
           <title>Caput 20</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>587</folio>
+              <folio>588</folio>
+              <folio>589</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14780" alias="t5l2c21">
@@ -4457,7 +5291,11 @@
           <questionTitle>Utrum juramentum promissorium contra solos bonos mores civiles obligare
             possit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>589</folio>
+              <folio>590</folio>
+              <folio>591</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14836" alias="t5l2c22">
@@ -4466,7 +5304,11 @@
           <questionTitle>An juramentum contra solos bonos mores civiles semper
             obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>592</folio>
+              <folio>593</folio>
+              <folio>594</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14913" alias="t5l2c23">
@@ -4474,7 +5316,11 @@
           <title>Caput 23</title>
           <questionTitle>Satisfit objectionibus superiori capite propositis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>595</folio>
+              <folio>596</folio>
+              <folio>597</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m14981" alias="t5l2c24">
@@ -4483,7 +5329,12 @@
           <questionTitle>Utrum juramentum illicite emissum, vel de promissione prohibita, obliget,
             si absque peccato impleri potest?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>597</folio>
+              <folio>598</folio>
+              <folio>599</folio>
+              <folio>600</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15061" alias="t5l2c25">
@@ -4492,7 +5343,13 @@
           <questionTitle>Quomodo differant juramentum confirmatorium, et per se stans, quando
             feruntur super contractus prohibitos.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>600</folio>
+              <folio>601</folio>
+              <folio>602</folio>
+              <folio>603</folio>
+              <folio>604</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15150" alias="t5l2c26">
@@ -4501,7 +5358,12 @@
           <questionTitle>An juramentum contra leges respicientes bonum publicum vel privatum
             coneiamet contractum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>604</folio>
+              <folio>605</folio>
+              <folio>606</folio>
+              <folio>607</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15247" alias="t5l2c27">
@@ -4510,7 +5372,11 @@
           <questionTitle>Pactum, quod legibus reprobatur in odium creditoris, non confirmari
             juramento.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>608</folio>
+              <folio>609</folio>
+              <folio>610</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15304" alias="t5l2c28">
@@ -4519,7 +5385,13 @@
           <questionTitle>An pacta irrita per leges confirmentur juramento; et referuntur tres
             opiniones.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>610</folio>
+              <folio>611</folio>
+              <folio>612</folio>
+              <folio>613</folio>
+              <folio>614</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15416" alias="t5l2c29">
@@ -4528,7 +5400,17 @@
           <questionTitle>Resolutio superioris quaestionis, et quomodo juramentum confirmare possit
             contractum irritum.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>614</folio>
+              <folio>615</folio>
+              <folio>616</folio>
+              <folio>617</folio>
+              <folio>618</folio>
+              <folio>619</folio>
+              <folio>620</folio>
+              <folio>621</folio>
+              <folio>622</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15611" alias="t5l2c30">
@@ -4537,7 +5419,13 @@
           <questionTitle>Utrum praecedente juramento non faciendi pactum lege prohibitum,
             nihilominus tale pactum firmetur superveniente juramento?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>622</folio>
+              <folio>623</folio>
+              <folio>624</folio>
+              <folio>625</folio>
+              <folio>626</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15729" alias="t5l2c31">
@@ -4546,7 +5434,14 @@
           <questionTitle>An obligatio juramenti sit mere personalis tam ex parte jurantis quam ejus
             cui juratur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>626</folio>
+              <folio>627</folio>
+              <folio>628</folio>
+              <folio>629</folio>
+              <folio>630</folio>
+              <folio>631</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15841" alias="t5l2c32">
@@ -4555,7 +5450,12 @@
           <questionTitle>Quomodo interpretandum sit juramentum quoad expressionem vel limitationem
             obligationis ejus?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>631</folio>
+              <folio>632</folio>
+              <folio>633</folio>
+              <folio>634</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15923" alias="t5l2c33">
@@ -4563,7 +5463,11 @@
           <title>Caput 33</title>
           <questionTitle>De obligatione juramenti in casu dubio.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>634</folio>
+              <folio>635</folio>
+              <folio>636</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m15990" alias="t5l2c34">
@@ -4572,7 +5476,12 @@
           <questionTitle>Utrum omne juramentum promissorium conditionem aliquam includat, vel quid
             differat absolutum juramentum a conditionato?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>637</folio>
+              <folio>638</folio>
+              <folio>639</folio>
+              <folio>640</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16081" alias="t5l2c35">
@@ -4581,7 +5490,12 @@
           <questionTitle>Quando incipiat et quamdiu duret obligatio juramenti
             promissorii.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>640</folio>
+              <folio>641</folio>
+              <folio>642</folio>
+              <folio>643</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16147" alias="t5l2c36">
@@ -4590,7 +5504,12 @@
           <questionTitle>An juramentum promissorium homini factum sit implendum in propria specie,
             vel possit per aliquid aequivalens impleri?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>643</folio>
+              <folio>644</folio>
+              <folio>645</folio>
+              <folio>646</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16244" alias="t5l2c37">
@@ -4598,7 +5517,15 @@
           <title>Caput 37</title>
           <questionTitle>An in juramento implendo liceat compensatione uti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>646</folio>
+              <folio>647</folio>
+              <folio>648</folio>
+              <folio>649</folio>
+              <folio>650</folio>
+              <folio>651</folio>
+              <folio>652</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16389" alias="t5l2c38">
@@ -4606,7 +5533,13 @@
           <title>Caput 38</title>
           <questionTitle>Utrum juramentum promissorium irritari possit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>652</folio>
+              <folio>653</folio>
+              <folio>654</folio>
+              <folio>655</folio>
+              <folio>656</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16502" alias="t5l2c39">
@@ -4615,7 +5548,14 @@
           <questionTitle>Utrum obligatio juramenti promissorh condonatione a creditore facta
             tollatur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>656</folio>
+              <folio>657</folio>
+              <folio>658</folio>
+              <folio>659</folio>
+              <folio>660</folio>
+              <folio>661</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16622" alias="t5l2c40">
@@ -4624,7 +5564,12 @@
           <questionTitle>An in juramentum promissorium, soli deo seu per modum voti factem, cadat
             dispensatio.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>661</folio>
+              <folio>662</folio>
+              <folio>663</folio>
+              <folio>664</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16690" alias="t5l2c41">
@@ -4633,7 +5578,16 @@
           <questionTitle>An et quomodo juramentum promissorium homini factum a superiore relaxari
             possit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>664</folio>
+              <folio>665</folio>
+              <folio>666</folio>
+              <folio>667</folio>
+              <folio>668</folio>
+              <folio>669</folio>
+              <folio>670</folio>
+              <folio>671</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -4644,7 +5598,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>673</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16884" alias="t5l3c1">
@@ -4653,7 +5609,11 @@
           <questionTitle>Utrum detur aliquod prieceptum affirmativum obligans interdum ad
             jurandum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>673</folio>
+              <folio>674</folio>
+              <folio>675</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m16946" alias="t5l3c2">
@@ -4661,7 +5621,13 @@
           <title>Caput 2</title>
           <questionTitle>De praecepto non pejerandi, et variis pejerandi modis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>675</folio>
+              <folio>676</folio>
+              <folio>677</folio>
+              <folio>678</folio>
+              <folio>679</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17035" alias="t5l3c3">
@@ -4670,7 +5636,12 @@
           <questionTitle>Utrum perjurium assertorium sit peccatum mortale adeo grave ut alia
             excedat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>679</folio>
+              <folio>680</folio>
+              <folio>681</folio>
+              <folio>682</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17121" alias="t5l3c4">
@@ -4679,7 +5650,11 @@
           <questionTitle>An perjurium assertorium semper sit peccatum mortale ex parte
             materiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>682</folio>
+              <folio>683</folio>
+              <folio>684</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17167" alias="t5l3c5">
@@ -4688,7 +5663,10 @@
           <questionTitle>Utrum juramentum assertorium, incautum quoad veritatem, semper habeat
             malitiam perjurii, ac subinde mortalem.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>684</folio>
+              <folio>685</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17199" alias="t5l3c6">
@@ -4697,7 +5675,12 @@
           <questionTitle>An consuetudo jurandi incaute constituat hominem in statu
             peccati.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>685</folio>
+              <folio>686</folio>
+              <folio>687</folio>
+              <folio>688</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17273" alias="t5l3c7">
@@ -4706,7 +5689,13 @@
           <questionTitle>An perjurium, cum naturali inadvertentia prolatum, sit peccatum mortale
             ratione consuetudinis ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>688</folio>
+              <folio>689</folio>
+              <folio>690</folio>
+              <folio>691</folio>
+              <folio>692</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17369" alias="t5l3c8">
@@ -4714,7 +5703,11 @@
           <title>Caput 8</title>
           <questionTitle>Inferuntur corollaria ex praecedenti doctrina.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>692</folio>
+              <folio>693</folio>
+              <folio>694</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17430" alias="t5l3c9">
@@ -4723,7 +5716,11 @@
           <questionTitle>An juramentum assertorium cum amphibologia factum sit perjurium, vel aliter
             peccaminosum.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>694</folio>
+              <folio>695</folio>
+              <folio>696</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17490" alias="t5l3c10">
@@ -4731,7 +5728,11 @@
           <title>Caput 10</title>
           <questionTitle>An liceat jurare cum amphibologia sola mente concepta?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>697</folio>
+              <folio>698</folio>
+              <folio>699</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17566" alias="t5l3c11">
@@ -4740,7 +5741,10 @@
           <questionTitle>Quale peccatum sit, sine rationabili causa uti amphibologia , pruesertim
             mentali, in jurando.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>700</folio>
+              <folio>701</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17606" alias="t5l3c12">
@@ -4749,7 +5753,12 @@
           <questionTitle>Utrum juramentum assertorium, cui judicium vel justitia deest, sit mortale
             peccatum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>701</folio>
+              <folio>702</folio>
+              <folio>703</folio>
+              <folio>704</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17674" alias="t5l3c13">
@@ -4758,7 +5767,11 @@
           <questionTitle>Utrum inducere alium ad jurandum, quando per falsos deos juraturus est, sit
             peccatum.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>704</folio>
+              <folio>705</folio>
+              <folio>706</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17745" alias="t5l3c14">
@@ -4767,7 +5780,16 @@
           <questionTitle>An semper sit peccatum, juramentum ab eo petere qui pejeratubrus
             est?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>706</folio>
+              <folio>707</folio>
+              <folio>708</folio>
+              <folio>709</folio>
+              <folio>710</folio>
+              <folio>711</folio>
+              <folio>712</folio>
+              <folio>713</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17901" alias="t5l3c15">
@@ -4776,7 +5798,10 @@
           <questionTitle>Utrum violare juramentum promissorium quoad ejus veritatem, peccatum
             mortale sit ex genere suo.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>713</folio>
+              <folio>714</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m17943" alias="t5l3c16">
@@ -4785,7 +5810,15 @@
           <questionTitle>An violatio juramenti promissorii , ut tale est, possit esse veniale
             peccatum ex levitate materia.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>714</folio>
+              <folio>715</folio>
+              <folio>716</folio>
+              <folio>717</folio>
+              <folio>718</folio>
+              <folio>719</folio>
+              <folio>720</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18083" alias="t5l3c17">
@@ -4794,7 +5827,12 @@
           <questionTitle>Utrum juramentum promissorium sine veritate factum semper sit peccatum
             mortale?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>720</folio>
+              <folio>721</folio>
+              <folio>722</folio>
+              <folio>723</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18176" alias="t5l3c18">
@@ -4803,7 +5841,11 @@
           <questionTitle>Utrum juramentum promissorium de materia incapaci obligationis, semper sit
             peccatum mortale.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>723</folio>
+              <folio>724</folio>
+              <folio>725</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18219" alias="t5l3c19">
@@ -4812,7 +5854,13 @@
           <questionTitle>Quale peccatum sit juramentum iniquum de peccato
             committendo?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>725</folio>
+              <folio>726</folio>
+              <folio>727</folio>
+              <folio>728</folio>
+              <folio>729</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18324" alias="t5l3c20">
@@ -4820,7 +5868,14 @@
           <title>Caput 20</title>
           <questionTitle>De poenis ecclesiasticis perjurio impositis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>729</folio>
+              <folio>730</folio>
+              <folio>731</folio>
+              <folio>732</folio>
+              <folio>733</folio>
+              <folio>734</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -4831,7 +5886,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>735</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18476" alias="t5l4c1">
@@ -4839,7 +5896,13 @@
           <title>Caput 1</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>735</folio>
+              <folio>736</folio>
+              <folio>737</folio>
+              <folio>738</folio>
+              <folio>739</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18569" alias="t5l4c2">
@@ -4847,7 +5910,13 @@
           <title>Caput 2</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>739</folio>
+              <folio>740</folio>
+              <folio>741</folio>
+              <folio>742</folio>
+              <folio>743</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18668" alias="t5l4c3">
@@ -4855,7 +5924,11 @@
           <title>Caput 3</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>743</folio>
+              <folio>744</folio>
+              <folio>745</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18724" alias="t5l4c4">
@@ -4863,7 +5936,13 @@
           <title>Caput 4</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>745</folio>
+              <folio>746</folio>
+              <folio>747</folio>
+              <folio>748</folio>
+              <folio>749</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -4875,7 +5954,10 @@
         <title>Praeambulum</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv14"/>
+          <witness ref="#cod-sqqv14">
+            <folio>750</folio>
+            <folio>751</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szovsr-kz0840">
@@ -4885,7 +5967,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>753</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18877" alias="t6l1c1">
@@ -4893,7 +5977,12 @@
           <title>Caput 1</title>
           <questionTitle>An votum recte et convenienter deo fieri possit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>753</folio>
+              <folio>754</folio>
+              <folio>755</folio>
+              <folio>756</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m18947" alias="t6l1c2">
@@ -4902,7 +5991,16 @@
           <questionTitle>Utrum propositum absolutum et de se efficax faciendi aliquid in honorem
             dei, ad votum suefficiat, vel obligationem inducat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>756</folio>
+              <folio>757</folio>
+              <folio>758</folio>
+              <folio>759</folio>
+              <folio>760</folio>
+              <folio>761</folio>
+              <folio>762</folio>
+              <folio>763</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19141" alias="t6l1c3">
@@ -4911,7 +6009,13 @@
           <questionTitle>Utrum propositum seu intentio se obliganti sit de voti necessitate ac
             essentia.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>764</folio>
+              <folio>765</folio>
+              <folio>766</folio>
+              <folio>767</folio>
+              <folio>768</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19250" alias="t6l1c4">
@@ -4920,7 +6024,10 @@
           <questionTitle>Utrum propositum implendi votum seu faciendi rem promissam sit de
             substantia voti, seu ad valorem ejus necessarium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>768</folio>
+              <folio>769</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19294" alias="t6l1c5">
@@ -4928,7 +6035,12 @@
           <title>Caput 5</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>770</folio>
+              <folio>771</folio>
+              <folio>772</folio>
+              <folio>773</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19378" alias="t6l1c6">
@@ -4937,7 +6049,11 @@
           <questionTitle>Utrum sit de ratione voti ut voluntas promittendi, seu obligandi, perfecte
             voluntaria ac libera sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>773</folio>
+              <folio>774</folio>
+              <folio>775</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19447" alias="t6l1c7">
@@ -4946,7 +6062,14 @@
           <questionTitle>Utrum libertas a coactione et metu ex natura rei sit necessaria ad valorem
             voti, vel, e converso, an metus irritet votum jure naturae?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>776</folio>
+              <folio>777</folio>
+              <folio>778</folio>
+              <folio>779</folio>
+              <folio>780</folio>
+              <folio>781</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19593" alias="t6l1c8">
@@ -4955,7 +6078,12 @@
           <questionTitle>An vota facta ex gravi metu sint irrita ex ecclesiastico
             jure?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>781</folio>
+              <folio>782</folio>
+              <folio>783</folio>
+              <folio>784</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19660" alias="t6l1c9">
@@ -4964,7 +6092,13 @@
           <questionTitle>Utrum voluntas vovendi non solum libera, sed etiam plene et exacte
             deliberata esse debeat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>784</folio>
+              <folio>785</folio>
+              <folio>786</folio>
+              <folio>787</folio>
+              <folio>788</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19759" alias="t6l1c10">
@@ -4973,7 +6107,14 @@
           <questionTitle>Utrum ad votum sit necessaria formalis deliberatio voti in se, vel
             virtualis et in causa sufficiat.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>788</folio>
+              <folio>789</folio>
+              <folio>790</folio>
+              <folio>791</folio>
+              <folio>792</folio>
+              <folio>793</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19887" alias="t6l1c11">
@@ -4982,7 +6123,13 @@
           <questionTitle>Utrum ad substantiam voti pertineat, ut consensus in illud sine dolo,
             ignorantia vel errore praestetur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>793</folio>
+              <folio>794</folio>
+              <folio>795</folio>
+              <folio>796</folio>
+              <folio>797</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m19998" alias="t6l1c12">
@@ -4991,7 +6138,12 @@
           <questionTitle>Expediuntur tria dubia circa ignorantiam impedientem valorem
             voti.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>797</folio>
+              <folio>798</folio>
+              <folio>799</folio>
+              <folio>800</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20071" alias="t6l1c13">
@@ -5000,7 +6152,14 @@
           <questionTitle>Utrum praeter deliberatam voluntatem se obligandi deo, necessaria sit
             promissio quae sit actus intellectus in quo voti substantia consistat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>800</folio>
+              <folio>801</folio>
+              <folio>802</folio>
+              <folio>803</folio>
+              <folio>804</folio>
+              <folio>805</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20193" alias="t6l1c14">
@@ -5009,7 +6168,14 @@
           <questionTitle>Utrum votum sit tantum promissio deo facta, vel etiam
             traditio?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>805</folio>
+              <folio>806</folio>
+              <folio>807</folio>
+              <folio>808</folio>
+              <folio>809</folio>
+              <folio>810</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20340" alias="t6l1c15">
@@ -5017,7 +6183,13 @@
           <title>Caput 15</title>
           <questionTitle>Utrum votum sit actus a religione elicitus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>810</folio>
+              <folio>811</folio>
+              <folio>812</folio>
+              <folio>813</folio>
+              <folio>814</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20439" alias="t6l1c16">
@@ -5026,7 +6198,14 @@
           <questionTitle>Utrum omne votum sit actus religionis, et consequenter an soli deo
             fiat.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>814</folio>
+              <folio>815</folio>
+              <folio>816</folio>
+              <folio>817</folio>
+              <folio>818</folio>
+              <folio>819</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20573" alias="t6l1c17">
@@ -5035,7 +6214,13 @@
           <questionTitle>Utrum opus, ex voto factum, melius sit, magisque
             meritorium.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>820</folio>
+              <folio>821</folio>
+              <folio>822</folio>
+              <folio>823</folio>
+              <folio>824</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20695" alias="t6l1c18">
@@ -5043,7 +6228,13 @@
           <title>Caput 18</title>
           <questionTitle>Utrum votum sit per se expetendum et expediens ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>824</folio>
+              <folio>825</folio>
+              <folio>826</folio>
+              <folio>827</folio>
+              <folio>828</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20781" alias="t6l1c19">
@@ -5052,7 +6243,16 @@
           <questionTitle>Quae sint divisiones votorum ex parte ipsius actus, seu modi vovendi, et an
             aliqua illarum essentialis sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>828</folio>
+              <folio>829</folio>
+              <folio>830</folio>
+              <folio>831</folio>
+              <folio>832</folio>
+              <folio>833</folio>
+              <folio>834</folio>
+              <folio>835</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -5063,7 +6263,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>836</folio>
+              <folio>837</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m20976" alias="t6l2c1">
@@ -5072,7 +6275,10 @@
           <questionTitle>An materia voti debeat esse possibilis et non necessaria, et quotuplex illa
             sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>837</folio>
+              <folio>838</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21021" alias="t6l2c2">
@@ -5081,7 +6287,14 @@
           <questionTitle>Utrum in materia impossibili pars possibilis sit materia voti, ita ut votum
             de materia impossibili obliget ad materiam possibilem ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>838</folio>
+              <folio>839</folio>
+              <folio>840</folio>
+              <folio>841</folio>
+              <folio>842</folio>
+              <folio>843</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21128" alias="t6l2c3">
@@ -5089,7 +6302,13 @@
           <title>Caput 3</title>
           <questionTitle>An fieri possit votum non peccandi, et ad quid obliget?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>843</folio>
+              <folio>844</folio>
+              <folio>845</folio>
+              <folio>846</folio>
+              <folio>847</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21242" alias="t6l2c4">
@@ -5097,7 +6316,13 @@
           <title>Caput 4</title>
           <questionTitle>Utrum actus moraliter malus possit esse materia voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>847</folio>
+              <folio>848</folio>
+              <folio>849</folio>
+              <folio>850</folio>
+              <folio>851</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21345" alias="t6l2c5">
@@ -5106,7 +6331,15 @@
           <questionTitle>Utrum actus honestus sub conditione turpi possit esse materia
             voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>851</folio>
+              <folio>852</folio>
+              <folio>853</folio>
+              <folio>854</folio>
+              <folio>855</folio>
+              <folio>856</folio>
+              <folio>857</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21510" alias="t6l2c6">
@@ -5115,7 +6348,14 @@
           <questionTitle>Utrum actus boni, qui sunt sub praecepto, possint esse materia
             voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>858</folio>
+              <folio>859</folio>
+              <folio>860</folio>
+              <folio>861</folio>
+              <folio>862</folio>
+              <folio>863</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21639" alias="t6l2c7">
@@ -5124,7 +6364,11 @@
           <questionTitle>Utrum actus virtutis impediens meliorem possit esse materia voti, vel
             necessario esse debeat votum de meliori bono?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>863</folio>
+              <folio>864</folio>
+              <folio>865</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21703" alias="t6l2c8">
@@ -5133,7 +6377,13 @@
           <questionTitle>Utrum omnis actus virtutis, qui non reddit personam inhabilem ad opera
             perfectionis, possit esse materia voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>865</folio>
+              <folio>866</folio>
+              <folio>867</folio>
+              <folio>868</folio>
+              <folio>869</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21806" alias="t6l2c9">
@@ -5142,7 +6392,15 @@
           <questionTitle>Utrum actus moraliter bonus, inducens inhabilitatem in futurum ad statum
             perfectionis, possit interdum esse materia voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>869</folio>
+              <folio>870</folio>
+              <folio>871</folio>
+              <folio>872</folio>
+              <folio>873</folio>
+              <folio>874</folio>
+              <folio>875</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m21968" alias="t6l2c10">
@@ -5151,7 +6409,14 @@
           <questionTitle>Utrum objectum includens bonum et malum possit esse materia capax voti, ita
             ut votum de illo factum ad aliquid obliget ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>875</folio>
+              <folio>876</folio>
+              <folio>877</folio>
+              <folio>878</folio>
+              <folio>879</folio>
+              <folio>880</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22099" alias="t6l2c11">
@@ -5159,7 +6424,13 @@
           <title>Caput 11</title>
           <questionTitle>Utrum omissiones bonorum actuum possint esse materia voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>881</folio>
+              <folio>882</folio>
+              <folio>883</folio>
+              <folio>884</folio>
+              <folio>885</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22203" alias="t6l2c12">
@@ -5168,7 +6439,12 @@
           <questionTitle>De aliquibus divisionibus votorum, quae ex parte materiae
             desumuntur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>885</folio>
+              <folio>886</folio>
+              <folio>887</folio>
+              <folio>888</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -5179,7 +6455,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>889</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22300" alias="t6l3c1">
@@ -5187,7 +6465,12 @@
           <title>Caput 1</title>
           <questionTitle>Utrum solus homo possit votum emittere, et illo obligari?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>889</folio>
+              <folio>890</folio>
+              <folio>891</folio>
+              <folio>892</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22367" alias="t6l3c2">
@@ -5195,7 +6478,13 @@
           <title>Caput 2</title>
           <questionTitle>An omnes homines viatores sint voti capaces?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>892</folio>
+              <folio>893</folio>
+              <folio>894</folio>
+              <folio>895</folio>
+              <folio>896</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22472" alias="t6l3c3">
@@ -5204,7 +6493,13 @@
           <questionTitle>An ecclesia possit aliquas personas inhabiles reddere ad valide
             vovendum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>896</folio>
+              <folio>897</folio>
+              <folio>898</folio>
+              <folio>899</folio>
+              <folio>900</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22578" alias="t6l3c4">
@@ -5213,7 +6508,13 @@
           <questionTitle>Utrum vota simplicia aliquarum personarum sint nulla ob inhabilitatem
             personae jure ecclesiastico inductam?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>900</folio>
+              <folio>901</folio>
+              <folio>902</folio>
+              <folio>903</folio>
+              <folio>904</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22671" alias="t6l3c5">
@@ -5222,7 +6523,12 @@
           <questionTitle>Utrum personae aliis specialiter subjectae prohibitae sint, ne vovere
             possint.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>904</folio>
+              <folio>905</folio>
+              <folio>906</folio>
+              <folio>907</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22764" alias="t6l3c6">
@@ -5231,7 +6537,18 @@
           <questionTitle>Vota personalia quomodo possint in personis subditis valida esse ex parte
             materiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>908</folio>
+              <folio>909</folio>
+              <folio>910</folio>
+              <folio>911</folio>
+              <folio>912</folio>
+              <folio>913</folio>
+              <folio>914</folio>
+              <folio>915</folio>
+              <folio>916</folio>
+              <folio>917</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m22996" alias="t6l3c7">
@@ -5239,7 +6556,10 @@
           <title>Caput 7</title>
           <questionTitle>An vota realia valida esse possint in personis subditis.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>917</folio>
+              <folio>918</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -5250,7 +6570,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>920</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23061" alias="t6l4c1">
@@ -5258,7 +6580,13 @@
           <title>Caput 1</title>
           <questionTitle>Utrum ex voto deo facto obligatio in conscientia oriatur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>920</folio>
+              <folio>921</folio>
+              <folio>922</folio>
+              <folio>923</folio>
+              <folio>924</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23152" alias="t6l4c2">
@@ -5266,7 +6594,10 @@
           <title>Caput 2</title>
           <questionTitle>Utrum in voti obligatione dei acceptatio intercedat?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>924</folio>
+              <folio>925</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23193" alias="t6l4c3">
@@ -5274,7 +6605,12 @@
           <title>Caput 3</title>
           <questionTitle>Quam gravis sit obligatio voti.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>925</folio>
+              <folio>926</folio>
+              <folio>927</folio>
+              <folio>928</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23263" alias="t6l4c4">
@@ -5283,7 +6619,15 @@
           <questionTitle>Utrum obligatio voti ex intentione voventis possit non esse proportionata
             materia ejusdem voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>928</folio>
+              <folio>929</folio>
+              <folio>930</folio>
+              <folio>931</folio>
+              <folio>932</folio>
+              <folio>933</folio>
+              <folio>934</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23427" alias="t6l4c5">
@@ -5291,7 +6635,14 @@
           <title>Caput 5</title>
           <questionTitle>De obligatione voti de quo dubitatur an factum sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>935</folio>
+              <folio>936</folio>
+              <folio>937</folio>
+              <folio>938</folio>
+              <folio>939</folio>
+              <folio>940</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23557" alias="t6l4c6">
@@ -5299,7 +6650,13 @@
           <title>Caput 6</title>
           <questionTitle>De obligatione voti quoad valorem ejus.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>940</folio>
+              <folio>941</folio>
+              <folio>942</folio>
+              <folio>943</folio>
+              <folio>944</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23665" alias="t6l4c7">
@@ -5308,7 +6665,17 @@
           <questionTitle>Quomodo votum interpretandum sit, quando materia ejus certa et determinata
             non est?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>944</folio>
+              <folio>945</folio>
+              <folio>946</folio>
+              <folio>947</folio>
+              <folio>948</folio>
+              <folio>949</folio>
+              <folio>950</folio>
+              <folio>951</folio>
+              <folio>952</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m23885" alias="t6l4c8">
@@ -5317,7 +6684,14 @@
           <questionTitle>Quomodo singulae circumstantiae voti in eo non expressae determinanda
             sint.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>953</folio>
+              <folio>954</folio>
+              <folio>955</folio>
+              <folio>956</folio>
+              <folio>957</folio>
+              <folio>958</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24036" alias="t6l4c9">
@@ -5326,7 +6700,12 @@
           <questionTitle>An votum obliiget solum voventem, ita ut voti obligatio personalis tantum
             sit?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>959</folio>
+              <folio>960</folio>
+              <folio>961</folio>
+              <folio>962</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24118" alias="t6l4c10">
@@ -5335,7 +6714,13 @@
           <questionTitle>Utrum possit aliquis vel teneatur votum suum implere per
             alium?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>962</folio>
+              <folio>963</folio>
+              <folio>964</folio>
+              <folio>965</folio>
+              <folio>966</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24223" alias="t6l4c11">
@@ -5344,7 +6729,15 @@
           <questionTitle>Utrum obligatio voti ipso facto vel jure transeat ad
             haeredes?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>966</folio>
+              <folio>967</folio>
+              <folio>968</folio>
+              <folio>969</folio>
+              <folio>970</folio>
+              <folio>971</folio>
+              <folio>972</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24376" alias="t6l4c12">
@@ -5352,7 +6745,13 @@
           <title>Caput 12</title>
           <questionTitle>Pro quo tempore votum obliget.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>972</folio>
+              <folio>973</folio>
+              <folio>974</folio>
+              <folio>975</folio>
+              <folio>976</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24482" alias="t6l4c13">
@@ -5360,7 +6759,12 @@
           <title>Caput 13</title>
           <questionTitle>An votum tempore prescripto non impletum desinat obligare?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>976</folio>
+              <folio>977</folio>
+              <folio>978</folio>
+              <folio>979</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24569" alias="t6l4c14">
@@ -5368,7 +6772,12 @@
           <title>Caput 14</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>980</folio>
+              <folio>981</folio>
+              <folio>982</folio>
+              <folio>983</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24655" alias="t6l4c15">
@@ -5377,7 +6786,12 @@
           <questionTitle>An qui non implet votum tempore praefixo, ad aliquam recompensationem
             postea teneatur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>983</folio>
+              <folio>984</folio>
+              <folio>985</folio>
+              <folio>986</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24737" alias="t6l4c16">
@@ -5386,7 +6800,17 @@
           <questionTitle>Utrum quae fiunt contra voti obligationem et observationem valida sint et
             firma?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>986</folio>
+              <folio>987</folio>
+              <folio>988</folio>
+              <folio>989</folio>
+              <folio>990</folio>
+              <folio>991</folio>
+              <folio>992</folio>
+              <folio>993</folio>
+              <folio>994</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m24931" alias="t6l4c17">
@@ -5394,7 +6818,16 @@
           <title>Caput 17</title>
           <questionTitle>Vota conditionata quando et quomodo obligent</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>994</folio>
+              <folio>995</folio>
+              <folio>996</folio>
+              <folio>997</folio>
+              <folio>998</folio>
+              <folio>999</folio>
+              <folio>1000</folio>
+              <folio>1001</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25123" alias="t6l4c18">
@@ -5402,7 +6835,13 @@
           <title>Caput 18</title>
           <questionTitle>An cessante causa voti ejus obligatio cesset?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1001</folio>
+              <folio>1002</folio>
+              <folio>1003</folio>
+              <folio>1004</folio>
+              <folio>1005</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25210" alias="t6l4c19">
@@ -5410,7 +6849,14 @@
           <title>Caput 19</title>
           <questionTitle>An ex mutatione materiae cesset interdum obligatio voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1005</folio>
+              <folio>1006</folio>
+              <folio>1007</folio>
+              <folio>1008</folio>
+              <folio>1009</folio>
+              <folio>1010</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25341" alias="t6l4c20">
@@ -5419,7 +6865,11 @@
           <questionTitle>Duae dubitationes ex praecedenti doctrina corollarie
             expediuntur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1010</folio>
+              <folio>1011</folio>
+              <folio>1012</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -5430,7 +6880,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1013</folio>
+              <folio>1014</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25416" alias="t6l5c1">
@@ -5438,7 +6891,11 @@
           <title>Caput 1</title>
           <questionTitle>Quando et quam graviter peccetur in vovendo modo indebito.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1014</folio>
+              <folio>1015</folio>
+              <folio>1016</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25481" alias="t6l5c2">
@@ -5446,7 +6903,13 @@
           <title>Caput 2</title>
           <questionTitle>Quale peccatum sit vovere materiam deo indignam?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1016</folio>
+              <folio>1017</folio>
+              <folio>1018</folio>
+              <folio>1019</folio>
+              <folio>1020</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25585" alias="t6l5c3">
@@ -5455,7 +6918,13 @@
           <questionTitle>Utrum agere contra voti obligationem sit peccatum, et quam habeat
             malitiam?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1020</folio>
+              <folio>1021</folio>
+              <folio>1022</folio>
+              <folio>1023</folio>
+              <folio>1024</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25696" alias="t6l5c4">
@@ -5464,7 +6933,14 @@
           <questionTitle>De gravitate peccati violandi votum, et an interdum possit esse
             veniale?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1025</folio>
+              <folio>1026</folio>
+              <folio>1027</folio>
+              <folio>1028</folio>
+              <folio>1029</folio>
+              <folio>1030</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25824" alias="t6l5c5">
@@ -5473,7 +6949,14 @@
           <questionTitle>Quando sit mortale peccatum transgressio voti, quam per plures actus leves
             ex parte materiae fieri contingit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1030</folio>
+              <folio>1031</folio>
+              <folio>1032</folio>
+              <folio>1033</folio>
+              <folio>1034</folio>
+              <folio>1035</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m25967" alias="t6l5c6">
@@ -5482,7 +6965,15 @@
           <questionTitle>Quibus modis peccari possit contra votum, et quando talia peccata
             multiplicentur?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1035</folio>
+              <folio>1036</folio>
+              <folio>1037</folio>
+              <folio>1038</folio>
+              <folio>1039</folio>
+              <folio>1040</folio>
+              <folio>1041</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26116" alias="t6l5c7">
@@ -5491,7 +6982,11 @@
           <questionTitle>Utrum dolere, seu poenitere de voto facto, sit peccatum contra votum vel
             contra aliud praeceptum ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1041</folio>
+              <folio>1042</folio>
+              <folio>1043</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -5502,7 +6997,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1045</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26199" alias="t6l6c1">
@@ -5511,7 +7008,13 @@
           <questionTitle>An possit votum irritari, et quid ac quotuplex sit irritatio
             voti?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1045</folio>
+              <folio>1046</folio>
+              <folio>1047</folio>
+              <folio>1048</folio>
+              <folio>1049</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26309" alias="t6l6c2">
@@ -5520,7 +7023,12 @@
           <questionTitle>Possintne summus pontiefex, aut alii praelati aut principes vota subditorum
             irritare ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1049</folio>
+              <folio>1050</folio>
+              <folio>1051</folio>
+              <folio>1052</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26385" alias="t6l6c3">
@@ -5528,7 +7036,11 @@
           <title>Caput 3</title>
           <questionTitle>An domini possint servorum vota irritare?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1052</folio>
+              <folio>1053</folio>
+              <folio>1054</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26436" alias="t6l6c4">
@@ -5536,7 +7048,17 @@
           <title>Caput 4</title>
           <questionTitle>An unus coniugum possit alterius vota irritare?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1054</folio>
+              <folio>1055</folio>
+              <folio>1056</folio>
+              <folio>1057</folio>
+              <folio>1058</folio>
+              <folio>1059</folio>
+              <folio>1060</folio>
+              <folio>1061</folio>
+              <folio>1062</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26624" alias="t6l6c5">
@@ -5545,7 +7067,13 @@
           <questionTitle>De votis familiorumfamilias puberum, et potestate parentum ad irritanda
             illa.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1062</folio>
+              <folio>1063</folio>
+              <folio>1064</folio>
+              <folio>1065</folio>
+              <folio>1066</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26727" alias="t6l6c6">
@@ -5554,7 +7082,16 @@
           <questionTitle>Utrum parentes irritare possint vota filiorum impuberum, et quando, ac
             quomodo?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1066</folio>
+              <folio>1067</folio>
+              <folio>1068</folio>
+              <folio>1069</folio>
+              <folio>1070</folio>
+              <folio>1071</folio>
+              <folio>1072</folio>
+              <folio>1073</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m26913" alias="t6l6c7">
@@ -5563,7 +7100,15 @@
           <questionTitle>Utrum praelati religionum possint religiosorum vota directe
             irritare?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1073</folio>
+              <folio>1074</folio>
+              <folio>1075</folio>
+              <folio>1076</folio>
+              <folio>1077</folio>
+              <folio>1078</folio>
+              <folio>1079</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27065" alias="t6l6c8">
@@ -5572,7 +7117,12 @@
           <questionTitle>Utrum votum factum de ligentia praelati, vel ab eo confirmatum, possit ab
             eodem vel alio praelato religionis irritari?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1079</folio>
+              <folio>1080</folio>
+              <folio>1081</folio>
+              <folio>1082</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27142" alias="t6l6c9">
@@ -5581,7 +7131,15 @@
           <questionTitle>Utrum sit in ecclesia potestas dispensandi in votis, eaque
             commutandi?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1082</folio>
+              <folio>1083</folio>
+              <folio>1084</folio>
+              <folio>1085</folio>
+              <folio>1086</folio>
+              <folio>1087</folio>
+              <folio>1088</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27303" alias="t6l6c10">
@@ -5590,7 +7148,15 @@
           <questionTitle>In quibus personis sit in ecclesia potestas ordinaria ad dispensandum et
             commutandum vota?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1088</folio>
+              <folio>1089</folio>
+              <folio>1090</folio>
+              <folio>1091</folio>
+              <folio>1092</folio>
+              <folio>1093</folio>
+              <folio>1094</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27450" alias="t6l6c11">
@@ -5599,7 +7165,12 @@
           <questionTitle>Qui sint singulorum fidelium praelati ordinarii ad eorum vota
             dispensanda.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1094</folio>
+              <folio>1095</folio>
+              <folio>1096</folio>
+              <folio>1097</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27528" alias="t6l6c12">
@@ -5608,7 +7179,14 @@
           <questionTitle>An potestas ad dispensandum in voto delegari possit, et an eo ipso
             censeatur concessa ad commutandum?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1097</folio>
+              <folio>1098</folio>
+              <folio>1099</folio>
+              <folio>1100</folio>
+              <folio>1101</folio>
+              <folio>1102</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27651" alias="t6l6c13">
@@ -5617,7 +7195,11 @@
           <questionTitle>An facultas dispensandi vel commutandi vota restringatur ad emissa, vel
             extendatur ad emittenda?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1102</folio>
+              <folio>1103</folio>
+              <folio>1104</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27705" alias="t6l6c14">
@@ -5626,7 +7208,18 @@
           <questionTitle>An facultas delegata ad dispensandum, vel comprehendat vota commutandum
             vota, jurata seu pia juramenta?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1104</folio>
+              <folio>1105</folio>
+              <folio>1106</folio>
+              <folio>1107</folio>
+              <folio>1108</folio>
+              <folio>1109</folio>
+              <folio>1110</folio>
+              <folio>1111</folio>
+              <folio>1112</folio>
+              <folio>1113</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m27927" alias="t6l6c15">
@@ -5635,7 +7228,12 @@
           <questionTitle>Utrum potestas dispensandi in votis, vel illa commutandi, extendatur ad
             vota facta in commodum terth?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1113</folio>
+              <folio>1114</folio>
+              <folio>1115</folio>
+              <folio>1116</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28017" alias="t6l6c16">
@@ -5644,7 +7242,15 @@
           <questionTitle>De facultate eligendi personam qui possit vota commutare, vel in eis
             dispensarbe.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1116</folio>
+              <folio>1117</folio>
+              <folio>1118</folio>
+              <folio>1119</folio>
+              <folio>1120</folio>
+              <folio>1121</folio>
+              <folio>1122</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28170" alias="t6l6c17">
@@ -5652,7 +7258,15 @@
           <title>Caput 17</title>
           <questionTitle>Utrum ad dispensationem voti sit causa necessaria?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1122</folio>
+              <folio>1123</folio>
+              <folio>1124</folio>
+              <folio>1125</folio>
+              <folio>1126</folio>
+              <folio>1127</folio>
+              <folio>1128</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28327" alias="t6l6c18">
@@ -5661,7 +7275,14 @@
           <questionTitle>Utrum ad commutandum votum in aliquid melius sit necessaria potestas
             praelati, et causa specialis ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1128</folio>
+              <folio>1129</folio>
+              <folio>1130</folio>
+              <folio>1131</folio>
+              <folio>1132</folio>
+              <folio>1133</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28435" alias="t6l6c19">
@@ -5670,7 +7291,16 @@
           <questionTitle>Utrum ad voti commutationem in aequale aut minus, praelati auctoritas et
             causa requirantur ?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1133</folio>
+              <folio>1134</folio>
+              <folio>1135</folio>
+              <folio>1136</folio>
+              <folio>1137</folio>
+              <folio>1138</folio>
+              <folio>1139</folio>
+              <folio>1140</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28620" alias="t6l6c20">
@@ -5679,7 +7309,17 @@
           <questionTitle>Quam vim habeat commutatio ad tollendam omnino voti obligationem circa
             friorem materiam?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1140</folio>
+              <folio>1141</folio>
+              <folio>1142</folio>
+              <folio>1143</folio>
+              <folio>1144</folio>
+              <folio>1145</folio>
+              <folio>1146</folio>
+              <folio>1147</folio>
+              <folio>1148</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28821" alias="t6l6c21">
@@ -5688,7 +7328,15 @@
           <questionTitle>De dispensatione et commutatione votorum quae sunt pontifici
             reservata.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1148</folio>
+              <folio>1149</folio>
+              <folio>1150</folio>
+              <folio>1151</folio>
+              <folio>1152</folio>
+              <folio>1153</folio>
+              <folio>1154</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m28975" alias="t6l6c22">
@@ -5696,7 +7344,15 @@
           <title>Caput 22</title>
           <questionTitle>De votis conditionalibus, quando et quomodo reservata sint.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1154</folio>
+              <folio>1155</folio>
+              <folio>1156</folio>
+              <folio>1157</folio>
+              <folio>1158</folio>
+              <folio>1159</folio>
+              <folio>1160</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m29124" alias="t6l6c23">
@@ -5705,7 +7361,13 @@
           <questionTitle>An vota poenalia in materiis votorum reservatorum reservata
             sint?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1160</folio>
+              <folio>1161</folio>
+              <folio>1162</folio>
+              <folio>1163</folio>
+              <folio>1164</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m29230" alias="t6l6c24">
@@ -5714,7 +7376,10 @@
           <questionTitle>De votis sub disjunctione factis de materia reservata et non
             reservata.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1164</folio>
+              <folio>1165</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m29259" alias="t6l6c25">
@@ -5723,7 +7388,11 @@
           <questionTitle>De potestate delegata ad dispensandum, vel commutandum vota
             reservata.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1165</folio>
+              <folio>1166</folio>
+              <folio>1167</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m29318" alias="t6l6c26">
@@ -5732,7 +7401,15 @@
           <questionTitle>Utrum episcopi, vel qui habent a pontifice facultatem generalem commutandi
             vota, possint in aliquibus casibus commutare vota reservata?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1167</folio>
+              <folio>1168</folio>
+              <folio>1169</folio>
+              <folio>1170</folio>
+              <folio>1171</folio>
+              <folio>1172</folio>
+              <folio>1173</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szovsr-m29464" alias="t6l6c27">
@@ -5741,7 +7418,15 @@
           <questionTitle>Utrum ad valorem dispensationis necessaria sit voluntas libera praelati per
             aliquam verborum formam expressa?</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv14"/>
+            <witness ref="#cod-sqqv14">
+              <folio>1173</folio>
+              <folio>1174</folio>
+              <folio>1175</folio>
+              <folio>1176</folio>
+              <folio>1177</folio>
+              <folio>1178</folio>
+              <folio>1179</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
