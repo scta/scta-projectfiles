@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
   <header>
     <authorName>Giles of Viterbo</authorName>
     <commentaryName>Commentarius in Libros Sententiarum</commentaryName>
@@ -18,10 +16,1671 @@
         <title>Vat. lat. 6325</title>
         <initial>cod-gvvl63</initial>
       </witness>
+      <!--
+        V = cod-gvvl63
+        A Rome, Biblioteca Angelica 636:
+        see: https://manus.iccu.sbn.it/en/risultati-ricerca-manoscritti/-/manus-search/detail/678109?monocampo=canisio%2C+egidio&n=v&monocampo%3Atipo=OR&page=2&biblioteca_s%5B%5D=Roma%2C+Biblioteca+Angelica&__id=generated_id_40
+
+        H Hamburg, Staats- und Universitätsbibliothek, MS. philol. 308
+
+        N1: Naples, Biblioteca Nazionale Vitt. Em. III, Ms. VIII F 8
+        N2: Naples, Biblioteca Nazionale Vitt. Em. III, Ms XVI H 71
+        -->
     </hasWitnesses>
   </header>
   <div id="body">
     <head>Commentarius in Libros Sententiarum</head>
-    
+    <item id="gvscgv-t00047">
+      <fileName filestem="gvscgv-t00047"/>
+      <title>Prooemium</title>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>1r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00062" alias="c1">
+      <fileName filestem="gvscgv-t00062"/>
+      <title>1</title>
+      <questionTitle>Felices hic sumus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>1r</folio>
+          <folio>1v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00081" alias="c2">
+      <fileName filestem="gvscgv-t00081"/>
+      <title>2</title>
+      <questionTitle>Amor necessarius</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>1v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00098" alias="c3">
+      <fileName filestem="gvscgv-t00098"/>
+      <title>3</title>
+      <questionTitle>Scientia quae?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>1v</folio>
+          <folio>2r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00118" alias="c4">
+      <fileName filestem="gvscgv-t00118"/>
+      <title>4</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>2r</folio>
+          <folio>2v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00137" alias="c5">
+      <fileName filestem="gvscgv-t00137"/>
+      <title>5</title>
+      <questionTitle>Scientia est</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>2v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00154" alias="c6">
+      <fileName filestem="gvscgv-t00154"/>
+      <title>6</title>
+      <questionTitle>Subalterna</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>2v</folio>
+          <folio>3r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00173" alias="c7">
+      <fileName filestem="gvscgv-t00173"/>
+      <title>7</title>
+      <questionTitle>Sapientia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>3r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00190" alias="c8">
+      <fileName filestem="gvscgv-t00190"/>
+      <title>8</title>
+      <questionTitle>Subiectum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>3r</folio>
+          <folio>3v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00209" alias="c9">
+      <fileName filestem="gvscgv-t00209"/>
+      <title>9</title>
+      <questionTitle>Una</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>3v</folio>
+          <folio>4r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00229" alias="c10">
+      <fileName filestem="gvscgv-t00229"/>
+      <title>10</title>
+      <questionTitle>Praestantissima</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>4r</folio>
+          <folio>4v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00248" alias="c11">
+      <fileName filestem="gvscgv-t00248"/>
+      <title>11</title>
+      <questionTitle>Argumentis ne?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>4v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00265" alias="c12">
+      <fileName filestem="gvscgv-t00265"/>
+      <title>12</title>
+      <questionTitle>Metaphoris</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>4v</folio>
+          <folio>5r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00284" alias="c13">
+      <fileName filestem="gvscgv-t00284"/>
+      <title>13</title>
+      <questionTitle>Poetica</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>5r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00301" alias="c14">
+      <fileName filestem="gvscgv-t00301"/>
+      <title>14</title>
+      <questionTitle>Poetica scientia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>5r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00318" alias="c15">
+      <fileName filestem="gvscgv-t00318"/>
+      <title>15</title>
+      <questionTitle>Practica an speculativa?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>5r</folio>
+          <folio>5v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00338" alias="c16">
+      <fileName filestem="gvscgv-t00338"/>
+      <title>16</title>
+      <questionTitle>Amor quasi formale et quasi finis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>5v</folio>
+          <folio>6r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- dist 1 -->
+    <item id="gvscgv-t00359" alias="d1q1">
+      <fileName filestem="gvscgv-t00359"/>
+      <title>Prima Quaestio </title>
+      <questionTitle>Principia an divinitus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>6r</folio>
+          <folio>6v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00378" alias="c17">
+      <fileName filestem="gvscgv-t00378"/>
+      <title>17</title>
+      <questionTitle>Frui cuius actus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>6v</folio>
+          <folio>7r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00397" alias="c18">
+      <fileName filestem="gvscgv-t00397"/>
+      <title>18</title>
+      <questionTitle>Frui cuius virtutis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>7r</folio>
+          <folio>7v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00416" alias="c19">
+      <fileName filestem="gvscgv-t00416"/>
+      <title>19</title>
+      <questionTitle>Uti cuius potentiae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>7v</folio>
+          <folio>8r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00436" alias="c20">
+      <fileName filestem="gvscgv-t00436"/>
+      <title>20</title>
+      <questionTitle>Uti est voluntatis: quomodo?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>8r</folio>
+          <folio>8v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00455" alias="c21">
+      <fileName filestem="gvscgv-t00455"/>
+      <title>21</title>
+      <questionTitle>Quonam fruamur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>8v</folio>
+          <folio>9r</folio>
+          <folio>9v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00476" alias="c22">
+      <fileName filestem="gvscgv-t00476"/>
+      <title>22</title>
+      <questionTitle>Personarum fruitio una</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>9v</folio>
+          <folio>10r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00495" alias="c23">
+      <fileName filestem="gvscgv-t00495"/>
+      <title>23</title>
+      <questionTitle>Utimur aliis omnibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>10r</folio>
+          <folio>10v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00514" alias="c24">
+      <fileName filestem="gvscgv-t00514"/>
+      <title>24</title>
+      <questionTitle>Deo an utamur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>10v</folio>
+          <folio>11r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00533" alias="c25">
+      <fileName filestem="gvscgv-t00533"/>
+      <title>25</title>
+      <questionTitle>Deus unus rationibus confirmatur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>11r</folio>
+          <folio>11v</folio>
+          <folio>12r</folio>
+          <folio>12v</folio>
+          <folio>13r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00559" alias="c26">
+      <fileName filestem="gvscgv-t00559"/>
+      <title>26</title>
+      <questionTitle>Plura sunt in Deo, quae Attributa vocant</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>13r</folio>
+          <folio>13v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00578" alias="c27">
+      <fileName filestem="gvscgv-t00578"/>
+      <title>27</title>
+      <questionTitle>Sublimius ista in Deo sunt</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>13v</folio>
+          <folio>14r</folio>
+          <folio>14v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00599" alias="c28">
+      <fileName filestem="gvscgv-t00599"/>
+      <title>28</title>
+      <questionTitle>Propriene in Deo</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>14v</folio>
+          <folio>15r</folio>
+          <folio>15v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00620" alias="c29">
+      <fileName filestem="gvscgv-t00620"/>
+      <title>29</title>
+      <questionTitle>Numero perfectionum aliquid in Deo respondet</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>15v</folio>
+          <folio>16r</folio>
+          <folio>16v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00641" alias="c30">
+      <fileName filestem="gvscgv-t00641"/>
+      <title>30</title>
+      <questionTitle>Quid respondet? quod non synonyma, quod fundamentum propinquum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>16v</folio>
+          <folio>17r</folio>
+          <folio>17v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00662" alias="c31">
+      <fileName filestem="gvscgv-t00662"/>
+      <title>31</title>
+      <questionTitle>Multitudinis illius causa quae?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>17v</folio>
+          <folio>18r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d 2 -->
+    <item id="gvscgv-t00684" alias="c32">
+      <fileName filestem="gvscgv-t00684"/>
+      <title>32</title>
+      <questionTitle>Essentia una numero in pluribus potest esse</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>18r</folio>
+          <folio>18v</folio>
+          <folio>19r</folio>
+          <folio>19v</folio>
+          <folio>20r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00709" alias="c33">
+      <fileName filestem="gvscgv-t00709"/>
+      <title>33</title>
+      <questionTitle>Personae plures sunt et Trinitas idque fide sentiendum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>20r</folio>
+          <folio>20v</folio>
+          <folio>21r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00730" alias="c34">
+      <fileName filestem="gvscgv-t00730"/>
+      <title>34</title>
+      <questionTitle>Ratione etiam confirmatur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>21r</folio>
+          <folio>21v</folio>
+          <folio>22r</folio>
+          <folio>22v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00753" alias="c35">
+      <fileName filestem="gvscgv-t00753"/>
+      <title>35</title>
+      <questionTitle>Re distinctae. Contra Sabellicum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>22v</folio>
+          <folio>23r</folio>
+          <folio>23v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00774" alias="c36">
+      <fileName filestem="gvscgv-t00774"/>
+      <title>36</title>
+      <questionTitle>Deus penitus cognosci nisi a se non potest</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>23v</folio>
+          <folio>24r</folio>
+          <folio>24v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00795" alias="c37">
+      <fileName filestem="gvscgv-t00795"/>
+      <title>37</title>
+      <questionTitle>Deus cognoscitur a nobis; et non omnino</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>24v</folio>
+          <folio>25r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00815" alias="c38">
+      <fileName filestem="gvscgv-t00815"/>
+      <title>38</title>
+      <questionTitle>Deum esse est per se notum quod male negant quidam</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>25r</folio>
+          <folio>25v</folio>
+          <folio>26r</folio>
+          <folio>26v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00838" alias="c39">
+      <fileName filestem="gvscgv-t00838"/>
+      <title>39</title>
+      <questionTitle>Non est per se notum in se tantum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>26v</folio>
+          <folio>27r</folio>
+          <folio>27v</folio>
+          <folio>28r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00861" alias="c40">
+      <fileName filestem="gvscgv-t00861"/>
+      <title>40</title>
+      <questionTitle>Non solis sapientibus notam est Deum esse</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>28r</folio>
+          <folio>28v</folio>
+          <folio>29r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00882" alias="c41">
+      <fileName filestem="gvscgv-t00882"/>
+      <title>41</title>
+      <questionTitle>Deum esse per se notum est omnibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>29r</folio>
+          <folio>29v</folio>
+          <folio>30r</folio>
+          <folio>30v</folio>
+          <folio>31r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00907" alias="c42">
+      <fileName filestem="gvscgv-t00907"/>
+      <title>42</title>
+      <questionTitle>Per effecta ac posteriora cognosci Deum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>31r</folio>
+          <folio>31v</folio>
+          <folio>32r</folio>
+          <folio>32v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00930" alias="c43">
+      <fileName filestem="gvscgv-t00930"/>
+      <title>43</title>
+      <questionTitle>Per Aristotelis philosophiam inveniri Trinitatem non posse</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>32v</folio>
+          <folio>33r</folio>
+          <folio>33v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t00952" alias="c44">
+      <fileName filestem="gvscgv-t00952"/>
+      <title>44</title>
+      <questionTitle>Ab Academia multa de divinis personis scripta esse</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>33v</folio>
+          <folio>34r</folio>
+          <folio>34v</folio>
+          <folio>35r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- forgotten chapter break; heading text in margin -->
+    <item id="gvscgv-t00977" alias="noNum">
+      <fileName filestem="gvscgv-t00977"/>
+      <title>Naturaliter</title>
+      <questionTitle>Naturaliter divinae personae intelligi possunt</questionTitle>
+      <hasWitnesses>
+        <witness ref="">
+          <folio>35r</folio>
+          <folio>35v</folio>
+          <folio>36r</folio>
+          <folio>36v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d3 -->
+    <item id="gvscgv-t01002" alias="c45">
+      <fileName filestem="gvscgv-t01002"/>
+      <title>45</title>
+      <questionTitle>Vestigium divinum in humanis est. Vestigatio et venatio</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>36v</folio>
+          <folio>37r</folio>
+          <folio>37v</folio>
+          <folio>38r</folio>
+          <folio>38v</folio>
+          <folio>39r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01030" alias="c46">
+      <fileName filestem="gvscgv-t01030"/>
+      <title>46</title>
+      <questionTitle>Vestigium habet partes tres. Montes Gigantum. Platonis Aristotelisque concordia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>39r</folio>
+          <folio>39v</folio>
+          <folio>40r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01052" alias="c47">
+      <fileName filestem="gvscgv-t01052"/>
+      <title>47</title>
+      <questionTitle>Vestigii partes, quae ab antiqua theologia et ab aliis nomina sortitae sunt ubi de tribus parcis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>40r</folio>
+          <folio>40v</folio>
+          <folio>41r</folio>
+          <folio>41v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01075" alias="c48">
+      <fileName filestem="gvscgv-t01075"/>
+      <title>48</title>
+      <questionTitle>Vestigium in ratione carentibus Et cur dii multi ab antiquis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>41v</folio>
+          <folio>42r</folio>
+          <folio>42v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01096" alias="c49">
+      <fileName filestem="gvscgv-t01096"/>
+      <title>49</title>
+      <questionTitle>Fine ac perfectiones sunt tres una per se ac duae imitantes in quibu snaturae partes vestigium conflant</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>42v</folio>
+          <folio>43r</folio>
+          <folio>43v</folio>
+          <folio>44r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01119" alias="c50">
+      <fileName filestem="gvscgv-t01119"/>
+      <title>50</title>
+      <questionTitle>Duo subiecta sunt divinae similitudinis ubi vestigium figitur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>44r</folio>
+          <folio>44v</folio>
+          <folio>45r</folio>
+          <folio>45v</folio>
+          <folio>46r</folio>
+          <folio>46v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01147" alias="c51">
+      <fileName filestem="gvscgv-t01147"/>
+      <title>51</title>
+      <questionTitle>Vestigium reperitur etiam in rationalibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>46v</folio>
+          <folio>47r</folio>
+          <folio>47v</folio>
+          <folio>48r</folio>
+          <folio>48v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01172" alias="c52">
+      <fileName filestem="gvscgv-t01172"/>
+      <title>52</title>
+      <questionTitle>Aeque in omnibus est vestigium ac non aeque</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>48v</folio>
+          <folio>49r</folio>
+          <folio>49v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01194" alias="c53">
+      <fileName filestem="gvscgv-t01194"/>
+      <title>53</title>
+      <questionTitle>Similitudo vestigio praestantior imago est quae in secundo ordine reperitur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>49v</folio>
+          <folio>50r</folio>
+          <folio>50v</folio>
+          <folio>51r</folio>
+          <folio>51v</folio>
+          <folio>52r</folio>
+          <folio>52v</folio>
+          <folio>53r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01226" alias="c54">
+      <fileName filestem="gvscgv-t01226"/>
+      <title>54</title>
+      <questionTitle>Imago dicenda est similitudo in rationalibus et quid imago</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>53r</folio>
+          <folio>53v</folio>
+          <folio>54r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01247" alias="c55">
+      <fileName filestem="gvscgv-t01247"/>
+      <title>55</title>
+      <questionTitle>Hominem et animam imagine esse quid homo sit conciliatioque</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>54r</folio>
+          <folio>54v</folio>
+          <folio>55r</folio>
+          <folio>55v</folio>
+          <folio>56r</folio>
+          <folio>56v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01275" alias="c56">
+      <fileName filestem="gvscgv-t01275"/>
+      <title>56</title>
+      <questionTitle>Angelus imago est Diana, Lunam Endymion</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>56v</folio>
+          <folio>57r</folio>
+          <folio>57v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01296" alias="c57">
+      <fileName filestem="gvscgv-t01296"/>
+      <title>57</title>
+      <questionTitle>Imago in Angelis, praestantior hominis imagine est. Pieridesque victae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>57v</folio>
+          <folio>58r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01315" alias="c58">
+      <fileName filestem="gvscgv-t01315"/>
+      <title>58</title>
+      <questionTitle>Imago in homine potior quam in angelo est modo quodam Daphnis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>58r</folio>
+          <folio>58v</folio>
+          <folio>59r</folio>
+          <folio>59v</folio>
+          <folio>60r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01341" alias="c59">
+      <fileName filestem="gvscgv-t01341"/>
+      <title>59</title>
+      <questionTitle>Imago in intelligentia et in ratione quomodo diverse ac de Proserpina</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>60r</folio>
+          <folio>60v</folio>
+          <folio>61r</folio>
+          <folio>61v</folio>
+          <folio>62r</folio>
+          <folio>62v</folio>
+          <folio>63r</folio>
+          <folio>63v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01373" alias="c60">
+      <fileName filestem="gvscgv-t01373"/>
+      <title>60</title>
+      <questionTitle>Imago partes tres habet bifariam illae quidem ostenduntur sirenes deorum insignia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>63v</folio>
+          <folio>64r</folio>
+          <folio>64v</folio>
+          <folio>65r</folio>
+          <folio>65v</folio>
+          <folio>66r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01401" alias="c61">
+      <fileName filestem="gvscgv-t01401"/>
+      <title>61</title>
+      <questionTitle>Ex actu praecipue imago sumenda est modo quodam ex habitu et potentia inde de gratiis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>66r</folio>
+          <folio>66v</folio>
+          <folio>67r</folio>
+          <folio>67v</folio>
+          <folio>68r</folio>
+          <folio>68v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01429" alias="c62">
+      <fileName filestem="gvscgv-t01429"/>
+      <title>62</title>
+      <questionTitle>Obiectum esse Deum quo contemplando amandoque imago fit, Paris</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>68v</folio>
+          <folio>69r</folio>
+          <folio>69v</folio>
+          <folio>70r</folio>
+          <folio>70v</folio>
+          <folio>71r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01457" alias="c63">
+      <fileName filestem="gvscgv-t01457"/>
+      <title>63</title>
+      <questionTitle>Imago nostra respondet Trinitati apertissime</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>71v</folio>
+          <folio>72r</folio>
+          <folio>72v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01478" alias="c64">
+      <fileName filestem="gvscgv-t01478"/>
+      <title>64</title>
+      <questionTitle>Potentiae ab anima distinguuntur de Iano, Pane, Solis bobus, Lampetie</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>72v</folio>
+          <folio>73r</folio>
+          <folio>73v</folio>
+          <folio>74r</folio>
+          <folio>74v</folio>
+          <folio>75r</folio>
+          <folio>75v</folio>
+          <folio>76r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01511" alias="c65">
+      <fileName filestem="gvscgv-t01511"/>
+      <title>65</title>
+      <questionTitle>Inter potentias animae tres sunt ordines, Venus Pallas Iuno</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>76r</folio>
+          <folio>76v</folio>
+          <folio>77r</folio>
+          <folio>77v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01534" alias="c66">
+      <fileName filestem="gvscgv-t01534"/>
+      <title>66</title>
+      <questionTitle>Origo est in potentiis, et altera est ab altera Latona Diana Phoebus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>77v</folio>
+          <folio>78r</folio>
+          <folio>78v</folio>
+          <folio>79r</folio>
+          <folio>79v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 4 -->
+    <item id="gvscgv-t01561" alias="c67">
+      <fileName filestem="gvscgv-t01561"/>
+      <title>67</title>
+      <questionTitle>Generatio in divinis admittenda Minerva</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>79v</folio>
+          <folio>80r</folio>
+          <folio>80v</folio>
+          <folio>81r</folio>
+          <folio>81v</folio>
+          <folio>82r</folio>
+          <folio>82v</folio>
+          <folio>83r</folio>
+          <folio>83v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01595" alias="c68">
+      <fileName filestem="gvscgv-t01595"/>
+      <title>68</title>
+      <questionTitle>Deus Deum genuit vera est oratio</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>83v</folio>
+          <folio>84r</folio>
+          <folio>84v</folio>
+          <folio>85r</folio>
+          <folio>85v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01620" alias="c69">
+      <fileName filestem="gvscgv-t01620"/>
+      <title>69</title>
+      <questionTitle>Deus alium Deum genuit falsa est oratio. Homerus caecus Oraculorum defectus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>85v</folio>
+          <folio>86r</folio>
+          <folio>86v</folio>
+          <folio>87r</folio>
+          <folio>87v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01646" alias="c70">
+      <fileName filestem="gvscgv-t01646"/>
+      <title>70</title>
+      <questionTitle>Affirmari de Deo multa possunt Aegyptiae litterae Etrusca Theologia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>87v</folio>
+          <folio>88r</folio>
+          <folio>88v</folio>
+          <folio>89r</folio>
+          <folio>89v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01671" alias="c71">
+      <fileName filestem="gvscgv-t01671"/>
+      <title>71</title>
+      <questionTitle>Divinitas est Pater Deus est divinitas altera vera ex eodem altera ex forma</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>89v</folio>
+          <folio>90r</folio>
+          <folio>90v</folio>
+          <folio>91r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d 5 -->
+    <item id="gvscgv-t01696" alias="c72">
+      <fileName filestem="gvscgv-t01696"/>
+      <title>72</title>
+      <questionTitle>Natura sive essentia non generat</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>91r</folio>
+          <folio>91v</folio>
+          <folio>92r</folio>
+          <folio>92v</folio>
+          <folio>93r</folio>
+          <folio>93v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01724" alias="c73">
+      <fileName filestem="gvscgv-t01724"/>
+      <title>73</title>
+      <questionTitle>Essentia est res generans quomodo vera falsaque sit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>93v</folio>
+          <folio>94r</folio>
+          <folio>94v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01745" alias="c74">
+      <fileName filestem="gvscgv-t01745"/>
+      <title>74</title>
+      <questionTitle>Deus generat vera est oratio, ordoque nominum ponitur quae ad essentiam quodammodo pertinent</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>94v</folio>
+          <folio>95r</folio>
+          <folio>95v</folio>
+          <folio>96r</folio>
+          <folio>96v</folio>
+          <folio>97r</folio>
+          <folio>97v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01776" alias="c75">
+      <fileName filestem="gvscgv-t01776"/>
+      <title>75</title>
+      <questionTitle>Filius de substantia Patris</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>97v</folio>
+          <folio>98r</folio>
+          <folio>98v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01797" alias="c76">
+      <fileName filestem="gvscgv-t01797"/>
+      <title>76</title>
+      <questionTitle>Filius non ex nihilo</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>98v</folio>
+          <folio>99r</folio>
+          <folio>99v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01818" alias="c77">
+      <fileName filestem="gvscgv-t01818"/>
+      <title>77</title>
+      <questionTitle>Essentia generationis est terminus Iris Taumantis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>100r</folio>
+          <folio>100v</folio>
+          <folio>101r</folio>
+          <folio>101v</folio>
+          <folio>102r</folio>
+          <folio>102v</folio>
+          <folio>103r</folio>
+          <folio>103v</folio>
+          <folio>104r</folio>
+          <folio>104v</folio>
+          <folio>105r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 6 -->
+    <item id="gvscgv-t01858" alias="c78">
+      <fileName filestem="gvscgv-t01858"/>
+      <title>78</title>
+      <questionTitle>Deus Filium generat voluntate, modo quodam, alio non</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>105r</folio>
+          <folio>105v</folio>
+          <folio>106r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01879" alias="c79">
+      <fileName filestem="gvscgv-t01879"/>
+      <title>79</title>
+      <questionTitle>Necessitate genuit, Tres Parcae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>106r</folio>
+          <folio>106v</folio>
+          <folio>107r</folio>
+          <folio>107v</folio>
+          <folio>108r</folio>
+          <folio>108v</folio>
+          <folio>109r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01910" alias="c80">
+      <fileName filestem="gvscgv-t01910"/>
+      <title>80</title>
+      <questionTitle>Natura in Deo est</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>109r</folio>
+          <folio>109v</folio>
+          <folio>110r</folio>
+          <folio>110v</folio>
+          <folio>111r</folio>
+          <folio>111v</folio>
+          <folio>112r</folio>
+          <folio>112v</folio>
+          <folio>113r</folio>
+          <folio>113v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01946" alias="c81">
+      <fileName filestem="gvscgv-t01946"/>
+      <title>81</title>
+      <questionTitle>Pater genuit Filium natura</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>113v</folio>
+          <folio>114r</folio>
+          <folio>114v</folio>
+          <folio>115r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 7 -->
+    <item id="gvscgv-t01971" alias="c82">
+      <fileName filestem="gvscgv-t01971"/>
+      <title>82</title>
+      <questionTitle>Gignendi potestas Deo inest</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>115r</folio>
+          <folio>115v</folio>
+          <folio>116r</folio>
+          <folio>116v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t01994" alias="c83">
+      <fileName filestem="gvscgv-t01994"/>
+      <title>83</title>
+      <questionTitle>Potentia gignendi quamvis essentia sit, modo tamen aliquo ad aliquid dicit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>116v</folio>
+          <folio>117r</folio>
+          <folio>117v</folio>
+          <folio>118r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02017" alias="c84">
+      <fileName filestem="gvscgv-t02017"/>
+      <title>84</title>
+      <questionTitle>Potentia gignendi creandique ratione demonstratur hinc eadem, hinc diversa</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>118r</folio>
+          <folio>118v</folio>
+          <folio>119r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02039" alias="c85">
+      <fileName filestem="gvscgv-t02039"/>
+      <title>85</title>
+      <questionTitle>Gignendi potestas est etiam in Filio, non tamen ut Filium gignere possit alterum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>119r</folio>
+          <folio>119v</folio>
+          <folio>120r</folio>
+          <folio>120v</folio>
+          <folio>121r</folio>
+          <folio>121v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 8 -->
+    <item id="gvscgv-t02069" alias="c86">
+      <fileName filestem="gvscgv-t02069"/>
+      <title>86</title>
+      <questionTitle>Esse Deo maxime convenit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>122r</folio>
+          <folio>122v</folio>
+          <folio>123r</folio>
+          <folio>123v</folio>
+          <folio>124r</folio>
+          <folio>124v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02097" alias="c87">
+      <fileName filestem="gvscgv-t02097"/>
+      <title>87</title>
+      <questionTitle>Aeternitas quid Deo Tribuitur? Quomodo Unius Dei est? Quomodo aliorum? De unitate et numero, Pythagora, et carnium abstinentia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>124v</folio>
+          <folio>125r</folio>
+          <folio>125v</folio>
+          <folio>126r</folio>
+          <folio>126v</folio>
+          <folio>127r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02125" alias="c88">
+      <fileName filestem="gvscgv-t02125"/>
+      <title>88</title>
+      <questionTitle>De omnino immotus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>127r</folio>
+          <folio>127v</folio>
+          <folio>128r</folio>
+          <folio>128v</folio>
+          <folio>129r</folio>
+          <folio>129v</folio>
+          <folio>130r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02155" alias="c89">
+      <fileName filestem="gvscgv-t02155"/>
+      <title>89</title>
+      <questionTitle>Deus incorporeus: cur animal, cur vita dicitur? Daedalus, Icarus; intellectus, ratio</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>130v</folio>
+          <folio>131r</folio>
+          <folio>131v</folio>
+          <folio>132r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02179" alias="c90">
+      <fileName filestem="gvscgv-t02179"/>
+      <title>90</title>
+      <questionTitle>Deus non coagmentatus, non compositus est</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>132v</folio>
+          <folio>133r</folio>
+          <folio>133v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02200" alias="c91">
+      <fileName filestem="gvscgv-t02200"/>
+      <title>91</title>
+      <questionTitle>Deus in nullo genere est Iuno. Aeolus, Gradus quinque ad bene beateque agendum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>133v</folio>
+          <folio>134r</folio>
+          <folio>134v</folio>
+          <folio>135r</folio>
+          <folio>135v</folio>
+          <folio>136r</folio>
+          <folio>136v</folio>
+          <folio>137r</folio>
+          <folio>137v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02234" alias="c92">
+      <fileName filestem="gvscgv-t02234"/>
+      <title>92</title>
+      <questionTitle>In Deo nihil est praedicamentorum, nisi substantia et relatio sublimi quodam modo</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>137v</folio>
+          <folio>138r</folio>
+          <folio>138v</folio>
+          <folio>139r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02257" alias="c93">
+      <fileName filestem="gvscgv-t02257"/>
+      <title>93</title>
+      <questionTitle>Deus simplex est</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>139r</folio>
+          <folio>139v</folio>
+          <folio>140r</folio>
+          <folio>140v</folio>
+          <folio>141r</folio>
+          <folio>141v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02285" alias="c94">
+      <fileName filestem="gvscgv-t02285"/>
+      <title>94</title>
+      <questionTitle>Deus solus simplex est</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>141v</folio>
+          <folio>142r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02304" alias="c95">
+      <fileName filestem="gvscgv-t02304"/>
+      <title>95</title>
+      <questionTitle>Anima simplex omnino non est. Prometheus, ferulaque et harundo. Differentiae quattuor</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>142r</folio>
+          <folio>142v</folio>
+          <folio>143r</folio>
+          <folio>143v</folio>
+          <folio>144r</folio>
+          <folio>144v</folio>
+          <folio>145r</folio>
+          <folio>145v</folio>
+          <folio>146r</folio>
+          <folio>146v</folio>
+          <folio>147r</folio>
+          <folio>147v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02346" alias="c96">
+      <fileName filestem="gvscgv-t02346"/>
+      <title>96</title>
+      <questionTitle>Anima ubi nam sit, Et quibus in membris?</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>147v</folio>
+          <folio>148r</folio>
+          <folio>148v</folio>
+          <folio>149r</folio>
+          <folio>149v</folio>
+          <folio>150r</folio>
+          <folio>150v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- D. 9 -->
+    <item id="gvscgv-t02378" alias="c97">
+      <fileName filestem="gvscgv-t02378"/>
+      <title>97</title>
+      <questionTitle>Filius a parente alius, non aliud</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>150v</folio>
+          <folio>151r</folio>
+          <folio>151v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02399" alias="c98">
+      <fileName filestem="gvscgv-t02399"/>
+      <title>98</title>
+      <questionTitle>Vocum genera tria, ac quo pacto plures aeterni negandi affirmandique sint</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>151v</folio>
+          <folio>152r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02418" alias="c99">
+      <fileName filestem="gvscgv-t02418"/>
+      <title>99</title>
+      <questionTitle>Pater Filio prior non dicitur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>152r</folio>
+          <folio>152v</folio>
+          <folio>153r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02439" alias="c100">
+      <fileName filestem="gvscgv-t02439"/>
+      <title>100</title>
+      <questionTitle>Generationis divinae et humanae differentiae filius gignitur, genitus est, gigneturque semper</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>153r</folio>
+          <folio>153v</folio>
+          <folio>154r</folio>
+          <folio>154v</folio>
+          <folio>155r</folio>
+          <folio>155v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 10 -->
+    <item id="gvscgv-t02470" alias="c101">
+      <fileName filestem="gvscgv-t02470"/>
+      <title>101</title>
+      <questionTitle>Spiritus sanctus voluntate producitur, Amorque appellatur non Venus: utriusque differentiae ex Platone Maroneque</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>155v</folio>
+          <folio>156r</folio>
+          <folio>156v</folio>
+          <folio>157r</folio>
+          <folio>157v</folio>
+          <folio>158r</folio>
+          <folio>158v</folio>
+          <folio>159r</folio>
+          <folio>159v</folio>
+          <folio>160r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02506" alias="c102">
+      <fileName filestem="gvscgv-t02506"/>
+      <title>102</title>
+      <questionTitle>Spiritus sanctus amor cur dicatur Patrisque in Filium, et contra, quorum etiam nexus est; ac qua ratione Spiritus "Sanctus" nominatus sit</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>160r</folio>
+          <folio>160v</folio>
+          <folio>161r</folio>
+          <folio>161v</folio>
+          <folio>162r</folio>
+          <folio>162v</folio>
+          <folio>163r</folio>
+          <folio>163v</folio>
+          <folio>164r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02540" alias="c103">
+      <fileName filestem="gvscgv-t02540"/>
+      <title>103</title>
+      <questionTitle>Tres personae dumtaxat sunt per duas actiones naturae ac voluntatis. Pan Syringa, et dii alii cum Iano</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>164r</folio>
+          <folio>164v</folio>
+          <folio>165r</folio>
+          <folio>165v</folio>
+          <folio>166r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 11 -->
+    <item id="gvscgv-t02567" alias="c104">
+      <fileName filestem="gvscgv-t02567"/>
+      <title>104</title>
+      <questionTitle>Spiritus a filio etiam manat. Quomodo spirent ut unum; in quo sint unum. Sunt etiam unus et plures Spiratores</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>166r</folio>
+          <folio>166v</folio>
+          <folio>167r</folio>
+          <folio>167v</folio>
+          <folio>168r</folio>
+          <folio>168v</folio>
+          <folio>169r</folio>
+          <folio>169v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d12 -->
+    <item id="gvscgv-t02602" alias="c105">
+      <fileName filestem="gvscgv-t02602"/>
+      <title>105</title>
+      <questionTitle>Generatio non est spiratione prior. Phaeton labitur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>169v</folio>
+          <folio>170r</folio>
+          <folio>170v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d13 -->
+    <item id="gvscgv-t02625" alias="c106">
+      <fileName filestem="gvscgv-t02625"/>
+      <title>106</title>
+      <questionTitle>Processiones in Deo. Gigantes in simias. Ganymedis voluptas</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>170v</folio>
+          <folio>171r</folio>
+          <folio>171v</folio>
+          <folio>172r</folio>
+          <folio>172v</folio>
+          <folio>173r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d14 -->
+    <item id="gvscgv-t02655" alias="c107">
+      <fileName filestem="gvscgv-t02655"/>
+      <title>107</title>
+      <questionTitle>Spiritus in tempore etiam procedit. Raptus Ganymedis. Processiones quomodo duae? Spiritus etiam ipse datur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>173r</folio>
+          <folio>173v</folio>
+          <folio>174r</folio>
+          <folio>174v</folio>
+          <folio>175r</folio>
+          <folio>175v</folio>
+          <folio>176r</folio>
+          <folio>176v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02687" alias="c108">
+      <fileName filestem="gvscgv-t02687"/>
+      <title>108</title>
+      <questionTitle>Spiritus sanctus non datur ab hominibus</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>176v</folio>
+          <folio>177r</folio>
+          <folio>177v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02709" alias="c109">
+      <fileName filestem="gvscgv-t02709"/>
+      <title>109</title>
+      <questionTitle>Gratia et gratiae dona non ab homine fiunt, sed a Deo. Si te fata vocant</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>177v</folio>
+          <folio>178r</folio>
+          <folio>178v</folio>
+          <folio>179r</folio>
+          <folio>179v</folio>
+          <folio>180r</folio>
+          <folio>180v</folio>
+          <folio>181r</folio>
+          <folio>181v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d. 15 -->
+    <item id="gvscgv-t02745" alias="c110">
+      <fileName filestem="gvscgv-t02745"/>
+      <title>110</title>
+      <questionTitle>Mitti divinae convenit personae. Saturni falx, et aurea aetas. Caligo dea aufert Simulacra purgantur</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>181v</folio>
+          <folio>182r</folio>
+          <folio>182v</folio>
+          <folio>183r</folio>
+          <folio>183v</folio>
+          <folio>184r</folio>
+          <folio>184v</folio>
+          <folio>185r</folio>
+          <folio>185v</folio>
+          <folio>186r</folio>
+          <folio>186v</folio>
+          <folio>187r</folio>
+          <folio>187v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02788" alias="c111">
+      <fileName filestem="gvscgv-t02788"/>
+      <title>111</title>
+      <questionTitle>Filium a spiritu mitti qui operum auctor est ac Vulcanus a quo retia indissolubilia atque infrangibilia</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>187v</folio>
+          <folio>188r</folio>
+          <folio>188v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02809" alias="c112">
+      <fileName filestem="gvscgv-t02809"/>
+      <title>112</title>
+      <questionTitle>Filium mitti missione invisibili De cognitione amori iuncta pallade poebo venere diversae facitonis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>188v</folio>
+          <folio>189r</folio>
+          <folio>189v</folio>
+          <folio>190r</folio>
+          <folio>190v</folio>
+          <folio>191r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02837" alias="c113">
+      <fileName filestem="gvscgv-t02837"/>
+      <title>113</title>
+      <questionTitle>Missio ad quos fit? ad tres Ecclesiae partes: veterem, novam, beatam. De mensa gratiae et connubio gloriae</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>191r</folio>
+          <folio>191v</folio>
+          <folio>192r</folio>
+          <folio>192v</folio>
+          <folio>193r</folio>
+          <folio>193v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <!-- d16 -->
+    <item id="gvscgv-t02868" alias="c114">
+      <fileName filestem="gvscgv-t02868"/>
+      <title>114</title>
+      <questionTitle>Missio externa possibilis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>193v</folio>
+          <folio>194r</folio>
+          <folio>194v</folio>
+          <folio>195r</folio>
+          <folio>195v</folio>
+          <folio>196r</folio>
+          <folio>196v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02898" alias="c115">
+      <fileName filestem="gvscgv-t02898"/>
+      <title>115</title>
+      <questionTitle>Numerus et qualitas rerum quas Spiritus assumpsit Sponsus et sponsa claves afflatus ignis nubes columba</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>196v</folio>
+          <folio>197r</folio>
+          <folio>197v</folio>
+          <folio>198r</folio>
+          <folio>198v</folio>
+          <folio>199r</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02926" alias="c116">
+      <fileName filestem="gvscgv-t02926"/>
+      <title>116</title>
+      <questionTitle>Columba illa quid postea egit? In aera purgat apertum</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>199r</folio>
+          <folio>199v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02945" alias="d17">
+      <fileName filestem="gvscgv-t02945"/>
+      <title>Distinctio 17</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>199v</folio>
+          <folio>200r</folio>
+          <folio>200v</folio>
+          <folio>201r</folio>
+          <folio>201v</folio>
+          <folio>202r</folio>
+          <folio>202v</folio>
+          <folio>203r</folio>
+          <folio>203v</folio>
+          <folio>204r</folio>
+          <folio>204v</folio>
+          <folio>205r</folio>
+          <folio>205v</folio>
+          <folio>206r</folio>
+          <folio>206v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="gvscgv-t02992" alias="d18">
+      <fileName filestem="gvscgv-t02992"/>
+      <title>Distinctio 18</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-gvvl63">
+          <folio>206v</folio>
+          <folio>207r</folio>
+          <folio>207v</folio>
+          <folio>208r</folio>
+          <folio>208v</folio>
+          <folio>209r</folio>
+          <folio>209v</folio>
+          <folio>210r</folio>
+          <folio>210v</folio>
+          <folio>211r</folio>
+          <folio>211v</folio>
+          <folio>212r</folio>
+          <folio>212v</folio>
+          <folio>213r</folio>
+          <folio>213v</folio>
+          <folio>214r</folio>
+          <folio>214v</folio>
+          <folio>215r</folio>
+          <folio>215v</folio>
+          <folio>216r</folio>
+          <folio>216v</folio>
+        </witness>
+      </hasWitnesses>
+    </item>
   </div>
 </listofFileNames>
