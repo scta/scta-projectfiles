@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>Dictata super sententias magistri Roberti Holcot</commentaryName>
+    <commentaryid>ja88rh</commentaryid>
+    <commentaryslug>ja88rh</commentaryslug>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor></questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jax26a">
+        <slug>cod-jax26a</slug>
+        <title>Paris 1526</title>
+        <initial>cod-jax26a</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Dictata super sententias magistri Roberti Holcot</head>
+    <item id="ja88rh-df8saa" type="quaestio">
+      <fileName filestem="ja88rh-df8saa"/>
+      <title>Quaestio 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-jax26a">
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ja88rh-df8sbb" type="quaestio">
+      <fileName filestem="ja88rh-df8sbb"/>
+      <title>Quaestio 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-jax26a">
+        </witness>
+      </hasWitnesses>
+    </item>
+    <item id="ja88rh-df8scc" type="quaestio">
+      <fileName filestem="ja88rh-df8scc"/>
+      <title>Quaestio 3</title>
+      <hasWitnesses>
+        <witness ref="#cod-jax26a">
+        </witness>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
