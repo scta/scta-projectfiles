@@ -43,19 +43,17 @@
     <head>Ordinatio</head>
     <div id="aw98wa-xg0084" alias="book1" type="liber1">
       <head>Liber 1</head>
-      <item id="aw98wa-xg0088" alias="b1-col-qun" type="collatio">
-        <fileName filestem="aw98wa-xg0088"/>
-        <title>Collatio</title>
+      <!--<item id="aw98wa-xg0085" alias="b1-col-qun" type="collatio">
+        <fileName filestem="aw98wa-xg0085"/>
+        <title></title>
         <hasWitnesses>
           <witness ref="#V">
             <folio>1r</folio>
             <folio>1v</folio>
           </witness>
         </hasWitnesses>
-      </item>
-      <!--
-        dbcheck and then add
-        <item id="aw98wa-xg0088" type="principium">
+      </item>-->
+      <item id="aw98wa-xg0088" type="principium">
         <fileName filestem="aw98wa-xg0088"/>
         <title>Principium I</title>
         <hasWitnesses>
@@ -64,7 +62,7 @@
             <folio>3v</folio>
           </witness>
         </hasWitnesses>
-      </item>-->
+      </item>
       <div id="aw98wa-xg0107" alias="b1-prol" type="liber1-prologus">
         <head>Prologus</head>
         <item id="aw98wa-xg0111" alias="b1-prol-q1" type="quaestio">
@@ -2421,7 +2419,7 @@
     <div id="aw98wa-xg4116" alias="book4" type="liber4">
       <head>Liber 4</head>
       <!-- intro/prolog  #M 199ra-b -->
-      <!-- doesn't seem like there is a book 4 principum in Sorb ->
+      <!-- doesn't seem like there is a book 4 principum in Sorb -->
       <item id="aw98wa-xg4120" alias="b4-q1" type="quaestio">
         <fileName filestem="aw98wa-xg4120"/>
         <title>Quaestio 1</title>
