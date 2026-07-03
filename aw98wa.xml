@@ -1791,7 +1791,17 @@
     </div>
     <div id="aw98wa-xg3435" alias="book2" type="liber2">
       <head>Liber 2</head>
-      <!-- prol #M 126rb 126va-b-->
+      <item id="aw98wa-xg3424" alias="b2-prin" type="principium">
+        <fileName filestem="aw98wa-xg3424"/>
+        <title>Principium 2</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>139r</folio>
+          </witness>
+          <!-- prol #M 126rb 126va-b-->
+        </hasWitnesses>
+      </item>
       <item id="aw98wa-xg3439" alias="b2-q1" type="quaestio">
         <fileName filestem="aw98wa-xg3439"/>
         <title>Quaestio 1</title>
@@ -2090,6 +2100,18 @@
     </div>
     <div id="aw98wa-xg3759" alias="book3" type="liber3">
       <head>Liber 3</head>
+      <item id="aw98wa-xg3762" alias="b3-prin" type="principium">
+        <fileName filestem="aw98wa-xg3762"/>
+        <title>Principium 3</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#S"> 
+            <folio>174r</folio>
+            <folio>174v</folio>
+          </witness>
+          <!--  #M 169ra-b-->
+        </hasWitnesses>
+      </item>
       <!-- principium 3 should go here; dbcheck and then uncomment 
         <item type="principium">
         <fileName filestem="aw-p3"/>
@@ -2099,7 +2121,7 @@
             <folio>174r</folio>
             <folio>174</folio>
           </witness>
-          #M 169ra-b
+         
         </hasWitnesses>
       </item>-->
       <item id="aw98wa-xg3765" alias="b3-q1" type="quaestio">
@@ -2399,6 +2421,7 @@
     <div id="aw98wa-xg4116" alias="book4" type="liber4">
       <head>Liber 4</head>
       <!-- intro/prolog  #M 199ra-b -->
+      <!-- doesn't seem like there is a book 4 principum in Sorb ->
       <item id="aw98wa-xg4120" alias="b4-q1" type="quaestio">
         <fileName filestem="aw98wa-xg4120"/>
         <title>Quaestio 1</title>
