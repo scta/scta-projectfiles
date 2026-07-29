@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listofFileNames>
   <header>
     <authorName>Jacques Almain</authorName>
@@ -31,7 +33,10 @@
         <questionTitle> De divisione potestatis in ecclesiasticam et secularem et earum
           diffinitionibus </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>645</folio>
+            <folio>646</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y00364" alias="dpe-q1c2">
@@ -39,7 +44,10 @@
         <title>Caput 2</title>
         <questionTitle>De multiplici potestate ecclesiastica</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>646</folio>
+            <folio>647</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y00605" alias="dpe-q1c3">
@@ -48,7 +56,11 @@
         <questionTitle>De fundamento potestatis spiritualis siue eccliastice in quo videlicet
           fundetur</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>647</folio>
+            <folio>648</folio>
+            <folio>649</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y00975" alias="dpe-q1c4">
@@ -57,7 +69,14 @@
         <questionTitle>An potestas ecclesiastica sit aequalis in omnibus
           sacerdotibus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>649</folio>
+            <folio>650</folio>
+            <folio>651</folio>
+            <folio>652</folio>
+            <folio>653</folio>
+            <folio>654</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y02103" alias="dpe-q1c5">
@@ -65,7 +84,12 @@
         <title>Caput 5</title>
         <questionTitle> An suprema potestas ecclesiastica possit duobus simul ex aequo conferri </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>654</folio>
+            <folio>655</folio>
+            <folio>656</folio>
+            <folio>657</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y02779" alias="dpe-q1c6">
@@ -74,7 +98,12 @@
         <questionTitle> An supremae duae potestates scilicet ecclesiasticaet laica in eadem persona
           concurrant </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>657</folio>
+            <folio>658</folio>
+            <folio>659</folio>
+            <folio>660</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y03346" alias="dpe-q1c7">
@@ -82,7 +111,11 @@
         <title>Caput 7</title>
         <questionTitle> De suprema potestate laicali an iure divino sit annexa spirituali </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>660</folio>
+            <folio>661</folio>
+            <folio>662</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y03726" alias="dpe-q1c8">
@@ -90,7 +123,13 @@
         <title>Caput 8</title>
         <questionTitle>An Christus habuerit supremam potestatem in temporalibus</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>662</folio>
+            <folio>663</folio>
+            <folio>664</folio>
+            <folio>665</folio>
+            <folio>666</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y04746" alias="dpe-q1c9">
@@ -98,7 +137,14 @@
         <title>Caput 9</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>666</folio>
+            <folio>667</folio>
+            <folio>668</folio>
+            <folio>669</folio>
+            <folio>670</folio>
+            <folio>671</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <!-- didn't seem to be a question 10 -->
@@ -108,7 +154,13 @@
         <questionTitle> An ex ordinatione diuina ad papam spectet de quolibet peccato ordinarie
           cognoscere</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>671</folio>
+            <folio>672</folio>
+            <folio>673</folio>
+            <folio>674</folio>
+            <folio>675</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y06599" alias="dpe-q1c12">
@@ -117,7 +169,12 @@
         <questionTitle> An papa possit aliquid praecipere cuius transgressio inducat mortale
           peccatum </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>675</folio>
+            <folio>676</folio>
+            <folio>677</folio>
+            <folio>678</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y07269" alias="dpe-q1c13">
@@ -125,7 +182,12 @@
         <title>Caput 13</title>
         <questionTitle> an papa possit dispensare in praeceptis</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>678</folio>
+            <folio>679</folio>
+            <folio>680</folio>
+            <folio>681</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y07965" alias="dpe-q1c14">
@@ -133,7 +195,12 @@
         <title>Caput 14</title>
         <questionTitle> An contra apostolorum statuta possit papa dispensare </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>681</folio>
+            <folio>682</folio>
+            <folio>683</folio>
+            <folio>684</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y08638" alias="dpe-q1c15">
@@ -141,7 +208,15 @@
         <title>Caput 15</title>
         <questionTitle> An papa possit dispensare in voto solemni </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>684</folio>
+            <folio>685</folio>
+            <folio>686</folio>
+            <folio>687</folio>
+            <folio>688</folio>
+            <folio>689</folio>
+            <folio>690</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y09981" alias="dpe-q1c16">
@@ -149,7 +224,14 @@
         <title>Caput 16</title>
         <questionTitle> An a sententia summi pontificis possit appellari </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>690</folio>
+            <folio>691</folio>
+            <folio>692</folio>
+            <folio>693</folio>
+            <folio>694</folio>
+            <folio>695</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y11027" alias="dpe-q1c17">
@@ -157,7 +239,12 @@
         <title>Caput 17</title>
         <questionTitle>An concilium possit errare</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>695</folio>
+            <folio>696</folio>
+            <folio>697</folio>
+            <folio>698</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -168,7 +255,11 @@
         <title>Caput 1</title>
         <questionTitle>de suprema potestate temporali</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>698</folio>
+            <folio>699</folio>
+            <folio>700</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y12292" alias="dpe-q2c2">
@@ -177,7 +268,10 @@
         <questionTitle> An habens supremam potestatem in temporalibus habeat proprietatem in
           aliquibus rebus particularibus </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>700</folio>
+            <folio>701</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y12521" alias="dpe-q2c3">
@@ -186,7 +280,12 @@
         <questionTitle>An imperator habeat suam potestatem immediate a deo vel a
           papa</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>702</folio>
+            <folio>703</folio>
+            <folio>704</folio>
+            <folio>705</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y13182" alias="dpe-q2c4">
@@ -194,7 +293,9 @@
         <title>Caput 4</title>
         <questionTitle>Tres opiniones varie quomodo imperium sit a papa</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>705</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y13341" alias="dpe-q2c5">
@@ -202,7 +303,16 @@
         <title>Caput 5</title>
         <questionTitle> An imperator habeat sibi appropriata immediate a papa vel a deo </questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>705</folio>
+            <folio>706</folio>
+            <folio>707</folio>
+            <folio>708</folio>
+            <folio>709</folio>
+            <folio>710</folio>
+            <folio>711</folio>
+            <folio>712</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -214,7 +324,18 @@
         <questionTitle>An iurisdictionis temporalis auctoritas dependeat a papa et romana
           ecclesia</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>712</folio>
+            <folio>713</folio>
+            <folio>714</folio>
+            <folio>715</folio>
+            <folio>716</folio>
+            <folio>717</folio>
+            <folio>718</folio>
+            <folio>719</folio>
+            <folio>720</folio>
+            <folio>721</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y16819" alias="dpe-q3c2">
@@ -222,7 +343,11 @@
         <title>Caput 2</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>721</folio>
+            <folio>722</folio>
+            <folio>723</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y17138" alias="dpe-q3c3">
@@ -230,7 +355,9 @@
         <title>Caput 3</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>723</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y17260" alias="dpe-q3c4">
@@ -238,7 +365,10 @@
         <title>Caput 4</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>723</folio>
+            <folio>724</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y17365" alias="dpe-q3c5">
@@ -246,7 +376,11 @@
         <title>Caput 5</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>724</folio>
+            <folio>725</folio>
+            <folio>726</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y17779" alias="dpe-q3c6">
@@ -254,7 +388,10 @@
         <title>Caput 6</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>726</folio>
+            <folio>727</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y18074" alias="dpe-q3c7">
@@ -262,7 +399,9 @@
         <title>Caput 7</title>
         <questionTitle>Sane licet</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>727</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <item id="ja8dpe-y18149" alias="dpe-q3c8">
@@ -270,7 +409,10 @@
         <title>Caput 8</title>
         <questionTitle>Per scripta</questionTitle>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>727</folio>
+            <folio>728</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
@@ -281,7 +423,14 @@
         <title>Caput 1</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-jay12a"/>
+          <witness ref="#cod-jay12a">
+            <folio>728</folio>
+            <folio>729</folio>
+            <folio>730</folio>
+            <folio>731</folio>
+            <folio>732</folio>
+            <folio>733</folio>
+          </witness>
         </hasWitnesses>
       </item>
     </div>
