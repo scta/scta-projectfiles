@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listofFileNames>
   <header>
     <authorName>Jacques Almain</authorName>
@@ -28,7 +30,20 @@
       <title>Quaestio 1</title>
       <questionTitle/>
       <hasWitnesses>
-        <witness ref="#cod-jay12a"/>
+        <witness ref="#cod-jay12a">
+          <folio>767</folio>
+          <folio>768</folio>
+          <folio>769</folio>
+          <folio>770</folio>
+          <folio>771</folio>
+          <folio>772</folio>
+          <folio>773</folio>
+          <folio>774</folio>
+          <folio>775</folio>
+          <folio>776</folio>
+          <folio>777</folio>
+          <folio>778</folio>
+        </witness>
       </hasWitnesses>
     </item>
   </div>
