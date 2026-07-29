@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>Moralia</commentaryName>
+    <commentaryid>ja4mor</commentaryid>
+    <commentaryslug>ja4mor</commentaryslug>
+    <alias>AlmainMoralia</alias>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jay12a">
+        <slug>cod-jay12a</slug>
+        <title>Paris 1512</title>
+        <initial>cod-jay12a</initial>
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148043/manifest-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Moralia</head>
+    <div id="ja4mor-c00100">
+      <head>Tractatus 1</head>
+      <item id="ja4mor-x00004" alias="moralia-t1c1">
+        <fileName filestem="ja4mor-x00004"/>
+        <title>Caput 1</title>
+        <questionTitle>De voluntario</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x00856" alias="moralia-t1c2">
+        <fileName filestem="ja4mor-x00856"/>
+        <title>Caput 2</title>
+        <questionTitle>De violentia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x01405" alias="moralia-t1c3">
+        <fileName filestem="ja4mor-x01405"/>
+        <title>Caput 3</title>
+        <questionTitle>De metu</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x02038" alias="moralia-t1c4">
+        <fileName filestem="ja4mor-x02038"/>
+        <title>Caput 4</title>
+        <questionTitle>De ignorantia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x03145" alias="moralia-t1c5">
+        <fileName filestem="ja4mor-x03145"/>
+        <title>Caput 5</title>
+        <questionTitle>De ignorantia an sit peccatum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x04049" alias="moralia-t1c6">
+        <fileName filestem="ja4mor-x04049"/>
+        <title>Caput 6</title>
+        <questionTitle>De circumstantiis actuum moralium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x05043" alias="moralia-t1c7">
+        <fileName filestem="ja4mor-x05043"/>
+        <title>Caput 7</title>
+        <questionTitle>De particularibus circumstantiis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x05621" alias="moralia-t1c8">
+        <fileName filestem="ja4mor-x05621"/>
+        <title>Caput 8</title>
+        <questionTitle>De circumstantia obiecti</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x05957" alias="moralia-t1c9">
+        <fileName filestem="ja4mor-x05957"/>
+        <title>Caput 9</title>
+        <questionTitle>De circumstantia temporis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x06953" alias="moralia-t1c10">
+        <fileName filestem="ja4mor-x06953"/>
+        <title>Caput 10</title>
+        <questionTitle>De circumstantia loci</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x07100" alias="moralia-t1c11">
+        <fileName filestem="ja4mor-x07100"/>
+        <title>Caput 11</title>
+        <questionTitle>De circumstantia finis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x07568" alias="moralia-t1c12">
+        <fileName filestem="ja4mor-x07568"/>
+        <title>Caput 12</title>
+        <questionTitle>De electione an aliqua simul sit bona et mala</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x08734" alias="moralia-t1c13">
+        <fileName filestem="ja4mor-x08734"/>
+        <title>Caput 13</title>
+        <questionTitle>De bonitate et malitia actuum moralium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x09331" alias="moralia-t1c14">
+        <fileName filestem="ja4mor-x09331"/>
+        <title>Caput 14</title>
+        <questionTitle>De multiplici bonitate et malitia actuum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x10013" alias="moralia-t1c15">
+        <fileName filestem="ja4mor-x10013"/>
+        <title>Caput 15</title>
+        <questionTitle>De voluntate an possit sine gratia bene moraliter agere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x10346" alias="moralia-t1c16">
+        <fileName filestem="ja4mor-x10346"/>
+        <title>Caput 16</title>
+        <questionTitle>An sine auxilio dei speciali possumus bene moraliter agere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x10685" alias="moralia-t1c17">
+        <fileName filestem="ja4mor-x10685"/>
+        <title>Caput 17</title>
+        <questionTitle> De bonitate et malitia habituum in generali </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x11292" alias="moralia-t1c18">
+        <fileName filestem="ja4mor-x11292"/>
+        <title>Caput 18</title>
+        <questionTitle>De corruptione habitus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x11800" alias="moralia-t1c19">
+        <fileName filestem="ja4mor-x11800"/>
+        <title>Caput 19</title>
+        <questionTitle>De contrarietate habituum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x12081" alias="moralia-t1c20">
+        <fileName filestem="ja4mor-x12081"/>
+        <title>Caput 20</title>
+        <questionTitle>De coefficientia habitus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x12554" alias="moralia-t1c21">
+        <fileName filestem="ja4mor-x12554"/>
+        <title>Caput 21</title>
+        <questionTitle>De concursu habituum adactus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x13037" alias="moralia-t1c22">
+        <fileName filestem="ja4mor-x13037"/>
+        <title>Caput 22</title>
+        <questionTitle>De augmento habitus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x13340" alias="moralia-t1c23">
+        <fileName filestem="ja4mor-x13340"/>
+        <title>Caput 23</title>
+        <questionTitle>De diffinitione virtutis et multiplici eius distinctione</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ja4mor-c00200">
+      <head>Tractatus 2</head>
+      <item id="ja4mor-x13600" alias="moralia-t2q1">
+        <fileName filestem="ja4mor-x13600"/>
+        <title>Caput 1</title>
+        <questionTitle>De differentia inter theologales et morales virtutes</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x14050" alias="moralia-t2q2">
+        <fileName filestem="ja4mor-x14050"/>
+        <title>Caput 2</title>
+        <questionTitle>De ordine virtutum theologalium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x14506" alias="moralia-t2q3">
+        <fileName filestem="ja4mor-x14506"/>
+        <title>Caput 3</title>
+        <questionTitle>De prima virtute theologica scilicet de fide</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x15077" alias="moralia-t2q4">
+        <fileName filestem="ja4mor-x15077"/>
+        <title>Caput 4</title>
+        <questionTitle>De causa actus fidei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x15840" alias="moralia-t2q5">
+        <fileName filestem="ja4mor-x15840"/>
+        <title>Caput 5</title>
+        <questionTitle>De perditione habitus fidei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x16260" alias="moralia-t2q6">
+        <fileName filestem="ja4mor-x16260"/>
+        <title>Caput 6</title>
+        <questionTitle>De obiecto fidei</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x16840" alias="moralia-t2q7">
+        <fileName filestem="ja4mor-x16840"/>
+        <title>Caput 7</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x18131" alias="moralia-t2q8">
+        <fileName filestem="ja4mor-x18131"/>
+        <title>Caput 7</title>
+        <questionTitle>De caritate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x19024" alias="moralia-t2q9">
+        <fileName filestem="ja4mor-x19024"/>
+        <title>Caput 9</title>
+        <questionTitle>An charitas infusa requiratur ad praeceptum de dilectione dei super
+          omnia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x19408" alias="moralia-t2q10">
+        <fileName filestem="ja4mor-x19408"/>
+        <title>Caput 10</title>
+        <questionTitle> De charitate an sit requisita ad merendum </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x20905" alias="moralia-t2q11">
+        <fileName filestem="ja4mor-x20905"/>
+        <title>Caput 11</title>
+        <questionTitle>De augmento charitatis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x21566" alias="moralia-t2q12">
+        <fileName filestem="ja4mor-x21566"/>
+        <title>Caput 12</title>
+        <questionTitle> Quomodo per quemlibet actum meritorium augetur gratia praeexistens </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x21940" alias="moralia-t2q13">
+        <fileName filestem="ja4mor-x21940"/>
+        <title>Caput 13</title>
+        <questionTitle>De diminutione caritatis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x22508" alias="moralia-t2q14">
+        <fileName filestem="ja4mor-x22508"/>
+        <title>Caput 14</title>
+        <questionTitle> De resurgente a peccato an resurgat ad maiorem gratiam et gloriam </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ja4mor-c00300">
+      <head>Tractatus 3</head>
+      <item id="ja4mor-x23050" alias="moralia-t3c1">
+        <fileName filestem="ja4mor-x23050"/>
+        <title>Caput 1</title>
+        <questionTitle>De divisione virtutis in moralem et intellectualem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x23363" alias="moralia-t3c2">
+        <fileName filestem="ja4mor-x23363"/>
+        <title>Caput 2</title>
+        <questionTitle>De actibus prudentiae</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x23704" alias="moralia-t3c3">
+        <fileName filestem="ja4mor-x23704"/>
+        <title>Caput 3</title>
+        <questionTitle>De actuali prudentia an requiratur ad quamlibet operationem studiosam </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x24098" alias="moralia-t3c4">
+        <fileName filestem="ja4mor-x24098"/>
+        <title>Caput 4</title>
+        <questionTitle> De voluntate an possit ferri in oppositum illius quod est dictatum a recta
+          ratione </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x24759" alias="moralia-t3c5">
+        <fileName filestem="ja4mor-x24759"/>
+        <title>Caput 5</title>
+        <questionTitle> De tribus virtutibus moralibus. iusticia: fortitudine: et temperantia: et de
+          obiectis earundem </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x25197" alias="moralia-t3c6">
+        <fileName filestem="ja4mor-x25197"/>
+        <title>Caput 6</title>
+        <questionTitle>De subiecto virtutum moralium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x25867" alias="moralia-t3c7">
+        <fileName filestem="ja4mor-x25867"/>
+        <title>Caput 7</title>
+        <questionTitle>De conexione virtutum moralium</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x26466" alias="moralia-t3c8">
+        <fileName filestem="ja4mor-x26466"/>
+        <title>Caput 8</title>
+        <questionTitle>De quinque gradibus virtutis secundum Okham</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x27107" alias="moralia-t3c9">
+        <fileName filestem="ja4mor-x27107"/>
+        <title>Caput 9</title>
+        <questionTitle>An virtutes morales sint connexe quantum ad habitus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x27353" alias="moralia-t3c10">
+        <fileName filestem="ja4mor-x27353"/>
+        <title>Caput 10</title>
+        <questionTitle>De tribus gradibus virtutum positis ab Aristotele: scilicet continentia /
+          temperantia / et gradu heroico</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x28037" alias="moralia-t3c11">
+        <fileName filestem="ja4mor-x28037"/>
+        <title>Caput 11</title>
+        <questionTitle>De comparatione graduum temperantie et continentie in
+          bonitate</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x28334" alias="moralia-t3c12">
+        <fileName filestem="ja4mor-x28334"/>
+        <title>Caput 12</title>
+        <questionTitle>De gradu heroico</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x28474" alias="moralia-t3c13">
+        <fileName filestem="ja4mor-x28474"/>
+        <title>Caput 13</title>
+        <questionTitle>De distinctione virtutum moralium a donis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x28770" alias="moralia-t3c14">
+        <fileName filestem="ja4mor-x28770"/>
+        <title>Caput 14</title>
+        <questionTitle>De peccatis. de diffinitione et diuisione ipsorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x29137" alias="moralia-t3c15">
+        <fileName filestem="ja4mor-x29137"/>
+        <title>Caput 15</title>
+        <questionTitle>An peccatum sit peccatum quia prohibitum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x29667" alias="moralia-t3c16">
+        <fileName filestem="ja4mor-x29667"/>
+        <title>Caput 16</title>
+        <questionTitle>De actibus intrinsece malis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x29955" alias="moralia-t3c17">
+        <fileName filestem="ja4mor-x29955"/>
+        <title>Caput 17</title>
+        <questionTitle>De formali peccati</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x30108" alias="moralia-t3c18">
+        <fileName filestem="ja4mor-x30108"/>
+        <title>Caput 18</title>
+        <questionTitle>De actu exteriori an habeat bonitatem aut malitiam distinctam ab actu
+          interiori a quo imperatur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x30847" alias="moralia-t3c19">
+        <fileName filestem="ja4mor-x30847"/>
+        <title>Caput 19</title>
+        <questionTitle>De prima diuisione peccati in originale et actuale</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x31471" alias="moralia-t3c20">
+        <fileName filestem="ja4mor-x31471"/>
+        <title>Caput 20</title>
+        <questionTitle>Secunda diuisio peccati</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x31769" alias="moralia-t3c21">
+        <fileName filestem="ja4mor-x31769"/>
+        <title>Caput 21</title>
+        <questionTitle>An veniale possit esse mortale</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x32056" alias="moralia-t3c22">
+        <fileName filestem="ja4mor-x32056"/>
+        <title>Caput 22</title>
+        <questionTitle>An veniale fuerit compossibile iusticie originali</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x32490" alias="moralia-t3c23">
+        <fileName filestem="ja4mor-x32490"/>
+        <title>Caput 23</title>
+        <questionTitle>An veniale aliquando puniatur aeternaliter</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x32823" alias="moralia-t3c24">
+        <fileName filestem="ja4mor-x32823"/>
+        <title>Caput 24</title>
+        <questionTitle>De primis motibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x33795" alias="moralia-t3c25">
+        <fileName filestem="ja4mor-x33795"/>
+        <title>Caput 25</title>
+        <questionTitle>De diuisione peccati actualis in omissionem et commissionem</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x34327" alias="moralia-t3c26">
+        <fileName filestem="ja4mor-x34327"/>
+        <title>Caput 26</title>
+        <questionTitle>De grauitate omissionis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x34978" alias="moralia-t3c27">
+        <fileName filestem="ja4mor-x34978"/>
+        <title>Caput 27</title>
+        <questionTitle>De peccato ex ignorantia, passione, et certa malitia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x35336" alias="moralia-t3c28">
+        <fileName filestem="ja4mor-x35336"/>
+        <title>Caput 28</title>
+        <questionTitle>De peccato in spiritum sanctum et speciebus eius</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja4mor-x35722" alias="moralia-t3c29">
+        <fileName filestem="ja4mor-x35722"/>
+        <title>Caput 29</title>
+        <questionTitle>De punitione peccatorum</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>

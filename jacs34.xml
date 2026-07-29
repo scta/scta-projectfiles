@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>Commentarius in libros Sententiarum</commentaryName>
+    <commentaryid>jacs34</commentaryid>
+    <commentaryslug>jacs34</commentaryslug>
+    <alias>AlmainSentCommentary</alias>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jay12a">
+        <slug>cod-jay12a</slug>
+        <title>Paris 1512</title>
+        <initial>cod-jay12a</initial>
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148043/manifest-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Commentarius in libros Sententiarum</head>
+    <div id="jacs34-de0005" type="liber3">
+      <head>Liber 3</head>
+      <div id="jacs34-de0055" alias="sent-l3d1" type="liber3-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="jacs34-w00006" alias="sent-l3d1q1">
+          <fileName filestem="jacs34-w00006"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum solus filius Dei qui est secunda persona in diuinis naturam humanam
+            sibi uniuit in vnitatem suppositi. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w01838" alias="sent-l3d1q2">
+          <fileName filestem="jacs34-w01838"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum verbum et quaelibet persona diuina possit dependentiam indifferenter
+            cuiuscunque naturae terminare tam rationalis quam irrationalis / tam substantiae quam
+            accidentis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0088" alias="sent-l3d2" type="liber3-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="jacs34-w03161" alias="sent-l3d2q1">
+          <fileName filestem="jacs34-w03161"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum verbum simul assumpsit naturam humanam: et quamlibet illius partem
+            immediate: vel an assumpsit ipsas partes vnam post aliam vel vnam mediate alia et non
+            quamlibet immediate </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0107" alias="sent-l3d3" type="liber3-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="jacs34-w04233" alias="sent-l3d3q1">
+          <fileName filestem="jacs34-w04233"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum virgo Maria mater Christi fuerit aliquando maculata peccato
+            originali</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w04562" alias="sent-l3d3q2">
+          <fileName filestem="jacs34-w04562"/>
+          <title>Quaestio 2</title>
+          <questionTitle>an sicut peccati fomes fuit virgini ablatus, ita etiam nec Christus est in
+            lumbis abrahe decimatus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0140" alias="sent-l3d4" type="liber3-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="jacs34-w04910" alias="sent-l3d4q1">
+          <fileName filestem="jacs34-w04910"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum beatissima virgo Maria fuerit vere mater Dei et
+            hominis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0160" alias="sent-l3d5" type="liber3-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="jacs34-w06675" alias="sent-l3d5q1">
+          <fileName filestem="jacs34-w06675"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum verbum et natura humana vniantur adinuicem in unitate suppositi vel
+            unitate nature </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0179" alias="sent-l3d6" type="liber3-distinctio6">
+        <head>Distinctio 6</head>
+        <item id="jacs34-w07505" alias="sent-l3d6q1">
+          <fileName filestem="jacs34-w07505"/>
+          <title>Quaestio 1</title>
+          <questionTitle> an aliqua opinionum de incarnationem possit catholice sustineri et
+            defensari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w07987" alias="sent-l3d6q2">
+          <fileName filestem="jacs34-w07987"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum in Christo sint duo esse</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0212" alias="sent-l3d7" type="liber3-distinctio7">
+        <head>Distinctio 7</head>
+        <item id="jacs34-w08561" alias="sent-l3d7q1">
+          <fileName filestem="jacs34-w08561"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum per idiomatum communicationem concreta utriusque naturae tam diuinae
+            quam humanae de seinuicem praedicentur </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0231" alias="sent-l3d8" type="liber3-distinctio8">
+        <head>Distinctio 8</head>
+        <item id="jacs34-w09819" alias="sent-l3d8q1">
+          <fileName filestem="jacs34-w09819"/>
+          <title>Quaestio 1</title>
+          <questionTitle> vtrum filiatio quam Christus dicitur eternaliter filius patris et filiatio
+            qua dicitur temporaliter filius virginis Mariae sint duae relationes adinuicem
+            distincte. Idem enim christus est filius patris aeterni et filius virginis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0250" alias="sent-l3d9" type="liber3-distinctio9">
+        <head>Distinctio 9</head>
+        <item id="jacs34-w10324" alias="sent-l3d9q1">
+          <fileName filestem="jacs34-w10324"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum humanitas Christi sit adoranda adoratione latriae</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0269" alias="sent-l3d10" type="liber3-distinctio10">
+        <head>Distinctio 10</head>
+        <item id="jacs34-w11491" alias="sent-l3d10q1">
+          <fileName filestem="jacs34-w11491"/>
+          <title>Quaestio 1</title>
+          <questionTitle> vtrum Christus secundum quod homo sit filius dei adoptiuus</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0289" alias="sent-l3d11" type="liber3-distinctio11">
+        <head>Distinctio 11</head>
+        <item id="jacs34-w11949" alias="sent-l3d11q1">
+          <fileName filestem="jacs34-w11949"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum sicut Christus dicitur creator debeat etiam dici creatura </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0308" alias="sent-l3d12" type="liber3-distinctio12">
+        <head>Distinctio 12</head>
+        <item id="jacs34-w12078" alias="sent-l3d12q1">
+          <fileName filestem="jacs34-w12078"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum humana natura assumpta a Christo vel ipse Christus qui est deus et
+            homo potuit subiacere peccato </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0327" alias="sent-l3d13" type="liber3-distinctio13">
+        <head>Distinctio 13</head>
+        <item id="jacs34-w12786" alias="sent-l3d13q1">
+          <fileName filestem="jacs34-w12786"/>
+          <title>Quaestio 1</title>
+          <questionTitle> an summa gratia creabilis sit anime christi collata et an sit dabilis
+            summa gratia possibilis </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0346" alias="sent-l3d14" type="liber3-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="jacs34-w14142" alias="sent-l3d14q1">
+          <fileName filestem="jacs34-w14142"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum intellectus Christi creatus omnia sciuit: quae ab aeterno
+            naturaliter verbum nouit </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0365" alias="sent-l3d15" type="liber3-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="jacs34-w16780" alias="sent-l3d15q1">
+          <fileName filestem="jacs34-w16780"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum christus secundum quamlibet partem anime eius habuerit maximam.
+            tristitiam </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0384" alias="sent-l3d16" type="liber3-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="jacs34-w19060" alias="sent-l3d16q1">
+          <fileName filestem="jacs34-w19060"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum Christus habuerit necessitatem moriendi </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0404" alias="sent-l3d17" type="liber3-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="jacs34-w19760" alias="sent-l3d17q1">
+          <fileName filestem="jacs34-w19760"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum in Christo sint plures voluntates sibi semper in volito conformes </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0423" alias="sent-l3d18" type="liber3-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="jacs34-w20597" alias="sent-l3d18q1">
+          <fileName filestem="jacs34-w20597"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum Christus in instanti suae conceptionis meruerit </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0442" alias="sent-l3d19" type="liber3-distinctio19">
+        <head>Distinctio 19</head>
+        <item id="jacs34-w22584" alias="sent-l3d19q1">
+          <fileName filestem="jacs34-w22584"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum Christus in passione benedicta omnibus propagatis et propagandis
+            meruit sufficienter saltem gratiam et gloriam et remissionem peccati et per quem actum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0461" alias="sent-l3d20" type="liber3-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="jacs34-w23751" alias="sent-l3d20q1">
+          <fileName filestem="jacs34-w23751"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum necessario fuerit facta reparatio generis humani </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0480" alias="sent-l3d21" type="liber3-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="jacs34-w23846" alias="sent-l3d21q1">
+          <fileName filestem="jacs34-w23846"/>
+          <title>Quaestio 1</title>
+          <questionTitle> UTrum propter solius anime separationem a carne christus fuerit vere
+            mortuus manente vnione diuinitatis cum vtraque </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0499" alias="sent-l3d22" type="liber3-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="jacs34-w23985" alias="sent-l3d22q1">
+          <fileName filestem="jacs34-w23985"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum fuerit in triduo homo </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0519" alias="sent-l3d23" type="liber3-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="jacs34-w24064" alias="sent-l3d23q1">
+          <fileName filestem="jacs34-w24064"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum virtus sit habitus potentia vel passio </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w28959" alias="sent-l3d23q2">
+          <fileName filestem="jacs34-w28959"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum quilibet actus producat habitum et utrum quilibet actus virtuosus
+            quantuncumque intensus vel remissus sufficiat producere illam qualitatem quam est
+            habitus vel partem eius vel aliquid eiusdem speciei cum habitu </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w29933" alias="sent-l3d23q3">
+          <fileName filestem="jacs34-w29933"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Vtrum ad credendum omnes articulos sit necessaria fides vna praecise: vel
+            requirantur plures </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0566" alias="sent-l3d24" type="liber3-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="jacs34-w32446" alias="sent-l3d24q1">
+          <fileName filestem="jacs34-w32446"/>
+          <title>Quaestio 1</title>
+          <questionTitle> de compatibilitate fidei cum scientia</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0585" alias="sent-l3d25" type="liber3-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="jacs34-w34533" alias="sent-l3d25q1">
+          <fileName filestem="jacs34-w34533"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omnes fidei articulos in apostolorum symbolo distinctos sufficienter
+            et specialiter teneantur omnes fideles explicite credere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0604" alias="sent-l3d26" type="liber3-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="jacs34-w35739" alias="sent-l3d26q1">
+          <fileName filestem="jacs34-w35739"/>
+          <title>Quaestio 1</title>
+          <questionTitle> vtrum spes sit virtus theologica ab aliis distincta </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0623" alias="sent-l3d27" type="liber3-distinctio27">
+        <head>Distinctio 27</head>
+        <item id="jacs34-w37988" alias="sent-l3d27q1">
+          <fileName filestem="jacs34-w37988"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum charitas sit habitus inclinans voluntatem hominis ad obseruationem
+            primi praecepti charitatis, seu de dilectione dei super omnia </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0642" alias="sent-l3d28" type="liber3-distinctio28">
+        <head>Distinctio 28</head>
+        <item id="jacs34-w40954" alias="sent-l3d28q1">
+          <fileName filestem="jacs34-w40954"/>
+          <title>Quaestio 1</title>
+          <questionTitle> diligere nihil est aliud quam alicui velle bonum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0662" alias="sent-l3d29" type="liber3-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="jacs34-w41641" alias="sent-l3d29q1">
+          <fileName filestem="jacs34-w41641"/>
+          <title>Quaestio 1</title>
+          <questionTitle> De ordine istorum diligibilium (Deus, seipsum, proximus, et corpus)
+            adinuicem et utrum de necessitate salutis sit obseruandus ordo inter ista diligibilia
+            sic quod quilibet maxime teneatur diligere seipsum post Deum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0681" alias="sent-l3d30" type="liber3-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="jacs34-w42295" alias="sent-l3d30q1">
+          <fileName filestem="jacs34-w42295"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum dilectio gratuita que de necessitate impenditur inimico sit magis
+            meritoria quam ea quam redditur amico </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0700" alias="sent-l3d31" type="liber3-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="jacs34-w43106" alias="sent-l3d31q1">
+          <fileName filestem="jacs34-w43106"/>
+          <title>Quaestio 1</title>
+          <questionTitle> VTrum in patria sine imperfectione maneant virtutes </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0719" alias="sent-l3d32" type="liber3-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="jacs34-w43949" alias="sent-l3d32q1">
+          <fileName filestem="jacs34-w43949"/>
+          <title>Quaesito 1</title>
+          <questionTitle> Utrum Deus ab aeterno dilexerit se et omnia creata et creanda ex charitate
+            aequaliter </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0738" alias="sent-l3d33" type="liber3-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="jacs34-w44379" alias="sent-l3d34q1">
+          <fileName filestem="jacs34-w44379"/>
+          <title>Quaesito 1</title>
+          <questionTitle> Queritur vtrum virtutes dona fructus et beatitudines sint idem habitus
+            inter se </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0757" alias="sent-l3d37" type="liber3-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="jacs34-w45270" alias="sent-l3d37q1">
+          <fileName filestem="jacs34-w45270"/>
+          <title>Quaesito 1</title>
+          <questionTitle> Utrum ad praecepta decalogi alia legis praecepta reduci possint </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0777" alias="sent-l3d38" type="liber3-distinctio38">
+        <head>Distinctio 38</head>
+        <item id="jacs34-w46307" alias="sent-l3d38q1">
+          <fileName filestem="jacs34-w46307"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum omne mendacium sit peccatum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0796" alias="sent-l3d39" type="liber3-distinctio39">
+        <head>Distinctio 39</head>
+        <item id="jacs34-w46702" alias="sent-l3d39q1">
+          <fileName filestem="jacs34-w46702"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum licitum sit iurare in testimonium veritatis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+    <div id="jacs34-de0816">
+      <head>Liber 4</head>
+      <div id="jacs34-de0820" alias="sent-l4d14" type="liber4-distinctio14">
+        <head>Distinctio 14</head>
+        <item id="jacs34-w47114" alias="sent-l4d14q1">
+          <fileName filestem="jacs34-w47114"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum poenitentia necessario requiratur ad deletionem peccati post
+            baptismum commissi </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w49834" alias="sent-l4d14q2">
+          <fileName filestem="jacs34-w49834"/>
+          <title>Quaestio 2</title>
+          <questionTitle> An poenitetur secundum illas quattuor acceptiones sit actus virtutis et an
+            aliquo illorum poenitere vt est actus virtutis requiratur ad delendum peccatum. </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w53398" alias="sent-l4d14q3">
+          <fileName filestem="jacs34-w53398"/>
+          <title>Quaestio 3</title>
+          <questionTitle> Utrum infligat sibi vnicam poenam solummodo </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w54101" alias="sent-l4d14q4">
+          <fileName filestem="jacs34-w54101"/>
+          <title>Quaestio 4</title>
+          <questionTitle> Utrum per sacramentum poenitentiae deleatur culpa sicut per poenitentiam
+            virtualem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0881" alias="sent-l4d15" type="liber4-distinctio15">
+        <head>Distinctio 15</head>
+        <item id="jacs34-w55147" alias="sent-l4d15q1">
+          <fileName filestem="jacs34-w55147"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum cuilibet peccato mortali actuali correspondeat satisfactio propria </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w58264" alias="sent-l4d15q2">
+          <fileName filestem="jacs34-w58264"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum quicumque alterum damnificauit in rebus temporalibus: teneatur ad
+            restitutionem, ita quod non possit vere poenitere nisi restituat? </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w71148" alias="sent-l4d15q3">
+          <fileName filestem="jacs34-w71148"/>
+          <title>Quaestio 3</title>
+          <questionTitle> De damnificante alium in bonis corporis et anime an teneatur ad
+            restitutionem ad hoc quod possit vere poenitere </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w72075" alias="sent-l4d15q4">
+          <fileName filestem="jacs34-w72075"/>
+          <title>Quaestio 4</title>
+          <questionTitle> Utrum damnificans alium in bonis fame teneatur ad restitutionem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0942" alias="sent-l4d16" type="liber4-distinctio16">
+        <head>Distinctio 16</head>
+        <item id="jacs34-w73162" alias="sent-l4d16q1">
+          <fileName filestem="jacs34-w73162"/>
+          <title>Quaestio 1</title>
+          <questionTitle> An contritio, confessio, et satisfactio sint partes poenitentie, et vtrum
+            remissio vel expulsio culpae praecedat infusionem gratiae </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w73651" alias="sent-l4d16q2">
+          <fileName filestem="jacs34-w73651"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum remissio culpae praecedat infusionem gratiae, vel utrum sit unica
+            mutatio vel plures; utrum remissio culpae sit mutatio realis; utrum remissio culpae
+            praecedat infusionem gratiae vel contra vel utrum nullum praecedat alterum sed sit simul </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0975" alias="sent-l4d17" type="liber4-distinctio17">
+        <head>Distinctio 17</head>
+        <item id="jacs34-w74406" alias="sent-l4d17q1">
+          <fileName filestem="jacs34-w74406"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum sit necessarium peccatori ad salutem omnia peccata confiteri suo
+            sacerdoti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de0995" alias="sent-l4d18" type="liber4-distinctio18">
+        <head>Distinctio 18</head>
+        <item id="jacs34-w79104" alias="sent-l4d18q1">
+          <fileName filestem="jacs34-w79104"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum potestas clauium se extendat ad poenam vel se extendat ad culpam </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1014" alias="sent-l4d20" type="liber4-distinctio20">
+        <head>Distinctio 20</head>
+        <item id="jacs34-w82663" alias="sent-l4d20q1">
+          <fileName filestem="jacs34-w82663"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum poenitentia in extremis valeat ad salutem </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1033" alias="sent-l4d21" type="liber4-distinctio21">
+        <head>Distinctio 21</head>
+        <item id="jacs34-w82981" alias="sent-l4d21q1">
+          <fileName filestem="jacs34-w82981"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum aliquid peccatum possint in futuro seculo remitti </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w83679" alias="sent-l4d21q2">
+          <fileName filestem="jacs34-w83679"/>
+          <title>Quaestio 2</title>
+          <questionTitle>vtrum confessor in quocumque casu teneatur celare peccatum sibi in
+            confessione detectum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1066" alias="sent-l4d22" type="liber4-distinctio22">
+        <head>Distinctio 22</head>
+        <item id="jacs34-w84805" alias="sent-l4d22q1">
+          <fileName filestem="jacs34-w84805"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum peccata remissa in recidivante eadem in numero redeant </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1085" alias="sent-l4d23" type="liber4-distinctio23">
+        <head>Distinctio 23</head>
+        <item id="jacs34-w86424" alias="sent-l4d23q1">
+          <fileName filestem="jacs34-w86424"/>
+          <title>Quaestio 1</title>
+          <questionTitle>An extrema vnctio sit sacramentum novae legis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1104" alias="sent-l4d24" type="liber4-distinctio24">
+        <head>Distinctio 24</head>
+        <item id="jacs34-w86777" alias="sent-l4d24q1">
+          <fileName filestem="jacs34-w86777"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum in ecclesia sint septem ecclesiastici ordines </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1124" alias="sent-l4d25" type="liber4-distinctio25">
+        <head>Distinctio 25</head>
+        <item id="jacs34-w87529" alias="sent-l4d25q1">
+          <fileName filestem="jacs34-w87529"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum pena canonica impediat a susceptione et collatione ordinum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w88923" alias="sent-l4d25q2">
+          <fileName filestem="jacs34-w88923"/>
+          <title>Quaestio 2</title>
+          <questionTitle> Utrum sexus muliebris et aetas puerilis impediant susceptionem ordinum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1157" alias="sent-l4d26" type="liber4-distinctio26">
+        <head>Distinctio 26</head>
+        <item id="jacs34-w89580" alias="sent-l4d26q1">
+          <fileName filestem="jacs34-w89580"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum matrimonium fuerit immediate institutum a Deo </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1176" alias="sent-l4d27et28" type="liber4-distinctio27 liber4-distinctio28">
+        <head>Distinctiones 27 et 28</head>
+        <item id="jacs34-w90809" alias="sent-l4d27et28q1">
+          <fileName filestem="jacs34-w90809"/>
+          <title>Quaestio 1</title>
+          <questionTitle> An consensus expressus verbis sit causa efficiens matrimonii </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1195" alias="sent-l4d29" type="liber4-distinctio29">
+        <head>Distinctio 29</head>
+        <item id="jacs34-w90899" alias="sent-l4d29q1">
+          <fileName filestem="jacs34-w90899"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Vtrum consensus coactus sit causa sufficiens ad matrimonium </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1214" alias="sent-l4d30" type="liber4-distinctio30">
+        <head>Distinctio 30</head>
+        <item id="jacs34-w91599" alias="sent-l4d30q1">
+          <fileName filestem="jacs34-w91599"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ad matrimonium requiratur consensus sequens rationem non
+            erroneam</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+        <item id="jacs34-w92278" alias="sent-l3d30q2">
+          <fileName filestem="jacs34-w92278"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum fuerit verum matrimonium inter Virginem et Ioseph </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1247" alias="sent-l4d31" type="liber4-distinctio31">
+        <head>Distinctio 31</head>
+        <item id="jacs34-w92730" alias="sent-l4d31q1">
+          <fileName filestem="jacs34-w92730"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum in omni matrimonio sint ista tria bona </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1267" alias="sent-l4d32" type="liber4-distinctio32">
+        <head>Distinctio 32</head>
+        <item id="jacs34-w93524" alias="sent-l4d32q1">
+          <fileName filestem="jacs34-w93524"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum vna partium petente obligetur altera de necessitate praecepti
+            reddere debitum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1286" alias="sent-l4d33" type="liber4-distinctio33">
+        <head>Distinctio 33</head>
+        <item id="jacs34-w94258" alias="sent-l4d33q1">
+          <fileName filestem="jacs34-w94258"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Circa matrimonium antiquorum patrum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1305" alias="sent-l4d34" type="liber4-distinctio34">
+        <head>Distinctio 34</head>
+        <item id="jacs34-w95836" alias="sent-l4d34q1">
+          <fileName filestem="jacs34-w95836"/>
+          <title>Quaestio 1</title>
+          <questionTitle>De impedimentis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1324" alias="sent-l4d35" type="liber4-distinctio35">
+        <head>Distinctio 35</head>
+        <item id="jacs34-w96492" alias="sent-l4d35q1">
+          <fileName filestem="jacs34-w96492"/>
+          <title>Quaestio 1</title>
+          <questionTitle> vtrum adulterium cum aliquam vivente viro impediat matrimonium cum eadem
+            post mortem illius viri </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1343" alias="sent-l4d36" type="liber4-distinctio36">
+        <head>Distinctio 36</head>
+        <item id="jacs34-w96858" alias="sent-l4d36q1">
+          <fileName filestem="jacs34-w96858"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum seruitus impediat matrimonium contrahendum, utrum aetas
+            puerilis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="jacs34-de1362" alias="sent-l4d37" type="liber4-distinctio37">
+        <head>Distinctio 37</head>
+        <item id="jacs34-w97647" alias="sent-l4d37q1">
+          <fileName filestem="jacs34-w97647"/>
+          <title>Quaestio 1</title>
+          <questionTitle> Utrum sacer ordo impediat matrimonium contrahendum et dirimat contractum </questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-jay12a"/>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>

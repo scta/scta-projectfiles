@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>De potestate ecclesiae</commentaryName>
+    <commentaryid>ja8dpe</commentaryid>
+    <commentaryslug>ja8dpe</commentaryslug>
+    <alias>AlmainDePotestateEcclesiae</alias>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jay12a">
+        <slug>cod-jay12a</slug>
+        <title>Paris 1512</title>
+        <initial>cod-jay12a</initial>
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148043/manifest-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De potestate ecclesiae</head>
+    <div id="ja8dpe-a00100">
+      <head>Quaestio 1</head>
+      <item id="ja8dpe-y00004" alias="dpe-q1c1">
+        <fileName filestem="ja8dpe-y00004"/>
+        <title>Caput 1</title>
+        <questionTitle> De divisione potestatis in ecclesiasticam et secularem et earum
+          diffinitionibus </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y00364" alias="dpe-q1c2">
+        <fileName filestem="ja8dpe-y00364"/>
+        <title>Caput 2</title>
+        <questionTitle>De multiplici potestate ecclesiastica</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y00605" alias="dpe-q1c3">
+        <fileName filestem="ja8dpe-y00605"/>
+        <title>Caput 3</title>
+        <questionTitle>De fundamento potestatis spiritualis siue eccliastice in quo videlicet
+          fundetur</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y00975" alias="dpe-q1c4">
+        <fileName filestem="ja8dpe-y00975"/>
+        <title>Caput 4</title>
+        <questionTitle>An potestas ecclesiastica sit aequalis in omnibus
+          sacerdotibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y02103" alias="dpe-q1c5">
+        <fileName filestem="ja8dpe-y02103"/>
+        <title>Caput 5</title>
+        <questionTitle> An suprema potestas ecclesiastica possit duobus simul ex aequo conferri </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y02779" alias="dpe-q1c6">
+        <fileName filestem="ja8dpe-y02779"/>
+        <title>Caput 6</title>
+        <questionTitle> An supremae duae potestates scilicet ecclesiasticaet laica in eadem persona
+          concurrant </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y03346" alias="dpe-q1c7">
+        <fileName filestem="ja8dpe-y03346"/>
+        <title>Caput 7</title>
+        <questionTitle> De suprema potestate laicali an iure divino sit annexa spirituali </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y03726" alias="dpe-q1c8">
+        <fileName filestem="ja8dpe-y03726"/>
+        <title>Caput 8</title>
+        <questionTitle>An Christus habuerit supremam potestatem in temporalibus</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y04746" alias="dpe-q1c9">
+        <fileName filestem="ja8dpe-y04746"/>
+        <title>Caput 9</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <!-- didn't seem to be a question 10 -->
+      <item id="ja8dpe-y05852" alias="dpe-q1c11">
+        <fileName filestem="ja8dpe-y05852"/>
+        <title>Caput 11</title>
+        <questionTitle> An ex ordinatione diuina ad papam spectet de quolibet peccato ordinarie
+          cognoscere</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y06599" alias="dpe-q1c12">
+        <fileName filestem="ja8dpe-y06599"/>
+        <title>Caput 12</title>
+        <questionTitle> An papa possit aliquid praecipere cuius transgressio inducat mortale
+          peccatum </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y07269" alias="dpe-q1c13">
+        <fileName filestem="ja8dpe-y07269"/>
+        <title>Caput 13</title>
+        <questionTitle> an papa possit dispensare in praeceptis</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y07965" alias="dpe-q1c14">
+        <fileName filestem="ja8dpe-y07965"/>
+        <title>Caput 14</title>
+        <questionTitle> An contra apostolorum statuta possit papa dispensare </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y08638" alias="dpe-q1c15">
+        <fileName filestem="ja8dpe-y08638"/>
+        <title>Caput 15</title>
+        <questionTitle> An papa possit dispensare in voto solemni </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y09981" alias="dpe-q1c16">
+        <fileName filestem="ja8dpe-y09981"/>
+        <title>Caput 16</title>
+        <questionTitle> An a sententia summi pontificis possit appellari </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y11027" alias="dpe-q1c17">
+        <fileName filestem="ja8dpe-y11027"/>
+        <title>Caput 17</title>
+        <questionTitle>An concilium possit errare</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ja8dpe-a00200">
+      <head>Quaestio 2</head>
+      <item id="ja8dpe-y11660" alias="dpe-q2c1">
+        <fileName filestem="ja8dpe-y11660"/>
+        <title>Caput 1</title>
+        <questionTitle>de suprema potestate temporali</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y12292" alias="dpe-q2c2">
+        <fileName filestem="ja8dpe-y12292"/>
+        <title>Caput 2</title>
+        <questionTitle> An habens supremam potestatem in temporalibus habeat proprietatem in
+          aliquibus rebus particularibus </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y12521" alias="dpe-q2c3">
+        <fileName filestem="ja8dpe-y12521"/>
+        <title>Caput 3</title>
+        <questionTitle>An imperator habeat suam potestatem immediate a deo vel a
+          papa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y13182" alias="dpe-q2c4">
+        <fileName filestem="ja8dpe-y13182"/>
+        <title>Caput 4</title>
+        <questionTitle>Tres opiniones varie quomodo imperium sit a papa</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y13341" alias="dpe-q2c5">
+        <fileName filestem="ja8dpe-y13341"/>
+        <title>Caput 5</title>
+        <questionTitle> An imperator habeat sibi appropriata immediate a papa vel a deo </questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ja8dpe-a00300">
+      <head>Quaestio 3</head>
+      <item id="ja8dpe-y14859" alias="dpe-q3c1">
+        <fileName filestem="ja8dpe-y14859"/>
+        <title>Caput 1</title>
+        <questionTitle>An iurisdictionis temporalis auctoritas dependeat a papa et romana
+          ecclesia</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y16819" alias="dpe-q3c2">
+        <fileName filestem="ja8dpe-y16819"/>
+        <title>Caput 2</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y17138" alias="dpe-q3c3">
+        <fileName filestem="ja8dpe-y17138"/>
+        <title>Caput 3</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y17260" alias="dpe-q3c4">
+        <fileName filestem="ja8dpe-y17260"/>
+        <title>Caput 4</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y17365" alias="dpe-q3c5">
+        <fileName filestem="ja8dpe-y17365"/>
+        <title>Caput 5</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y17779" alias="dpe-q3c6">
+        <fileName filestem="ja8dpe-y17779"/>
+        <title>Caput 6</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y18074" alias="dpe-q3c7">
+        <fileName filestem="ja8dpe-y18074"/>
+        <title>Caput 7</title>
+        <questionTitle>Sane licet</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+      <item id="ja8dpe-y18149" alias="dpe-q3c8">
+        <fileName filestem="ja8dpe-y18149"/>
+        <title>Caput 8</title>
+        <questionTitle>Per scripta</questionTitle>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+    <div id="ja8dpe-a00400">
+      <head>Quaestio 4</head>
+      <item id="ja8dpe-y18386" alias="dpe-q4c1">
+        <fileName filestem="ja8dpe-y18386"/>
+        <title>Caput 1</title>
+        <questionTitle/>
+        <hasWitnesses>
+          <witness ref="#cod-jay12a"/>
+        </hasWitnesses>
+      </item>
+    </div>
+  </div>
+</listofFileNames>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>Quaestio vesperiarum</commentaryName>
+    <commentaryid>ja9ves</commentaryid>
+    <commentaryslug>ja9ves</commentaryslug>
+    <alias>AlmainQuaestioVesperiarum</alias>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jay12a">
+        <slug>cod-jay12a</slug>
+        <title>Paris 1512</title>
+        <initial>cod-jay12a</initial>
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148043/manifest-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Quaestio vesperiarum</head>
+    <item id="ja9ves-x00001" alias="ves-q1">
+      <fileName filestem="ja9ves-x00001"/>
+      <title>Quaestio 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>

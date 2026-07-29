@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listofFileNames>
+  <header>
+    <authorName>Jacques Almain</authorName>
+    <commentaryName>De auctoritate ecclesiae</commentaryName>
+    <commentaryid>ja2dae</commentaryid>
+    <commentaryslug>ja2dae</commentaryslug>
+    <alias>AlmainDeAuctoritateEcclesiae</alias>
+    <authorUri>http://scta.info/resource/JacquesAlmain</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-jay12a">
+        <slug>cod-jay12a</slug>
+        <title>Paris 1512</title>
+        <initial>cod-jay12a</initial>
+        <!--https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10148043/manifest-->
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>De auctoritate ecclesiae</head>
+    <item id="ja2dae-q00006" alias="dae-prol">
+      <fileName filestem="ja2dae-q00006"/>
+      <title>Prologus</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q00144" alias="dae-c1">
+      <fileName filestem="ja2dae-q00144"/>
+      <title>Caput 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q00532" alias="dae-c2">
+      <fileName filestem="ja2dae-q00532"/>
+      <title>Caput 2</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q00804" alias="dae-c3">
+      <fileName filestem="ja2dae-q00804"/>
+      <title>Caput 3</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q01421" alias="dae-c4">
+      <fileName filestem="ja2dae-q01421"/>
+      <title>Caput 4</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q01709" alias="dae-c5">
+      <fileName filestem="ja2dae-q01709"/>
+      <title>Caput 5</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q02080" alias="dae-c6">
+      <fileName filestem="ja2dae-q02080"/>
+      <title>Caput 6</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q02476" alias="dae-c7">
+      <fileName filestem="ja2dae-q02476"/>
+      <title>Caput 7</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q03442" alias="dae-c8">
+      <fileName filestem="ja2dae-q03442"/>
+      <title>Caput 8</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q04402" alias="dae-c9">
+      <fileName filestem="ja2dae-q04402"/>
+      <title>Caput 9</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q04846" alias="dae-c10">
+      <fileName filestem="ja2dae-q04846"/>
+      <title>Caput 10</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q05624" alias="dae-c11">
+      <fileName filestem="ja2dae-q05624"/>
+      <title>Caput 11</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q06111" alias="dae-c12">
+      <fileName filestem="ja2dae-q06111"/>
+      <title>Caput 12</title>
+      <questionTitle>
+        Utrum in aliis casibus praeterquam in 
+        haeresi deponi possit summus pontifex
+      </questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+    <item id="ja2dae-q06855" alias="dae-c13">
+      <fileName filestem="ja2dae-q06855"/>
+      <title>Caput 13</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-jay12a"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
