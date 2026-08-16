@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
   <header>
     <authorName>Francisco Suarez</authorName>
     <commentaryName>De uno et primo</commentaryName>
@@ -28,7 +30,10 @@
         <title>Prooemium</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv01"/>
+          <witness ref="#cod-sqqv01">
+            <folio>a1</folio>
+            <folio>a2</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szduep-d1e65">
@@ -39,7 +44,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>1</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-000297" alias="t1-l1c1">
@@ -48,7 +55,13 @@
           <questionTitle>An existentia necessitate absoluta deo conveniat, id est, an deus
             necessario sit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>1</folio>
+              <folio>2</folio>
+              <folio>3</folio>
+              <folio>4</folio>
+              <folio>5</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-001446" alias="t1-l1c2">
@@ -56,7 +69,12 @@
           <title>Caput 2</title>
           <questionTitle>An esse dei sit de essentia dei.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>5</folio>
+              <folio>6</folio>
+              <folio>7</folio>
+              <folio>8</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-002086" alias="t1-l1c3">
@@ -65,7 +83,14 @@
           <questionTitle>An essentia dei consistat in solo esse, vel quid proprie deus
             sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>8</folio>
+              <folio>9</folio>
+              <folio>10</folio>
+              <folio>11</folio>
+              <folio>12</folio>
+              <folio>13</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-003329" alias="t1-l1c4">
@@ -74,7 +99,11 @@
           <questionTitle>Sit ne divina essentia omnino simplex substantia, ita ut nullam
             substantialem compositionem admittat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>13</folio>
+              <folio>14</folio>
+              <folio>15</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-004038" alias="t1-l1c5">
@@ -83,7 +112,12 @@
           <questionTitle>Sit ne deus ita simplex, ut in compositionem venire non
             possit.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>15</folio>
+              <folio>16</folio>
+              <folio>17</folio>
+              <folio>18</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-004632" alias="t1-l1c6">
@@ -91,7 +125,11 @@
           <title>Caput 6</title>
           <questionTitle>De divina unitate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>18</folio>
+              <folio>19</folio>
+              <folio>20</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-005119" alias="t1-l1c7">
@@ -99,7 +137,11 @@
           <title>Caput 7</title>
           <questionTitle>De veritate divini esse</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>20</folio>
+              <folio>21</folio>
+              <folio>22</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-005686" alias="t1-l1c8">
@@ -107,7 +149,13 @@
           <title>Caput 8</title>
           <questionTitle>De bonitate divini esse</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>22</folio>
+              <folio>23</folio>
+              <folio>24</folio>
+              <folio>25</folio>
+              <folio>26</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-006757" alias="t1-l1c9">
@@ -116,7 +164,14 @@
           <questionTitle>Utrum deo recte tribuantur alia praedicata seu attributa, et quotuplicia
             illa sint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>26</folio>
+              <folio>27</folio>
+              <folio>28</folio>
+              <folio>29</folio>
+              <folio>30</folio>
+              <folio>31</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-007952" alias="t1-l1c10">
@@ -124,7 +179,11 @@
           <title>Caput 10</title>
           <questionTitle>An divina attributa distinguantur in re ab essentia dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>31</folio>
+              <folio>32</folio>
+              <folio>33</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-008515" alias="t1-l1c11">
@@ -133,7 +192,12 @@
           <questionTitle>Utrum haec divina attributa sint de essentia dei, ita ut de illo
             essentialiter praedicentur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>33</folio>
+              <folio>34</folio>
+              <folio>35</folio>
+              <folio>36</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-009218" alias="t1-l1c12">
@@ -142,7 +206,11 @@
           <questionTitle>An divina natura sit de essentia omnium et singulorum attributorum, ita ut
             de illis essentialiter dicatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>36</folio>
+              <folio>37</folio>
+              <folio>38</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-009807" alias="t1-l1c13">
@@ -151,7 +219,12 @@
           <questionTitle>Utrum attributa invicem se includant salva distinctione rationis eorum, tam
             inter se quam ab essentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>38</folio>
+              <folio>39</folio>
+              <folio>40</folio>
+              <folio>41</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-010598" alias="t1-l1c14">
@@ -160,7 +233,11 @@
           <questionTitle>Quomodo possint divina attributa vere de deo enuntiari et deus de
             illis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>41</folio>
+              <folio>42</folio>
+              <folio>43</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -172,7 +249,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>45</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-011546" alias="t1-l2c1">
@@ -180,7 +259,12 @@
           <title>Caput 1</title>
           <questionTitle>An deus sit infinitus simpliciter hocque illi proprium sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>45</folio>
+              <folio>46</folio>
+              <folio>47</folio>
+              <folio>48</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-012300" alias="t1-l2c2">
@@ -189,7 +273,15 @@
           <questionTitle>De immensitate dei ejusque existentia in omnibus rebus seu
             locis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>48</folio>
+              <folio>49</folio>
+              <folio>50</folio>
+              <folio>51</folio>
+              <folio>52</folio>
+              <folio>53</folio>
+              <folio>54</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-013637" alias="t1-l2c3">
@@ -197,7 +289,10 @@
           <title>Caput 3</title>
           <questionTitle>De immutabilitate dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>54</folio>
+              <folio>55</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-014093" alias="t1-l2c4">
@@ -205,7 +300,12 @@
           <title>Caput 4</title>
           <questionTitle>De dei aeternitate, quatenus illi propria est</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>55</folio>
+              <folio>56</folio>
+              <folio>57</folio>
+              <folio>58</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-014795" alias="t1-l2c5">
@@ -213,7 +313,12 @@
           <title>Caput 5</title>
           <questionTitle>An deus sit omnino incomprehensibilis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>58</folio>
+              <folio>59</folio>
+              <folio>60</folio>
+              <folio>61</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-015534" alias="t1-l2c7">
@@ -221,7 +326,12 @@
           <title>Caput 7</title>
           <questionTitle>Sit-ne deus invisibilis, praesertim corporalibus oculis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>61</folio>
+              <folio>62</folio>
+              <folio>63</folio>
+              <folio>64</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-016197" alias="t1-l2c7">
@@ -230,7 +340,9 @@
           <questionTitle>An deus sit invisibilis in se et in substantia sua respectu omnis
             intellectus creati</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>64</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-017627" alias="t1-l2c8">
@@ -239,7 +351,13 @@
           <questionTitle>An deus sit invisibilis per naturales vires cujuscumque creaturae et
             consequenter nonnisi supernaturaliter videatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>69</folio>
+              <folio>70</folio>
+              <folio>71</folio>
+              <folio>72</folio>
+              <folio>73</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-018486" alias="t1-l2c9">
@@ -248,7 +366,13 @@
           <questionTitle>Utrum visio dei sit supernaturalis omni intellectui seu naturae
             intellectuali creabili</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>73</folio>
+              <folio>74</folio>
+              <folio>75</folio>
+              <folio>76</folio>
+              <folio>77</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-019746" alias="t1-l2c10">
@@ -256,7 +380,13 @@
           <title>Caput 10</title>
           <questionTitle>Utrum visio dei proxime fiat ab intellectu videntis ipsum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>78</folio>
+              <folio>79</folio>
+              <folio>80</folio>
+              <folio>81</folio>
+              <folio>82</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-020798" alias="t1-l2c11">
@@ -265,7 +395,12 @@
           <questionTitle>An videatur deus per verbum creatum productum a videntibus
             ipsum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>82</folio>
+              <folio>83</folio>
+              <folio>84</folio>
+              <folio>85</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-021712" alias="t1-l2c12">
@@ -273,7 +408,16 @@
           <title>Caput 12</title>
           <questionTitle>An videatur deus per speciem creatam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>85</folio>
+              <folio>86</folio>
+              <folio>87</folio>
+              <folio>88</folio>
+              <folio>89</folio>
+              <folio>90</folio>
+              <folio>91</folio>
+              <folio>92</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-023531" alias="t1-l2c13">
@@ -282,7 +426,16 @@
           <questionTitle>An de potentia absoluta possit videri deus, prout est in se, per speciem
             creatam impressam ejusdem dei, ab eodem infusam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>92</folio>
+              <folio>93</folio>
+              <folio>94</folio>
+              <folio>95</folio>
+              <folio>96</folio>
+              <folio>97</folio>
+              <folio>98</folio>
+              <folio>99</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-025283" alias="t1-l2c14">
@@ -290,7 +443,11 @@
           <title>Caput 14</title>
           <questionTitle>Utrum infundatur lumen gloriae videntibus deum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>99</folio>
+              <folio>100</folio>
+              <folio>101</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-025779" alias="t1-l2c15">
@@ -298,7 +455,18 @@
           <title>Caput 15</title>
           <questionTitle>Quae sit necessitas, quodve munus luminis gloriae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>101</folio>
+              <folio>102</folio>
+              <folio>103</folio>
+              <folio>104</folio>
+              <folio>105</folio>
+              <folio>106</folio>
+              <folio>107</folio>
+              <folio>108</folio>
+              <folio>109</folio>
+              <folio>110</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-027984" alias="t1-l2c16">
@@ -307,7 +475,10 @@
           <questionTitle>An de absoluta potentia possit videri deus sine lumine
             gloriae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>110</folio>
+              <folio>111</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-028358" alias="t1-l2c17">
@@ -316,7 +487,11 @@
           <questionTitle>An visio dei sit connaturalis intellectui lumine gloriae
             informato</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>111</folio>
+              <folio>112</folio>
+              <folio>113</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-028797" alias="t1-l2c18">
@@ -325,7 +500,12 @@
           <questionTitle>An visio dei sit cognitio quidditativa et intuitiva dei, habeatque omnes
             conditiones perfectae scientiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>113</folio>
+              <folio>114</folio>
+              <folio>115</folio>
+              <folio>116</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-029608" alias="t1-l2c19">
@@ -334,7 +514,12 @@
           <questionTitle>Sit-ne dei visio ejusdem speciei essentialis in omnibus beatis, ita ut deus
             uno tantum modo visibilis sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>116</folio>
+              <folio>117</folio>
+              <folio>118</folio>
+              <folio>119</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-030340" alias="t1-l2c20">
@@ -343,7 +528,14 @@
           <questionTitle>An visio dei aequalis perfectionis sit in omnibus videntibus
             ipsum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>119</folio>
+              <folio>120</folio>
+              <folio>121</folio>
+              <folio>122</folio>
+              <folio>123</folio>
+              <folio>124</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-031545" alias="t1-l2c21">
@@ -351,7 +543,12 @@
           <title>Caput 21</title>
           <questionTitle>Unde proxime oriatur inaequalitas visionis in beatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>124</folio>
+              <folio>125</folio>
+              <folio>126</folio>
+              <folio>127</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-032553" alias="t1-l2c22">
@@ -361,7 +558,14 @@
             ea formaliter sunt, ita ut ex hac parte non possint visiones esse inaequales in
             objecto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>128</folio>
+              <folio>129</folio>
+              <folio>130</folio>
+              <folio>131</folio>
+              <folio>132</folio>
+              <folio>133</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-033963" alias="t1-l2c23">
@@ -370,7 +574,15 @@
           <questionTitle>Utrum necesse sit, beatos videntes divinam essentiam videre simul tres
             personas; ac subinde etiam in hoc visiones omnes sint aequales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>133</folio>
+              <folio>134</folio>
+              <folio>135</folio>
+              <folio>136</folio>
+              <folio>137</folio>
+              <folio>138</folio>
+              <folio>139</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-035527" alias="t1-l2c24">
@@ -379,7 +591,14 @@
           <questionTitle>Utrum beati videntes deum, videant aut videre possint liberos actus
             voluntatis ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>139</folio>
+              <folio>140</folio>
+              <folio>141</folio>
+              <folio>142</folio>
+              <folio>143</folio>
+              <folio>144</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-036788" alias="t1-l2c25">
@@ -387,7 +606,24 @@
           <title>Caput 25</title>
           <questionTitle>An viso deo, videri possint in ipso creaturae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>144</folio>
+              <folio>145</folio>
+              <folio>146</folio>
+              <folio>147</folio>
+              <folio>148</folio>
+              <folio>149</folio>
+              <folio>150</folio>
+              <folio>151</folio>
+              <folio>152</folio>
+              <folio>153</folio>
+              <folio>154</folio>
+              <folio>155</folio>
+              <folio>156</folio>
+              <folio>157</folio>
+              <folio>158</folio>
+              <folio>159</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-040458" alias="t1-l2c26">
@@ -396,7 +632,15 @@
           <questionTitle>An, viso deo, necessarium sit videri creaturas, saltem ut
             possibiles</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>159</folio>
+              <folio>160</folio>
+              <folio>161</folio>
+              <folio>162</folio>
+              <folio>163</folio>
+              <folio>164</folio>
+              <folio>165</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-042087" alias="t1-l2c27">
@@ -405,7 +649,14 @@
           <questionTitle>An in deo viso videri possint creaturae secundum suam existentiam
             actualem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>165</folio>
+              <folio>166</folio>
+              <folio>167</folio>
+              <folio>168</folio>
+              <folio>169</folio>
+              <folio>170</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-043346" alias="t1-l2c28">
@@ -413,7 +664,14 @@
           <title>Caput 28</title>
           <questionTitle>Quae res de facto videantur a beatis in deo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>170</folio>
+              <folio>171</folio>
+              <folio>172</folio>
+              <folio>173</folio>
+              <folio>174</folio>
+              <folio>175</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-044597" alias="t1-l2c29">
@@ -422,7 +680,12 @@
           <questionTitle>Cur visio dei clara non sit ejus comprehensio, et quomodo ab illa
             differat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>175</folio>
+              <folio>176</folio>
+              <folio>177</folio>
+              <folio>178</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-045435" alias="t1-l2c30">
@@ -431,7 +694,12 @@
           <questionTitle>Sit-ne deus omnino invisibilis homini in vita mortali, ita ut pro hoc statu
             visio clara dei illi communicari non possit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>178</folio>
+              <folio>179</folio>
+              <folio>180</folio>
+              <folio>181</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-046351" alias="t1-l2c31">
@@ -439,7 +707,16 @@
           <title>Caput 31</title>
           <questionTitle>An deus ineffabilis sit, seu innominabilis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>181</folio>
+              <folio>182</folio>
+              <folio>183</folio>
+              <folio>184</folio>
+              <folio>185</folio>
+              <folio>186</folio>
+              <folio>187</folio>
+              <folio>188</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-047932" alias="t1-l2c32">
@@ -447,7 +724,14 @@
           <title>Caput 32</title>
           <questionTitle>De variis nominibus dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>188</folio>
+              <folio>189</folio>
+              <folio>190</folio>
+              <folio>191</folio>
+              <folio>192</folio>
+              <folio>193</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -459,7 +743,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>194</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-049591" alias="t1-l3c1">
@@ -467,7 +753,11 @@
           <title>Caput 1</title>
           <questionTitle>De scientia, quam deus de se habet</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>194</folio>
+              <folio>195</folio>
+              <folio>196</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-049965" alias="t1-l3c2">
@@ -475,7 +765,15 @@
           <title>Caput 2</title>
           <questionTitle>De scientia, quam deus habet de creaturis ut possibilibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>196</folio>
+              <folio>197</folio>
+              <folio>198</folio>
+              <folio>199</folio>
+              <folio>200</folio>
+              <folio>201</folio>
+              <folio>202</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-051494" alias="t1-l3c3">
@@ -484,7 +782,13 @@
           <questionTitle>De scientia, quam deus habet de creaturis aliquando futuris seu
             existentibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>202</folio>
+              <folio>203</folio>
+              <folio>204</folio>
+              <folio>205</folio>
+              <folio>206</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-052582" alias="t1-l3c4">
@@ -493,7 +797,13 @@
           <questionTitle>An scientia dei practica sit et causa rerum; ubi de variis nominibus
             divinae scientiae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>206</folio>
+              <folio>207</folio>
+              <folio>208</folio>
+              <folio>209</folio>
+              <folio>210</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-053516" alias="t1-l3c5">
@@ -502,7 +812,13 @@
           <questionTitle>N in divina scientia practica sint ideae creaturarum omnium, et quot,
             quarumqumque rerum sunt</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>210</folio>
+              <folio>211</folio>
+              <folio>212</folio>
+              <folio>213</folio>
+              <folio>214</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-054567" alias="t1-l3c6">
@@ -510,7 +826,12 @@
           <title>Caput 6</title>
           <questionTitle>De divina voluntate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>214</folio>
+              <folio>215</folio>
+              <folio>216</folio>
+              <folio>217</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-055334" alias="t1-l3c7">
@@ -518,7 +839,13 @@
           <title>Caput 7</title>
           <questionTitle>De actibus divinae voluntatis circa objecta creata</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>217</folio>
+              <folio>218</folio>
+              <folio>219</folio>
+              <folio>220</folio>
+              <folio>221</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-056510" alias="t1-l3c8">
@@ -527,7 +854,12 @@
           <questionTitle>De voluntate signi et beneplaciti, antecedente et
             consequente</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>221</folio>
+              <folio>222</folio>
+              <folio>223</folio>
+              <folio>224</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-057252" alias="t1-l3c9">
@@ -535,7 +867,16 @@
           <title>Caput 9</title>
           <questionTitle>De omnipotentia dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>224</folio>
+              <folio>225</folio>
+              <folio>226</folio>
+              <folio>227</folio>
+              <folio>228</folio>
+              <folio>229</folio>
+              <folio>230</folio>
+              <folio>231</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-058943" alias="t1-l3c10">
@@ -543,7 +884,12 @@
           <title>Caput 10</title>
           <questionTitle>De divina providentia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>231</folio>
+              <folio>232</folio>
+              <folio>233</folio>
+              <folio>234</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -555,7 +901,9 @@
         <title>Praeambulum</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv01"/>
+          <witness ref="#cod-sqqv01">
+            <folio>235</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szduep-d1e941">
@@ -566,7 +914,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>236</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-060130" alias="t2-l1c1">
@@ -574,7 +924,10 @@
           <title>Caput 1</title>
           <questionTitle>Necessarium esse in deo praedestinationem ponere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>236</folio>
+              <folio>237</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-060414" alias="t2-l1c2">
@@ -583,7 +936,11 @@
           <questionTitle>Sit ne praedestinatio actus immanens ex aeternitate deo
             conveniens</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>237</folio>
+              <folio>238</folio>
+              <folio>239</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-060840" alias="t2-l1c3">
@@ -591,7 +948,12 @@
           <title>Caput 3</title>
           <questionTitle>Praedestinatio libere ne, vel necessario deo conveniat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+              <folio>242</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-061604" alias="t2-l1c4">
@@ -599,7 +961,12 @@
           <title>Caput 4</title>
           <questionTitle>Qua res proprie praedestinari dicantur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>242</folio>
+              <folio>243</folio>
+              <folio>244</folio>
+              <folio>245</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-062351" alias="t2-l1c5">
@@ -607,7 +974,13 @@
           <title>Caput 5</title>
           <questionTitle>Quae res cadant sub praedestinatione tanquam ipsius termini</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>245</folio>
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>248</folio>
+              <folio>249</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-063364" alias="t2-l1c6">
@@ -616,7 +989,13 @@
           <questionTitle>Quae scientia necessario in deo supponenda sit ante omne decretum
             praedestinationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>249</folio>
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-064492" alias="t2-l1c7">
@@ -625,7 +1004,15 @@
           <questionTitle>Quomodo scientia conditionata effectum contingentium ad praedestinationem
             necessaria sit, vel ad illam comparetur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>253</folio>
+              <folio>254</folio>
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-066059" alias="t2-l1c8">
@@ -634,7 +1021,23 @@
           <questionTitle>Sit ne voluntas absoluta dandi gloriam electis, primus actus, quem deus
             habet erga homines, qui salvantur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>260</folio>
+              <folio>261</folio>
+              <folio>262</folio>
+              <folio>263</folio>
+              <folio>264</folio>
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+              <folio>269</folio>
+              <folio>270</folio>
+              <folio>271</folio>
+              <folio>272</folio>
+              <folio>273</folio>
+              <folio>274</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-069690" alias="t2-l1c9">
@@ -643,7 +1046,14 @@
           <questionTitle>Non solum circa homines, sed etiam circa angelos sanctos, habuisse deum
             propositum absolutum salvandi illos ante omnem alium voluntatis actum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>274</folio>
+              <folio>275</folio>
+              <folio>276</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+              <folio>279</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-070926" alias="t2-l1c10">
@@ -653,7 +1063,10 @@
             angelorum, et hominum fuisse definitum quoad personas, et gradus gratiae, et
             gloriae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>279</folio>
+              <folio>280</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-071388" alias="t2-l1c11">
@@ -662,7 +1075,11 @@
           <questionTitle>An hoc decretum dandi gloriam praedestinatis, fuerit eorum electio, vel
             dilectio et quomodo haec differant</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>280</folio>
+              <folio>281</folio>
+              <folio>282</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-071923" alias="t2-l1c12">
@@ -671,7 +1088,14 @@
           <questionTitle>Electionem omnium salvandorum in eodem signo rationis factum
             fuisse</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>282</folio>
+              <folio>283</folio>
+              <folio>284</folio>
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-073060" alias="t2-l1c13">
@@ -680,7 +1104,12 @@
           <questionTitle>Quomodo divina voluntas praeparavit media, quibus electi infallibiliter
             salvantur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>287</folio>
+              <folio>288</folio>
+              <folio>289</folio>
+              <folio>290</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-073866" alias="t2-l1c14">
@@ -689,7 +1118,12 @@
           <questionTitle>Habeat ne deus voluntatem exequentem circa bona, quae confert
             praedestinatis, praeter eas, qua ad ordinem intentionis pertinent</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>290</folio>
+              <folio>291</folio>
+              <folio>292</folio>
+              <folio>293</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-074564" alias="t2-l1c15">
@@ -698,7 +1132,13 @@
           <questionTitle>An intentio efficax dei, et executio mediorum, diversas mutationes ex
             necessitate eeficiant in praedestinato</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>293</folio>
+              <folio>294</folio>
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-075620" alias="t2-l1c16">
@@ -707,7 +1147,14 @@
           <questionTitle>Sitne ad praedestinationem necessarius actus imperii, ratione distinctus ab
             omnibus numeratis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>297</folio>
+              <folio>298</folio>
+              <folio>299</folio>
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-077040" alias="t2-l1c17">
@@ -716,7 +1163,12 @@
           <questionTitle>Quis tandem actus intellectus, aut voluntatis dei sit
             praedestinatio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>302</folio>
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-077793" alias="t2-l1c18">
@@ -725,7 +1177,13 @@
           <questionTitle>Sit-ne praedestinatio pars providentie, et quibus aliis modis ab illa
             differat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>305</folio>
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-078859" alias="t2-l1c19">
@@ -734,7 +1192,13 @@
           <questionTitle>Quomodo praedestinatio ad gratiam et supernaturalem gubernationem
             comparetur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>309</folio>
+              <folio>310</folio>
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-079781" alias="t2-l1c20">
@@ -742,7 +1206,15 @@
           <title>Caput 20</title>
           <questionTitle>Quomodo praedestinatio ad librum vitae comparetur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>313</folio>
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -754,7 +1226,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>321</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-081606" alias="t2-l2c1">
@@ -763,7 +1237,10 @@
           <questionTitle>Status controversiae, multiplexque disputationis sensus
             aperitur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>321</folio>
+              <folio>322</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-081864" alias="t2-l2c2">
@@ -772,7 +1249,11 @@
           <questionTitle>Quas physicas causas habeat praedestinatio quoad effectus
             suos</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>322</folio>
+              <folio>323</folio>
+              <folio>324</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-082497" alias="t2-l2c3">
@@ -781,7 +1262,11 @@
           <questionTitle>Possit-ne dari ex parte hominis praedestinati moralis causa
             praedestinationis quoad effectus ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-082858" alias="t2-l2c4">
@@ -790,7 +1275,12 @@
           <questionTitle>Utrum praecesserit ante hanc vitam actio aliqua hominis praedestinati, quae
             sit causu praedestinationis ejus ex parte effectuum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-083802" alias="t2-l2c5">
@@ -801,7 +1291,14 @@
             absolute nunquam futura sint ubi de praedestinatione infantium praesertim
             disseritur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>330</folio>
+              <folio>331</folio>
+              <folio>332</folio>
+              <folio>333</folio>
+              <folio>334</folio>
+              <folio>335</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-085218" alias="t2-l2c6">
@@ -811,7 +1308,28 @@
             virtute, et merito sui, esse posse causam praedestinationis, quoad effectus ejus. contra
             pelagianos, et semipelagianos ostenditur.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>335</folio>
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+              <folio>343</folio>
+              <folio>344</folio>
+              <folio>345</folio>
+              <folio>346</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+              <folio>352</folio>
+              <folio>353</folio>
+              <folio>354</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-090106" alias="t2-l2c7">
@@ -820,7 +1338,21 @@
           <questionTitle>An homo per opera moralia solius liberi arbitrii possit esse causa, saltem
             dispositiva, praedestinationis suae, quoad effectus ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>355</folio>
+              <folio>356</folio>
+              <folio>357</folio>
+              <folio>358</folio>
+              <folio>359</folio>
+              <folio>360</folio>
+              <folio>361</folio>
+              <folio>362</folio>
+              <folio>363</folio>
+              <folio>364</folio>
+              <folio>365</folio>
+              <folio>366</folio>
+              <folio>367</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-093243" alias="t2-l2c8">
@@ -829,7 +1361,14 @@
           <questionTitle>Quid senserint antiqui patres praesertim graeci, et inter eos chrysostomus
             de initio gratiae, vel praedestinationis ex operibus naturae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>367</folio>
+              <folio>368</folio>
+              <folio>369</folio>
+              <folio>370</folio>
+              <folio>371</folio>
+              <folio>372</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-094509" alias="t2-l2c9">
@@ -837,7 +1376,10 @@
           <title>Caput 9</title>
           <questionTitle>Contra resolutionem superiorem objectio proponitur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>372</folio>
+              <folio>373</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-094901" alias="t2-l2c10">
@@ -846,7 +1388,13 @@
           <questionTitle>Tractantur tres modi asserendi bonum opus morale, quod non possit esse nisi
             ex praedestinatione, seu gratia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>373</folio>
+              <folio>374</folio>
+              <folio>375</folio>
+              <folio>376</folio>
+              <folio>377</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-095854" alias="t2-l2c11">
@@ -855,7 +1403,13 @@
           <questionTitle>Proponitur quarta sententia negans posse hominem per vires naturae bonum
             morale perficere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>377</folio>
+              <folio>378</folio>
+              <folio>379</folio>
+              <folio>380</folio>
+              <folio>381</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-096892" alias="t2-l2c12">
@@ -864,7 +1418,14 @@
           <questionTitle>Vera sententia, scilicet, hominem per rationem et liberum arbitrium posse
             aliquod bonum opus morale honeste perficere, ex scripturis probatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>381</folio>
+              <folio>382</folio>
+              <folio>383</folio>
+              <folio>384</folio>
+              <folio>385</folio>
+              <folio>386</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-098142" alias="t2-l2c13">
@@ -872,7 +1433,11 @@
           <title>Caput 13</title>
           <questionTitle>Eadem sententia conciliorum auctoritate comprobatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>386</folio>
+              <folio>387</folio>
+              <folio>388</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-098677" alias="t2-l2c14">
@@ -880,7 +1445,13 @@
           <title>Caput 14</title>
           <questionTitle>Probatur eadem sententia auctoritate patrum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>388</folio>
+              <folio>389</folio>
+              <folio>390</folio>
+              <folio>391</folio>
+              <folio>392</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-099663" alias="t2-l2c15">
@@ -888,7 +1459,14 @@
           <title>Caput 15</title>
           <questionTitle>Ratione comprobatur eadem sententia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>392</folio>
+              <folio>393</folio>
+              <folio>394</folio>
+              <folio>395</folio>
+              <folio>396</folio>
+              <folio>397</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-100848" alias="t2-l2c16">
@@ -897,7 +1475,21 @@
           <questionTitle>Eadem vero sententia suadetur, ostendendo varia incommoda, quae ex
             contraria sequuntur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>397</folio>
+              <folio>398</folio>
+              <folio>399</folio>
+              <folio>400</folio>
+              <folio>401</folio>
+              <folio>402</folio>
+              <folio>403</folio>
+              <folio>404</folio>
+              <folio>405</folio>
+              <folio>406</folio>
+              <folio>407</folio>
+              <folio>408</folio>
+              <folio>409</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-103948" alias="t2-l2c17">
@@ -906,7 +1498,12 @@
           <questionTitle>Respondetur fundamentis contrariae sententiae positis capite
             decimo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>409</folio>
+              <folio>410</folio>
+              <folio>411</folio>
+              <folio>412</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-104770" alias="t2-l2c18">
@@ -914,7 +1511,11 @@
           <title>Caput 18</title>
           <questionTitle>Satisfit principali objectioni in capite nono propositae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>412</folio>
+              <folio>413</folio>
+              <folio>414</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-105196" alias="t2-l2c19">
@@ -924,7 +1525,12 @@
             causam propriam praedestinationis quoad aliquem effectum ejus, etiam si ex aliqua gratia
             extrinseca proficiscatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>414</folio>
+              <folio>415</folio>
+              <folio>416</folio>
+              <folio>417</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-106096" alias="t2-l2c20">
@@ -933,7 +1539,19 @@
           <questionTitle>Opera supernaturalia procedentia ex gratia non esse causam
             praedestinationis quoad omnes effectus ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>417</folio>
+              <folio>418</folio>
+              <folio>419</folio>
+              <folio>420</folio>
+              <folio>421</folio>
+              <folio>422</folio>
+              <folio>423</folio>
+              <folio>424</folio>
+              <folio>425</folio>
+              <folio>426</folio>
+              <folio>427</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-108489" alias="t2-l2c21">
@@ -942,7 +1560,11 @@
           <questionTitle>An ex parte christi, vel alicujus puri hominis possit dari causa
             praedestinationis alterius quoad omnes effectus ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>427</folio>
+              <folio>428</folio>
+              <folio>429</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-109073" alias="t2-l2c22">
@@ -951,7 +1573,11 @@
           <questionTitle>Possit-ne dari causa praedestinationis ex parte actus divinae
             voluntatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>429</folio>
+              <folio>430</folio>
+              <folio>431</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-109584" alias="t2-l2c23">
@@ -960,7 +1586,19 @@
           <questionTitle>An ex parte hominis electi dari possit causa, vel ratio praedestinationis
             secundum se, seu quoad liberam determinationem aeterni actus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>431</folio>
+              <folio>432</folio>
+              <folio>433</folio>
+              <folio>434</folio>
+              <folio>435</folio>
+              <folio>436</folio>
+              <folio>437</folio>
+              <folio>438</folio>
+              <folio>439</folio>
+              <folio>440</folio>
+              <folio>441</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-112126" alias="t2-l2c24">
@@ -969,7 +1607,22 @@
           <questionTitle>Potuerit ne homo purus, vel etiam christus dominus mereri aliis
             praedestinationem , quoad liberam determinationem electionis divinae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>441</folio>
+              <folio>442</folio>
+              <folio>443</folio>
+              <folio>444</folio>
+              <folio>445</folio>
+              <folio>446</folio>
+              <folio>447</folio>
+              <folio>448</folio>
+              <folio>449</folio>
+              <folio>450</folio>
+              <folio>451</folio>
+              <folio>452</folio>
+              <folio>453</folio>
+              <folio>454</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-115369" alias="t2-l2c25">
@@ -978,7 +1631,10 @@
           <questionTitle>Detur ne aliqua causa, vel ratio ex parte dei electionis
             praedestinatorum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>454</folio>
+              <folio>455</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -991,7 +1647,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>456</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-115924" alias="t2-l3c1">
@@ -1000,7 +1658,11 @@
           <questionTitle>Habeat-ne praedestinatio aliquos effectus, et in quo genere
             causae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>456</folio>
+              <folio>457</folio>
+              <folio>458</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-116272" alias="t2-l3c2">
@@ -1009,7 +1671,11 @@
           <questionTitle>Quae conditiones necessariae sint, ut aliquod beneficium sit
             praedestinationis effectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>458</folio>
+              <folio>459</folio>
+              <folio>460</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-116927" alias="t2-l3c3">
@@ -1017,7 +1683,11 @@
           <title>Caput 3</title>
           <questionTitle>Sint-ne gloria et perseverantia praedestinationis effectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>460</folio>
+              <folio>461</folio>
+              <folio>462</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-117374" alias="t2-l3c4">
@@ -1026,7 +1696,11 @@
           <questionTitle>An prima justificatio, omnisque gratia habitualis, quae in haec vita datur
             praedestinato, sit effectus praedestinationis ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>462</folio>
+              <folio>463</folio>
+              <folio>464</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-117985" alias="t2-l3c5">
@@ -1035,7 +1709,13 @@
           <questionTitle>An omnes supernaturales actus quovis modo meritorii, quos praedestinatus
             facit, sint effectus praedestinationis ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>464</folio>
+              <folio>465</folio>
+              <folio>466</folio>
+              <folio>467</folio>
+              <folio>468</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-119002" alias="t2-l3c6">
@@ -1044,7 +1724,12 @@
           <questionTitle>Quae vocatio et praevenientia auxilia sint praedestinationis
             effectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>468</folio>
+              <folio>469</folio>
+              <folio>470</folio>
+              <folio>471</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-119611" alias="t2-l3c7">
@@ -1053,7 +1738,12 @@
           <questionTitle>Quae bona naturae, et quomodo sint praedestinationis
             effectus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>471</folio>
+              <folio>472</folio>
+              <folio>473</folio>
+              <folio>474</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-120554" alias="t2-l3c8">
@@ -1061,7 +1751,14 @@
           <title>Caput 8</title>
           <questionTitle>An malum, ejusve permissio sit praedestinationis effectus.</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>474</folio>
+              <folio>475</folio>
+              <folio>476</folio>
+              <folio>477</folio>
+              <folio>478</folio>
+              <folio>479</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-121730" alias="t2-l3c9">
@@ -1070,7 +1767,12 @@
           <questionTitle>Ex praedestinatione non sequi necessitatem habendi, vel conservandi
             gratiam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>479</folio>
+              <folio>480</folio>
+              <folio>481</folio>
+              <folio>482</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-122454" alias="t2-l3c10">
@@ -1080,7 +1782,12 @@
             operandi in singulis actibus: ubi magis explicatur concordia praedestinationis cum
             libertate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>482</folio>
+              <folio>483</folio>
+              <folio>484</folio>
+              <folio>485</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1093,7 +1800,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>485</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-123308" alias="t2-l4c1">
@@ -1102,7 +1811,12 @@
           <questionTitle>Quam certum sit, voluisse deum salvare omnes homines, etiam non
             pbraedestinatos</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>485</folio>
+              <folio>486</folio>
+              <folio>487</folio>
+              <folio>488</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-123948" alias="t2-l4c2">
@@ -1111,7 +1825,12 @@
           <questionTitle>Qualis sit in deo haec voluntas salvandi omnes homines, et quod proprium
             objectum habeat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>488</folio>
+              <folio>489</folio>
+              <folio>490</folio>
+              <folio>491</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-124802" alias="t2-l4c3">
@@ -1120,7 +1839,13 @@
           <questionTitle>An deus providerit omnibus adultis non electis sufficientia media ad
             aeternam salutem consequendam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>491</folio>
+              <folio>492</folio>
+              <folio>493</folio>
+              <folio>494</folio>
+              <folio>495</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-125801" alias="t2-l4c4">
@@ -1129,7 +1854,13 @@
           <questionTitle>Utrum omnibus infantibus, qui in hac vita ad rationis usum non perveniunt,
             providerit deus sufficientia media ad salutem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>495</folio>
+              <folio>496</folio>
+              <folio>497</folio>
+              <folio>498</folio>
+              <folio>499</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1141,7 +1872,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>500</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-126882" alias="t2-l5c1">
@@ -1149,7 +1882,10 @@
           <title>Caput 1</title>
           <questionTitle>Reprobationem esse in deo, et quid sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>500</folio>
+              <folio>501</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-127197" alias="t2-l5c2">
@@ -1157,7 +1893,10 @@
           <title>Caput 2</title>
           <questionTitle>Sitne praecipue reprobatio actus intellectus, an voluntatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>501</folio>
+              <folio>502</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-127541" alias="t2-l5c3">
@@ -1166,7 +1905,14 @@
           <questionTitle>An deus ex se voluerit aliquem a regno coelesti excludere in primo signo
             rationis, in quo de salute hominum decrevit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>502</folio>
+              <folio>503</folio>
+              <folio>504</folio>
+              <folio>505</folio>
+              <folio>506</folio>
+              <folio>507</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-128617" alias="t2-l5c4">
@@ -1175,7 +1921,12 @@
           <questionTitle>Qui actus divini intellectus, vel voluntatis in reprobatione
             interveniant</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>507</folio>
+              <folio>508</folio>
+              <folio>509</folio>
+              <folio>510</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-129444" alias="t2-l5c5">
@@ -1184,7 +1935,11 @@
           <questionTitle>Reprobationis negativae non dari causam ex parte hominis
             praesciti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>510</folio>
+              <folio>511</folio>
+              <folio>512</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-130092" alias="t2-l5c6">
@@ -1193,7 +1948,12 @@
           <questionTitle>Detur ne causa ex parte hominis positivae reprobationis
             ejus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>512</folio>
+              <folio>513</folio>
+              <folio>514</folio>
+              <folio>515</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-130675" alias="t2-l5c7">
@@ -1202,7 +1962,12 @@
           <questionTitle>De effectibus reprobationis, praesertim de permissione
             peccati</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>515</folio>
+              <folio>516</folio>
+              <folio>517</folio>
+              <folio>518</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-131485" alias="t2-l5c8">
@@ -1210,7 +1975,11 @@
           <title>Caput 8</title>
           <questionTitle>Utrum reprobatio tollat aliquo modo reprobi libertatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>518</folio>
+              <folio>519</folio>
+              <folio>520</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1223,7 +1992,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>520</folio>
+              <folio>521</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-132112" alias="t2-l6c1">
@@ -1232,7 +2004,11 @@
           <questionTitle>Utrum praedestinatus semper in hac vita recipiat majora dona gratiae, quam
             reprobus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>521</folio>
+              <folio>522</folio>
+              <folio>523</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-132628" alias="t2-l6c2">
@@ -1240,7 +2016,10 @@
           <title>Caput 2</title>
           <questionTitle>Quomodo numerus praedestinatorum et reproborum certus sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>523</folio>
+              <folio>524</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-133010" alias="t2-l6c3">
@@ -1248,7 +2027,11 @@
           <title>Caput 3</title>
           <questionTitle>Sit ne major numerus praedestinatorum, an reproborum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>524</folio>
+              <folio>525</folio>
+              <folio>526</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-133409" alias="t2-l6c4">
@@ -1257,7 +2040,13 @@
           <questionTitle>Quomodo ratio divinae providentiae supernaturalis ex praedestinatione et
             reprobatione compleatur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>526</folio>
+              <folio>527</folio>
+              <folio>528</folio>
+              <folio>529</folio>
+              <folio>530</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1270,7 +2059,10 @@
         <title>Praeambulum</title>
         <questionTitle/>
         <hasWitnesses>
-          <witness ref="#cod-sqqv01"/>
+          <witness ref="#cod-sqqv01">
+            <folio>531</folio>
+            <folio>532</folio>
+          </witness>
         </hasWitnesses>
       </item>
       <div id="szduep-d1e2095">
@@ -1281,7 +2073,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>533</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-134859" alias="t3-l1c1">
@@ -1290,7 +2084,12 @@
           <questionTitle>In deum tam nomen, quam rationem personae vere et proprie
             convenire</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>533</folio>
+              <folio>534</folio>
+              <folio>535</folio>
+              <folio>536</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-135569" alias="t3-l1c2">
@@ -1298,7 +2097,11 @@
           <title>Caput 2</title>
           <questionTitle>In deo esse plures personas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>536</folio>
+              <folio>537</folio>
+              <folio>538</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-136245" alias="t3-l1c3">
@@ -1306,7 +2109,15 @@
           <title>Caput 3</title>
           <questionTitle>Quomodo ratio personae communis sit tribus divinis personis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>538</folio>
+              <folio>539</folio>
+              <folio>540</folio>
+              <folio>541</folio>
+              <folio>542</folio>
+              <folio>543</folio>
+              <folio>544</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-137745" alias="t3-l1c4">
@@ -1315,7 +2126,14 @@
           <questionTitle>Personas non multiplicari in deo, nisi per realem
             processionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>544</folio>
+              <folio>545</folio>
+              <folio>546</folio>
+              <folio>547</folio>
+              <folio>548</folio>
+              <folio>549</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-139047" alias="t3-l1c5">
@@ -1324,7 +2142,12 @@
           <questionTitle>In trinitate processiones non esse immediate a natura, sed per intellectum,
             et voluntatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>549</folio>
+              <folio>550</folio>
+              <folio>551</folio>
+              <folio>552</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-139641" alias="t3-l1c6">
@@ -1333,7 +2156,13 @@
           <questionTitle>Personas productas in deo procedere per actus intelligendi et amandi, ut
             tales sunt</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>552</folio>
+              <folio>553</folio>
+              <folio>554</folio>
+              <folio>555</folio>
+              <folio>556</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-140732" alias="t3-l1c7">
@@ -1342,7 +2171,12 @@
           <questionTitle>Per quos actus intelligendi, et amandi producantur in deo personae
             procedentes</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>556</folio>
+              <folio>557</folio>
+              <folio>558</folio>
+              <folio>559</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-141478" alias="t3-l1c8">
@@ -1351,7 +2185,10 @@
           <questionTitle>Sit-ne actus intelligendi et amandi principium quo producendi, vel ipsa
             productio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>559</folio>
+              <folio>560</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-141855" alias="t3-l1c9">
@@ -1359,7 +2196,11 @@
           <title>Caput 9</title>
           <questionTitle>In deo tantum esse duas processiones reales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>560</folio>
+              <folio>561</folio>
+              <folio>562</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-142413" alias="t3-l1c10">
@@ -1367,7 +2208,11 @@
           <title>Caput 10</title>
           <questionTitle>In deo esse tres personas, et non plures</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>562</folio>
+              <folio>563</folio>
+              <folio>564</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-142927" alias="t3-l1c11">
@@ -1376,7 +2221,15 @@
           <questionTitle>Non posse intellectum creatum sine divina revelatione trinitatem personarum
             in deo cognoscere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>564</folio>
+              <folio>565</folio>
+              <folio>566</folio>
+              <folio>567</folio>
+              <folio>568</folio>
+              <folio>569</folio>
+              <folio>570</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-144358" alias="t3-l1c12">
@@ -1385,7 +2238,12 @@
           <questionTitle>Quomodo possit intellectus creatus cognoscere vel ostendere personarum
             trinitatem in deo, supposita divina revelatione</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>570</folio>
+              <folio>571</folio>
+              <folio>572</folio>
+              <folio>573</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1397,7 +2255,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>574</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-145173" alias="t3-l2c1">
@@ -1405,7 +2265,10 @@
           <title>Caput 1</title>
           <questionTitle>Sitne pater verus deus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>574</folio>
+              <folio>575</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-145567" alias="t3-l2c2">
@@ -1413,7 +2276,12 @@
           <title>Caput 2</title>
           <questionTitle>An persona, quae est verus deus, possit esse producta</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>575</folio>
+              <folio>576</folio>
+              <folio>577</folio>
+              <folio>578</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-146247" alias="t3-l2c3">
@@ -1421,7 +2289,12 @@
           <title>Caput 3</title>
           <questionTitle>Filium secundam trinitatis personam esse verum deum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>578</folio>
+              <folio>579</folio>
+              <folio>580</folio>
+              <folio>581</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-146881" alias="t3-l2c4">
@@ -1430,7 +2303,12 @@
           <questionTitle>Respondetur argumentis haereticorum contra veram filii
             divinitatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>581</folio>
+              <folio>582</folio>
+              <folio>583</folio>
+              <folio>584</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-147732" alias="t3-l2c5">
@@ -1439,7 +2317,11 @@
           <questionTitle>Spiritum sanctum, tertiam trinitatis personam, esse verum
             deum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>584</folio>
+              <folio>585</folio>
+              <folio>586</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-148251" alias="t3-l2c6">
@@ -1447,7 +2329,10 @@
           <title>Caput 6</title>
           <questionTitle>Respondetur argumentis contra divinitatem spiritus sancti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>586</folio>
+              <folio>587</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1460,7 +2345,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>588</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-148638" alias="t3-l3c1">
@@ -1468,7 +2355,10 @@
           <title>Caput 1</title>
           <questionTitle>Divinas personas realiter inter se distingui, ostenditur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>588</folio>
+              <folio>589</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-148952" alias="t3-l3c2">
@@ -1477,7 +2367,10 @@
           <questionTitle>Satisfit objectionibus haereticorum contra veram trium divinarum
             personarum, realemque distinctionem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>589</folio>
+              <folio>590</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-149321" alias="t3-l3c3">
@@ -1486,7 +2379,11 @@
           <questionTitle>Sicut trinitate sunt tres persone, ita etiam esse tres personalitates
             realiter distinctas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>591</folio>
+              <folio>592</folio>
+              <folio>593</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-149978" alias="t3-l3c4">
@@ -1495,7 +2392,11 @@
           <questionTitle>Sintne in tribus personis tres subsistentiae personales realiter
             distinctae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>593</folio>
+              <folio>594</folio>
+              <folio>595</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-150594" alias="t3-l3c5">
@@ -1504,7 +2405,12 @@
           <questionTitle>Sint ne in divinis personis tres existentie personales realiter
             distinctae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>595</folio>
+              <folio>596</folio>
+              <folio>597</folio>
+              <folio>598</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-151391" alias="t3-l3c6">
@@ -1513,7 +2419,10 @@
           <questionTitle>Quomodo transcendentalia praedicata, res, aliquid, ens multiplicentur
             simpliciter in trinitate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>599</folio>
+              <folio>600</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-151831" alias="t3-l3c7">
@@ -1522,7 +2431,10 @@
           <questionTitle>Sint-ne in tribus divinis personis tres unitates
             transcendentales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>600</folio>
+              <folio>601</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-152123" alias="t3-l3c8">
@@ -1530,7 +2442,10 @@
           <title>Caput 8</title>
           <questionTitle>Sint-ne in tribus personis tres veritates transcendentales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>601</folio>
+              <folio>602</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-152420" alias="t3-l3c9">
@@ -1539,7 +2454,14 @@
           <questionTitle>Sint ne in trinitate tres bonitates, ac subinde tres perfectiones
             personales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>603</folio>
+              <folio>604</folio>
+              <folio>605</folio>
+              <folio>606</folio>
+              <folio>607</folio>
+              <folio>608</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-153721" alias="t3-l3c10">
@@ -1547,7 +2469,11 @@
           <title>Caput 10</title>
           <questionTitle>Satisfit fundamentis aliarum opinionum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>608</folio>
+              <folio>609</folio>
+              <folio>610</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-154397" alias="t3-l3c11">
@@ -1556,7 +2482,12 @@
           <questionTitle>Utrum attributa divina positiva multiplicentur in divinis personis, aut de
             eis possint aliquo modo pluraliter praedicari</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>610</folio>
+              <folio>611</folio>
+              <folio>612</folio>
+              <folio>613</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-155231" alias="t3-l3c12">
@@ -1565,7 +2496,12 @@
           <questionTitle>An divina attributa privativa multiplicentur aliquo modo in personis
             divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>613</folio>
+              <folio>614</folio>
+              <folio>615</folio>
+              <folio>616</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-155843" alias="t3-l3c13">
@@ -1573,7 +2509,11 @@
           <title>Caput 13</title>
           <questionTitle>Quibus verbis distinctio personarum explicanda sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>616</folio>
+              <folio>617</folio>
+              <folio>618</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1586,7 +2526,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>619</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-156508" alias="t3-l4c1">
@@ -1594,7 +2536,10 @@
           <title>Caput 1</title>
           <questionTitle>Tres personas esse unius, et ejusdem essentiae ac naturae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>619</folio>
+              <folio>620</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-156861" alias="t3-l4c2">
@@ -1602,7 +2547,11 @@
           <title>Caput 2</title>
           <questionTitle>Tres personas divinas esse idem realiter in una deitate</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>620</folio>
+              <folio>621</folio>
+              <folio>622</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-157401" alias="t3-l4c3">
@@ -1611,7 +2560,11 @@
           <questionTitle>Occurritur fundamento contrarii erroris et conciliatur cum trinitatis
             mysterio principium illud</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>622</folio>
+              <folio>623</folio>
+              <folio>624</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-157886" alias="t3-l4c4">
@@ -1620,7 +2573,13 @@
           <questionTitle>Sit-ne inter personas et essentiam aliqua distinctio in re, vel summa
             identitas cum sola distinctione rationis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>624</folio>
+              <folio>625</folio>
+              <folio>626</folio>
+              <folio>627</folio>
+              <folio>628</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-158879" alias="t3-l4c5">
@@ -1629,7 +2588,11 @@
           <questionTitle>Utrum divinae personae, seu proprietates earum, sint de essentia
             divinitatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>628</folio>
+              <folio>629</folio>
+              <folio>630</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-159447" alias="t3-l4c6">
@@ -1638,7 +2601,11 @@
           <questionTitle>Satisfit fundamentis contrariae sententiae et eorum occasione nonnulla
             dubia expediuntur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>630</folio>
+              <folio>631</folio>
+              <folio>632</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-159878" alias="t3-l4c7">
@@ -1647,7 +2614,11 @@
           <questionTitle>Sit-ne divina essentia de conceptu essentiali, et quidditativo singularum
             relationum, ac proprietatum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>632</folio>
+              <folio>633</folio>
+              <folio>634</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-160428" alias="t3-l4c8">
@@ -1656,7 +2627,10 @@
           <questionTitle>Satisfit argumentis contrariae sententiae et duo dubia illorum occasione
             incidentia expediuntur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>634</folio>
+              <folio>635</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-160751" alias="t3-l4c9">
@@ -1665,7 +2639,10 @@
           <questionTitle>Tres divinas personas habere eamdem perfectam unitatem in omnibus
             attributis divinis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>635</folio>
+              <folio>636</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-161067" alias="t3-l4c10">
@@ -1674,7 +2651,12 @@
           <questionTitle>Quomodo una et eadem omnipotentia sit in omnibus et singulis
             personis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>636</folio>
+              <folio>637</folio>
+              <folio>638</folio>
+              <folio>639</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-161632" alias="t3-l4c11">
@@ -1683,7 +2665,11 @@
           <questionTitle>An tres personae divinae sint unum in aliqua subsistentia absoluta et
             essentiali</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>639</folio>
+              <folio>640</folio>
+              <folio>641</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-162380" alias="t3-l4c12">
@@ -1692,7 +2678,10 @@
           <questionTitle>Tres divinas personas vere, ac proprie esse et dici unum deum propter
             essentiae unitatem</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>642</folio>
+              <folio>643</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-162713" alias="t3-l4c13">
@@ -1701,7 +2690,10 @@
           <questionTitle>Explicantur varii modi loquendi de unitate trium personarum in esse
             dei</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>643</folio>
+              <folio>644</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-163063" alias="t3-l4c14">
@@ -1709,7 +2701,11 @@
           <title>Caput 14</title>
           <questionTitle>Pro quo supponat hic deus, cum de tribus personis dicitur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>644</folio>
+              <folio>645</folio>
+              <folio>646</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-163661" alias="t3-l4c15">
@@ -1718,7 +2714,12 @@
           <questionTitle>Quo modo inter divinas personas similitudo, et aequalitas
             intercedat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>646</folio>
+              <folio>647</folio>
+              <folio>648</folio>
+              <folio>649</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-164281" alias="t3-l4c16">
@@ -1727,7 +2728,11 @@
           <questionTitle>An divinae personae ex unitate habeant circuminsessionem, id est, mutuam
             existentiam unius in alia</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>649</folio>
+              <folio>650</folio>
+              <folio>651</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1739,7 +2744,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>652</folio>
+              <folio>653</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-165137" alias="t3-l5c1">
@@ -1747,7 +2755,10 @@
           <title>Caput 1</title>
           <questionTitle>Sint-ne in deo relationes reales ad intra</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>653</folio>
+              <folio>654</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-165509" alias="t3-l5c2">
@@ -1755,7 +2766,11 @@
           <title>Caput 2</title>
           <questionTitle>Quod sint intra deum relationes reales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>654</folio>
+              <folio>655</folio>
+              <folio>656</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-165904" alias="t3-l5c3">
@@ -1764,7 +2779,10 @@
           <questionTitle>Quomodo tres divina relationes personales distinguantur a personis, quas
             referunt</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>656</folio>
+              <folio>657</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-166404" alias="t3-l5c4">
@@ -1772,7 +2790,12 @@
           <title>Caput 4</title>
           <questionTitle>Utrum relatio spirationis activa realis sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>657</folio>
+              <folio>658</folio>
+              <folio>659</folio>
+              <folio>660</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-166988" alias="t3-l5c5">
@@ -1781,7 +2804,11 @@
           <questionTitle>Utrum relatio spirationis activae sit realiter distincta a relationibus
             personalibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>660</folio>
+              <folio>661</folio>
+              <folio>662</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-167477" alias="t3-l5c6">
@@ -1790,7 +2817,11 @@
           <questionTitle>Satisfit primo argumento durandi, et explicatur, an spiratio activa una
             simplex relatio sit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>662</folio>
+              <folio>663</folio>
+              <folio>664</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-168057" alias="t3-l5c7">
@@ -1799,7 +2830,11 @@
           <questionTitle>Satisfit secundo durandi fundamento, et colligitur relationum numerus, et
             incidentia dubia expediuntur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>664</folio>
+              <folio>665</folio>
+              <folio>666</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-168601" alias="t3-l5c8">
@@ -1808,7 +2843,12 @@
           <questionTitle>Conferuntur relationes divine inter se et peculiares earum conditiones
             explicantur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>666</folio>
+              <folio>667</folio>
+              <folio>668</folio>
+              <folio>669</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-169356" alias="t3-l5c9">
@@ -1816,7 +2856,11 @@
           <title>Caput 9</title>
           <questionTitle>An omnes relationes divinae notiones sint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>669</folio>
+              <folio>670</folio>
+              <folio>671</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-169842" alias="t3-l5c10">
@@ -1825,7 +2869,11 @@
           <questionTitle>Num omnes notiones sint relationes, et quis sit notionum
             numerus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>671</folio>
+              <folio>672</folio>
+              <folio>673</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1837,7 +2885,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>674</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-170529" alias="t3-l6c1">
@@ -1846,7 +2896,11 @@
           <questionTitle>Origines et notionales actus quomodo idem sint inter se, cum essentia et
             relationibus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>674</folio>
+              <folio>675</folio>
+              <folio>676</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-170946" alias="t3-l6c2">
@@ -1854,7 +2908,11 @@
           <title>Caput 2</title>
           <questionTitle>Tractatur, et expeditur difficultas circa origines activas</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>676</folio>
+              <folio>677</folio>
+              <folio>678</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-171526" alias="t3-l6c3">
@@ -1862,7 +2920,10 @@
           <title>Caput 3</title>
           <questionTitle>Sint-ne actus notionales necessari, ac naturales</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>678</folio>
+              <folio>679</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-171902" alias="t3-l6c4">
@@ -1870,7 +2931,12 @@
           <title>Caput 4</title>
           <questionTitle>Sint-ne actus notionales voluntarii, non vero liberi</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>679</folio>
+              <folio>680</folio>
+              <folio>681</folio>
+              <folio>682</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-172606" alias="t3-l6c5">
@@ -1879,7 +2945,11 @@
           <questionTitle>Quae sit potentia, seu principium formale actuum
             notionalium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>682</folio>
+              <folio>683</folio>
+              <folio>684</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-173195" alias="t3-l6c6">
@@ -1887,7 +2957,11 @@
           <title>Caput 6</title>
           <questionTitle>Quis sit proprius et formalis terminus utriusque originis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>684</folio>
+              <folio>685</folio>
+              <folio>686</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-173635" alias="t3-l6c7">
@@ -1896,7 +2970,13 @@
           <questionTitle>Quomodo notionales actus de deo, divina essentia, potentia, aut relatione,
             praedicari possest</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>686</folio>
+              <folio>687</folio>
+              <folio>688</folio>
+              <folio>689</folio>
+              <folio>690</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1909,7 +2989,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>690</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-174688" alias="t3-l7c1">
@@ -1918,7 +3000,10 @@
           <questionTitle>Denturne in deo proprietates personales, quae in abstracto concipi, et
             significari a nobis possint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>691</folio>
+              <folio>692</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-175054" alias="t3-l7c2">
@@ -1927,7 +3012,11 @@
           <questionTitle>Quot sint personarum proprietates et quomodo a personis
             distinguantur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>692</folio>
+              <folio>693</folio>
+              <folio>694</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-175480" alias="t3-l7c3">
@@ -1936,7 +3025,11 @@
           <questionTitle>Quomodo proprietates constituant divinas personas in suo esse
             personali</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>694</folio>
+              <folio>695</folio>
+              <folio>696</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-176184" alias="t3-l7c4">
@@ -1945,7 +3038,12 @@
           <questionTitle>Utrum eaedem proprietates, quae constituunt personas, illas
             distinguant</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>696</folio>
+              <folio>697</folio>
+              <folio>698</folio>
+              <folio>699</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-176866" alias="t3-l7c5">
@@ -1954,7 +3052,12 @@
           <questionTitle>Utrum proprietates constiiuentes et distinguentes personas, absolutae
             sint</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>699</folio>
+              <folio>700</folio>
+              <folio>701</folio>
+              <folio>702</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-177712" alias="t3-l7c6">
@@ -1963,7 +3066,12 @@
           <questionTitle>Utrum proprietates constituentes personas, sint relationes vel
             origines</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>702</folio>
+              <folio>703</folio>
+              <folio>704</folio>
+              <folio>705</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-178367" alias="t3-l7c7">
@@ -1972,7 +3080,12 @@
           <questionTitle>Utrum relatio sub propria ratione relationis sit forma constituens
             personam</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>705</folio>
+              <folio>706</folio>
+              <folio>707</folio>
+              <folio>708</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-179266" alias="t3-l7c8">
@@ -1981,7 +3094,11 @@
           <questionTitle>Utrum persona in communi et maxime in divinis significet de formali
             relationem vel absolutlum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>708</folio>
+              <folio>709</folio>
+              <folio>710</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -1993,7 +3110,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>711</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-179898" alias="t3-l8c1">
@@ -2002,7 +3121,12 @@
           <questionTitle>Utrum paternitas sit prima proprietas patris; et unde illi
             conveniat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>711</folio>
+              <folio>712</folio>
+              <folio>713</folio>
+              <folio>714</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-180641" alias="t3-l8c2">
@@ -2010,7 +3134,12 @@
           <title>Caput 2</title>
           <questionTitle>Utrum esse ingenitum sit altera proprietas primae persona</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>714</folio>
+              <folio>715</folio>
+              <folio>716</folio>
+              <folio>717</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-181360" alias="t3-l8c3">
@@ -2019,7 +3148,10 @@
           <questionTitle>Utrum sit proprium primae personae, esse principium
             deitatis</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>717</folio>
+              <folio>718</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -2031,7 +3163,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>719</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-181841" alias="t3-l9c1">
@@ -2040,7 +3174,12 @@
           <questionTitle>Sit-ne secunda trinitatis persona, verus filius, ac verbum
             patris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>719</folio>
+              <folio>720</folio>
+              <folio>721</folio>
+              <folio>722</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-182638" alias="t3-l9c2">
@@ -2048,7 +3187,12 @@
           <title>Caput 2</title>
           <questionTitle>An secunda trinitatis persona sit et dicatur proprie verbum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>723</folio>
+              <folio>724</folio>
+              <folio>725</folio>
+              <folio>726</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-183636" alias="t3-l9c3">
@@ -2056,7 +3200,11 @@
           <title>Caput 3</title>
           <questionTitle>An verbum in deo personale tantum sit, vel etiam essentiale</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>726</folio>
+              <folio>727</folio>
+              <folio>728</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-184171" alias="t3-l9c4">
@@ -2065,7 +3213,13 @@
           <questionTitle>Utrum divinum verbum producatur ex cognitione omnium, quae in deo
             formaliter sunt</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>728</folio>
+              <folio>729</folio>
+              <folio>730</folio>
+              <folio>731</folio>
+              <folio>732</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-185015" alias="t3-l9c5">
@@ -2074,7 +3228,12 @@
           <questionTitle>Resolvuntur nonnulla dubia, quae ex doctrina superioris capitis
             oriuntur</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>732</folio>
+              <folio>733</folio>
+              <folio>734</folio>
+              <folio>735</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-185801" alias="t3-l9c6">
@@ -2083,7 +3242,14 @@
           <questionTitle>Utrum verbum divinum procedat ex cognitione creaturarum
             possibilium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>735</folio>
+              <folio>736</folio>
+              <folio>737</folio>
+              <folio>738</folio>
+              <folio>739</folio>
+              <folio>740</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-187199" alias="t3-l9c7">
@@ -2092,7 +3258,12 @@
           <questionTitle>An verbum divinum procedat ex scientia visionis, vel aliquo modo
             contingente creaturarum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>740</folio>
+              <folio>741</folio>
+              <folio>742</folio>
+              <folio>743</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-187960" alias="t3-l9c8">
@@ -2100,7 +3271,12 @@
           <title>Caput 8</title>
           <questionTitle>Sit-ne verbum vera, et naturalis imago patris</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>743</folio>
+              <folio>744</folio>
+              <folio>745</folio>
+              <folio>746</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-188617" alias="t3-l9c9">
@@ -2108,7 +3284,12 @@
           <title>Caput 9</title>
           <questionTitle>Sit-ne filius solius patris imago</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>746</folio>
+              <folio>747</folio>
+              <folio>748</folio>
+              <folio>749</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-189456" alias="t3-l9c10">
@@ -2116,7 +3297,12 @@
           <title>Caput 10</title>
           <questionTitle>An verbum sit sapientia patris, qua pater ipse sapiens est</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>749</folio>
+              <folio>750</folio>
+              <folio>751</folio>
+              <folio>752</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -2128,7 +3314,9 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>753</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-190310" alias="t3-l10c1">
@@ -2137,7 +3325,13 @@
           <questionTitle>Non solum patrem, sed etiam filium esse spiratorem, seu spiritus sancti
             principium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>753</folio>
+              <folio>754</folio>
+              <folio>755</folio>
+              <folio>756</folio>
+              <folio>757</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-191409" alias="t3-l10c2">
@@ -2146,7 +3340,13 @@
           <questionTitle>An ex reali distinctione inter filium, et spiritum sanctum recte
             concludatur progessio unius ab alio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>757</folio>
+              <folio>758</folio>
+              <folio>759</folio>
+              <folio>760</folio>
+              <folio>761</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-192423" alias="t3-l10c3">
@@ -2155,7 +3355,12 @@
           <questionTitle>An pater et filius immediate, et aeque principaliter producant spiritum
             sanctum in re ipsa</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>761</folio>
+              <folio>762</folio>
+              <folio>763</folio>
+              <folio>764</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-193108" alias="t3-l10c4">
@@ -2164,7 +3369,11 @@
           <questionTitle>An etiam secundum rationem pater, et filius immediate producant spiritum
             sanctum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>764</folio>
+              <folio>765</folio>
+              <folio>766</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-193735" alias="t3-l10c5">
@@ -2172,7 +3381,11 @@
           <title>Caput 5</title>
           <questionTitle>Sit-ne in patre et filio una et eadem spirandi virtus</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>766</folio>
+              <folio>767</folio>
+              <folio>768</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-194117" alias="t3-l10c6">
@@ -2181,7 +3394,11 @@
           <questionTitle>An pater, et filius spirent ut dua personae ad spirandum per se
             requisitae</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>768</folio>
+              <folio>769</folio>
+              <folio>770</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-194745" alias="t3-l10c7">
@@ -2190,7 +3407,12 @@
           <questionTitle>An pater et filius sint unus spirator, unumque spiritus sancti
             principium</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>770</folio>
+              <folio>771</folio>
+              <folio>772</folio>
+              <folio>773</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -2202,7 +3424,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>773</folio>
+              <folio>774</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-195482" alias="t3-l11c1">
@@ -2211,7 +3436,11 @@
           <questionTitle>An tertia trinitatis persona ratione suae processionis recte, ac proprie
             spiritus, et amor appelletur, et ex quarum rerum amore procedat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>774</folio>
+              <folio>775</folio>
+              <folio>776</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-196011" alias="t3-l11c2">
@@ -2219,7 +3448,12 @@
           <title>Caput 2</title>
           <questionTitle>Ex quarum rerum amore spiritus sanctus procedat</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>776</folio>
+              <folio>777</folio>
+              <folio>778</folio>
+              <folio>779</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-196894" alias="t3-l11c3">
@@ -2227,7 +3461,12 @@
           <title>Caput 3</title>
           <questionTitle>An pater et filius diligant se, vel alia spiritu sancto</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>779</folio>
+              <folio>780</folio>
+              <folio>781</folio>
+              <folio>782</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-197690" alias="t3-l11c4">
@@ -2236,7 +3475,11 @@
           <questionTitle>Utrum spiritus sanctus ex vi sua processionis proprie ac personaliter
             habeat esse donum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>782</folio>
+              <folio>783</folio>
+              <folio>784</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-198220" alias="t3-l11c5">
@@ -2245,7 +3488,15 @@
           <questionTitle>Cur spiritus sancti progessio non sit generatio, nec ejus proprietas
             filiatio</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>784</folio>
+              <folio>785</folio>
+              <folio>786</folio>
+              <folio>787</folio>
+              <folio>788</folio>
+              <folio>789</folio>
+              <folio>790</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-199712" alias="t3-l11c6">
@@ -2253,7 +3504,12 @@
           <title>Caput 6</title>
           <questionTitle>Cur spiritus sanctus non procedat, ut patris et fili imago</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>790</folio>
+              <folio>791</folio>
+              <folio>792</folio>
+              <folio>793</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
@@ -2265,7 +3521,10 @@
           <title>Praeambulum</title>
           <questionTitle/>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>794</folio>
+              <folio>795</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-200723" alias="t3-l12c1">
@@ -2273,7 +3532,10 @@
           <title>Caput 1</title>
           <questionTitle>Quid sit missio divinarum personarum</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>795</folio>
+              <folio>796</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-201204" alias="t3-l12c2">
@@ -2282,7 +3544,11 @@
           <questionTitle>Quibus divinis personis mitti conveniat, et an pater mitti
             possit</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>797</folio>
+              <folio>798</folio>
+              <folio>799</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-201831" alias="t3-l12c3">
@@ -2290,7 +3556,12 @@
           <title>Caput 3</title>
           <questionTitle>Quaenam persona possit aliam mittere</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>799</folio>
+              <folio>800</folio>
+              <folio>801</folio>
+              <folio>802</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-202524" alias="t3-l12c4">
@@ -2299,7 +3570,14 @@
           <questionTitle>An quaedam vissio divinae personae sit invisibilis, et alia visibilis, et
             de utriusque ratione et modo</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>802</folio>
+              <folio>803</folio>
+              <folio>804</folio>
+              <folio>805</folio>
+              <folio>806</folio>
+              <folio>807</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-203842" alias="t3-l12c5">
@@ -2308,7 +3586,15 @@
           <questionTitle>De invisibili missione divinarum personarum, et omnibus, quae ad illam
             pertinent</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>807</folio>
+              <folio>808</folio>
+              <folio>809</folio>
+              <folio>810</folio>
+              <folio>811</folio>
+              <folio>812</folio>
+              <folio>813</folio>
+            </witness>
           </hasWitnesses>
         </item>
         <item id="szduep-205521" alias="t3-l12c6">
@@ -2316,7 +3602,18 @@
           <title>Caput 6</title>
           <questionTitle>De missionibus visibilibus spiritus sancti</questionTitle>
           <hasWitnesses>
-            <witness ref="#cod-sqqv01"/>
+            <witness ref="#cod-sqqv01">
+              <folio>813</folio>
+              <folio>814</folio>
+              <folio>815</folio>
+              <folio>816</folio>
+              <folio>817</folio>
+              <folio>818</folio>
+              <folio>819</folio>
+              <folio>820</folio>
+              <folio>821</folio>
+              <folio>822</folio>
+            </witness>
           </hasWitnesses>
         </item>
       </div>
