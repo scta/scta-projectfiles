@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Peter John Olivi</authorName>
+    <commentaryName>Tractatus de missa</commentaryName>
+    <commentaryid>gh7uyz</commentaryid>
+    <commentaryslug>gh7uyz</commentaryslug>
+    <authorUri>http://scta.info/resource/PeterJeanOlivi</authorUri>
+    <parentWorkGroup>http://scta.info/resource/liturgica</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <witness id="cod-pboxyz">
+        <slug>cod-pboxyz</slug>
+        <title>Pesaro, Bibl. Oliveriana cod. 1444</title>
+        <initial>cod-pboxyz</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <head>Tractatus de missa</head>
+    <item id="gh7uyz-d1e100" alias="tdm-prol">
+      <fileName filestem="gh7uyz-d1e100"/>
+      <title>Prologus</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e150" alias="tdm-p1">
+      <fileName filestem="gh7uyz-d1e150"/>
+      <title>Pars 1</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e273" alias="tdm-p2">
+      <fileName filestem="gh7uyz-d1e273"/>
+      <title>Pars 2</title>
+      <questionTitle>De consideratione ministri digne celebrantis et utiliter</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e371" alias="tdm-p3">
+      <fileName filestem="gh7uyz-d1e371"/>
+      <title>Pars 3 De pravitate ministri istud sacramentum despicientis</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e397" alias="tdm-p4">
+      <fileName filestem="gh7uyz-d1e397"/>
+      <title>Pars 4 De consideratione admirabilis virtutis in hoc sacramento
+        supernaturaliter operantis</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e475" alias="tdm-p5">
+      <fileName filestem="gh7uyz-d1e475"/>
+      <title>Pars 5</title>
+      <questionTitle>De consideratione maxime utilitatis et fructus istius sacramenti
+        circa sumentem digne</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e608" alias="tdm-p6">
+      <fileName filestem="gh7uyz-d1e608"/>
+      <title>Pars 6</title>
+      <questionTitle/>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+    <item id="gh7uyz-d1e760" alias="tdm-p7">
+      <fileName filestem="gh7uyz-d1e760"/>
+      <title>Pars 7</title>
+      <questionTitle>Qualis debet esse preparatio cuiuslibet ad istam eucaristiam
+        accedentis</questionTitle>
+      <hasWitnesses>
+        <witness ref="#cod-pboxyz"/>
+      </hasWitnesses>
+    </item>
+  </div>
+</listofFileNames>
