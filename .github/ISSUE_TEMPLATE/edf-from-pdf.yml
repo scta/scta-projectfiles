@@ -1,0 +1,77 @@
+name: Create an EDF from a PDF question list
+description: Submit a PDF outline and its metadata for Copilot-assisted EDF creation.
+title: "[EDF PDF]: "
+labels: ["edf-pdf-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a chapter list or question list, not a full critical edition. Attach the PDF to this issue, then paste its GitHub attachment URL below. A maintainer applies `generate-edf` only after checking the submission.
+
+        Copilot will create a **draft** pull request. Its XML must be reviewed for OCR, hierarchy, titles, IDs, and all scholarly metadata before merging. Do not attach material that must not be processed in GitHub.
+  - type: input
+    id: pdf-url
+    attributes:
+      label: PDF attachment URL
+      description: Attach the PDF to this issue, then paste the generated github.com/user-attachments URL.
+      placeholder: https://github.com/user-attachments/files/...
+    validations:
+      required: true
+  - type: input
+    id: author-name
+    attributes:
+      label: Author name
+    validations:
+      required: true
+  - type: input
+    id: commentary-name
+    attributes:
+      label: Work/commentary name
+    validations:
+      required: true
+  - type: input
+    id: commentary-id
+    attributes:
+      label: Commentary ID and requested XML filename
+      description: Lowercase identifier used for `<commentaryid>`, `<commentaryslug>`, and the root-level filename, for example `example-commentary` becomes `example-commentary.xml`.
+    validations:
+      required: true
+  - type: input
+    id: author-uri
+    attributes:
+      label: SCTA author URI
+      description: Leave `Unknown` if a reviewer must supply it. Copilot must not invent one.
+      placeholder: http://scta.info/resource/AuthorName
+    validations:
+      required: true
+  - type: input
+    id: parent-work-group
+    attributes:
+      label: SCTA parent work-group URI
+      description: Leave `Unknown` if a reviewer must supply it. Copilot must not invent one.
+      placeholder: http://scta.info/resource/workgroup
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Question-list provenance and editorial credits
+      description: Identify the source, original editor, encoder, language, and anything uncertain. Use `Unknown` rather than guessing.
+      placeholder: |
+        Source:
+        Original editor:
+        Encoder:
+        Title language:
+        Uncertainties:
+    validations:
+      required: true
+  - type: textarea
+    id: witnesses
+    attributes:
+      label: Witnesses and foliation (optional)
+      description: Supply witness ID, slug, title, initial, and item-level folios only if they are explicit and ready to encode. Otherwise leave blank.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Hierarchy and encoding notes (optional)
+      description: Explain how headings should nest, whether a heading is a chapter or question, and any known OCR or transcription concerns.

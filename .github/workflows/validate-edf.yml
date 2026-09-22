@@ -1,0 +1,33 @@
+name: Validate changed EDFs
+
+on:
+  pull_request:
+    paths:
+      - '*.xml'
+      - scripts/validate_edf.py
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+        with:
+          fetch-depth: 0
+      - name: Validate added or changed root EDFs
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          mapfile -t files < <(git diff --name-only "$BASE_SHA" HEAD -- '*.xml' | awk 'index($0, "/") == 0')
+          if (( ${#files[@]} == 0 )); then
+            echo "No root-level EDF changes to validate."
+            exit 0
+          fi
+          for file in "${files[@]}"; do
+            if [[ -f "$file" ]]; then
+              python3 scripts/validate_edf.py "$file"
+            fi
+          done
