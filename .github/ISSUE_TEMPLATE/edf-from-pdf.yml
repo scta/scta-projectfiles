@@ -9,12 +9,12 @@ body:
         Submit a chapter list or question list, not a full critical edition. Attach the PDF to this issue, then paste its GitHub attachment URL below. A maintainer applies `generate-edf` only after checking the submission.
 
         Copilot will create a **draft** pull request. Its XML must be reviewed for OCR, hierarchy, titles, IDs, and all scholarly metadata before merging. Do not attach material that must not be processed in GitHub.
-  - type: input
+  - type: textarea
     id: pdf-url
     attributes:
-      label: PDF attachment URL
-      description: Attach the PDF to this issue, then paste the generated github.com/user-attachments URL.
-      placeholder: https://github.com/user-attachments/files/...
+      label: PDF attachment
+      description: Drag the PDF into this box, or use the attachment control beneath the box. GitHub uploads it and inserts its github.com/user-attachments URL automatically. Do not submit the issue until the upload finishes.
+      placeholder: Drag the PDF here. GitHub will insert the attachment URL.
     validations:
       required: true
   - type: input
