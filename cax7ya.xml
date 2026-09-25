@@ -1,262 +1,260 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<listofFileNames>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><listofFileNames>
   <header>
     <authorName>Feofan Prokopovych</authorName>
     <commentaryName>De processione Spiritus Sancti a solo Patre</commentaryName>
     <commentaryid>cax7ya</commentaryid>
     <commentaryslug>cax7ya</commentaryslug>
-    <authorUri/>
-    <parentWorkGroup/>
-    <questionListSource/>
-    <questionListOriginalEditor/>
-    <questionListEncoder/>
+    <authorUri>http://scta.info/resource/per-fpk8py</authorUri>
+    <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor>Justin Coyle</questionListOriginalEditor>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
     <hasWitnesses>
-      <witness id="G1772">
-        <slug>G1772</slug>
+      <witness id="cod-g82jjj">
+        <slug>cod-g82jjj</slug>
         <title>Gothae 1772</title>
-        <initial>G1772</initial>
-        <date>1772</date>
+        <initial>cod-g82jjj</initial>
+        <!--<date>1772</date>-->
+        <!--https://www.google.com/books/edition/Theophanis_Procopowicz_Tractatus_de_proc/JcFhAAAAcAAJ-->
       </witness>
-      <witness id="P245">
-        <slug>P245</slug>
-        <title/>
-        <initial>P245</initial>
-        <date/>
+      <witness id="cod-xnsu88">
+        <slug>cod-xnsu88</slug>
+        <title>Pyc. ms 245</title>
+        <initial>cod-xnsu88</initial>
+        <!--https://onedrive.live.com/?id=%2Fpersonal%2F8adeafebd83e759a%2FDocuments%2FOneDrive%5Fdocuments%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D0%B8%2F%D0%9A%D1%83%D1%80%D1%81%D0%B8%2F%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%BE%D0%B2%D0%B8%D1%87%5F%D1%82%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F%5F173%2EI%20245%2Epdf&listurl=%2Fpersonal%2F8adeafebd83e759a%2FDocuments&ithint=file%2Cpdf&e=mtskhe&migratedtospo=true&parent=%2Fpersonal%2F8adeafebd83e759a%2FDocuments%2FOneDrive%5Fdocuments%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D0%B8%2F%D0%9A%D1%83%D1%80%D1%81%D0%B8&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy84YWRlYWZlYmQ4M2U3NTlhL0lRQVJWWWdCX0REOFNidURRY2dQV1ZWNkFaaFBrYndwZ0FjckhNZm5YYlMwZFhjP2U9bXRza2hl&ga=1-->
       </witness>
     </hasWitnesses>
     <date>1714</date>
   </header>
   <div id="body">
     <head>De processione Spiritus Sancti a solo Patre</head>
-    <item id="cax7ya-praefatio">
-      <fileName filestem="cax7ya-praefatio"/>
+    <item id="cax7ya-d1e61" alias="cax7ya-praefatio">
+      <fileName filestem="cax7ya-d1e61"/>
       <title>Praefatio</title>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>130v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap1">
-      <fileName filestem="cax7ya-cap1"/>
+    <item id="cax7ya-d1e78" alias="cax7ya-cap1">
+      <fileName filestem="cax7ya-d1e78"/>
       <title>Caput 1</title>
       <questionTitle>De vocibus processionis et missionis, ut in hoc mysterio usurpantur: et statuit status quaestionis</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>131</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap2">
-      <fileName filestem="cax7ya-cap2"/>
+    <item id="cax7ya-d1e97" alias="cax7ya-cap2">
+      <fileName filestem="cax7ya-d1e97"/>
       <title>Caput 2</title>
       <questionTitle>Quid de processione Spiritus Sanctus, ex scriptura certi habere possimus? Locus Ioannis cap. XV. v. 26. Spiritus veritatis, qui a Patre procedit, explicatur, variaeque latinorum exceptiones ventilantur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>133v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap3">
-      <fileName filestem="cax7ya-cap3"/>
+    <item id="cax7ya-d1e116" alias="cax7ya-cap3">
+      <fileName filestem="cax7ya-d1e116"/>
       <title>Caput 3</title>
       <questionTitle>Testimonia selecta patrum orientalium pro dogmate nostro</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>134</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap4">
-      <fileName filestem="cax7ya-cap4"/>
+    <item id="cax7ya-d1e136" alias="cax7ya-cap4">
+      <fileName filestem="cax7ya-d1e136"/>
       <title>Caput 4</title>
       <questionTitle>Testimonia selecta patrum occidentalium pro nostro dogmate</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>136</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap5">
-      <fileName filestem="cax7ya-cap5"/>
+    <item id="cax7ya-d1e155" alias="cax7ya-cap5">
+      <fileName filestem="cax7ya-d1e155"/>
       <title>Caput 5</title>
       <questionTitle>Ex principiis theologicis dogma nostrum confirmatur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>138</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap6">
-      <fileName filestem="cax7ya-cap6"/>
+    <item id="cax7ya-d1e174" alias="cax7ya-cap6">
+      <fileName filestem="cax7ya-d1e174"/>
       <title>Caput 6</title>
       <questionTitle>Satisfit objectioni Latinorum et ostenditur Spiritum Sanctum mitti a Filio, non esse argumentum processionis eiusdem a Filio</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>139</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap7">
-      <fileName filestem="cax7ya-cap7"/>
+    <item id="cax7ya-d1e193" alias="cax7ya-cap7">
+      <fileName filestem="cax7ya-d1e193"/>
       <title>Caput 7</title>
       <questionTitle>Satis fit alteri latinorum objectioni et ostenditur, insufflasse Christum ac dixisse: accipite Spiritum S. non esse argumentum processionis Spiritus Sancti a Filio</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>140v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap8">
-      <fileName filestem="cax7ya-cap8"/>
+    <item id="cax7ya-d1e212" alias="cax7ya-cap8">
+      <fileName filestem="cax7ya-d1e212"/>
       <title>Caput 8</title>
       <questionTitle>Respondet ad tertiam latinorum obiectionem, et demonstratur, Filium omnia, quae Patris sunt, habere, non esse argumentum processionis Spiritus Sancti a Filio</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>140</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap9">
-      <fileName filestem="cax7ya-cap9"/>
+    <item id="cax7ya-d1e231" alias="cax7ya-cap9">
+      <fileName filestem="cax7ya-d1e231"/>
       <title>Caput 9</title>
       <questionTitle>Diluitur quarta latinorum objectio, et ex eo, quod Spiritus S. dicitur Christi Spiritus, non esse argumentum processionis eius a Filio, ostenditur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>141v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap10">
-      <fileName filestem="cax7ya-cap10"/>
+    <item id="cax7ya-d1e251" alias="cax7ya-cap10">
+      <fileName filestem="cax7ya-d1e251"/>
       <title>Caput 10</title>
       <questionTitle>Quinta Latinorum objectio dissolvitur: neque esse argumentum processionis Spiritus S. a Filio, ex eo, quod Christus dixerit de illo: de meo accipiet</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>141</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap11">
-      <fileName filestem="cax7ya-cap11"/>
+    <item id="cax7ya-d1e270" alias="cax7ya-cap11">
+      <fileName filestem="cax7ya-d1e270"/>
       <title>Caput 11</title>
       <questionTitle>Ad obiectionem latinorum sextam respondetur: et quidnam sibi velit dictum illud Christi de Spiritu Sancto: Non a semet ipso loquetur, sed quaecunque audiet, et cetera: et docetur ex dicto isto non sequi Spiritum Sanctum procedere a Filio</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>142v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap12">
-      <fileName filestem="cax7ya-cap12"/>
+    <item id="cax7ya-d1e289" alias="cax7ya-cap12">
+      <fileName filestem="cax7ya-d1e289"/>
       <title>Caput 12</title>
       <questionTitle>Tria alia ex Sacris litteris miserum in modum a latinis torta argumenta exploduntur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>142</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap13">
-      <fileName filestem="cax7ya-cap13"/>
+    <item id="cax7ya-d1e308" alias="cax7ya-cap13">
+      <fileName filestem="cax7ya-d1e308"/>
       <title>Caput 13</title>
       <questionTitle>Praemittitur generalis consideratio ad Patrum praesertim occidentalium dicta, quae Latini pro suo dogmate citant</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>143v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap14">
-      <fileName filestem="cax7ya-cap14"/>
+    <item id="cax7ya-d1e327" alias="cax7ya-cap14">
+      <fileName filestem="cax7ya-d1e327"/>
       <title>Caput 14</title>
       <questionTitle>Recensentur loca patrum orientalium, quae Latini vel latinizantes Graeci corruperunt</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>143</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap15">
-      <fileName filestem="cax7ya-cap15"/>
+    <item id="cax7ya-d1e346" alias="cax7ya-cap15">
+      <fileName filestem="cax7ya-d1e346"/>
       <title>Caput 15</title>
       <questionTitle>Recensentur loca occidentalium Patrum a Latinis corrupta</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>145</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap16">
-      <fileName filestem="cax7ya-cap16"/>
+    <item id="cax7ya-d1e366" alias="cax7ya-cap16">
+      <fileName filestem="cax7ya-d1e366"/>
       <title>Caput 16</title>
       <questionTitle>Obiter disserit, quid Latini de Graecorum more corrumpendi libros ganniant: et aliis insuper corruptelis libido ipsorum falsaria compugnigitur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>149v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap17">
-      <fileName filestem="cax7ya-cap17"/>
+    <item id="cax7ya-d1e385" alias="cax7ya-cap17">
+      <fileName filestem="cax7ya-d1e385"/>
       <title>Caput 17</title>
       <questionTitle>Singulares ad obiecta quaedam ex patribus orientalibus dicta responsiones</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>149v</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap18">
-      <fileName filestem="cax7ya-cap18"/>
+    <item id="cax7ya-d1e404" alias="cax7ya-cap18">
+      <fileName filestem="cax7ya-d1e404"/>
       <title>Caput 18</title>
       <questionTitle>Coniecturam et subtilitatulae quaedam Latinorum excutiuntur</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>152</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap19">
-      <fileName filestem="cax7ya-cap19"/>
+    <item id="cax7ya-d1e423" alias="cax7ya-cap19">
+      <fileName filestem="cax7ya-d1e423"/>
       <title>Caput 19</title>
       <questionTitle>Singularis quaestio: utrum per Sanctionem Ephesinae synodi oecumenicae tertiae liceat sacro symbolo addere quidquam, saltem quod verissimum esse constet; et ostenditur negative: atque adeo Latinos vocem illam: Filioque, quantumvis vera esset, symbolo inserere nequaquam debuisse</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>156</folio>
         </witness>
       </hasWitnesses>
     </item>
-    <item id="cax7ya-cap20">
-      <fileName filestem="cax7ya-cap20"/>
+    <item id="cax7ya-d1e442" alias="cax7ya-cap20">
+      <fileName filestem="cax7ya-d1e442"/>
       <title>Caput 20</title>
       <questionTitle>De relationibus notionibus et processionibus divinarum personarum</questionTitle>
       <hasWitnesses>
-        <witness ref="#G1772"/>
-        <witness ref="#P245">
+        <witness ref="#cod-g82jjj"/>
+        <witness ref="#cod-xnsu88">
           <folio>159v</folio>
         </witness>
       </hasWitnesses>
