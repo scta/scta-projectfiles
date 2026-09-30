@@ -7,27 +7,41 @@
     <commentaryid>augustineretractionum</commentaryid>
     <commentaryslug>aretr</commentaryslug>
     <authorUri>http://scta.info/resource/Augustine</authorUri>
-    <parentUri>http://scta.info/resource/augustineretractionum</parentUri>
     <parentWorkGroup>http://scta.info/resource/uncategorized</parentWorkGroup>
-    <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/augustineretractionum/</textfilesdir>
     <questionListSource/>
     <questionListOriginalEditor/>
     <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
     <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
-    <hasWitnesses> </hasWitnesses>
+    <hasWitnesses>
+      <witness id="cod-xci32P">
+        <slug>cod-xci32P</slug>
+        <title>PL 32</title>
+        <initial>cod-xci32P</initial>
+        <editor>http://scta.info/resource/per-miplgn</editor>
+      </witness>
+    </hasWitnesses>
   </header>
   <div id="body">
     <item id="aretr-prol">
       <fileName filestem="aretr-prol"/>
       <title>Prologus</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci32P"></witness>
+      </hasWitnesses>
     </item>
     <item id="aretr-l1">
       <fileName filestem="aretr-l1"/>
       <title>Liber 1</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci32P"></witness>
+      </hasWitnesses>
     </item>
     <item id="aretr-l2">
       <fileName filestem="aretr-l2"/>
       <title>Liber 2</title>
+      <hasWitnesses>
+        <witness ref="#cod-xci32P"></witness>
+      </hasWitnesses>
     </item>
   </div>
 </listofFileNames>
