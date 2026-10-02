@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
         with:
           fetch-depth: 0
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
       - name: Validate added or changed root EDFs
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
