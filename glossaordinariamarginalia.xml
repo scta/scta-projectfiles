@@ -2,11 +2,11 @@
 <?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listofFileNames>
   <header>
-    <authorName/>
+    <authorName>Anselm of Laon</authorName>
     <commentaryName>Glossa ordinaria</commentaryName>
     <commentaryid>glossaordinariamarginalia</commentaryid>
     <commentaryslug>go</commentaryslug>
-    <authorUri/>
+    <authorUri>http://scta.info/resource/per-s7hans</authorUri>
     <parentUri>http://scta.info/resource/glossaordinariamarginalia</parentUri>
     <parentWorkGroup>http://scta.info/resource/biblicalcommentaries</parentWorkGroup>
     <textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/glossaordinariamarginalia/</textfilesdir>
@@ -45,9 +45,16 @@
       https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00000227
       -->
         </witness>
+        <witness id="cod-xci114">
+          <slug>cod-xci114</slug>
+          <title>Patrologia Latina, vol. 114</title>
+          <initial>cod-xci114</initial>
+          <!-- Migne, Patrologia Latina -->
+        </witness>
     </hasWitnesses>
   </header>
   <div id="body">
+    <head>Glossa ordinaria</head>
     <div id="gom-gen">
       
       <head>Genesis</head>
@@ -272,43 +279,678 @@
     </div>
     <div id="gom-mt">
       <head>Matthaeus</head>
+      <item id="gom-mtprol">
+        <fileName filestem="gom-mtprol"></fileName>
+        <title>Prologus</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt1">
+        <fileName filestem="gom-mt1"></fileName>
+        <title>Caput 1</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt2">
+        <fileName filestem="gom-mt2"></fileName>
+        <title>Caput 2</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt3">
+        <fileName filestem="gom-mt3"></fileName>
+        <title>Caput 3</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt4">
+        <fileName filestem="gom-mt4"></fileName>
+        <title>Caput 4</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt5">
+        <fileName filestem="gom-mt5"></fileName>
+        <title>Caput 5</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt6">
+        <fileName filestem="gom-mt6"></fileName>
+        <title>Caput 6</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt7">
+        <fileName filestem="gom-mt7"></fileName>
+        <title>Caput 7</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt8">
+        <fileName filestem="gom-mt8"></fileName>
+        <title>Caput 8</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt9">
+        <fileName filestem="gom-mt9"></fileName>
+        <title>Caput 9</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt10">
+        <fileName filestem="gom-mt10"></fileName>
+        <title>Caput 10</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt11">
+        <fileName filestem="gom-mt11"></fileName>
+        <title>Caput 11</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt12">
+        <fileName filestem="gom-mt12"></fileName>
+        <title>Caput 12</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt13">
+        <fileName filestem="gom-mt13"></fileName>
+        <title>Caput 13</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt14">
+        <fileName filestem="gom-mt14"></fileName>
+        <title>Caput 14</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt15">
+        <fileName filestem="gom-mt15"></fileName>
+        <title>Caput 15</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt16">
+        <fileName filestem="gom-mt16"></fileName>
+        <title>Caput 16</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt17">
+        <fileName filestem="gom-mt17"></fileName>
+        <title>Caput 17</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt18">
+        <fileName filestem="gom-mt18"></fileName>
+        <title>Caput 18</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt19">
+        <fileName filestem="gom-mt19"></fileName>
+        <title>Caput 19</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt20">
+        <fileName filestem="gom-mt20"></fileName>
+        <title>Caput 20</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt21">
+        <fileName filestem="gom-mt21"></fileName>
+        <title>Caput 21</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt22">
+        <fileName filestem="gom-mt22"></fileName>
+        <title>Caput 22</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt23">
+        <fileName filestem="gom-mt23"></fileName>
+        <title>Caput 23</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
       <item id="gom-mt24">
         <fileName filestem="gom-mt24"></fileName>
-        <title>Capitulum 24</title>
+        <title>Caput 24</title>
         <hasWitnesses>
           <witness ref="#cod-BBaBB4"></witness>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt25">
+        <fileName filestem="gom-mt25"></fileName>
+        <title>Caput 25</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt26">
+        <fileName filestem="gom-mt26"></fileName>
+        <title>Caput 26</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt27">
+        <fileName filestem="gom-mt27"></fileName>
+        <title>Caput 27</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mt28">
+        <fileName filestem="gom-mt28"></fileName>
+        <title>Caput 28</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
         </hasWitnesses>
       </item>
     </div>
     <div id="gom-mc">
       
       <head>Marcus</head>
+      <item id="gom-mcprol">
+        <fileName filestem="gom-mcprol"></fileName>
+        <title>Prologus B. Hieronymi</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc1">
+        <fileName filestem="gom-mc1"></fileName>
+        <title>Caput 1</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc2">
+        <fileName filestem="gom-mc2"></fileName>
+        <title>Caput 2</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc3">
+        <fileName filestem="gom-mc3"></fileName>
+        <title>Caput 3</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc4">
+        <fileName filestem="gom-mc4"></fileName>
+        <title>Caput 4</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc5">
+        <fileName filestem="gom-mc5"></fileName>
+        <title>Caput 5</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc6">
+        <fileName filestem="gom-mc6"></fileName>
+        <title>Caput 6</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc7">
+        <fileName filestem="gom-mc7"></fileName>
+        <title>Caput 7</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc8">
+        <fileName filestem="gom-mc8"></fileName>
+        <title>Caput 8</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc9">
+        <fileName filestem="gom-mc9"></fileName>
+        <title>Caput 9</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc10">
+        <fileName filestem="gom-mc10"></fileName>
+        <title>Caput 10</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc11">
+        <fileName filestem="gom-mc11"></fileName>
+        <title>Caput 11</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc12">
+        <fileName filestem="gom-mc12"></fileName>
+        <title>Caput 12</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc13">
+        <fileName filestem="gom-mc13"></fileName>
+        <title>Caput 13</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc14">
+        <fileName filestem="gom-mc14"></fileName>
+        <title>Caput 14</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc15">
+        <fileName filestem="gom-mc15"></fileName>
+        <title>Caput 15</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-mc16">
+        <fileName filestem="gom-mc16"></fileName>
+        <title>Caput 16</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
     </div>
     <div id="gom-lc">
       
       <head>Lucas</head>
-      <item id="gom-lc20">
-        <fileName filestem="gom-lc20"></fileName>
-        <title>Capitulum 20</title>
+      <item id="gom-lcprol">
+        <fileName filestem="gom-lcprol"></fileName>
+        <title>Prologus B. Hieronymi</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lcprooem">
+        <fileName filestem="gom-lcprooem"></fileName>
+        <title>Prooemium Lucae in Evangelium suum</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc1">
+        <fileName filestem="gom-lc1"></fileName>
+        <title>Caput 1</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc2">
+        <fileName filestem="gom-lc2"></fileName>
+        <title>Caput 2</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc3">
+        <fileName filestem="gom-lc3"></fileName>
+        <title>Caput 3</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc4">
+        <fileName filestem="gom-lc4"></fileName>
+        <title>Caput 4</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc5">
+        <fileName filestem="gom-lc5"></fileName>
+        <title>Caput 5</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc6">
+        <fileName filestem="gom-lc6"></fileName>
+        <title>Caput 6</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc7">
+        <fileName filestem="gom-lc7"></fileName>
+        <title>Caput 7</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc8">
+        <fileName filestem="gom-lc8"></fileName>
+        <title>Caput 8</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc9">
+        <fileName filestem="gom-lc9"></fileName>
+        <title>Caput 9</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc10">
+        <fileName filestem="gom-lc10"></fileName>
+        <title>Caput 10</title>
         <hasWitnesses>
           <witness ref="#cod-BBaBB4"></witness>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc11">
+        <fileName filestem="gom-lc11"></fileName>
+        <title>Caput 11</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc12">
+        <fileName filestem="gom-lc12"></fileName>
+        <title>Caput 12</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc13">
+        <fileName filestem="gom-lc13"></fileName>
+        <title>Caput 13</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc14">
+        <fileName filestem="gom-lc14"></fileName>
+        <title>Caput 14</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc15">
+        <fileName filestem="gom-lc15"></fileName>
+        <title>Caput 15</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc16">
+        <fileName filestem="gom-lc16"></fileName>
+        <title>Caput 16</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc17">
+        <fileName filestem="gom-lc17"></fileName>
+        <title>Caput 17</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc18">
+        <fileName filestem="gom-lc18"></fileName>
+        <title>Caput 18</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc19">
+        <fileName filestem="gom-lc19"></fileName>
+        <title>Caput 19</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc20">
+        <fileName filestem="gom-lc20"></fileName>
+        <title>Caput 20</title>
+        <hasWitnesses>
+          <witness ref="#cod-BBaBB4"></witness>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc21">
+        <fileName filestem="gom-lc21"></fileName>
+        <title>Caput 21</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc22">
+        <fileName filestem="gom-lc22"></fileName>
+        <title>Caput 22</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-lc23">
+        <fileName filestem="gom-lc23"></fileName>
+        <title>Caput 23</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
         </hasWitnesses>
       </item>
       <item id="gom-lc24">
         <fileName filestem="gom-lc24"></fileName>
-        <title>Capitulum 24</title>
+        <title>Caput 24</title>
         <hasWitnesses>
           <witness ref="#cod-BBaBB4"></witness>
+          <witness ref="#cod-xci114"></witness>
         </hasWitnesses>
       </item>
     </div>
     <div id="gom-io">
       <head>Ioannes</head>
+      <item id="gom-ioprol">
+        <fileName filestem="gom-ioprol"></fileName>
+        <title>Prologus</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io1">
+        <fileName filestem="gom-io1"></fileName>
+        <title>Caput 1</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io2">
+        <fileName filestem="gom-io2"></fileName>
+        <title>Caput 2</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io3">
+        <fileName filestem="gom-io3"></fileName>
+        <title>Caput 3</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io4">
+        <fileName filestem="gom-io4"></fileName>
+        <title>Caput 4</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io5">
+        <fileName filestem="gom-io5"></fileName>
+        <title>Caput 5</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io6">
+        <fileName filestem="gom-io6"></fileName>
+        <title>Caput 6</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io7">
+        <fileName filestem="gom-io7"></fileName>
+        <title>Caput 7</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io8">
+        <fileName filestem="gom-io8"></fileName>
+        <title>Caput 8</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io9">
+        <fileName filestem="gom-io9"></fileName>
+        <title>Caput 9</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
       <item id="gom-io10">
         <fileName filestem="gom-io10"></fileName>
-        <title>Capitulum 10</title>
+        <title>Caput 10</title>
         <hasWitnesses>
           <witness ref="#cod-BBaBB4"></witness>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io11">
+        <fileName filestem="gom-io11"></fileName>
+        <title>Caput 11</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io12">
+        <fileName filestem="gom-io12"></fileName>
+        <title>Caput 12</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io13">
+        <fileName filestem="gom-io13"></fileName>
+        <title>Caput 13</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io14">
+        <fileName filestem="gom-io14"></fileName>
+        <title>Caput 14</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io15">
+        <fileName filestem="gom-io15"></fileName>
+        <title>Caput 15</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io16">
+        <fileName filestem="gom-io16"></fileName>
+        <title>Caput 16</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io17">
+        <fileName filestem="gom-io17"></fileName>
+        <title>Caput 17</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io18">
+        <fileName filestem="gom-io18"></fileName>
+        <title>Caput 18</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io19">
+        <fileName filestem="gom-io19"></fileName>
+        <title>Caput 19</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io20">
+        <fileName filestem="gom-io20"></fileName>
+        <title>Caput 20</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
+        </hasWitnesses>
+      </item>
+      <item id="gom-io21">
+        <fileName filestem="gom-io21"></fileName>
+        <title>Caput 21</title>
+        <hasWitnesses>
+          <witness ref="#cod-xci114"></witness>
         </hasWitnesses>
       </item>
     </div>
