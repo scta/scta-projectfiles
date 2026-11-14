@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/edf-schema/master/src/projectfile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<listofFileNames>
+  <header>
+    <authorName>Antonius Hiquaeus</authorName>
+    <commentaryName>Commentarius in Quartum Librum Sententiarum Scoti</commentaryName>
+    <commentaryid>hicjds</commentaryid>
+    <commentaryslug>hicjds</commentaryslug>
+    <alias>HiquaeusScotusCommentary</alias>
+    <authorUri>http://scta.info/resource/per-3nylfx</authorUri>
+    <parentWorkGroup>http://scta.info/resource/sententiae</parentWorkGroup>
+    <questionListSource/>
+    <questionListOriginalEditor/>
+    <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+    <gitRepoBase type="toplevel">https://github.com/scta-texts/</gitRepoBase>
+    <hasWitnesses>
+      <!-- Antonius Hiquaeus (Antony Hickey, 1586-1641), Wikidata Q4777211:
+        his commentary on book 4 of Scotus, printed in the Wadding and Vivès
+        editions. The items mirror the Scotus items of jdso8u (same id
+        suffix and alias), as mm30o9 (Lychetus) does. -->
+      <witness id="cod-u78x16">
+        <slug>cod-u78x16</slug>
+        <title>Vives, Paris, 1894, volume 16</title>
+        <initial>cod-u78x16</initial>
+        <editor>http://scta.info/resource/per-av4Viv</editor>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body">
+    <div id="hicjds-d1e3163" alias="hicjds-book4" type="liber4">
+      <head>Liber 4</head>
+      <item id="hicjds-d1e5198" alias="hicjds-b4prol">
+        <fileName filestem="hicjds-d1e5198"/>
+        <title>Prologus</title>
+        <hasWitnesses>
+          <witness ref="#cod-u78x16">
+            <folio>10</folio>
+            <folio>11</folio>
+            <folio>12</folio>
+          </witness>
+        </hasWitnesses>
+      </item>
+      <div id="hicjds-d1e3168" alias="hicjds-b4d1" type="liber4-distinctio1">
+        <head>Distinctio 1</head>
+        <item id="hicjds-d1e5238" alias="hicjds-b4d1prae">
+          <fileName filestem="hicjds-d1e5238"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>12</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <div id="hicjds-d1e3173" alias="hicjds-b4d1p1" type="pars">
+          <head>Pars 1</head>
+          <item id="hicjds-d1e3178" alias="hicjds-b4d1p1q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3178"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum creatura possit habere aliquam actionem respectu termini
+              creationis</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>14</folio>
+                <folio>16</folio>
+                <folio>17</folio>
+                <folio>20</folio>
+                <folio>21</folio>
+                <folio>22</folio>
+                <folio>23</folio>
+                <folio>24</folio>
+                <folio>25</folio>
+                <folio>26</folio>
+                <folio>27</folio>
+                <folio>28</folio>
+                <folio>29</folio>
+                <folio>30</folio>
+                <folio>31</folio>
+                <folio>32</folio>
+                <folio>33</folio>
+                <folio>34</folio>
+                <folio>35</folio>
+                <folio>36</folio>
+                <folio>39</folio>
+                <folio>40</folio>
+                <folio>41</folio>
+                <folio>42</folio>
+                <folio>43</folio>
+                <folio>44</folio>
+                <folio>45</folio>
+                <folio>46</folio>
+                <folio>47</folio>
+                <folio>48</folio>
+                <folio>49</folio>
+                <folio>50</folio>
+                <folio>51</folio>
+                <folio>52</folio>
+                <folio>53</folio>
+                <folio>54</folio>
+                <folio>55</folio>
+                <folio>58</folio>
+                <folio>59</folio>
+                <folio>60</folio>
+                <folio>61</folio>
+                <folio>62</folio>
+                <folio>63</folio>
+                <folio>64</folio>
+                <folio>65</folio>
+                <folio>66</folio>
+                <folio>67</folio>
+                <folio>70</folio>
+                <folio>71</folio>
+                <folio>72</folio>
+                <folio>73</folio>
+                <folio>74</folio>
+                <folio>75</folio>
+                <folio>76</folio>
+                <folio>77</folio>
+                <folio>78</folio>
+                <folio>79</folio>
+                <folio>80</folio>
+                <folio>81</folio>
+                <folio>82</folio>
+                <folio>83</folio>
+                <folio>84</folio>
+                <folio>85</folio>
+                <folio>87</folio>
+                <folio>88</folio>
+                <folio>91</folio>
+                <folio>92</folio>
+                <folio>93</folio>
+                <folio>96</folio>
+                <folio>97</folio>
+                <folio>98</folio>
+                <folio>99</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3190" alias="hicjds-b4d1p2" type="pars">
+          <head>Pars 2</head>
+          <item id="hicjds-d1e3195" alias="hicjds-b4d1p2q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3195"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum haec sit ratio definitiva sacramenti quam ponit Magister:
+              «Sacramentum est invisibilis gratiae visibilis forma»</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>101</folio>
+                <folio>102</folio>
+                <folio>103</folio>
+                <folio>104</folio>
+                <folio>107</folio>
+                <folio>108</folio>
+                <folio>111</folio>
+                <folio>112</folio>
+                <folio>113</folio>
+                <folio>114</folio>
+                <folio>115</folio>
+                <folio>116</folio>
+                <folio>117</folio>
+                <folio>118</folio>
+                <folio>119</folio>
+                <folio>120</folio>
+                <folio>121</folio>
+                <folio>122</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3206" alias="hicjds-b4d1p2q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3206"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum tempore cuiuscumque Legis a Deo datae debuerit institui aliquod
+              sacramentum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>124</folio>
+                <folio>125</folio>
+                <folio>126</folio>
+                <folio>127</folio>
+                <folio>128</folio>
+                <folio>129</folio>
+                <folio>130</folio>
+                <folio>131</folio>
+                <folio>132</folio>
+                <folio>133</folio>
+                <folio>134</folio>
+                <folio>135</folio>
+                <folio>136</folio>
+                <folio>137</folio>
+                <folio>138</folio>
+                <folio>139</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3218" alias="hicjds-b4d1p3" type="pars">
+          <head>Pars 3</head>
+          <item id="hicjds-d1e3223" alias="hicjds-b4d1p3q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3223"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum sit possibile aliquod sacramentum quantumcumque perfectum habere
+              causalitatem activam respectu gratiae conferendae</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>140</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3234" alias="hicjds-b4d1p3q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3234"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum possibile sit in aliquo sacramento esse aliquam virtutem
+              supernaturalem</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>142</folio>
+                <folio>143</folio>
+                <folio>147</folio>
+                <folio>148</folio>
+                <folio>149</folio>
+                <folio>150</folio>
+                <folio>151</folio>
+                <folio>152</folio>
+                <folio>153</folio>
+                <folio>154</folio>
+                <folio>155</folio>
+                <folio>156</folio>
+                <folio>157</folio>
+                <folio>158</folio>
+                <folio>160</folio>
+                <folio>161</folio>
+                <folio>162</folio>
+                <folio>163</folio>
+                <folio>164</folio>
+                <folio>165</folio>
+                <folio>166</folio>
+                <folio>169</folio>
+                <folio>170</folio>
+                <folio>171</folio>
+                <folio>172</folio>
+                <folio>173</folio>
+                <folio>174</folio>
+                <folio>175</folio>
+                <folio>176</folio>
+                <folio>177</folio>
+                <folio>178</folio>
+                <folio>179</folio>
+                <folio>180</folio>
+                <folio>181</folio>
+                <folio>182</folio>
+                <folio>183</folio>
+                <folio>184</folio>
+                <folio>185</folio>
+                <folio>186</folio>
+                <folio>187</folio>
+                <folio>189</folio>
+                <folio>190</folio>
+                <folio>191</folio>
+                <folio>192</folio>
+                <folio>193</folio>
+                <folio>194</folio>
+                <folio>195</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3246" alias="hicjds-b4d1p4" type="pars">
+          <head>Pars 4 Incidentalis</head>
+          <item id="hicjds-d1e3251" alias="hicjds-b4d1p4q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3251"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum in circumcisione ex vi eius conferatur gratia</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>196</folio>
+                <folio>197</folio>
+                <folio>198</folio>
+                <folio>199</folio>
+                <folio>200</folio>
+                <folio>201</folio>
+                <folio>202</folio>
+                <folio>203</folio>
+                <folio>204</folio>
+                <folio>205</folio>
+                <folio>206</folio>
+                <folio>207</folio>
+                <folio>211</folio>
+                <folio>212</folio>
+                <folio>213</folio>
+                <folio>214</folio>
+                <folio>215</folio>
+                <folio>216</folio>
+                <folio>217</folio>
+                <folio>218</folio>
+                <folio>219</folio>
+                <folio>220</folio>
+                <folio>223</folio>
+                <folio>224</folio>
+                <folio>225</folio>
+                <folio>226</folio>
+                <folio>227</folio>
+                <folio>228</folio>
+                <folio>229</folio>
+                <folio>230</folio>
+                <folio>231</folio>
+                <folio>232</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3262" alias="hicjds-b4d1p4q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3262"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum tempore legis naturae fuerit aliquod sacramentum correspondens
+              circumcisioni</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>233</folio>
+                <folio>234</folio>
+                <folio>235</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="hicjds-d1e3275" alias="hicjds-b4d2" type="liber4-distinctio2">
+        <head>Distinctio 2</head>
+        <item id="hicjds-d1e3280" alias="hicjds-b4d2q1" type="quaestio">
+          <fileName filestem="hicjds-d1e3280"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum sacramentum Novae Legis habeat efficaciam a Christi
+            passione</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>238</folio>
+              <folio>239</folio>
+              <folio>240</folio>
+              <folio>241</folio>
+              <folio>242</folio>
+              <folio>243</folio>
+              <folio>245</folio>
+              <folio>246</folio>
+              <folio>247</folio>
+              <folio>249</folio>
+              <folio>250</folio>
+              <folio>251</folio>
+              <folio>252</folio>
+              <folio>253</folio>
+              <folio>254</folio>
+              <folio>255</folio>
+              <folio>256</folio>
+              <folio>257</folio>
+              <folio>258</folio>
+              <folio>259</folio>
+              <folio>260</folio>
+              <folio>261</folio>
+              <folio>262</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3291" alias="hicjds-b4d2q2" type="quaestio">
+          <fileName filestem="hicjds-d1e3291"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum baptizatus baptismo Ioannis necessaria tenebatur baptizari baptismo
+            Christi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>265</folio>
+              <folio>266</folio>
+              <folio>267</folio>
+              <folio>268</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hicjds-d1e3303" alias="hicjds-b4d3" type="liber4-distinctio3">
+        <head>Distinctio 3</head>
+        <item id="hicjds-d1e5208" alias="hicjds-b4d3prae">
+          <fileName filestem="hicjds-d1e5208"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>274</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3308" alias="hicjds-b4d3q1" type="quaestio">
+          <fileName filestem="hicjds-d1e3308"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum ilia sit propria definitio baptismi quam ponit Magister: «Baptismus
+            est tinctio, id est ablutio, corporis exterior, facta sub forma verborum
+            praescripta»</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>275</folio>
+              <folio>277</folio>
+              <folio>278</folio>
+              <folio>279</folio>
+              <folio>280</folio>
+              <folio>281</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3319" alias="hicjds-b4d3q2" type="quaestio">
+          <fileName filestem="hicjds-d1e3319"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum haec sit praecisa forma baptismi: «Ego te baptizo in nomine Patris et
+            Filii et Spiritus Sancti»</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>283</folio>
+              <folio>284</folio>
+              <folio>285</folio>
+              <folio>286</folio>
+              <folio>287</folio>
+              <folio>288</folio>
+              <folio>289</folio>
+              <folio>290</folio>
+              <folio>293</folio>
+              <folio>294</folio>
+              <folio>295</folio>
+              <folio>296</folio>
+              <folio>297</folio>
+              <folio>298</folio>
+              <folio>299</folio>
+              <folio>300</folio>
+              <folio>301</folio>
+              <folio>302</folio>
+              <folio>303</folio>
+              <folio>304</folio>
+              <folio>305</folio>
+              <folio>306</folio>
+              <folio>307</folio>
+              <folio>308</folio>
+              <folio>309</folio>
+              <folio>310</folio>
+              <folio>311</folio>
+              <folio>312</folio>
+              <folio>313</folio>
+              <folio>314</folio>
+              <folio>315</folio>
+              <folio>316</folio>
+              <folio>317</folio>
+              <folio>318</folio>
+              <folio>319</folio>
+              <folio>320</folio>
+              <folio>321</folio>
+              <folio>322</folio>
+              <folio>323</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3330" alias="hicjds-b4d3q3" type="quaestio">
+          <fileName filestem="hicjds-d1e3330"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum sola aqua naturalis pura sit materia conveniens
+            baptismi</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>324</folio>
+              <folio>325</folio>
+              <folio>326</folio>
+              <folio>327</folio>
+              <folio>328</folio>
+              <folio>329</folio>
+              <folio>330</folio>
+              <folio>332</folio>
+              <folio>333</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3341" alias="hicjds-b4d3q4" type="quaestio">
+          <fileName filestem="hicjds-d1e3341"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum institutio baptismi evacuet circumcisionem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>333</folio>
+              <folio>334</folio>
+              <folio>335</folio>
+              <folio>336</folio>
+              <folio>337</folio>
+              <folio>338</folio>
+              <folio>339</folio>
+              <folio>340</folio>
+              <folio>341</folio>
+              <folio>342</folio>
+              <folio>344</folio>
+              <folio>345</folio>
+              <folio>347</folio>
+              <folio>348</folio>
+              <folio>349</folio>
+              <folio>350</folio>
+              <folio>351</folio>
+              <folio>352</folio>
+              <folio>353</folio>
+              <folio>354</folio>
+              <folio>355</folio>
+              <folio>356</folio>
+              <folio>358</folio>
+              <folio>359</folio>
+              <folio>360</folio>
+              <folio>361</folio>
+              <folio>362</folio>
+              <folio>363</folio>
+              <folio>364</folio>
+              <folio>365</folio>
+              <folio>366</folio>
+              <folio>371</folio>
+              <folio>372</folio>
+              <folio>373</folio>
+              <folio>374</folio>
+              <folio>375</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hicjds-d1e3353" alias="hicjds-b4d4" type="liber4-distinctio4">
+        <head>Distinctio 4</head>
+        <item id="hicjds-d1e5213" alias="hicjds-b4d4prae">
+          <fileName filestem="hicjds-d1e5213"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>382</folio>
+              <folio>383</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <div id="hicjds-d1e3358" alias="hicjds-b4d4p1" type="pars">
+          <head>Pars 1</head>
+          <item id="hicjds-d1e3363" alias="hicjds-b4d4p1q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3363"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum parvuli sint baptizandi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>383</folio>
+                <folio>384</folio>
+                <folio>385</folio>
+                <folio>386</folio>
+                <folio>387</folio>
+                <folio>388</folio>
+                <folio>389</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3374" alias="hicjds-b4d4p1q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3374"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum parvuli baptizati recipiant effectum baptismi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>391</folio>
+                <folio>392</folio>
+                <folio>393</folio>
+                <folio>394</folio>
+                <folio>395</folio>
+                <folio>396</folio>
+                <folio>397</folio>
+                <folio>398</folio>
+                <folio>399</folio>
+                <folio>400</folio>
+                <folio>401</folio>
+                <folio>402</folio>
+                <folio>403</folio>
+                <folio>404</folio>
+                <folio>405</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3385" alias="hicjds-b4d4p1q3" type="quaestio">
+            <fileName filestem="hicjds-d1e3385"/>
+            <title>Quaestio 3</title>
+            <questionTitle>Utrum parvulus exsistens in utero possit baptizari</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>406</folio>
+                <folio>407</folio>
+                <folio>408</folio>
+                <folio>409</folio>
+                <folio>410</folio>
+                <folio>411</folio>
+                <folio>412</folio>
+                <folio>413</folio>
+                <folio>414</folio>
+                <folio>415</folio>
+                <folio>416</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3397" alias="hicjds-b4d4p2" type="pars">
+          <head>Pars 2</head>
+          <item id="hicjds-d1e3402" alias="hicjds-b4d4p2q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3402"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum adultus consentiens potest recipere effectum
+              baptismi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>417</folio>
+                <folio>418</folio>
+                <folio>419</folio>
+                <folio>421</folio>
+                <folio>422</folio>
+                <folio>423</folio>
+                <folio>424</folio>
+                <folio>425</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3413" alias="hicjds-b4d4p2q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3413"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum adultus fictus recipiat effectum baptismi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>427</folio>
+                <folio>428</folio>
+                <folio>429</folio>
+                <folio>430</folio>
+                <folio>431</folio>
+                <folio>432</folio>
+                <folio>433</folio>
+                <folio>434</folio>
+                <folio>435</folio>
+                <folio>438</folio>
+                <folio>439</folio>
+                <folio>440</folio>
+                <folio>441</folio>
+                <folio>442</folio>
+                <folio>443</folio>
+                <folio>444</folio>
+                <folio>445</folio>
+                <folio>446</folio>
+                <folio>447</folio>
+                <folio>448</folio>
+                <folio>449</folio>
+                <folio>450</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3425" alias="hicjds-b4d4p3" type="pars">
+          <head>Pars 3</head>
+          <item id="hicjds-d1e3430" alias="hicjds-b4d4p3q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3430"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum iam iustificati teneantur ad susceptionem baptismi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>451</folio>
+                <folio>452</folio>
+                <folio>453</folio>
+                <folio>454</folio>
+                <folio>455</folio>
+                <folio>456</folio>
+                <folio>457</folio>
+                <folio>458</folio>
+                <folio>459</folio>
+                <folio>460</folio>
+                <folio>461</folio>
+                <folio>462</folio>
+                <folio>463</folio>
+                <folio>464</folio>
+                <folio>465</folio>
+                <folio>466</folio>
+                <folio>467</folio>
+                <folio>468</folio>
+                <folio>469</folio>
+                <folio>470</folio>
+                <folio>471</folio>
+                <folio>472</folio>
+                <folio>473</folio>
+                <folio>474</folio>
+                <folio>475</folio>
+                <folio>476</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3442" alias="hicjds-b4d4p4" type="pars">
+          <head>Pars 4</head>
+          <item id="hicjds-d1e3447" alias="hicjds-b4d4p4q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3447"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum omnes baptizati recipiant aequaliter effectum
+              baptismi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>477</folio>
+                <folio>478</folio>
+                <folio>479</folio>
+                <folio>481</folio>
+                <folio>482</folio>
+                <folio>483</folio>
+                <folio>484</folio>
+                <folio>485</folio>
+                <folio>486</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3458" alias="hicjds-b4d4p4q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3458"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Quid faciendum est de parvulo exposito</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>487</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3469" alias="hicjds-b4d4p4q3" type="quaestio">
+            <fileName filestem="hicjds-d1e3469"/>
+            <title>Quaestio 3</title>
+            <questionTitle>Utrum parvuli Iudaeorum et infidelium sint invitis parentibus
+              baptizandi</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>488</folio>
+                <folio>489</folio>
+                <folio>490</folio>
+                <folio>491</folio>
+                <folio>492</folio>
+                <folio>493</folio>
+                <folio>494</folio>
+                <folio>495</folio>
+                <folio>496</folio>
+                <folio>497</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+      </div>
+      <div id="hicjds-d1e3483" alias="hicjds-b4d5" type="liber4-distinctio5">
+        <head>Distinctio 5</head>
+        <item id="hicjds-d1e5218" alias="hicjds-b4d5prae">
+          <fileName filestem="hicjds-d1e5218"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>501</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3488" alias="hicjds-b4d5q1" type="quaestio">
+          <fileName filestem="hicjds-d1e3488"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Utrum malitia ministri impediat conferri baptismum</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>502</folio>
+              <folio>503</folio>
+              <folio>505</folio>
+              <folio>506</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3499" alias="hicjds-b4d5q2" type="quaestio">
+          <fileName filestem="hicjds-d1e3499"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum recipiens baptismum scienter a malo ministro mortaliter
+            peccet</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>509</folio>
+              <folio>510</folio>
+              <folio>511</folio>
+              <folio>512</folio>
+              <folio>513</folio>
+              <folio>514</folio>
+              <folio>515</folio>
+              <folio>516</folio>
+              <folio>517</folio>
+              <folio>518</folio>
+              <folio>519</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3510" alias="hicjds-b4d5q3" type="quaestio">
+          <fileName filestem="hicjds-d1e3510"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum aliquis debeat ministrare sacramentum baptismale quando praesumitur
+            baptizationem vergere in periculum vitae corporalis eius qui suscipit</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>520</folio>
+              <folio>521</folio>
+              <folio>522</folio>
+              <folio>523</folio>
+              <folio>524</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+      <div id="hicjds-d1e3522" alias="hicjds-b4d6" type="liber4-distinctio6">
+        <head>Distinctio Sexta</head>
+        <item id="hicjds-d1e5223" alias="hicjds-b4d6prae">
+          <fileName filestem="hicjds-d1e5223"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>530</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <div id="hicjds-d1e3527" alias="hicjds-b4d6p1" type="pars">
+          <head>Pars 1</head>
+          <item id="hicjds-d1e3532" alias="hicjds-b4d6p1q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3532"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum solus sacerdos possit baptizare</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>532</folio>
+                <folio>533</folio>
+                <folio>534</folio>
+                <folio>535</folio>
+                <folio>536</folio>
+                <folio>537</folio>
+                <folio>538</folio>
+                <folio>539</folio>
+                <folio>540</folio>
+                <folio>541</folio>
+                <folio>542</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3544" alias="hicjds-b4d6p2" type="pars">
+          <head>Pars 2</head>
+          <item id="hicjds-d1e3549" alias="hicjds-b4d6p2q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3549"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum unitas baptismi necessario requirat ut ab uno ministro
+              conferatur</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>543</folio>
+                <folio>545</folio>
+                <folio>546</folio>
+                <folio>547</folio>
+                <folio>548</folio>
+                <folio>549</folio>
+                <folio>550</folio>
+                <folio>551</folio>
+                <folio>552</folio>
+                <folio>553</folio>
+                <folio>554</folio>
+                <folio>557</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3560" alias="hicjds-b4d6p2q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3560"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Utrum unitas baptismi requirat simul esse ablutionem et prolationem
+              verborum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>559</folio>
+                <folio>560</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3571" alias="hicjds-b4d6p2q3" type="quaestio">
+            <fileName filestem="hicjds-d1e3571"/>
+            <title>Quaestio 3</title>
+            <questionTitle>Utrum unitas baptismi requirat baptizantem esse distinctum personaliter a
+              baptizato</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>561</folio>
+                <folio>562</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3583" alias="hicjds-b4d6p3" type="pars">
+          <head>Pars 3</head>
+          <item id="hicjds-d1e3588" alias="hicjds-b4d6p3q1" type="quaestio">
+            <fileName filestem="hicjds-d1e3588"/>
+            <title>Quaestio 1</title>
+            <questionTitle>Utrum in ministro baptizante requiratur intentio debita ad
+              baptizandum</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>567</folio>
+                <folio>568</folio>
+                <folio>569</folio>
+                <folio>570</folio>
+                <folio>571</folio>
+                <folio>572</folio>
+                <folio>573</folio>
+                <folio>574</folio>
+                <folio>575</folio>
+                <folio>576</folio>
+                <folio>577</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+          <item id="hicjds-d1e3599" alias="hicjds-b4d6p3q2" type="quaestio">
+            <fileName filestem="hicjds-d1e3599"/>
+            <title>Quaestio 2</title>
+            <questionTitle>Qualis intentio requiratur in ministro baptizante</questionTitle>
+            <hasWitnesses>
+              <witness ref="#cod-u78x16">
+                <folio>577</folio>
+                <folio>578</folio>
+                <folio>580</folio>
+                <folio>581</folio>
+              </witness>
+            </hasWitnesses>
+          </item>
+        </div>
+        <div id="hicjds-d1e3611" alias="hicjds-b4d6p4" type="pars">
+          <head>Pars 4</head>
+          <div id="hicjds-d1e3616" alias="hicjds-b4d6p4a1" type="articulus">
+            <head>Articulus Primus</head>
+            <item id="hicjds-d1e3623" alias="hicjds-b4d6p4a1q1" type="quaestio">
+              <fileName filestem="hicjds-d1e3623"/>
+              <title>Quaestio 1</title>
+              <questionTitle>Utrum baptismus possit iterari</questionTitle>
+              <hasWitnesses>
+                <witness ref="#cod-u78x16">
+                  <folio>582</folio>
+                  <folio>583</folio>
+                  <folio>584</folio>
+                  <folio>585</folio>
+                  <folio>586</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="hicjds-d1e3634" alias="hicjds-b4d6p4a1q2" type="quaestio">
+              <fileName filestem="hicjds-d1e3634"/>
+              <title>Quaestio 2</title>
+              <questionTitle>Quae sit poena iterantium baptisma</questionTitle>
+              <hasWitnesses>
+                <witness ref="#cod-u78x16">
+                  <folio>589</folio>
+                  <folio>590</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+          <div id="hicjds-d1e3646" alias="hicjds-b4d6p4a2" type="articulus">
+            <head>Articulus Secundus</head>
+            <item id="hicjds-d1e3651" alias="hicjds-b4d6p4a2q1" type="quaestio">
+              <fileName filestem="hicjds-d1e3651"/>
+              <title>Quaestio 1</title>
+              <questionTitle>Utrum in baptismo imprimatur character</questionTitle>
+              <hasWitnesses>
+                <witness ref="#cod-u78x16">
+                  <folio>590</folio>
+                  <folio>591</folio>
+                  <folio>592</folio>
+                  <folio>593</folio>
+                  <folio>594</folio>
+                  <folio>595</folio>
+                  <folio>596</folio>
+                  <folio>597</folio>
+                  <folio>598</folio>
+                  <folio>609</folio>
+                  <folio>610</folio>
+                  <folio>611</folio>
+                  <folio>612</folio>
+                  <folio>613</folio>
+                  <folio>614</folio>
+                  <folio>615</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="hicjds-d1e3662" alias="hicjds-b4d6p4a2q2" type="quaestio">
+              <fileName filestem="hicjds-d1e3662"/>
+              <title>Quaestio 2</title>
+              <questionTitle>Utrum character sit aliqua forma absoluta</questionTitle>
+              <hasWitnesses>
+                <witness ref="#cod-u78x16">
+                  <folio>616</folio>
+                  <folio>617</folio>
+                  <folio>618</folio>
+                  <folio>619</folio>
+                  <folio>620</folio>
+                  <folio>622</folio>
+                  <folio>623</folio>
+                  <folio>624</folio>
+                  <folio>625</folio>
+                  <folio>626</folio>
+                  <folio>627</folio>
+                  <folio>628</folio>
+                  <folio>629</folio>
+                  <folio>630</folio>
+                  <folio>631</folio>
+                  <folio>633</folio>
+                  <folio>634</folio>
+                  <folio>636</folio>
+                  <folio>637</folio>
+                  <folio>638</folio>
+                  <folio>639</folio>
+                  <folio>640</folio>
+                  <folio>641</folio>
+                  <folio>642</folio>
+                  <folio>643</folio>
+                  <folio>644</folio>
+                  <folio>645</folio>
+                  <folio>646</folio>
+                  <folio>647</folio>
+                  <folio>648</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+            <item id="hicjds-d1e3673" alias="hicjds-b4d6p4a2q3" type="quaestio">
+              <fileName filestem="hicjds-d1e3673"/>
+              <title>Quaestio 3</title>
+              <questionTitle>Utrum character sit in essentia animae an in aliqua eius
+                potentia</questionTitle>
+              <hasWitnesses>
+                <witness ref="#cod-u78x16">
+                  <folio>648</folio>
+                  <folio>650</folio>
+                  <folio>652</folio>
+                  <folio>653</folio>
+                  <folio>654</folio>
+                </witness>
+              </hasWitnesses>
+            </item>
+          </div>
+        </div>
+      </div>
+      <div id="hicjds-d1e3687" alias="hicjds-b4d7" type="liber4-distinctio7">
+        <head>Distinctio Septima</head>
+        <item id="hicjds-d1e5228" alias="hicjds-b4d7prae">
+          <fileName filestem="hicjds-d1e5228"/>
+          <title>Praeambulum</title>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>656</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e5233" alias="hicjds-b4d7q1" type="quaestio">
+          <fileName filestem="hicjds-d1e5233"/>
+          <title>Quaestio 1</title>
+          <questionTitle>Quid sit sacramentum confirmationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>657</folio>
+              <folio>658</folio>
+              <folio>659</folio>
+              <folio>660</folio>
+              <folio>661</folio>
+              <folio>662</folio>
+              <folio>663</folio>
+              <folio>664</folio>
+              <folio>665</folio>
+              <folio>666</folio>
+              <folio>667</folio>
+              <folio>668</folio>
+              <folio>669</folio>
+              <folio>670</folio>
+              <folio>671</folio>
+              <folio>672</folio>
+              <folio>673</folio>
+              <folio>674</folio>
+              <folio>675</folio>
+              <folio>676</folio>
+              <folio>677</folio>
+              <folio>678</folio>
+              <folio>679</folio>
+              <folio>680</folio>
+              <folio>681</folio>
+              <folio>682</folio>
+              <folio>683</folio>
+              <folio>684</folio>
+              <folio>685</folio>
+              <folio>686</folio>
+              <folio>687</folio>
+              <folio>688</folio>
+              <folio>689</folio>
+              <folio>693</folio>
+              <folio>694</folio>
+              <folio>695</folio>
+              <folio>696</folio>
+              <folio>697</folio>
+              <folio>698</folio>
+              <folio>699</folio>
+              <folio>700</folio>
+              <folio>701</folio>
+              <folio>702</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3692" alias="hicjds-b4d7q2" type="quaestio">
+          <fileName filestem="hicjds-d1e3692"/>
+          <title>Quaestio 2</title>
+          <questionTitle>Utrum sacramentum confirmationis sit necessarium ad salutem</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>703</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3703" alias="hicjds-b4d7q3" type="quaestio">
+          <fileName filestem="hicjds-d1e3703"/>
+          <title>Quaestio 3</title>
+          <questionTitle>Utrum sacramentum confirmationis sit dignius baptimo</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>704</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3714" alias="hicjds-b4d7q4" type="quaestio">
+          <fileName filestem="hicjds-d1e3714"/>
+          <title>Quaestio 4</title>
+          <questionTitle>Utrum sacramentum confirmationis possit iterari</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>705</folio>
+              <folio>706</folio>
+              <folio>707</folio>
+              <folio>708</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+        <item id="hicjds-d1e3725" alias="hicjds-b4d7q5" type="quaestio">
+          <fileName filestem="hicjds-d1e3725"/>
+          <title>Quaestio 5</title>
+          <questionTitle>Utrum sit aliqua poena iterantium sacramentum
+            confirmationis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#cod-u78x16">
+              <folio>709</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
+    </div>
+  </div>
+</listofFileNames>
